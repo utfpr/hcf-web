@@ -14,7 +14,8 @@
 		"dev": "run-s lint nodemon",
 		"dist": "run-s clean build",
 		"start": "node dist/index.js",
-		"test": "jest"
+		"test": "jest",
+		"reflora": "nodemon src/herbarium/reflora/main.js"
 	},
 	"devDependencies": {
 		"@types/bluebird": "^3.5.22",
