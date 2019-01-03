@@ -1,42 +1,40 @@
 const mysql = require('mysql2');
 
 module.exports = {
-	create : function(){
+    create() {
         const connection = mysql.createConnection({
             host: 'localhost',
             user: 'root',
             password: '',
-            database: 'hcf'
+            database: 'hcf',
         });
         return connection;
     },
-    test : function(connection){
-        connection.connect(function(err) {
+    test(connection) {
+        connection.connect(err => {
             if (err) {
-              console.error('error connecting: ' + err.stack);
-              return;
+                // console.error('error connecting: ' + err.stack);
+                // return;
             }
-          
-            console.log('connected as id ' + connection.threadId);
+            // console.log('connected as id ' + connection.threadId);
         });
     },
-    select : function(connection, query, callback){
+    select(connection, query, callback) {
         connection.query(
             query,
-            function(err, results, fields) {
+            (err, results, fields) => {
                 callback(results);
-            }
+            },
         );
     },
-    end : function(connection){
-        connection.end(function(err) {
-            if(err){
-            console.error('Conexão encerrada com problemas');
-            return;
+    end(connection) {
+        connection.end(err => {
+            if (err) {
+                // console.error('Conexão encerrada com problemas');
+                // return;
             }
-        
-            console.log('Conexão encerrada com sucesso');
+            // console.log('Conexão encerrada com sucesso');
             // The connection is terminated now
         });
-    }
+    },
 };

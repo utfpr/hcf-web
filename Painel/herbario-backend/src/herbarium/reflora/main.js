@@ -1,31 +1,30 @@
-var dateTime = require('../currentdatetime');
-var database = require('../database');
+// const dateTime = require('../currentdatetime');
+const database = require('../database');
 
-function main(){
-  /* Para gerar um log é necessário criar um arquivo */
-  /* LOG - Inicializando a integração com o reflora */
-  console.log(dateTime.getCurrentDateTime("Inicializando a integração com o Reflora."));
+function main() {
+    /* Para gerar um log é necessário criar um arquivo */
+    /* LOG - Inicializando a integração com o reflora */
+    // console.log(dateTime.getCurrentDateTime('Inicializando a integração com o Reflora.'));
 
-  /* LOG - Estabelecendo uma conexão com o BD */
-  console.log(dateTime.getCurrentDateTime("Estabelecendo uma conexão com o banco de dados."));
-  var connection = database.create();
+    /* LOG - Estabelecendo uma conexão com o BD */
+    // console.log(dateTime.getCurrentDateTime('Estabelecendo uma conexão com o banco de dados.'));
+    const connection = database.create();
 
-  /* LOG - Estabelecendo uma conexão com o BD */
-  console.log(dateTime.getCurrentDateTime("Testando a conexão com o banco de dados."));
-  database.test(connection);
+    /* LOG - Estabelecendo uma conexão com o BD */
+    // console.log(dateTime.getCurrentDateTime('Testando a conexão com o banco de dados.'));
+    database.test(connection);
 
-  /* LOG - Estabelecendo uma conexão com o BD */
-  console.log(dateTime.getCurrentDateTime("Estabelecendo uma conexão com o banco de dados."));
-  database.select(connection, 'SELECT * FROM tombos_fotos', function(a){
-    console.log(a)
-  })
+    /* LOG - Estabelecendo uma conexão com o BD */
+    // console.log(dateTime.getCurrentDateTime('Estabelecendo uma conexão com o banco de dados.'));
+    database.select(connection, 'SELECT * FROM tombos_fotos',
+        a => {
+            // console.log(a);
+        });
 
-  /* LOG - Estabelecendo uma conexão com o BD */
-  console.log(dateTime.getCurrentDateTime("Tentando finalizar a conexão com o banco de dados."));
-  database.end(connection);
+    /* LOG - Estabelecendo uma conexão com o BD */
+    // console.log(dateTime.getCurrentDateTime('Tentando finalizar a conexão com o banco de dados.'));
+    database.end(connection);
 }
-
-
 
 main();
 /**

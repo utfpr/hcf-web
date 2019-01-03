@@ -1,40 +1,44 @@
 module.exports = {
-	getCurrentDateTime : function (action){
-	    var date = new Date();
-	    /* A partir do date retorna o dia */
-	    var day = date.getDate();
+    getCurrentDateTime(action) {
+        const date = new Date();
+        /* A partir do date retorna o dia */
+        const day = date.getDate();
 
-	    /* Janeiro é zero, por isso o mais um */
-	    /* A partir do date retorna o mês */
-	    var month = date.getMonth() + 1;
-	    
-	    /* A partir do date retorna o ano */
-	    var year = date.getFullYear();
+        /* Janeiro é zero, por isso o mais um */
+        /* A partir do date retorna o mês */
+        const month = date.getMonth() + 1;
 
-		/* A partir do date retorna a hora */
-	    var time = date.toLocaleTimeString('pt-BR', {hour: "numeric", minute: "numeric", second: "numeric"});
+        /* A partir do date retorna o ano */
+        const year = date.getFullYear();
 
-		/* Converte os dados somente para formatar */
-		var dayString = "";
-		var monthString = "";
-		var dateTime = "";
+        /* A partir do date retorna a hora */
+        const time = date.toLocaleTimeString('pt-BR', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
 
-		if(day < 10)
-			dayString = '0' + day.toString();
+        /* Converte os dados somente para formatar */
+        let dayString = '';
+        let monthString = '';
+        let dateTime = '';
 
-		if(month < 10)
-			monthString = '0' + month.toString();
+        if (day < 10) {
+            dayString = `0${day.toString()}`;
+        }
 
-		if(dayString.length > 0)
-			dateTime = dayString + '/';
-		else
-			dateTime = day + '/';
+        if (month < 10) {
+            monthString = `0${month.toString()}`;
+        }
 
-		if(monthString.length > 0)
-			dateTime = dateTime + monthString + '/' + year + ' ' + time + ' - ' + action;
-		else
-			dateTime = dateTime + month + '/' + year + ' ' + time + ' - ' + action;
+        if (dayString.length > 0) {
+            dateTime = `${dayString}/`;
+        } else {
+            dateTime = `${day}/`;
+        }
 
-		return dateTime;
-	}
+        if (monthString.length > 0) {
+            dateTime = `${dateTime + monthString}/${year} ${time} - ${action}`;
+        } else {
+            dateTime = `${dateTime + month}/${year} ${time} - ${action}`;
+        }
+
+        return dateTime;
+    },
 };
