@@ -19,20 +19,24 @@ module.exports = {
         let monthString = '';
         let dateTime = '';
 
+        /* Se o dia for menor que 10 adiciona um algarismo para formatar */
         if (day < 10) {
             dayString = `0${day.toString()}`;
         }
 
+        /* Se o mês for menor que 10 adiciona um algarismo para formatar */
         if (month < 10) {
             monthString = `0${month.toString()}`;
         }
 
+        /* Verifica se é necessário converter os dados de dia para string */
         if (dayString.length > 0) {
             dateTime = `${dayString}/`;
         } else {
             dateTime = `${day}/`;
         }
 
+        /* Verifica se é necessário converter os dados de mês para string */
         if (monthString.length > 0) {
             dateTime = `${dateTime + monthString}/${year} ${time} - ${action}`;
         } else {
