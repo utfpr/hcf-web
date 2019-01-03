@@ -12,7 +12,7 @@ module.exports = {
 	    var year = date.getFullYear();
 
 		/* A partir do date retorna a hora */
-	    var time = date.toLocaleTimeString('pt-BR', {hour: "numeric", minute: "numeric"});
+	    var time = date.toLocaleTimeString('pt-BR', {hour: "numeric", minute: "numeric", second: "numeric"});
 
 		/* Converte os dados somente para formatar */
 		var dayString = "";
