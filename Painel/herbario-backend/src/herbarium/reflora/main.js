@@ -1,5 +1,6 @@
 // const dateTime = require('../currentdatetime');
 const database = require('../database');
+const queue = require('../queue');
 
 function main() {
     /* Para gerar um log é necessário criar um arquivo */
@@ -14,36 +15,25 @@ function main() {
     // console.log(dateTime.getCurrentDateTime('Testando a conexão com o banco de dados.'));
     database.test(connection);
 
-    const queue = [];
-
     /* LOG - Estabelecendo uma conexão com o BD */
     // console.log(dateTime.getCurrentDateTime('Estabelecendo uma conexão com o banco de dados.'));
     database.select(connection, 'SELECT * FROM tombos_fotos',
         /* Através do callback vem o valor do retorno da consulta */
-        /* LOG - Armazendo resultado da consulta ao banco de dados */
-        // console.log(dateTime.getCurrentDateTime('Armazenando resultado da consulta ao vanco de dados.'));
+        /* LOG - Armazenando resultado da consulta ao banco de dados */
+        // console.log(dateTime.getCurrentDateTime('Armazenando resultado da consulta ao banco de dados.'));
         result => {
-            /* Percorro todos os valores retornados */
-            result.forEach(element => {
-                /* Adiciono na nossa fila */
-                queue.push({ tombo_hcf: element.tombo_hcf, num_barra: element.num_barra });
-            });
+            /* LOG - Enfilerando os resultados da busca em uma fila */
+            // console.log(dateTime.getCurrentDateTime('Enfilerando os resultados da busca em fila.'));
+            const queueItems = queue.enqueue(result);
 
-            /* Após enfilerar, é necessário verificar se existem com tombos repetidos */
-            for (let i = 1; i < queue.length; i += 1) {
-                let repeat = 0;
-                queue.forEach(element => {
-                    if (queue[i].tombo_hcf === element.tombo_hcf) {
-                        repeat += 1;
-                    }
-                });
-                if (repeat > 1) {
-                    // console.log(queue[i]);
-                    queue.splice(i, 1);
-                    // console.log(queue.length);
-                }
-            }
-            // console.log(queue.length);
+            /* LOG - Removendo elementos repetidos dessa fila baseado no número de tombo */
+            // console.log(dateTime.getCurrentDateTime('Removendo elementos repetidos da fila baseado no número de tombo.'));
+            queue.removeRepeat(queueItems);
+
+            /* A partir daqui eu tenho que pegar o primeiro da fila e criar aquele comandinho básico */
+            /* Executar esse comando e pegar o JSON */
+            /* Verificar se é antes ou depois verificar se tem pendência ou não e blá blá blá*/
+
         });
 
     /* LOG - Estabelecendo uma conexão com o BD */
