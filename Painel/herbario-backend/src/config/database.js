@@ -1,9 +1,9 @@
 const {
-    DB_NAME = 'darwin',
-    DB_USER = 'darwin_dev',
-    DB_PASS = '(Pd964UDaH3}m',
-    DB_HOST = 'mysql556.umbler.com',
-    DB_PORT = '',
+    DB_NAME = 'herbario',
+    DB_USER = 'root',
+    DB_PASS = 'root',
+    DB_HOST = 'localhost',
+    DB_PORT = '3306',
 } = process.env;
 
 

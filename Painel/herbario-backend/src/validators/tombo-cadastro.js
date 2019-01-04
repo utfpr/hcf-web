@@ -22,6 +22,14 @@ const validaCor = cor => {
     return false;
 };
 
+const colecoesAnexas = tipo => {
+    if (tipo === 'CARPOTECA' || tipo === 'XILOTECA' || tipo === 'VIA LIQUIDA') {
+        return true;
+    }
+
+    return false;
+};
+
 const validaColetores = coletores => {
     if (!Array.isArray(coletores)) {
         return false;
@@ -40,7 +48,7 @@ const validaColetores = coletores => {
 };
 
 export default {
-    'principal.nome_popular': {
+    'json.principal.nome_popular': {
         in: 'body',
         isString: true,
         optional: true,
@@ -48,85 +56,85 @@ export default {
             options: [{ min: 3 }],
         },
     },
-    'principal.entidade_id': {
+    'json.principal.entidade_id': {
         in: 'body',
         isEmpty: false,
         isInt: true,
     },
-    'principal.numero_coleta': {
+    'json.principal.numero_coleta': {
         in: 'body',
         isEmpty: false,
         isInt: true,
     },
-    'principal.data_coleta': {
+    'json.principal.data_coleta': {
         in: 'body',
         custom: {
             options: validaData,
         },
     },
-    'principal.tipo_id': {
+    'json.principal.tipo_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'principal.cor': {
+    'json.principal.cor': {
         in: 'body',
         optional: true,
         custom: {
             options: validaCor,
         },
     },
-    'taxonomia.familia_id': {
+    'json.taxonomia.familia_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'taxonomia.genero_id': {
+    'json.taxonomia.genero_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'taxonomia.subfamilia_id': {
+    'json.taxonomia.subfamilia_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'taxonomia.especie_id': {
+    'json.taxonomia.especie_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'taxonomia.variedade_id': {
+    'json.taxonomia.variedade_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'taxonomia.subespecie_id': {
+    'json.taxonomia.subespecie_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'localidade.latitude': {
+    'json.localidade.latitude': {
         in: 'body',
         optional: true,
         isString: true,
     },
-    'localidade.longitude': {
+    'json.localidade.longitude': {
         in: 'body',
         optional: true,
         isString: true,
     },
-    'localidade.altitude': {
+    'json.localidade.altitude': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'localidade.cidade_id': {
+    'json.localidade.cidade_id': {
         in: 'body',
         isEmpty: false,
         isInt: true,
     },
-    'localidade.complemento': {
+    'json.localidade.complemento': {
         in: 'body',
         isString: true,
         isEmpty: false,
@@ -134,27 +142,27 @@ export default {
             options: [{ min: 3 }],
         },
     },
-    'paisagem.solo_id': {
+    'json.paisagem.solo_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'paisagem.relevo_id': {
+    'json.paisagem.relevo_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'paisagem.vegetacao_id': {
+    'json.paisagem.vegetacao_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'paisagem.fase_sucessional': {
+    'json.paisagem.fase_sucessional': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'paisagem.descricao': {
+    'json.paisagem.descricao': {
         in: 'body',
         isString: true,
         optional: true,
@@ -162,31 +170,33 @@ export default {
             options: [{ min: 3 }],
         },
     },
-    'identificacao.identificador_id': {
+    'json.identificacao.identificador_id': {
         in: 'body',
         optional: true,
         isInt: true,
     },
-    'identificacao.data_identificacao': {
+    'json.identificacao.data_identificacao': {
         in: 'body',
         optional: true,
         custom: {
             options: validaData,
         },
     },
-    coletores: {
+    'json.coletores': {
         in: 'body',
         isEmpty: false,
         custom: {
             options: validaColetores,
         },
     },
-    'colecoes_anexas.tipo': {
+    'json.colecoes_anexas.tipo': {
         in: 'body',
         optional: true,
-        isInt: true,
+        custom: {
+            options: colecoesAnexas,
+        },
     },
-    'colecoes_anexas.observacoes': {
+    'json.colecoes_anexas.observacoes': {
         in: 'body',
         optional: true,
         isString: true,
@@ -194,7 +204,7 @@ export default {
             options: [{ min: 3 }],
         },
     },
-    observacoes: {
+    'json.observacoes': {
         in: 'body',
         isString: true,
         optional: true,

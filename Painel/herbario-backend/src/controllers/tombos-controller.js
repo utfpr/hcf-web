@@ -18,7 +18,7 @@ export const cadastro = (request, response, next) => {
         principal, taxonomia, localidade,
         paisagem, identificacao, coletores,
         colecoes_anexas: colecoesAnexas, observacoes,
-    } = request.body;
+    } = request.body.json;
 
     const callback = transaction => Promise.resolve()
         .then(() => {
@@ -256,6 +256,17 @@ export const cadastro = (request, response, next) => {
                 local_coleta_id: principal.local_coleta_id, // sim
                 cor: principal.cor, // sim
             };
+            if (identificacao && identificacao.data_identificacao) {
+                if (identificacao.data_identificacao.dia) {
+                    jsonTombo.data_identificacao_dia = identificacao.data_identificacao.dia;
+                }
+                if (identificacao.data_identificacao.mes) {
+                    jsonTombo.data_identificacao_mes = identificacao.data_identificacao.mes;
+                }
+                if (identificacao.data_identificacao.ano) {
+                    jsonTombo.data_identificacao_ano = identificacao.data_identificacao.ano;
+                }
+            }
             if (observacoes) {
                 jsonTombo.observacao = observacoes;
             }
@@ -297,23 +308,24 @@ export const cadastro = (request, response, next) => {
             }
             return Tombo.create(jsonTombo, { transaction });
         })
-        // //////////// CADASTRA A IDENTIFICACAO ///////////
+        // //////////// CADASTRA A ALTERACAO ///////////
         .then(tombo => {
             if (!tombo) {
                 throw new BadRequestExeption(408);
             }
+            let status = 'ESPERANDO';
             principal.hcf = tombo.hcf;
-            if (identificacao && identificacao.identificador_id) {
-                return Alteracao.create({
-                    tombo_hcf: tombo.hcf,
-                    usuario_id: identificacao.identificador_id,
-                    status: 'APROVADO',
-                    data_identificacao_dia: identificacao.data_identificacao.dia || moment().day(),
-                    data_identificacao_mes: identificacao.data_identificacao.mes || moment().month(),
-                    data_identificacao_ano: identificacao.data_identificacao.ano || moment().year(),
-                }, { transaction });
+            if (request.usuario.tipo_usuario_id === 1) {
+                status = 'APROVADO';
             }
-            return undefined;
+
+            return Alteracao.create({
+                tombo_hcf: tombo.hcf,
+                usuario_id: identificacao.identificador_id,
+                status,
+                tombo_json: JSON.stringify(tombo),
+                ativo: true,
+            }, { transaction });
         })
         // /////////////// CADASTRA O COLETOR ///////////////
         .then(ident => {
@@ -336,25 +348,6 @@ export const cadastro = (request, response, next) => {
             if (!coletoresCad) {
                 throw new BadRequestExeption(410);
             }
-        })
-        // ////////////// CADASTRA O TOMBO COMO ALTERAÇÃO PRA CASO DE SER OPERADOR
-        .then(() => {
-            if (request.usuario.tipo_usuario_id === 2) {
-                return Alteracao.create({
-                    tombo_hcf: principal.hcf,
-                    usuario_id: request.usuario.id,
-                    status: 'ESPERANDO',
-                }, { transaction });
-            }
-            return undefined;
-        })
-        .then(alteracao => {
-            if (request.usuario.tipo_usuario_id === 2) {
-                if (!alteracao) {
-                    throw new BadRequestExeption(411);
-                }
-            }
-            return undefined;
         });
     sequelize.transaction(callback)
         .then(() => {

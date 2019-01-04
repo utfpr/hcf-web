@@ -26,32 +26,20 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        novo_hcf: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
         status: {
-            type: DataTypes.ENUM('ESPERANDO', 'APROVADO', 'REPROVADO', 'CONCERTAR'),
+            type: DataTypes.ENUM('ESPERANDO', 'APROVADO', 'REPROVADO'),
             allowNull: false,
         },
         observacao: {
             type: DataTypes.TEXT,
             allowNull: true,
         },
+        tombo_json: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
         ativo: {
             type: DataTypes.BOOLEAN,
-            allowNull: true,
-        },
-        data_identificacao_dia: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        data_identificacao_mes: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        data_identificacao_ano: {
-            type: DataTypes.INTEGER,
             allowNull: true,
         },
     };

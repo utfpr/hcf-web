@@ -62,7 +62,6 @@ class NovoTomboScreen extends Component {
             fases: [],
             identificadores: [],
             coletores: [],
-
             fotosExsicata: [],
             fotosEmVivo: [],
         };
@@ -164,7 +163,7 @@ class NovoTomboScreen extends Component {
         console.log(values);
 
         const {
-            altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complementoLocalidade,
+            altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complemento,
             dataColetaAno, dataColetaDia, dataColetaMes, dataIdentAno, dataIdentDia, dataIdentMes,
             especie, familia, fases, genero, identificador, latitude, localidadeCor, longitude,
             nomePopular, numeroColeta, observacoesColecaoAnexa, observacoesTombo, relevo, solo,
@@ -172,7 +171,7 @@ class NovoTomboScreen extends Component {
         } = values;
         let json = {}
 
-        // if (nomePopular) json.principal = { nome_popular: nomePopular };
+        if (nomePopular) json.principal = { nome_popular: nomePopular };
         json.principal = { ...json.principal, entidade_id: entidade };
         json.principal.numero_coleta = numeroColeta;
         if (dataColetaDia) json.principal.data_coleta = { dia: dataColetaDia };
@@ -186,11 +185,11 @@ class NovoTomboScreen extends Component {
         if (especie) json.taxonomia = { ...json.taxonomia, especie_id: especie };
         if (variedade) json.taxonomia = { ...json.taxonomia, variedade_id: variedade };
         if (subespecie) json.taxonomia = { ...json.taxonomia, subespecie_id: subespecie };
-        // if (latitude) json.localidade = { latitude: latitude };
-        // if (longitude) json.localidade = { ...json.localidade, longitude: longitude };
-        // if (altitude) json.localidade = { ...json.localidade, altitude: altitude };
-        // json.localidade = { ...json.localidade, cidade_id: cidade };
-        // json.localidade = { ...json.localidade, complemento: complementoLocalidade };
+        if (latitude) json.localidade = { latitude: latitude };
+        if (longitude) json.localidade = { ...json.localidade, longitude: longitude };
+        if (altitude) json.localidade = { ...json.localidade, altitude: altitude };
+        json.localidade = { ...json.localidade, cidade_id: cidade };
+        json.localidade = { ...json.localidade, complemento };
         if (solo) json.paisagem = { ...json.paisagem, solo_id: solo };
         if (relevoDescricao) json.paisagem = { ...json.paisagem, descricao: relevoDescricao };
         if (relevo) json.paisagem = { ...json.paisagem, relevo_id: relevo };
@@ -223,7 +222,8 @@ class NovoTomboScreen extends Component {
                 }
             }
         }
-        json.coletores = coletores;
+        const converterInteiroColetores = () => coletores.map(item => parseInt(item));
+        json.coletores = converterInteiroColetores()
         if (tipoColecaoAnexa) json.colecoes_anexas = { tipo: tipoColecaoAnexa };
         if (observacoesColecaoAnexa) json.colecoes_anexas = { ...json.colecoes_anexas, observacoes: observacoesColecaoAnexa };
         if (observacoesTombo) json.observacoes = observacoesTombo;
@@ -231,12 +231,13 @@ class NovoTomboScreen extends Component {
         if (autoresSubespecie) json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade) json.autores = { ...json.autores, variedade: autorVariedade };
 
+        console.log(json);
         axios.post('/tombos', { json })
             .then(response => {
                 this.setState({
                     loading: false
                 });
-                if (response.status === 204) {
+                if (response.status === 201) {
                     this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
                 } else if (response.status === 400) {
                     this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
@@ -246,31 +247,34 @@ class NovoTomboScreen extends Component {
 
                 return response.data;
             })
-            .then(tombo => {
+            .then(response => {
+                if (response.status === 201) {
+                    const tombo = response.data
+                    const criaRequisicaoFoto = (hcf, emVivo, foto) => {
+                        const form = new FormData();
+                        form.append('imagem', foto);
+                        form.append('tombo_hcf', hcf);
+                        form.append('em_vivo', emVivo);
 
-                const criaRequisicaoFoto = (hcf, emVivo, foto) => {
-                    const form = new FormData();
-                    form.append('imagem', foto);
-                    form.append('tombo_hcf', hcf);
-                    form.append('em_vivo', emVivo);
+                        return axios.post('/uploads', form, {
+                            headers: {
+                                'Content-Type': 'multipart/form-data'
+                            },
+                        });
+                    };
 
-                    return axios.post('/uploads', form, {
-                        headers: {
-                            'Content-Type': 'multipart/form-data'
-                        },
-                    });
-                };
+                    const criaFuncaoMap = (hcf, emVivo) => foto => criaRequisicaoFoto(hcf, emVivo, foto);
 
-                const criaFuncaoMap = (hcf, emVivo) => foto => criaRequisicaoFoto(hcf, emVivo, foto);
+                    const { fotosEmVivo, fotosExsicata } = this.state;
 
-                const { fotosEmVivo, fotosExsicata } = this.state;
+                    const promises = [
+                        ...fotosEmVivo.map(criaFuncaoMap(tombo.hcf, true)),
+                        ...fotosExsicata.map(criaFuncaoMap(tombo.hcf, false)),
+                    ];
 
-                const promises = [
-                    ...fotosEmVivo.map(criaFuncaoMap(tombo.hcf, true)),
-                    ...fotosExsicata.map(criaFuncaoMap(tombo.hcf, false)),
-                ];
+                    return Promise.all(promises);
+                }
 
-                return Promise.all(promises);
             })
             .then(() => {
                 console.log('Acabou as requisições de foto');
@@ -364,7 +368,7 @@ class NovoTomboScreen extends Component {
     ));
 
     optionColetores = () => this.state.coletores.map(item => (
-        <Option key={item.id}>{item.nome}</Option>
+        <Option key={parseInt(item.id)}>{item.nome}</Option>
     ));
 
     optionIdentificador = () => this.state.identificadores.map(item => (
@@ -1847,7 +1851,7 @@ class NovoTomboScreen extends Component {
                         {getFieldDecorator('complemento', {
                             rules: [{
                                 required: true,
-                                message: 'Escolha uma cidade',
+                                message: 'Informe um complemento válido',
                             }]
                         })(
                             <TextArea rows={4} />

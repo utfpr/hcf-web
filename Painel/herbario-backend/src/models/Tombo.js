@@ -104,6 +104,18 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: true,
         },
+        data_identificacao_dia: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        data_identificacao_mes: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        data_identificacao_ano: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
         observacao: {
             type: DataTypes.TEXT,
             allowNull: true,
@@ -134,10 +146,6 @@ export default (Sequelize, DataTypes) => {
         },
         nome_cientifico: {
             type: DataTypes.TEXT,
-            allowNull: true,
-        },
-        rascunho: {
-            type: DataTypes.BOOLEAN,
             allowNull: true,
         },
         cor: {
