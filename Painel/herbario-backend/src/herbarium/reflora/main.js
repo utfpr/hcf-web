@@ -32,7 +32,7 @@ function main() {
 
             /* A partir daqui eu tenho que pegar o primeiro da fila e criar aquele comandinho básico */
             /* Executar esse comando e pegar o JSON */
-            /* Verificar se é antes ou depois verificar se tem pendência ou não e blá blá blá*/
+            /* Verificar se é antes ou depois verificar se tem pendência ou não e blá blá blá */
 
         });
 
