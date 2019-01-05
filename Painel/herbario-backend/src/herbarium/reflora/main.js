@@ -10,6 +10,7 @@ function main() {
     /* LOG - Estabelecendo uma conexão com o BD */
     // console.log(dateTime.getCurrentDateTime('Estabelecendo uma conexão com o banco de dados.'));
     const connection = database.create();
+    // const ts = 2;
 
     /* LOG - Estabelecendo uma conexão com o BD */
     // console.log(dateTime.getCurrentDateTime('Testando a conexão com o banco de dados.'));
@@ -25,20 +26,23 @@ function main() {
             /* LOG - Enfilerando os resultados da busca em uma fila */
             // console.log(dateTime.getCurrentDateTime('Enfilerando os resultados da busca em fila.'));
             const queueItems = queue.enqueue(result);
-
             /* LOG - Removendo elementos repetidos dessa fila baseado no número de tombo */
             // console.log(dateTime.getCurrentDateTime('Removendo elementos repetidos da fila baseado no número de tombo.'));
             queue.removeRepeat(queueItems);
 
-            /* A partir daqui eu tenho que pegar o primeiro da fila e criar aquele comandinho básico */
-            /* Executar esse comando e pegar o JSON */
-            /* Verificar se é antes ou depois verificar se tem pendência ou não e blá blá blá */
-
+            /* Verificar se tem pendência ou não */
+            for (let i = 0; i < queueItems.length; i += 1) {
+                database.select(connection, `SELECT * FROM alteracoes WHERE tombo_hcf=${queueItems[i].tombo_hcf}`,
+                    pendency => {
+                        /* Se o resultado contem alguma pendência, removo da fila */
+                        // console.log(pendency);
+                        // console.log(ts)
+                    });
+            }
         });
-
     /* LOG - Estabelecendo uma conexão com o BD */
     // console.log(dateTime.getCurrentDateTime('Tentando finalizar a conexão com o banco de dados.'));
-    database.end(connection);
+    // database.end(connection);
 }
 
 main();

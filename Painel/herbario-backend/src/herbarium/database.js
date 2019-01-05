@@ -5,17 +5,22 @@ module.exports = {
         const connection = mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            password: '',
+            password: 'xxx',
             database: 'hcf',
         });
         return connection;
     },
+    connect(connection) {
+        this.connect = connection;
+    },
     test(connection) {
         connection.connect(err => {
             if (err) {
+                return false;
                 // console.error('error connecting: ' + err.stack);
                 // return;
             }
+            return true;
             // console.log('connected as id ' + connection.threadId);
         });
     },

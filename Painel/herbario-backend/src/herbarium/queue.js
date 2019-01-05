@@ -10,7 +10,7 @@ module.exports = {
     },
     removeRepeat(queue) {
         /* Após enfilerar, é necessário verificar se existem com tombos repetidos */
-        for (let i = 1; i < queue.length; i += 1) {
+        for (let i = 0; i < queue.length; i += 1) {
             let repeat = 0;
             queue.forEach(element => {
                 if (queue[i].tombo_hcf === element.tombo_hcf) {
