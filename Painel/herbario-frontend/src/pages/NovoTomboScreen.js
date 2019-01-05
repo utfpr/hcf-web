@@ -181,10 +181,10 @@ class NovoTomboScreen extends Component {
         json.principal.cor = localidadeCor;
         if (familia) json.taxonomia = { ...json.taxonomia, familia_id: familia };
         if (genero) json.taxonomia = { ...json.taxonomia, genero_id: genero };
-        if (subfamilia) json.taxonomia = { ...json.taxonomia, subfamilia_id: subfamilia };
+        if (subfamilia) json.taxonomia = { ...json.taxonomia, sub_familia_id: subfamilia };
         if (especie) json.taxonomia = { ...json.taxonomia, especie_id: especie };
         if (variedade) json.taxonomia = { ...json.taxonomia, variedade_id: variedade };
-        if (subespecie) json.taxonomia = { ...json.taxonomia, subespecie_id: subespecie };
+        if (subespecie) json.taxonomia = { ...json.taxonomia, sub_especie_id: subespecie };
         if (latitude) json.localidade = { latitude: latitude };
         if (longitude) json.localidade = { ...json.localidade, longitude: longitude };
         if (altitude) json.localidade = { ...json.localidade, altitude: altitude };

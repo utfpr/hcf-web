@@ -295,15 +295,15 @@ export const cadastro = (request, response, next) => {
                         'especie_id',
                         'genero_id',
                         'familia_id',
-                        'subfamilia_id',
-                        'subespecie_id',
+                        'sub_familia_id',
+                        'sub_especie_id',
                     ]),
                 };
             }
             if (colecoesAnexas && colecoesAnexas.id) { // is
                 jsonTombo.colecao_anexa_id = colecoesAnexas.id;
             }
-            if (request.usuario.tipo_usuario_id === 2) {
+            if (request.usuario.tipo_usuario_id === 2 || request.usuario.tipo_usuario_id === 3) {
                 jsonTombo.rascunho = true;
             }
             return Tombo.create(jsonTombo, { transaction });
@@ -459,6 +459,7 @@ export const listagem = (request, response, next) => {
                 },
             ],
             where,
+            order: [['created_at', 'DESC']],
         }))
         .then(listaTombos => {
             retorno.metadados.total = listaTombos.rows.length;
@@ -775,6 +776,9 @@ export const obterTombo = (request, response, next) => {
                 'latitude',
                 'longitude',
                 'altitude',
+                'data_identificacao_dia',
+                'data_identificacao_mes',
+                'data_identificacao_ano',
             ],
             include: [
                 {
