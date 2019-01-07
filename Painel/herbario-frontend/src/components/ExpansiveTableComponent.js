@@ -10,7 +10,7 @@ export default class ExpansiveTableComponent extends Component {
             pagina: {
                 total: 0,
                 current: 1,
-                defaultPageSize: 2
+                defaultPageSize: 10
             },
         };
 

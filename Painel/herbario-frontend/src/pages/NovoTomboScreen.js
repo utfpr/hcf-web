@@ -17,6 +17,7 @@ import axios from 'axios';
 import UploadPicturesComponent from '../components/UploadPicturesComponent';
 import ModalCadastroComponent from '../components/ModalCadastroComponent';
 import ButtonComponent from '../components/ButtonComponent';
+import CoordenadaInputText from '../components/CoordenadaInputText';
 
 import tomboParaRequisicao from '../helpers/conversoes/TomboParaRequisicao';
 
@@ -245,7 +246,7 @@ class NovoTomboScreen extends Component {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
                 }
 
-                return response.data;
+                return response;
             })
             .then(response => {
                 if (response.status === 201) {
@@ -1746,22 +1747,25 @@ class NovoTomboScreen extends Component {
                     <Col span={8}>
                         <FormItem>
                             {getFieldDecorator('latitude')(
-                                <Input placeholder={`28°05'56"S`} type="text" />
+                                <CoordenadaInputText
+                                    placeholder={`28°05'56"S`}
+                                />
                             )}
                         </FormItem>
                     </Col>
                     <Col span={8}>
                         <FormItem>
                             {getFieldDecorator('longitude')(
-                                <Input placeholder={`48°40'30"O`} type="text" />
+                                <CoordenadaInputText
+                                    placeholder={`48°40'30"O`}
+                                />
                             )}
                         </FormItem>
                     </Col>
                     <Col span={8}>
                         <FormItem>
                             {getFieldDecorator('altitude')(
-                                <InputNumber style={{ width: "100%" }}
-                                />
+                                <InputNumber style={{ width: "100%" }} />
                             )}
                         </FormItem>
                     </Col>
@@ -2535,6 +2539,7 @@ class NovoTomboScreen extends Component {
     }
 
     renderConteudo() {
+        // console.log(this.state.fotosExsicata)
         const { getFieldDecorator } = this.props.form;
         return (
             <div>
@@ -2652,17 +2657,26 @@ class NovoTomboScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('fotosExsicata')(
                                     <UploadPicturesComponent
+                                        fileList={this.state.fotosExsicata}
                                         beforeUpload={foto => {
-                                            const { fotosExsicata } = this.state;
-                                            this.setState({
+                                            this.setState(({ fotosExsicata }) => ({
                                                 fotosExsicata: [
                                                     ...fotosExsicata,
                                                     foto
                                                 ],
-                                            });
+                                            }));
 
-                                            console.log(this.state);
                                             return false;
+                                        }}
+                                        onRemove={foto => {
+                                            this.setState(({ fotosExsicata: listaAntiga }) => {
+                                                const index = listaAntiga.indexOf(foto);
+
+                                                const fotosExsicata = listaAntiga
+                                                    .filter((item, i) => i !== index);
+
+                                                return { fotosExsicata };
+                                            });
                                         }}
                                     />
                                 )}
@@ -2672,16 +2686,26 @@ class NovoTomboScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('fotosVivo')(
                                     <UploadPicturesComponent
+                                        fileList={this.state.fotosEmVivo}
                                         beforeUpload={foto => {
-                                            const { fotosEmVivo } = this.state;
-                                            this.setState({
+                                            this.setState(({ fotosEmVivo }) => ({
                                                 fotosEmVivo: [
                                                     ...fotosEmVivo,
                                                     foto
                                                 ],
-                                            });
+                                            }));
 
                                             return false;
+                                        }}
+                                        onRemove={foto => {
+                                            this.setState(({ fotosEmVivo: listaAntiga }) => {
+                                                const index = listaAntiga.indexOf(foto);
+
+                                                const fotosEmVivo = listaAntiga
+                                                    .filter((item, i) => i !== index);
+
+                                                return { fotosEmVivo };
+                                            });
                                         }}
                                     />
                                 )}

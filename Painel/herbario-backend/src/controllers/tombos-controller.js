@@ -480,6 +480,7 @@ export const listagem = (request, response, next) => {
                 },
             ],
             where,
+            // order: [['created_at', 'DESC']],
             limit: limite,
             offset,
         }))

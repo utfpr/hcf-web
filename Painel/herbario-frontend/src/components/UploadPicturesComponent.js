@@ -7,7 +7,7 @@ export default class UploadPicturesComponent extends Component {
 		return (
 			<Upload
 				multiple
-				beforeUpload={this.props.beforeUpload}
+				{...this.props}
 			>
 				<Button style={{ width: "100%" }}>
 					<Icon type="upload" /> upload

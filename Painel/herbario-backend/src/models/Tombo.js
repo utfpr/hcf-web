@@ -78,8 +78,8 @@ function associate(modelos) {
 export const defaultScope = {
     attributes: {
         exclude: [
-            'created_at',
             'updated_at',
+            'created_at',
         ],
     },
 };
