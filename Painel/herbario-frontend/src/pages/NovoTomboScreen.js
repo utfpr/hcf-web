@@ -1579,152 +1579,163 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Nome Popular:</span>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Nome Popular:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('nomePopular')(
+                                    <Input placeholder={"Maracujá Doce"} type="text" />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={12}>
-                        <span>Entidade:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={12}>
-                        <FormItem>
-                            {getFieldDecorator('nomePopular')(
-                                <Input placeholder={"Maracujá Doce"} type="text" />
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={12}>
-                        <FormItem>
-                            {getFieldDecorator('entidade')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma entidade"
-                                    optionFilterProp="children"
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Entidade:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('entidade')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma entidade"
+                                        optionFilterProp="children"
 
-                                >
+                                    >
 
-                                    {this.optionEntidades()}
-                                </Select>
-                            )}
-                        </FormItem>
+                                        {this.optionEntidades()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
-                <Row gutter={8}>
-                    <Col span={4}>
-                        <span>Número da coleta:</span>
-                    </Col>
-                    <Col span={8}>
-                        <span>Data de Coleta:</span>
-                    </Col>
-                    <Col span={8}>
-                        <span>Localidade:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={4}>
-                        <FormItem>
-                            {getFieldDecorator('numeroColeta', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Insira o numero da coleta',
-                                }]
-                            })(
-                                <Input type="text" placeholder={"785"} />
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={8}>
-                        <Row type={"flex"} gutter={4}>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataColetaDia')(
-                                        <InputNumber
-                                            min={1}
-                                            max={31}
-                                            initialValue={17}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataColetaMes')(
-                                        <InputNumber
-                                            min={1}
-                                            max={12}
-                                            initialValue={11}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataColetaAno')(
-                                        <InputNumber
-                                            min={500}
-                                            max={5000}
-                                            initialValue={2018}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('localidadeCor', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Escolha uma localidade',
-                                }]
-                            })(
-                                <RadioGroup onChange={this.onChange} value={this.state.value}>
-                                    <Radio value={'VERMELHO'}><Tag color="red">Paraná</Tag></Radio>
-                                    <Radio value={'VERDE'}><Tag color="green">Brasil</Tag></Radio>
-                                    <Radio value={'AZUL'}><Tag color="blue">Outros países</Tag></Radio>
-                                </RadioGroup>
-                            )}
-                        </FormItem>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <span>Tipo:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem>
-                            {getFieldDecorator('tipo')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione o tipo"
-                                    optionFilterProp="children"
 
-                                >
-                                    {this.optionTipo()}
-                                </Select>
-                            )}
-                        </FormItem>
+                <Row gutter={8}>
+                    <Col xs={24} sm={24} md={4} lg={4} xl={4}>
+                        <Col span={24}>
+                            <span>Número da coleta:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('numeroColeta', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Insira o numero da coleta',
+                                    }]
+                                })(
+                                    <Input type="text" placeholder={"785"} />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'do novo tipo',
-                                    tipo: 0,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Data de Coleta:</span>
+                        </Col>
+                        <Col span={24}>
+                            <Row type={"flex"} gutter={4}>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataColetaDia')(
+                                            <InputNumber
+                                                min={1}
+                                                max={31}
+                                                initialValue={17}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataColetaMes')(
+                                            <InputNumber
+                                                min={1}
+                                                max={12}
+                                                initialValue={11}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataColetaAno')(
+                                            <InputNumber
+                                                min={500}
+                                                max={5000}
+                                                initialValue={2018}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Col>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Localidade:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('localidadeCor', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Escolha uma localidade',
+                                    }]
+                                })(
+                                    <RadioGroup onChange={this.onChange} value={this.state.value}>
+                                        <Radio value={'VERMELHO'}><Tag color="red">Paraná</Tag></Radio>
+                                        <Radio value={'VERDE'}><Tag color="green">Brasil</Tag></Radio>
+                                        <Radio value={'AZUL'}><Tag color="blue">Outros países</Tag></Radio>
+                                    </RadioGroup>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
+
+
+
+                <Row gutter={8}>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Tipo:</span>
+                        </Col>
+                        <Col xs={22} sm={22} md={12} lg={12} xl={12}>
+                            <FormItem>
+                                {getFieldDecorator('tipo')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione o tipo"
+                                        optionFilterProp="children"
+
+                                    >
+                                        {this.optionTipo()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'do novo tipo',
+                                        tipo: 0,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
+                    </Col>
+                </Row>
+
             </div >
         );
     }
@@ -1733,147 +1744,155 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={8}>
-                        <span>Latitude:</span>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Latitude:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('latitude')(
+                                    <CoordenadaInputText
+                                        placeholder={`28°05'56"S`}
+                                    />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={8}>
-                        <span>Longitude:</span>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Longitude:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('longitude')(
+                                    <CoordenadaInputText
+                                        placeholder={`48°40'30"O`}
+                                    />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={8}>
-                        <span>Altitude:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('latitude')(
-                                <CoordenadaInputText
-                                    placeholder={`28°05'56"S`}
-                                />
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('longitude')(
-                                <CoordenadaInputText
-                                    placeholder={`48°40'30"O`}
-                                />
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('altitude')(
-                                <InputNumber style={{ width: "100%" }} />
-                            )}
-                        </FormItem>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={8}>
-                        <span>País:</span>
-                    </Col>
-                    <Col span={8}>
-                        <span>Estado:</span>
-                    </Col>
-                    <Col span={8}>
-                        <span>Cidade:</span>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Altitude:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('altitude')(
+                                    <InputNumber style={{ width: "100%" }} />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
                 <Row gutter={8}>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('pais', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Informe o nome do pais',
-                                }]
-                            })(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um país"
-                                    optionFilterProp="children"
-                                    onChange={(value) => {
-                                        let siglaNome = value.split("|");
-                                        this.props.form.setFields({
-                                            estado: {
-                                                value: ''
-                                            },
-                                            cidade: {
-                                                value: ''
-                                            },
-                                        });
-                                        this.requisitaEstados(siglaNome[0], siglaNome[1]);
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>País:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('pais', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Informe o nome do pais',
+                                    }]
+                                })(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um país"
+                                        optionFilterProp="children"
+                                        onChange={(value) => {
+                                            let siglaNome = value.split("|");
+                                            this.props.form.setFields({
+                                                estado: {
+                                                    value: ''
+                                                },
+                                                cidade: {
+                                                    value: ''
+                                                },
+                                            });
+                                            this.requisitaEstados(siglaNome[0], siglaNome[1]);
 
-                                    }}
-                                >
-                                    {this.optionPais()}
-                                </Select>
-                            )}
-                        </FormItem>
+                                        }}
+                                    >
+                                        {this.optionPais()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('estado', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Informe o nome do estado',
-                                }]
-                            })(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um estado"
-                                    optionFilterProp="children"
-                                    onChange={(value) => {
-                                        let siglaNome = value.split("|");
-                                        this.props.form.setFields({
-                                            cidade: {
-                                                value: ''
-                                            },
-                                        });
-                                        this.requisitaCidades(siglaNome[0], siglaNome[1]);
-                                    }}
-                                >
-                                    {this.optionEstado()}
-                                </Select>
-                            )}
-                        </FormItem>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Estado:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('estado', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Informe o nome do estado',
+                                    }]
+                                })(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um estado"
+                                        optionFilterProp="children"
+                                        onChange={(value) => {
+                                            let siglaNome = value.split("|");
+                                            this.props.form.setFields({
+                                                cidade: {
+                                                    value: ''
+                                                },
+                                            });
+                                            this.requisitaCidades(siglaNome[0], siglaNome[1]);
+                                        }}
+                                    >
+                                        {this.optionEstado()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('cidade', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Escolha uma cidade',
-                                }]
-                            })(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma cidade"
-                                    optionFilterProp="children"
-                                >
-                                    {this.optionCidade()}
-                                </Select>
-                            )}
-                        </FormItem>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Cidade:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('cidade', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Escolha uma cidade',
+                                    }]
+                                })(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma cidade"
+                                        optionFilterProp="children"
+                                    >
+                                        {this.optionCidade()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
                 <Row gutter={8}>
-                    <Col span={8}>
-                        <span>Complemento:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={16}>
-                        {getFieldDecorator('complemento', {
-                            rules: [{
-                                required: true,
-                                message: 'Informe um complemento válido',
-                            }]
-                        })(
-                            <TextArea rows={4} />
-                        )}
+                    <Col xs={24} sm={24} md={16} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Complemento:</span>
+                        </Col>
+                        <Col span={24}>
+                            {getFieldDecorator('complemento', {
+                                rules: [{
+                                    required: true,
+                                    message: 'Informe um complemento válido',
+                                }]
+                            })(
+                                <TextArea rows={4} />
+                            )}
+                        </Col>
                     </Col>
                 </Row>
             </div>
@@ -1884,265 +1903,275 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Família:</span>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Família:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem>
+                                {getFieldDecorator('familia')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma família"
+                                        optionFilterProp="children"
+                                        onChange={(value) => {
+                                            this.requisitaSubfamilias(value);
+                                            this.requisitaGeneros(value);
+                                            this.setState({
+                                                search: {
+                                                    subfamilia: 'validating',
+                                                    genero: 'validating',
+                                                }
+                                            });
+                                            this.props.form.setFields({
+                                                subfamilia: {
+                                                    value: ''
+                                                },
+                                                genero: {
+                                                    value: ''
+                                                },
+                                                especie: {
+                                                    value: ''
+                                                },
+                                                subespecie: {
+                                                    value: ''
+                                                },
+                                                variedade: {
+                                                    value: ''
+                                                },
+                                            });
+                                        }}
+
+                                    >
+                                        {this.optionFamilia()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova familia',
+                                        tipo: 1
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
-                    <Col span={12}>
-                        <span>Subfamília:</span>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Subfamília:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.subfamilia}>
+                                {getFieldDecorator('subfamilia')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma subfamília"
+                                        optionFilterProp="children"
+
+                                    >
+                                        {this.optionSubfamilia()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova subfamilia',
+                                        tipo: 2,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
                 </Row>
+
+
                 <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem>
-                            {getFieldDecorator('familia')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma família"
-                                    optionFilterProp="children"
-                                    onChange={(value) => {
-                                        this.requisitaSubfamilias(value);
-                                        this.requisitaGeneros(value);
-                                        this.setState({
-                                            search: {
-                                                subfamilia: 'validating',
-                                                genero: 'validating',
-                                            }
-                                        });
-                                        this.props.form.setFields({
-                                            subfamilia: {
-                                                value: ''
-                                            },
-                                            genero: {
-                                                value: ''
-                                            },
-                                            especie: {
-                                                value: ''
-                                            },
-                                            subespecie: {
-                                                value: ''
-                                            },
-                                            variedade: {
-                                                value: ''
-                                            },
-                                        });
-                                    }}
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Gênero:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.genero}>
+                                {getFieldDecorator('genero')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um gênero"
+                                        optionFilterProp="children"
+                                        onChange={(value) => {
+                                            this.requisitaEspecies(value);
+                                            this.setState({
+                                                search: {
+                                                    especie: 'validating'
+                                                }
+                                            });
+                                            this.props.form.setFields({
+                                                especie: {
+                                                    value: ''
+                                                },
+                                                subespecie: {
+                                                    value: ''
+                                                },
+                                                variedade: {
+                                                    value: ''
+                                                },
+                                            });
+                                        }}
 
-                                >
-                                    {this.optionFamilia()}
-                                </Select>
-                            )}
-                        </FormItem>
+                                    >
+                                        {this.optionGenero()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'do novo genero',
+                                        tipo: 3,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova familia',
-                                    tipo: 1
-                                },
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.subfamilia}>
-                            {getFieldDecorator('subfamilia')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma subfamília"
-                                    optionFilterProp="children"
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Espécie:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.especie}>
+                                {getFieldDecorator('especie')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma espécie"
+                                        optionFilterProp="children"
+                                        onChange={(value) => {
+                                            this.requisitaSubespecies(value);
+                                            this.requisitaVariedades(value);
+                                            this.setState({
+                                                search: {
+                                                    subespecie: 'validating',
+                                                    variedade: 'validating',
+                                                },
+                                                formComAutor: true,
+                                            });
+                                            this.props.form.setFields({
+                                                subespecie: {
+                                                    value: ''
+                                                },
+                                                variedade: {
+                                                    value: ''
+                                                },
+                                            });
+                                        }}
 
-                                >
-                                    {this.optionSubfamilia()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova subfamilia',
-                                    tipo: 2,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
+                                    >
+                                        {this.optionEspecie()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova especie',
+                                        tipo: 4,
+                                    },
+                                    formComAutor: true,
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
                 </Row>
+
                 <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Gênero:</span>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Subespécie:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.subespecie}>
+                                {getFieldDecorator('subespecie')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma subespécie"
+                                        optionFilterProp="children"
+
+                                    >
+                                        {this.optionSubespecie()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova subespecie',
+                                        tipo: 5
+                                    },
+                                    formComAutor: true,
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
-                    <Col span={12}>
-                        <span>Espécie:</span>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Variedade:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.variedade}>
+                                {getFieldDecorator('variedade')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma variedade"
+                                        optionFilterProp="children"
+
+                                    >
+                                        {this.optionVariedade()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova variedade',
+                                        tipo: 6,
+                                    },
+                                    formComAutor: true,
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
                 </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.genero}>
-                            {getFieldDecorator('genero')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um gênero"
-                                    optionFilterProp="children"
-                                    onChange={(value) => {
-                                        this.requisitaEspecies(value);
-                                        this.setState({
-                                            search: {
-                                                especie: 'validating'
-                                            }
-                                        });
-                                        this.props.form.setFields({
-                                            especie: {
-                                                value: ''
-                                            },
-                                            subespecie: {
-                                                value: ''
-                                            },
-                                            variedade: {
-                                                value: ''
-                                            },
-                                        });
-                                    }}
 
-                                >
-                                    {this.optionGenero()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'do novo genero',
-                                    tipo: 3,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.especie}>
-                            {getFieldDecorator('especie')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma espécie"
-                                    optionFilterProp="children"
-                                    onChange={(value) => {
-                                        this.requisitaSubespecies(value);
-                                        this.requisitaVariedades(value);
-                                        this.setState({
-                                            search: {
-                                                subespecie: 'validating',
-                                                variedade: 'validating',
-                                            },
-                                            formComAutor: true,
-                                        });
-                                        this.props.form.setFields({
-                                            subespecie: {
-                                                value: ''
-                                            },
-                                            variedade: {
-                                                value: ''
-                                            },
-                                        });
-                                    }}
-
-                                >
-                                    {this.optionEspecie()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova especie',
-                                    tipo: 4,
-                                },
-                                formComAutor: true,
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Subespécie:</span>
-                    </Col>
-                    <Col span={12}>
-                        <span>Variedade:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.subespecie}>
-                            {getFieldDecorator('subespecie')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma subespécie"
-                                    optionFilterProp="children"
-
-                                >
-                                    {this.optionSubespecie()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova subespecie',
-                                    tipo: 5
-                                },
-                                formComAutor: true,
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.variedade}>
-                            {getFieldDecorator('variedade')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma variedade"
-                                    optionFilterProp="children"
-
-                                >
-                                    {this.optionVariedade()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova variedade',
-                                    tipo: 6,
-                                },
-                                formComAutor: true,
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                </Row>
             </div>
         );
     }
@@ -2151,130 +2180,135 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Solo:</span>
-                    </Col>
-                    <Col span={12}>
-                        <span>Relevo:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.solo}>
-                            {getFieldDecorator('solo')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um solo"
-                                    optionFilterProp="children"
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Solo:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.solo}>
+                                {getFieldDecorator('solo')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um solo"
+                                        optionFilterProp="children"
 
-                                >
-                                    {this.optionSolo()}
-                                </Select>
-                            )}
-                        </FormItem>
+                                    >
+                                        {this.optionSolo()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'do novo solo',
+                                        tipo: 8,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'do novo solo',
-                                    tipo: 8,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.relevo}>
-                            {getFieldDecorator('relevo')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um relevo"
-                                    optionFilterProp="children"
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Relevo:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.relevo}>
+                                {getFieldDecorator('relevo')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um relevo"
+                                        optionFilterProp="children"
 
-                                >
-                                    {this.optionRelevo()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'do novo relevo',
-                                    tipo: 9,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={12}>
-                        <span>Vegetação:</span>
-                    </Col>
-                    <Col span={12}>
-                        <span>Fase sucessional:</span>
+                                    >
+                                        {this.optionRelevo()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'do novo relevo',
+                                        tipo: 9,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
                 </Row>
-                <Row gutter={8}>
-                    <Col span={10}>
-                        <FormItem validateStatus={this.state.search.vegetacao}>
-                            {getFieldDecorator('vegetacao')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma vegetacao"
-                                    optionFilterProp="children"
 
-                                >
-                                    {this.optionVegetacao()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.setState({
-                                formulario: {
-                                    desc: 'da nova vegetação',
-                                    tipo: 10,
-                                },
-                                visibleModal: true
-                            })
-                        }} />
-                    </Col>
-                    <Col span={10}>
-                        <FormItem>
-                            {getFieldDecorator('fases')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione uma fase sucessional"
-                                    optionFilterProp="children"
+                <Row gutter={8}>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Vegetação:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.vegetacao}>
+                                {getFieldDecorator('vegetacao')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma vegetacao"
+                                        optionFilterProp="children"
 
-                                >
-                                    {this.optionFase()}
-                                </Select>
+                                    >
+                                        {this.optionVegetacao()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.setState({
+                                    formulario: {
+                                        desc: 'da nova vegetação',
+                                        tipo: 10,
+                                    },
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
+                    </Col>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Fase sucessional:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('fases')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma fase sucessional"
+                                        optionFilterProp="children"
+
+                                    >
+                                        {this.optionFase()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
+                    <Col xs={24} sm={24} md={16} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Descrição:</span>
+                        </Col>
+                        <Col span={24}>
+                            {getFieldDecorator('relevoDescricao')(
+                                <TextArea rows={4} />
                             )}
-                        </FormItem>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={8}>
-                        <span>Descrição:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={16}>
-                        {getFieldDecorator('relevoDescricao')(
-                            <TextArea rows={4} />
-                        )}
+                        </Col>
                     </Col>
                 </Row>
             </div>
@@ -2285,67 +2319,69 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={12}>
-                        <span> Identificador: </span>
-                    </Col>
-                    <Col span={12}>
-                        <span> Data Identificação: </span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={12}>
-                        <FormItem>
-                            {getFieldDecorator('identificador')(
-                                <Select
-                                    showSearch
-                                    placeholder="Selecione um identificador"
-                                    optionFilterProp="children"
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span> Identificador: </span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('identificador')(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione um identificador"
+                                        optionFilterProp="children"
 
-                                >
-                                    {this.optionIdentificador()}
-                                </Select>
-                            )}
-                        </FormItem>
+                                    >
+                                        {this.optionIdentificador()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={12}>
-                        <Row type={"flex"} gutter={4}>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataIdentDia')(
-                                        <InputNumber
-                                            min={1}
-                                            max={31}
-                                            initialValue={17}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataIdentMes')(
-                                        <InputNumber
-                                            min={1}
-                                            max={12}
-                                            initialValue={11}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col span={8}>
-                                <FormItem>
-                                    {getFieldDecorator('dataIdentAno')(
-                                        <InputNumber
-                                            min={500}
-                                            max={5000}
-                                            initialValue={2018}
-                                            style={{ width: "100%" }}
-                                        />
-                                    )}
-                                </FormItem>
-                            </Col>
-                        </Row>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span> Data Identificação: </span>
+                        </Col>
+                        <Col span={24}>
+                            <Row type={"flex"} gutter={4}>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataIdentDia')(
+                                            <InputNumber
+                                                min={1}
+                                                max={31}
+                                                initialValue={17}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataIdentMes')(
+                                            <InputNumber
+                                                min={1}
+                                                max={12}
+                                                initialValue={11}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                                <Col span={8}>
+                                    <FormItem>
+                                        {getFieldDecorator('dataIdentAno')(
+                                            <InputNumber
+                                                min={500}
+                                                max={5000}
+                                                initialValue={2018}
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Row>
+                        </Col>
                     </Col>
                 </Row>
             </div>
@@ -2356,42 +2392,42 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={16}>
-                        <span>Coletores:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={16}>
-                        <FormItem validateStatus={this.state.search.coletor}>
-                            {getFieldDecorator('coletores', {
-                                rules: [{
-                                    required: true,
-                                    message: 'Insira ao menos um coletor',
-                                }]
-                            })(
-                                <Select
-                                    mode="multiple"
-                                    style={{ width: '100%' }}
-                                    placeholder="Selecione os coletores"
-                                >
-                                    {this.optionColetores()}
-                                </Select>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={2}>
-                        <Button shape="dashed" icon="plus" style={{
-                            marginTop: '5px',
-                        }} onClick={() => {
-                            this.requisitaNumeroColetor();
-                            this.setState({
-                                formulario: {
-                                    tipo: 11,
-                                },
-                                formColetor: true,
-                                visibleModal: true
-                            })
-                        }} />
+                    <Col xs={24} sm={24} md={16} lg={16} xl={16}>
+                        <Col span={24}>
+                            <span>Coletores:</span>
+                        </Col>
+                        <Col span={22}>
+                            <FormItem validateStatus={this.state.search.coletor}>
+                                {getFieldDecorator('coletores', {
+                                    rules: [{
+                                        required: true,
+                                        message: 'Insira ao menos um coletor',
+                                    }]
+                                })(
+                                    <Select
+                                        mode="multiple"
+                                        style={{ width: '100%' }}
+                                        placeholder="Selecione os coletores"
+                                    >
+                                        {this.optionColetores()}
+                                    </Select>
+                                )}
+                            </FormItem>
+                        </Col>
+                        <Col span={2}>
+                            <Button shape="dashed" icon="plus" style={{
+                                marginTop: '5px',
+                            }} onClick={() => {
+                                this.requisitaNumeroColetor();
+                                this.setState({
+                                    formulario: {
+                                        tipo: 11,
+                                    },
+                                    formColetor: true,
+                                    visibleModal: true
+                                })
+                            }} />
+                        </Col>
                     </Col>
                 </Row>
             </div>
@@ -2402,31 +2438,33 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col span={8}>
-                        <span>Coleções anexas:</span>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                        <Col span={24}>
+                            <span>Coleções anexas:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('tipoColecaoAnexa')(
+                                    <RadioGroup onChange={this.onChange} value={this.state.value}>
+                                        <Radio value={'CARPOTECA'}><Tag color="red">Carpoteca</Tag></Radio>
+                                        <Radio value={'XILOTECA'}><Tag color="green">Xiloteca</Tag></Radio>
+                                        <Radio value={'VIA LIQUIDA'}><Tag color="blue">Via Líquida</Tag></Radio>
+                                    </RadioGroup>
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
-                    <Col span={12}>
-                        <span> Observações da coleção anexa: </span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
-                    <Col span={8}>
-                        <FormItem>
-                            {getFieldDecorator('tipoColecaoAnexa')(
-                                <RadioGroup onChange={this.onChange} value={this.state.value}>
-                                    <Radio value={'CARPOTECA'}><Tag color="red">Carpoteca</Tag></Radio>
-                                    <Radio value={'XILOTECA'}><Tag color="green">Xiloteca</Tag></Radio>
-                                    <Radio value={'VIA LIQUIDA'}><Tag color="blue">Via Líquida</Tag></Radio>
-                                </RadioGroup>
-                            )}
-                        </FormItem>
-                    </Col>
-                    <Col span={12}>
-                        <FormItem>
-                            {getFieldDecorator('observacoesColecaoAnexa')(
-                                <TextArea rows={4} />
-                            )}
-                        </FormItem>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span> Observações da coleção anexa: </span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('observacoesColecaoAnexa')(
+                                    <TextArea rows={4} />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
             </div>
@@ -2438,37 +2476,41 @@ class NovoTomboScreen extends Component {
             return (
                 <div>
                     <Row gutter={8}>
-                        <Col span={8}>
-                            <span>Nome:</span>
+                        <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Nome:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('nomeColetor')(
+                                        <Input placeholder={""} type="text" />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
-                        <Col span={8}>
-                            <span>Email:</span>
+                        <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Email:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('emailColetor')(
+                                        <Input placeholder={""} type="text" />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
-                        <Col span={8}>
-                            <span>Nº Coletor:</span>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('nomeColetor')(
-                                    <Input placeholder={""} type="text" />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('emailColetor')(
-                                    <Input placeholder={""} type="text" />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('numeroColetor')(
-                                    <Input placeholder={""} type="text" />
-                                )}
-                            </FormItem>
+                        <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Nº Coletor:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('numeroColetor')(
+                                        <Input placeholder={""} type="text" />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
                     </Row>
                 </div>
@@ -2659,75 +2701,77 @@ class NovoTomboScreen extends Component {
                         </Col>
                     </Row>
                     <Row gutter={8}>
-                        <Col span={12}>
-                            <span> Fotos da exsicata: </span>
+                        <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                            <Col span={24}>
+                                <span> Fotos da exsicata: </span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('fotosExsicata')(
+                                        <UploadPicturesComponent
+                                            fileList={this.state.fotosExsicata}
+                                            beforeUpload={foto => {
+                                                this.setState(({ fotosExsicata }) => ({
+                                                    fotosExsicata: [
+                                                        ...fotosExsicata,
+                                                        foto
+                                                    ],
+                                                }));
+
+                                                return false;
+                                            }}
+                                            onRemove={foto => {
+                                                this.setState(({ fotosExsicata: listaAntiga }) => {
+                                                    const index = listaAntiga.indexOf(foto);
+
+                                                    const fotosExsicata = listaAntiga
+                                                        .filter((item, i) => i !== index);
+
+                                                    return { fotosExsicata };
+                                                });
+                                            }}
+                                        />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
-                        <Col span={12}>
-                            <span> Fotos em vivo: </span>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={12}>
-                            <FormItem>
-                                {getFieldDecorator('fotosExsicata')(
-                                    <UploadPicturesComponent
-                                        fileList={this.state.fotosExsicata}
-                                        beforeUpload={foto => {
-                                            this.setState(({ fotosExsicata }) => ({
-                                                fotosExsicata: [
-                                                    ...fotosExsicata,
-                                                    foto
-                                                ],
-                                            }));
+                        <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                            <Col span={24}>
+                                <span> Fotos em vivo: </span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('fotosVivo')(
+                                        <UploadPicturesComponent
+                                            fileList={this.state.fotosEmVivo}
+                                            beforeUpload={foto => {
+                                                this.setState(({ fotosEmVivo }) => ({
+                                                    fotosEmVivo: [
+                                                        ...fotosEmVivo,
+                                                        foto
+                                                    ],
+                                                }));
 
-                                            return false;
-                                        }}
-                                        onRemove={foto => {
-                                            this.setState(({ fotosExsicata: listaAntiga }) => {
-                                                const index = listaAntiga.indexOf(foto);
+                                                return false;
+                                            }}
+                                            onRemove={foto => {
+                                                this.setState(({ fotosEmVivo: listaAntiga }) => {
+                                                    const index = listaAntiga.indexOf(foto);
 
-                                                const fotosExsicata = listaAntiga
-                                                    .filter((item, i) => i !== index);
+                                                    const fotosEmVivo = listaAntiga
+                                                        .filter((item, i) => i !== index);
 
-                                                return { fotosExsicata };
-                                            });
-                                        }}
-                                    />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={12}>
-                            <FormItem>
-                                {getFieldDecorator('fotosVivo')(
-                                    <UploadPicturesComponent
-                                        fileList={this.state.fotosEmVivo}
-                                        beforeUpload={foto => {
-                                            this.setState(({ fotosEmVivo }) => ({
-                                                fotosEmVivo: [
-                                                    ...fotosEmVivo,
-                                                    foto
-                                                ],
-                                            }));
-
-                                            return false;
-                                        }}
-                                        onRemove={foto => {
-                                            this.setState(({ fotosEmVivo: listaAntiga }) => {
-                                                const index = listaAntiga.indexOf(foto);
-
-                                                const fotosEmVivo = listaAntiga
-                                                    .filter((item, i) => i !== index);
-
-                                                return { fotosEmVivo };
-                                            });
-                                        }}
-                                    />
-                                )}
-                            </FormItem>
+                                                    return { fotosEmVivo };
+                                                });
+                                            }}
+                                        />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
                     </Row>
                     <Row type="flex" justify="end">
-                        <Col span={3}>
+                        <Col xs={24} sm={8} md={3} lg={3} xl={3}>
                             <ButtonComponent titleButton={"Salvar"} />
                         </Col>
                     </Row>
