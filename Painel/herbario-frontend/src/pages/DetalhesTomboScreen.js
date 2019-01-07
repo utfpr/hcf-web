@@ -307,7 +307,7 @@ export default class DetalhesTomboScreen extends Component {
                             <span> {tombo.locais_coletum.relevo !== null ? tombo.locais_coletum.relevo.nome : ""} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.vegetacao !== null && tombo.locais_coletum.vegetacao !== undefined ? tombo.locais_coletum.vegetacao.nome : ""} </span>
+                            <span> {tombo.locais_coletum.vegetaco !== null && tombo.locais_coletum.vegetaco !== undefined ? tombo.locais_coletum.vegetaco.nome : ""} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -384,7 +384,7 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.usuarios.nome} </span>
+                            <span> {tombo.usuarios[0].nome} </span>
                         </Col>
                         <Col span={8}>
                             <span>

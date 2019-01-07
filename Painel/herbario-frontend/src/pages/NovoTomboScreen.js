@@ -313,7 +313,7 @@ class NovoTomboScreen extends Component {
     ));
 
     optionFase = () => this.state.fases.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={item.numero}>{item.nome}</Option>
     ));
 
     optionPais = () => this.state.paises.map(item => (
@@ -1796,7 +1796,16 @@ class NovoTomboScreen extends Component {
                                     optionFilterProp="children"
                                     onChange={(value) => {
                                         let siglaNome = value.split("|");
+                                        this.props.form.setFields({
+                                            estado: {
+                                                value: ''
+                                            },
+                                            cidade: {
+                                                value: ''
+                                            },
+                                        });
                                         this.requisitaEstados(siglaNome[0], siglaNome[1]);
+
                                     }}
                                 >
                                     {this.optionPais()}
@@ -1818,6 +1827,11 @@ class NovoTomboScreen extends Component {
                                     optionFilterProp="children"
                                     onChange={(value) => {
                                         let siglaNome = value.split("|");
+                                        this.props.form.setFields({
+                                            cidade: {
+                                                value: ''
+                                            },
+                                        });
                                         this.requisitaCidades(siglaNome[0], siglaNome[1]);
                                     }}
                                 >

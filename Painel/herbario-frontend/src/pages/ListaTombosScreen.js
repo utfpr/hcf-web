@@ -227,115 +227,123 @@ class ListaTombosScreen extends Component {
             <Card title="Buscar Tombo">
                 <Form onSubmit={this.onSubmit}>
                     <Row gutter={8}>
-                        <Col span={8}>
-                            <span>HCF:</span>
+                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>HCF:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('numeroHcf')(
+                                        <InputNumber
+                                            initialValue={17}
+                                            style={{ width: "100%" }}
+                                        />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
-                        <Col span={8}>
-                            <span>Tipo:</span>
+                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Tipo:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('tipo')(
+                                        <Select initialValue="2">
+                                            <Option value="-1">Selecione</Option>
+                                            <Option value="1">Parátipo</Option>
+                                            <Option value="2">Isótipo</Option>
+                                        </Select>
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
-                        <Col span={8}>
-                            <span>Situação:</span>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('numeroHcf')(
-                                    <InputNumber
-                                        initialValue={17}
-                                        style={{ width: "100%" }}
-                                    />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('tipo')(
-                                    <Select initialValue="2">
-                                        <Option value="-1">Selecione</Option>
-                                        <Option value="1">Parátipo</Option>
-                                        <Option value="2">Isótipo</Option>
-                                    </Select>
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('situacao')(
-                                    <Select initialValue="2">
-                                        <Option value="-1">Selecione</Option>
-                                        <Option value="regular">Regular</Option>
-                                        <Option value="permutado">Permutado</Option>
-                                        <Option value="emprestado">Emprestado</Option>
-                                        <Option value="doado">Doado</Option>
-                                    </Select>
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={16}>
-                            <span>Nome científico:</span>
-                        </Col>
-                        <Col span={8}>
-                            <span>Nome popular:</span>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={16}>
-                            <FormItem>
-                                {getFieldDecorator('nomeCientifico')(
-                                    <Input placeholder={"Passiflora edulis"} type="text" />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={8}>
-                            <FormItem>
-                                {getFieldDecorator('nomePopular')(
-                                    <Input placeholder={"Maracujá"} type="text" />
-                                )}
-                            </FormItem>
+                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Situação:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('situacao')(
+                                        <Select initialValue="2">
+                                            <Option value="-1">Selecione</Option>
+                                            <Option value="regular">Regular</Option>
+                                            <Option value="permutado">Permutado</Option>
+                                            <Option value="emprestado">Emprestado</Option>
+                                            <Option value="doado">Doado</Option>
+                                        </Select>
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
                     </Row>
 
-                    <Row>
-                        <Col span={24}>
-                            <Row type="flex" justify="end">
-                                <Col span={4} style={{ marginRight: '10px' }}>
-                                    <FormItem>
-                                        <Button
-                                            onClick={() => {
-                                                this.props.form.resetFields();
-                                                this.setState({
-                                                    pagina: 1,
-                                                    valores: {},
-                                                    metadados: {},
-                                                    usuarios: []
-                                                })
-                                                this.requisitaListaTombos({}, 1);
-                                            }}
-                                            className="login-form-button"
-                                        >
-                                            Limpar
-									</Button>
-                                    </FormItem>
-                                </Col>
-                                <Col span={4}>
-                                    <FormItem>
-                                        <Button
-                                            type="primary"
-                                            htmlType="submit"
-                                            className="login-form-button"
-                                        >
-                                            Pesquisar
-									</Button>
-                                    </FormItem>
-                                </Col>
-                            </Row>
+
+                    <Row gutter={8}>
+                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Nome científico:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('nomeCientifico')(
+                                        <Input placeholder={"Passiflora edulis"} type="text" />
+                                    )}
+                                </FormItem>
+                            </Col>
+                        </Col>
+                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                            <Col span={24}>
+                                <span>Nome popular:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('nomePopular')(
+                                        <Input placeholder={"Maracujá"} type="text" />
+                                    )}
+                                </FormItem>
+                            </Col>
                         </Col>
                     </Row>
+
+
+                    <Row type="flex" justify="end" gutter={4}>
+                        <Col xs={24} sm={8} md={6} lg={4} xl={4}>
+                            <FormItem>
+                                <Button
+                                    onClick={() => {
+                                        this.props.form.resetFields();
+                                        this.setState({
+                                            pagina: 1,
+                                            valores: {},
+                                            metadados: {},
+                                            usuarios: []
+                                        })
+                                        this.requisitaListaTombos({}, 1);
+                                    }}
+                                    className="login-form-button"
+                                >
+                                    Limpar
+									</Button>
+                            </FormItem>
+                        </Col>
+
+                        <Col xs={24} sm={8} md={6} lg={4} xl={4}>
+                            <FormItem>
+                                <Button
+                                    type="primary"
+                                    htmlType="submit"
+                                    className="login-form-button"
+                                >
+                                    Pesquisar
+									</Button>
+                            </FormItem>
+                        </Col>
+
+
+                    </Row>
                 </Form>
-            </Card>
+            </Card >
         )
     }
 

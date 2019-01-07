@@ -76,6 +76,7 @@ export default class SimpleTableComponent extends Component {
 				onChange={this.handleChange}
 				pagination={this.state.pagina}
 				loading={this.props.loading}
+				scroll={{ x: 800 }}
 			/>
 		);
 	}

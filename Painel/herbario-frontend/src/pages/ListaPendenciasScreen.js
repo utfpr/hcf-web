@@ -213,7 +213,6 @@ class ListaPendenciasScreen extends Component {
 										<Option value="ESPERANDO">Esperando</Option>
 										<Option value="APROVADO">Aprovado</Option>
 										<Option value="REPROVADO">Reprovado</Option>
-										<Option value="CONCERTAR">Concertar</Option>
 									</Select>
 								)}
 							</FormItem>

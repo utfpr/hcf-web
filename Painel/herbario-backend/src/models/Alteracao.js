@@ -42,6 +42,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN,
             allowNull: true,
         },
+        identificacao: {
+            type: DataTypes.BOOLEAN,
+            allowNull: true,
+        },
     };
 
     const options = {
