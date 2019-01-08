@@ -1,5 +1,4 @@
 import { renameSync, existsSync, mkdirSync } from 'fs';
-import uuid from 'uuid/v4';
 import moment from 'moment-timezone';
 import { join, extname } from 'path';
 import BadRequestExeption from '../errors/bad-request-exception';
@@ -24,14 +23,18 @@ const catchForeignKeyConstraintError = err => {
 
 export const post = (request, response, next) => {
     console.log(request.body); // eslint-disable-line
+    const { file } = request;
 
     const fn = transaction => Promise.resolve()
         .then(() => {
-            const { file } = request;
-            if (!existsSync(storage)) {
-                mkdirSync(storage);
-            }
+            const body = pick(request.body, [
+                'tombo_hcf',
+                'em_vivo',
+            ]);
 
+            return TomboFoto.create(body, { transaction });
+        })
+        .then(foto => {
             const subdiretorio = moment()
                 .format('YYYY-MM-DD');
 
@@ -40,37 +43,26 @@ export const post = (request, response, next) => {
                 mkdirSync(basediretorio);
             }
 
+            // @ts-ignore
+            const nomeArquivo = `HCF${String(foto.id).padStart(9, '0')}`;
+            // @ts-ignore
+            const numeroBarra = `${foto.id}.${''.padEnd(6, '0')}`;
+
             const extensao = extname(file.originalname);
-            const nome = `${uuid()}${extensao}`;
-            const foto = join(subdiretorio, nome);
+            const caminho = join(subdiretorio, `${nomeArquivo}${extensao}`);
 
-            renameSync(file.path, join(storage, foto));
-
-            return foto;
-        })
-        .then(arquivo => {
-            const body = pick(request.body, [
-                'tombo_hcf',
-                'em_vivo',
-            ]);
-
-            const foto = {
-                ...body,
-                caminho_foto: arquivo,
+            const atualizacao = {
+                ...foto,
+                codigo_barra: nomeArquivo,
+                num_barra: numeroBarra,
+                caminho_foto: caminho,
             };
 
-            return TomboFoto.create(foto, { transaction });
+            return foto.update(atualizacao, { transaction });
         })
         .then(foto => {
-            const atualizacoes = {
-                ...foto,
-                // @ts-ignore
-                codigo_barra: `HCF${String(foto.id).padStart(9, '0')}`,
-                // @ts-ignore
-                num_barra: `${foto.id}.${''.padEnd(6, '0')}`,
-            };
-
-            return foto.update(atualizacoes, { transaction });
+            renameSync(file.path, join(storage, foto.caminho_foto));
+            return foto;
         });
 
     sequelize.transaction(fn)

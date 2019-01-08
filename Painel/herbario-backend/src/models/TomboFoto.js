@@ -27,7 +27,7 @@ export default (Sequelize, DataTypes) => {
         },
         tombo_hcf: {
             type: DataTypes.INTEGER,
-            allowNull: true,
+            allowNull: false,
         },
         codigo_barra: {
             type: DataTypes.STRING(50),
@@ -39,7 +39,7 @@ export default (Sequelize, DataTypes) => {
         },
         caminho_foto: {
             type: DataTypes.TEXT,
-            allowNull: false,
+            allowNull: true,
         },
         em_vivo: {
             type: DataTypes.BOOLEAN,
