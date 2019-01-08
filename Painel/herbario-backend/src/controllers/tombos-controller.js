@@ -443,26 +443,9 @@ export const listagem = (request, response, next) => {
         tombos: [],
     };
     Promise.resolve()
-        .then(() => Tombo.findAndCountAll({
-            attributes: [
-                'hcf',
-                'nomes_populares',
-                'nome_cientifico',
-                'data_coleta_dia',
-                'data_coleta_mes',
-                'data_coleta_ano',
-            ],
-            include: [
-                {
-                    model: Coletor,
-                    attributes: ['id', 'nome'],
-                },
-            ],
-            where,
-            order: [['created_at', 'DESC']],
-        }))
-        .then(listaTombos => {
-            retorno.metadados.total = listaTombos.rows.length;
+        .then(() => Tombo.count({ where }))
+        .then(total => {
+            retorno.metadados.total = total;
         })
         .then(() => Tombo.findAndCountAll({
             attributes: [
@@ -472,15 +455,15 @@ export const listagem = (request, response, next) => {
                 'data_coleta_dia',
                 'data_coleta_mes',
                 'data_coleta_ano',
+                'created_at',
             ],
-            include: [
-                {
-                    model: Coletor,
-                    attributes: ['id', 'nome'],
-                },
-            ],
+            include: {
+                required: true,
+                model: Coletor,
+                attributes: ['id', 'nome'],
+            },
             where,
-            // order: [['created_at', 'DESC']],
+            order: [['created_at', 'DESC']],
             limit: limite,
             offset,
         }))
