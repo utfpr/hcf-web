@@ -15,7 +15,13 @@ function main() {
 
         queue.removeRepeat(queueTombos);
 
-        // console.log(queueTombos.length);
+        // database.selectTombosAlteracao(connection, '19528');
+        queueTombos.forEach(element => {
+        // console.log(element.num_barra);
+            database.selectCountTombosAlteracao(connection, element.tombo_hcf, countTomboAlterado => {
+                // console.log(countTomboAlterado);
+            });
+        });
     });
 }
 

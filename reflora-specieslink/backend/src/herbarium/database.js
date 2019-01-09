@@ -6,6 +6,7 @@ import {
     options,
 } from '../config/database';
 import modelosTombosFotos from '../models/TomboFoto';
+import modelosTombosAlteracoes from '../models/Alteracao';
 
 function createConnection() {
     return new Sequelize(database, username, password, options);
@@ -40,12 +41,26 @@ function selectTombosFotos(connection, callback) {
     
 }
 
-function selectEditTombos(nroTombo) {
-    return `select status_alteracoes, COUNT(*) as count from alteracoes where tombo_hcf=${nroTombo} group by status_alteracoes;`;
+//, group: ['status']
+// [[Sequelize.fn("COUNT", Sequelize.col("status")), "countStatus"]]
+function selectCountTombosAlteracao(connection, tombo_hcf, callback) {
+    const tableTombosAlteracoes = modelosTombosAlteracoes(connection, Sequelize);
+    
+    connection.sync().then(() => {
+        tableTombosAlteracoes.count({
+            attributes: ['status'],
+            where: {tombo_hcf: tombo_hcf},
+            group: ['status']
+        }).then(tombosAlterados => {
+            callback(tombosAlterados);
+            //console.log(tombosAlterados)
+        });
+    });
+    // return `select status_alteracoes, COUNT(*) as count from alteracoes where tombo_hcf=${nroTombo} group by status_alteracoes;`;
 }
 
 export default {
-    createConnection, testConnection, endConnection, selectTombosFotos, selectEditTombos,
+    createConnection, testConnection, endConnection, selectTombosFotos, selectCountTombosAlteracao,
 };
 
 /**
