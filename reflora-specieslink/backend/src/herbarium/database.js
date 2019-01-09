@@ -5,7 +5,7 @@ import {
     password,
     options,
 } from '../config/database';
-import tombosFotos from '../models/TomboFoto';
+import modelosTombosFotos from '../models/TomboFoto';
 
 function createConnection() {
     return new Sequelize(database, username, password, options);
@@ -29,23 +29,15 @@ function endConnection(connection) {
     });
 }
 
-/* Depois de integrar irá ter que mexer aqui */
-function selectTombosFotos(connection) {
-    /* const tableTombosFotos = connection.define('tombos_fotos', {
-        tombo_hcf: { type: Sequelize.INTEGER, allowNull: true },
-        num_barra: { type: Sequelize.STRING(45), allowNull: true },
-    }, {
-        freezeTableName: true,
-        timestamps: false,
-    }); */
-    const tableTombosFotos = tombosFotos(connection, Sequelize);
+function selectTombosFotos(connection, callback) {
+    const tableTombosFotos = modelosTombosFotos(connection, Sequelize);
 
     connection.sync().then(() => {
-        tableTombosFotos.findAll().then(tombos => {
-            console.log(tombos[0].dataValues);
+        tableTombosFotos.findAll().then(tombosFotos => {
+            callback(tombosFotos);
         });
     });
-    // connection.get('tombos_fotos');
+    
 }
 
 function selectEditTombos(nroTombo) {
@@ -55,3 +47,7 @@ function selectEditTombos(nroTombo) {
 export default {
     createConnection, testConnection, endConnection, selectTombosFotos, selectEditTombos,
 };
+
+/**
+ * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2
+ */
