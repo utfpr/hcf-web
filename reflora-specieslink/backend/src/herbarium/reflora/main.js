@@ -1,13 +1,15 @@
-import { createConnection } from 'mysql2';
+import database from '../database';
 
 function main() {
-    const database = createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: 'xxxx',
-        database: 'hcf',
-    });
-    return database;
+    /* LOG console.log(dateTime.formatLog('Inicializando a integração com o Reflora.')); */
+
+    /* LOG console.log(dateTime.formatLog('Estabelecendo uma conexão com o banco de dados.')); */
+    const connection = database.createConnection();
+
+    /* LOG console.log(dateTime.formatLog('Testando a conexão com o banco de dados.')); */
+    database.testConnection(connection);
+
+    database.selectTombosFotos(connection);
 }
 
 main();
