@@ -21,7 +21,6 @@ export const options = {
         timestamps: true,
         paranoid: false,
     },
-
     operatorsAliases: false,
     dialectOptions: {
         charset: 'utf8mb4',

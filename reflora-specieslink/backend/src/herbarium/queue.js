@@ -12,7 +12,7 @@ function enqueue(items) {
     return queue;
 }
 
-function removeRepeat(queue) {
+function removeTomboRepetido(queue) {
     /* É necessário verificar se existem com tombos repetidos, na qual utilizamos o for, pois precisamos
     do índice dele para remover o elemento repetido da fila */
     /* Além disso, isso acontece, pois um número de tombo pode ter mais de um código de barra */
@@ -34,5 +34,5 @@ function removeRepeat(queue) {
 }
 
 export default {
-    enqueue, removeRepeat,
+    enqueue, removeTomboRepetido,
 };

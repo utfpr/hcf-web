@@ -38,22 +38,20 @@ function selectTombosFotos(connection, callback) {
             callback(tombosFotos);
         });
     });
-    
 }
 
-//, group: ['status']
+// , group: ['status']
 // [[Sequelize.fn("COUNT", Sequelize.col("status")), "countStatus"]]
-function selectCountTombosAlteracao(connection, tombo_hcf, callback) {
+function selectCountTombosAlteracao(connection, tomboHCF, callback) {
     const tableTombosAlteracoes = modelosTombosAlteracoes(connection, Sequelize);
-    
+
     connection.sync().then(() => {
         tableTombosAlteracoes.count({
             attributes: ['status'],
-            where: {tombo_hcf: tombo_hcf},
-            group: ['status']
+            where: { tombo_hcf: tomboHCF },
+            group: ['status'],
         }).then(tombosAlterados => {
             callback(tombosAlterados);
-            //console.log(tombosAlterados)
         });
     });
     // return `select status_alteracoes, COUNT(*) as count from alteracoes where tombo_hcf=${nroTombo} group by status_alteracoes;`;

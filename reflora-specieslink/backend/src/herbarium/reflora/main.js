@@ -13,16 +13,24 @@ function main() {
     database.selectTombosFotos(connection, tombosFotos => {
         const queueTombos = queue.enqueue(tombosFotos);
 
-        queue.removeRepeat(queueTombos);
+        queue.removeTomboRepetido(queueTombos);
 
-        // database.selectTombosAlteracao(connection, '19528');
         queueTombos.forEach(element => {
-        // console.log(element.num_barra);
-            database.selectCountTombosAlteracao(connection, element.tombo_hcf, countTomboAlterado => {
-                // console.log(countTomboAlterado);
+            database.selectCountTombosAlteracao(connection, element.tombo_hcf, statusTombo => {
+                /* Ou seja, existe alteração */
+                if (statusTombo.length > 0) {
+                    statusTombo.forEach(status => {
+                        /* Se alteração for do tipo APROVADO ou REPROVADO */
+                        if (status.status === 'APROVADO' || status.status === 'REPROVADO') {
+                            // const a = 2 + 2;
+                        }
+                    });
+                }
             });
         });
     });
 }
 
 main();
+
+/* Se quiser parar de logar por no /config/database.js -> logging: false */
