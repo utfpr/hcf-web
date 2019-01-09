@@ -5,6 +5,7 @@ import {
     password,
     options,
 } from '../config/database';
+import tombosFotos from '../models/TomboFoto';
 
 function createConnection() {
     return new Sequelize(database, username, password, options);
@@ -30,17 +31,18 @@ function endConnection(connection) {
 
 /* Depois de integrar irá ter que mexer aqui */
 function selectTombosFotos(connection) {
-    const tableTombosFotos = connection.define('tombos_fotos', {
+    /* const tableTombosFotos = connection.define('tombos_fotos', {
         tombo_hcf: { type: Sequelize.INTEGER, allowNull: true },
         num_barra: { type: Sequelize.STRING(45), allowNull: true },
     }, {
         freezeTableName: true,
         timestamps: false,
-    });
+    }); */
+    const tableTombosFotos = tombosFotos(connection, Sequelize);
 
     connection.sync().then(() => {
-        tableTombosFotos.findAll().then(tombosFotos => {
-            // console.log(tombosFotos[0].dataValues);
+        tableTombosFotos.findAll().then(tombos => {
+            console.log(tombos[0].dataValues);
         });
     });
     // connection.get('tombos_fotos');

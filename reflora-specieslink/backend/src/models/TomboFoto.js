@@ -12,7 +12,6 @@ function associate(modelos) {
 export const defaultScope = {
     attributes: {
         exclude: [
-            'id',
             'created_at',
             'updated_at',
         ],
@@ -21,13 +20,31 @@ export const defaultScope = {
 
 export default (Sequelize, DataTypes) => {
     const attributes = {
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
+            primaryKey: true,
+        },
         tombo_hcf: {
-            type: Sequelize.INTEGER,
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        codigo_barra: {
+            type: DataTypes.STRING(50),
             allowNull: true,
         },
         num_barra: {
-            type: Sequelize.STRING(50),
+            type: DataTypes.STRING(50),
             allowNull: true,
+        },
+        caminho_foto: {
+            type: DataTypes.TEXT,
+            allowNull: true,
+        },
+        em_vivo: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false,
         },
     };
 
