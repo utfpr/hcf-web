@@ -91,7 +91,7 @@ class NovoTomboScreen extends Component {
                 if (response.status === 200) {
                     this.setState(response.data)
                     this.props.form.setFields({
-                        numeroColeta: {
+                        numColeta: {
                             value: response.data.numero_coleta,
                         },
                     });
@@ -167,14 +167,14 @@ class NovoTomboScreen extends Component {
             altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complemento,
             dataColetaAno, dataColetaDia, dataColetaMes, dataIdentAno, dataIdentDia, dataIdentMes,
             especie, familia, fases, genero, identificador, latitude, localidadeCor, longitude,
-            nomePopular, numeroColeta, observacoesColecaoAnexa, observacoesTombo, relevo, solo,
+            nomePopular, numColeta, observacoesColecaoAnexa, observacoesTombo, relevo, solo,
             subespecie, subfamilia, tipo, tipoColecaoAnexa, variedade, vegetacao, entidade, relevoDescricao,
         } = values;
         let json = {}
 
         if (nomePopular) json.principal = { nome_popular: nomePopular };
         json.principal = { ...json.principal, entidade_id: entidade };
-        json.principal.numero_coleta = numeroColeta;
+        json.principal.numero_coleta = numColeta;
         if (dataColetaDia) json.principal.data_coleta = { dia: dataColetaDia };
         if (dataColetaMes) json.principal.data_coleta = { ...json.principal.data_coleta, mes: dataColetaMes };
         if (dataColetaAno) json.principal.data_coleta = { ...json.principal.data_coleta, ano: dataColetaAno };
@@ -1579,7 +1579,7 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
                         <Col span={24}>
                             <span>Nome Popular:</span>
                         </Col>
@@ -1591,7 +1591,7 @@ class NovoTomboScreen extends Component {
                             </FormItem>
                         </Col>
                     </Col>
-                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
                         <Col span={24}>
                             <span>Entidade:</span>
                         </Col>
@@ -1614,19 +1614,19 @@ class NovoTomboScreen extends Component {
                 </Row>
 
                 <Row gutter={8}>
-                    <Col xs={24} sm={24} md={4} lg={4} xl={4}>
+                    <Col xs={24} sm={24} md={8} lg={8} xl={8}>
                         <Col span={24}>
                             <span>Número da coleta:</span>
                         </Col>
                         <Col span={24}>
                             <FormItem>
-                                {getFieldDecorator('numeroColeta', {
+                                {getFieldDecorator('numColeta', {
                                     rules: [{
                                         required: true,
                                         message: 'Insira o numero da coleta',
                                     }]
                                 })(
-                                    <Input type="text" placeholder={"785"} />
+                                    <Input type="text" placeholder={"785"} style={{ width: "100%" }} />
                                 )}
                             </FormItem>
                         </Col>

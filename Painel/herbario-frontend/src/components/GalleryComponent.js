@@ -4,6 +4,12 @@ import ImageGallery from 'react-image-gallery';
 // const PREFIX_URL = "https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/";
 
 export default class GalleryComponent extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+
+
     render() {
         const images = [
             {
@@ -26,6 +32,6 @@ export default class GalleryComponent extends Component {
             }
         ];
 
-        return <ImageGallery items={images} />;
+        return <ImageGallery items={this.props.fotos} />;
     }
 }

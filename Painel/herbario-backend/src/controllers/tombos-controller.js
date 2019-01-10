@@ -9,7 +9,7 @@ import { converteParaDecimal } from '../helpers/coordenadas';
 
 const {
     Solo, Relevo, Cidade, Vegetacao, FaseSucessional, Pais, Tipo, LocalColeta, Familia, sequelize,
-    Genero, Subfamilia, Autor, Coletor, Variedade, Subespecie, Usuario,
+    Genero, Subfamilia, Autor, Coletor, Variedade, Subespecie, Usuario, TomboFoto,
     ColecaoAnexa, Especie, Herbario, Tombo, Alteracao, TomboColetor, Sequelize: { Op },
 } = models;
 
@@ -737,7 +737,7 @@ export const buscarProximoNumeroColetor = (request, response, next) => {
 
 export const obterTombo = (request, response, next) => {
     const id = request.params.tombo_id;
-
+    let resposta = {};
     Promise.resolve()
         .then(() => Tombo.findOne({
             where: {
@@ -858,12 +858,111 @@ export const obterTombo = (request, response, next) => {
 
         }))
         .then(tombo => {
+            console.log(tombo.data_tombo); // eslint-disable-line
+            response.status(codigos.BUSCAR_UM_ITEM).json(tombo);
+
             if (!tombo) {
                 throw new BadRequestExeption(416);
             }
 
+            resposta = {
+                hcf: tombo.hcf,
+                situacao: tombo.situacao,
+                data_tombo: tombo.data_tombo || '',
+                observacao: tombo.observacao !== null ? tombo.observacao : '',
+                tipo: tombo.tipo !== null ? tombo.tipo.nome : '',
+                numero_coleta: tombo.numero_coleta,
+                herbario: tombo.herbario !== null ? `${tombo.herbario.sigla} - ${tombo.herbario.nome}` : '',
+                localizacao: {
+                    latitude: tombo.latitude !== null ? tombo.latitude : '',
+                    longitude: tombo.longitude !== null ? tombo.longitude : '',
+                    altitude: tombo.altitude !== null ? tombo.altitude : '',
+                    cidade: tombo.locais_coletum !== null && tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.nome : '',
+                    estado: tombo.locais_coletum !== null && tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.estados_nome : '',
+                    pais: tombo.locais_coletum !== null && tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.estados_paises_nome : '',
+                    cor: tombo.cor !== null ? tombo.cor : '',
+                },
+                local_coleta: {
+                    descricao: tombo.locais_coletum !== null && tombo.locais_coletum.descricao !== null ? tombo.locais_coletum.descricao : '',
+                    solo: tombo.locais_coletum !== null && tombo.locais_coletum.solo !== null ? tombo.locais_coletum.solo.nome : '',
+                    relevo: tombo.locais_coletum !== null && tombo.locais_coletum.relevo !== null ? tombo.locais_coletum.relevo.nome : '',
+                    vegetacao: tombo.locais_coletum !== null && tombo.locais_coletum.vegetacao !== null ? tombo.locais_coletum.vegetaco.nome : '',
+                    fase_sucessional: tombo.locais_coletum !== null && tombo.locais_coletum.fase_sucessional !== null ? tombo.locais_coletum.fase_sucessional : '',
+                },
+                taxonomia: {
+                    nome_cientifico: tombo.nome_cientifico !== null ? tombo.nome_cientifico : '',
+                    nome_popular: tombo.nomes_populares !== null ? tombo.nomes_populares : '',
+                    familia: tombo.familia !== null ? tombo.familia.nome : '',
+                    sub_familia: tombo.sub_familia !== null ? tombo.sub_familia.nome : '',
+                    genero: tombo.genero !== null ? tombo.genero.nome : '',
+                    especie: {
+                        nome: tombo.especy !== null ? tombo.especy.nome : '',
+                        autor: tombo.especy.autore !== null ? tombo.especy.autore.nome : '',
+                    },
+                    sub_especie: {
+                        nome: tombo.sub_especy !== null ? tombo.sub_especy.nome : '',
+                        autor: tombo.sub_especy.autore !== null ? tombo.sub_especy.autore.nome : '',
+                    },
+                    variedade: {
+                        nome: tombo.variedade !== null ? tombo.variedade.nome : '',
+                        autor: tombo.variedade.autore !== null ? tombo.variedade.autore.nome : '',
+                    },
+                },
+                colecao_anexa: {
+                    tipo: tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.tipo : '',
+                    observacao: tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.observacoes : '',
+                },
+            };
+
+            let dataIdent = '';
+            if (tombo.data_identificacao_dia !== null) {
+                dataIdent = tombo.data_identificacao_dia;
+            }
+            if (tombo.data_identificacao_mes !== null) {
+                dataIdent += `\\${tombo.data_identificacao_mes}`;
+            }
+            if (tombo.data_identificacao_ano !== null) {
+                dataIdent += `\\${tombo.data_identificacao_ano}`;
+            }
+
+            let dataCol = '';
+            if (tombo.data_coleta_dia !== null) {
+                dataCol = tombo.data_coleta_dia;
+            }
+            if (tombo.data_coleta_mes !== null) {
+                dataCol += `\\${tombo.data_coleta_mes}`;
+            }
+            if (tombo.data_coleta_ano !== null) {
+                dataCol += `\\${tombo.data_coleta_ano}`;
+            }
+
+            resposta.data_coleta = dataCol;
+            resposta.data_identificacao = dataIdent;
+
+            let coletores = '';
+
+            if (tombo.coletores != null) {
+                coletores = tombo.coletores.map(coletor => `${coletores}${coletor.nome},`).toString();
+            }
+            resposta.coletores = coletores;
+
+            return resposta;
+        })
+        .then(tombo => TomboFoto.findAll({
+            where: {
+                tombo_hcf: id,
+            },
+            attributes: ['id', 'caminho_foto'],
+        }))
+        .then(fotos => {
+            const formatoFotos = [];
+            fotos.map(foto => formatoFotos.push({
+                original: `C:\\Users\\Elaine\\Documents\\GitHub\\hcf-web\\Painel\\herbario-backend\\storage\\${foto.caminho_foto}`,
+                thumbnail: `C:\\Users\\Elaine\\Documents\\GitHub\\hcf-web\\Painel\\herbario-backend\\storage\\${foto.caminho_foto}`,
+            }));
+            resposta.fotos = formatoFotos;
             response.status(codigos.BUSCAR_UM_ITEM)
-                .json(tombo);
+                .json(resposta);
         })
         .catch(next);
 };

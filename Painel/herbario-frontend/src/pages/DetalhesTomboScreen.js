@@ -94,10 +94,10 @@ export default class DetalhesTomboScreen extends Component {
                             <span> {tombo.hcf} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.nomes_populares} </span>
+                            <span> {tombo.taxonomia.nome_popular} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.herbario.sigla === null ? "" : tombo.herbario.sigla} </span>
+                            <span> {tombo.herbario} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -116,7 +116,7 @@ export default class DetalhesTomboScreen extends Component {
                             <span> {tombo.numero_coleta} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.data_coleta_dia || '00'}/{tombo.data_coleta_mes || '00'}/{tombo.data_coleta_ano || '0000'} </span>
+                            <span> {tombo.data_coleta} </span>
                         </Col>
                         <Col span={8}>
                             <span> {formatarDataBDtoDataHora(tombo.data_tombo)} </span>
@@ -132,10 +132,10 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.tipo !== null ? tombo.tipo.nome : ""} </span>
+                            <span> {tombo.tipo} </span>
                         </Col>
                         <Col span={16}>
-                            <span> {tombo.nome_cientifico !== null ? tombo.nome_cientifico : ""} </span>
+                            <span> {tombo.taxonomia.nome_cientifico} </span>
                         </Col>
                     </Row>
                 </div>
@@ -161,13 +161,13 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.familia !== null ? tombo.familia.nome : ""} </span>
+                            <span> {tombo.taxonomia.familia} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.sub_familia !== null ? tombo.sub_familia.nome : ""} </span>
+                            <span> {tombo.taxonomia.sub_familia} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.genero !== null ? tombo.genero.nome : ""} </span>
+                            <span> {tombo.taxonomia.genero} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -183,13 +183,13 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.especy !== null ? tombo.especy.nome : ""} </span>
+                            <span> {tombo.taxonomia.especie.nome} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.sub_especy !== null ? tombo.sub_especy.nome : ""} </span>
+                            <span> {tombo.taxonomia.sub_especie.nome} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.variedade !== null ? tombo.variedade.nome : ""} </span>
+                            <span> {tombo.taxonomia.variedade.nome} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -205,13 +205,13 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.especy !== null && tombo.especy.autore !== null ? tombo.especy.autore.nome : ""} </span>
+                            <span> {tombo.taxonomia.especie.autor} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.especy !== null && tombo.especy.autore !== null ? tombo.sub_especy.autore.nome : ""} </span>
+                            <span> {tombo.taxonomia.sub_especie.autor} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.especy !== null && tombo.especy.autore !== null ? tombo.variedade.autore.nome : ""} </span>
+                            <span> {tombo.taxonomia.variedade.autor} </span>
                         </Col>
                     </Row>
                 </div>
@@ -237,13 +237,13 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.latitude} </span>
+                            <span> {tombo.localizacao.latitude} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.longitude} </span>
+                            <span> {tombo.localizacao.longitude} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.altitude}m </span>
+                            <span> {tombo.localizacao.altitude}m </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -259,13 +259,13 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.cidade.nome} </span>
+                            <span> {tombo.localizacao.cidade} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.cidade.estados_nome} </span>
+                            <span> {tombo.localizacao.estado} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.cidade.estados_paises_nome} </span>
+                            <span> {tombo.localizacao.pais} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
@@ -275,7 +275,7 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.complemento} </span>
+                            <span> {} </span>
                         </Col>
                     </Row>
                 </div>
@@ -301,23 +301,29 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.solo !== null ? tombo.locais_coletum.solo.nome : ""} </span>
+                            <span> {tombo.local_coleta.solo} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.relevo !== null ? tombo.locais_coletum.relevo.nome : ""} </span>
+                            <span> {tombo.local_coleta.relevo} </span>
                         </Col>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.vegetaco !== null && tombo.locais_coletum.vegetaco !== undefined ? tombo.locais_coletum.vegetaco.nome : ""} </span>
+                            <span> {tombo.local_coleta.vegetacao} </span>
                         </Col>
                     </Row>
                     <Row gutter={8}>
                         <Col span={8}>
                             <h4>Fase sucessional:</h4>
                         </Col>
+                        <Col span={8}>
+                            <h4>Descrição:</h4>
+                        </Col>
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.locais_coletum.fase_sucessional !== null ? tombo.locais_coletum.fase_sucessional.nome : ""} </span>
+                            <span> {tombo.local_coleta.fase_sucessional} </span>
+                        </Col>
+                        <Col span={8}>
+                            <span> {tombo.local_coleta.descricao} </span>
                         </Col>
                     </Row>
                 </div>
@@ -325,9 +331,6 @@ export default class DetalhesTomboScreen extends Component {
         }
     }
 
-    spanColetores = () => this.state.tombo.coletores.map(item => (
-        <span value={item.id}>{item.nome}, </span>
-    ));
 
     renderCollectors() {
         const tombo = this.state.tombo;
@@ -341,7 +344,7 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            {this.spanColetores()}
+                            <span> {tombo.coletores} </span>
                         </Col>
                     </Row>
                 </div>
@@ -384,14 +387,10 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={8} style={{ marginBottom: "20px" }}>
                         <Col span={8}>
-                            <span> {tombo.usuarios[0].nome} </span>
+                            <span> {} </span>
                         </Col>
                         <Col span={8}>
-                            <span>
-                                {tombo.data_identificacao_dia !== (undefined && null) ? tombo.data_identificacao_dia : '00'}/
-                                {tombo.data_identificacao_mes !== (undefined && null) ? tombo.data_identificacao_mes : '00'}/
-                                {tombo.data_identificacao_ano !== (undefined && null) ? tombo.data_identificacao_ano : '0000'}
-                            </span>
+                            <span> {tombo.data_identificacao} </span>
                         </Col>
                     </Row>
                 </div>
@@ -414,10 +413,10 @@ export default class DetalhesTomboScreen extends Component {
                     </Row>
                     <Row gutter={24}>
                         <Col span={8}>
-                            <span> {tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.tipo : ""} </span>
+                            <span> {tombo.colecao_anexa.tipo} </span>
                         </Col>
                         <Col span={12}>
-                            <span> {tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.observacoes : ""} </span>
+                            <span> {tombo.colecao_anexa.observacao} </span>
                         </Col>
                     </Row>
                 </div>
@@ -432,7 +431,7 @@ export default class DetalhesTomboScreen extends Component {
                 <div>
                     <Row type="flex" justify="center">
                         <Col span={12}>
-                            <GalleryComponent />
+                            <GalleryComponent fotos={tombo.fotos} />
                         </Col>
                     </Row>
                     <Divider dashed />
