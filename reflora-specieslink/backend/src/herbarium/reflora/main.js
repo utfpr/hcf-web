@@ -28,10 +28,14 @@ function main() {
             /* LOG console.log(dateTime.formatLog('Fazendo o select e verificando tombos alterados.')); */
             database.selectCountTombosAlteracao(connection, tombo.tombo_hcf).then(tombosAlterados => {
 
-                /* Chamamos essa função para verificar se esse tombo tem pendência ou não */
+                /**
+                 * Chamamos essa função para verificar se esse tombo tem pendência ou não
+                 */
                 if (!tombos.temPendencia(tombosAlterados)) {
                     /**
                      * Quando o tamanho é maior que zero, significa que tem tombos alterados
+                     * Detalhe que não dá para por junto com o if de cima, porque senão
+                     * se o tombo tem pendência ele irá realizar a comparação.
                      */
                     if (tombosAlterados.length > 0) {
                         /**
@@ -63,5 +67,5 @@ main();
 
 /**
  * Anotações
- * 1 - Verificar as coisas das horas
+ * 1 - Programação automática e manual.
  */
