@@ -1,3 +1,4 @@
+import tombos from '../tombos';
 import database from '../database';
 import queue from '../queue';
 
@@ -27,25 +28,30 @@ function main() {
             /* LOG console.log(dateTime.formatLog('Fazendo o select e verificando tombos alterados.')); */
             database.selectCountTombosAlteracao(connection, tombo.tombo_hcf).then(tombosAlterados => {
 
-                /**
-                 * Quando o tamanho é maior que zero, significa que tem tombos alterados
-                 */
-                if (tombosAlterados.length > 0) {
+                /* Chamamos essa função para verificar se esse tombo tem pendência ou não */
+                if (!tombos.temPendencia(tombosAlterados)) {
                     /**
-                     * Então primeiramente eu vou comparar com as alterações que foram feitas
+                     * Quando o tamanho é maior que zero, significa que tem tombos alterados
                      */
+                    if (tombosAlterados.length > 0) {
+                        /**
+                         * Então primeiramente eu vou comparar com as alterações que foram feitas
+                         */
+                        /**
+                         * Então faço a requisição ao reflora, se der match com algumas das sugestões
+                         * já paro e vou para o próximo tombo.
+                         */
+                        /**
+                         * Depois de comparar com as sugestões feitas (caso não encontre), devo comparar com
+                         * os valores da tabela de tombos. Mas como ele sai do if ele irá comparar com lá.
+                         */
+                    }
                     /**
-                     * Então faço a requisição ao reflora, se der match com algumas das sugestões
-                     * já paro e vou para o próximo tombo.
+                     * Caso contrário não foi alterado nenhum tombo, portanto só comparar com tabela de tombos
                      */
-                    /**
-                     * Depois de comparar com as sugestões feitas (caso não encontre), devo comparar com
-                     * os valores da tabela de tombos. Mas como ele sai do if ele irá comparar com lá.
-                     */
+
                 }
-                /**
-                 * Caso contrário não foi alterado nenhum tombo, portanto só comparar com tabela de tombos
-                 */
+
             });
 
         });
