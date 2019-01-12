@@ -1,8 +1,4 @@
-// import https from 'https';
-// import got from 'got';
-// import superagent from 'superagent';
-// import request from 'request';
-// import axios from 'axios';
+// import wget from 'node-wget';
 import tombos from '../tombos';
 import database from '../database';
 import queue from '../queue';
@@ -49,57 +45,13 @@ function main() {
                          * Então primeiramente eu vou comparar com as alterações que foram feitas
                          */
                         // const r = `http://servicos.jbrj.gov.br/v2/herbarium/${tombo.num_barra}`;
-                        /* HTTPS não deu certo sem sinal de vida 
-                        https.get(r, resp => {
-                            let body = '';
-                            resp.on('data', d => {
-                                body += d;
-                            });
-                            resp.on('end', () => {
-                                const parsed = JSON.parse(body);
-                                console.log(parsed);
-                            });
-                        }).on('error', err => {
-                            console.log(`Error: ${err.message}`);
-                        }); */
-                        /* Faz a requisição porém intercala sucesso e problemas 
-                        got(r).then(response => {
-                            console.log(`a${response.body}`);
-                        }).catch(error => {
-                            console.log(`c${error.response.body}`);
-                        });
-                        */
-                        /* Faz a requisição porém intercala sucesso e problemas */
-                        /* superagent.get(r)
-                            .end((err, res) => {
-                                if (err) { console.log(`c${err}`); }
-                                console.log(res.body.success);
-                            });
-                        */
-                        /* Faz a requisição porém intercala sucesso e problemas */
-                        /* request(r, { json: true }, (err, res, body) => {
-                            if (err) { console.log(`c${err}`); }
-                            // console.log(body.url);
-                            // console.log(body.explanation);
-                            console.log(body);
-                            //console.log(tombo.num_barra)
-                        }); */
-                        /* Faz a requisição porém intercala sucesso e problemas - Maneira 1 
-                        axios.all([axios.get(r)])
-                            .then(axios.spread(response1 => {
-                                console.log(response1.data.url);
-                            })).catch(err => {
+                        /* wget(r, (err, resp, body) => {
+                            if (err) {
                                 console.log(err);
-                            }); */
-                        /* Maneira 2 */
-                        /* axios.get(r)
-                            .then(response => {
-                                console.log(response.data.url);
-                                console.log(response.data.explanation);
-                            })
-                            .catch(error => {
-                                console.log(error);
-                            }); */
+                            } else {
+                                console.log(body);
+                            }
+                        }); */
                         /**
                          * Então faço a requisição ao reflora, se der match com algumas das sugestões
                          * já paro e vou para o próximo tombo.
