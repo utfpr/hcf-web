@@ -6,7 +6,11 @@ import cadastrarTipoEsquema from '../validators/tipo-cadastro';
 import coletorCadastro from '../validators/coletor-cadastro';
 import listagemTombo from '../validators/tombo-listagem';
 
-const controller = require('../controllers/tombos-controller');
+import {
+    getDadosCadTombo, getExportarDados, getNumeroTombo, cadastro, listagem,
+    desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
+    buscarProximoNumeroColetor,
+} from '../controllers/tombos-controller';
 
 export default app => {
 
@@ -15,7 +19,17 @@ export default app => {
             tokensMiddleware([
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
-            controller.getDadosCadTombo,
+            getDadosCadTombo,
+        ]);
+
+    app.route('/tombos/exportar')
+        .get([
+            getExportarDados,
+        ]);
+
+    app.route('/tombos/filtrar_numero/:id')
+        .get([
+            getNumeroTombo,
         ]);
 
     app.route('/tombos')
@@ -24,12 +38,12 @@ export default app => {
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
             validacoesMiddleware(cadastrarTomboEsquema),
-            controller.cadastro,
+            cadastro,
         ])
         .get([
             listagensMiddleware,
             validacoesMiddleware(listagemTombo),
-            controller.listagem,
+            listagem,
         ]);
 
     app.route('/tombos/:tombo_id')
@@ -37,11 +51,11 @@ export default app => {
             tokensMiddleware([
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
-            controller.desativar,
+            desativar,
         ])
         .get([
             listagensMiddleware,
-            controller.obterTombo,
+            obterTombo,
         ]);
 
 
@@ -51,10 +65,10 @@ export default app => {
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
             validacoesMiddleware(cadastrarTipoEsquema),
-            controller.cadastrarTipo,
+            cadastrarTipo,
         ])
         .get([
-            controller.buscarTipos,
+            buscarTipos,
         ]);
 
     app.route('/coletores')
@@ -63,10 +77,10 @@ export default app => {
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
             validacoesMiddleware(coletorCadastro),
-            controller.cadastrarColetores,
+            cadastrarColetores,
         ])
         .get([
-            controller.buscarColetores,
+            buscarColetores,
         ]);
 
     app.route('/numero-coletores')
@@ -74,7 +88,7 @@ export default app => {
             tokensMiddleware([
                 TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
             ]),
-            controller.buscarProximoNumeroColetor,
+            buscarProximoNumeroColetor,
         ]);
 
 };

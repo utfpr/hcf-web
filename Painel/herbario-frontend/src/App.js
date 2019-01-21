@@ -45,6 +45,7 @@ import {
     getTokenUsuario,
     isCurador,
     isCuradorOuOperador,
+    isCuradorOuOperadorOuIdentificador
 } from './helpers/usuarios';
 
 axios.defaults.baseURL = 'http://localhost:3003/api';
@@ -85,11 +86,11 @@ export default class App extends Component {
 
                 <Route path="/tombos/detalhes/:tombo_id" component={DetalhesTomboScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/tombos/novo" component={NovoTomboScreen} />
-                <PrivateRoute authed={isCuradorOuOperador()} path="/tombos/:tombo_id" component={NovoTomboScreen} />
+                <PrivateRoute authed={isCuradorOuOperadorOuIdentificador()} path="/tombos/:tombo_id" component={NovoTomboScreen} />
                 <Route path="/tombos" component={ListaTombosScreen} />
-                <PrivateRoute authed={isCurador()} path="/ver-pendencia" component={PendenciaPagina} />
                 <Route path="/taxonomias" component={ListaTaxonomiaScreen} />
-                <PrivateRoute authed={isCurador()} path="/pendencias" component={ListaPendenciasScreen} />
+                <PrivateRoute authed={isCuradorOuOperador()} path="/pendencias/:pendencia_id" component={PendenciaPagina} />
+                <PrivateRoute authed={isCuradorOuOperador()} path="/pendencias" component={ListaPendenciasScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/remessas/novo" component={NovaRemessaScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/remessas/:remessa_id" component={NovaRemessaScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/remessas" component={ListaRemessasScreen} />

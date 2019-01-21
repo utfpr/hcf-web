@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
-import { Divider, Icon, Modal, Card, Row, Col, Form, Select, Input, Button, notification, InputNumber } from 'antd';
+import {
+    Divider, Icon, Modal, Card, Row,
+    Col, Form, Select, Input, Button,
+    notification, InputNumber, Collapse,
+    Tag, Checkbox, Spin
+} from 'antd';
 import axios from 'axios';
 import SimpleTableComponent from '../components/SimpleTableComponent';
-import ExportarComponent from '../components/ExportarComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
 import { Link } from 'react-router-dom';
+import debounce from 'lodash/debounce';
 
 const confirm = Modal.confirm;
 const FormItem = Form.Item;
 const Option = Select.Option;
+const Panel = Collapse.Panel;
 
 const columns = [
     {
@@ -50,8 +56,13 @@ class ListaTombosScreen extends Component {
             tombos: [],
             metadados: {},
             loading: true,
-            pagina: 1
+            pagina: 1,
+            data: [],
+            value: [],
+            fetching: false,
         }
+        this.lastFetchId = 0;
+        this.fetchUser = debounce(this.fetchUser, 800);
     }
 
     requisitaExclusao(id) {
@@ -217,6 +228,14 @@ class ListaTombosScreen extends Component {
         }
     }
 
+    handleChangeTombo = (value) => {
+        this.setState({
+            value,
+            data: [],
+            fetching: false,
+        });
+    }
+
     onSubmit = event => {
         event.preventDefault();
         this.props.form.validateFields(this.handleSubmit);
@@ -227,7 +246,7 @@ class ListaTombosScreen extends Component {
             <Card title="Buscar Tombo">
                 <Form onSubmit={this.onSubmit}>
                     <Row gutter={8}>
-                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                        <Col xs={24} sm={12} md={8} lg={8} xl={8}>
                             <Col span={24}>
                                 <span>HCF:</span>
                             </Col>
@@ -242,7 +261,7 @@ class ListaTombosScreen extends Component {
                                 </FormItem>
                             </Col>
                         </Col>
-                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                        <Col xs={24} sm={12} md={8} lg={8} xl={8}>
                             <Col span={24}>
                                 <span>Tipo:</span>
                             </Col>
@@ -258,7 +277,7 @@ class ListaTombosScreen extends Component {
                                 </FormItem>
                             </Col>
                         </Col>
-                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                        <Col xs={24} sm={24} md={8} lg={8} xl={8}>
                             <Col span={24}>
                                 <span>Situação:</span>
                             </Col>
@@ -280,7 +299,7 @@ class ListaTombosScreen extends Component {
 
 
                     <Row gutter={8}>
-                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                        <Col xs={24} sm={12} md={8} lg={8} xl={8}>
                             <Col span={24}>
                                 <span>Nome científico:</span>
                             </Col>
@@ -292,7 +311,7 @@ class ListaTombosScreen extends Component {
                                 </FormItem>
                             </Col>
                         </Col>
-                        <Col xs={24} sm={8} md={8} lg={8} xl={8}>
+                        <Col xs={24} sm={12} md={8} lg={8} xl={8}>
                             <Col span={24}>
                                 <span>Nome popular:</span>
                             </Col>
@@ -327,7 +346,6 @@ class ListaTombosScreen extends Component {
 									</Button>
                             </FormItem>
                         </Col>
-
                         <Col xs={24} sm={8} md={6} lg={4} xl={4}>
                             <FormItem>
                                 <Button
@@ -339,11 +357,420 @@ class ListaTombosScreen extends Component {
 									</Button>
                             </FormItem>
                         </Col>
-
-
                     </Row>
+
                 </Form>
             </Card >
+        )
+    }
+
+    handleSubmitExport = event => {
+        event.preventDefault();
+
+        console.log(event)
+
+        const {
+            exDataColeta, exFamilia, exSubfamilia, exGenero, exEspecie,
+            exSubespecie, exVariedade, exAutor, exNumTombo, exSeqTombo,
+            exCodBarra, exLatitude, exLongitude, exAltitude, exNumColeta,
+            exColetores, exHcf, exDe, exAte, exTombos
+        } = this.props.form.getFieldsValue();
+        let total = 0;
+        let exportarSelecionados = [];
+
+        if (exDataColeta) {
+            total++;
+            exportarSelecionados.push("data_coleta");
+        } else if (exFamilia) {
+            total++;
+            exportarSelecionados.push("familia");
+        } else if (exSubfamilia) {
+            total++;
+            exportarSelecionados.push("subfamilia");
+        } else if (exGenero) {
+            total++;
+            exportarSelecionados.push("genero");
+        } else if (exEspecie) {
+            total++;
+            exportarSelecionados.push("especie");
+        } else if (exSubespecie) {
+            total++;
+            exportarSelecionados.push("subespecie");
+        } else if (exVariedade) {
+            total++;
+            exportarSelecionados.push("variedade");
+        } else if (exAutor) {
+            total++;
+            exportarSelecionados.push("autor");
+        } else if (exNumTombo) {
+            total++;
+            exportarSelecionados.push("num_tombo");
+        } else if (exSeqTombo) {
+            total++;
+            exportarSelecionados.push("seq_tombo");
+        } else if (exCodBarra) {
+            total++;
+            exportarSelecionados.push("cod_barra");
+        } else if (exLatitude) {
+            total++;
+            exportarSelecionados.push("latitude");
+        } else if (exLongitude) {
+            total++;
+            exportarSelecionados.push("longitude");
+        } else if (exAltitude) {
+            total++;
+            exportarSelecionados.push("altitude");
+        } else if (exNumColeta) {
+            total++;
+            exportarSelecionados.push("num_coleta");
+        } else if (exColetores) {
+            total++;
+            exportarSelecionados.push("coletores");
+        } else if (exHcf) {
+            total++;
+            exportarSelecionados.push("hcf");
+        }
+
+        if (total > 5 || total == 0) {
+            this.openNotificationWithIcon("warning", "Alerta", "Você tem que selecionar de 1 à 5 itens para serem exportados.");
+        } else {
+
+            if ((!exDe && !exAte && !exTombos) || ((exDe || exAte) && exTombos)) {
+                this.openNotificationWithIcon("warning", "Alerta", "Você tem que selecionar um perído de tombos, ou tombos especificos.");
+            } else {
+                this.setState({
+                    loading: true,
+                })
+                const params = {
+                    de: exDe,
+                    ate: exAte,
+                    tombos: exTombos,
+                    campos: exportarSelecionados,
+                }
+                axios.get('/tombos/exportar', { params })
+                    .then(response => {
+                        this.setState({
+                            loading: false
+                        });
+
+                        this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
+
+                    })
+                    .catch(err => {
+                        this.setState({
+                            loading: false
+                        });
+                        if (response.status == 400) {
+                            this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                        } else {
+                            this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
+                        }
+                        const { response } = err;
+                        if (response && response.data) {
+                            const { error } = response.data;
+                            throw new Error(error.message);
+                        } else {
+                            throw err;
+                        }
+                    })
+            }
+
+        }
+
+    }
+
+    openNotificationWithIcon = (type, message, description) => {
+        notification[type]({
+            message: message,
+            description: description,
+        });
+    };
+
+    fetchUser = (value) => {
+        this.lastFetchId += 1;
+        const fetchId = this.lastFetchId;
+        this.setState({ data: [], fetching: true });
+        console.log("valueeeee")
+        console.log(value)
+        axios.get(`/tombos/filtrar_numero/${value}`)
+            .then(response => {
+                if (response.status === 200) {
+                    if (fetchId !== this.lastFetchId) { // for fetch callback order
+                        return;
+                    }
+                    const data = response.data.map(item => ({
+                        text: `${item.hcf}`,
+                        value: item.hcf,
+                    }));
+                    this.setState({ data, fetching: false });
+                }
+            })
+            .catch(err => {
+                const { response } = err;
+                if (response && response.data) {
+                    const { error } = response.data;
+                    throw new Error(error.message);
+                } else {
+                    throw err;
+                }
+            })
+    }
+
+    renderExportar(getFieldDecorator) {
+        const { fetching, data, value } = this.state;
+
+        return (
+            <Form onSubmit={this.handleSubmitExport}>
+                <Collapse accordion>
+                    <Panel header="Selecione os campos a serem exportados:" key="1">
+
+                        <Row gutter={8}>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exHcf')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="red">HCF</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exDataColeta')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="magenta">Data da Coleta</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exFamilia')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="red">Família</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exSubfamilia')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="green">Subfamília</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exGenero')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="red">Gênero</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exEspecie')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="blue">Espécie</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exSubespecie')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="blue">Subespécie</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exVariedade')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="red">Variedade</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exAutor')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="orange">Autor</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exNumTombo')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="gold">Nº Tombo</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exSeqTombo')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="yellow">Sequencia do tombo</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={6} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exCodBarra')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="gold">Codigo de barra</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exLatitude')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="purple">Latitude</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exLongitude')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="green">Longitude</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exAltitude')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="green">Altitude</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exNumColeta')(
+                                        <Checkbox >
+                                            {" "}
+                                            <Tag color="volcano">Nº Coleta</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
+                                <FormItem>
+                                    {getFieldDecorator('exColetores')(
+                                        <Checkbox>
+                                            {" "}
+                                            <Tag color="geekblue">Coletores</Tag>
+                                        </Checkbox>
+                                    )}
+                                </FormItem>
+                            </Col>
+                        </Row>
+                        <Divider dashed />
+                        <Row gutter={8}>
+                            <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                                <Col span={24}>
+                                    <span>A partir de:</span>
+                                </Col>
+                                <Col span={24}>
+                                    <FormItem>
+                                        {getFieldDecorator('exDe')(
+                                            <InputNumber
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Col>
+                            <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                                <Col span={24}>
+                                    <span>Até:</span>
+                                </Col>
+                                <Col span={24}>
+                                    <FormItem>
+                                        {getFieldDecorator('exAte')(
+                                            <InputNumber
+                                                style={{ width: "100%" }}
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Col>
+                        </Row>
+                        <Row gutter={8} type="flex" justify="center">
+                            <span>OU</span>
+                        </Row>
+                        <Row gutter={8} style={{ marginTop: '20px' }}>
+                            <Col span={24}>
+                                <Col span={24}>
+                                    <span>Numeros dos tombos a serem exportados:</span>
+                                </Col>
+                                <Col span={24}>
+                                    <FormItem>
+                                        {getFieldDecorator('exTombos')(
+                                            <Select
+                                                mode="multiple"
+                                                labelInValue
+                                                value={value}
+                                                placeholder=""
+                                                notFoundContent={fetching ? <Spin size="small" /> : null}
+                                                filterOption={false}
+                                                onSearch={this.fetchUser}
+                                                onChange={this.handleChangeTombo}
+                                                style={{ width: '100%' }}
+                                            >
+                                                {data.map(d => <Option key={d.value}>{d.text}</Option>)}
+                                            </Select>
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Col>
+                        </Row>
+                        <Divider dashed />
+                        <Row gutter={8} type="flex" justify="end">
+                            <Button
+                                type="primary"
+                                icon="export"
+                                htmlType="submit"
+                                style={{ backgroundColor: "#FF7F00", borderColor: "#FF7F00" }}
+                            >
+                                Exportar
+                                    </Button>
+                        </Row>
+                    </Panel>
+                </Collapse>
+
+            </Form >
         )
     }
 
@@ -369,7 +796,7 @@ class ListaTombosScreen extends Component {
                     }}
                 />
                 <Divider dashed />
-                <ExportarComponent />
+                {this.renderExportar(getFieldDecorator)}
             </div>
         );
     }

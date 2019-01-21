@@ -15,7 +15,7 @@ const FormItem = Form.Item;
 
 export default class ExportarComponent extends Component {
 
-    state = {};
+    state = {}; 
 
     handleSubmit = e => {
         e.preventDefault();

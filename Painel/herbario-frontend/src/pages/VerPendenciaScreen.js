@@ -5,6 +5,7 @@ import HeaderListComponent from '../components/HeaderListComponent';
 import GalleryComponent from '../components/GalleryComponent';
 
 const { TextArea } = Input;
+const FormItem = Form.Item;
 
 const data = [
     {
@@ -52,58 +53,75 @@ const columns = [
     }
 ];
 
-export default class VerPendenciaScreen extends Component {
+class VerPendenciaScreen extends Component {
 
     render() {
+        const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.handleSubmit}>
                 <HeaderListComponent title={"Modificações"} add={false} />
                 <Divider dashed />
-                <Row type="flex" justify="center">
-                    <Col span={12}>
-                        <GalleryComponent />
+                <Row gutter={8}>
+                    <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Fotos antigas:</span>
+                        </Col>
+                        <Col span={24}>
+                            <GalleryComponent />
+                        </Col>
+                    </Col>
+                    <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Novas fotos:</span>
+                        </Col>
+                        <Col span={24}>
+                            <GalleryComponent />
+                        </Col>
                     </Col>
                 </Row>
                 <Divider dashed />
                 <Row gutter={8} style={{ marginBottom: "20px" }}>
-                    <SimpleTableComponent columns={columns} data={data} noAction={true} pagination={false} />
+                    <SimpleTableComponent pageSize={30} columns={columns} data={data} noAction={true} pagination={false} />
                 </Row>
+                <Divider dashed />
+
+
                 <Row gutter={8} style={{ marginBottom: "10px" }}>
-                    <Col span={8}>
-                        <span>Observação:</span>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
                     <Col span={24}>
-                        <TextArea rows={8} />
+                        <Col span={24}>
+                            <span>Observação:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('observacao')(
+                                    <TextArea rows={8} />
+                                )}
+                            </FormItem>
+                        </Col>
                     </Col>
                 </Row>
                 <Divider dashed />
-                <Row>
-                    <Col span={24}>
-                        <Row type="flex" justify="end">
-                            <Col span={4}>
-                                <Button type="primary" icon="check" style={{
-                                    backgroundColor: "#5cb85c",
-                                    borderColor: "#4cae4c"
-                                }}>Aprovar</Button>
-                            </Col>
-                            <Col span={4}>
-                                <Button type="primary" icon="exclamation" style={{
-                                    backgroundColor: "#f0ad4e",
-                                    borderColor: "#eea236"
-                                }}>Arrumar</Button>
-                            </Col>
-                            <Col span={4}>
-                                <Button type="primary" icon="close" style={{
-                                    backgroundColor: "#d9534f",
-                                    borderColor: "#d43f3a"
-                                }}>Reprovar</Button>
-                            </Col>
-                        </Row>
+                <Row type="flex" justify="end" gutter={4}>
+                    <Col xs={24} sm={8} md={6} lg={4} xl={4}>
+                        <FormItem>
+                            <Button type="primary" icon="check" style={{
+                                backgroundColor: "#5cb85c",
+                                borderColor: "#4cae4c"
+                            }}>Aprovar</Button>
+                        </FormItem>
+                    </Col>
+                    <Col xs={24} sm={8} md={6} lg={4} xl={4}>
+                        <FormItem>
+                            <Button type="primary" icon="close" style={{
+                                backgroundColor: "#d9534f",
+                                borderColor: "#d43f3a"
+                            }}>Reprovar</Button>
+                        </FormItem>
                     </Col>
                 </Row>
             </Form>
         );
     }
 }
+
+export default Form.create()(VerPendenciaScreen);

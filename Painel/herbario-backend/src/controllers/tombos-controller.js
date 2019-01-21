@@ -6,6 +6,8 @@ import models from '../models';
 import codigos from '../resources/codigosHTTP';
 import pick from '../helpers/pick';
 import { converteParaDecimal } from '../helpers/coordenadas';
+import { converteInteiroParaRomano } from '../helpers/tombo';
+
 
 const {
     Solo, Relevo, Cidade, Vegetacao, FaseSucessional, Pais, Tipo, LocalColeta, Familia, sequelize,
@@ -21,7 +23,17 @@ export const cadastro = (request, response, next) => {
     } = request.body.json;
 
     const callback = transaction => Promise.resolve()
-        .then(() => {
+        .then(() => Tombo.findOne({
+            where: {
+                numero_coleta: principal.numero_coleta,
+            },
+            transaction,
+        }))
+        .then(tombo => {
+            if (tombo) {
+                throw new BadRequestExeption(417);
+            }
+
             if (!paisagem || !paisagem.solo_id) {
                 return undefined;
             }
@@ -73,7 +85,7 @@ export const cadastro = (request, response, next) => {
             if (paisagem && paisagem.fase_sucessional_id) {
                 return FaseSucessional.findOne({
                     where: {
-                        id: paisagem.fase_sucessional_id,
+                        numero: paisagem.fase_sucessional_id,
                     },
                     transaction,
                 });
@@ -142,10 +154,10 @@ export const cadastro = (request, response, next) => {
             return undefined;
         })
         .then(() => {
-            if (taxonomia && taxonomia.subfamilia_id) {
+            if (taxonomia && taxonomia.sub_familia_id) {
                 return Subfamilia.findOne({
                     where: {
-                        id: taxonomia.subfamilia_id,
+                        id: taxonomia.sub_familia_id,
                         familia_id: taxonomia.familia_id,
                     },
                     transaction,
@@ -154,7 +166,7 @@ export const cadastro = (request, response, next) => {
             return undefined;
         })
         .then(subfamilia => {
-            if (taxonomia && taxonomia.subfamilia_id) {
+            if (taxonomia && taxonomia.sub_familia_id) {
                 if (!subfamilia) {
                     throw new BadRequestExeption(403);
                 }
@@ -205,10 +217,10 @@ export const cadastro = (request, response, next) => {
             return undefined;
         })
         .then(() => {
-            if (taxonomia && taxonomia.subespecie_id) {
+            if (taxonomia && taxonomia.sub_especie_id) {
                 return Subespecie.findOne({
                     where: {
-                        id: taxonomia.subespecie_id,
+                        id: taxonomia.sub_especie_id,
                         especie_id: taxonomia.especie_id,
                     },
                     transaction,
@@ -217,7 +229,7 @@ export const cadastro = (request, response, next) => {
             return undefined;
         })
         .then(subespecie => {
-            if (taxonomia && taxonomia.subespecie_id) {
+            if (taxonomia && taxonomia.sub_especie_id) {
                 if (!subespecie) {
                     throw new BadRequestExeption(406);
                 }
@@ -314,9 +326,13 @@ export const cadastro = (request, response, next) => {
                 throw new BadRequestExeption(408);
             }
             let status = 'ESPERANDO';
+            let isIdentificacao = 0;
             principal.hcf = tombo.hcf;
             if (request.usuario.tipo_usuario_id === 1) {
                 status = 'APROVADO';
+            }
+            if (identificacao && identificacao.identificador_id) {
+                isIdentificacao = 1;
             }
 
             return Alteracao.create({
@@ -325,6 +341,7 @@ export const cadastro = (request, response, next) => {
                 status,
                 tombo_json: JSON.stringify(tombo),
                 ativo: true,
+                identificacao: isIdentificacao,
             }, { transaction });
         })
         // /////////////// CADASTRA O COLETOR ///////////////
@@ -859,7 +876,7 @@ export const obterTombo = (request, response, next) => {
         }))
         .then(tombo => {
             console.log(tombo.data_tombo); // eslint-disable-line
-            response.status(codigos.BUSCAR_UM_ITEM).json(tombo);
+            // response.status(codigos.BUSCAR_UM_ITEM).json(tombo);
 
             if (!tombo) {
                 throw new BadRequestExeption(416);
@@ -963,6 +980,276 @@ export const obterTombo = (request, response, next) => {
             resposta.fotos = formatoFotos;
             response.status(codigos.BUSCAR_UM_ITEM)
                 .json(resposta);
+        })
+        .catch(next);
+};
+
+export const getExportarDados = (request, response, next) => {
+    const {
+        de, ate, tombos, campos,
+    } = request.query;
+    let parametros = {};
+    let retorno = {};
+
+    /*  campos:
+        data_coleta, familia, subfamilia, genero, especie, subespecie, variedade,
+        autor, seq_tombo, cod_barra, latitude, longitude, altitude,
+        num_coleta, coletores, hcf
+    */
+
+    Promise.resolve()
+        .then(() => {
+            if (campos === undefined && (campos.length > 5 || campos.length === 0)) {
+                throw new BadRequestExeption(418);
+            }
+            let where = {
+                rascunho: 0,
+                ativo: 1,
+            };
+            let whereFotos = {};
+            if (de && ate) {
+                where = {
+                    ...where,
+                    hcf: {
+                        [Op.gte]: de,
+                        [Op.lte]: ate,
+                    },
+                };
+                whereFotos = {
+                    tombo_hcf: {
+                        [Op.gte]: de,
+                        [Op.lte]: ate,
+                    },
+                };
+            } else if (de) {
+                where = {
+                    ...where,
+                    hcf: {
+                        [Op.gte]: de,
+                    },
+                };
+                whereFotos = {
+                    tombo_hcf: {
+                        [Op.gte]: de,
+                    },
+                };
+            } else if (ate) {
+                where = {
+                    ...where,
+                    hcf: {
+                        [Op.lte]: ate,
+                    },
+                };
+                whereFotos = {
+                    tombo_hcf: {
+                        [Op.lte]: ate,
+                    },
+                };
+            } else {
+                where = {
+                    ...where,
+                    hcf: {
+                        [Op.in]: tombos,
+                    },
+                };
+                whereFotos = {
+                    tombo_hcf: {
+                        [Op.in]: tombos,
+                    },
+                };
+            }
+            retorno = {
+                where,
+                whereFotos,
+            };
+        })
+        .then(() => Tombo.findAll({
+            attributes: [
+                'hcf',
+                'data_coleta_dia',
+                'data_coleta_mes',
+                'data_coleta_ano',
+                'latitude',
+                'longitude',
+                'altitude',
+                'numero_coleta',
+
+            ],
+            include: [
+                {
+                    model: Familia,
+                },
+                {
+                    model: Subfamilia,
+                },
+                {
+                    model: Genero,
+                },
+                {
+                    model: Especie,
+                },
+                {
+                    model: Subespecie,
+                },
+                {
+                    model: Variedade,
+                },
+                {
+                    model: Coletor,
+                },
+            ],
+            where: retorno.where,
+        }))
+        .then(tombo => {
+            parametros = {
+                tombo,
+            };
+        })
+        .then(() => TomboFoto.findAll({
+            where: retorno.whereFotos,
+        }))
+        .then(fotos => {
+            parametros = {
+                ...parametros,
+                fotos,
+            };
+        })
+        .then(() => {
+
+            retorno = parametros.tombo.map(tombo => {
+                let objeto = {};
+                if (campos.includes('data_coleta')) {
+                    let dataColeta = '';
+                    if (tombo.data_coleta_dia) {
+                        dataColeta = `${tombo.data_coleta_dia}`;
+                    }
+                    if (tombo.data_coleta_mes) {
+                        dataColeta += `/${converteInteiroParaRomano(tombo.data_coleta_mes)}`;
+                    }
+                    if (tombo.data_coleta_ano) {
+                        dataColeta += `/${tombo.data_coleta_ano}`;
+                    }
+                    objeto = {
+                        data_coleta: dataColeta,
+                    };
+                }
+                if (campos.includes('familia')) {
+                    objeto = {
+                        ...objeto,
+                        familia: tombo.familia ? tombo.familia.nome : '',
+                    };
+                }
+                if (campos.includes('subfamilia')) {
+                    objeto = {
+                        ...objeto,
+                        subfamilia: tombo.subfamilia ? tombo.subfamilia.nome : '',
+                    };
+                }
+                if (campos.includes('genero')) {
+                    objeto = {
+                        ...objeto,
+                        genero: tombo.genero ? tombo.genero.nome : '',
+                    };
+                }
+                if (campos.includes('especie')) {
+                    objeto = {
+                        ...objeto,
+                        especie: tombo.especy ? tombo.especy.nome : '',
+                    };
+                    if (campos.includes('autor')) {
+                        objeto = {
+                            ...objeto,
+                            especie: tombo.especy.autor ? tombo.especy.autor.nome : '',
+                        };
+                    }
+                }
+                if (campos.includes('subespecie')) {
+                    objeto = {
+                        ...objeto,
+                        subespecie: tombo.sub_especy ? tombo.sub_especy.nome : '',
+                    };
+                    if (campos.includes('autor')) {
+                        objeto = {
+                            ...objeto,
+                            autor_subespecie: tombo.sub_especy.autor ? tombo.sub_especy.autor.nome : '',
+                        };
+                    }
+                }
+                if (campos.includes('variedade')) {
+                    objeto = {
+                        ...objeto,
+                        variedade: tombo.variedade ? tombo.variedade.nome : '',
+                    };
+                    if (campos.includes('autor')) {
+                        objeto = {
+                            ...objeto,
+                            autor_variedade: tombo.variedade.autor ? tombo.variedade.autor.nome : '',
+                        };
+                    }
+                }
+                if (campos.includes('latitude')) {
+                    objeto = {
+                        ...objeto,
+                        latitude: tombo.latitude ? tombo.longitude : '',
+                    };
+                }
+                if (campos.includes('longitude')) {
+                    objeto = {
+                        ...objeto,
+                        especie: tombo.longitude ? tombo.longitude : '',
+                    };
+                }
+                if (campos.includes('altitude')) {
+                    objeto = {
+                        ...objeto,
+                        altitude: tombo.altitude ? tombo.altitude : '',
+                    };
+                }
+                if (campos.includes('numero_coleta')) {
+                    objeto = {
+                        ...objeto,
+                        altitude: tombo.numero_coleta ? tombo.numero_coleta : '',
+                    };
+                }
+                if (campos.includes('coletores')) {
+                    if (campos.includes('tombo.coletores')) {
+                        objeto = {
+                            ...objeto,
+                            coletores: tombo.coletores.map(coletor => `${coletor.nome},`).toString(),
+                        };
+                    }
+                }
+                if (campos.includes('hcf')) {
+                    objeto = {
+                        ...objeto,
+                        hcf: tombo.hcf ? tombo.hcf : '',
+                    };
+                }
+                return objeto;
+            });
+
+
+            response.status(codigos.EXPORTAR)
+                .json(retorno);
+        })
+        .catch(next);
+};
+
+export const getNumeroTombo = (request, response, next) => {
+    const { id } = request.params;
+    console.log(id); // eslint-disable-line
+    Promise.resolve()
+        .then(() => Tombo.findAll({
+            where: {
+                hcf: { [Op.like]: `%${id}%` },
+            },
+            attributes: [
+                'hcf',
+            ],
+        }))
+        .then(tombos => {
+            response.status(codigos.BUSCAR_UM_ITEM)
+                .json(tombos);
         })
         .catch(next);
 };

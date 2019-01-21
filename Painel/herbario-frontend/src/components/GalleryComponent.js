@@ -32,6 +32,6 @@ export default class GalleryComponent extends Component {
             }
         ];
 
-        return <ImageGallery items={this.props.fotos} />;
+        return <ImageGallery items={this.props.fotos || images} />;
     }
 }

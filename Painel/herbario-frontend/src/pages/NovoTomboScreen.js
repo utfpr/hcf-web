@@ -18,13 +18,15 @@ import UploadPicturesComponent from '../components/UploadPicturesComponent';
 import ModalCadastroComponent from '../components/ModalCadastroComponent';
 import ButtonComponent from '../components/ButtonComponent';
 import CoordenadaInputText from '../components/CoordenadaInputText';
-
 import tomboParaRequisicao from '../helpers/conversoes/TomboParaRequisicao';
+import { isIdentificador } from '../helpers/usuarios';
+
 
 const FormItem = Form.Item;
 const Option = Select.Option;
 const { TextArea } = Input;
 const RadioGroup = Radio.Group;
+
 
 class NovoTomboScreen extends Component {
 
@@ -180,6 +182,7 @@ class NovoTomboScreen extends Component {
         if (dataColetaAno) json.principal.data_coleta = { ...json.principal.data_coleta, ano: dataColetaAno };
         if (tipo) json.principal.tipo_id = tipo;
         json.principal.cor = localidadeCor;
+        console.log("PASSSSOU2")
         if (familia) json.taxonomia = { ...json.taxonomia, familia_id: familia };
         if (genero) json.taxonomia = { ...json.taxonomia, genero_id: genero };
         if (subfamilia) json.taxonomia = { ...json.taxonomia, sub_familia_id: subfamilia };
@@ -195,7 +198,7 @@ class NovoTomboScreen extends Component {
         if (relevoDescricao) json.paisagem = { ...json.paisagem, descricao: relevoDescricao };
         if (relevo) json.paisagem = { ...json.paisagem, relevo_id: relevo };
         if (vegetacao) json.paisagem = { ...json.paisagem, vegetacao_id: vegetacao };
-        if (fases) json.paisagem = { ...json.paisagem, fase_sucessional: fases };
+        if (fases) json.paisagem = { ...json.paisagem, fase_sucessional_id: fases };
         if (identificador) json.identificacao = { identificador_id: identificador };
         if (dataIdentDia) {
             json.identificacao = {
@@ -223,6 +226,7 @@ class NovoTomboScreen extends Component {
                 }
             }
         }
+        console.log("PASSSSOU1")
         const converterInteiroColetores = () => coletores.map(item => parseInt(item));
         json.coletores = converterInteiroColetores()
         if (tipoColecaoAnexa) json.colecoes_anexas = { tipo: tipoColecaoAnexa };
@@ -231,23 +235,9 @@ class NovoTomboScreen extends Component {
         if (autorEspecie) json.autores = { especie: autorEspecie };
         if (autoresSubespecie) json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade) json.autores = { ...json.autores, variedade: autorVariedade };
-
+        console.log("PASSSSOU")
         console.log(json);
         axios.post('/tombos', { json })
-            .then(response => {
-                this.setState({
-                    loading: false
-                });
-                if (response.status === 201) {
-                    this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
-                } else if (response.status === 400) {
-                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
-                } else {
-                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
-                }
-
-                return response;
-            })
             .then(response => {
                 if (response.status === 201) {
                     const tombo = response.data
@@ -277,13 +267,23 @@ class NovoTomboScreen extends Component {
                 }
 
             })
-            .then(() => {
-                console.log('Acabou as requisições de foto');
+            .then(response => {
+                this.setState({
+                    loading: false
+                });
+
+                this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
+
             })
             .catch(err => {
                 this.setState({
                     loading: false
                 });
+                if (response.status == 400) {
+                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                } else {
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
+                }
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
@@ -2594,6 +2594,28 @@ class NovoTomboScreen extends Component {
         }
     }
 
+    renderConteudoIdentificador() {
+        const { getFieldDecorator } = this.props.form;
+        return (
+            <Form onSubmit={this.handleSubmit}>
+                <Row>
+                    <Col span={12}>
+                        <h2 style={{ fontWeight: 200 }}>Tombo</h2>
+                    </Col>
+                </Row>
+                <Divider dashed />
+                {this.renderFamiliaTombo(getFieldDecorator)}
+                <Divider dashed />
+                <Row type="flex" justify="end">
+                    <Col xs={24} sm={8} md={3} lg={3} xl={3}>
+                        <ButtonComponent titleButton={"Salvar"} />
+                    </Col>
+                </Row>
+
+            </Form>
+        )
+    }
+
     renderConteudo() {
         // console.log(this.state.fotosExsicata)
         const { getFieldDecorator } = this.props.form;
@@ -2780,16 +2802,23 @@ class NovoTomboScreen extends Component {
         );
     }
 
+    renderPorTipo() {
+        if (isIdentificador()) {
+            return this.renderConteudoIdentificador()
+        }
+        return this.renderConteudo()
+    }
+
     render() {
         if (this.state.loading) {
             return (
                 <Spin tip="Carregando...">
-                    {this.renderConteudo()}
+                    {this.renderPorTipo()}
                 </Spin>
             )
         }
         return (
-            this.renderConteudo()
+            this.renderPorTipo()
         );
     }
 }

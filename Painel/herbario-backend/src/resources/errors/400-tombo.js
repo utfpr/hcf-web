@@ -16,4 +16,7 @@ export default {
     414: 'Erro ao cadastrar o coletor.',
     415: 'Erro ao buscar o coletor',
     416: 'Tombo não encontrado.',
+    417: 'Número de coleta já cadastrado.',
+    418: 'Informe uma quantidade válida de campos a serem exportados, 1 à 5.',
+
 };

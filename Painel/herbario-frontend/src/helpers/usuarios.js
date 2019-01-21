@@ -17,6 +17,10 @@ export const isCurador = () => (storage.usuario.tipo_usuario_id) === 1;
 
 export const isCuradorOuOperador = () => (storage.usuario.tipo_usuario_id) === 1 || (storage.usuario.tipo_usuario_id) === 2;
 
+export const isCuradorOuOperadorOuIdentificador = () => (storage.usuario.tipo_usuario_id) === 1 || (storage.usuario.tipo_usuario_id) === 2 || (storage.usuario.tipo_usuario_id) === 3;
+
+export const isIdentificador = () => (storage.usuario.tipo_usuario_id) === 3;
+
 export const getUsuario = () => storage.usuario;
 
 export const setUsuario = usuario => {
