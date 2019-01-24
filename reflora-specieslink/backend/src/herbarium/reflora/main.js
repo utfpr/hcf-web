@@ -1,77 +1,38 @@
-// import wget from 'node-wget';
-import tombos from '../tombos';
 import database from '../database';
 import queue from '../queue';
+import tombos from '../tombos';
 
 function main() {
-    /* LOG console.log(dateTime.formatLog('Inicializando a integração com o Reflora.')); */
-
-    /* LOG console.log(dateTime.formatLog('Estabelecendo uma conexão com o banco de dados.')); */
+    /**
+     * Cria uma conexão com o BD.
+     */
     const connection = database.createConnection();
 
-    /* LOG console.log(dateTime.formatLog('Testando a conexão com o banco de dados.')); */
+    /**
+     * Testa a conexão com o BD
+     */
     database.testConnection(connection);
 
-    /* LOG console.log(dateTime.formatLog('Fazendo o select e armazenando o número de tombo e o códgio de barra.')); */
+    /**
+     * Faz o select no BD na tabela de tombos_fots.
+     */
     database.selectTombosFotos(connection).then(tombosFotos => {
-        const queueTombos = queue.enqueue(tombosFotos);
+        const queueTombos = queue.enqueueTombosFotos(tombosFotos);
 
         /**
          * Um tombo pode conter dois códigos de barra, porém ambos tem mesma informação,
          * apenas mudando o código de barra. Então eliminamos número de tombo iguais.
-         * Após a execução dessa função teremos 296, dos 300
+         * Após a execução dessa função teremos 296, dos 300.
+         * Até pensei em usar o DISTINCT, porém eu ia ter que fazer consulta no BD para pegar
+         * o código de barra, daquele tombo_hcf.
          */
-        /* LOG console.log(dateTime.formatLog('Removendo número de tombos repetidos.')); */
         queue.removeTomboRepetido(queueTombos);
 
-        /* LOG console.log(dateTime.formatLog('Perocorrendo a fila com os números de tombos.')); */
-        queueTombos.forEach(tombo => {
-
-            /* LOG console.log(dateTime.formatLog('Fazendo o select e verificando tombos alterados.')); */
-            database.selectCountTombosAlteracao(connection, tombo.tombo_hcf).then(tombosAlterados => {
-
-                /**
-                 * Chamamos essa função para verificar se esse tombo tem pendência ou não
-                 * Após a execução dessa função teremos 291, dos 300
-                 */
-                if (!tombos.temPendencia(tombosAlterados)) {
-                    /**
-                     * Quando o tamanho é maior que zero, significa que tem tombos alterados
-                     * Detalhe que não dá para por junto com o if de cima, porque senão
-                     * se o tombo tem pendência ele irá realizar a comparação.
-                     */
-                    if (tombosAlterados.length > 0) {
-                        /**
-                         * Então primeiramente eu vou comparar com as alterações que foram feitas
-                         */
-                        // const r = `http://servicos.jbrj.gov.br/v2/herbarium/${tombo.num_barra}`;
-                        /* wget(r, (err, resp, body) => {
-                            if (err) {
-                                console.log(err);
-                            } else {
-                                console.log(body);
-                            }
-                        }); */
-                        /**
-                         * Então faço a requisição ao reflora, se der match com algumas das sugestões
-                         * já paro e vou para o próximo tombo.
-                         */
-                        /**
-                         * Depois de comparar com as sugestões feitas (caso não encontre), devo comparar com
-                         * os valores da tabela de tombos. Mas como ele sai do if ele irá comparar com lá.
-                         */
-                    }
-                    /**
-                     * Caso contrário não foi alterado nenhum tombo, portanto só comparar com tabela de tombos.
-                     * Dos 300, 35 não tem pendências.
-                     */
-
-                }
-
+        queueTombos.forEach(element => {
+            database.selectCountTombosAlteracao(connection, element.tombo_hcf).then(tombosAlterados => {
+                tombos.checkSuggest(element.num_barra, tombosAlterados);
             });
-
         });
-
     });
 }
 

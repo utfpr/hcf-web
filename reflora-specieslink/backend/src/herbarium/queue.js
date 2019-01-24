@@ -1,4 +1,4 @@
-function enqueue(items) {
+function enqueueTombosFotos(items) {
     const queue = [];
     /**
      * Percorro todos os valores presentes em items
@@ -51,5 +51,5 @@ function removeTomboRepetido(queue) {
 }
 
 export default {
-    enqueue, removeTomboRepetido,
+    enqueueTombosFotos, removeTomboRepetido,
 };
