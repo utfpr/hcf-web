@@ -28,7 +28,7 @@ def requestReflora(tomboCodBarra):
 
 	if verbose:
 		v.printDoRequest(tomboCodBarra)
-	responseReflora = subprocess.check_output(request, shell=True)
+	responseReflora = subprocess.check_output(request, shell=True) #, stderr=subprocess.STDOUT)
 
 	if verbose:
 		v.printDecodeEncodeResponse()
