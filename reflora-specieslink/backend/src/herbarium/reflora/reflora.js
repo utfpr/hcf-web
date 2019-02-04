@@ -59,7 +59,7 @@ function generateCodBarra(codBarra) {
 }
 
 function requestReflora(connection, maxCodBarra) {
-    const throttle = throttledQueue(1, 1000);
+    const throttle = throttledQueue(1, 10000);
     for (let i = 1; i <= maxCodBarra; i += 1) {
         const numBarra = generateCodBarra(i);
         if (numBarra !== -1) {
