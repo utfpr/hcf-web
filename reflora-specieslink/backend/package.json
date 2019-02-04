@@ -34,7 +34,8 @@
 		"mysql2": "^1.5.3",
 		"q": "^1.5.1",
 		"request": "^2.88.0",
-		"sequelize": "^4.38.0"
+		"sequelize": "^4.38.0",
+		"throttled-queue": "^1.0.5"
 	},
 	"jest": {
 		"transform": {
