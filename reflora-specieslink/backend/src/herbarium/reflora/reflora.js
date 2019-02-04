@@ -72,6 +72,11 @@ function requestReflora(connection, maxCodBarra) {
                     } else {
                         // eslint-disable-next-line no-console
                         console.log(`b${numBarra}`);
+                        // eslint-disable-next-line no-console
+                        console.log('ERRO conexão');
+                        // eslint-disable-next-line no-console
+                        console.log(error);
+                        process.exit(0);
                     }
                 });
             });
