@@ -1,4 +1,5 @@
 import database from './database';
+import log from './log';
 
 function hasPendenciesTombo(allAlterTombos) {
     /* for normal, porque o each não dava pra retornar false */
@@ -18,8 +19,9 @@ function compareOrNoTombo(connection, numBarra) {
     });
 }
 
-function proccessMaxCodBarra(maxCodBarra) {
+function proccessMaxCodBarra(fileName, maxCodBarra) {
     const newMaxCodBarra = maxCodBarra.replace('HCF', '');
+    log.processMaxCodBarra(fileName);
     return parseInt(newMaxCodBarra);
 }
 
