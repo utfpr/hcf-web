@@ -1,80 +1,83 @@
 import request from 'request';
 import throttledQueue from 'throttled-queue';
-// import tombos from '../tombos';
-import log from '../log';
+import tombos from '../tombos';
+import { writeFileLOG } from '../log';
 
-function processResponseReflora(fileName, numBarra, responseReflora) {
-    log.processResponseReflora(fileName, numBarra);
+function processResponseReflora(fileName, codBarra, responseReflora) {
+    writeFileLOG(fileName, `Convertendo a resposta do código de barra ${codBarra} para JSON`);
     /* Quando 'converte' ele formata o unicode */
     return JSON.parse(responseReflora);
 }
 
-function hasResultResponseReflora(fileName, numBarra, responseReflora) {
+function hasResultResponseReflora(responseReflora) {
     if (responseReflora.result.length === 0) {
-        log.noResultResponseReflora(fileName, numBarra);
         return false;
     }
-    log.hasResultResponseReflora(fileName, numBarra);
     return true;
 }
 
-function hasProblemResponseReflora(fileName, numBarra, connection, error, response, body) {
+function hasProblemResponseReflora(fileName, codBarra, connection, error, response, body) {
     if (!error && response.statusCode === 200) {
-        const responseReflora = processResponseReflora(fileName, numBarra, body);
-        if (hasResultResponseReflora(fileName, numBarra, responseReflora)) {
-            // eslint-disable-next-line no-console
-            console.log(body);
+        const responseReflora = processResponseReflora(fileName, codBarra, body);
+        if (hasResultResponseReflora(responseReflora)) {
+            writeFileLOG(fileName, `O código de barra ${codBarra} possui um resultado no Reflora`);
+            tombos.compareTombo(fileName, connection, codBarra);
+        } else {
+            writeFileLOG(fileName, `O código de barra ${codBarra} não possui um resultado no Reflora`);
         }
     } else {
-        log.errorResponseReflora(fileName, numBarra, error);
+        writeFileLOG(fileName, `Erro no código de barra ${codBarra} que foi ${error}`);
     }
 }
 
-function generateCodBarra(fileName, codBarra) {
-    log.generateCodBarra(fileName, codBarra);
+function generateCodBarra(codBarra) {
+    const newCodBarra = 'HCF';
     if (codBarra < 10) {
-        return `HCF00000000${codBarra}`;
+        return `${newCodBarra}00000000${codBarra}`;
     }
     if (codBarra < 100) {
-        return `HCF0000000${codBarra}`;
+        return `${newCodBarra}0000000${codBarra}`;
     }
     if (codBarra < 1000) {
-        return `HCF000000${codBarra}`;
+        return `${newCodBarra}000000${codBarra}`;
     }
     if (codBarra < 10000) {
-        return `HCF00000${codBarra}`;
+        return `${newCodBarra}00000${codBarra}`;
     }
     if (codBarra < 100000) {
-        return `HCF0000${codBarra}`;
+        return `${newCodBarra}0000${codBarra}`;
     }
     if (codBarra < 1000000) {
-        return `HCF000${codBarra}`;
+        return `${newCodBarra}000${codBarra}`;
     }
     if (codBarra < 10000000) {
-        return `HCF00${codBarra}`;
+        return `${newCodBarra}00${codBarra}`;
     }
     if (codBarra < 100000000) {
-        return `HCF0${codBarra}`;
+        return `${newCodBarra}0${codBarra}`;
     }
     if (codBarra < 1000000000) {
-        return `HCF${codBarra}`;
+        return `${newCodBarra}${codBarra}`;
     }
-    log.generateCodBarra(fileName, -1);
     return -1;
 }
 
 function requestReflora(fileName, connection, maxCodBarra) {
-    const throttle = throttledQueue(1, 10000);
-    log.startRequestReflora(fileName);
+    const throttle = throttledQueue(1, 4000);
+    writeFileLOG(fileName, 'Inicializando o processo de requisição');
     for (let i = 1; i <= maxCodBarra; i += 1) {
-        const numBarra = generateCodBarra(fileName, i);
-        if (numBarra !== -1) {
+        writeFileLOG(fileName, `Restam ${maxCodBarra - i} tombos para serem requisitados`);
+        const codBarra = generateCodBarra(i);
+        if (codBarra !== -1) {
+            writeFileLOG(fileName, `Geração de código de barra ${codBarra} com sucesso`);
             throttle(() => {
-                request(`http://servicos.jbrj.gov.br/v2/herbarium/${numBarra}`, (error, response, body) => {
-                    log.requestReflora(fileName, i);
-                    hasProblemResponseReflora(fileName, numBarra, connection, error, response, body);
+                request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
+                    writeFileLOG(fileName, `Realizando a requisição do código de barra ${codBarra}`);
+                    hasProblemResponseReflora(fileName, codBarra, connection, error, response, body);
                 });
             });
+        } else {
+            writeFileLOG(fileName, 'Problema na geração do código de barra');
         }
     }
 }

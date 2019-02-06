@@ -1,48 +1,62 @@
-import mysql from 'mysql2';
-import log from './log';
+import Sequelize from 'sequelize';
+import {
+    database,
+    username,
+    password,
+    options,
+} from '../config/database';
+import modelosTombosFotos from '../models/TomboFoto';
+import { writeFileLOG } from './log';
 
-const selectMaxNumBarra = 'SELECT MAX(num_barra) AS MAX FROM tombos_fotos';
-
-function create(fileName) {
-    const connection = mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: 'xxxx',
-        database: 'hcf',
-    });
-    log.connectDatabase(fileName);
-    return connection;
+function createConnection(fileName) {
+    writeFileLOG(fileName, 'Criando a conexão com o database');
+    return new Sequelize(database, username, password, options);
 }
 
-function connect(connection) {
-    this.connect = connection;
+function testConnection(connection) {
+    connection.authenticate()
+        .then(() => /* a */ true)
+        .catch(() => /* b */ false);
 }
 
-function test(connection) {
-    connection.connect(err => {
-        if (err) {
-            return false;
-        }
-        return true;
-    });
-}
-
-function select(fileName, connection, query, callback) {
-    log.selectDatabase(fileName, query);
-    connection.query(query, (err, results, fields) => {
-        callback(results);
+function selectMaxNumBarra(connection, callback) {
+    const tableTombosFotos = modelosTombosFotos(connection, Sequelize);
+    connection.sync().then(() => {
+        tableTombosFotos.max('num_barra').then(max => {
+            callback(max);
+        });
     });
 }
 
-function end(connection) {
-    connection.end(err => {
-        if (err) {
-            // a
-        }
-        // b
+function selectNroTomboNumBarra(connection, codBarra, callback) {
+    const tableTombosFotos = modelosTombosFotos(connection, Sequelize);
+    connection.sync().then(() => {
+        tableTombosFotos.findAll({
+            attributes: ['tombo_hcf'],
+            where: { num_barra: codBarra },
+        }).then(nroTombo => {
+            callback(nroTombo);
+        });
     });
 }
 
+function selectTombo(connection, nroTombo, callback) {
+    const tableTombosFotos = modelosTombosFotos(connection, Sequelize);
+    connection.sync().then(() => {
+        tableTombosFotos.findAll({
+            where: { hcf: nroTombo },
+        }).then(tombo => {
+            callback(tombo);
+        });
+    });
+}
+
+/* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    create, connect, test, select, end, selectMaxNumBarra,
+    createConnection, testConnection, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo,
 };
+
+/**
+ * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;
+ * Além disso, o Sequelize funciona com modelos, cada tabela é um modelo.
+ */

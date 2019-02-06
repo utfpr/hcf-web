@@ -1,30 +1,18 @@
 import database from './database';
-import log from './log';
+import { writeFileLOG } from './log';
 
-function hasPendenciesTombo(allAlterTombos) {
-    /* for normal, porque o each não dava pra retornar false */
-    for (let i = 0; i < allAlterTombos.length; i += 1) {
-        if (allAlterTombos[i].status === 'ESPERANDO') {
-            return true;
-        }
-    }
-    return false;
-}
-
-function compareOrNoTombo(connection, numBarra) {
-    database.select(connection, `SELECT status, tombo_json FROM ALTERACOES WHERE tombo_hcf=(SELECT tombo_hcf FROM tombos_fotos WHERE num_barra='${numBarra}')`, allAlterTombos => {
-        if (!hasPendenciesTombo(allAlterTombos)) {
-            // a
-        }
+function compareTombo(fileName, connection, codBarra) {
+    database.selectNroTomboNumBarra(connection, codBarra, nroTombo => {
+        writeFileLOG(fileName, `O tombo do código de barra ${codBarra} é ${nroTombo[0].dataValues.tombo_hcf}`);
     });
 }
 
 function proccessMaxCodBarra(fileName, maxCodBarra) {
     const newMaxCodBarra = maxCodBarra.replace('HCF', '');
-    log.processMaxCodBarra(fileName);
+    writeFileLOG(fileName, `Processando o maior código de barra que é ${maxCodBarra}`);
     return parseInt(newMaxCodBarra);
 }
 
 export default {
-    proccessMaxCodBarra, compareOrNoTombo,
+    proccessMaxCodBarra, compareTombo,
 };
