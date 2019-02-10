@@ -6,6 +6,7 @@ import {
     options,
 } from '../config/database';
 import modelosTombosFotos from '../models/TomboFoto';
+import modelosTombos from '../models/Tombo';
 import { writeFileLOG } from './log';
 
 function createConnection(fileName) {
@@ -41,9 +42,10 @@ function selectNroTomboNumBarra(connection, codBarra, callback) {
 }
 
 function selectTombo(connection, nroTombo, callback) {
-    const tableTombosFotos = modelosTombosFotos(connection, Sequelize);
+    const tableTombos = modelosTombos(connection, Sequelize);
     connection.sync().then(() => {
-        tableTombosFotos.findAll({
+        tableTombos.findAll({
+            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico'],
             where: { hcf: nroTombo },
         }).then(tombo => {
             callback(tombo);

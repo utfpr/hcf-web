@@ -3,6 +3,17 @@ import throttledQueue from 'throttled-queue';
 import tombos from '../tombos';
 import { writeFileLOG } from '../log';
 
+const listCodBarra = [];
+
+/*
+function hasModifiedReponseReflora(jsonResponseReflora) {
+    if (jsonResponseReflora.result[0].modified === null) {
+        return false;
+    }
+    return true;
+}
+*/
+
 function processResponseReflora(fileName, codBarra, responseReflora) {
     writeFileLOG(fileName, `Convertendo a resposta do código de barra ${codBarra} para JSON`);
     /* Quando 'converte' ele formata o unicode */
@@ -21,7 +32,14 @@ function hasProblemResponseReflora(fileName, codBarra, connection, error, respon
         const responseReflora = processResponseReflora(fileName, codBarra, body);
         if (hasResultResponseReflora(responseReflora)) {
             writeFileLOG(fileName, `O código de barra ${codBarra} possui um resultado no Reflora`);
-            tombos.compareTombo(fileName, connection, codBarra);
+            tombos.compareTombo(fileName, connection, codBarra, responseReflora);
+            listCodBarra.push(codBarra);
+            /* if (hasModifiedReponseReflora(responseReflora)) {
+                writeFileLOG(fileName, `O tombo de código de barra ${codBarra} tem modificações feitas no Reflora`);
+                tombos.compareTombo(fileName, connection, codBarra, responseReflora);
+            } else {
+                writeFileLOG(fileName, `O tombo de código de barra ${codBarra} não tem modificações feitas no Reflora`);
+            } */
         } else {
             writeFileLOG(fileName, `O código de barra ${codBarra} não possui um resultado no Reflora`);
         }
@@ -63,7 +81,7 @@ function generateCodBarra(codBarra) {
 }
 
 function requestReflora(fileName, connection, maxCodBarra) {
-    const throttle = throttledQueue(1, 4000);
+    const throttle = throttledQueue(1, 1000);
     writeFileLOG(fileName, 'Inicializando o processo de requisição');
     for (let i = 1; i <= maxCodBarra; i += 1) {
         writeFileLOG(fileName, `Restam ${maxCodBarra - i} tombos para serem requisitados`);
@@ -74,6 +92,8 @@ function requestReflora(fileName, connection, maxCodBarra) {
                 request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
                     writeFileLOG(fileName, `Realizando a requisição do código de barra ${codBarra}`);
                     hasProblemResponseReflora(fileName, codBarra, connection, error, response, body);
+                    // eslint-disable-next-line no-console
+                    console.log(listCodBarra.sort());
                 });
             });
         } else {
