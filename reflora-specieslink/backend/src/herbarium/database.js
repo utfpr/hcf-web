@@ -7,6 +7,7 @@ import {
 } from '../config/database';
 import modelosTombosFotos from '../models/TomboFoto';
 import modelosTombos from '../models/Tombo';
+import modelosFamilias from '../models/Familia';
 import { writeFileLOG } from './log';
 
 function createConnection(fileName) {
@@ -45,8 +46,20 @@ function selectTombo(connection, nroTombo, callback) {
     const tableTombos = modelosTombos(connection, Sequelize);
     connection.sync().then(() => {
         tableTombos.findAll({
-            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico'],
+            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id'],
             where: { hcf: nroTombo },
+        }).then(tombo => {
+            callback(tombo);
+        });
+    });
+}
+
+function selectFamily(connection, idFamilia, callback) {
+    const tableFamilia = modelosFamilias(connection, Sequelize);
+    connection.sync().then(() => {
+        tableFamilia.findAll({
+            attributes: ['nome'],
+            where: { id: idFamilia },
         }).then(tombo => {
             callback(tombo);
         });
@@ -55,7 +68,7 @@ function selectTombo(connection, nroTombo, callback) {
 
 /* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    createConnection, testConnection, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo,
+    createConnection, testConnection, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamily,
 };
 
 /**

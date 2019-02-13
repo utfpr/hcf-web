@@ -44,7 +44,7 @@ function hasProblemResponseReflora(fileName, codBarra, connection, error, respon
             writeFileLOG(fileName, `O código de barra {${codBarra}} não possui um resultado no Reflora`);
         }
     } else {
-        listCodBarra.push(codBarra);        
+        listCodBarra.push(codBarra);
         writeFileLOG(fileName, `Erro no código de barra {${codBarra}} que foi ${error}`);
     }
 }
@@ -110,8 +110,6 @@ function requestReflora(fileName, connection, maxCodBarra) {
     const arrayCodBarra = createArrayCodBarra(fileName, maxCodBarra);
     while (arrayCodBarra.length !== 0) {
         const codBarra = arrayCodBarra.pop();
-        // eslint-disable-next-line no-console
-        console.log(codBarra);
         throttle(() => {
             request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
                 writeFileLOG(fileName, `Realizando a requisição do código de barra {${codBarra}}`);

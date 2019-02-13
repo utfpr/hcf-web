@@ -183,7 +183,29 @@ function equalNomeCientifico(fileName, nomeCientificoBD, nomeCientificoReflora) 
     return nomeCientificoReflora.scientificname;
 }
 
-function compareInfoTombos(fileName, codBarra, tomboBD, tomboReflora) {
+function equalFamilia(fileName, connection, familyBD, familyReflora) {
+    if (!valueIsNull(familyBD.familia_id)) {
+        const intFamilyBD = parseInt(familyBD.familia_id);
+        if (isNumber(intFamilyBD)) {
+            // @ts-ignore
+            database.selectFamily(connection, intFamilyBD, familyTombo => {
+                const familyTomboString = familyTombo[0].dataValues.nome;
+                if (familyTomboString === familyReflora.family) {
+                    writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são iguais`);
+                    return -1;
+                }
+                writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são diferentes`);
+                return familyTomboString;
+            });
+        }
+        writeFileLOG(fileName, `{BD: ${intFamilyBD}} o identificador de família não é um número`);
+        return -1;
+    }
+    writeFileLOG(fileName, `{BD: ${familyBD.familia_id}} o identificador de família não é um número`);
+    return -1;
+}
+
+function compareInfoTombos(fileName, connection, codBarra, tomboBD, tomboReflora) {
     writeFileLOG(fileName, `Comparando informações do tombo de código de barra {${codBarra}}`);
     const infoTomboBD = tomboBD[0].dataValues;
     const infoTomboReflora = tomboReflora.result[0];
@@ -205,13 +227,15 @@ function compareInfoTombos(fileName, codBarra, tomboBD, tomboReflora) {
     equalDataIdentificacao(fileName, infoTomboBD, infoTomboReflora);
     writeFileLOG(fileName, 'Comparando informações de nome científico');
     equalNomeCientifico(fileName, infoTomboBD, infoTomboReflora);
+    writeFileLOG(fileName, 'Comparando informações de família');
+    equalFamilia(fileName, connection, infoTomboBD, infoTomboReflora);
 }
 
 function compareTombo(fileName, connection, codBarra, responseReflora) {
     database.selectNroTomboNumBarra(connection, codBarra, nroTombo => {
         writeFileLOG(fileName, `O tombo do código de barra {${codBarra}} é {${nroTombo[0].dataValues.tombo_hcf}}`);
         database.selectTombo(connection, nroTombo[0].dataValues.tombo_hcf, tombo => {
-            compareInfoTombos(fileName, codBarra, tombo, responseReflora);
+            compareInfoTombos(fileName, connection, codBarra, tombo, responseReflora);
         });
     });
 }
