@@ -17,94 +17,78 @@ function isNumber(value) {
 }
 
 function equalNroColeta(fileName, nroColetaBD, nroColetaReflora) {
-    writeFileLOG(fileName, `{BD: ${nroColetaBD.numero_coleta}, Reflora: ${nroColetaReflora.recordnumber}} são nulos?`);
     if (!valueIsNull(nroColetaBD.numero_coleta) && !valueIsNull(nroColetaReflora.recordnumber)) {
         const intNroColetaBD = parseInt(nroColetaBD.numero_coleta);
         const intNroColetaReflora = parseInt(nroColetaReflora.recordnumber);
-        writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} são números?`);
         if (isNumber(intNroColetaBD) && isNumber(intNroColetaReflora)) {
-            writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} são números`);
             if (intNroColetaBD === intNroColetaReflora) {
-                writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas são diferentes`);
             return intNroColetaReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${nroColetaBD.numero_coleta}, Reflora: ${nroColetaReflora.recordnumber}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${nroColetaBD.numero_coleta}, Reflora: ${nroColetaReflora.recordnumber}} números de coletas são nulos`);
     return -1;
 }
 
 function equalDiaColeta(fileName, dataColetaBD, dataColetaReflora) {
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_dia}, Reflora: ${dataColetaReflora.day}} são nulos?`);
     if (!valueIsNull(dataColetaBD.data_coleta_dia) && !valueIsNull(dataColetaReflora.day)) {
         const intDiaColetaBD = parseInt(dataColetaBD.data_coleta_dia);
         const intDiaColetaReflora = parseInt(dataColetaReflora.day);
-        writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} são números?`);
         if (isNumber(intDiaColetaBD) && isNumber(intDiaColetaReflora)) {
-            writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} são números`);
             if (intDiaColetaBD === intDiaColetaReflora) {
-                writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} dias de coletas são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} dias de coletas são diferentes`);
             return intDiaColetaReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} dias de coletas não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_dia}, Reflora: ${dataColetaReflora.day}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_dia}, Reflora: ${dataColetaReflora.day}} dias de coletas são nulos`);
     return -1;
 }
 
 function equalMesColeta(fileName, dataColetaBD, dataColetaReflora) {
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_mes}, Reflora: ${dataColetaReflora.month}} são nulos?`);
     if (!valueIsNull(dataColetaBD.data_coleta_mes) && !valueIsNull(dataColetaReflora.month)) {
         const intMesColetaBD = parseInt(dataColetaBD.data_coleta_mes);
         const intMesColetaReflora = parseInt(dataColetaReflora.month);
-        writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} são números?`);
         if (isNumber(intMesColetaBD) && isNumber(intMesColetaReflora)) {
-            writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} são números`);
             if (intMesColetaBD === intMesColetaReflora) {
-                writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} mês da coletas são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} mês da coletas são diferentes`);
             return intMesColetaReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} mês da coletas não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_mes}, Reflora: ${dataColetaReflora.month}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_mes}, Reflora: ${dataColetaReflora.month}} mês da coletas são nulos`);
     return -1;
 }
 
 function equalAnoColeta(fileName, dataColetaBD, dataColetaReflora) {
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_ano}, Reflora: ${dataColetaReflora.year}} são nulos?`);
     if (!valueIsNull(dataColetaBD.data_coleta_ano) && !valueIsNull(dataColetaReflora.year)) {
         const intAnoColetaBD = parseInt(dataColetaBD.data_coleta_ano);
         const intAnoColetaReflora = parseInt(dataColetaReflora.year);
-        writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} são números?`);
         if (isNumber(intAnoColetaBD) && isNumber(intAnoColetaReflora)) {
-            writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} são números`);
             if (intAnoColetaBD === intAnoColetaReflora) {
-                writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} anos de coleta são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} anos de coleta são diferentes`);
             return intAnoColetaReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} anos de coleta não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_ano}, Reflora: ${dataColetaReflora.year}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${dataColetaBD.data_coleta_ano}, Reflora: ${dataColetaReflora.year}} anos de coleta são nulos`);
     return -1;
 }
 
@@ -114,77 +98,65 @@ function equalAltitude(fileName, altitudeBD, altitudeReflora) {
         Além disso, algumas altitude vem com m de metros então para comparar é necessário tirar.
         Isso, porque no reflora não contém esse m
     */
-    writeFileLOG(fileName, `{BD: ${altitudeBD.altitude}, Reflora: ${altitudeReflora.minimumelevationinmeters}, ${altitudeReflora.maximumelevationinmeters}} são nulos?`);
     if (!valueIsNull(altitudeBD.altitude) && !valueIsNull(altitudeReflora.minimumelevationinmeters) && !valueIsNull(altitudeReflora.maximumelevationinmeters)) {
         const intAltitudeBD = parseInt(altitudeBD.altitude.toString().replace('m', ''));
         const intMinAltitudeReflora = parseInt(altitudeReflora.minimumelevationinmeters);
         const intMaxAltitudeReflora = parseInt(altitudeReflora.maximumelevationinmeters);
-        writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} são números?`);
         if (isNumber(intAltitudeBD) && isNumber(intMinAltitudeReflora) && isNumber(intMaxAltitudeReflora)) {
-            writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} são números`);
             if (intAltitudeBD === intMinAltitudeReflora && intAltitudeBD === intMaxAltitudeReflora) {
-                writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} altitudes são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, 'Os valores de altitude do BD e do Reflora são diferentes');
+            writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} altitudes são diferentes`);
             return intMaxAltitudeReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} altitudes não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${altitudeBD.altitude}, Reflora: ${altitudeReflora.minimumelevationinmeters}, ${altitudeReflora.maximumelevationinmeters}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${altitudeBD.altitude}, Reflora: ${altitudeReflora.minimumelevationinmeters}, ${altitudeReflora.maximumelevationinmeters}} altitudes são nulos`);
     return -1;
 }
 
 function equalLatitude(fileName, latitudeBD, latitudeReflora) {
-    writeFileLOG(fileName, `{BD: ${latitudeBD.latitude}, Reflora: ${latitudeReflora.decimallatitude}} são nulos?`);
     if (!valueIsNull(latitudeBD.latitude) && !valueIsNull(latitudeReflora.decimallatitude)) {
         const intLatitudeBD = parseFloat(latitudeBD.latitude);
         const intLatitudeReflora = parseFloat(latitudeReflora.decimallatitude) + 1;
-        writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} são números?`);
         if (isNumber(intLatitudeBD) && isNumber(intLatitudeReflora)) {
-            writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} são números`);
             if (intLatitudeBD === intLatitudeReflora) {
-                writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são diferentes`);
             return intLatitudeReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${latitudeBD.latitude}, Reflora: ${latitudeReflora.decimallatitude}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${latitudeBD.latitude}, Reflora: ${latitudeReflora.decimallatitude}} latitudes são nulos`);
     return -1;
 }
 
 function equalLongitude(fileName, longitudeBD, longitudeReflora) {
-    writeFileLOG(fileName, `{BD: ${longitudeBD.longitude}, Reflora: ${longitudeReflora.decimallongitude}} são nulos?`);
     if (!valueIsNull(longitudeBD.longitude) && !valueIsNull(longitudeReflora.decimallongitude)) {
         const intLongitudeBD = parseFloat(longitudeBD.longitude);
         const intLongitudeReflora = parseFloat(longitudeReflora.decimallongitude);
-        writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} não são nulos`);
-        writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} são números?`);
         if (isNumber(intLongitudeBD) && isNumber(intLongitudeReflora)) {
             if (intLongitudeBD === intLongitudeReflora) {
-                writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} são iguais`);
+                writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são iguais`);
                 return -1;
             }
-            writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} são diferentes`);
+            writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são diferentes`);
             return intLongitudeReflora;
         }
-        writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} não são números`);
+        writeFileLOG(fileName, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes não são números`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${longitudeBD.longitude}, Reflora: ${longitudeReflora.decimallongitude}} são nulos`);
+    writeFileLOG(fileName, `{BD: ${longitudeBD.longitude}, Reflora: ${longitudeReflora.decimallongitude}} longitudes são nulos`);
     return -1;
 }
 
 function equalDataIdentificacao(fileName, dataIdentificacaoBD, dataIdentificacaoReflora) {
     let dataIdentificacao = '';
-    writeFileLOG(fileName, 'Montando a string da data de identificação');
     if (!valueIsNull(dataIdentificacaoBD.data_identificacao_dia)) {
         dataIdentificacao += `${dataIdentificacaoBD.data_identificacao_dia}/`;
     }
@@ -194,34 +166,27 @@ function equalDataIdentificacao(fileName, dataIdentificacaoBD, dataIdentificacao
     if (!valueIsNull(dataIdentificacaoBD.data_identificacao_ano)) {
         dataIdentificacao += `${dataIdentificacaoBD.data_identificacao_ano}`;
     }
-    writeFileLOG(fileName, `A data de identificação no BD é ${dataIdentificacao}`);
-    writeFileLOG(fileName, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora.dateidentified}} comparando elas`);
     if (dataIdentificacao === dataIdentificacaoReflora.dateidentified) {
-        writeFileLOG(fileName, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora.dateidentified}} são iguais`);
+        writeFileLOG(fileName, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora.dateidentified}} datas de identificação são iguais`);
         return -1;
     }
-    writeFileLOG(fileName, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora.dateidentified}} são diferentes`);
+    writeFileLOG(fileName, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora.dateidentified}} datas de identificação são diferentes`);
     return dataIdentificacaoReflora.dateidentified;
 }
 
 function equalNomeCientifico(fileName, nomeCientificoBD, nomeCientificoReflora) {
-    writeFileLOG(fileName, `{BD: ${nomeCientificoBD.nome_cientifico}, Reflora: ${nomeCientificoReflora.scientificname}} comparando elas`);
     if (nomeCientificoBD.nome_cientifico === nomeCientificoReflora.scientificname) {
-        writeFileLOG(fileName, `{BD: ${nomeCientificoBD.nome_cientifico}, Reflora: ${nomeCientificoReflora.scientificname}} são iguais`);
+        writeFileLOG(fileName, `{BD: ${nomeCientificoBD.nome_cientifico}, Reflora: ${nomeCientificoReflora.scientificname}} nomes científicos são iguais`);
         return '';
     }
-    writeFileLOG(fileName, `{BD: ${nomeCientificoBD.nome_cientifico}, Reflora: ${nomeCientificoReflora.scientificname}} são diferentes`);
+    writeFileLOG(fileName, `{BD: ${nomeCientificoBD.nome_cientifico}, Reflora: ${nomeCientificoReflora.scientificname}} nomes científicos são diferentes`);
     return nomeCientificoReflora.scientificname;
 }
 
 function compareInfoTombos(fileName, codBarra, tomboBD, tomboReflora) {
-    writeFileLOG(fileName, `Comparando informações do tombo ${codBarra}`);
+    writeFileLOG(fileName, `Comparando informações do tombo de código de barra {${codBarra}}`);
     const infoTomboBD = tomboBD[0].dataValues;
     const infoTomboReflora = tomboReflora.result[0];
-    // eslint-disable-next-line no-console
-    // console.log(infoTomboBD);
-    // eslint-disable-next-line no-console
-    // console.log(infoTomboReflora);
     writeFileLOG(fileName, 'Comparando informações de número de coleta');
     equalNroColeta(fileName, infoTomboBD, infoTomboReflora);
     writeFileLOG(fileName, 'Comparando informações de dia de coleta');
@@ -244,7 +209,7 @@ function compareInfoTombos(fileName, codBarra, tomboBD, tomboReflora) {
 
 function compareTombo(fileName, connection, codBarra, responseReflora) {
     database.selectNroTomboNumBarra(connection, codBarra, nroTombo => {
-        writeFileLOG(fileName, `O tombo do código de barra ${codBarra} é ${nroTombo[0].dataValues.tombo_hcf}`);
+        writeFileLOG(fileName, `O tombo do código de barra {${codBarra}} é {${nroTombo[0].dataValues.tombo_hcf}}`);
         database.selectTombo(connection, nroTombo[0].dataValues.tombo_hcf, tombo => {
             compareInfoTombos(fileName, codBarra, tombo, responseReflora);
         });
@@ -253,7 +218,7 @@ function compareTombo(fileName, connection, codBarra, responseReflora) {
 
 function proccessMaxCodBarra(fileName, maxCodBarra) {
     const newMaxCodBarra = maxCodBarra.replace('HCF', '');
-    writeFileLOG(fileName, `Processando o maior código de barra que é ${maxCodBarra}`);
+    writeFileLOG(fileName, `Processando o maior código de barra que é {${maxCodBarra}}`);
     return parseInt(newMaxCodBarra);
 }
 
