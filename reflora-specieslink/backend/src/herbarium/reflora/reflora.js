@@ -49,7 +49,7 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
         escreveLOG(nomeArquivo, `Erro no código de barra {${codBarra}} que foi ${error}`);
     }
 }
-
+/*
 function geraCodBarra(codBarra) {
     const newCodBarra = 'HCF';
     if (codBarra < 10) {
@@ -96,7 +96,7 @@ function criaArrayCodBarra(nomeArquivo, maxCodBarra) {
     escreveLOG(nomeArquivo, `Todos os códigos de barras {${maxCodBarra}} foram gerados com sucesso`);
     return arrayCodBarra;
 }
-
+*/
 function existeCodBarra(codBarra) {
     for (let i = 0; i < listCodBarra.length; i += 1) {
         if (listCodBarra[i] === codBarra) {
@@ -108,20 +108,21 @@ function existeCodBarra(codBarra) {
 
 function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
     const throttle = throttledQueue(1, 1000);
-    const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
+    /* const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
     while (arrayCodBarra.length !== 0) {
-        const codBarra = arrayCodBarra.pop();
-        throttle(() => {
-            request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
-                escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
-                temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
-                if (!existeCodBarra(codBarra)) {
-                    escreveLOG(nomeArquivo, `Não foi feita a requisição do código de barra {${codBarra}}`);
-                    // arrayCodBarra.push(codBarra);
-                }
-            });
+        const codBarra = arrayCodBarra.pop(); */
+    const codBarra = 'HCF000026404';
+    throttle(() => {
+        request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
+            escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
+            temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
+            if (!existeCodBarra(codBarra)) {
+                escreveLOG(nomeArquivo, `Não foi feita a requisição do código de barra {${codBarra}}`);
+                // arrayCodBarra.push(codBarra);
+            }
         });
-    }
+    });
+    // }
 }
 
 export default {

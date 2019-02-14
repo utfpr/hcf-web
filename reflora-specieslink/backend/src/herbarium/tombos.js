@@ -186,39 +186,53 @@ function ehIgualNomeCientifico(nomeArquivo, nomeCientificoBD, informacaoReflora)
     return informacaoReflora.scientificname;
 }
 
-function ehIgualFamilia(nomeArquivo, conexao, familiaBD, informacaoReflora) {
+function ehIgualFamilia(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
-    database.selectFamilia(conexao, familiaBD.familia_id, familiaTombo => {
-        const nomeFamilia = familiaTombo[0].dataValues.nome;
-        if ((nomeFamilia === informacaoReflora.family) && (!valorEhNulo(nomeFamilia)) && (!valorEhNulo(informacaoReflora.family))) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeFamilia}, Reflora: ${informacaoReflora.family}} as famílias são iguais`);
-            promessa.resolve(-1);
+    const idNomeFamilia = informacaoBD.familia_id;
+    database.selectFamilia(conexao, idNomeFamilia, resultadoFamiliaTombo => {
+        if (resultadoFamiliaTombo.length > 0) {
+            const nomeFamiliaBD = resultadoFamiliaTombo[0].dataValues.nome;
+            const nomeFamiliaReflora = informacaoReflora.family;
+            if ((nomeFamiliaBD === nomeFamiliaReflora) && !valorEhNulo(nomeFamiliaBD) && !valorEhNulo(informacaoReflora.family)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}, Reflora: ${nomeFamiliaReflora}} as famílias são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}, Reflora: ${nomeFamiliaReflora}} as famílias são diferentes`);
+            promessa.resolve(nomeFamiliaReflora);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, `{BD: ${nomeFamilia}, Reflora: ${informacaoReflora.family}} as famílias são diferentes`);
-        promessa.resolve(nomeFamilia);
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de família');
+        promessa.resolve(-1);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
+
+function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+    const promessa = Q.defer();
+    const idNomeEspecie = informacaoBD.especie_id;
+    database.selectEspecie(conexao, idNomeEspecie, resultadoEspecieTombo => {
+        if (resultadoEspecieTombo.length > 0) {
+            const nomeEspecieBD = resultadoEspecieTombo[0].dataValues.nome;
+            const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
+            if ((nomeEspecieBD === nomeEspecieReflora) && !valorEhNulo(nomeEspecieBD) && !valorEhNulo(nomeEspecieReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}, Reflora: ${nomeEspecieReflora}} as espécies são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}, Reflora: ${nomeEspecieReflora}} as espécies são diferentes`);
+            promessa.resolve(nomeEspecieReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de espécie');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
 /*
-function ehIgualEspecie(nomeArquivo, conexao, especieBD, informacaoReflora) {
-    const promessa = Q.defer();
-    database.selectEspecie(conexao, especieBD.especie_id, especieTombo => {
-        const nomeEspecie = especieTombo[0].dataValues.nome;
-        if ((nomeEspecie === informacaoReflora.infraespecificepithet) && (!valorEhNulo(nomeEspecie)) && (!valorEhNulo(informacaoReflora.infraespecificepithet))) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeEspecie}, Reflora: ${informacaoReflora.infraespecificepithet}} as espécies são iguais`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${nomeEspecie}, Reflora: ${informacaoReflora.infraespecificepithet}} as espécies são diferentes`);
-        promessa.resolve(nomeEspecie);
-        return promessa.promise;
-    });
-    return promessa.promise;
-}
-
 function ehIgualGenero(nomeArquivo, conexao, generoBD, informacaoReflora) {
     const promessa = Q.defer();
     database.selectGenero(conexao, generoBD.genero_id, generoTombo => {
@@ -265,35 +279,92 @@ function ehIgualVariedade(nomeArquivo, conexao, variedadeID, informacaoReflora) 
         return promessa.promise;
     });
     return promessa.promise;
-}
-*/
-function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
+} */
+
+async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
     escreveLOG(nomeArquivo, `Comparando informações do tombo de código de barra {${codBarra}}`);
     const informacaoTomboBD = tomboBD[0].dataValues;
     const informacaoTomboReflora = tomboReflora.result[0];
+    let alteracaoInformacao = '{';
     escreveLOG(nomeArquivo, 'Comparando informações de número de coleta');
-    ehIgualNroColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoNroColeta = ehIgualNroColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoNroColeta !== -1) {
+        alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de dia de coleta');
-    ehIgualDiaColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoDiaColeta = ehIgualDiaColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoDiaColeta !== -1) {
+        alteracaoInformacao += `dia_coleta: ${resultadoDiaColeta},`;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de mês de coleta');
-    ehIgualMesColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoMesColeta = ehIgualMesColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoMesColeta !== -1) {
+        alteracaoInformacao += `mes_coleta: ${resultadoMesColeta},`;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de ano de coleta');
-    ehIgualAnoColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoAnoColeta = ehIgualAnoColeta(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoAnoColeta !== -1) {
+        alteracaoInformacao += `ano_coleta: ${resultadoAnoColeta}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de altitude');
-    ehIgualAltitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoAltitude = ehIgualAltitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoAltitude !== -1) {
+        alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de latitude');
-    ehIgualLatitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoLatitude = ehIgualLatitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoLatitude !== -1) {
+        alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de longitude');
-    ehIgualLongitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoLongitude = ehIgualLongitude(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoLongitude !== -1) {
+        alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
-    ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoDataIdentificacao !== -1) {
+        alteracaoInformacao += `data_identificacao_dia: ${resultadoDataIdentificacao}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
-    ehIgualNomeCientifico(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    const resultadoNomeCientifico = ehIgualNomeCientifico(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+    if (resultadoNomeCientifico !== -1) {
+        alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
+    }
     escreveLOG(nomeArquivo, 'Comparando informações de família');
-    ehIgualFamilia(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(familia => {
-        // eslint-disable-next-line no-console
-        console.log(familia);
+    await ehIgualFamilia(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(familia => {
+        if (familia !== -1) {
+            alteracaoInformacao += `familia: ${familia}, `;
+        }
     });
+    escreveLOG(nomeArquivo, 'Comparando informações de espécie');
+    await ehIgualEspecie(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(especie => {
+        if (especie !== -1) {
+            alteracaoInformacao += `especie: ${especie}, `;
+        }
+    });
+    /* escreveLOG(nomeArquivo, 'Comparando informações de gênero');
+    await ehIgualGenero(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(genero => {
+        if (genero !== -1) {
+            alteracaoInformacao += `genero: ${genero}, `;
+        }
+    });
+    escreveLOG(nomeArquivo, 'Comparando informações de tipo');
+    await ehIgualTipo(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(tipo => {
+        if (tipo !== -1) {
+            alteracaoInformacao += `tipoe: ${tipo}, `;
+        }
+    });
+    escreveLOG(nomeArquivo, 'Comparando informações de variedade');
+    await ehIgualVariedade(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(variedade => {
+        if (variedade !== -1) {
+            alteracaoInformacao += `especie: ${variedade}, `;
+        }
+    }); */
+    alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
+    alteracaoInformacao += '}';
+    // eslint-disable-next-line no-console
+    console.log(`-> ${alteracaoInformacao}`);
 }
 
 function comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora) {
