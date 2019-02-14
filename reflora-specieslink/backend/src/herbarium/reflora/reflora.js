@@ -106,13 +106,13 @@ function existeCodBarra(codBarra) {
     return false;
 }
 
-function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
+async function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
     const throttle = throttledQueue(1, 1000);
     /* const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
     while (arrayCodBarra.length !== 0) {
         const codBarra = arrayCodBarra.pop(); */
     const codBarra = 'HCF000026404';
-    throttle(() => {
+    await throttle(() => {
         request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
             escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
             temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
