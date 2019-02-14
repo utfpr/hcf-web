@@ -232,54 +232,75 @@ function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     });
     return promessa.promise;
 }
-/*
-function ehIgualGenero(nomeArquivo, conexao, generoBD, informacaoReflora) {
+
+function ehIgualGenero(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
-    database.selectGenero(conexao, generoBD.genero_id, generoTombo => {
-        const nomeGenero = generoTombo[0].dataValues.nome;
-        if ((nomeGenero === informacaoReflora.genus) && (!valorEhNulo(nomeGenero)) && (!valorEhNulo(informacaoReflora.genus))) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeGenero}, Reflora: ${informacaoReflora.genus}} os gêneros são iguais`);
-            promessa.resolve(-1);
+    const idNomeGenero = informacaoBD.genero_id;
+    database.selectGenero(conexao, idNomeGenero, resultadoGeneroTombo => {
+        if (resultadoGeneroTombo.length > 0) {
+            const nomeGeneroBD = resultadoGeneroTombo[0].dataValues.nome;
+            const nomeGeneroReflora = informacaoReflora.genus;
+            if ((nomeGeneroBD === nomeGeneroReflora) && !valorEhNulo(nomeGeneroBD) && !valorEhNulo(nomeGeneroReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}, Reflora: ${nomeGeneroReflora}} os gêneros são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}, Reflora: ${nomeGeneroReflora}} os gêneros são diferentes`);
+            promessa.resolve(nomeGeneroReflora);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, `{BD: ${nomeGenero}, Reflora: ${informacaoReflora.genus}} os gêneros são diferentes`);
-        promessa.resolve(nomeGenero);
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de gênero');
+        promessa.resolve(-1);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-function ehIgualTipo(nomeArquivo, conexao, tipoID, informacaoReflora) {
+function ehIgualTipo(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
-    database.selectTipo(conexao, tipoID.tipo_id, tipoTombo => {
-        const nomeTipo = tipoTombo[0].dataValues.nome;
-        if ((nomeTipo === informacaoReflora.typestatus) && (!valorEhNulo(nomeTipo)) && (!valorEhNulo(informacaoReflora.typestatus))) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeTipo}, Reflora: ${informacaoReflora.typestatus}} os gêneros são iguais`);
-            promessa.resolve(-1);
+    const idTipo = informacaoBD.tipo_id;
+    database.selectTipo(conexao, idTipo, resultadoTipoTombo => {
+        if (resultadoTipoTombo.length > 0) {
+            const nomeTipoBD = resultadoTipoTombo[0].dataValues.nome;
+            const nomeTipoReflora = informacaoReflora.typestatus;
+            if ((nomeTipoBD === nomeTipoReflora) && !valorEhNulo(nomeTipoBD) && !valorEhNulo(nomeTipoReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}, Reflora: ${nomeTipoReflora}} os tipos são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}, Reflora: ${nomeTipoReflora}} os tipos são diferentes`);
+            promessa.resolve(nomeTipoReflora);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, `{BD: ${nomeTipo}, Reflora: ${informacaoReflora.typestatus}} os gêneros são diferentes`);
-        promessa.resolve(nomeTipo);
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de gênero');
+        promessa.resolve(-1);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-function ehIgualVariedade(nomeArquivo, conexao, variedadeID, informacaoReflora) {
+function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
-    database.selectVariedade(conexao, variedadeID.variedade_id, variedadeTombo => {
-        const nomeVariedade = variedadeTombo[0].dataValues.nome;
-        if ((nomeVariedade === informacaoReflora.infraespecificepithet) && (!valorEhNulo(nomeVariedade)) && (!valorEhNulo(informacaoReflora.infraespecificepithet))) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeVariedade}, Reflora: ${informacaoReflora.infraespecificepithet}} os gêneros são iguais`);
-            promessa.resolve(-1);
+    const idVariedade = informacaoBD.variedade_id;
+    database.selectVariedade(conexao, idVariedade, resultadoVariedadeTombo => {
+        if (resultadoVariedadeTombo.length > 0) {
+            const nomeVariedadeBD = resultadoVariedadeTombo[0].dataValues.nome;
+            const nomeVariedadeReflora = informacaoReflora.infraespecificepithet;
+            if ((nomeVariedadeBD === nomeVariedadeReflora) && !valorEhNulo(nomeVariedadeBD) && !valorEhNulo(nomeVariedadeReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}, Reflora: ${nomeVariedadeReflora}} as variedades são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}, Reflora: ${nomeVariedadeReflora}} as variedades são diferentes`);
+            promessa.resolve(nomeVariedadeReflora);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, `{BD: ${nomeVariedade}, Reflora: ${informacaoReflora.infraespecificepithet}} os gêneros são diferentes`);
-        promessa.resolve(nomeVariedade);
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de variedade');
+        promessa.resolve(-1);
         return promessa.promise;
     });
     return promessa.promise;
-} */
+}
 
 async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
     escreveLOG(nomeArquivo, `Comparando informações do tombo de código de barra {${codBarra}}`);
@@ -343,7 +364,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             alteracaoInformacao += `especie: ${especie}, `;
         }
     });
-    /* escreveLOG(nomeArquivo, 'Comparando informações de gênero');
+    escreveLOG(nomeArquivo, 'Comparando informações de gênero');
     await ehIgualGenero(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(genero => {
         if (genero !== -1) {
             alteracaoInformacao += `genero: ${genero}, `;
@@ -360,7 +381,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         if (variedade !== -1) {
             alteracaoInformacao += `especie: ${variedade}, `;
         }
-    }); */
+    });
     alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
     alteracaoInformacao += '}';
     // eslint-disable-next-line no-console
