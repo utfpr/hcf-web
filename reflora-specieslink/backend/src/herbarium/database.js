@@ -52,7 +52,7 @@ function selectTombo(conexao, nroTombo, callback) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTombo.findAll({
-            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id'],
+            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id', 'variedade_id', 'tipo_id', 'especie_id', 'genero_id'],
             where: { hcf: nroTombo },
         }).then(tombo => {
             callback(tombo);
