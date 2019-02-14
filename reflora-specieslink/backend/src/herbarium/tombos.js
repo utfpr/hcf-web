@@ -1,3 +1,4 @@
+import Q from 'q';
 import database from './database';
 import { writeFileLOG } from './log';
 
@@ -184,25 +185,20 @@ function equalNomeCientifico(fileName, nomeCientificoBD, nomeCientificoReflora) 
 }
 
 function equalFamilia(fileName, connection, familyBD, familyReflora) {
-    if (!valueIsNull(familyBD.familia_id)) {
-        const intFamilyBD = parseInt(familyBD.familia_id);
-        if (isNumber(intFamilyBD)) {
-            // @ts-ignore
-            database.selectFamily(connection, intFamilyBD, familyTombo => {
-                const familyTomboString = familyTombo[0].dataValues.nome;
-                if (familyTomboString === familyReflora.family) {
-                    writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são iguais`);
-                    return -1;
-                }
-                writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são diferentes`);
-                return familyTomboString;
-            });
+    const promessa = Q.defer();
+    // if (!valueIsNull(familyBD.familia_id) && !valueIsNull(familyReflora.family)) {
+    database.selectFamily(connection, familyBD.familia_id, familyTombo => {
+        const familyTomboString = familyTombo[0].dataValues.nome;
+        if ((familyTomboString === familyReflora.family) && (!valueIsNull(familyTomboString)) && (!valueIsNull(familyReflora.family))) {
+            writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são iguais`);
+            promessa.resolve(-1);
+            return promessa.promise;
         }
-        writeFileLOG(fileName, `{BD: ${intFamilyBD}} o identificador de família não é um número`);
-        return -1;
-    }
-    writeFileLOG(fileName, `{BD: ${familyBD.familia_id}} o identificador de família não é um número`);
-    return -1;
+        writeFileLOG(fileName, `{BD: ${familyTomboString}, Reflora: ${familyReflora.family}} as famílias são diferentes`);
+        promessa.resolve(familyTomboString);
+        return promessa.promise;
+    });
+    return promessa.promise;
 }
 
 function compareInfoTombos(fileName, connection, codBarra, tomboBD, tomboReflora) {
@@ -228,7 +224,10 @@ function compareInfoTombos(fileName, connection, codBarra, tomboBD, tomboReflora
     writeFileLOG(fileName, 'Comparando informações de nome científico');
     equalNomeCientifico(fileName, infoTomboBD, infoTomboReflora);
     writeFileLOG(fileName, 'Comparando informações de família');
-    equalFamilia(fileName, connection, infoTomboBD, infoTomboReflora);
+    equalFamilia(fileName, connection, infoTomboBD, infoTomboReflora).then(familia => {
+        // eslint-disable-next-line no-console
+        console.log(familia);
+    });
 }
 
 function compareTombo(fileName, connection, codBarra, responseReflora) {
