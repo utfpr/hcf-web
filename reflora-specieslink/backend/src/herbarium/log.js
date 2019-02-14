@@ -1,17 +1,17 @@
 import fs from 'fs';
 import moment from 'moment';
 
-function getCurrentHour() {
+function getHoraAtual() {
     return moment().format('DD/MM/YYYY-HH:mm:ss');
 }
 
-export function getFileName() {
+export function getNomeArquivo() {
     /* Não funciona o barra / e : para criar arquivo */
     return moment().format('DD-MM-YYYY-HH-mm-ss');
 }
 
-export function writeFileLOG(fileName, message) {
-    const pathFile = `logs/${fileName}.log`;
-    const content = `[${getCurrentHour()}] ${message}\n`;
-    fs.writeFileSync(pathFile, content, { flag: 'a' });
+export function escreveLOG(nomeArquivo, mensagem) {
+    const caminhoArquivo = `logs/${nomeArquivo}.log`;
+    const conteudo = `[${getHoraAtual()}] ${mensagem}\n`;
+    fs.writeFileSync(caminhoArquivo, conteudo, { flag: 'a' });
 }

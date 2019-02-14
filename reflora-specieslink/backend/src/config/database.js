@@ -1,7 +1,7 @@
 const {
     DB_NAME = 'hcf',
     DB_USER = 'root',
-    DB_PASS = 'xxxxx',
+    DB_PASS = 'xxx',
     DB_HOST = 'localhost',
     DB_PORT = '3306',
 } = process.env;

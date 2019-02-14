@@ -1,16 +1,16 @@
 import database from '../database';
 import tombos from '../tombos';
 import reflora from './reflora';
-import { getFileName, writeFileLOG } from '../log';
+import { getNomeArquivo, escreveLOG } from '../log';
 
 function main() {
-    const fileName = getFileName();
-    writeFileLOG(fileName, 'Inicializando a aplicação do {Reflora}');
+    const nomeArquivo = getNomeArquivo();
+    escreveLOG(nomeArquivo, 'Inicializando a aplicação do {Reflora}');
 
-    const connection = database.createConnection(fileName);
-    database.selectMaxNumBarra(connection, maxCodBarra => {
-        const intMaxCodBarra = tombos.proccessMaxCodBarra(fileName, maxCodBarra);
-        reflora.requestReflora(fileName, connection, intMaxCodBarra);
+    const conexao = database.criaConexao(nomeArquivo);
+    database.selectMaxNumBarra(conexao, maxCodBarra => {
+        const intMaiorCodBarra = tombos.processaMaiorCodBarra(nomeArquivo, maxCodBarra);
+        reflora.requestReflora(nomeArquivo, conexao, intMaiorCodBarra);
     });
 }
 
