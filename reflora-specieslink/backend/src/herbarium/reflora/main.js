@@ -10,7 +10,7 @@ function main() {
     const conexao = database.criaConexao(nomeArquivo);
     database.selectMaxNumBarra(conexao, maxCodBarra => {
         const intMaiorCodBarra = tombos.processaMaiorCodBarra(nomeArquivo, maxCodBarra);
-        reflora.requestReflora(nomeArquivo, conexao, intMaiorCodBarra);
+        reflora.requisicaoReflora(nomeArquivo, conexao, intMaiorCodBarra);
     });
 }
 

@@ -267,7 +267,7 @@ function ehIgualVariedade(nomeArquivo, conexao, variedadeID, informacaoReflora) 
     return promessa.promise;
 }
 */
-function compareInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
+function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
     escreveLOG(nomeArquivo, `Comparando informações do tombo de código de barra {${codBarra}}`);
     const informacaoTomboBD = tomboBD[0].dataValues;
     const informacaoTomboReflora = tomboReflora.result[0];
@@ -300,7 +300,7 @@ function comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora) {
     database.selectNroTomboNumBarra(conexao, codBarra, nroTombo => {
         escreveLOG(nomeArquivo, `O tombo do código de barra {${codBarra}} é {${nroTombo[0].dataValues.tombo_hcf}}`);
         database.selectTombo(conexao, nroTombo[0].dataValues.tombo_hcf, tombo => {
-            compareInformacoesTombos(nomeArquivo, conexao, codBarra, tombo, respostaReflora);
+            comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tombo, respostaReflora);
         });
     });
 }
