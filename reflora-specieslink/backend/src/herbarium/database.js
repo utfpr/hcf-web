@@ -158,9 +158,33 @@ function selectEstado(conexao, idCidade, callback) {
     });
 }
 
+function selectPais(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_paises_nome'],
+            where: { id: idCidade },
+        }).then(paises => {
+            callback(paises);
+        });
+    });
+}
+
+function selectPaisSigla(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_paises_sigla'],
+            where: { id: idCidade },
+        }).then(paises => {
+            callback(paises);
+        });
+    });
+}
+
 /* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado,
+    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado, selectPais, selectPaisSigla,
 };
 
 /**

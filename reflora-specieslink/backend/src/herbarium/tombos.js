@@ -350,7 +350,7 @@ function ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
     database.selectEstado(conexao, idCidade, resultadoEstadoTombo => {
         if (resultadoEstadoTombo.length > 0) {
-            const nomeEstadoBD = resultadoEstadoTombo[0].dataValues.nome;
+            const nomeEstadoBD = resultadoEstadoTombo[0].dataValues.estados_nome;
             const nomeEstadoReflora = informacaoReflora.stateprovince;
             if ((nomeEstadoBD === nomeEstadoReflora) && !valorEhNulo(nomeEstadoBD) && !valorEhNulo(nomeEstadoReflora)) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são iguais`);
@@ -362,6 +362,50 @@ function ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoReflora) {
             return promessa.promise;
         }
         escreveLOG(nomeArquivo, 'Não foram retornados informações de estados');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+function ehIgualPais(nomeArquivo, conexao, idCidade, informacaoReflora) {
+    const promessa = Q.defer();
+    database.selectPais(conexao, idCidade, resultadoPaisTombo => {
+        if (resultadoPaisTombo.length > 0) {
+            const nomePaisBD = resultadoPaisTombo[0].dataValues.estados_paises_nome;
+            const nomePaisReflora = informacaoReflora.country;
+            if ((nomePaisBD === nomePaisReflora) && !valorEhNulo(nomePaisBD) && !valorEhNulo(nomePaisReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}, Reflora: ${nomePaisReflora}} os países são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}, Reflora: ${nomePaisReflora}} os países são diferentes`);
+            promessa.resolve(nomePaisReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de países');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+function ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoReflora) {
+    const promessa = Q.defer();
+    database.selectPais(conexao, idCidade, resultadoPaisSiglaTombo => {
+        if (resultadoPaisSiglaTombo.length > 0) {
+            const nomePaisSiglaBD = resultadoPaisSiglaTombo[0].dataValues.estados_paises_sigla;
+            const nomePaisSiglaReflora = informacaoReflora.countrycode;
+            if ((nomePaisSiglaBD === nomePaisSiglaReflora) && !valorEhNulo(nomePaisSiglaBD) && !valorEhNulo(nomePaisSiglaReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}, Reflora: ${nomePaisSiglaReflora}} as siglas dos países são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}, Reflora: ${nomePaisSiglaReflora}} as siglas dos países são diferentes`);
+            promessa.resolve(nomePaisSiglaReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de sigla dos países');
         promessa.resolve(-1);
         return promessa.promise;
     });
@@ -480,6 +524,16 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             await ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(estado => {
                 if (estado !== -1) {
                     alteracaoInformacao += `cidade: ${estado}, `;
+                }
+            });
+            await ehIgualPais(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(pais => {
+                if (pais !== -1) {
+                    alteracaoInformacao += `pais: ${pais}, `;
+                }
+            });
+            await ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(paisSigla => {
+                if (paisSigla !== -1) {
+                    alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
                 }
             });
         }
