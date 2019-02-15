@@ -346,6 +346,28 @@ function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
+function ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoReflora) {
+    const promessa = Q.defer();
+    database.selectEstado(conexao, idCidade, resultadoEstadoTombo => {
+        if (resultadoEstadoTombo.length > 0) {
+            const nomeEstadoBD = resultadoEstadoTombo[0].dataValues.nome;
+            const nomeEstadoReflora = informacaoReflora.stateprovince;
+            if ((nomeEstadoBD === nomeEstadoReflora) && !valorEhNulo(nomeEstadoBD) && !valorEhNulo(nomeEstadoReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são diferentes`);
+            promessa.resolve(nomeEstadoReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de estados');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
 function getIDCidade(nomeArquivo, conexao, informacaoBD) {
     const promessa = Q.defer();
     const idLocalColeta = informacaoBD.local_coleta_id;
@@ -448,11 +470,16 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
+        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 2;
         if (idCidade !== -1) {
             await ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(cidade => {
                 if (cidade !== -1) {
                     alteracaoInformacao += `cidade: ${cidade}, `;
+                }
+            });
+            await ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(estado => {
+                if (estado !== -1) {
+                    alteracaoInformacao += `cidade: ${estado}, `;
                 }
             });
         }

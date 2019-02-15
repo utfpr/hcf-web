@@ -146,9 +146,21 @@ function selectCidade(conexao, idCidade, callback) {
     });
 }
 
+function selectEstado(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_nome'],
+            where: { id: idCidade },
+        }).then(estado => {
+            callback(estado);
+        });
+    });
+}
+
 /* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade,
+    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado,
 };
 
 /**
