@@ -324,6 +324,49 @@ function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoReflora)
     return promessa.promise;
 }
 
+function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora) {
+    const promessa = Q.defer();
+    database.selectCidade(conexao, idCidade, resultadoCidadeTombo => {
+        if (resultadoCidadeTombo.length > 0) {
+            const nomeCidadeBD = resultadoCidadeTombo[0].dataValues.nome;
+            const nomeCidadeReflora = informacaoReflora.municipality;
+            if ((nomeCidadeBD === nomeCidadeReflora) && !valorEhNulo(nomeCidadeBD) && !valorEhNulo(nomeCidadeReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}, Reflora: ${nomeCidadeReflora}} as cidades são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}, Reflora: ${nomeCidadeReflora}} as cidades são diferentes`);
+            promessa.resolve(nomeCidadeReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de cidade');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+function getIDCidade(nomeArquivo, conexao, informacaoBD) {
+    const promessa = Q.defer();
+    const idLocalColeta = informacaoBD.local_coleta_id;
+    database.selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
+        if (resultadoLocalColetaTombo.length > 0) {
+            const idCidade = parseInt(resultadoLocalColetaTombo[0].dataValues.cidade_id);
+            if (!valorEhNulo(idCidade) && ehNumero(idCidade)) {
+                promessa.resolve(idCidade);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${idCidade}} o ID da cidade não é válido`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
 async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
     escreveLOG(nomeArquivo, `Comparando informações do tombo de código de barra {${codBarra}}`);
     if (tomboBD.length > 0) {
@@ -405,6 +448,16 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
+        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
+        if (idCidade !== -1) {
+            await ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(cidade => {
+                if (cidade !== -1) {
+                    alteracaoInformacao += `cidade: ${cidade}, `;
+                }
+            });
+        }
+        // eslint-disable-next-line no-console
+        console.log(`-> ${idCidade}`);
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
         // eslint-disable-next-line no-console

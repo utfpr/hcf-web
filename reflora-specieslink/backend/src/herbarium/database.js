@@ -14,6 +14,8 @@ import modeloGeneros from '../models/Genero';
 import modeloTipos from '../models/Tipo';
 import modeloEspecies from '../models/Especie';
 import modeloVariedades from '../models/Variedade';
+import modeloLocalColeta from '../models/LocalColeta';
+import modeloCidade from '../models/Cidade';
 import { escreveLOG } from './log';
 
 function criaConexao(nomeArquivo) {
@@ -52,7 +54,7 @@ function selectTombo(conexao, nroTombo, callback) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTombo.findAll({
-            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id', 'variedade_id', 'tipo_id', 'especie_id', 'genero_id'],
+            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id', 'variedade_id', 'tipo_id', 'especie_id', 'genero_id', 'local_coleta_id'],
             where: { hcf: nroTombo },
         }).then(tombo => {
             callback(tombo);
@@ -120,9 +122,33 @@ function selectTipo(conexao, idTipo, callback) {
     });
 }
 
+function selectLocalColeta(conexao, idLocalColeta, callback) {
+    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaLocalColeta.findAll({
+            attributes: ['cidade_id'],
+            where: { id: idLocalColeta },
+        }).then(localColeta => {
+            callback(localColeta);
+        });
+    });
+}
+
+function selectCidade(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['nome'],
+            where: { id: idCidade },
+        }).then(cidade => {
+            callback(cidade);
+        });
+    });
+}
+
 /* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade,
+    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade,
 };
 
 /**
