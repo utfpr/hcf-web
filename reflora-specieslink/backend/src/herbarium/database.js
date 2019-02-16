@@ -16,6 +16,7 @@ import modeloEspecies from '../models/Especie';
 import modeloVariedades from '../models/Variedade';
 import modeloLocalColeta from '../models/LocalColeta';
 import modeloCidade from '../models/Cidade';
+import modeloAutor from '../models/Autor';
 import { escreveLOG } from './log';
 
 function criaConexao(nomeArquivo) {
@@ -90,7 +91,7 @@ function selectEspecie(conexao, idEspecie, callback) {
     const tabelaEspecie = modeloEspecies(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaEspecie.findAll({
-            attributes: ['nome'],
+            attributes: ['nome', 'autor_id'],
             where: { id: idEspecie },
         }).then(especie => {
             callback(especie);
@@ -182,9 +183,21 @@ function selectPaisSigla(conexao, idCidade, callback) {
     });
 }
 
+function selectAutor(conexao, idAutor, callback) {
+    const tabelaAutor = modeloAutor(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaAutor.findAll({
+            attributes: ['nome'],
+            where: { id: idAutor },
+        }).then(autor => {
+            callback(autor);
+        });
+    });
+}
+
 /* Para poder utilizar as funções em outros arquivosé necessário exportar */
 export default {
-    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado, selectPais, selectPaisSigla,
+    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado, selectPais, selectPaisSigla, selectAutor,
 };
 
 /**

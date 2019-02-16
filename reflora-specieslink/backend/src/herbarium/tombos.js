@@ -412,6 +412,28 @@ function ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
+function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico, informacaoReflora) {
+    const promessa = Q.defer();
+    database.selectAutor(conexao, idAutorNomeCientifico, resultadoAutorNomeCientificoTombo => {
+        if (resultadoAutorNomeCientificoTombo.length > 0) {
+            const autorNomeCientificoBD = resultadoAutorNomeCientificoTombo[0].dataValues.nome;
+            const autorNomeCientificoReflora = informacaoReflora.countrycode;
+            if ((autorNomeCientificoBD === autorNomeCientificoReflora) && !valorEhNulo(autorNomeCientificoBD) && !valorEhNulo(autorNomeCientificoReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} dos autores dos nomes científicos são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} dos autores dos nomes científicos são diferentes`);
+            promessa.resolve(autorNomeCientificoReflora);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações dos autores dos nomes científicos');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
 function getIDCidade(nomeArquivo, conexao, informacaoBD) {
     const promessa = Q.defer();
     const idLocalColeta = informacaoBD.local_coleta_id;
@@ -427,6 +449,27 @@ function getIDCidade(nomeArquivo, conexao, informacaoBD) {
             return promessa.promise;
         }
         escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
+        promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+function getIDAutor(nomeArquivo, conexao, informacaoBD) {
+    const promessa = Q.defer();
+    const idLocalColeta = informacaoBD.especie_id;
+    database.selectEspecie(conexao, idLocalColeta, resultadoIDAutorTombo => {
+        if (resultadoIDAutorTombo.length > 0) {
+            const idAutor = parseInt(resultadoIDAutorTombo[0].dataValues.autor_id);
+            if (!valorEhNulo(idAutor) && ehNumero(idAutor)) {
+                promessa.resolve(idAutor);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${idAutor}} o ID do autor não é válido`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, 'Não foram retornados informações de espécies');
         promessa.resolve(-1);
         return promessa.promise;
     });
@@ -514,7 +557,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 2;
+        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
         if (idCidade !== -1) {
             await ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(cidade => {
                 if (cidade !== -1) {
@@ -534,6 +577,15 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             await ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(paisSigla => {
                 if (paisSigla !== -1) {
                     alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
+                }
+            });
+        }
+        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) + 15;
+        if (idAutor !== -1) {
+            await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboBD).then(nomeAutorCientifico => {
+                // a
+                if (nomeAutorCientifico !== -1) {
+                    alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
                 }
             });
         }
