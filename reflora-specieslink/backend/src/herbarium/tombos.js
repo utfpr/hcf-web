@@ -417,7 +417,9 @@ function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico,
     database.selectAutor(conexao, idAutorNomeCientifico, resultadoAutorNomeCientificoTombo => {
         if (resultadoAutorNomeCientificoTombo.length > 0) {
             const autorNomeCientificoBD = resultadoAutorNomeCientificoTombo[0].dataValues.nome;
-            const autorNomeCientificoReflora = informacaoReflora.countrycode;
+            const autorNomeCientificoReflora = informacaoReflora.scientificnameauthorship;
+            // eslint-disable-next-line no-console
+            console.log(`->>>>>>>>>>>>>>>>>>>${informacaoReflora}`);
             if ((autorNomeCientificoBD === autorNomeCientificoReflora) && !valorEhNulo(autorNomeCientificoBD) && !valorEhNulo(autorNomeCientificoReflora)) {
                 escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} dos autores dos nomes científicos são iguais`);
                 promessa.resolve(-1);
@@ -596,9 +598,9 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 }
             });
         }
-        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) + 15;
+        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) ;
         if (idAutor !== -1) {
-            await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboBD).then(nomeAutorCientifico => {
+            await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {
                 // a
                 if (nomeAutorCientifico !== -1) {
                     alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
