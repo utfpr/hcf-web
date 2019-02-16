@@ -12,6 +12,7 @@ import {
     selectCidade,
     selectEstado,
     selectPais,
+    selectVegetacao,
 } from './database';
 import { escreveLOG } from './log';
 
@@ -156,7 +157,7 @@ export function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) 
         escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as informações de observações são vazias`);
         return '';
     }
-    if (observacaoTomboBD === observacaoTomboReflora) {
+    if (observacaoTomboBD.includes(observacaoTomboReflora)) {
         escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são iguais`);
         return '';
     }
@@ -268,6 +269,74 @@ export function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora)
         }
         escreveLOG(nomeArquivo, 'Não foram retornados informações de cidade');
         promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+export function ehIgualLocalidade(nomeArquivo, conexao, idLocalColeta, informacaoTomboBD, informacaoReflora) {
+    const promessa = Q.defer();
+    selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
+        if (resultadoLocalColetaTombo.length === 0) {
+            escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const idVegetacaoBD = resultadoLocalColetaTombo[0].dataValues.vegetacao_id;
+        if (valorEhNulo(idVegetacaoBD)) {
+            escreveLOG(nomeArquivo, `{BD: ${idVegetacaoBD}} o valor de vegetação é nulo`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const intVegetacaoBD = parseInt(idVegetacaoBD);
+        if (!ehNumero(intVegetacaoBD)) {
+            escreveLOG(nomeArquivo, `{BD: ${intVegetacaoBD}} o valor de vegetação não é número`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        selectVegetacao(conexao, intVegetacaoBD, resultadoVegetacaoTombo => {
+            const vegetacaoBD = resultadoVegetacaoTombo[0].dataValues.nome;
+            const observacaoTomboBD = informacaoTomboBD.observacao;
+            const localidadeReflora = informacaoReflora.locality;
+            if (valorEhNulo(vegetacaoBD)) {
+                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} a vegetação é nula`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (valorEhNulo(observacaoTomboBD)) {
+                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} a observação é nula`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (valorEhNulo(localidadeReflora)) {
+                escreveLOG(nomeArquivo, `{BD: ${localidadeReflora}} a localidade é nula`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (vegetacaoBD.length === 0) {
+                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} não existe nome de vegetação`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (observacaoTomboBD.length === 0) {
+                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} não existe observação`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (localidadeReflora.length === 0) {
+                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} não existe localidade`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            if (localidadeReflora.includes(observacaoTomboBD) && localidadeReflora.includes(vegetacaoBD)) {
+                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, ${vegetacaoBD}, Reflora: ${localidadeReflora}} são iguais`);
+                promessa.resolve(-1);
+                return promessa.promise;
+            }
+            escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, ${vegetacaoBD}, Reflora: ${localidadeReflora}} são diferentes`);
+            promessa.resolve(localidadeReflora);
+            return promessa.promise;
+        });
         return promessa.promise;
     });
     return promessa.promise;

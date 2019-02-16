@@ -13,6 +13,7 @@ import {
     ehIgualPaisSigla,
     ehIgualEstado,
     ehIgualCidade,
+    ehIgualLocalidade,
     ehIgualAltitude,
     ehIgualLatitude,
     ehIgualLongitude,
@@ -59,26 +60,42 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
         }
         escreveLOG(nomeArquivo, 'Comparando informações de país, sigla país, estado e cidade');
-        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
+        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 15;
         if (idCidade !== -1) {
+            escreveLOG(nomeArquivo, 'Comparando informações de país');
             await ehIgualPais(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(pais => {
                 if (pais !== -1) {
                     alteracaoInformacao += `pais: ${pais}, `;
                 }
             });
+            escreveLOG(nomeArquivo, 'Comparando informações de sigla de país');
             await ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(paisSigla => {
                 if (paisSigla !== -1) {
                     alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
                 }
             });
+            escreveLOG(nomeArquivo, 'Comparando informações de estado');
             await ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(estado => {
                 if (estado !== -1) {
                     alteracaoInformacao += `estado: ${estado}, `;
                 }
             });
+            escreveLOG(nomeArquivo, 'Comparando informações de cidade');
             await ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(cidade => {
                 if (cidade !== -1) {
                     alteracaoInformacao += `cidade: ${cidade}, `;
+                }
+            });
+            /*
+                A locality (chave do json do Reflora) é formada pelo atributo
+                observacao da tabela tombos e da vegetação relacionada a esse tombo
+            */
+            escreveLOG(nomeArquivo, 'Comparando informações de localidade');
+            // eslint-disable-next-line no-console
+            console.log(`bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb${idCidade}`);
+            await ehIgualLocalidade(nomeArquivo, conexao, idCidade, informacaoTomboBD, informacaoTomboReflora).then(localidade => {
+                if (localidade !== -1) {
+                    alteracaoInformacao += `localidade: ${localidade}, `;
                 }
             });
         }
@@ -133,7 +150,6 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 alteracaoInformacao += `especie: ${especie}, `;
             }
         });
-
         escreveLOG(nomeArquivo, 'Comparando informações de variedade');
         await ehIgualVariedade(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(variedade => {
             if (variedade !== -1) {
@@ -143,6 +159,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
         const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD);
         if (idAutor !== -1) {
+            escreveLOG(nomeArquivo, 'Comparando informações de autor de nome científico');
             await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {
                 if (nomeAutorCientifico !== -1) {
                     alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;

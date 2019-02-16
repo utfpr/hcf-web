@@ -17,6 +17,7 @@ import modeloVariedades from '../models/Variedade';
 import modeloLocalColeta from '../models/LocalColeta';
 import modeloCidade from '../models/Cidade';
 import modeloAutor from '../models/Autor';
+import modeloVegetacao from '../models/Vegetacao';
 import { escreveLOG } from './log';
 
 export function criaConexao(nomeArquivo) {
@@ -127,7 +128,7 @@ export function selectLocalColeta(conexao, idLocalColeta, callback) {
     const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaLocalColeta.findAll({
-            attributes: ['cidade_id'],
+            attributes: ['cidade_id', 'vegetacao_id'],
             where: { id: idLocalColeta },
         }).then(localColeta => {
             callback(localColeta);
@@ -191,6 +192,18 @@ export function selectAutor(conexao, idAutor, callback) {
             where: { id: idAutor },
         }).then(autor => {
             callback(autor);
+        });
+    });
+}
+
+export function selectVegetacao(conexao, idVegetacao, callback) {
+    const tabelaVegetacao = modeloVegetacao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaVegetacao.findAll({
+            attributes: ['nome'],
+            where: { id: idVegetacao },
+        }).then(vegetacao => {
+            callback(vegetacao);
         });
     });
 }

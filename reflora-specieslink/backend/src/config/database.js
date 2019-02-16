@@ -1,7 +1,7 @@
 const {
     DB_NAME = 'hcf',
     DB_USER = 'root',
-    DB_PASS = 'x',
+    DB_PASS = 'xxxx',
     DB_HOST = 'localhost',
     DB_PORT = '3306',
 } = process.env;
@@ -26,4 +26,5 @@ export const options = {
         charset: 'utf8mb4',
         multipleStatements: true,
     },
+    logging: false,
 };

@@ -50,7 +50,7 @@ async function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
     /* const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
     while (arrayCodBarra.length !== 0) {
         const codBarra = arrayCodBarra.pop(); */
-    const codBarra = 'HCF000026404';
+    const codBarra = 'HCF000017702';
     await throttle(() => {
         request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
             escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
