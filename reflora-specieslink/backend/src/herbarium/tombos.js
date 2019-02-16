@@ -4,6 +4,13 @@ import Q from 'q';
 import database from './database';
 import { escreveLOG } from './log';
 
+function valorEhIndefinido(valor) {
+    if (valor === undefined) {
+        return true;
+    }
+    return false;
+}
+
 function valorEhNulo(valor) {
     /* Afim de evitar problemas na conversão do parseInt */
     if (valor === null) {
@@ -20,29 +27,45 @@ function ehNumero(valor) {
 }
 
 function ehIgualNroColeta(nomeArquivo, informacaoBD, informacaoReflora) {
-    const nroColetaBD = informacaoBD.numero_coleta;
-    const nroColetaReflora = informacaoReflora.numero_coleta;
-    if (!valorEhNulo(nroColetaBD) && !valorEhNulo(nroColetaReflora)) {
-        const intNroColetaBD = parseInt(nroColetaBD.numero_coleta);
-        const intNroColetaReflora = parseInt(informacaoReflora.recordnumber);
-        if (ehNumero(intNroColetaBD) && ehNumero(intNroColetaReflora)) {
-            if (intNroColetaBD === intNroColetaReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas são iguais`);
-                return -1;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas são diferentes`);
-            return intNroColetaReflora;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${intNroColetaBD}, Reflora: ${intNroColetaReflora}} números de coletas não são números`);
+    const nroColetaBD = informacaoBD.latitude;
+    const nroColetaReflora = informacaoReflora.recordnumber;
+    if (valorEhIndefinido(nroColetaBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${nroColetaBD}} o número de coleta é indefinido`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${nroColetaBD}, Reflora: ${nroColetaReflora}} números de coletas são nulos`);
-    return -1;
+    if (valorEhIndefinido(nroColetaReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${nroColetaReflora}} o número de coleta é indefinido`);
+        return -1;
+    }
+    if (valorEhNulo(nroColetaBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${nroColetaBD}} o número de coleta é nula`);
+        return -1;
+    }
+    if (valorEhNulo(nroColetaReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${nroColetaReflora}} o número de coleta é nula`);
+        return -1;
+    }
+    const floatNroColetaBD = parseFloat(nroColetaBD);
+    const floatNroColetaReflora = parseFloat(nroColetaReflora);
+    if (!ehNumero(floatNroColetaBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}} o número de coleta não é número`);
+        return -1;
+    }
+    if (!ehNumero(floatNroColetaReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${floatNroColetaReflora}} o número de coleta não é número`);
+        return -1;
+    }
+    if (floatNroColetaBD === floatNroColetaReflora) {
+        escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}, Reflora: ${floatNroColetaReflora}} números de coletas são iguais`);
+        return -1;
+    }
+    escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}, Reflora: ${floatNroColetaReflora}} números de coletas são diferentes`);
+    return floatNroColetaReflora;
 }
 
 function ehIgualDiaColeta(nomeArquivo, informacaoBD, informacaoReflora) {
     const diaColetaBD = informacaoBD.data_coleta_dia;
-    const diaColetaReflora = informacaoBD.day;
+    const diaColetaReflora = informacaoReflora.day;
     if (!valorEhNulo(diaColetaBD) && !valorEhNulo(diaColetaReflora)) {
         const intDiaColetaBD = parseInt(diaColetaBD);
         const intDiaColetaReflora = parseInt(diaColetaReflora);
@@ -134,43 +157,59 @@ function ehIgualAltitude(nomeArquivo, informacaoBD, informacaoReflora) {
 function ehIgualLatitude(nomeArquivo, informacaoBD, informacaoReflora) {
     const latitudeBD = informacaoBD.latitude;
     const latitudeReflora = informacaoReflora.decimallatitude;
-    if (!valorEhNulo(latitudeBD) && !valorEhNulo(latitudeReflora)) {
-        const intLatitudeBD = parseFloat(latitudeBD);
-        const intLatitudeReflora = parseFloat(latitudeReflora);
-        if (ehNumero(intLatitudeBD) && ehNumero(intLatitudeReflora)) {
-            if (intLatitudeBD === intLatitudeReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são iguais`);
-                return -1;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são diferentes`);
-            return intLatitudeReflora;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes não são números`);
+    if (!ehNumero(latitudeBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${latitudeBD}} a latitude não é número`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${latitudeBD}, Reflora: ${latitudeReflora}} latitudes são nulos`);
-    return -1;
+    if (!ehNumero(latitudeReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${latitudeReflora}} a latitude não é número`);
+        return -1;
+    }
+    if (valorEhNulo(latitudeBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${latitudeBD}} a latitude é nula`);
+        return -1;
+    }
+    if (valorEhNulo(latitudeReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${latitudeReflora}} a latitude é nula`);
+        return -1;
+    }
+    const intLatitudeBD = parseFloat(latitudeBD);
+    const intLatitudeReflora = parseFloat(latitudeReflora);
+    if (intLatitudeBD === intLatitudeReflora) {
+        escreveLOG(nomeArquivo, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são iguais`);
+        return -1;
+    }
+    escreveLOG(nomeArquivo, `{BD: ${intLatitudeBD}, Reflora: ${intLatitudeReflora}} latitudes são diferentes`);
+    return intLatitudeReflora;
 }
 
 function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     const longitudeBD = informacaoBD.longitude;
-    const longitudeReflora = informacaoReflora.decimallongitude;
-    if (!valorEhNulo(longitudeBD) && !valorEhNulo(longitudeReflora)) {
-        const intLongitudeBD = parseFloat(longitudeBD);
-        const intLongitudeReflora = parseFloat(longitudeReflora);
-        if (ehNumero(intLongitudeBD) && ehNumero(intLongitudeReflora)) {
-            if (intLongitudeBD === intLongitudeReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são iguais`);
-                return -1;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são diferentes`);
-            return intLongitudeReflora;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes não são números`);
+    const longitudeReflora = informacaoReflora.decimallatitude;
+    if (!ehNumero(longitudeBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${longitudeBD}} a longitude não é número`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${longitudeBD}, Reflora: ${longitudeReflora}} longitudes são nulos`);
-    return -1;
+    if (!ehNumero(longitudeReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${longitudeReflora}} a longitude não é número`);
+        return -1;
+    }
+    if (valorEhNulo(longitudeBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${longitudeBD}} a longitude é nula`);
+        return -1;
+    }
+    if (valorEhNulo(longitudeReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${longitudeReflora}} a longitude é nula`);
+        return -1;
+    }
+    const intLongitudeBD = parseFloat(longitudeBD);
+    const intLongitudeReflora = parseFloat(longitudeReflora);
+    if (intLongitudeBD === intLongitudeReflora) {
+        escreveLOG(nomeArquivo, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são iguais`);
+        return -1;
+    }
+    escreveLOG(nomeArquivo, `{BD: ${intLongitudeBD}, Reflora: ${intLongitudeReflora}} longitudes são diferentes`);
+    return intLongitudeReflora;
 }
 
 function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {
@@ -418,8 +457,6 @@ function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico,
         if (resultadoAutorNomeCientificoTombo.length > 0) {
             const autorNomeCientificoBD = resultadoAutorNomeCientificoTombo[0].dataValues.nome;
             const autorNomeCientificoReflora = informacaoReflora.scientificnameauthorship;
-            // eslint-disable-next-line no-console
-            console.log(`->>>>>>>>>>>>>>>>>>>${informacaoReflora}`);
             if ((autorNomeCientificoBD === autorNomeCientificoReflora) && !valorEhNulo(autorNomeCientificoBD) && !valorEhNulo(autorNomeCientificoReflora)) {
                 escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} dos autores dos nomes científicos são iguais`);
                 promessa.resolve(-1);
@@ -439,6 +476,22 @@ function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico,
 function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) {
     const observacaoTomboBD = informacaoBD.observacao;
     const observacaoTomboReflora = informacaoReflora.fieldnotes;
+    if (valorEhNulo(observacaoTomboBD)) {
+        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} as observações são nulas`);
+        return '';
+    }
+    if (valorEhNulo(observacaoTomboReflora)) {
+        escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as observações são nulas`);
+        return '';
+    }
+    if (observacaoTomboBD.length === 0) {
+        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} as informações de observações são vazias`);
+        return '';
+    }
+    if (observacaoTomboReflora.length === 0) {
+        escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as informações de observações são vazias`);
+        return '';
+    }
     if (observacaoTomboBD === observacaoTomboReflora) {
         escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são iguais`);
         return '';
@@ -598,7 +651,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 }
             });
         }
-        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) ;
+        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD);
         if (idAutor !== -1) {
             await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {
                 // a
