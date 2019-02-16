@@ -19,18 +19,18 @@ import modeloCidade from '../models/Cidade';
 import modeloAutor from '../models/Autor';
 import { escreveLOG } from './log';
 
-function criaConexao(nomeArquivo) {
+export function criaConexao(nomeArquivo) {
     escreveLOG(nomeArquivo, 'Criando a conexão com o database');
     return new Sequelize(database, username, password, options);
 }
 
-function testaConexao(conexao) {
+export function testaConexao(conexao) {
     conexao.authenticate()
         .then(() => /* a */ true)
         .catch(() => /* b */ false);
 }
 
-function selectMaxNumBarra(conexao, callback) {
+export function selectMaxNumBarra(conexao, callback) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTomboFoto.max('num_barra').then(max => {
@@ -39,7 +39,7 @@ function selectMaxNumBarra(conexao, callback) {
     });
 }
 
-function selectNroTomboNumBarra(conexao, codBarra, callback) {
+export function selectNroTomboNumBarra(conexao, codBarra, callback) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTomboFoto.findAll({
@@ -51,7 +51,7 @@ function selectNroTomboNumBarra(conexao, codBarra, callback) {
     });
 }
 
-function selectTombo(conexao, nroTombo, callback) {
+export function selectTombo(conexao, nroTombo, callback) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTombo.findAll({
@@ -63,7 +63,7 @@ function selectTombo(conexao, nroTombo, callback) {
     });
 }
 
-function selectFamilia(conexao, idFamilia, callback) {
+export function selectFamilia(conexao, idFamilia, callback) {
     const tabelaFamilia = modeloFamilias(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaFamilia.findAll({
@@ -75,7 +75,7 @@ function selectFamilia(conexao, idFamilia, callback) {
     });
 }
 
-function selectGenero(conexao, idGenero, callback) {
+export function selectGenero(conexao, idGenero, callback) {
     const tabelaGenero = modeloGeneros(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaGenero.findAll({
@@ -87,7 +87,7 @@ function selectGenero(conexao, idGenero, callback) {
     });
 }
 
-function selectEspecie(conexao, idEspecie, callback) {
+export function selectEspecie(conexao, idEspecie, callback) {
     const tabelaEspecie = modeloEspecies(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaEspecie.findAll({
@@ -99,7 +99,7 @@ function selectEspecie(conexao, idEspecie, callback) {
     });
 }
 
-function selectVariedade(conexao, idFamilia, callback) {
+export function selectVariedade(conexao, idFamilia, callback) {
     const tabelaVariedade = modeloVariedades(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaVariedade.findAll({
@@ -111,7 +111,7 @@ function selectVariedade(conexao, idFamilia, callback) {
     });
 }
 
-function selectTipo(conexao, idTipo, callback) {
+export function selectTipo(conexao, idTipo, callback) {
     const tabelaTipo = modeloTipos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTipo.findAll({
@@ -123,7 +123,7 @@ function selectTipo(conexao, idTipo, callback) {
     });
 }
 
-function selectLocalColeta(conexao, idLocalColeta, callback) {
+export function selectLocalColeta(conexao, idLocalColeta, callback) {
     const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaLocalColeta.findAll({
@@ -135,7 +135,7 @@ function selectLocalColeta(conexao, idLocalColeta, callback) {
     });
 }
 
-function selectCidade(conexao, idCidade, callback) {
+export function selectCidade(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaCidade.findAll({
@@ -147,7 +147,7 @@ function selectCidade(conexao, idCidade, callback) {
     });
 }
 
-function selectEstado(conexao, idCidade, callback) {
+export function selectEstado(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaCidade.findAll({
@@ -159,7 +159,7 @@ function selectEstado(conexao, idCidade, callback) {
     });
 }
 
-function selectPais(conexao, idCidade, callback) {
+export function selectPais(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaCidade.findAll({
@@ -171,7 +171,7 @@ function selectPais(conexao, idCidade, callback) {
     });
 }
 
-function selectPaisSigla(conexao, idCidade, callback) {
+export function selectPaisSigla(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaCidade.findAll({
@@ -183,7 +183,7 @@ function selectPaisSigla(conexao, idCidade, callback) {
     });
 }
 
-function selectAutor(conexao, idAutor, callback) {
+export function selectAutor(conexao, idAutor, callback) {
     const tabelaAutor = modeloAutor(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaAutor.findAll({
@@ -194,11 +194,6 @@ function selectAutor(conexao, idAutor, callback) {
         });
     });
 }
-
-/* Para poder utilizar as funções em outros arquivosé necessário exportar */
-export default {
-    criaConexao, testaConexao, selectMaxNumBarra, selectNroTomboNumBarra, selectTombo, selectFamilia, selectEspecie, selectGenero, selectTipo, selectVariedade, selectLocalColeta, selectCidade, selectEstado, selectPais, selectPaisSigla, selectAutor,
-};
 
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;
