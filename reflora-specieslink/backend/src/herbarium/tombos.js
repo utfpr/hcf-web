@@ -434,6 +434,17 @@ function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico,
     return promessa.promise;
 }
 
+function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) {
+    const observacaoTomboBD = informacaoBD.observacao;
+    const observacaoTomboReflora = informacaoReflora.fieldnotes;
+    if (observacaoTomboBD === observacaoTomboReflora) {
+        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são iguais`);
+        return '';
+    }
+    escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são diferentes`);
+    return observacaoTomboReflora;
+}
+
 function getIDCidade(nomeArquivo, conexao, informacaoBD) {
     const promessa = Q.defer();
     const idLocalColeta = informacaoBD.local_coleta_id;
@@ -526,6 +537,11 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         const resultadoNomeCientifico = ehIgualNomeCientifico(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoNomeCientifico.length > 0) {
             alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
+        }
+        escreveLOG(nomeArquivo, 'Comparando informações de observação');
+        const resultadoObservacao = ehIgualObservacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
+        if (resultadoObservacao.length > 0) {
+            alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
         }
         escreveLOG(nomeArquivo, 'Comparando informações de família');
         await ehIgualFamilia(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(familia => {
