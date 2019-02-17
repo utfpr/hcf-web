@@ -674,20 +674,24 @@ export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     return floatLongitudeReflora;
 }
 
-/* Falta mexer aqui */
 export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {
     let dataIdentificacao = '';
     const dataIdentificacaoDiaBD = informacaoBD.data_identificacao_dia;
     const dataIdentificacaoMesBD = informacaoBD.data_identificacao_mes;
     const dataIdentificacaoAnoBD = informacaoBD.data_identificacao_ano;
     const dataIdentificacaoReflora = informacaoReflora.dateidentified;
-    if (!valorEhNulo(dataIdentificacaoDiaBD)) {
+    /*
+        Nessa função não é necessário fazer if individuais, ou seja, verificar um if se é nulo, indefinido ou número
+        Porque se for nulo ou indefinido ou se não for número, não iremos adicionar na nossa String com a data de identificação
+        Além disso, se colocar uma para cada aumentaria o tamanho do LOG
+    */
+    if (!valorEhNulo(dataIdentificacaoDiaBD) || !valorEhIndefinido(dataIdentificacaoDiaBD) || ehNumero(parseInt(dataIdentificacaoDiaBD))) {
         dataIdentificacao += `${dataIdentificacaoDiaBD}/`;
     }
-    if (!valorEhNulo(dataIdentificacaoMesBD)) {
+    if (!valorEhNulo(dataIdentificacaoMesBD) || !valorEhIndefinido(dataIdentificacaoMesBD) || ehNumero(parseInt(dataIdentificacaoMesBD))) {
         dataIdentificacao += `${dataIdentificacaoMesBD}/`;
     }
-    if (!valorEhNulo(dataIdentificacaoAnoBD)) {
+    if (!valorEhNulo(dataIdentificacaoAnoBD) || !valorEhIndefinido(dataIdentificacaoAnoBD) || ehNumero(parseInt(dataIdentificacaoAnoBD))) {
         dataIdentificacao += `${dataIdentificacaoAnoBD}`;
     }
     if (dataIdentificacao === dataIdentificacaoReflora) {
@@ -695,6 +699,8 @@ export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoRe
         return -1;
     }
     escreveLOG(nomeArquivo, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora}} datas de identificação são diferentes`);
+    // return '2014';
+    // return '11/2014';
     return dataIdentificacaoReflora;
 }
 

@@ -116,7 +116,16 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {
-            alteracaoInformacao += `data_identificacao_dia: ${resultadoDataIdentificacao}, `;
+            if ((resultadoDataIdentificacao.indexOf('/') === -1) && (resultadoDataIdentificacao.lastIndexOf('/') === -1)) {
+                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao}, `;
+            } else if (resultadoDataIdentificacao.indexOf('/') === resultadoDataIdentificacao.lastIndexOf('/')) {
+                alteracaoInformacao += `data_identificacao_mes: ${resultadoDataIdentificacao.substring(0, resultadoDataIdentificacao.indexOf('/'))}, `;
+                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.indexOf('/') + 1, resultadoDataIdentificacao.length)}, `;
+            } else if (resultadoDataIdentificacao.indexOf('/') !== resultadoDataIdentificacao.lastIndexOf('/')) {
+                alteracaoInformacao += `data_identificacao_dia: ${resultadoDataIdentificacao.substring(0, resultadoDataIdentificacao.indexOf('/'))}, `;
+                alteracaoInformacao += `data_identificacao_mes: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.indexOf('/') + 1, resultadoDataIdentificacao.lastIndexOf('/'))}, `;
+                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.lastIndexOf('/') + 1, resultadoDataIdentificacao.length)}, `;
+            }
         }
         escreveLOG(nomeArquivo, 'Comparando informações de tipo');
         await ehIgualTipo(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(tipo => {
