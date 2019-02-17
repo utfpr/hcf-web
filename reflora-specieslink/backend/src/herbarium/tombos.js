@@ -177,6 +177,8 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
         // eslint-disable-next-line no-console
+        console.log(`-> ${codBarra}`);
+        // eslint-disable-next-line no-console
         console.log(`-> ${alteracaoInformacao}`);
     } else {
         escreveLOG(nomeArquivo, `Não será feito comparações, pois não foi encontrado informações do tombo ${codBarra}`);

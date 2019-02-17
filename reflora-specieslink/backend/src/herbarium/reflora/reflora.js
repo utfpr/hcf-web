@@ -1,8 +1,9 @@
 /* eslint-disable max-len */
 import request from 'request';
 import throttledQueue from 'throttled-queue';
+import Q from 'q';
 import { comparaTombo } from '../tombos';
-import { existeCodBarra } from './codbarra';
+import { criaArrayCodBarra, existeCodBarra } from './codbarra';
 import { escreveLOG } from '../log';
 
 const listCodBarra = [];
@@ -45,25 +46,32 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
     }
 }
 
-async function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
+function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
     const throttle = throttledQueue(1, 1000);
-    /* const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
+    const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
+    const promessa = Q.defer();
     while (arrayCodBarra.length !== 0) {
-        const codBarra = arrayCodBarra.pop(); */
-    const codBarra = 'HCF000017702';
-    await throttle(() => {
-        request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
-            escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
-            temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
-            if (!existeCodBarra(listCodBarra, codBarra)) {
-                escreveLOG(nomeArquivo, `Não foi feita a requisição do código de barra {${codBarra}}`);
-                // arrayCodBarra.push(codBarra);
-            }
+        const codBarra = arrayCodBarra.pop();
+        // const codBarra = 'HCF000017702';
+        throttle(() => {
+            request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
+                escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
+                temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
+                if (!existeCodBarra(listCodBarra, codBarra)) {
+                    escreveLOG(nomeArquivo, `Não foi feita a requisição do código de barra {${codBarra}}`);
+                    // arrayCodBarra.push(codBarra);
+                }
+            });
         });
-    });
-    // }
+    }
+    return promessa.promise;
+}
+
+
+async function doRequest(nomeArquivo, conexao, maxCodBarra) {
+    await requisicaoReflora(nomeArquivo, conexao, maxCodBarra);
 }
 
 export default {
-    requisicaoReflora,
+    doRequest,
 };
