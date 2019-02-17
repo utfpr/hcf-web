@@ -60,7 +60,8 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
         }
         escreveLOG(nomeArquivo, 'Comparando informações de país, sigla país, estado e cidade');
-        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 15;
+        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
+        // const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 15;
         if (idCidade !== -1) {
             escreveLOG(nomeArquivo, 'Comparando informações de país');
             await ehIgualPais(nomeArquivo, conexao, idCidade, informacaoTomboReflora).then(pais => {
@@ -117,11 +118,10 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         if (resultadoDataIdentificacao !== -1) {
             alteracaoInformacao += `data_identificacao_dia: ${resultadoDataIdentificacao}, `;
         }
-
         escreveLOG(nomeArquivo, 'Comparando informações de tipo');
         await ehIgualTipo(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(tipo => {
             if (tipo !== -1) {
-                alteracaoInformacao += `tipoe: ${tipo}, `;
+                alteracaoInformacao += `tipo: ${tipo}, `;
             }
         });
         escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
@@ -156,6 +156,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         });
         escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
         const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD);
+        // const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) + 10;
         if (idAutor !== -1) {
             escreveLOG(nomeArquivo, 'Comparando informações de autor de nome científico');
             await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {

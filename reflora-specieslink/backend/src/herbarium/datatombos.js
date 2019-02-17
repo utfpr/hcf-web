@@ -38,6 +38,10 @@ function ehNumero(valor) {
     return true;
 }
 
+function processaString(valor) {
+    return valor.replace(/\s/g, '').toLowerCase();
+}
+
 export function ehIgualNroColeta(nomeArquivo, informacaoBD, informacaoReflora) {
     const nroColetaBD = informacaoBD.numero_coleta;
     const nroColetaReflora = informacaoReflora.recordnumber;
@@ -213,7 +217,9 @@ export function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) 
         escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as informações de observações são vazias`);
         return '';
     }
-    if (observacaoTomboBD.includes(observacaoTomboReflora)) {
+    const processaObservacaoBD = observacaoTomboBD.replace(/\s/g, '').toLowerCase();
+    const processaObservacaoReflora = observacaoTomboReflora.replace(/\s/g, '').toLowerCase();
+    if (processaObservacaoBD.includes(processaObservacaoReflora)) {
         escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são iguais`);
         return '';
     }
@@ -284,7 +290,9 @@ export function ehIgualPais(nomeArquivo, conexao, idCidade, informacaoReflora) {
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomePaisBD === nomePaisReflora) {
+            const processaNomePaisBD = nomePaisBD.replace(/\s/g, '').toLowerCase();
+            const processaNomePaisReflora = nomePaisReflora.replace(/\s/g, '').toLowerCase();
+            if (processaNomePaisBD === processaNomePaisReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}, Reflora: ${nomePaisReflora}} os países são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -336,7 +344,9 @@ export function ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoReflo
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomePaisSiglaBD === nomePaisSiglaReflora) {
+            const processaNomePaisSiglaBD = processaString(nomePaisSiglaBD);
+            const processaNomePaisSiglaReflora = processaString(nomePaisSiglaReflora);
+            if (processaNomePaisSiglaBD === processaNomePaisSiglaReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}, Reflora: ${nomePaisSiglaReflora}} as siglas dos países são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -388,7 +398,9 @@ export function ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoReflora)
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeEstadoBD === nomeEstadoReflora) {
+            const processaNomeEstadoBD = processaString(nomeEstadoBD);
+            const processaNomeEstadoReflora = processaString(nomeEstadoReflora);
+            if (processaNomeEstadoBD === processaNomeEstadoReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -440,7 +452,9 @@ export function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora)
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeCidadeBD === nomeCidadeReflora) {
+            const processaNomeCidadeBD = processaString(nomeCidadeBD);
+            const processaNomeCidadeReflora = processaString(nomeCidadeReflora);
+            if (processaNomeCidadeBD === processaNomeCidadeReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}, Reflora: ${nomeCidadeReflora}} os estados são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -513,7 +527,10 @@ export function ehIgualLocalidade(nomeArquivo, conexao, idLocalColeta, informaca
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (localidadeReflora.includes(observacaoTomboBD) && localidadeReflora.includes(vegetacaoBD)) {
+            const processaObservacaoBD = processaString(observacaoTomboBD);
+            const processaVegetacaoBD = processaString(vegetacaoBD);
+            const processaLocalidadeReflora = processaString(localidadeReflora);
+            if (processaLocalidadeReflora.includes(processaObservacaoBD) && processaLocalidadeReflora.includes(processaVegetacaoBD)) {
                 escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, ${vegetacaoBD}, Reflora: ${localidadeReflora}} são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -683,11 +700,13 @@ export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoRe
 
 export function ehIgualTipo(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
-    const idTipo = informacaoBD.tipo_id;
+    // const idTipo = informacaoBD.tipo_id;
+    const idTipo = 1;
     selectTipo(conexao, idTipo, resultadoTipoTombo => {
         if (resultadoTipoTombo.length > 0) {
             const nomeTipoBD = resultadoTipoTombo[0].dataValues.nome;
             const nomeTipoReflora = informacaoReflora.typestatus;
+            // const nomeTipoReflora = 'Isótipo';
             if (valorEhIndefinido(nomeTipoBD)) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}} tipo é indefinido`);
                 promessa.resolve(-1);
@@ -718,7 +737,9 @@ export function ehIgualTipo(nomeArquivo, conexao, informacaoBD, informacaoReflor
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeTipoBD === nomeTipoReflora) {
+            const processaNomeTipoBD = processaString(nomeTipoBD);
+            const processaNomeTipoReflora = processaString(nomeTipoReflora);
+            if (processaNomeTipoBD === processaNomeTipoReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}, Reflora: ${nomeTipoReflora}} os tipos são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -761,7 +782,9 @@ export function ehIgualNomeCientifico(nomeArquivo, informacaoBD, informacaoReflo
         escreveLOG(nomeArquivo, `{Reflora: ${nomeCientificoReflora}} o nome científico é vazio`);
         return '';
     }
-    if (nomeCientificoBD === nomeCientificoReflora) {
+    const processaNomeCientificoBD = processaString(nomeCientificoBD);
+    const processaNomeCientificoReflora = processaString(nomeCientificoReflora);
+    if (processaNomeCientificoBD === processaNomeCientificoReflora) {
         escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}, Reflora: ${nomeCientificoReflora}} nomes científicos são iguais`);
         return '';
     }
@@ -773,6 +796,7 @@ export function ehIgualNomeCientifico(nomeArquivo, informacaoBD, informacaoReflo
 export function ehIgualFamilia(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
     const idNomeFamilia = informacaoBD.familia_id;
+    // const idNomeFamilia = informacaoBD.familia_id - 265;
     selectFamilia(conexao, idNomeFamilia, resultadoFamiliaTombo => {
         if (resultadoFamiliaTombo.length > 0) {
             const nomeFamiliaBD = resultadoFamiliaTombo[0].dataValues.nome;
@@ -807,7 +831,9 @@ export function ehIgualFamilia(nomeArquivo, conexao, informacaoBD, informacaoRef
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeFamiliaBD === nomeFamiliaReflora) {
+            const processaNomeFamiliaBD = processaString(nomeFamiliaBD);
+            const processaNomeFamiliaReflora = processaString(nomeFamiliaReflora);
+            if (processaNomeFamiliaBD === processaNomeFamiliaReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}, Reflora: ${nomeFamiliaReflora}} as famílias são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -826,6 +852,7 @@ export function ehIgualFamilia(nomeArquivo, conexao, informacaoBD, informacaoRef
 export function ehIgualGenero(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
     const idNomeGenero = informacaoBD.genero_id;
+    // const idNomeGenero = informacaoBD.genero_id + 50;
     selectGenero(conexao, idNomeGenero, resultadoGeneroTombo => {
         if (resultadoGeneroTombo.length > 0) {
             const nomeGeneroBD = resultadoGeneroTombo[0].dataValues.nome;
@@ -860,7 +887,9 @@ export function ehIgualGenero(nomeArquivo, conexao, informacaoBD, informacaoRefl
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeGeneroBD === nomeGeneroReflora) {
+            const processaNomeGeneroBD = processaString(nomeGeneroBD);
+            const processaNomeGeneroReflora = processaString(nomeGeneroReflora);
+            if (processaNomeGeneroBD === processaNomeGeneroReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}, Reflora: ${nomeGeneroReflora}} os gêneros são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -879,6 +908,7 @@ export function ehIgualGenero(nomeArquivo, conexao, informacaoBD, informacaoRefl
 export function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
     const idNomeEspecie = informacaoBD.especie_id;
+    // const idNomeEspecie = 1;
     selectEspecie(conexao, idNomeEspecie, resultadoEspecieTombo => {
         if (resultadoEspecieTombo.length > 0) {
             const nomeEspecieBD = resultadoEspecieTombo[0].dataValues.nome;
@@ -913,7 +943,9 @@ export function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoRef
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeEspecieBD === nomeEspecieReflora) {
+            const processaNomeEspecieBD = processaString(nomeEspecieBD);
+            const processaNomeEspecieReflora = processaString(nomeEspecieReflora);
+            if (processaNomeEspecieBD === processaNomeEspecieReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}, Reflora: ${nomeEspecieReflora}} as espécies são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -932,6 +964,7 @@ export function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoRef
 export function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();
     const idVariedade = informacaoBD.variedade_id;
+    // const idVariedade = 1;
     selectVariedade(conexao, idVariedade, resultadoVariedadeTombo => {
         if (resultadoVariedadeTombo.length > 0) {
             const nomeVariedadeBD = resultadoVariedadeTombo[0].dataValues.nome;
@@ -966,7 +999,9 @@ export function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoR
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (nomeVariedadeBD === nomeVariedadeReflora) {
+            const processaNomeVariedadeBD = processaString(nomeVariedadeBD);
+            const processaNomeVariedadeReflora = processaString(nomeVariedadeReflora);
+            if (processaNomeVariedadeBD === processaNomeVariedadeReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}, Reflora: ${nomeVariedadeReflora}} as variedades são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
@@ -1045,7 +1080,9 @@ export function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCien
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (autorNomeCientificoBD === autorNomeCientificoReflora) {
+            const processaAutorNomeCientificoBD = processaString(autorNomeCientificoBD);
+            const processaAutorNomeCientificoReflora = processaString(autorNomeCientificoReflora);
+            if (processaAutorNomeCientificoBD === processaAutorNomeCientificoReflora) {
                 escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} os autores dos nomes científicos são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
