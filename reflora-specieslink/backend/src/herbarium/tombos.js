@@ -91,8 +91,6 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 observacao da tabela tombos e da vegetação relacionada a esse tombo
             */
             escreveLOG(nomeArquivo, 'Comparando informações de localidade');
-            // eslint-disable-next-line no-console
-            console.log(`bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb${idCidade}`);
             await ehIgualLocalidade(nomeArquivo, conexao, idCidade, informacaoTomboBD, informacaoTomboReflora).then(localidade => {
                 if (localidade !== -1) {
                     alteracaoInformacao += `localidade: ${localidade}, `;
