@@ -1,5 +1,5 @@
 import { criaConexao, selectMaxNumBarra } from '../database';
-// import { processaMaiorCodBarra } from '../tombos';
+import { processaMaiorCodBarra } from '../tombos';
 import reflora from './reflora';
 import { criaArrayCodBarra } from './codbarra';
 import { getNomeArquivo, escreveLOG } from '../log';
@@ -10,8 +10,8 @@ function main() {
 
     const conexao = criaConexao(nomeArquivo);
     selectMaxNumBarra(conexao, maxCodBarra => {
-        // const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
-        const intMaiorCodBarra = 10;
+        const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
+        // const intMaiorCodBarra = 5;
         const arrayCodBarra = criaArrayCodBarra(nomeArquivo, intMaiorCodBarra).sort();
         reflora.requisicaoReflora(nomeArquivo, conexao, arrayCodBarra);
     });
