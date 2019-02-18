@@ -1,6 +1,6 @@
 import { escreveLOG } from '../log';
 
-function geraCodBarra(codBarra) {
+export function geraCodBarra(codBarra) {
     const newCodBarra = 'HCF';
     if (codBarra < 10) {
         return `${newCodBarra}00000000${codBarra}`;
@@ -54,4 +54,15 @@ export function existeCodBarra(listCodBarra, codBarra) {
         }
     }
     return false;
+}
+
+export function codBarraFaltante(listCodBarra) {
+    listCodBarra.sort();
+    const codBarraNaoFeito = [];
+    for (let i = 1; i <= listCodBarra.length - 1; i += 1) {
+        if (listCodBarra.find(codBarra => codBarra === geraCodBarra(i)) === undefined) {
+            codBarraNaoFeito.push(geraCodBarra(i));
+        }
+    }
+    return codBarraNaoFeito;
 }

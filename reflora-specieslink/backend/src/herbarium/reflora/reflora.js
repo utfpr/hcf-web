@@ -1,12 +1,12 @@
 /* eslint-disable max-len */
 import request from 'request';
 import throttledQueue from 'throttled-queue';
-import Q from 'q';
+import Promise from 'bluebird';
+import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
-import { criaArrayCodBarra, existeCodBarra } from './codbarra';
 import { escreveLOG } from '../log';
 
-const listCodBarra = [];
+// const listCodBarra = [];
 
 /* Consultar Caxambu
 function hasModifiedReponseReflora(jsonResponseReflora) {
@@ -33,7 +33,7 @@ function temResultadoRespostaReflora(respostaReflora) {
 function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body) {
     if (!error && response.statusCode === 200) {
         const respostaReflora = processaRespostaReflora(nomeArquivo, codBarra, body);
-        listCodBarra.push(codBarra);
+        // listCodBarra.push(codBarra);
         if (temResultadoRespostaReflora(respostaReflora)) {
             escreveLOG(nomeArquivo, `O código de barra {${codBarra}} possui um resultado no Reflora`);
             comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora);
@@ -41,37 +41,38 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
             escreveLOG(nomeArquivo, `O código de barra {${codBarra}} não possui um resultado no Reflora`);
         }
     } else {
-        listCodBarra.push(codBarra);
+        // listCodBarra.push(codBarra);
         escreveLOG(nomeArquivo, `Erro no código de barra {${codBarra}} que foi ${error}`);
     }
 }
 
-function requisicaoReflora(nomeArquivo, conexao, maxCodBarra) {
+function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
     const throttle = throttledQueue(1, 1000);
-    const arrayCodBarra = criaArrayCodBarra(nomeArquivo, maxCodBarra);
-    const promessa = Q.defer();
-    while (arrayCodBarra.length !== 0) {
-        const codBarra = arrayCodBarra.pop();
-        // const codBarra = 'HCF000017702';
-        throttle(() => {
-            request(`http://servicos.jbrj.gov.br/v2/herbarium/${codBarra}`, (error, response, body) => {
-                escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${codBarra}}`);
-                temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body);
-                if (!existeCodBarra(listCodBarra, codBarra)) {
-                    escreveLOG(nomeArquivo, `Não foi feita a requisição do código de barra {${codBarra}}`);
-                    // arrayCodBarra.push(codBarra);
-                }
+    const listCodBarra = [];
+    for (let i = 0, p = Promise.resolve(); i < arrayCodBarra.length; i += 1) {
+        p = p.then(_ => new Promise((resolve, reject) => setTimeout(() => {
+            throttle(() => {
+                request(`http://servicos.jbrj.gov.br/v2/herbarium/${arrayCodBarra[i]}`, (error, response, body) => {
+                    escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${arrayCodBarra[i]}}`);
+                    temProblemaRespostaReflora(nomeArquivo, arrayCodBarra[i], conexao, error, response, body);
+                    listCodBarra.push(arrayCodBarra[i]);
+                    resolve();
+                });
             });
-        });
+        }, Math.random() * 1000)));
+        p = p.then(_ => new Promise(resolve => setTimeout(() => {
+            if (i === arrayCodBarra.length - 1) {
+                listCodBarra.shift();
+                const codBarraNaoFeito = codBarraFaltante(listCodBarra);
+                if (codBarraNaoFeito.length !== 0) {
+                    requisicaoReflora(nomeArquivo, conexao, codBarraNaoFeito);
+                }
+            }
+            resolve();
+        }, Math.random() * 1000)));
     }
-    return promessa.promise;
-}
-
-
-async function doRequest(nomeArquivo, conexao, maxCodBarra) {
-    await requisicaoReflora(nomeArquivo, conexao, maxCodBarra);
 }
 
 export default {
-    doRequest,
+    requisicaoReflora,
 };
