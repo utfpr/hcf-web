@@ -18,6 +18,8 @@ import modeloLocalColeta from '../models/LocalColeta';
 import modeloCidade from '../models/Cidade';
 import modeloAutor from '../models/Autor';
 import modeloVegetacao from '../models/Vegetacao';
+import modeloAlteracao from '../models/Alteracao';
+import modeloUsuario from '../models/Usuario';
 import { escreveLOG } from './log';
 
 export function criaConexao(nomeArquivo) {
@@ -64,6 +66,102 @@ export function selectTombo(conexao, nroTombo, callback) {
     });
 }
 
+export function selectPaisSigla(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_paises_sigla'],
+            where: { id: idCidade },
+        }).then(paises => {
+            callback(paises);
+        });
+    });
+}
+
+export function selectPais(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_paises_nome'],
+            where: { id: idCidade },
+        }).then(paises => {
+            callback(paises);
+        });
+    });
+}
+
+export function selectEstado(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_nome'],
+            where: { id: idCidade },
+        }).then(estado => {
+            callback(estado);
+        });
+    });
+}
+
+export function selectCidade(conexao, idCidade, callback) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['nome'],
+            where: { id: idCidade },
+        }).then(cidade => {
+            callback(cidade);
+        });
+    });
+}
+
+export function selectLocalColeta(conexao, idLocalColeta, callback) {
+    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaLocalColeta.findAll({
+            attributes: ['cidade_id', 'vegetacao_id'],
+            where: { id: idLocalColeta },
+        }).then(localColeta => {
+            callback(localColeta);
+        });
+    });
+}
+
+export function selectVegetacao(conexao, idVegetacao, callback) {
+    const tabelaVegetacao = modeloVegetacao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaVegetacao.findAll({
+            attributes: ['nome'],
+            where: { id: idVegetacao },
+        }).then(vegetacao => {
+            callback(vegetacao);
+        });
+    });
+}
+
+export function selectIdIdentificador(conexao, idTombo, callback) {
+    const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaAlteracao.findAll({
+            attributes: ['usuario_id'],
+            where: { tombo_hcf: idTombo },
+        }).then(idUsuario => {
+            callback(idUsuario);
+        });
+    });
+}
+
+export function selectIdentificador(conexao, idIdentificador, callback) {
+    const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaUsuario.findAll({
+            attributes: ['nome'],
+            where: { id: idIdentificador },
+        }).then(nomeUsuario => {
+            callback(nomeUsuario);
+        });
+    });
+}
+
 export function selectFamilia(conexao, idFamilia, callback) {
     const tabelaFamilia = modeloFamilias(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -100,6 +198,18 @@ export function selectEspecie(conexao, idEspecie, callback) {
     });
 }
 
+export function selectAutor(conexao, idAutor, callback) {
+    const tabelaAutor = modeloAutor(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaAutor.findAll({
+            attributes: ['nome'],
+            where: { id: idAutor },
+        }).then(autor => {
+            callback(autor);
+        });
+    });
+}
+
 export function selectVariedade(conexao, idFamilia, callback) {
     const tabelaVariedade = modeloVariedades(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -120,90 +230,6 @@ export function selectTipo(conexao, idTipo, callback) {
             where: { id: idTipo },
         }).then(tipo => {
             callback(tipo);
-        });
-    });
-}
-
-export function selectLocalColeta(conexao, idLocalColeta, callback) {
-    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaLocalColeta.findAll({
-            attributes: ['cidade_id', 'vegetacao_id'],
-            where: { id: idLocalColeta },
-        }).then(localColeta => {
-            callback(localColeta);
-        });
-    });
-}
-
-export function selectCidade(conexao, idCidade, callback) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['nome'],
-            where: { id: idCidade },
-        }).then(cidade => {
-            callback(cidade);
-        });
-    });
-}
-
-export function selectEstado(conexao, idCidade, callback) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_nome'],
-            where: { id: idCidade },
-        }).then(estado => {
-            callback(estado);
-        });
-    });
-}
-
-export function selectPais(conexao, idCidade, callback) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_paises_nome'],
-            where: { id: idCidade },
-        }).then(paises => {
-            callback(paises);
-        });
-    });
-}
-
-export function selectPaisSigla(conexao, idCidade, callback) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_paises_sigla'],
-            where: { id: idCidade },
-        }).then(paises => {
-            callback(paises);
-        });
-    });
-}
-
-export function selectAutor(conexao, idAutor, callback) {
-    const tabelaAutor = modeloAutor(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaAutor.findAll({
-            attributes: ['nome'],
-            where: { id: idAutor },
-        }).then(autor => {
-            callback(autor);
-        });
-    });
-}
-
-export function selectVegetacao(conexao, idVegetacao, callback) {
-    const tabelaVegetacao = modeloVegetacao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaVegetacao.findAll({
-            attributes: ['nome'],
-            where: { id: idVegetacao },
-        }).then(vegetacao => {
-            callback(vegetacao);
         });
     });
 }

@@ -2,17 +2,18 @@
 /* eslint-disable max-len */
 import Q from 'q';
 import {
+    selectPais,
+    selectEstado,
+    selectCidade,
     selectLocalColeta,
+    selectVegetacao,
+    selectIdIdentificador,
     selectFamilia,
     selectGenero,
     selectEspecie,
     selectAutor,
-    selectTipo,
     selectVariedade,
-    selectCidade,
-    selectEstado,
-    selectPais,
-    selectVegetacao,
+    selectTipo,
 } from './database';
 import { escreveLOG } from './log';
 
@@ -554,15 +555,15 @@ export function ehIgualAltitude(nomeArquivo, informacaoBD, informacaoReflora) {
     const minAltitudeReflora = informacaoReflora.minimumelevationinmeters;
     const maxAltitudeReflora = informacaoReflora.maximumelevationinmeters;
     if (valorEhIndefinido(altitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${altitudeBD}} a latitude é indefinido`);
+        escreveLOG(nomeArquivo, `{BD: ${altitudeBD}} a altitude é indefinido`);
         return -1;
     }
     if (valorEhIndefinido(minAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${minAltitudeReflora}} a mínima latitude é indefinido`);
+        escreveLOG(nomeArquivo, `{BD: ${minAltitudeReflora}} a mínima altitude é indefinido`);
         return -1;
     }
     if (valorEhIndefinido(maxAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${maxAltitudeReflora}} a máxima latitude é indefinido`);
+        escreveLOG(nomeArquivo, `{BD: ${maxAltitudeReflora}} a máxima altitude é indefinido`);
         return -1;
     }
     if (valorEhNulo(altitudeBD)) {
@@ -672,6 +673,33 @@ export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     }
     escreveLOG(nomeArquivo, `{BD: ${floatLongitudeBD}, Reflora: ${floatLongitudeReflora}} longitudes são diferentes`);
     return floatLongitudeReflora;
+}
+
+export function getIDIdentificador(nomeArquivo, conexao, informacaoBD) {
+    const promessa = Q.defer();
+    const idTombo = informacaoBD.hcf;
+    selectIdIdentificador(conexao, idTombo, resultadoIdIdentificador => {
+        if (resultadoIdIdentificador.length === 0) {
+            escreveLOG(nomeArquivo, 'Não foram retornados informações de identificador');
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const idIdentificador = parseInt(resultadoIdIdentificador[0].dataValues.usuario_id);
+        if (valorEhNulo(idIdentificador)) {
+            escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador é nulo`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (!ehNumero(idIdentificador)) {
+            escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador não é número`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador é número`);
+        promessa.resolve(idIdentificador);
+        return promessa.promise;
+    });
+    return promessa.promise;
 }
 
 export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {

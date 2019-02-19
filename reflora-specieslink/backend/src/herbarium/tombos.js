@@ -17,6 +17,7 @@ import {
     ehIgualAltitude,
     ehIgualLatitude,
     ehIgualLongitude,
+    getIDIdentificador,
     ehIgualDataIdentificacao,
     ehIgualTipo,
     ehIgualNomeCientifico,
@@ -113,6 +114,11 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
         if (resultadoLongitude !== -1) {
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
+        // identificador
+        const idIdentificador = await getIDIdentificador(nomeArquivo, conexao, informacaoTomboBD);
+        if (idIdentificador !== -1) {
+            escreveLOG(nomeArquivo, 'Comparando informações de identificador');
+        }
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {
@@ -163,7 +169,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
+        // escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
         const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD);
         // const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) + 10;
         if (idAutor !== -1) {
