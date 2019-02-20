@@ -7,9 +7,7 @@ import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
 
 // const listCodBarra = [];
-const codBarraErro = [];
-// let zw = 0;
-
+const erroCodBarra = [];
 /* Consultar Caxambu
 function hasModifiedReponseReflora(jsonResponseReflora) {
     if (jsonResponseReflora.result[0].modified === null) {
@@ -33,10 +31,6 @@ function temResultadoRespostaReflora(respostaReflora) {
 }
 
 function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body) {
-    /* if ((codBarra === 'HCF000000002') && (zw === 0)) {
-        codBarraErro.push(codBarra);
-        zw = 1;
-    } else */
     if (!error && response.statusCode === 200) {
         const respostaReflora = processaRespostaReflora(nomeArquivo, codBarra, body);
         // listCodBarra.push(codBarra);
@@ -49,16 +43,13 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
     } else {
         // listCodBarra.push(codBarra);
         escreveLOG(nomeArquivo, `Erro no código de barra {${codBarra}} que foi ${error}`);
-        codBarraErro.push(codBarra);
+        erroCodBarra.push(codBarra);
     }
 }
 
 function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
     const throttle = throttledQueue(1, 1000);
     const listCodBarra = [];
-    codBarraErro.splice(0, codBarraErro.length);
-    // eslint-disable-next-line no-console
-    // console.log(`a${arrayCodBarra}`);
     for (let i = 0, p = Promise.resolve(); i < arrayCodBarra.length; i += 1) {
         p = p.then(_ => new Promise((resolve, reject) => setTimeout(() => {
             throttle(() => {
@@ -72,20 +63,10 @@ function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
         }, Math.random() * 1000)));
         p = p.then(_ => new Promise(resolve => setTimeout(() => {
             if (i === arrayCodBarra.length - 1) {
-                // eslint-disable-next-line no-console
-                // console.log(`a-meio${listCodBarra.length}`);
                 // listCodBarra.shift();
-                // console.log(`a${listCodBarra.length}`);
-                // console.log(`a-meio${listCodBarra[0]}`);
                 const codBarraNaoFeito = codBarraFaltante(listCodBarra);
-                // console.log(`a${codBarraNaoFeito}`);
-                if ((codBarraNaoFeito.length !== 0) || (codBarraErro.length > 0)) {
-                    // eslint-disable-next-line no-console
-                    // console.log(`b${codBarraErro}`);
-                    // eslint-disable-next-line no-console
-                    // console.log(`c${codBarraNaoFeito.concat(codBarraErro)}`);
-                    const todoCodBarraProblema = codBarraNaoFeito.concat(codBarraErro);
-                    requisicaoReflora(nomeArquivo, conexao, todoCodBarraProblema);
+                if (codBarraNaoFeito.length !== 0) {
+                    requisicaoReflora(nomeArquivo, conexao, codBarraNaoFeito);
                 }
             }
             resolve();

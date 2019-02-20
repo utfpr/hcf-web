@@ -17,7 +17,8 @@ import {
     ehIgualAltitude,
     ehIgualLatitude,
     ehIgualLongitude,
-    getIDIdentificador,
+    // getIdIdentificador,
+    // ehIgualIdentificador,
     ehIgualDataIdentificacao,
     ehIgualTipo,
     ehIgualNomeCientifico,
@@ -29,7 +30,7 @@ import {
     ehIgualAutorNomeCientifico,
 } from './datatombos';
 
-async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD, tomboReflora) {
+async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra, tomboBD, tomboReflora) {
     escreveLOG(nomeArquivo, `Comparando informações do tombo de código de barra {${codBarra}}`);
     if (tomboBD.length > 0) {
         const informacaoTomboBD = tomboBD[0].dataValues;
@@ -115,10 +116,18 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
         // identificador
-        const idIdentificador = await getIDIdentificador(nomeArquivo, conexao, informacaoTomboBD);
-        if (idIdentificador !== -1) {
+        // const listaIdIdentificador = await getIdIdentificador(nomeArquivo, conexao, nroTombo, informacaoTomboBD);
+        /*
+        if (listaIdIdentificador.length > 0) {
             escreveLOG(nomeArquivo, 'Comparando informações de identificador');
+            // console.log(listaIdIdentificador);
+            ehIgualIdentificador(nomeArquivo, conexao, listaIdIdentificador, informacaoTomboReflora).then(nomeIdentificador => {
+                if (nomeIdentificador !== -1) {
+                    alteracaoInformacao += `identificador: ${nomeIdentificador}, `;
+                }
+            });
         }
+        */
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {
@@ -193,9 +202,10 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tomboBD,
 
 export function comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora) {
     selectNroTomboNumBarra(conexao, codBarra, nroTombo => {
-        escreveLOG(nomeArquivo, `O tombo do código de barra {${codBarra}} é {${nroTombo[0].dataValues.tombo_hcf}}`);
-        selectTombo(conexao, nroTombo[0].dataValues.tombo_hcf, tombo => {
-            comparaInformacoesTombos(nomeArquivo, conexao, codBarra, tombo, respostaReflora);
+        const nroTomboBD = nroTombo[0].dataValues.tombo_hcf;
+        escreveLOG(nomeArquivo, `O tombo do código de barra {${codBarra}} é {${nroTomboBD}}`);
+        selectTombo(conexao, nroTomboBD, tombo => {
+            comparaInformacoesTombos(nomeArquivo, conexao, nroTomboBD, codBarra, tombo, respostaReflora);
         });
     });
 }

@@ -7,7 +7,8 @@ import {
     selectCidade,
     selectLocalColeta,
     selectVegetacao,
-    selectIdIdentificador,
+    // selectIdIdentificador,
+    // selectIdentificador,
     selectFamilia,
     selectGenero,
     selectEspecie,
@@ -675,31 +676,16 @@ export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     return floatLongitudeReflora;
 }
 
-export function getIDIdentificador(nomeArquivo, conexao, informacaoBD) {
-    const promessa = Q.defer();
-    const idTombo = informacaoBD.hcf;
-    selectIdIdentificador(conexao, idTombo, resultadoIdIdentificador => {
-        if (resultadoIdIdentificador.length === 0) {
-            escreveLOG(nomeArquivo, 'Não foram retornados informações de identificador');
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        const idIdentificador = parseInt(resultadoIdIdentificador[0].dataValues.usuario_id);
-        if (valorEhNulo(idIdentificador)) {
-            escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador é nulo`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (!ehNumero(idIdentificador)) {
-            escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador não é número`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${idIdentificador}} o ID do identificador é número`);
-        promessa.resolve(idIdentificador);
-        return promessa.promise;
-    });
-    return promessa.promise;
+export function getIdIdentificador(nomeArquivo, conexao, nroTombo, informacaoBD) {
+    // a
+}
+
+export function getNomeIdentificador(nomeArquivo, conexao, idUsuario) {
+    // a
+}
+
+export function ehIgualIdentificador(nomeArquivo, conexao, listaIdIdentificador, informacaoReflora) {
+    // a
 }
 
 export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {
