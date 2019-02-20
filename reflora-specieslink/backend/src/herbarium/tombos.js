@@ -17,8 +17,9 @@ import {
     ehIgualAltitude,
     ehIgualLatitude,
     ehIgualLongitude,
-    // getIdIdentificador,
-    // ehIgualIdentificador,
+    getIdIdentificador,
+    checkIdIdentificador,
+    getNomeIdentificador,
     ehIgualDataIdentificacao,
     ehIgualTipo,
     ehIgualNomeCientifico,
@@ -116,6 +117,19 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
         // identificador
+        await getIdIdentificador(nomeArquivo, conexao, nroTombo).then(resultadoIdIdentifcador => {
+            escreveLOG(nomeArquivo, 'Comparando informações de identificador');
+            resultadoIdIdentifcador.forEach(async element => {
+                const idUsuario = checkIdIdentificador(nomeArquivo, element.dataValues.usuario_id);
+                if (idUsuario !== -1) {
+                    await getNomeIdentificador(nomeArquivo, conexao, idUsuario).then(nomeIdentificador => {
+                        if (nomeIdentificador.length > 0) {
+                            alteracaoInformacao += `nome_identificador: ${nomeIdentificador}, `;
+                        }
+                    });
+                }
+            });
+        });
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {

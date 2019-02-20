@@ -47,7 +47,7 @@ function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
     const listCodBarra = [];
     clearListErroCodBarra();
     for (let i = 0, p = Promise.resolve(); i < arrayCodBarra.length; i += 1) {
-        p = p.then(_ => new Promise((resolve, reject) => setTimeout(() => {
+        p = p.then(_ => new Promise(resolve => setTimeout(() => {
             throttle(() => {
                 request(`http://servicos.jbrj.gov.br/v2/herbarium/${arrayCodBarra[i]}`, (error, response, body) => {
                     escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${arrayCodBarra[i]}}`);

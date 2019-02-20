@@ -11,6 +11,7 @@ function main() {
     const conexao = criaConexao(nomeArquivo);
     selectMaxNumBarra(conexao, maxCodBarra => {
         const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
+        // const intMaiorCodBarra = 1;
         const arrayCodBarra = criaArrayCodBarra(nomeArquivo, intMaiorCodBarra).sort();
         reflora.requisicaoReflora(nomeArquivo, conexao, arrayCodBarra);
     });
