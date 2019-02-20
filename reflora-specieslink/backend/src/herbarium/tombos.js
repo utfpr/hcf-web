@@ -8,7 +8,7 @@ import {
     ehIgualMesColeta,
     ehIgualDiaColeta,
     ehIgualObservacao,
-    getIDCidade,
+    getIdCidade,
     ehIgualPais,
     ehIgualPaisSigla,
     ehIgualEstado,
@@ -26,7 +26,7 @@ import {
     ehIgualGenero,
     ehIgualEspecie,
     ehIgualVariedade,
-    getIDAutor,
+    getIdAutor,
     ehIgualAutorNomeCientifico,
 } from './datatombos';
 
@@ -62,7 +62,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
             alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
         }
         escreveLOG(nomeArquivo, 'Comparando informações de país, sigla país, estado e cidade');
-        const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD);
+        const idCidade = await getIdCidade(nomeArquivo, conexao, informacaoTomboBD);
         // const idCidade = await getIDCidade(nomeArquivo, conexao, informacaoTomboBD) + 15;
         if (idCidade !== -1) {
             escreveLOG(nomeArquivo, 'Comparando informações de país');
@@ -116,18 +116,6 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
         // identificador
-        // const listaIdIdentificador = await getIdIdentificador(nomeArquivo, conexao, nroTombo, informacaoTomboBD);
-        /*
-        if (listaIdIdentificador.length > 0) {
-            escreveLOG(nomeArquivo, 'Comparando informações de identificador');
-            // console.log(listaIdIdentificador);
-            ehIgualIdentificador(nomeArquivo, conexao, listaIdIdentificador, informacaoTomboReflora).then(nomeIdentificador => {
-                if (nomeIdentificador !== -1) {
-                    alteracaoInformacao += `identificador: ${nomeIdentificador}, `;
-                }
-            });
-        }
-        */
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {
@@ -178,9 +166,7 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        // escreveLOG(nomeArquivo, 'Comparando informações de nome científico');
-        const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD);
-        // const idAutor = await getIDAutor(nomeArquivo, conexao, informacaoTomboBD) + 10;
+        const idAutor = await getIdAutor(nomeArquivo, conexao, informacaoTomboBD);
         if (idAutor !== -1) {
             escreveLOG(nomeArquivo, 'Comparando informações de autor de nome científico');
             await ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {

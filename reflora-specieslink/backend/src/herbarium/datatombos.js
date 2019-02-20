@@ -7,7 +7,7 @@ import {
     selectCidade,
     selectLocalColeta,
     selectVegetacao,
-    // selectIdIdentificador,
+    selectIdIdentificador,
     // selectIdentificador,
     selectFamilia,
     selectGenero,
@@ -229,7 +229,7 @@ export function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) 
     return observacaoTomboReflora;
 }
 
-export function getIDCidade(nomeArquivo, conexao, informacaoBD) {
+export function getIdCidade(nomeArquivo, conexao, informacaoBD) {
     const promessa = Q.defer();
     const idLocalColeta = informacaoBD.local_coleta_id;
     selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
@@ -676,8 +676,25 @@ export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     return floatLongitudeReflora;
 }
 
-export function getIdIdentificador(nomeArquivo, conexao, nroTombo, informacaoBD) {
-    // a
+export function getIdIdentificador(nomeArquivo, conexao, nroTombo) {
+    const promessa = Q.defer();
+    selectIdIdentificador(conexao, nroTombo, idUsuario => {
+        if (idUsuario.length === 0) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhIndefinido(idUsuario)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(idUsuario)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(idUsuario);
+        return promessa.promise;
+    });
+    return promessa.promise;
 }
 
 export function getNomeIdentificador(nomeArquivo, conexao, idUsuario) {
@@ -1037,7 +1054,7 @@ export function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoR
     return promessa.promise;
 }
 
-export function getIDAutor(nomeArquivo, conexao, informacaoBD) {
+export function getIdAutor(nomeArquivo, conexao, informacaoBD) {
     const promessa = Q.defer();
     const idLocalColeta = informacaoBD.especie_id;
     selectEspecie(conexao, idLocalColeta, resultadoIDAutorTombo => {

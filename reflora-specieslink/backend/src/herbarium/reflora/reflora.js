@@ -6,16 +6,13 @@ import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
 
-// const listCodBarra = [];
-const erroCodBarra = [];
-/* Consultar Caxambu
-function hasModifiedReponseReflora(jsonResponseReflora) {
-    if (jsonResponseReflora.result[0].modified === null) {
-        return false;
+const listErroCodBarra = [];
+
+function clearListErroCodBarra() {
+    while (listErroCodBarra.length > 0) {
+        listErroCodBarra.pop();
     }
-    return true;
 }
-*/
 
 function processaRespostaReflora(nomeArquivo, codBarra, responseReflora) {
     escreveLOG(nomeArquivo, `Convertendo a resposta do código de barra {${codBarra}} para JSON`);
@@ -33,7 +30,6 @@ function temResultadoRespostaReflora(respostaReflora) {
 function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, response, body) {
     if (!error && response.statusCode === 200) {
         const respostaReflora = processaRespostaReflora(nomeArquivo, codBarra, body);
-        // listCodBarra.push(codBarra);
         if (temResultadoRespostaReflora(respostaReflora)) {
             escreveLOG(nomeArquivo, `O código de barra {${codBarra}} possui um resultado no Reflora`);
             comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora);
@@ -41,15 +37,15 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
             escreveLOG(nomeArquivo, `O código de barra {${codBarra}} não possui um resultado no Reflora`);
         }
     } else {
-        // listCodBarra.push(codBarra);
         escreveLOG(nomeArquivo, `Erro no código de barra {${codBarra}} que foi ${error}`);
-        erroCodBarra.push(codBarra);
+        listErroCodBarra.push(codBarra);
     }
 }
 
 function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
     const throttle = throttledQueue(1, 1000);
     const listCodBarra = [];
+    clearListErroCodBarra();
     for (let i = 0, p = Promise.resolve(); i < arrayCodBarra.length; i += 1) {
         p = p.then(_ => new Promise((resolve, reject) => setTimeout(() => {
             throttle(() => {
@@ -60,17 +56,17 @@ function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
                     resolve();
                 });
             });
-        }, Math.random() * 1000)));
+        }, Math.random() * 100)));
         p = p.then(_ => new Promise(resolve => setTimeout(() => {
             if (i === arrayCodBarra.length - 1) {
-                // listCodBarra.shift();
                 const codBarraNaoFeito = codBarraFaltante(listCodBarra);
-                if (codBarraNaoFeito.length !== 0) {
-                    requisicaoReflora(nomeArquivo, conexao, codBarraNaoFeito);
+                const todosCodBarra = codBarraNaoFeito.concat(listErroCodBarra);
+                if (todosCodBarra.length !== 0) {
+                    requisicaoReflora(nomeArquivo, conexao, todosCodBarra);
                 }
             }
             resolve();
-        }, Math.random() * 1000)));
+        }, Math.random() * 100)));
     }
 }
 
