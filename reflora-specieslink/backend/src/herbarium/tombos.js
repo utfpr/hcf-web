@@ -17,9 +17,6 @@ import {
     ehIgualAltitude,
     ehIgualLatitude,
     ehIgualLongitude,
-    getIdIdentificador,
-    checkIdIdentificador,
-    getNomeIdentificador,
     ehIgualDataIdentificacao,
     ehIgualTipo,
     ehIgualNomeCientifico,
@@ -29,6 +26,7 @@ import {
     ehIgualVariedade,
     getIdAutor,
     ehIgualAutorNomeCientifico,
+    verificaAlteracaoSugerida,
 } from './datatombos';
 
 async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra, tomboBD, tomboReflora) {
@@ -116,22 +114,6 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
         if (resultadoLongitude !== -1) {
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
-        // identificador -> Falta comparar as alterações da tabela alteracoes
-        await getIdIdentificador(nomeArquivo, conexao, nroTombo).then(resultadoIdIdentifcador => {
-            escreveLOG(nomeArquivo, 'Comparando informações de identificador');
-            if (resultadoIdIdentifcador !== -1) {
-                resultadoIdIdentifcador.forEach(async element => {
-                    const idUsuario = checkIdIdentificador(nomeArquivo, element.dataValues.usuario_id);
-                    if (idUsuario !== -1) {
-                        await getNomeIdentificador(nomeArquivo, conexao, idUsuario).then(nomeIdentificador => {
-                            if (nomeIdentificador.length > 0) {
-                                alteracaoInformacao += `nome_identificador: ${nomeIdentificador}, `;
-                            }
-                        });
-                    }
-                });
-            }
-        });
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
         if (resultadoDataIdentificacao !== -1) {
@@ -157,7 +139,6 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
         if (resultadoNomeCientifico.length > 0) {
             alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
         }
-
         escreveLOG(nomeArquivo, 'Comparando informações de família');
         await ehIgualFamilia(nomeArquivo, conexao, informacaoTomboBD, informacaoTomboReflora).then(familia => {
             if (familia !== -1) {
@@ -193,14 +174,16 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
         }
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
-        // eslint-disable-next-line no-console
-        console.log(`-> ${codBarra}`);
-        // eslint-disable-next-line no-console
-        console.log(`-> ${alteracaoInformacao}`);
-        // Aqui comparar as alterações da tabela alteracoes+
-        if (alteracaoInformacao.length > 2) {
-            // faz o insert
-        }
+        verificaAlteracaoSugerida(conexao, nomeArquivo, nroTombo, alteracaoInformacao).then(resultadoAlteracaoSugerida => {
+            if (resultadoAlteracaoSugerida === 1) {
+                // Concateno o nome do identificador do Reflora e faço o insert
+                alteracaoInformacao = alteracaoInformacao.replace('}', `, nome_identificador: ${informacaoTomboReflora.identifiedby}}`);
+                // eslint-disable-next-line no-console
+                console.log(`->${codBarra}`);
+                // eslint-disable-next-line no-console
+                console.log(`->${alteracaoInformacao}`);
+            }
+        });
     } else {
         escreveLOG(nomeArquivo, `Não será feito comparações, pois não foi encontrado informações do tombo ${codBarra}`);
     }

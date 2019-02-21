@@ -7,8 +7,7 @@ import {
     selectCidade,
     selectLocalColeta,
     selectVegetacao,
-    selectIdIdentificador,
-    selectIdentificador,
+    selectTomboJson,
     selectFamilia,
     selectGenero,
     selectEspecie,
@@ -676,102 +675,6 @@ export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
     return floatLongitudeReflora;
 }
 
-export function getIdIdentificador(nomeArquivo, conexao, nroTombo) {
-    const promessa = Q.defer();
-    selectIdIdentificador(conexao, nroTombo, idUsuarioBD => {
-        if (idUsuarioBD.length === 0) {
-            escreveLOG(nomeArquivo, `{BD: ${idUsuarioBD}} o resultado da consulta é zero`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (valorEhIndefinido(idUsuarioBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${idUsuarioBD}} o resultado da consulta é indefinido`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (valorEhNulo(idUsuarioBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${idUsuarioBD}} o resultado da consulta ao BD é nulo`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        promessa.resolve(idUsuarioBD);
-        return promessa.promise;
-    });
-    return promessa.promise;
-}
-
-export function checkIdIdentificador(nomeArquivo, idUsuario) {
-    if (valorEhIndefinido(idUsuario)) {
-        escreveLOG(nomeArquivo, `{BD: ${idUsuario}} o id do usuário é indefinido`);
-        return -1;
-    }
-    if (valorEhNulo(idUsuario)) {
-        escreveLOG(nomeArquivo, `{BD: ${idUsuario}} o id do usuário é nulo`);
-        return -1;
-    }
-    const intIdUsuario = parseInt(idUsuario);
-    if (!ehNumero(intIdUsuario)) {
-        escreveLOG(nomeArquivo, `{BD: ${intIdUsuario}} o id do usuário não é número`);
-        return -1;
-    }
-    return intIdUsuario;
-}
-
-export function getNomeIdentificador(nomeArquivo, conexao, idUsuario) {
-    const promessa = Q.defer();
-    selectIdentificador(conexao, idUsuario, nomeUsuario => {
-        if (nomeUsuario.length === 0) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeUsuario}} o resultado da consulta é zero`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        const nomeUsuarioBD = nomeUsuario[0].dataValues.nome;
-        if (valorEhIndefinido(nomeUsuarioBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeUsuarioBD}} o nome do usuário é indefinido`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (valorEhNulo(nomeUsuarioBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeUsuarioBD}} o nome do usuário é nulo`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (nomeUsuarioBD.length === 0) {
-            escreveLOG(nomeArquivo, `{BD: ${nomeUsuarioBD}} o nome do usuário é vazio`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        promessa.resolve(nomeUsuarioBD);
-        return promessa.promise;
-    });
-    return promessa.promise;
-}
-
-export function ehIgualIdentificador(nomeArquivo, conexao, nomeIdentificadorBD, informacaoReflora) {
-    const nomeIdentificadorReflora = informacaoReflora.identifiedby;
-    if (valorEhIndefinido(nomeIdentificadorReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeIdentificadorReflora}} o nome do usuário é indefinido`);
-        return '';
-    }
-    if (valorEhNulo(nomeIdentificadorReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeIdentificadorReflora}} o nome do usuário é nulo`);
-        return '';
-    }
-    if (nomeIdentificadorReflora.length === 0) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeIdentificadorReflora}} o nome do usuário é vazio`);
-        return '';
-    }
-    const processaNomeIdentificadorBD = processaString(nomeIdentificadorBD);
-    const processaNomeIdentificadorReflora = processaString(nomeIdentificadorReflora);
-    if (processaNomeIdentificadorBD === processaNomeIdentificadorReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${processaNomeIdentificadorBD}, Reflora: ${nomeIdentificadorReflora}} o nome do usuário são iguais`);
-        // Aqui comparar as alterações da tabela alteracoes
-        return '';
-    }
-    escreveLOG(nomeArquivo, `{BD: ${processaNomeIdentificadorBD}, Reflora: ${nomeIdentificadorReflora}} o nome do usuário são diferentes`);
-    return processaNomeIdentificadorReflora;
-}
-
 export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {
     let dataIdentificacao = '';
     const dataIdentificacaoDiaBD = informacaoBD.data_identificacao_dia;
@@ -1197,6 +1100,48 @@ export function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCien
         }
         escreveLOG(nomeArquivo, 'Não foram retornados informações dos autores dos nomes científicos');
         promessa.resolve(-1);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+function ehIgualJson(jsonBd, jsonGerado) {
+    // const processaJsonBd = JSON.parse(jsonBd);
+    // const processaJsonGerado = JSON.parse(jsonGerado);
+    if (jsonBd === jsonGerado) {
+        return true;
+    }
+    return false;
+}
+
+export function verificaAlteracaoSugerida(conexao, nomeArquivo, nroTombo, jsonGerado) {
+    const promessa = Q.defer();
+    selectTomboJson(conexao, nroTombo, listaTomboJson => {
+        if (listaTomboJson.length === 0) {
+            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo não tem alterações`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(listaTomboJson)) {
+            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo tem alterações nula`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhIndefinido(listaTomboJson)) {
+            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo tem alterações indefinida`);
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        for (let i = 0; i < listaTomboJson.length; i += 1) {
+            const tomboJson = listaTomboJson[i].dataValues.tombo_json;
+            if (ehIgualJson(jsonGerado, tomboJson)) {
+                escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo já existe uma alteração`);
+                promessa.resolve(0);
+                return promessa.promise;
+            }
+        }
+        escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo não existe uma alteração`);
+        promessa.resolve(1);
         return promessa.promise;
     });
     return promessa.promise;

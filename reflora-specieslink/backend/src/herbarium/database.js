@@ -138,14 +138,14 @@ export function selectVegetacao(conexao, idVegetacao, callback) {
     });
 }
 
-export function selectIdIdentificador(conexao, idTombo, callback) {
+export function selectTomboJson(conexao, idTombo, callback) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaAlteracao.findAll({
-            attributes: ['usuario_id'],
+            attributes: ['tombo_json'],
             where: { tombo_hcf: idTombo },
-        }).then(idUsuario => {
-            callback(idUsuario);
+        }).then(tomboJson => {
+            callback(tomboJson);
         });
     });
 }
