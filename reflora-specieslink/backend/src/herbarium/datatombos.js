@@ -765,6 +765,7 @@ export function ehIgualIdentificador(nomeArquivo, conexao, nomeIdentificadorBD, 
     const processaNomeIdentificadorReflora = processaString(nomeIdentificadorReflora);
     if (processaNomeIdentificadorBD === processaNomeIdentificadorReflora) {
         escreveLOG(nomeArquivo, `{BD: ${processaNomeIdentificadorBD}, Reflora: ${nomeIdentificadorReflora}} o nome do usuário são iguais`);
+        // Aqui comparar as alterações da tabela alteracoes
         return '';
     }
     escreveLOG(nomeArquivo, `{BD: ${processaNomeIdentificadorBD}, Reflora: ${nomeIdentificadorReflora}} o nome do usuário são diferentes`);

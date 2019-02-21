@@ -116,19 +116,21 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
         if (resultadoLongitude !== -1) {
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
-        // identificador
+        // identificador -> Falta comparar as alterações da tabela alteracoes
         await getIdIdentificador(nomeArquivo, conexao, nroTombo).then(resultadoIdIdentifcador => {
             escreveLOG(nomeArquivo, 'Comparando informações de identificador');
-            resultadoIdIdentifcador.forEach(async element => {
-                const idUsuario = checkIdIdentificador(nomeArquivo, element.dataValues.usuario_id);
-                if (idUsuario !== -1) {
-                    await getNomeIdentificador(nomeArquivo, conexao, idUsuario).then(nomeIdentificador => {
-                        if (nomeIdentificador.length > 0) {
-                            alteracaoInformacao += `nome_identificador: ${nomeIdentificador}, `;
-                        }
-                    });
-                }
-            });
+            if (resultadoIdIdentifcador !== -1) {
+                resultadoIdIdentifcador.forEach(async element => {
+                    const idUsuario = checkIdIdentificador(nomeArquivo, element.dataValues.usuario_id);
+                    if (idUsuario !== -1) {
+                        await getNomeIdentificador(nomeArquivo, conexao, idUsuario).then(nomeIdentificador => {
+                            if (nomeIdentificador.length > 0) {
+                                alteracaoInformacao += `nome_identificador: ${nomeIdentificador}, `;
+                            }
+                        });
+                    }
+                });
+            }
         });
         escreveLOG(nomeArquivo, 'Comparando informações de data de identificação');
         const resultadoDataIdentificacao = ehIgualDataIdentificacao(nomeArquivo, informacaoTomboBD, informacaoTomboReflora);
@@ -195,6 +197,10 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
         console.log(`-> ${codBarra}`);
         // eslint-disable-next-line no-console
         console.log(`-> ${alteracaoInformacao}`);
+        // Aqui comparar as alterações da tabela alteracoes+
+        if (alteracaoInformacao.length > 2) {
+            // faz o insert
+        }
     } else {
         escreveLOG(nomeArquivo, `Não será feito comparações, pois não foi encontrado informações do tombo ${codBarra}`);
     }

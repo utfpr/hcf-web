@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 import request from 'request';
 import throttledQueue from 'throttled-queue';
-import Promise from 'bluebird';
 import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
@@ -42,31 +41,25 @@ function temProblemaRespostaReflora(nomeArquivo, codBarra, conexao, error, respo
     }
 }
 
-function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
+async function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
     const throttle = throttledQueue(1, 1000);
     const listCodBarra = [];
     clearListErroCodBarra();
-    for (let i = 0, p = Promise.resolve(); i < arrayCodBarra.length; i += 1) {
-        p = p.then(_ => new Promise(resolve => setTimeout(() => {
-            throttle(() => {
-                request(`http://servicos.jbrj.gov.br/v2/herbarium/${arrayCodBarra[i]}`, (error, response, body) => {
-                    escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${arrayCodBarra[i]}}`);
-                    temProblemaRespostaReflora(nomeArquivo, arrayCodBarra[i], conexao, error, response, body);
-                    listCodBarra.push(arrayCodBarra[i]);
-                    resolve();
-                });
+    for (let i = 0; i < arrayCodBarra.length; i += 1) {
+        throttle(() => {
+            request(`http://servicos.jbrj.gov.br/v2/herbarium/${arrayCodBarra[i]}`, (error, response, body) => {
+                escreveLOG(nomeArquivo, `Realizando a requisição do código de barra {${arrayCodBarra[i]}}`);
+                temProblemaRespostaReflora(nomeArquivo, arrayCodBarra[i], conexao, error, response, body);
+                listCodBarra.push(arrayCodBarra[i]);
             });
-        }, Math.random() * 100)));
-        p = p.then(_ => new Promise(resolve => setTimeout(() => {
-            if (i === arrayCodBarra.length - 1) {
-                const codBarraNaoFeito = codBarraFaltante(listCodBarra);
-                const todosCodBarra = codBarraNaoFeito.concat(listErroCodBarra);
-                if (todosCodBarra.length !== 0) {
-                    requisicaoReflora(nomeArquivo, conexao, todosCodBarra);
-                }
+        });
+        if (i === arrayCodBarra.length - 1) {
+            const codBarraNaoFeito = codBarraFaltante(listCodBarra);
+            const todosCodBarra = codBarraNaoFeito.concat(listErroCodBarra);
+            if (todosCodBarra.length !== 0) {
+                requisicaoReflora(nomeArquivo, conexao, todosCodBarra);
             }
-            resolve();
-        }, Math.random() * 100)));
+        }
     }
 }
 
