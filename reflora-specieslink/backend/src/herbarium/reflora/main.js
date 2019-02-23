@@ -1,26 +1,34 @@
-import { criaConexao, selectMaxNumBarra } from '../database';
-// import { processaMaiorCodBarra } from '../tombos';
+import {
+    criaConexao,
+    criaTabelaReflora,
+    selectMaiorNumBarra,
+    insertTabelaReflora,
+} from '../database';
+import { processaMaiorCodBarra } from '../tombos';
 /*  import reflora from './reflora'; */
 import { criaArrayCodBarra } from './codbarra';
-import { createTableReflora, insertTableReflora } from './reflora';
-// import { createTableReflora } from './reflora';
+import { fazRequisicaoReflora } from './reflora';
 import { getNomeArquivo, escreveLOG } from '../log';
 
-async function main() {
+function main() {
     const nomeArquivo = getNomeArquivo();
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do {Reflora}');
     const conexao = criaConexao(nomeArquivo);
-    const tabelaReflora = createTableReflora(conexao);
+    const tabelaReflora = criaTabelaReflora(conexao);
 
-    selectMaxNumBarra(conexao).then(maxCodBarra => {
+    selectMaiorNumBarra(conexao).then(maxCodBarra => {
         /* Faz o pré-processamento do código de barra */
-        // const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
-        const intMaiorCodBarra = 5;
+        const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
+        // const intMaiorCodBarra = 5;
         const arrayCodBarra = criaArrayCodBarra(nomeArquivo, intMaiorCodBarra).sort();
         return arrayCodBarra;
     }).then(arrayCodBarra => {
-        insertTableReflora(tabelaReflora, arrayCodBarra).then(() => {
-            console.log('a');
+        insertTabelaReflora(tabelaReflora, arrayCodBarra).then(() => {
+            // select * from reflora where contador=0 limit 1
+            // update reflora set contador=0 where cod_barra='HCF000000001'
+            // eslint-disable-next-line no-console
+            // console.log('a');
+            fazRequisicaoReflora(conexao, arrayCodBarra.length);
         });
     });
     // const intMaiorCodBarra = processaMaiorCodBarra(nomeArquivo, maxCodBarra);
@@ -28,7 +36,7 @@ async function main() {
     // const arrayCodBarra = criaArrayCodBarra(nomeArquivo, intMaiorCodBarra).sort();
     // insertTableReflora(tabelaReflora, arrayCodBarra);
     // });
-    // eslint-disable-next-line no-console
+    // eslint-disbale-next-line no-console
     // console.log(`b${maiorCodBarra}`);
     /* selectMaxNumBarra(conexao, maxCodBarra => {
 

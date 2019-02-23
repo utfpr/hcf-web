@@ -1,47 +1,14 @@
 /* eslint-disable max-len */
 import request from 'request';
 import throttledQueue from 'throttled-queue';
-import Sequelize from 'sequelize';
-import Q from 'q';
+// import Q from 'q';
 // import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
-import modeloReflora from '../../models/Reflora';
+import { selectUmCodBarra, atualizaTabelaReflora } from '../database';
+// import { selectUmCodBarra } from '../database';
 
 const listErroCodBarra = [];
-
-export function createTableReflora(conexao) {
-    const tabelaReflora = modeloReflora(conexao, Sequelize);
-    // force: true => dá um drop table
-    tabelaReflora.sync({ force: true });
-    tabelaReflora.removeAttribute('id');
-    return tabelaReflora;
-}
-
-export function insertTableReflora(tabelaReflora, arrayCodBarra) {
-    /**
-     * Sem o throttle ele faz muitas conexões simultaneamente,
-     * acabando gerando erros. O throttle faz um por um, evitando
-     * erros. Algumas soluções no StackOverflow falavam para
-     * adicionar certas configurações na criação da conexão, porém nada deu certo.
-     */
-    const throttle = throttledQueue(1, 200);
-    const promessa = Q.defer();
-    arrayCodBarra.forEach((codBarra, index) => {
-        throttle(() => {
-            tabelaReflora.create({
-                cod_barra: codBarra,
-                tombo_json: null,
-                contador: 0,
-            }).then(() => {
-                if (index === arrayCodBarra.length - 1) {
-                    promessa.resolve();
-                }
-            });
-        });
-    });
-    return promessa.promise;
-}
 
 function clearListErroCodBarra() {
     while (listErroCodBarra.length > 0) {
@@ -99,6 +66,46 @@ async function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
         }
         */
     }
+}
+
+export function fazRequisicaoReflora(conexao, quantidadeCodBarra) {
+    const throttle = throttledQueue(1, 1000);
+    for (let i = 0; i < quantidadeCodBarra + 1; i += 1) {
+        throttle(() => {
+            selectUmCodBarra(conexao).then(codBarra => {
+                const getCodBarra = codBarra[0].dataValues.cod_barra;
+                request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+                    // eslint-disable-next-line no-console
+                    console.log(body);
+                    atualizaTabelaReflora(conexao, getCodBarra, body);
+                });
+            });
+        });
+    }
+    /*
+    const promessa = Q.defer();
+    const throttle = throttledQueue(1, 1000);
+    selectUmCodBarra(conexao).then(codBarra => {
+        if (codBarra.length === 0) {
+            promessa.resolve();
+            return promessa.promise;
+        }
+        // eslint-disable-next-line no-console
+        console.log(codBarra[0].dataValues.cod_barra);
+        const getCodBarra = codBarra[0].dataValues.cod_barra;
+        throttle(() => {
+            request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+                // eslint-disable-next-line no-console
+                console.log(body);
+                atualizaTabelaReflora(conexao, getCodBarra, body);
+            });
+        });
+        doRequestReflora(conexao);
+        return promessa.promise;
+        // eslint-disable-next-line no-console
+    });
+    return promessa.promise;
+    */
 }
 
 export default {

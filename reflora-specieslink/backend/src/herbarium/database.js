@@ -2,6 +2,7 @@
 /* eslint-disable max-len */
 import Sequelize from 'sequelize';
 import Q from 'q';
+import throttledQueue from 'throttled-queue';
 import {
     database,
     username,
@@ -21,6 +22,7 @@ import modeloAutor from '../models/Autor';
 import modeloVegetacao from '../models/Vegetacao';
 import modeloAlteracao from '../models/Alteracao';
 import modeloUsuario from '../models/Usuario';
+import modeloReflora from '../models/Reflora';
 import { escreveLOG } from './log';
 
 export function criaConexao(nomeArquivo) {
@@ -34,7 +36,7 @@ export function testaConexao(conexao) {
         .catch(() => /* b */ false);
 }
 
-export function selectMaxNumBarra(conexao) {
+export function selectMaiorNumBarra(conexao) {
     const promessa = Q.defer();
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -45,6 +47,66 @@ export function selectMaxNumBarra(conexao) {
     return promessa.promise;
 }
 
+export function criaTabelaReflora(conexao) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    // force: true => dá um drop table
+    tabelaReflora.sync({ force: true });
+    tabelaReflora.removeAttribute('id');
+    return tabelaReflora;
+}
+
+export function insertTabelaReflora(tabelaReflora, arrayCodBarra) {
+    /**
+     * Sem o throttle ele faz muitas conexões simultaneamente,
+     * acabando gerando erros. O throttle faz um por um, evitando
+     * erros. Algumas soluções no StackOverflow falavam para
+     * adicionar certas configurações na criação da conexão, porém nada deu certo.
+     */
+    const throttle = throttledQueue(1, 200);
+    const promessa = Q.defer();
+    arrayCodBarra.forEach((codBarra, index) => {
+        throttle(() => {
+            tabelaReflora.create({
+                cod_barra: codBarra,
+                tombo_json: null,
+                contador: 0,
+            }).then(() => {
+                if (index === arrayCodBarra.length - 1) {
+                    promessa.resolve();
+                }
+            });
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectUmCodBarra(conexao) {
+    const promessa = Q.defer();
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaReflora.findAll({
+            attributes: ['cod_barra'],
+            where: { contador: 0 },
+            limit: 1,
+        }).then(codBarra => {
+            // callback(codBarra);
+            promessa.resolve(codBarra);
+        });
+    });
+    return promessa.promise;
+}
+
+export function atualizaTabelaReflora(conexao, codBarra, json) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    // conexao.sync().then(() => {
+    tabelaReflora.update(
+        { tombo_json: json, contador: 1 },
+        { where: { cod_barra: codBarra } },
+    );
+    // });
+}
+
+// ==================================================================
 export function selectNroTomboNumBarra(conexao, codBarra, callback) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
