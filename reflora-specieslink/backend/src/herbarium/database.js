@@ -1,6 +1,7 @@
 /* Evita o warning de excendo o tamanho da linha */
 /* eslint-disable max-len */
 import Sequelize from 'sequelize';
+import Q from 'q';
 import {
     database,
     username,
@@ -33,13 +34,15 @@ export function testaConexao(conexao) {
         .catch(() => /* b */ false);
 }
 
-export function selectMaxNumBarra(conexao, callback) {
+export function selectMaxNumBarra(conexao) {
+    const promessa = Q.defer();
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaTomboFoto.max('num_barra').then(max => {
-            callback(max);
+            promessa.resolve(max);
         });
     });
+    return promessa.promise;
 }
 
 export function selectNroTomboNumBarra(conexao, codBarra, callback) {

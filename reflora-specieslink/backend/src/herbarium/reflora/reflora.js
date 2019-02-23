@@ -2,6 +2,7 @@
 import request from 'request';
 import throttledQueue from 'throttled-queue';
 import Sequelize from 'sequelize';
+import Q from 'q';
 // import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
@@ -24,16 +25,22 @@ export function insertTableReflora(tabelaReflora, arrayCodBarra) {
      * erros. Algumas soluções no StackOverflow falavam para
      * adicionar certas configurações na criação da conexão, porém nada deu certo.
      */
-    const throttle = throttledQueue(1, 100);
-    arrayCodBarra.forEach(codBarra => {
+    const throttle = throttledQueue(1, 200);
+    const promessa = Q.defer();
+    arrayCodBarra.forEach((codBarra, index) => {
         throttle(() => {
             tabelaReflora.create({
                 cod_barra: codBarra,
                 tombo_json: null,
                 contador: 0,
+            }).then(() => {
+                if (index === arrayCodBarra.length - 1) {
+                    promessa.resolve();
+                }
             });
         });
     });
+    return promessa.promise;
 }
 
 function clearListErroCodBarra() {

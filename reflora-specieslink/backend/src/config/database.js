@@ -24,5 +24,5 @@ export const options = {
     dialectOptions: {
         charset: 'utf8mb4',
         multipleStatements: true,
-    }
+    },
 };
