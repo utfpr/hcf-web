@@ -1,11 +1,40 @@
 /* eslint-disable max-len */
 import request from 'request';
 import throttledQueue from 'throttled-queue';
-import { codBarraFaltante } from './codbarra';
+import Sequelize from 'sequelize';
+// import { codBarraFaltante } from './codbarra';
 import { comparaTombo } from '../tombos';
 import { escreveLOG } from '../log';
+import modeloReflora from '../../models/Reflora';
 
 const listErroCodBarra = [];
+
+export function createTableReflora(conexao) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    // force: true => dá um drop table
+    tabelaReflora.sync({ force: true });
+    tabelaReflora.removeAttribute('id');
+    return tabelaReflora;
+}
+
+export function insertTableReflora(tabelaReflora, arrayCodBarra) {
+    /**
+     * Sem o throttle ele faz muitas conexões simultaneamente,
+     * acabando gerando erros. O throttle faz um por um, evitando
+     * erros. Algumas soluções no StackOverflow falavam para
+     * adicionar certas configurações na criação da conexão, porém nada deu certo.
+     */
+    const throttle = throttledQueue(1, 100);
+    arrayCodBarra.forEach(codBarra => {
+        throttle(() => {
+            tabelaReflora.create({
+                cod_barra: codBarra,
+                tombo_json: null,
+                contador: 0,
+            });
+        });
+    });
+}
 
 function clearListErroCodBarra() {
     while (listErroCodBarra.length > 0) {
@@ -53,6 +82,7 @@ async function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
                 listCodBarra.push(arrayCodBarra[i]);
             });
         });
+        /*
         if (i === arrayCodBarra.length - 1) {
             const codBarraNaoFeito = codBarraFaltante(listCodBarra);
             const todosCodBarra = codBarraNaoFeito.concat(listErroCodBarra);
@@ -60,6 +90,7 @@ async function requisicaoReflora(nomeArquivo, conexao, arrayCodBarra) {
                 requisicaoReflora(nomeArquivo, conexao, todosCodBarra);
             }
         }
+        */
     }
 }
 

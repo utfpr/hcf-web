@@ -182,6 +182,9 @@ async function comparaInformacoesTombos(nomeArquivo, conexao, nroTombo, codBarra
                 console.log(`->${codBarra}`);
                 // eslint-disable-next-line no-console
                 console.log(`->${alteracaoInformacao}`);
+            } else {
+                // eslint-disable-next-line no-console
+                console.log(resultadoAlteracaoSugerida);
             }
         });
     } else {

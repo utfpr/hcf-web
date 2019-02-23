@@ -14,7 +14,6 @@ export const options = {
     dialect: 'mysql',
     host: DB_HOST,
     port: parseInt(DB_PORT) || 41890,
-
     define: {
         freezeTableName: true,
         underscored: true,
@@ -25,6 +24,5 @@ export const options = {
     dialectOptions: {
         charset: 'utf8mb4',
         multipleStatements: true,
-    },
-    logging: false,
+    }
 };
