@@ -1,5 +1,3 @@
-import { escreveLOG } from '../log';
-
 export function geraCodBarra(codBarra) {
     const newCodBarra = 'HCF';
     if (codBarra < 10) {
@@ -32,19 +30,17 @@ export function geraCodBarra(codBarra) {
     return -1;
 }
 
-export function criaArrayCodBarra(nomeArquivo, maxCodBarra) {
-    const arrayCodBarra = [];
-    for (let i = 1; i <= maxCodBarra; i += 1) {
+export function criaListaCodBarra(maiorCodBarra) {
+    const listaCodBarra = [];
+    for (let i = 1; i <= maiorCodBarra; i += 1) {
         const codBarra = geraCodBarra(i);
         if (codBarra === -1) {
-            escreveLOG(nomeArquivo, `Erro na geração de código de barra {${codBarra}}`);
             process.exit(0);
         } else {
-            arrayCodBarra.push(codBarra);
+            listaCodBarra.push(codBarra);
         }
     }
-    escreveLOG(nomeArquivo, `Todos os códigos de barras {${maxCodBarra}} foram gerados com sucesso`);
-    return arrayCodBarra;
+    return listaCodBarra;
 }
 
 export function existeCodBarra(listCodBarra, codBarra) {

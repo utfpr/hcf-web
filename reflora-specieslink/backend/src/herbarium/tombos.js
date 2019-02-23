@@ -202,8 +202,7 @@ export function comparaTombo(nomeArquivo, conexao, codBarra, respostaReflora) {
     });
 }
 
-export function processaMaiorCodBarra(nomeArquivo, maiorCodBarra) {
+export function processaMaiorCodBarra(maiorCodBarra) {
     const novoMaxCodBarra = maiorCodBarra.replace('HCF', '');
-    escreveLOG(nomeArquivo, `Processando o maior código de barra que é {${maiorCodBarra}}`);
     return parseInt(novoMaxCodBarra);
 }

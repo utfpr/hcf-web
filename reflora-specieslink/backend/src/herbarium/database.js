@@ -23,10 +23,8 @@ import modeloVegetacao from '../models/Vegetacao';
 import modeloAlteracao from '../models/Alteracao';
 import modeloUsuario from '../models/Usuario';
 import modeloReflora from '../models/Reflora';
-import { escreveLOG } from './log';
 
-export function criaConexao(nomeArquivo) {
-    escreveLOG(nomeArquivo, 'Criando a conexão com o database');
+export function criaConexao() {
     return new Sequelize(database, username, password, options);
 }
 
@@ -104,6 +102,25 @@ export function atualizaTabelaReflora(conexao, codBarra, json) {
         { where: { cod_barra: codBarra } },
     );
     // });
+}
+
+
+export function contaNuloErroTabelaReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaReflora.findAll({
+            where: {
+                [Sequelize.Op.or]:
+                [{ tombo_json: '{"erro":"500","message":"Oops, something\'s gone wrong in server!"}' },
+                    { tombo_json: null },
+                    { contador: 0 }],
+            },
+        }).then(codBarra => {
+            // callback(codBarra);
+            promessa.resolve(codBarra);
+        });
+    });
 }
 
 // ==================================================================
