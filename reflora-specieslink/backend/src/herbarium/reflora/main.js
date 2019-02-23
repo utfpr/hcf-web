@@ -19,12 +19,16 @@ function main() {
     selectMaiorNumBarra(conexao).then(maxCodBarra => {
         /* Faz o pré-processamento do código de barra */
         // const intMaiorCodBarra = processaMaiorCodBarra(maxCodBarra);
-        const intMaiorCodBarra = 1;
+        const intMaiorCodBarra = 3;
         const listaCodBarra = criaListaCodBarra(intMaiorCodBarra).sort();
         return listaCodBarra;
     }).then(listaCodBarra => {
         insertTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-            fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length);
+            fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
+                if (resultadoRequisicaoReflora) {
+                    // a
+                }
+            });
         });
     });
 }

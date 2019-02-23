@@ -121,6 +121,7 @@ export function contaNuloErroTabelaReflora(conexao) {
             promessa.resolve(codBarra);
         });
     });
+    return promessa.promise;
 }
 
 // ==================================================================
