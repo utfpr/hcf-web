@@ -6,7 +6,8 @@ import {
     selectEstado,
     selectCidade,
     selectLocalColeta,
-    selectVegetacao,
+    selectPaisSigla,
+    //    selectVegetacao,
     selectTomboJson,
     selectFamilia,
     selectGenero,
@@ -43,371 +44,234 @@ function processaString(valor) {
     return valor.replace(/\s/g, '').toLowerCase();
 }
 
-export function ehIgualNroColeta(informacaoBD, informacaoReflora) {
-    const nroColetaBD = informacaoBD.numero_coleta;
+export function ehIgualNroColeta(informacaoBd, informacaoReflora) {
+    const nroColetaBd = informacaoBd.numero_coleta;
     const nroColetaReflora = informacaoReflora.recordnumber;
-    if (valorEhIndefinido(nroColetaBD)) {
+    if (valorEhIndefinido(nroColetaBd) || valorEhIndefinido(nroColetaReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(nroColetaReflora)) {
+    if (valorEhNulo(nroColetaBd) || valorEhNulo(nroColetaReflora)) {
         return -1;
     }
-    if (valorEhNulo(nroColetaBD)) {
-        return -1;
-    }
-    if (valorEhNulo(nroColetaReflora)) {
-        return -1;
-    }
-    const floatNroColetaBD = parseFloat(nroColetaBD);
+    const floatNroColetaBd = parseFloat(nroColetaBd);
     const floatNroColetaReflora = parseFloat(nroColetaReflora);
-    if (!ehNumero(floatNroColetaBD)) {
+    if (!ehNumero(floatNroColetaBd) || !ehNumero(floatNroColetaReflora)) {
         return -1;
     }
-    if (!ehNumero(floatNroColetaReflora)) {
-        return -1;
-    }
-    if (floatNroColetaBD === floatNroColetaReflora) {
+    if (floatNroColetaBd === floatNroColetaReflora) {
         return -1;
     }
     return floatNroColetaReflora;
 }
 
-export function ehIgualAnoColeta(nomeArquivo, informacaoBD, informacaoReflora) {
-    const anoColetaBD = informacaoBD.data_coleta_ano;
+
+export function ehIgualAnoColeta(informacaoBd, informacaoReflora) {
+    const anoColetaBd = informacaoBd.data_coleta_ano;
     const anoColetaReflora = informacaoReflora.year;
-    if (valorEhIndefinido(anoColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${anoColetaBD}} o ano de coleta é indefinido`);
+    if (valorEhIndefinido(anoColetaBd) || valorEhIndefinido(anoColetaReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(anoColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${anoColetaReflora}} o ano de coleta é indefinido`);
+    if (valorEhNulo(anoColetaBd) || valorEhNulo(anoColetaReflora)) {
         return -1;
     }
-    if (valorEhNulo(anoColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${anoColetaBD}} o ano de coleta é nula`);
-        return -1;
-    }
-    if (valorEhNulo(anoColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${anoColetaReflora}} o ano de coleta é nula`);
-        return -1;
-    }
-    const intAnoColetaBD = parseInt(anoColetaBD);
+    const intAnoColetaBd = parseInt(anoColetaBd);
     const intAnoColetaReflora = parseInt(anoColetaReflora);
-    if (!ehNumero(intAnoColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${intAnoColetaBD}} o ano de coleta não é número`);
+    if (!ehNumero(intAnoColetaBd) || !ehNumero(intAnoColetaReflora)) {
         return -1;
     }
-    if (!ehNumero(intAnoColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${intAnoColetaReflora}} o ano de coleta não é número`);
+    if (intAnoColetaBd === intAnoColetaReflora) {
         return -1;
     }
-    if (intAnoColetaBD === intAnoColetaReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} anos de coleta são iguais`);
-        return -1;
-    }
-    escreveLOG(nomeArquivo, `{BD: ${intAnoColetaBD}, Reflora: ${intAnoColetaReflora}} anos de coleta são diferentes`);
     return intAnoColetaReflora;
 }
 
-export function ehIgualMesColeta(nomeArquivo, informacaoBD, informacaoReflora) {
-    const mesColetaBD = informacaoBD.data_coleta_mes;
+export function ehIgualMesColeta(informacaoBd, informacaoReflora) {
+    const mesColetaBd = informacaoBd.data_coleta_mes;
     const mesColetaReflora = informacaoReflora.month;
-    if (valorEhIndefinido(mesColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${mesColetaBD}} o mês de coleta é indefinido`);
+    if (valorEhIndefinido(mesColetaBd) || valorEhIndefinido(mesColetaReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(mesColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${mesColetaReflora}} o mês de coleta é indefinido`);
+    if (valorEhNulo(mesColetaBd) || valorEhNulo(mesColetaReflora)) {
         return -1;
     }
-    if (valorEhNulo(mesColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${mesColetaBD}} o mês de coleta é nula`);
-        return -1;
-    }
-    if (valorEhNulo(mesColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${mesColetaReflora}} o mês de coleta é nula`);
-        return -1;
-    }
-    const intMesColetaBD = parseInt(mesColetaBD);
+    const intMesColetaBd = parseInt(mesColetaBd);
     const intMesColetaReflora = parseInt(mesColetaReflora);
-    if (!ehNumero(intMesColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${intMesColetaBD}} o mês de coleta não é número`);
+    if (!ehNumero(intMesColetaBd) || !ehNumero(intMesColetaReflora)) {
         return -1;
     }
-    if (!ehNumero(intMesColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${intMesColetaReflora}} o mês de coleta não é número`);
+    if (intMesColetaBd === intMesColetaReflora) {
         return -1;
     }
-    if (intMesColetaBD === intMesColetaReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} meses de coleta são iguais`);
-        return -1;
-    }
-    escreveLOG(nomeArquivo, `{BD: ${intMesColetaBD}, Reflora: ${intMesColetaReflora}} meses de coleta são diferentes`);
     return intMesColetaReflora;
 }
 
-export function ehIgualDiaColeta(nomeArquivo, informacaoBD, informacaoReflora) {
-    const diaColetaBD = informacaoBD.data_coleta_dia;
+export function ehIgualDiaColeta(informacaoBd, informacaoReflora) {
+    const diaColetaBd = informacaoBd.data_coleta_dia;
     const diaColetaReflora = informacaoReflora.day;
-    if (valorEhIndefinido(diaColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${diaColetaBD}} o dia de coleta é indefinido`);
+    if (valorEhIndefinido(diaColetaBd) || valorEhIndefinido(diaColetaReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(diaColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${diaColetaReflora}} o dia de coleta é indefinido`);
+    if (valorEhNulo(diaColetaBd) || valorEhNulo(diaColetaReflora)) {
         return -1;
     }
-    if (valorEhNulo(diaColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${diaColetaBD}} o dia de coleta é nula`);
-        return -1;
-    }
-    if (valorEhNulo(diaColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${diaColetaReflora}} o mês de coleta é nula`);
-        return -1;
-    }
-    const intDiaColetaBD = parseInt(diaColetaBD);
+    const intDiaColetaBd = parseInt(diaColetaBd);
     const intDiaColetaReflora = parseInt(diaColetaReflora);
-    if (!ehNumero(intDiaColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${intDiaColetaBD}} o dia de coleta não é número`);
+    if (!ehNumero(intDiaColetaBd) || !ehNumero(intDiaColetaReflora)) {
         return -1;
     }
-    if (!ehNumero(intDiaColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${intDiaColetaReflora}} o dia de coleta não é número`);
+    if (intDiaColetaBd === intDiaColetaReflora) {
         return -1;
     }
-    if (intDiaColetaBD === intDiaColetaReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} dias de coleta são iguais`);
-        return -1;
-    }
-    escreveLOG(nomeArquivo, `{BD: ${intDiaColetaBD}, Reflora: ${intDiaColetaReflora}} dias de coleta são diferentes`);
     return intDiaColetaReflora;
 }
 
-export function ehIgualObservacao(nomeArquivo, informacaoBD, informacaoReflora) {
-    const observacaoTomboBD = informacaoBD.observacao;
-    const observacaoTomboReflora = informacaoReflora.fieldnotes;
-    if (valorEhIndefinido(observacaoTomboBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} as observações são indefinidas`);
+export function ehIgualObservacao(informacaoBd, informacaoReflora) {
+    const observacaoBd = informacaoBd.observacao;
+    const observacaoReflora = informacaoReflora.fieldnotes;
+    if (valorEhIndefinido(observacaoBd) || valorEhIndefinido(observacaoReflora)) {
         return '';
     }
-    if (valorEhIndefinido(observacaoTomboReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as observações são indefinidas`);
+    if (valorEhNulo(observacaoBd) || valorEhNulo(observacaoReflora)) {
         return '';
     }
-    if (valorEhNulo(observacaoTomboBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} as observações são nulas`);
+    if ((observacaoBd.length === 0) || (observacaoReflora.length === 0)) {
         return '';
     }
-    if (valorEhNulo(observacaoTomboReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as observações são nulas`);
+    const processaObservacaoBd = processaString(observacaoBd);
+    const processaObservacaoReflora = processaString(observacaoReflora);
+    if (processaObservacaoBd.includes(processaObservacaoReflora)) {
         return '';
     }
-    if (observacaoTomboBD.length === 0) {
-        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} as informações de observações são vazias`);
-        return '';
-    }
-    if (observacaoTomboReflora.length === 0) {
-        escreveLOG(nomeArquivo, `{Reflora: ${observacaoTomboReflora}} as informações de observações são vazias`);
-        return '';
-    }
-    const processaObservacaoBD = observacaoTomboBD.replace(/\s/g, '').toLowerCase();
-    const processaObservacaoReflora = observacaoTomboReflora.replace(/\s/g, '').toLowerCase();
-    if (processaObservacaoBD.includes(processaObservacaoReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são iguais`);
-        return '';
-    }
-    escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, Reflora: ${observacaoTomboReflora}} as observações são diferentes`);
-    return observacaoTomboReflora;
+    return observacaoReflora;
 }
 
-export function getIdCidade(nomeArquivo, conexao, informacaoBD) {
+export function getIdCidade(conexao, informacaoBd) {
     const promessa = Q.defer();
-    const idLocalColeta = informacaoBD.local_coleta_id;
-    selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
-        if (resultadoLocalColetaTombo.length === 0) {
-            escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
+    const idLocalColeta = informacaoBd.local_coleta_id;
+    selectLocalColeta(conexao, idLocalColeta).then(resultadoLocalColetaBd => {
+        if (resultadoLocalColetaBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        const idCidade = parseInt(resultadoLocalColetaTombo[0].dataValues.cidade_id);
-        if (valorEhNulo(idCidade)) {
-            escreveLOG(nomeArquivo, `{BD: ${idCidade}} o ID da cidade é nulo`);
+        return resultadoLocalColetaBd;
+    }).then(resultadoLocalColetaBd => {
+        const idCidade = parseInt(resultadoLocalColetaBd[0].dataValues.cidade_id);
+        if (valorEhNulo(idCidade) || !ehNumero(idCidade)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (!ehNumero(idCidade)) {
-            escreveLOG(nomeArquivo, `{BD: ${idCidade}} o ID da cidade não é número`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${idCidade}} o ID da cidade é número`);
         promessa.resolve(idCidade);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualPais(nomeArquivo, conexao, idCidade, informacaoReflora) {
+export function ehIgualPais(conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
-    selectPais(conexao, idCidade, resultadoPaisTombo => {
-        if (resultadoPaisTombo.length > 0) {
-            const nomePaisBD = resultadoPaisTombo[0].dataValues.estados_paises_nome;
-            const nomePaisReflora = informacaoReflora.country;
-            if (valorEhIndefinido(nomePaisBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}} o país é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomePaisReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisReflora}} o país é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomePaisBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}} o país é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomePaisReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisReflora}} o país é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomePaisBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}} as informações de país é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomePaisReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisReflora}} as informações de país é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomePaisBD = nomePaisBD.replace(/\s/g, '').toLowerCase();
-            const processaNomePaisReflora = nomePaisReflora.replace(/\s/g, '').toLowerCase();
-            if (processaNomePaisBD === processaNomePaisReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}, Reflora: ${nomePaisReflora}} os países são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomePaisBD}, Reflora: ${nomePaisReflora}} os países são diferentes`);
-            promessa.resolve(nomePaisReflora);
+    selectPais(conexao, idCidade).then(resultadoPaisBd => {
+        if (resultadoPaisBd === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de países');
-        promessa.resolve(-1);
+        return resultadoPaisBd;
+    }).then(resultadoPaisBd => {
+        const nomePaisBd = resultadoPaisBd[0].dataValues.estados_paises_nome;
+        const nomePaisReflora = informacaoReflora.country;
+        if (valorEhIndefinido(nomePaisBd) || valorEhIndefinido(nomePaisReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomePaisBd) || valorEhNulo(nomePaisReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomePaisBd.length === 0) || (nomePaisReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomePaisBd = processaString(nomePaisBd);
+        const processaNomePaisReflora = processaString(nomePaisReflora);
+        if (processaNomePaisBd === processaNomePaisReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomePaisReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualPaisSigla(nomeArquivo, conexao, idCidade, informacaoReflora) {
+export function ehIgualPaisSigla(conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
-    selectPais(conexao, idCidade, resultadoPaisSiglaTombo => {
-        if (resultadoPaisSiglaTombo.length > 0) {
-            const nomePaisSiglaBD = resultadoPaisSiglaTombo[0].dataValues.estados_paises_sigla;
-            const nomePaisSiglaReflora = informacaoReflora.countrycode;
-            if (valorEhIndefinido(nomePaisSiglaBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}} a sigla do país é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomePaisSiglaReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaReflora}} a sigla do país é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomePaisSiglaBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}} a sigla do país é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomePaisSiglaReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaReflora}} a sigla do país é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomePaisSiglaBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}} as informações de sigla do país é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomePaisSiglaReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaReflora}} as informações de sigla do país é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomePaisSiglaBD = processaString(nomePaisSiglaBD);
-            const processaNomePaisSiglaReflora = processaString(nomePaisSiglaReflora);
-            if (processaNomePaisSiglaBD === processaNomePaisSiglaReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}, Reflora: ${nomePaisSiglaReflora}} as siglas dos países são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomePaisSiglaBD}, Reflora: ${nomePaisSiglaReflora}} as siglas dos países são diferentes`);
-            promessa.resolve(nomePaisSiglaReflora);
+    selectPaisSigla(conexao, idCidade).then(resultadoPaisSiglaBd => {
+        if (resultadoPaisSiglaBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de sigla dos países');
-        promessa.resolve(-1);
+        return resultadoPaisSiglaBd;
+    }).then(resultadoPaisSiglaBd => {
+        const nomePaisSiglaBd = resultadoPaisSiglaBd[0].dataValues.estados_paises_sigla;
+        const nomePaisSiglaReflora = informacaoReflora.countrycode;
+        if (valorEhIndefinido(nomePaisSiglaBd) || valorEhIndefinido(nomePaisSiglaReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomePaisSiglaBd) || valorEhNulo(nomePaisSiglaReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomePaisSiglaBd.length === 0) || (nomePaisSiglaReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomePaisSiglaBd = processaString(nomePaisSiglaBd);
+        const processaNomePaisSiglaReflora = processaString(nomePaisSiglaReflora);
+        if (processaNomePaisSiglaBd === processaNomePaisSiglaReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomePaisSiglaReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualEstado(nomeArquivo, conexao, idCidade, informacaoReflora) {
+export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
-    selectEstado(conexao, idCidade, resultadoEstadoTombo => {
-        if (resultadoEstadoTombo.length > 0) {
-            const nomeEstadoBD = resultadoEstadoTombo[0].dataValues.estados_nome;
-            const nomeEstadoReflora = informacaoReflora.stateprovince;
-            if (valorEhIndefinido(nomeEstadoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}} o estado é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeEstadoReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoReflora}} o estado é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeEstadoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}} o estado é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeEstadoReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoReflora}} o estado é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeEstadoBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}} as informações de estado é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeEstadoReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoReflora}} as informações de estado é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeEstadoBD = processaString(nomeEstadoBD);
-            const processaNomeEstadoReflora = processaString(nomeEstadoReflora);
-            if (processaNomeEstadoBD === processaNomeEstadoReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeEstadoBD}, Reflora: ${nomeEstadoReflora}} os estados são diferentes`);
-            promessa.resolve(nomeEstadoReflora);
+    selectEstado(conexao, idCidade).then(resultadoEstadoBd => {
+        if (resultadoEstadoBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de estados');
-        promessa.resolve(-1);
+        return resultadoEstadoBd;
+    }).then(resultadoEstadoBd => {
+        const nomeEstadoBd = resultadoEstadoBd[0].dataValues.estados_nome;
+        const nomeEstadoReflora = informacaoReflora.stateprovince;
+        if (valorEhIndefinido(nomeEstadoBd) || valorEhIndefinido(nomeEstadoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeEstadoBd) || valorEhNulo(nomeEstadoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeEstadoBd.length === 0) || (nomeEstadoReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeEstadoBd = processaString(nomeEstadoBd);
+        const processaNomeEstadoReflora = processaString(nomeEstadoReflora);
+        if (processaNomeEstadoBd === processaNomeEstadoReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeEstadoReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
+
+// =======================================================
 
 export function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
@@ -465,7 +329,7 @@ export function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora)
 
 export function ehIgualLocalidade(nomeArquivo, conexao, idLocalColeta, informacaoTomboBD, informacaoReflora) {
     const promessa = Q.defer();
-    selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
+    /* selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
         if (resultadoLocalColetaTombo.length === 0) {
             escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
             promessa.resolve(-1);
@@ -533,7 +397,7 @@ export function ehIgualLocalidade(nomeArquivo, conexao, idLocalColeta, informaca
             return promessa.promise;
         });
         return promessa.promise;
-    });
+    }); */
     return promessa.promise;
 }
 

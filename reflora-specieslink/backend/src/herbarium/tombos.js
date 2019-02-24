@@ -36,70 +36,6 @@ export async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomb
         const informacaoTomboBD = tomboBD[0].dataValues;
         const informacaoTomboReflora = tomboReflora.result[0];
         let alteracaoInformacao = '{';
-        // número de coleta
-        const resultadoNroColeta = ehIgualNroColeta(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoNroColeta !== -1) {
-            alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
-        }
-        // ano de coleta
-        const resultadoAnoColeta = ehIgualAnoColeta(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoAnoColeta !== -1) {
-            alteracaoInformacao += `ano_coleta: ${resultadoAnoColeta}, `;
-        }
-        // mês de coleta
-        const resultadoMesColeta = ehIgualMesColeta(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoMesColeta !== -1) {
-            alteracaoInformacao += `mes_coleta: ${resultadoMesColeta},`;
-        }
-        // dia de coleta
-        const resultadoDiaColeta = ehIgualDiaColeta(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoDiaColeta !== -1) {
-            alteracaoInformacao += `dia_coleta: ${resultadoDiaColeta},`;
-        }
-        // observação
-        const resultadoObservacao = ehIgualObservacao(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoObservacao.length > 0) {
-            alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
-        }
-        // país, sigla país, estado e cidade
-        const idCidade = await getIdCidade(conexao, informacaoTomboBD);
-        // const idCidade = await getIDCidade(conexao, informacaoTomboBD) + 15;
-        if (idCidade !== -1) {
-            // país
-            await ehIgualPais(conexao, idCidade, informacaoTomboReflora).then(pais => {
-                if (pais !== -1) {
-                    alteracaoInformacao += `pais: ${pais}, `;
-                }
-            });
-            // sigla país
-            await ehIgualPaisSigla(conexao, idCidade, informacaoTomboReflora).then(paisSigla => {
-                if (paisSigla !== -1) {
-                    alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
-                }
-            });
-            // estado
-            await ehIgualEstado(conexao, idCidade, informacaoTomboReflora).then(estado => {
-                if (estado !== -1) {
-                    alteracaoInformacao += `estado: ${estado}, `;
-                }
-            });
-            // cidade
-            await ehIgualCidade(conexao, idCidade, informacaoTomboReflora).then(cidade => {
-                if (cidade !== -1) {
-                    alteracaoInformacao += `cidade: ${cidade}, `;
-                }
-            });
-            /*
-                A locality (chave do json do Reflora) é formada pelo atributo
-                observacao da tabela tombos e da vegetação relacionada a esse tombo
-            */
-            // localidade
-            await ehIgualLocalidade(conexao, idCidade, informacaoTomboBD, informacaoTomboReflora).then(localidade => {
-                if (localidade !== -1) {
-                    alteracaoInformacao += `localidade: ${localidade}, `;
-                }
-            });
-        }
         // altitude
         const resultadoAltitude = ehIgualAltitude(informacaoTomboBD, informacaoTomboReflora);
         if (resultadoAltitude !== -1) {
@@ -191,30 +127,84 @@ export async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomb
     }
 }
 
-export async function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
+export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
     const promessa = Q.defer();
     selectTombo(conexao, nroTombo).then(tomboBd => {
         if (tomboBd.length === 0) {
             promessa.resolve();
         }
         return tomboBd;
-    }).then(tomboBd => {
-        // eslint-disable-next-line no-console
+    }).then(async tomboBd => {
         let alteracaoInformacao = '{';
         const processaInformacaoBd = tomboBd[0].dataValues;
+        // número de coleta
         const resultadoNroColeta = ehIgualNroColeta(processaInformacaoBd, informacaoReflora);
-        // eslint-disable-next-line no-console
-        console.log(`r->${resultadoNroColeta}`);
         if (resultadoNroColeta !== -1) {
             alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
         }
+        // ano de coleta
+        const resultadoAnoColeta = ehIgualAnoColeta(processaInformacaoBd, informacaoReflora);
+        if (resultadoAnoColeta !== -1) {
+            alteracaoInformacao += `ano_coleta: ${resultadoAnoColeta}, `;
+        }
+        // mês de coleta
+        const resultadoMesColeta = ehIgualMesColeta(processaInformacaoBd, informacaoReflora);
+        if (resultadoMesColeta !== -1) {
+            alteracaoInformacao += `mes_coleta: ${resultadoMesColeta},`;
+        }
+        // dia de coleta
+        const resultadoDiaColeta = ehIgualDiaColeta(processaInformacaoBd, informacaoReflora);
+        if (resultadoDiaColeta !== -1) {
+            alteracaoInformacao += `dia_coleta: ${resultadoDiaColeta},`;
+        }
+        // observação
+        const resultadoObservacao = ehIgualObservacao(processaInformacaoBd, informacaoReflora);
+        if (resultadoObservacao.length > 0) {
+            alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
+        }
+        // país, sigla país, estado e cidade
+        const idCidade = await getIdCidade(conexao, processaInformacaoBd);
+        if (idCidade !== -1) {
+            // país
+            await ehIgualPais(conexao, idCidade, informacaoReflora).then(pais => {
+                if (pais !== -1) {
+                    alteracaoInformacao += `pais: ${pais}, `;
+                }
+            });
+            // sigla país
+            await ehIgualPaisSigla(conexao, idCidade, informacaoReflora).then(paisSigla => {
+                if (paisSigla !== -1) {
+                    alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
+                }
+            });
+            // estado
+            await ehIgualEstado(conexao, idCidade, informacaoReflora).then(estado => {
+                if (estado !== -1) {
+                    alteracaoInformacao += `estado: ${estado}, `;
+                }
+            });
+            // cidade
+            await ehIgualCidade(conexao, idCidade, informacaoReflora).then(cidade => {
+                if (cidade !== -1) {
+                    alteracaoInformacao += `cidade: ${cidade}, `;
+                }
+            });
+            /*
+                A locality (chave do json do Reflora) é formada pelo atributo
+                observacao da tabela tombos e da vegetação relacionada a esse tombo
+            */
+            // localidade
+            await ehIgualLocalidade(conexao, idCidade, processaInformacaoBd, informacaoReflora).then(localidade => {
+                if (localidade !== -1) {
+                    alteracaoInformacao += `localidade: ${localidade}, `;
+                }
+            });
+        }
         // eslint-disable-next-line no-console
         console.log(`${alteracaoInformacao}`);
-        promessa.resolve();
+        promessa.resolve(alteracaoInformacao);
     });
     return promessa.promise;
-    // console.log(alteracaoInformacao);
-    // número de coleta
 }
 
 function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {

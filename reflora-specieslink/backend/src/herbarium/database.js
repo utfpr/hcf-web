@@ -195,43 +195,64 @@ export function selectTombo(conexao, nroTombo) {
     });
     return promessa.promise;
 }
-// ==================================================================
 
-export function selectPaisSigla(conexao, idCidade, callback) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
+export function selectLocalColeta(conexao, idLocalColeta) {
+    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_paises_sigla'],
-            where: { id: idCidade },
-        }).then(paises => {
-            callback(paises);
+        tabelaLocalColeta.findAll({
+            attributes: ['cidade_id', 'vegetacao_id'],
+            where: { id: idLocalColeta },
+        }).then(infoLocalColeta => {
+            promessa.resolve(infoLocalColeta);
         });
     });
+    return promessa.promise;
 }
 
-export function selectPais(conexao, idCidade, callback) {
+export function selectPais(conexao, idCidade) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaCidade.findAll({
             attributes: ['estados_paises_nome'],
             where: { id: idCidade },
-        }).then(paises => {
-            callback(paises);
+        }).then(pais => {
+            promessa.resolve(pais);
         });
     });
+    return promessa.promise;
 }
 
-export function selectEstado(conexao, idCidade, callback) {
+export function selectPaisSigla(conexao, idCidade) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaCidade.findAll({
+            attributes: ['estados_paises_sigla'],
+            where: { id: idCidade },
+        }).then(siglaPais => {
+            promessa.resolve(siglaPais);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectEstado(conexao, idCidade) {
+    const tabelaCidade = modeloCidade(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaCidade.findAll({
             attributes: ['estados_nome'],
             where: { id: idCidade },
         }).then(estado => {
-            callback(estado);
+            promessa.resolve(estado);
         });
     });
+    return promessa.promise;
 }
+
+// ==================================================================
 
 export function selectCidade(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
@@ -241,18 +262,6 @@ export function selectCidade(conexao, idCidade, callback) {
             where: { id: idCidade },
         }).then(cidade => {
             callback(cidade);
-        });
-    });
-}
-
-export function selectLocalColeta(conexao, idLocalColeta, callback) {
-    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaLocalColeta.findAll({
-            attributes: ['cidade_id', 'vegetacao_id'],
-            where: { id: idLocalColeta },
-        }).then(localColeta => {
-            callback(localColeta);
         });
     });
 }
