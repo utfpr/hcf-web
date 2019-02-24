@@ -114,7 +114,6 @@ export function contaNuloErroTabelaReflora(conexao) {
                     { contador: 0 }],
             },
         }).then(codBarra => {
-            // callback(codBarra);
             promessa.resolve(codBarra);
         });
     });
@@ -141,7 +140,6 @@ export function selectUmaInformacaoReflora(conexao) {
             },
             limit: 1,
         }).then(informacaoReflora => {
-            // callback(codBarra);
             promessa.resolve(informacaoReflora);
         });
     });
@@ -189,7 +187,6 @@ export function selectTombo(conexao, nroTombo) {
                 'observacao'],
             where: { hcf: nroTombo },
         }).then(tombo => {
-            // callback(tombo);
             promessa.resolve(tombo);
         });
     });
@@ -364,20 +361,6 @@ export function selectAutor(conexao, idAutor) {
     return promessa.promise;
 }
 
-// ==================================================================
-
-export function selectTomboJson(conexao, idTombo, callback) {
-    const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaAlteracao.findAll({
-            attributes: ['tombo_json'],
-            where: { tombo_hcf: idTombo },
-        }).then(tomboJson => {
-            callback(tomboJson);
-        });
-    });
-}
-
 export function selectIdentificador(conexao, idIdentificador) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
@@ -392,6 +375,30 @@ export function selectIdentificador(conexao, idIdentificador) {
     return promessa.promise;
 }
 
+export function selectInformacaoTomboJson(conexao, idTombo) {
+    const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaAlteracao.findAll({
+            attributes: ['tombo_json'],
+            where: { tombo_hcf: idTombo },
+        }).then(listaTombo => {
+            promessa.resolve(listaTombo);
+        });
+    });
+    return promessa.promise;
+}
+
+
+export function insereAlteracaoSugerida(conexao, idTombo, identificador, tomboJson) {
+    const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaAlteracao.create({
+        tombo_hcf: idTombo,
+        tombo_json: tomboJson,
+    });
+    return promessa.promise;
+}
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;
  * Além disso, o Sequelize funciona com modelos, cada tabela é um modelo.

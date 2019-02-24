@@ -18,6 +18,7 @@ import {
     ehIgualLatitude,
     ehIgualLongitude,
     ehIgualDataIdentificacao,
+    processaDataIdentificacaoReflora,
     ehIgualTipo,
     ehIgualNomeCientifico,
     ehIgualFamilia,
@@ -26,12 +27,19 @@ import {
     ehIgualVariedade,
     getIdAutor,
     ehIgualAutorNomeCientifico,
-    processaDataIdentificacaoReflora,
+    existeAlteracaoSugerida,
+    getIdentificadorReflora,
 } from './datatombos';
 import { processaRespostaReflora, temResultadoRespostaReflora } from './reflora/reflora';
-import { selectUmaInformacaoReflora, selectNroTomboNumBarra, selectTombo } from './database';
+import {
+    selectUmaInformacaoReflora,
+    selectNroTomboNumBarra,
+    selectTombo,
+    atualizaJaComparouTabelaReflora,
+    // insereAlteracaoSugerida,
+} from './database';
 
-export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
+export function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora) {
     const promessa = Q.defer();
     selectTombo(conexao, nroTombo).then(tomboBd => {
         if (tomboBd.length === 0) {
@@ -103,76 +111,82 @@ export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
                     alteracaoInformacao += `localidade: ${localidade}, `;
                 }
             });
-            // altitude
-            const resultadoAltitude = ehIgualAltitude(processaInformacaoBd, informacaoReflora);
-            if (resultadoAltitude !== -1) {
-                alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
-            }
-            // latitude
-            const resultadoLatitude = ehIgualLatitude(processaInformacaoBd, informacaoReflora);
-            if (resultadoLatitude !== -1) {
-                alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
-            }
-            // longitude
-            const resultadoLongitude = ehIgualLongitude(processaInformacaoBd, informacaoReflora);
-            if (resultadoLongitude !== -1) {
-                alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
-            }
-            // data identificação
-            const resultadoDataIdentificacao = ehIgualDataIdentificacao(processaInformacaoBd, informacaoReflora);
-            if (resultadoDataIdentificacao !== -1) {
-                const processaResultadoDataIdentificacao = processaDataIdentificacaoReflora(resultadoDataIdentificacao);
-                if (processaResultadoDataIdentificacao.length > 0) {
-                    alteracaoInformacao += processaResultadoDataIdentificacao;
-                }
-            }
-            // tipo
-            await ehIgualTipo(conexao, processaInformacaoBd, informacaoReflora).then(tipo => {
-                if (tipo !== -1) {
-                    alteracaoInformacao += `tipo: ${tipo}, `;
-                }
-            });
-            // nome científico
-            const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd, informacaoReflora);
-            if (resultadoNomeCientifico.length > 0) {
-                alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
-            }
-            // família
-            await ehIgualFamilia(conexao, processaInformacaoBd, informacaoReflora).then(familia => {
-                if (familia !== -1) {
-                    alteracaoInformacao += `familia: ${familia}, `;
-                }
-            });
-            // gênero
-            await ehIgualGenero(conexao, processaInformacaoBd, informacaoReflora).then(genero => {
-                if (genero !== -1) {
-                    alteracaoInformacao += `genero: ${genero}, `;
-                }
-            });
-            // espécie
-            await ehIgualEspecie(conexao, processaInformacaoBd, informacaoReflora).then(especie => {
-                if (especie !== -1) {
-                    alteracaoInformacao += `especie: ${especie}, `;
-                }
-            });
-            // variedade
-            await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora).then(variedade => {
-                if (variedade !== -1) {
-                    alteracaoInformacao += `especie: ${variedade}, `;
-                }
-            });
-            const idAutor = await getIdAutor(conexao, informacaoReflora);
-            if (idAutor !== -1) {
-                // autor nome científico
-                await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoReflora).then(nomeAutorCientifico => {
-                    if (nomeAutorCientifico !== -1) {
-                        alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
-                    }
-                });
+        }
+        // altitude
+        const resultadoAltitude = ehIgualAltitude(processaInformacaoBd, informacaoReflora);
+        if (resultadoAltitude !== -1) {
+            alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
+        }
+        // latitude
+        const resultadoLatitude = ehIgualLatitude(processaInformacaoBd, informacaoReflora);
+        if (resultadoLatitude !== -1) {
+            alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
+        }
+        // longitude
+        const resultadoLongitude = ehIgualLongitude(processaInformacaoBd, informacaoReflora);
+        if (resultadoLongitude !== -1) {
+            alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
+        }
+        // data identificação
+        const resultadoDataIdentificacao = ehIgualDataIdentificacao(processaInformacaoBd, informacaoReflora);
+        if (resultadoDataIdentificacao !== -1) {
+            const processaResultadoDataIdentificacao = processaDataIdentificacaoReflora(resultadoDataIdentificacao);
+            // console.log(processaResultadoDataIdentificacao);
+            if (processaResultadoDataIdentificacao.length > 0) {
+                alteracaoInformacao += processaResultadoDataIdentificacao;
             }
         }
+        // tipo
+        await ehIgualTipo(conexao, processaInformacaoBd, informacaoReflora).then(tipo => {
+            if (tipo !== -1) {
+                alteracaoInformacao += `tipo: ${tipo}, `;
+            }
+        });
+        // nome científico
+        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd, informacaoReflora);
+        if (resultadoNomeCientifico.length > 0) {
+            alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
+        }
+        // família
+        await ehIgualFamilia(conexao, processaInformacaoBd, informacaoReflora).then(familia => {
+            if (familia !== -1) {
+                alteracaoInformacao += `familia: ${familia}, `;
+            }
+        });
+        // gênero
+        await ehIgualGenero(conexao, processaInformacaoBd, informacaoReflora).then(genero => {
+            if (genero !== -1) {
+                alteracaoInformacao += `genero: ${genero}, `;
+            }
+        });
+        // espécie
+        await ehIgualEspecie(conexao, processaInformacaoBd, informacaoReflora).then(especie => {
+            if (especie !== -1) {
+                alteracaoInformacao += `especie: ${especie}, `;
+            }
+        });
+        // variedade
+        await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora).then(variedade => {
+            if (variedade !== -1) {
+                alteracaoInformacao += `especie: ${variedade}, `;
+            }
+        });
+        const idAutor = await getIdAutor(conexao, informacaoReflora);
+        if (idAutor !== -1) {
+            // autor nome científico
+            await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoReflora).then(nomeAutorCientifico => {
+                if (nomeAutorCientifico !== -1) {
+                    alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
+                }
+            });
+        }
         // eslint-disable-next-line no-console
-        console.log(`${alteracaoInformacao}`);
+        console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+        alteracaoInformacao = alteracaoInformacao.substring(1, alteracaoInformacao.lastIndexOf(','));
+        alteracaoInformacao += '}';
+        // eslint-disable-next-line no-console
+        console.log(`->>>>>>>>>>>>>>>>>>>>>>>>>>>>>${alteracaoInformacao}`);
+        atualizaJaComparouTabelaReflora(conexao, codBarra);
         promessa.resolve(alteracaoInformacao);
     });
     return promessa.promise;
@@ -187,12 +201,29 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
             if (nroTombo.length === 0) {
                 promessa.resolve();
+                return promessa.promise;
             }
             return nroTombo;
         }).then(nroTombo => {
             const getNroTombo = nroTombo[0].dataValues.tombo_hcf;
-            geraJsonAlteracao(conexao, getNroTombo, informacaoReflora);
-            promessa.resolve();
+            geraJsonAlteracao(conexao, getNroTombo, codBarra, informacaoReflora).then(alteracao => {
+                if (alteracao.length === 2) {
+                    promessa.resolve();
+                    return promessa.promise;
+                }
+                existeAlteracaoSugerida(conexao, nroTombo, alteracao).then(existe => {
+                    if (!existe) {
+                        const identificadorReflora = getIdentificadorReflora(informacaoReflora);
+                        // eslint-disable-next-line no-console
+                        console.log(`${nroTombo}->existe->${identificadorReflora}`);
+                        // insereAlteracaoSugerida(conexao, nroTombo, identificadorReflora, alteracao);
+                    }
+                    promessa.resolve();
+                    return promessa.promise;
+                });
+                return promessa.promise;
+            });
+            return promessa.promise;
         });
     }
     return promessa.promise;
@@ -201,7 +232,7 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
 export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
     const throttle = throttledQueue(1, 4000);
     // const promessa = Q.defer();
-    for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra + 1; i += 1) {
+    for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra; i += 1) {
         p = p.then(_ => new Promise(resolve => {
             throttle(() => {
                 selectUmaInformacaoReflora(conexao).then(informacaoReflora => {
@@ -213,8 +244,6 @@ export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
                     const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
                     const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
                     fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora);
-                    // eslint-disable-next-line no-console
-                    // console.log(getInformacaoReflora);
                     resolve();
                 });
             });

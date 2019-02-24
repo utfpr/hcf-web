@@ -8,7 +8,7 @@ import {
     selectLocalColeta,
     selectPaisSigla,
     selectVegetacao,
-    selectTomboJson,
+    selectInformacaoTomboJson,
     selectFamilia,
     selectGenero,
     selectEspecie,
@@ -16,7 +16,6 @@ import {
     selectVariedade,
     selectTipo,
 } from './database';
-import { escreveLOG } from './log';
 
 function valorEhIndefinido(valor) {
     if (valor === undefined) {
@@ -153,8 +152,6 @@ export function getIdCidade(conexao, informacaoBd) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoLocalColetaBd;
-    }).then(resultadoLocalColetaBd => {
         const idCidade = parseInt(resultadoLocalColetaBd[0].dataValues.cidade_id);
         if (valorEhNulo(idCidade) || !ehNumero(idCidade)) {
             promessa.resolve(-1);
@@ -173,8 +170,6 @@ export function ehIgualPais(conexao, idCidade, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoPaisBd;
-    }).then(resultadoPaisBd => {
         const nomePaisBd = resultadoPaisBd[0].dataValues.estados_paises_nome;
         const nomePaisReflora = informacaoReflora.country;
         if (valorEhIndefinido(nomePaisBd) || valorEhIndefinido(nomePaisReflora)) {
@@ -208,8 +203,6 @@ export function ehIgualPaisSigla(conexao, idCidade, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoPaisSiglaBd;
-    }).then(resultadoPaisSiglaBd => {
         const nomePaisSiglaBd = resultadoPaisSiglaBd[0].dataValues.estados_paises_sigla;
         const nomePaisSiglaReflora = informacaoReflora.countrycode;
         if (valorEhIndefinido(nomePaisSiglaBd) || valorEhIndefinido(nomePaisSiglaReflora)) {
@@ -243,8 +236,6 @@ export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoEstadoBd;
-    }).then(resultadoEstadoBd => {
         const nomeEstadoBd = resultadoEstadoBd[0].dataValues.estados_nome;
         const nomeEstadoReflora = informacaoReflora.stateprovince;
         if (valorEhIndefinido(nomeEstadoBd) || valorEhIndefinido(nomeEstadoReflora)) {
@@ -278,8 +269,6 @@ export function ehIgualCidade(conexao, idCidade, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoCidadeBd;
-    }).then(resultadoCidadeBd => {
         const nomeCidadeBd = resultadoCidadeBd[0].dataValues.nome;
         const nomeCidadeReflora = informacaoReflora.municipality;
         if (valorEhIndefinido(nomeCidadeBd) || valorEhIndefinido(nomeCidadeReflora)) {
@@ -313,8 +302,6 @@ export function ehIgualLocalidade(conexao, idLocalColeta, informacaoBd, informac
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoLocalColetaBd;
-    }).then(resultadoLocalColetaBd => {
         const idVegetacaoBd = resultadoLocalColetaBd[0].dataValues.vegetacao_id;
         if (valorEhNulo(idVegetacaoBd)) {
             promessa.resolve(-1);
@@ -432,6 +419,16 @@ export function ehIgualDataIdentificacao(informacaoBd, informacaoReflora) {
         Porque se for nulo ou indefinido ou se não for número, não iremos adicionar na nossa String com a data de identificação
         Além disso, se colocar uma para cada aumentaria o tamanho do LOG
     */
+    /*
+    console.log(`a${dataIdentificacaoDiaBd}`);
+    console.log(`b${dataIdentificacaoMesBd}`);
+    console.log(`c${dataIdentificacaoAnoBd}`);
+    console.log(`d${dataIdentificacaoReflora}`);
+    console.log(dataIdentificacaoReflora === undefined);
+    */
+    if (valorEhNulo(dataIdentificacaoReflora) || valorEhIndefinido(dataIdentificacaoReflora)) {
+        return -1;
+    }
     if (!valorEhNulo(dataIdentificacaoDiaBd) || !valorEhIndefinido(dataIdentificacaoDiaBd) || ehNumero(parseInt(dataIdentificacaoDiaBd))) {
         dataIdentificacao += `${dataIdentificacaoDiaBd}/`;
     }
@@ -473,8 +470,6 @@ export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoTipoBd;
-    }).then(resultadoTipoBd => {
         const nomeTipoBd = resultadoTipoBd[0].dataValues.nome;
         const nomeTipoReflora = informacaoReflora.typestatus;
         // const nomeTipoReflora = 'Isótipo';
@@ -532,8 +527,6 @@ export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoFamiliaBd;
-    }).then(resultadoFamiliaBd => {
         const nomeFamiliaBd = resultadoFamiliaBd[0].dataValues.nome;
         const nomeFamiliaReflora = informacaoReflora.family;
         if (valorEhIndefinido(nomeFamiliaBd) || valorEhIndefinido(nomeFamiliaReflora)) {
@@ -569,8 +562,6 @@ export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoGeneroBd;
-    }).then(resultadoGeneroBd => {
         const nomeGeneroBd = resultadoGeneroBd[0].dataValues.nome;
         const nomeGeneroReflora = informacaoReflora.genus;
         if (valorEhIndefinido(nomeGeneroBd) || valorEhIndefinido(nomeGeneroReflora)) {
@@ -606,8 +597,6 @@ export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoEspecieBd;
-    }).then(resultadoEspecieBd => {
         const nomeEspecieBd = resultadoEspecieBd[0].dataValues.nome;
         const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
         if (valorEhIndefinido(nomeEspecieBd) || valorEhIndefinido(nomeEspecieReflora)) {
@@ -643,8 +632,6 @@ export function ehIgualVariedade(conexao, informacaoBd, informacaoReflora) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoVariedadeBd;
-    }).then(resultadoVariedadeBd => {
         const nomeVariedadeBd = resultadoVariedadeBd[0].dataValues.nome;
         const nomeVariedadeReflora = informacaoReflora.infraespecificepithet;
         if (valorEhIndefinido(nomeVariedadeBd) || valorEhIndefinido(nomeVariedadeReflora)) {
@@ -679,8 +666,6 @@ export function getIdAutor(conexao, informacaoBd) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoIdAutorBd;
-    }).then(resultadoIdAutorBd => {
         const idAutor = parseInt(resultadoIdAutorBd[0].dataValues.autor_id);
         if (valorEhNulo(idAutor) || !ehNumero(idAutor)) {
             promessa.resolve(-1);
@@ -699,8 +684,6 @@ export function ehIgualAutorNomeCientifico(conexao, idAutorNomeCientifico, infor
             promessa.resolve(-1);
             return promessa.promise;
         }
-        return resultadoAutorNomeCientificoBd;
-    }).then(resultadoAutorNomeCientificoBd => {
         const autorNomeCientificoBd = resultadoAutorNomeCientificoBd[0].dataValues.nome;
         const autorNomeCientificoReflora = informacaoReflora.scientificnameauthorship;
         if (valorEhIndefinido(autorNomeCientificoBd) || valorEhIndefinido(autorNomeCientificoReflora)) {
@@ -727,46 +710,46 @@ export function ehIgualAutorNomeCientifico(conexao, idAutorNomeCientifico, infor
     return promessa.promise;
 }
 
-// =======================================================
-
 function ehIgualJson(jsonBd, jsonGerado) {
-    // const processaJsonBd = JSON.parse(jsonBd);
-    // const processaJsonGerado = JSON.parse(jsonGerado);
     if (jsonBd === jsonGerado) {
         return true;
     }
     return false;
 }
 
-export function verificaAlteracaoSugerida(conexao, nomeArquivo, nroTombo, jsonGerado) {
+export function existeAlteracaoSugerida(conexao, nroTombo, jsonGerado) {
     const promessa = Q.defer();
-    selectTomboJson(conexao, nroTombo, listaTomboJson => {
+    selectInformacaoTomboJson(conexao, nroTombo).then(listaTomboJson => {
         if (listaTomboJson.length === 0) {
-            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo não tem alterações`);
-            promessa.resolve(-1);
+            promessa.resolve(true);
             return promessa.promise;
         }
-        if (valorEhNulo(listaTomboJson)) {
-            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo tem alterações nula`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if (valorEhIndefinido(listaTomboJson)) {
-            escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo tem alterações indefinida`);
-            promessa.resolve(-1);
+        if (valorEhNulo(listaTomboJson) || valorEhIndefinido(listaTomboJson)) {
+            promessa.resolve(true);
             return promessa.promise;
         }
         for (let i = 0; i < listaTomboJson.length; i += 1) {
             const tomboJson = listaTomboJson[i].dataValues.tombo_json;
             if (ehIgualJson(jsonGerado, tomboJson)) {
-                escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo já existe uma alteração`);
-                promessa.resolve(0);
+                promessa.resolve(true);
                 return promessa.promise;
             }
         }
-        escreveLOG(nomeArquivo, `{BD: ${nroTombo}} o número de tombo não existe uma alteração`);
-        promessa.resolve(1);
+        promessa.resolve(false);
         return promessa.promise;
     });
     return promessa.promise;
 }
+
+export function getIdentificadorReflora(informacaoReflora) {
+    const identificadorReflora = informacaoReflora.identifiedby;
+    if (valorEhIndefinido(identificadorReflora) || valorEhNulo(identificadorReflora)) {
+        return -1;
+    }
+    if (identificadorReflora.length === 0) {
+        return -1;
+    }
+    return identificadorReflora;
+}
+
+// =======================================================

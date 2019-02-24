@@ -5,7 +5,6 @@ import {
     insereTabelaReflora,
 } from '../database';
 // import { processaMaiorCodBarra } from '../tombos';
-/*  import reflora from './reflora'; */
 import { criaListaCodBarra } from './codbarra';
 import { fazRequisicaoReflora } from './reflora';
 import { fazComparacaoTombo } from '../tombos';
@@ -20,10 +19,8 @@ function main() {
     selectMaiorNumBarra(conexao).then(maxCodBarra => {
         /* Faz o pré-processamento do código de barra */
         // const intMaiorCodBarra = processaMaiorCodBarra(maxCodBarra);
-        const intMaiorCodBarra = 3;
+        const intMaiorCodBarra = 1;
         const listaCodBarra = criaListaCodBarra(intMaiorCodBarra).sort();
-        return listaCodBarra;
-    }).then(listaCodBarra => {
         insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
