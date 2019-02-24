@@ -252,31 +252,35 @@ export function selectEstado(conexao, idCidade) {
     return promessa.promise;
 }
 
-// ==================================================================
-
-export function selectCidade(conexao, idCidade, callback) {
+export function selectCidade(conexao, idCidade) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaCidade.findAll({
             attributes: ['nome'],
             where: { id: idCidade },
         }).then(cidade => {
-            callback(cidade);
+            promessa.resolve(cidade);
         });
     });
+    return promessa.promise;
 }
 
-export function selectVegetacao(conexao, idVegetacao, callback) {
+export function selectVegetacao(conexao, idVegetacao) {
     const tabelaVegetacao = modeloVegetacao(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaVegetacao.findAll({
             attributes: ['nome'],
             where: { id: idVegetacao },
         }).then(vegetacao => {
-            callback(vegetacao);
+            promessa.resolve(vegetacao);
         });
     });
+    return promessa.promise;
 }
+
+// ==================================================================
 
 export function selectTomboJson(conexao, idTombo, callback) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);

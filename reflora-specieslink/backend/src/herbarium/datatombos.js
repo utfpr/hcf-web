@@ -7,7 +7,7 @@ import {
     selectCidade,
     selectLocalColeta,
     selectPaisSigla,
-    //    selectVegetacao,
+    selectVegetacao,
     selectTomboJson,
     selectFamilia,
     selectGenero,
@@ -271,295 +271,200 @@ export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
-// =======================================================
-
-export function ehIgualCidade(nomeArquivo, conexao, idCidade, informacaoReflora) {
+export function ehIgualCidade(conexao, idCidade, informacaoReflora) {
     const promessa = Q.defer();
-    selectCidade(conexao, idCidade, resultadoCidadeTombo => {
-        if (resultadoCidadeTombo.length > 0) {
-            const nomeCidadeBD = resultadoCidadeTombo[0].dataValues.nome;
-            const nomeCidadeReflora = informacaoReflora.municipality;
-            if (valorEhIndefinido(nomeCidadeBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}} o estado é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeCidadeReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeReflora}} o estado é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeCidadeBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}} o estado é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeCidadeReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeReflora}} o estado é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeCidadeBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}} as informações de estado é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeCidadeReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeReflora}} as informações de estado é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeCidadeBD = processaString(nomeCidadeBD);
-            const processaNomeCidadeReflora = processaString(nomeCidadeReflora);
-            if (processaNomeCidadeBD === processaNomeCidadeReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}, Reflora: ${nomeCidadeReflora}} os estados são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeCidadeBD}, Reflora: ${nomeCidadeReflora}} os estados são diferentes`);
-            promessa.resolve(nomeCidadeReflora);
+    selectCidade(conexao, idCidade).then(resultadoCidadeBd => {
+        if (resultadoCidadeBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de cidade');
-        promessa.resolve(-1);
+        return resultadoCidadeBd;
+    }).then(resultadoCidadeBd => {
+        const nomeCidadeBd = resultadoCidadeBd[0].dataValues.nome;
+        const nomeCidadeReflora = informacaoReflora.municipality;
+        if (valorEhIndefinido(nomeCidadeBd) || valorEhIndefinido(nomeCidadeReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeCidadeBd) || valorEhNulo(nomeCidadeReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeCidadeBd.length === 0) || (nomeCidadeReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeCidadeBD = processaString(nomeCidadeBd);
+        const processaNomeCidadeReflora = processaString(nomeCidadeReflora);
+        if (processaNomeCidadeBD === processaNomeCidadeReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeCidadeReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualLocalidade(nomeArquivo, conexao, idLocalColeta, informacaoTomboBD, informacaoReflora) {
+export function ehIgualLocalidade(conexao, idLocalColeta, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    /* selectLocalColeta(conexao, idLocalColeta, resultadoLocalColetaTombo => {
-        if (resultadoLocalColetaTombo.length === 0) {
-            escreveLOG(nomeArquivo, 'Não foram retornados informações de local de coleta');
+    selectLocalColeta(conexao, idLocalColeta).then(resultadoLocalColetaBd => {
+        if (resultadoLocalColetaBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        const idVegetacaoBD = resultadoLocalColetaTombo[0].dataValues.vegetacao_id;
-        if (valorEhNulo(idVegetacaoBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${idVegetacaoBD}} o valor de vegetação é nulo`);
+        return resultadoLocalColetaBd;
+    }).then(resultadoLocalColetaBd => {
+        const idVegetacaoBd = resultadoLocalColetaBd[0].dataValues.vegetacao_id;
+        if (valorEhNulo(idVegetacaoBd)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        const intVegetacaoBD = parseInt(idVegetacaoBD);
-        if (!ehNumero(intVegetacaoBD)) {
-            escreveLOG(nomeArquivo, `{BD: ${intVegetacaoBD}} o valor de vegetação não é número`);
+        const intVegetacaoBd = parseInt(idVegetacaoBd);
+        if (!ehNumero(intVegetacaoBd)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        // const intVegetacaoBD = 1;
-        selectVegetacao(conexao, intVegetacaoBD, resultadoVegetacaoTombo => {
-            const vegetacaoBD = resultadoVegetacaoTombo[0].dataValues.nome;
+        selectVegetacao(conexao, intVegetacaoBd).then(resultadoVegetacaoTombo => {
+            const vegetacaoBd = resultadoVegetacaoTombo[0].dataValues.nome;
             // const vegetacaoBD = 'Floresta ombrófila densa submontana.';
-            const observacaoTomboBD = informacaoTomboBD.observacao;
+            const observacaoBd = informacaoBd.observacao;
             // const observacaoTomboBD = 'Em barranco próximo ao rio. Estágio avançado. Rara no interior de fragmento.';
             const localidadeReflora = informacaoReflora.locality;
-            if (valorEhNulo(vegetacaoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} a vegetação é nula`);
+            if (valorEhNulo(vegetacaoBd) || valorEhNulo(observacaoBd) || valorEhNulo(localidadeReflora)) {
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (valorEhNulo(observacaoTomboBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} a observação é nula`);
+            if ((vegetacaoBd.length === 0) || (observacaoBd.length === 0) || (localidadeReflora.length === 0)) {
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            if (valorEhNulo(localidadeReflora)) {
-                escreveLOG(nomeArquivo, `{BD: ${localidadeReflora}} a localidade é nula`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (vegetacaoBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} não existe nome de vegetação`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (observacaoTomboBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}} não existe observação`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (localidadeReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${vegetacaoBD}} não existe localidade`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaObservacaoBD = processaString(observacaoTomboBD);
-            const processaVegetacaoBD = processaString(vegetacaoBD);
+            const processaObservacaoBD = processaString(observacaoBd);
+            const processaVegetacaoBD = processaString(vegetacaoBd);
             const processaLocalidadeReflora = processaString(localidadeReflora);
             if (processaLocalidadeReflora.includes(processaObservacaoBD) && processaLocalidadeReflora.includes(processaVegetacaoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, ${vegetacaoBD}, Reflora: ${localidadeReflora}} são iguais`);
                 promessa.resolve(-1);
                 return promessa.promise;
             }
-            escreveLOG(nomeArquivo, `{BD: ${observacaoTomboBD}, ${vegetacaoBD}, Reflora: ${localidadeReflora}} são diferentes`);
             promessa.resolve(localidadeReflora);
             return promessa.promise;
         });
         return promessa.promise;
-    }); */
+    });
     return promessa.promise;
 }
 
-export function ehIgualAltitude(nomeArquivo, informacaoBD, informacaoReflora) {
+export function ehIgualAltitude(informacaoBd, informacaoReflora) {
     /*
         No BD não tem altitude mínima e nem máxima, então é igual para os mesmos valores
         Além disso, algumas altitude vem com m de metros então para comparar é necessário tirar.
         Isso, porque no reflora não contém esse m
     */
-    const altitudeBD = informacaoBD.altitude;
+    const altitudeBd = informacaoBd.altitude;
     const minAltitudeReflora = informacaoReflora.minimumelevationinmeters;
     const maxAltitudeReflora = informacaoReflora.maximumelevationinmeters;
-    if (valorEhIndefinido(altitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${altitudeBD}} a altitude é indefinido`);
+    if (valorEhIndefinido(altitudeBd) || valorEhIndefinido(minAltitudeReflora) || valorEhIndefinido(maxAltitudeReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(minAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${minAltitudeReflora}} a mínima altitude é indefinido`);
+    if (valorEhNulo(altitudeBd) || valorEhNulo(minAltitudeReflora) || valorEhNulo(maxAltitudeReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(maxAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${maxAltitudeReflora}} a máxima altitude é indefinido`);
-        return -1;
-    }
-    if (valorEhNulo(altitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${altitudeBD}} a altitude é nula`);
-        return -1;
-    }
-    if (valorEhNulo(minAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${minAltitudeReflora}} a mínima altitude é nula`);
-        return -1;
-    }
-    if (valorEhNulo(maxAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${maxAltitudeReflora}} a máxima altitude é nula`);
-        return -1;
-    }
-    const intAltitudeBD = parseInt(altitudeBD.toString().replace('m', ''));
+    const intAltitudeBd = parseInt(altitudeBd.toString().replace('m', ''));
     const intMinAltitudeReflora = parseInt(minAltitudeReflora);
     const intMaxAltitudeReflora = parseInt(maxAltitudeReflora);
-    if (!ehNumero(intAltitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${intAltitudeBD}} a altitude não é número`);
+    if (!ehNumero(intAltitudeBd) || !ehNumero(intMinAltitudeReflora) || !ehNumero(intMaxAltitudeReflora)) {
         return -1;
     }
-    if (!ehNumero(intMinAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${intMinAltitudeReflora}} a mínima altitude não é número`);
+    if (intAltitudeBd === intMinAltitudeReflora && intAltitudeBd === intMaxAltitudeReflora) {
         return -1;
     }
-    if (!ehNumero(intMaxAltitudeReflora)) {
-        escreveLOG(nomeArquivo, `{BD: ${intMaxAltitudeReflora}} a máxima altitude não é número`);
-        return -1;
-    }
-    if (intAltitudeBD === intMinAltitudeReflora && intAltitudeBD === intMaxAltitudeReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} altitudes são iguais`);
-        return -1;
-    }
-    escreveLOG(nomeArquivo, `{BD: ${intAltitudeBD}, Reflora: ${intMinAltitudeReflora}, ${intMaxAltitudeReflora}} altitudes são diferentes`);
     return intMaxAltitudeReflora;
 }
 
-export function ehIgualLatitude(nomeArquivo, informacaoBD, informacaoReflora) {
-    const latitudeBD = informacaoBD.latitude;
+export function ehIgualLatitude(informacaoBd, informacaoReflora) {
+    const latitudeBd = informacaoBd.latitude;
     const latitudeReflora = informacaoReflora.decimallatitude;
-    if (valorEhIndefinido(latitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${latitudeBD}} a latitude é indefinido`);
+    if (valorEhIndefinido(latitudeBd) || valorEhIndefinido(latitudeReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(latitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${latitudeReflora}} a latitude é indefinido`);
+    if (valorEhNulo(latitudeBd) || valorEhNulo(latitudeReflora)) {
         return -1;
     }
-    if (valorEhNulo(latitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${latitudeBD}} a latitude é nula`);
-        return -1;
-    }
-    if (valorEhNulo(latitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${latitudeReflora}} a latitude é nula`);
-        return -1;
-    }
-    const floatLatitudeBD = parseFloat(latitudeBD);
+    const floatLatitudeBd = parseFloat(latitudeBd);
     const floatLatitudeReflora = parseFloat(latitudeReflora);
-    if (!ehNumero(floatLatitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${floatLatitudeBD}} a latitude não é número`);
+    if (!ehNumero(floatLatitudeBd) || !ehNumero(latitudeReflora)) {
         return -1;
     }
-    if (!ehNumero(latitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${latitudeReflora}} a latitude não é número`);
+    if (floatLatitudeBd === floatLatitudeReflora) {
         return -1;
     }
-    if (floatLatitudeBD === floatLatitudeReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${floatLatitudeBD}, Reflora: ${floatLatitudeReflora}} latitudes são iguais`);
-        return -1;
-    }
-    escreveLOG(nomeArquivo, `{BD: ${floatLatitudeBD}, Reflora: ${floatLatitudeReflora}} latitudes são diferentes`);
     return floatLatitudeReflora;
 }
 
-export function ehIgualLongitude(nomeArquivo, informacaoBD, informacaoReflora) {
-    const longitudeBD = informacaoBD.longitude;
+export function ehIgualLongitude(informacaoBd, informacaoReflora) {
+    const longitudeBd = informacaoBd.longitude;
     const longitudeReflora = informacaoReflora.decimallongitude;
-    if (valorEhIndefinido(longitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${longitudeBD}} a longitude é indefinido`);
+    if (valorEhIndefinido(longitudeBd) || valorEhIndefinido(longitudeReflora)) {
         return -1;
     }
-    if (valorEhIndefinido(longitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${longitudeReflora}} a longitude é indefinido`);
+    if (valorEhNulo(longitudeBd) || valorEhNulo(longitudeReflora)) {
         return -1;
     }
-    if (valorEhNulo(longitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${longitudeBD}} a longitude é nula`);
-        return -1;
-    }
-    if (valorEhNulo(longitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${longitudeReflora}} a longitude é nula`);
-        return -1;
-    }
-    const floatLongitudeBD = parseFloat(longitudeBD);
+    const floatLongitudeBD = parseFloat(longitudeBd);
     const floatLongitudeReflora = parseFloat(longitudeReflora);
-    if (!ehNumero(floatLongitudeBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${floatLongitudeBD}} a longitude não é número`);
-        return -1;
-    }
-    if (!ehNumero(floatLongitudeReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${floatLongitudeReflora}} a longitude não é número`);
+    if (!ehNumero(floatLongitudeBD) || !ehNumero(floatLongitudeReflora)) {
         return -1;
     }
     if (floatLongitudeBD === floatLongitudeReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${floatLongitudeBD}, Reflora: ${floatLongitudeReflora}} longitudes são iguais`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${floatLongitudeBD}, Reflora: ${floatLongitudeReflora}} longitudes são diferentes`);
     return floatLongitudeReflora;
 }
 
-export function ehIgualDataIdentificacao(nomeArquivo, informacaoBD, informacaoReflora) {
+export function ehIgualDataIdentificacao(informacaoBd, informacaoReflora) {
     let dataIdentificacao = '';
-    const dataIdentificacaoDiaBD = informacaoBD.data_identificacao_dia;
-    const dataIdentificacaoMesBD = informacaoBD.data_identificacao_mes;
-    const dataIdentificacaoAnoBD = informacaoBD.data_identificacao_ano;
+    const dataIdentificacaoDiaBd = informacaoBd.data_identificacao_dia;
+    const dataIdentificacaoMesBd = informacaoBd.data_identificacao_mes;
+    const dataIdentificacaoAnoBd = informacaoBd.data_identificacao_ano;
     const dataIdentificacaoReflora = informacaoReflora.dateidentified;
     /*
         Nessa função não é necessário fazer if individuais, ou seja, verificar um if se é nulo, indefinido ou número
         Porque se for nulo ou indefinido ou se não for número, não iremos adicionar na nossa String com a data de identificação
         Além disso, se colocar uma para cada aumentaria o tamanho do LOG
     */
-    if (!valorEhNulo(dataIdentificacaoDiaBD) || !valorEhIndefinido(dataIdentificacaoDiaBD) || ehNumero(parseInt(dataIdentificacaoDiaBD))) {
-        dataIdentificacao += `${dataIdentificacaoDiaBD}/`;
+    if (!valorEhNulo(dataIdentificacaoDiaBd) || !valorEhIndefinido(dataIdentificacaoDiaBd) || ehNumero(parseInt(dataIdentificacaoDiaBd))) {
+        dataIdentificacao += `${dataIdentificacaoDiaBd}/`;
     }
-    if (!valorEhNulo(dataIdentificacaoMesBD) || !valorEhIndefinido(dataIdentificacaoMesBD) || ehNumero(parseInt(dataIdentificacaoMesBD))) {
-        dataIdentificacao += `${dataIdentificacaoMesBD}/`;
+    if (!valorEhNulo(dataIdentificacaoMesBd) || !valorEhIndefinido(dataIdentificacaoMesBd) || ehNumero(parseInt(dataIdentificacaoMesBd))) {
+        dataIdentificacao += `${dataIdentificacaoMesBd}/`;
     }
-    if (!valorEhNulo(dataIdentificacaoAnoBD) || !valorEhIndefinido(dataIdentificacaoAnoBD) || ehNumero(parseInt(dataIdentificacaoAnoBD))) {
-        dataIdentificacao += `${dataIdentificacaoAnoBD}`;
+    if (!valorEhNulo(dataIdentificacaoAnoBd) || !valorEhIndefinido(dataIdentificacaoAnoBd) || ehNumero(parseInt(dataIdentificacaoAnoBd))) {
+        dataIdentificacao += `${dataIdentificacaoAnoBd}`;
     }
     if (dataIdentificacao === dataIdentificacaoReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora}} datas de identificação são iguais`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${dataIdentificacao}, Reflora: ${dataIdentificacaoReflora}} datas de identificação são diferentes`);
     // return '2014';
     // return '11/2014';
     return dataIdentificacaoReflora;
 }
+
+export function processaDataIdentificacaoReflora(dataIdentificacao) {
+    let alteracaoInformacao = '';
+    if ((dataIdentificacao.indexOf('/') === -1) && (dataIdentificacao.lastIndexOf('/') === -1)) {
+        alteracaoInformacao += `data_identificacao_ano: ${dataIdentificacao}, `;
+    } else if (dataIdentificacao.indexOf('/') === dataIdentificacao.lastIndexOf('/')) {
+        alteracaoInformacao += `data_identificacao_mes: ${dataIdentificacao.substring(0, dataIdentificacao.indexOf('/'))}, `;
+        alteracaoInformacao += `data_identificacao_ano: ${dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.length)}, `;
+    } else if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
+        alteracaoInformacao += `data_identificacao_dia: ${dataIdentificacao.substring(0, dataIdentificacao.indexOf('/'))}, `;
+        alteracaoInformacao += `data_identificacao_mes: ${dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/'))}, `;
+        alteracaoInformacao += `data_identificacao_ano: ${dataIdentificacao.substring(dataIdentificacao.lastIndexOf('/') + 1, dataIdentificacao.length)}, `;
+    }
+    return alteracaoInformacao;
+}
+
+// =======================================================
 
 export function ehIgualTipo(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
     const promessa = Q.defer();

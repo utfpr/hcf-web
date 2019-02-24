@@ -26,106 +26,10 @@ import {
     ehIgualVariedade,
     getIdAutor,
     ehIgualAutorNomeCientifico,
-    verificaAlteracaoSugerida,
+    processaDataIdentificacaoReflora,
 } from './datatombos';
 import { processaRespostaReflora, temResultadoRespostaReflora } from './reflora/reflora';
 import { selectUmaInformacaoReflora, selectNroTomboNumBarra, selectTombo } from './database';
-
-export async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomboBD, tomboReflora) {
-    if (tomboBD.length > 0) {
-        const informacaoTomboBD = tomboBD[0].dataValues;
-        const informacaoTomboReflora = tomboReflora.result[0];
-        let alteracaoInformacao = '{';
-        // altitude
-        const resultadoAltitude = ehIgualAltitude(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoAltitude !== -1) {
-            alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
-        }
-        // latitude
-        const resultadoLatitude = ehIgualLatitude(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoLatitude !== -1) {
-            alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
-        }
-        // longitude
-        const resultadoLongitude = ehIgualLongitude(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoLongitude !== -1) {
-            alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
-        }
-        // data identificação
-        const resultadoDataIdentificacao = ehIgualDataIdentificacao(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoDataIdentificacao !== -1) {
-            if ((resultadoDataIdentificacao.indexOf('/') === -1) && (resultadoDataIdentificacao.lastIndexOf('/') === -1)) {
-                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao}, `;
-            } else if (resultadoDataIdentificacao.indexOf('/') === resultadoDataIdentificacao.lastIndexOf('/')) {
-                alteracaoInformacao += `data_identificacao_mes: ${resultadoDataIdentificacao.substring(0, resultadoDataIdentificacao.indexOf('/'))}, `;
-                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.indexOf('/') + 1, resultadoDataIdentificacao.length)}, `;
-            } else if (resultadoDataIdentificacao.indexOf('/') !== resultadoDataIdentificacao.lastIndexOf('/')) {
-                alteracaoInformacao += `data_identificacao_dia: ${resultadoDataIdentificacao.substring(0, resultadoDataIdentificacao.indexOf('/'))}, `;
-                alteracaoInformacao += `data_identificacao_mes: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.indexOf('/') + 1, resultadoDataIdentificacao.lastIndexOf('/'))}, `;
-                alteracaoInformacao += `data_identificacao_ano: ${resultadoDataIdentificacao.substring(resultadoDataIdentificacao.lastIndexOf('/') + 1, resultadoDataIdentificacao.length)}, `;
-            }
-        }
-        // tipo
-        await ehIgualTipo(conexao, informacaoTomboBD, informacaoTomboReflora).then(tipo => {
-            if (tipo !== -1) {
-                alteracaoInformacao += `tipo: ${tipo}, `;
-            }
-        });
-        // nome científico
-        const resultadoNomeCientifico = ehIgualNomeCientifico(informacaoTomboBD, informacaoTomboReflora);
-        if (resultadoNomeCientifico.length > 0) {
-            alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
-        }
-        // família
-        await ehIgualFamilia(conexao, informacaoTomboBD, informacaoTomboReflora).then(familia => {
-            if (familia !== -1) {
-                alteracaoInformacao += `familia: ${familia}, `;
-            }
-        });
-        // gênero
-        await ehIgualGenero(conexao, informacaoTomboBD, informacaoTomboReflora).then(genero => {
-            if (genero !== -1) {
-                alteracaoInformacao += `genero: ${genero}, `;
-            }
-        });
-        // espécie
-        await ehIgualEspecie(conexao, informacaoTomboBD, informacaoTomboReflora).then(especie => {
-            if (especie !== -1) {
-                alteracaoInformacao += `especie: ${especie}, `;
-            }
-        });
-        // variedade
-        await ehIgualVariedade(conexao, informacaoTomboBD, informacaoTomboReflora).then(variedade => {
-            if (variedade !== -1) {
-                alteracaoInformacao += `especie: ${variedade}, `;
-            }
-        });
-        const idAutor = await getIdAutor(conexao, informacaoTomboBD);
-        if (idAutor !== -1) {
-            // autor nome científico
-            await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoTomboReflora).then(nomeAutorCientifico => {
-                if (nomeAutorCientifico !== -1) {
-                    alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
-                }
-            });
-        }
-        alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
-        alteracaoInformacao += '}';
-        verificaAlteracaoSugerida(conexao, nroTombo, alteracaoInformacao).then(resultadoAlteracaoSugerida => {
-            if (resultadoAlteracaoSugerida === 1) {
-                // Concateno o nome do identificador do Reflora e faço o insert
-                alteracaoInformacao = alteracaoInformacao.replace('}', `, nome_identificador: ${informacaoTomboReflora.identifiedby}}`);
-                // eslint-disable-next-line no-console
-                console.log(`->${codBarra}`);
-                // eslint-disable-next-line no-console
-                console.log(`->${alteracaoInformacao}`);
-            } else {
-                // eslint-disable-next-line no-console
-                console.log(resultadoAlteracaoSugerida);
-            }
-        });
-    }
-}
 
 export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
     const promessa = Q.defer();
@@ -199,6 +103,74 @@ export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
                     alteracaoInformacao += `localidade: ${localidade}, `;
                 }
             });
+            // altitude
+            const resultadoAltitude = ehIgualAltitude(processaInformacaoBd, informacaoReflora);
+            if (resultadoAltitude !== -1) {
+                alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
+            }
+            // latitude
+            const resultadoLatitude = ehIgualLatitude(processaInformacaoBd, informacaoReflora);
+            if (resultadoLatitude !== -1) {
+                alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
+            }
+            // longitude
+            const resultadoLongitude = ehIgualLongitude(processaInformacaoBd, informacaoReflora);
+            if (resultadoLongitude !== -1) {
+                alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
+            }
+            // data identificação
+            const resultadoDataIdentificacao = ehIgualDataIdentificacao(processaInformacaoBd, informacaoReflora);
+            if (resultadoDataIdentificacao !== -1) {
+                const processaResultadoDataIdentificacao = processaDataIdentificacaoReflora(resultadoDataIdentificacao);
+                if (processaResultadoDataIdentificacao.length > 0) {
+                    alteracaoInformacao += processaResultadoDataIdentificacao;
+                }
+            }
+            // tipo
+            await ehIgualTipo(conexao, processaInformacaoBd, informacaoReflora).then(tipo => {
+                if (tipo !== -1) {
+                    alteracaoInformacao += `tipo: ${tipo}, `;
+                }
+            });
+            // nome científico
+            const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd, informacaoReflora);
+            if (resultadoNomeCientifico.length > 0) {
+                alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
+            }
+            // família
+            await ehIgualFamilia(conexao, processaInformacaoBd, informacaoReflora).then(familia => {
+                if (familia !== -1) {
+                    alteracaoInformacao += `familia: ${familia}, `;
+                }
+            });
+            // gênero
+            await ehIgualGenero(conexao, processaInformacaoBd, informacaoReflora).then(genero => {
+                if (genero !== -1) {
+                    alteracaoInformacao += `genero: ${genero}, `;
+                }
+            });
+            // espécie
+            await ehIgualEspecie(conexao, processaInformacaoBd, informacaoReflora).then(especie => {
+                if (especie !== -1) {
+                    alteracaoInformacao += `especie: ${especie}, `;
+                }
+            });
+            // variedade
+            await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora).then(variedade => {
+                if (variedade !== -1) {
+                    alteracaoInformacao += `especie: ${variedade}, `;
+                }
+            });
+            const idAutor = await getIdAutor(conexao, informacaoReflora);
+            if (idAutor !== -1) {
+                // autor nome científico
+                await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoReflora).then(nomeAutorCientifico => {
+                    if (nomeAutorCientifico !== -1) {
+                        alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
+                    }
+                });
+            }
+
         }
         // eslint-disable-next-line no-console
         console.log(`${alteracaoInformacao}`);
