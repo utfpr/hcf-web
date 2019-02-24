@@ -170,7 +170,6 @@ export function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
                     }
                 });
             }
-
         }
         // eslint-disable-next-line no-console
         console.log(`${alteracaoInformacao}`);
@@ -186,13 +185,11 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
      */
     if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
-            // console.log(nroTombo);
             if (nroTombo.length === 0) {
                 promessa.resolve();
             }
             return nroTombo;
         }).then(nroTombo => {
-            // console.log(nroTombo[0].dataValues.tombo_hcf);
             const getNroTombo = nroTombo[0].dataValues.tombo_hcf;
             geraJsonAlteracao(conexao, getNroTombo, informacaoReflora);
             promessa.resolve();

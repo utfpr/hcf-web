@@ -280,6 +280,90 @@ export function selectVegetacao(conexao, idVegetacao) {
     return promessa.promise;
 }
 
+export function selectTipo(conexao, idTipo) {
+    const tabelaTipo = modeloTipos(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaTipo.findAll({
+            attributes: ['nome'],
+            where: { id: idTipo },
+        }).then(tipo => {
+            promessa.resolve(tipo);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectFamilia(conexao, idFamilia) {
+    const tabelaFamilia = modeloFamilias(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaFamilia.findAll({
+            attributes: ['nome'],
+            where: { id: idFamilia },
+        }).then(familia => {
+            promessa.resolve(familia);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectGenero(conexao, idGenero) {
+    const tabelaGenero = modeloGeneros(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaGenero.findAll({
+            attributes: ['nome'],
+            where: { id: idGenero },
+        }).then(genero => {
+            promessa.resolve(genero);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectEspecie(conexao, idEspecie) {
+    const tabelaEspecie = modeloEspecies(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaEspecie.findAll({
+            attributes: ['nome', 'autor_id'],
+            where: { id: idEspecie },
+        }).then(especie => {
+            promessa.resolve(especie);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectVariedade(conexao, idFamilia) {
+    const tabelaVariedade = modeloVariedades(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaVariedade.findAll({
+            attributes: ['nome'],
+            where: { id: idFamilia },
+        }).then(variedade => {
+            promessa.resolve(variedade);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectAutor(conexao, idAutor) {
+    const tabelaAutor = modeloAutor(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaAutor.findAll({
+            attributes: ['nome'],
+            where: { id: idAutor },
+        }).then(autor => {
+            promessa.resolve(autor);
+        });
+    });
+    return promessa.promise;
+}
+
 // ==================================================================
 
 export function selectTomboJson(conexao, idTombo, callback) {
@@ -294,88 +378,18 @@ export function selectTomboJson(conexao, idTombo, callback) {
     });
 }
 
-export function selectIdentificador(conexao, idIdentificador, callback) {
+export function selectIdentificador(conexao, idIdentificador) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaUsuario.findAll({
             attributes: ['nome'],
             where: { id: idIdentificador },
-        }).then(nomeUsuario => {
-            callback(nomeUsuario);
+        }).then(nomeIdentificador => {
+            promessa.resolve(nomeIdentificador);
         });
     });
-}
-
-export function selectFamilia(conexao, idFamilia, callback) {
-    const tabelaFamilia = modeloFamilias(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaFamilia.findAll({
-            attributes: ['nome'],
-            where: { id: idFamilia },
-        }).then(familia => {
-            callback(familia);
-        });
-    });
-}
-
-export function selectGenero(conexao, idGenero, callback) {
-    const tabelaGenero = modeloGeneros(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaGenero.findAll({
-            attributes: ['nome'],
-            where: { id: idGenero },
-        }).then(genero => {
-            callback(genero);
-        });
-    });
-}
-
-export function selectEspecie(conexao, idEspecie, callback) {
-    const tabelaEspecie = modeloEspecies(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaEspecie.findAll({
-            attributes: ['nome', 'autor_id'],
-            where: { id: idEspecie },
-        }).then(especie => {
-            callback(especie);
-        });
-    });
-}
-
-export function selectAutor(conexao, idAutor, callback) {
-    const tabelaAutor = modeloAutor(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaAutor.findAll({
-            attributes: ['nome'],
-            where: { id: idAutor },
-        }).then(autor => {
-            callback(autor);
-        });
-    });
-}
-
-export function selectVariedade(conexao, idFamilia, callback) {
-    const tabelaVariedade = modeloVariedades(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaVariedade.findAll({
-            attributes: ['nome'],
-            where: { id: idFamilia },
-        }).then(tombo => {
-            callback(tombo);
-        });
-    });
-}
-
-export function selectTipo(conexao, idTipo, callback) {
-    const tabelaTipo = modeloTipos(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaTipo.findAll({
-            attributes: ['nome'],
-            where: { id: idTipo },
-        }).then(tipo => {
-            callback(tipo);
-        });
-    });
+    return promessa.promise;
 }
 
 /**

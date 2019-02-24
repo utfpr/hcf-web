@@ -464,407 +464,270 @@ export function processaDataIdentificacaoReflora(dataIdentificacao) {
     return alteracaoInformacao;
 }
 
-// =======================================================
-
-export function ehIgualTipo(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    // const idTipo = informacaoBD.tipo_id;
-    const idTipo = 1;
-    selectTipo(conexao, idTipo, resultadoTipoTombo => {
-        if (resultadoTipoTombo.length > 0) {
-            const nomeTipoBD = resultadoTipoTombo[0].dataValues.nome;
-            const nomeTipoReflora = informacaoReflora.typestatus;
-            // const nomeTipoReflora = 'Isótipo';
-            if (valorEhIndefinido(nomeTipoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}} tipo é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeTipoReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeTipoReflora}} tipo é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeTipoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}} tipo é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeTipoReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeTipoReflora}} tipo é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeTipoBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}} as informações de tipo são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeTipoReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeTipoReflora}} as informações de tipo são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeTipoBD = processaString(nomeTipoBD);
-            const processaNomeTipoReflora = processaString(nomeTipoReflora);
-            if (processaNomeTipoBD === processaNomeTipoReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}, Reflora: ${nomeTipoReflora}} os tipos são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeTipoBD}, Reflora: ${nomeTipoReflora}} os tipos são diferentes`);
-            promessa.resolve(nomeTipoReflora);
+    const idTipo = informacaoBd.tipo_id;
+    // const idTipo = 1;
+    selectTipo(conexao, idTipo).then(resultadoTipoBd => {
+        if (resultadoTipoBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de tipo');
-        promessa.resolve(-1);
+        return resultadoTipoBd;
+    }).then(resultadoTipoBd => {
+        const nomeTipoBd = resultadoTipoBd[0].dataValues.nome;
+        const nomeTipoReflora = informacaoReflora.typestatus;
+        // const nomeTipoReflora = 'Isótipo';
+        if (valorEhIndefinido(nomeTipoBd) || valorEhIndefinido(nomeTipoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeTipoBd) || valorEhNulo(nomeTipoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeTipoBd.length === 0) || (nomeTipoReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeTipoBd = processaString(nomeTipoBd);
+        const processaNomeTipoReflora = processaString(nomeTipoReflora);
+        if (processaNomeTipoBd === processaNomeTipoReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeTipoReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualNomeCientifico(nomeArquivo, informacaoBD, informacaoReflora) {
-    const nomeCientificoBD = informacaoBD.nome_cientifico;
+export function ehIgualNomeCientifico(informacaoBd, informacaoReflora) {
+    const nomeCientificoBd = informacaoBd.nome_cientifico;
     const nomeCientificoReflora = informacaoReflora.scientificname;
-    if (valorEhIndefinido(nomeCientificoBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}} nome científico é indefinido`);
+    if (valorEhIndefinido(nomeCientificoBd) || valorEhIndefinido(nomeCientificoReflora)) {
         return '';
     }
-    if (valorEhIndefinido(nomeCientificoReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeCientificoReflora}} nome científico é indefinido`);
+    if (valorEhNulo(nomeCientificoBd) || valorEhNulo(nomeCientificoReflora)) {
         return '';
     }
-    if (valorEhNulo(nomeCientificoBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}} nome científico é nulo`);
+    if ((nomeCientificoBd.length === 0) || (nomeCientificoReflora.length === 0)) {
         return '';
     }
-    if (valorEhNulo(nomeCientificoReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeCientificoReflora}} nome científico é nulo`);
-        return '';
-    }
-    if (nomeCientificoBD.length === 0) {
-        escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}} o nome científicos é vazio`);
-        return '';
-    }
-    if (nomeCientificoReflora.length === 0) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nomeCientificoReflora}} o nome científico é vazio`);
-        return '';
-    }
-    const processaNomeCientificoBD = processaString(nomeCientificoBD);
+    const processaNomeCientificoBd = processaString(nomeCientificoBd);
     const processaNomeCientificoReflora = processaString(nomeCientificoReflora);
-    if (processaNomeCientificoBD === processaNomeCientificoReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}, Reflora: ${nomeCientificoReflora}} nomes científicos são iguais`);
+    if (processaNomeCientificoBd === processaNomeCientificoReflora) {
         return '';
     }
-    escreveLOG(nomeArquivo, `{BD: ${nomeCientificoBD}, Reflora: ${nomeCientificoReflora}} nomes científicos são diferentes`);
     return nomeCientificoReflora;
 }
 
 /* (Aqui pra baixo ok) Esse processo de verificar o tamanho é necessário nas funções abaixo, pois estamos fazendo um outro select */
-export function ehIgualFamilia(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    const idNomeFamilia = informacaoBD.familia_id;
+    const idNomeFamilia = informacaoBd.familia_id;
     // const idNomeFamilia = informacaoBD.familia_id - 265;
-    selectFamilia(conexao, idNomeFamilia, resultadoFamiliaTombo => {
-        if (resultadoFamiliaTombo.length > 0) {
-            const nomeFamiliaBD = resultadoFamiliaTombo[0].dataValues.nome;
-            const nomeFamiliaReflora = informacaoReflora.family;
-            if (valorEhIndefinido(nomeFamiliaBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}} a família é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeFamiliaReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeFamiliaReflora}} a família é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeFamiliaBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}} a família é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeFamiliaReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeFamiliaReflora}} a família é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeFamiliaBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}} a família é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeFamiliaReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeFamiliaReflora}} a família é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeFamiliaBD = processaString(nomeFamiliaBD);
-            const processaNomeFamiliaReflora = processaString(nomeFamiliaReflora);
-            if (processaNomeFamiliaBD === processaNomeFamiliaReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}, Reflora: ${nomeFamiliaReflora}} as famílias são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeFamiliaBD}, Reflora: ${nomeFamiliaReflora}} as famílias são diferentes`);
-            promessa.resolve(nomeFamiliaReflora);
+    selectFamilia(conexao, idNomeFamilia).then(resultadoFamiliaBd => {
+        if (resultadoFamiliaBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de família');
-        promessa.resolve(-1);
+        return resultadoFamiliaBd;
+    }).then(resultadoFamiliaBd => {
+        const nomeFamiliaBd = resultadoFamiliaBd[0].dataValues.nome;
+        const nomeFamiliaReflora = informacaoReflora.family;
+        if (valorEhIndefinido(nomeFamiliaBd) || valorEhIndefinido(nomeFamiliaReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeFamiliaBd) || valorEhNulo(nomeFamiliaReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeFamiliaBd.length === 0) || (nomeFamiliaReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeFamiliaBD = processaString(nomeFamiliaBd);
+        const processaNomeFamiliaReflora = processaString(nomeFamiliaReflora);
+        if (processaNomeFamiliaBD === processaNomeFamiliaReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeFamiliaReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualGenero(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    const idNomeGenero = informacaoBD.genero_id;
+    const idNomeGenero = informacaoBd.genero_id;
     // const idNomeGenero = informacaoBD.genero_id + 50;
-    selectGenero(conexao, idNomeGenero, resultadoGeneroTombo => {
-        if (resultadoGeneroTombo.length > 0) {
-            const nomeGeneroBD = resultadoGeneroTombo[0].dataValues.nome;
-            const nomeGeneroReflora = informacaoReflora.genus;
-            if (valorEhIndefinido(nomeGeneroBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}} o gênero é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeGeneroReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeGeneroReflora}} o gênero é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeGeneroBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}} o gênero é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeGeneroReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeGeneroReflora}} o gênero é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeGeneroBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}} o gênero é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeGeneroReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeGeneroReflora}} o gênero é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeGeneroBD = processaString(nomeGeneroBD);
-            const processaNomeGeneroReflora = processaString(nomeGeneroReflora);
-            if (processaNomeGeneroBD === processaNomeGeneroReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}, Reflora: ${nomeGeneroReflora}} os gêneros são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeGeneroBD}, Reflora: ${nomeGeneroReflora}} os gêneros são diferentes`);
-            promessa.resolve(nomeGeneroReflora);
+    selectGenero(conexao, idNomeGenero).then(resultadoGeneroBd => {
+        if (resultadoGeneroBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de gênero');
-        promessa.resolve(-1);
+        return resultadoGeneroBd;
+    }).then(resultadoGeneroBd => {
+        const nomeGeneroBd = resultadoGeneroBd[0].dataValues.nome;
+        const nomeGeneroReflora = informacaoReflora.genus;
+        if (valorEhIndefinido(nomeGeneroBd) || valorEhIndefinido(nomeGeneroReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeGeneroBd) || valorEhNulo(nomeGeneroReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeGeneroBd.length === 0) || (nomeGeneroReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeGeneroBd = processaString(nomeGeneroBd);
+        const processaNomeGeneroReflora = processaString(nomeGeneroReflora);
+        if (processaNomeGeneroBd === processaNomeGeneroReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeGeneroReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualEspecie(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    const idNomeEspecie = informacaoBD.especie_id;
+    const idNomeEspecie = informacaoBd.especie_id;
     // const idNomeEspecie = 1;
-    selectEspecie(conexao, idNomeEspecie, resultadoEspecieTombo => {
-        if (resultadoEspecieTombo.length > 0) {
-            const nomeEspecieBD = resultadoEspecieTombo[0].dataValues.nome;
-            const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
-            if (valorEhIndefinido(nomeEspecieBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}} a espécie é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeEspecieReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeEspecieReflora}} a espécie é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeEspecieBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}} a espécie é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeEspecieReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeEspecieReflora}} a espécie é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeEspecieBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}} as inforamções espécies são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeEspecieReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeEspecieReflora}} as inforamções espécies são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeEspecieBD = processaString(nomeEspecieBD);
-            const processaNomeEspecieReflora = processaString(nomeEspecieReflora);
-            if (processaNomeEspecieBD === processaNomeEspecieReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}, Reflora: ${nomeEspecieReflora}} as espécies são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeEspecieBD}, Reflora: ${nomeEspecieReflora}} as espécies são diferentes`);
-            promessa.resolve(nomeEspecieReflora);
+    selectEspecie(conexao, idNomeEspecie).then(resultadoEspecieBd => {
+        if (resultadoEspecieBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de espécie');
-        promessa.resolve(-1);
+        return resultadoEspecieBd;
+    }).then(resultadoEspecieBd => {
+        const nomeEspecieBd = resultadoEspecieBd[0].dataValues.nome;
+        const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
+        if (valorEhIndefinido(nomeEspecieBd) || valorEhIndefinido(nomeEspecieReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeEspecieBd) || valorEhNulo(nomeEspecieReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeEspecieBd.length === 0) || (nomeEspecieReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeEspecieBd = processaString(nomeEspecieBd);
+        const processaNomeEspecieReflora = processaString(nomeEspecieReflora);
+        if (processaNomeEspecieBd === processaNomeEspecieReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeEspecieReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualVariedade(nomeArquivo, conexao, informacaoBD, informacaoReflora) {
+export function ehIgualVariedade(conexao, informacaoBd, informacaoReflora) {
     const promessa = Q.defer();
-    const idVariedade = informacaoBD.variedade_id;
+    const idVariedade = informacaoBd.variedade_id;
     // const idVariedade = 1;
-    selectVariedade(conexao, idVariedade, resultadoVariedadeTombo => {
-        if (resultadoVariedadeTombo.length > 0) {
-            const nomeVariedadeBD = resultadoVariedadeTombo[0].dataValues.nome;
-            const nomeVariedadeReflora = informacaoReflora.infraespecificepithet;
-            if (valorEhIndefinido(nomeVariedadeBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}} a variedade é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(nomeVariedadeReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeVariedadeReflora}} a variedade é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeVariedadeBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}} a variedade é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(nomeVariedadeReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeVariedadeReflora}} a variedade é nulo`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeVariedadeBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}} as informações de variedades são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (nomeVariedadeReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${nomeVariedadeReflora}} as informações de variedades são vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaNomeVariedadeBD = processaString(nomeVariedadeBD);
-            const processaNomeVariedadeReflora = processaString(nomeVariedadeReflora);
-            if (processaNomeVariedadeBD === processaNomeVariedadeReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}, Reflora: ${nomeVariedadeReflora}} as variedades são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${nomeVariedadeBD}, Reflora: ${nomeVariedadeReflora}} as variedades são diferentes`);
-            promessa.resolve(nomeVariedadeReflora);
+    selectVariedade(conexao, idVariedade).then(resultadoVariedadeBd => {
+        if (resultadoVariedadeBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações de variedade');
-        promessa.resolve(-1);
+        return resultadoVariedadeBd;
+    }).then(resultadoVariedadeBd => {
+        const nomeVariedadeBd = resultadoVariedadeBd[0].dataValues.nome;
+        const nomeVariedadeReflora = informacaoReflora.infraespecificepithet;
+        if (valorEhIndefinido(nomeVariedadeBd) || valorEhIndefinido(nomeVariedadeReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeVariedadeBd) || valorEhNulo(nomeVariedadeReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeVariedadeBd.length === 0) || (nomeVariedadeReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeVariedadeBd = processaString(nomeVariedadeBd);
+        const processaNomeVariedadeReflora = processaString(nomeVariedadeReflora);
+        if (processaNomeVariedadeBd === processaNomeVariedadeReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeVariedadeReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function getIdAutor(nomeArquivo, conexao, informacaoBD) {
+export function getIdAutor(conexao, informacaoBd) {
     const promessa = Q.defer();
-    const idLocalColeta = informacaoBD.especie_id;
-    selectEspecie(conexao, idLocalColeta, resultadoIDAutorTombo => {
-        if (resultadoIDAutorTombo.length === 0) {
-            escreveLOG(nomeArquivo, 'Não foram retornados informações de espécies');
+    const idLocalColeta = informacaoBd.especie_id;
+    selectEspecie(conexao, idLocalColeta).then(resultadoIdAutorBd => {
+        if (resultadoIdAutorBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        const idAutor = parseInt(resultadoIDAutorTombo[0].dataValues.autor_id);
-        if (valorEhNulo(idAutor)) {
-            escreveLOG(nomeArquivo, `{BD: ${idAutor}} o ID do autor é nulo`);
+        return resultadoIdAutorBd;
+    }).then(resultadoIdAutorBd => {
+        const idAutor = parseInt(resultadoIdAutorBd[0].dataValues.autor_id);
+        if (valorEhNulo(idAutor) || !ehNumero(idAutor)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (!ehNumero(idAutor)) {
-            escreveLOG(nomeArquivo, `{BD: ${idAutor}} o ID do autor não é número`);
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        escreveLOG(nomeArquivo, `{BD: ${idAutor}} o ID do autor é número`);
         promessa.resolve(idAutor);
         return promessa.promise;
     });
     return promessa.promise;
 }
 
-export function ehIgualAutorNomeCientifico(nomeArquivo, conexao, idAutorNomeCientifico, informacaoReflora) {
+export function ehIgualAutorNomeCientifico(conexao, idAutorNomeCientifico, informacaoReflora) {
     const promessa = Q.defer();
-    selectAutor(conexao, idAutorNomeCientifico, resultadoAutorNomeCientificoTombo => {
-        if (resultadoAutorNomeCientificoTombo.length > 0) {
-            const autorNomeCientificoBD = resultadoAutorNomeCientificoTombo[0].dataValues.nome;
-            const autorNomeCientificoReflora = informacaoReflora.scientificnameauthorship;
-            if (valorEhIndefinido(autorNomeCientificoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}} o autor científico é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhIndefinido(autorNomeCientificoReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${autorNomeCientificoReflora}} o autor científico é indefinido`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(autorNomeCientificoBD)) {
-                escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}} o autor científico é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (valorEhNulo(autorNomeCientificoReflora)) {
-                escreveLOG(nomeArquivo, `{Reflora: ${autorNomeCientificoReflora}} o autor científico é vazio`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (autorNomeCientificoBD.length === 0) {
-                escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}} a informação de autor científico é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            if (autorNomeCientificoReflora.length === 0) {
-                escreveLOG(nomeArquivo, `{Reflora: ${autorNomeCientificoReflora}} a informação de autor científico é vazia`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            const processaAutorNomeCientificoBD = processaString(autorNomeCientificoBD);
-            const processaAutorNomeCientificoReflora = processaString(autorNomeCientificoReflora);
-            if (processaAutorNomeCientificoBD === processaAutorNomeCientificoReflora) {
-                escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} os autores dos nomes científicos são iguais`);
-                promessa.resolve(-1);
-                return promessa.promise;
-            }
-            escreveLOG(nomeArquivo, `{BD: ${autorNomeCientificoBD}, Reflora: ${autorNomeCientificoReflora}} os autores dos nomes científicos são diferentes`);
-            promessa.resolve(autorNomeCientificoReflora);
+    selectAutor(conexao, idAutorNomeCientifico).then(resultadoAutorNomeCientificoBd => {
+        if (resultadoAutorNomeCientificoBd.length === 0) {
+            promessa.resolve(-1);
             return promessa.promise;
         }
-        escreveLOG(nomeArquivo, 'Não foram retornados informações dos autores dos nomes científicos');
-        promessa.resolve(-1);
+        return resultadoAutorNomeCientificoBd;
+    }).then(resultadoAutorNomeCientificoBd => {
+        const autorNomeCientificoBd = resultadoAutorNomeCientificoBd[0].dataValues.nome;
+        const autorNomeCientificoReflora = informacaoReflora.scientificnameauthorship;
+        if (valorEhIndefinido(autorNomeCientificoBd) || valorEhIndefinido(autorNomeCientificoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(autorNomeCientificoBd) || valorEhNulo(autorNomeCientificoReflora)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((autorNomeCientificoBd.length === 0) || (autorNomeCientificoReflora.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaAutorNomeCientificoBd = processaString(autorNomeCientificoBd);
+        const processaAutorNomeCientificoReflora = processaString(autorNomeCientificoReflora);
+        if (processaAutorNomeCientificoBd === processaAutorNomeCientificoReflora) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(autorNomeCientificoReflora);
         return promessa.promise;
     });
     return promessa.promise;
 }
+
+// =======================================================
 
 function ehIgualJson(jsonBd, jsonGerado) {
     // const processaJsonBd = JSON.parse(jsonBd);
