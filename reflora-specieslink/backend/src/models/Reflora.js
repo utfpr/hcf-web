@@ -13,6 +13,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.TEXT,
             allowNull: true,
         },
+        ja_comparado: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false,
+        },
         contador: {
             type: DataTypes.INTEGER,
             allowNull: false,

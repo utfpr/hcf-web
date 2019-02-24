@@ -53,7 +53,7 @@ export function criaTabelaReflora(conexao) {
     return tabelaReflora;
 }
 
-export function insertTabelaReflora(tabelaReflora, arrayCodBarra) {
+export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
     /**
      * Sem o throttle ele faz muitas conexões simultaneamente,
      * acabando gerando erros. O throttle faz um por um, evitando

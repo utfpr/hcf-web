@@ -2,7 +2,7 @@ import {
     criaConexao,
     criaTabelaReflora,
     selectMaiorNumBarra,
-    insertTabelaReflora,
+    insereTabelaReflora,
 } from '../database';
 // import { processaMaiorCodBarra } from '../tombos';
 /*  import reflora from './reflora'; */
@@ -23,7 +23,7 @@ function main() {
         const listaCodBarra = criaListaCodBarra(intMaiorCodBarra).sort();
         return listaCodBarra;
     }).then(listaCodBarra => {
-        insertTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     // a
