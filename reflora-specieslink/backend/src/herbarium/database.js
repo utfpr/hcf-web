@@ -79,8 +79,8 @@ export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
 }
 
 export function selectUmCodBarra(conexao) {
-    const promessa = Q.defer();
     const tabelaReflora = modeloReflora(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaReflora.findAll({
             attributes: ['cod_barra'],
@@ -96,18 +96,15 @@ export function selectUmCodBarra(conexao) {
 
 export function atualizaTabelaReflora(conexao, codBarra, json) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
-    // conexao.sync().then(() => {
     tabelaReflora.update(
         { tombo_json: json, contador: 1 },
         { where: { cod_barra: codBarra } },
     );
-    // });
 }
 
-
 export function contaNuloErroTabelaReflora(conexao) {
-    const promessa = Q.defer();
     const tabelaReflora = modeloReflora(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaReflora.findAll({
             where: {
@@ -124,30 +121,81 @@ export function contaNuloErroTabelaReflora(conexao) {
     return promessa.promise;
 }
 
-// ==================================================================
-export function selectNroTomboNumBarra(conexao, codBarra, callback) {
+export function atualizaJaComparouTabelaReflora(conexao, codBarra) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    tabelaReflora.update(
+        { ja_comparou: true },
+        { where: { cod_barra: codBarra } },
+    );
+}
+
+export function selectUmaInformacaoReflora(conexao) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaReflora.findAll({
+            attributes: ['cod_barra', 'tombo_json'],
+            where: {
+                [Sequelize.Op.and]:
+                [{ ja_comparou: false }, { contador: 1 }],
+            },
+            limit: 1,
+        }).then(informacaoReflora => {
+            // callback(codBarra);
+            promessa.resolve(informacaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectNroTomboNumBarra(conexao, codBarra) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaTomboFoto.findAll({
             attributes: ['tombo_hcf'],
             where: { num_barra: codBarra },
         }).then(nroTombo => {
-            callback(nroTombo);
+            promessa.resolve(nroTombo);
         });
     });
+    return promessa.promise;
 }
 
-export function selectTombo(conexao, nroTombo, callback) {
+
+export function selectTombo(conexao, nroTombo) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
+    const promessa = Q.defer();
     conexao.sync().then(() => {
         tabelaTombo.findAll({
-            attributes: ['numero_coleta', 'data_coleta_dia', 'data_coleta_mes', 'data_coleta_ano', 'altitude', 'latitude', 'longitude', 'data_identificacao_dia', 'data_identificacao_mes', 'data_identificacao_ano', 'nome_cientifico', 'familia_id', 'variedade_id', 'tipo_id', 'especie_id', 'genero_id', 'local_coleta_id', 'observacao'],
+            attributes: [
+                'numero_coleta',
+                'data_coleta_dia',
+                'data_coleta_mes',
+                'data_coleta_ano',
+                'altitude',
+                'latitude',
+                'longitude',
+                'data_identificacao_dia',
+                'data_identificacao_mes',
+                'data_identificacao_ano',
+                'nome_cientifico',
+                'familia_id',
+                'variedade_id',
+                'tipo_id',
+                'especie_id',
+                'genero_id',
+                'local_coleta_id',
+                'observacao'],
             where: { hcf: nroTombo },
         }).then(tombo => {
-            callback(tombo);
+            // callback(tombo);
+            promessa.resolve(tombo);
         });
     });
+    return promessa.promise;
 }
+// ==================================================================
 
 export function selectPaisSigla(conexao, idCidade, callback) {
     const tabelaCidade = modeloCidade(conexao, Sequelize);

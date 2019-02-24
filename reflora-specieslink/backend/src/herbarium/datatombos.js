@@ -43,40 +43,32 @@ function processaString(valor) {
     return valor.replace(/\s/g, '').toLowerCase();
 }
 
-export function ehIgualNroColeta(nomeArquivo, informacaoBD, informacaoReflora) {
+export function ehIgualNroColeta(informacaoBD, informacaoReflora) {
     const nroColetaBD = informacaoBD.numero_coleta;
     const nroColetaReflora = informacaoReflora.recordnumber;
     if (valorEhIndefinido(nroColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${nroColetaBD}} o número de coleta é indefinido`);
         return -1;
     }
     if (valorEhIndefinido(nroColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nroColetaReflora}} o número de coleta é indefinido`);
         return -1;
     }
     if (valorEhNulo(nroColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${nroColetaBD}} o número de coleta é nula`);
         return -1;
     }
     if (valorEhNulo(nroColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${nroColetaReflora}} o número de coleta é nula`);
         return -1;
     }
     const floatNroColetaBD = parseFloat(nroColetaBD);
     const floatNroColetaReflora = parseFloat(nroColetaReflora);
     if (!ehNumero(floatNroColetaBD)) {
-        escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}} o número de coleta não é número`);
         return -1;
     }
     if (!ehNumero(floatNroColetaReflora)) {
-        escreveLOG(nomeArquivo, `{Reflora: ${floatNroColetaReflora}} o número de coleta não é número`);
         return -1;
     }
     if (floatNroColetaBD === floatNroColetaReflora) {
-        escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}, Reflora: ${floatNroColetaReflora}} números de coletas são iguais`);
         return -1;
     }
-    escreveLOG(nomeArquivo, `{BD: ${floatNroColetaBD}, Reflora: ${floatNroColetaReflora}} números de coletas são diferentes`);
     return floatNroColetaReflora;
 }
 

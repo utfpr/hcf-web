@@ -13,7 +13,7 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.TEXT,
             allowNull: true,
         },
-        ja_comparado: {
+        ja_comparou: {
             type: DataTypes.BOOLEAN,
             defaultValue: false,
         },

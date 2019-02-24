@@ -1,6 +1,7 @@
 /* Evita o warning de excendo o tamanho da linha */
 /* eslint-disable max-len */
-import { selectNroTomboNumBarra, selectTombo } from './database';
+import Q from 'q';
+import throttledQueue from 'throttled-queue';
 import {
     ehIgualNroColeta,
     ehIgualAnoColeta,
@@ -27,8 +28,10 @@ import {
     ehIgualAutorNomeCientifico,
     verificaAlteracaoSugerida,
 } from './datatombos';
+import { processaRespostaReflora, temResultadoRespostaReflora } from './reflora/reflora';
+import { selectUmaInformacaoReflora, selectNroTomboNumBarra, selectTombo } from './database';
 
-async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomboBD, tomboReflora) {
+export async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomboBD, tomboReflora) {
     if (tomboBD.length > 0) {
         const informacaoTomboBD = tomboBD[0].dataValues;
         const informacaoTomboReflora = tomboReflora.result[0];
@@ -188,13 +191,79 @@ async function comparaInformacoesTombos(conexao, nroTombo, codBarra, tomboBD, to
     }
 }
 
-export function comparaTombo(conexao, codBarra, respostaReflora) {
-    selectNroTomboNumBarra(conexao, codBarra, nroTombo => {
-        const nroTomboBD = nroTombo[0].dataValues.tombo_hcf;
-        selectTombo(conexao, nroTomboBD, tombo => {
-            comparaInformacoesTombos(conexao, nroTomboBD, codBarra, tombo, respostaReflora);
-        });
+export async function geraJsonAlteracao(conexao, nroTombo, informacaoReflora) {
+    const promessa = Q.defer();
+    selectTombo(conexao, nroTombo).then(tomboBd => {
+        if (tomboBd.length === 0) {
+            promessa.resolve();
+        }
+        return tomboBd;
+    }).then(tomboBd => {
+        // eslint-disable-next-line no-console
+        let alteracaoInformacao = '{';
+        const processaInformacaoBd = tomboBd[0].dataValues;
+        const resultadoNroColeta = ehIgualNroColeta(processaInformacaoBd, informacaoReflora);
+        // eslint-disable-next-line no-console
+        console.log(`r->${resultadoNroColeta}`);
+        if (resultadoNroColeta !== -1) {
+            alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
+        }
+        // eslint-disable-next-line no-console
+        console.log(`${alteracaoInformacao}`);
+        promessa.resolve();
     });
+    return promessa.promise;
+    // console.log(alteracaoInformacao);
+    // número de coleta
+}
+
+function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
+    const promessa = Q.defer();
+    /**
+     * Só vai fazer a comparação se tiver resultado
+     */
+    if (temResultadoRespostaReflora(informacaoReflora)) {
+        selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
+            // console.log(nroTombo);
+            if (nroTombo.length === 0) {
+                promessa.resolve();
+            }
+            return nroTombo;
+        }).then(nroTombo => {
+            // console.log(nroTombo[0].dataValues.tombo_hcf);
+            const getNroTombo = nroTombo[0].dataValues.tombo_hcf;
+            geraJsonAlteracao(conexao, getNroTombo, informacaoReflora);
+            promessa.resolve();
+        });
+    }
+    return promessa.promise;
+}
+
+export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
+    const throttle = throttledQueue(1, 4000);
+    // const promessa = Q.defer();
+    for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra + 1; i += 1) {
+        p = p.then(_ => new Promise(resolve => {
+            throttle(() => {
+                selectUmaInformacaoReflora(conexao).then(informacaoReflora => {
+                    if (informacaoReflora.length === 0) {
+                        resolve();
+                    }
+                    return informacaoReflora;
+                }).then(informacaoReflora => {
+                    const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
+                    const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
+                    fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora);
+                    // eslint-disable-next-line no-console
+                    // console.log(getInformacaoReflora);
+                    resolve();
+                });
+            });
+        }));
+        /* p = p.then(_ => new Promise(resolve => {
+        })); */
+    }
+    // return promessa.promise;
 }
 
 export function processaMaiorCodBarra(maiorCodBarra) {

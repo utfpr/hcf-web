@@ -8,6 +8,7 @@ import {
 /*  import reflora from './reflora'; */
 import { criaListaCodBarra } from './codbarra';
 import { fazRequisicaoReflora } from './reflora';
+import { fazComparacaoTombo } from '../tombos';
 import { getNomeArquivo, escreveLOG } from '../log';
 
 function main() {
@@ -26,6 +27,7 @@ function main() {
         insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
+                    fazComparacaoTombo(conexao, listaCodBarra.length);
                     // a
                 }
             });
