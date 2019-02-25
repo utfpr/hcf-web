@@ -4,10 +4,12 @@ import {
     selectMaiorNumBarra,
     insereTabelaReflora,
 } from '../database';
-// import { processaMaiorCodBarra } from '../tombos';
+import {
+    processaMaiorCodBarra,
+    fazComparacaoTombo,
+} from '../tombos';
 import { criaListaCodBarra } from './codbarra';
 import { fazRequisicaoReflora } from './reflora';
-import { fazComparacaoTombo } from '../tombos';
 import { getNomeArquivo, escreveLOG } from '../log';
 
 function main() {
@@ -17,15 +19,20 @@ function main() {
     const tabelaReflora = criaTabelaReflora(conexao);
 
     selectMaiorNumBarra(conexao).then(maxCodBarra => {
-        /* Faz o pré-processamento do código de barra */
-        // const intMaiorCodBarra = processaMaiorCodBarra(maxCodBarra);
-        const intMaiorCodBarra = 1;
+        /**
+         * 1.Faz o pré-processamento dos códigos de barras
+         * 2.Cria uma tabela e insere os valores pré-processado nessa tabela
+         * 3.A partir de todos os códigos de barras presente na tabela faz a requisição
+         * 4.Com as requisições presentes no BD, faz a comparação na tabela desses tombos
+         */
+        const intMaiorCodBarra = processaMaiorCodBarra(maxCodBarra);
+        // const intMaiorCodBarra = 3;
         const listaCodBarra = criaListaCodBarra(intMaiorCodBarra).sort();
+        // const listaCodBarra = ['HCF000000001'];
         insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao, listaCodBarra.length);
-                    // a
                 }
             });
         });

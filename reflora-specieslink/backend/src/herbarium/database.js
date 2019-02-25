@@ -392,12 +392,10 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
 
 export function insereAlteracaoSugerida(conexao, idTombo, identificador, tomboJson) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
-    const promessa = Q.defer();
     tabelaAlteracao.create({
         tombo_hcf: idTombo,
         tombo_json: tomboJson,
     });
-    return promessa.promise;
 }
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;

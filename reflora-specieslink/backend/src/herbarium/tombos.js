@@ -30,7 +30,10 @@ import {
     existeAlteracaoSugerida,
     getIdentificadorReflora,
 } from './datatombos';
-import { processaRespostaReflora, temResultadoRespostaReflora } from './reflora/reflora';
+import {
+    processaRespostaReflora,
+    temResultadoRespostaReflora,
+} from './reflora/reflora';
 import {
     selectUmaInformacaoReflora,
     selectNroTomboNumBarra,
@@ -39,14 +42,12 @@ import {
     // insereAlteracaoSugerida,
 } from './database';
 
-export function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora) {
+export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora) {
     const promessa = Q.defer();
-    selectTombo(conexao, nroTombo).then(tomboBd => {
+    selectTombo(conexao, nroTombo).then(async tomboBd => {
         if (tomboBd.length === 0) {
             promessa.resolve();
         }
-        return tomboBd;
-    }).then(async tomboBd => {
         let alteracaoInformacao = '{';
         const processaInformacaoBd = tomboBd[0].dataValues;
         // número de coleta
@@ -180,12 +181,12 @@ export function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora
                 }
             });
         }
-        // eslint-disable-next-line no-console
-        console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
-        alteracaoInformacao = alteracaoInformacao.substring(1, alteracaoInformacao.lastIndexOf(','));
+        alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
         // eslint-disable-next-line no-console
-        console.log(`->>>>>>>>>>>>>>>>>>>>>>>>>>>>>${alteracaoInformacao}`);
+        console.log('==============================================================================');
+        // eslint-disable-next-line no-console
+        console.log(`->${alteracaoInformacao}`);
         atualizaJaComparouTabelaReflora(conexao, codBarra);
         promessa.resolve(alteracaoInformacao);
     });
@@ -195,7 +196,10 @@ export function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora
 function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
     const promessa = Q.defer();
     /**
-     * Só vai fazer a comparação se tiver resultado
+     * 1.Só vai fazer a comparação se tiver resultado na resposta do reflora
+     * 2.Gera o JSON das informações que são divergentes
+     * 3.Verifica se esse JSON já foi sugerido (Falta mais aqui, a comparação do json)
+     * 4.Insere no banco de dados caso não exista
      */
     if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
@@ -203,23 +207,22 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                 promessa.resolve();
                 return promessa.promise;
             }
-            return nroTombo;
-        }).then(nroTombo => {
             const getNroTombo = nroTombo[0].dataValues.tombo_hcf;
-            geraJsonAlteracao(conexao, getNroTombo, codBarra, informacaoReflora).then(alteracao => {
+            const getInformacaoReflora = informacaoReflora.result[0];
+            geraJsonAlteracao(conexao, getNroTombo, codBarra, getInformacaoReflora).then(alteracao => {
                 if (alteracao.length === 2) {
                     promessa.resolve();
                     return promessa.promise;
                 }
-                existeAlteracaoSugerida(conexao, nroTombo, alteracao).then(existe => {
+                existeAlteracaoSugerida(conexao, getNroTombo, alteracao).then(existe => {
                     if (!existe) {
-                        const identificadorReflora = getIdentificadorReflora(informacaoReflora);
+                        const identificadorReflora = getIdentificadorReflora(getInformacaoReflora);
                         // eslint-disable-next-line no-console
                         console.log(`${nroTombo}->existe->${identificadorReflora}`);
                         // insereAlteracaoSugerida(conexao, nroTombo, identificadorReflora, alteracao);
                     }
-                    promessa.resolve();
-                    return promessa.promise;
+                    // promessa.resolve();
+                    // return promessa.promise;
                 });
                 return promessa.promise;
             });
@@ -231,7 +234,12 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
 
 export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
     const throttle = throttledQueue(1, 4000);
-    // const promessa = Q.defer();
+    /**
+     * 1.Para uma dada quantidade de itens faz um select (usando limit e quando não tenha sido comparado)
+     * 2.Com o valor retornado, pega o valor de código de barra e procurar informações daquele tombo no BD
+     * 3.Faz a comparação de informações
+     * Falta tratar quando chega na última iteração
+     */
     for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra; i += 1) {
         p = p.then(_ => new Promise(resolve => {
             throttle(() => {
@@ -239,8 +247,6 @@ export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
                     if (informacaoReflora.length === 0) {
                         resolve();
                     }
-                    return informacaoReflora;
-                }).then(informacaoReflora => {
                     const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
                     const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
                     fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora);
@@ -251,7 +257,6 @@ export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
         /* p = p.then(_ => new Promise(resolve => {
         })); */
     }
-    // return promessa.promise;
 }
 
 export function processaMaiorCodBarra(maiorCodBarra) {

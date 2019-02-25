@@ -41,8 +41,6 @@ export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
                     if (codBarra.length === 0) {
                         resolve();
                     }
-                    return codBarra;
-                }).then(codBarra => {
                     const getCodBarra = codBarra[0].dataValues.cod_barra;
                     request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
                         temProblemaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);

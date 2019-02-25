@@ -721,7 +721,7 @@ export function existeAlteracaoSugerida(conexao, nroTombo, jsonGerado) {
     const promessa = Q.defer();
     selectInformacaoTomboJson(conexao, nroTombo).then(listaTomboJson => {
         if (listaTomboJson.length === 0) {
-            promessa.resolve(true);
+            promessa.resolve(false);
             return promessa.promise;
         }
         if (valorEhNulo(listaTomboJson) || valorEhIndefinido(listaTomboJson)) {
