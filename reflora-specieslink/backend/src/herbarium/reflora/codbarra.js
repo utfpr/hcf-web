@@ -30,19 +30,6 @@ export function geraCodBarra(codBarra) {
     return -1;
 }
 
-export function criaListaCodBarra(maiorCodBarra) {
-    const listaCodBarra = [];
-    for (let i = 1; i <= maiorCodBarra; i += 1) {
-        const codBarra = geraCodBarra(i);
-        if (codBarra === -1) {
-            process.exit(0);
-        } else {
-            listaCodBarra.push(codBarra);
-        }
-    }
-    return listaCodBarra;
-}
-
 export function existeCodBarra(listCodBarra, codBarra) {
     for (let i = 0; i < listCodBarra.length; i += 1) {
         if (listCodBarra[i] === codBarra) {

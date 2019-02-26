@@ -34,12 +34,15 @@ export function testaConexao(conexao) {
         .catch(() => /* b */ false);
 }
 
-export function selectMaiorNumBarra(conexao) {
+export function selectCodBarra(conexao) {
     const promessa = Q.defer();
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
-        tabelaTomboFoto.max('num_barra').then(max => {
-            promessa.resolve(max);
+        tabelaTomboFoto.findAll({
+            attributes: ['num_barra'],
+        }).then(listaCodBarra => {
+            // callback(codBarra);
+            promessa.resolve(listaCodBarra);
         });
     });
     return promessa.promise;
@@ -65,7 +68,7 @@ export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
     arrayCodBarra.forEach((codBarra, index) => {
         throttle(() => {
             tabelaReflora.create({
-                cod_barra: codBarra,
+                cod_barra: codBarra.dataValues.num_barra,
                 tombo_json: null,
                 contador: 0,
             }).then(() => {
@@ -389,13 +392,25 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
     return promessa.promise;
 }
 
-
 export function insereAlteracaoSugerida(conexao, idTombo, identificador, tomboJson) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     tabelaAlteracao.create({
         tombo_hcf: idTombo,
         tombo_json: tomboJson,
     });
+}
+
+export function selectComparacoesFaltante(conexao) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaReflora.findAll({
+            where: { ja_comparou: false },
+        }).then(listaComparacoes => {
+            promessa.resolve(listaComparacoes);
+        });
+    });
+    return promessa.promise;
 }
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;

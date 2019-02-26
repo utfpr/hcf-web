@@ -1,9 +1,13 @@
 /* eslint-disable max-len */
-import request from 'request';
-import throttledQueue from 'throttled-queue';
+// import request from 'request';
+// import throttledQueue from 'throttled-queue';
 import Q from 'q';
 import { escreveLOG } from '../log';
-import { selectUmCodBarra, atualizaTabelaReflora, contaNuloErroTabelaReflora } from '../database';
+import {
+    selectUmCodBarra,
+    atualizaTabelaReflora,
+    // contaNuloErroTabelaReflora
+} from '../database';
 
 /* Quando 'converte' ele formata o unicode */
 export function processaRespostaReflora(responseReflora) {
@@ -25,19 +29,35 @@ export function temProblemaRespostaReflora(nomeArquivo, conexao, codBarra, error
     }
 }
 
-export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
-    const throttle = throttledQueue(1, 4000);
+export function fazRequisicaoReflora(conexao, nomeArquivo) {
+    const promessa = Q.defer();
+    // const throttle = throttledQueue(1, 1000);
+    // throttle(() => {
+    selectUmCodBarra(conexao).then(codBarra => {
+        // eslint-disable-next-line no-console
+        console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
+        if (codBarra.length === 0) {
+            promessa.resolve();
+            return promessa.promise;
+        }
+        // eslint-disable-next-line no-console
+        console.log('ainda existem');
+        const getCodBarra = codBarra[0].dataValues.cod_barra;
+        // eslint-disable-next-line no-console
+        console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
+        atualizaTabelaReflora(conexao, getCodBarra, 'b');
+        fazRequisicaoReflora(conexao, nomeArquivo);
+        return promessa.promise;
+    });
+    // });
+    return promessa.promise;
+    // export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
+    /* const throttle = throttledQueue(1, 4000);
     const promessa = Q.defer();
     for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra + 1; i += 1) {
         p = p.then(_ => new Promise(resolve => {
             throttle(() => {
-                /**
-                 * Faz o select que usa o limit e retorna apenas com a condição
-                 * Se o resultado da consulta for zero não tem o que fazer então já dá um resolve() na promessa
-                 * Caso contrário pega o valor de código de barra e faz a requisição
-                 * Com o resultado da requisição atualiza no BD
-                 */
-                selectUmCodBarra(conexao).then(codBarra => {
+    /* selectUmCodBarra(conexao).then(codBarra => {
                     if (codBarra.length === 0) {
                         resolve();
                     }
@@ -55,7 +75,7 @@ export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
              * se tem algum atributo do tombo_json sendo nulo ou com o json
              * de erro 500 retornado ou com contador igual a zero
              */
-            if (i === quantidadeCodBarra) {
+    /* if (i === quantidadeCodBarra) {
                 contaNuloErroTabelaReflora(conexao).then(resultadoNuloErroTabelaReflora => {
                     if (resultadoNuloErroTabelaReflora.length > 0) {
                         fazRequisicaoReflora(conexao, nomeArquivo, resultadoNuloErroTabelaReflora.length);
@@ -69,7 +89,7 @@ export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
             }
         }));
     }
-    return promessa.promise;
+    return promessa.promise; */
 }
 
 export default {

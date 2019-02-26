@@ -39,6 +39,7 @@ import {
     selectNroTomboNumBarra,
     selectTombo,
     atualizaJaComparouTabelaReflora,
+    selectComparacoesFaltante,
     // insereAlteracaoSugerida,
 } from './database';
 
@@ -199,7 +200,7 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
      * 1.Só vai fazer a comparação se tiver resultado na resposta do reflora
      * 2.Gera o JSON das informações que são divergentes
      * 3.Verifica se esse JSON já foi sugerido (Falta mais aqui, a comparação do json)
-     * 4.Insere no banco de dados caso não exista
+     * 4.Insere no banco de dados caso não exista (Falta habilitar)
      */
     if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
@@ -220,7 +221,11 @@ function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                         // eslint-disable-next-line no-console
                         console.log(`${nroTombo}->existe->${identificadorReflora}`);
                         // insereAlteracaoSugerida(conexao, nroTombo, identificadorReflora, alteracao);
+                        promessa.resolve();
+                        return promessa.promise;
                     }
+                    promessa.resolve();
+                    return promessa.promise;
                     // promessa.resolve();
                     // return promessa.promise;
                 });
@@ -238,7 +243,7 @@ export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
      * 1.Para uma dada quantidade de itens faz um select (usando limit e quando não tenha sido comparado)
      * 2.Com o valor retornado, pega o valor de código de barra e procurar informações daquele tombo no BD
      * 3.Faz a comparação de informações
-     * Falta tratar quando chega na última iteração
+     * Falta tratar quando chega na última iteração (Feito)
      */
     for (let i = 0, p = Promise.resolve(); i < quantidadeCodBarra; i += 1) {
         p = p.then(_ => new Promise(resolve => {
@@ -249,17 +254,33 @@ export function fazComparacaoTombo(conexao, quantidadeCodBarra) {
                     }
                     const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
                     const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
-                    fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora);
+                    fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora).then(() => {
+                        if (i === quantidadeCodBarra - 1) {
+                            // eslint-disable-next-line no-console
+                            console.log('acabou');
+                            selectComparacoesFaltante(conexao).then(listaComparacoesFaltante => {
+                                if (listaComparacoesFaltante.length > 0) {
+                                    // eslint-disable-next-line no-console
+                                    console.log('tem faltante');
+                                    fazComparacaoTombo(conexao, listaComparacoesFaltante.length);
+                                } else {
+                                    // eslint-disable-next-line no-console
+                                    console.log('não tem faltante');
+                                    resolve();
+                                }
+                            });
+                        } else {
+                            resolve();
+                        }
+                    });
                     resolve();
                 });
             });
         }));
-        /* p = p.then(_ => new Promise(resolve => {
-        })); */
+        /*
+        p = p.then(_ => new Promise(resolve => {
+            resolve();
+        }));
+        */
     }
-}
-
-export function processaMaiorCodBarra(maiorCodBarra) {
-    const novoMaxCodBarra = maiorCodBarra.replace('HCF', '');
-    return parseInt(novoMaxCodBarra);
 }
