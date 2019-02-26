@@ -97,10 +97,10 @@ export function selectUmCodBarra(conexao) {
     return promessa.promise;
 }
 
-export function atualizaTabelaReflora(conexao, codBarra, json) {
+export function atualizaTabelaReflora(conexao, codBarra, json, valorContador) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.update(
-        { tombo_json: json, contador: 1 },
+        { tombo_json: json, contador: valorContador },
         { where: { cod_barra: codBarra } },
     );
 }
