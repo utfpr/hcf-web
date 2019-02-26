@@ -193,7 +193,6 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
 }
 
 export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
-    // const promessa = Q.defer();
     /**
      * 1.Só vai fazer a comparação se tiver resultado na resposta do reflora
      * 2.Gera o JSON das informações que são divergentes
@@ -201,6 +200,7 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
      * 4.Insere no banco de dados caso não exista (Falta habilitar)
      * (Parâmetros: id do usuário, status da aprovação, númerto do tombo e tombo no formato json)
      */
+    const promessa = Q.defer();
     if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
             if (nroTombo.length > 0) {
@@ -209,15 +209,21 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                 geraJsonAlteracao(conexao, getNroTombo, codBarra, getInformacaoReflora).then(alteracao => {
                     if (alteracao.length > 2) {
                         existeAlteracaoSugerida(conexao, getNroTombo, alteracao).then(existe => {
+                            // console.log(existe);
                             if (!existe) {
                                 insereAlteracaoSugerida(conexao, 15, 'ESPERANDO', getNroTombo, alteracao);
+                                // eslint-disable-next-line no-console
+                                console.log(alteracao);
+                                promessa.resolve();
                             }
+                            promessa.resolve();
                         });
                     }
                 });
             }
         });
     }
+    return promessa.promise;
 }
 
 export function fazComparacaoTombo(conexao) {
@@ -236,9 +242,10 @@ export function fazComparacaoTombo(conexao) {
             const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
             const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
             throttle(() => {
-                fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora);
-                atualizaJaComparouTabelaReflora(conexao, getCodBarra);
-                promessa.resolve(fazComparacaoTombo(conexao));
+                fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora).then(() => {
+                    atualizaJaComparouTabelaReflora(conexao, getCodBarra);
+                    promessa.resolve(fazComparacaoTombo(conexao));
+                });
             });
         }
     });

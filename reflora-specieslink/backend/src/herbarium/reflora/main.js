@@ -22,13 +22,12 @@ function main() {
     */
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 3)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 2)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
                         if (resultadoComparacao) {
-                            // eslint-disable-next-line no-console
-                            console.log(`b${resultadoComparacao}`);
+                            escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
                         }
                     });
                 }

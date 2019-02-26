@@ -6,7 +6,6 @@ import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
     atualizaTabelaReflora,
-    // contaNuloErroTabelaReflora
 } from '../database';
 
 /**
