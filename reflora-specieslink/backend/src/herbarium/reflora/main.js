@@ -4,6 +4,7 @@ import {
     insereTabelaReflora,
     selectCodBarra,
     apagaTabelaReflora,
+    existeTabelaReflora,
 } from '../database';
 import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
@@ -21,21 +22,27 @@ function main() {
      * 3.Com os resultados das requisições presentes no BD, faz a comparação dessas informações
      * Detalhe: comentário com duas barras (//) são usados para testes
     */
-    selectCodBarra(conexao).then(listaCodBarra => {
-        // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 2)).then(() => {
-            fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
-                if (resultadoRequisicaoReflora) {
-                    fazComparacaoTombo(conexao).then(resultadoComparacao => {
-                        if (resultadoComparacao) {
-                            escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
-                            apagaTabelaReflora(conexao);
-                        }
-                    });
-                }
+    existeTabelaReflora(conexao).then(existe => {
+        if (existe) {
+            process.exit(0);
+        }
+        selectCodBarra(conexao).then(listaCodBarra => {
+            // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+            insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+                fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
+                    if (resultadoRequisicaoReflora) {
+                        fazComparacaoTombo(conexao).then(resultadoComparacao => {
+                            if (resultadoComparacao) {
+                                escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
+                                apagaTabelaReflora(conexao);
+                            }
+                        });
+                    }
+                });
             });
         });
     });
+
 }
 
 main();

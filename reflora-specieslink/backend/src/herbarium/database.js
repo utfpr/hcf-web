@@ -80,6 +80,26 @@ export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
     return promessa.promise;
 }
 
+export function existeTabelaReflora(conexao) {
+    const promessa = Q.defer();
+    conexao.query('SHOW TABLES', { type: Sequelize.QueryTypes.SHOWTABLES }).then(listaTabelas => {
+        listaTabelas.forEach(tabelas => {
+            if (tabelas === 'reflora') {
+                promessa.resolve(true);
+            }
+        });
+        promessa.resolve(false);
+    });
+    return promessa.promise;
+}
+
+export function apagaTabelaReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    promessa.resolve(tabelaReflora.drop());
+    return promessa.promise;
+}
+
 export function selectUmCodBarra(conexao) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     const promessa = Q.defer();
@@ -405,11 +425,6 @@ export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idT
         });
     });
     return promessa.promise;
-}
-
-export function apagaTabelaReflora(conexao) {
-    const tabelaReflora = modeloReflora(conexao, Sequelize);
-    tabelaReflora.drop();
 }
 
 /**
