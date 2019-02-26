@@ -89,7 +89,6 @@ export function selectUmCodBarra(conexao) {
             where: { contador: 0 },
             limit: 1,
         }).then(codBarra => {
-            // callback(codBarra);
             promessa.resolve(codBarra);
         });
     });
@@ -408,18 +407,11 @@ export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idT
     return promessa.promise;
 }
 
-export function selectComparacoesFaltante(conexao) {
+export function apagaTabelaReflora(conexao) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaReflora.findAll({
-            where: { ja_comparou: false },
-        }).then(listaComparacoes => {
-            promessa.resolve(listaComparacoes);
-        });
-    });
-    return promessa.promise;
+    tabelaReflora.drop();
 }
+
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;
  * Além disso, o Sequelize funciona com modelos, cada tabela é um modelo.

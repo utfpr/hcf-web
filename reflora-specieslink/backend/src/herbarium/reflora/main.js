@@ -3,6 +3,7 @@ import {
     criaTabelaReflora,
     insereTabelaReflora,
     selectCodBarra,
+    apagaTabelaReflora,
 } from '../database';
 import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
@@ -28,6 +29,7 @@ function main() {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
                         if (resultadoComparacao) {
                             escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
+                            apagaTabelaReflora(conexao);
                         }
                     });
                 }
