@@ -741,15 +741,4 @@ export function existeAlteracaoSugerida(conexao, nroTombo, jsonGerado) {
     return promessa.promise;
 }
 
-export function getIdentificadorReflora(informacaoReflora) {
-    const identificadorReflora = informacaoReflora.identifiedby;
-    if (valorEhIndefinido(identificadorReflora) || valorEhNulo(identificadorReflora)) {
-        return -1;
-    }
-    if (identificadorReflora.length === 0) {
-        return -1;
-    }
-    return identificadorReflora;
-}
-
 // =======================================================

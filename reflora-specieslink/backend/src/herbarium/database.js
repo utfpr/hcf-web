@@ -41,7 +41,6 @@ export function selectCodBarra(conexao) {
         tabelaTomboFoto.findAll({
             attributes: ['num_barra'],
         }).then(listaCodBarra => {
-            // callback(codBarra);
             promessa.resolve(listaCodBarra);
         });
     });
@@ -392,12 +391,21 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
     return promessa.promise;
 }
 
-export function insereAlteracaoSugerida(conexao, idTombo, identificador, tomboJson) {
+export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idTombo, tomboJson) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
-    tabelaAlteracao.create({
-        tombo_hcf: idTombo,
-        tombo_json: tomboJson,
+    const throttle = throttledQueue(1, 200);
+    const promessa = Q.defer();
+    throttle(() => {
+        tabelaAlteracao.create({
+            usuario_id: idUsuario,
+            status: statusAlteracao,
+            tombo_hcf: idTombo,
+            tombo_json: tomboJson,
+        }).then(() => {
+            promessa.resolve();
+        });
     });
+    return promessa.promise;
 }
 
 export function selectComparacoesFaltante(conexao) {

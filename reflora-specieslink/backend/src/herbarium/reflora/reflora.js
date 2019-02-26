@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import request from 'request';
 import Q from 'q';
-// import throttledQueue from 'throttled-queue';
+import throttledQueue from 'throttled-queue';
 import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
@@ -9,7 +9,11 @@ import {
     // contaNuloErroTabelaReflora
 } from '../database';
 
-/* Quando 'converte' ele formata o unicode */
+/**
+ * Essa função converte o resultado da resposta que é string
+ * para o formato JSON. Nessa conversão aparece os acentos presentes nas palavras.
+ * @param {*} responseReflora, resposta com conteúdo do tombo presente no Reflora.
+ */
 export function processaRespostaReflora(responseReflora) {
     return JSON.parse(responseReflora);
 }
@@ -42,7 +46,7 @@ export function salvaRespostaReflora(nomeArquivo, conexao, codBarra, error, resp
 
 export function fazRequisicaoReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
-    // const throttle = throttledQueue(1, 1000);
+    const throttle = throttledQueue(1, 1000);
     selectUmCodBarra(conexao).then(codBarra => {
         if (codBarra.length === 0) {
             promessa.resolve(true);
@@ -50,13 +54,12 @@ export function fazRequisicaoReflora(conexao, nomeArquivo) {
             const getCodBarra = codBarra[0].dataValues.cod_barra;
             // eslint-disable-next-line no-console
             console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
-            // throttle(() => {
-            request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
-                salvaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
-                promessa.resolve(fazRequisicaoReflora(conexao, nomeArquivo));
-                // promessa.resolve();
+            throttle(() => {
+                request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+                    salvaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
+                    promessa.resolve(fazRequisicaoReflora(conexao, nomeArquivo));
+                });
             });
-            // });
         }
     });
     return promessa.promise;
