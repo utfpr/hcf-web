@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
-// import request from 'request';
-// import throttledQueue from 'throttled-queue';
+import request from 'request';
 import Q from 'q';
+// import throttledQueue from 'throttled-queue';
 import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
@@ -31,26 +31,47 @@ export function temProblemaRespostaReflora(nomeArquivo, conexao, codBarra, error
 
 export function fazRequisicaoReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
-    // const throttle = throttledQueue(1, 1000);
-    // throttle(() => {
+    // const p = Promise.resolve();
+    // p.then(_ => new Promise(resolve => {
     selectUmCodBarra(conexao).then(codBarra => {
-        // eslint-disable-next-line no-console
-        console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
         if (codBarra.length === 0) {
-            promessa.resolve();
-            return promessa.promise;
+            promessa.resolve(1);
+            // temProblemaRespostaReflora.res
+        } else {
+            const getCodBarra = codBarra[0].dataValues.cod_barra;
+            // eslint-disable-next-line no-console
+            console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
+            request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+                temProblemaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
+                promessa.resolve(fazRequisicaoReflora(conexao, nomeArquivo));
+                // promessa.resolve();
+            });
         }
-        // eslint-disable-next-line no-console
-        console.log('ainda existem');
+    });
+    // }));
+    return promessa.promise;
+    // const promessa = Q.defer();
+    // const throttle = throttledQueue(1, 1000);
+    /* selectUmCodBarra(conexao).then(codBarra => {
+        if (codBarra.length === 0) {
+            promessa.resolve(true);
+        }
         const getCodBarra = codBarra[0].dataValues.cod_barra;
         // eslint-disable-next-line no-console
         console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
-        atualizaTabelaReflora(conexao, getCodBarra, 'b');
-        fazRequisicaoReflora(conexao, nomeArquivo);
+        // atualizaTabelaReflora(conexao, getCodBarra, 'b');
+        // throttle(() => {
+        request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+            temProblemaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
+            fazRequisicaoReflora(conexao, nomeArquivo);
+            promessa.resolve();
+        });
+        // });
         return promessa.promise;
-    });
+    }); */
+    // return promessa.promise;
     // });
-    return promessa.promise;
+    // return promessa.promise;
     // export function fazRequisicaoReflora(conexao, nomeArquivo, quantidadeCodBarra) {
     /* const throttle = throttledQueue(1, 4000);
     const promessa = Q.defer();

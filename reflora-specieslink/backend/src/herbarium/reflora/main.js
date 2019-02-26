@@ -22,8 +22,15 @@ function main() {
     */
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 30)).then(() => {
-            fazRequisicaoReflora(conexao, nomeArquivo);
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 3)).then(async () => {
+            fazRequisicaoReflora(conexao, nomeArquivo).then(b => {
+                // eslint-disable-next-line no-console
+                console.log('=================================================================');
+                // eslint-disable-next-line no-console
+                console.log(`${b}`);
+                // eslint-disable-next-line no-console
+                console.log('=================================================================');
+            });
             /* fazRequisicaoReflora(conexao, nomeArquivo, listaCodBarra.length).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao, listaCodBarra.length);
