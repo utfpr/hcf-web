@@ -35,6 +35,7 @@ function main() {
                             if (resultadoComparacao) {
                                 escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
                                 apagaTabelaReflora(conexao);
+                                process.exit(0);
                             }
                         });
                     }
