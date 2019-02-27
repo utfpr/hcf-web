@@ -1,3 +1,4 @@
+import Q from 'q';
 import {
     criaConexao,
     criaTabelaReflora,
@@ -10,7 +11,8 @@ import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
 import { getNomeArquivo, escreveLOG } from '../log';
 
-function main() {
+function comecaReflora() {
+    const promessa = Q.defer();
     const nomeArquivo = getNomeArquivo();
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do {Reflora}.');
     const conexao = criaConexao();
@@ -28,22 +30,34 @@ function main() {
         const tabelaReflora = criaTabelaReflora(conexao);
         selectCodBarra(conexao).then(listaCodBarra => {
             // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-            insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 50)).then(() => {
+            insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
                 fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                     if (resultadoRequisicaoReflora) {
                         fazComparacaoTombo(conexao).then(resultadoComparacao => {
                             if (resultadoComparacao) {
                                 escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
                                 apagaTabelaReflora(conexao);
-                                // process.exit(0);
+                                promessa.resolve();
+                            } else {
+                                apagaTabelaReflora(conexao);
+                                promessa.resolve();
                             }
                         });
+                    } else {
+                        apagaTabelaReflora(conexao);
+                        promessa.resolve();
                     }
                 });
             });
         });
     });
+    return promessa.promise;
+}
 
+function main() {
+    comecaReflora().then(() => {
+        process.exit(0);
+    });
 }
 
 main();
