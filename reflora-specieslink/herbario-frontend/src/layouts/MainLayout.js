@@ -148,6 +148,26 @@ export default class MainLayout extends Component {
 								<span>Darwin Core</span>
 							</Link>
 						</Menu.Item>
+						{/**
+						 * Adicionando ao menu lateral o botão de serviços,
+						 * Reflora e speciesLink.
+						 */}
+						<SubMenu
+							key="servicos"
+							title={
+								<span>
+									<Icon type="search" />
+									<span>Serviços</span>
+								</span>
+							}
+						>
+							<Menu.Item key="20">
+								<Link to="/reflora">Reflora</Link>
+							</Menu.Item>
+							<Menu.Item key="21">
+								<Link to="/subfamilias">speciesLink</Link>
+							</Menu.Item>
+						</SubMenu>
 						{isLogado() ? (
 							<Menu.Item key="17">
 								<Link to="/inicio">

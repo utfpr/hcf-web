@@ -24,6 +24,8 @@ import NovoHerbarioScreen from './pages/NovoHerbarioScreen';
 import LivroTomboScreen from './pages/LivroTomboScreen';
 import PendenciaPagina from './pages/VerPendenciaScreen';
 
+import ListaServicosRefloraScreen from './pages/ListaServicosRefloraScreen';
+
 import ListaTaxonomiaEspecie from './pages/ListaTaxonomiaEspecie';
 import ListaTaxonomiaFamilia from './pages/ListaTaxonomiaFamilia';
 import ListaTaxonomiaGenero from './pages/ListaTaxonomiaGenero';
@@ -110,6 +112,8 @@ export default class App extends Component {
                 <Route path="/subfamilias" component={ListaTaxonomiaSubfamilia} />
                 <Route path="/variedades" component={ListaTaxonomiaVariedade} />
                 <Route path="/autores" component={ListaTaxonomiaAutores} />
+
+                <Route path="/reflora" component={ListaServicosRefloraScreen} />
 
             </Switch>
         </MainLayout>
