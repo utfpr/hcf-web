@@ -37,7 +37,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                         </Col>
                         <Col span={6} >
                             <FormItem>
-                                <Button size="small" type="primary">
+                                <Button size="small" type="primary" style={{ right: '60px' }}>
                                     Enviar arquivo
 								</Button>
                             </FormItem>
