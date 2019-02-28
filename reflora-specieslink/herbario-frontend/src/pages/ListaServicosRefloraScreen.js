@@ -24,7 +24,7 @@ class ListaServicosRefloraScreen extends Component {
     renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
             <Card title="Buscar informações no Reflora">
-                <Form onSubmit={this.onSubmit}>
+                <Form onSubmit={this.onSubmit} className="login-form">
                     <Row justifyContent="space-between" gutter={6}>
                         <Col span={6}>
                             <span>Deseja atualizar agora?</span>
@@ -35,14 +35,23 @@ class ListaServicosRefloraScreen extends Component {
 							</Button>
                         </Col>
                     </Row>
-                    <Row justifyContent="space-between" gutter={8}>
-                        <Col style={{ height: '40px' }} span={6}>
+                </Form>
+
+                <Form onSubmit={this.onSubmit} className="login-form">
+
+                    <Row gutter={8}>
+                        <Col span={6} style={{ top: '21px' }}>
                             <span>Atualização automática</span>
                         </Col>
-                        <Col style={{ height: '40px' }} span={6}>
-                            <Switch defaultChecked={false} /> 
+                        <Col span={6} style={{ top: '15px', left: '170px' }}>
+                            <FormItem>
+                                {getFieldDecorator('horas')(
+                                    <Switch defaultChecked={false} />
+                                )}
+                            </FormItem>
                         </Col>
                     </Row>
+
                     <Row gutter={8}>
                         <Col span={6}>
                             <span>Horas:</span>
