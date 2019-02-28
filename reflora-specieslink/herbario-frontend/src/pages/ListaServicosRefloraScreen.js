@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    Input, Button, Select,
+    Input, Button, Select, Switch,
 } from 'antd';
 import HeaderListComponent from '../components/HeaderListComponent';
 
@@ -21,26 +21,28 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
-    renderPainelBuscarImediatamente(getFieldDecorator) {
+    renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
-            <Card title="Buscar informações imediatamente">
+            <Card title="Buscar informações no Reflora">
                 <Form onSubmit={this.onSubmit}>
-                    <Row gutter={8}>
+                    <Row justifyContent="space-between" gutter={6}>
+                        <Col span={6}>
+                            <span>Deseja atualizar agora?</span>
+                        </Col>
                         <Col span={6}>
                             <Button type="primary" htmlType="submit" className="login-form-button">
-                                Definir
+                                Atualizar
 							</Button>
                         </Col>
                     </Row>
-                </Form>
-            </Card>
-        )
-    }
-
-    renderPainelBuscarAutomatico(getFieldDecorator) {
-        return (
-            <Card title="Programar a busca de informações">
-                <Form onSubmit={this.onSubmit}>
+                    <Row justifyContent="space-between" gutter={8}>
+                        <Col style={{ height: '40px' }} span={6}>
+                            <span>Atualização automática</span>
+                        </Col>
+                        <Col style={{ height: '40px' }} span={6}>
+                            <Switch defaultChecked={false} /> 
+                        </Col>
+                    </Row>
                     <Row gutter={8}>
                         <Col span={6}>
                             <span>Horas:</span>
@@ -81,7 +83,6 @@ class ListaServicosRefloraScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('periodicidade')(
                                     <Select defaultValue="Diariamente" style={{ width: 383.25 }} >
-                                        <Option value="Diariamente">Diariamente</Option>
                                         <Option value="Semanalmente">Semanalmente</Option>
                                         <Option value="Mensalmente">Mensalmente</Option>
                                     </Select>
@@ -90,38 +91,6 @@ class ListaServicosRefloraScreen extends Component {
                         </Col>
                     </Row>
 
-                    <Row>
-                        <Col span={24}>
-                            <Row type="flex" justify="end">
-                                <Col span={4} style={{ marginRight: '10px' }}>
-                                    <FormItem>
-                                        <Button
-                                            onClick={() => {
-                                                this.props.form.resetFields();
-                                                this.setState({
-                                                    pagina: 1,
-                                                    valores: {},
-                                                    metadados: {},
-                                                    usuarios: []
-                                                })
-                                                this.requisitaListaTaxonomias({}, 1);
-                                            }}
-                                            className="login-form-button"
-                                        >
-                                            Limpar
-									    </Button>
-                                    </FormItem>
-                                </Col>
-                                <Col span={4}>
-                                    <FormItem>
-                                        <Button type="primary" htmlType="submit" className="login-form-button">
-                                            Definir
-									</Button>
-                                    </FormItem>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
                 </Form>
             </Card>
         )
@@ -133,9 +102,7 @@ class ListaServicosRefloraScreen extends Component {
             <Form onSubmit={this.onSubmit}>
                 <HeaderListComponent title={"Reflora"} link={"/reflora/novo"} />
                 <Divider dashed />
-                {this.renderPainelBuscarImediatamente(getFieldDecorator)}
-                <Divider dashed />
-                {this.renderPainelBuscarAutomatico(getFieldDecorator)}
+                {this.renderPainelBuscarInformacoes(getFieldDecorator)}
                 <Divider dashed />
             </Form>
         );
