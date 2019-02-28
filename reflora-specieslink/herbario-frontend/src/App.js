@@ -25,6 +25,7 @@ import LivroTomboScreen from './pages/LivroTomboScreen';
 import PendenciaPagina from './pages/VerPendenciaScreen';
 
 import ListaServicosRefloraScreen from './pages/ListaServicosRefloraScreen';
+import ListaServicosSpeciesLinkScreen from './pages/ListaServicosSpeciesLinkScreen';
 
 import ListaTaxonomiaEspecie from './pages/ListaTaxonomiaEspecie';
 import ListaTaxonomiaFamilia from './pages/ListaTaxonomiaFamilia';
@@ -114,6 +115,7 @@ export default class App extends Component {
                 <Route path="/autores" component={ListaTaxonomiaAutores} />
 
                 <Route path="/reflora" component={ListaServicosRefloraScreen} />
+                <Route path="/specieslink" component={ListaServicosSpeciesLinkScreen} />
 
             </Switch>
         </MainLayout>

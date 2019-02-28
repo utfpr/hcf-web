@@ -165,7 +165,7 @@ export default class MainLayout extends Component {
 								<Link to="/reflora">Reflora</Link>
 							</Menu.Item>
 							<Menu.Item key="21">
-								<Link to="/subfamilias">speciesLink</Link>
+								<Link to="/specieslink">speciesLink</Link>
 							</Menu.Item>
 						</SubMenu>
 						{isLogado() ? (
