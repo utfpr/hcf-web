@@ -17,11 +17,16 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
-    handleGameClik() {
+    /**
+     * 1.Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert;
+     * 2.O switch da atualização automática, usa essa função, que quando clicado alterado o estado;
+     * 2.1 O estado inicial do switch tá definido no construtor.
+     * */
+
+    handleSwitch() {
         this.setState({ disabled: !this.state.disabled })
     }
 
-    /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
     renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
             <Card title="Buscar informações no Reflora">
@@ -41,7 +46,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            <Switch onChange={this.handleGameClik.bind(this)} />
+                            <Switch onChange={this.handleSwitch.bind(this)} />
                         </FormItem>
                     </Col>
                 </Row>
