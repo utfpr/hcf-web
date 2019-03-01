@@ -55,12 +55,6 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Horas:</span>
                     </Col>
                     <Col span={6}>
-                        <span>Minutos:</span>
-                    </Col>
-                    <Col span={6}>
-                        <span>Segundos:</span>
-                    </Col>
-                    <Col span={6}>
                         <span>Periodicidade:</span>
                     </Col>
                 </Row>
@@ -72,26 +66,6 @@ class ListaServicosRefloraScreen extends Component {
                                 disabled={this.state.disabled}
                                 placeholder={"Insira a hora desejada"} type="number"
                                 min="0" max="23"
-                            />
-                        </FormItem>
-                    </Col>
-                    <Col span={6}>
-                        <FormItem>
-                            <Input
-                                setfieldsvalue="0"
-                                disabled={this.state.disabled}
-                                placeholder={"Insira os minutos desejados"} type="number"
-                                min="0" max="59"
-                            />
-                        </FormItem>
-                    </Col>
-                    <Col span={6}>
-                        <FormItem>
-                            <Input
-                                setfieldsvalue="0"
-                                disabled={this.state.disabled}
-                                placeholder={"Insira os segundos desejados"} type="number"
-                                min="0" max="60"
                             />
                         </FormItem>
                     </Col>
