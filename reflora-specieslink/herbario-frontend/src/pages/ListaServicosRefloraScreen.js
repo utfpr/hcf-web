@@ -44,11 +44,11 @@ class ListaServicosRefloraScreen extends Component {
 							</Button>
                     </Col>
                 </Row>
-                <Row gutter={8}>
+                <Row gutter={6}>
                     <Col span={6} style={{ top: '21px' }}>
                         <span>Atualização automática</span>
                     </Col>
-                    <Col span={6} style={{ top: '15px', left: '170px' }}>
+                    <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
                             {getFieldDecorator('horas')(
                                 <Switch defaultChecked onChange={this.onChange} />
@@ -107,7 +107,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <FormItem>
                             {getFieldDecorator('periodicidade')(
-                                <Select setfieldsvalue="Semanalmente" style={{ width: 383.25 }} >
+                                <Select setfieldsvalue="Semanalmente" >
                                     <Option value="Semanalmente">Semanalmente</Option>
                                     <Option value="Mensalmente">Mensalmente</Option>
                                 </Select>
