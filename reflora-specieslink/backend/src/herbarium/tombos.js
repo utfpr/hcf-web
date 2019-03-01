@@ -211,7 +211,7 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                         existeAlteracaoSugerida(conexao, getNroTombo, alteracao).then(existe => {
                             // console.log(existe);
                             if (!existe) {
-                                insereAlteracaoSugerida(conexao, 15, 'ESPERANDO', getNroTombo, alteracao);
+                                insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', getNroTombo, alteracao);
                                 // eslint-disable-next-line no-console
                                 console.log(alteracao);
                                 promessa.resolve();
