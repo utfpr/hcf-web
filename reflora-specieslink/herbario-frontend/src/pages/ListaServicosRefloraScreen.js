@@ -77,6 +77,11 @@ class ListaServicosRefloraScreen extends Component {
                             </Select>
                         </FormItem>
                     </Col>
+                    <Col span={6}>
+                        <FormItem>
+                            <span>A última atualização foi HH:MM:SS DD/MM/YYYY</span>
+                        </FormItem>
+                    </Col>
                 </Row>
 
             </Card>
