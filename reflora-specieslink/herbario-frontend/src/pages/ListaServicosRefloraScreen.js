@@ -12,23 +12,14 @@ class ListaServicosRefloraScreen extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { disabled: false }
-    }
-
-    onChange = checked => {
-        console.log(`switch to ${checked}`);
-    }
-
-    handleSubmit = (err, valores) => {
-        if (!err) {
-            console.log(`switch to ${valores}`);
+        this.state = {
+            disabled: true,
         }
     }
 
-    onSubmit = event => {
-        event.preventDefault();
-        this.props.form.validateFields(this.handleSubmit);
-    };
+    handleGameClik() {
+        this.setState({ disabled: !this.state.disabled })
+    }
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
     renderPainelBuscarInformacoes(getFieldDecorator) {
@@ -50,9 +41,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            {getFieldDecorator('horas')(
-                                <Switch defaultChecked onChange={this.onChange} />
-                            )}
+                            <Switch onChange={this.handleGameClik.bind(this)} />
                         </FormItem>
                     </Col>
                 </Row>
@@ -73,45 +62,40 @@ class ListaServicosRefloraScreen extends Component {
                 <Row gutter={8}>
                     <Col span={6}>
                         <FormItem>
-                            {getFieldDecorator('horas')(
-                                <Input
-                                    setfieldsvalue="0"
-                                    placeholder={"Insira a hora desejada"} type="number"
-                                    min="0" max="23"
-                                />
-                            )}
+                            <Input
+                                setfieldsvalue="0"
+                                disabled={this.state.disabled}
+                                placeholder={"Insira a hora desejada"} type="number"
+                                min="0" max="23"
+                            />
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            {getFieldDecorator('minutos')(
-                                <Input
-                                    setfieldsvalue="0"
-                                    placeholder={"Insira os minutos desejados"} type="number"
-                                    min="0" max="59"
-                                />
-                            )}
+                            <Input
+                                setfieldsvalue="0"
+                                disabled={this.state.disabled}
+                                placeholder={"Insira os minutos desejados"} type="number"
+                                min="0" max="59"
+                            />
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            {getFieldDecorator('segundos')(
-                                <Input
-                                    setfieldsvalue="0"
-                                    placeholder={"Insira os segundos desejados"} type="number"
-                                    min="0" max="60"
-                                />
-                            )}
+                            <Input
+                                setfieldsvalue="0"
+                                disabled={this.state.disabled}
+                                placeholder={"Insira os segundos desejados"} type="number"
+                                min="0" max="60"
+                            />
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            {getFieldDecorator('periodicidade')(
-                                <Select setfieldsvalue="Semanalmente" >
-                                    <Option value="Semanalmente">Semanalmente</Option>
-                                    <Option value="Mensalmente">Mensalmente</Option>
-                                </Select>
-                            )}
+                            <Select defaultValue="Semanalmente" disabled={this.state.disabled}>
+                                <Option value="Semanalmente">Semanalmente</Option>
+                                <Option value="Mensalmente">Mensalmente</Option>
+                            </Select>
                         </FormItem>
                     </Col>
                 </Row>
