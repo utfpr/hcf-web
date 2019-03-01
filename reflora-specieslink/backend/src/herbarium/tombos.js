@@ -222,6 +222,8 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                 });
             }
         });
+    } else {
+        promessa.resolve();
     }
     return promessa.promise;
 }

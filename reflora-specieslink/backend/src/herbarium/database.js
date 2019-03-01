@@ -66,6 +66,7 @@ export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
         throttle(() => {
             tabelaReflora.create({
                 cod_barra: codBarra.dataValues.num_barra,
+                // cod_barra: 'HCF000017582',
                 tombo_json: null,
                 contador: 0,
             }).then(() => {
