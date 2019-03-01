@@ -23,7 +23,7 @@ const columns = [
         key: "subfamilia"
     },
     {
-        title: "Gênerossss",
+        title: "Gêneros",
         type: "text",
         key: "genero"
     },

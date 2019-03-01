@@ -12,20 +12,30 @@ class ListaServicosRefloraScreen extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            taxonomias: [],
-            metadados: {},
-            loading: true,
-            pagina: 1
+        this.state = { disabled: false }
+    }
+
+    onChange = checked => {
+        console.log(`switch to ${checked}`);
+    }
+
+    handleSubmit = (err, valores) => {
+        if (!err) {
+            console.log(`switch to ${valores}`);
         }
     }
+
+    onSubmit = event => {
+        event.preventDefault();
+        this.props.form.validateFields(this.handleSubmit);
+    };
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
     renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
             <Card title="Buscar informações no Reflora">
-                <Form onSubmit={this.onSubmit} className="login-form">
-                    <Row justifyContent="space-between" gutter={6}>
+                <Form onSubmit={this.onSubmit}>
+                    <Row gutter={6}>
                         <Col span={6}>
                             <span>Deseja atualizar agora?</span>
                         </Col>
@@ -35,10 +45,6 @@ class ListaServicosRefloraScreen extends Component {
 							</Button>
                         </Col>
                     </Row>
-                </Form>
-
-                <Form onSubmit={this.onSubmit} className="login-form">
-
                     <Row gutter={8}>
                         <Col span={6} style={{ top: '21px' }}>
                             <span>Atualização automática</span>
@@ -46,12 +52,11 @@ class ListaServicosRefloraScreen extends Component {
                         <Col span={6} style={{ top: '15px', left: '170px' }}>
                             <FormItem>
                                 {getFieldDecorator('horas')(
-                                    <Switch defaultChecked={false} />
+                                    <Switch defaultChecked onChange={this.onChange} />
                                 )}
                             </FormItem>
                         </Col>
                     </Row>
-
                     <Row gutter={8}>
                         <Col span={6}>
                             <span>Horas:</span>
@@ -70,28 +75,40 @@ class ListaServicosRefloraScreen extends Component {
                         <Col span={6}>
                             <FormItem>
                                 {getFieldDecorator('horas')(
-                                    <Input placeholder={"Insira a hora desejada"} type="number" min="0" max="23" />
+                                    <Input
+                                        setfieldsvalue="0"
+                                        placeholder={"Insira a hora desejada"} type="number"
+                                        min="0" max="23"
+                                    />
                                 )}
                             </FormItem>
                         </Col>
                         <Col span={6}>
                             <FormItem>
                                 {getFieldDecorator('minutos')(
-                                    <Input placeholder={"Insira os minutos desejados"} type="number" min="0" max="59" />
+                                    <Input
+                                        setfieldsvalue="0"
+                                        placeholder={"Insira os minutos desejados"} type="number"
+                                        min="0" max="59"
+                                    />
                                 )}
                             </FormItem>
                         </Col>
                         <Col span={6}>
                             <FormItem>
                                 {getFieldDecorator('segundos')(
-                                    <Input placeholder={"Insira os segundos desejados"} type="number" min="0" max="60" />
+                                    <Input
+                                        setfieldsvalue="0"
+                                        placeholder={"Insira os segundos desejados"} type="number"
+                                        min="0" max="60"
+                                    />
                                 )}
                             </FormItem>
                         </Col>
                         <Col span={6}>
                             <FormItem>
                                 {getFieldDecorator('periodicidade')(
-                                    <Select defaultValue="Diariamente" style={{ width: 383.25 }} >
+                                    <Select setfieldsvalue="Semanalmente" style={{ width: 383.25 }} >
                                         <Option value="Semanalmente">Semanalmente</Option>
                                         <Option value="Mensalmente">Mensalmente</Option>
                                     </Select>
@@ -99,7 +116,6 @@ class ListaServicosRefloraScreen extends Component {
                             </FormItem>
                         </Col>
                     </Row>
-
                 </Form>
             </Card>
         )
