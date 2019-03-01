@@ -34,89 +34,88 @@ class ListaServicosRefloraScreen extends Component {
     renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
             <Card title="Buscar informações no Reflora">
-                <Form onSubmit={this.onSubmit}>
-                    <Row gutter={6}>
-                        <Col span={6}>
-                            <span>Deseja atualizar agora?</span>
-                        </Col>
-                        <Col span={6}>
-                            <Button type="primary" htmlType="submit" className="login-form-button">
-                                Atualizar
+                <Row gutter={6}>
+                    <Col span={6}>
+                        <span>Deseja atualizar agora?</span>
+                    </Col>
+                    <Col span={6}>
+                        <Button type="primary" htmlType="submit" className="login-form-button">
+                            Atualizar
 							</Button>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={6} style={{ top: '21px' }}>
-                            <span>Atualização automática</span>
-                        </Col>
-                        <Col span={6} style={{ top: '15px', left: '170px' }}>
-                            <FormItem>
-                                {getFieldDecorator('horas')(
-                                    <Switch defaultChecked onChange={this.onChange} />
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={6}>
-                            <span>Horas:</span>
-                        </Col>
-                        <Col span={6}>
-                            <span>Minutos:</span>
-                        </Col>
-                        <Col span={6}>
-                            <span>Segundos:</span>
-                        </Col>
-                        <Col span={6}>
-                            <span>Periodicidade:</span>
-                        </Col>
-                    </Row>
-                    <Row gutter={8}>
-                        <Col span={6}>
-                            <FormItem>
-                                {getFieldDecorator('horas')(
-                                    <Input
-                                        setfieldsvalue="0"
-                                        placeholder={"Insira a hora desejada"} type="number"
-                                        min="0" max="23"
-                                    />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={6}>
-                            <FormItem>
-                                {getFieldDecorator('minutos')(
-                                    <Input
-                                        setfieldsvalue="0"
-                                        placeholder={"Insira os minutos desejados"} type="number"
-                                        min="0" max="59"
-                                    />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={6}>
-                            <FormItem>
-                                {getFieldDecorator('segundos')(
-                                    <Input
-                                        setfieldsvalue="0"
-                                        placeholder={"Insira os segundos desejados"} type="number"
-                                        min="0" max="60"
-                                    />
-                                )}
-                            </FormItem>
-                        </Col>
-                        <Col span={6}>
-                            <FormItem>
-                                {getFieldDecorator('periodicidade')(
-                                    <Select setfieldsvalue="Semanalmente" style={{ width: 383.25 }} >
-                                        <Option value="Semanalmente">Semanalmente</Option>
-                                        <Option value="Mensalmente">Mensalmente</Option>
-                                    </Select>
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Row>
-                </Form>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
+                    <Col span={6} style={{ top: '21px' }}>
+                        <span>Atualização automática</span>
+                    </Col>
+                    <Col span={6} style={{ top: '15px', left: '170px' }}>
+                        <FormItem>
+                            {getFieldDecorator('horas')(
+                                <Switch defaultChecked onChange={this.onChange} />
+                            )}
+                        </FormItem>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
+                    <Col span={6}>
+                        <span>Horas:</span>
+                    </Col>
+                    <Col span={6}>
+                        <span>Minutos:</span>
+                    </Col>
+                    <Col span={6}>
+                        <span>Segundos:</span>
+                    </Col>
+                    <Col span={6}>
+                        <span>Periodicidade:</span>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
+                    <Col span={6}>
+                        <FormItem>
+                            {getFieldDecorator('horas')(
+                                <Input
+                                    setfieldsvalue="0"
+                                    placeholder={"Insira a hora desejada"} type="number"
+                                    min="0" max="23"
+                                />
+                            )}
+                        </FormItem>
+                    </Col>
+                    <Col span={6}>
+                        <FormItem>
+                            {getFieldDecorator('minutos')(
+                                <Input
+                                    setfieldsvalue="0"
+                                    placeholder={"Insira os minutos desejados"} type="number"
+                                    min="0" max="59"
+                                />
+                            )}
+                        </FormItem>
+                    </Col>
+                    <Col span={6}>
+                        <FormItem>
+                            {getFieldDecorator('segundos')(
+                                <Input
+                                    setfieldsvalue="0"
+                                    placeholder={"Insira os segundos desejados"} type="number"
+                                    min="0" max="60"
+                                />
+                            )}
+                        </FormItem>
+                    </Col>
+                    <Col span={6}>
+                        <FormItem>
+                            {getFieldDecorator('periodicidade')(
+                                <Select setfieldsvalue="Semanalmente" style={{ width: 383.25 }} >
+                                    <Option value="Semanalmente">Semanalmente</Option>
+                                    <Option value="Mensalmente">Mensalmente</Option>
+                                </Select>
+                            )}
+                        </FormItem>
+                    </Col>
+                </Row>
+
             </Card>
         )
     }
