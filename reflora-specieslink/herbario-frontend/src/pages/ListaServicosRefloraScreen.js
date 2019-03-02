@@ -3,6 +3,7 @@ import {
     Divider, Card, Row, Col, Form,
     Input, Button, Select, Switch,
 } from 'antd';
+import axios from 'axios';
 import HeaderListComponent from '../components/HeaderListComponent';
 
 const FormItem = Form.Item;
@@ -27,6 +28,13 @@ class ListaServicosRefloraScreen extends Component {
         this.setState({ disabled: !this.state.disabled })
     }
 
+    compareReflora() {
+        axios.get('/reflora')
+            .then(response => {
+                console.log(`b${response}`)
+            });
+    }
+
     renderPainelBuscarInformacoes(getFieldDecorator) {
         return (
             <Card title="Buscar informações no Reflora">
@@ -35,9 +43,9 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type="primary" htmlType="submit" className="login-form-button">
+                        <Button type="primary" htmlType="submit" className="login-form-button" onClick={this.compareReflora}>
                             Atualizar
-							</Button>
+						</Button>
                     </Col>
                 </Row>
                 <Row gutter={6}>
@@ -62,7 +70,6 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <FormItem>
                             <Input
-                                setfieldsvalue="0"
                                 disabled={this.state.disabled}
                                 placeholder={"Insira a hora desejada"} type="number"
                                 min="0" max="23"
