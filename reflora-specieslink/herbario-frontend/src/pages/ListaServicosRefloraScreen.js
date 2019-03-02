@@ -84,9 +84,16 @@ class ListaServicosRefloraScreen extends Component {
                             </Select>
                         </FormItem>
                     </Col>
-                    <Col span={6}>
+                    <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
                             <span style={{ fontWeight: "bold" }}>A última atualização foi HH:MM:SS DD/MM/YYYY</span>
+                        </FormItem>
+                    </Col>
+                    <Col span={6}>
+                        <FormItem>
+                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.disabled}>
+                                Verificar LOG de saída
+                            </Button>
                         </FormItem>
                     </Col>
                 </Row>

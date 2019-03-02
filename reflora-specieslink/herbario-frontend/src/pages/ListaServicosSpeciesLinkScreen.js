@@ -35,12 +35,19 @@ class ListaServicosSpeciesLinkScreen extends Component {
                                 </Upload>
                             )}
                         </Col>
-                        <Col span={8}>
+                        <Col span={8} style={{ textAlign: 'center' }}>
                             <FormItem>
                                 <Button type="primary" style={{ right: '60px' }}>
                                     Enviar arquivo
 								</Button>
                                 <span style={{ fontWeight: "bold" }}>A última atualização foi HH:MM:SS DD/MM/YYYY</span>
+                            </FormItem>
+                        </Col>
+                        <Col span={6}>
+                            <FormItem>
+                                <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.disabled}>
+                                    Verificar LOG de saída
+                                </Button>
                             </FormItem>
                         </Col>
                     </Row>
