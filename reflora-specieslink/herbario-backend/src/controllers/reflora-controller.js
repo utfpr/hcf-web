@@ -1,6 +1,7 @@
+const Reflora = require('../herbarium/reflora/main');
+
 export function chamaReflora() {
-    // eslint-disable-next-line no-console
-    console.log('reflora');
+    Reflora.main();
 }
 
 export default {};

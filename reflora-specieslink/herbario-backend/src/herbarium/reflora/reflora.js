@@ -52,7 +52,7 @@ export function fazRequisicaoReflora(conexao, nomeArquivo) {
         } else {
             const getCodBarra = codBarra[0].dataValues.cod_barra;
             // eslint-disable-next-line no-console
-            console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
+            // console.log(`codBarra atual:${codBarra[0].dataValues.cod_barra}`);
             throttle(() => {
                 request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
                     salvaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
