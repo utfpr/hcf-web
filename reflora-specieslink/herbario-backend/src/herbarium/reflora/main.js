@@ -9,12 +9,17 @@ import {
 } from '../database';
 import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
-import { getNomeArquivo, escreveLOG } from '../log';
+import {
+    getNomeArquivo,
+    escreveLOG,
+    leLOG,
+    transformaLog,
+} from '../log';
 
-function comecaReflora() {
+function comecaReflora(nomeArquivo) {
     const promessa = Q.defer();
-    const nomeArquivo = getNomeArquivo();
-    escreveLOG(nomeArquivo, 'Inicializando a aplicação do {Reflora}.');
+    // const nomeArquivo = getNomeArquivo();
+    escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
     const conexao = criaConexao();
 
     /**
@@ -36,7 +41,7 @@ function comecaReflora() {
                         if (resultadoRequisicaoReflora) {
                             fazComparacaoTombo(conexao).then(resultadoComparacao => {
                                 if (resultadoComparacao) {
-                                    escreveLOG(nomeArquivo, 'O processo de comparação do {Reflora} acabou.');
+                                    escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
                                     apagaTabelaReflora(conexao).then(() => {
                                         promessa.resolve();
                                     });
@@ -52,7 +57,12 @@ function comecaReflora() {
 }
 
 export function main() {
-    comecaReflora();
+    const promessa = Q.defer();
+    const nomeArquivo = getNomeArquivo();
+    comecaReflora(nomeArquivo).then(() => {
+        promessa.resolve(transformaLog(leLOG(nomeArquivo)));
+    });
+    return promessa.promise;
 }
 
 export default {};

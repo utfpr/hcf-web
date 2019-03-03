@@ -15,6 +15,8 @@ class ListaServicosRefloraScreen extends Component {
         super(props);
         this.state = {
             disabled: true,
+            /* O botão de atualizar ele vem habilitado */
+            botaoAtualizar: false,
         }
     }
 
@@ -25,14 +27,21 @@ class ListaServicosRefloraScreen extends Component {
      * */
 
     handleSwitch() {
-        this.setState({ disabled: !this.state.disabled })
+        this.setState({ disabled: !this.state.disabled });
     }
 
-    compareReflora() {
-        axios.get('/reflora')
-            .then(response => {
-                console.log(`b${response}`)
-            });
+    compareReflora = () => {
+        /* Quando eu clico nele eu desabilito o botão de atualizar */
+        console.log(this.state.botaoAtualizar);
+        this.setState({ botaoAtualizar: !this.state.botaoAtualizar });
+        // console.log(this.state.disabledButton);
+        axios.get('/reflora').then(response => {
+            if (response.status === 200) {
+                console.log(response.data);
+                /* Depois que eu recebo a mensagem habilito novamente */
+                this.setState({ botaoAtualizar: !this.state.botaoAtualizar });
+            }
+        });
     }
 
     renderPainelBuscarInformacoes(getFieldDecorator) {
@@ -43,7 +52,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type="primary" htmlType="submit" className="login-form-button" onClick={this.compareReflora}>
+                        <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.botaoAtualizar} onClick={this.compareReflora}>
                             Atualizar
 						</Button>
                     </Col>
