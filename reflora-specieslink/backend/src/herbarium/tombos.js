@@ -237,19 +237,19 @@ export function fazComparacaoTombo(conexao) {
      */
     const promessa = Q.defer();
     const throttle = throttledQueue(1, 1000);
-    throttle(() => {
-        selectUmaInformacaoReflora(conexao).then(informacaoReflora => {
-            if (informacaoReflora.length === 0) {
-                promessa.resolve(true);
-            } else {
-                const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
-                const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
+    selectUmaInformacaoReflora(conexao).then(informacaoReflora => {
+        if (informacaoReflora.length === 0) {
+            promessa.resolve(true);
+        } else {
+            const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
+            const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
+            throttle(() => {
                 fazComparacaoInformacao(conexao, getCodBarra, getInformacaoReflora).then(() => {
                     atualizaJaComparouTabelaReflora(conexao, getCodBarra);
                     promessa.resolve(fazComparacaoTombo(conexao));
                 });
-            }
-        });
+            });
+        }
     });
     return promessa.promise;
 }

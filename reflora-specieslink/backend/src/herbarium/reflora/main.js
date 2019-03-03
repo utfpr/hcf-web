@@ -30,7 +30,7 @@ function comecaReflora() {
         const tabelaReflora = criaTabelaReflora(conexao);
         selectCodBarra(conexao).then(listaCodBarra => {
             insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-            // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+            // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 5)).then(() => {
                 fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                     if (resultadoRequisicaoReflora) {
                         fazComparacaoTombo(conexao).then(resultadoComparacao => {
