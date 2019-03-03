@@ -12,10 +12,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            taxonomias: [],
-            metadados: {},
-            loading: true,
-            pagina: 1
+            disabled: true,
         }
     }
 
@@ -27,13 +24,11 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
                     <Row gutter={8}>
                         <Col span={6} >
-                            {getFieldDecorator('arquivo')(
-                                <Upload>
-                                    <Button size="large">
-                                        <Icon type="upload" /> Inserir o arquivo .TXT do speciesLink
-                                    </Button>
-                                </Upload>
-                            )}
+                            <Upload>
+                                <Button style={{ width: "400px" }} size="large">
+                                    <Icon type="upload" /> Inserir o arquivo .TXT do speciesLink
+                                </Button>
+                            </Upload>
                         </Col>
                         <Col span={8} style={{ textAlign: 'center' }}>
                             <FormItem>
