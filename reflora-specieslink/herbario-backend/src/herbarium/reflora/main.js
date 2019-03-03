@@ -61,6 +61,7 @@ export function main() {
     const nomeArquivo = getNomeArquivo();
     comecaReflora(nomeArquivo).then(() => {
         promessa.resolve(transformaLog(leLOG(nomeArquivo)));
+        // promessa.resolve(JSON.parse('{ "title": "example glossary" }'));
     });
     return promessa.promise;
 }

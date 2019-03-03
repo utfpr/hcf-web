@@ -14,9 +14,10 @@ class ListaServicosRefloraScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            disabled: true,
+            camposAutomatico: true,
             /* O botão de atualizar ele vem habilitado */
             botaoAtualizar: false,
+            ultimaAtualizacao: '',
         }
     }
 
@@ -37,7 +38,8 @@ class ListaServicosRefloraScreen extends Component {
         // console.log(this.state.disabledButton);
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
-                console.log(response.data);
+                console.log(response.data.horario);
+                this.setState({ ultimaAtualizacao: response.data.horario });
                 /* Depois que eu recebo a mensagem habilito novamente */
                 this.setState({ botaoAtualizar: !this.state.botaoAtualizar });
             }
@@ -79,7 +81,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <FormItem>
                             <Input
-                                disabled={this.state.disabled}
+                                disabled={this.state.camposAutomatico}
                                 placeholder={"Insira a hora desejada"} type="number"
                                 min="0" max="23"
                             />
@@ -87,7 +89,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Select defaultValue="Semanalmente" disabled={this.state.disabled}>
+                            <Select defaultValue="Semanalmente" disabled={this.state.camposAutomatico}>
                                 <Option value="Semanalmente">Semanalmente</Option>
                                 <Option value="Mensalmente">Mensalmente</Option>
                             </Select>
@@ -95,12 +97,12 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
-                            <span style={{ fontWeight: "bold" }}>A última atualização foi HH:MM:SS DD/MM/YYYY</span>
+                            <span style={{ fontWeight: "bold" }}>A última atualização foi {this.state.ultimaAtualizacao}</span>
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.disabled}>
+                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.camposAutomatico}>
                                 Verificar LOG de saída
                             </Button>
                         </FormItem>
