@@ -121,7 +121,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Collapse defaultActiveKey={['1']} onChange={this.callback}>
                         <Panel header="Verificar LOG de saída" key="2" disabled={this.state.habilitaBotaoLog}>
                             {this.state.saidaLOG.map((saida, chave) => {
-                                return <p key={chave}>{saida.name}</p>
+                                return <p key={chave}>{saida.saida}</p>
                             })}
                         </Panel>
                     </Collapse>

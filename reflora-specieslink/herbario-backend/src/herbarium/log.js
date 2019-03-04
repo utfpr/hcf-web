@@ -25,13 +25,9 @@ export function leLOG(nomeArquivo) {
 export function transformaLog(conteudo) {
     // const trans = conteudo.replace(/\{}/g, '"');
     const ultimaAtualizacao = conteudo.substring(conteudo.lastIndexOf('[') + 1, conteudo.lastIndexOf(']'));
-    console.log(`1${conteudo}`);
     const transformacaoUm = conteudo.replace(/\[/g, '{ "saida": "[');
     const transformacaoDois = transformacaoUm.replace(/\./g, '." } ,');
-    console.log(`2${transformacaoDois}`);
     const transformacaoTres = transformacaoDois.substring(0, transformacaoDois.lastIndexOf(','));
-    console.log(`3${transformacaoTres}`);
     const transformacaoQuatro = `{ "horario": "${ultimaAtualizacao}", "log": [ ${transformacaoTres} ] }`;
-    console.log(JSON.parse(transformacaoQuatro));
-    // return JSON.parse(transformacaoQuatro);
+    return JSON.parse(transformacaoQuatro);
 }
