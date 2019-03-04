@@ -14,10 +14,11 @@ class ListaServicosRefloraScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            camposAutomatico: true,
+            desabilitaCamposAtualizacaoAutomatico: true,
             /* O botão de atualizar ele vem habilitado */
-            botaoAtualizar: false,
-            ultimaAtualizacao: '',
+            desabilitarBotaoAtualizar: false,
+            horarioUltimaAtualizacao: '',
+            habilitaBotaoLog: true,
         }
     }
 
@@ -27,21 +28,28 @@ class ListaServicosRefloraScreen extends Component {
      * 2.1 O estado inicial do switch tá definido no construtor.
      * */
 
-    handleSwitch() {
-        this.setState({ disabled: !this.state.disabled });
+    trocaEstadoCamposAtualizacaoAutomatico() {
+        this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
+        if (!this.state.habilitaBotaoLog) {
+            this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
+        }
     }
 
-    compareReflora = () => {
+    comparaReflora = () => {
         /* Quando eu clico nele eu desabilito o botão de atualizar */
-        console.log(this.state.botaoAtualizar);
-        this.setState({ botaoAtualizar: !this.state.botaoAtualizar });
-        // console.log(this.state.disabledButton);
+        // console.log(this.state.botaoAtualizar);
+        this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
+        if (!this.state.habilitaBotaoLog) {
+            this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
+        }
+        // console.log(this.state.habilitaBotaoLog);
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
                 console.log(response.data.horario);
-                this.setState({ ultimaAtualizacao: response.data.horario });
+                this.setState({ horarioUltimaAtualizacao: response.data.horario });
                 /* Depois que eu recebo a mensagem habilito novamente */
-                this.setState({ botaoAtualizar: !this.state.botaoAtualizar });
+                this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
+                this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
             }
         });
     }
@@ -54,7 +62,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.botaoAtualizar} onClick={this.compareReflora}>
+                        <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.desabilitarBotaoAtualizar} onClick={this.comparaReflora}>
                             Atualizar
 						</Button>
                     </Col>
@@ -65,7 +73,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            <Switch onChange={this.handleSwitch.bind(this)} />
+                            <Switch onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} />
                         </FormItem>
                     </Col>
                 </Row>
@@ -81,7 +89,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <FormItem>
                             <Input
-                                disabled={this.state.camposAutomatico}
+                                disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
                                 placeholder={"Insira a hora desejada"} type="number"
                                 min="0" max="23"
                             />
@@ -89,7 +97,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Select defaultValue="Semanalmente" disabled={this.state.camposAutomatico}>
+                            <Select defaultValue="Semanalmente" disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
                                 <Option value="Semanalmente">Semanalmente</Option>
                                 <Option value="Mensalmente">Mensalmente</Option>
                             </Select>
@@ -97,12 +105,12 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
-                            <span style={{ fontWeight: "bold" }}>A última atualização foi {this.state.ultimaAtualizacao}</span>
+                            <span style={{ fontWeight: "bold" }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.camposAutomatico}>
+                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.habilitaBotaoLog}>
                                 Verificar LOG de saída
                             </Button>
                         </FormItem>
