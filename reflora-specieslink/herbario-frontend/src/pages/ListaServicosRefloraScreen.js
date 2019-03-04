@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    Input, Button, Select, Switch,
+    Input, Button, Select, Switch, Collapse,
 } from 'antd';
 import axios from 'axios';
 import HeaderListComponent from '../components/HeaderListComponent';
 
 const FormItem = Form.Item;
 const Option = Select.Option;
+const Panel = Collapse.Panel;
 
 class ListaServicosRefloraScreen extends Component {
 
@@ -19,7 +20,12 @@ class ListaServicosRefloraScreen extends Component {
             desabilitarBotaoAtualizar: false,
             horarioUltimaAtualizacao: '',
             habilitaBotaoLog: true,
+            saidaLOG: [],
         }
+    }
+
+    callback = () => {
+
     }
 
     /**
@@ -47,6 +53,8 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 console.log(response.data.horario);
                 this.setState({ horarioUltimaAtualizacao: response.data.horario });
+                this.setState({ saidaLOG: response.data.log });
+                // console.log(this.state.saidaLOG.length);
                 /* Depois que eu recebo a mensagem habilito novamente */
                 this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
                 this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
@@ -108,15 +116,16 @@ class ListaServicosRefloraScreen extends Component {
                             <span style={{ fontWeight: "bold" }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
                         </FormItem>
                     </Col>
-                    <Col span={6}>
-                        <FormItem>
-                            <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.habilitaBotaoLog}>
-                                Verificar LOG de saída
-                            </Button>
-                        </FormItem>
-                    </Col>
                 </Row>
-
+                <Row gutter={8}>
+                    <Collapse defaultActiveKey={['1']} onChange={this.callback}>
+                        <Panel header="Verificar LOG de saída" key="2" disabled={this.state.habilitaBotaoLog}>
+                            {this.state.saidaLOG.map((saida, chave) => {
+                                return <p key={chave}>{saida.name}</p>
+                            })}
+                        </Panel>
+                    </Collapse>
+                </Row>
             </Card>
         )
     }
@@ -125,7 +134,7 @@ class ListaServicosRefloraScreen extends Component {
         const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.onSubmit}>
-                <HeaderListComponent title={"Reflora"} link={"/reflora/novo"} />
+                <HeaderListComponent title={"Reflora"} />
                 <Divider dashed />
                 {this.renderPainelBuscarInformacoes(getFieldDecorator)}
                 <Divider dashed />
@@ -136,3 +145,4 @@ class ListaServicosRefloraScreen extends Component {
 
 // Arquivo baseado no arquivo ListaTaxonomiaScreeen.js
 export default Form.create()(ListaServicosRefloraScreen);
+

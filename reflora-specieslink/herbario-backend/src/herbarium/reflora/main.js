@@ -60,8 +60,9 @@ export function main() {
     const promessa = Q.defer();
     const nomeArquivo = getNomeArquivo();
     comecaReflora(nomeArquivo).then(() => {
-        promessa.resolve(transformaLog(leLOG(nomeArquivo)));
-        // promessa.resolve(JSON.parse('{ "title": "example glossary" }'));
+        // promessa.resolve(transformaLog(leLOG(nomeArquivo)));
+        transformaLog(leLOG(nomeArquivo));
+        promessa.resolve(JSON.parse('{ "horario":"4040404", "log": [ { "name":"Ford" } , { "name":"BMW" } ] }'));
     });
     return promessa.promise;
 }
