@@ -20,12 +20,15 @@ class ListaServicosRefloraScreen extends Component {
             desabilitarBotaoAtualizar: false,
             horarioUltimaAtualizacao: '',
             habilitaBotaoLog: true,
+            escondeResultadoLog: '2',
             saidaLOG: [],
         }
     }
 
-    callback = () => {
-
+    trocaEstadoEscondeResultadoLog = () => {
+        if (this.state.escondeResultadoLog === '2') {
+            this.setState({ escondeResultadoLog: '1' });
+        }
     }
 
     /**
@@ -39,22 +42,24 @@ class ListaServicosRefloraScreen extends Component {
         if (!this.state.habilitaBotaoLog) {
             this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
         }
+        if (this.state.escondeResultadoLog === '1') {
+            this.setState({ escondeResultadoLog: '2' });
+        }
     }
 
     comparaReflora = () => {
         /* Quando eu clico nele eu desabilito o botão de atualizar */
-        // console.log(this.state.botaoAtualizar);
         this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
         if (!this.state.habilitaBotaoLog) {
             this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
         }
-        // console.log(this.state.habilitaBotaoLog);
+        if (this.state.escondeResultadoLog === '1') {
+            this.setState({ escondeResultadoLog: '2' });
+        }
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
-                console.log(response.data.horario);
                 this.setState({ horarioUltimaAtualizacao: response.data.horario });
                 this.setState({ saidaLOG: response.data.log });
-                // console.log(this.state.saidaLOG.length);
                 /* Depois que eu recebo a mensagem habilito novamente */
                 this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
                 this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
@@ -118,8 +123,8 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                 </Row>
                 <Row gutter={8}>
-                    <Collapse defaultActiveKey={['1']} onChange={this.callback}>
-                        <Panel header="Verificar LOG de saída" key="2" disabled={this.state.habilitaBotaoLog}>
+                    <Collapse accordion onChange={this.trocaEstadoEscondeResultadoLog}>
+                        <Panel header="Verificar LOG de saída" key={this.state.escondeResultadoLog} disabled={this.state.habilitaBotaoLog}>
                             {this.state.saidaLOG.map((saida, chave) => {
                                 return <p key={chave}>{saida.saida}</p>
                             })}
