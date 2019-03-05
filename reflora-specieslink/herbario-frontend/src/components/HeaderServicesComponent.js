@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from 'antd';
-import { Link } from 'react-router-dom';
-import {
-    isCuradorOuOperador,
-} from '../helpers/usuarios';
+import { Row, Col } from 'antd';
 
 export default class HeaderServicesComponent extends Component {
     render() {

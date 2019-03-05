@@ -50,15 +50,15 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    renderPainelBuscarInformacoes(getFieldDecorator) {
+    renderPainelBuscarInformacoes() {
         return (
-            <Card title="Buscar informações no Reflora">
+            <Card title='Buscar informações no Reflora'>
                 <Row gutter={6}>
                     <Col span={6}>
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type="primary" htmlType="submit" className="login-form-button" onClick={this.comparaReflora}>
+                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
                             Atualizar
 						</Button>
                     </Col>
@@ -86,22 +86,22 @@ class ListaServicosRefloraScreen extends Component {
                         <FormItem>
                             <Input
                                 disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
-                                placeholder={"Insira a hora desejada"} type="number"
-                                min="0" max="23"
+                                placeholder={'Insira a hora desejada'} type='number'
+                                min='0' max='23'
                             />
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Select defaultValue="Semanalmente" disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                                <Option value="Semanalmente">Semanalmente</Option>
-                                <Option value="Mensalmente">Mensalmente</Option>
+                            <Select defaultValue='Semanalmente' disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                                <Option value='Semanalmente'>Semanalmente</Option>
+                                <Option value='Mensalmente'>Mensalmente</Option>
                             </Select>
                         </FormItem>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
-                            <span style={{ fontWeight: "bold" }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
+                            <span style={{ fontWeight: 'bold' }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
                         </FormItem>
                     </Col>
                 </Row>
@@ -110,9 +110,9 @@ class ListaServicosRefloraScreen extends Component {
                         <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
                             {this.state.saidaLOG.map((saida, chave) => {
                                 if (saida.saida.includes('Erro')) {
-                                    return <p key={chave} style={{ color: 'red', fontWeight: 'bold' }}>{saida.saida}</p>
+                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida.saida}</p>
                                 } else {
-                                    return <p key={chave} style={{ color: 'green', fontWeight: 'bold' }}>{saida.saida}</p>
+                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida.saida}</p>
                                 }
                             })}
                         </Panel>
@@ -123,12 +123,11 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     render() {
-        const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.onSubmit}>
-                <HeaderServicesComponent title={"Reflora"} />
+                <HeaderServicesComponent title={'Reflora'} />
                 <Divider dashed />
-                {this.renderPainelBuscarInformacoes(getFieldDecorator)}
+                {this.renderPainelBuscarInformacoes()}
                 <Divider dashed />
             </Form>
         );
