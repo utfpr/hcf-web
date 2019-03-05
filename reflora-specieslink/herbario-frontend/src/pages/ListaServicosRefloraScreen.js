@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    Input, Button, Select, Switch, Collapse,
+    Input, Button, Select, Switch, Collapse, TimePicker
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
@@ -34,6 +34,9 @@ class ListaServicosRefloraScreen extends Component {
      * 1.3.1 Isso porque, existem algumas vezes que é como se ele clicasse sozinho, e dai ele muda a data de última atualização
      * 1.4 Só mostra o resultado do LOG quando ele verifica que no último valor do LOG, veio a mensagem esperada
      * */
+
+    getDisabledMinutes = (selectedMinutes) => {
+    }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
         this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
@@ -84,10 +87,12 @@ class ListaServicosRefloraScreen extends Component {
                 <Row gutter={8}>
                     <Col span={6}>
                         <FormItem>
-                            <Input
+                            <TimePicker
+                                style={{ width: '343.633px' }}
+                                placeholder='Insira a hora desejada'
+                                format={'HH'}
+                                disabledMinutes={this.getDisabledMinutes}
                                 disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
-                                placeholder={'Insira a hora desejada'} type='number'
-                                min='0' max='23'
                             />
                         </FormItem>
                     </Col>
