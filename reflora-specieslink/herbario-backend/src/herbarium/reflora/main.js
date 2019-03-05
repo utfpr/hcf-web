@@ -30,13 +30,12 @@ function comecaReflora(nomeArquivo) {
     */
     existeTabelaReflora(conexao).then(existe => {
         if (existe) {
-            // process.exit(0);
             promessa.resolve();
         } else {
             const tabelaReflora = criaTabelaReflora(conexao);
             selectCodBarra(conexao).then(listaCodBarra => {
                 // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-                insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+                insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 5)).then(() => {
                     fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                         if (resultadoRequisicaoReflora) {
                             fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -60,9 +59,9 @@ export function main() {
     const promessa = Q.defer();
     const nomeArquivo = getNomeArquivo();
     comecaReflora(nomeArquivo).then(() => {
-        promessa.resolve(transformaLog(leLOG(nomeArquivo)));
         // transformaLog(leLOG(nomeArquivo));
         // promessa.resolve(JSON.parse('{ "horario":"4040404", "log": [ { "name":"Ford" } , { "name":"BMW" } ] }'));
+        promessa.resolve(transformaLog(leLOG(nomeArquivo)));
     });
     return promessa.promise;
 }

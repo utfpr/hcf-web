@@ -4,7 +4,7 @@ import {
     Input, Button, Select, Switch, Collapse,
 } from 'antd';
 import axios from 'axios';
-import HeaderListComponent from '../components/HeaderListComponent';
+import HeaderServicesComponent from '../components/HeaderServicesComponent';
 
 const FormItem = Form.Item;
 const Option = Select.Option;
@@ -16,53 +16,36 @@ class ListaServicosRefloraScreen extends Component {
         super(props);
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
-            /* O botão de atualizar ele vem habilitado */
-            desabilitarBotaoAtualizar: false,
             horarioUltimaAtualizacao: '',
-            habilitaBotaoLog: true,
             escondeResultadoLog: '2',
             saidaLOG: [],
         }
     }
 
-    trocaEstadoEscondeResultadoLog = () => {
-        if (this.state.escondeResultadoLog === '2') {
-            this.setState({ escondeResultadoLog: '1' });
-        }
-    }
-
     /**
-     * 1.Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert;
+     * 1.Os botões vem do módulo antd, que tem somente os tipos primary, default, dashed e alert;
      * 2.O switch da atualização automática, usa essa função, que quando clicado alterado o estado;
      * 2.1 O estado inicial do switch tá definido no construtor.
+     * ================= COMO FUNCIONA =================
+     * 1.Atualização imediata
+     * 1.1 Quando eu clicar ele realiza a atualização
+     * 1.2 Se ele estiver rodando e eu clicar novamente não é feito nada, pois é verifica que já existe a tabela reflora e cai fora
+     * 1.3 Só mostra a data de atualização quando ele verifica que no último valor do LOG, veio a mensagem esperada
+     * 1.3.1 Isso porque, existem algumas vezes que é como se ele clicasse sozinho, e dai ele muda a data de última atualização
+     * 1.4 Só mostra o resultado do LOG quando ele verifica que no último valor do LOG, veio a mensagem esperada
      * */
 
     trocaEstadoCamposAtualizacaoAutomatico() {
         this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
-        if (!this.state.habilitaBotaoLog) {
-            this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
-        }
-        if (this.state.escondeResultadoLog === '1') {
-            this.setState({ escondeResultadoLog: '2' });
-        }
     }
 
     comparaReflora = () => {
-        /* Quando eu clico nele eu desabilito o botão de atualizar */
-        this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
-        if (!this.state.habilitaBotaoLog) {
-            this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
-        }
-        if (this.state.escondeResultadoLog === '1') {
-            this.setState({ escondeResultadoLog: '2' });
-        }
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
-                this.setState({ horarioUltimaAtualizacao: response.data.horario });
-                this.setState({ saidaLOG: response.data.log });
-                /* Depois que eu recebo a mensagem habilito novamente */
-                this.setState({ desabilitarBotaoAtualizar: !this.state.desabilitarBotaoAtualizar });
-                this.setState({ habilitaBotaoLog: !this.state.habilitaBotaoLog });
+                if (response.data.log[response.data.log.length - 1].saida.includes('O processo de comparação do Reflora acabou.')) {
+                    this.setState({ horarioUltimaAtualizacao: response.data.horario });
+                    this.setState({ saidaLOG: response.data.log });
+                }
             }
         });
     }
@@ -75,7 +58,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.desabilitarBotaoAtualizar} onClick={this.comparaReflora}>
+                        <Button type="primary" htmlType="submit" className="login-form-button" onClick={this.comparaReflora}>
                             Atualizar
 						</Button>
                     </Col>
@@ -123,10 +106,14 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                 </Row>
                 <Row gutter={8}>
-                    <Collapse accordion onChange={this.trocaEstadoEscondeResultadoLog}>
-                        <Panel header="Verificar LOG de saída" key={this.state.escondeResultadoLog} disabled={this.state.habilitaBotaoLog}>
+                    <Collapse accordion>
+                        <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
                             {this.state.saidaLOG.map((saida, chave) => {
-                                return <p key={chave}>{saida.saida}</p>
+                                if (saida.saida.includes('Erro')) {
+                                    return <p key={chave} style={{ color: 'red', fontWeight: 'bold' }}>{saida.saida}</p>
+                                } else {
+                                    return <p key={chave} style={{ color: 'green', fontWeight: 'bold' }}>{saida.saida}</p>
+                                }
                             })}
                         </Panel>
                     </Collapse>
@@ -139,7 +126,7 @@ class ListaServicosRefloraScreen extends Component {
         const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.onSubmit}>
-                <HeaderListComponent title={"Reflora"} />
+                <HeaderServicesComponent title={"Reflora"} />
                 <Divider dashed />
                 {this.renderPainelBuscarInformacoes(getFieldDecorator)}
                 <Divider dashed />
