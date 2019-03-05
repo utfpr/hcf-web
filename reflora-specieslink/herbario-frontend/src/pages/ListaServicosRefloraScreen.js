@@ -5,6 +5,7 @@ import {
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
+import moment from 'moment';
 
 const FormItem = Form.Item;
 const Option = Select.Option;
@@ -17,6 +18,8 @@ class ListaServicosRefloraScreen extends Component {
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
+            horarioAtualizacao: '',
+            periodicidadeAtualizacao: '',
             escondeResultadoLog: '2',
             saidaLOG: [],
         }
@@ -33,7 +36,39 @@ class ListaServicosRefloraScreen extends Component {
      * 1.3 Só mostra a data de atualização quando ele verifica que no último valor do LOG, veio a mensagem esperada
      * 1.3.1 Isso porque, existem algumas vezes que é como se ele clicasse sozinho, e dai ele muda a data de última atualização
      * 1.4 Só mostra o resultado do LOG quando ele verifica que no último valor do LOG, veio a mensagem esperada
+     * =====================PARA A ATUALIZAÇÃO AUTOMÁTICA=====================
+     * 1.Quando ativo o switch ele pega os valores, e faz a requisição
+     * 2.Eu pego a hora e seto no estado dela, vejo o valor que está no estado da periodicidade e faço a requisição
+     * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
      * */
+
+    getHorarioAgenda = (time, timeString) => {
+        console.log(`t${timeString}`);
+        this.setState({ horarioAtualizacao: timeString }, () => {
+            if (this.state.periodicidadeAtualizacao.length > 0) {
+                console.log(`e${this.state.periodicidadeAtualizacao}`);
+                console.log(`p${this.state.horarioAtualizacao}`);
+                // faço a requisição
+                console.log(`horario`)
+            }
+        });
+    }
+
+    getPeriodicidade = periodicidade => {
+        console.log(`p${periodicidade}`)
+        /**
+         * O set state não é algo imediato, por isso utilizamos o callback para que o valor atualizado
+         * seja utilizado na requisição ao backend
+         */
+        this.setState({ periodicidadeAtualizacao: periodicidade }, () => {
+            if (this.state.horarioAtualizacao.length > 0) {
+                console.log(`e${this.state.periodicidadeAtualizacao}`);
+                console.log(`p${this.state.horarioAtualizacao}`);
+                // faço a requisição
+                console.log(`periodicidade`)
+            }
+        });
+    }
 
     getDisabledMinutes = (selectedMinutes) => {
     }
@@ -93,14 +128,18 @@ class ListaServicosRefloraScreen extends Component {
                                 format={'HH'}
                                 disabledMinutes={this.getDisabledMinutes}
                                 disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
+                                onChange={this.getHorarioAgenda}
                             />
                         </FormItem>
                     </Col>
                     <Col span={6}>
                         <FormItem>
-                            <Select defaultValue='Semanalmente' disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                                <Option value='Semanalmente'>Semanalmente</Option>
-                                <Option value='Mensalmente'>Mensalmente</Option>
+                            <Select
+                                placeholder='Selecione a periodicidade desejada'
+                                onChange={this.getPeriodicidade}
+                                disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                                <Option value='semanal'>Semanalmente</Option>
+                                <Option value='mensal'>Mensalmente</Option>
                             </Select>
                         </FormItem>
                     </Col>
