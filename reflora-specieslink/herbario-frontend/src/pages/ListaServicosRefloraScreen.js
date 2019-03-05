@@ -88,7 +88,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <FormItem>
                             <TimePicker
-                                style={{ width: '343.633px' }}
+                                style={{ width: '100%' }}
                                 placeholder='Insira a hora desejada'
                                 format={'HH'}
                                 disabledMinutes={this.getDisabledMinutes}
