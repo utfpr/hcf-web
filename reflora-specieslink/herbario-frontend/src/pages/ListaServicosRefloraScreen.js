@@ -50,6 +50,14 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
                 console.log(`horario`)
+
+                const params = {
+                    horario: this.state.horarioAtualizacao,
+                    periodicidade: this.state.periodicidadeAtualizacao
+                };
+                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
+                    console.log(`r${response}`);
+                });
             }
         });
     }
@@ -65,7 +73,10 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`e${this.state.periodicidadeAtualizacao}`);
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
-                console.log(`periodicidade`)
+                console.log(`periodicidade`);
+                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
+                    console.log(`r${response}`);
+                });
             }
         });
     }

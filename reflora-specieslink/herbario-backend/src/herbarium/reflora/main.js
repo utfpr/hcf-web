@@ -66,4 +66,14 @@ export function main() {
     return promessa.promise;
 }
 
+export function agenda(horario, periodicidade) {
+    const promessa = Q.defer();
+    // eslint-disable-next-line no-console
+    console.log(`h${horario}`);
+    // eslint-disable-next-line no-console
+    console.log(`p${periodicidade}`);
+    promessa.resolve();
+    return promessa.promise;
+}
+
 export default {};
