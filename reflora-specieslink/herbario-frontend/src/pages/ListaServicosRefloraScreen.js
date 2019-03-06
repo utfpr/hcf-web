@@ -55,8 +55,8 @@ class ListaServicosRefloraScreen extends Component {
                     horario: this.state.horarioAtualizacao,
                     periodicidade: this.state.periodicidadeAtualizacao
                 };
-                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
-                    console.log(`r${response}`);
+                axios.get('/reflora-agenda', { params }).then(response => {
+                    console.log(response.data.title);
                 });
             }
         });
@@ -74,9 +74,6 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
                 console.log(`periodicidade`);
-                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
-                    console.log(`r${response}`);
-                });
             }
         });
     }

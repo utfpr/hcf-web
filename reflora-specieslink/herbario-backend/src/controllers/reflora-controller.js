@@ -10,9 +10,9 @@ export const chamaReflora = (request, response, next) => {
 
 export const agendaReflora = (request, response, next) => {
     // eslint-disable-next-line no-console
-    console.log('aaaaaaaaaaaaaaaaaaaaaaaaaa');
-    const { horario } = request.params;
-    const { periodicidade } = request.params;
+    console.log(`->${request.query.horario}`);
+    const horario = 0;
+    const periodicidade = 'a';
     Reflora.agenda(horario, periodicidade).then(() => {
         response.status(200).json(JSON.parse(' { "title": "example glossary" } '));
     }).catch(next);
