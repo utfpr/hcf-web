@@ -16,10 +16,34 @@ import {
     transformaLog,
 } from '../log';
 
-function comecaReflora(nomeArquivo) {
+function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
-    // const nomeArquivo = getNomeArquivo();
+
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
+    const tabelaReflora = criaTabelaReflora(conexao);
+    selectCodBarra(conexao).then(listaCodBarra => {
+        // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 90)).then(() => {
+            fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
+                if (resultadoRequisicaoReflora) {
+                    fazComparacaoTombo(conexao).then(resultadoComparacao => {
+                        if (resultadoComparacao) {
+                            escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
+                            apagaTabelaReflora(conexao).then(() => {
+                                promessa.resolve();
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+    return promessa.promise;
+}
+
+function ehNecessarioFazerRequisicao(nomeArquivo) {
+    const promessa = Q.defer();
     const conexao = criaConexao();
 
     /**
@@ -32,24 +56,7 @@ function comecaReflora(nomeArquivo) {
         if (existe) {
             promessa.resolve();
         } else {
-            const tabelaReflora = criaTabelaReflora(conexao);
-            selectCodBarra(conexao).then(listaCodBarra => {
-                insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-                // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
-                    fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
-                        if (resultadoRequisicaoReflora) {
-                            fazComparacaoTombo(conexao).then(resultadoComparacao => {
-                                if (resultadoComparacao) {
-                                    escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
-                                    apagaTabelaReflora(conexao).then(() => {
-                                        promessa.resolve();
-                                    });
-                                }
-                            });
-                        }
-                    });
-                });
-            });
+            promessa.resolve(comecaReflora(conexao, nomeArquivo));
         }
     });
     return promessa.promise;
@@ -58,7 +65,7 @@ function comecaReflora(nomeArquivo) {
 export function main() {
     const promessa = Q.defer();
     const nomeArquivo = getNomeArquivo();
-    comecaReflora(nomeArquivo).then(() => {
+    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
         // transformaLog(leLOG(nomeArquivo));
         // promessa.resolve(JSON.parse('{ "horario":"4040404", "log": [ { "name":"Ford" } , { "name":"BMW" } ] }'));
         promessa.resolve(transformaLog(leLOG(nomeArquivo)));

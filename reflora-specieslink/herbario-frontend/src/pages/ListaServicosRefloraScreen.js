@@ -5,7 +5,6 @@ import {
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
-import moment from 'moment';
 
 const FormItem = Form.Item;
 const Option = Select.Option;
@@ -74,6 +73,9 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
                 console.log(`periodicidade`);
+                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
+                    console.log(`r${response}`);
+                });
             }
         });
     }
@@ -86,6 +88,10 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     comparaReflora = () => {
+        /**
+         * O axios, ele realiza requisições de dois em dois minutos se não há resposta
+         * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.
+         */
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
                 if (response.data.log[response.data.log.length - 1].saida.includes('O processo de comparação do Reflora acabou.')) {
