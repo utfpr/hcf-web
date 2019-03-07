@@ -12,9 +12,10 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     getNomeArquivo,
     escreveLOG,
-    leLOG,
-    transformaLog,
+    // leLOG,
+    // transformaLog,
 } from '../log';
+import refloraController from '../../controllers/reflora-controller';
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
@@ -23,7 +24,7 @@ function comecaReflora(conexao, nomeArquivo) {
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 90)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 30)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -42,7 +43,7 @@ function comecaReflora(conexao, nomeArquivo) {
     return promessa.promise;
 }
 
-function ehNecessarioFazerRequisicao(nomeArquivo) {
+export function ehNecessarioFazerRequisicao(nomeArquivo) {
     const promessa = Q.defer();
     const conexao = criaConexao();
 
@@ -59,18 +60,35 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
             promessa.resolve(comecaReflora(conexao, nomeArquivo));
         }
     });
+
     return promessa.promise;
 }
 
 export function main() {
-    const promessa = Q.defer();
+    setInterval(() => {
+        /**
+         * Como eu percebi que é para eu fazer a execução eu faço ela
+         * Fazendo ela eu mudo de estado, para executando e quando termino mudo
+         * para o estado de executado.
+         */
+        if (refloraController.getExecucao() === 2) {
+            // eslint-disable-next-line no-console
+            console.log('->z->entrou aqui');
+            refloraController.setExecucao(3);
+            const nomeArquivo = getNomeArquivo();
+            ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
+                refloraController.setExecucao(1);
+            });
+        }
+    }, 1000);
+    /* const promessa = Q.defer();
     const nomeArquivo = getNomeArquivo();
     ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
         // transformaLog(leLOG(nomeArquivo));
         // promessa.resolve(JSON.parse('{ "horario":"4040404", "log": [ { "name":"Ford" } , { "name":"BMW" } ] }'));
         promessa.resolve(transformaLog(leLOG(nomeArquivo)));
     });
-    return promessa.promise;
+    return promessa.promise; */
 }
 
 export function agenda(horario, periodicidade) {
@@ -82,5 +100,8 @@ export function agenda(horario, periodicidade) {
     promessa.resolve();
     return promessa.promise;
 }
-
+/*
+export function verificaNecessidade() {
+}
+*/
 export default {};

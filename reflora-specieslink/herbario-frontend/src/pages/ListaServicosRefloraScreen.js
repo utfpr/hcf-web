@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    Input, Button, Select, Switch, Collapse, TimePicker
+    notification, Button, Select, Switch, Collapse, TimePicker
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
@@ -87,6 +87,13 @@ class ListaServicosRefloraScreen extends Component {
         this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
     }
 
+    openNotificationWithIcon = (type, message, description) => {
+        notification[type]({
+            message: message,
+            description: description,
+        });
+    };
+
     comparaReflora = () => {
         /**
          * O axios, ele realiza requisições de dois em dois minutos se não há resposta
@@ -94,9 +101,15 @@ class ListaServicosRefloraScreen extends Component {
          */
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
-                if (response.data.log[response.data.log.length - 1].saida.includes('O processo de comparação do Reflora acabou.')) {
+                /* if (response.data.log[response.data.log.length - 1].saida.includes('O processo de comparação do Reflora acabou.')) {
                     this.setState({ horarioUltimaAtualizacao: response.data.horario });
                     this.setState({ saidaLOG: response.data.log });
+                } */
+                // console.log(response.data.result);
+                if (response.data.result === 'failed') {
+                    this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização já está sendo executado.');
+                } else {
+                    this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será executado.');
                 }
             }
         });
