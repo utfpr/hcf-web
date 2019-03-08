@@ -1,5 +1,7 @@
 const fs = require('fs');
 const Reflora = require('../herbarium/reflora/main');
+const refloraLog = require('../herbarium/log');
+
 
 const estadosExecucao = {
     NAOEXECUTANDO: 1,
@@ -70,5 +72,15 @@ export const todosLogs = (request, response, next) => {
     // console.log(`{ "logs":[ ${jsonLogs} ] }`);
 };
 
+export const getLog = (request, response, next) => {
+    // console.log(`->${request.query.nomeLog}`);
+    const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(request.query.nomeLog));
+    // eslint-disable-next-line no-console
+    console.log(conteudoLog);
+    response.status(200).json(conteudoLog);
+    /* Reflora.agenda(horario, periodicidade).then(() => {
+        response.status(200).json(JSON.parse(' { "title": "example glossary" } '));
+    }).catch(next); */
+};
 
 export default { getExecucao, setExecucao };

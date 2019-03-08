@@ -23,11 +23,11 @@ export function leLOG(nomeArquivo) {
 }
 
 export function transformaLog(conteudo) {
-    // const trans = conteudo.replace(/\{}/g, '"');
-    const ultimaAtualizacao = conteudo.substring(conteudo.lastIndexOf('[') + 1, conteudo.lastIndexOf(']'));
-    const transformacaoUm = conteudo.replace(/\[/g, '{ "saida": "[');
-    const transformacaoDois = transformacaoUm.replace(/\./g, '." } ,');
+    const transformacaoUm = conteudo.replace(/\[/g, ' "[');
+    const transformacaoDois = transformacaoUm.replace(/\./g, '." ,');
     const transformacaoTres = transformacaoDois.substring(0, transformacaoDois.lastIndexOf(','));
-    const transformacaoQuatro = `{ "horario": "${ultimaAtualizacao}", "log": [ ${transformacaoTres} ] }`;
+    const transformacaoQuatro = `{ "log": [ ${transformacaoTres} ] }`;
+    // eslint-disable-next-line no-console
+    console.log(transformacaoQuatro);
     return JSON.parse(transformacaoQuatro);
 }

@@ -10,4 +10,7 @@ export default app => {
     app.route('/reflora-todoslogs').get([
         controller.todosLogs,
     ]);
+    app.route('/reflora-log').get([
+        controller.getLog,
+    ]);
 };

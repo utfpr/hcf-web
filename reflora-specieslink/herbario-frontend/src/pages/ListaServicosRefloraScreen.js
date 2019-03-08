@@ -96,6 +96,17 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
+    getLog = log => {
+        const params = {
+            nomeLog: log,
+        };
+        axios.get('/reflora-log', { params }).then(response => {
+            // console.log(response.data.title);
+            console.log(response.data.log);
+            this.setState({ saidaLOG: response.data.log });
+        });
+    }
+
     getDisabledMinutes = (selectedMinutes) => {
     }
 
@@ -183,18 +194,17 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
-                            <span style={{ fontWeight: 'bold' }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
+                            <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao}</span>
                         </FormItem>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
                             <Select
                                 placeholder='Selecione o LOG desejado'
-                            // onChange={this.getNomeLOG}
-                            // disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                                onChange={this.getLog}
                             >
                                 {this.state.nomeLog.map((saida, chave) => {
-                                    return <Option key={chave}>{saida}</Option>
+                                    return <Option key={chave} value={saida}>{saida}</Option>
                                 })}
                             </Select>
                         </FormItem>
@@ -204,10 +214,11 @@ class ListaServicosRefloraScreen extends Component {
                     <Collapse accordion>
                         <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
                             {this.state.saidaLOG.map((saida, chave) => {
-                                if (saida.saida.includes('Erro')) {
-                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida.saida}</p>
+                                // console.log(saida);
+                                if (saida.includes('Erro')) {
+                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida}</p>
                                 } else {
-                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida.saida}</p>
+                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida}</p>
                                 }
                             })}
                         </Panel>
