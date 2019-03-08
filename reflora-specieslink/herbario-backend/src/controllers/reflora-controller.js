@@ -2,7 +2,6 @@ const fs = require('fs');
 const Reflora = require('../herbarium/reflora/main');
 const refloraLog = require('../herbarium/log');
 
-
 const estadosExecucao = {
     NAOEXECUTANDO: 1,
     FACAEXECUCAO: 2,
@@ -64,15 +63,14 @@ export const todosLogs = (request, response, next) => {
     let nomeArquivos = '';
 
     fs.readdirSync(diretorioLog).forEach(arquivos => {
-        // eslint-disable-next-line no-console
-        // nomeArquivos.push('logs: arquivos');
-        nomeArquivos = `${nomeArquivos}"${arquivos.replace('.log', '')}", `;
-        // console.log(arquivos);
+        const logAcabou = refloraLog.leLOG(arquivos.replace('.log', ''));
+        // console.log(logAcabou);
+        if (logAcabou.includes('O processo de comparação do Reflora acabou.')) {
+            nomeArquivos = `${nomeArquivos}"${arquivos.replace('.log', '')}", `;
+        }
     });
     const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
     response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ] }`));
-    // return ;
-    // console.log(`{ "logs":[ ${jsonLogs} ] }`);
 };
 
 export const getLog = (request, response, next) => {
