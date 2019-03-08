@@ -14,14 +14,30 @@ class ListaServicosRefloraScreen extends Component {
 
     constructor(props) {
         super(props);
+        this.getNomeLOG();
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
             horarioAtualizacao: '',
             periodicidadeAtualizacao: '',
             escondeResultadoLog: '2',
+            nomeLog: [],
             saidaLOG: [],
         }
+    }
+
+    getNomeLOG = () => {
+        axios.get('/reflora-todoslogs').then(response => {
+            if (response.status === 200) {
+                const logs = response.data.logs.sort();
+                this.setState({ nomeLog: logs });
+                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                console.log(logs[logs.length - 1]);
+            }
+            // console.log(response.data.logs);
+            // return response.data.logs;
+            // promessa.resolve(response.data.logs);
+        });
     }
 
     /**
@@ -101,11 +117,6 @@ class ListaServicosRefloraScreen extends Component {
          */
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
-                /* if (response.data.log[response.data.log.length - 1].saida.includes('O processo de comparação do Reflora acabou.')) {
-                    this.setState({ horarioUltimaAtualizacao: response.data.horario });
-                    this.setState({ saidaLOG: response.data.log });
-                } */
-                // console.log(response.data.result);
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização já está sendo executado.');
                 } else {
@@ -173,6 +184,19 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <FormItem>
                             <span style={{ fontWeight: 'bold' }}>A última atualização foi {this.state.horarioUltimaAtualizacao}</span>
+                        </FormItem>
+                    </Col>
+                    <Col span={6} style={{ textAlign: 'center' }}>
+                        <FormItem>
+                            <Select
+                                placeholder='Selecione o LOG desejado'
+                            // onChange={this.getNomeLOG}
+                            // disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                            >
+                                {this.state.nomeLog.map((saida, chave) => {
+                                    return <Option key={chave}>{saida}</Option>
+                                })}
+                            </Select>
                         </FormItem>
                     </Col>
                 </Row>

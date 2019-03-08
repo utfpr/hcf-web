@@ -1,3 +1,4 @@
+const fs = require('fs');
 const Reflora = require('../herbarium/reflora/main');
 
 const estadosExecucao = {
@@ -7,9 +8,6 @@ const estadosExecucao = {
 };
 let execucao = estadosExecucao.NAOEXECUTANDO;
 
-/**
- * A variável está executando pode
- */
 export const chamaReflora = (request, response, next) => {
     /**
      * Se não foi executado ou já foi executado eu posso dar sucesso
@@ -21,9 +19,6 @@ export const chamaReflora = (request, response, next) => {
     } else {
         response.status(200).json(JSON.parse(' { "result": "failed" } '));
     }
-    /* Reflora.main().then(saidaLog => {
-        response.status(200).json(saidaLog);
-    }); */
 };
 
 export const agendaReflora = (request, response, next) => {
@@ -58,5 +53,22 @@ function setExecucao(estado) {
             break;
     }
 }
+
+export const todosLogs = (request, response, next) => {
+    const diretorioLog = `${__dirname}../../../logs`;
+    let nomeArquivos = '';
+
+    fs.readdirSync(diretorioLog).forEach(arquivos => {
+        // eslint-disable-next-line no-console
+        // nomeArquivos.push('logs: arquivos');
+        nomeArquivos = `${nomeArquivos}"${arquivos.replace('.log', '')}", `;
+        // console.log(arquivos);
+    });
+    const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
+    response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ] }`));
+    // return ;
+    // console.log(`{ "logs":[ ${jsonLogs} ] }`);
+};
+
 
 export default { getExecucao, setExecucao };
