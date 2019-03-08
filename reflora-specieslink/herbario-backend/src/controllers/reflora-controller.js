@@ -57,6 +57,9 @@ function setExecucao(estado) {
 }
 
 export const todosLogs = (request, response, next) => {
+    /** linux */
+    // const diretorioLog = `${__dirname}/../../logs`;
+    /** windows */
     const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';
 
