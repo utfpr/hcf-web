@@ -79,13 +79,7 @@ export const todosLogs = (request, response, next) => {
     let nomeArquivos = '';
 
     fs.readdirSync(diretorioLog).forEach(arquivos => {
-        // const logAcabou = refloraLog.leLOG(arquivos.replace('.log', ''));
-        // console.log(logAcabou);
-        // if (logAcabou.includes('O processo de comparação do Reflora acabou.')) {]
-        // const processaArquivo = arquivos.replace('.log', '');
-        // processaNomeLog(arquivos);
         nomeArquivos = `${nomeArquivos}"${processaNomeLog(arquivos)}", `;
-        // }
     });
     const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
     response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ] }`));

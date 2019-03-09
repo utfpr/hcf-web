@@ -129,9 +129,9 @@ class ListaServicosRefloraScreen extends Component {
         axios.get('/reflora').then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
-                    this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização já está sendo executado.');
+                    this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
                 } else {
-                    this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será executado.');
+                    this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
                 }
             }
         });

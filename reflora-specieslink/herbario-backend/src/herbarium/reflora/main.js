@@ -64,7 +64,7 @@ export function ehNecessarioFazerRequisicao(nomeArquivo) {
     return promessa.promise;
 }
 
-export function main() {
+export function daemonReflora() {
     setInterval(() => {
         /**
          * Como eu percebi que é para eu fazer a execução eu faço ela
@@ -80,15 +80,7 @@ export function main() {
                 refloraController.setExecucao(1);
             });
         }
-    }, 1000);
-    /* const promessa = Q.defer();
-    const nomeArquivo = getNomeArquivo();
-    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
-        // transformaLog(leLOG(nomeArquivo));
-        // promessa.resolve(JSON.parse('{ "horario":"4040404", "log": [ { "name":"Ford" } , { "name":"BMW" } ] }'));
-        promessa.resolve(transformaLog(leLOG(nomeArquivo)));
-    });
-    return promessa.promise; */
+    }, 60000);
 }
 
 export function agenda(horario, periodicidade) {
