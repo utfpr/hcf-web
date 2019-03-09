@@ -55,6 +55,22 @@ function setExecucao(estado) {
     }
 }
 
+function trocaCaractere(texto, indice, novoValor) {
+    return texto.substring(0, indice) + novoValor + texto.substring(indice + 1, texto.length);
+}
+
+function processaNomeLog(nomeArquivo) {
+    const processoUm = nomeArquivo.replace('.log', '');
+    const processoDois = trocaCaractere(processoUm, 2, '/');
+    const processoTres = trocaCaractere(processoDois, 5, '/');
+    const processoQuatro = trocaCaractere(processoTres, 10, ' ');
+    const processoCinco = trocaCaractere(processoQuatro, 13, ':');
+    const processoSeis = trocaCaractere(processoCinco, 16, ':');
+    // eslint-disable-next-line no-console
+    console.log(processoSeis);
+    return processoSeis;
+}
+
 export const todosLogs = (request, response, next) => {
     /** linux */
     // const diretorioLog = `${__dirname}/../../logs`;
@@ -65,8 +81,10 @@ export const todosLogs = (request, response, next) => {
     fs.readdirSync(diretorioLog).forEach(arquivos => {
         // const logAcabou = refloraLog.leLOG(arquivos.replace('.log', ''));
         // console.log(logAcabou);
-        // if (logAcabou.includes('O processo de comparação do Reflora acabou.')) {
-        nomeArquivos = `${nomeArquivos}"${arquivos.replace('.log', '')}", `;
+        // if (logAcabou.includes('O processo de comparação do Reflora acabou.')) {]
+        // const processaArquivo = arquivos.replace('.log', '');
+        // processaNomeLog(arquivos);
+        nomeArquivos = `${nomeArquivos}"${processaNomeLog(arquivos)}", `;
         // }
     });
     const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
