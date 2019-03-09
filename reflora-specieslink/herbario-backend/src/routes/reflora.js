@@ -4,6 +4,9 @@ export default app => {
     app.route('/reflora').get([
         controller.chamaReflora,
     ]);
+    app.route('/reflora-executando').get([
+        controller.estaExecutando,
+    ]);
     app.route('/reflora-agenda').get([
         controller.agendaReflora,
     ]);

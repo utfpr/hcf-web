@@ -39,6 +39,21 @@ function getExecucao() {
     return execucao;
 }
 
+export const estaExecutando = (request, response, next) => {
+    Reflora.agenda().then(() => {
+        // eslint-disable-next-line no-console
+        console.log(execucao);
+        /**
+         * Se está executando ou irá executar retornar verdade, caso contrário falo
+         */
+        if ((execucao === estadosExecucao.EXECUTANDO) || (execucao === estadosExecucao.FACAEXECUCAO)) {
+            response.status(200).json(JSON.parse(' { "executando": "true" } '));
+        } else {
+            response.status(200).json(JSON.parse(' { "executando": "false" } '));
+        }
+    }).catch(next);
+};
+
 function setExecucao(estado) {
     switch (estado) {
         case 1:
@@ -66,8 +81,6 @@ function processaNomeLog(nomeArquivo) {
     const processoQuatro = trocaCaractere(processoTres, 10, ' ');
     const processoCinco = trocaCaractere(processoQuatro, 13, ':');
     const processoSeis = trocaCaractere(processoCinco, 16, ':');
-    // eslint-disable-next-line no-console
-    console.log(processoSeis);
     return processoSeis;
 }
 
@@ -87,13 +100,13 @@ export const todosLogs = (request, response, next) => {
 
 export const getLog = (request, response, next) => {
     // console.log(`->${request.query.nomeLog}`);
-    const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(request.query.nomeLog));
+    const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
+    const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
+    const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
+    const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(processaNomeArquivoTres));
     // eslint-disable-next-line no-console
     console.log(conteudoLog);
     response.status(200).json(conteudoLog);
-    /* Reflora.agenda(horario, periodicidade).then(() => {
-        response.status(200).json(JSON.parse(' { "title": "example glossary" } '));
-    }).catch(next); */
 };
 
 export default { getExecucao, setExecucao };

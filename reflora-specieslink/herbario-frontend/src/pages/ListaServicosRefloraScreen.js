@@ -14,30 +14,17 @@ class ListaServicosRefloraScreen extends Component {
 
     constructor(props) {
         super(props);
-        this.getNomeLOG();
+        this.nomeLOG();
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
+            executando: false,
             horarioAtualizacao: '',
             periodicidadeAtualizacao: '',
             escondeResultadoLog: '2',
             nomeLog: [],
             saidaLOG: [],
         }
-    }
-
-    getNomeLOG = () => {
-        axios.get('/reflora-todoslogs').then(response => {
-            if (response.status === 200) {
-                const logs = response.data.logs.sort();
-                this.setState({ nomeLog: logs });
-                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
-                console.log(logs[logs.length - 1]);
-            }
-            // console.log(response.data.logs);
-            // return response.data.logs;
-            // promessa.resolve(response.data.logs);
-        });
     }
 
     /**
@@ -56,6 +43,16 @@ class ListaServicosRefloraScreen extends Component {
      * 2.Eu pego a hora e seto no estado dela, vejo o valor que está no estado da periodicidade e faço a requisição
      * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
      * */
+
+    nomeLOG = () => {
+        axios.get('/reflora-todoslogs').then(response => {
+            if (response.status === 200) {
+                const logs = response.data.logs.sort();
+                this.setState({ nomeLog: logs });
+                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+            }
+        });
+    }
 
     getHorarioAgenda = (time, timeString) => {
         console.log(`t${timeString}`);
@@ -96,7 +93,7 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    getLog = log => {
+    informacoesLog = log => {
         const params = {
             nomeLog: log,
         };
@@ -107,7 +104,7 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    getDisabledMinutes = (selectedMinutes) => {
+    desabilitaMinutos = (selectedMinutes) => {
     }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
@@ -130,8 +127,10 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
+                    // this.setState({ executando: false });
                 } else {
                     this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
+                    // this.setState({ executando: !this.state.executando });
                 }
             }
         });
@@ -147,7 +146,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
                             Atualizar
-						</Button>
+                        </Button>
                     </Col>
                 </Row>
                 <Row gutter={6}>
@@ -175,7 +174,7 @@ class ListaServicosRefloraScreen extends Component {
                                 style={{ width: '100%' }}
                                 placeholder='Insira a hora desejada'
                                 format={'HH'}
-                                disabledMinutes={this.getDisabledMinutes}
+                                disabledMinutes={this.desabilitaMinutos}
                                 disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
                                 onChange={this.getHorarioAgenda}
                             />
@@ -201,7 +200,7 @@ class ListaServicosRefloraScreen extends Component {
                         <FormItem>
                             <Select
                                 placeholder='Selecione o LOG desejado'
-                                onChange={this.getLog}
+                                onChange={this.informacoesLog}
                             >
                                 {this.state.nomeLog.map((saida, chave) => {
                                     return <Option key={chave} value={saida}>{saida}</Option>
