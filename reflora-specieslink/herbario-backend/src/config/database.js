@@ -28,5 +28,4 @@ export const options = {
         charset: 'utf8mb4',
         multipleStatements: true,
     },
-    logging: false,
 };
