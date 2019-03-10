@@ -96,7 +96,26 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     getPeriodicidade = periodicidade => {
-
+        console.log(`p${periodicidade}`)
+        /**
+         * O set state não é algo imediato, por isso utilizamos o callback para que o valor atualizado
+         * seja utilizado na requisição ao backend
+         */
+        this.setState({ periodicidadeAtualizacao: periodicidade }, () => {
+            if (this.state.horarioAtualizacao.length > 0) {
+                console.log(`e${this.state.periodicidadeAtualizacao}`);
+                console.log(`p${this.state.horarioAtualizacao}`);
+                // faço a requisição
+                console.log(`periodicidade`);
+                const params = {
+                    horario: this.state.horarioAtualizacao,
+                    periodicidade: this.state.periodicidadeAtualizacao
+                };
+                axios.get('/reflora-agenda', { params }).then(response => {
+                    console.log(response.data.title);
+                });
+            }
+        });
     }
 
     informacoesLog = log => {

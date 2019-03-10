@@ -1,4 +1,6 @@
+/* eslint-disable max-len */
 const fs = require('fs');
+const moment = require('moment');
 const Reflora = require('../herbarium/reflora/main');
 const refloraLog = require('../herbarium/log');
 
@@ -22,15 +24,52 @@ export const chamaReflora = (request, response, next) => {
     }
 };
 
+function mensagemAgendaSemanalReflora(diaDaSemana) {
+    switch (diaDaSemana) {
+        case 1:
+            return 'A atualização foi marcada para toda segunda-feira';
+        case 2:
+            return 'A atualização foi marcada para toda terça-feira';
+        case 3:
+            return 'A atualização foi marcada para toda quarta-feira';
+        case 4:
+            return 'A atualização foi marcada para toda quinta-feira';
+        case 5:
+            return 'A atualização foi marcada para toda sexta-feira';
+        case 6:
+            return 'A atualização foi marcada para todo sábado';
+        case 7:
+            return 'A atualização foi marcada para todo domingo';
+        default:
+            break;
+    }
+    return '';
+}
+function mensagemAgendaMensalReflora(diaDoMes) {
+    return `A atualização foi marcada para todo dia do mês ${diaDoMes}`;
+}
+
 export const agendaReflora = (request, response, next) => {
-    // eslint-disable-next-line no-console
-    console.log(`->${request.query.horario}`);
-    const horario = 0;
-    const periodicidade = 'a';
-    Reflora.agenda(horario, periodicidade).then(() => {
-        response.status(200).json(JSON.parse(' { "title": "example glossary" } '));
-    }).catch(next);
-    // response.status(200).json(JSON.parse(' { "title": "example glossary" } ')).catch(next);
+    const { horario, periodicidade } = request.query;
+    if (periodicidade === 'semanal') {
+        // 432000000 -> Equivale a 12 horas
+        const diaDaSemana = moment().isoWeekday();
+        setInterval(() => {
+
+        }, 43200000);
+        Reflora.agenda(horario, periodicidade).then(() => {
+            response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaSemanalReflora(diaDaSemana)}" } `));
+        }).catch(next);
+    } else if (periodicidade === 'mensal') {
+        // 864000000 -> Equivale a 24 horas
+        const diaDoMes = moment().format('DD');
+        setInterval(() => {
+
+        }, 86400000);
+        Reflora.agenda(horario, periodicidade).then(() => {
+            response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaMensalReflora(diaDoMes)}" } `));
+        }).catch(next);
+    }
 };
 
 function getExecucao() {
