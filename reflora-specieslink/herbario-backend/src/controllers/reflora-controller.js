@@ -51,24 +51,27 @@ function mensagemAgendaMensalReflora(diaDoMes) {
 
 export const agendaReflora = (request, response, next) => {
     const { horario, periodicidade } = request.query;
+    // eslint-disable-next-line no-console
+    console.log(`${periodicidade === 'mensal'}`);
     if (periodicidade === 'semanal') {
+        // eslint-disable-next-line no-console
+        console.log(horario);
         // 432000000 -> Equivale a 12 horas
         const diaDaSemana = moment().isoWeekday();
         setInterval(() => {
 
         }, 43200000);
-        Reflora.agenda(horario, periodicidade).then(() => {
-            response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaSemanalReflora(diaDaSemana)}" } `));
-        }).catch(next);
+        // Reflora.agenda(horario, periodicidade).then(() => {
+        response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaSemanalReflora(diaDaSemana)}" } `));
+        // }).catch(next);
     } else if (periodicidade === 'mensal') {
         // 864000000 -> Equivale a 24 horas
-        const diaDoMes = moment().format('DD');
-        setInterval(() => {
+        // const diaDoMes = moment().format('DD');
+        /* setInterval(() => {
 
-        }, 86400000);
-        Reflora.agenda(horario, periodicidade).then(() => {
-            response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaMensalReflora(diaDoMes)}" } `));
-        }).catch(next);
+        }, 86400000); */
+        response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaMensalReflora(1)}" } `));
+        // }).catch(next);
     }
 };
 
@@ -81,8 +84,14 @@ function getExecucao() {
 export const estaExecutando = (request, response, next) => {
     Reflora.agenda().then(() => {
         if (execucao === estadosExecucao.NAOEXECUTANDO) {
+            response.header('Access-Control-Allow-Origin', '*');
+            response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
+            response.header('Access-Control-Allow-Methods', 'GET');
             response.status(200).json(JSON.parse(' { "executando": "false" } '));
         } else if ((execucao === estadosExecucao.FACAEXECUCAO) || (execucao === estadosExecucao.EXECUTANDO)) {
+            response.header('Access-Control-Allow-Origin', '*');
+            response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
+            response.header('Access-Control-Allow-Methods', 'GET');
             response.status(200).json(JSON.parse(' { "executando": "true" } '));
         }
 

@@ -9,6 +9,13 @@ import HeaderServicesComponent from '../components/HeaderServicesComponent';
 const FormItem = Form.Item;
 const Option = Select.Option;
 const Panel = Collapse.Panel;
+const AXIOS = axios.create({
+    baseURL: 'http://localhost:3003/api',
+    headers: {
+        //you can remove this header
+        'Access-Control-Allow-Origin': 'http://localhost:3003/api'
+    }
+});
 
 class ListaServicosRefloraScreen extends Component {
 
@@ -47,26 +54,21 @@ class ListaServicosRefloraScreen extends Component {
 
     statusExecucao = () => {
         setInterval(() => {
-            axios.get('/reflora-executando').then(response => {
+            AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
                     if (response.data.executando === 'false') {
                         this.setState({ executando: false });
                     } else if (response.data.executando === 'true') {
                         this.setState({ executando: true });
                     }
-                    /* if (response.data.executando === 1) {
-    
-                    } */
-                    // this.setState({ nomeLog: logs });
-                    // this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
                 }
             });
-        }, 2000);
+        }, 3000);
 
     }
 
     nomeLOG = () => {
-        axios.get('/reflora-todoslogs').then(response => {
+        AXIOS.get('/reflora-todoslogs').then(response => {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 this.setState({ nomeLog: logs });
@@ -88,7 +90,7 @@ class ListaServicosRefloraScreen extends Component {
                     horario: this.state.horarioAtualizacao,
                     periodicidade: this.state.periodicidadeAtualizacao
                 };
-                axios.get('/reflora-agenda', { params }).then(response => {
+                AXIOS.get('/reflora-agenda', { params }).then(response => {
                     console.log(response.data.title);
                 });
             }
@@ -111,8 +113,8 @@ class ListaServicosRefloraScreen extends Component {
                     horario: this.state.horarioAtualizacao,
                     periodicidade: this.state.periodicidadeAtualizacao
                 };
-                axios.get('/reflora-agenda', { params }).then(response => {
-                    console.log(response.data.title);
+                AXIOS.get('/reflora-agenda', { params }).then(response => {
+                    console.log(response.data);
                 });
             }
         });
@@ -122,7 +124,7 @@ class ListaServicosRefloraScreen extends Component {
         const params = {
             nomeLog: log,
         };
-        axios.get('/reflora-log', { params }).then(response => {
+        AXIOS.get('/reflora-log', { params }).then(response => {
             this.setState({ saidaLOG: response.data.log });
         });
     }
@@ -146,7 +148,7 @@ class ListaServicosRefloraScreen extends Component {
          * O axios, ele realiza requisições de dois em dois minutos se não há resposta
          * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.
          */
-        axios.get('/reflora').then(response => {
+        AXIOS.get('/reflora').then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
