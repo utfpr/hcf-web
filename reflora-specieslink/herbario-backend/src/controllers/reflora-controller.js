@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 const fs = require('fs');
 const moment = require('moment');
-const Reflora = require('../herbarium/reflora/main');
+// const Reflora = require('../herbarium/reflora/main');
 const refloraLog = require('../herbarium/log');
 
-const estadosExecucao = {
+export const estadosExecucao = {
     NAOEXECUTANDO: 1,
     FACAEXECUCAO: 2,
     EXECUTANDO: 3,
@@ -45,57 +45,51 @@ function mensagemAgendaSemanalReflora(diaDaSemana) {
     }
     return '';
 }
+
 function mensagemAgendaMensalReflora(diaDoMes) {
     return `A atualização foi marcada para todo dia do mês ${diaDoMes}`;
 }
 
 export const agendaReflora = (request, response, next) => {
     const { horario, periodicidade } = request.query;
-    // eslint-disable-next-line no-console
-    console.log(`${periodicidade === 'mensal'}`);
     if (periodicidade === 'semanal') {
-        // eslint-disable-next-line no-console
-        console.log(horario);
         // 432000000 -> Equivale a 12 horas
         const diaDaSemana = moment().isoWeekday();
         setInterval(() => {
 
         }, 43200000);
-        // Reflora.agenda(horario, periodicidade).then(() => {
+        // eslint-disable-next-line no-console
+        console.log(horario);
         response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaSemanalReflora(diaDaSemana)}" } `));
-        // }).catch(next);
     } else if (periodicidade === 'mensal') {
         // 864000000 -> Equivale a 24 horas
-        // const diaDoMes = moment().format('DD');
-        /* setInterval(() => {
+        const diaDoMes = moment().format('DD');
+        setInterval(() => {
 
-        }, 86400000); */
-        response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaMensalReflora(1)}" } `));
-        // }).catch(next);
+        }, 86400000);
+        response.status(200).json(JSON.parse(` { "result": "success", "message": "${mensagemAgendaMensalReflora(diaDoMes)}" } `));
     }
 };
 
 function getExecucao() {
-    // eslint-disable-next-line no-console
-    // console.log(estaExecutando);
     return execucao;
 }
 
 export const estaExecutando = (request, response, next) => {
-    Reflora.agenda().then(() => {
-        if (execucao === estadosExecucao.NAOEXECUTANDO) {
-            response.header('Access-Control-Allow-Origin', '*');
-            response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
-            response.header('Access-Control-Allow-Methods', 'GET');
-            response.status(200).json(JSON.parse(' { "executando": "false" } '));
-        } else if ((execucao === estadosExecucao.FACAEXECUCAO) || (execucao === estadosExecucao.EXECUTANDO)) {
-            response.header('Access-Control-Allow-Origin', '*');
-            response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
-            response.header('Access-Control-Allow-Methods', 'GET');
-            response.status(200).json(JSON.parse(' { "executando": "true" } '));
-        }
+    // Reflora.agenda().then(() => {
+    if (execucao === estadosExecucao.NAOEXECUTANDO) {
+        response.header('Access-Control-Allow-Origin', '*');
+        response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
+        response.header('Access-Control-Allow-Methods', 'GET');
+        response.status(200).json(JSON.parse(' { "executando": "false" } '));
+    } else if ((execucao === estadosExecucao.FACAEXECUCAO) || (execucao === estadosExecucao.EXECUTANDO)) {
+        response.header('Access-Control-Allow-Origin', '*');
+        response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
+        response.header('Access-Control-Allow-Methods', 'GET');
+        response.status(200).json(JSON.parse(' { "executando": "true" } '));
+    }
 
-    }).catch(next);
+    // }).catch(next);
 };
 
 function setExecucao(estado) {
@@ -143,13 +137,10 @@ export const todosLogs = (request, response, next) => {
 };
 
 export const getLog = (request, response, next) => {
-    // console.log(`->${request.query.nomeLog}`);
     const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
     const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
     const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
     const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(processaNomeArquivoTres));
-    // eslint-disable-next-line no-console
-    console.log(conteudoLog);
     response.status(200).json(conteudoLog);
 };
 

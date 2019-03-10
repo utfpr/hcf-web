@@ -63,7 +63,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 3000);
+        }, 60000);
 
     }
 
@@ -85,14 +85,15 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
                 console.log(`horario`)
-
-                const params = {
-                    horario: this.state.horarioAtualizacao,
-                    periodicidade: this.state.periodicidadeAtualizacao
-                };
-                AXIOS.get('/reflora-agenda', { params }).then(response => {
-                    console.log(response.data.title);
-                });
+                if ((this.state.periodicidadeAtualizacao.length > 0) && (this.state.horarioAtualizacao.length > 0)) {
+                    const params = {
+                        horario: this.state.horarioAtualizacao,
+                        periodicidade: this.state.periodicidadeAtualizacao
+                    };
+                    AXIOS.get('/reflora-agenda', { params }).then(response => {
+                        console.log(response.data.title);
+                    });
+                }
             }
         });
     }
@@ -109,13 +110,15 @@ class ListaServicosRefloraScreen extends Component {
                 console.log(`p${this.state.horarioAtualizacao}`);
                 // faço a requisição
                 console.log(`periodicidade`);
-                const params = {
-                    horario: this.state.horarioAtualizacao,
-                    periodicidade: this.state.periodicidadeAtualizacao
-                };
-                AXIOS.get('/reflora-agenda', { params }).then(response => {
-                    console.log(response.data);
-                });
+                if ((this.state.periodicidadeAtualizacao.length > 0) && (this.state.horarioAtualizacao.length > 0)) {
+                    const params = {
+                        horario: this.state.horarioAtualizacao,
+                        periodicidade: this.state.periodicidadeAtualizacao
+                    };
+                    AXIOS.get('/reflora-agenda', { params }).then(response => {
+                        console.log(response.data);
+                    });
+                }
             }
         });
     }

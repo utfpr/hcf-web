@@ -12,10 +12,8 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     getNomeArquivo,
     escreveLOG,
-    // leLOG,
-    // transformaLog,
 } from '../log';
-import refloraController from '../../controllers/reflora-controller';
+import refloraController, { estadosExecucao } from '../../controllers/reflora-controller';
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
@@ -24,7 +22,7 @@ function comecaReflora(conexao, nomeArquivo) {
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 700)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -71,13 +69,11 @@ export function daemonReflora() {
          * Fazendo ela eu mudo de estado, para executando e quando termino mudo
          * para o estado de executado.
          */
-        if (refloraController.getExecucao() === 2) {
-            // eslint-disable-next-line no-console
-            console.log('->z->entrou aqui');
-            refloraController.setExecucao(3);
+        if (refloraController.getExecucao() === estadosExecucao.FACAEXECUCAO) {
+            refloraController.setExecucao(estadosExecucao.EXECUTANDO);
             const nomeArquivo = getNomeArquivo();
             ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
-                refloraController.setExecucao(1);
+                refloraController.setExecucao(estadosExecucao.NAOEXECUTANDO);
             });
         }
     }, 60000);
@@ -92,8 +88,5 @@ export function agenda(horario, periodicidade) {
     promessa.resolve();
     return promessa.promise;
 }
-/*
-export function verificaNecessidade() {
-}
-*/
+
 export default {};
