@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 const fs = require('fs');
 const moment = require('moment');
-// const Reflora = require('../herbarium/reflora/main');
 const refloraLog = require('../herbarium/log');
 
 export const estadosExecucao = {
@@ -10,6 +9,8 @@ export const estadosExecucao = {
     EXECUTANDO: 3,
 };
 let execucao = estadosExecucao.NAOEXECUTANDO;
+let horarioAtualizacao = '';
+let periodicidadeAtualizacao = '';
 
 export const chamaReflora = (request, response, next) => {
     /**
@@ -52,6 +53,13 @@ function mensagemAgendaMensalReflora(diaDoMes) {
 
 export const agendaReflora = (request, response, next) => {
     const { horario, periodicidade } = request.query;
+    if (horario !== horarioAtualizacao) {
+        horarioAtualizacao = horario;
+    }
+    if (periodicidade !== periodicidadeAtualizacao) {
+        periodicidadeAtualizacao = periodicidade;
+    }
+    
     if (periodicidade === 'semanal') {
         // 432000000 -> Equivale a 12 horas
         const diaDaSemana = moment().isoWeekday();
@@ -76,7 +84,6 @@ function getExecucao() {
 }
 
 export const estaExecutando = (request, response, next) => {
-    // Reflora.agenda().then(() => {
     if (execucao === estadosExecucao.NAOEXECUTANDO) {
         response.header('Access-Control-Allow-Origin', '*');
         response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
@@ -88,8 +95,6 @@ export const estaExecutando = (request, response, next) => {
         response.header('Access-Control-Allow-Methods', 'GET');
         response.status(200).json(JSON.parse(' { "executando": "true" } '));
     }
-
-    // }).catch(next);
 };
 
 function setExecucao(estado) {

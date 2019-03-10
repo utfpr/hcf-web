@@ -64,7 +64,6 @@ class ListaServicosRefloraScreen extends Component {
                 }
             });
         }, 60000);
-
     }
 
     nomeLOG = () => {
@@ -77,50 +76,12 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    getHorarioAgenda = (time, timeString) => {
-        console.log(`t${timeString}`);
-        this.setState({ horarioAtualizacao: timeString }, () => {
-            if (this.state.periodicidadeAtualizacao.length > 0) {
-                console.log(`e${this.state.periodicidadeAtualizacao}`);
-                console.log(`p${this.state.horarioAtualizacao}`);
-                // faço a requisição
-                console.log(`horario`)
-                if ((this.state.periodicidadeAtualizacao.length > 0) && (this.state.horarioAtualizacao.length > 0)) {
-                    const params = {
-                        horario: this.state.horarioAtualizacao,
-                        periodicidade: this.state.periodicidadeAtualizacao
-                    };
-                    AXIOS.get('/reflora-agenda', { params }).then(response => {
-                        console.log(response.data.title);
-                    });
-                }
-            }
-        });
+    programaHoraAtualizacao = (time, timeString) => {
+        this.setState({ horarioAtualizacao: timeString });
     }
 
-    getPeriodicidade = periodicidade => {
-        console.log(`p${periodicidade}`)
-        /**
-         * O set state não é algo imediato, por isso utilizamos o callback para que o valor atualizado
-         * seja utilizado na requisição ao backend
-         */
-        this.setState({ periodicidadeAtualizacao: periodicidade }, () => {
-            if (this.state.horarioAtualizacao.length > 0) {
-                console.log(`e${this.state.periodicidadeAtualizacao}`);
-                console.log(`p${this.state.horarioAtualizacao}`);
-                // faço a requisição
-                console.log(`periodicidade`);
-                if ((this.state.periodicidadeAtualizacao.length > 0) && (this.state.horarioAtualizacao.length > 0)) {
-                    const params = {
-                        horario: this.state.horarioAtualizacao,
-                        periodicidade: this.state.periodicidadeAtualizacao
-                    };
-                    AXIOS.get('/reflora-agenda', { params }).then(response => {
-                        console.log(response.data);
-                    });
-                }
-            }
-        });
+    programaPeriodicidadeAtualizacao = periodicidade => {
+        this.setState({ periodicidadeAtualizacao: periodicidade });
     }
 
     informacoesLog = log => {
@@ -132,7 +93,7 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    desabilitaMinutos = (selectedMinutes) => {
+    desabilitaMinutos = selectedMinutes => {
     }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
@@ -155,7 +116,6 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
-                    // this.setState({ executando: false });
                 } else {
                     this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
                     this.setState({ executando: !this.state.executando });
@@ -174,6 +134,9 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>executando...</span>}
                     </Col>
+                    <Col span={6} style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao}</span>
+                    </Col>
                 </Row>
                 <Row gutter={6}>
                     <Col span={6} style={{ top: '21px' }}>
@@ -185,7 +148,7 @@ class ListaServicosRefloraScreen extends Component {
                         </FormItem>
                     </Col>
                 </Row>
-                <Row gutter={8}>
+                <Row gutter={6}>
                     <Col span={6}>
                         <span>Horas:</span>
                     </Col>
@@ -193,61 +156,57 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Periodicidade:</span>
                     </Col>
                 </Row>
-                <Row gutter={8}>
+                <Row gutter={6}>
                     <Col span={6}>
-                        <FormItem>
-                            <TimePicker
-                                style={{ width: '100%' }}
-                                placeholder='Insira a hora desejada'
-                                format={'HH'}
-                                disabledMinutes={this.desabilitaMinutos}
-                                disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
-                                onChange={this.getHorarioAgenda}
-                            />
-                        </FormItem>
+                        <TimePicker
+                            style={{ width: '100%' }}
+                            placeholder='Insira a hora desejada'
+                            format={'HH'}
+                            disabledMinutes={this.desabilitaMinutos}
+                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
+                            onChange={this.programaHoraAtualizacao}
+                        />
                     </Col>
                     <Col span={6}>
-                        <FormItem>
-                            <Select
-                                placeholder='Selecione a periodicidade desejada'
-                                onChange={this.getPeriodicidade}
-                                disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                                <Option value='semanal'>Semanalmente</Option>
-                                <Option value='mensal'>Mensalmente</Option>
-                            </Select>
-                        </FormItem>
+                        <Select
+                            placeholder='Selecione a periodicidade desejada'
+                            onChange={this.programaPeriodicidadeAtualizacao}
+                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                            <Option value='semanal'>Semanalmente</Option>
+                            <Option value='mensal'>Mensalmente</Option>
+                        </Select>
+                    </Col>
+                    <Col span={6}>
+                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
-                        <FormItem>
-                            <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao}</span>
-                        </FormItem>
-                    </Col>
-                    <Col span={6} style={{ textAlign: 'center' }}>
-                        <FormItem>
-                            <Select
-                                placeholder='Selecione o LOG desejado'
-                                onChange={this.informacoesLog}
-                            >
-                                {this.state.nomeLog.map((saida, chave) => {
-                                    return <Option key={chave} value={saida}>{saida}</Option>
-                                })}
-                            </Select>
-                        </FormItem>
+                        <Select
+                            placeholder='Selecione o LOG desejado'
+                            onChange={this.informacoesLog}
+                        >
+                            {this.state.nomeLog.map((saida, chave) => {
+                                return <Option key={chave} value={saida}>{saida}</Option>
+                            })}
+                        </Select>
                     </Col>
                 </Row>
-                <Row gutter={8}>
-                    <Collapse accordion>
-                        <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
-                            {this.state.saidaLOG.map((saida, chave) => {
-                                // console.log(saida);
-                                if (saida.includes('Erro')) {
-                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida}</p>
-                                } else {
-                                    return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida}</p>
-                                }
-                            })}
-                        </Panel>
-                    </Collapse>
+                <Row style={{ marginBottom: 20 }} gutter={6}>
+                </Row>
+                <Row gutter={6}>
+                    <Col span={24}>
+                        <Collapse accordion>
+                            <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
+                                {this.state.saidaLOG.map((saida, chave) => {
+                                    // console.log(saida);
+                                    if (saida.includes('Erro')) {
+                                        return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida}</p>
+                                    } else {
+                                        return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida}</p>
+                                    }
+                                })}
+                            </Panel>
+                        </Collapse>
+                    </Col>
                 </Row>
             </Card>
         )
