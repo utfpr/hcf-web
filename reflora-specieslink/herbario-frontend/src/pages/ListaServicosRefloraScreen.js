@@ -15,6 +15,7 @@ class ListaServicosRefloraScreen extends Component {
     constructor(props) {
         super(props);
         this.nomeLOG();
+        this.statusExecucao();
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
@@ -43,6 +44,26 @@ class ListaServicosRefloraScreen extends Component {
      * 2.Eu pego a hora e seto no estado dela, vejo o valor que está no estado da periodicidade e faço a requisição
      * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
      * */
+
+    statusExecucao = () => {
+        setInterval(() => {
+            axios.get('/reflora-executando').then(response => {
+                if (response.status === 200) {
+                    if (response.data.executando === 'false') {
+                        this.setState({ executando: false });
+                    } else if (response.data.executando === 'true') {
+                        this.setState({ executando: true });
+                    }
+                    /* if (response.data.executando === 1) {
+    
+                    } */
+                    // this.setState({ nomeLog: logs });
+                    // this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                }
+            });
+        }, 2000);
+
+    }
 
     nomeLOG = () => {
         axios.get('/reflora-todoslogs').then(response => {
@@ -75,22 +96,7 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     getPeriodicidade = periodicidade => {
-        console.log(`p${periodicidade}`)
-        /**
-         * O set state não é algo imediato, por isso utilizamos o callback para que o valor atualizado
-         * seja utilizado na requisição ao backend
-         */
-        this.setState({ periodicidadeAtualizacao: periodicidade }, () => {
-            if (this.state.horarioAtualizacao.length > 0) {
-                console.log(`e${this.state.periodicidadeAtualizacao}`);
-                console.log(`p${this.state.horarioAtualizacao}`);
-                // faço a requisição
-                console.log(`periodicidade`);
-                axios.get(`/reflora/${this.state.horarioAtualizacao}-${this.state.periodicidadeAtualizacao}`).then(response => {
-                    console.log(`r${response}`);
-                });
-            }
-        });
+
     }
 
     informacoesLog = log => {
@@ -98,8 +104,6 @@ class ListaServicosRefloraScreen extends Component {
             nomeLog: log,
         };
         axios.get('/reflora-log', { params }).then(response => {
-            // console.log(response.data.title);
-            console.log(response.data.log);
             this.setState({ saidaLOG: response.data.log });
         });
     }
@@ -130,7 +134,7 @@ class ListaServicosRefloraScreen extends Component {
                     // this.setState({ executando: false });
                 } else {
                     this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
-                    // this.setState({ executando: !this.state.executando });
+                    this.setState({ executando: !this.state.executando });
                 }
             }
         });
@@ -144,9 +148,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
-                            Atualizar
-                        </Button>
+                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>executando...</span>}
                     </Col>
                 </Row>
                 <Row gutter={6}>

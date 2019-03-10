@@ -41,16 +41,12 @@ function getExecucao() {
 
 export const estaExecutando = (request, response, next) => {
     Reflora.agenda().then(() => {
-        // eslint-disable-next-line no-console
-        console.log(execucao);
-        /**
-         * Se está executando ou irá executar retornar verdade, caso contrário falo
-         */
-        if ((execucao === estadosExecucao.EXECUTANDO) || (execucao === estadosExecucao.FACAEXECUCAO)) {
-            response.status(200).json(JSON.parse(' { "executando": "true" } '));
-        } else {
+        if (execucao === estadosExecucao.NAOEXECUTANDO) {
             response.status(200).json(JSON.parse(' { "executando": "false" } '));
+        } else if ((execucao === estadosExecucao.FACAEXECUCAO) || (execucao === estadosExecucao.EXECUTANDO)) {
+            response.status(200).json(JSON.parse(' { "executando": "true" } '));
         }
+
     }).catch(next);
 };
 
