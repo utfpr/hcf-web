@@ -4,6 +4,7 @@ import {
     notification, Button, Select, Switch, Collapse, TimePicker
 } from 'antd';
 import axios from 'axios';
+import moment from 'moment';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
 
 const FormItem = Form.Item;
@@ -82,6 +83,52 @@ class ListaServicosRefloraScreen extends Component {
 
     programaPeriodicidadeAtualizacao = periodicidade => {
         this.setState({ periodicidadeAtualizacao: periodicidade });
+    }
+
+    mensagemSemanal = (diaDaSemana, horaAtualizacao) => {
+        switch (diaDaSemana) {
+            case 1:
+                return `O processo de atualização foi agendado para toda segunda-feira às ${horaAtualizacao}.`;
+            case 2:
+                return `O processo de atualização foi agendado para toda terça-feira às ${horaAtualizacao}.`;
+            case 3:
+                return `O processo de atualização foi agendado para toda quarta-feira às ${horaAtualizacao}.`;
+            case 4:
+                return `O processo de atualização foi agendado para toda quinta-feira às ${horaAtualizacao}.`;
+            case 5:
+                return `O processo de atualização foi agendado para toda sexta-feira às ${horaAtualizacao}.`;
+            case 6:
+                return `O processo de atualização foi agendado para todo sábado às ${horaAtualizacao}.`;
+            case 7:
+                return `O processo de atualização foi agendado para todo domingo às ${horaAtualizacao}.`;
+            default:
+                break;
+        }
+    }
+
+    mensagemMensal = diaMensal => {
+        return `O processo de atualização foi agendado pra todo dia do mês dia ${diaMensal}.`;
+    }
+
+    programaAtualizacao = () => {
+        const params = {
+            horario: this.state.horarioAtualizacao,
+            periodicidade: this.state.periodicidadeAtualizacao,
+        };
+        AXIOS.get('/reflora-agenda', { params }).then(response => {
+            if (response.status === 200) {
+                if (response.data.result === 'failed') {
+                    this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
+                } else {
+                    if (params.periodicidade === 'semanal') {
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday(), this.state.horarioAtualizacao));
+                    }
+                    if (params.periodicidade === 'mensal') {
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal(moment().format('DD')));
+                    }
+                }
+            }
+        });
     }
 
     informacoesLog = log => {
@@ -177,7 +224,10 @@ class ListaServicosRefloraScreen extends Component {
                         </Select>
                     </Col>
                     <Col span={6}>
-                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button>
+                        <Button type='primary' htmlType='submit' className='login-form-button'
+                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico} onClick={this.programaAtualizacao}>
+                            Atualizar
+                        </Button>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <Select
