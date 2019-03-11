@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
+import moment from 'moment';
+
 const fs = require('fs');
-// const moment = require('moment');
 const refloraLog = require('../herbarium/log');
 
 export const estadosExecucao = {
@@ -11,6 +12,8 @@ export const estadosExecucao = {
 let execucao = estadosExecucao.NAOEXECUTANDO;
 let horarioAtualizacao = '';
 let periodicidadeAtualizacao = '';
+let diaDaSemana = -1;
+let diaDoMes = '';
 
 export const chamaReflora = (request, response, next) => {
     /**
@@ -33,11 +36,36 @@ export const agendaReflora = (request, response, next) => {
     if (periodicidade !== periodicidadeAtualizacao) {
         periodicidadeAtualizacao = periodicidade;
     }
+    if (periodicidadeAtualizacao === 'semanal') {
+        diaDaSemana = moment().isoWeekday();
+    }
+    if (periodicidadeAtualizacao === 'mensal') {
+        diaDoMes = moment().format('DD');
+        if (parseInt(diaDoMes) > 28) {
+            diaDoMes = '28';
+        }
+    }
     response.status(200).json(JSON.parse(' { "result": "success" } '));
 };
 
 function getExecucao() {
     return execucao;
+}
+
+export function getHorarioAtualizacao() {
+    return horarioAtualizacao;
+}
+
+export function getPeriodicidadeAtualizacao() {
+    return periodicidadeAtualizacao;
+}
+
+export function getDiaDaSemana() {
+    return diaDaSemana;
+}
+
+export function getDiaDoMes() {
+    return diaDoMes;
 }
 
 export const estaExecutando = (request, response, next) => {
@@ -90,7 +118,6 @@ export const todosLogs = (request, response, next) => {
     /** windows */
     const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';
-
     fs.readdirSync(diretorioLog).forEach(arquivos => {
         nomeArquivos = `${nomeArquivos}"${processaNomeLog(arquivos)}", `;
     });

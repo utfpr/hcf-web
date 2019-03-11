@@ -6,7 +6,7 @@ import morgan from 'morgan';
 import routes from './routes';
 import errors from './middlewares/erros-middleware';
 
-import { daemonReflora } from './herbarium/reflora/main';
+import { daemonReflora, daemonAgendaReflora } from './herbarium/reflora/main';
 
 const app = express();
 app.use(cors());
@@ -17,5 +17,6 @@ app.use('/api', routes);
 app.use(errors);
 
 daemonReflora();
+daemonAgendaReflora();
 
 export default app;
