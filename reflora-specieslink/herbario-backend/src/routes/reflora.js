@@ -16,4 +16,7 @@ export default app => {
     app.route('/reflora-log').get([
         controller.getLog,
     ]);
+    app.route('/reflora-status-agenda').get([
+        controller.getStatusAgenda,
+    ]);
 };

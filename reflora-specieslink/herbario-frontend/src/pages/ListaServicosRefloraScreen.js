@@ -23,6 +23,7 @@ class ListaServicosRefloraScreen extends Component {
     constructor(props) {
         super(props);
         this.nomeLOG();
+        this.statusAgenda();
         this.statusExecucao();
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
@@ -52,6 +53,18 @@ class ListaServicosRefloraScreen extends Component {
      * 2.Eu pego a hora e seto no estado dela, vejo o valor que está no estado da periodicidade e faço a requisição
      * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
      * */
+
+    statusAgenda = () => {
+        setInterval(() => {
+            AXIOS.get('/reflora-status-agenda').then(response => {
+                if (response.status === 200) {
+                    console.log(response.data.periodicidade);
+                    // this.setState({ horarioAtualizacao: response.data.horario });
+                    this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                }
+            });
+        }, 60000);
+    }
 
     statusExecucao = () => {
         setInterval(() => {
@@ -140,8 +153,8 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    desabilitaMinutos = selectedMinutes => {
-    }
+    /* desabilitaMinutos = selectedMinutes => {
+    } */
 
     trocaEstadoCamposAtualizacaoAutomatico() {
         this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
@@ -205,6 +218,10 @@ class ListaServicosRefloraScreen extends Component {
                 </Row>
                 <Row gutter={6}>
                     <Col span={6}>
+                        {/**
+                         * Iremos trocar o TimePicker pelo Select pelo fato de que se já estiver 
+                         * habilitado a programação automática ele já irá setar o valor do Select
+                         */}
                         <TimePicker
                             style={{ width: '100%' }}
                             placeholder='Insira a hora desejada'
@@ -218,6 +235,7 @@ class ListaServicosRefloraScreen extends Component {
                         <Select
                             placeholder='Selecione a periodicidade desejada'
                             onChange={this.programaPeriodicidadeAtualizacao}
+                            value={this.state.periodicidadeAtualizacao !== '' ? this.state.periodicidadeAtualizacao : ''}
                             disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
                             <Option value='semanal'>Semanalmente</Option>
                             <Option value='mensal'>Mensalmente</Option>

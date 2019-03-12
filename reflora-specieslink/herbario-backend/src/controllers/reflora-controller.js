@@ -114,9 +114,9 @@ function processaNomeLog(nomeArquivo) {
 
 export const todosLogs = (request, response, next) => {
     /** linux */
-    // const diretorioLog = `${__dirname}/../../logs`;
+    const diretorioLog = `${__dirname}/../../logs`;
     /** windows */
-    const diretorioLog = `${__dirname}../../../logs`;
+    // const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';
     fs.readdirSync(diretorioLog).forEach(arquivos => {
         nomeArquivos = `${nomeArquivos}"${processaNomeLog(arquivos)}", `;
@@ -131,6 +131,16 @@ export const getLog = (request, response, next) => {
     const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
     const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(processaNomeArquivoTres));
     response.status(200).json(conteudoLog);
+};
+
+export const getStatusAgenda = (request, response, next) => {
+    let conteudoJson = ` "horario": "${horarioAtualizacao}", `;
+    conteudoJson = `${conteudoJson} "periodicidade": "${periodicidadeAtualizacao}"`;
+    // const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
+    // const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
+    // const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
+    // const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(processaNomeArquivoTres));
+    response.status(200).json(JSON.parse(`{ ${conteudoJson} }`));
 };
 
 export default { getExecucao, setExecucao };
