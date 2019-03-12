@@ -179,7 +179,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6}>
-                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>executando...</span>}
+                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>Executando! Aguarde...</span>}
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao}</span>
@@ -226,7 +226,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <Button type='primary' htmlType='submit' className='login-form-button'
                             disabled={this.state.desabilitaCamposAtualizacaoAutomatico} onClick={this.programaAtualizacao}>
-                            Atualizar
+                            Definir atualização automática
                         </Button>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
