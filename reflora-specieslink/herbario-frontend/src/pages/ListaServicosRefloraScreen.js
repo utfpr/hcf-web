@@ -58,12 +58,18 @@ class ListaServicosRefloraScreen extends Component {
         setInterval(() => {
             AXIOS.get('/reflora-status-agenda').then(response => {
                 if (response.status === 200) {
-                    console.log(response.data.periodicidade);
-                    // this.setState({ horarioAtualizacao: response.data.horario });
-                    this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                    console.log(response.data.horario);
+                    if (response.data.horario.length > 0 && response.data.periodicidade.length > 0) {
+                        this.setState({ horarioAtualizacao: response.data.horario });
+                        this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        console.log(this.state.desabilitaCamposAtualizacaoAutomatico);
+                        if (this.state.desabilitaCamposAtualizacaoAutomatico) {
+                            this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                        }
+                    }
                 }
             });
-        }, 60000);
+        }, 15000);
     }
 
     statusExecucao = () => {
@@ -90,8 +96,8 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    programaHoraAtualizacao = (time, timeString) => {
-        this.setState({ horarioAtualizacao: timeString });
+    programaHoraAtualizacao = horario => {
+        this.setState({ horarioAtualizacao: horario });
     }
 
     programaPeriodicidadeAtualizacao = periodicidade => {
@@ -204,7 +210,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            <Switch onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} />
+                            <Switch checked={!this.state.desabilitaCamposAtualizacaoAutomatico} onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} />
                         </FormItem>
                     </Col>
                 </Row>
@@ -222,14 +228,37 @@ class ListaServicosRefloraScreen extends Component {
                          * Iremos trocar o TimePicker pelo Select pelo fato de que se já estiver 
                          * habilitado a programação automática ele já irá setar o valor do Select
                          */}
-                        <TimePicker
-                            style={{ width: '100%' }}
+                        <Select
                             placeholder='Insira a hora desejada'
-                            format={'HH'}
-                            disabledMinutes={this.desabilitaMinutos}
-                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}
                             onChange={this.programaHoraAtualizacao}
-                        />
+                            value={this.state.horarioAtualizacao !== '' ? this.state.horarioAtualizacao : ''}
+                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                            <Option value='00'>00</Option>
+                            <Option value='01'>01</Option>
+                            <Option value='02'>02</Option>
+                            <Option value='03'>03</Option>
+                            <Option value='04'>04</Option>
+                            <Option value='05'>05</Option>
+                            <Option value='06'>06</Option>
+                            <Option value='07'>07</Option>
+                            <Option value='08'>08</Option>
+                            <Option value='09'>09</Option>
+                            <Option value='10'>10</Option>
+                            <Option value='11'>11</Option>
+                            <Option value='12'>12</Option>
+                            <Option value='13'>13</Option>
+                            <Option value='14'>14</Option>
+                            <Option value='15'>15</Option>
+                            <Option value='16'>16</Option>
+                            <Option value='17'>17</Option>
+                            <Option value='18'>18</Option>
+                            <Option value='19'>19</Option>
+                            <Option value='20'>20</Option>
+                            <Option value='21'>21</Option>
+                            <Option value='22'>22</Option>
+                            <Option value='23'>23</Option>
+                            <Option value='24'>24</Option>
+                        </Select>
                     </Col>
                     <Col span={6}>
                         <Select
