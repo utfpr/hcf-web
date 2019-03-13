@@ -69,7 +69,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 15000);
+        }, 60000);
     }
 
     statusExecucao = () => {
