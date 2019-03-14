@@ -29,7 +29,6 @@ class ListaServicosRefloraScreen extends Component {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
             executando: false,
-            horarioAtualizacao: '',
             periodicidadeAtualizacao: '',
             escondeResultadoLog: '2',
             nomeLog: [],
@@ -60,7 +59,6 @@ class ListaServicosRefloraScreen extends Component {
                 if (response.status === 200) {
                     console.log(response.data.horario);
                     if (response.data.horario.length > 0 && response.data.periodicidade.length > 0) {
-                        this.setState({ horarioAtualizacao: response.data.horario });
                         this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                         console.log(this.state.desabilitaCamposAtualizacaoAutomatico);
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
@@ -96,42 +94,41 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    programaHoraAtualizacao = horario => {
-        this.setState({ horarioAtualizacao: horario });
-    }
-
     programaPeriodicidadeAtualizacao = periodicidade => {
         this.setState({ periodicidadeAtualizacao: periodicidade });
     }
 
-    mensagemSemanal = (diaDaSemana, horaAtualizacao) => {
+    mensagemSemanal = diaDaSemana => {
         switch (diaDaSemana) {
             case 1:
-                return `O processo de atualização foi agendado para toda segunda-feira às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para toda segunda-feira a meia-noite.`;
             case 2:
-                return `O processo de atualização foi agendado para toda terça-feira às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para toda terça-feira a meia-noite.`;
             case 3:
-                return `O processo de atualização foi agendado para toda quarta-feira às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para toda quarta-feira a meia-noite.`;
             case 4:
-                return `O processo de atualização foi agendado para toda quinta-feira às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para toda quinta-feira a meia-noite.`;
             case 5:
-                return `O processo de atualização foi agendado para toda sexta-feira às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para toda sexta-feira a meia-noite.`;
             case 6:
-                return `O processo de atualização foi agendado para todo sábado às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para todo sábado a meia-noite.`;
             case 7:
-                return `O processo de atualização foi agendado para todo domingo às ${horaAtualizacao}.`;
+                return `O processo de atualização foi agendado para todo domingo a meia-noite.`;
             default:
                 break;
         }
     }
 
     mensagemMensal = diaMensal => {
-        return `O processo de atualização foi agendado pra todo dia do mês dia ${diaMensal}.`;
+        return `O processo de atualização foi agendado e será feito a cada todo mês no dia ${diaMensal}.`;
+    }
+
+    mensagem2Mensal = diaMensal => {
+        return `O processo de atualização foi agendado e será feito a cada dois meses no dia ${diaMensal}.`;
     }
 
     programaAtualizacao = () => {
         const params = {
-            horario: this.state.horarioAtualizacao,
             periodicidade: this.state.periodicidadeAtualizacao,
         };
         AXIOS.get('/reflora-agenda', { params }).then(response => {
@@ -140,10 +137,13 @@ class ListaServicosRefloraScreen extends Component {
                     this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
                 } else {
                     if (params.periodicidade === 'semanal') {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday(), this.state.horarioAtualizacao));
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }
-                    if (params.periodicidade === 'mensal') {
+                    if (params.periodicidade === '1mes') {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal(moment().format('DD')));
+                    }
+                    if (params.periodicidade === '2meses') {
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal(moment().format('DD')));
                     }
                 }
             }
@@ -158,9 +158,6 @@ class ListaServicosRefloraScreen extends Component {
             this.setState({ saidaLOG: response.data.log });
         });
     }
-
-    /* desabilitaMinutos = selectedMinutes => {
-    } */
 
     trocaEstadoCamposAtualizacaoAutomatico() {
         this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
@@ -226,8 +223,9 @@ class ListaServicosRefloraScreen extends Component {
                             onChange={this.programaPeriodicidadeAtualizacao}
                             value={this.state.periodicidadeAtualizacao !== '' ? this.state.periodicidadeAtualizacao : ''}
                             disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                            <Option value='semanal'>Semanalmente</Option>
-                            <Option value='mensal'>Mensalmente</Option>
+                            <Option value='semanal'>A cada semana</Option>
+                            <Option value='1mes'>A cada mês</Option>
+                            <Option value='2meses'>A cada dois meses</Option>
                         </Select>
                     </Col>
                     <Col span={6}>
@@ -283,4 +281,5 @@ class ListaServicosRefloraScreen extends Component {
 
 // Arquivo baseado no arquivo ListaTaxonomiaScreeen.js
 export default Form.create()(ListaServicosRefloraScreen);
+
 

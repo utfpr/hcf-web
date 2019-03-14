@@ -10,7 +10,6 @@ export const estadosExecucao = {
     EXECUTANDO: 3,
 };
 let execucao = estadosExecucao.NAOEXECUTANDO;
-let horarioAtualizacao = '';
 let periodicidadeAtualizacao = '';
 let diaDaSemana = -1;
 let diaDoMes = '';
@@ -29,10 +28,7 @@ export const chamaReflora = (request, response, next) => {
 };
 
 export const agendaReflora = (request, response, next) => {
-    const { horario, periodicidade } = request.query;
-    if (horario !== horarioAtualizacao) {
-        horarioAtualizacao = horario;
-    }
+    const { periodicidade } = request.query;
     if (periodicidade !== periodicidadeAtualizacao) {
         periodicidadeAtualizacao = periodicidade;
     }
@@ -50,10 +46,6 @@ export const agendaReflora = (request, response, next) => {
 
 function getExecucao() {
     return execucao;
-}
-
-export function getHorarioAtualizacao() {
-    return horarioAtualizacao;
 }
 
 export function getPeriodicidadeAtualizacao() {
@@ -134,13 +126,7 @@ export const getLog = (request, response, next) => {
 };
 
 export const getStatusAgenda = (request, response, next) => {
-    let conteudoJson = ` "horario": "${horarioAtualizacao}", `;
-    conteudoJson = `${conteudoJson} "periodicidade": "${periodicidadeAtualizacao}"`;
-    // const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
-    // const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
-    // const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
-    // const conteudoLog = refloraLog.transformaLog(refloraLog.leLOG(processaNomeArquivoTres));
-    response.status(200).json(JSON.parse(`{ ${conteudoJson} }`));
+    response.status(200).json(JSON.parse(`{ "periodicidade": "${periodicidadeAtualizacao}" }`));
 };
 
 export default { getExecucao, setExecucao };
