@@ -216,50 +216,10 @@ class ListaServicosRefloraScreen extends Component {
                 </Row>
                 <Row gutter={6}>
                     <Col span={6}>
-                        <span>Horas:</span>
-                    </Col>
-                    <Col span={6}>
                         <span>Periodicidade:</span>
                     </Col>
                 </Row>
                 <Row gutter={6}>
-                    <Col span={6}>
-                        {/**
-                         * Iremos trocar o TimePicker pelo Select pelo fato de que se já estiver 
-                         * habilitado a programação automática ele já irá setar o valor do Select
-                         */}
-                        <Select
-                            placeholder='Insira a hora desejada'
-                            onChange={this.programaHoraAtualizacao}
-                            value={this.state.horarioAtualizacao !== '' ? this.state.horarioAtualizacao : ''}
-                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                            <Option value='00'>00</Option>
-                            <Option value='01'>01</Option>
-                            <Option value='02'>02</Option>
-                            <Option value='03'>03</Option>
-                            <Option value='04'>04</Option>
-                            <Option value='05'>05</Option>
-                            <Option value='06'>06</Option>
-                            <Option value='07'>07</Option>
-                            <Option value='08'>08</Option>
-                            <Option value='09'>09</Option>
-                            <Option value='10'>10</Option>
-                            <Option value='11'>11</Option>
-                            <Option value='12'>12</Option>
-                            <Option value='13'>13</Option>
-                            <Option value='14'>14</Option>
-                            <Option value='15'>15</Option>
-                            <Option value='16'>16</Option>
-                            <Option value='17'>17</Option>
-                            <Option value='18'>18</Option>
-                            <Option value='19'>19</Option>
-                            <Option value='20'>20</Option>
-                            <Option value='21'>21</Option>
-                            <Option value='22'>22</Option>
-                            <Option value='23'>23</Option>
-                            <Option value='24'>24</Option>
-                        </Select>
-                    </Col>
                     <Col span={6}>
                         <Select
                             placeholder='Selecione a periodicidade desejada'
