@@ -71,7 +71,7 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     statusExecucao = () => {
-        setInterval(() => {
+        /* setInterval(() => {
             AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
                     if (response.data.executando === 'false') {
@@ -81,7 +81,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 60000);
+        }, 60000); */
     }
 
     nomeLOG = () => {
@@ -175,13 +175,15 @@ class ListaServicosRefloraScreen extends Component {
          * O axios, ele realiza requisições de dois em dois minutos se não há resposta
          * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.
          */
-        AXIOS.get('/reflora').then(response => {
+        const params = {
+            periodicidade: 1,
+        };
+        AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
                 } else {
                     this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
-                    this.setState({ executando: !this.state.executando });
                 }
             }
         });

@@ -2,10 +2,10 @@ const controller = require('../controllers/reflora-controller');
 
 export default app => {
     app.route('/reflora').get([
-        controller.chamaReflora,
+        controller.preparaRequisicao,
     ]);
     app.route('/reflora-executando').get([
-        controller.estaExecutando,
+        // controller.estaExecutando,
     ]);
     app.route('/reflora-agenda').get([
         controller.agendaReflora,

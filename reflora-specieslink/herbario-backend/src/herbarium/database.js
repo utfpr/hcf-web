@@ -23,6 +23,7 @@ import modeloVegetacao from '../models/Vegetacao';
 import modeloAlteracao from '../models/Alteracao';
 import modeloUsuario from '../models/Usuario';
 import modeloReflora from '../models/Reflora';
+import modeloConfiguracao from '../models/Configuracao';
 
 export function criaConexao() {
     return new Sequelize(database, username, password, options);
@@ -53,6 +54,43 @@ export function criaTabelaReflora(conexao) {
     tabelaReflora.sync({ force: true });
     tabelaReflora.removeAttribute('id');
     return tabelaReflora;
+}
+
+export function criaTabelaConfiguracao(conexao) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    tabelaConfiguracao.sync({ force: false });
+    return tabelaConfiguracao;
+}
+
+export function selectExecutandoReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { hora_fim: null, servico: 1 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function insereTabelaConfiguracaoReflora(tabelaConfiguracaoReflora, horaAtual, periodicidadeUsuario, automaticoUsuario, statusExecucao) {
+    const promessa = Q.defer();
+
+    return promessa.promise;
+}
+
+export function atualizaTabelaConfiguracao(conexao, idExecucao, horaTerminou, statusExecucao) {
+    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracaoReflora.update(
+        { hora_fim: horaTerminou },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
 }
 
 export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {

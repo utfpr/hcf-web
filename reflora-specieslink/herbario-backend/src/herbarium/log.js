@@ -1,8 +1,7 @@
-
 import fs from 'fs';
 import moment from 'moment';
 
-function getHoraAtual() {
+export function getHoraAtual() {
     return moment().format('DD/MM/YYYY-HH:mm:ss');
 }
 
@@ -30,4 +29,22 @@ export function transformaLog(conteudo) {
     // eslint-disable-next-line no-console
     console.log(transformacaoQuatro);
     return JSON.parse(transformacaoQuatro);
+}
+
+export function trocaCaractere(texto, indice, novoValor) {
+    return texto.substring(0, indice) + novoValor + texto.substring(indice + 1, texto.length);
+}
+
+export function processaNomeLog(nomeLog) {
+    // '1', '15/03/2019-19:56:10', NULL, 'MANUAL', 'REFLORA'
+    const transformacaoUm = trocaCaractere(nomeLog, 2, '-');
+    const transformacaoDois = trocaCaractere(transformacaoUm, 5, '-');
+    const transformacaoTres = trocaCaractere(transformacaoDois, 13, '-');
+    return trocaCaractere(transformacaoTres, 16, '-');
+}
+
+export function getHoraFim(conteudoLog) {
+    const inicio = conteudoLog.lastIndexOf('[');
+    const fim = conteudoLog.lastIndexOf(']');
+    return conteudoLog.substring(inicio + 1, fim);
 }
