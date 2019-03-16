@@ -70,13 +70,7 @@ export function ehNecessarioFazerRequisicao(nomeArquivo) {
 export function daemonFazRequisicaoReflora() {
     const conexao = criaConexao();
     setInterval(() => {
-        /**
-         * Faço um select verificando se existe serviço do Reflora
-         * Se eu
-         */
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
-            // eslint-disable-next-line no-console
-            console.log(existeExecucaoReflora.length);
             if (existeExecucaoReflora.length === 1) {
                 const nomeArquivo = processaNomeLog(existeExecucaoReflora[0].dataValues.hora_inicio);
                 ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
@@ -89,7 +83,7 @@ export function daemonFazRequisicaoReflora() {
                 });
             }
         });
-    }, 5000);
+    }, 60000);
 }
 
 export function refloraExecutando(conexao) {

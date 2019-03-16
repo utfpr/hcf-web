@@ -48,3 +48,13 @@ export function getHoraFim(conteudoLog) {
     const fim = conteudoLog.lastIndexOf(']');
     return conteudoLog.substring(inicio + 1, fim);
 }
+
+export function transformaNomeLog(nomeArquivo) {
+    const processoUm = nomeArquivo.replace('.log', '');
+    const processoDois = trocaCaractere(processoUm, 2, '/');
+    const processoTres = trocaCaractere(processoDois, 5, '/');
+    const processoQuatro = trocaCaractere(processoTres, 10, ' ');
+    const processoCinco = trocaCaractere(processoQuatro, 13, ':');
+    return trocaCaractere(processoCinco, 16, ':');
+    // return processoSeis;
+}

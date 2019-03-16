@@ -1,6 +1,9 @@
 import { refloraExecutando, insereExecucao } from '../herbarium/reflora/main';
 import {
-    getHoraAtual, transformaLog, leLOG, trocaCaractere,
+    getHoraAtual,
+    transformaLog,
+    leLOG,
+    transformaNomeLog,
 } from '../herbarium/log';
 import {
     criaConexao,
@@ -47,9 +50,6 @@ export const preparaRequisicao = (request, response, next) => {
 };
 
 export const agendaReflora = (request, response, next) => {
-    // const { periodicidade } = request.query;
-    // atualizacaoAutomaticaReflora.defineAgendaReflora();
-    response.status(200).json(JSON.parse(' { "result": "success" } '));
 };
 
 export const estaExecutando = (request, response, next) => {
@@ -64,17 +64,6 @@ export const estaExecutando = (request, response, next) => {
     });
 };
 
-
-function processaNomeLog(nomeArquivo) {
-    const processoUm = nomeArquivo.replace('.log', '');
-    const processoDois = trocaCaractere(processoUm, 2, '/');
-    const processoTres = trocaCaractere(processoDois, 5, '/');
-    const processoQuatro = trocaCaractere(processoTres, 10, ' ');
-    const processoCinco = trocaCaractere(processoQuatro, 13, ':');
-    const processoSeis = trocaCaractere(processoCinco, 16, ':');
-    return processoSeis;
-}
-
 export const todosLogs = (request, response, next) => {
     /** linux */
     const diretorioLog = `${__dirname}/../../logs`;
@@ -82,7 +71,7 @@ export const todosLogs = (request, response, next) => {
     // const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';
     fs.readdirSync(diretorioLog).forEach(arquivos => {
-        nomeArquivos = `${nomeArquivos}"${processaNomeLog(arquivos)}", `;
+        nomeArquivos = `${nomeArquivos}"${transformaNomeLog(arquivos)}", `;
     });
     const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
     response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ] }`));
@@ -97,7 +86,6 @@ export const getLog = (request, response, next) => {
 };
 
 export const getStatusAgenda = (request, response, next) => {
-    // response.status(200).json(JSON.parse(`{ "periodicidade": "${periodicidadeAtualizacao}" }`));
 };
 
 export default { };

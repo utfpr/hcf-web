@@ -82,7 +82,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 1000);
+        }, 3000);
     }
 
     nomeLOG = () => {
