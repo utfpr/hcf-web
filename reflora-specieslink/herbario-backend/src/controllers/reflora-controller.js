@@ -4,6 +4,7 @@ import {
     transformaLog,
     leLOG,
     transformaNomeLog,
+    tempoGastoLog,
 } from '../herbarium/log';
 import {
     criaConexao,
@@ -70,11 +71,15 @@ export const todosLogs = (request, response, next) => {
     /** windows */
     // const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';
-    fs.readdirSync(diretorioLog).forEach(arquivos => {
+    const listaArquivos = fs.readdirSync(diretorioLog);
+    listaArquivos.forEach(arquivos => {
         nomeArquivos = `${nomeArquivos}"${transformaNomeLog(arquivos)}", `;
     });
+    // console.log(listaArquivos[listaArquivos.length - 1])
     const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
-    response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ] }`));
+    const tempoGasto = tempoGastoLog(leLOG(listaArquivos[listaArquivos.length - 1].replace('.log', '')));
+    // console.log(tempoGasto);
+    response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ], "duracao": "${tempoGasto}" }`));
 };
 
 export const getLog = (request, response, next) => {

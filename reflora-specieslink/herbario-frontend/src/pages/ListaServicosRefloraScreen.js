@@ -28,6 +28,7 @@ class ListaServicosRefloraScreen extends Component {
         this.state = {
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
+            duracaoAtualizacao: '',
             executando: false,
             periodicidadeAtualizacao: '',
             escondeResultadoLog: '2',
@@ -89,8 +90,10 @@ class ListaServicosRefloraScreen extends Component {
         AXIOS.get('/reflora-todoslogs').then(response => {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
+                const duracao = response.data.duracao;
                 this.setState({ nomeLog: logs });
                 this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                this.setState({ duracaoAtualizacao: duracao });
             }
         });
     }
@@ -201,7 +204,7 @@ class ListaServicosRefloraScreen extends Component {
                         {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>Executando! Aguarde...</span>}
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao}</span>
+                        <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
                     </Col>
                 </Row>
                 <Row gutter={6}>
