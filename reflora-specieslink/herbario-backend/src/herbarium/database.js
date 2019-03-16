@@ -75,13 +75,38 @@ export function selectExecutandoReflora(conexao) {
     return promessa.promise;
 }
 
+export function selectExisteExecutandoReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { servico: 1 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
 export function insereTabelaConfiguracaoReflora(tabelaConfiguracaoReflora, horaAtual, periodicidadeUsuario, automaticoUsuario, statusExecucao) {
     const promessa = Q.defer();
 
     return promessa.promise;
 }
 
-export function atualizaTabelaConfiguracao(conexao, idExecucao, horaTerminou, statusExecucao) {
+export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario) {
+    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracaoReflora.update(
+        { hora_inicio: horaInicio, hora_fim: horaFim, periodicidade: periodicidadeUsuario },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou, statusExecucao) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(

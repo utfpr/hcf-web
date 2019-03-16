@@ -9,7 +9,7 @@ import {
     apagaTabelaReflora,
     existeTabelaReflora,
     selectExecutandoReflora,
-    atualizaTabelaConfiguracao,
+    atualizaFimTabelaConfiguracao,
 } from '../database';
 import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
@@ -26,7 +26,7 @@ function comecaReflora(conexao, nomeArquivo) {
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 5)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -70,16 +70,22 @@ export function ehNecessarioFazerRequisicao(nomeArquivo) {
 export function daemonFazRequisicaoReflora() {
     const conexao = criaConexao();
     setInterval(() => {
-        selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
-            if (listaExecucaoReflora.length === 1) {
-                const nomeArquivo = processaNomeLog(listaExecucaoReflora[0].dataValues.hora_inicio);
-                // console.log(nomeArquivo);
+        /**
+         * Faço um select verificando se existe serviço do Reflora
+         * Se eu
+         */
+        selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
+            // eslint-disable-next-line no-console
+            console.log(existeExecucaoReflora.length);
+            if (existeExecucaoReflora.length === 1) {
+                const nomeArquivo = processaNomeLog(existeExecucaoReflora[0].dataValues.hora_inicio);
                 ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
-                    const { id } = listaExecucaoReflora[0].dataValues;
-                    const horaFim = getHoraFim(leLOG(nomeArquivo));
-                    atualizaTabelaConfiguracao(conexao, id, horaFim);
-                    // console.log(horaTermino);
-                    // console.log(id);
+                    const { id } = existeExecucaoReflora[0].dataValues;
+                    const conteudoLOG = leLOG(nomeArquivo);
+                    if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
+                        const horaFim = getHoraFim(conteudoLOG);
+                        atualizaFimTabelaConfiguracao(conexao, id, horaFim);
+                    }
                 });
             }
         });
@@ -94,7 +100,6 @@ export function refloraExecutando(conexao) {
         } else {
             promessa.resolve(true);
         }
-
     });
     return promessa.promise;
 }

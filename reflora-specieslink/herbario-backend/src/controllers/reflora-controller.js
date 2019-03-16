@@ -2,17 +2,20 @@ import { refloraExecutando, insereExecucao } from '../herbarium/reflora/main';
 import {
     getHoraAtual, transformaLog, leLOG, trocaCaractere,
 } from '../herbarium/log';
-import { criaConexao } from '../herbarium/database';
+import {
+    criaConexao,
+    selectExisteExecutandoReflora,
+    atualizaInicioTabelaConfiguracao,
+} from '../herbarium/database';
 
 const fs = require('fs');
 
 export const preparaRequisicao = (request, response, next) => {
     /**
-     * Então recebe a requisição do front end aqui. Aqui eu verifico
-     * se no BD existe algum servico do Reflora executando (vendo se o valor
-     * de hora de fim é nulo e se o serviço é Reflora). Se foi me retornado
-     * uma lista que é zero significa que não está sendo executado, caso contrário
-     * está sendo executado.
+     * Então recebe a requisição do front end aqui (quando é imediato).
+     * Daí eu faço um select verificando se existe um serviço chamado Reflora
+     * e se a hora que terminou é nula. Se está sendo executado eu envio JSON
+     * com o resultado de falha
      */
     const { periodicidade } = request.query;
     const conexao = criaConexao();
@@ -20,8 +23,25 @@ export const preparaRequisicao = (request, response, next) => {
         if (estaExecutando) {
             response.status(200).json(JSON.parse(' { "result": "failed" } '));
         } else {
-            insereExecucao(conexao, getHoraAtual(), null, periodicidade, 1);
-            response.status(200).json(JSON.parse(' { "result": "success" } '));
+            /**
+             * Após verificar que não está sendo executado verifico
+             * se no BD existe algum registro que é do Reflora. Se não tiver
+             * nenhum registro adiciono, caso exista eu só atualizo.
+             * (O do porque usar o select diferente do select superior é que pode ocasionar,
+             * em registros duplicados)
+             */
+            selectExisteExecutandoReflora(conexao).then(execucaoReflora => {
+                if (execucaoReflora.length === 0) {
+                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, 1).then(() => {
+                        response.status(200).json(JSON.parse(' { "result": "success" } '));
+                    });
+                } else {
+                    const { id } = execucaoReflora[0].dataValues;
+                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade).then(() => {
+                        response.status(200).json(JSON.parse(' { "result": "success" } '));
+                    });
+                }
+            });
         }
     });
 };
@@ -31,6 +51,19 @@ export const agendaReflora = (request, response, next) => {
     // atualizacaoAutomaticaReflora.defineAgendaReflora();
     response.status(200).json(JSON.parse(' { "result": "success" } '));
 };
+
+export const estaExecutando = (request, response, next) => {
+    const conexao = criaConexao();
+    refloraExecutando(conexao).then(executando => {
+        if (executando) {
+            response.status(200).json(JSON.parse(' { "executando": "false" } '));
+        } else {
+            response.status(200).json(JSON.parse(' { "executando": "true" } '));
+        }
+        conexao.close();
+    });
+};
+
 
 function processaNomeLog(nomeArquivo) {
     const processoUm = nomeArquivo.replace('.log', '');
