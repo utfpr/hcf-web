@@ -74,7 +74,7 @@ class ListaServicosRefloraScreen extends Component {
         setInterval(() => {
             AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
-                    console.log()
+                    console.log(response.data)
                     if (response.data.executando === 'false') {
                         this.setState({ executando: false });
                     } else if (response.data.executando === 'true') {
@@ -82,7 +82,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 15000);
+        }, 1000);
     }
 
     nomeLOG = () => {

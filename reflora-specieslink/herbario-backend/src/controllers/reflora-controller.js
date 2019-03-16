@@ -56,9 +56,9 @@ export const estaExecutando = (request, response, next) => {
     const conexao = criaConexao();
     refloraExecutando(conexao).then(executando => {
         if (executando) {
-            response.status(200).json(JSON.parse(' { "executando": "false" } '));
-        } else {
             response.status(200).json(JSON.parse(' { "executando": "true" } '));
+        } else {
+            response.status(200).json(JSON.parse(' { "executando": "false" } '));
         }
         conexao.close();
     });
