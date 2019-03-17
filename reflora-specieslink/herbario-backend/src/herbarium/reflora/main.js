@@ -10,6 +10,7 @@ import {
     existeTabelaReflora,
     selectExecutandoReflora,
     atualizaFimTabelaConfiguracao,
+    atualizaProximaDataConfiguracao,
 } from '../database';
 import { fazComparacaoTombo } from '../tombos';
 import { fazRequisicaoReflora } from './reflora';
@@ -65,6 +66,7 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
 }
 
 function executaReflora(conexao, existeExecucaoReflora) {
+    const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
     ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
@@ -72,8 +74,10 @@ function executaReflora(conexao, existeExecucaoReflora) {
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
             const horaFim = getHoraFim(conteudoLOG);
             atualizaFimTabelaConfiguracao(conexao, id, horaFim);
+            promessa.resolve();
         }
     });
+    return promessa.promise;
 }
 
 export function daemonFazRequisicaoReflora() {
@@ -85,21 +89,31 @@ export function daemonFazRequisicaoReflora() {
                     executaReflora(conexao, existeExecucaoReflora[0]);
                 }
                 if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
-                    if (moment().isoWeekday() === existeExecucaoReflora[0].dia_semanal) {
+                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
                         if (moment().format('HH') === '00') {
-                            executaReflora(conexao, existeExecucaoReflora[0]);
+                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
+                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(7).format('DD/MM/YYYY'));
+                            });
                         }
                     }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '1MES') {
-                    if (parseInt(moment().format('DD')) === existeExecucaoReflora[0].dia_periodicidade) {
+                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
                         if (moment().format('HH') === '00') {
-                            executaReflora(conexao, existeExecucaoReflora[0]);
+                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
+                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(30).format('DD/MM/YYYY'));
+                            });
                         }
                     }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '2MESES') {
-                    // a
+                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
+                        if (moment().format('HH') === '00') {
+                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
+                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(60).format('DD/MM/YYYY'));
+                            });
+                        }
+                    }
                 }
             }
         });

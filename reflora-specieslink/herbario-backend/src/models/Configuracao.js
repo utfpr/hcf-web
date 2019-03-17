@@ -17,16 +17,8 @@ export default (Sequelize, DataTypes) => {
             values: ['MANUAL', 'SEMANAL', '1MES', '2MESES'],
             allowNull: true,
         },
-        dia_periodicidade: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        dia_semanal: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        dia_mes: {
-            type: DataTypes.INTEGER,
+        data_proxima_atualizacao: {
+            type: DataTypes.STRING(10),
             allowNull: true,
         },
         servico: {

@@ -109,11 +109,15 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
-    retornaDiaPeriodicidade = diaPeriodicidade => {
-        if (parseInt(diaPeriodicidade) > 28) {
-            return 28;
+    retornaDataProximaAtualizacao = () => {
+        switch (this.state.periodicidadeAtualizacao) {
+            case 'SEMANAL':
+                return moment().day(7).format('DD-MM-YYYY');
+            case '1MES':
+                return moment().day(30).format('DD-MM-YYYY');
+            case '2MESES':
+                return moment().day(60).format('DD-MM-YYYY');
         }
-        return parseInt(diaPeriodicidade);
     }
 
     programaPeriodicidadeAtualizacao = periodicidade => {
@@ -163,9 +167,7 @@ class ListaServicosRefloraScreen extends Component {
          */
         const params = {
             periodicidade: this.retornaValorPeriodicidade(),
-            dia_periodicidade: this.retornaDiaPeriodicidade(moment().format('DD')),
-            dia_mensal: this.retornaDiaPeriodicidade(moment().format('MM')),
-            dia_semanal: moment().isoWeekday(),
+            data_proxima_atualizacao: this.retornaDataProximaAtualizacao(),
         };
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
@@ -213,9 +215,7 @@ class ListaServicosRefloraScreen extends Component {
          */
         const params = {
             periodicidade: 1,
-            dia_periodicidade: null,
-            dia_mensal: null,
-            dia_semanal: null,
+            data_proxima_atualizacao: null,
         };
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {

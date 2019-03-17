@@ -24,9 +24,7 @@ export const preparaRequisicao = (request, response, next) => {
      * com o resultado de falha
      */
     const { periodicidade } = request.query;
-    const diaPeriodicidade = request.query.dia_periodicidade;
-    const diaSemanal = request.query.dia_semanal;
-    const diaMes = request.query.dia_mensal;
+    const proximaAtualizacao = request.query.data_proxima_atualizacao;
     const conexao = criaConexao();
     refloraExecutando(conexao).then(estaExecutando => {
         if (estaExecutando) {
@@ -42,13 +40,13 @@ export const preparaRequisicao = (request, response, next) => {
              */
             selectExisteExecutandoReflora(conexao).then(execucaoReflora => {
                 if (execucaoReflora.length === 0) {
-                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, diaMes, 1).then(() => {
+                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, proximaAtualizacao, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
-                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, diaMes).then(() => {
+                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });
