@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { refloraExecutando, insereExecucao } from '../herbarium/reflora/main';
+import { refloraExecutando } from '../herbarium/reflora/reflora';
 import {
     getHoraAtual,
     transformaLog,
@@ -10,6 +10,7 @@ import {
 import {
     criaConexao,
     selectExisteExecutandoReflora,
+    insereExecucao,
     atualizaInicioTabelaConfiguracao,
 } from '../herbarium/database';
 
@@ -25,6 +26,7 @@ export const preparaRequisicao = (request, response, next) => {
     const { periodicidade } = request.query;
     const diaPeriodicidade = request.query.dia_periodicidade;
     const diaSemanal = request.query.dia_semanal;
+    const diaMes = request.query.dia_mensal;
     const conexao = criaConexao();
     refloraExecutando(conexao).then(estaExecutando => {
         if (estaExecutando) {
@@ -40,13 +42,13 @@ export const preparaRequisicao = (request, response, next) => {
              */
             selectExisteExecutandoReflora(conexao).then(execucaoReflora => {
                 if (execucaoReflora.length === 0) {
-                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, 1).then(() => {
+                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, diaMes, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
-                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal).then(() => {
+                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, diaMes).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });

@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import Q from 'q';
-import Sequelize from 'sequelize';
 import moment from 'moment';
 import {
     criaConexao,
@@ -17,8 +16,6 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim,
 } from '../log';
-import modeloConfiguracao from '../../models/Configuracao';
-
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
@@ -95,62 +92,18 @@ export function daemonFazRequisicaoReflora() {
                     }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '1MES') {
-                    // executaReflora(conexao, existeExecucaoReflora[0]);
+                    if (parseInt(moment().format('DD')) === existeExecucaoReflora[0].dia_periodicidade) {
+                        if (moment().format('HH') === '00') {
+                            executaReflora(conexao, existeExecucaoReflora[0]);
+                        }
+                    }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '2MESES') {
-                    // executaReflora(conexao, existeExecucaoReflora[0]);
+                    // a
                 }
             }
         });
     }, 60000);
-}
-
-export function refloraExecutando(conexao) {
-    const promessa = Q.defer();
-    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
-        if (listaExecucaoReflora.length === 0) {
-            promessa.resolve(false);
-        } else {
-            promessa.resolve(true);
-        }
-    });
-    return promessa.promise;
-}
-
-export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario, servicoUsuario) {
-    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    const promessa = Q.defer();
-    tabelaConfiguracao.create({
-        hora_inicio: horaAtual,
-        hora_fim: horaFim,
-        periodicidade: periodicidadeUsuario,
-        dia_periodicidade: diaPeriodicidadeUsuario,
-        dia_semanal: diaSemanalUsuario,
-        servico: servicoUsuario,
-    }).then(() => {
-        promessa.resolve();
-    });
-    return promessa.promise;
-}
-
-/**
- * daemonAgendaReflora() é uma função que inicia junto com o backend.
- * A cada uma hora, ela pega o valor de periodicidade da atualização
- * e o horário da atualização (Esses valores retornam nulos). Se ambos
- * valores forem maiores que zero, verifica qual é a periodicidade.
- * Se a periodicidade for semanal, irá ser verificado se o dia atual
- * é igual ao dia da semana. Se for o mesmo dia semana, verifica se
- * a hora atual é igual a hora que foi definido pelo usuário.
- * Caso seja a mesma hora ele irá verificar se está sendo executado
- * a atualização do Reflora, caso não esteja sendo feito será feito
- * o processo de atualização. Essa mesma ideia se aplica quando
- * a periodicidade é mensal, só que invés de ser verificado o dia
- * da semana é verificado o dia do mês.
- * @params nenhum.
- */
-export function daemonAgendaReflora() {
-    setInterval(() => {
-    }, 3600000);
 }
 
 export default {};

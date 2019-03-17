@@ -88,7 +88,24 @@ export function selectExisteExecutandoReflora(conexao) {
     return promessa.promise;
 }
 
-export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario) {
+export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario, diaMesUsuario, servicoUsuario) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.create({
+        hora_inicio: horaAtual,
+        hora_fim: horaFim,
+        periodicidade: periodicidadeUsuario,
+        dia_periodicidade: diaPeriodicidadeUsuario,
+        dia_semanal: diaSemanalUsuario,
+        dia_mensal: diaMesUsuario,
+        servico: servicoUsuario,
+    }).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario, diaMesUsuario) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(
@@ -98,6 +115,7 @@ export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio
             periodicidade: periodicidadeUsuario,
             dia_periodicidade: diaPeriodicidadeUsuario,
             dia_semanal: diaSemanalUsuario,
+            dia_mes: diaMesUsuario,
         },
         { where: { id: idExecucao } },
     ).then(() => {

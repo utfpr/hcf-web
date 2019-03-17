@@ -25,6 +25,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: true,
         },
+        dia_mes: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
         servico: {
             type: DataTypes.ENUM,
             values: ['REFLORA', 'SPECIESLINK'],

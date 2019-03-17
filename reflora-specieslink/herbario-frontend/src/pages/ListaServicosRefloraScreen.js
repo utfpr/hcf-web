@@ -164,6 +164,7 @@ class ListaServicosRefloraScreen extends Component {
         const params = {
             periodicidade: this.retornaValorPeriodicidade(),
             dia_periodicidade: this.retornaDiaPeriodicidade(moment().format('DD')),
+            dia_mensal: this.retornaDiaPeriodicidade(moment().format('MM')),
             dia_semanal: moment().isoWeekday(),
         };
         AXIOS.get('/reflora', { params }).then(response => {
@@ -213,6 +214,7 @@ class ListaServicosRefloraScreen extends Component {
         const params = {
             periodicidade: 1,
             dia_periodicidade: null,
+            dia_mensal: null,
             dia_semanal: null,
         };
         AXIOS.get('/reflora', { params }).then(response => {
