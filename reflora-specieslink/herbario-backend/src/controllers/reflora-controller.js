@@ -26,6 +26,7 @@ export const preparaRequisicao = (request, response, next) => {
     refloraExecutando(conexao).then(estaExecutando => {
         if (estaExecutando) {
             response.status(200).json(JSON.parse(' { "result": "failed" } '));
+            conexao.close();
         } else {
             /**
              * Após verificar que não está sendo executado verifico
@@ -38,11 +39,13 @@ export const preparaRequisicao = (request, response, next) => {
                 if (execucaoReflora.length === 0) {
                     insereExecucao(conexao, getHoraAtual(), null, periodicidade, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
+                        conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
                     atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
+                        conexao.close();
                     });
                 }
             });
@@ -51,11 +54,15 @@ export const preparaRequisicao = (request, response, next) => {
 };
 
 export const agendaReflora = (request, response, next) => {
+    // a
 };
 
 export const estaExecutando = (request, response, next) => {
     const conexao = criaConexao();
     refloraExecutando(conexao).then(executando => {
+        response.header('Access-Control-Allow-Origin', '*');
+        response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
+        response.header('Access-Control-Allow-Methods', 'GET');
         if (executando) {
             response.status(200).json(JSON.parse(' { "executando": "true" } '));
         } else {
@@ -78,7 +85,6 @@ export const todosLogs = (request, response, next) => {
         });
         const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
         const tempoGasto = tempoGastoLog(leLOG(listaArquivos[listaArquivos.length - 1].replace('.log', '')));
-        // console.log(tempoGasto);
         response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ], "duracao": "${tempoGasto}" }`));
     } else {
         response.status(200).json(JSON.parse('{ "logs":[ ], "duracao": " " }'));

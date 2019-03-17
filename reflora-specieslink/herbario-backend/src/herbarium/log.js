@@ -26,8 +26,6 @@ export function transformaLog(conteudo) {
     const transformacaoDois = transformacaoUm.replace(/\./g, '." ,');
     const transformacaoTres = transformacaoDois.substring(0, transformacaoDois.lastIndexOf(','));
     const transformacaoQuatro = `{ "log": [ ${transformacaoTres} ] }`;
-    // eslint-disable-next-line no-console
-    console.log(transformacaoQuatro);
     return JSON.parse(transformacaoQuatro);
 }
 
@@ -56,7 +54,6 @@ export function transformaNomeLog(nomeArquivo) {
     const processoQuatro = trocaCaractere(processoTres, 10, ' ');
     const processoCinco = trocaCaractere(processoQuatro, 13, ':');
     return trocaCaractere(processoCinco, 16, ':');
-    // return processoSeis;
 }
 
 export function tempoGastoLog(conteudoLog) {
@@ -65,7 +62,4 @@ export function tempoGastoLog(conteudoLog) {
     const diferenca = moment(dataFinal, 'DD/MM/YYYY-HH:mm:ss').diff(moment(dataInicial, 'DD/MM/YYYY-HH:mm:ss'));
     const duracao = moment.duration(diferenca);
     return Math.floor(duracao.asHours()) + moment.utc(diferenca).format(':mm:ss');
-    // console.log(dataInicial);
-    // console.log(dataFinal);
-    // a
 }

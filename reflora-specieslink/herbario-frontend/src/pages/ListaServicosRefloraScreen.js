@@ -98,6 +98,17 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
+    retornaValorPeriodicidade = () => {
+        switch (this.state.periodicidadeAtualizacao) {
+            case 'SEMANAL':
+                return 2;
+            case '1MES':
+                return 3;
+            case '2MESES':
+                return 4;
+        }
+    }
+
     programaPeriodicidadeAtualizacao = periodicidade => {
         this.setState({ periodicidadeAtualizacao: periodicidade });
     }
@@ -124,29 +135,41 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     mensagemMensal = diaMensal => {
+        if (diaMensal > 28) {
+            return 'O processo de atualização foi agendado e será feito a cada todo mês no dia 28.';
+        }
         return `O processo de atualização foi agendado e será feito a cada todo mês no dia ${diaMensal}.`;
     }
 
     mensagem2Mensal = diaMensal => {
+        if (diaMensal > 28) {
+            return 'O processo de atualização foi agendado e será feito a cada dois meses no dia 28.';
+        }
         return `O processo de atualização foi agendado e será feito a cada dois meses no dia ${diaMensal}.`;
     }
 
     programaAtualizacao = () => {
+        /**
+         * Então toda vez que for agendado o processo, ele verifica o dia atual
+         * se esse dia for maior que dia 28, ele faz a requisição dia 28. Além disso,
+         * faz a requisição à partir da meia noite.
+         */
+
         const params = {
-            periodicidade: this.state.periodicidadeAtualizacao,
+            periodicidade: this.retornaValorPeriodicidade(),
         };
         AXIOS.get('/reflora-agenda', { params }).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
                 } else {
-                    if (params.periodicidade === 'semanal') {
+                    if (params.periodicidade === 'SEMANAL') {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }
-                    if (params.periodicidade === '1mes') {
+                    if (params.periodicidade === '1MES') {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal(moment().format('DD')));
                     }
-                    if (params.periodicidade === '2meses') {
+                    if (params.periodicidade === '2MESES') {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal(moment().format('DD')));
                     }
                 }
@@ -229,9 +252,9 @@ class ListaServicosRefloraScreen extends Component {
                             onChange={this.programaPeriodicidadeAtualizacao}
                             value={this.state.periodicidadeAtualizacao !== '' ? this.state.periodicidadeAtualizacao : ''}
                             disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
-                            <Option value='semanal'>A cada semana</Option>
-                            <Option value='1mes'>A cada mês</Option>
-                            <Option value='2meses'>A cada dois meses</Option>
+                            <Option value='SEMANAL'>A cada semana</Option>
+                            <Option value='1MES'>A cada mês</Option>
+                            <Option value='2MESES'>A cada dois meses</Option>
                         </Select>
                     </Col>
                     <Col span={6}>
