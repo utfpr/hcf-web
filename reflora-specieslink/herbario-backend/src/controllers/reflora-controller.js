@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { refloraExecutando, insereExecucao } from '../herbarium/reflora/main';
 import {
     getHoraAtual,
@@ -22,6 +23,8 @@ export const preparaRequisicao = (request, response, next) => {
      * com o resultado de falha
      */
     const { periodicidade } = request.query;
+    const diaPeriodicidade = request.query.dia_periodicidade;
+    const diaSemanal = request.query.dia_semanal;
     const conexao = criaConexao();
     refloraExecutando(conexao).then(estaExecutando => {
         if (estaExecutando) {
@@ -37,13 +40,13 @@ export const preparaRequisicao = (request, response, next) => {
              */
             selectExisteExecutandoReflora(conexao).then(execucaoReflora => {
                 if (execucaoReflora.length === 0) {
-                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, 1).then(() => {
+                    insereExecucao(conexao, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
-                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade).then(() => {
+                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, diaPeriodicidade, diaSemanal).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                         conexao.close();
                     });
@@ -51,10 +54,6 @@ export const preparaRequisicao = (request, response, next) => {
             });
         }
     });
-};
-
-export const agendaReflora = (request, response, next) => {
-    // a
 };
 
 export const estaExecutando = (request, response, next) => {

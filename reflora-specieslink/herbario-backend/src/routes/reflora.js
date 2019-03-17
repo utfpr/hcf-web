@@ -7,9 +7,11 @@ export default app => {
     app.route('/reflora-executando').get([
         controller.estaExecutando,
     ]);
+    /*
     app.route('/reflora-agenda').get([
         controller.agendaReflora,
     ]);
+    */
     app.route('/reflora-todoslogs').get([
         controller.todosLogs,
     ]);

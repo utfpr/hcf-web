@@ -83,7 +83,7 @@ class ListaServicosRefloraScreen extends Component {
                     }
                 }
             });
-        }, 3000);
+        }, 10000);
     }
 
     nomeLOG = () => {
@@ -107,6 +107,13 @@ class ListaServicosRefloraScreen extends Component {
             case '2MESES':
                 return 4;
         }
+    }
+
+    retornaDiaPeriodicidade = diaPeriodicidade => {
+        if (parseInt(diaPeriodicidade) > 28) {
+            return 28;
+        }
+        return parseInt(diaPeriodicidade);
     }
 
     programaPeriodicidadeAtualizacao = periodicidade => {
@@ -154,11 +161,12 @@ class ListaServicosRefloraScreen extends Component {
          * se esse dia for maior que dia 28, ele faz a requisição dia 28. Além disso,
          * faz a requisição à partir da meia noite.
          */
-
         const params = {
             periodicidade: this.retornaValorPeriodicidade(),
+            dia_periodicidade: this.retornaDiaPeriodicidade(moment().format('DD')),
+            dia_semanal: moment().isoWeekday(),
         };
-        AXIOS.get('/reflora-agenda', { params }).then(response => {
+        AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
@@ -204,6 +212,8 @@ class ListaServicosRefloraScreen extends Component {
          */
         const params = {
             periodicidade: 1,
+            dia_periodicidade: null,
+            dia_semanal: null,
         };
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {

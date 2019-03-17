@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import Q from 'q';
 import Sequelize from 'sequelize';
+import moment from 'moment';
 import {
     criaConexao,
     criaTabelaReflora,
@@ -21,12 +22,11 @@ import modeloConfiguracao from '../../models/Configuracao';
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
-
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 10)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -45,7 +45,7 @@ function comecaReflora(conexao, nomeArquivo) {
     return promessa.promise;
 }
 
-export function ehNecessarioFazerRequisicao(nomeArquivo) {
+function ehNecessarioFazerRequisicao(nomeArquivo) {
     const promessa = Q.defer();
     const conexao = criaConexao();
     /**
@@ -67,20 +67,39 @@ export function ehNecessarioFazerRequisicao(nomeArquivo) {
     return promessa.promise;
 }
 
+function executaReflora(conexao, existeExecucaoReflora) {
+    const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
+    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
+        const { id } = existeExecucaoReflora.dataValues;
+        const conteudoLOG = leLOG(nomeArquivo);
+        if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
+            const horaFim = getHoraFim(conteudoLOG);
+            atualizaFimTabelaConfiguracao(conexao, id, horaFim);
+        }
+    });
+}
+
 export function daemonFazRequisicaoReflora() {
     const conexao = criaConexao();
     setInterval(() => {
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
-                const nomeArquivo = processaNomeLog(existeExecucaoReflora[0].dataValues.hora_inicio);
-                ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
-                    const { id } = existeExecucaoReflora[0].dataValues;
-                    const conteudoLOG = leLOG(nomeArquivo);
-                    if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
-                        const horaFim = getHoraFim(conteudoLOG);
-                        atualizaFimTabelaConfiguracao(conexao, id, horaFim);
+                if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
+                    executaReflora(conexao, existeExecucaoReflora[0]);
+                }
+                if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
+                    if (moment().isoWeekday() === existeExecucaoReflora[0].dia_semanal) {
+                        if (moment().format('HH') === '00') {
+                            executaReflora(conexao, existeExecucaoReflora[0]);
+                        }
                     }
-                });
+                }
+                if (existeExecucaoReflora[0].periodicidade === '1MES') {
+                    // executaReflora(conexao, existeExecucaoReflora[0]);
+                }
+                if (existeExecucaoReflora[0].periodicidade === '2MESES') {
+                    // executaReflora(conexao, existeExecucaoReflora[0]);
+                }
             }
         });
     }, 60000);
@@ -98,13 +117,15 @@ export function refloraExecutando(conexao) {
     return promessa.promise;
 }
 
-export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, servicoUsuario) {
+export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario, servicoUsuario) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.create({
         hora_inicio: horaAtual,
         hora_fim: horaFim,
         periodicidade: periodicidadeUsuario,
+        dia_periodicidade: diaPeriodicidadeUsuario,
+        dia_semanal: diaSemanalUsuario,
         servico: servicoUsuario,
     }).then(() => {
         promessa.resolve();

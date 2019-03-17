@@ -88,17 +88,17 @@ export function selectExisteExecutandoReflora(conexao) {
     return promessa.promise;
 }
 
-export function insereTabelaConfiguracaoReflora(tabelaConfiguracaoReflora, horaAtual, periodicidadeUsuario, automaticoUsuario, statusExecucao) {
-    const promessa = Q.defer();
-
-    return promessa.promise;
-}
-
-export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario) {
+export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, diaPeriodicidadeUsuario, diaSemanalUsuario) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(
-        { hora_inicio: horaInicio, hora_fim: horaFim, periodicidade: periodicidadeUsuario },
+        {
+            hora_inicio: horaInicio,
+            hora_fim: horaFim,
+            periodicidade: periodicidadeUsuario,
+            dia_periodicidade: diaPeriodicidadeUsuario,
+            dia_semanal: diaSemanalUsuario,
+        },
         { where: { id: idExecucao } },
     ).then(() => {
         promessa.resolve();
