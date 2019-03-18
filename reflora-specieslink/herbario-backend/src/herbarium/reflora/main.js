@@ -87,9 +87,10 @@ export function daemonFazRequisicaoReflora() {
      * algum registro que tenha a data de fim igual a nula e o serviço
      * seja Reflora. Se existir um (que vai ter apenas um registro) eu verifico
      * a periodicidade dele, se for manual executo na hora. Se for semanal
-     * verifico o valor da coluna data_proxima_atualizacao se é igual a data atual
-     * se for eu verifico se a hora é igual a meia-noite, se for eu posso realizar
-     * o processo de comparação do Reflora.
+     * verifico o valor da coluna data_proxima_atualizacao se é igual a data atual,
+     * eu verifico se a hora é igual a meia-noite, se for eu posso realizar
+     * o processo de comparação do Reflora. Por fim, depois de realizar o processo
+     * de comparação, eu atualizo com a nova data de próxima atualização.
      */
     setInterval(() => {
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {

@@ -21,25 +21,18 @@ export const preparaRequisicao = (request, response, next) => {
     /**
      * Então primeiramente faço um select no banco verificando se tem registros
      * onde o horário de fim é nulo e o serviço é REFLORA. Se o resultado dessa consulta
-     * é zero retorna false e caso contrário true. Se retornou true, significa que está
-     * executando então retorna o JSON com erro. Caso é false, eu faço um select verificando
-     * se existe um serviço no Reflora, se não existir eu insiro um registro no BD com esse
-     * serviço, caso já exista um registro eu atualizo esse registro, e respondo com o JSON
-     * de sucesso.
+     * é maior que zero significa que foi retornado algum registro. Se existe algum registro no BD,
+     * onde a data de fim é nula e o serviço é Reflora eu verifico a periodicidade que é. Se a
+     * periodicidade for manual, ele não pode nem agendar nem pedir novamente. Agora se a periodicidade
+     * for semanal, mensal ou a cada dois meses, verificamos se a data atual é diferente dá data de
+     * próxima atualização se for eu atualizo com o novo valor, independentemente se é manual ou periódica.
+     * Caso seja a mesma data não poderá ser feito a troca.
      */
     const { periodicidade } = request.query;
     const proximaAtualizacao = request.query.data_proxima_atualizacao;
     const conexao = criaConexao();
     selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
         if (listaExecucaoReflora.length > 0) {
-            /**
-             * Se existe algum registro no BD, onde a data de fim é nula e o serviço é Reflora
-             * eu verifico a periodicidade que é. Se a periodicidade for manual, ele não pode
-             * nem agendar nem pedir novamente.
-             * Agora se a periodicidade for semanal, mensal ou a cada dois meses,
-             * verificamos se a data atual é diferente dá data de próxima atualização se for
-             * eu atualizo com o novo valor.
-             */
             const periodicidadeBD = listaExecucaoReflora[0].dataValues.periodicidade;
             if (periodicidadeBD === 'MANUAL') {
                 response.status(200).json(JSON.parse(' { "result": "failed" } '));
