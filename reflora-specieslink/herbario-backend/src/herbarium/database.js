@@ -75,7 +75,7 @@ export function selectExecutandoReflora(conexao) {
     return promessa.promise;
 }
 
-export function selectExisteExecutandoReflora(conexao) {
+export function selectExisteServicoReflora(conexao) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     conexao.sync().then(() => {

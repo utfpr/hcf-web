@@ -54,6 +54,11 @@ class ListaServicosRefloraScreen extends Component {
      * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
      * */
 
+    /**
+    * =====================================================================================
+    * FUNCIONALIDADES RELACIONADA COMO APARECER NOTIFICAÇÃO, OCULTAR OU NÃO BOTÕES E CAMPOS
+    * =====================================================================================
+    */
     statusAgenda = () => {
         setInterval(() => {
             AXIOS.get('/reflora-status-agenda').then(response => {
@@ -73,7 +78,7 @@ class ListaServicosRefloraScreen extends Component {
 
     statusExecucao = () => {
         setInterval(() => {
-            AXIOS.get('/reflora-executando').then(response => {
+            /* AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
                     console.log(response.data)
                     if (response.data.executando === 'false') {
@@ -82,10 +87,26 @@ class ListaServicosRefloraScreen extends Component {
                         this.setState({ executando: true });
                     }
                 }
-            });
+            }); */
         }, 10000);
     }
 
+    trocaEstadoCamposAtualizacaoAutomatico() {
+        this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
+    }
+
+    openNotificationWithIcon = (type, message, description) => {
+        notification[type]({
+            message: message,
+            description: description,
+        });
+    };
+
+    /**
+     * ==================================
+     * FUNCIONALIDADES RELACIONADA AO LOG
+     * ==================================
+     */
     nomeLOG = () => {
         AXIOS.get('/reflora-todoslogs').then(response => {
             if (response.status === 200) {
@@ -98,6 +119,20 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
+    informacoesLog = log => {
+        const params = {
+            nomeLog: log,
+        };
+        AXIOS.get('/reflora-log', { params }).then(response => {
+            this.setState({ saidaLOG: response.data.log });
+        });
+    }
+
+    /**
+     * ============================================================
+     * FUNCIONALIDADES RELACIONADA A COMPARAÇÃO DO REFLORA AGENDADO
+     * ============================================================
+     */
     retornaValorPeriodicidade = () => {
         switch (this.state.periodicidadeAtualizacao) {
             case 'SEMANAL':
@@ -145,18 +180,12 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
-    mensagemMensal = diaMensal => {
-        if (diaMensal > 28) {
-            return 'O processo de atualização foi agendado e será feito a cada todo mês no dia 28.';
-        }
-        return `O processo de atualização foi agendado e será feito a cada todo mês no dia ${diaMensal}.`;
+    mensagemMensal = () => {
+        return `O processo de atualização foi agendado e será feito a cada um meses.`;
     }
 
-    mensagem2Mensal = diaMensal => {
-        if (diaMensal > 28) {
-            return 'O processo de atualização foi agendado e será feito a cada dois meses no dia 28.';
-        }
-        return `O processo de atualização foi agendado e será feito a cada dois meses no dia ${diaMensal}.`;
+    mensagem2Mensal = () => {
+        return `O processo de atualização foi agendado e será feito a cada dois meses.`;
     }
 
     programaAtualizacao = () => {
@@ -171,16 +200,18 @@ class ListaServicosRefloraScreen extends Component {
         };
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
+                console.log(response.data)
                 if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
                 } else {
-                    if (params.periodicidade === 'SEMANAL') {
+                    console.log(typeof (params.periodicidade))
+                    if (params.periodicidade === 2) {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }
-                    if (params.periodicidade === '1MES') {
+                    if (params.periodicidade === 3) {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal(moment().format('DD')));
                     }
-                    if (params.periodicidade === '2MESES') {
+                    if (params.periodicidade === 4) {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal(moment().format('DD')));
                     }
                 }
@@ -188,31 +219,17 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    informacoesLog = log => {
-        const params = {
-            nomeLog: log,
-        };
-        AXIOS.get('/reflora-log', { params }).then(response => {
-            this.setState({ saidaLOG: response.data.log });
-        });
-    }
-
-    trocaEstadoCamposAtualizacaoAutomatico() {
-        this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
-    }
-
-    openNotificationWithIcon = (type, message, description) => {
-        notification[type]({
-            message: message,
-            description: description,
-        });
-    };
-
+    /**
+     * ============================================================
+     * FUNCIONALIDADES RELACIONADA A COMPARAÇÃO DO REFLORA IMEDIATO
+     * ============================================================
+     * Essa função comparaReflora, só é chamada quando vai realizar a comparação
+     * imediata. Nos parâmetros da requisição do GET, passamos 1 que representa o ENUM
+     * do valor MANUAL, e null que é data  da próxima atualização, pois como é manual não
+     * tem data. O axios, ele realiza requisições de dois em dois minutos se não há resposta
+     * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.    
+     */
     comparaReflora = () => {
-        /**
-         * O axios, ele realiza requisições de dois em dois minutos se não há resposta
-         * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.
-         */
         const params = {
             periodicidade: 1,
             data_proxima_atualizacao: null,
@@ -293,7 +310,6 @@ class ListaServicosRefloraScreen extends Component {
                         <Collapse accordion>
                             <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
                                 {this.state.saidaLOG.map((saida, chave) => {
-                                    // console.log(saida);
                                     if (saida.includes('Erro')) {
                                         return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida}</p>
                                     } else {
@@ -322,5 +338,3 @@ class ListaServicosRefloraScreen extends Component {
 
 // Arquivo baseado no arquivo ListaTaxonomiaScreeen.js
 export default Form.create()(ListaServicosRefloraScreen);
-
-

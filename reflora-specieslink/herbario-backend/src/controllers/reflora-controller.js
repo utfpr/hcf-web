@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { refloraExecutando } from '../herbarium/reflora/reflora';
+import moment from 'moment';
 import {
     getHoraAtual,
     transformaLog,
@@ -9,36 +9,55 @@ import {
 } from '../herbarium/log';
 import {
     criaConexao,
-    selectExisteExecutandoReflora,
+    selectExisteServicoReflora,
     insereExecucao,
     atualizaInicioTabelaConfiguracao,
+    selectExecutandoReflora,
 } from '../herbarium/database';
 
 const fs = require('fs');
 
 export const preparaRequisicao = (request, response, next) => {
     /**
-     * Então recebe a requisição do front end aqui (quando é imediato).
-     * Daí eu faço um select verificando se existe um serviço chamado Reflora
-     * e se a hora que terminou é nula. Se está sendo executado eu envio JSON
-     * com o resultado de falha
+     * Então primeiramente faço um select no banco verificando se tem registros
+     * onde o horário de fim é nulo e o serviço é REFLORA. Se o resultado dessa consulta
+     * é zero retorna false e caso contrário true. Se retornou true, significa que está
+     * executando então retorna o JSON com erro. Caso é false, eu faço um select verificando
+     * se existe um serviço no Reflora, se não existir eu insiro um registro no BD com esse
+     * serviço, caso já exista um registro eu atualizo esse registro, e respondo com o JSON
+     * de sucesso.
      */
     const { periodicidade } = request.query;
     const proximaAtualizacao = request.query.data_proxima_atualizacao;
     const conexao = criaConexao();
-    refloraExecutando(conexao).then(estaExecutando => {
-        if (estaExecutando) {
-            response.status(200).json(JSON.parse(' { "result": "failed" } '));
-            conexao.close();
-        } else {
+    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
+        if (listaExecucaoReflora.length > 0) {
             /**
-             * Após verificar que não está sendo executado verifico
-             * se no BD existe algum registro que é do Reflora. Se não tiver
-             * nenhum registro adiciono, caso exista eu só atualizo.
-             * (O do porque usar o select diferente do select superior é que pode ocasionar,
-             * em registros duplicados)
+             * Se existe algum registro no BD, onde a data de fim é nula e o serviço é Reflora
+             * eu verifico a periodicidade que é. Se a periodicidade for manual, ele não pode
+             * nem agendar nem pedir novamente.
+             * Agora se a periodicidade for semanal, mensal ou a cada dois meses,
+             * verificamos se a data atual é diferente dá data de próxima atualização se for
+             * eu atualizo com o novo valor.
              */
-            selectExisteExecutandoReflora(conexao).then(execucaoReflora => {
+            const periodicidadeBD = listaExecucaoReflora[0].dataValues.periodicidade;
+            if (periodicidadeBD === 'MANUAL') {
+                response.status(200).json(JSON.parse(' { "result": "failed" } '));
+                conexao.close();
+            } else if ((periodicidadeBD === 'SEMANAL') || (periodicidadeBD === '1MES') || (periodicidadeBD === '2MESES')) {
+                if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
+                    const { id } = listaExecucaoReflora[0].dataValues;
+                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
+                        response.status(200).json(JSON.parse(' { "result": "success" } '));
+                        conexao.close();
+                    });
+                } else {
+                    response.status(200).json(JSON.parse(' { "result": "failed" } '));
+                    conexao.close();
+                }
+            }
+        } else {
+            selectExisteServicoReflora(conexao).then(execucaoReflora => {
                 if (execucaoReflora.length === 0) {
                     insereExecucao(conexao, getHoraAtual(), null, periodicidade, proximaAtualizacao, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
@@ -58,7 +77,7 @@ export const preparaRequisicao = (request, response, next) => {
 
 export const estaExecutando = (request, response, next) => {
     const conexao = criaConexao();
-    refloraExecutando(conexao).then(executando => {
+    selectExecutandoReflora(conexao).then(executando => {
         response.header('Access-Control-Allow-Origin', '*');
         response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
         response.header('Access-Control-Allow-Methods', 'GET');

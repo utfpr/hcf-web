@@ -17,6 +17,5 @@ app.use('/api', routes);
 app.use(errors);
 
 daemonFazRequisicaoReflora();
-// daemonAgendaReflora();
 
 export default app;

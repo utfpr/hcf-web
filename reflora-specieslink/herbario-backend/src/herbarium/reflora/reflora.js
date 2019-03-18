@@ -6,7 +6,6 @@ import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
     atualizaTabelaReflora,
-    selectExecutandoReflora,
 } from '../database';
 
 /**
@@ -58,18 +57,6 @@ export function fazRequisicaoReflora(conexao, nomeArquivo) {
                     promessa.resolve(fazRequisicaoReflora(conexao, nomeArquivo));
                 });
             });
-        }
-    });
-    return promessa.promise;
-}
-
-export function refloraExecutando(conexao) {
-    const promessa = Q.defer();
-    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
-        if (listaExecucaoReflora.length === 0) {
-            promessa.resolve(false);
-        } else {
-            promessa.resolve(true);
         }
     });
     return promessa.promise;
