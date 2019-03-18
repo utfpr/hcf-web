@@ -70,12 +70,21 @@ export const preparaRequisicao = (request, response, next) => {
 
 export const estaExecutando = (request, response, next) => {
     const conexao = criaConexao();
-    selectExecutandoReflora(conexao).then(executando => {
+    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
         response.header('Access-Control-Allow-Origin', '*');
         response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
         response.header('Access-Control-Allow-Methods', 'GET');
-        if (executando) {
-            response.status(200).json(JSON.parse(' { "executando": "true" } '));
+        if (listaExecucaoReflora.length > 0) {
+            const { periodicidade } = listaExecucaoReflora[0].dataValues;
+            if (periodicidade === 'MANUAL') {
+                response.status(200).json(JSON.parse(' { "executando": "true" } '));
+            } else if ((periodicidade === 'SEMANAL') || (periodicidade === '1MES') || (periodicidade === '2MESES')) {
+                if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
+                    response.status(200).json(JSON.parse(' { "executando": "false" } '));
+                } else {
+                    response.status(200).json(JSON.parse(' { "executando": "true" } '));
+                }
+            }
         } else {
             response.status(200).json(JSON.parse(' { "executando": "false" } '));
         }

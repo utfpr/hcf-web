@@ -24,7 +24,7 @@ function comecaReflora(conexao, nomeArquivo) {
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 10)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 200)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -131,9 +131,3 @@ export function daemonFazRequisicaoReflora() {
 }
 
 export default {};
-
-/**
- * 1 - Então se eu quero atualizar imediatar, e tento programar não dá certo.
- * 1.1 - (FALTA) desabilitar esse botões de programação.
- * 2 - Então se eu programei, não chego no dia e eu quero atualizar imediatamente eu devo conseguir.
- */
