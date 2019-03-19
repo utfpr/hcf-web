@@ -23,6 +23,7 @@ import modeloVegetacao from '../models/Vegetacao';
 import modeloAlteracao from '../models/Alteracao';
 import modeloUsuario from '../models/Usuario';
 import modeloReflora from '../models/Reflora';
+import modeloConfiguracao from '../models/Configuracao';
 
 export function criaConexao() {
     return new Sequelize(database, username, password, options);
@@ -54,6 +55,140 @@ export function criaTabelaReflora(conexao) {
     tabelaReflora.removeAttribute('id');
     return tabelaReflora;
 }
+
+export function criaTabelaConfiguracao(conexao) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    tabelaConfiguracao.sync({ force: false });
+    return tabelaConfiguracao;
+}
+
+export function selectExecutandoReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { hora_fim: null, servico: 1 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectExisteServicoReflora(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { servico: 1 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, proximaAtualizacao, servicoUsuario) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.create({
+        hora_inicio: horaAtual,
+        hora_fim: horaFim,
+        periodicidade: periodicidadeUsuario,
+        data_proxima_atualizacao: proximaAtualizacao,
+        nome_arquivo: null,
+        servico: servicoUsuario,
+    }).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaProximaDataConfiguracao(conexao, idExecucao, proximaAtualizacao) {
+    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracaoReflora.update(
+        {
+            data_proxima_atualizacao: proximaAtualizacao,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, proximaAtualizacao) {
+    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracaoReflora.update(
+        {
+            hora_inicio: horaInicio,
+            hora_fim: horaFim,
+            periodicidade: periodicidadeUsuario,
+            data_proxima_atualizacao: proximaAtualizacao,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou, statusExecucao) {
+    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracaoReflora.update(
+        { hora_fim: horaTerminou },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function selectTemExecucaoSpeciesLink(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { servico: 2 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectEstaExecutandoSpeciesLink(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { hora_fim: null, servico: 2 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function insereExecucaoSpeciesLink(conexao, horaAtual, horaFim, nomeArquivo, servicoUsuario) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.create({
+        hora_inicio: horaAtual,
+        hora_fim: horaFim,
+        periodicidade: null,
+        data_proxima_atualizacao: null,
+        nome_arquivo: nomeArquivo,
+        servico: servicoUsuario,
+    }).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
 
 export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
     /**

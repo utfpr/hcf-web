@@ -1,19 +1,28 @@
-import { getArquivoSpeciesLink, getColunasArquivoSpeciesLink } from './arquivo';
+import { getHoraAtual } from '../log';
+import {
+    criaConexao,
+    selectTemExecucaoSpeciesLink,
+    insereExecucaoSpeciesLink,
+    selectEstaExecutandoSpeciesLink,
+} from '../database';
 
 function main() {
-    const arquivoSpeciesLink = 'speciesLink_all_31546_20190313103805.txt';
-    const conteudoArquivo = getArquivoSpeciesLink(arquivoSpeciesLink);
-    /**
-     * Remove o primeiro elemento da fila porque é aquele cabeçalho
-     * com o que significa aquela coluna
-     */
-    conteudoArquivo.shift();
-    conteudoArquivo.forEach(linha => {
-        // eslint-disable-next-line no-console
-        console.log(getColunasArquivoSpeciesLink(linha));
+    const conexao = criaConexao();
+    const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
+
+    selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
+        if (execucaoSpeciesLink.length === 0) {
+            insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
+        } else {
+            selectEstaExecutandoSpeciesLink(conexao).then(estaExecutando => {
+                if (estaExecutando.length === 0) {
+                    // atualiza
+                } else {
+                    // Está atualizando
+                }
+            });
+        }
     });
-    // eslint-disable-next-line no-console
-    console.log(conteudoArquivo[0]);
 }
 
 main();
