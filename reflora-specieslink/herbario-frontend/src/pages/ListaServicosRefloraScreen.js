@@ -86,9 +86,10 @@ class ListaServicosRefloraScreen extends Component {
                     } else if (response.data.executando === 'true') {
                         this.setState({ executando: true });
                     }
+                    this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                 }
             });
-        }, 15000);
+        }, 5000);
     }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
@@ -252,8 +253,8 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6}>
                         <span>Deseja atualizar agora?</span>
                     </Col>
-                    <Col span={6}>
-                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span>Executando! Aguarde...</span>}
+                    <Col span={6} style={{ textAlign: 'center' }}>
+                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span style={{ fontWeight: 'bold' }}>EXECUTANDO!!! AGUARDE...</span>}
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
@@ -265,7 +266,7 @@ class ListaServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            <Switch checked={!this.state.desabilitaCamposAtualizacaoAutomatico} onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} />
+                            <Switch checked={!this.state.desabilitaCamposAtualizacaoAutomatico} onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} disabled={this.state.executando} />
                         </FormItem>
                     </Col>
                 </Row>
