@@ -77,16 +77,16 @@ export const estaExecutando = (request, response, next) => {
         if (listaExecucaoReflora.length > 0) {
             const { periodicidade } = listaExecucaoReflora[0].dataValues;
             if (periodicidade === 'MANUAL') {
-                response.status(200).json(JSON.parse(' { "executando": "true" } '));
+                response.status(200).json(JSON.parse(' { "executando": "true", "periodicidade": " " } '));
             } else if ((periodicidade === 'SEMANAL') || (periodicidade === '1MES') || (periodicidade === '2MESES')) {
                 if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
-                    response.status(200).json(JSON.parse(' { "executando": "false" } '));
+                    response.status(200).json(JSON.parse(` { "executando": "false", "periodicidade": "${periodicidade}" } `));
                 } else {
-                    response.status(200).json(JSON.parse(' { "executando": "true" } '));
+                    response.status(200).json(JSON.parse(` { "executando": "true", "periodicidade": "${periodicidade}" } `));
                 }
             }
         } else {
-            response.status(200).json(JSON.parse(' { "executando": "false" } '));
+            response.status(200).json(JSON.parse(' { "executando": "false", "periodicidade": " " } '));
         }
         conexao.close();
     });
