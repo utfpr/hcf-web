@@ -86,7 +86,18 @@ class ListaServicosRefloraScreen extends Component {
                     } else if (response.data.executando === 'true') {
                         this.setState({ executando: true });
                     }
-                    this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                    if (response.data.periodicidade === ' ') {
+                        if (!this.state.desabilitaCamposAtualizacaoAutomatico) {
+                            console.log('aqui');
+                            this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
+                        }
+                    } else {
+                        this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        if (this.state.desabilitaCamposAtualizacaoAutomatico) {
+                            console.log('aqui2');
+                            this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                        }
+                    }
                 }
             });
         }, 5000);
