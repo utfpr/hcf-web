@@ -516,6 +516,7 @@ export function existeTabelaReflora(conexao) {
     const promessa = Q.defer();
     conexao.query('SHOW TABLES', { type: Sequelize.QueryTypes.SHOWTABLES }).then(listaTabelas => {
         listaTabelas.forEach(tabelas => {
+            // console.log(tabelas === 'reflora');
             if (tabelas === 'reflora') {
                 promessa.resolve(true);
             }

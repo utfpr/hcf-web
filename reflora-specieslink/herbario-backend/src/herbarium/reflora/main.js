@@ -20,6 +20,8 @@ import {
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
+    // eslint-disable-next-line no-console
+    console.log('até aqui');
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
@@ -53,9 +55,15 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
      * Detalhe: comentário com duas barras (//) são usados para testes
     */
     existeTabelaReflora(conexao).then(existe => {
+        // eslint-disable-next-line no-console
+        console.log(`b->${existe}`);
         if (existe) {
             promessa.resolve();
         } else {
+            // eslint-disable-next-line no-console
+            console.log('cdcd');
+            // eslint-disable-next-line no-console
+            console.log(nomeArquivo);
             comecaReflora(conexao, nomeArquivo).then(() => {
                 promessa.resolve();
             });
@@ -68,6 +76,7 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
 function executaReflora(conexao, existeExecucaoReflora) {
     const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
+    // console.log(nomeArquivo);
     ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
         const conteudoLOG = leLOG(nomeArquivo);
@@ -96,6 +105,8 @@ export function daemonFazRequisicaoReflora() {
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
+                    // eslint-disable-next-line no-console
+                    console.log('AQUUUUUUUUUUUUUUUUUUUUUI');
                     executaReflora(conexao, existeExecucaoReflora[0]);
                 }
                 if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
@@ -104,7 +115,13 @@ export function daemonFazRequisicaoReflora() {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
                                 atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(7).format('DD/MM/YYYY'));
                             });
+                        } else {
+                            // eslint-disable-next-line no-console
+                            console.log('É SEMANAL PORÉM NÃO TÁ NA HORA');
                         }
+                    } else {
+                        // eslint-disable-next-line no-console
+                        console.log('É SEMANAL PORÉM NÃO TÁ NO DIA');
                     }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '1MES') {
@@ -113,7 +130,13 @@ export function daemonFazRequisicaoReflora() {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
                                 atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(30).format('DD/MM/YYYY'));
                             });
+                        } else {
+                            // eslint-disable-next-line no-console
+                            console.log('É MENSAL PORÉM NÃO TÁ NA HORA');
                         }
+                    } else {
+                        // eslint-disable-next-line no-console
+                        console.log('É MENSAL PORÉM NÃO TÁ NO DIA');
                     }
                 }
                 if (existeExecucaoReflora[0].periodicidade === '2MESES') {
@@ -122,7 +145,13 @@ export function daemonFazRequisicaoReflora() {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
                                 atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(60).format('DD/MM/YYYY'));
                             });
+                        } else {
+                            // eslint-disable-next-line no-console
+                            console.log('É 2MENSAL PORÉM NÃO TÁ NA HORA');
                         }
+                    } else {
+                        // eslint-disable-next-line no-console
+                        console.log('É 2MENSAL PORÉM NÃO TÁ NO DIA');
                     }
                 }
             }
