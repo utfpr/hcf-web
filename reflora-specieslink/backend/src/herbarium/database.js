@@ -173,6 +173,34 @@ export function selectEstaExecutandoSpeciesLink(conexao) {
     return promessa.promise;
 }
 
+export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, nomeArquivo) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.update(
+        {
+            nome_arquivo: nomeArquivo,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaHoraFimSpeciesLink(conexao, idExecucao, horaFim) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.update(
+        {
+            hora_fim: horaFim,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
 export function insereExecucaoSpeciesLink(conexao, horaAtual, horaFim, nomeArquivo, servicoUsuario) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();

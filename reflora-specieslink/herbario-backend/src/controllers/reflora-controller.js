@@ -36,17 +36,17 @@ export const preparaRequisicao = (request, response, next) => {
             const periodicidadeBD = listaExecucaoReflora[0].dataValues.periodicidade;
             if (periodicidadeBD === 'MANUAL') {
                 response.status(200).json(JSON.parse(' { "result": "failed" } '));
-                conexao.close();
+                // conexao.close();
             } else if ((periodicidadeBD === 'SEMANAL') || (periodicidadeBD === '1MES') || (periodicidadeBD === '2MESES')) {
                 if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
                     const { id } = listaExecucaoReflora[0].dataValues;
                     atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
-                        conexao.close();
+                        // conexao.close();
                     });
                 } else {
                     response.status(200).json(JSON.parse(' { "result": "failed" } '));
-                    conexao.close();
+                    // conexao.close();
                 }
             }
         } else {
@@ -54,13 +54,13 @@ export const preparaRequisicao = (request, response, next) => {
                 if (execucaoReflora.length === 0) {
                     insereExecucao(conexao, getHoraAtual(), null, periodicidade, proximaAtualizacao, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
-                        conexao.close();
+                        // conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
                     atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
-                        conexao.close();
+                        // conexao.close();
                     });
                 }
             });
@@ -88,7 +88,7 @@ export const estaExecutando = (request, response, next) => {
         } else {
             response.status(200).json(JSON.parse(' { "executando": "false", "periodicidade": " " } '));
         }
-        conexao.close();
+        // conexao.close();
     });
 };
 
