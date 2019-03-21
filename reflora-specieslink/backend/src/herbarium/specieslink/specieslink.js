@@ -3,11 +3,13 @@ import { escreveLOG } from '../log';
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
     listaConteudoArquivo.forEach((conteudo, i) => {
+        /*
         const codHCF = conteudo[3];
         const nomeCientifico = conteudo[4];
         const nomeFamilia = conteudo[10];
         const nomeEspecie = conteudo[11] + conteudo[12];
-        const autorEspecie = conteudo[14];
+        const autorEspecie = conteudo[14]; // autor do nome cientifico
+        const identificador = conteudo[15];
         const anoIdentificacao = conteudo[16];
         const mesIdentificacao = conteudo[17];
         const diaIdentificacao = conteudo[18];
@@ -33,6 +35,8 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
             console.log(`nomeEspecie${nomeEspecie}`);
             // eslint-disable-next-line no-console
             console.log(`autorEspecie${autorEspecie}`);
+            // eslint-disable-next-line no-console
+            console.log(`identificador${identificador}`);
             // eslint-disable-next-line no-console
             console.log(`anoIdentificacao${anoIdentificacao}`);
             // eslint-disable-next-line no-console
@@ -63,6 +67,12 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
             console.log(`observacaoColeta${observacaoColeta}`);
             // eslint-disable-next-line no-console
             console.log('=================================');
+        }
+        */
+        if (conteudo[48].length > 0) {
+            console.log('entrou');
+            console.log(`id${conteudo[3]}`);
+            console.log(`conteudo[48]${conteudo[48]}`);
         }
         if (i === listaConteudoArquivo.length - 1) {
             // console.log('entrou');

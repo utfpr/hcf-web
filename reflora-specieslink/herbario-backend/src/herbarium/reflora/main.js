@@ -108,8 +108,7 @@ export function daemonFazRequisicaoReflora() {
                     // eslint-disable-next-line no-console
                     console.log('AQUUUUUUUUUUUUUUUUUUUUUI');
                     executaReflora(conexao, existeExecucaoReflora[0]);
-                }
-                if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
+                } else if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
                     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
                         if (moment().format('HH') === '00') {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
@@ -123,8 +122,7 @@ export function daemonFazRequisicaoReflora() {
                         // eslint-disable-next-line no-console
                         console.log('É SEMANAL PORÉM NÃO TÁ NO DIA');
                     }
-                }
-                if (existeExecucaoReflora[0].periodicidade === '1MES') {
+                } else if (existeExecucaoReflora[0].periodicidade === '1MES') {
                     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
                         if (moment().format('HH') === '00') {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
@@ -138,8 +136,7 @@ export function daemonFazRequisicaoReflora() {
                         // eslint-disable-next-line no-console
                         console.log('É MENSAL PORÉM NÃO TÁ NO DIA');
                     }
-                }
-                if (existeExecucaoReflora[0].periodicidade === '2MESES') {
+                } else if (existeExecucaoReflora[0].periodicidade === '2MESES') {
                     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
                         if (moment().format('HH') === '00') {
                             executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
