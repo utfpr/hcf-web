@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    notification, Button, Select, Switch, Collapse, TimePicker
+    notification, Button, Select, Switch, Collapse
 } from 'antd';
 import axios from 'axios';
 import moment from 'moment';

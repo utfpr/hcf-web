@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Divider, Card, Row, Col, Form,
-    Button, Upload, Switch, Icon,
+    Button, Upload, Icon,
 } from 'antd';
 import HeaderListComponent from '../components/HeaderListComponent';
 
