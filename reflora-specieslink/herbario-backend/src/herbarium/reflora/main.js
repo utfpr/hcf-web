@@ -86,11 +86,11 @@ function executaReflora(conexao, existeExecucaoReflora) {
 function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     let agendamento = -1;
     if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
-        agendamento = 7;
+        agendamento = moment().isoWeekday() + 7;
     } else if (existeExecucaoReflora[0].periodicidade === '1MES') {
-        agendamento = 30;
+        agendamento = moment().isoWeekday() + 30;
     } else if (existeExecucaoReflora[0].periodicidade === '2MESES') {
-        agendamento = 60;
+        agendamento = moment().isoWeekday() + 60;
     }
     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
         if (moment().format('HH') === '00') {

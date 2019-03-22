@@ -159,11 +159,11 @@ class ListaServicosRefloraScreen extends Component {
     retornaDataProximaAtualizacao = () => {
         switch (this.state.periodicidadeAtualizacao) {
             case 'SEMANAL':
-                return moment().day(7).format('DD-MM-YYYY');
+                return moment().day(moment().isoWeekday() + 7).format('DD-MM-YYYY');
             case '1MES':
-                return moment().day(30).format('DD-MM-YYYY');
+                return moment().day(moment().isoWeekday() + 30).format('DD-MM-YYYY');
             case '2MESES':
-                return moment().day(60).format('DD-MM-YYYY');
+                return moment().day(moment().isoWeekday() + 60).format('DD-MM-YYYY');
         }
     }
 
@@ -210,6 +210,7 @@ class ListaServicosRefloraScreen extends Component {
             periodicidade: this.retornaValorPeriodicidade(),
             data_proxima_atualizacao: this.retornaDataProximaAtualizacao(),
         };
+        console.log(`a${params.data_proxima_atualizacao}`);
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
                 console.log(response.data)
@@ -221,10 +222,10 @@ class ListaServicosRefloraScreen extends Component {
                         this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }
                     if (params.periodicidade === 3) {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal(moment().format('DD')));
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal());
                     }
                     if (params.periodicidade === 4) {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal(moment().format('DD')));
+                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal());
                     }
                 }
             }

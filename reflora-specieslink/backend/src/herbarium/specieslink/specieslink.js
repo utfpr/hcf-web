@@ -1,10 +1,25 @@
-import { escreveLOG } from '../log';
+import Q from 'q';
+//  import { escreveLOG } from '../log';
+// import { selectTombo } from '../database';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
-    escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
-    listaConteudoArquivo.forEach((conteudo, i) => {
-        /*
+    // escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
+    const promessa = Q.defer();
+    // for (let i =)
+    if (listaConteudoArquivo.length === 0) {
+        // b
+        // sys
+        promessa.resolve();
+    } else {
+        const conteudo = listaConteudoArquivo.shift();
+        console.log(`codBarra${conteudo[3]}`);
+        realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo);
+    }
+    return promessa.promise;
+    /*
+    listaConteudoArquivo.forEach(async (conteudo, i) => {
         const codHCF = conteudo[3];
+        /*
         const nomeCientifico = conteudo[4];
         const nomeFamilia = conteudo[10];
         const nomeGenero = conteudo[11];
@@ -23,12 +38,16 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
         const cidade = conteudo[31];
         const longitude = conteudo[39];
         const latitude = conteudo[40];
-        */
+        selectTombo(conexao, codHCF).then(tombo => {
+            // eslint-disable-next-line no-console
+            console.log(`tombo${tombo}`);
+        });
         if (i === listaConteudoArquivo.length - 1) {
             // console.log('entrou');
             escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
         }
     });
+    */
 }
 
 export default { };
