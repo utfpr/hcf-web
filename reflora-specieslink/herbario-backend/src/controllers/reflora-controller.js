@@ -65,6 +65,7 @@ export const preparaRequisicao = (request, response, next) => {
                 }
             });
         }
+        // conexao.close();
     });
 };
 
