@@ -409,6 +409,33 @@ export function ehIgualLongitude(longitudeBd, longitudeReflora) {
     return floatLongitudeReflora;
 }
 
+/**
+ * A data de identificação é diferente do SpeciesLink, e do Reflora.
+ */
+export function ehIgualDataIdentificacaoAnoSl(informacaoBd, dataIdentificacaoAno) {
+    const dataIdentificacaoAnoBd = informacaoBd.data_identificacao_ano;
+    if (dataIdentificacaoAno === dataIdentificacaoAnoBd) {
+        return -1;
+    }
+    return dataIdentificacaoAno;
+}
+
+export function ehIgualDataIdentificacaoMesSl(informacaoBd, dataIdentificacaoMes) {
+    const dataIdentificacaoMesBd = informacaoBd.data_identificacao_mes;
+    if (dataIdentificacaoMes === dataIdentificacaoMesBd) {
+        return -1;
+    }
+    return dataIdentificacaoMes;
+}
+
+export function ehIgualDataIdentificacaoDiaSl(informacaoBd, dataIdentificacaoDia) {
+    const dataIdentificacaoDiaBd = informacaoBd.data_identificacao_dia;
+    if (dataIdentificacaoDia === dataIdentificacaoDiaBd) {
+        return -1;
+    }
+    return dataIdentificacaoDia;
+}
+
 export function ehIgualDataIdentificacao(informacaoBd, informacaoReflora) {
     let dataIdentificacao = '';
     const dataIdentificacaoDiaBd = informacaoBd.data_identificacao_dia;

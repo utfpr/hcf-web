@@ -18,6 +18,9 @@ import {
     ehIgualLongitude,
     ehIgualLatitude,
     ehIgualSubespecie,
+    ehIgualDataIdentificacaoAnoSl,
+    ehIgualDataIdentificacaoMesSl,
+    ehIgualDataIdentificacaoDiaSl,
 } from '../datatombos';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
@@ -39,6 +42,9 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
             const nomeEspecie = conteudo[12];
             const nomeSubespecie = conteudo[13];
             const autorEspecie = conteudo[14]; // autor do nome cientifico
+            const anoIdentificacao = conteudo[16];
+            const mesIdentificacao = conteudo[17];
+            const diaIdentificacao = conteudo[18];
             const nomeTipo = conteudo[19];
             const anoColeta = conteudo[23];
             const mesColeta = conteudo[24];
@@ -80,6 +86,18 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                         alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
                     }
                 });
+            }
+            const resultadoAnoIdentificacao = ehIgualDataIdentificacaoAnoSl(informacoesTomboBd, anoIdentificacao);
+            if (resultadoAnoIdentificacao.length > 0) {
+                alteracaoInformacao += `data_ano_identificacao: ${resultadoAnoIdentificacao}, `;
+            }
+            const resultadoMesIdentificacao = ehIgualDataIdentificacaoMesSl(informacoesTomboBd, mesIdentificacao);
+            if (resultadoMesIdentificacao.length > 0) {
+                alteracaoInformacao += `data_mes_identificacao: ${resultadoMesIdentificacao}, `;
+            }
+            const resultadoDiaIdentificacao = ehIgualDataIdentificacaoDiaSl(informacoesTomboBd, diaIdentificacao);
+            if (resultadoDiaIdentificacao.length > 0) {
+                alteracaoInformacao += `data_dia_identificacao: ${resultadoDiaIdentificacao}, `;
             }
             await ehIgualTipo(conexao, informacoesTomboBd.tipo_id, nomeTipo).then(tipo => {
                 if (tipo !== -1) {
@@ -137,9 +155,6 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     return promessa.promise;
     /*
         const identificador = conteudo[15];
-        const anoIdentificacao = conteudo[16];
-        const mesIdentificacao = conteudo[17];
-        const diaIdentificacao = conteudo[18];
     */
 }
 
