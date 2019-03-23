@@ -497,24 +497,24 @@ export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualNomeCientifico(informacaoBd, informacaoReflora) {
-    const nomeCientificoBd = informacaoBd.nome_cientifico;
-    const nomeCientificoReflora = informacaoReflora.scientificname;
-    if (valorEhIndefinido(nomeCientificoBd) || valorEhIndefinido(nomeCientificoReflora)) {
+export function ehIgualNomeCientifico(nomeCientificoBd, nomeCientificoHerbarioVirtual) {
+    // const nomeCientificoBd = informacaoBd.nome_cientifico;
+    // const nomeCientificoReflora = informacaoReflora.scientificname;
+    if (valorEhIndefinido(nomeCientificoBd) || valorEhIndefinido(nomeCientificoHerbarioVirtual)) {
         return '';
     }
-    if (valorEhNulo(nomeCientificoBd) || valorEhNulo(nomeCientificoReflora)) {
+    if (valorEhNulo(nomeCientificoBd) || valorEhNulo(nomeCientificoHerbarioVirtual)) {
         return '';
     }
-    if ((nomeCientificoBd.length === 0) || (nomeCientificoReflora.length === 0)) {
+    if ((nomeCientificoBd.length === 0) || (nomeCientificoHerbarioVirtual.length === 0)) {
         return '';
     }
     const processaNomeCientificoBd = processaString(nomeCientificoBd);
-    const processaNomeCientificoReflora = processaString(nomeCientificoReflora);
+    const processaNomeCientificoReflora = processaString(nomeCientificoHerbarioVirtual);
     if (processaNomeCientificoBd === processaNomeCientificoReflora) {
         return '';
     }
-    return nomeCientificoReflora;
+    return nomeCientificoHerbarioVirtual;
 }
 
 /* (Aqui pra baixo ok) Esse processo de verificar o tamanho é necessário nas funções abaixo, pois estamos fazendo um outro select */

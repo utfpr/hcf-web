@@ -143,7 +143,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             }
         });
         // nome científico
-        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd, informacaoReflora);
+        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd.nome_cientifico, informacaoReflora.scientificname);
         if (resultadoNomeCientifico.length > 0) {
             alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
         }

@@ -1,30 +1,28 @@
 import Q from 'q';
 //  import { escreveLOG } from '../log';
 import { selectTombo } from '../database';
+import { ehIgualNomeCientifico } from '../datatombos';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     // escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
     const promessa = Q.defer();
     // for (let i =)
     if (listaConteudoArquivo.length === 0) {
-        // b
-        // sys
         promessa.resolve();
     } else {
         const conteudo = listaConteudoArquivo.pop();
-        // eslint-disable-next-line no-console
-        console.log(`codBarra${conteudo[3]}`);
-        selectTombo(conexao, conteudo[3]).then(tombo => {
-            console.log(tombo);
+        const codBarra = conteudo[3];
+        selectTombo(conexao, codBarra).then(tombo => {
+            const informacoesTombo = tombo[0].dataValues;
+            const nomeCientifico = conteudo[4];
+            const resultadoNomeCientifico = ehIgualNomeCientifico(informacoesTombo.nome_cientifico, nomeCientifico);
+            // eslint-disable-next-line no-console
+            console.log(`R: ${resultadoNomeCientifico}`);
             promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
         });
     }
     return promessa.promise;
     /*
-    listaConteudoArquivo.forEach(async (conteudo, i) => {
-        const codHCF = conteudo[3];
-        /*
-        const nomeCientifico = conteudo[4];
         const nomeFamilia = conteudo[10];
         const nomeGenero = conteudo[11];
         const nomeEspecie = conteudo[12];
@@ -42,15 +40,6 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
         const cidade = conteudo[31];
         const longitude = conteudo[39];
         const latitude = conteudo[40];
-        selectTombo(conexao, codHCF).then(tombo => {
-            // eslint-disable-next-line no-console
-            console.log(`tombo${tombo}`);
-        });
-        if (i === listaConteudoArquivo.length - 1) {
-            // console.log('entrou');
-            escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
-        }
-    });
     */
 }
 
