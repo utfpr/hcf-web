@@ -15,6 +15,7 @@ import modeloFamilias from '../models/Familia';
 import modeloGeneros from '../models/Genero';
 import modeloTipos from '../models/Tipo';
 import modeloEspecies from '../models/Especie';
+import modeloSubespecies from '../models/Subespecie';
 import modeloVariedades from '../models/Variedade';
 import modeloLocalColeta from '../models/LocalColeta';
 import modeloCidade from '../models/Cidade';
@@ -349,6 +350,7 @@ export function selectTombo(conexao, nroTombo) {
                 'especie_id',
                 'genero_id',
                 'local_coleta_id',
+                'sub_especie_id',
                 'observacao'],
             where: { hcf: nroTombo },
         }).then(tombo => {
@@ -493,6 +495,20 @@ export function selectEspecie(conexao, idEspecie) {
             where: { id: idEspecie },
         }).then(especie => {
             promessa.resolve(especie);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectSubespecie(conexao, idSubespecie) {
+    const tabelaSubespecies = modeloSubespecies(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaSubespecies.findAll({
+            attributes: ['nome'],
+            where: { id: idSubespecie },
+        }).then(subespecie => {
+            promessa.resolve(subespecie);
         });
     });
     return promessa.promise;
