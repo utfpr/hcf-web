@@ -1,6 +1,6 @@
 import Q from 'q';
 //  import { escreveLOG } from '../log';
-// import { selectTombo } from '../database';
+import { selectTombo } from '../database';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     // escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
@@ -11,9 +11,13 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
         // sys
         promessa.resolve();
     } else {
-        const conteudo = listaConteudoArquivo.shift();
+        const conteudo = listaConteudoArquivo.pop();
+        // eslint-disable-next-line no-console
         console.log(`codBarra${conteudo[3]}`);
-        realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo);
+        selectTombo(conexao, conteudo[3]).then(tombo => {
+            console.log(tombo);
+            promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+        });
     }
     return promessa.promise;
     /*
