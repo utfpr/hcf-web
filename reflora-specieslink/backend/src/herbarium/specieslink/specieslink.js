@@ -1,7 +1,7 @@
 import Q from 'q';
 //  import { escreveLOG } from '../log';
 import { selectTombo } from '../database';
-import { ehIgualNomeCientifico } from '../datatombos';
+import { ehIgualNomeCientifico, ehIgualFamilia, ehIgualGenero } from '../datatombos';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     // escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
@@ -12,19 +12,35 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     } else {
         const conteudo = listaConteudoArquivo.pop();
         const codBarra = conteudo[3];
-        selectTombo(conexao, codBarra).then(tombo => {
-            const informacoesTombo = tombo[0].dataValues;
+        selectTombo(conexao, codBarra).then(async tombo => {
+            let alteracaoInformacao = '{';
+            const informacoesTomboBd = tombo[0].dataValues;
+            // INFORMAÇÕES DO SPECIESLINK
             const nomeCientifico = conteudo[4];
-            const resultadoNomeCientifico = ehIgualNomeCientifico(informacoesTombo.nome_cientifico, nomeCientifico);
+            const nomeFamilia = conteudo[10];
+            const nomeGenero = conteudo[11];
+            const resultadoNomeCientifico = ehIgualNomeCientifico(informacoesTomboBd.nome_cientifico, nomeCientifico);
+            if (resultadoNomeCientifico.length > 0) {
+                alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
+            }
+            await ehIgualFamilia(conexao, informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
+                if (familia !== -1) {
+                    alteracaoInformacao += `familia: ${familia}, `;
+                }
+            });
+            await ehIgualGenero(conexao, informacoesTomboBd.genero_id, nomeGenero).then(genero => {
+                if (genero !== -1) {
+                    alteracaoInformacao += `genero: ${genero}, `;
+                }
+            });
+            alteracaoInformacao = `${alteracaoInformacao}}`;
             // eslint-disable-next-line no-console
-            console.log(`R: ${resultadoNomeCientifico}`);
+            console.log(`R: ${alteracaoInformacao}`);
             promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
         });
     }
     return promessa.promise;
     /*
-        const nomeFamilia = conteudo[10];
-        const nomeGenero = conteudo[11];
         const nomeEspecie = conteudo[12];
         const nomeSubespecie = conteudo[13];
         const autorEspecie = conteudo[14]; // autor do nome cientifico

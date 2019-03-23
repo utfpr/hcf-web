@@ -518,9 +518,9 @@ export function ehIgualNomeCientifico(nomeCientificoBd, nomeCientificoHerbarioVi
 }
 
 /* (Aqui pra baixo ok) Esse processo de verificar o tamanho é necessário nas funções abaixo, pois estamos fazendo um outro select */
-export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualFamilia(conexao, idNomeFamilia, nomeFamiliaReflora) {
     const promessa = Q.defer();
-    const idNomeFamilia = informacaoBd.familia_id;
+    // const idNomeFamilia = informacaoBd.familia_id;
     // const idNomeFamilia = informacaoBD.familia_id - 265;
     selectFamilia(conexao, idNomeFamilia).then(resultadoFamiliaBd => {
         if (resultadoFamiliaBd.length === 0) {
@@ -528,7 +528,7 @@ export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeFamiliaBd = resultadoFamiliaBd[0].dataValues.nome;
-        const nomeFamiliaReflora = informacaoReflora.family;
+        // const nomeFamiliaReflora = informacaoReflora.family;
         if (valorEhIndefinido(nomeFamiliaBd) || valorEhIndefinido(nomeFamiliaReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -553,9 +553,9 @@ export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualGenero(conexao, idNomeGenero, nomeGeneroReflora) {
     const promessa = Q.defer();
-    const idNomeGenero = informacaoBd.genero_id;
+    // const idNomeGenero = informacaoBd.genero_id;
     // const idNomeGenero = informacaoBD.genero_id + 50;
     selectGenero(conexao, idNomeGenero).then(resultadoGeneroBd => {
         if (resultadoGeneroBd.length === 0) {
@@ -563,7 +563,7 @@ export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeGeneroBd = resultadoGeneroBd[0].dataValues.nome;
-        const nomeGeneroReflora = informacaoReflora.genus;
+        // const nomeGeneroReflora = informacaoReflora.genus;
         if (valorEhIndefinido(nomeGeneroBd) || valorEhIndefinido(nomeGeneroReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -588,9 +588,9 @@ export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualEspecie(conexao, idNomeEspecie, nomeEspecieReflora) {
     const promessa = Q.defer();
-    const idNomeEspecie = informacaoBd.especie_id;
+    // const idNomeEspecie = informacaoBd.especie_id;
     // const idNomeEspecie = 1;
     selectEspecie(conexao, idNomeEspecie).then(resultadoEspecieBd => {
         if (resultadoEspecieBd.length === 0) {
@@ -598,7 +598,7 @@ export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeEspecieBd = resultadoEspecieBd[0].dataValues.nome;
-        const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
+        // const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
         if (valorEhIndefinido(nomeEspecieBd) || valorEhIndefinido(nomeEspecieReflora)) {
             promessa.resolve(-1);
             return promessa.promise;

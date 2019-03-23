@@ -148,19 +148,19 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
         }
         // família
-        await ehIgualFamilia(conexao, processaInformacaoBd, informacaoReflora).then(familia => {
+        await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
             if (familia !== -1) {
                 alteracaoInformacao += `familia: ${familia}, `;
             }
         });
         // gênero
-        await ehIgualGenero(conexao, processaInformacaoBd, informacaoReflora).then(genero => {
+        await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {
             if (genero !== -1) {
                 alteracaoInformacao += `genero: ${genero}, `;
             }
         });
         // espécie
-        await ehIgualEspecie(conexao, processaInformacaoBd, informacaoReflora).then(especie => {
+        await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.infraespecificepithet).then(especie => {
             if (especie !== -1) {
                 alteracaoInformacao += `especie: ${especie}, `;
             }
