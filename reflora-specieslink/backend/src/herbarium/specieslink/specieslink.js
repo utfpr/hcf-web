@@ -30,7 +30,7 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
     // for (let i =)
     if (listaConteudoArquivo.length === 0) {
         // console.log('acabou');
-        promessa.resolve('bb');
+        promessa.resolve(true);
     } else {
         const conteudo = listaConteudoArquivo.pop();
         const codBarra = conteudo[3];

@@ -1,11 +1,12 @@
 import { processaArquivo } from './arquivo';
-import { getHoraAtual } from '../log';
+import { getHoraAtual, escreveLOG, processaNomeLog } from '../log';
 import {
     criaConexao,
     selectTemExecucaoSpeciesLink,
     insereExecucaoSpeciesLink,
     selectEstaExecutandoSpeciesLink,
     atualizaNomeArquivoSpeciesLink,
+    atualizaHoraFimSpeciesLink,
 } from '../database';
 import { realizaComparacao } from './specieslink';
 
@@ -29,36 +30,41 @@ export function main() {
     });
 }
 
+// insert into configuracao (hora_inicio, hora_fim, periodicidade, data_proxima_atualizacao, nome_arquivo, servico) values ('24/03/2019 16:05:00', null, null, null, 'speciesLink_all_31546_20190313103805.txt', 2);
 export function daemonSpeciesLink() {
     const conexao = criaConexao();
-    // setInterval(() => {
-    // selectEstaExecutandoSpeciesLink(conexao).then(statusExecucao => {
-    /**
+    setInterval(() => {
+        selectEstaExecutandoSpeciesLink(conexao).then(statusExecucao => {
+            /**
              * Se retornar resultado da requisição
              */
-    // if (statusExecucao.length > 0) {
-    // const horaFim = statusExecucao[0].dataValues.hora_fim;
-    // const arquivoSpeciesLink = statusExecucao[0].dataValues.nome_arquivo;
-    // const { id } = statusExecucao[0].dataValues;
-    // if (horaFim === null) {
-    const arquivoSpeciesLink = 'speciesLink_all_31546_20190313103805.txt';
-    // const horaInicio = processaNomeLog(statusExecucao[0].dataValues.hora_inicio);
-    const horaInicio = 'a';
-    const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
-    realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(out => {
-        // eslint-disable-next-line no-console
-        console.log(`${out}`);
-    });
-    // atualizaNomeArquivoSpeciesLink(conexao, id, 'EXECUTANDO');
-    // } else if (horaFim !== 'EXECUTANDO') {
-    // pode trocar
-    // }
-    // }
-    // });
-    // }, 1000);
+            if (statusExecucao.length > 0) {
+                const horaFim = statusExecucao[0].dataValues.hora_fim;
+                const horaInicio = statusExecucao[0].dataValues.hora_inicio;
+                const nomeArquivo = processaNomeLog(horaInicio);
+                const arquivoSpeciesLink = statusExecucao[0].dataValues.nome_arquivo;
+                const { id } = statusExecucao[0].dataValues;
+                if (horaFim === null) {
+                    atualizaHoraFimSpeciesLink(conexao, id, 'EXECUTANDO').then(() => {
+                        const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
+                        escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
+                        realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(acabou => {
+                            if (acabou) {
+                                escreveLOG(nomeArquivo, 'O processo de comparação do SpeciesLink acabou.');
+                                atualizaHoraFimSpeciesLink(conexao, id, getHoraAtual());
+                            }
+                        });
+                    });
+                } else if (horaFim === 'EXECUTANDO') {
+                    // eslint-disable-next-line no-console
+                    console.log('TÁ EXECUTANDO!!!!11');
+                }
+            }
+        });
+    }, 6000);
 }
 
-// main();
+main();
 daemonSpeciesLink();
 
 export default { };
