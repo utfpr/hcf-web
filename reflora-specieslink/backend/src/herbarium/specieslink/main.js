@@ -42,6 +42,16 @@ export function main() {
 }
 
 // insert into configuracao (hora_inicio, hora_fim, periodicidade, data_proxima_atualizacao, nome_arquivo, servico) values ('24/03/2019 16:05:00', null, null, null, 'speciesLink_all_31546_20190313103805.txt', 2);
+/**
+ * A função daemonSpeciesLink(), executa de um em um minuto. Nesse tempo
+ * é feito um select verificando se existe algum registro de execução
+ * do speciesLink na tabela de configuração. Se existe algum registro
+ * verifico se o horário final é igual a nulo, se for mudo o valor dessa coluna,
+ * processo o arquivo de entrada, escrevo no LOG, e realizo a comparação. Após,
+ * o processo de comparação escrevo que terminou no LOG, e atualizo o horário de término no BD.
+ * @params não tem nenhum parâmetro.
+ * @returns não retorna nada.
+ */
 export function daemonSpeciesLink() {
     const conexao = criaConexao();
     setInterval(() => {
@@ -72,7 +82,7 @@ export function daemonSpeciesLink() {
                 }
             }
         });
-    }, 6000);
+    }, 60000);
 }
 
 main();
