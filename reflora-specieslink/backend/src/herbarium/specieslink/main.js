@@ -10,22 +10,33 @@ import {
 } from '../database';
 import { realizaComparacao } from './specieslink';
 
+/**
+ * A função main(), faz um select verificando se tem o serviço do SpeciesLink
+ * na tabela de configuração. Se o resultado dessa busca for zero, ou seja, não
+ * tem nada insere um dado na tabela, caso contrário eu verifico significa
+ * que tem um registro no banco de dados. Então eu pego esse registro no BD,
+ * e verifico se o valor da coluna hora_fim é diferente de nulo e EXECUTANDO.
+ * Se essa condição for verdade, significa que o processo já acabou, então posso
+ * atualiza com os novos valores. Caso contrário está executando.
+ * @params não tem nenhum parâmetro.
+ * @returns não retorna nada.
+ */
 export function main() {
     const conexao = criaConexao();
     const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
     selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
             insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
+            // mensagem de sucesso.
         } else {
-            selectEstaExecutandoSpeciesLink(conexao).then(estaExecutando => {
-                if (estaExecutando.length === 0) {
-                    // atualiza
-                    const { id } = estaExecutando[0].dataValues;
-                    atualizaNomeArquivoSpeciesLink(conexao, id, nomeArquivo);
-                } else {
-                    // Está atualizando
-                }
-            });
+            const horaFim = execucaoSpeciesLink[0].dataValues.hora_fim;
+            const { id } = execucaoSpeciesLink[0].dataValues;
+            if ((horaFim !== null) && (horaFim !== 'EXECUTANDO')) {
+                atualizaNomeArquivoSpeciesLink(conexao, id, getHoraAtual(), nomeArquivo);
+                // mensagem de sucesso.
+            } else {
+                // mensagem de erro.
+            }
         }
     });
 }

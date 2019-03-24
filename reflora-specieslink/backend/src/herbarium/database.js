@@ -174,11 +174,13 @@ export function selectEstaExecutandoSpeciesLink(conexao) {
     return promessa.promise;
 }
 
-export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, nomeArquivo) {
+export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, horaInicio, nomeArquivo) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.update(
         {
+            hora_inicio: horaInicio,
+            hora_fim: null,
             nome_arquivo: nomeArquivo,
         },
         { where: { id: idExecucao } },
