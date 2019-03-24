@@ -45,7 +45,10 @@ export function daemonSpeciesLink() {
     // const horaInicio = processaNomeLog(statusExecucao[0].dataValues.hora_inicio);
     const horaInicio = 'a';
     const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
-    realizaComparacao(conexao, horaInicio, listaConteudoArquivo);
+    realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(out => {
+        // eslint-disable-next-line no-console
+        console.log(`${out}`);
+    });
     // atualizaNomeArquivoSpeciesLink(conexao, id, 'EXECUTANDO');
     // } else if (horaFim !== 'EXECUTANDO') {
     // pode trocar
