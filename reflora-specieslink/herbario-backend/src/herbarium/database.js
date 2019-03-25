@@ -15,6 +15,7 @@ import modeloFamilias from '../models/Familia';
 import modeloGeneros from '../models/Genero';
 import modeloTipos from '../models/Tipo';
 import modeloEspecies from '../models/Especie';
+import modeloSubespecies from '../models/Subespecie';
 import modeloVariedades from '../models/Variedade';
 import modeloLocalColeta from '../models/LocalColeta';
 import modeloCidade from '../models/Cidade';
@@ -96,6 +97,7 @@ export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario
         hora_fim: horaFim,
         periodicidade: periodicidadeUsuario,
         data_proxima_atualizacao: proximaAtualizacao,
+        nome_arquivo: null,
         servico: servicoUsuario,
     }).then(() => {
         promessa.resolve();
@@ -145,6 +147,79 @@ export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou,
     });
     return promessa.promise;
 }
+
+export function selectTemExecucaoSpeciesLink(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { servico: 2 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function selectEstaExecutandoSpeciesLink(conexao) {
+    const promessa = Q.defer();
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    conexao.sync().then(() => {
+        tabelaConfiguracao.findAll({
+            where: { hora_fim: null, servico: 2 },
+        }).then(listaExecucaoReflora => {
+            promessa.resolve(listaExecucaoReflora);
+        });
+    });
+    return promessa.promise;
+}
+
+export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, horaInicio, nomeArquivo) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.update(
+        {
+            hora_inicio: horaInicio,
+            hora_fim: null,
+            nome_arquivo: nomeArquivo,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function atualizaHoraFimSpeciesLink(conexao, idExecucao, horaFim) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.update(
+        {
+            hora_fim: horaFim,
+        },
+        { where: { id: idExecucao } },
+    ).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
+export function insereExecucaoSpeciesLink(conexao, horaAtual, horaFim, nomeArquivo, servicoUsuario) {
+    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaConfiguracao.create({
+        hora_inicio: horaAtual,
+        hora_fim: horaFim,
+        periodicidade: null,
+        data_proxima_atualizacao: null,
+        nome_arquivo: nomeArquivo,
+        servico: servicoUsuario,
+    }).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
 
 export function insereTabelaReflora(tabelaReflora, arrayCodBarra) {
     /**
@@ -277,6 +352,7 @@ export function selectTombo(conexao, nroTombo) {
                 'especie_id',
                 'genero_id',
                 'local_coleta_id',
+                'sub_especie_id',
                 'observacao'],
             where: { hcf: nroTombo },
         }).then(tombo => {
@@ -426,6 +502,20 @@ export function selectEspecie(conexao, idEspecie) {
     return promessa.promise;
 }
 
+export function selectSubespecie(conexao, idSubespecie) {
+    const tabelaSubespecies = modeloSubespecies(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaSubespecies.findAll({
+            attributes: ['nome'],
+            where: { id: idSubespecie },
+        }).then(subespecie => {
+            promessa.resolve(subespecie);
+        });
+    });
+    return promessa.promise;
+}
+
 export function selectVariedade(conexao, idFamilia) {
     const tabelaVariedade = modeloVariedades(conexao, Sequelize);
     const promessa = Q.defer();
@@ -516,7 +606,6 @@ export function existeTabelaReflora(conexao) {
     const promessa = Q.defer();
     conexao.query('SHOW TABLES', { type: Sequelize.QueryTypes.SHOWTABLES }).then(listaTabelas => {
         listaTabelas.forEach(tabelas => {
-            // console.log(tabelas === 'reflora');
             if (tabelas === 'reflora') {
                 promessa.resolve(true);
             }

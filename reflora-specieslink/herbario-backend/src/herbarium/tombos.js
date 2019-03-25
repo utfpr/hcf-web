@@ -55,12 +55,12 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
         }
         // ano de coleta
-        const resultadoAnoColeta = ehIgualAnoColeta(processaInformacaoBd, informacaoReflora);
+        const resultadoAnoColeta = ehIgualAnoColeta(processaInformacaoBd.data_coleta_ano, informacaoReflora.year);
         if (resultadoAnoColeta !== -1) {
             alteracaoInformacao += `ano_coleta: ${resultadoAnoColeta}, `;
         }
         // mês de coleta
-        const resultadoMesColeta = ehIgualMesColeta(processaInformacaoBd, informacaoReflora);
+        const resultadoMesColeta = ehIgualMesColeta(processaInformacaoBd.data_coleta_mes, informacaoReflora.month);
         if (resultadoMesColeta !== -1) {
             alteracaoInformacao += `mes_coleta: ${resultadoMesColeta},`;
         }
@@ -75,28 +75,28 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
         }
         // país, sigla país, estado e cidade
-        const idCidade = await getIdCidade(conexao, processaInformacaoBd);
+        const idCidade = await getIdCidade(conexao, processaInformacaoBd.local_coleta_id);
         if (idCidade !== -1) {
             // país
-            await ehIgualPais(conexao, idCidade, informacaoReflora).then(pais => {
+            await ehIgualPais(conexao, idCidade, informacaoReflora.country).then(pais => {
                 if (pais !== -1) {
                     alteracaoInformacao += `pais: ${pais}, `;
                 }
             });
             // sigla país
-            await ehIgualPaisSigla(conexao, idCidade, informacaoReflora).then(paisSigla => {
+            await ehIgualPaisSigla(conexao, idCidade, informacaoReflora.countrycode).then(paisSigla => {
                 if (paisSigla !== -1) {
                     alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
                 }
             });
             // estado
-            await ehIgualEstado(conexao, idCidade, informacaoReflora).then(estado => {
+            await ehIgualEstado(conexao, idCidade, informacaoReflora.stateprovince).then(estado => {
                 if (estado !== -1) {
                     alteracaoInformacao += `estado: ${estado}, `;
                 }
             });
             // cidade
-            await ehIgualCidade(conexao, idCidade, informacaoReflora).then(cidade => {
+            await ehIgualCidade(conexao, idCidade, informacaoReflora.municipality).then(cidade => {
                 if (cidade !== -1) {
                     alteracaoInformacao += `cidade: ${cidade}, `;
                 }
@@ -118,12 +118,12 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
         }
         // latitude
-        const resultadoLatitude = ehIgualLatitude(processaInformacaoBd, informacaoReflora);
+        const resultadoLatitude = ehIgualLatitude(processaInformacaoBd.latitude, informacaoReflora.decimallatitude);
         if (resultadoLatitude !== -1) {
             alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
         }
         // longitude
-        const resultadoLongitude = ehIgualLongitude(processaInformacaoBd, informacaoReflora);
+        const resultadoLongitude = ehIgualLongitude(processaInformacaoBd.longitude, informacaoReflora.decimallongitude);
         if (resultadoLongitude !== -1) {
             alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
         }
@@ -137,30 +137,30 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             }
         }
         // tipo
-        await ehIgualTipo(conexao, processaInformacaoBd, informacaoReflora).then(tipo => {
+        await ehIgualTipo(conexao, processaInformacaoBd.tipo_id, informacaoReflora.typestatus).then(tipo => {
             if (tipo !== -1) {
                 alteracaoInformacao += `tipo: ${tipo}, `;
             }
         });
         // nome científico
-        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd, informacaoReflora);
+        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd.nome_cientifico, informacaoReflora.scientificname);
         if (resultadoNomeCientifico.length > 0) {
             alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
         }
         // família
-        await ehIgualFamilia(conexao, processaInformacaoBd, informacaoReflora).then(familia => {
+        await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
             if (familia !== -1) {
                 alteracaoInformacao += `familia: ${familia}, `;
             }
         });
         // gênero
-        await ehIgualGenero(conexao, processaInformacaoBd, informacaoReflora).then(genero => {
+        await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {
             if (genero !== -1) {
                 alteracaoInformacao += `genero: ${genero}, `;
             }
         });
         // espécie
-        await ehIgualEspecie(conexao, processaInformacaoBd, informacaoReflora).then(especie => {
+        await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.infraespecificepithet).then(especie => {
             if (especie !== -1) {
                 alteracaoInformacao += `especie: ${especie}, `;
             }
@@ -171,7 +171,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        const idAutor = await getIdAutor(conexao, informacaoReflora);
+        const idAutor = await getIdAutor(conexao, processaInformacaoBd.especie_id);
         if (idAutor !== -1) {
             // autor nome científico
             await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoReflora).then(nomeAutorCientifico => {

@@ -15,6 +15,7 @@ import {
     selectAutor,
     selectVariedade,
     selectTipo,
+    selectSubespecie,
 } from './database';
 
 function valorEhIndefinido(valor) {
@@ -64,9 +65,9 @@ export function ehIgualNroColeta(informacaoBd, informacaoReflora) {
 }
 
 
-export function ehIgualAnoColeta(informacaoBd, informacaoReflora) {
-    const anoColetaBd = informacaoBd.data_coleta_ano;
-    const anoColetaReflora = informacaoReflora.year;
+export function ehIgualAnoColeta(anoColetaBd, anoColetaReflora) {
+    // const anoColetaBd = informacaoBd.data_coleta_ano;
+    // const anoColetaReflora = informacaoReflora.year;
     if (valorEhIndefinido(anoColetaBd) || valorEhIndefinido(anoColetaReflora)) {
         return -1;
     }
@@ -84,9 +85,9 @@ export function ehIgualAnoColeta(informacaoBd, informacaoReflora) {
     return intAnoColetaReflora;
 }
 
-export function ehIgualMesColeta(informacaoBd, informacaoReflora) {
-    const mesColetaBd = informacaoBd.data_coleta_mes;
-    const mesColetaReflora = informacaoReflora.month;
+export function ehIgualMesColeta(mesColetaBd, mesColetaReflora) {
+    // const mesColetaBd = informacaoBd.data_coleta_mes;
+    // const mesColetaReflora = informacaoReflora.month;
     if (valorEhIndefinido(mesColetaBd) || valorEhIndefinido(mesColetaReflora)) {
         return -1;
     }
@@ -144,9 +145,9 @@ export function ehIgualObservacao(informacaoBd, informacaoReflora) {
     return observacaoReflora;
 }
 
-export function getIdCidade(conexao, informacaoBd) {
+export function getIdCidade(conexao, idLocalColeta) {
     const promessa = Q.defer();
-    const idLocalColeta = informacaoBd.local_coleta_id;
+    // const idLocalColeta = informacaoBd.local_coleta_id;
     selectLocalColeta(conexao, idLocalColeta).then(resultadoLocalColetaBd => {
         if (resultadoLocalColetaBd.length === 0) {
             promessa.resolve(-1);
@@ -163,7 +164,7 @@ export function getIdCidade(conexao, informacaoBd) {
     return promessa.promise;
 }
 
-export function ehIgualPais(conexao, idCidade, informacaoReflora) {
+export function ehIgualPais(conexao, idCidade, nomePaisReflora) {
     const promessa = Q.defer();
     selectPais(conexao, idCidade).then(resultadoPaisBd => {
         if (resultadoPaisBd === 0) {
@@ -171,7 +172,7 @@ export function ehIgualPais(conexao, idCidade, informacaoReflora) {
             return promessa.promise;
         }
         const nomePaisBd = resultadoPaisBd[0].dataValues.estados_paises_nome;
-        const nomePaisReflora = informacaoReflora.country;
+        // const nomePaisReflora = informacaoReflora.country;
         if (valorEhIndefinido(nomePaisBd) || valorEhIndefinido(nomePaisReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -196,7 +197,7 @@ export function ehIgualPais(conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualPaisSigla(conexao, idCidade, informacaoReflora) {
+export function ehIgualPaisSigla(conexao, idCidade, nomePaisSiglaReflora) {
     const promessa = Q.defer();
     selectPaisSigla(conexao, idCidade).then(resultadoPaisSiglaBd => {
         if (resultadoPaisSiglaBd.length === 0) {
@@ -204,7 +205,7 @@ export function ehIgualPaisSigla(conexao, idCidade, informacaoReflora) {
             return promessa.promise;
         }
         const nomePaisSiglaBd = resultadoPaisSiglaBd[0].dataValues.estados_paises_sigla;
-        const nomePaisSiglaReflora = informacaoReflora.countrycode;
+        // const nomePaisSiglaReflora = informacaoReflora.countrycode;
         if (valorEhIndefinido(nomePaisSiglaBd) || valorEhIndefinido(nomePaisSiglaReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -229,7 +230,7 @@ export function ehIgualPaisSigla(conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
+export function ehIgualEstado(conexao, idCidade, nomeEstadoReflora) {
     const promessa = Q.defer();
     selectEstado(conexao, idCidade).then(resultadoEstadoBd => {
         if (resultadoEstadoBd.length === 0) {
@@ -237,7 +238,7 @@ export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
             return promessa.promise;
         }
         const nomeEstadoBd = resultadoEstadoBd[0].dataValues.estados_nome;
-        const nomeEstadoReflora = informacaoReflora.stateprovince;
+        // const nomeEstadoReflora = informacaoReflora.stateprovince;
         if (valorEhIndefinido(nomeEstadoBd) || valorEhIndefinido(nomeEstadoReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -262,7 +263,7 @@ export function ehIgualEstado(conexao, idCidade, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualCidade(conexao, idCidade, informacaoReflora) {
+export function ehIgualCidade(conexao, idCidade, nomeCidadeReflora) {
     const promessa = Q.defer();
     selectCidade(conexao, idCidade).then(resultadoCidadeBd => {
         if (resultadoCidadeBd.length === 0) {
@@ -270,7 +271,7 @@ export function ehIgualCidade(conexao, idCidade, informacaoReflora) {
             return promessa.promise;
         }
         const nomeCidadeBd = resultadoCidadeBd[0].dataValues.nome;
-        const nomeCidadeReflora = informacaoReflora.municipality;
+        // const nomeCidadeReflora = informacaoReflora.municipality;
         if (valorEhIndefinido(nomeCidadeBd) || valorEhIndefinido(nomeCidadeReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -368,9 +369,9 @@ export function ehIgualAltitude(informacaoBd, informacaoReflora) {
     return intMaxAltitudeReflora;
 }
 
-export function ehIgualLatitude(informacaoBd, informacaoReflora) {
-    const latitudeBd = informacaoBd.latitude;
-    const latitudeReflora = informacaoReflora.decimallatitude;
+export function ehIgualLatitude(latitudeBd, latitudeReflora) {
+    // const latitudeBd = informacaoBd.latitude;
+    // const latitudeReflora = informacaoReflora.decimallatitude;
     if (valorEhIndefinido(latitudeBd) || valorEhIndefinido(latitudeReflora)) {
         return -1;
     }
@@ -388,9 +389,9 @@ export function ehIgualLatitude(informacaoBd, informacaoReflora) {
     return floatLatitudeReflora;
 }
 
-export function ehIgualLongitude(informacaoBd, informacaoReflora) {
-    const longitudeBd = informacaoBd.longitude;
-    const longitudeReflora = informacaoReflora.decimallongitude;
+export function ehIgualLongitude(longitudeBd, longitudeReflora) {
+    // const longitudeBd = informacaoBd.longitude;
+    // const longitudeReflora = informacaoReflora.decimallongitude;
     if (valorEhIndefinido(longitudeBd) || valorEhIndefinido(longitudeReflora)) {
         return -1;
     }
@@ -406,6 +407,33 @@ export function ehIgualLongitude(informacaoBd, informacaoReflora) {
         return -1;
     }
     return floatLongitudeReflora;
+}
+
+/**
+ * A data de identificação é diferente do SpeciesLink, e do Reflora.
+ */
+export function ehIgualDataIdentificacaoAnoSl(informacaoBd, dataIdentificacaoAno) {
+    const dataIdentificacaoAnoBd = informacaoBd.data_identificacao_ano;
+    if (dataIdentificacaoAno === dataIdentificacaoAnoBd) {
+        return -1;
+    }
+    return dataIdentificacaoAno;
+}
+
+export function ehIgualDataIdentificacaoMesSl(informacaoBd, dataIdentificacaoMes) {
+    const dataIdentificacaoMesBd = informacaoBd.data_identificacao_mes;
+    if (dataIdentificacaoMes === dataIdentificacaoMesBd) {
+        return -1;
+    }
+    return dataIdentificacaoMes;
+}
+
+export function ehIgualDataIdentificacaoDiaSl(informacaoBd, dataIdentificacaoDia) {
+    const dataIdentificacaoDiaBd = informacaoBd.data_identificacao_dia;
+    if (dataIdentificacaoDia === dataIdentificacaoDiaBd) {
+        return -1;
+    }
+    return dataIdentificacaoDia;
 }
 
 export function ehIgualDataIdentificacao(informacaoBd, informacaoReflora) {
@@ -461,9 +489,9 @@ export function processaDataIdentificacaoReflora(dataIdentificacao) {
     return alteracaoInformacao;
 }
 
-export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualTipo(conexao, idTipo, nomeTipoReflora) {
     const promessa = Q.defer();
-    const idTipo = informacaoBd.tipo_id;
+    // const idTipo = informacaoBd.tipo_id;
     // const idTipo = 1;
     selectTipo(conexao, idTipo).then(resultadoTipoBd => {
         if (resultadoTipoBd.length === 0) {
@@ -471,7 +499,7 @@ export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeTipoBd = resultadoTipoBd[0].dataValues.nome;
-        const nomeTipoReflora = informacaoReflora.typestatus;
+        // const nomeTipoReflora = informacaoReflora.typestatus;
         // const nomeTipoReflora = 'Isótipo';
         if (valorEhIndefinido(nomeTipoBd) || valorEhIndefinido(nomeTipoReflora)) {
             promessa.resolve(-1);
@@ -497,30 +525,30 @@ export function ehIgualTipo(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualNomeCientifico(informacaoBd, informacaoReflora) {
-    const nomeCientificoBd = informacaoBd.nome_cientifico;
-    const nomeCientificoReflora = informacaoReflora.scientificname;
-    if (valorEhIndefinido(nomeCientificoBd) || valorEhIndefinido(nomeCientificoReflora)) {
+export function ehIgualNomeCientifico(nomeCientificoBd, nomeCientificoHerbarioVirtual) {
+    // const nomeCientificoBd = informacaoBd.nome_cientifico;
+    // const nomeCientificoReflora = informacaoReflora.scientificname;
+    if (valorEhIndefinido(nomeCientificoBd) || valorEhIndefinido(nomeCientificoHerbarioVirtual)) {
         return '';
     }
-    if (valorEhNulo(nomeCientificoBd) || valorEhNulo(nomeCientificoReflora)) {
+    if (valorEhNulo(nomeCientificoBd) || valorEhNulo(nomeCientificoHerbarioVirtual)) {
         return '';
     }
-    if ((nomeCientificoBd.length === 0) || (nomeCientificoReflora.length === 0)) {
+    if ((nomeCientificoBd.length === 0) || (nomeCientificoHerbarioVirtual.length === 0)) {
         return '';
     }
     const processaNomeCientificoBd = processaString(nomeCientificoBd);
-    const processaNomeCientificoReflora = processaString(nomeCientificoReflora);
+    const processaNomeCientificoReflora = processaString(nomeCientificoHerbarioVirtual);
     if (processaNomeCientificoBd === processaNomeCientificoReflora) {
         return '';
     }
-    return nomeCientificoReflora;
+    return nomeCientificoHerbarioVirtual;
 }
 
 /* (Aqui pra baixo ok) Esse processo de verificar o tamanho é necessário nas funções abaixo, pois estamos fazendo um outro select */
-export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualFamilia(conexao, idNomeFamilia, nomeFamiliaReflora) {
     const promessa = Q.defer();
-    const idNomeFamilia = informacaoBd.familia_id;
+    // const idNomeFamilia = informacaoBd.familia_id;
     // const idNomeFamilia = informacaoBD.familia_id - 265;
     selectFamilia(conexao, idNomeFamilia).then(resultadoFamiliaBd => {
         if (resultadoFamiliaBd.length === 0) {
@@ -528,7 +556,7 @@ export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeFamiliaBd = resultadoFamiliaBd[0].dataValues.nome;
-        const nomeFamiliaReflora = informacaoReflora.family;
+        // const nomeFamiliaReflora = informacaoReflora.family;
         if (valorEhIndefinido(nomeFamiliaBd) || valorEhIndefinido(nomeFamiliaReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -553,9 +581,9 @@ export function ehIgualFamilia(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualGenero(conexao, idNomeGenero, nomeGeneroReflora) {
     const promessa = Q.defer();
-    const idNomeGenero = informacaoBd.genero_id;
+    // const idNomeGenero = informacaoBd.genero_id;
     // const idNomeGenero = informacaoBD.genero_id + 50;
     selectGenero(conexao, idNomeGenero).then(resultadoGeneroBd => {
         if (resultadoGeneroBd.length === 0) {
@@ -563,7 +591,7 @@ export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeGeneroBd = resultadoGeneroBd[0].dataValues.nome;
-        const nomeGeneroReflora = informacaoReflora.genus;
+        // const nomeGeneroReflora = informacaoReflora.genus;
         if (valorEhIndefinido(nomeGeneroBd) || valorEhIndefinido(nomeGeneroReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -588,9 +616,9 @@ export function ehIgualGenero(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
+export function ehIgualEspecie(conexao, idNomeEspecie, nomeEspecieReflora) {
     const promessa = Q.defer();
-    const idNomeEspecie = informacaoBd.especie_id;
+    // const idNomeEspecie = informacaoBd.especie_id;
     // const idNomeEspecie = 1;
     selectEspecie(conexao, idNomeEspecie).then(resultadoEspecieBd => {
         if (resultadoEspecieBd.length === 0) {
@@ -598,7 +626,7 @@ export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         const nomeEspecieBd = resultadoEspecieBd[0].dataValues.nome;
-        const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
+        // const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
         if (valorEhIndefinido(nomeEspecieBd) || valorEhIndefinido(nomeEspecieReflora)) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -618,6 +646,41 @@ export function ehIgualEspecie(conexao, informacaoBd, informacaoReflora) {
             return promessa.promise;
         }
         promessa.resolve(nomeEspecieReflora);
+        return promessa.promise;
+    });
+    return promessa.promise;
+}
+
+export function ehIgualSubespecie(conexao, idNomeSubespecie, nomeSubespecieHerbarioVirtual) {
+    const promessa = Q.defer();
+    // const idNomeEspecie = informacaoBd.especie_id;
+    // const idNomeEspecie = 1;
+    selectSubespecie(conexao, idNomeSubespecie).then(resultadoEspecieBd => {
+        if (resultadoEspecieBd.length === 0) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const nomeSubespecieBd = resultadoEspecieBd[0].dataValues.nome;
+        // const nomeEspecieReflora = informacaoReflora.infraespecificepithet;
+        if (valorEhIndefinido(nomeSubespecieBd) || valorEhIndefinido(nomeSubespecieHerbarioVirtual)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if (valorEhNulo(nomeSubespecieBd) || valorEhNulo(nomeSubespecieHerbarioVirtual)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        if ((nomeSubespecieBd.length === 0) || (nomeSubespecieHerbarioVirtual.length === 0)) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        const processaNomeSubespecieBd = processaString(nomeSubespecieBd);
+        const processaNomeSubespecieHerbarioVirtual = processaString(nomeSubespecieHerbarioVirtual);
+        if (processaNomeSubespecieBd === processaNomeSubespecieHerbarioVirtual) {
+            promessa.resolve(-1);
+            return promessa.promise;
+        }
+        promessa.resolve(nomeSubespecieHerbarioVirtual);
         return promessa.promise;
     });
     return promessa.promise;
@@ -658,9 +721,9 @@ export function ehIgualVariedade(conexao, informacaoBd, informacaoReflora) {
     return promessa.promise;
 }
 
-export function getIdAutor(conexao, informacaoBd) {
+export function getIdAutor(conexao, idLocalColeta) {
     const promessa = Q.defer();
-    const idLocalColeta = informacaoBd.especie_id;
+    // const idLocalColeta = informacaoBd.especie_id;
     selectEspecie(conexao, idLocalColeta).then(resultadoIdAutorBd => {
         if (resultadoIdAutorBd.length === 0) {
             promessa.resolve(-1);
