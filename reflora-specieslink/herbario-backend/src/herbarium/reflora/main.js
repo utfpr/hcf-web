@@ -20,11 +20,13 @@ import {
 
 function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
+    // eslint-disable-next-line no-console
+    console.log('até aqui');
     escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
-        // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
             fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
@@ -43,9 +45,9 @@ function comecaReflora(conexao, nomeArquivo) {
     return promessa.promise;
 }
 
-function ehNecessarioFazerRequisicao(nomeArquivo) {
+function ehNecessarioFazerRequisicao(conexao, nomeArquivo) {
     const promessa = Q.defer();
-    const conexao = criaConexao();
+    // const conexao = criaConexao();
     /**
      * 1.Cria a tabela do Reflora e insere os códigos de barra nela
      * 2.A partir de todos os códigos de barras presente na tabela faz a requisição
@@ -68,7 +70,8 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
 function executaReflora(conexao, existeExecucaoReflora) {
     const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
-    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
+    // console.log(nomeArquivo);
+    ehNecessarioFazerRequisicao(conexao, nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
         const conteudoLOG = leLOG(nomeArquivo);
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
@@ -78,6 +81,30 @@ function executaReflora(conexao, existeExecucaoReflora) {
         }
     });
     return promessa.promise;
+}
+
+function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
+    let agendamento = -1;
+    if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
+        agendamento = moment().isoWeekday() + 7;
+    } else if (existeExecucaoReflora[0].periodicidade === '1MES') {
+        agendamento = moment().isoWeekday() + 30;
+    } else if (existeExecucaoReflora[0].periodicidade === '2MESES') {
+        agendamento = moment().isoWeekday() + 60;
+    }
+    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
+        if (moment().format('HH') === '00') {
+            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
+                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(agendamento).format('DD/MM/YYYY'));
+            });
+        } else {
+            // eslint-disable-next-line no-console
+            console.log(`Não tá na hora ${moment().format('HH')}`);
+        }
+    } else {
+        // eslint-disable-next-line no-console
+        console.log(`Não tá no dia ${moment().format('DD/MM/YYYY')}`);
+    }
 }
 
 export function daemonFazRequisicaoReflora() {
@@ -96,34 +123,11 @@ export function daemonFazRequisicaoReflora() {
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
+                    // eslint-disable-next-line no-console
+                    console.log('AQUUUUUUUUUUUUUUUUUUUUUI');
                     executaReflora(conexao, existeExecucaoReflora[0]);
-                }
-                if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
-                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
-                        if (moment().format('HH') === '00') {
-                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
-                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(7).format('DD/MM/YYYY'));
-                            });
-                        }
-                    }
-                }
-                if (existeExecucaoReflora[0].periodicidade === '1MES') {
-                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
-                        if (moment().format('HH') === '00') {
-                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
-                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(30).format('DD/MM/YYYY'));
-                            });
-                        }
-                    }
-                }
-                if (existeExecucaoReflora[0].periodicidade === '2MESES') {
-                    if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
-                        if (moment().format('HH') === '00') {
-                            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
-                                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(60).format('DD/MM/YYYY'));
-                            });
-                        }
-                    }
+                } else {
+                    verificaRequisicoesAgendado(conexao, existeExecucaoReflora);
                 }
             }
         });
