@@ -1,53 +1,61 @@
 import React, { Component } from 'react';
 import {
-    Divider, Card, Row, Col, Form,
-    Button, Upload, Icon,
+    Divider, Card, Row, Col, Form, Button, Collapse, Upload, Icon, notification,
 } from 'antd';
-import HeaderListComponent from '../components/HeaderListComponent';
+import axios from 'axios';
+import HeaderServicesComponent from '../components/HeaderServicesComponent';
 
 const FormItem = Form.Item;
+const Panel = Collapse.Panel;
+
 
 class ListaServicosSpeciesLinkScreen extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            disabled: true,
-        }
+            file: null
+        };
+        this.onFormSubmit = this.onFormSubmit.bind(this);
+        this.onChange = this.onChange.bind(this);
     }
+
+    onFormSubmit(e) {
+        e.preventDefault();
+        const formData = new FormData();
+        formData.append('myImage', this.state.file);
+        const config = {
+            headers: {
+                'content-type': 'multipart/form-data'
+            }
+        };
+        axios.post("/specieslink-executa", formData, config)
+            .then((response) => {
+                alert("The file is successfully uploaded");
+            }).catch((error) => {
+            });
+    }
+
+    onChange(e) {
+        this.setState({ file: e.target.files[0] });
+    }
+
+    openNotificationWithIcon = (type, message, description) => {
+        notification[type]({
+            message: message,
+            description: description,
+        });
+    };
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
     renderPainelEnviarInformacoes(getFieldDecorator) {
         return (
-            <Card title="Buscar informações no speciesLink">
-                <Form onSubmit={this.onSubmit} className="login-form">
-
-                    <Row gutter={8}>
-                        <Col span={6} >
-                            <Upload>
-                                <Button style={{ width: "400px" }} size="large">
-                                    <Icon type="upload" /> Inserir o arquivo .TXT do speciesLink
-                                </Button>
-                            </Upload>
-                        </Col>
-                        <Col span={8} style={{ textAlign: 'center' }}>
-                            <FormItem>
-                                <Button type="primary" style={{ right: '60px' }}>
-                                    Enviar arquivo
-								</Button>
-                                <span style={{ fontWeight: "bold" }}>A última atualização foi HH:MM:SS DD/MM/YYYY</span>
-                            </FormItem>
-                        </Col>
-                        <Col span={6}>
-                            <FormItem>
-                                <Button type="primary" htmlType="submit" className="login-form-button" disabled={this.state.disabled}>
-                                    Verificar LOG de saída
-                                </Button>
-                            </FormItem>
-                        </Col>
-                    </Row>
-
-                </Form>
+            <Card title='Buscar informações no speciesLink'>
+                <form onSubmit={this.onFormSubmit}>
+                    <h1>File Upload</h1>
+                    <input type="file" name="myImage" onChange={this.onChange} />
+                    <button type="submit">Upload</button>
+                </form>
             </Card>
         )
     }
@@ -56,7 +64,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
         const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.onSubmit}>
-                <HeaderListComponent title={"SpeciesLink"} link={"/specieslink/novo"} />
+                <HeaderServicesComponent title={'SpeciesLink'} />
                 <Divider dashed />
                 {this.renderPainelEnviarInformacoes(getFieldDecorator)}
                 <Divider dashed />

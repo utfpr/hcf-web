@@ -10,7 +10,7 @@ export default app => {
     app.route('/uploads')
         .post([
             tokensMiddleware(),
-            uploadMiddleware.single('imagem'),
+            uploadMiddleware.single('recfile'),
             controller.post,
         ]);
 };

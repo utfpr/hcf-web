@@ -12,8 +12,8 @@ const {
     Sequelize: { ForeignKeyConstraintError },
     TomboFoto,
 } = models;
-
 const catchForeignKeyConstraintError = err => {
+
     if (err.fields.includes('tombo_hcf')) {
         throw new BadRequestExeption(416);
     }

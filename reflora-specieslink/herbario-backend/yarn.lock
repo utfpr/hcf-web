@@ -3077,6 +3077,11 @@ jest@^23.4.2:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
+js-file-download@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/js-file-download/-/js-file-download-0.4.5.tgz#3cf7bf4bc2231fe2e45663b1a5f8ad3a1949fe0a"
+  integrity sha512-altzTt8noT8MCJmQCQ/y3LfGRz/i7k6Z6H59bDsNd6Mq4KGK2KCxaFVdenqVTCJb6fCH/Ra1f1YDmemieAKDAg==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
