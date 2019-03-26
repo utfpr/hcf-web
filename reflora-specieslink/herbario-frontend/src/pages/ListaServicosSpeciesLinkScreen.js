@@ -48,13 +48,6 @@ class ListaServicosSpeciesLinkScreen extends Component {
     };
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
-    /*
-    <form onSubmit={this.onFormSubmit}>
-                    <h1>File Upload</h1>
-                    <input type="file" name="myImage" onChange={this.onChange} />
-                    <button type="submit">Upload</button>
-                </form>
-    */
     renderPainelEnviarInformacoes(getFieldDecorator) {
         return (
             <Card title='Buscar informações no speciesLink'>
@@ -69,7 +62,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                     */}
                     <Col span={6}>
                         <Upload name='myImage' accept='text/plain' action='http://localhost:3003/api/specieslink-executa' onChange={this.carregArquivo}>
-                            <Button>
+                            <Button style={{ width: '135%' }} className='login-form-button'>
                                 <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
                             </Button>
                         </Upload>
