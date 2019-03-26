@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    Divider, Card, Row, Col, Form, Button, Collapse, Upload, Icon, notification,
+    Divider, Card, Row, Col, Form, Button, Collapse, Upload, notification, Input, Icon,
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
@@ -8,19 +8,18 @@ import HeaderServicesComponent from '../components/HeaderServicesComponent';
 const FormItem = Form.Item;
 const Panel = Collapse.Panel;
 
-
 class ListaServicosSpeciesLinkScreen extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            file: null
+            file: null,
         };
         this.onFormSubmit = this.onFormSubmit.bind(this);
-        this.onChange = this.onChange.bind(this);
+        this.carregArquivo = this.carregArquivo.bind(this);
     }
 
-    onFormSubmit(e) {
+    onFormSubmit = e => {
         e.preventDefault();
         const formData = new FormData();
         formData.append('myImage', this.state.file);
@@ -36,8 +35,9 @@ class ListaServicosSpeciesLinkScreen extends Component {
             });
     }
 
-    onChange(e) {
-        this.setState({ file: e.target.files[0] });
+    carregArquivo = info => {
+        this.setState({ file: info[0] });
+        // const formData = new FormData();
     }
 
     openNotificationWithIcon = (type, message, description) => {
@@ -48,15 +48,39 @@ class ListaServicosSpeciesLinkScreen extends Component {
     };
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
-    renderPainelEnviarInformacoes(getFieldDecorator) {
-        return (
-            <Card title='Buscar informações no speciesLink'>
-                <form onSubmit={this.onFormSubmit}>
+    /*
+    <form onSubmit={this.onFormSubmit}>
                     <h1>File Upload</h1>
                     <input type="file" name="myImage" onChange={this.onChange} />
                     <button type="submit">Upload</button>
                 </form>
-            </Card>
+    */
+    renderPainelEnviarInformacoes(getFieldDecorator) {
+        return (
+            <Card title='Buscar informações no speciesLink'>
+                <Row gutter={6}>
+                    {/**
+                    <Col span={6}>
+                        <input type="file" htmlType='submit' name="myImage" accept="text/plain" onChange={this.onChange} />
+                    </Col>
+                    <Col span={6}>
+                        <button type="submit" onClick={this.onFormSubmit}>Upload</button>
+                    </Col>
+                    */}
+                    <Col span={6}>
+                        <Upload name='myImage' accept='text/plain' action='http://localhost:3003/api/specieslink-executa' onChange={this.carregArquivo}>
+                            <Button>
+                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
+                            </Button>
+                        </Upload>
+                    </Col>
+                    <Col span={6}>
+                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
+                            Enviar
+                    </Button>
+                    </Col>
+                </Row>
+            </Card >
         )
     }
 
