@@ -2,10 +2,9 @@
 import moment from 'moment';
 import {
     getHoraAtual,
-    transformaLog,
-    leLOG,
-    transformaNomeLog,
-    tempoGastoLog,
+    // leLOG,
+    // transformaNomeLog,
+    // tempoGastoLog,
 } from '../herbarium/log';
 import {
     criaConexao,
@@ -14,8 +13,6 @@ import {
     atualizaInicioTabelaConfiguracao,
     selectExecutandoReflora,
 } from '../herbarium/database';
-
-const fs = require('fs');
 
 export const preparaRequisicao = (request, response, next) => {
     /**
@@ -92,35 +89,7 @@ export const estaExecutando = (request, response, next) => {
         // conexao.close();
     });
 };
-
-export const todosLogs = (request, response, next) => {
-    const { herbarioVirtual } = request.query;
-    let diretorioLog = '';
-    if (herbarioVirtual === 'reflora') {
-        /** linux */
-        diretorioLog = `${__dirname}/../../logs/reflora`;
-    } else {
-        /** linux */
-        diretorioLog = `${__dirname}/../../logs/specieslink`;
-    }
-    // eslint-disable-next-line no-console
-    console.log(herbarioVirtual);
-    /** windows */
-    // const diretorioLog = `${__dirname}../../../logs`;
-    let nomeArquivos = '';
-    const listaArquivos = fs.readdirSync(diretorioLog);
-    if (listaArquivos.length > 0) {
-        listaArquivos.forEach(arquivos => {
-            nomeArquivos = `${nomeArquivos}"${transformaNomeLog(arquivos)}", `;
-        });
-        const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
-        const tempoGasto = tempoGastoLog(leLOG(listaArquivos[listaArquivos.length - 1].replace('.log', '')));
-        response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ], "duracao": "${tempoGasto}" }`));
-    } else {
-        response.status(200).json(JSON.parse('{ "logs":[ ], "duracao": " " }'));
-    }
-};
-
+/*
 export const getLog = (request, response, next) => {
     const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
     const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
@@ -134,7 +103,7 @@ export const getLog = (request, response, next) => {
     // const conteudoLog = transformaLog(leLOG(processaNomeArquivoTres));
     response.status(200).json(conteudoLog);
 };
-
+*/
 export const getStatusAgenda = (request, response, next) => {
 };
 

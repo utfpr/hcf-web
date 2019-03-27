@@ -17,12 +17,14 @@ export const statusExecucao = (request, response, next) => {
     // a
     const conexao = criaConexao();
     selectTemExecucaoSpeciesLink(conexao).then(execucao => {
-        console.log(`-------------------->${execucao.length}`)
+        // eslint-disable-next-line no-console
+        console.log(`-------------------->${execucao.length}`);
         if (execucao.length === 0) {
             response.status(200).json(JSON.parse(' { "result": "false" } '));
         } else {
             const horaFim = execucao[0].dataValues.hora_fim;
-            console.log(`-------------------->${horaFim}`)
+            // eslint-disable-next-line no-console
+            console.log(`-------------------->${horaFim}`);
             if (horaFim === null) {
                 response.status(200).json(JSON.parse(' { "result": "false" } '));
             } else if (horaFim === 'EXECUTANDO') {

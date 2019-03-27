@@ -1,4 +1,5 @@
 const controller = require('../controllers/reflora-controller');
+const controllerComum = require('../controllers/herbariovirtual-controller');
 
 export default app => {
     app.route('/reflora').get([
@@ -8,10 +9,10 @@ export default app => {
         controller.estaExecutando,
     ]);
     app.route('/reflora-todoslogs').get([
-        controller.todosLogs,
+        controllerComum.todosLogs,
     ]);
     app.route('/reflora-log').get([
-        controller.getLog,
+        controllerComum.getLog,
     ]);
     app.route('/reflora-status-agenda').get([
         controller.getStatusAgenda,

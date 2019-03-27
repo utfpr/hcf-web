@@ -3,6 +3,7 @@ import path from 'path';
 import { upload } from '../config/upload';
 
 const controller = require('../controllers/specieslink-controller');
+const controllerComum = require('../controllers/herbariovirtual-controller');
 
 const storage = multer.diskStorage({
     destination: './public/uploads/',
@@ -23,5 +24,8 @@ export default app => {
     ]);
     app.route('/specieslink-status-execucao').get([
         controller.statusExecucao,
+    ]);
+    app.route('/specieslink-todoslogs').get([
+        controllerComum.todosLogs,
     ]);
 };

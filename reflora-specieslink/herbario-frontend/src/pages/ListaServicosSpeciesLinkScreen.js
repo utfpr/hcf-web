@@ -12,13 +12,32 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     constructor(props) {
         super(props);
+        this.nomeLOG();
         this.statusExecucao();
         this.state = {
             file: null,
             statusExecucao: false,
+            nomeLog: [],
+            horarioUltimaAtualizacao: '',
+            duracaoAtualizacao: '',
         };
         this.onFormSubmit = this.onFormSubmit.bind(this);
         this.carregaArquivo = this.carregaArquivo.bind(this);
+    }
+
+    nomeLOG = () => {
+        const params = {
+            herbarioVirtual: 'specieslink',
+        };
+        axios.get('/specieslink-todoslogs', { params }).then(response => {
+            if (response.status === 200) {
+                const logs = response.data.logs.sort();
+                const duracao = response.data.duracao;
+                this.setState({ nomeLog: logs });
+                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                this.setState({ duracaoAtualizacao: duracao });
+            }
+        });
     }
 
     statusExecucao = () => {
@@ -26,9 +45,13 @@ class ListaServicosSpeciesLinkScreen extends Component {
             axios.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
                     // O resultado do json é string então por isso necessita a comparação
-                    if (response.data.result === 'true ') {
+                    console.log(`->${response.data.result}`)
+                    console.log(`x->${response.data.result === 'true'}`)
+                    if (response.data.result === 'true') {
+                        console.log('bbbbaqui')
                         this.setState({ statusExecucao: true });
                     } else {
+                        console.log('ccccaqui')
                         this.setState({ statusExecucao: false });
                     }
                 }
@@ -115,6 +138,9 @@ class ListaServicosSpeciesLinkScreen extends Component {
                     </Col>
                     <Col span={6} >
                         <Select placeholder='Selecione o LOG desejado'>
+                            {this.state.nomeLog.map((saida, chave) => {
+                                return <Option key={chave} value={saida}>{saida}</Option>
+                            })}
                         </Select>
                     </Col>
                 </Row>
