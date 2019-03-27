@@ -21,6 +21,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.STRING(10),
             allowNull: true,
         },
+        nome_arquivo: {
+            type: DataTypes.STRING(50),
+            allowNull: true,
+        },
         servico: {
             type: DataTypes.ENUM,
             values: ['REFLORA', 'SPECIESLINK'],

@@ -21,9 +21,10 @@ import { realizaComparacao } from './specieslink';
  * @params não tem nenhum parâmetro.
  * @returns não retorna nada.
  */
-export function main() {
+export function main(nomeArquivo) {
     const conexao = criaConexao();
-    const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
+    console.log(nomeArquivo);
+    // const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
     selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
             insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
@@ -85,7 +86,7 @@ export function daemonSpeciesLink() {
     }, 60000);
 }
 
-main();
-daemonSpeciesLink();
+// main();
+// daemonSpeciesLink();
 
 export default { };

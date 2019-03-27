@@ -7,6 +7,7 @@ import routes from './routes';
 import errors from './middlewares/erros-middleware';
 
 import { daemonFazRequisicaoReflora } from './herbarium/reflora/main';
+import { daemonSpeciesLink } from './herbarium/specieslink/main';
 
 const app = express();
 app.use(cors());
@@ -17,5 +18,6 @@ app.use('/api', routes);
 app.use(errors);
 
 daemonFazRequisicaoReflora();
+daemonSpeciesLink();
 
 export default app;

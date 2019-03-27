@@ -1,9 +1,15 @@
+import fs from 'fs';
+import { main } from '../herbarium/specieslink/main';
+
 export const preparaRequisicao = (request, response, next) => {
-    // eslint-disable-next-line no-console
-    console.log('Request ---', request.body);
-    // eslint-disable-next-line no-console
-    console.log('Request file ---', request.file);
-    response.status(200).json(JSON.parse(' { "result": "success" } '));
+    const conteudoArquivo = fs.readFileSync(request.file.path, 'utf8');
+    if (conteudoArquivo.includes('datelastmodified\tinstitutioncode\tcollectioncode\tcatalognumber\tscientificname\tbasisofrecord\tkingdom\tphylum\tclass\tordem\tfamily\tgenus\tspecies\tsubspecies\tscientificnameauthor\tidentifiedby\tyearidentified\tmonthidentified\tdayidentified\ttypestatus\tcollectornumber\tfieldnumber\tcollector\tyearcollected\tmonthcollected\tdaycollected\tjulianday\ttimeofday\tcontinentocean\tcountry\tstateprovince\tcounty\tlocality\tlongitude\tlatitude\tlongitude_mun\tlatitude_mun\tcoordinateprecision\tboundingbox\tminimumelevation\tmaximumelevation\tminimumdepth\tmaximumdepth\tsex\tpreparationtype\tindividualcount\tpreviouscatalognumber\trelationshiptype\trelatedcatalogitem\tnotes\tbarcode')) {
+        main(request.file.filename);
+        // console.log(request.file)
+        response.status(200).json(JSON.parse(' { "result": "success" } '));
+    } else {
+        response.status(200).json(JSON.parse(' { "result": "failed" } '));
+    }
 };
 
 export default { };

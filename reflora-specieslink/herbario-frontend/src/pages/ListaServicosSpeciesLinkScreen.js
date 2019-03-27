@@ -27,8 +27,14 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 'content-type': 'multipart/form-data'
             }
         };
-        axios.post("/specieslink-executa", formData, config).then((response) => {
-            alert("The file is successfully uploaded");
+        axios.post("/specieslink-executa", formData, config).then(response => {
+            if (response.status === 200) {
+                if (response.data.result === 'failed') {
+                    this.openNotificationWithIcon('error', 'Falha', 'Não foi possível realizar o upload do arquivo.');
+                } else {
+                    this.openNotificationWithIcon('success', 'Sucesso', 'Upload do arquivo foi realizado com sucesso.');
+                }
+            }
         });
     }
 
