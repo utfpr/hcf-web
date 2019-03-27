@@ -136,6 +136,7 @@ class ListaServicosRefloraScreen extends Component {
 
     informacoesLog = log => {
         const params = {
+            herbarioVirtual: 'reflora',
             nomeLog: log,
         };
         AXIOS.get('/reflora-log', { params }).then(response => {

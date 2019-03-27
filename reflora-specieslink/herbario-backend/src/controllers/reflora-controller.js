@@ -125,7 +125,13 @@ export const getLog = (request, response, next) => {
     const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
     const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
     const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
-    const conteudoLog = transformaLog(leLOG(processaNomeArquivoTres));
+    let conteudoLog = '';
+    if (request.query.herbarioVirtual === 'reflora') {
+        conteudoLog = transformaLog(leLOG(`/reflora/${processaNomeArquivoTres}`));
+    } else {
+        conteudoLog = transformaLog(leLOG(`/specieslink/${processaNomeArquivoTres}`));
+    }
+    // const conteudoLog = transformaLog(leLOG(processaNomeArquivoTres));
     response.status(200).json(conteudoLog);
 };
 
