@@ -23,7 +23,6 @@ import { realizaComparacao } from './specieslink';
  */
 export function main(nomeArquivo) {
     const conexao = criaConexao();
-    console.log(nomeArquivo);
     // const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
     selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
@@ -68,6 +67,7 @@ export function daemonSpeciesLink() {
                 const { id } = statusExecucao[0].dataValues;
                 if (horaFim === null) {
                     atualizaHoraFimSpeciesLink(conexao, id, 'EXECUTANDO').then(() => {
+                        console.log('aqui');
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
                         escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
                         realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(acabou => {
@@ -83,7 +83,7 @@ export function daemonSpeciesLink() {
                 }
             }
         });
-    }, 60000);
+    }, 2000);
 }
 
 // main();

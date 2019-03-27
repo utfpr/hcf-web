@@ -10,7 +10,8 @@ export function getColunasArquivoSpeciesLink(linhaArquivo) {
 }
 
 export function processaArquivo(nomeArquivo) {
-    const conteudoArquivo = getArquivoSpeciesLink(nomeArquivo);
+    const conteudoArquivo = getArquivoSpeciesLink(`./public/uploads/${nomeArquivo}`);
+    console.log(conteudoArquivo);
     const listaConteudoArquivo = [];
     /**
      * Remove o primeiro elemento da fila porque é aquele cabeçalho
