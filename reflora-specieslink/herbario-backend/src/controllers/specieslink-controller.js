@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import fs from 'fs';
 import { main } from '../herbarium/specieslink/main';
-import { criaConexao, selectEstaExecutandoSpeciesLink } from '../herbarium/database';
+import { criaConexao, selectTemExecucaoSpeciesLink } from '../herbarium/database';
 
 export const preparaRequisicao = (request, response, next) => {
     const conteudoArquivo = fs.readFileSync(request.file.path, 'utf8');
@@ -16,11 +16,13 @@ export const preparaRequisicao = (request, response, next) => {
 export const statusExecucao = (request, response, next) => {
     // a
     const conexao = criaConexao();
-    selectEstaExecutandoSpeciesLink(conexao).then(execucao => {
+    selectTemExecucaoSpeciesLink(conexao).then(execucao => {
+        console.log(`-------------------->${execucao.length}`)
         if (execucao.length === 0) {
             response.status(200).json(JSON.parse(' { "result": "false" } '));
         } else {
             const horaFim = execucao[0].dataValues.hora_fim;
+            console.log(`-------------------->${horaFim}`)
             if (horaFim === null) {
                 response.status(200).json(JSON.parse(' { "result": "false" } '));
             } else if (horaFim === 'EXECUTANDO') {

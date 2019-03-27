@@ -25,7 +25,12 @@ class ListaServicosSpeciesLinkScreen extends Component {
         setInterval(() => {
             axios.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
-                    this.setState({ statusExecucao: response.data.result });
+                    // O resultado do json é string então por isso necessita a comparação
+                    if (response.data.result === 'true ') {
+                        this.setState({ statusExecucao: true });
+                    } else {
+                        this.setState({ statusExecucao: false });
+                    }
                 }
             });
         }, 5000);
