@@ -120,7 +120,10 @@ class ListaServicosRefloraScreen extends Component {
      * ==================================
      */
     nomeLOG = () => {
-        AXIOS.get('/reflora-todoslogs').then(response => {
+        const params = {
+            herbarioVirtual: 'reflora',
+        };
+        AXIOS.get('/reflora-todoslogs', { params }).then(response => {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;

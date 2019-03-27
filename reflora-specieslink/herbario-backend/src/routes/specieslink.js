@@ -21,4 +21,7 @@ export default app => {
         uploadMiddleware,
         controller.preparaRequisicao,
     ]);
+    app.route('/specieslink-status-execucao').get([
+        controller.statusExecucao,
+    ]);
 };

@@ -12,12 +12,23 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     constructor(props) {
         super(props);
+        this.statusExecucao();
         this.state = {
             file: null,
             statusExecucao: false,
         };
         this.onFormSubmit = this.onFormSubmit.bind(this);
         this.carregaArquivo = this.carregaArquivo.bind(this);
+    }
+
+    statusExecucao = () => {
+        setInterval(() => {
+            axios.get('/specieslink-status-execucao').then(response => {
+                if (response.status === 200) {
+                    this.setState({ statusExecucao: response.data.result });
+                }
+            });
+        }, 5000);
     }
 
     onFormSubmit = () => {
@@ -79,15 +90,21 @@ class ListaServicosSpeciesLinkScreen extends Component {
                     <Col span={6}>
                         <Upload {...props}>
                             <Button htmlType='submit' className='login-form-button' disabled={this.state.statusExecucao}>
-                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink para ser comparado
+                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
                             </Button>
                         </Upload>
                     </Col>
-                    <Col span={6}>
-                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit} disabled={this.state.statusExecucao}>
-                            Enviar
-                        </Button>
-                    </Col>
+                    {this.state.statusExecucao ?
+                        <Col span={6} style={{ textAlign: 'center', top: '6px' }}>
+                            <span style={{ fontWeight: 'bold' }}>EXECUTANDO!!! AGUARDE...</span>
+                        </Col>
+                        :
+                        <Col span={6}>
+                            <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit} disabled={this.state.statusExecucao}>
+                                Enviar
+                            </Button>
+                        </Col>
+                    }
                     <Col span={6} style={{ textAlign: 'center', top: '6px' }}>
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
                     </Col>

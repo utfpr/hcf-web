@@ -22,7 +22,7 @@ function comecaReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
     // eslint-disable-next-line no-console
     console.log('até aqui');
-    escreveLOG(nomeArquivo, 'Inicializando a aplicação do Reflora.');
+    escreveLOG(`reflora/${nomeArquivo}`, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
         insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
@@ -31,7 +31,7 @@ function comecaReflora(conexao, nomeArquivo) {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo(conexao).then(resultadoComparacao => {
                         if (resultadoComparacao) {
-                            escreveLOG(nomeArquivo, 'O processo de comparação do Reflora acabou.');
+                            escreveLOG(`reflora/${nomeArquivo}`, 'O processo de comparação do Reflora acabou.');
                             apagaTabelaReflora(conexao).then(() => {
                                 promessa.resolve();
                             });

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { processaArquivo } from './arquivo';
 import { getHoraAtual, escreveLOG, processaNomeLog } from '../log';
 import {
@@ -70,12 +71,13 @@ export function daemonSpeciesLink() {
                 const { id } = statusExecucao[0].dataValues;
                 if (horaFim === null) {
                     atualizaHoraFimSpeciesLink(conexao, id, 'EXECUTANDO').then(() => {
+                        // eslint-disable-next-line no-console
                         console.log('aqui');
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
-                        escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
+                        escreveLOG(`specieslink/${nomeArquivo}`, 'Inicializando a aplicação do SpeciesLink.');
                         realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(acabou => {
                             if (acabou) {
-                                escreveLOG(nomeArquivo, 'O processo de comparação do SpeciesLink acabou.');
+                                escreveLOG(`specieslink/${nomeArquivo}`, 'O processo de comparação do SpeciesLink acabou.');
                                 atualizaHoraFimSpeciesLink(conexao, id, getHoraAtual());
                             }
                         });

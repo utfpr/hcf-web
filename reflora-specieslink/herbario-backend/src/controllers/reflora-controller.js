@@ -94,8 +94,17 @@ export const estaExecutando = (request, response, next) => {
 };
 
 export const todosLogs = (request, response, next) => {
-    /** linux */
-    const diretorioLog = `${__dirname}/../../logs`;
+    const { herbarioVirtual } = request.query;
+    let diretorioLog = '';
+    if (herbarioVirtual === 'reflora') {
+        /** linux */
+        diretorioLog = `${__dirname}/../../logs/reflora`;
+    } else {
+        /** linux */
+        diretorioLog = `${__dirname}/../../logs/specieslink`;
+    }
+    // eslint-disable-next-line no-console
+    console.log(herbarioVirtual);
     /** windows */
     // const diretorioLog = `${__dirname}../../../logs`;
     let nomeArquivos = '';

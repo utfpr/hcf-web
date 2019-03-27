@@ -1,5 +1,7 @@
+/* eslint-disable max-len */
 import fs from 'fs';
 import { main } from '../herbarium/specieslink/main';
+import { criaConexao, selectEstaExecutandoSpeciesLink } from '../herbarium/database';
 
 export const preparaRequisicao = (request, response, next) => {
     const conteudoArquivo = fs.readFileSync(request.file.path, 'utf8');
@@ -9,6 +11,25 @@ export const preparaRequisicao = (request, response, next) => {
     } else {
         response.status(200).json(JSON.parse(' { "result": "error_file" } '));
     }
+};
+
+export const statusExecucao = (request, response, next) => {
+    // a
+    const conexao = criaConexao();
+    selectEstaExecutandoSpeciesLink(conexao).then(execucao => {
+        if (execucao.length === 0) {
+            response.status(200).json(JSON.parse(' { "result": "false" } '));
+        } else {
+            const horaFim = execucao[0].dataValues.hora_fim;
+            if (horaFim === null) {
+                response.status(200).json(JSON.parse(' { "result": "false" } '));
+            } else if (horaFim === 'EXECUTANDO') {
+                response.status(200).json(JSON.parse(' { "result": "true" } '));
+            } else {
+                response.status(200).json(JSON.parse(' { "result": "false" } '));
+            }
+        }
+    });
 };
 
 export default { };
