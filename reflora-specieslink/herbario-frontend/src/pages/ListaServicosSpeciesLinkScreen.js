@@ -14,6 +14,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
         super(props);
         this.state = {
             file: null,
+            statusExecucao: false,
         };
         this.onFormSubmit = this.onFormSubmit.bind(this);
         this.carregaArquivo = this.carregaArquivo.bind(this);
@@ -29,10 +30,13 @@ class ListaServicosSpeciesLinkScreen extends Component {
         };
         axios.post("/specieslink-executa", formData, config).then(response => {
             if (response.status === 200) {
-                if (response.data.result === 'failed') {
-                    this.openNotificationWithIcon('error', 'Falha', 'Não foi possível realizar o upload do arquivo.');
+                if (response.data.result === 'error_file') {
+                    this.openNotificationWithIcon('error', 'Falha', 'O arquivo não é o esperado.');
+                } else if (response.data.result === 'failed') {
+                    this.openNotificationWithIcon('error', 'Falha', 'Atualização já está ocorrendo.');
                 } else {
-                    this.openNotificationWithIcon('success', 'Sucesso', 'Upload do arquivo foi realizado com sucesso.');
+                    this.setState({ statusExecucao: true });
+                    this.openNotificationWithIcon('success', 'Sucesso', 'Atualização iniciará em breve.');
                 }
             }
         });
@@ -71,18 +75,18 @@ class ListaServicosSpeciesLinkScreen extends Component {
         };
         return (
             <Card title='Buscar informações no speciesLink'>
-                <Row gutter={6}>
+                <Row style={{ flex: 1 }} gutter={8}>
                     <Col span={6}>
                         <Upload {...props}>
-                            <Button style={{ width: '135%' }} className='login-form-button'>
-                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
+                            <Button htmlType='submit' className='login-form-button' disabled={this.state.statusExecucao}>
+                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink para ser comparado
                             </Button>
                         </Upload>
                     </Col>
                     <Col span={6}>
-                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit}>
+                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit} disabled={this.state.statusExecucao}>
                             Enviar
-                    </Button>
+                        </Button>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center', top: '6px' }}>
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>

@@ -21,21 +21,24 @@ import { realizaComparacao } from './specieslink';
  * @params não tem nenhum parâmetro.
  * @returns não retorna nada.
  */
-export function main(nomeArquivo) {
+export function main(nomeArquivo, response) {
     const conexao = criaConexao();
     // const nomeArquivo = 'speciesLink_all_31546_20190313103805.txt';
     selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
             insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
             // mensagem de sucesso.
+            response.status(200).json(JSON.parse(' { "result": "success" } '));
         } else {
             const horaFim = execucaoSpeciesLink[0].dataValues.hora_fim;
             const { id } = execucaoSpeciesLink[0].dataValues;
             if ((horaFim !== null) && (horaFim !== 'EXECUTANDO')) {
                 atualizaNomeArquivoSpeciesLink(conexao, id, getHoraAtual(), nomeArquivo);
+                response.status(200).json(JSON.parse(' { "result": "success" } '));
                 // mensagem de sucesso.
             } else {
                 // mensagem de erro.
+                response.status(200).json(JSON.parse(' { "result": "failed" } '));
             }
         }
     });
