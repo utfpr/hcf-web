@@ -16,11 +16,10 @@ class ListaServicosSpeciesLinkScreen extends Component {
             file: null,
         };
         this.onFormSubmit = this.onFormSubmit.bind(this);
-        this.carregArquivo = this.carregArquivo.bind(this);
+        this.carregaArquivo = this.carregaArquivo.bind(this);
     }
 
-    onFormSubmit = e => {
-        e.preventDefault();
+    onFormSubmit = () => {
         const formData = new FormData();
         formData.append('myImage', this.state.file);
         const config = {
@@ -28,15 +27,19 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 'content-type': 'multipart/form-data'
             }
         };
-        axios.post("/specieslink-executa", formData, config)
-            .then((response) => {
-                alert("The file is successfully uploaded");
-            }).catch((error) => {
-            });
+        axios.post("/specieslink-executa", formData, config).then((response) => {
+            alert("The file is successfully uploaded");
+        });
     }
 
-    carregArquivo = info => {
+    carregaArquivo = info => {
         this.setState({ file: info[0] });
+        // const formData = new FormData();
+    }
+
+    removeArquivo = info => {
+        this.setState({ file: info[0] });
+        return false;
         // const formData = new FormData();
     }
 
@@ -49,18 +52,29 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
     renderPainelEnviarInformacoes(getFieldDecorator) {
+        const { file } = this.state;
+        const props = {
+            onRemove: (f) => {
+                this.setState({ file: f });
+            },
+            beforeUpload: (f) => {
+                this.setState({ file: f });
+                return false;
+            },
+            file,
+        };
         return (
             <Card title='Buscar informações no speciesLink'>
                 <Row gutter={6}>
                     <Col span={6}>
-                        <Upload name='myImage' accept='text/plain' action='http://localhost:3003/api/specieslink-executa' onChange={this.carregArquivo}>
+                        <Upload {...props}>
                             <Button style={{ width: '135%' }} className='login-form-button'>
                                 <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
                             </Button>
                         </Upload>
                     </Col>
                     <Col span={6}>
-                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
+                        <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit}>
                             Enviar
                     </Button>
                     </Col>
