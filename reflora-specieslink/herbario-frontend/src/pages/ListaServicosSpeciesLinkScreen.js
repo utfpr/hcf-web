@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {
-    Divider, Card, Row, Col, Form, Button, Collapse, Upload, notification, Input, Icon,
+    Divider, Card, Row, Col, Form, Button, Collapse, Upload, notification, Select, Icon,
 } from 'antd';
 import axios from 'axios';
 import HeaderServicesComponent from '../components/HeaderServicesComponent';
 
-const FormItem = Form.Item;
 const Panel = Collapse.Panel;
+const Option = Select.Option;
 
 class ListaServicosSpeciesLinkScreen extends Component {
 
@@ -52,14 +52,6 @@ class ListaServicosSpeciesLinkScreen extends Component {
         return (
             <Card title='Buscar informações no speciesLink'>
                 <Row gutter={6}>
-                    {/**
-                    <Col span={6}>
-                        <input type="file" htmlType='submit' name="myImage" accept="text/plain" onChange={this.onChange} />
-                    </Col>
-                    <Col span={6}>
-                        <button type="submit" onClick={this.onFormSubmit}>Upload</button>
-                    </Col>
-                    */}
                     <Col span={6}>
                         <Upload name='myImage' accept='text/plain' action='http://localhost:3003/api/specieslink-executa' onChange={this.carregArquivo}>
                             <Button style={{ width: '135%' }} className='login-form-button'>
@@ -71,6 +63,23 @@ class ListaServicosSpeciesLinkScreen extends Component {
                         <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}>
                             Enviar
                     </Button>
+                    </Col>
+                    <Col span={6} style={{ textAlign: 'center', top: '6px' }}>
+                        <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
+                    </Col>
+                    <Col span={6} >
+                        <Select placeholder='Selecione o LOG desejado'>
+                        </Select>
+                    </Col>
+                </Row>
+                <Row style={{ marginBottom: 20 }} gutter={6}>
+                </Row>
+                <Row gutter={6}>
+                    <Col span={24}>
+                        <Collapse accordion>
+                            <Panel header='Verificar LOG de saída'>
+                            </Panel>
+                        </Collapse>
                     </Col>
                 </Row>
             </Card >
