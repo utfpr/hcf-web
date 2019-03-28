@@ -20,8 +20,6 @@ class ListaServicosSpeciesLinkScreen extends Component {
             horarioUltimaAtualizacao: '',
             duracaoAtualizacao: '',
         };
-        this.onFormSubmit = this.onFormSubmit.bind(this);
-        this.carregaArquivo = this.carregaArquivo.bind(this);
     }
 
     componentWillMount() {
@@ -105,12 +103,16 @@ class ListaServicosSpeciesLinkScreen extends Component {
     }
 
     carregaArquivo = info => {
-        this.setState({ file: info[0] });
+        if (this.state.isMounted) {
+            this.setState({ file: info[0] });
+        }
         // const formData = new FormData();
     }
 
     removeArquivo = info => {
-        this.setState({ file: info[0] });
+        if (this.state.isMounted) {
+            this.setState({ file: info[0] });
+        }
         return false;
         // const formData = new FormData();
     }
@@ -127,10 +129,14 @@ class ListaServicosSpeciesLinkScreen extends Component {
         const { file } = this.state;
         const props = {
             onRemove: (f) => {
-                this.setState({ file: f });
+                if (this.state.isMounted) {
+                    this.setState({ file: f });
+                }
             },
             beforeUpload: (f) => {
-                this.setState({ file: f });
+                if (this.state.isMounted) {
+                    this.setState({ file: f });
+                }
                 return false;
             },
             file,

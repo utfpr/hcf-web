@@ -11,6 +11,7 @@ export function getColunasArquivoSpeciesLink(linhaArquivo) {
 
 export function processaArquivo(nomeArquivo) {
     const conteudoArquivo = getArquivoSpeciesLink(`./public/uploads/${nomeArquivo}`);
+    // eslint-disable-next-line no-console
     console.log(conteudoArquivo);
     const listaConteudoArquivo = [];
     /**
