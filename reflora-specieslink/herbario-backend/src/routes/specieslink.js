@@ -28,4 +28,7 @@ export default app => {
     app.route('/specieslink-todoslogs').get([
         controllerComum.todosLogs,
     ]);
+    app.route('/specieslink-log').get([
+        controllerComum.getLog,
+    ]);
 };

@@ -19,6 +19,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
             nomeLog: [],
             horarioUltimaAtualizacao: '',
             duracaoAtualizacao: '',
+            saidaLOG: [],
         };
     }
 
@@ -76,6 +77,18 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 }
             });
         }, 5000);
+    }
+
+    informacoesLog = log => {
+        const params = {
+            herbarioVirtual: 'specieslink',
+            nomeLog: log,
+        };
+        axios.get('/specieslink-log', { params }).then(response => {
+            if (this.state.isMounted) {
+                this.setState({ saidaLOG: response.data.log });
+            }
+        });
     }
 
     onFormSubmit = () => {
@@ -166,7 +179,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
                     </Col>
                     <Col span={6} >
-                        <Select placeholder='Selecione o LOG desejado'>
+                        <Select placeholder='Selecione o LOG desejado' onChange={this.informacoesLog}>
                             {this.state.nomeLog.map((saida, chave) => {
                                 return <Option key={chave} value={saida}>{saida}</Option>
                             })}
@@ -178,7 +191,14 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 <Row gutter={6}>
                     <Col span={24}>
                         <Collapse accordion>
-                            <Panel header='Verificar LOG de saída'>
+                            <Panel header='Verificar LOG de saída' key={this.state.escondeResultadoLog}>
+                                {this.state.saidaLOG.map((saida, chave) => {
+                                    if (saida.includes('Erro')) {
+                                        return <p key={chave} style={{ fontFamily: 'Courier New', color: 'red' }}>{saida}</p>
+                                    } else {
+                                        return <p key={chave} style={{ fontFamily: 'Courier New', color: 'green' }}>{saida}</p>
+                                    }
+                                })}
                             </Panel>
                         </Collapse>
                     </Col>
