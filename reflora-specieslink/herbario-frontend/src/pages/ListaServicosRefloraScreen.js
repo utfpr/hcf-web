@@ -22,10 +22,8 @@ class ListaServicosRefloraScreen extends Component {
 
     constructor(props) {
         super(props);
-        this.nomeLOG();
-        this.statusAgenda();
-        this.statusExecucao();
         this.state = {
+            isMounted: false,
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
             duracaoAtualizacao: '',
@@ -35,6 +33,23 @@ class ListaServicosRefloraScreen extends Component {
             nomeLog: [],
             saidaLOG: [],
         }
+    }
+
+    componentWillMount() {
+        // this.isMounted = true;
+        this.setState({ isMounted: true });
+    }
+
+    componentDidMount() {
+        this.nomeLOG();
+        this.statusAgenda();
+        this.statusExecucao();
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timerStatusAgenda);
+        clearInterval(this.timerStatusExecucao);
+        this.setState({ isMounted: false });
     }
 
     /**
@@ -60,15 +75,19 @@ class ListaServicosRefloraScreen extends Component {
     * =====================================================================================
     */
     statusAgenda = () => {
-        setInterval(() => {
+        this.timerStatusAgenda = setInterval(() => {
             AXIOS.get('/reflora-status-agenda').then(response => {
                 if (response.status === 200) {
                     console.log(response.data.horario);
                     if (response.data.horario.length > 0 && response.data.periodicidade.length > 0) {
-                        this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        if (this.state.isMounted) {
+                            this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        }
                         console.log(this.state.desabilitaCamposAtualizacaoAutomatico);
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
-                            this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                            if (this.state.isMounted) {
+                                this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                            }
                         }
                     }
                 }
@@ -77,25 +96,35 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     statusExecucao = () => {
-        setInterval(() => {
+        this.timerStatusExecucao = setInterval(() => {
             AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
                     console.log(response.data)
                     if (response.data.executando === 'false') {
-                        this.setState({ executando: false });
+                        if (this.state.isMounted) {
+                            this.setState({ executando: false });
+                        }
                     } else if (response.data.executando === 'true') {
-                        this.setState({ executando: true });
+                        if (this.state.isMounted) {
+                            this.setState({ executando: true });
+                        }
                     }
                     if (response.data.periodicidade === ' ') {
                         if (!this.state.desabilitaCamposAtualizacaoAutomatico) {
                             console.log('aqui');
-                            this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
+                            if (this.state.isMounted) {
+                                this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
+                            }
                         }
                     } else {
-                        this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        if (this.state.isMounted) {
+                            this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
+                        }
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
                             console.log('aqui2');
-                            this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                            if (this.state.isMounted) {
+                                this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                            }
                         }
                     }
                 }
@@ -104,7 +133,9 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
-        this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
+        if (this.state.isMounted) {
+            this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
+        }
     }
 
     openNotificationWithIcon = (type, message, description) => {
@@ -127,9 +158,11 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;
-                this.setState({ nomeLog: logs });
-                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
-                this.setState({ duracaoAtualizacao: duracao });
+                if (this.state.isMounted) {
+                    this.setState({ nomeLog: logs });
+                    this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                    this.setState({ duracaoAtualizacao: duracao });
+                }
             }
         });
     }
@@ -140,7 +173,9 @@ class ListaServicosRefloraScreen extends Component {
             nomeLog: log,
         };
         AXIOS.get('/reflora-log', { params }).then(response => {
-            this.setState({ saidaLOG: response.data.log });
+            if (this.state.isMounted) {
+                this.setState({ saidaLOG: response.data.log });
+            }
         });
     }
 

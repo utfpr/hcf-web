@@ -12,9 +12,8 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     constructor(props) {
         super(props);
-        this.nomeLOG();
-        this.statusExecucao();
         this.state = {
+            isMounted: false,
             file: null,
             statusExecucao: false,
             nomeLog: [],
@@ -25,6 +24,22 @@ class ListaServicosSpeciesLinkScreen extends Component {
         this.carregaArquivo = this.carregaArquivo.bind(this);
     }
 
+    componentWillMount() {
+        // this.isMounted = true;
+        this.setState({ isMounted: true });
+    }
+
+    componentDidMount() {
+        // this._isMounted = true;
+        this.nomeLOG();
+        this.statusExecucao();
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timerStatusExecucao);
+        this.setState({ isMounted: false });
+    }
+
     nomeLOG = () => {
         const params = {
             herbarioVirtual: 'specieslink',
@@ -33,15 +48,17 @@ class ListaServicosSpeciesLinkScreen extends Component {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;
-                this.setState({ nomeLog: logs });
-                this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
-                this.setState({ duracaoAtualizacao: duracao });
+                if (this.state.isMounted) {
+                    this.setState({ nomeLog: logs });
+                    this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
+                    this.setState({ duracaoAtualizacao: duracao });
+                }
             }
         });
     }
 
     statusExecucao = () => {
-        setInterval(() => {
+        this.timerStatusExecucao = setInterval(() => {
             axios.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
                     // O resultado do json é string então por isso necessita a comparação
@@ -49,10 +66,14 @@ class ListaServicosSpeciesLinkScreen extends Component {
                     console.log(`x->${response.data.result === 'true'}`)
                     if (response.data.result === 'true') {
                         console.log('bbbbaqui')
-                        this.setState({ statusExecucao: true });
+                        if (this.state.isMounted) {
+                            this.setState({ statusExecucao: true });
+                        }
                     } else {
                         console.log('ccccaqui')
-                        this.setState({ statusExecucao: false });
+                        if (this.state.isMounted) {
+                            this.setState({ statusExecucao: false });
+                        }
                     }
                 }
             });
@@ -74,7 +95,9 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 } else if (response.data.result === 'failed') {
                     this.openNotificationWithIcon('error', 'Falha', 'Atualização já está ocorrendo.');
                 } else {
-                    this.setState({ statusExecucao: true });
+                    if (this.state.isMounted) {
+                        this.setState({ statusExecucao: true });
+                    }
                     this.openNotificationWithIcon('success', 'Sucesso', 'Atualização iniciará em breve.');
                 }
             }
