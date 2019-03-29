@@ -93,7 +93,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     onFormSubmit = () => {
         const formData = new FormData();
-        formData.append('myImage', this.state.file);
+        formData.append('arquivoSpeciesLink', this.state.file);
         const config = {
             headers: {
                 'content-type': 'multipart/form-data'
