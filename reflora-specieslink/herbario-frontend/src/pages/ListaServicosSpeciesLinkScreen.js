@@ -156,11 +156,11 @@ class ListaServicosSpeciesLinkScreen extends Component {
         };
         return (
             <Card title='Buscar informações no speciesLink'>
-                <Row style={{ flex: 1 }} gutter={8}>
-                    <Col span={6}>
+                <Row gutter={8}>
+                    <Col span={6} style={{ textAlign: 'center' }}>
                         <Upload {...props}>
                             <Button htmlType='submit' className='login-form-button' disabled={this.state.statusExecucao}>
-                                <Icon type='upload' /> Selecione o arquivo .TXT do speciesLink
+                                <Icon type='upload' /> Insira o arquivo do speciesLink
                             </Button>
                         </Upload>
                     </Col>
