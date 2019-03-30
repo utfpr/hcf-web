@@ -151,21 +151,21 @@ class ListaServicosSpeciesLinkScreen extends Component {
         axios.post("/specieslink-executa", dadosArquivo, cabecalhoRequisicao).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'error_file') {
-                    this.exibeNotificao('error', 'Falha', 'O arquivo não é o esperado.');
+                    this.exibeNotificacao('error', 'Falha', 'O arquivo não é o esperado.');
                 } else if (response.data.result === 'failed') {
-                    this.exibeNotificao('error', 'Falha', 'Atualização já está ocorrendo.');
+                    this.exibeNotificacao('error', 'Falha', 'Atualização já está ocorrendo.');
                 } else {
                     if (this.state.estaMontado) {
                         this.setState({ statusExecucao: true });
                     }
-                    this.exibeNotificao('success', 'Sucesso', 'Atualização iniciará em breve.');
+                    this.exibeNotificacao('success', 'Sucesso', 'Atualização iniciará em breve.');
                 }
             }
         });
     }
 
     /**
-     * A função exibeNotificao, renderiza no canto superior direito uma mensagem
+     * A função exibeNotificacao, renderiza no canto superior direito uma mensagem
      * que é passa por parâmetro, e uma descrição dela que também é passada por parâmetro.
      * Ela é utiliza quando conseguiu sucesso ou erro na hora de realizar o upload 
      * do arquivo no speciesLink.
@@ -173,7 +173,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
      * @param message, é a mensagem que irá ser renderizada.
      * @param description, é a descrição que será renderizada.
      */
-    exibeNotificao = (type, message, description) => {
+    exibeNotificacao = (type, message, description) => {
         notification[type]({
             message: message,
             description: description,

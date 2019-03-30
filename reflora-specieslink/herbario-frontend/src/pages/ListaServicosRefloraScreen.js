@@ -27,7 +27,7 @@ class ListaServicosRefloraScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isMounted: false,
+            estaMontado: false,
             desabilitaCamposAtualizacaoAutomatico: true,
             horarioUltimaAtualizacao: '',
             duracaoAtualizacao: '',
@@ -45,7 +45,7 @@ class ListaServicosRefloraScreen extends Component {
      * assim que futuramente sejam mudado os valores das demais variáveis de estado.
      */
     componentWillMount() {
-        this.setState({ isMounted: true });
+        this.setState({ estaMontado: true });
     }
 
     /**
@@ -55,7 +55,7 @@ class ListaServicosRefloraScreen extends Component {
     * a duração dessa última atualização e todos os logs relacionados ao herbário virtual.
     */
     componentDidMount() {
-        this.nomeLOG();
+        this.informacoesReflora();
         this.statusAgenda();
         this.statusExecucao();
     }
@@ -73,43 +73,21 @@ class ListaServicosRefloraScreen extends Component {
     componentWillUnmount() {
         clearInterval(this.timerStatusAgenda);
         clearInterval(this.timerStatusExecucao);
-        this.setState({ isMounted: false });
+        this.setState({ estaMontado: false });
     }
 
-    /**
-     * 1.Os botões vem do módulo antd, que tem somente os tipos primary, default, dashed e alert;
-     * 2.O switch da atualização automática, usa essa função, que quando clicado alterado o estado;
-     * 2.1 O estado inicial do switch tá definido no construtor.
-     * ================= COMO FUNCIONA =================
-     * 1.Atualização imediata
-     * 1.1 Quando eu clicar ele realiza a atualização
-     * 1.2 Se ele estiver rodando e eu clicar novamente não é feito nada, pois é verifica que já existe a tabela reflora e cai fora
-     * 1.3 Só mostra a data de atualização quando ele verifica que no último valor do LOG, veio a mensagem esperada
-     * 1.3.1 Isso porque, existem algumas vezes que é como se ele clicasse sozinho, e dai ele muda a data de última atualização
-     * 1.4 Só mostra o resultado do LOG quando ele verifica que no último valor do LOG, veio a mensagem esperada
-     * =====================PARA A ATUALIZAÇÃO AUTOMÁTICA=====================
-     * 1.Quando ativo o switch ele pega os valores, e faz a requisição
-     * 2.Eu pego a hora e seto no estado dela, vejo o valor que está no estado da periodicidade e faço a requisição
-     * 3.Eu pego a periodicidade e seto no estado dela, vejo o valor que está no estado da hora e faço a requisição
-     * */
-
-    /**
-    * =====================================================================================
-    * FUNCIONALIDADES RELACIONADA COMO APARECER NOTIFICAÇÃO, OCULTAR OU NÃO BOTÕES E CAMPOS
-    * =====================================================================================
-    */
     statusAgenda = () => {
         this.timerStatusAgenda = setInterval(() => {
             AXIOS.get('/reflora-status-agenda').then(response => {
                 if (response.status === 200) {
                     console.log(response.data.horario);
                     if (response.data.horario.length > 0 && response.data.periodicidade.length > 0) {
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                         }
                         console.log(this.state.desabilitaCamposAtualizacaoAutomatico);
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
-                            if (this.state.isMounted) {
+                            if (this.state.estaMontado) {
                                 this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
                             }
                         }
@@ -125,28 +103,28 @@ class ListaServicosRefloraScreen extends Component {
                 if (response.status === 200) {
                     console.log(response.data)
                     if (response.data.executando === 'false') {
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ executando: false });
                         }
                     } else if (response.data.executando === 'true') {
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ executando: true });
                         }
                     }
                     if (response.data.periodicidade === ' ') {
                         if (!this.state.desabilitaCamposAtualizacaoAutomatico) {
                             console.log('aqui');
-                            if (this.state.isMounted) {
+                            if (this.state.estaMontado) {
                                 this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
                             }
                         }
                     } else {
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                         }
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
                             console.log('aqui2');
-                            if (this.state.isMounted) {
+                            if (this.state.estaMontado) {
                                 this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
                             }
                         }
@@ -157,12 +135,21 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     trocaEstadoCamposAtualizacaoAutomatico() {
-        if (this.state.isMounted) {
+        if (this.state.estaMontado) {
             this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
         }
     }
 
-    openNotificationWithIcon = (type, message, description) => {
+    /**
+     * A função exibeNotificacao, renderiza no canto superior direito uma mensagem
+     * que é passa por parâmetro, e uma descrição dela que também é passada por parâmetro.
+     * Ela é utiliza quando conseguiu sucesso ou erro na hora de atualizar imediatamente ou
+     * quando é uma atualização programada na comparação no Reflora.
+     * @param type, é o tipo de notificação que irá aparecer.
+     * @param message, é a mensagem que irá ser renderizada.
+     * @param description, é a descrição que será renderizada.
+     */
+    exibeNotificacao = (type, message, description) => {
         notification[type]({
             message: message,
             description: description,
@@ -170,11 +157,11 @@ class ListaServicosRefloraScreen extends Component {
     };
 
     /**
-     * ==================================
-     * FUNCIONALIDADES RELACIONADA AO LOG
-     * ==================================
+     * A função informacoesReflora, ela envia como parâmetro de requisição speciesLink
+     * e é retornado informações de speciesLink que são: os logs que existem relacionado
+     * ao Reflora, o horário da última atualização e a duração da última atualização.
      */
-    nomeLOG = () => {
+    informacoesReflora = () => {
         const params = {
             herbarioVirtual: 'reflora',
         };
@@ -182,7 +169,7 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;
-                if (this.state.isMounted) {
+                if (this.state.estaMontado) {
                     this.setState({ nomeLog: logs });
                     this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
                     this.setState({ duracaoAtualizacao: duracao });
@@ -191,13 +178,20 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    informacoesLog = log => {
+    /**
+     * A função conteudoLogSelecionado, ela recebe como parâmetro o nome do
+     * log na qual se deseja saber saber o conteúdo desse arquivo. Então 
+     * durante a requisição é passado o nome do arquivo e o conteúdo retornado
+     * é atribuído a uma variável de estado.
+     * @param log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
+     */
+    conteudoLogSelecionado = log => {
         const params = {
             herbarioVirtual: 'reflora',
             nomeLog: log,
         };
         AXIOS.get('/reflora-log', { params }).then(response => {
-            if (this.state.isMounted) {
+            if (this.state.estaMontado) {
                 this.setState({ saidaLOG: response.data.log });
             }
         });
@@ -278,17 +272,17 @@ class ListaServicosRefloraScreen extends Component {
             if (response.status === 200) {
                 console.log(response.data)
                 if (response.data.result === 'failed') {
-                    this.openNotificationWithIcon('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
+                    this.exibeNotificacao('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
                 } else {
                     console.log(typeof (params.periodicidade))
                     if (params.periodicidade === 2) {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
+                        this.exibeNotificacao('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }
                     if (params.periodicidade === 3) {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagemMensal());
+                        this.exibeNotificacao('success', 'Sucesso', this.mensagemMensal());
                     }
                     if (params.periodicidade === 4) {
-                        this.openNotificationWithIcon('success', 'Sucesso', this.mensagem2Mensal());
+                        this.exibeNotificacao('success', 'Sucesso', this.mensagem2Mensal());
                     }
                 }
             }
@@ -313,14 +307,22 @@ class ListaServicosRefloraScreen extends Component {
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'failed') {
-                    this.openNotificationWithIcon('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
+                    this.exibeNotificacao('error', 'Falha', 'O processo de atualização está sendo executado no momento.');
                 } else {
-                    this.openNotificationWithIcon('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
+                    this.exibeNotificacao('success', 'Sucesso', 'O processo de atualização será inicializado em breve.');
                 }
             }
         });
     }
 
+    /**
+     * A função renderPainelBuscarInformacoes, renderiza na interface do Reflora
+     * o botão de atualizar imediatamente, o botão para habilitar (Esse botão habilita
+     * os campos para definir e programar a periodicidade) e definir 
+     * a periodicidade, label de quanto foi realizada a última atualização e
+     * a duração dela, a lista de todos os logs correspondente ao serviço
+     * do Reflora, e um campo que exibe o log selecionado.
+     */
     renderPainelBuscarInformacoes() {
         return (
             <Card title='Buscar informações no Reflora'>
@@ -371,7 +373,7 @@ class ListaServicosRefloraScreen extends Component {
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <Select
                             placeholder='Selecione o LOG desejado'
-                            onChange={this.informacoesLog}
+                            onChange={this.conteudoLogSelecionado}
                         >
                             {this.state.nomeLog.map((saida, chave) => {
                                 return <Option key={chave} value={saida}>{saida}</Option>
@@ -400,9 +402,17 @@ class ListaServicosRefloraScreen extends Component {
         )
     }
 
+    /**
+     * A função render, renderiza o cabeçalho da interface e invoca
+     * a outra função renderPainelBuscarInformacoes, que tem os demais
+     * componentes como botão de atualizar informações de comparação
+     * os dados do Reflora, os botões para definir a periodicidade,
+     * informações de última atualização e a sua duração, as listas
+     * com os nome de todos os logs e o conteúdo desse arquivo.
+     */
     render() {
         return (
-            <Form onSubmit={this.onSubmit}>
+            <Form>
                 <HeaderServicesComponent title={'Reflora'} />
                 <Divider dashed />
                 {this.renderPainelBuscarInformacoes()}
@@ -412,5 +422,5 @@ class ListaServicosRefloraScreen extends Component {
     }
 }
 
-// Arquivo baseado no arquivo ListaTaxonomiaScreeen.js
+// Exportar essa classe como padrão
 export default Form.create()(ListaServicosRefloraScreen);
