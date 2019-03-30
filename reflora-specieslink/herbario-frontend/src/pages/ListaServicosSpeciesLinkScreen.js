@@ -10,6 +10,10 @@ const Option = Select.Option;
 
 class ListaServicosSpeciesLinkScreen extends Component {
 
+    /**
+     * O constructor é aqui que herda as características do pai, que no caso é 
+     * o Component, além disso, é inicializado as varáveis de estados.
+     */
     constructor(props) {
         super(props);
         this.state = {
@@ -23,10 +27,21 @@ class ListaServicosSpeciesLinkScreen extends Component {
         };
     }
 
+    /**
+     * A função componentWillMount, ela é invocada quando os componentes estão prestes
+     * a serem montados. Nessa função mudamos o valor da variável de estado permitindo 
+     * assim que futuramente sejam mudado os valores das demais variáveis de estado.
+     */
     componentWillMount() {
         this.setState({ estaMontado: true });
     }
 
+    /**
+     * A função componentDidMount, ela é invocada logo após os componentes serem montados.
+     * Nessa função invocamos funções que realizam requisições ao backend de tempos em tempos,
+     * e também realizamos requisições para obter informações, como a hora da última atualização,
+     * a duração dessa última atualização e todos os logs relacionados ao herbário virtual.
+     */
     componentDidMount() {
         this.informacoesSpeciesLink();
         this.statusExecucao();
@@ -35,10 +50,12 @@ class ListaServicosSpeciesLinkScreen extends Component {
     /**
      * A função componentWillUnmount, ela é invocada quando os componentes serão desmontados, 
      * por exemplo quando você troca de funcionalidades. Nela muda o valor da variável de estado
-     * que é uma variável que verifica se os componentes do front end estão montados ou não.
-     * Além disso, ela é utilizada pausar o setInterval que foram iniciados em outras funções.
-     * Essa função é de extrema importância, pois evita problemas, pois se você não pausa o
-     * setInterval ele vai tentar ficar mudando o valor de uma variável de estado que não está montada.
+     * que é uma variável que verifica se os componentes do front end estão montados ou não. 
+     * É necessário mudar o valor dessa variável de estado para evitar que seja mudados
+     * os valores de variáveis de estados que não estejam montados. Além disso, ela é
+     * utilizada pausar o setInterval que foram iniciados em outras funções. Essa função é
+     * de extrema importância, pois evita problemas, pois se você não pausa o setInterval
+     * ele vai tentar ficar mudando o valor de uma variável de estado que não está montada.
      */
     componentWillUnmount() {
         clearInterval(this.timerStatusExecucao);
