@@ -13,7 +13,6 @@ const Panel = Collapse.Panel;
 const AXIOS = axios.create({
     baseURL: 'http://localhost:3003/api',
     headers: {
-        //you can remove this header
         'Access-Control-Allow-Origin': 'http://localhost:3003/api'
     }
 });
@@ -198,9 +197,15 @@ class ListaServicosRefloraScreen extends Component {
     }
 
     /**
-     * ============================================================
-     * FUNCIONALIDADES RELACIONADA A COMPARAÇÃO DO REFLORA AGENDADO
-     * ============================================================
+     * A função retornaValorPeriodicidade, ela pega o valor da variável de estado 
+     * que está atribuído a periodicidade e retorna um valor equivalente, então
+     * se foi definido pelo usuário a periodicidade semanal é retornado o valor 2,
+     * se for mensal será retornado o valor 3 e se for a cada dois meses retorna 4. 
+     * É retornando isso e necessário essa função, pois isso equivale ao valor 
+     * equivalente ao ENUM do backend.
+     * @returns 2, é um inteiro que corresponde ao valor da periodicidade semanal.
+     * @returns 3, é um inteiro que corresponde ao valor da periodicidade mensal.
+     * @returns 4, é um inteiro que corresponde ao valor da periodicidade a cada dois meses.
      */
     retornaValorPeriodicidade = () => {
         switch (this.state.periodicidadeAtualizacao) {
@@ -213,6 +218,18 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
+    /**
+     * A função retornaDataProximaAtualizacao, ela pega o valor da variável de estado 
+     * que está atribuído a periodicidade e retorna a data da próxima atualização baseado
+     * no valor da variável de estado da periodicidade calculando a partir do dia atual. 
+     * Então, por exemplo, se a periodicidade é semanal, é pego a data atual e calculado 
+     * a partir desse dia mais sete dias, para calcular o dia da próxima atualização. No
+     * mensal é o dia atual mais trinta dias e a cada dois meses é o dia atual mais sessenta
+     * dias, para se obter a data da próxima atualização.
+     * @returns diaAtual + 7 dias, é uma string com a data da próxima atualização.
+     * @returns diaAtual + 30 dias, é uma string com a data da próxima atualização.
+     * @returns diaAtual + 60 dias, é uma string com a data da próxima atualização.
+     */
     retornaDataProximaAtualizacao = () => {
         switch (this.state.periodicidadeAtualizacao) {
             case 'SEMANAL':
@@ -224,10 +241,27 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
+    /**
+     * A função programaPeriodicidadeAtualizacao, ele pega o valor que foi recebido
+     * como parâmetro atribui a uma variável de estado.
+     * @params periodicidade, é uma string com o valor da periodicidade que foi definido
+     * pelo usuário que pode ser semanal (SEMANAL), mensal (1MES) ou a cada dois meses
+     * (2MESES).
+     */
     programaPeriodicidadeAtualizacao = periodicidade => {
         this.setState({ periodicidadeAtualizacao: periodicidade });
     }
 
+    /**
+     * A função mensagemSemanal, ele pega o valor que foi recebido como parâmetro
+     * (que é um valor de um a sete, sendo que um segunda e sete equivale ao domingo)
+     * e dependendo desse valor que foi passado é retornado uma mensagem equivalente. Então
+     * se o usuário definiu uma periodicidade semanal e o dia que ele definiu é segunda,
+     * será retornado a mensagem que o processo de atualização foi agendado para toda
+     * segunda-feira a meia-noite.
+     * @params diaDaSemana, é um inteiro com o valor do dia da semana.
+     * @returns string com a mensagem equivalente ao dia da semana, na qual foi definido a periodicidade.
+     */
     mensagemSemanal = diaDaSemana => {
         switch (diaDaSemana) {
             case 1:
@@ -249,10 +283,20 @@ class ListaServicosRefloraScreen extends Component {
         }
     }
 
+    /**
+     * A função mensagemMensal, ele retorna uma string com uma mensagem quando o usuário
+     * define a periodicidade da atualização mensal de comparação dos dados do Reflora.
+     * @returns string, uma mensagem equivalente quando o usuário define a periodicidade mensal.
+     */
     mensagemMensal = () => {
         return `O processo de atualização foi agendado e será feito a cada um meses.`;
     }
 
+    /**
+     * A função mensagem2Mensal, ele retorna uma string com uma mensagem quando o usuário
+     * define a periodicidade da atualização mensal a cada dois meses de comparação dos dados do Reflora.
+     * @returns string, uma mensagem equivalente quando o usuário define a periodicidade a cada dois meses.
+     */
     mensagem2Mensal = () => {
         return `O processo de atualização foi agendado e será feito a cada dois meses.`;
     }
@@ -289,16 +333,6 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    /**
-     * ============================================================
-     * FUNCIONALIDADES RELACIONADA A COMPARAÇÃO DO REFLORA IMEDIATO
-     * ============================================================
-     * Essa função comparaReflora, só é chamada quando vai realizar a comparação
-     * imediata. Nos parâmetros da requisição do GET, passamos 1 que representa o ENUM
-     * do valor MANUAL, e null que é data  da próxima atualização, pois como é manual não
-     * tem data. O axios, ele realiza requisições de dois em dois minutos se não há resposta
-     * ele realiza novamente. Se você aumenta o timeout, o resultado continua sendo o mesmo.    
-     */
     comparaReflora = () => {
         const params = {
             periodicidade: 1,
