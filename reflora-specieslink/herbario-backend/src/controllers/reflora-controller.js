@@ -51,18 +51,15 @@ export const preparaRequisicao = (request, response, next) => {
                 if (execucaoReflora.length === 0) {
                     insereExecucao(conexao, getHoraAtual(), null, periodicidade, proximaAtualizacao, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
-                        // conexao.close();
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
                     atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
-                        // conexao.close();
                     });
                 }
             });
         }
-        // conexao.close();
     });
 };
 
@@ -75,36 +72,18 @@ export const estaExecutando = (request, response, next) => {
         if (listaExecucaoReflora.length > 0) {
             const { periodicidade } = listaExecucaoReflora[0].dataValues;
             if (periodicidade === 'MANUAL') {
-                response.status(200).json(JSON.parse(' { "executando": "true", "periodicidade": " " } '));
+                response.status(200).json(JSON.parse(' { "executando": true, "periodicidade": " " } '));
             } else if ((periodicidade === 'SEMANAL') || (periodicidade === '1MES') || (periodicidade === '2MESES')) {
                 if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
-                    response.status(200).json(JSON.parse(` { "executando": "false", "periodicidade": "${periodicidade}" } `));
+                    response.status(200).json(JSON.parse(` { "executando": false, "periodicidade": "${periodicidade}" } `));
                 } else {
-                    response.status(200).json(JSON.parse(` { "executando": "true", "periodicidade": "${periodicidade}" } `));
+                    response.status(200).json(JSON.parse(` { "executando": true, "periodicidade": "${periodicidade}" } `));
                 }
             }
         } else {
-            response.status(200).json(JSON.parse(' { "executando": "false", "periodicidade": " " } '));
+            response.status(200).json(JSON.parse(' { "executando": false, "periodicidade": " " } '));
         }
-        // conexao.close();
     });
-};
-/*
-export const getLog = (request, response, next) => {
-    const processaNomeArquivoUm = request.query.nomeLog.replace(/\//g, '-');
-    const processaNomeArquivoDois = processaNomeArquivoUm.replace(/:/g, '-');
-    const processaNomeArquivoTres = processaNomeArquivoDois.replace(/ /g, '-');
-    let conteudoLog = '';
-    if (request.query.herbarioVirtual === 'reflora') {
-        conteudoLog = transformaLog(leLOG(`/reflora/${processaNomeArquivoTres}`));
-    } else {
-        conteudoLog = transformaLog(leLOG(`/specieslink/${processaNomeArquivoTres}`));
-    }
-    // const conteudoLog = transformaLog(leLOG(processaNomeArquivoTres));
-    response.status(200).json(conteudoLog);
-};
-*/
-export const getStatusAgenda = (request, response, next) => {
 };
 
 export default { };

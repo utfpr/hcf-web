@@ -10,6 +10,11 @@ import HeaderServicesComponent from '../components/HeaderServicesComponent';
 const FormItem = Form.Item;
 const Option = Select.Option;
 const Panel = Collapse.Panel;
+/**
+ * Instanciamos o axios dessa forma diferente, para evitar problemas no back end.
+ * Esse problema no back end, está relacionado ao CORS, então por isso adicionamos
+ * um parâmetro no cabeçalho que será utilizado na requisição.
+ */
 const AXIOS = axios.create({
     baseURL: 'http://localhost:3003/api',
     headers: {
@@ -55,7 +60,6 @@ class ListaServicosRefloraScreen extends Component {
     */
     componentDidMount() {
         this.informacoesReflora();
-        this.statusAgenda();
         this.statusExecucao();
     }
 
@@ -75,44 +79,28 @@ class ListaServicosRefloraScreen extends Component {
         this.setState({ estaMontado: false });
     }
 
-    statusAgenda = () => {
-        this.timerStatusAgenda = setInterval(() => {
-            AXIOS.get('/reflora-status-agenda').then(response => {
-                if (response.status === 200) {
-                    console.log(response.data.horario);
-                    if (response.data.horario.length > 0 && response.data.periodicidade.length > 0) {
-                        if (this.state.estaMontado) {
-                            this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
-                        }
-                        console.log(this.state.desabilitaCamposAtualizacaoAutomatico);
-                        if (this.state.desabilitaCamposAtualizacaoAutomatico) {
-                            if (this.state.estaMontado) {
-                                this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
-                            }
-                        }
-                    }
-                }
-            });
-        }, 60000);
-    }
-
+    /**
+     * A função statusExecucao, ela é executada de cinco em cinco segundos e nesse tempo 
+     * é feita requisições ao back end para verificar se está sendo executado a comparação
+     * dos dados. Se está sendo executado mudamos a variável de estado para executando,
+     * caso contrário mudamos o valor da variável de estado para não executando (=== false).
+     * Além disso, é verificado se está agendando alguma atualização automática
+     */
     statusExecucao = () => {
         this.timerStatusExecucao = setInterval(() => {
             AXIOS.get('/reflora-executando').then(response => {
                 if (response.status === 200) {
-                    console.log(response.data)
-                    if (response.data.executando === 'false') {
+                    if (!response.data.executando) {
                         if (this.state.estaMontado) {
                             this.setState({ executando: false });
                         }
-                    } else if (response.data.executando === 'true') {
+                    } else if (response.data.executando) {
                         if (this.state.estaMontado) {
                             this.setState({ executando: true });
                         }
                     }
                     if (response.data.periodicidade === ' ') {
                         if (!this.state.desabilitaCamposAtualizacaoAutomatico) {
-                            console.log('aqui');
                             if (this.state.estaMontado) {
                                 this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
                             }
@@ -122,7 +110,6 @@ class ListaServicosRefloraScreen extends Component {
                             this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                         }
                         if (this.state.desabilitaCamposAtualizacaoAutomatico) {
-                            console.log('aqui2');
                             if (this.state.estaMontado) {
                                 this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
                             }
@@ -133,6 +120,14 @@ class ListaServicosRefloraScreen extends Component {
         }, 5000);
     }
 
+    /**
+     * A função trocaEstadoCamposAtualizacaoAutomatico, ela é invocada quando o
+     * usuário habilita ou desabilita o Switch presente na interface. Então
+     * se a variável de estado inicial é false quando o usuário troca nesse Switch
+     * ela muda o estado da variável para verdadeiro, e o contrário também é válido.
+     * Essa função é utilizada para poder habilitar os campos para se programar
+     * uma atualização.
+     */
     trocaEstadoCamposAtualizacaoAutomatico() {
         if (this.state.estaMontado) {
             this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
@@ -265,19 +260,19 @@ class ListaServicosRefloraScreen extends Component {
     mensagemSemanal = diaDaSemana => {
         switch (diaDaSemana) {
             case 1:
-                return `O processo de atualização foi agendado para toda segunda-feira a meia-noite.`;
+                return `O processo de atualização foi agendado para toda segunda - feira a meia - noite.`;
             case 2:
-                return `O processo de atualização foi agendado para toda terça-feira a meia-noite.`;
+                return `O processo de atualização foi agendado para toda terça - feira a meia - noite.`;
             case 3:
-                return `O processo de atualização foi agendado para toda quarta-feira a meia-noite.`;
+                return `O processo de atualização foi agendado para toda quarta - feira a meia - noite.`;
             case 4:
-                return `O processo de atualização foi agendado para toda quinta-feira a meia-noite.`;
+                return `O processo de atualização foi agendado para toda quinta - feira a meia - noite.`;
             case 5:
-                return `O processo de atualização foi agendado para toda sexta-feira a meia-noite.`;
+                return `O processo de atualização foi agendado para toda sexta - feira a meia - noite.`;
             case 6:
-                return `O processo de atualização foi agendado para todo sábado a meia-noite.`;
+                return `O processo de atualização foi agendado para todo sábado a meia - noite.`;
             case 7:
-                return `O processo de atualização foi agendado para todo domingo a meia-noite.`;
+                return `O processo de atualização foi agendado para todo domingo a meia - noite.`;
             default:
                 break;
         }
@@ -301,12 +296,13 @@ class ListaServicosRefloraScreen extends Component {
         return `O processo de atualização foi agendado e será feito a cada dois meses.`;
     }
 
+    /**
+     * A função programaAtualizacao, é chamada quando o usuário deseja programar a atualização
+     * de comparação, na qual é feita a requisição ao back end para agendar o processo
+     * de atualização definido pelo usuário. Caso consiga ou não agendar será dado
+     * um feedback (que no caso é a notificação) ao usuário.
+     */
     programaAtualizacao = () => {
-        /**
-         * Então toda vez que for agendado o processo, ele verifica o dia atual
-         * se esse dia for maior que dia 28, ele faz a requisição dia 28. Além disso,
-         * faz a requisição à partir da meia noite.
-         */
         const params = {
             periodicidade: this.retornaValorPeriodicidade(),
             data_proxima_atualizacao: this.retornaDataProximaAtualizacao(),
@@ -333,7 +329,13 @@ class ListaServicosRefloraScreen extends Component {
         });
     }
 
-    comparaReflora = () => {
+    /**
+     * A função comparaInformacoesReflora, ela solicita ao back end que seja feito
+     * uma atualização dos dados imediatamente. Após essa solicitação, o back end
+     * ele retorna uma notificação de sucesso ou não se foi feito, que será apresentado
+     * ao usuário, se será feita ou não a atualização dos dados.
+     */
+    comparaInformacoesReflora = () => {
         const params = {
             periodicidade: 1,
             data_proxima_atualizacao: null,
@@ -365,7 +367,7 @@ class ListaServicosRefloraScreen extends Component {
                         <span>Deseja atualizar agora?</span>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
-                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaReflora}> Atualizar </Button> : <span style={{ fontWeight: 'bold' }}>EXECUTANDO!!! AGUARDE...</span>}
+                        {!this.state.executando ? <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.comparaInformacoesReflora}> Atualizar </Button> : <span style={{ fontWeight: 'bold' }}>EXECUTANDO!!! AGUARDE...</span>}
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
