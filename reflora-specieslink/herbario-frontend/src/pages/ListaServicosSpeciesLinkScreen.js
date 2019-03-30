@@ -28,16 +28,29 @@ class ListaServicosSpeciesLinkScreen extends Component {
     }
 
     componentDidMount() {
-        this.nomeLOG();
+        this.informacoesSpeciesLink();
         this.statusExecucao();
     }
 
+    /**
+     * A função componentWillUnmount, ela é invocada quando os componentes serão desmontados, 
+     * por exemplo quando você troca de funcionalidades. Nela muda o valor da variável de estado
+     * que é uma variável que verifica se os componentes do front end estão montados ou não.
+     * Além disso, ela é utilizada pausar o setInterval que foram iniciados em outras funções.
+     * Essa função é de extrema importância, pois evita problemas, pois se você não pausa o
+     * setInterval ele vai tentar ficar mudando o valor de uma variável de estado que não está montada.
+     */
     componentWillUnmount() {
         clearInterval(this.timerStatusExecucao);
         this.setState({ estaMontado: false });
     }
 
-    nomeLOG = () => {
+    /**
+     * A função informacoesSpeciesLink, ela envia como parâmetro de requisição speciesLink
+     * e é retornado informações de speciesLink que são: os logs que existem relacionado
+     * ao speciesLink, o horário da última atualização e a duração da última atualização.
+     */
+    informacoesSpeciesLink = () => {
         const params = {
             herbarioVirtual: 'specieslink',
         };
@@ -84,7 +97,14 @@ class ListaServicosSpeciesLinkScreen extends Component {
         }, 5000);
     }
 
-    informacoesLog = log => {
+    /**
+     * A função conteudoLogSelecionado, ela recebe como parâmetro o nome do
+     * log na qual se deseja saber saber o conteúdo desse arquivo. Então 
+     * durante a requisição é passado o nome do arquivo e o conteúdo retornado
+     * é atribuído a uma variável de estado.
+     * @param log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
+     */
+    conteudoLogSelecionado = log => {
         const params = {
             herbarioVirtual: 'specieslink',
             nomeLog: log,
@@ -197,7 +217,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                         <span style={{ fontWeight: 'bold' }}>A última atualização foi feita {this.state.horarioUltimaAtualizacao} e durou {this.state.duracaoAtualizacao}.</span>
                     </Col>
                     <Col span={6} >
-                        <Select placeholder='Selecione o LOG desejado' onChange={this.informacoesLog}>
+                        <Select placeholder='Selecione o LOG desejado' onChange={this.conteudoLogSelecionado}>
                             {this.state.nomeLog.map((saida, chave) => {
                                 return <Option key={chave} value={saida}>{saida}</Option>
                             })}
