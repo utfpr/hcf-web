@@ -116,15 +116,22 @@ class ListaServicosSpeciesLinkScreen extends Component {
         });
     }
 
-    onFormSubmit = () => {
-        const formData = new FormData();
-        formData.append('arquivoSpeciesLink', this.state.arquivo);
-        const config = {
+    /**
+     * A função enviaArquivo, é invocada quando o botão de enviar arquivo é clicado
+     * na qual é pego o valor da variável de estado, é definido os parâmetros de cabeçalho
+     * da requisição, e é feito a requisição ao back end. A partir do resultado feito dá
+     * requisição, é mudado o valor da variável de estado e é mostrado uma notificação
+     * dependendo do valor do resultado da requisição.
+     */
+    enviaArquivo = () => {
+        const dadosArquivo = new FormData();
+        dadosArquivo.append('arquivoSpeciesLink', this.state.arquivo);
+        const cabecalhoRequisicao = {
             headers: {
                 'content-type': 'multipart/form-data'
             }
         };
-        axios.post("/specieslink-executa", formData, config).then(response => {
+        axios.post("/specieslink-executa", dadosArquivo, cabecalhoRequisicao).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'error_file') {
                     this.exibeNotificao('error', 'Falha', 'O arquivo não é o esperado.');
@@ -138,25 +145,6 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 }
             }
         });
-    }
-
-    /**
-     * A função carregaArquivo, ela carrega o arquivo que foi enviado pelo usuário,
-     * esse carregamento é atribuído a uma variável de estado chamada arquivo que 
-     * foi recebida pelo parâmetro.
-     * @param arquivoUpado, é o arquivo que foi submetido pelo usuário.
-     */
-    carregaArquivo = arquivoUpado => {
-        if (this.state.estaMontado) {
-            this.setState({ arquivo: arquivoUpado[0] });
-        }
-    }
-
-    removeArquivo = info => {
-        if (this.state.estaMontado) {
-            this.setState({ arquivo: info[0] });
-        }
-        return false;
     }
 
     /**
@@ -175,7 +163,13 @@ class ListaServicosSpeciesLinkScreen extends Component {
         });
     };
 
-    /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
+    /**
+     * A função renderPainelEnviarInformacoes, renderiza na interface do species Link
+     * o botão de upload (Nesse botão é definido algumas propriedades do upload, como a de
+     * atribuir o arquivo que foi feito o upload na variável de estado), o botão para submeter
+     * o arquivo que foi feito o upload, label de quanto foi realizada a última atualização e
+     * a duração dela, a lista de todos os logs existem, e um campo que exibe o log selecionado.
+     */
     renderPainelEnviarInformacoes() {
         const { arquivo } = this.state;
         const props = {
@@ -208,7 +202,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                         </Col>
                         :
                         <Col span={6}>
-                            <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.onFormSubmit} disabled={this.state.statusExecucao}>
+                            <Button type='primary' htmlType='submit' className='login-form-button' onClick={this.enviaArquivo} disabled={this.state.statusExecucao}>
                                 Enviar
                             </Button>
                         </Col>
@@ -245,9 +239,15 @@ class ListaServicosSpeciesLinkScreen extends Component {
         )
     }
 
+    /**
+     * A função render, renderiza o cabeçalho da interface e invoca
+     * a outra função renderPainelEnviarInformacoes, que tem os demais
+     * componentes como botão de upload e enviar arquivo, listar
+     * os logs e as suas saídas.
+     */
     render() {
         return (
-            <Form onSubmit={this.onSubmit}>
+            <Form>
                 <HeaderServicesComponent title={'SpeciesLink'} />
                 <Divider dashed />
                 {this.renderPainelEnviarInformacoes()}
@@ -257,5 +257,5 @@ class ListaServicosSpeciesLinkScreen extends Component {
     }
 }
 
-// Arquivo baseado no arquivo ListaTaxonomiaScreeen.js
+// Exportar essa classe como padrão
 export default Form.create()(ListaServicosSpeciesLinkScreen);
