@@ -9,7 +9,7 @@ const controllerComum = require('../controllers/herbariovirtual-controller');
 const storage = multer.diskStorage({
     destination: './public/uploads/',
     filename: (req, file, cb) => {
-        cb(null, `ArquivoSpeciesLink${moment().format('DD-MM-YYYY')}${path.extname(file.originalname)}`);
+        cb(null, `ArquivoSpeciesLink${moment().format('HH-mm-ss-DD-MM-YYYY')}${path.extname(file.originalname)}`);
     },
 });
 

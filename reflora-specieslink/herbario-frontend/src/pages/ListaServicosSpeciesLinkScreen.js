@@ -13,8 +13,8 @@ class ListaServicosSpeciesLinkScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isMounted: false,
-            file: null,
+            estaMontado: false,
+            arquivo: null,
             statusExecucao: false,
             nomeLog: [],
             horarioUltimaAtualizacao: '',
@@ -24,19 +24,17 @@ class ListaServicosSpeciesLinkScreen extends Component {
     }
 
     componentWillMount() {
-        // this.isMounted = true;
-        this.setState({ isMounted: true });
+        this.setState({ estaMontado: true });
     }
 
     componentDidMount() {
-        // this._isMounted = true;
         this.nomeLOG();
         this.statusExecucao();
     }
 
     componentWillUnmount() {
         clearInterval(this.timerStatusExecucao);
-        this.setState({ isMounted: false });
+        this.setState({ estaMontado: false });
     }
 
     nomeLOG = () => {
@@ -47,7 +45,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;
-                if (this.state.isMounted) {
+                if (this.state.estaMontado) {
                     this.setState({ nomeLog: logs });
                     this.setState({ horarioUltimaAtualizacao: logs[logs.length - 1] });
                     this.setState({ duracaoAtualizacao: duracao });
@@ -56,21 +54,28 @@ class ListaServicosSpeciesLinkScreen extends Component {
         });
     }
 
+    /**
+     * A função statusExecucao, ela realizar requisições ao back end de cinco
+     * em cinco segundos. Nesse tempo, ela verifica se o resultado retornado
+     * pelo back end é true ou false. Se é retornado true, mudamos o
+     * valor de uma variável de estado para true, caso seja false mudamos o valor da variável
+     * de estado para false. A mudança desses valores afeta se vai ficar habilitado
+     * ou desabilitado os botões de upload e de enviar esse upload.
+     */
     statusExecucao = () => {
         this.timerStatusExecucao = setInterval(() => {
             axios.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
-                    // O resultado do json é string então por isso necessita a comparação
                     console.log(`->${response.data.result}`)
                     console.log(`x->${response.data.result === 'true'}`)
-                    if (response.data.result === 'true') {
+                    if (response.data.result) {
                         console.log('bbbbaqui')
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ statusExecucao: true });
                         }
                     } else {
                         console.log('ccccaqui')
-                        if (this.state.isMounted) {
+                        if (this.state.estaMontado) {
                             this.setState({ statusExecucao: false });
                         }
                     }
@@ -85,7 +90,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
             nomeLog: log,
         };
         axios.get('/specieslink-log', { params }).then(response => {
-            if (this.state.isMounted) {
+            if (this.state.estaMontado) {
                 this.setState({ saidaLOG: response.data.log });
             }
         });
@@ -93,7 +98,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
 
     onFormSubmit = () => {
         const formData = new FormData();
-        formData.append('arquivoSpeciesLink', this.state.file);
+        formData.append('arquivoSpeciesLink', this.state.arquivo);
         const config = {
             headers: {
                 'content-type': 'multipart/form-data'
@@ -102,35 +107,48 @@ class ListaServicosSpeciesLinkScreen extends Component {
         axios.post("/specieslink-executa", formData, config).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'error_file') {
-                    this.openNotificationWithIcon('error', 'Falha', 'O arquivo não é o esperado.');
+                    this.exibeNotificao('error', 'Falha', 'O arquivo não é o esperado.');
                 } else if (response.data.result === 'failed') {
-                    this.openNotificationWithIcon('error', 'Falha', 'Atualização já está ocorrendo.');
+                    this.exibeNotificao('error', 'Falha', 'Atualização já está ocorrendo.');
                 } else {
-                    if (this.state.isMounted) {
+                    if (this.state.estaMontado) {
                         this.setState({ statusExecucao: true });
                     }
-                    this.openNotificationWithIcon('success', 'Sucesso', 'Atualização iniciará em breve.');
+                    this.exibeNotificao('success', 'Sucesso', 'Atualização iniciará em breve.');
                 }
             }
         });
     }
 
-    carregaArquivo = info => {
-        if (this.state.isMounted) {
-            this.setState({ file: info[0] });
+    /**
+     * A função carregaArquivo, ela carrega o arquivo que foi enviado pelo usuário,
+     * esse carregamento é atribuído a uma variável de estado chamada arquivo que 
+     * foi recebida pelo parâmetro.
+     * @param arquivoUpado, é o arquivo que foi submetido pelo usuário.
+     */
+    carregaArquivo = arquivoUpado => {
+        if (this.state.estaMontado) {
+            this.setState({ arquivo: arquivoUpado[0] });
         }
-        // const formData = new FormData();
     }
 
     removeArquivo = info => {
-        if (this.state.isMounted) {
-            this.setState({ file: info[0] });
+        if (this.state.estaMontado) {
+            this.setState({ arquivo: info[0] });
         }
         return false;
-        // const formData = new FormData();
     }
 
-    openNotificationWithIcon = (type, message, description) => {
+    /**
+     * A função exibeNotificao, renderiza no canto superior direito uma mensagem
+     * que é passa por parâmetro, e uma descrição dela que também é passada por parâmetro.
+     * Ela é utiliza quando conseguiu sucesso ou erro na hora de realizar o upload 
+     * do arquivo no speciesLink.
+     * @param type, é o tipo de notificação que irá aparecer.
+     * @param message, é a mensagem que irá ser renderizada.
+     * @param description, é a descrição que será renderizada.
+     */
+    exibeNotificao = (type, message, description) => {
         notification[type]({
             message: message,
             description: description,
@@ -138,21 +156,21 @@ class ListaServicosSpeciesLinkScreen extends Component {
     };
 
     /** Os botões vem do módulo antd, que tem os tipos primary, default, dashed e alert */
-    renderPainelEnviarInformacoes(getFieldDecorator) {
-        const { file } = this.state;
+    renderPainelEnviarInformacoes() {
+        const { arquivo } = this.state;
         const props = {
             onRemove: (f) => {
-                if (this.state.isMounted) {
-                    this.setState({ file: f });
+                if (this.state.estaMontado) {
+                    this.setState({ arquivo: f });
                 }
             },
             beforeUpload: (f) => {
-                if (this.state.isMounted) {
-                    this.setState({ file: f });
+                if (this.state.estaMontado) {
+                    this.setState({ arquivo: f });
                 }
                 return false;
             },
-            file,
+            arquivo,
         };
         return (
             <Card title='Buscar informações no speciesLink'>
@@ -208,12 +226,11 @@ class ListaServicosSpeciesLinkScreen extends Component {
     }
 
     render() {
-        const { getFieldDecorator } = this.props.form;
         return (
             <Form onSubmit={this.onSubmit}>
                 <HeaderServicesComponent title={'SpeciesLink'} />
                 <Divider dashed />
-                {this.renderPainelEnviarInformacoes(getFieldDecorator)}
+                {this.renderPainelEnviarInformacoes()}
                 <Divider dashed />
             </Form>
         );

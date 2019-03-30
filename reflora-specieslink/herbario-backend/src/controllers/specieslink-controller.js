@@ -20,17 +20,17 @@ export const statusExecucao = (request, response, next) => {
         // eslint-disable-next-line no-console
         console.log(`-------------------->${execucao.length}`);
         if (execucao.length === 0) {
-            response.status(200).json(JSON.parse(' { "result": "false" } '));
+            response.status(200).json(JSON.parse(' { "result": false } '));
         } else {
             const horaFim = execucao[0].dataValues.hora_fim;
             // eslint-disable-next-line no-console
             console.log(`-------------------->${horaFim}`);
             if (horaFim === null) {
-                response.status(200).json(JSON.parse(' { "result": "false" } '));
+                response.status(200).json(JSON.parse(' { "result": false } '));
             } else if (horaFim === 'EXECUTANDO') {
-                response.status(200).json(JSON.parse(' { "result": "true" } '));
+                response.status(200).json(JSON.parse(' { "result": true } '));
             } else {
-                response.status(200).json(JSON.parse(' { "result": "false" } '));
+                response.status(200).json(JSON.parse(' { "result": false } '));
             }
         }
     });
