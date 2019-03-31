@@ -22,16 +22,19 @@ import {
 } from '../database';
 
 /**
- * A função fazComparacaoInformacao, primeiramente verifica se tem informações
- * do reflora esperado. Se tem as informações esperada eu pego o número de tombo
- * equivalente aquele tombo de código de barra, e com esse valor de número de tombo
- * eu consigo pegar informações relacionadas a esse tombo. Comparando as informações
- * vindas do Reflora com as presentes no banco de dados, eu verifico se me gerou
- * um JSON. Quando me retorna JSON, eu verifico se existe essa alteração no banco
- * de dados se não existe eu insiro ela no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa ser feito o select.
- * @param {*} codBarra, é o código de barra relacionado ao tombo do HCF.
- * @param {*} informacaoReflora, informação do tombo que está exposta do Reflora.
+ * A função fazComparacaoInformacao, é comparado informações do banco de dados com as que
+ * estão no Reflora. As informações a serem comparadas são: família, subfamília, gênero,
+ * espécie, subespécie e variedade. Depois de comparar cada uma dessas informações
+ * quando encontrado divergência é adicionado em um JSON. Após realizar todas as comparações
+ * ele procurar na tabela de alterações e verifica se encontra um JSON parecido com o
+ * que está no banco de dados, se for encontrado um JSON igual não é adicionado,
+ * caso não seja encontrado é adicionado um novo registro na tabela de alterações.
+ * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} nroTombo, é o número do tombo para serem pesquisadas informações no banco de dados.
+ * @param {*} codBarra, é o código de barra relacionado ao tombo do HCF a qual será gerado o JSON
+ * de alteração.
+ * @param {*} informacaoReflora, informação do tombo que irá ser comparado com as presentes no banco
+ * de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando acabar de realizar a comparação de informações.
  */
@@ -56,13 +59,13 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
             }
         });
         // espécie
-        await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.infraespecificepithet).then(especie => {
+        await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.specificepithet).then(especie => {
             if (especie !== -1) {
                 alteracaoInformacao += `especie: ${especie}, `;
             }
         });
         // variedade
-        await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora).then(variedade => {
+        await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora.infraespecificepithet).then(variedade => {
             if (variedade !== -1) {
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
