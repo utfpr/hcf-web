@@ -73,9 +73,6 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
         });
     }
     return promessa.promise;
-    /*
-        const identificador = conteudo[15];
-    */
 }
 
 export default { };

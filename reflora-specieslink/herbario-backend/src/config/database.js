@@ -28,8 +28,4 @@ export const options = {
         charset: 'utf8mb4',
         multipleStatements: true,
     },
-
-    pool: {
-        max: 8,
-    },
 };

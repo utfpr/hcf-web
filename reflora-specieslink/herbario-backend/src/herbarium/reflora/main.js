@@ -18,10 +18,23 @@ import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim,
 } from '../log';
 
-function comecaReflora(conexao, nomeArquivo) {
+/**
+ * A função comecaAtualizacaoReflora, primeiramente pega o maior valor de código
+ * de barra existente, e partir do código de barra HCF000000001 até o maior valor
+ * de código de barra e insere na tabela do Reflora. Com todos os códigos carregados
+ * é pego um código de barra de cada vez e faz a requisição desse código de barra e inserido
+ * em uma coluna da tabela. Após, obter informações de todos os códigos de barras, é iniciado
+ * a comparação, e por fim, quando acaba o processo de comparação de todos os códigos
+ * barras, apaga-se essa tabela do Reflora.
+ * @param {*} conexao, é a conexão com o banco de dados para obter e atualizar os
+ * dados no banco de dados.
+ * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito quando iniciou, terminou
+ * e algum erro que acontenceu durante o processo de comparação.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de realizar a comparação de informações.
+ */
+function comecaAtualizacaoReflora(conexao, nomeArquivo) {
     const promessa = Q.defer();
-    // eslint-disable-next-line no-console
-    console.log('até aqui');
     escreveLOG(`reflora/${nomeArquivo}`, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora(conexao);
     selectCodBarra(conexao).then(listaCodBarra => {
@@ -44,20 +57,23 @@ function comecaReflora(conexao, nomeArquivo) {
     return promessa.promise;
 }
 
-function ehNecessarioFazerRequisicao(nomeArquivo) {
+/**
+ * A função ehPossivelFazerComparacaoReflora, faz uma consulta no banco de dados
+ * verificando se existe a tabela do reflora. Se essa tabela não existe
+ * pode ser executado, caso contrário não pode ser executado.
+ * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito quando iniciou, terminou
+ * e algum erro que acontenceu durante o processo de comparação.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de verificar se existe uma tabela do reflora.
+ */
+function ehPossivelFazerComparacaoReflora(nomeArquivo) {
     const promessa = Q.defer();
     const conexao = criaConexao();
-    /**
-     * 1.Cria a tabela do Reflora e insere os códigos de barra nela
-     * 2.A partir de todos os códigos de barras presente na tabela faz a requisição
-     * 3.Com os resultados das requisições presentes no BD, faz a comparação dessas informações
-     * Detalhe: comentário com duas barras (//) são usados para testes
-    */
     existeTabelaReflora(conexao).then(existe => {
         if (existe) {
             promessa.resolve();
         } else {
-            comecaReflora(conexao, nomeArquivo).then(() => {
+            comecaAtualizacaoReflora(conexao, nomeArquivo).then(() => {
                 promessa.resolve();
             });
         }
@@ -66,11 +82,25 @@ function ehNecessarioFazerRequisicao(nomeArquivo) {
     return promessa.promise;
 }
 
-function executaReflora(conexao, existeExecucaoReflora) {
+/**
+ * A função preparaExecucaoReflora, pega o resultado da existência da execução
+ * de Reflora na tabela de configuração e pega a hora de início que está
+ * nesse resultado e transforma ele para que ele possa ser nome de arquivo.
+ * Assim, ele verificar se é possível fazer a comparação do reflora, se foi
+ * possível fazer, se foi feito a comparação do Reflora, ele verifica se
+ * acabou mesmo o processo do Reflora, verificando se tem a mensagem desejada,
+ * se sim atualiza com a hora que acabou o processo no banco de dados.
+ * @param {*} conexao, é a conexão com o banco de dados para atualizar os
+ * dados no banco de dados.
+ * @param {*} existeExecucaoReflora, é o resultado da existência da execução
+ * do Reflora na tabela de configuração.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de realizar a comparação de informações.
+ */
+function preparaExecucaoReflora(conexao, existeExecucaoReflora) {
     const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
-    // console.log(nomeArquivo);
-    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
+    ehPossivelFazerComparacaoReflora(nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
         const conteudoLOG = leLOG(nomeArquivo);
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
@@ -82,6 +112,20 @@ function executaReflora(conexao, existeExecucaoReflora) {
     return promessa.promise;
 }
 
+/**
+ * A função verificaRequisicoesAgendado, verifica a periodicidade
+ * que foi definida pelo usuário e a partir disso calcula
+ * a data da próxima atualização, que será utilizado se for atualizado.
+ * Depois disso, é verificado se o dia atual é igual a data próxima
+ * atualização registrada no BD, se for o mesmo dia verifico se a
+ * hora é meia-noite, se for executo e no final da atualização
+ * pego a data que foi feita anteriormente e atualizo para a data
+ * da próxima atualização.
+ * @param {*} conexao, é a conexão com o banco de dados para atualizar os
+ * dados no banco de dados.
+ * @param {*} existeExecucaoReflora, é o resultado da existência da execução
+ * do Reflora na tabela de configuração.
+ */
 function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     let agendamento = -1;
     if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
@@ -93,7 +137,7 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     }
     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
         if (moment().format('HH') === '00') {
-            executaReflora(conexao, existeExecucaoReflora[0]).then(() => {
+            preparaExecucaoReflora(conexao, existeExecucaoReflora[0]).then(() => {
                 atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(agendamento).format('DD/MM/YYYY'));
             });
         } else {
@@ -106,25 +150,21 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     }
 }
 
+/**
+ * A função daemonFazRequisicaoReflora, executa de um em um minuto,
+ * e faz uma consulta na tabela de configuração, verificando se
+ * é necessário realizar a comparação. Se é retornado alguma resultado
+ * verifico se a periodicidade foi definida como manual ou não. Se foi
+ * definida como manual significa que devo executar imediatamente,
+ * caso seja um valor diferente disso, eu verifico qual a periodicidade.
+ */
 export function daemonFazRequisicaoReflora() {
     const conexao = criaConexao();
-    /**
-     * De um em um minuto, eu verifico se tem na tabela de configuração
-     * algum registro que tenha a data de fim igual a nula e o serviço
-     * seja Reflora. Se existir um (que vai ter apenas um registro) eu verifico
-     * a periodicidade dele, se for manual executo na hora. Se for semanal
-     * verifico o valor da coluna data_proxima_atualizacao se é igual a data atual,
-     * eu verifico se a hora é igual a meia-noite, se for eu posso realizar
-     * o processo de comparação do Reflora. Por fim, depois de realizar o processo
-     * de comparação, eu atualizo com a nova data de próxima atualização.
-     */
     setInterval(() => {
         selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
-                    // eslint-disable-next-line no-console
-                    console.log('AQUUUUUUUUUUUUUUUUUUUUUI');
-                    executaReflora(conexao, existeExecucaoReflora[0]);
+                    preparaExecucaoReflora(conexao, existeExecucaoReflora[0]);
                 } else {
                     verificaRequisicoesAgendado(conexao, existeExecucaoReflora);
                 }

@@ -21,6 +21,20 @@ import {
     insereAlteracaoSugerida,
 } from '../database';
 
+/**
+ * A função fazComparacaoInformacao, primeiramente verifica se tem informações
+ * do reflora esperado. Se tem as informações esperada eu pego o número de tombo
+ * equivalente aquele tombo de código de barra, e com esse valor de número de tombo
+ * eu consigo pegar informações relacionadas a esse tombo. Comparando as informações
+ * vindas do Reflora com as presentes no banco de dados, eu verifico se me gerou
+ * um JSON. Quando me retorna JSON, eu verifico se existe essa alteração no banco
+ * de dados se não existe eu insiro ela no banco de dados.
+ * @param {*} conexao, conexão com o banco de dados para que se possa ser feito o select.
+ * @param {*} codBarra, é o código de barra relacionado ao tombo do HCF.
+ * @param {*} informacaoReflora, informação do tombo que está exposta do Reflora.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de realizar a comparação de informações.
+ */
 export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora) {
     const promessa = Q.defer();
     selectTombo(conexao, nroTombo).then(async tomboBd => {

@@ -330,25 +330,12 @@ export function selectTombo(conexao, nroTombo) {
     conexao.sync().then(() => {
         tabelaTombo.findAll({
             attributes: [
-                'numero_coleta',
-                'data_coleta_dia',
-                'data_coleta_mes',
-                'data_coleta_ano',
-                'altitude',
-                'latitude',
-                'longitude',
-                'data_identificacao_dia',
-                'data_identificacao_mes',
-                'data_identificacao_ano',
-                'nome_cientifico',
                 'familia_id',
-                'variedade_id',
-                'tipo_id',
-                'especie_id',
+                'sub_familia_id',
                 'genero_id',
-                'local_coleta_id',
+                'especie_id',
                 'sub_especie_id',
-                'observacao'],
+                'variedade_id'],
             where: { hcf: nroTombo },
         }).then(tombo => {
             promessa.resolve(tombo);
