@@ -27,6 +27,7 @@ class ListaServicosRefloraScreen extends Component {
     /**
      * O constructor é aqui que herda as características do pai, que no caso é 
      * o Component, além disso, é inicializado as varáveis de estados.
+     * @param {*} props, que herda as caracterísitcas da classe extendida Componente.
      */
     constructor(props) {
         super(props);
@@ -139,9 +140,9 @@ class ListaServicosRefloraScreen extends Component {
      * que é passa por parâmetro, e uma descrição dela que também é passada por parâmetro.
      * Ela é utiliza quando conseguiu sucesso ou erro na hora de atualizar imediatamente ou
      * quando é uma atualização programada na comparação no Reflora.
-     * @param type, é o tipo de notificação que irá aparecer.
-     * @param message, é a mensagem que irá ser renderizada.
-     * @param description, é a descrição que será renderizada.
+     * @param {*} type, é o tipo de notificação que irá aparecer.
+     * @param {*} message, é a mensagem que irá ser renderizada.
+     * @param {*} description, é a descrição que será renderizada.
      */
     exibeNotificacao = (type, message, description) => {
         notification[type]({
@@ -177,7 +178,7 @@ class ListaServicosRefloraScreen extends Component {
      * log na qual se deseja saber saber o conteúdo desse arquivo. Então 
      * durante a requisição é passado o nome do arquivo e o conteúdo retornado
      * é atribuído a uma variável de estado.
-     * @param log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
+     * @param {*} log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
      */
     conteudoLogSelecionado = log => {
         const params = {
@@ -239,7 +240,7 @@ class ListaServicosRefloraScreen extends Component {
     /**
      * A função programaPeriodicidadeAtualizacao, ele pega o valor que foi recebido
      * como parâmetro atribui a uma variável de estado.
-     * @params periodicidade, é uma string com o valor da periodicidade que foi definido
+     * @param {*} periodicidade, é uma string com o valor da periodicidade que foi definido
      * pelo usuário que pode ser semanal (SEMANAL), mensal (1MES) ou a cada dois meses
      * (2MESES).
      */
@@ -254,7 +255,7 @@ class ListaServicosRefloraScreen extends Component {
      * se o usuário definiu uma periodicidade semanal e o dia que ele definiu é segunda,
      * será retornado a mensagem que o processo de atualização foi agendado para toda
      * segunda-feira a meia-noite.
-     * @params diaDaSemana, é um inteiro com o valor do dia da semana.
+     * @param {*} diaDaSemana, é um inteiro com o valor do dia da semana.
      * @returns string com a mensagem equivalente ao dia da semana, na qual foi definido a periodicidade.
      */
     mensagemSemanal = diaDaSemana => {

@@ -13,6 +13,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
     /**
      * O constructor é aqui que herda as características do pai, que no caso é 
      * o Component, além disso, é inicializado as varáveis de estados.
+     * @param {*} props, que herda as caracterísitcas da classe extendida Componente.
      */
     constructor(props) {
         super(props);
@@ -119,7 +120,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
      * log na qual se deseja saber saber o conteúdo desse arquivo. Então 
      * durante a requisição é passado o nome do arquivo e o conteúdo retornado
      * é atribuído a uma variável de estado.
-     * @param log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
+     * @param {*} log, é o nome do arquivo de log na qual se deseja saber o seu conteúdo.
      */
     conteudoLogSelecionado = log => {
         const params = {
@@ -169,9 +170,9 @@ class ListaServicosSpeciesLinkScreen extends Component {
      * que é passa por parâmetro, e uma descrição dela que também é passada por parâmetro.
      * Ela é utiliza quando conseguiu sucesso ou erro na hora de realizar o upload 
      * do arquivo no speciesLink.
-     * @param type, é o tipo de notificação que irá aparecer.
-     * @param message, é a mensagem que irá ser renderizada.
-     * @param description, é a descrição que será renderizada.
+     * @param {*} type, é o tipo de notificação que irá aparecer.
+     * @param {*} message, é a mensagem que irá ser renderizada.
+     * @param {*} description, é a descrição que será renderizada.
      */
     exibeNotificacao = (type, message, description) => {
         notification[type]({
