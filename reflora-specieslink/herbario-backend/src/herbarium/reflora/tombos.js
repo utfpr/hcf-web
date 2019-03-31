@@ -3,32 +3,12 @@
 import Q from 'q';
 import throttledQueue from 'throttled-queue';
 import {
-    ehIgualNroColeta,
-    ehIgualAnoColeta,
-    ehIgualMesColeta,
-    ehIgualDiaColeta,
-    ehIgualObservacao,
-    getIdCidade,
-    ehIgualPais,
-    ehIgualPaisSigla,
-    ehIgualEstado,
-    ehIgualCidade,
-    ehIgualLocalidade,
-    ehIgualAltitude,
-    ehIgualLatitude,
-    ehIgualLongitude,
-    ehIgualDataIdentificacao,
-    processaDataIdentificacaoReflora,
-    ehIgualTipo,
-    ehIgualNomeCientifico,
     ehIgualFamilia,
     ehIgualGenero,
     ehIgualEspecie,
     ehIgualVariedade,
-    getIdAutor,
-    ehIgualAutorNomeCientifico,
     existeAlteracaoSugerida,
-} from '../datatombos';
+} from '../comparainformacao';
 import {
     processaRespostaReflora,
     temResultadoRespostaReflora,
@@ -49,104 +29,6 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         }
         let alteracaoInformacao = '{';
         const processaInformacaoBd = tomboBd[0].dataValues;
-        // número de coleta
-        const resultadoNroColeta = ehIgualNroColeta(processaInformacaoBd, informacaoReflora);
-        if (resultadoNroColeta !== -1) {
-            alteracaoInformacao += `numero_coleta: ${resultadoNroColeta},`;
-        }
-        // ano de coleta
-        const resultadoAnoColeta = ehIgualAnoColeta(processaInformacaoBd.data_coleta_ano, informacaoReflora.year);
-        if (resultadoAnoColeta !== -1) {
-            alteracaoInformacao += `ano_coleta: ${resultadoAnoColeta}, `;
-        }
-        // mês de coleta
-        const resultadoMesColeta = ehIgualMesColeta(processaInformacaoBd.data_coleta_mes, informacaoReflora.month);
-        if (resultadoMesColeta !== -1) {
-            alteracaoInformacao += `mes_coleta: ${resultadoMesColeta},`;
-        }
-        // dia de coleta
-        const resultadoDiaColeta = ehIgualDiaColeta(processaInformacaoBd, informacaoReflora);
-        if (resultadoDiaColeta !== -1) {
-            alteracaoInformacao += `dia_coleta: ${resultadoDiaColeta},`;
-        }
-        // observação
-        const resultadoObservacao = ehIgualObservacao(processaInformacaoBd, informacaoReflora);
-        if (resultadoObservacao.length > 0) {
-            alteracaoInformacao += `observacao: ${resultadoObservacao}, `;
-        }
-        // país, sigla país, estado e cidade
-        const idCidade = await getIdCidade(conexao, processaInformacaoBd.local_coleta_id);
-        if (idCidade !== -1) {
-            // país
-            await ehIgualPais(conexao, idCidade, informacaoReflora.country).then(pais => {
-                if (pais !== -1) {
-                    alteracaoInformacao += `pais: ${pais}, `;
-                }
-            });
-            // sigla país
-            await ehIgualPaisSigla(conexao, idCidade, informacaoReflora.countrycode).then(paisSigla => {
-                if (paisSigla !== -1) {
-                    alteracaoInformacao += `pais_sigla: ${paisSigla}, `;
-                }
-            });
-            // estado
-            await ehIgualEstado(conexao, idCidade, informacaoReflora.stateprovince).then(estado => {
-                if (estado !== -1) {
-                    alteracaoInformacao += `estado: ${estado}, `;
-                }
-            });
-            // cidade
-            await ehIgualCidade(conexao, idCidade, informacaoReflora.municipality).then(cidade => {
-                if (cidade !== -1) {
-                    alteracaoInformacao += `cidade: ${cidade}, `;
-                }
-            });
-            /*
-                A locality (chave do json do Reflora) é formada pelo atributo
-                observacao da tabela tombos e da vegetação relacionada a esse tombo
-            */
-            // localidade
-            await ehIgualLocalidade(conexao, idCidade, processaInformacaoBd, informacaoReflora).then(localidade => {
-                if (localidade !== -1) {
-                    alteracaoInformacao += `localidade: ${localidade}, `;
-                }
-            });
-        }
-        // altitude
-        const resultadoAltitude = ehIgualAltitude(processaInformacaoBd, informacaoReflora);
-        if (resultadoAltitude !== -1) {
-            alteracaoInformacao += `altitude: ${resultadoAltitude}, `;
-        }
-        // latitude
-        const resultadoLatitude = ehIgualLatitude(processaInformacaoBd.latitude, informacaoReflora.decimallatitude);
-        if (resultadoLatitude !== -1) {
-            alteracaoInformacao += `latitude: ${resultadoLatitude}, `;
-        }
-        // longitude
-        const resultadoLongitude = ehIgualLongitude(processaInformacaoBd.longitude, informacaoReflora.decimallongitude);
-        if (resultadoLongitude !== -1) {
-            alteracaoInformacao += `longitude: ${resultadoLongitude}, `;
-        }
-        // data identificação
-        const resultadoDataIdentificacao = ehIgualDataIdentificacao(processaInformacaoBd, informacaoReflora);
-        if (resultadoDataIdentificacao !== -1) {
-            const processaResultadoDataIdentificacao = processaDataIdentificacaoReflora(resultadoDataIdentificacao);
-            // console.log(processaResultadoDataIdentificacao);
-            if (processaResultadoDataIdentificacao.length > 0) {
-                alteracaoInformacao += processaResultadoDataIdentificacao;
-            }
-        }
-        // tipo
-        await ehIgualTipo(conexao, processaInformacaoBd.tipo_id, informacaoReflora.typestatus).then(tipo => {
-            if (tipo !== -1) {
-                alteracaoInformacao += `tipo: ${tipo}, `;
-            }
-        });
-        // nome científico
-        const resultadoNomeCientifico = ehIgualNomeCientifico(processaInformacaoBd.nome_cientifico, informacaoReflora.scientificname);
-        if (resultadoNomeCientifico.length > 0) {
-            alteracaoInformacao += `nome_cientifico: ${resultadoNomeCientifico}, `;
-        }
         // família
         await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
             if (familia !== -1) {
@@ -171,15 +53,6 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
                 alteracaoInformacao += `especie: ${variedade}, `;
             }
         });
-        const idAutor = await getIdAutor(conexao, processaInformacaoBd.especie_id);
-        if (idAutor !== -1) {
-            // autor nome científico
-            await ehIgualAutorNomeCientifico(conexao, idAutor, informacaoReflora).then(nomeAutorCientifico => {
-                if (nomeAutorCientifico !== -1) {
-                    alteracaoInformacao += `nome_cientifico_autor: ${nomeAutorCientifico}, `;
-                }
-            });
-        }
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
         // eslint-disable-next-line no-console

@@ -13,14 +13,9 @@ import modeloTombosFotos from '../models/TomboFoto';
 import modeloTombos from '../models/Tombo';
 import modeloFamilias from '../models/Familia';
 import modeloGeneros from '../models/Genero';
-import modeloTipos from '../models/Tipo';
 import modeloEspecies from '../models/Especie';
 import modeloSubespecies from '../models/Subespecie';
 import modeloVariedades from '../models/Variedade';
-import modeloLocalColeta from '../models/LocalColeta';
-import modeloCidade from '../models/Cidade';
-import modeloAutor from '../models/Autor';
-import modeloVegetacao from '../models/Vegetacao';
 import modeloAlteracao from '../models/Alteracao';
 import modeloUsuario from '../models/Usuario';
 import modeloReflora from '../models/Reflora';
@@ -362,104 +357,6 @@ export function selectTombo(conexao, nroTombo) {
     return promessa.promise;
 }
 
-export function selectLocalColeta(conexao, idLocalColeta) {
-    const tabelaLocalColeta = modeloLocalColeta(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaLocalColeta.findAll({
-            attributes: ['cidade_id', 'vegetacao_id'],
-            where: { id: idLocalColeta },
-        }).then(infoLocalColeta => {
-            promessa.resolve(infoLocalColeta);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectPais(conexao, idCidade) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_paises_nome'],
-            where: { id: idCidade },
-        }).then(pais => {
-            promessa.resolve(pais);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectPaisSigla(conexao, idCidade) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_paises_sigla'],
-            where: { id: idCidade },
-        }).then(siglaPais => {
-            promessa.resolve(siglaPais);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectEstado(conexao, idCidade) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['estados_nome'],
-            where: { id: idCidade },
-        }).then(estado => {
-            promessa.resolve(estado);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectCidade(conexao, idCidade) {
-    const tabelaCidade = modeloCidade(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaCidade.findAll({
-            attributes: ['nome'],
-            where: { id: idCidade },
-        }).then(cidade => {
-            promessa.resolve(cidade);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectVegetacao(conexao, idVegetacao) {
-    const tabelaVegetacao = modeloVegetacao(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaVegetacao.findAll({
-            attributes: ['nome'],
-            where: { id: idVegetacao },
-        }).then(vegetacao => {
-            promessa.resolve(vegetacao);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectTipo(conexao, idTipo) {
-    const tabelaTipo = modeloTipos(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaTipo.findAll({
-            attributes: ['nome'],
-            where: { id: idTipo },
-        }).then(tipo => {
-            promessa.resolve(tipo);
-        });
-    });
-    return promessa.promise;
-}
-
 export function selectFamilia(conexao, idFamilia) {
     const tabelaFamilia = modeloFamilias(conexao, Sequelize);
     const promessa = Q.defer();
@@ -525,20 +422,6 @@ export function selectVariedade(conexao, idFamilia) {
             where: { id: idFamilia },
         }).then(variedade => {
             promessa.resolve(variedade);
-        });
-    });
-    return promessa.promise;
-}
-
-export function selectAutor(conexao, idAutor) {
-    const tabelaAutor = modeloAutor(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaAutor.findAll({
-            attributes: ['nome'],
-            where: { id: idAutor },
-        }).then(autor => {
-            promessa.resolve(autor);
         });
     });
     return promessa.promise;

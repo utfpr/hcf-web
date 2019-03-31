@@ -44,9 +44,9 @@ function comecaReflora(conexao, nomeArquivo) {
     return promessa.promise;
 }
 
-function ehNecessarioFazerRequisicao(conexao, nomeArquivo) {
+function ehNecessarioFazerRequisicao(nomeArquivo) {
     const promessa = Q.defer();
-    // const conexao = criaConexao();
+    const conexao = criaConexao();
     /**
      * 1.Cria a tabela do Reflora e insere os códigos de barra nela
      * 2.A partir de todos os códigos de barras presente na tabela faz a requisição
@@ -70,7 +70,7 @@ function executaReflora(conexao, existeExecucaoReflora) {
     const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
     // console.log(nomeArquivo);
-    ehNecessarioFazerRequisicao(conexao, nomeArquivo).then(() => {
+    ehNecessarioFazerRequisicao(nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
         const conteudoLOG = leLOG(nomeArquivo);
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
