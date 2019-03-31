@@ -5,7 +5,7 @@ import moment from 'moment';
  * A função getHoraAtual, retorna a data (dia, mês, ano) e horas
  * (horas, minutos, segundos), separadas por hífen. As informações
  * de data são separadas por '/' e quando é horas são separadas por ':'.
- * @return {*} string, que é o nome do arquivo no formato compatível.
+ * @return string, que é o nome do arquivo no formato compatível.
  */
 export function getHoraAtual() {
     return moment().format('DD/MM/YYYY-HH:mm:ss');
@@ -15,7 +15,7 @@ export function getHoraAtual() {
  * A função getNomeArquivo, retorna a data (dia, mês, ano) e horas
  * (horas, minutos, segundos) e essas informações são separadas por
  * hífen, pois se utilizar '/' ou ':', não é possível criar um arquivo.
- * @return {*} string, que é o nome do arquivo no formato compatível.
+ * @return string, que é o nome do arquivo no formato compatível.
  */
 export function getNomeArquivo() {
     return moment().format('DD-MM-YYYY-HH-mm-ss');
