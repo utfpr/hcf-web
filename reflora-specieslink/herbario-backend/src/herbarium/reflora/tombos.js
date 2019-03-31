@@ -28,18 +28,18 @@ import {
     getIdAutor,
     ehIgualAutorNomeCientifico,
     existeAlteracaoSugerida,
-} from './datatombos';
+} from '../datatombos';
 import {
     processaRespostaReflora,
     temResultadoRespostaReflora,
-} from './reflora/reflora';
+} from './reflora';
 import {
     selectUmaInformacaoReflora,
     selectNroTomboNumBarra,
     selectTombo,
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
-} from './database';
+} from '../database';
 
 export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoReflora) {
     const promessa = Q.defer();
@@ -192,14 +192,21 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
     return promessa.promise;
 }
 
+/**
+ * A função fazComparacaoInformacao, primeiramente verifica se tem informações
+ * do reflora esperado. Se tem as informações esperada eu pego o número de tombo
+ * equivalente aquele tombo de código de barra, e com esse valor de número de tombo
+ * eu consigo pegar informações relacionadas a esse tombo. Comparando as informações
+ * vindas do Reflora com as presentes no banco de dados, eu verifico se me gerou
+ * um JSON. Quando me retorna JSON, eu verifico se existe essa alteração no banco
+ * de dados se não existe eu insiro ela no banco de dados.
+ * @param {*} conexao, conexão com o banco de dados para que se possa ser feito o select.
+ * @param {*} codBarra, é o código de barra relacionado ao tombo do HCF.
+ * @param {*} informacaoReflora, informação do tombo que está exposta do Reflora.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de realizar a comparação de informações.
+ */
 export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
-    /**
-     * 1.Só vai fazer a comparação se tiver resultado na resposta do reflora
-     * 2.Gera o JSON das informações que são divergentes
-     * 3.Verifica se esse JSON já foi sugerido (Falta mais aqui, a comparação do json)
-     * 4.Insere no banco de dados caso não exista (Falta habilitar)
-     * (Parâmetros: id do usuário, status da aprovação, númerto do tombo e tombo no formato json)
-     */
     const promessa = Q.defer();
     if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(conexao, codBarra).then(nroTombo => {
@@ -209,7 +216,6 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                 geraJsonAlteracao(conexao, getNroTombo, codBarra, getInformacaoReflora).then(alteracao => {
                     if (alteracao.length > 2) {
                         existeAlteracaoSugerida(conexao, getNroTombo, alteracao).then(existe => {
-                            // console.log(existe);
                             if (!existe) {
                                 insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', getNroTombo, alteracao);
                                 // eslint-disable-next-line no-console
@@ -228,13 +234,17 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
     return promessa.promise;
 }
 
+/**
+ * A função fazComparacaoTombo, faz um select na tabela do reflora verificando
+ * se tem algum tombo que já foi comparado ou não. Se o resultado dessa requisição
+ * é maior que zero, então eu pego o json e começo a realizar as comparações, e depois
+ * marco que esse json já foi comparado. Após isso, eu chamo novamente essa função
+ * e faço isso até com que seja comparado todos os json.
+ * @param {*} conexao, conexão com o banco de dados para que se possa ser feito o select.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando acabar de realizar a recursão.
+ */
 export function fazComparacaoTombo(conexao) {
-    /**
-     * 1.Para uma dada quantidade de itens faz um select (usando limit e quando não tenha sido comparado)
-     * 2.Com o valor retornado, pega o valor de código de barra e procurar informações daquele tombo no BD
-     * 3.Faz a comparação de informações
-     * Falta tratar quando chega na última iteração (Feito)
-     */
     const promessa = Q.defer();
     const throttle = throttledQueue(1, 1000);
     selectUmaInformacaoReflora(conexao).then(informacaoReflora => {

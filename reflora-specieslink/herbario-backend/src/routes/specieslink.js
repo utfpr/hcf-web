@@ -21,7 +21,7 @@ const uploadMiddleware = multer({
 export default app => {
     app.route('/specieslink-executa').post([
         uploadMiddleware,
-        controller.preparaRequisicao,
+        controller.preparaAtualizacao,
     ]);
     app.route('/specieslink-status-execucao').get([
         controller.statusExecucao,

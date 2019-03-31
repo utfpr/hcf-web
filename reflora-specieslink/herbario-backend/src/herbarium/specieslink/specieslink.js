@@ -1,5 +1,4 @@
 import Q from 'q';
-//  import { escreveLOG } from '../log';
 import { selectTombo, insereAlteracaoSugerida } from '../database';
 import {
     ehIgualNomeCientifico,
@@ -25,20 +24,14 @@ import {
 } from '../datatombos';
 
 export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
-    // escreveLOG(nomeArquivo, 'Inicializando a aplicação do SpeciesLink.');
     const promessa = Q.defer();
-    // for (let i =)
     if (listaConteudoArquivo.length === 0) {
-        // console.log('acabou');
         promessa.resolve(true);
     } else {
         const conteudo = listaConteudoArquivo.pop();
         const codBarra = conteudo[3];
         selectTombo(conexao, codBarra).then(async tombo => {
-            // const informacoesTomboBd = tombo[0].dataValues;
             if (tombo.length === 0) {
-                // eslint-disable-next-line no-console
-                console.log(`R: ${listaConteudoArquivo.length}-${tombo}`);
                 promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
             } else {
                 let alteracaoInformacao = '{';

@@ -12,7 +12,7 @@ import {
     atualizaFimTabelaConfiguracao,
     atualizaProximaDataConfiguracao,
 } from '../database';
-import { fazComparacaoTombo } from '../tombos';
+import { fazComparacaoTombo } from './tombos';
 import { fazRequisicaoReflora } from './reflora';
 import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim,
