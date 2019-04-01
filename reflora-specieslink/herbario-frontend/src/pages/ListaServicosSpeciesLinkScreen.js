@@ -97,15 +97,11 @@ class ListaServicosSpeciesLinkScreen extends Component {
         this.timerStatusExecucao = setInterval(() => {
             axios.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
-                    console.log(`->${response.data.result}`)
-                    console.log(`x->${response.data.result === 'true'}`)
                     if (response.data.result) {
-                        console.log('bbbbaqui')
                         if (this.state.estaMontado) {
                             this.setState({ statusExecucao: true });
                         }
                     } else {
-                        console.log('ccccaqui')
                         if (this.state.estaMontado) {
                             this.setState({ statusExecucao: false });
                         }

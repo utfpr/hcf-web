@@ -17,6 +17,11 @@ app.use(morgan('dev'));
 app.use('/api', routes);
 app.use(errors);
 
+/**
+ * Essas duas daemon são utilizadas, ela são iniciadas juntamente
+ * com o back end. Essas daemon de tempos em tempos verificam
+ * se é necessário realizar o processo de atualização do serviço.
+ */
 daemonFazRequisicaoReflora();
 daemonSpeciesLink();
 

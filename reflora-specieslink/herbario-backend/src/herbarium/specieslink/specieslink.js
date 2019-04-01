@@ -65,23 +65,15 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
                 alteracaoInformacao += '}';
                 if (alteracaoInformacao.length > 2) {
-                    // a
                     existeAlteracaoSugerida(conexao, codBarra, alteracaoInformacao).then(existe => {
-                        // console.log(existe);
                         if (!existe) {
                             insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', codBarra, alteracaoInformacao);
-                            // eslint-disable-next-line no-console
-                            console.log(`R: ${listaConteudoArquivo.length}-${alteracaoInformacao}`);
                             promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
                         } else {
-                            // eslint-disable-next-line no-console
-                            console.log(`R: ${listaConteudoArquivo.length}-${alteracaoInformacao}`);
                             promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
                         }
                     });
                 } else {
-                    // eslint-disable-next-line no-console
-                    console.log(`R: ${listaConteudoArquivo.length}-${alteracaoInformacao}`);
                     promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
                 }
             }

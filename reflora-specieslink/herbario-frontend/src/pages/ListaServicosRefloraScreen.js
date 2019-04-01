@@ -308,14 +308,11 @@ class ListaServicosRefloraScreen extends Component {
             periodicidade: this.retornaValorPeriodicidade(),
             data_proxima_atualizacao: this.retornaDataProximaAtualizacao(),
         };
-        console.log(`a${params.data_proxima_atualizacao}`);
         AXIOS.get('/reflora', { params }).then(response => {
             if (response.status === 200) {
-                console.log(response.data)
                 if (response.data.result === 'failed') {
                     this.exibeNotificacao('error', 'Falha', 'Não foi possível agendar o novo horário de atualização.');
                 } else {
-                    console.log(typeof (params.periodicidade))
                     if (params.periodicidade === 2) {
                         this.exibeNotificacao('success', 'Sucesso', this.mensagemSemanal(moment().isoWeekday()));
                     }

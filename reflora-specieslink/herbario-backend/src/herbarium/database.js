@@ -67,21 +67,6 @@ export function criaTabelaReflora(conexao) {
 }
 
 /**
- * A função criaTabelaConfiguracao, cria uma tabela chamada configuracao,
- * com base no modelo que foi chamado e dentro desse modelo,
- * existe nome das colunas que estarão presentes nessa tabela.
- * Nessa tabela é armazenando quando foi ou irá ser executado o
- * serviço do Reflora ou do species Link.
- * @param {*} conexao, conexão com o banco de dados para criar a tabela.
- * @return tabelaConfiguracao, que é a tabela que foi criada.
- */
-export function criaTabelaConfiguracao(conexao) {
-    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    tabelaConfiguracao.sync({ force: false });
-    return tabelaConfiguracao;
-}
-
-/**
  * A função selectExecutandoReflora, realiza um consulta no banco de dados,
  * mas especificamente na tabela de configuracao, na qual é retornado registros
  * que tem o valor da coluna igual ao atributo nulo, e serviço igual a um. O nulo nessa coluna

@@ -72,10 +72,6 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         });
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
-        // eslint-disable-next-line no-console
-        console.log('==============================================================================');
-        // eslint-disable-next-line no-console
-        console.log(`->${alteracaoInformacao}`);
         atualizaJaComparouTabelaReflora(conexao, codBarra);
         promessa.resolve(alteracaoInformacao);
     });
@@ -108,8 +104,6 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                         existeAlteracaoSugerida(conexao, getNroTombo, alteracao).then(existe => {
                             if (!existe) {
                                 insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', getNroTombo, alteracao);
-                                // eslint-disable-next-line no-console
-                                console.log(alteracao);
                                 promessa.resolve();
                             }
                             promessa.resolve();

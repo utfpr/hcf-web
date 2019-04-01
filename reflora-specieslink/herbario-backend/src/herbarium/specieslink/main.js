@@ -12,7 +12,7 @@ import {
 import { realizaComparacao } from './specieslink';
 
 /**
- * A função agendaComparacaoSpciesLink(), faz um select verificando se tem o serviço do SpeciesLink
+ * A função agendaComparacaoSpeciesLink(), faz um select verificando se tem o serviço do SpeciesLink
  * na tabela de configuração. Se o resultado dessa busca for zero, ou seja, não
  * tem nada insere um dado na tabela, caso contrário eu verifico significa
  * que tem um registro no banco de dados. Então eu pego esse registro no BD,
@@ -20,7 +20,7 @@ import { realizaComparacao } from './specieslink';
  * Se essa condição for verdade, significa que o processo já acabou, então posso
  * atualiza com os novos valores. Caso contrário está executando.
  */
-export function agendaComparacaoSpciesLink(nomeArquivo, response) {
+export function agendaComparacaoSpeciesLink(nomeArquivo, response) {
     const conexao = criaConexao();
     selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
