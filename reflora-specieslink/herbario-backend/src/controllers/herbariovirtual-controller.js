@@ -22,14 +22,12 @@ const fs = require('fs');
 export const todosLogs = (request, response, next) => {
     const { herbarioVirtual } = request.query;
     let diretorioLog = '';
+    /** linux */
     if (herbarioVirtual === 'reflora') {
-        /** linux */
         diretorioLog = `${__dirname}/../../logs/reflora`;
     } else {
-        /** linux */
         diretorioLog = `${__dirname}/../../logs/specieslink/`;
     }
-    /** windows */
     let nomeArquivos = '';
     const listaArquivos = fs.readdirSync(diretorioLog);
     if (listaArquivos.length > 0) {
@@ -38,11 +36,10 @@ export const todosLogs = (request, response, next) => {
         });
         const jsonLogs = nomeArquivos.substring(0, nomeArquivos.lastIndexOf(','));
         let tempoGasto = '';
+        /** linux */
         if (herbarioVirtual === 'reflora') {
-            /** linux */
             tempoGasto = tempoGastoLog(leLOG(`reflora/${listaArquivos[listaArquivos.length - 1].replace('.log', '')}`));
         } else {
-            /** linux */
             tempoGasto = tempoGastoLog(leLOG(`specieslink/${listaArquivos[listaArquivos.length - 1].replace('.log', '')}`));
         }
         response.status(200).json(JSON.parse(`{ "logs":[ ${jsonLogs} ], "duracao": "${tempoGasto}" }`));
@@ -71,7 +68,6 @@ export const getLog = (request, response, next) => {
     } else {
         conteudoLog = transformaLog(leLOG(`/specieslink/${processaNomeArquivoTres}`));
     }
-    // const conteudoLog = transformaLog(leLOG(processaNomeArquivoTres));
     response.status(200).json(conteudoLog);
 };
 

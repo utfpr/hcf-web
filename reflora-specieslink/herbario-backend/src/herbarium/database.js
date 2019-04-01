@@ -69,9 +69,12 @@ export function criaTabelaReflora(conexao) {
 /**
  * A função selectTemExecucaoServico, realiza um consulta no banco de dados,
  * mas especificamente na tabela de configuracao, na qual é retornado registros
- * que tem o valor do serviço igual a dois, em que o dois representa o serviço
- * do species Link que deve ser executado.
+ * que tem o valor do serviço igual ao valor que foi passado por parâmetro,
+ * em que um representa o serviço do Reflora e número dois representa
+ * o serviço do species Link que deve ser executado.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} idServico, em que o identificador um é o serviço do Reflora e o identificador
+ * dois é o serviço do species Link.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
@@ -95,6 +98,8 @@ export function selectTemExecucaoServico(conexao, idServico) {
  * representa que é um serviço que não foi executado, e dois representa que é o serviço
  * do species Link que deve ser executado.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} idServico, em que o identificador um é o serviço do Reflora e o identificador
+ * dois é o serviço do species Link.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
@@ -161,9 +166,7 @@ export function atualizaProximaDataConfiguracao(conexao, idExecucao, proximaAtua
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(
-        {
-            data_proxima_atualizacao: proximaAtualizacao,
-        },
+        { data_proxima_atualizacao: proximaAtualizacao },
         { where: { id: idExecucao } },
     ).then(() => {
         promessa.resolve();
@@ -359,7 +362,6 @@ export function selectUmCodBarra(conexao) {
             where: { contador: 0 },
             limit: 1,
         }).then(codBarra => {
-            // callback(codBarra);
             promessa.resolve(codBarra);
         });
     });
@@ -680,6 +682,7 @@ export function apagaTabelaReflora(conexao) {
     promessa.resolve(tabelaReflora.drop());
     return promessa.promise;
 }
+
 /**
  * Detalhe para o Sequelize funcionar é necessário funcionar o mysql2;
  * Além disso, o Sequelize funciona com modelos, cada tabela é um modelo.
