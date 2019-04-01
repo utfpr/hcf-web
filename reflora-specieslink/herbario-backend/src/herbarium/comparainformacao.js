@@ -316,6 +316,17 @@ export function ehIgualVariedade(conexao, idVariedade, nomeVariedadeHerbarioVirt
     return promessa.promise;
 }
 
+/**
+ * A função ehIgualJson, compara dois JSON o que está presente
+ * no banco de dados, com o que foi gerado quando encontrado
+ * informações divergentes. Se o JSON presente no banco de dados
+ * é igual ao JSON gerado então é igual e é retornado true,
+ * caso não seja igual é retornado false.
+ * @param {*} jsonBd, JSON presente na tabela de alterações, guardando informações das alterações.
+ * @param {*} jsonGerado, JSON gerado quando foi feito a comparação das informações presentes
+ * no banco de dados, com os do Herbário Virtual.
+ * @return true ou false, true quando os dois JSON são iguais, e false quando os dois JSON são diferentes.
+ */
 function ehIgualJson(jsonBd, jsonGerado) {
     if (jsonBd === jsonGerado) {
         return true;
@@ -323,6 +334,20 @@ function ehIgualJson(jsonBd, jsonGerado) {
     return false;
 }
 
+/**
+ * A função existeAlteracaoSugerida, faz um select na tabela de alterações daquele
+ * na qual se buscou informações no Herbário Virtual. Com o resultado dessa consulta
+ * eu verifico se o JSON presente no resultado dessa consulta é igual ou diferente ao JSON
+ * que foi gerado a partir das comparações feitas. Se for igual a um dos JSON presentes no resultado
+ * da consulta eu retorno true, representando que essa alteração já foi sugerida, caso contrário
+ * retorno false.
+ * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} nroTombo, é o número do tombo utilizado para buscar informações de alterações
+ * que possam existir.
+ * @param {*} jsonGerado, JSON gerado quando foi feito a comparação das informações presentes
+ * no banco de dados, com os do Herbário Virtual.
+ * @return true ou false, true quando os dois JSON são iguais, e false quando os dois JSON são diferentes.
+ */
 export function existeAlteracaoSugerida(conexao, nroTombo, jsonGerado) {
     const promessa = Q.defer();
     selectInformacaoTomboJson(conexao, nroTombo).then(listaTomboJson => {
