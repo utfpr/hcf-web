@@ -10,12 +10,12 @@ import {
     existeTabelaReflora,
     selectEstaExecutandoServico,
     atualizaFimTabelaConfiguracao,
-    atualizaProximaDataConfiguracao,
-} from '../database';
+    atualizaTabelaConfiguracaoReflora,
+} from '../herbariumdatabase';
 import { fazComparacaoTombo } from './tombos';
 import { fazRequisicaoReflora } from './reflora';
 import {
-    escreveLOG, leLOG, processaNomeLog, getHoraFim,
+    escreveLOG, leLOG, processaNomeLog, getHoraFim, getHoraAtual,
 } from '../log';
 
 /**
@@ -138,7 +138,7 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
         if (moment().format('HH') === '00') {
             preparaExecucaoReflora(conexao, existeExecucaoReflora[0]).then(() => {
-                atualizaProximaDataConfiguracao(conexao, existeExecucaoReflora[0].id, moment().day(agendamento).format('DD/MM/YYYY'));
+                atualizaTabelaConfiguracaoReflora(conexao, existeExecucaoReflora[0].id, getHoraAtual(), null, existeExecucaoReflora[0].periodicidade, moment().day(agendamento).format('DD/MM/YYYY'));
             });
         } else {
             // eslint-disable-next-line no-console

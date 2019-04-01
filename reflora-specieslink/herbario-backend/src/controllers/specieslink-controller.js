@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import fs from 'fs';
 import { agendaComparacaoSpeciesLink } from '../herbarium/specieslink/main';
-import { criaConexao, selectTemExecucaoServico } from '../herbarium/database';
+import { criaConexao, selectTemExecucaoServico } from '../herbarium/herbariumdatabase';
 
 /**
  * A função preparaAtualizacao, verifica se o arquivo que foi enviado

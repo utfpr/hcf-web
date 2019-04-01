@@ -150,32 +150,7 @@ export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario
 }
 
 /**
- * A função atualizaProximaDataConfiguracao, ele pega o registro na tabela
- * com base no identificador que foi passado como parâmetro e atualiza
- * com a nova data de próxima atualização passada por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
- * @param {*} idExecucao, é o identificador do serviço da execução na qual terá
- * o seu novo valor de data de próxima atualização.
- * @param {*} proximaAtualizacao, é a data da nova da data da próxima atualização
- * em que será feito a próxima comparação de dados, utilizada somente no Reflora,
- * no speciesLink é nulo.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a atualização.
- */
-export function atualizaProximaDataConfiguracao(conexao, idExecucao, proximaAtualizacao) {
-    const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
-    const promessa = Q.defer();
-    tabelaConfiguracaoReflora.update(
-        { data_proxima_atualizacao: proximaAtualizacao },
-        { where: { id: idExecucao } },
-    ).then(() => {
-        promessa.resolve();
-    });
-    return promessa.promise;
-}
-
-/**
- * A função atualizaInicioTabelaConfiguracao, ele pega o registro na tabela
+ * A função atualizaTabelaConfiguracaoReflora, ele pega o registro na tabela
  * com base no identificador que foi passado como parâmetro e atualiza
  * com a nova hora de início, hora de fim, data de próxima atualização,
  * periodicidade passada por parâmetro.
@@ -190,7 +165,7 @@ export function atualizaProximaDataConfiguracao(conexao, idExecucao, proximaAtua
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaInicioTabelaConfiguracao(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, proximaAtualizacao) {
+export function atualizaTabelaConfiguracaoReflora(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, proximaAtualizacao) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(

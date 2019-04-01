@@ -8,7 +8,7 @@ import {
     selectEstaExecutandoServico,
     atualizaNomeArquivoSpeciesLink,
     atualizaHoraFimSpeciesLink,
-} from '../database';
+} from '../herbariumdatabase';
 import { realizaComparacao } from './specieslink';
 
 /**

@@ -1,5 +1,5 @@
 import Q from 'q';
-import { selectTombo, insereAlteracaoSugerida } from '../database';
+import { selectTombo, insereAlteracaoSugerida } from '../herbariumdatabase';
 import {
     ehIgualFamilia,
     ehIgualGenero,

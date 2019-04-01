@@ -7,9 +7,9 @@ import {
     criaConexao,
     selectTemExecucaoServico,
     insereExecucao,
-    atualizaInicioTabelaConfiguracao,
+    atualizaTabelaConfiguracaoReflora,
     selectEstaExecutandoServico,
-} from '../herbarium/database';
+} from '../herbarium/herbariumdatabase';
 
 /**
  * A função preparaRequisicao, faz um select no banco verificando se tem registros
@@ -38,7 +38,7 @@ export const preparaRequisicao = (request, response, next) => {
             } else if ((periodicidadeBD === 'SEMANAL') || (periodicidadeBD === '1MES') || (periodicidadeBD === '2MESES')) {
                 if (moment().format('DD/MM/YYYY') !== listaExecucaoReflora[0].dataValues.data_proxima_atualizacao) {
                     const { id } = listaExecucaoReflora[0].dataValues;
-                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
+                    atualizaTabelaConfiguracaoReflora(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                     });
                 } else {
@@ -53,7 +53,7 @@ export const preparaRequisicao = (request, response, next) => {
                     });
                 } else {
                     const { id } = execucaoReflora[0].dataValues;
-                    atualizaInicioTabelaConfiguracao(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
+                    atualizaTabelaConfiguracaoReflora(conexao, id, getHoraAtual(), null, periodicidade, proximaAtualizacao).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
                     });
                 }

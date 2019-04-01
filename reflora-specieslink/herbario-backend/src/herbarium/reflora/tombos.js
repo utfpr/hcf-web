@@ -19,7 +19,7 @@ import {
     selectTombo,
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
-} from '../database';
+} from '../herbariumdatabase';
 
 /**
  * A função fazComparacaoInformacao, é comparado informações do banco de dados com as que

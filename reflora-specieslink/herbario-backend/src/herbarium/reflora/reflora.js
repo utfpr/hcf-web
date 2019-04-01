@@ -6,7 +6,7 @@ import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
     atualizaTabelaReflora,
-} from '../database';
+} from '../herbariumdatabase';
 
 /**
  * A função processaRespostaReflora, converte o resultado da resposta do Reflora

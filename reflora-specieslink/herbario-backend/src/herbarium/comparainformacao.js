@@ -8,7 +8,7 @@ import {
     selectEspecie,
     selectVariedade,
     selectSubespecie,
-} from './database';
+} from './herbariumdatabase';
 
 /**
  * A função valorEhIndefinido, verifica se o valor que foi passado
