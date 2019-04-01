@@ -55,57 +55,57 @@ export function selectCodBarra(conexao) {
  * com base no modelo que foi chamado e dentro desse modelo,
  * existe nome das colunas que estarão presentes nessa tabela.
  * Nessa tabela é guardado os códigos de barras, e as respostas das requisições.
+ * Detalhe force: true é igual ao drop table.
  * @param {*} conexao, conexão com o banco de dados para criar a tabela.
  * @return tabelaReflora, que é a tabela que foi criada.
  */
 export function criaTabelaReflora(conexao) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
-    // force: true => dá um drop table
     tabelaReflora.sync({ force: true });
     tabelaReflora.removeAttribute('id');
     return tabelaReflora;
 }
 
 /**
- * A função selectExecutandoReflora, realiza um consulta no banco de dados,
+ * A função selectTemExecucaoServico, realiza um consulta no banco de dados,
  * mas especificamente na tabela de configuracao, na qual é retornado registros
- * que tem o valor da coluna igual ao atributo nulo, e serviço igual a um. O nulo nessa coluna
- * representa que é um serviço que não foi executado, e um representa que é o serviço
- * do Reflora que deve ser executado.
+ * que tem o valor do serviço igual a dois, em que o dois representa o serviço
+ * do species Link que deve ser executado.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectExecutandoReflora(conexao) {
+export function selectTemExecucaoServico(conexao, idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaConfiguracao.findAll({
-            where: { hora_fim: null, servico: 1 },
-        }).then(listaExecucaoReflora => {
-            promessa.resolve(listaExecucaoReflora);
+            where: { servico: idServico },
+        }).then(listaServico => {
+            promessa.resolve(listaServico);
         });
     });
     return promessa.promise;
 }
 
 /**
- * A função selectExisteServicoReflora, realiza um consulta no banco de dados,
+ * A função selectEstaExecutandoServico, realiza um consulta no banco de dados,
  * mas especificamente na tabela de configuracao, na qual é retornado registros
- * que tem o valor do serviço igual a um, em que um representa o serviço
- * do Reflora que deve ser executado.
+ * que tem o valor da coluna igual ao atributo nulo, e serviço igual a dois. O nulo nessa coluna
+ * representa que é um serviço que não foi executado, e dois representa que é o serviço
+ * do species Link que deve ser executado.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectExisteServicoReflora(conexao) {
+export function selectEstaExecutandoServico(conexao, idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     conexao.sync().then(() => {
         tabelaConfiguracao.findAll({
-            where: { servico: 1 },
-        }).then(listaExecucaoReflora => {
-            promessa.resolve(listaExecucaoReflora);
+            where: { hora_fim: null, servico: idServico },
+        }).then(listaServico => {
+            promessa.resolve(listaServico);
         });
     });
     return promessa.promise;
@@ -223,51 +223,6 @@ export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou)
         { where: { id: idExecucao } },
     ).then(() => {
         promessa.resolve();
-    });
-    return promessa.promise;
-}
-
-/**
- * A função selectTemExecucaoSpeciesLink, realiza um consulta no banco de dados,
- * mas especificamente na tabela de configuracao, na qual é retornado registros
- * que tem o valor do serviço igual a dois, em que o dois representa o serviço
- * do species Link que deve ser executado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectTemExecucaoSpeciesLink(conexao) {
-    const promessa = Q.defer();
-    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaConfiguracao.findAll({
-            where: { servico: 2 },
-        }).then(listaExecucaoReflora => {
-            promessa.resolve(listaExecucaoReflora);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
- * A função selectEstaExecutandoSpeciesLink, realiza um consulta no banco de dados,
- * mas especificamente na tabela de configuracao, na qual é retornado registros
- * que tem o valor da coluna igual ao atributo nulo, e serviço igual a dois. O nulo nessa coluna
- * representa que é um serviço que não foi executado, e dois representa que é o serviço
- * do species Link que deve ser executado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectEstaExecutandoSpeciesLink(conexao) {
-    const promessa = Q.defer();
-    const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaConfiguracao.findAll({
-            where: { hora_fim: null, servico: 2 },
-        }).then(listaExecucaoReflora => {
-            promessa.resolve(listaExecucaoReflora);
-        });
     });
     return promessa.promise;
 }

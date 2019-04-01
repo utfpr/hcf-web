@@ -8,7 +8,7 @@ import {
     selectCodBarra,
     apagaTabelaReflora,
     existeTabelaReflora,
-    selectExecutandoReflora,
+    selectEstaExecutandoServico,
     atualizaFimTabelaConfiguracao,
     atualizaProximaDataConfiguracao,
 } from '../database';
@@ -161,7 +161,7 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
 export function daemonFazRequisicaoReflora() {
     const conexao = criaConexao();
     setInterval(() => {
-        selectExecutandoReflora(conexao).then(existeExecucaoReflora => {
+        selectEstaExecutandoServico(conexao, 1).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
                     preparaExecucaoReflora(conexao, existeExecucaoReflora[0]);

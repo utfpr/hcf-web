@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import fs from 'fs';
 import { agendaComparacaoSpeciesLink } from '../herbarium/specieslink/main';
-import { criaConexao, selectTemExecucaoSpeciesLink } from '../herbarium/database';
+import { criaConexao, selectTemExecucaoServico } from '../herbarium/database';
 
 /**
  * A função preparaAtualizacao, verifica se o arquivo que foi enviado
@@ -39,7 +39,7 @@ export const preparaAtualizacao = (request, response, next) => {
  */
 export const statusExecucao = (request, response, next) => {
     const conexao = criaConexao();
-    selectTemExecucaoSpeciesLink(conexao).then(execucao => {
+    selectTemExecucaoServico(conexao, 2).then(execucao => {
         if (execucao.length === 0) {
             response.status(200).json(JSON.parse(' { "result": false } '));
         } else {

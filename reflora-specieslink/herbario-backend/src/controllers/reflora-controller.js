@@ -5,10 +5,10 @@ import {
 } from '../herbarium/log';
 import {
     criaConexao,
-    selectExisteServicoReflora,
+    selectTemExecucaoServico,
     insereExecucao,
     atualizaInicioTabelaConfiguracao,
-    selectExecutandoReflora,
+    selectEstaExecutandoServico,
 } from '../herbarium/database';
 
 /**
@@ -30,7 +30,7 @@ export const preparaRequisicao = (request, response, next) => {
     const { periodicidade } = request.query;
     const proximaAtualizacao = request.query.data_proxima_atualizacao;
     const conexao = criaConexao();
-    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
+    selectEstaExecutandoServico(conexao, 1).then(listaExecucaoReflora => {
         if (listaExecucaoReflora.length > 0) {
             const periodicidadeBD = listaExecucaoReflora[0].dataValues.periodicidade;
             if (periodicidadeBD === 'MANUAL') {
@@ -46,7 +46,7 @@ export const preparaRequisicao = (request, response, next) => {
                 }
             }
         } else {
-            selectExisteServicoReflora(conexao).then(execucaoReflora => {
+            selectTemExecucaoServico(conexao, 1).then(execucaoReflora => {
                 if (execucaoReflora.length === 0) {
                     insereExecucao(conexao, getHoraAtual(), null, periodicidade, proximaAtualizacao, 1).then(() => {
                         response.status(200).json(JSON.parse(' { "result": "success" } '));
@@ -77,7 +77,7 @@ export const preparaRequisicao = (request, response, next) => {
  */
 export const estaExecutando = (request, response, next) => {
     const conexao = criaConexao();
-    selectExecutandoReflora(conexao).then(listaExecucaoReflora => {
+    selectEstaExecutandoServico(conexao, 1).then(listaExecucaoReflora => {
         response.header('Access-Control-Allow-Origin', '*');
         response.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type');
         response.header('Access-Control-Allow-Methods', 'GET');

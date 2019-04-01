@@ -3,9 +3,9 @@ import { processaArquivo } from './arquivo';
 import { getHoraAtual, escreveLOG, processaNomeLog } from '../log';
 import {
     criaConexao,
-    selectTemExecucaoSpeciesLink,
+    selectTemExecucaoServico,
     insereExecucaoSpeciesLink,
-    selectEstaExecutandoSpeciesLink,
+    selectEstaExecutandoServico,
     atualizaNomeArquivoSpeciesLink,
     atualizaHoraFimSpeciesLink,
 } from '../database';
@@ -22,7 +22,7 @@ import { realizaComparacao } from './specieslink';
  */
 export function agendaComparacaoSpeciesLink(nomeArquivo, response) {
     const conexao = criaConexao();
-    selectTemExecucaoSpeciesLink(conexao).then(execucaoSpeciesLink => {
+    selectTemExecucaoServico(conexao, 2).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
             insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
             response.status(200).json(JSON.parse(' { "result": "success" } '));
@@ -51,7 +51,7 @@ export function agendaComparacaoSpeciesLink(nomeArquivo, response) {
 export function daemonSpeciesLink() {
     const conexao = criaConexao();
     setInterval(() => {
-        selectEstaExecutandoSpeciesLink(conexao).then(statusExecucao => {
+        selectEstaExecutandoServico(conexao, 2).then(statusExecucao => {
             if (statusExecucao.length > 0) {
                 const horaFim = statusExecucao[0].dataValues.hora_fim;
                 const horaInicio = statusExecucao[0].dataValues.hora_inicio;
