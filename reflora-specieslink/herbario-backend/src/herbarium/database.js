@@ -17,7 +17,6 @@ import modeloEspecies from '../models/Especie';
 import modeloSubespecies from '../models/Subespecie';
 import modeloVariedades from '../models/Variedade';
 import modeloAlteracao from '../models/Alteracao';
-import modeloUsuario from '../models/Usuario';
 import modeloReflora from '../models/Reflora';
 import modeloConfiguracao from '../models/Configuracao';
 
@@ -677,6 +676,19 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
     return promessa.promise;
 }
 
+/**
+ * A função insereAlteracaoSugerida, ela insere um registro na tabela de alteração
+ * quando foi encontrada uma alteração, as informações que serão adicionado
+ * nesse registro foram passadas por parâmetro.
+ * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
+ * @param {*} idUsuario, é o identificador do usuário que sugeriu essa alteração.
+ * @param {*} statusAlteracao, é o status dessa alteração que foi sugerida e inserida no banco de dados.
+ * @param {*} idTombo, é o identificador do tombo para identificar que a alteração sugerida,
+ * está relacionada a determinado identificador do tombo.
+ * @param {*} tomboJson, é a alteração que foi sugerida no formato JSON.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de realizar a inserção.
+ */
 export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idTombo, tomboJson) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const throttle = throttledQueue(1, 200);
@@ -694,19 +706,14 @@ export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idT
     return promessa.promise;
 }
 
-export function selectComparacoesFaltante(conexao) {
-    const tabelaReflora = modeloReflora(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaReflora.findAll({
-            where: { ja_comparou: false },
-        }).then(listaComparacoes => {
-            promessa.resolve(listaComparacoes);
-        });
-    });
-    return promessa.promise;
-}
-
+/**
+ * A função existeTabelaReflora, executa um SHOW TABLES verificando
+ * se existe a tabela do reflora ou não. Se existir a tabela do reflora
+ * retorna true, e caso não exista false.
+ * @param {*} conexao, conexão com o banco de dados para que se possa verificar se existe tabela ou não.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de realizar a consulta de verificar se existe ou não a tabela.
+ */
 export function existeTabelaReflora(conexao) {
     const promessa = Q.defer();
     conexao.query('SHOW TABLES', { type: Sequelize.QueryTypes.SHOWTABLES }).then(listaTabelas => {
@@ -720,6 +727,13 @@ export function existeTabelaReflora(conexao) {
     return promessa.promise;
 }
 
+/**
+ * A função apagaTabelaReflora, executa um DROP TABLE, ou seja,
+ * apagar uma tabela que no caso é a tabela do reflora.
+ * @param {*} conexao, conexão com o banco de dados para que se possa apagar a tabela.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de apagar a tabela.
+ */
 export function apagaTabelaReflora(conexao) {
     const promessa = Q.defer();
     const tabelaReflora = modeloReflora(conexao, Sequelize);
