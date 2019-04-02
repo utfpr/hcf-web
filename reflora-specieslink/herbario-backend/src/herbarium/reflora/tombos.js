@@ -19,6 +19,7 @@ import {
     selectTombo,
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
+    selectJaExisteFamilia,
 } from '../herbariumdatabase';
 
 /**
@@ -47,27 +48,38 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         let alteracaoInformacao = '{';
         const processaInformacaoBd = tomboBd[0].dataValues;
         // família
-        await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
-            if (familia !== -1) {
-                alteracaoInformacao += `familia: ${familia}, `;
-            }
-        });
+        if (processaInformacaoBd.familia_id !== null) {
+            await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
+                if (familia !== -1) {
+                    selectJaExisteFamilia(conexao, familia).then(resultadoFamiliaExistente => {
+                        if (resultadoFamiliaExistente.length === 0) {
+                            // verificar qual valor de familia_id é
+                            alteracaoInformacao += `"familia_id": ${processaInformacaoBd.familia_id}, "familia": "${familia}", `;
+                        } else {
+                            alteracaoInformacao += `"familia_id": ${processaInformacaoBd.familia_id}, "familia": "${familia}", `;
+                        }
+                    });
+                }
+            });
+        }
+        // subfamilia
         // gênero
         await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {
             if (genero !== -1) {
-                alteracaoInformacao += `genero: ${genero}, `;
+                alteracaoInformacao += `"genero": "${genero}", `;
             }
         });
         // espécie
         await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.specificepithet).then(especie => {
             if (especie !== -1) {
-                alteracaoInformacao += `especie: ${especie}, `;
+                alteracaoInformacao += `"especie": "${especie}", `;
             }
         });
+        // subespecie
         // variedade
         await ehIgualVariedade(conexao, processaInformacaoBd, informacaoReflora.infraespecificepithet).then(variedade => {
             if (variedade !== -1) {
-                alteracaoInformacao += `especie: ${variedade}, `;
+                alteracaoInformacao += `"variedade": "${variedade}", `;
             }
         });
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));

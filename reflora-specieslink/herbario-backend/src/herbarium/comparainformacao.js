@@ -50,6 +50,13 @@ function processaString(valor) {
     return valor.replace(/\s/g, '').toLowerCase();
 }
 
+function ehNuloEhIndefinidoEhVazio(informacao) {
+    if (valorEhNulo(informacao) || valorEhIndefinido(informacao) || (informacao.length === 0)) {
+        return true;
+    }
+    return false;
+}
+
 /**
  * A função ehIgualFamilia, faz um select no banco de dados para obter informações
  * da família, e com essa informação da família é comparada com a informação da
@@ -79,16 +86,14 @@ export function ehIgualFamilia(conexao, idFamilia, nomeFamiliaHerbarioVirtual) {
             return promessa.promise;
         }
         const nomeFamiliaBd = resultadoFamiliaBd[0].dataValues.nome;
-        // const nomeFamiliaReflora = informacaoReflora.family;
-        if (valorEhIndefinido(nomeFamiliaBd) || valorEhIndefinido(nomeFamiliaHerbarioVirtual)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeFamiliaBd) && !ehNuloEhIndefinidoEhVazio(nomeFamiliaHerbarioVirtual)) {
+            promessa.resolve(nomeFamiliaHerbarioVirtual);
+            return promessa.promise;
+        } if (!ehNuloEhIndefinidoEhVazio(nomeFamiliaBd) && ehNuloEhIndefinidoEhVazio(nomeFamiliaHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (valorEhNulo(nomeFamiliaBd) || valorEhNulo(nomeFamiliaHerbarioVirtual)) {
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if ((nomeFamiliaBd.length === 0) || (nomeFamiliaHerbarioVirtual.length === 0)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeFamiliaBd) && ehNuloEhIndefinidoEhVazio(nomeFamiliaHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }

@@ -483,6 +483,30 @@ export function selectFamilia(conexao, idFamilia) {
     return promessa.promise;
 }
 
+export function selectJaExisteFamilia(conexao, nomeFamilia) {
+    const tabelaFamilia = modeloFamilias(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaFamilia.findAll({
+            where: { nome: nomeFamilia },
+        }).then(familia => {
+            promessa.resolve(familia);
+        });
+    });
+    return promessa.promise;
+}
+
+export function insereNovaFamilia(conexao, nomeFamilia) {
+    const tabelaFamilia = modeloFamilias(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaFamilia.create({
+        nome: nomeFamilia,
+    }).then(() => {
+        promessa.resolve();
+    });
+    return promessa.promise;
+}
+
 /**
  * A função selectGenero, realiza uma consulta no banco de dados e retorna o nome da gênero
  * baseado no valor de identificador passado por parâmetro.
