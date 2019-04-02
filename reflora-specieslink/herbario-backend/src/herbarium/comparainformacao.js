@@ -138,15 +138,14 @@ export function ehIgualGenero(conexao, idGenero, nomeGeneroHerbarioVirtual) {
             return promessa.promise;
         }
         const nomeGeneroBd = resultadoGeneroBd[0].dataValues.nome;
-        if (valorEhIndefinido(nomeGeneroBd) || valorEhIndefinido(nomeGeneroHerbarioVirtual)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeGeneroBd) && !ehNuloEhIndefinidoEhVazio(nomeGeneroHerbarioVirtual)) {
+            promessa.resolve(nomeGeneroHerbarioVirtual);
+            return promessa.promise;
+        } if (!ehNuloEhIndefinidoEhVazio(nomeGeneroBd) && ehNuloEhIndefinidoEhVazio(nomeGeneroHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (valorEhNulo(nomeGeneroBd) || valorEhNulo(nomeGeneroHerbarioVirtual)) {
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if ((nomeGeneroBd.length === 0) || (nomeGeneroHerbarioVirtual.length === 0)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeGeneroBd) && ehNuloEhIndefinidoEhVazio(nomeGeneroHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
@@ -191,15 +190,14 @@ export function ehIgualEspecie(conexao, idEspecie, nomeEspecieHerbarioVirtual) {
             return promessa.promise;
         }
         const nomeEspecieBd = resultadoEspecieBd[0].dataValues.nome;
-        if (valorEhIndefinido(nomeEspecieBd) || valorEhIndefinido(nomeEspecieHerbarioVirtual)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeEspecieBd) && !ehNuloEhIndefinidoEhVazio(nomeEspecieHerbarioVirtual)) {
+            promessa.resolve(nomeEspecieHerbarioVirtual);
+            return promessa.promise;
+        } if (!ehNuloEhIndefinidoEhVazio(nomeEspecieBd) && ehNuloEhIndefinidoEhVazio(nomeEspecieHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (valorEhNulo(nomeEspecieBd) || valorEhNulo(nomeEspecieHerbarioVirtual)) {
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if ((nomeEspecieBd.length === 0) || (nomeEspecieHerbarioVirtual.length === 0)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeEspecieBd) && ehNuloEhIndefinidoEhVazio(nomeEspecieHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
@@ -238,21 +236,20 @@ export function ehIgualEspecie(conexao, idEspecie, nomeEspecieHerbarioVirtual) {
  */
 export function ehIgualSubespecie(conexao, idSubespecie, nomeSubespecieHerbarioVirtual) {
     const promessa = Q.defer();
-    selectSubespecie(conexao, idSubespecie).then(resultadoEspecieBd => {
-        if (resultadoEspecieBd.length === 0) {
+    selectSubespecie(conexao, idSubespecie).then(resultadoSubespecieBd => {
+        if (resultadoSubespecieBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        const nomeSubespecieBd = resultadoEspecieBd[0].dataValues.nome;
-        if (valorEhIndefinido(nomeSubespecieBd) || valorEhIndefinido(nomeSubespecieHerbarioVirtual)) {
+        const nomeSubespecieBd = resultadoSubespecieBd[0].dataValues.nome;
+        if (ehNuloEhIndefinidoEhVazio(nomeSubespecieBd) && !ehNuloEhIndefinidoEhVazio(nomeSubespecieHerbarioVirtual)) {
+            promessa.resolve(nomeSubespecieHerbarioVirtual);
+            return promessa.promise;
+        } if (!ehNuloEhIndefinidoEhVazio(nomeSubespecieBd) && ehNuloEhIndefinidoEhVazio(nomeSubespecieHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (valorEhNulo(nomeSubespecieBd) || valorEhNulo(nomeSubespecieHerbarioVirtual)) {
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if ((nomeSubespecieBd.length === 0) || (nomeSubespecieHerbarioVirtual.length === 0)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeSubespecieBd) && ehNuloEhIndefinidoEhVazio(nomeSubespecieHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
@@ -297,15 +294,14 @@ export function ehIgualVariedade(conexao, idVariedade, nomeVariedadeHerbarioVirt
             return promessa.promise;
         }
         const nomeVariedadeBd = resultadoVariedadeBd[0].dataValues.nome;
-        if (valorEhIndefinido(nomeVariedadeBd) || valorEhIndefinido(nomeVariedadeHerbarioVirtual)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeVariedadeBd) && !ehNuloEhIndefinidoEhVazio(nomeVariedadeHerbarioVirtual)) {
+            promessa.resolve(nomeVariedadeHerbarioVirtual);
+            return promessa.promise;
+        } if (!ehNuloEhIndefinidoEhVazio(nomeVariedadeBd) && ehNuloEhIndefinidoEhVazio(nomeVariedadeHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
-        if (valorEhNulo(nomeVariedadeBd) || valorEhNulo(nomeVariedadeHerbarioVirtual)) {
-            promessa.resolve(-1);
-            return promessa.promise;
-        }
-        if ((nomeVariedadeBd.length === 0) || (nomeVariedadeHerbarioVirtual.length === 0)) {
+        if (ehNuloEhIndefinidoEhVazio(nomeVariedadeBd) && ehNuloEhIndefinidoEhVazio(nomeVariedadeHerbarioVirtual)) {
             promessa.resolve(-1);
             return promessa.promise;
         }
@@ -315,7 +311,7 @@ export function ehIgualVariedade(conexao, idVariedade, nomeVariedadeHerbarioVirt
             promessa.resolve(-1);
             return promessa.promise;
         }
-        promessa.resolve(nomeVariedadeHerbarioVirtual);
+        promessa.resolve(processaNomeVariedadeReflora);
         return promessa.promise;
     });
     return promessa.promise;
