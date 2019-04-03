@@ -19,10 +19,6 @@ import {
     selectTombo,
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
-    selectJaExisteFamilia,
-    selectJaExisteGenero,
-    selectJaExisteEspecie,
-    selectJaExisteVariedade,
 } from '../herbariumdatabase';
 
 /**
@@ -54,14 +50,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.familia_id !== null) {
             await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
                 if (familia !== -1) {
-                    selectJaExisteFamilia(conexao, familia).then(resultadoFamiliaExistente => {
-                        if (resultadoFamiliaExistente.length === 0) {
-                            // verificar qual valor de familia_id é
-                            alteracaoInformacao += `"familia_id": ${processaInformacaoBd.familia_id}, "familia": "${familia}", `;
-                        } else {
-                            alteracaoInformacao += `"familia_id": ${processaInformacaoBd.familia_id}, "familia": "${familia}", `;
-                        }
-                    });
+                    alteracaoInformacao += `"familia": "${familia}", `;
                 }
             });
         }
@@ -70,14 +59,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.genero_id !== null) {
             await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {
                 if (genero !== -1) {
-                    selectJaExisteGenero(conexao, genero).then(resultadoGeneroExistente => {
-                        if (resultadoGeneroExistente.length === 0) {
-                            // verificar qual valor de genero_id é
-                            alteracaoInformacao += `"genero_id": "${processaInformacaoBd.genero_id}",  "genero": "${genero}", `;
-                        } else {
-                            alteracaoInformacao += `"genero_id": "${processaInformacaoBd.genero_id}",  "genero": "${genero}", `;
-                        }
-                    });
+                    alteracaoInformacao += `"genero": "${genero}", `;
                 }
             });
         }
@@ -85,14 +67,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.especie_id !== null) {
             await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.specificepithet).then(especie => {
                 if (especie !== -1) {
-                    selectJaExisteEspecie(conexao, especie).then(resultadoEspecieExistente => {
-                        if (resultadoEspecieExistente.length === 0) {
-                            alteracaoInformacao += `"especie_id": "${processaInformacaoBd.especie_id}", "especie": "${especie}", `;
-                        } else {
-                            alteracaoInformacao += `"especie_id": "${processaInformacaoBd.especie_id}", "especie": "${especie}", `;
-                        }
-                    });
-                    // alteracaoInformacao += `"especie": "${especie}", `;
+                    alteracaoInformacao += `"especie": "${especie}", `;
                 }
             });
         }
@@ -100,13 +75,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         // variedade
         if (processaInformacaoBd.variedade_id) {
             await ehIgualVariedade(conexao, processaInformacaoBd.variedade_id, informacaoReflora.infraespecificepithet).then(variedade => {
-                selectJaExisteVariedade(conexao, variedade).then(resultadoVariedadeExistente => {
-                    if (variedade !== -1) {
-                        alteracaoInformacao += `"variedade_id": "${processaInformacaoBd.variedade_id}", "variedade": "${variedade}", `;
-                    } else {
-                        alteracaoInformacao += `"variedade_id": "${processaInformacaoBd.variedade_id}", "variedade": "${variedade}", `;
-                    }
-                });
+                alteracaoInformacao += `"variedade": "${variedade}", `;
             });
         }
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
