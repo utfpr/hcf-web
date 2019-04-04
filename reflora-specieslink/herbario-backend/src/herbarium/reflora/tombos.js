@@ -23,12 +23,18 @@ import {
 
 /**
  * A função fazComparacaoInformacao, é comparado informações do banco de dados com as que
- * estão no Reflora. As informações a serem comparadas são: família, subfamília, gênero,
+ * estão no Reflora. As informações a serem comparadas são: família, gênero,
  * espécie, subespécie e variedade. Depois de comparar cada uma dessas informações
  * quando encontrado divergência é adicionado em um JSON. Após realizar todas as comparações
  * ele procurar na tabela de alterações e verifica se encontra um JSON parecido com o
  * que está no banco de dados, se for encontrado um JSON igual não é adicionado,
  * caso não seja encontrado é adicionado um novo registro na tabela de alterações.
+ * Além disso, alguns detalhes que vale a pena ressaltar é que não é comparado
+ * informação da subfamília, isso porque no JSON vindo do Reflora não é retornado
+ * informação de subfamília. Foram vistos outros sete herbários (UNOP, HUCP, HUEM,
+ * DVPR, MBM, UNIP, HUFU) e também não retornam esse tipo de informação.
+ * Uma última coisa que vale a pena ressaltar é que o script feito pela Elaine para gerar o
+ * DarwinCore, não é feito consultas ao banco de dados referente a subfamília.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nroTombo, é o número do tombo para serem pesquisadas informações no banco de dados.
  * @param {*} codBarra, é o código de barra relacionado ao tombo do HCF a qual será gerado o JSON
@@ -54,7 +60,6 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
                 }
             });
         }
-        // subfamilia
         // gênero
         if (processaInformacaoBd.genero_id !== null) {
             await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {

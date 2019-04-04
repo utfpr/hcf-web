@@ -16,6 +16,11 @@ import {
  * serão adicionadas no JSON. Com esse JSON gerado, é verificado se esse JSON já
  * está presente na tabela de alterações, se está na tabela de alterações não será inserido,
  * caso não esteja presente é inserido essa alteração.
+ * Para o pessoal do herbário submeter os dados para os species Link, é utilizado o
+ * software spLinker e nele você pode escolher quais informações você deseja enviar
+ * para o species Link, porém não existe a opção de enviar informações de subfamília
+ * e variedade (Informações obtidas a partir do manual do software, e do README
+ * disponível no software).
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito quando iniciou ou terminou
  * o processo de comparação.

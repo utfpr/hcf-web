@@ -134,10 +134,9 @@ export function tempoGastoLog(conteudoLog) {
     if (!mensagemFinal.includes(' Erro no código de barra ')) {
         const dataInicial = conteudoLog.substring(conteudoLog.indexOf('[') + 1, conteudoLog.indexOf(']'));
         const dataFinal = conteudoLog.substring(conteudoLog.lastIndexOf('[') + 1, conteudoLog.lastIndexOf(']'));
-        console.log(mensagemFinal);
         const diferenca = moment(dataFinal, 'DD/MM/YYYY-HH:mm:ss').diff(moment(dataInicial, 'DD/MM/YYYY-HH:mm:ss'));
         const duracao = moment.duration(diferenca);
-        return Math.floor(duracao.asHours()) + moment.utc(diferenca).format(':mm:ss');    
+        return Math.floor(duracao.asHours()) + moment.utc(diferenca).format(':mm:ss');
     }
     return '';
 }
