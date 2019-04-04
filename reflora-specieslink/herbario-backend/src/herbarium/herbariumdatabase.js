@@ -484,28 +484,6 @@ export function selectFamilia(conexao, idFamilia) {
 }
 
 /**
- * A função selectJaExisteFamilia, realiza uma consulta no banco de dados e
- * verifica se aquela família que foi passada por parâmetro já existe ou não
- * no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @param {*} nomeFamilia, é o nome da família na qual será procurado no banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectJaExisteFamilia(conexao, nomeFamilia) {
-    const tabelaFamilia = modeloFamilias(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaFamilia.findAll({
-            where: { nome: nomeFamilia },
-        }).then(familia => {
-            promessa.resolve(familia);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
  * A função selectGenero, realiza uma consulta no banco de dados e retorna o nome da gênero
  * baseado no valor de identificador passado por parâmetro.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
@@ -527,29 +505,7 @@ export function selectGenero(conexao, idGenero) {
     return promessa.promise;
 }
 
-/**
- * A função selectJaExisteGenero, realiza uma consulta no banco de dados e
- * verifica se aquela gênero que foi passada por parâmetro já existe ou não
- * no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @param {*} nomeGenero, é o nome da gênero na qual será procurado no banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectJaExisteGenero(conexao, nomeGenero) {
-    const tabelaGenero = modeloGeneros(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaGenero.findAll({
-            where: { nome: nomeGenero },
-        }).then(familia => {
-            promessa.resolve(familia);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
+/*
  * A função selectEspecie, realiza uma consulta no banco de dados e retorna o nome da espécie
  * baseado no valor de identificador passado por parâmetro.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
@@ -566,28 +522,6 @@ export function selectEspecie(conexao, idEspecie) {
             where: { id: idEspecie },
         }).then(especie => {
             promessa.resolve(especie);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
- * A função selectJaExisteEspecie, realiza uma consulta no banco de dados e
- * verifica se aquela espécie que foi passada por parâmetro já existe ou não
- * no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @param {*} nomeEspecie, é o nome da espécie na qual será procurado no banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectJaExisteEspecie(conexao, nomeEspecie) {
-    const tabelaEspecie = modeloEspecies(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaEspecie.findAll({
-            where: { nome: nomeEspecie },
-        }).then(familia => {
-            promessa.resolve(familia);
         });
     });
     return promessa.promise;
@@ -616,28 +550,6 @@ export function selectSubespecie(conexao, idSubespecie) {
 }
 
 /**
- * A função selectJaExisteSubespecie, realiza uma consulta no banco de dados e
- * verifica se aquela subespécie que foi passada por parâmetro já existe ou não
- * no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @param {*} nomeSubespecie, é o nome da subespécie na qual será procurado no banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectJaExisteSubespecie(conexao, nomeSubespecie) {
-    const tabelaSubespecie = modeloSubespecies(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaSubespecie.findAll({
-            where: { nome: nomeSubespecie },
-        }).then(familia => {
-            promessa.resolve(familia);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
  * A função selectVariedade, realiza uma consulta no banco de dados e retorna o nome da variedade
  * baseado no valor de identificador passado por parâmetro.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
@@ -654,28 +566,6 @@ export function selectVariedade(conexao, idVariedade) {
             where: { id: idVariedade },
         }).then(variedade => {
             promessa.resolve(variedade);
-        });
-    });
-    return promessa.promise;
-}
-
-/**
- * A função selectJaExisteVariedade, realiza uma consulta no banco de dados e
- * verifica se aquela variedade que foi passada por parâmetro já existe ou não
- * no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
- * @param {*} nomeVariedade, é o nome da variedade na qual será procurado no banco de dados.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a consulta.
- */
-export function selectJaExisteVariedade(conexao, nomeVariedade) {
-    const tabelaVariedade = modeloVariedades(conexao, Sequelize);
-    const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaVariedade.findAll({
-            where: { nome: nomeVariedade },
-        }).then(familia => {
-            promessa.resolve(familia);
         });
     });
     return promessa.promise;

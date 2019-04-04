@@ -71,12 +71,17 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
                 }
             });
         }
-        // subespecie
-        // variedade
-        if (processaInformacaoBd.variedade_id) {
-            await ehIgualVariedade(conexao, processaInformacaoBd.variedade_id, informacaoReflora.infraespecificepithet).then(variedade => {
-                alteracaoInformacao += `"variedade": "${variedade}", `;
-            });
+        if (informacaoReflora.taxonrank !== null) {
+            if (informacaoReflora.taxonrank === 'SUB_ESPECIE') {
+                // subespecie
+            } else if (informacaoReflora.taxonrank === 'VARIEDADE') {
+                // variedade
+                if (processaInformacaoBd.variedade_id !== null) {
+                    await ehIgualVariedade(conexao, processaInformacaoBd.variedade_id, informacaoReflora.infraespecificepithet).then(variedade => {
+                        alteracaoInformacao += `"variedade": "${variedade}", `;
+                    });
+                }
+            }
         }
         alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
         alteracaoInformacao += '}';
