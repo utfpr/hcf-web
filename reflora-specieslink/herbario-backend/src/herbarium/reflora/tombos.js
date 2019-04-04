@@ -127,6 +127,7 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                             promessa.resolve();
                         });
                     }
+                    promessa.resolve();
                 });
             }
         });

@@ -102,7 +102,7 @@ function preparaExecucaoReflora(conexao, existeExecucaoReflora) {
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
     ehPossivelFazerComparacaoReflora(nomeArquivo).then(() => {
         const { id } = existeExecucaoReflora.dataValues;
-        const conteudoLOG = leLOG(nomeArquivo);
+        const conteudoLOG = leLOG(`reflora/${nomeArquivo}`);
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
             const horaFim = getHoraFim(conteudoLOG);
             atualizaFimTabelaConfiguracao(conexao, id, horaFim);
