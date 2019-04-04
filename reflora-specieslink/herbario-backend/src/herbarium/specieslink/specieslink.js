@@ -43,23 +43,23 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 const nomeSubespecie = conteudo[13];
                 await ehIgualFamilia(conexao, informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
                     if (familia !== -1) {
-                        alteracaoInformacao += `familia: ${familia}, `;
+                        alteracaoInformacao += `familia_nome: ${familia}, `;
                     }
                 });
                 await ehIgualGenero(conexao, informacoesTomboBd.genero_id, nomeGenero).then(genero => {
                     if (genero !== -1) {
-                        alteracaoInformacao += `genero: ${genero}, `;
+                        alteracaoInformacao += `genero_nome: ${genero}, `;
                     }
                 });
                 await ehIgualEspecie(conexao, informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
                     if (especie !== -1) {
-                        alteracaoInformacao += `especie: ${especie}, `;
+                        alteracaoInformacao += `especie_nome: ${especie}, `;
                     }
                 });
                 // subespecie
                 await ehIgualSubespecie(conexao, informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
                     if (subespecie !== -1) {
-                        alteracaoInformacao += `subespecie: ${subespecie}, `;
+                        alteracaoInformacao += `subespecie_nome: ${subespecie}, `;
                     }
                 });
                 alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));

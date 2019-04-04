@@ -50,7 +50,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.familia_id !== null) {
             await ehIgualFamilia(conexao, processaInformacaoBd.familia_id, informacaoReflora.family).then(familia => {
                 if (familia !== -1) {
-                    alteracaoInformacao += `"familia": "${familia}", `;
+                    alteracaoInformacao += `"familia_nome": "${familia}", `;
                 }
             });
         }
@@ -59,7 +59,7 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.genero_id !== null) {
             await ehIgualGenero(conexao, processaInformacaoBd.genero_id, informacaoReflora.genus).then(genero => {
                 if (genero !== -1) {
-                    alteracaoInformacao += `"genero": "${genero}", `;
+                    alteracaoInformacao += `"genero_nome": "${genero}", `;
                 }
             });
         }
@@ -67,18 +67,23 @@ export async function geraJsonAlteracao(conexao, nroTombo, codBarra, informacaoR
         if (processaInformacaoBd.especie_id !== null) {
             await ehIgualEspecie(conexao, processaInformacaoBd.especie_id, informacaoReflora.specificepithet).then(especie => {
                 if (especie !== -1) {
-                    alteracaoInformacao += `"especie": "${especie}", `;
+                    alteracaoInformacao += `"especie_nome": "${especie}", `;
                 }
             });
         }
         if (informacaoReflora.taxonrank !== null) {
             if (informacaoReflora.taxonrank === 'SUB_ESPECIE') {
                 // subespecie
+                if (processaInformacaoBd.sub_especie_id !== null) {
+                    await ehIgualVariedade(conexao, processaInformacaoBd.especie_id, informacaoReflora.infraespecificepithet).then(variedade => {
+                        alteracaoInformacao += `"variedade_nome": "${variedade}", `;
+                    });
+                }
             } else if (informacaoReflora.taxonrank === 'VARIEDADE') {
                 // variedade
                 if (processaInformacaoBd.variedade_id !== null) {
                     await ehIgualVariedade(conexao, processaInformacaoBd.variedade_id, informacaoReflora.infraespecificepithet).then(variedade => {
-                        alteracaoInformacao += `"variedade": "${variedade}", `;
+                        alteracaoInformacao += `"variedade_nome": "${variedade}", `;
                     });
                 }
             }
