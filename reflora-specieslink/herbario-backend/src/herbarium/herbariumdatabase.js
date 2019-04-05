@@ -680,8 +680,8 @@ export function insereServicoUsuario(conexao, servico) {
         ra: null,
         email: '',
         senha: '',
-    }).then(() => {
-        promessa.resolve();
+    }).then(listaUsuario => {
+        promessa.resolve(listaUsuario.dataValues.id);
     });
     return promessa.promise;
 }

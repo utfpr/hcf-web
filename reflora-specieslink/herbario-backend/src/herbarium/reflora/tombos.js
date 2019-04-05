@@ -20,6 +20,7 @@ import {
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
     selectExisteServicoUsuario,
+    insereServicoUsuario,
 } from '../herbariumdatabase';
 
 /**
@@ -129,13 +130,14 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                             if (!existe) {
                                 selectExisteServicoUsuario(conexao, 'REFLORA').then(listaUsuario => {
                                     if (listaUsuario.length === 0) {
-                                        // a
+                                        insereServicoUsuario(conexao, 'REFLORA').then(idUsuario => {
+                                            insereAlteracaoSugerida(conexao, idUsuario, 'ESPERANDO', getNroTombo, alteracao);
+                                        });
                                     } else {
                                         const { id } = listaUsuario[0].dataValues;
                                         insereAlteracaoSugerida(conexao, id, 'ESPERANDO', getNroTombo, alteracao);
                                     }
                                 });
-                                // insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', getNroTombo, alteracao);
                                 promessa.resolve();
                             }
                             promessa.resolve();
