@@ -658,6 +658,14 @@ export function apagaTabelaReflora(conexao) {
     return promessa.promise;
 }
 
+/**
+ * A função selectExisteServicoUsuario, verifica se existe um usuário
+ * que foi passado por parâmetro, que pode ser REFLORA ou SPECIESLINK.
+ * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de realizar a consulta.
+ */
 export function selectExisteServicoUsuario(conexao, servico) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
@@ -671,6 +679,14 @@ export function selectExisteServicoUsuario(conexao, servico) {
     return promessa.promise;
 }
 
+/**
+ * A função insereServicoUsuario, insere o usuário que foi passado por parâmetro
+ * na tabela de usuários.
+ * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
+ * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de realizar a consulta.
+ */
 export function insereServicoUsuario(conexao, servico) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
