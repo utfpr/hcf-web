@@ -19,6 +19,7 @@ import modeloVariedades from '../models/Variedade';
 import modeloAlteracao from '../models/Alteracao';
 import modeloReflora from '../models/Reflora';
 import modeloConfiguracao from '../models/Configuracao';
+import modeloUsuario from '../models/Usuario';
 
 /**
  * A função criaConexao, estabelece uma conexão com o banco de dados
@@ -433,7 +434,7 @@ export function selectNroTomboNumBarra(conexao, codBarra) {
 
 /**
  * A função selectTombo, realiza uma consulta no banco de dados e retorna informações
- * de família, subfamília, gênero, espécie, subespécie, variedade de acordo com
+ * de família, gênero, espécie, subespécie, variedade de acordo com
  * o número de tombo que foi passado por parâmetro.
  * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nroTombo, é o número de tombo na qual será resgatado informações desse número
@@ -448,7 +449,6 @@ export function selectTombo(conexao, nroTombo) {
         tabelaTombo.findAll({
             attributes: [
                 'familia_id',
-                'sub_familia_id',
                 'genero_id',
                 'especie_id',
                 'sub_especie_id',
@@ -655,6 +655,34 @@ export function apagaTabelaReflora(conexao) {
     const promessa = Q.defer();
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     promessa.resolve(tabelaReflora.drop());
+    return promessa.promise;
+}
+
+export function selectExisteServicoUsuario(conexao, servico) {
+    const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+    const promessa = Q.defer();
+    conexao.sync().then(() => {
+        tabelaUsuario.findAll({
+            where: { nome: servico },
+        }).then(listaUsuario => {
+            promessa.resolve(listaUsuario);
+        });
+    });
+    return promessa.promise;
+}
+
+export function insereServicoUsuario(conexao, servico) {
+    const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+    const promessa = Q.defer();
+    tabelaUsuario.create({
+        nome: servico,
+        telefone: null,
+        ra: null,
+        email: '',
+        senha: '',
+    }).then(() => {
+        promessa.resolve();
+    });
     return promessa.promise;
 }
 
