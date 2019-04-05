@@ -132,10 +132,18 @@ export function fazComparacaoInformacao(conexao, codBarra, informacaoReflora) {
                                     if (listaUsuario.length === 0) {
                                         insereServicoUsuario(conexao, 'REFLORA').then(idUsuario => {
                                             insereAlteracaoSugerida(conexao, idUsuario, 'ESPERANDO', getNroTombo, alteracao);
+                                            // eslint-disable-next-line no-console
+                                            console.log(getInformacaoReflora.identifiedby);
+                                            // eslint-disable-next-line no-console
+                                            console.log(getInformacaoReflora.dateidentified);
                                         });
                                     } else {
                                         const { id } = listaUsuario[0].dataValues;
                                         insereAlteracaoSugerida(conexao, id, 'ESPERANDO', getNroTombo, alteracao);
+                                        // eslint-disable-next-line no-console
+                                        console.log(getInformacaoReflora.identifiedby);
+                                        // eslint-disable-next-line no-console
+                                        console.log(getInformacaoReflora.dateidentified);
                                     }
                                 });
                                 promessa.resolve();

@@ -1,5 +1,10 @@
 import Q from 'q';
-import { selectTombo, insereAlteracaoSugerida } from '../herbariumdatabase';
+import {
+    selectTombo,
+    insereAlteracaoSugerida,
+    selectExisteServicoUsuario,
+    insereServicoUsuario,
+} from '../herbariumdatabase';
 import {
     ehIgualFamilia,
     ehIgualGenero,
@@ -46,6 +51,10 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 const nomeGenero = conteudo[11];
                 const nomeEspecie = conteudo[12];
                 const nomeSubespecie = conteudo[13];
+                const identificador = conteudo[15];
+                const anoIdentificacao = conteudo[16];
+                const mesIdentificacao = conteudo[17];
+                const diaIdentificacao = conteudo[18];
                 await ehIgualFamilia(conexao, informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
                     if (familia !== -1) {
                         alteracaoInformacao += `familia_nome: ${familia}, `;
@@ -72,8 +81,26 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 if (alteracaoInformacao.length > 2) {
                     existeAlteracaoSugerida(conexao, codBarra, alteracaoInformacao).then(existe => {
                         if (!existe) {
-                            insereAlteracaoSugerida(conexao, 10, 'ESPERANDO', codBarra, alteracaoInformacao);
-                            promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                            selectExisteServicoUsuario(conexao, 'SPECIESLINK').then(listaUsuario => {
+                                if (listaUsuario.length === 0) {
+                                    insereServicoUsuario(conexao, 'SPECIESLINK').then(idUsuario => {
+                                        insereAlteracaoSugerida(conexao, idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                        // eslint-disable-next-line no-console
+                                        console.log(identificador);
+                                        // eslint-disable-next-line no-console
+                                        console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
+                                        promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                                    });
+                                } else {
+                                    const { id } = listaUsuario[0].dataValues;
+                                    insereAlteracaoSugerida(conexao, id, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                    // eslint-disable-next-line no-console
+                                    console.log(identificador);
+                                    // eslint-disable-next-line no-console
+                                    console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
+                                    promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                                }
+                            });
                         } else {
                             promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
                         }
