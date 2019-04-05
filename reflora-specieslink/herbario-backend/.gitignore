@@ -1,0 +1,13 @@
+logs
+dist
+node_modules
+coverage
+storage
+uploads
+
+.env
+*.log
+*.bak
+logs/*.log
+logs/reflora/*.log
+logs/specieslink/*.log
