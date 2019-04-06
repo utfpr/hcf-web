@@ -2,7 +2,6 @@
 import Q from 'q';
 import moment from 'moment';
 import {
-    criaConexao,
     criaTabelaReflora,
     insereTabelaReflora,
     selectCodBarra,
@@ -17,6 +16,9 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim, getHoraAtual,
 } from '../log';
+import models from '../../models';
+
+const { sequelize } = models;
 
 /**
  * A função comecaAtualizacaoReflora, primeiramente pega o maior valor de código
@@ -69,12 +71,11 @@ function comecaAtualizacaoReflora(conexao, nomeArquivo) {
  */
 function ehPossivelFazerComparacaoReflora(nomeArquivo) {
     const promessa = Q.defer();
-    const conexao = criaConexao();
-    existeTabelaReflora(conexao).then(existe => {
+    existeTabelaReflora(sequelize).then(existe => {
         if (existe) {
             promessa.resolve();
         } else {
-            comecaAtualizacaoReflora(conexao, nomeArquivo).then(() => {
+            comecaAtualizacaoReflora(sequelize, nomeArquivo).then(() => {
                 promessa.resolve();
             });
         }
@@ -160,14 +161,13 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
  * caso seja um valor diferente disso, eu verifico qual a periodicidade.
  */
 export function daemonFazRequisicaoReflora() {
-    const conexao = criaConexao();
     setInterval(() => {
-        selectEstaExecutandoServico(conexao, 1).then(existeExecucaoReflora => {
+        selectEstaExecutandoServico(sequelize, 1).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
-                    preparaExecucaoReflora(conexao, existeExecucaoReflora[0]);
+                    preparaExecucaoReflora(sequelize, existeExecucaoReflora[0]);
                 } else {
-                    verificaRequisicoesAgendado(conexao, existeExecucaoReflora);
+                    verificaRequisicoesAgendado(sequelize, existeExecucaoReflora);
                 }
             }
         });

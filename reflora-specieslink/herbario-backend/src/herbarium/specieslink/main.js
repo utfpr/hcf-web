@@ -2,7 +2,6 @@
 import { processaArquivo } from './arquivo';
 import { getHoraAtual, escreveLOG, processaNomeLog } from '../log';
 import {
-    criaConexao,
     selectTemExecucaoServico,
     insereExecucaoSpeciesLink,
     selectEstaExecutandoServico,
@@ -10,6 +9,9 @@ import {
     atualizaHoraFimSpeciesLink,
 } from '../herbariumdatabase';
 import { realizaComparacao } from './specieslink';
+import models from '../../models';
+
+const { sequelize } = models;
 
 /**
  * A função agendaComparacaoSpeciesLink(), faz um select verificando se tem o serviço do SpeciesLink
@@ -21,16 +23,15 @@ import { realizaComparacao } from './specieslink';
  * atualiza com os novos valores. Caso contrário está executando.
  */
 export function agendaComparacaoSpeciesLink(nomeArquivo, response) {
-    const conexao = criaConexao();
-    selectTemExecucaoServico(conexao, 2).then(execucaoSpeciesLink => {
+    selectTemExecucaoServico(sequelize, 2).then(execucaoSpeciesLink => {
         if (execucaoSpeciesLink.length === 0) {
-            insereExecucaoSpeciesLink(conexao, getHoraAtual(), null, nomeArquivo, 2);
+            insereExecucaoSpeciesLink(sequelize, getHoraAtual(), null, nomeArquivo, 2);
             response.status(200).json(JSON.parse(' { "result": "success" } '));
         } else {
             const horaFim = execucaoSpeciesLink[0].dataValues.hora_fim;
             const { id } = execucaoSpeciesLink[0].dataValues;
             if ((horaFim !== null) && (horaFim !== 'EXECUTANDO')) {
-                atualizaNomeArquivoSpeciesLink(conexao, id, getHoraAtual(), nomeArquivo);
+                atualizaNomeArquivoSpeciesLink(sequelize, id, getHoraAtual(), nomeArquivo);
                 response.status(200).json(JSON.parse(' { "result": "success" } '));
             } else {
                 response.status(200).json(JSON.parse(' { "result": "failed" } '));
@@ -49,9 +50,8 @@ export function agendaComparacaoSpeciesLink(nomeArquivo, response) {
  * de término no BD.
  */
 export function daemonSpeciesLink() {
-    const conexao = criaConexao();
     setInterval(() => {
-        selectEstaExecutandoServico(conexao, 2).then(statusExecucao => {
+        selectEstaExecutandoServico(sequelize, 2).then(statusExecucao => {
             if (statusExecucao.length > 0) {
                 const horaFim = statusExecucao[0].dataValues.hora_fim;
                 const horaInicio = statusExecucao[0].dataValues.hora_inicio;
@@ -59,13 +59,13 @@ export function daemonSpeciesLink() {
                 const arquivoSpeciesLink = statusExecucao[0].dataValues.nome_arquivo;
                 const { id } = statusExecucao[0].dataValues;
                 if (horaFim === null) {
-                    atualizaHoraFimSpeciesLink(conexao, id, 'EXECUTANDO').then(() => {
+                    atualizaHoraFimSpeciesLink(sequelize, id, 'EXECUTANDO').then(() => {
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
                         escreveLOG(`specieslink/${nomeArquivo}`, 'Inicializando a aplicação do SpeciesLink.');
-                        realizaComparacao(conexao, horaInicio, listaConteudoArquivo).then(acabou => {
+                        realizaComparacao(sequelize, horaInicio, listaConteudoArquivo).then(acabou => {
                             if (acabou) {
                                 escreveLOG(`specieslink/${nomeArquivo}`, 'O processo de comparação do SpeciesLink acabou.');
-                                atualizaHoraFimSpeciesLink(conexao, id, getHoraAtual());
+                                atualizaHoraFimSpeciesLink(sequelize, id, getHoraAtual());
                             }
                         });
                     });
