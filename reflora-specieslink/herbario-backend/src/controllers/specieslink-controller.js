@@ -2,9 +2,7 @@
 import fs from 'fs';
 import { agendaComparacaoSpeciesLink } from '../herbarium/specieslink/main';
 import { selectTemExecucaoServico } from '../herbarium/herbariumdatabase';
-import models from '../models';
 
-const { sequelize } = models;
 /**
  * A função preparaAtualizacao, verifica se o arquivo que foi enviado
  * pelo upload contem o cabeçalho esperado, se contiver nós iremos
@@ -40,7 +38,7 @@ export const preparaAtualizacao = (request, response, next) => {
  * @param {*} next, é utilizado para chamar a próxima função da pilha.
  */
 export const statusExecucao = (request, response, next) => {
-    selectTemExecucaoServico(sequelize, 2).then(execucao => {
+    selectTemExecucaoServico(2).then(execucao => {
         if (execucao.length === 0) {
             response.status(200).json(JSON.parse(' { "result": false } '));
         } else {

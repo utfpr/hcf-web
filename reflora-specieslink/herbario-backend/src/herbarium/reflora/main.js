@@ -16,9 +16,6 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim, getHoraAtual,
 } from '../log';
-import models from '../../models';
-
-const { sequelize } = models;
 
 /**
  * A função comecaAtualizacaoReflora, primeiramente pega o maior valor de código
@@ -28,26 +25,24 @@ const { sequelize } = models;
  * em uma coluna da tabela. Após, obter informações de todos os códigos de barras, é iniciado
  * a comparação, e por fim, quando acaba o processo de comparação de todos os códigos
  * barras, apaga-se essa tabela do Reflora.
- * @param {*} conexao, é a conexão com o banco de dados para obter e atualizar os
- * dados no banco de dados.
  * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito quando iniciou, terminou
  * e algum erro que acontenceu durante o processo de comparação.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando acabar de realizar a comparação de informações.
  */
-function comecaAtualizacaoReflora(conexao, nomeArquivo) {
+function comecaAtualizacaoReflora(nomeArquivo) {
     const promessa = Q.defer();
     escreveLOG(`reflora/${nomeArquivo}`, 'Inicializando a aplicação do Reflora.');
-    const tabelaReflora = criaTabelaReflora(conexao);
-    selectCodBarra(conexao).then(listaCodBarra => {
-        // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
-            fazRequisicaoReflora(conexao, nomeArquivo).then(resultadoRequisicaoReflora => {
+    const tabelaReflora = criaTabelaReflora();
+    selectCodBarra().then(listaCodBarra => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+            fazRequisicaoReflora(nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
-                    fazComparacaoTombo(conexao).then(resultadoComparacao => {
+                    fazComparacaoTombo().then(resultadoComparacao => {
                         if (resultadoComparacao) {
                             escreveLOG(`reflora/${nomeArquivo}`, 'O processo de comparação do Reflora acabou.');
-                            apagaTabelaReflora(conexao).then(() => {
+                            apagaTabelaReflora().then(() => {
                                 promessa.resolve();
                             });
                         }
@@ -71,11 +66,11 @@ function comecaAtualizacaoReflora(conexao, nomeArquivo) {
  */
 function ehPossivelFazerComparacaoReflora(nomeArquivo) {
     const promessa = Q.defer();
-    existeTabelaReflora(sequelize).then(existe => {
+    existeTabelaReflora().then(existe => {
         if (existe) {
             promessa.resolve();
         } else {
-            comecaAtualizacaoReflora(sequelize, nomeArquivo).then(() => {
+            comecaAtualizacaoReflora(nomeArquivo).then(() => {
                 promessa.resolve();
             });
         }
@@ -92,14 +87,12 @@ function ehPossivelFazerComparacaoReflora(nomeArquivo) {
  * possível fazer, se foi feito a comparação do Reflora, ele verifica se
  * acabou mesmo o processo do Reflora, verificando se tem a mensagem desejada,
  * se sim atualiza com a hora que acabou o processo no banco de dados.
- * @param {*} conexao, é a conexão com o banco de dados para atualizar os
- * dados no banco de dados.
  * @param {*} existeExecucaoReflora, é o resultado da existência da execução
  * do Reflora na tabela de configuração.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando acabar de realizar a comparação de informações.
  */
-function preparaExecucaoReflora(conexao, existeExecucaoReflora) {
+function preparaExecucaoReflora(existeExecucaoReflora) {
     const promessa = Q.defer();
     const nomeArquivo = processaNomeLog(existeExecucaoReflora.dataValues.hora_inicio);
     ehPossivelFazerComparacaoReflora(nomeArquivo).then(() => {
@@ -107,7 +100,7 @@ function preparaExecucaoReflora(conexao, existeExecucaoReflora) {
         const conteudoLOG = leLOG(`reflora/${nomeArquivo}`);
         if (conteudoLOG.includes('O processo de comparação do Reflora acabou.')) {
             const horaFim = getHoraFim(conteudoLOG);
-            atualizaFimTabelaConfiguracao(conexao, id, horaFim);
+            atualizaFimTabelaConfiguracao(id, horaFim);
             promessa.resolve();
         }
     });
@@ -123,12 +116,10 @@ function preparaExecucaoReflora(conexao, existeExecucaoReflora) {
  * hora é meia-noite, se for executo e no final da atualização
  * pego a data que foi feita anteriormente e atualizo para a data
  * da próxima atualização.
- * @param {*} conexao, é a conexão com o banco de dados para atualizar os
- * dados no banco de dados.
  * @param {*} existeExecucaoReflora, é o resultado da existência da execução
  * do Reflora na tabela de configuração.
  */
-function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
+function verificaRequisicoesAgendado(existeExecucaoReflora) {
     let agendamento = -1;
     if (existeExecucaoReflora[0].periodicidade === 'SEMANAL') {
         agendamento = moment().isoWeekday() + 7;
@@ -139,8 +130,8 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
     }
     if (moment().format('DD/MM/YYYY') === existeExecucaoReflora[0].data_proxima_atualizacao) {
         if (moment().format('HH') === '00') {
-            preparaExecucaoReflora(conexao, existeExecucaoReflora[0]).then(() => {
-                atualizaTabelaConfiguracaoReflora(conexao, existeExecucaoReflora[0].id, getHoraAtual(), null, existeExecucaoReflora[0].periodicidade, moment().day(agendamento).format('DD/MM/YYYY'));
+            preparaExecucaoReflora(existeExecucaoReflora[0]).then(() => {
+                atualizaTabelaConfiguracaoReflora(existeExecucaoReflora[0].id, getHoraAtual(), null, existeExecucaoReflora[0].periodicidade, moment().day(agendamento).format('DD/MM/YYYY'));
             });
         } else {
             // eslint-disable-next-line no-console
@@ -162,12 +153,12 @@ function verificaRequisicoesAgendado(conexao, existeExecucaoReflora) {
  */
 export function daemonFazRequisicaoReflora() {
     setInterval(() => {
-        selectEstaExecutandoServico(sequelize, 1).then(existeExecucaoReflora => {
+        selectEstaExecutandoServico(1).then(existeExecucaoReflora => {
             if (existeExecucaoReflora.length === 1) {
                 if (existeExecucaoReflora[0].periodicidade === 'MANUAL') {
-                    preparaExecucaoReflora(sequelize, existeExecucaoReflora[0]);
+                    preparaExecucaoReflora(existeExecucaoReflora[0]);
                 } else {
-                    verificaRequisicoesAgendado(sequelize, existeExecucaoReflora);
+                    verificaRequisicoesAgendado(existeExecucaoReflora);
                 }
             }
         });

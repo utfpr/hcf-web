@@ -21,24 +21,16 @@ import modeloReflora from '../models/Reflora';
 import modeloConfiguracao from '../models/Configuracao';
 import modeloUsuario from '../models/Usuario';
 
-/**
- * A função criaConexao, estabelece uma conexão com o banco de dados
- * de acordo com os parâmetros que foram passado.
- * @return conexão, retorna uma conexão com o banco de dados.
- */
-export function criaConexao() {
-    return new Sequelize(database, username, password, options);
-}
+export const conexao = new Sequelize(database, username, password, options);
 
 /**
  * A função selectCodBarra, realiza um consulta no banco de dados,
  * mas especificamente na tabela de tombos_fotos, na qual é retornado
  * somente a coluna de código de barra com todos os valores presentes.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectCodBarra(conexao) {
+export function selectCodBarra() {
     const promessa = Q.defer();
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -57,10 +49,9 @@ export function selectCodBarra(conexao) {
  * existe nome das colunas que estarão presentes nessa tabela.
  * Nessa tabela é guardado os códigos de barras, e as respostas das requisições.
  * Detalhe force: true é igual ao drop table.
- * @param {*} conexao, conexão com o banco de dados para criar a tabela.
  * @return tabelaReflora, que é a tabela que foi criada.
  */
-export function criaTabelaReflora(conexao) {
+export function criaTabelaReflora() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.sync({ force: true });
     tabelaReflora.removeAttribute('id');
@@ -73,13 +64,12 @@ export function criaTabelaReflora(conexao) {
  * que tem o valor do serviço igual ao valor que foi passado por parâmetro,
  * em que um representa o serviço do Reflora e número dois representa
  * o serviço do species Link que deve ser executado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idServico, em que o identificador um é o serviço do Reflora e o identificador
  * dois é o serviço do species Link.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectTemExecucaoServico(conexao, idServico) {
+export function selectTemExecucaoServico(idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -98,13 +88,12 @@ export function selectTemExecucaoServico(conexao, idServico) {
  * que tem o valor da coluna igual ao atributo nulo, e serviço igual a dois. O nulo nessa coluna
  * representa que é um serviço que não foi executado, e dois representa que é o serviço
  * do species Link que deve ser executado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idServico, em que o identificador um é o serviço do Reflora e o identificador
  * dois é o serviço do species Link.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectEstaExecutandoServico(conexao, idServico) {
+export function selectEstaExecutandoServico(idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     conexao.sync().then(() => {
@@ -121,7 +110,6 @@ export function selectEstaExecutandoServico(conexao, idServico) {
  * A função insereExecucao, insere um registro na tabela de configuração. Os valores
  * que serão inseridos nos registros são baseados nos valores que foram
  * passados por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
  * @param {*} horaAtual, hora atual na qual foi solicitado a execução do serviço.
  * @param {*} horaFim, hora final na qual foi finalizado a execução do serviço.
  * @param {*} periodicidadeUsuario, periodicidade definida pelo usuário que é utilizada
@@ -134,7 +122,7 @@ export function selectEstaExecutandoServico(conexao, idServico) {
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a inserção.
  */
-export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario, proximaAtualizacao, servicoUsuario) {
+export function insereExecucao(horaAtual, horaFim, periodicidadeUsuario, proximaAtualizacao, servicoUsuario) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.create({
@@ -155,7 +143,6 @@ export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario
  * com base no identificador que foi passado como parâmetro e atualiza
  * com a nova hora de início, hora de fim, data de próxima atualização,
  * periodicidade passada por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
  * @param {*} idExecucao, é o identificador do serviço da execução na qual terá
  * os novos valores de hora de início, fim, periodicidade e proxima atualização.
  * @param {*} horaInicio, é a hora de início com a nova hora de início da execução do serviço.
@@ -166,7 +153,7 @@ export function insereExecucao(conexao, horaAtual, horaFim, periodicidadeUsuario
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaTabelaConfiguracaoReflora(conexao, idExecucao, horaInicio, horaFim, periodicidadeUsuario, proximaAtualizacao) {
+export function atualizaTabelaConfiguracaoReflora(idExecucao, horaInicio, horaFim, periodicidadeUsuario, proximaAtualizacao) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(
@@ -187,14 +174,13 @@ export function atualizaTabelaConfiguracaoReflora(conexao, idExecucao, horaInici
  * A função atualizaFimTabelaConfiguracao, ele pega o registro na tabela
  * com base no identificador que foi passado como parâmetro e atualiza
  * hora de fim que foi passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
  * @param {*} idExecucao, é o identificador do serviço da execução na qual terá
  * o seu o valor que é a hora que terminou um processo.
  * @param {*} horaTerminou, é a hora que terminou o processo de comparação do serviço.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou) {
+export function atualizaFimTabelaConfiguracao(idExecucao, horaTerminou) {
     const tabelaConfiguracaoReflora = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracaoReflora.update(
@@ -210,7 +196,6 @@ export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou)
  * A função atualizaNomeArquivoSpeciesLink, ele pega o registro na tabela
  * com base no identificador que foi passado como parâmetro e atualiza
  * com a nova hora de início, hora de fim e o nome arquivo.
- * @param {*} conexao, conexão com o banco de dados para que se possa atualizar os dados no banco de dados.
  * @param {*} idExecucao, é o identificador do serviço da execução na qual terá
  * os novos valores de hora de início, fim e o nome de arquivo.
  * @param {*} horaInicio, é a hora de início com a nova hora de início da execução do serviço.
@@ -218,7 +203,7 @@ export function atualizaFimTabelaConfiguracao(conexao, idExecucao, horaTerminou)
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, horaInicio, nomeArquivo) {
+export function atualizaNomeArquivoSpeciesLink(idExecucao, horaInicio, nomeArquivo) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.update(
@@ -238,14 +223,13 @@ export function atualizaNomeArquivoSpeciesLink(conexao, idExecucao, horaInicio, 
  * A função atualizaHoraFimSpeciesLink, ele pega o registro na tabela
  * com base no identificador que foi passado como parâmetro e atualiza
  * hora de fim que foi passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa atualizar os dados no banco de dados.
  * @param {*} idExecucao, é o identificador do serviço da execução na qual terá
  * o seu o valor que é a hora que terminou um processo.
  * @param {*} horaFim, é a hora que terminou o processo de comparação do serviço.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaHoraFimSpeciesLink(conexao, idExecucao, horaFim) {
+export function atualizaHoraFimSpeciesLink(idExecucao, horaFim) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.update(
@@ -263,7 +247,6 @@ export function atualizaHoraFimSpeciesLink(conexao, idExecucao, horaFim) {
  * A função insereExecucaoSpeciesLink, insere um registro na tabela de configuração, relacionado
  * ao serviço speciesLink e os valores que serão inseridos nos registros são baseados nos
  * valores que foram passados por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
  * @param {*} horaAtual, hora atual na qual foi solicitado a execução do serviço.
  * @param {*} horaFim, hora final na qual foi finalizado a execução do serviço.
  * @param {*} nomeArquivo, é a o nome do arquivo que será comparado.
@@ -273,7 +256,7 @@ export function atualizaHoraFimSpeciesLink(conexao, idExecucao, horaFim) {
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a inserção.
  */
-export function insereExecucaoSpeciesLink(conexao, horaAtual, horaFim, nomeArquivo, servicoUsuario) {
+export function insereExecucaoSpeciesLink(horaAtual, horaFim, nomeArquivo, servicoUsuario) {
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaConfiguracao.create({
@@ -325,11 +308,10 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
  * A função selectUmCodBarra, realiza uma consulta no banco de dados onde são
  * retornados apenas um registro da tabela onde o valor da coluna é zero (ou seja,
  * onde não foi feita a requisição dele).
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectUmCodBarra(conexao) {
+export function selectUmCodBarra() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -349,7 +331,6 @@ export function selectUmCodBarra(conexao) {
  * esse registro equivalente ao seu código de barra. Além disso, troca o valor
  * da coluna contador de zero para um na qual representa que já foi conseguido
  * a resposta da requisiçãodo Reflora.
- * @param {*} conexao, conexão com o banco de dados para que se possa atualizar os dados no banco de dados.
  * @param {*} codBarra, é o código de barra na qual é necessário para colocar
  * a resposta da requisição no registro correto.
  * @param {*} json, é o JSON com a resposta vinda da requisição do Reflora.
@@ -358,7 +339,7 @@ export function selectUmCodBarra(conexao) {
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaTabelaReflora(conexao, codBarra, json, valorContador) {
+export function atualizaTabelaReflora(codBarra, json, valorContador) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.update(
         { tombo_json: json, contador: valorContador },
@@ -370,13 +351,12 @@ export function atualizaTabelaReflora(conexao, codBarra, json, valorContador) {
  * A função atualizaJaComparouTabelaReflora, é utilizado para marcar
  * os códigos de barras que tiveram as suas respostas de requisições vindas do Reflora
  * comparadas com as que estão no banco de dados.
- * @param {*} conexao, conexão com o banco de dados para que se possa atualizar os dados no banco de dados.
  * @param {*} codBarra, é o código de barra na qual é necessário para colocar que já foi
  * feito a comparação.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaJaComparouTabelaReflora(conexao, codBarra) {
+export function atualizaJaComparouTabelaReflora(codBarra) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.update(
         { ja_comparou: true },
@@ -388,11 +368,10 @@ export function atualizaJaComparouTabelaReflora(conexao, codBarra) {
  * A função selectUmaInformacaoReflora, realiza uma consulta no banco de dados onde são
  * retornados apenas um registro na tabela do reflora, em que são registros que tem no banco de dados
  * salvo a resposta da requisição reflora e que não foram comparados.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectUmaInformacaoReflora(conexao) {
+export function selectUmaInformacaoReflora() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -413,12 +392,11 @@ export function selectUmaInformacaoReflora(conexao) {
 /**
  * A função selectNroTomboNumBarra, realiza uma consulta no banco de dados onde
  * é retornado o número de tombo equivalente ao código de barra.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} codBarra, é o código de barra na qual se deseja saber o seu número de tombo.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectNroTomboNumBarra(conexao, codBarra) {
+export function selectNroTomboNumBarra(codBarra) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -436,13 +414,12 @@ export function selectNroTomboNumBarra(conexao, codBarra) {
  * A função selectTombo, realiza uma consulta no banco de dados e retorna informações
  * de família, gênero, espécie, subespécie, variedade de acordo com
  * o número de tombo que foi passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nroTombo, é o número de tombo na qual será resgatado informações desse número
  * de tombo.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectTombo(conexao, nroTombo) {
+export function selectTombo(nroTombo) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -464,12 +441,11 @@ export function selectTombo(conexao, nroTombo) {
 /**
  * A função selectFamilia, realiza uma consulta no banco de dados e retorna o nome da família
  * baseado no valor de identificador passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idFamilia, é o identificador da família, na qual será resgatado o nome desse identificador.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectFamilia(conexao, idFamilia) {
+export function selectFamilia(idFamilia) {
     const tabelaFamilia = modeloFamilias(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -486,12 +462,11 @@ export function selectFamilia(conexao, idFamilia) {
 /**
  * A função selectGenero, realiza uma consulta no banco de dados e retorna o nome da gênero
  * baseado no valor de identificador passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idGenero, é o identificador da gênero, na qual será resgatado o nome desse identificador.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectGenero(conexao, idGenero) {
+export function selectGenero(idGenero) {
     const tabelaGenero = modeloGeneros(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -505,15 +480,14 @@ export function selectGenero(conexao, idGenero) {
     return promessa.promise;
 }
 
-/*
+/**
  * A função selectEspecie, realiza uma consulta no banco de dados e retorna o nome da espécie
  * baseado no valor de identificador passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idEspecie, é o identificador da espécie, na qual será resgatado o nome desse identificador.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectEspecie(conexao, idEspecie) {
+export function selectEspecie(idEspecie) {
     const tabelaEspecie = modeloEspecies(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -530,12 +504,11 @@ export function selectEspecie(conexao, idEspecie) {
 /**
  * A função selectSubespecie, realiza uma consulta no banco de dados e retorna o nome da subespécie
  * baseado no valor de identificador passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idSubespecie, é o identificador da subespécie, na qual será resgatado o nome desse identificador.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectSubespecie(conexao, idSubespecie) {
+export function selectSubespecie(idSubespecie) {
     const tabelaSubespecies = modeloSubespecies(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -552,12 +525,11 @@ export function selectSubespecie(conexao, idSubespecie) {
 /**
  * A função selectVariedade, realiza uma consulta no banco de dados e retorna o nome da variedade
  * baseado no valor de identificador passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idVariedade, é o identificador da variedade, na qual será resgatado o nome desse identificador.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectVariedade(conexao, idVariedade) {
+export function selectVariedade(idVariedade) {
     const tabelaVariedade = modeloVariedades(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -574,12 +546,11 @@ export function selectVariedade(conexao, idVariedade) {
 /**
  * A função selectInformacaoTomboJson, realiza uma consulta no banco de dados e retorna todas
  * as alterações que existem daquele tombo que foi passado por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idTombo, é o identificador do tombo, na qual será resgatado alterações feitas desse tombo.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectInformacaoTomboJson(conexao, idTombo) {
+export function selectInformacaoTomboJson(idTombo) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -597,7 +568,6 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
  * A função insereAlteracaoSugerida, ela insere um registro na tabela de alteração
  * quando foi encontrada uma alteração, as informações que serão adicionado
  * nesse registro foram passadas por parâmetro.
- * @param {*} conexao, conexão com o banco de dados para que se possa inserir os dados no banco de dados.
  * @param {*} idUsuario, é o identificador do usuário que sugeriu essa alteração.
  * @param {*} statusAlteracao, é o status dessa alteração que foi sugerida e inserida no banco de dados.
  * @param {*} idTombo, é o identificador do tombo para identificar que a alteração sugerida,
@@ -606,7 +576,7 @@ export function selectInformacaoTomboJson(conexao, idTombo) {
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a inserção.
  */
-export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idTombo, tomboJson) {
+export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tomboJson) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const throttle = throttledQueue(1, 200);
     const promessa = Q.defer();
@@ -627,11 +597,10 @@ export function insereAlteracaoSugerida(conexao, idUsuario, statusAlteracao, idT
  * A função existeTabelaReflora, executa um SHOW TABLES verificando
  * se existe a tabela do reflora ou não. Se existir a tabela do reflora
  * retorna true, e caso não exista false.
- * @param {*} conexao, conexão com o banco de dados para que se possa verificar se existe tabela ou não.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta de verificar se existe ou não a tabela.
  */
-export function existeTabelaReflora(conexao) {
+export function existeTabelaReflora() {
     const promessa = Q.defer();
     conexao.query('SHOW TABLES', { type: Sequelize.QueryTypes.SHOWTABLES }).then(listaTabelas => {
         listaTabelas.forEach(tabelas => {
@@ -647,11 +616,10 @@ export function existeTabelaReflora(conexao) {
 /**
  * A função apagaTabelaReflora, executa um DROP TABLE, ou seja,
  * apagar uma tabela que no caso é a tabela do reflora.
- * @param {*} conexao, conexão com o banco de dados para que se possa apagar a tabela.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de apagar a tabela.
  */
-export function apagaTabelaReflora(conexao) {
+export function apagaTabelaReflora() {
     const promessa = Q.defer();
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     promessa.resolve(tabelaReflora.drop());
@@ -661,12 +629,11 @@ export function apagaTabelaReflora(conexao) {
 /**
  * A função selectExisteServicoUsuario, verifica se existe um usuário
  * que foi passado por parâmetro, que pode ser REFLORA ou SPECIESLINK.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function selectExisteServicoUsuario(conexao, servico) {
+export function selectExisteServicoUsuario(servico) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
     conexao.sync().then(() => {
@@ -682,12 +649,11 @@ export function selectExisteServicoUsuario(conexao, servico) {
 /**
  * A função insereServicoUsuario, insere o usuário que foi passado por parâmetro
  * na tabela de usuários.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function insereServicoUsuario(conexao, servico) {
+export function insereServicoUsuario(servico) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaUsuario.create({

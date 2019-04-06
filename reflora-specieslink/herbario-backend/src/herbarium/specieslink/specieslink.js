@@ -26,23 +26,22 @@ import {
  * para o species Link, porém não existe a opção de enviar informações de subfamília
  * e variedade (Informações obtidas a partir do manual do software, e do README
  * disponível no software).
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito quando iniciou ou terminou
  * o processo de comparação.
  * @param {*} listaConteudoArquivo, é o conteúdo do arquivo do species Link carregado nessa lista.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando acabar de realizar a comparação de informações.
  */
-export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
+export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
     const promessa = Q.defer();
     if (listaConteudoArquivo.length === 0) {
         promessa.resolve(true);
     } else {
         const conteudo = listaConteudoArquivo.pop();
         const codBarra = conteudo[3];
-        selectTombo(conexao, codBarra).then(async tombo => {
+        selectTombo(codBarra).then(async tombo => {
             if (tombo.length === 0) {
-                promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
             } else {
                 let alteracaoInformacao = '{';
                 const informacoesTomboBd = tombo[0].dataValues;
@@ -55,23 +54,23 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 const anoIdentificacao = conteudo[16];
                 const mesIdentificacao = conteudo[17];
                 const diaIdentificacao = conteudo[18];
-                await ehIgualFamilia(conexao, informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
+                await ehIgualFamilia(informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
                     if (familia !== -1) {
                         alteracaoInformacao += `familia_nome: ${familia}, `;
                     }
                 });
-                await ehIgualGenero(conexao, informacoesTomboBd.genero_id, nomeGenero).then(genero => {
+                await ehIgualGenero(informacoesTomboBd.genero_id, nomeGenero).then(genero => {
                     if (genero !== -1) {
                         alteracaoInformacao += `genero_nome: ${genero}, `;
                     }
                 });
-                await ehIgualEspecie(conexao, informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
+                await ehIgualEspecie(informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
                     if (especie !== -1) {
                         alteracaoInformacao += `especie_nome: ${especie}, `;
                     }
                 });
                 // subespecie
-                await ehIgualSubespecie(conexao, informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
+                await ehIgualSubespecie(informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
                     if (subespecie !== -1) {
                         alteracaoInformacao += `subespecie_nome: ${subespecie}, `;
                     }
@@ -79,34 +78,34 @@ export function realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo) {
                 alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
                 alteracaoInformacao += '}';
                 if (alteracaoInformacao.length > 2) {
-                    existeAlteracaoSugerida(conexao, codBarra, alteracaoInformacao).then(existe => {
+                    existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
                         if (!existe) {
-                            selectExisteServicoUsuario(conexao, 'SPECIESLINK').then(listaUsuario => {
+                            selectExisteServicoUsuario('SPECIESLINK').then(listaUsuario => {
                                 if (listaUsuario.length === 0) {
-                                    insereServicoUsuario(conexao, 'SPECIESLINK').then(idUsuario => {
-                                        insereAlteracaoSugerida(conexao, idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                    insereServicoUsuario('SPECIESLINK').then(idUsuario => {
+                                        insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao);
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);
                                         // eslint-disable-next-line no-console
                                         console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
-                                        promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                                        promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
                                     });
                                 } else {
                                     const { id } = listaUsuario[0].dataValues;
-                                    insereAlteracaoSugerida(conexao, id, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                    insereAlteracaoSugerida(id, 'ESPERANDO', codBarra, alteracaoInformacao);
                                     // eslint-disable-next-line no-console
                                     console.log(identificador);
                                     // eslint-disable-next-line no-console
                                     console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
-                                    promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                                    promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
                                 }
                             });
                         } else {
-                            promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                            promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
                         }
                     });
                 } else {
-                    promessa.resolve(realizaComparacao(conexao, nomeArquivo, listaConteudoArquivo));
+                    promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
                 }
             }
         });
