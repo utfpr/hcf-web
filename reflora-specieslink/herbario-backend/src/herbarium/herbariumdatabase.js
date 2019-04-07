@@ -33,13 +33,13 @@ export const conexao = new Sequelize(database, username, password, options);
 export function selectCodBarra() {
     const promessa = Q.defer();
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaTomboFoto.findAll({
-            attributes: ['num_barra'],
-        }).then(listaCodBarra => {
-            promessa.resolve(listaCodBarra);
-        });
+    // conexao.sync().then(() => {
+    tabelaTomboFoto.findAll({
+        attributes: ['num_barra'],
+    }).then(listaCodBarra => {
+        promessa.resolve(listaCodBarra);
     });
+    // });
     return promessa.promise;
 }
 
@@ -72,13 +72,13 @@ export function criaTabelaReflora() {
 export function selectTemExecucaoServico(idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaConfiguracao.findAll({
-            where: { servico: idServico },
-        }).then(listaServico => {
-            promessa.resolve(listaServico);
-        });
+    // conexao.sync().then(() => {
+    tabelaConfiguracao.findAll({
+        where: { servico: idServico },
+    }).then(listaServico => {
+        promessa.resolve(listaServico);
     });
+    // });
     return promessa.promise;
 }
 
@@ -96,13 +96,13 @@ export function selectTemExecucaoServico(idServico) {
 export function selectEstaExecutandoServico(idServico) {
     const promessa = Q.defer();
     const tabelaConfiguracao = modeloConfiguracao(conexao, Sequelize);
-    conexao.sync().then(() => {
-        tabelaConfiguracao.findAll({
-            where: { hora_fim: null, servico: idServico },
-        }).then(listaServico => {
-            promessa.resolve(listaServico);
-        });
+    // conexao.sync().then(() => {
+    tabelaConfiguracao.findAll({
+        where: { hora_fim: null, servico: idServico },
+    }).then(listaServico => {
+        promessa.resolve(listaServico);
     });
+    // });
     return promessa.promise;
 }
 
@@ -314,15 +314,15 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
 export function selectUmCodBarra() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaReflora.findAll({
-            attributes: ['cod_barra'],
-            where: { contador: 0 },
-            limit: 1,
-        }).then(codBarra => {
-            promessa.resolve(codBarra);
-        });
+    // conexao.sync().then(() => {
+    tabelaReflora.findAll({
+        attributes: ['cod_barra'],
+        where: { contador: 0 },
+        limit: 1,
+    }).then(codBarra => {
+        promessa.resolve(codBarra);
     });
+    // });
     return promessa.promise;
 }
 
@@ -374,18 +374,18 @@ export function atualizaJaComparouTabelaReflora(codBarra) {
 export function selectUmaInformacaoReflora() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaReflora.findAll({
-            attributes: ['cod_barra', 'tombo_json'],
-            where: {
-                [Sequelize.Op.and]:
+    // conexao.sync().then(() => {
+    tabelaReflora.findAll({
+        attributes: ['cod_barra', 'tombo_json'],
+        where: {
+            [Sequelize.Op.and]:
                 [{ ja_comparou: false }, { contador: 1 }],
-            },
-            limit: 1,
-        }).then(informacaoReflora => {
-            promessa.resolve(informacaoReflora);
-        });
+        },
+        limit: 1,
+    }).then(informacaoReflora => {
+        promessa.resolve(informacaoReflora);
     });
+    // });
     return promessa.promise;
 }
 
@@ -399,14 +399,14 @@ export function selectUmaInformacaoReflora() {
 export function selectNroTomboNumBarra(codBarra) {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaTomboFoto.findAll({
-            attributes: ['tombo_hcf'],
-            where: { num_barra: codBarra },
-        }).then(nroTombo => {
-            promessa.resolve(nroTombo);
-        });
+    // conexao.sync().then(() => {
+    tabelaTomboFoto.findAll({
+        attributes: ['tombo_hcf'],
+        where: { num_barra: codBarra },
+    }).then(nroTombo => {
+        promessa.resolve(nroTombo);
     });
+    // });
     return promessa.promise;
 }
 
@@ -422,19 +422,19 @@ export function selectNroTomboNumBarra(codBarra) {
 export function selectTombo(nroTombo) {
     const tabelaTombo = modeloTombos(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaTombo.findAll({
-            attributes: [
-                'familia_id',
-                'genero_id',
-                'especie_id',
-                'sub_especie_id',
-                'variedade_id'],
-            where: { hcf: nroTombo },
-        }).then(tombo => {
-            promessa.resolve(tombo);
-        });
+    // conexao.sync().then(() => {
+    tabelaTombo.findAll({
+        attributes: [
+            'familia_id',
+            'genero_id',
+            'especie_id',
+            'sub_especie_id',
+            'variedade_id'],
+        where: { hcf: nroTombo },
+    }).then(tombo => {
+        promessa.resolve(tombo);
     });
+    // });
     return promessa.promise;
 }
 
@@ -448,14 +448,14 @@ export function selectTombo(nroTombo) {
 export function selectFamilia(idFamilia) {
     const tabelaFamilia = modeloFamilias(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaFamilia.findAll({
-            attributes: ['nome'],
-            where: { id: idFamilia },
-        }).then(familia => {
-            promessa.resolve(familia);
-        });
+    // conexao.sync().then(() => {
+    tabelaFamilia.findAll({
+        attributes: ['nome'],
+        where: { id: idFamilia },
+    }).then(familia => {
+        promessa.resolve(familia);
     });
+    // });
     return promessa.promise;
 }
 
@@ -469,14 +469,14 @@ export function selectFamilia(idFamilia) {
 export function selectGenero(idGenero) {
     const tabelaGenero = modeloGeneros(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaGenero.findAll({
-            attributes: ['nome'],
-            where: { id: idGenero },
-        }).then(genero => {
-            promessa.resolve(genero);
-        });
+    // conexao.sync().then(() => {
+    tabelaGenero.findAll({
+        attributes: ['nome'],
+        where: { id: idGenero },
+    }).then(genero => {
+        promessa.resolve(genero);
     });
+    // });
     return promessa.promise;
 }
 
@@ -490,14 +490,14 @@ export function selectGenero(idGenero) {
 export function selectEspecie(idEspecie) {
     const tabelaEspecie = modeloEspecies(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaEspecie.findAll({
-            attributes: ['nome', 'autor_id'],
-            where: { id: idEspecie },
-        }).then(especie => {
-            promessa.resolve(especie);
-        });
+    // conexao.sync().then(() => {
+    tabelaEspecie.findAll({
+        attributes: ['nome', 'autor_id'],
+        where: { id: idEspecie },
+    }).then(especie => {
+        promessa.resolve(especie);
     });
+    // });
     return promessa.promise;
 }
 
@@ -511,14 +511,14 @@ export function selectEspecie(idEspecie) {
 export function selectSubespecie(idSubespecie) {
     const tabelaSubespecies = modeloSubespecies(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaSubespecies.findAll({
-            attributes: ['nome'],
-            where: { id: idSubespecie },
-        }).then(subespecie => {
-            promessa.resolve(subespecie);
-        });
+    // conexao.sync().then(() => {
+    tabelaSubespecies.findAll({
+        attributes: ['nome'],
+        where: { id: idSubespecie },
+    }).then(subespecie => {
+        promessa.resolve(subespecie);
     });
+    // });
     return promessa.promise;
 }
 
@@ -532,14 +532,14 @@ export function selectSubespecie(idSubespecie) {
 export function selectVariedade(idVariedade) {
     const tabelaVariedade = modeloVariedades(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaVariedade.findAll({
-            attributes: ['nome'],
-            where: { id: idVariedade },
-        }).then(variedade => {
-            promessa.resolve(variedade);
-        });
+    // conexao.sync().then(() => {
+    tabelaVariedade.findAll({
+        attributes: ['nome'],
+        where: { id: idVariedade },
+    }).then(variedade => {
+        promessa.resolve(variedade);
     });
+    // });
     return promessa.promise;
 }
 
@@ -553,14 +553,14 @@ export function selectVariedade(idVariedade) {
 export function selectInformacaoTomboJson(idTombo) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaAlteracao.findAll({
-            attributes: ['tombo_json'],
-            where: { tombo_hcf: idTombo },
-        }).then(listaTombo => {
-            promessa.resolve(listaTombo);
-        });
+    // conexao.sync().then(() => {
+    tabelaAlteracao.findAll({
+        attributes: ['tombo_json'],
+        where: { tombo_hcf: idTombo },
+    }).then(listaTombo => {
+        promessa.resolve(listaTombo);
     });
+    // });
     return promessa.promise;
 }
 
@@ -636,13 +636,13 @@ export function apagaTabelaReflora() {
 export function selectExisteServicoUsuario(servico) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
-    conexao.sync().then(() => {
-        tabelaUsuario.findAll({
-            where: { nome: servico },
-        }).then(listaUsuario => {
-            promessa.resolve(listaUsuario);
-        });
+    // conexao.sync().then(() => {
+    tabelaUsuario.findAll({
+        where: { nome: servico },
+    }).then(listaUsuario => {
+        promessa.resolve(listaUsuario);
     });
+    // });
     return promessa.promise;
 }
 

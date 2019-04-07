@@ -35,8 +35,8 @@ function comecaAtualizacaoReflora(nomeArquivo) {
     escreveLOG(`reflora/${nomeArquivo}`, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora();
     selectCodBarra().then(listaCodBarra => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
-        // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+        // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
             fazRequisicaoReflora(nomeArquivo).then(resultadoRequisicaoReflora => {
                 if (resultadoRequisicaoReflora) {
                     fazComparacaoTombo().then(resultadoComparacao => {
