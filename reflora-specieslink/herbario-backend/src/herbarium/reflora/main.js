@@ -46,8 +46,10 @@ function comecaAtualizacaoReflora(nomeArquivo) {
                                 promessa.resolve();
                             });
                         }
+                        promessa.resolve();
                     });
                 }
+                promessa.resolve();
             });
         });
     });
@@ -103,6 +105,7 @@ function preparaExecucaoReflora(existeExecucaoReflora) {
             atualizaFimTabelaConfiguracao(id, horaFim);
             promessa.resolve();
         }
+        promessa.resolve();
     });
     return promessa.promise;
 }
