@@ -84,7 +84,7 @@ export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, bod
  */
 export function fazRequisicaoReflora(nomeArquivo) {
     const promessa = Q.defer();
-    const throttle = throttledQueue(1, 1000);
+    const throttle = throttledQueue(1, 1500);
     selectUmCodBarra().then(codBarra => {
         if (codBarra.length === 0) {
             promessa.resolve(true);
