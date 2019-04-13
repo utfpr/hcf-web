@@ -18,8 +18,8 @@ export default (Sequelize, DataTypes) => {
             defaultValue: false,
         },
         ja_requisitou: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
+            type: DataTypes.BOOLEAN,
+            defaultValue: false,
         },
     };
 

@@ -293,7 +293,7 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
             tabelaReflora.create({
                 cod_barra: codBarra.dataValues.num_barra,
                 tombo_json: null,
-                ja_requisitou: 0,
+                ja_requisitou: false,
             }).then(() => {
                 if (index === listaCodBarra.length - 1) {
                     promessa.resolve();
