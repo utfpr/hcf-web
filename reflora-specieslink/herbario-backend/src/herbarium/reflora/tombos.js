@@ -143,7 +143,6 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
                                         // eslint-disable-next-line no-console
                                         console.log(getInformacaoReflora.dateidentified);
                                     }
-                                    promessa.resolve();
                                 });
                                 promessa.resolve();
                             }

@@ -293,7 +293,7 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
             tabelaReflora.create({
                 cod_barra: codBarra.dataValues.num_barra,
                 tombo_json: null,
-                contador: 0,
+                ja_requisitou: 0,
             }).then(() => {
                 if (index === listaCodBarra.length - 1) {
                     promessa.resolve();
@@ -317,7 +317,7 @@ export function selectUmCodBarra() {
     // conexao.sync().then(() => {
     tabelaReflora.findAll({
         attributes: ['cod_barra'],
-        where: { contador: 0 },
+        where: { ja_requisitou: false },
         limit: 1,
     }).then(codBarra => {
         promessa.resolve(codBarra);
@@ -329,20 +329,20 @@ export function selectUmCodBarra() {
 /**
  * A função atualizaTabelaReflora, ele pega a resposta da requisição do Reflora e salva
  * esse registro equivalente ao seu código de barra. Além disso, troca o valor
- * da coluna contador de zero para um na qual representa que já foi conseguido
- * a resposta da requisiçãodo Reflora.
+ * da coluna ja_requisitou de false para true na qual representa que já foi conseguido
+ * a resposta da requisiçã odo Reflora.
  * @param {*} codBarra, é o código de barra na qual é necessário para colocar
  * a resposta da requisição no registro correto.
  * @param {*} json, é o JSON com a resposta vinda da requisição do Reflora.
- * @param {*} valorContador, é o valor utilizado para marcar que já foi feita
- * a requisição, sendo zero que não feito e um que foi feito a requisição.
+ * @param {*} valorJaRequisitou, é o valor utilizado para marcar que já foi feita
+ * a requisição, sendo false que não feito e true que foi feito a requisição.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a atualização.
  */
-export function atualizaTabelaReflora(codBarra, json, valorContador) {
+export function atualizaTabelaReflora(codBarra, json, valorJaRequisitou) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.update(
-        { tombo_json: json, contador: valorContador },
+        { tombo_json: json, ja_requisitou: valorJaRequisitou },
         { where: { cod_barra: codBarra } },
     );
 }
@@ -379,7 +379,7 @@ export function selectUmaInformacaoReflora() {
         attributes: ['cod_barra', 'tombo_json'],
         where: {
             [Sequelize.Op.and]:
-                [{ ja_comparou: false }, { contador: 1 }],
+                [{ ja_comparou: false }, { ja_requisitou: true }],
         },
         limit: 1,
     }).then(informacaoReflora => {
