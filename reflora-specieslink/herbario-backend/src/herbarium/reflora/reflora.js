@@ -52,22 +52,21 @@ function jsonTemErro(respostaReflora) {
  * A função salvaRespostaReflora, verifica se o que foi retornado é uma mensagem de erro, e
  * se for é adicionado no log, juntamente com o código de barra e o erro. Caso não seja essa mensagem
  * é verifica se o JSON é o JSON de erro ou não. Se for o JSON com erro, eu guardo no banco de dados
- * e o contador fica igual a zero (O contador quando é zero significa que não foi feita a requisição,
- * caso seja um é que foi feito a requisição). Caso seja o JSON esperado, eu guardo ele no banco de
- * dados e valor da coluna contador fica igual a um.
+ * e o ja_requisitou fica igual a zero (O ja_requisitou quando é false significa que não foi feita a requisição,
+ * caso seja true é que foi feito a requisição). Caso seja o JSON esperado, eu guardo ele no banco de
+ * dados e valor da coluna ja_requisitou fica igual a true.
  * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito as mensagens de erros, caso ela ocorra.
- * @param {*} conexao, é a conexão com o banco de dados para atualizar os dados no banco de dados.
  * @param {*} codBarra, é o código de barra do tombo que foi feito a requisição no Reflora.
  * @param {*} error, é o erro que pode ser retornado pela tentativa de requisição.
  * @param {*} response, é a resposta que pode ser retornado pela tentativa de requisição.
  * @param {*} body, é o corpo que pode ser retornado pela tentativa de requisição.
  */
-export function salvaRespostaReflora(nomeArquivo, conexao, codBarra, error, response, body) {
+export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, body) {
     if (!error && response.statusCode === 200) {
         if (jsonTemErro(body)) {
-            atualizaTabelaReflora(conexao, codBarra, body, 0);
+            atualizaTabelaReflora(codBarra, body, false);
         } else {
-            atualizaTabelaReflora(conexao, codBarra, body, 1);
+            atualizaTabelaReflora(codBarra, body, true);
         }
     } else {
         escreveLOG(`reflora/${nomeArquivo}`, `Erro no código de barra {${codBarra}} que foi ${error}`);
@@ -80,22 +79,21 @@ export function salvaRespostaReflora(nomeArquivo, conexao, codBarra, error, resp
  * é feito a requisição ao Reflora para obter as informações daquele código de barra.
  * Com as informações será verificado se as informações serão salvas ou não no banco
  * de dados.
- * @param {*} conexao, é a conexão com o banco de dados para atualizar os dados no banco de dados.
  * @param {*} nomeArquivo, é o nome do arquivo aonde será escrito as mensagens de erros, caso ela ocorra.
  * quando acabar de realizar as requisições de todas as informações do Reflora.
  */
-export function fazRequisicaoReflora(conexao, nomeArquivo) {
+export function fazRequisicaoReflora(nomeArquivo) {
     const promessa = Q.defer();
-    const throttle = throttledQueue(1, 1000);
-    selectUmCodBarra(conexao).then(codBarra => {
+    const throttle = throttledQueue(1, 1500);
+    selectUmCodBarra().then(codBarra => {
         if (codBarra.length === 0) {
             promessa.resolve(true);
         } else {
             const getCodBarra = codBarra[0].dataValues.cod_barra;
             throttle(() => {
                 request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
-                    salvaRespostaReflora(nomeArquivo, conexao, getCodBarra, error, response, body);
-                    promessa.resolve(fazRequisicaoReflora(conexao, nomeArquivo));
+                    salvaRespostaReflora(nomeArquivo, getCodBarra, error, response, body);
+                    promessa.resolve(fazRequisicaoReflora(nomeArquivo));
                 });
             });
         }

@@ -72,15 +72,14 @@ function ehNuloEhIndefinidoEhVazio(informacao) {
  * de processar iremos comparar. Se for diferente esses valores iremos
  * retornar para que o mesmo possa ser adicionado no JSON, e caso contrário
  * não será adicionado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idFamilia, é o identificador da família presente na tabela de tombos, na qual é
  * necessário para se obter o nome da família.
  * @param {*} nomeFamiliaHerbarioVirtual, é o nome da família que está presente no Herbário Virtual.
  * @return string, que pode ser -1 ou o nome da família que está presente no Herbário Virtual.
  */
-export function ehIgualFamilia(conexao, idFamilia, nomeFamiliaHerbarioVirtual) {
+export function ehIgualFamilia(idFamilia, nomeFamiliaHerbarioVirtual) {
     const promessa = Q.defer();
-    selectFamilia(conexao, idFamilia).then(resultadoFamiliaBd => {
+    selectFamilia(idFamilia).then(resultadoFamiliaBd => {
         if (resultadoFamiliaBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -124,15 +123,14 @@ export function ehIgualFamilia(conexao, idFamilia, nomeFamiliaHerbarioVirtual) {
  * de processar iremos comparar. Se for diferente esses valores iremos
  * retornar para que o mesmo possa ser adicionado no JSON, e caso contrário
  * não será adicionado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idGenero, é o identificador de gênero presente na tabela de tombos, na qual é
  * necessário para se obter o nome do gênero.
  * @param {*} nomeGeneroHerbarioVirtual, é o nome do gênero que está presente no Herbário Virtual.
  * @return string, que pode ser -1 ou o nome do gênero que está presente no Herbário Virtual.
  */
-export function ehIgualGenero(conexao, idGenero, nomeGeneroHerbarioVirtual) {
+export function ehIgualGenero(idGenero, nomeGeneroHerbarioVirtual) {
     const promessa = Q.defer();
-    selectGenero(conexao, idGenero).then(resultadoGeneroBd => {
+    selectGenero(idGenero).then(resultadoGeneroBd => {
         if (resultadoGeneroBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -176,15 +174,14 @@ export function ehIgualGenero(conexao, idGenero, nomeGeneroHerbarioVirtual) {
  * de processar iremos comparar. Se for diferente esses valores iremos
  * retornar para que o mesmo possa ser adicionado no JSON, e caso contrário
  * não será adicionado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idEspecie, é o identificador de espécie presente na tabela de tombos, na qual é
  * necessário para se obter o nome do espécie.
  * @param {*} nomeEspecieHerbarioVirtual, é o nome do espécie que está presente no Herbário Virtual.
  * @return string, que pode ser -1 ou o nome do espécie que está presente no Herbário Virtual.
  */
-export function ehIgualEspecie(conexao, idEspecie, nomeEspecieHerbarioVirtual) {
+export function ehIgualEspecie(idEspecie, nomeEspecieHerbarioVirtual) {
     const promessa = Q.defer();
-    selectEspecie(conexao, idEspecie).then(resultadoEspecieBd => {
+    selectEspecie(idEspecie).then(resultadoEspecieBd => {
         if (resultadoEspecieBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -228,15 +225,14 @@ export function ehIgualEspecie(conexao, idEspecie, nomeEspecieHerbarioVirtual) {
  * de processar iremos comparar. Se for diferente esses valores iremos
  * retornar para que o mesmo possa ser adicionado no JSON, e caso contrário
  * não será adicionado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idSubespecie, é o identificador de subespécie presente na tabela de tombos, na qual é
  * necessário para se obter o nome do subespécie.
  * @param {*} nomeSubespecieHerbarioVirtual, é o nome do subespécie que está presente no Herbário Virtual.
  * @return string, que pode ser -1 ou o nome do subespécie que está presente no Herbário Virtual.
  */
-export function ehIgualSubespecie(conexao, idSubespecie, nomeSubespecieHerbarioVirtual) {
+export function ehIgualSubespecie(idSubespecie, nomeSubespecieHerbarioVirtual) {
     const promessa = Q.defer();
-    selectSubespecie(conexao, idSubespecie).then(resultadoSubespecieBd => {
+    selectSubespecie(idSubespecie).then(resultadoSubespecieBd => {
         if (resultadoSubespecieBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -280,15 +276,14 @@ export function ehIgualSubespecie(conexao, idSubespecie, nomeSubespecieHerbarioV
  * de processar iremos comparar. Se for diferente esses valores iremos
  * retornar para que o mesmo possa ser adicionado no JSON, e caso contrário
  * não será adicionado.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} idVariedade, é o identificador de variedade presente na tabela de tombos, na qual é
  * necessário para se obter o nome do variedade.
  * @param {*} nomeVariedadeHerbarioVirtual, é o nome do variedade que está presente no Herbário Virtual.
  * @return string, que pode ser -1 ou o nome do variedade que está presente no Herbário Virtual.
  */
-export function ehIgualVariedade(conexao, idVariedade, nomeVariedadeHerbarioVirtual) {
+export function ehIgualVariedade(idVariedade, nomeVariedadeHerbarioVirtual) {
     const promessa = Q.defer();
-    selectVariedade(conexao, idVariedade).then(resultadoVariedadeBd => {
+    selectVariedade(idVariedade).then(resultadoVariedadeBd => {
         if (resultadoVariedadeBd.length === 0) {
             promessa.resolve(-1);
             return promessa.promise;
@@ -342,16 +337,15 @@ function ehIgualJson(jsonBd, jsonGerado) {
  * que foi gerado a partir das comparações feitas. Se for igual a um dos JSON presentes no resultado
  * da consulta eu retorno true, representando que essa alteração já foi sugerida, caso contrário
  * retorno false.
- * @param {*} conexao, conexão com o banco de dados para que se possa obter dados do banco de dados.
  * @param {*} nroTombo, é o número do tombo utilizado para buscar informações de alterações
  * que possam existir.
  * @param {*} jsonGerado, JSON gerado quando foi feito a comparação das informações presentes
  * no banco de dados, com os do Herbário Virtual.
  * @return true ou false, true quando os dois JSON são iguais, e false quando os dois JSON são diferentes.
  */
-export function existeAlteracaoSugerida(conexao, nroTombo, jsonGerado) {
+export function existeAlteracaoSugerida(nroTombo, jsonGerado) {
     const promessa = Q.defer();
-    selectInformacaoTomboJson(conexao, nroTombo).then(listaTomboJson => {
+    selectInformacaoTomboJson(nroTombo).then(listaTomboJson => {
         if (listaTomboJson.length === 0) {
             promessa.resolve(false);
             return promessa.promise;

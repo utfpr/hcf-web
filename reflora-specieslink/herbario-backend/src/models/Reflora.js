@@ -17,9 +17,9 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN,
             defaultValue: false,
         },
-        contador: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
+        ja_requisitou: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false,
         },
     };
 
