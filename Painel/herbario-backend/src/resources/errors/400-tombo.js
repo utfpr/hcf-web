@@ -18,5 +18,7 @@ export default {
     416: 'Tombo não encontrado.',
     417: 'Número de coleta já cadastrado.',
     418: 'Informe uma quantidade válida de campos a serem exportados, 1 à 5.',
-
+    419: 'Não é possível exportar mais do que 50mil tombos por vez. E o período \'de\' tem que ser menor que o \'ate\'',
+    420: 'É necessário informar um período de tombos, ou os tombos especificos.',
+    421: 'Erro ao alterar o tombo',
 };

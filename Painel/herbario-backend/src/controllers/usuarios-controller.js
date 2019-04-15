@@ -34,7 +34,7 @@ export const listaTodosUsuariosAtivos = (limit, offset, where) => Usuario.findAn
     include: [{
         model: TipoUsuario,
         attributes: {
-            exclude: ['created_at', 'updated_at'],
+            exclude: ['updated_at'],
         },
     }],
     where,

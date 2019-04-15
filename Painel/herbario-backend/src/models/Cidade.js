@@ -5,18 +5,18 @@ function associate(modelos) {
     } = modelos;
 
     Cidade.belongsTo(Estado, {
-        foreignKey: 'estados_nome',
-    });
-    Cidade.belongsTo(Estado, {
-        foreignKey: 'estados_sigla',
-    });
-    Cidade.belongsTo(Estado, {
-        foreignKey: 'estados_paises_nome',
-    });
-    Cidade.belongsTo(Estado, {
-        foreignKey: 'estados_paises_sigla',
+        foreignKey: 'estado_id',
     });
 }
+
+export const defaultScope = {
+    attributes: {
+        exclude: [
+            'created_at',
+            'updated_at',
+        ],
+    },
+};
 
 export default (Sequelize, DataTypes) => {
 
@@ -30,9 +30,21 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.STRING(200),
             allowNull: false,
         },
+        latitude: {
+            type: DataTypes.DOUBLE,
+            allowNull: true,
+        },
+        longitude: {
+            type: DataTypes.DOUBLE,
+            allowNull: true,
+        },
     };
 
-    const Model = Sequelize.define('cidades', attributes);
+    const options = {
+        defaultScope,
+    };
+
+    const Model = Sequelize.define('cidades', attributes, options);
 
     Model.associate = associate;
 

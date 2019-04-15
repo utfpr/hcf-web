@@ -1,13 +1,15 @@
 function associate(modelos) {
+    const {
+        Alteracao,
+        Usuario,
+    } = modelos;
+
+    Alteracao.belongsTo(Usuario, {
+        foreignKey: 'usuario_id',
+    });
 }
 
 export const defaultScope = {
-    attributes: {
-        exclude: [
-            'created_at',
-            'updated_at',
-        ],
-    },
 };
 
 export default (Sequelize, DataTypes) => {

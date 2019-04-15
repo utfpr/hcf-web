@@ -99,9 +99,7 @@ class ListaHerbariosScreen extends Component {
 						this.notificacao("error", "Falha", "Houve um problema ao excluir o herbários, tente novamente.")
 					}
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(() => {
@@ -109,12 +107,35 @@ class ListaHerbariosScreen extends Component {
 			});
 	}
 
+	retornaEndereco(endereco) {
+		var retorno = ""
+		if (endereco !== null && endereco !== "") {
+			if (endereco.logradouro != null) {
+				retorno += endereco.logradouro
+			}
+			if (endereco.numero != null) {
+				retorno += ` ${endereco.numero},`
+			}
+			if (endereco.cidade != null) {
+				retorno += ` ${endereco.cidade.nome} -`
+			}
+			if (endereco.cidade != null && endereco.cidade.estado != null) {
+				retorno += ` ${endereco.cidade.estado.nome}, `
+			}
+			if (endereco.cidade != null && endereco.cidade.estado != null) {
+				retorno += ` ${endereco.cidade.estado.paise.nome} `
+			}
+			return retorno
+		}
+		return ""
+	}
+
 	formataDadosHerbarios = herbarios => herbarios.map(item => ({
 		key: item.id,
 		nome: item.nome,
 		email: item.email === null ? "" : item.email,
 		sigla: item.sigla,
-		endereco: `${item.endereco.logradouro} ${item.endereco.numero}, ${item.endereco.cidade.nome} - ${item.endereco.cidade.estados_nome}, ${item.endereco.cidade.estados_paises_nome}`,
+		endereco: this.retornaEndereco(item.endereco),
 		acao: this.gerarAcao(item.id),
 	}));
 
@@ -159,8 +180,10 @@ class ListaHerbariosScreen extends Component {
 				this.setState({
 					loading: false
 				})
+				console.log(response.status)
 				if (response.status === 200) {
 					const { data } = response;
+					console.log(data)
 					this.setState({
 						herbarios: this.formataDadosHerbarios(data.herbarios),
 						metadados: data.metadados,
@@ -179,14 +202,9 @@ class ListaHerbariosScreen extends Component {
 						this.notificacao("error", "Falha", "Houve um problema ao buscar os herbários, tente novamente.")
 					}
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
-			.catch(() => {
-				this.notificacao("error", "Falha", "Houve um problema ao buscar os herbários, tente novamente.")
-			});
 	}
 
 	handleSubmit = (err, valores) => {
@@ -213,44 +231,48 @@ class ListaHerbariosScreen extends Component {
 			<Card title="Buscar Herbário">
 				<Form onSubmit={this.onSubmit}>
 					<Row gutter={8}>
-						<Col span={8}>
-							<span>Nome:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Nome:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('nome')(
+										<Input placeholder={"Herbario do Centro Federal"} type="text" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Email:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Email:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('email')(
+										<Input placeholder={"herbariofederal@gmail.com"} type="text" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Sigla:</span>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('nome')(
-									<Input placeholder={"Herbario do Centro Federal"} type="text" />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('email')(
-									<Input placeholder={"herbariofederal@gmail.com"} type="text" />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('sigla')(
-									<Input placeholder={"HCF"} type="text" />
-								)}
-							</FormItem>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Sigla:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('sigla')(
+										<Input placeholder={"HCF"} type="text" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 
 					<Row>
 						<Col span={24}>
-							<Row type="flex" justify="end">
-								<Col span={4} style={{ marginRight: '10px' }}>
+							<Row type="flex" justify="end" gutter={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											onClick={() => {
@@ -269,7 +291,7 @@ class ListaHerbariosScreen extends Component {
 									</Button>
 									</FormItem>
 								</Col>
-								<Col span={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											type="primary"

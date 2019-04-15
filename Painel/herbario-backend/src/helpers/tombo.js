@@ -1,3 +1,8 @@
+import { converteParaDecimal } from './coordenadas';
+
+
+export default {};
+
 export function converteInteiroParaRomano(numero) {
     if (numero === 1) {
         return 'I';
@@ -25,4 +30,59 @@ export function converteInteiroParaRomano(numero) {
     return 'XII';
 }
 
-export default {};
+export function converteRequisicaoParaTombo(requisicao) {
+    const {
+        principal,
+        identificacao,
+        localidade,
+        taxonomia,
+    } = requisicao;
+
+    const { data_coleta: dataColeta } = principal;
+    const { data_identificacao: dataIdentificacao } = identificacao;
+
+
+    return {
+        hcf: null,
+        nome_popular: principal.nome_popular,
+        numero_coleta: principal.numero_coleta,
+
+        latitude: converteParaDecimal(localidade.latitude),
+        longitude: converteParaDecimal(localidade.longitude),
+        altitude: localidade.altitude,
+
+        data_coleta_dia: dataColeta.dia,
+        data_coleta_mes: dataColeta.mes,
+        data_coleta_ano: dataColeta.ano,
+
+        data_identificacao_dia: dataIdentificacao.dia,
+        data_identificacao_mes: dataIdentificacao.mes,
+        data_identificacao_ano: dataIdentificacao.ano,
+
+        cor: principal.cor,
+        tipo: {
+            id: principal.tipo_id,
+        },
+        entidade: {
+            id: principal.entidade_id,
+        },
+        familia: {
+            id: taxonomia.familia_id,
+        },
+        sub_familia: {
+            id: taxonomia.sub_familia_id,
+        },
+        genero: {
+            id: taxonomia.genero_id,
+        },
+        especie: {
+            id: taxonomia.especie_id,
+        },
+        sub_especie: {
+            id: taxonomia.sub_especie_id,
+        },
+        variedade: {
+            id: taxonomia.variedade_id,
+        },
+    };
+}

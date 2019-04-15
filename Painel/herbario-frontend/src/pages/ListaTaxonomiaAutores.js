@@ -60,9 +60,7 @@ class ListaTaxonomiaAutores extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
     }
@@ -176,9 +174,7 @@ class ListaTaxonomiaAutores extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -232,9 +228,7 @@ class ListaTaxonomiaAutores extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    this.openNotificationWithIcon("warning", "Falha", error.message);
                 }
             })
             .catch(this.catchRequestError);
@@ -243,24 +237,20 @@ class ListaTaxonomiaAutores extends Component {
     renderAdd = () => {
         if (isCuradorOuOperador()) {
             return (
-                <Col span={4}>
-                    <Row type="flex" justify="end">
-                        <Button
-                            type="primary"
-                            icon="plus"
-                            onClick={() => {
-                                this.setState({
-                                    visibleModal: true,
-                                    titulo: 'Cadastrar',
-                                    id: -1,
-                                })
-                            }}
-                            style={{ backgroundColor: "#5CB85C", borderColor: "#5CB85C" }}
-                        >
-                            Adicionar
+                <Button
+                    type="primary"
+                    icon="plus"
+                    onClick={() => {
+                        this.setState({
+                            visibleModal: true,
+                            titulo: 'Cadastrar',
+                            id: -1,
+                        })
+                    }}
+                    style={{ backgroundColor: "#5CB85C", borderColor: "#5CB85C" }}
+                >
+                    Adicionar
                                 </Button>
-                    </Row>
-                </Col>
             )
         }
         return undefined;
@@ -302,9 +292,7 @@ class ListaTaxonomiaAutores extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -331,8 +319,8 @@ class ListaTaxonomiaAutores extends Component {
 
                     <Row>
                         <Col span={24}>
-                            <Row type="flex" justify="end">
-                                <Col span={4} style={{ marginRight: '10px' }}>
+                            <Row type="flex" justify="end" gutter={4}>
+                                <Col xs={24} sm={8} md={6} lg={4} xl={4}>
                                     <FormItem>
                                         <Button
                                             onClick={() => {
@@ -350,7 +338,7 @@ class ListaTaxonomiaAutores extends Component {
 									</Button>
                                     </FormItem>
                                 </Col>
-                                <Col span={4}>
+                                <Col xs={24} sm={8} md={6} lg={4} xl={4}>
                                     <FormItem>
                                         <Button
                                             type="primary"
@@ -441,10 +429,12 @@ class ListaTaxonomiaAutores extends Component {
                 </Form>
 
                 <Row gutter={24} style={{ marginBottom: "20px" }}>
-                    <Col span={20}>
+                    <Col xs={24} sm={14} md={18} lg={20} xl={21}>
                         <h2 style={{ fontWeight: 200 }}>Autores</h2>
                     </Col>
-                    {this.renderAdd()}
+                    <Col xs={24} sm={10} md={6} lg={4} xl={3}>
+                        {this.renderAdd()}
+                    </Col>
                 </Row>
 
 

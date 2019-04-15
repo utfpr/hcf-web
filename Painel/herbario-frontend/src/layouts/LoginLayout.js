@@ -45,7 +45,6 @@ export default class LoginLayout extends Component {
                     }
                     this.props.requisicao(value);
 
-                    throw new Error('Credenciais inválidas');
                 }
 
                 this.salvarCrendenciaisUsuario(response.data);
@@ -61,9 +60,7 @@ export default class LoginLayout extends Component {
                     }
                     this.props.requisicao(value);
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);

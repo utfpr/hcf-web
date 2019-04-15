@@ -40,7 +40,8 @@ export const post = (request, response, next) => {
 
             const basediretorio = join(storage, subdiretorio);
             if (!existsSync(basediretorio)) {
-                mkdirSync(basediretorio);
+                // @ts-ignore
+                mkdirSync(basediretorio, { recursive: true });
             }
 
             // @ts-ignore

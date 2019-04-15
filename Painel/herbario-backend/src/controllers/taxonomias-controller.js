@@ -14,6 +14,7 @@ export const cadastrarFamilia = (request, response, next) => {
         .then(() => Familia.findOne({
             where: {
                 nome,
+                ativo: 1,
             },
             transaction,
         }))

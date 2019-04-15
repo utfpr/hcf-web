@@ -54,14 +54,62 @@ export const buscarHerbario = (request, response, next) => {
         id: request.params.herbario_id,
         ativo: true,
     };
-
+    const retorno = {
+        herbario: {},
+        paises: [],
+        estados: [],
+        cidades: [],
+    };
     Promise.resolve()
         .then(() => listaTodosHerbariosAtivos(1, 0, where))
-        .then(retorno => {
+        .then(herbario => {
+            // eslint-disable-next-line
+            console.log(herbario.rows[0].cidade)
+            // eslint-disable-next-line prefer-destructuring
+            retorno.herbario = herbario.rows[0];
             if (retorno.count === 0) {
                 throw new NotFoundExeption(60);
             }
-            response.status(codigos.LISTAGEM).json(retorno.rows[0]);
+        })
+        .then(() => Pais.findAll({
+            attributes: {
+                exclude: ['updated_at', 'created_at'],
+            },
+        }))
+        // eslint-disable-next-line no-return-assign
+        .then(paises => retorno.paises = paises)
+        .then(() => {
+            if (retorno.herbario.endereco) {
+                return Estado.findAll({
+                    attributes: {
+                        exclude: ['updated_at', 'created_at'],
+                    },
+                    where: {
+                        pais_id: retorno.herbario.endereco.cidade.estado.paise.id,
+                    },
+                });
+            }
+            return [];
+        })
+        // eslint-disable-next-line no-return-assign
+        .then(estados => retorno.estados = estados)
+        .then(() => {
+            if (retorno.herbario.endereco) {
+                return Cidade.findAll({
+                    attributes: {
+                        exclude: ['updated_at', 'created_at'],
+                    },
+                    where: {
+                        estado_id: retorno.herbario.endereco.cidade.estado.id,
+                    },
+                });
+            }
+            return [];
+        })
+        // eslint-disable-next-line no-return-assign
+        .then(cidades => retorno.cidades = cidades)
+        .then(() => {
+            response.status(codigos.LISTAGEM).json(retorno);
         })
         .catch(next);
 };
@@ -86,6 +134,8 @@ export const cadastro = (request, response, next) => {
             return Endereco.create(endereco, { transaction });
         })
         .then(endereco => {
+            // eslint-disable-next-line
+            console.log(request.body.herbario)
             const herbario = {
                 ...request.body.herbario,
                 endereco_id: endereco.id,

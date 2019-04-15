@@ -50,7 +50,7 @@ class ListaTaxonomiaFamilia extends Component {
                 })
                 if (response.status === 204) {
                     this.requisitaListaFamilia(this.state.valores, this.state.pagina)
-                    this.notificacao('success', 'Excluir tombo', 'A familia foi excluída com sucesso.')
+                    this.notificacao('success', 'Excluir familia', 'A familia foi excluída com sucesso.')
                 }
             })
             .catch(err => {
@@ -60,9 +60,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
     }
@@ -173,9 +171,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -211,7 +207,8 @@ class ListaTaxonomiaFamilia extends Component {
                     this.requisitaListaFamilia();
                     this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
                 } else if (response.status === 400) {
-                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                    console.log(response.data)
+                    this.openNotificationWithIcon("warning", "Falha", response.data.error);
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar a nova familia, tente novamente.")
                 }
@@ -228,9 +225,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -268,9 +263,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -298,8 +291,8 @@ class ListaTaxonomiaFamilia extends Component {
 
                     <Row>
                         <Col span={24}>
-                            <Row type="flex" justify="end">
-                                <Col span={4} style={{ marginRight: '10px' }}>
+                            <Row type="flex" justify="end" gutter={4}>
+                                <Col xs={24} sm={8} md={6} lg={4} xl={4}>
                                     <FormItem>
                                         <Button
                                             onClick={() => {
@@ -318,7 +311,7 @@ class ListaTaxonomiaFamilia extends Component {
 									</Button>
                                     </FormItem>
                                 </Col>
-                                <Col span={4}>
+                                <Col xs={24} sm={8} md={6} lg={4} xl={4}>
                                     <FormItem>
                                         <Button
                                             type="primary"
@@ -340,24 +333,20 @@ class ListaTaxonomiaFamilia extends Component {
     renderAdd = () => {
         if (isCuradorOuOperador()) {
             return (
-                <Col span={4}>
-                    <Row type="flex" justify="end">
-                        <Button
-                            type="primary"
-                            icon="plus"
-                            onClick={() => {
-                                this.setState({
-                                    visibleModal: true,
-                                    titulo: 'Cadastrar',
-                                    id: -1,
-                                })
-                            }}
-                            style={{ backgroundColor: "#5CB85C", borderColor: "#5CB85C" }}
-                        >
-                            Adicionar
+                <Button
+                    type="primary"
+                    icon="plus"
+                    onClick={() => {
+                        this.setState({
+                            visibleModal: true,
+                            titulo: 'Cadastrar',
+                            id: -1,
+                        })
+                    }}
+                    style={{ backgroundColor: "#5CB85C", borderColor: "#5CB85C" }}
+                >
+                    Adicionar
                 </Button>
-                    </Row>
-                </Col>
             )
         }
         return undefined;
@@ -416,12 +405,13 @@ class ListaTaxonomiaFamilia extends Component {
                 </Form>
 
                 <Row gutter={24} style={{ marginBottom: "20px" }}>
-                    <Col span={20}>
+                    <Col xs={24} sm={14} md={18} lg={20} xl={21}>
                         <h2 style={{ fontWeight: 200 }}>Familias</h2>
                     </Col>
-                    {this.renderAdd()}
+                    <Col xs={24} sm={10} md={6} lg={4} xl={3}>
+                        {this.renderAdd()}
+                    </Col>
                 </Row>
-
 
                 <Divider dashed />
                 {this.renderPainelBusca(getFieldDecorator)}

@@ -1,5 +1,6 @@
 const validaTipo = tipo => {
-    if (tipo === 1 || tipo === 2 || tipo === 3) {
+    const tipoInt = parseInt(tipo);
+    if (tipoInt === 1 || tipoInt === 2 || tipoInt === 3) {
         return true;
     }
 

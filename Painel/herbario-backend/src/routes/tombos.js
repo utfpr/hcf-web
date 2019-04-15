@@ -5,11 +5,12 @@ import cadastrarTomboEsquema from '../validators/tombo-cadastro';
 import cadastrarTipoEsquema from '../validators/tipo-cadastro';
 import coletorCadastro from '../validators/coletor-cadastro';
 import listagemTombo from '../validators/tombo-listagem';
+import tomboExportarCadastro from '../validators/tombo-exportar-cadastro';
 
 import {
     getDadosCadTombo, getExportarDados, getNumeroTombo, cadastro, listagem,
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
-    buscarProximoNumeroColetor,
+    buscarProximoNumeroColetor, alteracao,
 } from '../controllers/tombos-controller';
 
 export default app => {
@@ -17,7 +18,9 @@ export default app => {
     app.route('/tombos/dados')
         .get([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             getDadosCadTombo,
         ]);
@@ -25,6 +28,7 @@ export default app => {
     app.route('/tombos/exportar')
         .get([
             getExportarDados,
+            validacoesMiddleware(tomboExportarCadastro),
         ]);
 
     app.route('/tombos/filtrar_numero/:id')
@@ -35,7 +39,8 @@ export default app => {
     app.route('/tombos')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
             ]),
             validacoesMiddleware(cadastrarTomboEsquema),
             cadastro,
@@ -47,9 +52,18 @@ export default app => {
         ]);
 
     app.route('/tombos/:tombo_id')
+        .put([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.IDENTIFICADOR,
+            ]),
+            alteracao,
+        ])
         .delete([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
             ]),
             desativar,
         ])

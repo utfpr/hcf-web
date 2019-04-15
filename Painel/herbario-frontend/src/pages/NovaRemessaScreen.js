@@ -109,9 +109,7 @@ class NovaRemessaScreen extends Component {
 				if (response && response.data) {
 					const { error } = response.data;
 					this.notificacao("error", "Falha", "Houve um problema ao buscar os dados da remessa, tente novamente.")
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -151,9 +149,7 @@ class NovaRemessaScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -225,9 +221,7 @@ class NovaRemessaScreen extends Component {
 					} else {
 						this.notificacao("error", "Falha", "Houve um problema ao cadastrar a novo genero, tente novamente.")
 					}
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -274,9 +268,7 @@ class NovaRemessaScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -395,7 +387,7 @@ class NovaRemessaScreen extends Component {
 												style={{ width: '100%' }}
 												placeholder="Selecione um tipo"
 												optionFilterProp="children"
-												
+
 											>
 												<Option value={'EMPRESTIMO'}>{'Emprestimo'}</Option>
 												<Option value={'DOACAO'}>{'Doação'}</Option>
@@ -442,7 +434,7 @@ class NovaRemessaScreen extends Component {
 										showSearch
 										placeholder="Selecione um doador"
 										optionFilterProp="children"
-										
+
 									>
 										{this.optionHerbario()}
 									</Select>
@@ -468,7 +460,7 @@ class NovaRemessaScreen extends Component {
 										showSearch
 										placeholder="Selecione um receptor"
 										optionFilterProp="children"
-										
+
 									>
 										{this.optionHerbario()}
 									</Select>
@@ -477,33 +469,35 @@ class NovaRemessaScreen extends Component {
 						</Col>
 					</Row>
 					<Row gutter={8}>
-						<Col span={12}>
-							<span>Data de envio:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Data de envio:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('dataEnvio')(
+										<DatePicker format={'DD-MM-YYYY'} />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={12}>
-							<span>Observação:</span>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={12}>
-							<FormItem>
-								{getFieldDecorator('dataEnvio')(
-									<DatePicker format={'DD-MM-YYYY'} />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={12}>
-							<FormItem>
-								{getFieldDecorator('observacoes')(
-									<TextArea rows={4} />
-								)}
-							</FormItem>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Observação:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('observacoes')(
+										<TextArea rows={4} />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 					<Divider dashed />
 
 					<Row type="flex" justify="end">
-						<Col span={4}>
+						<Col xs={24} sm={12} md={8} lg={4} xl={4}>
 							<Button type="dashed" icon="plus" onClick={() => {
 								this.setState({
 									visibleModal: true,
@@ -520,7 +514,7 @@ class NovaRemessaScreen extends Component {
 					<Divider dashed />
 
 					<Row type="flex" justify="end">
-						<Col span={6}>
+						<Col xs={24} sm={8} md={8} lg={4} xl={4}>
 							<ButtonComponent titleButton={"Salvar"} style={{ backgroundColor: "#28a745" }} />
 						</Col>
 					</Row>

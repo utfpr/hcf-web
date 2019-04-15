@@ -8,30 +8,7 @@ export default class GalleryComponent extends Component {
         super(props);
     }
 
-
-
     render() {
-        const images = [
-            {
-                original:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg",
-                thumbnail:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg"
-            },
-            {
-                original:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg",
-                thumbnail:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg"
-            },
-            {
-                original:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg",
-                thumbnail:
-                    "https://hypescience.com/wp-content/uploads/2017/07/plantas-mais-perigosas-assustadoras-8.jpg"
-            }
-        ];
-
-        return <ImageGallery items={this.props.fotos || images} />;
+        return <ImageGallery items={this.props.fotos} />;
     }
 }

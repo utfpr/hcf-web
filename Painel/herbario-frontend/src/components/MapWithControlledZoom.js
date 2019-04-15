@@ -16,7 +16,7 @@ let longitude = -47.524082;
 const MapWithControledZoom = compose(
 	withProps({
 		googleMapURL:
-			"https://maps.googleapis.com/maps/api/js?key=AIzaSyCiplWss-P1xDDUYubsL2y81jUPty4y9LE&v=3.exp&libraries=geometry,drawing,places",
+			"https://maps.googleapis.com/maps/api/js?key=AIzaSyDDl7wyNwnDS-RMxI-t3Hil5Rrn7RrUsTQ&libraries=geometry,drawing,places",
 		loadingElement: <div style={{ height: `100%` }} />,
 		containerElement: <div style={{ height: `400px` }} />,
 		mapElement: <div style={{ height: `100%` }} />

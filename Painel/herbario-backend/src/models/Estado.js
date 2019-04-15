@@ -5,29 +5,42 @@ function associate(modelos) {
     } = modelos;
 
     Estado.belongsTo(Pais, {
-        foreignKey: 'paises_nome',
-    });
-    Estado.belongsTo(Pais, {
-        foreignKey: 'paises_sigla',
+        foreignKey: 'pais_id',
     });
 }
+
+export const defaultScope = {
+    attributes: {
+        exclude: [
+            'created_at',
+            'updated_at',
+        ],
+    },
+};
 
 export default (Sequelize, DataTypes) => {
 
     const attributes = {
-        nome: {
-            type: DataTypes.STRING(100),
-            allowNull: false,
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
             primaryKey: true,
         },
-        sigla: {
-            type: DataTypes.STRING(3),
+        nome: {
+            type: DataTypes.STRING(255),
+            allowNull: false,
+        },
+        codigo_telefone: {
+            type: DataTypes.STRING(10),
             allowNull: true,
-            primaryKey: true,
         },
     };
 
-    const Model = Sequelize.define('estados', attributes);
+    const options = {
+        defaultScope,
+    };
+
+    const Model = Sequelize.define('estados', attributes, options);
 
     Model.associate = associate;
 

@@ -40,7 +40,7 @@ export default app => {
     app.route('/familias')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(nomeEsquema),
             controller.cadastrarFamilia,
@@ -54,7 +54,7 @@ export default app => {
     app.route('/familias/:familia_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(atualizaFamiliaEsquema),
             controller.editarFamilia,
@@ -70,7 +70,7 @@ export default app => {
     app.route('/generos')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(generoEsquema),
             controller.cadastrarGenero,
@@ -84,7 +84,7 @@ export default app => {
     app.route('/generos/:genero_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(generoAtualizaEsquema),
             controller.editarGenero,
@@ -100,7 +100,7 @@ export default app => {
     app.route('/subfamilias')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(generoEsquema),
             controller.cadastrarSubfamilia,
@@ -114,7 +114,7 @@ export default app => {
     app.route('/subfamilias/:subfamilia_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(subfamiliaAtualizaEsquema),
             controller.editarSubfamilia,
@@ -130,7 +130,7 @@ export default app => {
     app.route('/especies')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(especieEsquema),
             controller.cadastrarEspecie,
@@ -144,7 +144,7 @@ export default app => {
     app.route('/especies/:especie_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(especieAtualizaEsquema),
             controller.editarEspecie,
@@ -160,7 +160,7 @@ export default app => {
     app.route('/subespecies')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(subespecieEsquema),
             controller.cadastrarSubespecie,
@@ -174,7 +174,7 @@ export default app => {
     app.route('/subespecies/:subespecie_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(subespecieAtualizaEsquema),
             controller.editarSubespecie,
@@ -189,7 +189,7 @@ export default app => {
     app.route('/variedades')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(subespecieEsquema),
             controller.cadastrarVariedade,
@@ -203,7 +203,7 @@ export default app => {
     app.route('/variedades/:variedade_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(variedadeAtualizaEsquema),
             controller.editarVariedade,
@@ -219,7 +219,7 @@ export default app => {
     app.route('/autores')
         .post([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(autorCadastroEsquema),
             controller.cadastrarAutores,
@@ -233,7 +233,7 @@ export default app => {
     app.route('/autores/:autor_id')
         .put([
             tokensMiddleware([
-                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.CURADOR, TIPOS_USUARIOS.OPERADOR, TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             validacoesMiddleware(autorAtualizaEsquema),
             controller.editarAutores,

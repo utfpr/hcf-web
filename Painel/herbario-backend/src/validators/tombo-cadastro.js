@@ -1,34 +1,6 @@
-const validaData = ({ dia, mes, ano }) => {
-    if (dia && mes && ano) {
-        return true;
-    }
-
-    if (!dia && mes && ano) {
-        return true;
-    }
-
-    if (!dia && !mes && ano) {
-        return true;
-    }
-
-    return false;
-};
-
-const validaCor = cor => {
-    if (cor === 'VERMELHO' || cor === 'AZUL' || cor === 'VERDE') {
-        return true;
-    }
-
-    return false;
-};
-
-const colecoesAnexas = tipo => {
-    if (tipo === 'CARPOTECA' || tipo === 'XILOTECA' || tipo === 'VIA LIQUIDA') {
-        return true;
-    }
-
-    return false;
-};
+import validaData from './tombo-data';
+import validaCor from './tombo-cor';
+import validaColecoesAnexas from './tombo-colecoes-anexas';
 
 const validaColetores = coletores => {
     if (!Array.isArray(coletores)) {
@@ -137,7 +109,7 @@ export default {
     'json.localidade.complemento': {
         in: 'body',
         isString: true,
-        isEmpty: false,
+        optional: true,
         isLength: {
             options: [{ min: 3 }],
         },
@@ -193,7 +165,7 @@ export default {
         in: 'body',
         optional: true,
         custom: {
-            options: colecoesAnexas,
+            options: validaColecoesAnexas,
         },
     },
     'json.colecoes_anexas.observacoes': {

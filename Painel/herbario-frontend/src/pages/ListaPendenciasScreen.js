@@ -66,9 +66,7 @@ class ListaPendenciasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 	}
@@ -163,9 +161,7 @@ class ListaPendenciasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -191,37 +187,39 @@ class ListaPendenciasScreen extends Component {
 			<Card title="Buscar pendências">
 				<Form onSubmit={this.onSubmit}>
 					<Row gutter={8}>
-						<Col span={12}>
-							<span>Nome de usuário:</span>
+						<Col xs={24} sm={24} md={12} lg={12} xl={12}>
+							<Col span={24}>
+								<span>Nome de usuário:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('nome')(
+										<Input placeholder={"Marcelo Caxambu"} type="text" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={12}>
-							<span>Status:</span>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={12}>
-							<FormItem>
-								{getFieldDecorator('nome')(
-									<Input placeholder={"Marcelo Caxambu"} type="text" />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={12}>
-							<FormItem>
-								{getFieldDecorator('status')(
-									<Select initialValue="2">
-										<Option value="ESPERANDO">Esperando</Option>
-										<Option value="APROVADO">Aprovado</Option>
-										<Option value="REPROVADO">Reprovado</Option>
-									</Select>
-								)}
-							</FormItem>
+						<Col xs={24} sm={24} md={12} lg={12} xl={12}>
+							<Col span={24}>
+								<span>Status:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('status')(
+										<Select initialValue="2">
+											<Option value="ESPERANDO">Esperando</Option>
+											<Option value="APROVADO">Aprovado</Option>
+											<Option value="REPROVADO">Reprovado</Option>
+										</Select>
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 					<Row>
 						<Col span={24}>
-							<Row type="flex" justify="end">
-								<Col span={4} style={{ marginRight: '10px' }}>
+							<Row type="flex" justify="end" gutter={4}>
+								<Col xs={24} sm={12} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											onClick={() => {
@@ -240,7 +238,7 @@ class ListaPendenciasScreen extends Component {
 									</Button>
 									</FormItem>
 								</Col>
-								<Col span={4}>
+								<Col xs={24} sm={12} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											type="primary"

@@ -24,10 +24,15 @@ export function formatarDataENtoBR(valor) {
 }
 
 export function formatarDataBDtoDataHora(valor) {
-    return moment(valor, "YYYY-MM-DDTHH:mm:ssZ").format("DD/MM/YYYY HH:mm")
+    if (valor === null || valor === "") {
+        return ""
+    }
+    console.log("dataaa")
+    console.log(valor)
+    return moment(valor, "YYYY-MM-DDTHH:mm:sssZ").format("DD/MM/YYYY HH:mm")
 }
 
 export function formatarDataHoraBRtoBD(valor) {
-    return moment(valor, "DD/MM/YYYY HH:mm").format("YYYY-MM-DDTHH:mm:ssZ")
+    return moment(valor, "DD/MM/YYYY HH:mm").format("YYYY-MM-DDTHH:mm:sssZ")
 }
 

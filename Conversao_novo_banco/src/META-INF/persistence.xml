@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="UP" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>classes.Vegetacoes</class>
+    <class>classes.Relevos</class>
+    <class>classes.Solos</class>
+    <class>classes.Autores</class>
+    <class>classes.Coletores</class>
+    <class>classes.Especies</class>
+    <class>classes.Familias</class>
+    <class>classes.Generos</class>
+    <class>classes.Sub_Especies</class>
+    <class>classes.Sub_Familias</class>
+    <class>classes.Tipos</class>
+    <class>classes.Variedades</class>
+    <class>classes.Cidades</class>
+    <class>classes.Estados</class>
+    <class>classes.Fase_sucessional</class>
+    <class>classes.Locais_Coleta</class>
+    <class>classes.Paises</class>
+    <shared-cache-mode>DISABLE_SELECTIVE</shared-cache-mode>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/herbario?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="root"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.show_sql" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
