@@ -1,6 +1,7 @@
 import models from '../models';
 import codigos from '../resources/codigosHTTP';
 import BadRequestExeption from '../errors/bad-request-exception';
+import subespecie from '../validators/subespecie';
 
 const {
     Alteracao,
@@ -421,67 +422,138 @@ export const visualizarComCadastro = (alteracao, transaction) => {
 export const visualizarComJson = (alteracao, transaction) => {
     let parametros = {};
 
-    return new Promise((resolve, reject) => {
-
-        parametros = {
-            ...parametros,
-            numero_tombo: alteracao.tombo_hcf,
-            numero_tombo_alteracao: JSON.parse(alteracao.tombo_json).hcf,
-        };
-        return Tombo.findAll({
-            where: {
-                hcf: {
-                    [Op.in]: [alteracao.tombo_hcf, parametros.numero_tombo_alteracao],
-                },
-                ativo: true,
-            },
-            include: [
-                {
-                    model: Variedade,
-                },
-                {
-                    model: Especie,
-                },
-                {
-                    model: Familia,
-                },
-                {
-                    model: Subfamilia,
-                },
-                {
-                    model: Genero,
-                },
-                {
-                    model: Subespecie,
-                },
-            ],
-            transaction,
+    return new Promise((resolve, reject) => Familia.findOne({
+        where: {
+            id: alteracao.tombo_json.familia_id,
+        },
+        transaction,
+    })
+        .then(familia => {
+            parametros.familia = familia;
         })
-            .then(tombos => {
-                parametros = {
-                    ...parametros,
-                    retorno: [],
-                };
-                if (tombos.length === 2) {
-                    if (tombos[0].hcf === parametros.numero_tombo) {
-                        parametros = {
-                            ...parametros,
-                            tombo: tombos[0],
-                            tombo_alterado: tombos[1],
-                        };
-                    } else {
-                        parametros = {
-                            ...parametros,
-                            tombo: tombos[1],
-                            tombo_alterado: tombos[0],
-                        };
-                    }
-                    parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
+        .then(() => {
+            if (alteracao.tombo_json.subfamilia_id) {
+                return Subfamilia.findOne({
+                    where: {
+                        id: alteracao.tombo_json.subfamilia_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subfamilia => {
+            if (subfamilia) {
+                parametros.subfamilia = subfamilia;
+            }
+            if (alteracao.tombo_json.genero_id) {
+                return Genero.findOne({
+                    where: {
+                        id: alteracao.tombo_json.genero_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(genero => {
+            if (genero) {
+                parametros.genero = genero;
+            }
+            if (alteracao.tombo_json.especie_id) {
+                return Especie.findOne({
+                    where: {
+                        id: alteracao.tombo_json.especie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(especie => {
+            if (especie) {
+                parametros.especie = especie;
+            }
+            if (alteracao.tombo_json.variedade_id) {
+                return Variedade.findOne({
+                    where: {
+                        id: alteracao.tombo_json.variedade_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(variedade => {
+            if (variedade) {
+                parametros.variedade = variedade;
+            }
+            if (alteracao.tombo_json.subespecie_id) {
+                return Subespecie.findOne({
+                    where: {
+                        id: alteracao.tombo_json.subespecie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subesp => {
+            if (subesp) {
+                parametros.subespecie = subespecie;
+            }
+            return Tombo.findAll({
+                where: {
+                    hcf: alteracao.tombo_hcf,
+                    ativo: true,
+                },
+                include: [
+                    {
+                        model: Variedade,
+                    },
+                    {
+                        model: Especie,
+                    },
+                    {
+                        model: Familia,
+                    },
+                    {
+                        model: Subfamilia,
+                    },
+                    {
+                        model: Genero,
+                    },
+                    {
+                        model: Subespecie,
+                    },
+                ],
+                transaction,
+            });
+        })
+        .then(tombos => {
+            parametros = {
+                ...parametros,
+                retorno: [],
+            };
+            if (tombos.length === 2) {
+                if (tombos[0].hcf === parametros.numero_tombo) {
+                    parametros = {
+                        ...parametros,
+                        tombo: tombos[0],
+                        tombo_alterado: tombos[1],
+                    };
+                } else {
+                    parametros = {
+                        ...parametros,
+                        tombo: tombos[1],
+                        tombo_alterado: tombos[0],
+                    };
                 }
-                resolve(parametros);
-            })
-            .catch(reject);
-    });
+                parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
+            }
+            resolve(parametros);
+        })
+        .catch(reject));
 };
 
 export function visualizar(request, response, next) {
@@ -502,7 +574,7 @@ export function visualizar(request, response, next) {
             if (objetoAlterado.hcf) {
                 return visualizarComCadastro(alteracao, transaction);
             }
-
+            return undefined;
         });
     sequelize.transaction(callback)
         .then(() => {
