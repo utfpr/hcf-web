@@ -179,6 +179,14 @@ export default class MainLayout extends Component {
 								<span>Darwin Core</span>
 							</a>
 						</Menu.Item>
+						{isCurador() ? (
+							<Menu.Item key="7">
+								<Link to="/gerenciamento">
+									<Icon type="setting" />
+									<span>Gerenciamento</span>
+								</Link>
+							</Menu.Item>
+						) : null}
 						{isLogado() ? (
 							<Menu.Item key="17">
 								<Link to="/inicio">
