@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon, Col } from 'antd';
+import { Layout, Menu, Icon, Col, Spin } from 'antd';
 import { Link } from 'react-router-dom';
 import {
 	isCurador,
 	isCuradorOuOperador,
 	isLogado,
 } from '../helpers/usuarios';
+import axios from 'axios';
 
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -13,7 +14,8 @@ const { SubMenu } = Menu;
 export default class MainLayout extends Component {
 
 	state = {
-		collapsed: false
+		collapsed: false,
+		loading: false,
 	};
 
 	toggle = () => {
@@ -22,7 +24,42 @@ export default class MainLayout extends Component {
 		});
 	};
 
-	render() {
+	requisitaDarwinCore = () => {
+		this.setState({
+			loading: true
+		});
+		axios.get('/darwincore')
+			.then(response => {
+				this.setState({
+					loading: false
+				});
+				if (response.data && response.status === 200) {
+					console.log("Foiiii")
+				}
+			})
+			.catch(err => {
+				this.setState({
+					loading: false
+				});
+				const { response } = err;
+				if (response && response.data) {
+					if (response.status === 400 || response.status === 422) {
+						this.notificacao("warning", "Falha", response.data.error.message);
+					} else {
+						this.notificacao("error", "Falha", "Houve um problema ao buscar o arquivo Darwin Core, tente novamente.")
+					}
+					const { error } = response.data;
+					throw new Error(error.message);
+				} else {
+					throw err;
+				}
+			})
+			.catch(() => {
+				this.notificacao("error", "Falha", "Houve um problema ao requisitar o arquivo Darwin Core, tente novamente.")
+			});
+	}
+
+	renderFormulario() {
 		return (
 			<Layout style={{ minHeight: '100vh' }}>
 				<Sider trigger={null} collapsible collapsed={this.state.collapsed}>
@@ -38,12 +75,6 @@ export default class MainLayout extends Component {
 					</Col>
 					<Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
 						<Menu.Item key="1">
-							<Link to="/">
-								<Icon type="pie-chart" />
-								<span>Dashboard</span>
-							</Link>
-						</Menu.Item>
-						<Menu.Item key="3">
 							<Link to="/tombos">
 								<Icon type="desktop" />
 								<span>Tombos</span>
@@ -143,31 +174,25 @@ export default class MainLayout extends Component {
 							<Menu.Item key="15">Tombo</Menu.Item>
 						</SubMenu>
 						<Menu.Item key="16">
-							<Link to="/">
+							<a href="#" onClick={() => this.requisitaDarwinCore()}>
 								<Icon type="desktop" />
 								<span>Darwin Core</span>
-							</Link>
+							</a>
 						</Menu.Item>
-						{/**
-						 * Adicionando ao menu lateral o botão de serviços,
-						 * Reflora e speciesLink.
-						 */}
-						<SubMenu
-							key="servicos"
-							title={
-								<span>
-									<Icon type="search" />
-									<span>Serviços</span>
-								</span>
-							}
-						>
-							<Menu.Item key="20">
-								<Link to="/reflora">Reflora</Link>
-							</Menu.Item>
-							<Menu.Item key="21">
-								<Link to="/specieslink">speciesLink</Link>
-							</Menu.Item>
-						</SubMenu>
+						{isCurador() ? (
+							/**
+							 * Adicionando ao menu lateral o botão de serviços,
+							 * Reflora e speciesLink.
+							 */
+							<SubMenu key="servicos" title={<span> <Icon type="search" /> <span>Serviços</span> </span>} >
+								<Menu.Item key="20">
+									<Link to="/reflora">Reflora</Link>
+								</Menu.Item>
+								<Menu.Item key="21">
+									<Link to="/specieslink">speciesLink</Link>
+								</Menu.Item>
+							</SubMenu>
+						) : null}
 						{isLogado() ? (
 							<Menu.Item key="17">
 								<Link to="/inicio">
@@ -200,6 +225,21 @@ export default class MainLayout extends Component {
 					</Content>
 				</Layout>
 			</Layout>
+		);
+	}
+
+	render() {
+		console.log('Cidades')
+		console.log(this.state.cidades)
+		if (this.state.loading) {
+			return (
+				<Spin tip="Carregando...">
+					{this.renderFormulario()}
+				</Spin>
+			)
+		}
+		return (
+			this.renderFormulario()
 		);
 	}
 }

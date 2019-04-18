@@ -3,7 +3,6 @@ import { Divider, Icon, Modal, Card, Row, Col, Form, Select, Input, Button, noti
 import axios from 'axios';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
-import ButtonExportComponent from '../components/ButtonExportComponent';
 import { formatarDataBDtoDataHora } from '../helpers/conversoes/ConversoesData';
 import { telefoneToFrontEnd } from '../helpers/conversoes/ConversoesTelefone';
 import { Link } from 'react-router-dom';
@@ -69,9 +68,7 @@ class ListaUsuariosScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 	}
@@ -127,7 +124,7 @@ class ListaUsuariosScreen extends Component {
 		tipo: item.tipos_usuario.tipo.toLowerCase(),
 		tipo_id: item.tipos_usuario.id,
 		telefone: telefoneToFrontEnd(item.telefone),
-		dataCriacao: formatarDataBDtoDataHora(item.created_at),
+		dataCriacao: formatarDataBDtoDataHora(item.tipos_usuario.created_at),
 		acao: this.gerarAcao(item.id),
 	}));
 
@@ -172,9 +169,7 @@ class ListaUsuariosScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -200,61 +195,65 @@ class ListaUsuariosScreen extends Component {
 			<Card title="Buscar usuário">
 				<Form onSubmit={this.onSubmit}>
 					<Row gutter={8}>
-						<Col span={8}>
-							<span>Nome:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Nome:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('nome')(
+										<Input placeholder={"Marcelo Caxambu"} type="text" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Email:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Email:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('email')(
+										<Input placeholder={"marcelo@gmail.com"} type="email" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Tipo:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Tipo:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('tipo')(
+										<Select initialValue="2">
+											<Option value="1">Curador</Option>
+											<Option value="2">Operador</Option>
+											<Option value="3">Identificador</Option>
+										</Select>
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 					<Row gutter={8}>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('nome')(
-									<Input placeholder={"Marcelo Caxambu"} type="text" />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('email')(
-									<Input placeholder={"marcelo@gmail.com"} type="email" />
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('tipo')(
-									<Select initialValue="2">
-										<Option value="1">Curador</Option>
-										<Option value="2">Operador</Option>
-										<Option value="3">Identificador</Option>
-									</Select>
-								)}
-							</FormItem>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={8}>
-							<span>Telefone:</span>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('telefone')(
-									<Input placeholder={"+5544999682514"} type="phone" />
-								)}
-							</FormItem>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Telefone:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('telefone')(
+										<Input placeholder={"+5544999682514"} type="phone" />
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 					<Row>
 						<Col span={24}>
-							<Row type="flex" justify="end">
-								<Col span={4} style={{ marginRight: '10px' }}>
+							<Row type="flex" justify="end" gutter={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											onClick={() => {
@@ -273,7 +272,7 @@ class ListaUsuariosScreen extends Component {
 									</Button>
 									</FormItem>
 								</Col>
-								<Col span={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											type="primary"
@@ -314,7 +313,6 @@ class ListaUsuariosScreen extends Component {
 					}}
 				/>
 				<Divider dashed />
-				<ButtonExportComponent />
 			</div>
 		);
 	}

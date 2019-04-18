@@ -14,6 +14,7 @@
     "axios": "^0.18.0",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
+    "prop-types": "^15.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-google-maps": "^9.4.5",
@@ -21,7 +22,6 @@
     "react-image-gallery": "^0.8.7",
     "react-router-dom": "^4.2.2",
     "react-scripts": "2.0.4",
-    "request": "^2.88.0",
     "vanilla-masker": "^1.2.0"
   },
   "devDependencies": {

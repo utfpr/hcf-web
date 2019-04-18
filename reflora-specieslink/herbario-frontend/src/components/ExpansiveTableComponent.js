@@ -89,6 +89,7 @@ export default class ExpansiveTableComponent extends Component {
                 onChange={this.handleChange}
                 pagination={this.state.pagina}
                 loading={this.props.loading}
+                scroll={{ x: 800 }}
                 expandedRowRender={record => {
                     return (
                         <Table

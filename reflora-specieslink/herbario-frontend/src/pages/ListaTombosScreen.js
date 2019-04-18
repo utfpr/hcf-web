@@ -10,6 +10,10 @@ import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
 import { Link } from 'react-router-dom';
 import debounce from 'lodash/debounce';
+import {
+    isIdentificador
+} from './../helpers/usuarios';
+
 
 const confirm = Modal.confirm;
 const FormItem = Form.Item;
@@ -91,9 +95,7 @@ class ListaTombosScreen extends Component {
                         this.openNotificationWithIcon("error", "Falha", "Houve um problema ao excluir o tombo, tente novamente.")
                     }
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
     }
@@ -126,6 +128,18 @@ class ListaTombosScreen extends Component {
         this.requisitaListaTombos({}, this.state.pagina);
     }
 
+    renderExcluir(id) {
+        if (!isIdentificador()) {
+            return (
+                <div>
+                    <Divider type="vertical" />
+                    <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
+                        <Icon type="delete" style={{ color: "#e30613" }} />
+                    </a>
+                </div>
+            )
+        }
+    }
     gerarAcao(id) {
         return (
             <span>
@@ -136,10 +150,7 @@ class ListaTombosScreen extends Component {
                 <Link to={`/tombos/${id}`}>
                     <Icon type="edit" style={{ color: "#FFCC00" }} />
                 </Link>
-                <Divider type="vertical" />
-                <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
-                    <Icon type="delete" style={{ color: "#e30613" }} />
-                </a>
+                {this.renderExcluir(id)}
             </span>
         )
     }
@@ -148,12 +159,32 @@ class ListaTombosScreen extends Component {
         item.nome + ", "
     ));
 
+    retornaDataColeta(dia, mes, ano) {
+        if (dia == null && mes == null && ano == null) {
+            return ""
+        } else if (dia != null && mes == null && ano == null) {
+            return dia
+        } else if (dia == null && mes != null && ano == null) {
+            return mes
+        } else if (dia == null && mes == null && ano != null) {
+            return ano
+        } else if (dia != null && mes != null && ano == null) {
+            return `${dia}/${mes}`
+        } else if (dia != null && mes == null && ano != null) {
+            return `${dia}/${ano}`
+        } else if (dia == null && mes != null && ano != null) {
+            return `${mes}/${ano}`
+        } else if (dia != null && mes != null && ano != null) {
+            return `${dia}/${mes}/${ano}`
+        }
+    } s
+
     formataDadosTombo = tombos => tombos.map(item => ({
         key: item.hcf,
         hcf: item.hcf,
         nomePopular: item.nomes_populares,
         nomeCientifico: item.nome_cientifico,
-        data: item.data_coleta_dia + '/' + item.data_coleta_mes + '/' + item.data_coleta_ano,
+        data: this.retornaDataColeta(item.data_coleta_dia, item.data_coleta_mes, item.data_coleta_ano),
         coletor: this.retornaColetores(item.coletores),
         acao: this.gerarAcao(item.hcf),
     }));
@@ -210,9 +241,7 @@ class ListaTombosScreen extends Component {
                         this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os tombos, tente novamente.")
                     }
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -229,6 +258,9 @@ class ListaTombosScreen extends Component {
     }
 
     handleChangeTombo = (value) => {
+        this.props.form.setFieldsValue({
+            'exTombos': value
+        })
         this.setState({
             value,
             data: [],
@@ -431,7 +463,7 @@ class ListaTombosScreen extends Component {
             exportarSelecionados.push("hcf");
         }
 
-        if (total > 5 || total == 0) {
+        if (total > 5 || total === 0) {
             this.openNotificationWithIcon("warning", "Alerta", "Você tem que selecionar de 1 à 5 itens para serem exportados.");
         } else {
 
@@ -460,17 +492,17 @@ class ListaTombosScreen extends Component {
                         this.setState({
                             loading: false
                         });
-                        if (response.status == 400) {
+                        const { response } = err;
+
+                        if (response.status === 400) {
                             this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
                         } else {
                             this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
                         }
-                        const { response } = err;
+
                         if (response && response.data) {
                             const { error } = response.data;
-                            throw new Error(error.message);
-                        } else {
-                            throw err;
+                            console.log(error.message)
                         }
                     })
             }
@@ -509,16 +541,13 @@ class ListaTombosScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
     }
 
     renderExportar(getFieldDecorator) {
-        const { fetching, data, value } = this.state;
-
+        const { fetching, data } = this.state;
         return (
             <Form onSubmit={this.handleSubmitExport}>
                 <Collapse accordion>
@@ -741,7 +770,6 @@ class ListaTombosScreen extends Component {
                                             <Select
                                                 mode="multiple"
                                                 labelInValue
-                                                value={value}
                                                 placeholder=""
                                                 notFoundContent={fetching ? <Spin size="small" /> : null}
                                                 filterOption={false}

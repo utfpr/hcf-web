@@ -23,7 +23,7 @@ const columns = [
         key: "subfamilia"
     },
     {
-        title: "Gêneros",
+        title: "Gênero",
         type: "text",
         key: "genero"
     },
@@ -72,9 +72,7 @@ class ListaTaxonomiaScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
     }
@@ -183,9 +181,7 @@ class ListaTaxonomiaScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    throw new Error(error.message);
-                } else {
-                    throw err;
+                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);

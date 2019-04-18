@@ -51,7 +51,9 @@ import {
     isCuradorOuOperadorOuIdentificador
 } from './helpers/usuarios';
 
-axios.defaults.baseURL = 'http://localhost:3003/api';
+import { baseUrl } from './config/api';
+
+axios.defaults.baseURL = `${baseUrl}/api`;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.interceptors.request.use(config => {
     config.headers['token'] = getTokenUsuario();
@@ -85,12 +87,10 @@ export default class App extends Component {
     _renderContent = () => (
         <MainLayout>
             <Switch>
-                <Route exact path="/" component={DashboardScreen} />
-
                 <Route path="/tombos/detalhes/:tombo_id" component={DetalhesTomboScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/tombos/novo" component={NovoTomboScreen} />
                 <PrivateRoute authed={isCuradorOuOperadorOuIdentificador()} path="/tombos/:tombo_id" component={NovoTomboScreen} />
-                <Route path="/tombos" component={ListaTombosScreen} />
+                <Route exact path="/tombos" component={ListaTombosScreen} />
                 <Route path="/taxonomias" component={ListaTaxonomiaScreen} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/pendencias/:pendencia_id" component={PendenciaPagina} />
                 <PrivateRoute authed={isCuradorOuOperador()} path="/pendencias" component={ListaPendenciasScreen} />
@@ -103,6 +103,8 @@ export default class App extends Component {
                 <PrivateRoute authed={isCurador()} path="/herbarios/novo" component={NovoHerbarioScreen} />
                 <PrivateRoute authed={isCurador()} path="/herbarios/:herbario_id" component={NovoHerbarioScreen} />
                 <Route path="/herbarios" component={ListaHerbariosScreen} />
+                <PrivateRoute authed={isCurador()} path="/reflora" component={ListaServicosRefloraScreen} />
+                <PrivateRoute authed={isCurador()} path="/specieslink" component={ListaServicosSpeciesLinkScreen} />
 
                 <Route path="/livro-tombo" component={LivroTomboScreen} />
 
@@ -113,9 +115,6 @@ export default class App extends Component {
                 <Route path="/subfamilias" component={ListaTaxonomiaSubfamilia} />
                 <Route path="/variedades" component={ListaTaxonomiaVariedade} />
                 <Route path="/autores" component={ListaTaxonomiaAutores} />
-
-                <Route path="/reflora" component={ListaServicosRefloraScreen} />
-                <Route path="/specieslink" component={ListaServicosSpeciesLinkScreen} />
 
             </Switch>
         </MainLayout>

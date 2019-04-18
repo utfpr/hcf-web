@@ -115,9 +115,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -170,9 +168,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 	}
@@ -196,9 +192,7 @@ class ListaRemessasScreen extends Component {
 				if (response && response.data) {
 					this.notificacao('error', 'Erro ao devolver o tombo', response.data.error.message)
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 	}
@@ -288,9 +282,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -306,51 +298,55 @@ class ListaRemessasScreen extends Component {
 			<Card title="Buscar Remessas">
 				<Form onSubmit={this.onSubmit}>
 					<Row gutter={8}>
-						<Col span={8}>
-							<span>Número da remessa:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Número da remessa:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('numRemessa')(
+										<InputNumber
+											initialValue={17}
+											style={{ width: "100%" }}
+										/>
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Número do tombo:</span>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Número do tombo:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('numTombo')(
+										<InputNumber
+											initialValue={17}
+											style={{ width: "100%" }}
+										/>
+									)}
+								</FormItem>
+							</Col>
 						</Col>
-						<Col span={8}>
-							<span>Herbário:</span>
-						</Col>
-					</Row>
-					<Row gutter={8}>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('numRemessa')(
-									<InputNumber
-										initialValue={17}
-										style={{ width: "100%" }}
-									/>
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('numTombo')(
-									<InputNumber
-										initialValue={17}
-										style={{ width: "100%" }}
-									/>
-								)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem>
-								{getFieldDecorator('herbario')(
-									<Select initialValue="2">
-										{this.optionHerbario()}
-									</Select>
-								)}
-							</FormItem>
+						<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+							<Col span={24}>
+								<span>Herbário:</span>
+							</Col>
+							<Col span={24}>
+								<FormItem>
+									{getFieldDecorator('herbario')(
+										<Select initialValue="2">
+											{this.optionHerbario()}
+										</Select>
+									)}
+								</FormItem>
+							</Col>
 						</Col>
 					</Row>
 					<Row>
 						<Col span={24}>
-							<Row type="flex" justify="end">
-								<Col span={4} style={{ marginRight: '10px' }}>
+							<Row type="flex" justify="end" gutter={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											onClick={() => {
@@ -369,7 +365,7 @@ class ListaRemessasScreen extends Component {
 									</Button>
 									</FormItem>
 								</Col>
-								<Col span={4}>
+								<Col xs={24} sm={8} md={6} lg={4} xl={4}>
 									<FormItem>
 										<Button
 											type="primary"

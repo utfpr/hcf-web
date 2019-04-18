@@ -19,7 +19,8 @@ class NovoUsuarioScreen extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			loading: false
+			loading: false,
+			tipoUsuarioInicial: ""
 		};
 	}
 
@@ -82,6 +83,7 @@ class NovoUsuarioScreen extends Component {
 				} else {
 					this.props.form.resetFields();
 					this.openNotificationWithIcon('success', 'Cadastro', 'O usuário foi cadastrado com sucesso.')
+					this.props.history.goBack()
 				}
 				this.setState({
 					loading: false
@@ -94,9 +96,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -127,7 +127,8 @@ class NovoUsuarioScreen extends Component {
 						},
 					});
 					this.setState({
-						loading: false
+						loading: false,
+						tipoUsuarioInicial: response.data.tipos_usuario.id
 					});
 
 				} else {
@@ -142,9 +143,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -174,11 +173,12 @@ class NovoUsuarioScreen extends Component {
 			herbario_id: 1
 		})
 			.then(response => {
-				if (response.status !== 201) {
+				if (response.status !== 201 && response.status !== 204) {
 					this.openNotificationWithIcon("error", "Edição", "Houve um problema ao realizar a edição, verifique os dados e tente novamente.")
 				} else {
 					this.props.form.resetFields();
 					this.openNotificationWithIcon('success', 'Edição', 'O usuário foi alterado com sucesso.')
+					this.props.history.goBack();
 				}
 				this.setState({
 					loading: false
@@ -191,9 +191,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					throw new Error(error.message);
-				} else {
-					throw err;
+					console.log(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -211,122 +209,129 @@ class NovoUsuarioScreen extends Component {
 				<Divider dashed />
 
 				<Row gutter={8}>
-					<Col span={8}>
-						<span>Nome:</span>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>Nome:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('nome', {
+									rules: [{
+										required: true,
+										message: 'Insira o nome do usuário',
+									}]
+								})(
+									<Input placeholder={"Marcelo Caxambu"} type="text" />
+								)}
+							</FormItem>
+						</Col>
 					</Col>
-					<Col span={8}>
-						<span>Email:</span>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>Email:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('email', {
+									rules: [{
+										required: true,
+										message: 'Insira o email do usuário',
+									}]
+								})(
+									<Input placeholder={"marcelo@gmail.com"} type="email" />
+								)}
+							</FormItem>
+						</Col>
 					</Col>
-					<Col span={8}>
-						<span>Tipo:</span>
-					</Col>
-				</Row>
-				<Row gutter={8}>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('nome', {
-								rules: [{
-									required: true,
-									message: 'Insira o nome do usuário',
-								}]
-							})(
-								<Input placeholder={"Marcelo Caxambu"} type="text" />
-							)}
-						</FormItem>
-					</Col>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('email', {
-								rules: [{
-									required: true,
-									message: 'Insira o email do usuário',
-								}]
-							})(
-								<Input placeholder={"marcelo@gmail.com"} type="email" />
-							)}
-						</FormItem>
-					</Col>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('tipo', {
-								rules: [{
-									required: true,
-									message: 'Selecione o tipo do usuário',
-								}]
-							})(
-								<Select initialValue="2">
-									<Option value="1">Curador</Option>
-									<Option value="2">Operador</Option>
-									<Option value="3">Identificador</Option>
-								</Select>
-							)}
-						</FormItem>
-					</Col>
-				</Row>
-				<Row gutter={8}>
-					<Col span={8}>
-						<span>RA:</span>
-					</Col>
-					<Col span={8}>
-						<span>Telefone:</span>
-					</Col>
-					<Col span={8}>
-						<span>Senha:</span>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>Tipo:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('tipo', {
+									initialValue: String(this.state.tipoUsuarioInicial),
+									rules: [{
+										required: true,
+										message: 'Selecione o tipo do usuário',
+									}]
+								})(
+									<Select initialValue="2">
+										<Option value="1">Curador</Option>
+										<Option value="2">Operador</Option>
+										<Option value="3">Identificador</Option>
+									</Select>
+								)}
+							</FormItem>
+						</Col>
 					</Col>
 				</Row>
 				<Row gutter={8}>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('ra', {
-								rules: [{
-									required: false
-								}]
-							})(
-								<Input placeholder={"877405"} type="text" />
-							)}
-						</FormItem>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>RA:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('ra', {
+									rules: [{
+										required: false
+									}]
+								})(
+									<Input placeholder={"877405"} type="text" />
+								)}
+							</FormItem>
+						</Col>
 					</Col>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('telefone', {
-								rules: [{
-									required: false,
-								}]
-							})(
-								<Input placeholder={"+5544999682514"} type="phone" />
-							)}
-						</FormItem>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>Telefone:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('telefone', {
+									rules: [{
+										required: false,
+									}]
+								})(
+									<Input placeholder={"+5544999682514"} type="phone" />
+								)}
+							</FormItem>
+						</Col>
 					</Col>
-					<Col span={8}>
-						<FormItem>
-							{getFieldDecorator('password', {
-								rules: [{
-									required: true,
-									message: 'Insira a senha do usuário',
-								}]
-							})(
-								<Input type={"password"} placeholder={"123456"} />
-							)}
-						</FormItem>
+					<Col xs={24} sm={12} md={8} lg={8} xl={8}>
+						<Col span={24}>
+							<span>Senha:</span>
+						</Col>
+						<Col span={24}>
+							<FormItem>
+								{getFieldDecorator('password', {
+									rules: [{
+										required: true,
+										message: 'Insira a senha do usuário',
+									}]
+								})(
+									<Input type={"password"} placeholder={"123456"} />
+								)}
+							</FormItem>
+						</Col>
 					</Col>
 				</Row>
-				<Row>
-					<Col span={24}>
-						<Row type="flex" justify="end">
-							<Col span={4}>
-								<FormItem>
-									<Button
-										type="primary"
-										htmlType="submit"
-										className="login-form-button"
-									>
-										Salvar
+
+				<Row type="flex" justify="end">
+					<Col xs={24} sm={12} md={8} lg={4} xl={4}>
+						<FormItem>
+							<Button
+								type="primary"
+								htmlType="submit"
+								className="login-form-button"
+							>
+								Salvar
 									</Button>
-								</FormItem>
-							</Col>
-						</Row>
+						</FormItem>
 					</Col>
 				</Row>
+
 				<Divider dashed />
 			</Form>
 		)
