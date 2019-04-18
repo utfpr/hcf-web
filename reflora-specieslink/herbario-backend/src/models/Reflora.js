@@ -4,10 +4,14 @@ function associate(modelos) {
 export default (Sequelize, DataTypes) => {
 
     const attributes = {
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
+            primaryKey: true,
+        },
         cod_barra: {
             type: DataTypes.STRING(12),
-            allowNull: false,
-            primaryKey: true,
+            allowNull: true,
         },
         tombo_json: {
             type: DataTypes.TEXT,
@@ -28,7 +32,6 @@ export default (Sequelize, DataTypes) => {
         // Disabilita o created_at e updated_at
         timestamps: false,
         tableName: 'reflora',
-        id: false,
     };
 
     const Model = Sequelize.define('reflora', attributes, options);

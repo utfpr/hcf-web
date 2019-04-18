@@ -35,7 +35,7 @@ export function selectCodBarra() {
     const tabelaTomboFoto = modeloTombosFotos(conexao, Sequelize);
     // conexao.sync().then(() => {
     tabelaTomboFoto.findAll({
-        attributes: ['num_barra'],
+        attributes: ['codigo_barra'],
     }).then(listaCodBarra => {
         promessa.resolve(listaCodBarra);
     });
@@ -54,7 +54,7 @@ export function selectCodBarra() {
 export function criaTabelaReflora() {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
     tabelaReflora.sync({ force: true });
-    tabelaReflora.removeAttribute('id');
+    // tabelaReflora.removeAttribute('id');
     return tabelaReflora;
 }
 
@@ -291,7 +291,7 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
     listaCodBarra.forEach((codBarra, index) => {
         throttle(() => {
             tabelaReflora.create({
-                cod_barra: codBarra.dataValues.num_barra,
+                cod_barra: codBarra.dataValues.codigo_barra,
                 tombo_json: null,
                 ja_requisitou: false,
             }).then(() => {
@@ -402,7 +402,7 @@ export function selectNroTomboNumBarra(codBarra) {
     // conexao.sync().then(() => {
     tabelaTomboFoto.findAll({
         attributes: ['tombo_hcf'],
-        where: { num_barra: codBarra },
+        where: { codigo_barra: codBarra },
     }).then(nroTombo => {
         promessa.resolve(nroTombo);
     });

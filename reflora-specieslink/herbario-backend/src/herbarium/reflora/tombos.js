@@ -173,8 +173,12 @@ export function fazComparacaoTombo() {
     const throttle = throttledQueue(1, 1000);
     selectUmaInformacaoReflora().then(informacaoReflora => {
         if (informacaoReflora.length === 0) {
+            // eslint-disable-next-line no-console
+            console.log('akc');
             promessa.resolve(true);
         } else {
+            // eslint-disable-next-line no-console
+            console.log('akd');
             const getCodBarra = informacaoReflora[0].dataValues.cod_barra;
             const getInformacaoReflora = processaRespostaReflora(informacaoReflora[0].dataValues.tombo_json);
             throttle(() => {
