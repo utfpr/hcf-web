@@ -4,7 +4,7 @@ export default (request, response, next) => {
     let pagina = parseInt(query.pagina);
 
     if (isNaN(limite) || typeof limite !== 'number') { // eslint-disable-line
-        limite = 10;
+        limite = 20;
     }
 
     if (isNaN(pagina) || typeof pagina !== 'number') { // eslint-disable-line

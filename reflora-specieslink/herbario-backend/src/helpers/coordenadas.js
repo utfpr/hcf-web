@@ -1,3 +1,5 @@
+export default {};
+
 export const converteParaDecimal = coordenada => {
     const regex = /^(\d+)\D+(\d+)\D+(\d+(?:[.,]\d+)?)\W+([NSWE])$/;
     const matches = coordenada.match(regex);
@@ -15,6 +17,3 @@ export const converteParaDecimal = coordenada => {
 
     return sinal * (graus + (minutos / 60) + (segundos / 3600));
 };
-
-
-export default {};

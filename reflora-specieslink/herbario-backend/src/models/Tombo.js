@@ -17,7 +17,12 @@ function associate(modelos) {
         TomboColetor,
         Remessa,
         RetiradaExsiccata,
+        TomboFoto,
     } = modelos;
+
+    Tombo.hasMany(TomboFoto, {
+        foreignKey: 'tombo_hcf',
+    });
 
     Tombo.belongsToMany(Usuario, {
         through: Alteracao,
@@ -42,6 +47,11 @@ function associate(modelos) {
         foreignKey: 'local_coleta_id',
     });
 
+    Tombo.belongsTo(LocalColeta, {
+        as: 'local_coleta',
+        foreignKey: 'local_coleta_id',
+    });
+
     Tombo.belongsTo(Variedade, {
         foreignKey: 'variedade_id',
     });
@@ -51,6 +61,11 @@ function associate(modelos) {
     });
 
     Tombo.belongsTo(Especie, {
+        foreignKey: 'especie_id',
+    });
+
+    Tombo.belongsTo(Especie, {
+        as: 'especie',
         foreignKey: 'especie_id',
     });
 
@@ -91,6 +106,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true,
+        },
+        data_tombo: {
+            type: DataTypes.DATE,
+            allowNull: true,
         },
         data_coleta_dia: {
             type: DataTypes.INTEGER,

@@ -14,10 +14,9 @@ export const listaTodosEstados = where => Estado.findAndCountAll({
 export const listagem = (request, response, next) => {
     let where = {};
 
-    if (request.query.pais_sigla !== undefined) {
+    if (request.query.id !== undefined) {
         where = {
-            paises_nome: request.query.pais_nome,
-            paises_sigla: request.query.pais_sigla,
+            pais_id: request.query.id,
         };
     }
     Promise.resolve()

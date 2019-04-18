@@ -12,8 +12,8 @@ const {
     Sequelize: { ForeignKeyConstraintError },
     TomboFoto,
 } = models;
-const catchForeignKeyConstraintError = err => {
 
+const catchForeignKeyConstraintError = err => {
     if (err.fields.includes('tombo_hcf')) {
         throw new BadRequestExeption(416);
     }
@@ -40,7 +40,8 @@ export const post = (request, response, next) => {
 
             const basediretorio = join(storage, subdiretorio);
             if (!existsSync(basediretorio)) {
-                mkdirSync(basediretorio);
+                // @ts-ignore
+                mkdirSync(basediretorio, { recursive: true });
             }
 
             // @ts-ignore

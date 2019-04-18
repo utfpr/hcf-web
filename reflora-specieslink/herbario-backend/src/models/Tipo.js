@@ -2,6 +2,16 @@ function associate(modelos) {
 
 }
 
+export const defaultScope = {
+    attributes: {
+        exclude: [
+            'ativo',
+            'created_at',
+            'updated_at',
+        ],
+    },
+};
+
 export default (Sequelize, DataTypes) => {
 
     const attributes = {
@@ -16,7 +26,11 @@ export default (Sequelize, DataTypes) => {
         },
     };
 
-    const Model = Sequelize.define('tipos', attributes);
+    const options = {
+        defaultScope,
+    };
+
+    const Model = Sequelize.define('tipos', attributes, options);
 
     Model.associate = associate;
 

@@ -14,10 +14,9 @@ export const listaTodosCidades = where => Cidade.findAndCountAll({
 export const listagem = (request, response, next) => {
     let where = {};
 
-    if (request.query.estado_sigla !== undefined) {
+    if (request.query.id !== undefined) {
         where = {
-            estados_nome: request.query.estado_nome,
-            estados_sigla: request.query.estado_sigla,
+            estado_id: request.query.id,
         };
     }
     Promise.resolve()

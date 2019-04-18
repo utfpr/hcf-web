@@ -3,6 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "lib": [
+      "dom",
       "es2016"
     ],
     "allowJs": true,
@@ -27,6 +28,8 @@
   },
   "exclude": [
     "dist",
+    "test",
+    "scripts",
     "node_modules"
   ]
 }

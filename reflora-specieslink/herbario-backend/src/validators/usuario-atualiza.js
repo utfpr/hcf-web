@@ -1,5 +1,6 @@
 export default {
     email: {
+        isEmpty: false,
         isEmail: true,
     },
     senha: {
@@ -13,10 +14,6 @@ export default {
     tipo_usuario_id: {
         isEmpty: false,
         isInt: true,
-    },
-    telefone: {
-        isEmpty: false,
-        isString: true,
     },
     herbario_id: {
         isEmpty: false,

@@ -2,25 +2,18 @@ import validaData from './tombo-data';
 import validaCor from './tombo-cor';
 import validaColecoesAnexas from './tombo-colecoes-anexas';
 
+
 const validaColetores = coletores => {
-    if (!Array.isArray(coletores)) {
+    if (!Array.isArray(coletores) || coletores.length < 1) {
         return false;
     }
 
-    if (coletores.length <= 0) {
-        return false;
-    }
-
-    for (let i = 0; i < coletores.length; i += 1) {
-        if (!Number.isInteger(coletores[i])) {
-            return false;
-        }
-    }
-    return true;
+    const naoInteiros = coletores.filter(Number.isInteger);
+    return naoInteiros.length === coletores.length;
 };
 
 export default {
-    'json.principal.nome_popular': {
+    'principal.nome_popular': {
         in: 'body',
         isString: true,
         optional: true,
@@ -109,7 +102,7 @@ export default {
     'json.localidade.complemento': {
         in: 'body',
         isString: true,
-        optional: true,
+        isEmpty: false,
         isLength: {
             options: [{ min: 3 }],
         },

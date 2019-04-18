@@ -1,6 +1,7 @@
 import models from '../models';
 import codigos from '../resources/codigosHTTP';
 import BadRequestExeption from '../errors/bad-request-exception';
+import subespecie from '../validators/subespecie';
 
 const {
     Alteracao,
@@ -27,77 +28,49 @@ const {
 
 export const listagem = (request, response, next) => {
     const { limite, pagina, offset } = request.paginacao;
-    let retorno = {};
+    const retorno = {
+        metadados: {
+            total: 0,
+            pagina,
+            limite,
+        },
+        resultado: {},
+    };
     const callback = transaction => Promise.resolve()
         .then(() => Alteracao.findAndCountAll({
-            where: {
-                ativo: true,
-            },
+            include: [
+                {
+                    model: Usuario,
+                    where: {
+                        tipo_usuario_id: {
+                            [Op.ne]: 1,
+                        },
+                    },
+                },
+            ],
+            limit: limite,
+            offset,
             transaction,
         }))
         .then(alteracoes => {
-            retorno.count = alteracoes.count;
-            return Usuario.findAndCountAll({
-                where: {
-                    ativo: true,
-                },
-                include: [
-                    {
-                        model: Tombo,
-                        attributes: ['hcf'],
-                    },
-                ],
-                limit: limite,
-                offset,
-                transaction,
-            });
-        })
-        .then(alteracoes => alteracoes.rows.filter(alteracao => alteracao.tombos.length > 0))
-        .then(alteracoes => {
-            const alteracoesFormatadas = [];
-            const { status, nome_usuario: nomeUsuario } = request.query;
-            let usuarios = alteracoes;
-            if (nomeUsuario) {
-                usuarios = usuarios.filter(user => user.nome.indexOf(nomeUsuario) > -1);
-            }
-            usuarios.forEach(item => {
-                let tombos = [];
-                tombos = item.tombos.filter(tombo => (status !== undefined
-                    ? (tombo.alteracoes.ativo === true && tombo.alteracoes.status === status)
-                    : tombo.alteracoes.ativo === true));
-                tombos.forEach(alt => {
-                    alteracoesFormatadas.push({
-                        id: alt.alteracoes.id,
-                        nome_usuario: item.nome,
-                        numero_tombo: alt.hcf,
-                        numero_alteracao_tombo: JSON.parse(alt.alteracoes.tombo_json).hcf,
-                        data_criacao: alt.alteracoes.created_at,
-                        status: alt.alteracoes.status,
-                        observacao: alt.alteracoes.observacao || '',
-                    });
-                });
-            });
-            return alteracoesFormatadas;
+            retorno.metadados.total = alteracoes.count;
+            retorno.resultado = alteracoes.rows.map(item => ({
+                id: item.id,
+                nome_usuario: item.usuario.nome,
+                numero_tombo: item.tombo_hcf,
+                json: JSON.parse(item.tombo_json),
+                data_criacao: item.created_at,
+                status: item.status,
+                observacao: item.observacao || '',
+            }));
+            return retorno;
         });
     sequelize.transaction(callback)
-        .then(alteracoes => {
-            retorno = {
-                ...retorno,
-                alteracoes,
-            };
-            response.status(codigos.LISTAGEM).json({
-                metadados: {
-                    total: retorno.count,
-                    pagina,
-                    limite,
-                },
-                resultado: retorno.alteracoes,
-            });
-
+        .then(() => {
+            response.status(codigos.LISTAGEM).json(retorno);
         })
         .catch(next);
 };
-
 export const desativar = (request, response, next) => {
     const id = request.params.pendencia_id;
 
@@ -351,43 +324,192 @@ const comparaDoisTombos = (tombo, tomboAlterado) => {
     return parametros;
 };
 
-export const visualizar = (request, response, next) => {
-    const id = request.params.pendencia_id;
+export const visualizarComCadastro = (alteracao, transaction) => {
     let parametros = {};
 
-    const callback = transaction => Promise.resolve()
-        .then(() => Alteracao.findOne({
+    return new Promise((resolve, reject) => {
+
+        parametros = {
+            ...parametros,
+            numero_tombo: alteracao.tombo_hcf,
+            numero_tombo_alteracao: JSON.parse(alteracao.tombo_json).hcf,
+        };
+        return Tombo.findAll({
             where: {
+                hcf: {
+                    [Op.in]: [alteracao.tombo_hcf, parametros.numero_tombo_alteracao],
+                },
                 ativo: true,
-                id,
             },
+            include: [
+                {
+                    model: Herbario,
+                },
+                {
+                    model: Variedade,
+                },
+                {
+                    model: Tipo,
+                },
+                {
+                    model: Especie,
+                },
+                {
+                    model: Familia,
+                },
+                {
+                    model: Subfamilia,
+                },
+                {
+                    model: Genero,
+                },
+                {
+                    model: Subespecie,
+                },
+                {
+                    model: ColecaoAnexa,
+                },
+                {
+                    model: LocalColeta,
+                    include: [
+                        {
+                            model: Solo,
+                        },
+                        {
+                            model: Relevo,
+                        },
+                        {
+                            model: Vegetacao,
+                        },
+                        {
+                            model: Cidade,
+                        },
+                        {
+                            model: FaseSucessional,
+                        },
+                    ],
+                },
+            ],
             transaction,
-        }))
-        .then(alteracao => {
-            if (!alteracao) {
-                throw new BadRequestExeption(800);
+        })
+            .then(tombos => {
+                parametros = {
+                    ...parametros,
+                    retorno: [],
+                };
+                if (tombos.length === 2) {
+                    if (tombos[0].hcf === parametros.numero_tombo) {
+                        parametros = {
+                            ...parametros,
+                            tombo: tombos[0],
+                            tombo_alterado: tombos[1],
+                        };
+                    } else {
+                        parametros = {
+                            ...parametros,
+                            tombo: tombos[1],
+                            tombo_alterado: tombos[0],
+                        };
+                    }
+                    parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
+                }
+                resolve(parametros);
+            })
+            .catch(reject);
+    });
+};
+
+export const visualizarComJson = (alteracao, transaction) => {
+    let parametros = {};
+
+    return new Promise((resolve, reject) => Familia.findOne({
+        where: {
+            id: alteracao.tombo_json.familia_id,
+        },
+        transaction,
+    })
+        .then(familia => {
+            parametros.familia = familia;
+        })
+        .then(() => {
+            if (alteracao.tombo_json.subfamilia_id) {
+                return Subfamilia.findOne({
+                    where: {
+                        id: alteracao.tombo_json.subfamilia_id,
+                    },
+                    transaction,
+                });
             }
-            parametros = {
-                ...parametros,
-                numero_tombo: alteracao.tombo_hcf,
-                numero_tombo_alteracao: JSON.parse(alteracao.tombo_json).hcf,
-            };
+            return undefined;
+        })
+        .then(subfamilia => {
+            if (subfamilia) {
+                parametros.subfamilia = subfamilia;
+            }
+            if (alteracao.tombo_json.genero_id) {
+                return Genero.findOne({
+                    where: {
+                        id: alteracao.tombo_json.genero_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(genero => {
+            if (genero) {
+                parametros.genero = genero;
+            }
+            if (alteracao.tombo_json.especie_id) {
+                return Especie.findOne({
+                    where: {
+                        id: alteracao.tombo_json.especie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(especie => {
+            if (especie) {
+                parametros.especie = especie;
+            }
+            if (alteracao.tombo_json.variedade_id) {
+                return Variedade.findOne({
+                    where: {
+                        id: alteracao.tombo_json.variedade_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(variedade => {
+            if (variedade) {
+                parametros.variedade = variedade;
+            }
+            if (alteracao.tombo_json.subespecie_id) {
+                return Subespecie.findOne({
+                    where: {
+                        id: alteracao.tombo_json.subespecie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subesp => {
+            if (subesp) {
+                parametros.subespecie = subespecie;
+            }
             return Tombo.findAll({
                 where: {
-                    hcf: {
-                        [Op.in]: [alteracao.tombo_hcf, parametros.numero_tombo_alteracao],
-                    },
+                    hcf: alteracao.tombo_hcf,
                     ativo: true,
                 },
                 include: [
                     {
-                        model: Herbario,
-                    },
-                    {
                         model: Variedade,
-                    },
-                    {
-                        model: Tipo,
                     },
                     {
                         model: Especie,
@@ -403,29 +525,6 @@ export const visualizar = (request, response, next) => {
                     },
                     {
                         model: Subespecie,
-                    },
-                    {
-                        model: ColecaoAnexa,
-                    },
-                    {
-                        model: LocalColeta,
-                        include: [
-                            {
-                                model: Solo,
-                            },
-                            {
-                                model: Relevo,
-                            },
-                            {
-                                model: Vegetacao,
-                            },
-                            {
-                                model: Cidade,
-                            },
-                            {
-                                model: FaseSucessional,
-                            },
-                        ],
                     },
                 ],
                 transaction,
@@ -452,19 +551,35 @@ export const visualizar = (request, response, next) => {
                 }
                 parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
             }
+            resolve(parametros);
+        })
+        .catch(reject));
+};
+
+export function visualizar(request, response, next) {
+    const id = request.params.pendencia_id;
+    const callback = transaction => Promise.resolve()
+        .then(() => Alteracao.findOne({
+            where: {
+                ativo: true,
+                id,
+            },
+            transaction,
+        }))
+        .then(alteracao => {
+            if (!alteracao) {
+                throw new BadRequestExeption(800);
+            }
+            const objetoAlterado = JSON.parse(alteracao.tombo_json);
+            if (objetoAlterado.hcf) {
+                return visualizarComCadastro(alteracao, transaction);
+            }
+            return undefined;
         });
     sequelize.transaction(callback)
         .then(() => {
-            response.status(codigos.BUSCAR_UM_ITEM).json({
-                numero_tombo: parametros.numero_tombo,
-                numero_tombo_alteracao: parametros.numero_tombo_alteracao,
-                retorno: parametros.retorno,
-            });
+            response.status(codigos.LISTAGEM).send();
         })
         .catch(next);
-};
 
-
-export const alteracao = (request, response, next) => {
-
-};
+}

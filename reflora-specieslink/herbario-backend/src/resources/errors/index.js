@@ -13,5 +13,4 @@ const resources = files.map(file => {
     return mod.default || mod;
 });
 
-// @ts-ignore
 export default Object.assign.apply({}, resources);
