@@ -9,6 +9,7 @@ import {
     atualizaHoraFimSpeciesLink,
 } from '../herbariumdatabase';
 import { realizaComparacao } from './specieslink';
+import { geraListaAleatorio } from '../teste';
 
 /**
  * A função agendaComparacaoSpeciesLink(), faz um select verificando se tem o serviço do SpeciesLink
@@ -59,7 +60,7 @@ export function daemonSpeciesLink() {
                     atualizaHoraFimSpeciesLink(id, 'EXECUTANDO').then(() => {
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
                         escreveLOG(`specieslink/${nomeArquivo}`, 'Inicializando a aplicação do SpeciesLink.');
-                        realizaComparacao(horaInicio, listaConteudoArquivo).then(acabou => {
+                        realizaComparacao(horaInicio, geraListaAleatorio(listaConteudoArquivo, 5)).then(acabou => {
                             if (acabou) {
                                 escreveLOG(`specieslink/${nomeArquivo}`, 'O processo de comparação do SpeciesLink acabou.');
                                 atualizaHoraFimSpeciesLink(id, getHoraAtual());
