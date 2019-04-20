@@ -1,24 +1,24 @@
 /**
- * A função geraListaAleatorio, seleciona uma certa quantidade de códigos
- * de barras que serão utilizados para serm realizados as suas requisições
- * e comparações de seus dados.
- * @param {*} listaCodBarra, é uma lista com todos os código de barras.
- * @param {*} quantidadeAleatorios, quantidade de códigos de barras que devem ser selecionados.
- * @return listaCodBarra ou novaListaCodBarra, é uma lista de código de barras selecionados
- * que quando a quantidade de códigos de barras aleatórios é zero é retornando listaCodBarra,
- * caso contrário é retorna a novaListaCodBarra.
+ * A função geraListaAleatorio, seleciona uma certa quantidade de itens
+ * que serão utilizados para serem realizados as suas requisições,
+ * no caso do Herbário Virtual Reflora e comparações de seus dados.
+ * @param {*} listaConteudo, é uma lista com o conteúdo do arquivo.
+ * @param {*} quantidadeAleatorios, quantidade de itens da lista que devem ser selecionados.
+ * @return listaConteudo ou novaListaConteudo, é uma lista de conteúdo selecionados
+ * que quando a quantidade de aleatórios é zero é retornando listaConteudo,
+ * caso contrário é retorna a novaListaConteudo.
  */
-export function geraListaAleatorio(listaCodBarra, quantidadeAleatorios) {
+export function geraListaAleatorio(listaConteudo, quantidadeAleatorios) {
     if (quantidadeAleatorios === 0) {
-        return listaCodBarra;
+        return listaConteudo;
     }
     let aleatorio = 0;
-    const novaListaCodBarra = [];
+    const novaListaConteudo = [];
     for (let i = 0; i < quantidadeAleatorios; i += 1) {
-        aleatorio = Math.floor((Math.random() * listaCodBarra.length) + 0);
-        novaListaCodBarra.push(listaCodBarra[aleatorio]);
+        aleatorio = Math.floor((Math.random() * listaConteudo.length) + 0);
+        novaListaConteudo.push(listaConteudo[aleatorio]);
     }
-    return novaListaCodBarra;
+    return novaListaConteudo;
 }
 
 export default {};

@@ -8,6 +8,7 @@ import {
     selectEspecie,
     selectVariedade,
     selectSubespecie,
+    selectInformacaoTomboJsonEsperando,
 } from './herbariumdatabase';
 
 /**
@@ -331,37 +332,46 @@ function ehIgualJson(jsonBd, jsonGerado) {
 }
 
 /**
- * A função existeAlteracaoSugerida, faz um select na tabela de alterações daquele
- * na qual se buscou informações no Herbário Virtual. Com o resultado dessa consulta
- * eu verifico se o JSON presente no resultado dessa consulta é igual ou diferente ao JSON
- * que foi gerado a partir das comparações feitas. Se for igual a um dos JSON presentes no resultado
- * da consulta eu retorno true, representando que essa alteração já foi sugerida, caso contrário
- * retorno false.
+ * A função existeAlteracaoSugerida, faz um select na tabela de alterações verificando
+ * se tem alterações que não foram aprovadas, se tem alterações que não foram aprovadas
+ * retorna true (somente nesse caso o true significa que tem alterações esperando). Caso
+ * todas alterações tenham sido aprovadas, eu verifico se o JSON presente no resultado
+ * dessa consulta é igual ou diferente ao JSON que foi gerado a partir das comparações
+ * feitas. Se for igual a um dos JSON presentes no resultado da consulta eu retorno true,
+ * representando que essa alteração já foi sugerida, caso contrário retorno false.
  * @param {*} nroTombo, é o número do tombo utilizado para buscar informações de alterações
  * que possam existir.
  * @param {*} jsonGerado, JSON gerado quando foi feito a comparação das informações presentes
  * no banco de dados, com os do Herbário Virtual.
- * @return true ou false, true quando os dois JSON são iguais, e false quando os dois JSON são diferentes.
+ * @return true ou false, true no primeiro select é referente se tem alterações esperando, já no
+ * segundo select o true quando os dois JSON são iguais, e false quando os dois JSON são diferentes.
  */
 export function existeAlteracaoSugerida(nroTombo, jsonGerado) {
     const promessa = Q.defer();
-    selectInformacaoTomboJson(nroTombo).then(listaTomboJson => {
-        if (listaTomboJson.length === 0) {
-            promessa.resolve(false);
-            return promessa.promise;
-        }
-        if (valorEhNulo(listaTomboJson) || valorEhIndefinido(listaTomboJson)) {
+    selectInformacaoTomboJsonEsperando(nroTombo).then(listaTomboJsonEsperando => {
+        if (listaTomboJsonEsperando.length > 0) {
             promessa.resolve(true);
             return promessa.promise;
         }
-        for (let i = 0; i < listaTomboJson.length; i += 1) {
-            const tomboJson = listaTomboJson[i].dataValues.tombo_json;
-            if (ehIgualJson(jsonGerado, tomboJson)) {
+        selectInformacaoTomboJson(nroTombo).then(listaTomboJson => {
+            if (listaTomboJson.length === 0) {
+                promessa.resolve(false);
+                return promessa.promise;
+            }
+            if (valorEhNulo(listaTomboJson) || valorEhIndefinido(listaTomboJson)) {
                 promessa.resolve(true);
                 return promessa.promise;
             }
-        }
-        promessa.resolve(false);
+            for (let i = 0; i < listaTomboJson.length; i += 1) {
+                const tomboJson = listaTomboJson[i].dataValues.tombo_json;
+                if (ehIgualJson(jsonGerado, tomboJson)) {
+                    promessa.resolve(true);
+                    return promessa.promise;
+                }
+            }
+            promessa.resolve(false);
+            return promessa.promise;
+        });
         return promessa.promise;
     });
     return promessa.promise;

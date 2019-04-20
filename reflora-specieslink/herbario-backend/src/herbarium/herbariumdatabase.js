@@ -564,6 +564,22 @@ export function selectInformacaoTomboJson(idTombo) {
     return promessa.promise;
 }
 
+export function selectInformacaoTomboJsonEsperando(idTombo) {
+    const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
+    const promessa = Q.defer();
+    // conexao.sync().then(() => {
+    tabelaAlteracao.findAll({
+        where: {
+            [Sequelize.Op.and]:
+                [{ tombo_hcf: idTombo }, { status: 'ESPERANDO' }],
+        },
+    }).then(listaTombo => {
+        promessa.resolve(listaTombo);
+    });
+    // });
+    return promessa.promise;
+}
+
 /**
  * A função insereAlteracaoSugerida, ela insere um registro na tabela de alteração
  * quando foi encontrada uma alteração, as informações que serão adicionado
