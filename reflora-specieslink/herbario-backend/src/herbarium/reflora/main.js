@@ -16,6 +16,8 @@ import { fazRequisicaoReflora } from './reflora';
 import {
     escreveLOG, leLOG, processaNomeLog, getHoraFim, getHoraAtual,
 } from '../log';
+import { geraListaAleatorio } from '../teste';
+
 
 /**
  * A função comecaAtualizacaoReflora, primeiramente pega o maior valor de código
@@ -35,14 +37,10 @@ function comecaAtualizacaoReflora(nomeArquivo) {
     escreveLOG(`reflora/${nomeArquivo}`, 'Inicializando a aplicação do Reflora.');
     const tabelaReflora = criaTabelaReflora();
     selectCodBarra().then(listaCodBarra => {
-        insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
-            // insereTabelaReflora(tabelaReflora, listaCodBarra).then(() => {
+        // insereTabelaReflora(tabelaReflora, listaCodBarra.slice(0, 1)).then(() => {
+        insereTabelaReflora(tabelaReflora, geraListaAleatorio(listaCodBarra, 5)).then(() => {
             fazRequisicaoReflora(nomeArquivo).then(resultadoRequisicaoReflora => {
-                // eslint-disable-next-line no-console
-                console.log('aka');
                 if (resultadoRequisicaoReflora) {
-                    // eslint-disable-next-line no-console
-                    console.log('akb');
                     fazComparacaoTombo().then(resultadoComparacao => {
                         if (resultadoComparacao) {
                             escreveLOG(`reflora/${nomeArquivo}`, 'O processo de comparação do Reflora acabou.');
