@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Q from 'q';
 import {
     selectTombo,
@@ -13,6 +14,14 @@ import {
     existeAlteracaoSugerida,
 } from '../comparainformacao';
 
+/**
+ * A função getDiaIdentificacao verifica se o dia que foi passado não
+ * é uma string vazia ou se é um não número, e se for um desses casos
+ * é nulo. Caso não seja nenhum desses retorna o valor.
+ * @param {*} diaIdentificacao, é uma string na qual será verificado se está correto ou não o dia.
+ * @return valorDiaIdentificacao ou null, retorna o dia que foi feita a identificação
+ * caso esteja correto, caso contrário retorna nulo.
+ */
 export function getDiaIdentificacao(diaIdentificacao) {
     if (diaIdentificacao.length === 0) {
         return null;
@@ -24,6 +33,14 @@ export function getDiaIdentificacao(diaIdentificacao) {
     return valorDiaIdentificacao;
 }
 
+/**
+ * A função getMesIdentificacao verifica se o mês que foi passado não
+ * é uma string vazia ou se é um não número, e se for um desses casos
+ * é nulo. Caso não seja nenhum desses retorna o valor.
+ * @param {*} mesIdentificacao, é uma string na qual será verificado se está correto ou não o mês.
+ * @return valorMesIdentificacao ou null, retorna o mês que foi feita a identificação
+ * caso esteja correto, caso contrário retorna nulo.
+ */
 export function getMesIdentificacao(mesIdentificacao) {
     if (mesIdentificacao.length === 0) {
         return null;
@@ -35,6 +52,14 @@ export function getMesIdentificacao(mesIdentificacao) {
     return valorMesIdentificacao;
 }
 
+/**
+ * A função getAnoIdentificacao verifica se o ano que foi passado não
+ * é uma string vazia ou se é um não número, e se for um desses casos
+ * é nulo. Caso não seja nenhum desses retorna o valor.
+ * @param {*} anoIdentificacao, é uma string na qual será verificado se está correto ou não o ano.
+ * @return valorMesIdentificacao ou null, retorna o ano que foi feita a identificação
+ * caso esteja correto, caso contrário retorna nulo.
+ */
 export function getAnoIdentificacao(anoIdentificacao) {
     if (anoIdentificacao.length === 0) {
         return null;

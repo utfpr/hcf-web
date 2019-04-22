@@ -102,10 +102,19 @@ export async function geraJsonAlteracao(nroTombo, codBarra, informacaoReflora) {
     return promessa.promise;
 }
 
-export function getDiaIdentificacao(diaIdentificacao) {
-    if ((diaIdentificacao.length > 0) && (diaIdentificacao !== null) && (diaIdentificacao !== 's. d.')) {
-        if (diaIdentificacao.indexOf('/') !== diaIdentificacao.lastIndexOf('/')) {
-            const valorDiaIdentificacao = parseInt(diaIdentificacao.substring(0, diaIdentificacao.indexOf('/')));
+/**
+ * A função getDiaIdentificacao procura na data que foi passada por parâmetro,
+ * e verifica se existe um dia de identificação, caso exista a mesma é retornada,
+ * caso não ache é retornado nulo.
+ * @param {*} dataIdentificacao, é uma string na qual será procurado o dia de identificação.
+ * @return valorDiaIdentificacao ou null, retorna o dia que foi feita a identificação caso exista,
+ * caso contrário retorna nulo.
+ */
+export function getDiaIdentificacao(dataIdentificacao) {
+    // O s. d. significa sem determinação
+    if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
+        if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
+            const valorDiaIdentificacao = parseInt(dataIdentificacao.substring(0, dataIdentificacao.indexOf('/')));
             if (Number.isNaN(valorDiaIdentificacao)) {
                 return null;
             }
@@ -115,17 +124,26 @@ export function getDiaIdentificacao(diaIdentificacao) {
     return null;
 }
 
-export function getMesIdentificacao(mesIdentificacao) {
-    if ((mesIdentificacao.length > 0) && (mesIdentificacao !== null) && (mesIdentificacao !== 's. d.')) {
-        if (mesIdentificacao.indexOf('/') !== mesIdentificacao.lastIndexOf('/')) {
-            const valorMesIdentificacao = parseInt(mesIdentificacao.substring(mesIdentificacao.indexOf('/') + 1, mesIdentificacao.lastIndexOf('/')));
+/**
+ * A função getMesIdentificacao procura na data que foi passada por parâmetro,
+ * e verifica se existe um mês de identificação, caso exista a mesma é retornada,
+ * caso não ache é retornado nulo.
+ * @param {*} dataIdentificacao, é uma string na qual será procurado o mês de identificação.
+ * @return valorDiaIdentificacao ou null, retorna o mês que foi feita a identificação caso exista,
+ * caso contrário retorna nulo.
+ */
+export function getMesIdentificacao(dataIdentificacao) {
+    // O s. d. significa sem determinação
+    if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
+        if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
+            const valorMesIdentificacao = parseInt(dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/')));
             if (Number.isNaN(valorMesIdentificacao)) {
                 return null;
             }
             return valorMesIdentificacao;
         }
-        if (mesIdentificacao.indexOf('/') === mesIdentificacao.lastIndexOf('/')) {
-            const valorMesIdentificacao = mesIdentificacao.substring(0, mesIdentificacao.lastIndexOf('/'));
+        if (dataIdentificacao.indexOf('/') === dataIdentificacao.lastIndexOf('/')) {
+            const valorMesIdentificacao = dataIdentificacao.substring(0, dataIdentificacao.lastIndexOf('/'));
             if (Number.isNaN(valorMesIdentificacao)) {
                 return null;
             }
@@ -135,9 +153,18 @@ export function getMesIdentificacao(mesIdentificacao) {
     return null;
 }
 
-export function getAnoIdentificacao(anoIdentificacao) {
-    if ((anoIdentificacao.length > 0) && (anoIdentificacao !== null) && (anoIdentificacao !== 's. d.')) {
-        const valorAnoIdentificacao = anoIdentificacao.substring(anoIdentificacao.lastIndexOf('/') + 1, anoIdentificacao.length);
+/**
+ * A função getAnoIdentificacao procura na data que foi passada por parâmetro,
+ * e verifica se existe um ano de identificação, caso exista a mesma é retornada,
+ * caso não ache é retornado nulo.
+ * @param {*} dataIdentificacao, é uma string na qual será procurado o ano de identificação.
+ * @return valorDiaIdentificacao ou null, retorna o ano que foi feita a identificação caso exista,
+ * caso contrário retorna nulo.
+ */
+export function getAnoIdentificacao(dataIdentificacao) {
+    // O s. d. significa sem determinação
+    if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
+        const valorAnoIdentificacao = dataIdentificacao.substring(dataIdentificacao.lastIndexOf('/') + 1, dataIdentificacao.length);
         if (Number.isNaN(valorAnoIdentificacao)) {
             return null;
         }
