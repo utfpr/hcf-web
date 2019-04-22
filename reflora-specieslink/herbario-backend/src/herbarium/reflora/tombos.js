@@ -102,6 +102,50 @@ export async function geraJsonAlteracao(nroTombo, codBarra, informacaoReflora) {
     return promessa.promise;
 }
 
+export function getDiaIdentificacao(diaIdentificacao) {
+    if ((diaIdentificacao.length > 0) && (diaIdentificacao !== null) && (diaIdentificacao !== 's. d.')) {
+        if (diaIdentificacao.indexOf('/') !== diaIdentificacao.lastIndexOf('/')) {
+            const valorDiaIdentificacao = parseInt(diaIdentificacao.substring(0, diaIdentificacao.indexOf('/')));
+            if (Number.isNaN(valorDiaIdentificacao)) {
+                return null;
+            }
+            return valorDiaIdentificacao;
+        }
+    }
+    return null;
+}
+
+export function getMesIdentificacao(mesIdentificacao) {
+    if ((mesIdentificacao.length > 0) && (mesIdentificacao !== null) && (mesIdentificacao !== 's. d.')) {
+        if (mesIdentificacao.indexOf('/') !== mesIdentificacao.lastIndexOf('/')) {
+            const valorMesIdentificacao = parseInt(mesIdentificacao.substring(mesIdentificacao.indexOf('/') + 1, mesIdentificacao.lastIndexOf('/')));
+            if (Number.isNaN(valorMesIdentificacao)) {
+                return null;
+            }
+            return valorMesIdentificacao;
+        }
+        if (mesIdentificacao.indexOf('/') === mesIdentificacao.lastIndexOf('/')) {
+            const valorMesIdentificacao = mesIdentificacao.substring(0, mesIdentificacao.lastIndexOf('/'));
+            if (Number.isNaN(valorMesIdentificacao)) {
+                return null;
+            }
+            return valorMesIdentificacao;
+        }
+    }
+    return null;
+}
+
+export function getAnoIdentificacao(anoIdentificacao) {
+    if ((anoIdentificacao.length > 0) && (anoIdentificacao !== null) && (anoIdentificacao !== 's. d.')) {
+        const valorAnoIdentificacao = anoIdentificacao.substring(anoIdentificacao.lastIndexOf('/') + 1, anoIdentificacao.length);
+        if (Number.isNaN(valorAnoIdentificacao)) {
+            return null;
+        }
+        return valorAnoIdentificacao;
+    }
+    return null;
+}
+
 /**
  * A função fazComparacaoInformacao, primeiramente verifica se tem informações
  * do reflora esperado. Se tem as informações esperada eu pego o número de tombo
@@ -129,15 +173,21 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
                                 selectExisteServicoUsuario('REFLORA').then(listaUsuario => {
                                     if (listaUsuario.length === 0) {
                                         insereServicoUsuario('REFLORA').then(idUsuario => {
-                                            insereAlteracaoSugerida(idUsuario, 'ESPERANDO', getNroTombo, alteracao);
+                                            const diaIdentificacao = getDiaIdentificacao(getInformacaoReflora.dateidentified);
+                                            const mesIdentificacao = getMesIdentificacao(getInformacaoReflora.dateidentified);
+                                            const anoIdentificacao = getAnoIdentificacao(getInformacaoReflora.dateidentified);
+                                            insereAlteracaoSugerida(idUsuario, 'ESPERANDO', getNroTombo, alteracao, diaIdentificacao, mesIdentificacao, anoIdentificacao);
                                             // eslint-disable-next-line no-console
                                             console.log(getInformacaoReflora.identifiedby);
                                             // eslint-disable-next-line no-console
                                             console.log(getInformacaoReflora.dateidentified);
                                         });
                                     } else {
+                                        const diaIdentificacao = getDiaIdentificacao(getInformacaoReflora.dateidentified);
+                                        const mesIdentificacao = getMesIdentificacao(getInformacaoReflora.dateidentified);
+                                        const anoIdentificacao = getAnoIdentificacao(getInformacaoReflora.dateidentified);
                                         const { id } = listaUsuario[0].dataValues;
-                                        insereAlteracaoSugerida(id, 'ESPERANDO', getNroTombo, alteracao);
+                                        insereAlteracaoSugerida(id, 'ESPERANDO', getNroTombo, alteracao, diaIdentificacao, mesIdentificacao, anoIdentificacao);
                                         // eslint-disable-next-line no-console
                                         console.log(getInformacaoReflora.identifiedby);
                                         // eslint-disable-next-line no-console

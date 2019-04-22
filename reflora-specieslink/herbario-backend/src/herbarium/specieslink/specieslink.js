@@ -13,6 +13,39 @@ import {
     existeAlteracaoSugerida,
 } from '../comparainformacao';
 
+export function getDiaIdentificacao(diaIdentificacao) {
+    if (diaIdentificacao.length === 0) {
+        return null;
+    }
+    const valorDiaIdentificacao = parseInt(diaIdentificacao);
+    if (Number.isNaN(valorDiaIdentificacao)) {
+        return null;
+    }
+    return valorDiaIdentificacao;
+}
+
+export function getMesIdentificacao(mesIdentificacao) {
+    if (mesIdentificacao.length === 0) {
+        return null;
+    }
+    const valorMesIdentificacao = parseInt(mesIdentificacao);
+    if (Number.isNaN(valorMesIdentificacao)) {
+        return null;
+    }
+    return valorMesIdentificacao;
+}
+
+export function getAnoIdentificacao(anoIdentificacao) {
+    if (anoIdentificacao.length === 0) {
+        return null;
+    }
+    const valorAnoIdentificacao = parseInt(anoIdentificacao);
+    if (Number.isNaN(valorAnoIdentificacao)) {
+        return null;
+    }
+    return valorAnoIdentificacao;
+}
+
 /**
  * A função realizaComparacao, ela percorre a lista de conteúdo de informações
  * presentes no arquivo do species Link que foi passado por parâmetro, e de maneira
@@ -83,7 +116,7 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                             selectExisteServicoUsuario('SPECIESLINK').then(listaUsuario => {
                                 if (listaUsuario.length === 0) {
                                     insereServicoUsuario('SPECIESLINK').then(idUsuario => {
-                                        insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                        insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);
                                         // eslint-disable-next-line no-console
@@ -92,7 +125,7 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                                     });
                                 } else {
                                     const { id } = listaUsuario[0].dataValues;
-                                    insereAlteracaoSugerida(id, 'ESPERANDO', codBarra, alteracaoInformacao);
+                                    insereAlteracaoSugerida(id, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                     // eslint-disable-next-line no-console
                                     console.log(identificador);
                                     // eslint-disable-next-line no-console
@@ -113,4 +146,4 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
     return promessa.promise;
 }
 
-export default { };
+export default {};

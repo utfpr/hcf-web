@@ -600,7 +600,7 @@ export function selectInformacaoTomboJsonEsperando(idTombo) {
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a inserção.
  */
-export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tomboJson) {
+export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tomboJson, diaIdentificacao, mesIdentificacao, anoIdentificacao) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const throttle = throttledQueue(1, 200);
     const promessa = Q.defer();
@@ -611,6 +611,9 @@ export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tom
             tombo_hcf: idTombo,
             tombo_json: tomboJson,
             identificacao: true,
+            data_identificacao_dia: diaIdentificacao,
+            data_identificacao_mes: mesIdentificacao,
+            data_indentificacao_ano: anoIdentificacao,
         }).then(() => {
             promessa.resolve();
         });
