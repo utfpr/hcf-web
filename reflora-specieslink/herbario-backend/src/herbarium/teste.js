@@ -9,7 +9,7 @@
  * caso contrário é retorna a novaListaConteudo.
  */
 export function geraListaAleatorio(listaConteudo, quantidadeAleatorios) {
-    if (quantidadeAleatorios === 0) {
+    if ((quantidadeAleatorios === 0) || (quantidadeAleatorios < -1)) {
         return listaConteudo;
     }
     let aleatorio = 0;
@@ -17,6 +17,8 @@ export function geraListaAleatorio(listaConteudo, quantidadeAleatorios) {
     for (let i = 0; i < quantidadeAleatorios; i += 1) {
         aleatorio = Math.floor((Math.random() * listaConteudo.length) + 0);
         novaListaConteudo.push(listaConteudo[aleatorio]);
+        // Remove o elemento dá posição aleatório e somente um elemento
+        listaConteudo.splice(aleatorio, 1);
     }
     return novaListaConteudo;
 }

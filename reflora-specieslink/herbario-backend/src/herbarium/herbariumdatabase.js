@@ -564,6 +564,14 @@ export function selectInformacaoTomboJson(idTombo) {
     return promessa.promise;
 }
 
+/**
+ * A função selectInformacaoTomboJsonEsperando, realiza uma consulta no banco de dados e retorna todas
+ * as alterações que existem daquele tombo que foi passado por parâmetro que estejam com o status
+ * ESPERANDO.
+ * @param {*} idTombo, é o identificador do tombo, na qual será resgatado alterações feitas desse tombo.
+ * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
+ * quando terminar de realizar a consulta.
+ */
 export function selectInformacaoTomboJsonEsperando(idTombo) {
     const tabelaAlteracao = modeloAlteracao(conexao, Sequelize);
     const promessa = Q.defer();
