@@ -48,6 +48,18 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN,
             allowNull: true,
         },
+        data_identificacao_dia: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        data_identificacao_mes: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        data_indentificacao_ano: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
     };
 
     const options = {
