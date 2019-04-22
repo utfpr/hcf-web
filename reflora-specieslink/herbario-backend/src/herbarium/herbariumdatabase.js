@@ -610,6 +610,7 @@ export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tom
             status: statusAlteracao,
             tombo_hcf: idTombo,
             tombo_json: tomboJson,
+            identificacao: true,
         }).then(() => {
             promessa.resolve();
         });
