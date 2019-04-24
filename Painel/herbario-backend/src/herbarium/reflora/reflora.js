@@ -62,7 +62,7 @@ function jsonTemErro(respostaReflora) {
  * @param {*} body, é o corpo que pode ser retornado pela tentativa de requisição.
  */
 export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, body) {
-    if (!error && response.statusCode === 200) {
+    if ((!error && response.statusCode === 200) || (error.code !== 'ETIMEDOUT')) {
         if (jsonTemErro(body)) {
             atualizaTabelaReflora(codBarra, body, false);
         } else {
@@ -91,7 +91,7 @@ export function fazRequisicaoReflora(nomeArquivo) {
         } else {
             const getCodBarra = codBarra[0].dataValues.cod_barra;
             throttle(() => {
-                request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, (error, response, body) => {
+                request(`http://servicos.jbrj.gov.br/v2/herbarium/${getCodBarra}`, { timeout: 4000 }, (error, response, body) => {
                     salvaRespostaReflora(nomeArquivo, getCodBarra, error, response, body);
                     promessa.resolve(fazRequisicaoReflora(nomeArquivo));
                 });
