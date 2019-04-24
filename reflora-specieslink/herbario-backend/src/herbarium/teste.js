@@ -2,6 +2,7 @@
  * A função geraListaAleatorio, seleciona uma certa quantidade de itens
  * que serão utilizados para serem realizados as suas requisições,
  * no caso do Herbário Virtual Reflora e comparações de seus dados.
+ * Essa função é somente utilizada em teste.
  * @param {*} listaConteudo, é uma lista com o conteúdo do arquivo.
  * @param {*} quantidadeAleatorios, quantidade de itens da lista que devem ser selecionados.
  * @return listaConteudo ou novaListaConteudo, é uma lista de conteúdo selecionados
