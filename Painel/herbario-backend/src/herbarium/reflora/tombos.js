@@ -197,9 +197,9 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
                     if (alteracao.length > 2) {
                         existeAlteracaoSugerida(getNroTombo, alteracao).then(existe => {
                             if (!existe) {
-                                selectExisteServicoUsuario('REFLORA').then(listaUsuario => {
+                                selectExisteServicoUsuario('Reflora').then(listaUsuario => {
                                     if (listaUsuario.length === 0) {
-                                        insereServicoUsuario('REFLORA').then(idUsuario => {
+                                        insereServicoUsuario('Reflora').then(idUsuario => {
                                             const diaIdentificacao = getDiaIdentificacao(getInformacaoReflora.dateidentified);
                                             const mesIdentificacao = getMesIdentificacao(getInformacaoReflora.dateidentified);
                                             const anoIdentificacao = getAnoIdentificacao(getInformacaoReflora.dateidentified);

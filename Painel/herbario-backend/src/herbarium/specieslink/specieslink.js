@@ -138,9 +138,9 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 if (alteracaoInformacao.length > 2) {
                     existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
                         if (!existe) {
-                            selectExisteServicoUsuario('SPECIESLINK').then(listaUsuario => {
+                            selectExisteServicoUsuario('Species Link').then(listaUsuario => {
                                 if (listaUsuario.length === 0) {
-                                    insereServicoUsuario('SPECIESLINK').then(idUsuario => {
+                                    insereServicoUsuario('Species Link').then(idUsuario => {
                                         insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);
