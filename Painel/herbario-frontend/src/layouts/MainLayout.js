@@ -180,12 +180,18 @@ export default class MainLayout extends Component {
 							</a>
 						</Menu.Item>
 						{isCurador() ? (
-							<Menu.Item key="7">
-								<Link to="/gerenciamento">
-									<Icon type="setting" />
-									<span>Gerenciamento</span>
-								</Link>
-							</Menu.Item>
+							/**
+							 * Adicionando ao menu lateral o botão de serviços,
+							 * Reflora e speciesLink.
+							 */
+							<SubMenu key="servicos" title={<span> <Icon type="search" /> <span>Serviços</span> </span>} >
+								<Menu.Item key="20">
+									<Link to="/reflora">Reflora</Link>
+								</Menu.Item>
+								<Menu.Item key="21">
+									<Link to="/specieslink">speciesLink</Link>
+								</Menu.Item>
+							</SubMenu>
 						) : null}
 						{isLogado() ? (
 							<Menu.Item key="17">
