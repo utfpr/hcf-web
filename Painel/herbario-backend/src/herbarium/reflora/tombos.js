@@ -188,7 +188,7 @@ export function getAnoIdentificacao(dataIdentificacao) {
  */
 export function fazComparacaoInformacao(codBarra, informacaoReflora) {
     const promessa = Q.defer();
-    if ((temResultadoRespostaReflora(informacaoReflora)) && (informacaoReflora !== null) && (informacaoReflora.result !== null)) {
+    if (temResultadoRespostaReflora(informacaoReflora)) {
         selectNroTomboNumBarra(codBarra).then(nroTombo => {
             if (nroTombo.length > 0) {
                 const getNroTombo = nroTombo[0].dataValues.tombo_hcf;

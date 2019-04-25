@@ -20,14 +20,16 @@ export function processaRespostaReflora(respostaReflora) {
 }
 
 /**
- * A função temResultadoRespostaReflora, verifica se no JSON retornado pelo
- * Reflora contém informações dentro do vetor da chave 'result'. Se tem
- * retorna true, caso contrário false.
+ * A função temResultadoRespostaReflora, verifica três coisas:
+ * se tem resultado na chave 'result' retornado pela requisição do Reflora,
+ * se a informação dessa chave é nula e o parâmetro que contêm essa chave não é nulo.
+ * Se não for nenhum dessas condições representa que tem resultado e é retornado
+ * true, caso seja uma dessas é false.
  * @param {*} respostaReflora, resposta com informações do tombo presente no Reflora.
  * @return true ou false, retorna true caso tenha resultado, e caso não tenha resultado retorna false.
  */
 export function temResultadoRespostaReflora(respostaReflora) {
-    if (respostaReflora.result.length === 0) {
+    if ((respostaReflora === null) || (respostaReflora.result === null) || (respostaReflora.result.length === 0)) {
         return false;
     }
     return true;
