@@ -8,6 +8,7 @@ import {
     ehIgualEspecie,
     ehIgualVariedade,
     existeAlteracaoSugerida,
+    ehIgualSubespecie,
 } from '../comparainformacao';
 import {
     processaRespostaReflora,
@@ -81,15 +82,19 @@ export async function geraJsonAlteracao(nroTombo, codBarra, informacaoReflora) {
             if (informacaoReflora.taxonrank === 'SUB_ESPECIE') {
                 // subespecie
                 if (processaInformacaoBd.sub_especie_id !== null) {
-                    await ehIgualVariedade(processaInformacaoBd.especie_id, informacaoReflora.infraespecificepithet).then(variedade => {
-                        alteracaoInformacao += `"variedade_nome": "${variedade}", `;
+                    await ehIgualSubespecie(processaInformacaoBd.sub_especie_id, informacaoReflora.infraespecificepithet).then(subespecie => {
+                        if (subespecie !== -1) {
+                            alteracaoInformacao += `"subespecie_nome": "${subespecie}", `;
+                        }
                     });
                 }
             } else if (informacaoReflora.taxonrank === 'VARIEDADE') {
                 // variedade
                 if (processaInformacaoBd.variedade_id !== null) {
                     await ehIgualVariedade(processaInformacaoBd.variedade_id, informacaoReflora.infraespecificepithet).then(variedade => {
-                        alteracaoInformacao += `"variedade_nome": "${variedade}", `;
+                        if (variedade !== -1) {
+                            alteracaoInformacao += `"variedade_nome": "${variedade}", `;
+                        }
                     });
                 }
             }
