@@ -180,12 +180,6 @@ export default class MainLayout extends Component {
 							</a>
 						</Menu.Item>
 						{isCurador() ? (
-							<Menu.Item key="35">
-								<Link to="/gerenciamento">
-									<Icon type="setting" />
-									<span>Gerenciamento</span>
-								</Link>
-							</Menu.Item>
 							/**
 							 * Adicionando ao menu lateral o botão de serviços,
 							 * Reflora e speciesLink.
