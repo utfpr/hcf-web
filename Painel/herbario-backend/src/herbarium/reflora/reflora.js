@@ -64,14 +64,16 @@ function jsonTemErro(respostaReflora) {
  * @param {*} body, é o corpo que pode ser retornado pela tentativa de requisição.
  */
 export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, body) {
-    if ((!error && response.statusCode === 200) || (error.code !== 'ETIMEDOUT')) {
-        if (jsonTemErro(body)) {
-            atualizaTabelaReflora(codBarra, body, false);
+    if ((error !== null) && (error.code !== null)) {
+        if ((!error && response.statusCode === 200) || (error.code !== 'ETIMEDOUT')) {
+            if (jsonTemErro(body)) {
+                atualizaTabelaReflora(codBarra, body, false);
+            } else {
+                atualizaTabelaReflora(codBarra, body, true);
+            }
         } else {
-            atualizaTabelaReflora(codBarra, body, true);
+            escreveLOG(`reflora/${nomeArquivo}`, `Erro no código de barra {${codBarra}} que foi ${error}`);
         }
-    } else {
-        escreveLOG(`reflora/${nomeArquivo}`, `Erro no código de barra {${codBarra}} que foi ${error}`);
     }
 }
 
