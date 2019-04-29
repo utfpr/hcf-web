@@ -117,6 +117,45 @@ public class Conversao_novo_banco {
 
     }
 
+     public static String selectTabelaTomboExsicata() {
+        String sqlLinha = "SELECT * FROM TOMBO_EXSICATA  where num_tombo > 16529 order by num_tombo asc";
+        return sqlLinha;
+    }
+
+    public static void insereInstanciaTomboExsicata(ResultSet rs) throws IOException, SQLException {
+        Connection connection = ConexaoMysql.getConexao();
+        String sql = "insert into tombos_fotos "
+                + "(tombo_hcf, codigo_barra, num_barra, sequencia)"
+                + " values (?, ?, ?, ?)";
+
+        try {
+            // prepared statement para inserção
+            PreparedStatement stmt = connection.prepareStatement(sql);
+
+            int cont = 0;
+            if (rs != null) {
+                while (rs.next()) {
+                    String[] tombo = rs.getString("NUM_TOMBO").split("\\.");
+                    
+                    int hcf = Integer.parseInt(tombo[0]);
+                    System.out.println(hcf);
+
+                    stmt.setInt(1, hcf);
+                    stmt.setString(2, rs.getString("COD_BARRA"));
+                    stmt.setString(3, rs.getString("NUM_BARRA"));
+                    stmt.setInt(4, rs.getInt("SEQUENCIA"));
+                    stmt.execute();
+                }
+            }
+
+            stmt.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    
     public static String selectTabelaRelevo() {
         String sqlLinha = "SELECT * FROM RELEVO";
         return sqlLinha;
@@ -1344,7 +1383,7 @@ public class Conversao_novo_banco {
         String sqlLinha = "select t.hcf, t.tombo_doado_a from TOMBO as t where t.tombo_doado_a is not null and t.tombo_doado_a <> 2";
         return sqlLinha;
     }
-
+    
     public static void insereInstanciaDoacao(ResultSet rs) throws IOException, SQLException {
         Connection connection = ConexaoMysql.getConexao();
         String sql = "insert into doacao "
@@ -1519,14 +1558,22 @@ public class Conversao_novo_banco {
             }
             insereColetoresTombo(resultado);*/
             ////////Alteracao//////////////
-            gerarAlteracao();
+            //gerarAlteracao();*/
+            
+             ///////////////TOMBO EXSICATA///////////////
+            try {
+                resultado = st.executeQuery(selectTabelaTomboExsicata());
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
+            insereInstanciaTomboExsicata(resultado);
 
 //            System.out.println("----------------Locais de coleta não inseridos-------------------");
 //            for (int i = 0; i < locaisColetaErro.size(); i++) {
 //                System.out.println(locaisColetaErro.get(i));
 //            }
 //            System.out.println("-----------------------------------");
-        } catch (Exception e) {
+         } catch (Exception e) {
             e.printStackTrace();
         }
 

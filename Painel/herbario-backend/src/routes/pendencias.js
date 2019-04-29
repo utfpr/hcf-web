@@ -26,5 +26,11 @@ export default app => {
                 TIPOS_USUARIOS.CURADOR,
             ]),
             controller.visualizar,
+        ])
+        .post([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+            ]),
+            controller.aceitarPendencia,
         ]);
 };

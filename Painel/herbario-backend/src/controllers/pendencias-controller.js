@@ -71,6 +71,7 @@ export const listagem = (request, response, next) => {
         })
         .catch(next);
 };
+
 export const desativar = (request, response, next) => {
     const id = request.params.pendencia_id;
 
@@ -419,12 +420,12 @@ export const visualizarComCadastro = (alteracao, transaction) => {
     });
 };
 
-export const visualizarComJson = (alteracao, transaction) => {
-    let parametros = {};
+export const visualizarComJsonId = (alteracao, hcf, transaction) => {
+    const parametros = {};
 
     return new Promise((resolve, reject) => Familia.findOne({
         where: {
-            id: alteracao.tombo_json.familia_id,
+            id: alteracao.familia_id,
         },
         transaction,
     })
@@ -432,10 +433,10 @@ export const visualizarComJson = (alteracao, transaction) => {
             parametros.familia = familia;
         })
         .then(() => {
-            if (alteracao.tombo_json.subfamilia_id) {
+            if (alteracao.subfamilia_id) {
                 return Subfamilia.findOne({
                     where: {
-                        id: alteracao.tombo_json.subfamilia_id,
+                        id: alteracao.subfamilia_id,
                     },
                     transaction,
                 });
@@ -446,10 +447,10 @@ export const visualizarComJson = (alteracao, transaction) => {
             if (subfamilia) {
                 parametros.subfamilia = subfamilia;
             }
-            if (alteracao.tombo_json.genero_id) {
+            if (alteracao.genero_id) {
                 return Genero.findOne({
                     where: {
-                        id: alteracao.tombo_json.genero_id,
+                        id: alteracao.genero_id,
                     },
                     transaction,
                 });
@@ -460,10 +461,10 @@ export const visualizarComJson = (alteracao, transaction) => {
             if (genero) {
                 parametros.genero = genero;
             }
-            if (alteracao.tombo_json.especie_id) {
+            if (alteracao.especie_id) {
                 return Especie.findOne({
                     where: {
-                        id: alteracao.tombo_json.especie_id,
+                        id: alteracao.especie_id,
                     },
                     transaction,
                 });
@@ -474,10 +475,10 @@ export const visualizarComJson = (alteracao, transaction) => {
             if (especie) {
                 parametros.especie = especie;
             }
-            if (alteracao.tombo_json.variedade_id) {
+            if (alteracao.variedade_id) {
                 return Variedade.findOne({
                     where: {
-                        id: alteracao.tombo_json.variedade_id,
+                        id: alteracao.variedade_id,
                     },
                     transaction,
                 });
@@ -488,10 +489,10 @@ export const visualizarComJson = (alteracao, transaction) => {
             if (variedade) {
                 parametros.variedade = variedade;
             }
-            if (alteracao.tombo_json.subespecie_id) {
+            if (alteracao.subespecie_id) {
                 return Subespecie.findOne({
                     where: {
-                        id: alteracao.tombo_json.subespecie_id,
+                        id: alteracao.subespecie_id,
                     },
                     transaction,
                 });
@@ -502,9 +503,9 @@ export const visualizarComJson = (alteracao, transaction) => {
             if (subesp) {
                 parametros.subespecie = subespecie;
             }
-            return Tombo.findAll({
+            return Tombo.findOne({
                 where: {
-                    hcf: alteracao.tombo_hcf,
+                    hcf,
                     ativo: true,
                 },
                 include: [
@@ -531,33 +532,519 @@ export const visualizarComJson = (alteracao, transaction) => {
             });
         })
         .then(tombos => {
-            parametros = {
-                ...parametros,
-                retorno: [],
-            };
-            if (tombos.length === 2) {
-                if (tombos[0].hcf === parametros.numero_tombo) {
-                    parametros = {
-                        ...parametros,
-                        tombo: tombos[0],
-                        tombo_alterado: tombos[1],
-                    };
-                } else {
-                    parametros = {
-                        ...parametros,
-                        tombo: tombos[1],
-                        tombo_alterado: tombos[0],
-                    };
+            // eslint-disable-next-line
+            var jsonRetorno = [];
+            if (tombos.especy) {
+                if (parametros.especie) {
+                    if (tombos.especy.id !== parametros.especie.id) {
+                        jsonRetorno.push({
+                            key: '1',
+                            campo: 'Especie',
+                            antigo: tombos.especy.nome,
+                            novo: parametros.especie.nome,
+                        });
+                    }
                 }
-                parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
             }
-            resolve(parametros);
+            if (tombos.familia) {
+                if (parametros.familia) {
+                    if (tombos.familia.id !== parametros.familia.id) {
+                        jsonRetorno.push({
+                            key: '2',
+                            campo: 'Familia',
+                            antigo: tombos.familia.nome,
+                            novo: parametros.familia.nome,
+                        });
+                    }
+                }
+            }
+            if (tombos.genero) {
+                if (parametros.genero) {
+                    if (tombos.genero.id !== parametros.genero.id) {
+                        jsonRetorno.push({
+                            key: '3',
+                            campo: 'Gênero',
+                            antigo: tombos.genero.nome,
+                            novo: parametros.genero.nome,
+                        });
+                    }
+                }
+            }
+            if (tombos.variedade) {
+                if (parametros.variedade) {
+                    if (tombos.variedade.id !== parametros.variedade.id) {
+                        jsonRetorno.push({
+                            key: '4',
+                            campo: 'Variedade',
+                            antigo: tombos.variedade.nome,
+                            novo: parametros.variedade.nome,
+                        });
+                    }
+                }
+            }
+            if (tombos.sub_especy) {
+                if (parametros.subespecie) {
+                    if (tombos.sub_especy.id !== parametros.subespecie.id) {
+                        jsonRetorno.push({
+                            key: '5',
+                            campo: 'Subespecie',
+                            antigo: tombos.sub_especy.nome,
+                            novo: parametros.subespecie.nome,
+                        });
+                    }
+                }
+            }
+            if (tombos.sub_familia) {
+                if (parametros.subfamilia) {
+                    if (tombos.sub_familia.id !== parametros.subfamilia.id) {
+                        jsonRetorno.push({
+                            key: '6',
+                            campo: 'Subfamilia',
+                            antigo: tombos.sub_familia.nome,
+                            novo: parametros.subfamilia.nome,
+                        });
+                    }
+                }
+            }
+            resolve(jsonRetorno);
         })
         .catch(reject));
 };
 
+export const aprovarComJsonId = (alteracao, hcf, transaction) => {
+    const parametros = {};
+
+    return new Promise((resolve, reject) => Familia.findOne({
+        where: {
+            id: alteracao.familia_id,
+        },
+        transaction,
+    })
+        .then(familia => {
+            parametros.familia = familia;
+        })
+        .then(() => {
+            if (alteracao.subfamilia_id) {
+                return Subfamilia.findOne({
+                    where: {
+                        id: alteracao.subfamilia_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subfamilia => {
+            if (subfamilia) {
+                parametros.subfamilia = subfamilia;
+            }
+            if (alteracao.genero_id) {
+                return Genero.findOne({
+                    where: {
+                        id: alteracao.genero_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(genero => {
+            if (genero) {
+                parametros.genero = genero;
+            }
+            if (alteracao.especie_id) {
+                return Especie.findOne({
+                    where: {
+                        id: alteracao.especie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(especie => {
+            if (especie) {
+                parametros.especie = especie;
+            }
+            if (alteracao.variedade_id) {
+                return Variedade.findOne({
+                    where: {
+                        id: alteracao.variedade_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(variedade => {
+            if (variedade) {
+                parametros.variedade = variedade;
+            }
+            if (alteracao.subespecie_id) {
+                return Subespecie.findOne({
+                    where: {
+                        id: alteracao.subespecie_id,
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subesp => {
+            if (subesp) {
+                parametros.subespecie = subespecie;
+            }
+            const update = {};
+            if (parametros.familia) {
+                update.familia_id = parametros.familia.id;
+                update.nome_cientifico = `${parametros.familia.nome} `;
+            }
+            if (parametros.subfamilia) {
+                update.sub_familia_id = parametros.subfamilia.id;
+                update.nome_cientifico += `${parametros.subfamilia.nome} `;
+            }
+            if (parametros.genero) {
+                update.genero_id = parametros.genero.id;
+                update.nome_cientifico += `${parametros.genero.nome} `;
+            }
+            if (parametros.especie) {
+                update.especie_id = parametros.especie.id;
+                update.nome_cientifico += `${parametros.especie.nome} `;
+            }
+            if (parametros.subespecie) {
+                update.sub_especie_id = parametros.subespecie.id;
+                update.nome_cientifico += `${parametros.subespecie.nome} `;
+            }
+            if (parametros.variedade) {
+                update.variedade_id = parametros.variedade.id;
+                update.nome_cientifico += `${parametros.variedade.nome}`;
+            }
+            return Tombo.update(update, {
+                where: {
+                    hcf,
+                    ativo: true,
+                },
+                transaction,
+            });
+        })
+        .then(() => {
+            resolve(true);
+        })
+        .catch(reject));
+};
+
+export const aprovarComJsonNome = (alteracao, hcf, transaction) => {
+    const parametros = {};
+
+    return new Promise((resolve, reject) => Familia.findOne({
+        where: {
+            nome: { [Op.like]: `%${alteracao.familia_nome}%` },
+        },
+        transaction,
+    })
+        .then(familia => {
+            if (familia) {
+                return familia;
+            }
+            return Familia.create({ nome: alteracao.familia_nome }, transaction);
+        })
+        .then(familia => {
+            if (familia) {
+                parametros.familia = familia;
+            }
+            if (alteracao.subfamilia_nome) {
+                return Subfamilia.findOne({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.subfamilia_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subfamilia => {
+            if (subfamilia) {
+                parametros.subfamilia = subfamilia;
+            } else if (alteracao.subfamilia_nome) {
+                return Subfamilia.create({ nome: alteracao.subfamilia_nome }, transaction);
+            }
+            return undefined;
+        })
+        .then(subfamilia => {
+            if (subfamilia) {
+                parametros.subfamilia = subfamilia;
+            }
+            if (alteracao.genero_nome) {
+                return Genero.findOne({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.genero_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(genero => {
+            if (genero) {
+                parametros.genero = genero;
+            } else if (alteracao.genero_nome) {
+                return Genero.create({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.genero_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(genero => {
+            if (alteracao.genero_nome) {
+                parametros.genero = genero;
+            }
+            if (alteracao.especie_nome) {
+                return Especie.findOne({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.especie_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(especie => {
+            if (especie) {
+                parametros.especie = especie;
+            } else if (alteracao.especie_nome) {
+                return Especie.create({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.especie_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(especie => {
+            if (alteracao.especie_nome) {
+                parametros.especie = especie;
+            }
+            if (alteracao.subespecie_nome) {
+                return Subespecie.findOne({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.subespecie_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subspecie => {
+            if (subspecie) {
+                parametros.subespecie = subspecie;
+            } else if (alteracao.subespecie_nome) {
+                return Subespecie.create({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.subespecie_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(subspecie => {
+            if (alteracao.subespecie_nome) {
+                parametros.subespecie = subspecie;
+            }
+            if (alteracao.variedade_nome) {
+                return Variedade.findOne({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.variedade_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(variedade => {
+            if (variedade) {
+                parametros.variedade = variedade;
+            } else if (alteracao.variedade_nome) {
+                return Variedade.create({
+                    where: {
+                        nome: { [Op.like]: `%${alteracao.variedade_nome}%` },
+                    },
+                    transaction,
+                });
+            }
+            return undefined;
+        })
+        .then(variedade => {
+            if (alteracao.variedade_nome) {
+                parametros.variedade = variedade;
+            }
+            const update = {};
+            if (parametros.familia) {
+                update.familia_id = parametros.familia.id;
+                update.nome_cientifico = `${parametros.familia.nome} `;
+            }
+            if (parametros.subfamilia) {
+                update.sub_familia_id = parametros.subfamilia.id;
+                update.nome_cientifico += `${parametros.subfamilia.nome} `;
+            }
+            if (parametros.genero) {
+                update.genero_id = parametros.genero.id;
+                update.nome_cientifico += `${parametros.genero.nome} `;
+            }
+            if (parametros.especie) {
+                update.especie_id = parametros.especie.id;
+                update.nome_cientifico += `${parametros.especie.nome} `;
+            }
+            if (parametros.subespecie) {
+                update.sub_especie_id = parametros.subespecie.id;
+                update.nome_cientifico += `${parametros.subespecie.nome} `;
+            }
+            if (parametros.variedade) {
+                update.variedade_id = parametros.variedade.id;
+                update.nome_cientifico += `${parametros.variedade.nome}`;
+            }
+            return Tombo.update(update, {
+                where: {
+                    hcf,
+                    ativo: true,
+                },
+                transaction,
+            });
+        })
+        .then(() => {
+            resolve(true);
+        })
+        .catch(reject));
+};
+
+export const aprovarComCadastroJson = (alteracao, hcf, transaction) => true;
+
+export const aprovarComCadastro = (hcf, transaction) => new Promise((resolve, reject) => Tombo.update({
+    rascunho: 0,
+}, {
+    where: {
+        hcf,
+    },
+    transaction,
+})
+    .then(() => {
+        resolve(true);
+    })
+    .catch(reject));
+
+export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promise((resolve, reject) => Tombo.findOne({
+    where: {
+        hcf,
+        ativo: true,
+    },
+    include: [
+        {
+            model: Variedade,
+        },
+        {
+            model: Especie,
+        },
+        {
+            model: Familia,
+        },
+        {
+            model: Subfamilia,
+        },
+        {
+            model: Genero,
+        },
+        {
+            model: Subespecie,
+        },
+    ],
+    transaction,
+})
+    .then(tombos => {
+        // eslint-disable-next-line
+            var jsonRetorno = [];
+        if (tombos.especy) {
+            if (alteracao.especie_nome) {
+                if (tombos.especy.nome !== alteracao.especie_nome) {
+                    jsonRetorno.push({
+                        key: '1',
+                        campo: 'Especie',
+                        antigo: tombos.especy.nome,
+                        novo: alteracao.especie_nome,
+                    });
+                }
+            }
+        }
+        if (tombos.familia) {
+            if (alteracao.familia_nome) {
+                if (tombos.familia.nome !== alteracao.familia_nome) {
+                    jsonRetorno.push({
+                        key: '2',
+                        campo: 'Familia',
+                        antigo: tombos.familia.nome,
+                        novo: alteracao.familia_nome,
+                    });
+                }
+            }
+        }
+        if (tombos.genero) {
+            if (alteracao.genero_nome) {
+                if (tombos.genero.nome !== alteracao.genero_nome) {
+                    jsonRetorno.push({
+                        key: '3',
+                        campo: 'Gênero',
+                        antigo: tombos.genero.nome,
+                        novo: alteracao.genero_nome,
+                    });
+                }
+            }
+        }
+        if (tombos.variedade) {
+            if (alteracao.variedade_nome) {
+                if (tombos.variedade.nome !== alteracao.variedade_nome) {
+                    jsonRetorno.push({
+                        key: '4',
+                        campo: 'Variedade',
+                        antigo: tombos.variedade.nome,
+                        novo: alteracao.variedade_nome,
+                    });
+                }
+            }
+        }
+        if (tombos.sub_especy) {
+            if (alteracao.subespecie_nome) {
+                if (tombos.sub_especy.nome !== alteracao.subespecie_nome) {
+                    jsonRetorno.push({
+                        key: '5',
+                        campo: 'Subespecie',
+                        antigo: tombos.sub_especy.nome,
+                        novo: alteracao.subespecie_nome,
+                    });
+                }
+            }
+        }
+        if (tombos.sub_familia) {
+            if (alteracao.subfamilia_nome) {
+                if (tombos.sub_familia.nome !== alteracao.subfamilia_nome) {
+                    jsonRetorno.push({
+                        key: '6',
+                        campo: 'Subfamilia',
+                        antigo: tombos.sub_familia.nome,
+                        novo: alteracao.subfamilia_nome,
+                    });
+                }
+            }
+        }
+        resolve(jsonRetorno);
+    })
+    .catch(reject));
+
 export function visualizar(request, response, next) {
     const id = request.params.pendencia_id;
+    let retorno = {};
     const callback = transaction => Promise.resolve()
         .then(() => Alteracao.findOne({
             where: {
@@ -574,11 +1061,79 @@ export function visualizar(request, response, next) {
             if (objetoAlterado.hcf) {
                 return visualizarComCadastro(alteracao, transaction);
             }
-            return undefined;
+            if (objetoAlterado.familia_id) {
+                retorno = visualizarComJsonId(objetoAlterado, alteracao.tombo_hcf, transaction);
+            } else {
+                retorno = visualizarComJsonNome(objetoAlterado, alteracao.tombo_hcf, transaction);
+            }
+            return retorno;
         });
     sequelize.transaction(callback)
         .then(() => {
-            response.status(codigos.LISTAGEM).send();
+            // eslint-disable-next-line no-underscore-dangle
+            response.status(codigos.LISTAGEM).json({
+                fotos: {
+                    novas: [],
+                    antigas: [],
+                },
+                // eslint-disable-next-line no-underscore-dangle
+                tabela: retorno._rejectionHandler0,
+            });
+        })
+        .catch(next);
+
+}
+
+export function aceitarPendencia(request, response, next) {
+    const id = request.params.pendencia_id;
+    const { observacao, status } = request.body;
+    let retorno = {};
+    const callback = transaction => Promise.resolve()
+        .then(() => Alteracao.update({
+            observacao,
+            status,
+        }, {
+            where: {
+                ativo: true,
+                id,
+            },
+            transaction,
+        }))
+        .then(() => Alteracao.findOne({
+            where: {
+                ativo: true,
+                id,
+            },
+            transaction,
+        }))
+        .then(alt => {
+            if (status === 'APROVADO') {
+                if (alt.tombo_json === '') {
+                    return aprovarComCadastro(alt.tombo_hcf, transaction);
+                }
+                const objetoAlterado = JSON.parse(alt.tombo_json);
+                if (objetoAlterado.hcf) {
+                    return aprovarComCadastroJson(objetoAlterado, alt.tombo_hcf, transaction);
+                }
+                if (objetoAlterado.familia_id) {
+                    retorno = aprovarComJsonId(objetoAlterado, alt.tombo_hcf, transaction);
+                } else {
+                    retorno = aprovarComJsonNome(objetoAlterado, alt.tombo_hcf, transaction);
+                }
+            }
+            return retorno;
+        });
+    sequelize.transaction(callback)
+        .then(() => {
+            // eslint-disable-next-line no-underscore-dangle
+            response.status(codigos.LISTAGEM).json({
+                fotos: {
+                    novas: [],
+                    antigas: [],
+                },
+                // eslint-disable-next-line no-underscore-dangle
+                tabela: retorno._rejectionHandler0,
+            });
         })
         .catch(next);
 
