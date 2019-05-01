@@ -11,7 +11,7 @@ export default class SimpleTableComponent extends Component {
 			pagina: {
 				total: 0,
 				current: 1,
-				defaultPageSize: 20 || props.pageSize
+				defaultPageSize: props.pageSize || 20
 			},
 		};
 

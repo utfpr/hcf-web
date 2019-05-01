@@ -28,6 +28,7 @@ const {
 
 export const listagem = (request, response, next) => {
     const { limite, pagina, offset } = request.paginacao;
+    const { status, nome_usuario: nomeUsuario } = request.query;
     const retorno = {
         metadados: {
             total: 0,
@@ -36,20 +37,30 @@ export const listagem = (request, response, next) => {
         },
         resultado: {},
     };
+    let where = {};
+    let whereUsuario = {};
+    if (status) {
+        where = {
+            status,
+            ativo: 1,
+        };
+    }
+    if (nomeUsuario) {
+        whereUsuario = {
+            nome: { [Op.like]: `%${nomeUsuario}%` },
+        };
+    }
     const callback = transaction => Promise.resolve()
         .then(() => Alteracao.findAndCountAll({
             include: [
                 {
                     model: Usuario,
-                    where: {
-                        tipo_usuario_id: {
-                            [Op.ne]: 1,
-                        },
-                    },
+                    whereUsuario,
                 },
             ],
             limit: limite,
             offset,
+            where,
             transaction,
         }))
         .then(alteracoes => {
@@ -107,221 +118,452 @@ const comparaDoisTombos = (tombo, tomboAlterado) => {
     const parametros = [];
     if (tombo.data_coleta_dia !== tomboAlterado.data_coleta_dia) {
         parametros.push({
+            key: '1',
             campo: 'Dia da coleta',
-            antigo_valor: tombo.data_coleta_dia,
-            novo_valor: tomboAlterado.data_coleta_dia,
+            antigo: tombo.data_coleta_dia,
+            novo: tomboAlterado.data_coleta_dia,
         });
     }
     if (tombo.data_coleta_mes !== tomboAlterado.data_coleta_mes) {
         parametros.push({
+            key: '2',
             campo: 'Mes da coleta',
-            antigo_valor: tombo.data_coleta_mes,
-            novo_valor: tomboAlterado.data_coleta_mes,
+            antigo: tombo.data_coleta_mes,
+            novo: tomboAlterado.data_coleta_mes,
         });
     }
     if (tombo.data_coleta_ano !== tomboAlterado.data_coleta_ano) {
         parametros.push({
+            key: '3',
             campo: 'Ano da coleta',
-            antigo_valor: tombo.data_coleta_ano,
-            novo_valor: tomboAlterado.data_coleta_ano,
+            antigo: tombo.data_coleta_ano,
+            novo: tomboAlterado.data_coleta_ano,
         });
     }
     if (tombo.observacao !== tomboAlterado.observacao) {
         parametros.push({
+            key: '4',
             campo: 'Observação',
-            antigo_valor: tombo.observacao,
-            novo_valor: tomboAlterado.observacao,
+            antigo: tombo.observacao,
+            novo: tomboAlterado.observacao,
         });
     }
     if (tombo.nomes_populares !== tomboAlterado.nomes_populares) {
         parametros.push({
+            key: '5',
             campo: 'Nomes populares',
-            antigo_valor: tombo.nomes_populares,
-            novo_valor: tomboAlterado.nomes_populares,
+            antigo: tombo.nomes_populares,
+            novo: tomboAlterado.nomes_populares,
         });
     }
     if (tombo.numero_coleta !== tomboAlterado.numero_coleta) {
         parametros.push({
+            key: '6',
             campo: 'Numero de coleta',
-            antigo_valor: tombo.numero_coleta,
-            novo_valor: tomboAlterado.numero_coleta,
+            antigo: tombo.numero_coleta,
+            novo: tomboAlterado.numero_coleta,
         });
     }
     if (tombo.latitude !== tomboAlterado.latitude) {
         parametros.push({
+            key: '7',
             campo: 'Latitude',
-            antigo_valor: tombo.latitude,
-            novo_valor: tomboAlterado.latitude,
+            antigo: tombo.latitude,
+            novo: tomboAlterado.latitude,
         });
     }
     if (tombo.longitude !== tomboAlterado.longitude) {
         parametros.push({
+            key: '8',
             campo: 'Longitude',
-            antigo_valor: tombo.longitude,
-            novo_valor: tomboAlterado.longitude,
+            antigo: tombo.longitude,
+            novo: tomboAlterado.longitude,
         });
     }
     if (tombo.altitude !== tomboAlterado.altitude) {
         parametros.push({
+            key: '9',
             campo: 'Altitude',
-            antigo_valor: tombo.altitude,
-            novo_valor: tomboAlterado.altitude,
+            antigo: tombo.altitude,
+            novo: tomboAlterado.altitude,
         });
     }
     if (tombo.herbario && tomboAlterado.herbario
         && (tombo.herbario.nome !== tomboAlterado.herbario.nome)) {
         parametros.push({
+            key: '10',
             campo: 'Herbário',
-            antigo_valor: tombo.herbario.nome,
-            novo_valor: tomboAlterado.herbario.nome,
+            antigo: tombo.herbario.nome,
+            novo: tomboAlterado.herbario.nome,
         });
     }
     if (tombo.locais_coletum && tomboAlterado.locais_coletum
         && tombo.locais_coletum.descricao !== tomboAlterado.locais_coletum.descricao) {
         parametros.push({
+            key: '11',
             campo: 'Descrição do local de coleta',
-            antigo_valor: tombo.locais_coletum.descricao,
-            novo_valor: tomboAlterado.locais_coletum.descricao,
+            antigo: tombo.locais_coletum.descricao,
+            novo: tomboAlterado.locais_coletum.descricao,
         });
     }
     if (tombo.locais_coletum && tombo.locais_coletum.solo
         && tomboAlterado.locais_coletum && tomboAlterado.locais_coletum.solo
         && tombo.locais_coletum.solo.nome !== tomboAlterado.locais_coletum.solo.nome) {
         parametros.push({
+            key: '12',
             campo: 'Solo',
-            antigo_valor: tombo.locais_coletum.solo.nome,
-            novo_valor: tomboAlterado.locais_coletum.solo.nome,
+            antigo: tombo.locais_coletum.solo.nome,
+            novo: tomboAlterado.locais_coletum.solo.nome,
         });
     }
     if (tombo.locais_coletum && tombo.locais_coletum.relevo
         && tombo.locais_coletum && tombo.locais_coletum.relevo
         && tombo.locais_coletum.relevo.nome !== tomboAlterado.locais_coletum.relevo.nome) {
         parametros.push({
+            key: '13',
             campo: 'Relevo',
-            antigo_valor: tombo.locais_coletum.relevo.nome,
-            novo_valor: tomboAlterado.locais_coletum.relevo.nome,
+            antigo: tombo.locais_coletum.relevo.nome,
+            novo: tomboAlterado.locais_coletum.relevo.nome,
         });
     }
     if (tombo.locais_coletum && tombo.locais_coletum.vegetaco
         && tomboAlterado.locais_coletum && tomboAlterado.locais_coletum.vegetaco
         && tombo.locais_coletum.vegetaco.nome !== tomboAlterado.locais_coletum.vegetaco.nome) {
         parametros.push({
+            key: '14',
             campo: 'Vegetação',
-            antigo_valor: tombo.locais_coletum.vegetaco.nome,
-            novo_valor: tomboAlterado.locais_coletum.vegetaco.nome,
+            antigo: tombo.locais_coletum.vegetaco.nome,
+            novo: tomboAlterado.locais_coletum.vegetaco.nome,
         });
     }
     if (tombo.locais_coletum && tombo.locais_coletum.cidade
         && tomboAlterado.locais_coletum && tomboAlterado.locais_coletum.cidade
         && tombo.locais_coletum.cidade.nome !== tomboAlterado.locais_coletum.cidade.nome) {
         parametros.push({
+            key: '15',
             campo: 'Cidade',
-            antigo_valor: tombo.locais_coletum.cidade.nome,
-            novo_valor: tomboAlterado.locais_coletum.cidade.nome,
+            antigo: tombo.locais_coletum.cidade.nome,
+            novo: tomboAlterado.locais_coletum.cidade.nome,
         });
     }
     if (tombo.locais_coletum && tomboAlterado.locais_coletum
         && tombo.locais_coletum.fase_sucessional !== tomboAlterado.locais_coletum.fase_sucessional) {
         parametros.push({
+            key: '16',
             campo: 'Fase Sucessional',
-            antigo_valor: tombo.locais_coletum.fase_sucessional,
-            novo_valor: tomboAlterado.locais_coletum.fase_sucessional,
+            antigo: tombo.locais_coletum.fase_sucessional,
+            novo: tomboAlterado.locais_coletum.fase_sucessional,
         });
     }
     if (tombo.situacao !== tomboAlterado.situacao) {
         parametros.push({
+            key: '17',
             campo: 'Situação',
-            antigo_valor: tombo.situacao,
-            novo_valor: tomboAlterado.situacao,
+            antigo: tombo.situacao,
+            novo: tomboAlterado.situacao,
         });
     }
     if (tombo.nome_cientifico !== tomboAlterado.nome_cientifico) {
         parametros.push({
+            key: '18',
             campo: 'Nome Científico',
-            antigo_valor: tombo.nome_cientifico,
-            novo_valor: tomboAlterado.nome_cientifico,
+            antigo: tombo.nome_cientifico,
+            novo: tomboAlterado.nome_cientifico,
         });
     }
     if (tombo.cor !== tomboAlterado.cor) {
         parametros.push({
+            key: '19',
             campo: 'Cor - Localização',
-            antigo_valor: tombo.cor,
-            novo_valor: tomboAlterado.cor,
+            antigo: tombo.cor,
+            novo: tomboAlterado.cor,
         });
     }
     if (tombo.variedade && tomboAlterado.variedade
         && tombo.variedade.nome !== tomboAlterado.variedade.nome) {
         parametros.push({
+            key: '20',
             campo: 'Variedade',
-            antigo_valor: tombo.variedade.nome,
-            novo_valor: tomboAlterado.variedade.nome,
+            antigo: tombo.variedade.nome,
+            novo: tomboAlterado.variedade.nome,
         });
     }
     if (tombo.tipo && tomboAlterado.tipo
         && tombo.tipo.nome !== tomboAlterado.tipo.nome) {
         parametros.push({
+            key: '21',
             campo: 'Tipo',
-            antigo_valor: tombo.tipo.nome,
-            novo_valor: tomboAlterado.tipo.nome,
+            antigo: tombo.tipo.nome,
+            novo: tomboAlterado.tipo.nome,
         });
     }
     if (tombo.especy && tomboAlterado.especy
         && tombo.especy.nome !== tomboAlterado.especy.nome) {
         parametros.push({
+            key: '22',
             campo: 'Espécie',
-            antigo_valor: tombo.especy.nome,
-            novo_valor: tomboAlterado.especy.nome,
+            antigo: tombo.especy.nome,
+            novo: tomboAlterado.especy.nome,
         });
     }
     if (tombo.genero && tomboAlterado.genero
         && tombo.genero.nome !== tomboAlterado.genero.nome) {
         parametros.push({
+            key: '23',
             campo: 'Género',
-            antigo_valor: tombo.genero.nome,
-            novo_valor: tomboAlterado.genero.nome,
+            antigo: tombo.genero.nome,
+            novo: tomboAlterado.genero.nome,
         });
     }
     if (tombo.familia && tomboAlterado.familia
         && tombo.familia.nome !== tomboAlterado.familia.nome) {
         parametros.push({
+            key: '24',
             campo: 'Família',
-            antigo_valor: tombo.familia.nome,
-            novo_valor: tomboAlterado.familia.nome,
+            antigo: tombo.familia.nome,
+            novo: tomboAlterado.familia.nome,
         });
     }
     if (tombo.sub_familia && tomboAlterado.sub_familia
         && tombo.sub_familia.nome !== tomboAlterado.sub_familia.nome) {
         parametros.push({
+            key: '25',
             campo: 'Subfamília',
-            antigo_valor: tombo.sub_familia.nome,
-            novo_valor: tomboAlterado.sub_familia.nome,
+            antigo: tombo.sub_familia.nome,
+            novo: tomboAlterado.sub_familia.nome,
         });
     }
     if (tombo.sub_especy && tomboAlterado.sub_especy
         && tombo.sub_especy.nome !== tomboAlterado.sub_especy.nome) {
         parametros.push({
+            key: '26',
             campo: 'Subespécie',
-            antigo_valor: tombo.sub_especy.nome,
-            novo_valor: tomboAlterado.sub_especy.nome,
+            antigo: tombo.sub_especy.nome,
+            novo: tomboAlterado.sub_especy.nome,
         });
     }
     if (tombo.colecoes_anexa && tomboAlterado.colecoes_anexa
         && tombo.colecoes_anexa.observacoes !== tomboAlterado.colecoes_anexa.observacoes) {
         parametros.push({
+            key: '27',
             campo: 'Observações - Coleção Anexa',
-            antigo_valor: tombo.colecoes_anexa.observacoes,
-            novo_valor: tomboAlterado.colecoes_anexa.observacoes,
+            antigo: tombo.colecoes_anexa.observacoes,
+            novo: tomboAlterado.colecoes_anexa.observacoes,
         });
     }
     if (tombo.colecoes_anexa && tomboAlterado.colecoes_anexa
         && tombo.colecoes_anexa.tipo !== tomboAlterado.colecoes_anexa.tipo) {
         parametros.push({
+            key: '28',
             campo: 'Tipo - Coleção Anexa',
-            antigo_valor: tombo.colecoes_anexa.tipo,
-            novo_valor: tomboAlterado.colecoes_anexa.tipo,
+            antigo: tombo.colecoes_anexa.tipo,
+            novo: tomboAlterado.colecoes_anexa.tipo,
         });
     }
 
+    return parametros;
+};
+
+export const formatarTomboNovo = tombo => {
+    const parametros = [];
+    parametros.push({
+        key: '1',
+        campo: 'Dia da coleta',
+        antigo: '',
+        novo: tombo.data_coleta_dia,
+    });
+    parametros.push({
+        key: '2',
+        campo: 'Mes da coleta',
+        antigo: '',
+        novo: tombo.data_coleta_mes,
+    });
+    parametros.push({
+        key: '3',
+        campo: 'Ano da coleta',
+        antigo: '',
+        novo: tombo.data_coleta_ano,
+    });
+    parametros.push({
+        key: '4',
+        campo: 'Observação',
+        antigo: '',
+        novo: tombo.observacao,
+    });
+    parametros.push({
+        key: '5',
+        campo: 'Nomes populares',
+        antigo: '',
+        novo: tombo.nomes_populares,
+    });
+    parametros.push({
+        key: '6',
+        campo: 'Numero de coleta',
+        antigo: '',
+        novo: tombo.numero_coleta,
+    });
+    parametros.push({
+        key: '7',
+        campo: 'Latitude',
+        antigo: '',
+        novo: tombo.latitude,
+    });
+    parametros.push({
+        key: '8',
+        campo: 'Longitude',
+        antigo: '',
+        novo: tombo.longitude,
+    });
+    parametros.push({
+        key: '9',
+        campo: 'Altitude',
+        antigo: '',
+        novo: tombo.altitude,
+    });
+    if (tombo.herbario) {
+        parametros.push({
+            key: '10',
+            campo: 'Herbário',
+            antigo: '',
+            novo: tombo.herbario.nome,
+        });
+    }
+    if (tombo.locais_coletum) {
+        parametros.push({
+            key: '11',
+            campo: 'Descrição do local de coleta',
+            antigo: '',
+            novo: tombo.locais_coletum.descricao,
+        });
+        if (tombo.locais_coletum.solo) {
+            parametros.push({
+                key: '12',
+                campo: 'Solo',
+                antigo: '',
+                novo: tombo.locais_coletum.solo.nome,
+            });
+        }
+        if (tombo.locais_coletum.relevo) {
+            parametros.push({
+                key: '13',
+                campo: 'Relevo',
+                antigo: '',
+                novo: tombo.locais_coletum.relevo.nome,
+            });
+        }
+        if (tombo.locais_coletum.vegetaco) {
+            parametros.push({
+                key: '14',
+                campo: 'Vegetação',
+                antigo: '',
+                novo: tombo.locais_coletum.vegetaco.nome,
+            });
+        }
+        if (tombo.locais_coletum.cidade) {
+            parametros.push({
+                key: '15',
+                campo: 'Cidade',
+                antigo: '',
+                novo: tombo.locais_coletum.cidade.nome,
+            });
+        }
+        parametros.push({
+            key: '16',
+            campo: 'Fase Sucessional',
+            antigo: '',
+            novo: tombo.locais_coletum.fase_sucessional.nome,
+        });
+    }
+    parametros.push({
+        key: '17',
+        campo: 'Situação',
+        antigo: '',
+        novo: tombo.situacao,
+    });
+    parametros.push({
+        key: '18',
+        campo: 'Nome Científico',
+        antigo: '',
+        novo: tombo.nome_cientifico,
+    });
+    parametros.push({
+        key: '19',
+        campo: 'Cor',
+        antigo: '',
+        novo: tombo.cor,
+    });
+    if (tombo.variedade) {
+        parametros.push({
+            key: '20',
+            campo: 'Variedade',
+            antigo: '',
+            novo: tombo.variedade.nome,
+        });
+    }
+    if (tombo.tipo) {
+        parametros.push({
+            key: '21',
+            campo: 'Tipo',
+            antigo: '',
+            novo: tombo.tipo.nome,
+        });
+    }
+    if (tombo.especy) {
+        parametros.push({
+            key: '22',
+            campo: 'Espécie',
+            antigo: '',
+            novo: tombo.especy.nome,
+        });
+    }
+    if (tombo.genero) {
+        parametros.push({
+            key: '23',
+            campo: 'Genero',
+            antigo: '',
+            novo: tombo.genero.nome,
+        });
+    }
+    if (tombo.familia) {
+        parametros.push({
+            key: '24',
+            campo: 'Família',
+            antigo: '',
+            novo: tombo.familia.nome,
+        });
+    }
+    if (tombo.sub_familia) {
+        parametros.push({
+            key: '25',
+            campo: 'Subfamília',
+            antigo: '',
+            novo: tombo.sub_familia.nome,
+        });
+    }
+    if (tombo.sub_especy) {
+        parametros.push({
+            key: '26',
+            campo: 'Subespécie',
+            antigo: '',
+            novo: tombo.sub_especy.nome,
+        });
+    }
+    if (tombo.colecoes_anexa) {
+        parametros.push({
+            key: '27',
+            campo: 'Observações - Coleção Anexa',
+            antigo: '',
+            novo: tombo.colecoes_anexa.observacoes,
+        });
+    }
+    if (tombo.colecoes_anexa) {
+        parametros.push({
+            key: '28',
+            campo: 'Tipo - Coleção Anexa',
+            antigo: '',
+            novo: tombo.colecoes_anexa.tipo,
+        });
+    }
     return parametros;
 };
 
@@ -412,7 +654,9 @@ export const visualizarComCadastro = (alteracao, transaction) => {
                             tombo_alterado: tombos[0],
                         };
                     }
-                    parametros.retorno = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
+                    parametros = comparaDoisTombos(parametros.tombo, parametros.tombo_alterado);
+                } else {
+                    parametros = formatarTomboNovo(tombos[0]);
                 }
                 resolve(parametros);
             })
@@ -545,6 +789,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.especie) {
+                jsonRetorno.push({
+                    key: '1',
+                    campo: 'Especie',
+                    antigo: '',
+                    novo: parametros.especie.nome,
+                });
             }
             if (tombos.familia) {
                 if (parametros.familia) {
@@ -557,6 +808,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.familia) {
+                jsonRetorno.push({
+                    key: '2',
+                    campo: 'Familia',
+                    antigo: '',
+                    novo: parametros.familia.nome,
+                });
             }
             if (tombos.genero) {
                 if (parametros.genero) {
@@ -569,6 +827,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.genero) {
+                jsonRetorno.push({
+                    key: '3',
+                    campo: 'Gênero',
+                    antigo: '',
+                    novo: parametros.genero.nome,
+                });
             }
             if (tombos.variedade) {
                 if (parametros.variedade) {
@@ -581,6 +846,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.variedade) {
+                jsonRetorno.push({
+                    key: '4',
+                    campo: 'Variedade',
+                    antigo: '',
+                    novo: parametros.variedade.nome,
+                });
             }
             if (tombos.sub_especy) {
                 if (parametros.subespecie) {
@@ -593,6 +865,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.subespecie) {
+                jsonRetorno.push({
+                    key: '5',
+                    campo: 'Subespecie',
+                    antigo: '',
+                    novo: parametros.subespecie.nome,
+                });
             }
             if (tombos.sub_familia) {
                 if (parametros.subfamilia) {
@@ -605,6 +884,13 @@ export const visualizarComJsonId = (alteracao, hcf, transaction) => {
                         });
                     }
                 }
+            } else if (parametros.subfamilia) {
+                jsonRetorno.push({
+                    key: '6',
+                    campo: 'Subfamilia',
+                    antigo: '',
+                    novo: parametros.subfamilia.nome,
+                });
             }
             resolve(jsonRetorno);
         })
@@ -977,6 +1263,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.especie_nome) {
+            jsonRetorno.push({
+                key: '1',
+                campo: 'Especie',
+                antigo: '',
+                novo: alteracao.especie_nome,
+            });
         }
         if (tombos.familia) {
             if (alteracao.familia_nome) {
@@ -989,6 +1282,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.familia_nome) {
+            jsonRetorno.push({
+                key: '2',
+                campo: 'Familia',
+                antigo: '',
+                novo: alteracao.familia_nome,
+            });
         }
         if (tombos.genero) {
             if (alteracao.genero_nome) {
@@ -1001,6 +1301,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.genero_nome) {
+            jsonRetorno.push({
+                key: '3',
+                campo: 'Gênero',
+                antigo: '',
+                novo: alteracao.genero_nome,
+            });
         }
         if (tombos.variedade) {
             if (alteracao.variedade_nome) {
@@ -1013,6 +1320,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.variedade_nome) {
+            jsonRetorno.push({
+                key: '4',
+                campo: 'Variedade',
+                antigo: '',
+                novo: alteracao.variedade_nome,
+            });
         }
         if (tombos.sub_especy) {
             if (alteracao.subespecie_nome) {
@@ -1025,6 +1339,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.subespecie_nome) {
+            jsonRetorno.push({
+                key: '5',
+                campo: 'Subespecie',
+                antigo: '',
+                novo: alteracao.subespecie_nome,
+            });
         }
         if (tombos.sub_familia) {
             if (alteracao.subfamilia_nome) {
@@ -1037,6 +1358,13 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
+        } else if (alteracao.subfamilia_nome) {
+            jsonRetorno.push({
+                key: '6',
+                campo: 'Subfamilia',
+                antigo: '',
+                novo: alteracao.subfamilia_nome,
+            });
         }
         resolve(jsonRetorno);
     })
@@ -1059,9 +1387,8 @@ export function visualizar(request, response, next) {
             }
             const objetoAlterado = JSON.parse(alteracao.tombo_json);
             if (objetoAlterado.hcf) {
-                return visualizarComCadastro(alteracao, transaction);
-            }
-            if (objetoAlterado.familia_id) {
+                retorno = visualizarComCadastro(alteracao, transaction);
+            } else if (objetoAlterado.familia_id) {
                 retorno = visualizarComJsonId(objetoAlterado, alteracao.tombo_hcf, transaction);
             } else {
                 retorno = visualizarComJsonNome(objetoAlterado, alteracao.tombo_hcf, transaction);
@@ -1077,7 +1404,7 @@ export function visualizar(request, response, next) {
                     antigas: [],
                 },
                 // eslint-disable-next-line no-underscore-dangle
-                tabela: retorno._rejectionHandler0,
+                tabela: retorno._rejectionHandler0 || retorno,
             });
         })
         .catch(next);
@@ -1108,14 +1435,10 @@ export function aceitarPendencia(request, response, next) {
         }))
         .then(alt => {
             if (status === 'APROVADO') {
-                if (alt.tombo_json === '') {
-                    return aprovarComCadastro(alt.tombo_hcf, transaction);
-                }
                 const objetoAlterado = JSON.parse(alt.tombo_json);
                 if (objetoAlterado.hcf) {
-                    return aprovarComCadastroJson(objetoAlterado, alt.tombo_hcf, transaction);
-                }
-                if (objetoAlterado.familia_id) {
+                    retorno = aprovarComCadastro(alt.tombo_hcf, transaction);
+                } else if (objetoAlterado.familia_id) {
                     retorno = aprovarComJsonId(objetoAlterado, alt.tombo_hcf, transaction);
                 } else {
                     retorno = aprovarComJsonNome(objetoAlterado, alt.tombo_hcf, transaction);
@@ -1126,14 +1449,7 @@ export function aceitarPendencia(request, response, next) {
     sequelize.transaction(callback)
         .then(() => {
             // eslint-disable-next-line no-underscore-dangle
-            response.status(codigos.LISTAGEM).json({
-                fotos: {
-                    novas: [],
-                    antigas: [],
-                },
-                // eslint-disable-next-line no-underscore-dangle
-                tabela: retorno._rejectionHandler0,
-            });
+            response.status(codigos.CADASTRO_SEM_RETORNO).send();
         })
         .catch(next);
 

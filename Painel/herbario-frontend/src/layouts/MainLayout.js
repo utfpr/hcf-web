@@ -179,13 +179,7 @@ export default class MainLayout extends Component {
 								<span>Darwin Core</span>
 							</a>
 						</Menu.Item>
-						{isCurador() ? (
-							<Menu.Item key="35">
-								<Link to="/gerenciamento">
-									<Icon type="setting" />
-									<span>Gerenciamento</span>
-								</Link>
-							</Menu.Item>
+						{isCurador() ? (							
 							/**
 							 * Adicionando ao menu lateral o botão de serviços,
 							 * Reflora e speciesLink.

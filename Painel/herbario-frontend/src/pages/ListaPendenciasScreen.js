@@ -135,7 +135,7 @@ class ListaPendenciasScreen extends Component {
 				params.nome_usuario = nome;
 			}
 			if (status) {
-				params.status = status;
+				params.status = status.toUpperCase();
 			}
 		}
 		axios.get('/pendencias', { params })

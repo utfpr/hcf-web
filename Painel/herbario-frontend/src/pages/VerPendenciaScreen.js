@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Divider, Col, Row, Input, Form, Button, Spin } from 'antd';
+import { Divider, Col, Row, Input, Form, Button, Spin, notification } from 'antd';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
 import GalleryComponent from '../components/GalleryComponent';
@@ -33,6 +33,7 @@ class VerPendenciaScreen extends Component {
 		this.state = {
             loading: false,
             data: [],
+            aprovar: false,
             fotos: {
                 novas: [],
                 antigas: []
@@ -79,6 +80,49 @@ class VerPendenciaScreen extends Component {
                     throw err;
                 }
             })
+    }
+
+    notificacao = (type, message, description) => {
+		notification[type]({
+			message: message,
+			description: description,
+		});
+	};
+
+    handleSubmit = () => {
+        const observacao = this.props.form.getFieldsValue().observacao;
+        this.setState({
+            loading: true
+        })
+        axios.post(`/pendencias/${this.props.match.params.pendencia_id}`, { observacao, status: this.state.aprovar })
+            .then(response => {                
+                this.setState({
+                    loading: false
+                })
+                if (response.status == 204) {
+                    this.notificacao('success', 'Atualização', 'A pendência foi atualizada com sucesso.')
+                    this.props.history.goBack();
+                }else {
+                    this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
+                }
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                })
+                this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
+                const { response } = err;
+                if (response && response.data) {
+                    const value = {
+                        mensagem: response.data.error.message,
+                        codigo: response.status
+                    }
+                    const { error } = response.data;
+                    console.log(error.message)
+                }
+            })
+            .catch(this.catchRequestError);
+
     }
 
     renderFotos() {
@@ -140,18 +184,30 @@ class VerPendenciaScreen extends Component {
                 <Row type="flex" justify="end">
                     <Col xs={24} sm={12} md={8} lg={6} xl={4}>
                         <FormItem>
-                            <Button type="primary" icon="check" style={{
+                            <Button type="primary" icon="check" 
+                            htmlType="submit"
+                            style={{
                                 backgroundColor: "#5cb85c",
                                 borderColor: "#4cae4c"
-                            }}>Aprovar</Button>
+                            }}
+                            onClick={() => this.setState({
+                                aprovar: 'APROVADO'
+                            })}
+                            >Aprovar</Button>
                         </FormItem>
                     </Col>
                     <Col xs={24} sm={12} md={8} lg={6} xl={4}>
                         <FormItem>
-                            <Button type="primary" icon="close" style={{
+                            <Button type="primary" icon="close"
+                            htmlType="submit"
+                            style={{
                                 backgroundColor: "#d9534f",
                                 borderColor: "#d43f3a"
-                            }}>Reprovar</Button>
+                            }}
+                            onClick={() => this.setState({
+                                aprovar: 'REPROVADO'
+                            })}
+                            >Reprovar</Button>
                         </FormItem>
                     </Col>
                 </Row>
