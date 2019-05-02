@@ -123,18 +123,6 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: true,
         },
-        data_identificacao_dia: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        data_identificacao_mes: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        data_identificacao_ano: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
         observacao: {
             type: DataTypes.TEXT,
             allowNull: true,
@@ -177,6 +165,46 @@ export default (Sequelize, DataTypes) => {
         },
         ativo: {
             type: DataTypes.BOOLEAN,
+            allowNull: true,
+        },
+        entidade_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        local_coleta_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        variedade_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        tipo_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        especie_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        genero_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        familia_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        sub_familia_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        sub_especie_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
+        colecao_anexa_id: {
+            type: DataTypes.INTEGER,
             allowNull: true,
         },
     };

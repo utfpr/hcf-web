@@ -34,6 +34,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.STRING(10),
             allowNull: true,
         },
+        pais_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
     };
 
     const options = {

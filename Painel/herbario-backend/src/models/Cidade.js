@@ -38,6 +38,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.DOUBLE,
             allowNull: true,
         },
+        estado_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        },
     };
 
     const options = {

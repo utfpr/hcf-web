@@ -4,7 +4,7 @@ import models from '../models';
 // import codigos from '../resources/codigosHTTP';
 
 const {
-    Solo, Relevo, Cidade, Vegetacao, FaseSucessional, Tipo, LocalColeta, Familia,
+    Solo, Relevo, Cidade, Estado, Pais, Vegetacao, FaseSucessional, Tipo, LocalColeta, Familia,
     Genero, Subfamilia, Autor, Coletor, Variedade, Subespecie, Usuario,
     ColecaoAnexa, Especie, Herbario, Tombo, TomboFoto,
 } = models;
@@ -35,7 +35,6 @@ export const obterModeloDarwinCore = (request, response, next) => {
                 ativo: true,
                 rascunho: 0,
             },
-            limit: 30,
             attributes: [
                 'data_coleta_mes',
                 'data_coleta_ano',
@@ -51,10 +50,17 @@ export const obterModeloDarwinCore = (request, response, next) => {
                 'latitude',
                 'longitude',
                 'altitude',
-                'data_identificacao_dia',
-                'data_identificacao_mes',
-                'data_identificacao_ano',
                 'taxon',
+                'entidade_id',
+                'local_coleta_id',
+                'variedade_id',
+                'tipo_id',
+                'especie_id',
+                'genero_id',
+                'familia_id',
+                'sub_familia_id',
+                'sub_especie_id',
+                'colecao_anexa_id',
             ],
             include: [
                 {
@@ -74,6 +80,16 @@ export const obterModeloDarwinCore = (request, response, next) => {
                             attributes: {
                                 exclude: ['updated_at', 'created_at'],
                             },
+                            include: [
+                                {
+                                    model: Estado,
+                                    include: [
+                                        {
+                                            model: Pais,
+                                        },
+                                    ],
+                                },
+                            ],
                         },
                         {
                             model: FaseSucessional,
@@ -181,7 +197,6 @@ export const obterModeloDarwinCore = (request, response, next) => {
 
             retorno.forEach(tombo => {
                 // eslint-disable-next-line
-                console.log(tombo.toJson())
                 let autores = '';
                 let coletores = '';
                 let dataColeta = '';
@@ -263,7 +278,7 @@ export const obterModeloDarwinCore = (request, response, next) => {
                         const dataAtualizacao = moment(tombo.updated_at)
                             .format('YYYY-MM-DD');
 
-                        const linha = [
+                        let linha = [
                             `PreservedSpecimen\tColecao\tpt\t${dataAtualizacao}\t02.032.297/0005-26\t`,
                             'UTFPR\tHerbario da Universidade Tecnologica Federal do Parana – Campus Campo Mourao – HCF\t',
                             `${license}\tUTFPR\t{"barcode":${foto.codigo_barra}}\tBr:UTFPR:HCF:${tombo.hcf.toString()}`,
@@ -277,14 +292,15 @@ export const obterModeloDarwinCore = (request, response, next) => {
                             `\t${tombo.nomes_populares}\t\t${nomeTipo}\t${nomeIdentificador}\t${dataIdentificacao}`,
                             `\t${identificationQualifier}`,
                         ].join('');
-
+                        linha = linha.replace(/null/g, '');
+                        linha = linha.replace(/undefined/g, '');
                         response.write(`${linha}\n`);
                     });
                 } else {
                     const dataAtualizacao = moment(tombo.updated_at)
                         .format('YYYY-MM-DD');
 
-                    const linha = [
+                    let linha = [
                         `PreservedSpecimen\tColecao\tpt\t${dataAtualizacao}\t02.032.297/0005-26\t`,
                         'UTFPR\tHerbario da Universidade Tecnologica Federal do Parana – Campus Campo Mourao – HCF\t',
                         `${license}\tUTFPR\t{"barcode":}\tBr:UTFPR:HCF:${tombo.hcf.toString()}`,
@@ -299,6 +315,7 @@ export const obterModeloDarwinCore = (request, response, next) => {
                         `\t${identificationQualifier}`,
                     ].join('');
 
+                    linha = linha.replace(/undefined/g, '');
                     response.write(`${linha}\n`);
                 }
             });
