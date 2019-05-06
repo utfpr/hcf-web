@@ -42,15 +42,22 @@ function valorEhNulo(valor) {
 /**
  * A função processaString, pega o valor que foi recebido por parâmetro
  * e processa ela, o processamento é basicamente remover apenas os espaços
- * vazios, e transforma todos os caracteres em caracteres minuscúlos.
- * @param {*} valor, é o valor em que será feito o processo de remover
- * espaços e todos os caracteres serão minuscúlos.
+ * vazios.
+ * @param {*} valor, é o valor em que será feito o processo de remover espaços.
  * @return string, que é a string processada, ou seja, a string sem espaços e com caracteres minuscúlos.
  */
 function processaString(valor) {
-    return valor.replace(/\s/g, '').toLowerCase();
+    return valor.replace(/\s/g, '');
 }
 
+/**
+ * A função ehNuloEhIndefinidoEhVazio, verificar se a informação é nula, indefinido ou
+ * se a string não é vazia.
+ * @param {*} informacao, é o valor em que será verificado se a informação é nula, indefinida
+ * ou se é vazia.
+ * @return true ou false, true caso seja nulo, indefinido ou vazia, e caso contrário
+ * false.
+ */
 function ehNuloEhIndefinidoEhVazio(informacao) {
     if (valorEhNulo(informacao) || valorEhIndefinido(informacao) || (informacao.length === 0)) {
         return true;
