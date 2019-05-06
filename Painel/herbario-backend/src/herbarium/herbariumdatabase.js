@@ -675,21 +675,22 @@ export function selectExisteServicoUsuario(servico) {
 }
 
 /**
- * A função insereServicoUsuario, insere o usuário que foi passado por parâmetro
+ * A função insereIdentificadorUsuario, insere o usuário que foi passado por parâmetro
  * na tabela de usuários.
- * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
+ * @param {*} identificador, é o nome do identificador que fez a alteração.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function insereServicoUsuario(servico) {
+export function insereIdentificadorUsuario(identificador) {
     const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
     tabelaUsuario.create({
-        nome: servico,
+        nome: identificador,
         telefone: null,
         ra: null,
         email: '',
         senha: '',
+        tipo_usuario_id: 3,
     }).then(listaUsuario => {
         promessa.resolve(listaUsuario.dataValues.id);
     });

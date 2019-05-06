@@ -4,7 +4,7 @@ import {
     selectTombo,
     insereAlteracaoSugerida,
     selectExisteServicoUsuario,
-    insereServicoUsuario,
+    insereIdentificadorUsuario,
 } from '../herbariumdatabase';
 import {
     ehIgualFamilia,
@@ -138,9 +138,9 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 if (alteracaoInformacao.length > 2) {
                     existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
                         if (!existe) {
-                            selectExisteServicoUsuario('Species Link').then(listaUsuario => {
+                            selectExisteServicoUsuario(identificador).then(listaUsuario => {
                                 if (listaUsuario.length === 0) {
-                                    insereServicoUsuario('Species Link').then(idUsuario => {
+                                    insereIdentificadorUsuario(identificador).then(idUsuario => {
                                         insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);

@@ -21,7 +21,7 @@ import {
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
     selectExisteServicoUsuario,
-    insereServicoUsuario,
+    insereIdentificadorUsuario,
 } from '../herbariumdatabase';
 
 /**
@@ -202,9 +202,10 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
                     if (alteracao.length > 2) {
                         existeAlteracaoSugerida(getNroTombo, alteracao).then(existe => {
                             if (!existe) {
-                                selectExisteServicoUsuario('Reflora').then(listaUsuario => {
+                                const nomeIdentificador = getInformacaoReflora.identifiedby;
+                                selectExisteServicoUsuario(nomeIdentificador).then(listaUsuario => {
                                     if (listaUsuario.length === 0) {
-                                        insereServicoUsuario('Reflora').then(idUsuario => {
+                                        insereIdentificadorUsuario(nomeIdentificador).then(idUsuario => {
                                             const diaIdentificacao = getDiaIdentificacao(getInformacaoReflora.dateidentified);
                                             const mesIdentificacao = getMesIdentificacao(getInformacaoReflora.dateidentified);
                                             const anoIdentificacao = getAnoIdentificacao(getInformacaoReflora.dateidentified);
