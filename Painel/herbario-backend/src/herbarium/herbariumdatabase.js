@@ -690,7 +690,6 @@ export function insereIdentificadorUsuario(identificador) {
         ra: null,
         email: '',
         senha: '',
-        tipo_usuario_id: 3,
     }).then(listaUsuario => {
         promessa.resolve(listaUsuario.dataValues.id);
     });
