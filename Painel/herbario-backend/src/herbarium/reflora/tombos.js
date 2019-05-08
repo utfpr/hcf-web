@@ -119,11 +119,14 @@ export function getDiaIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
-            const valorDiaIdentificacao = parseInt(dataIdentificacao.substring(0, dataIdentificacao.indexOf('/')));
-            if (Number.isNaN(valorDiaIdentificacao)) {
+            const valorDiaIdentificacao = dataIdentificacao.substring(0, dataIdentificacao.indexOf('/'));
+            if (valorDiaIdentificacao.length === 0) {
                 return null;
             }
-            return valorDiaIdentificacao;
+            if (Number.isNaN(parseInt(valorDiaIdentificacao))) {
+                return null;
+            }
+            return parseInt(valorDiaIdentificacao);
         }
     }
     return null;
@@ -141,18 +144,24 @@ export function getMesIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
-            const valorMesIdentificacao = parseInt(dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/')));
-            if (Number.isNaN(valorMesIdentificacao)) {
+            const valorMesIdentificacao = dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/'));
+            if (valorMesIdentificacao.length === 0) {
                 return null;
             }
-            return valorMesIdentificacao;
+            if (Number.isNaN(parseInt(valorMesIdentificacao))) {
+                return null;
+            }
+            return parseInt(valorMesIdentificacao);
         }
         if (dataIdentificacao.indexOf('/') === dataIdentificacao.lastIndexOf('/')) {
             const valorMesIdentificacao = dataIdentificacao.substring(0, dataIdentificacao.lastIndexOf('/'));
-            if (Number.isNaN(valorMesIdentificacao)) {
+            if (valorMesIdentificacao.length === 0) {
                 return null;
             }
-            return valorMesIdentificacao;
+            if (Number.isNaN(parseInt(valorMesIdentificacao))) {
+                return null;
+            }
+            return parseInt(valorMesIdentificacao);
         }
     }
     return null;
@@ -170,10 +179,13 @@ export function getAnoIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         const valorAnoIdentificacao = dataIdentificacao.substring(dataIdentificacao.lastIndexOf('/') + 1, dataIdentificacao.length);
-        if (Number.isNaN(valorAnoIdentificacao)) {
+        if (valorAnoIdentificacao.length === 0) {
             return null;
         }
-        return valorAnoIdentificacao;
+        if (Number.isNaN(parseInt(valorAnoIdentificacao))) {
+            return null;
+        }
+        return parseInt(valorAnoIdentificacao);
     }
     return null;
 }
