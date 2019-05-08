@@ -20,6 +20,7 @@ import modeloAlteracao from '../models/Alteracao';
 import modeloReflora from '../models/Reflora';
 import modeloConfiguracao from '../models/Configuracao';
 import modeloUsuario from '../models/Usuario';
+import { cadastraUsuario } from '../controllers/usuarios-controller';
 
 export const conexao = new Sequelize(database, username, password, options);
 
@@ -682,17 +683,25 @@ export function selectExisteServicoUsuario(servico) {
  * quando terminar de realizar a consulta.
  */
 export function insereIdentificadorUsuario(identificador) {
-    const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+    // const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
-    tabelaUsuario.create({
-        nome: identificador,
-        telefone: null,
+    const usuario = {
         ra: null,
+        nome: identificador,
         email: '',
+        tipo_usuario_id: '3',
+        telefone: null,
         senha: '',
-    }).then(listaUsuario => {
+        herbario_id: 1,
+    };
+    cadastraUsuario(usuario).then(listaUsuario => {
         promessa.resolve(listaUsuario.dataValues.id);
     });
+    /*
+    tabelaUsuario.create(usuario).then(listaUsuario => {
+        promessa.resolve(listaUsuario.dataValues.id);
+    });
+    */
     return promessa.promise;
 }
 
