@@ -117,7 +117,7 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 const nomeGenero = conteudo[11];
                 const nomeEspecie = conteudo[12];
                 const nomeSubespecie = conteudo[13];
-                const identificador = conteudo[15];
+                const identificador = conteudo[15].replace(/"/g, '');
                 const anoIdentificacao = conteudo[16];
                 const mesIdentificacao = conteudo[17];
                 const diaIdentificacao = conteudo[18];
