@@ -126,7 +126,10 @@ export function getDiaIdentificacao(dataIdentificacao) {
             if (Number.isNaN(parseInt(valorDiaIdentificacao))) {
                 return null;
             }
-            return parseInt(valorDiaIdentificacao);
+            if (parseInt(valorDiaIdentificacao) > 0 && parseInt(valorDiaIdentificacao) < 32) {
+                return parseInt(valorDiaIdentificacao);
+            }
+            return null;
         }
     }
     return null;
@@ -161,7 +164,10 @@ export function getMesIdentificacao(dataIdentificacao) {
             if (Number.isNaN(parseInt(valorMesIdentificacao))) {
                 return null;
             }
-            return parseInt(valorMesIdentificacao);
+            if (parseInt(valorMesIdentificacao) > 0 && parseInt(valorMesIdentificacao) < 13) {
+                return parseInt(valorMesIdentificacao);
+            }
+            return null;
         }
     }
     return null;
@@ -185,7 +191,10 @@ export function getAnoIdentificacao(dataIdentificacao) {
         if (Number.isNaN(parseInt(valorAnoIdentificacao))) {
             return null;
         }
-        return parseInt(valorAnoIdentificacao);
+        if (parseInt(valorAnoIdentificacao) > 0) {
+            return parseInt(valorAnoIdentificacao);
+        }
+        return null;
     }
     return null;
 }

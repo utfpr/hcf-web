@@ -30,7 +30,10 @@ export function getDiaIdentificacao(diaIdentificacao) {
     if (Number.isNaN(valorDiaIdentificacao)) {
         return null;
     }
-    return valorDiaIdentificacao;
+    if (valorDiaIdentificacao > 0 && valorDiaIdentificacao < 32) {
+        return valorDiaIdentificacao;
+    }
+    return null;
 }
 
 /**
@@ -49,7 +52,10 @@ export function getMesIdentificacao(mesIdentificacao) {
     if (Number.isNaN(valorMesIdentificacao)) {
         return null;
     }
-    return valorMesIdentificacao;
+    if (valorMesIdentificacao > 0 && valorMesIdentificacao < 13) {
+        return valorMesIdentificacao;
+    }
+    return null;
 }
 
 /**
@@ -68,7 +74,10 @@ export function getAnoIdentificacao(anoIdentificacao) {
     if (Number.isNaN(valorAnoIdentificacao)) {
         return null;
     }
-    return valorAnoIdentificacao;
+    if (valorAnoIdentificacao > 0) {
+        return valorAnoIdentificacao;
+    }
+    return null;
 }
 
 /**
