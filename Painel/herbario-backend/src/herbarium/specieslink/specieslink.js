@@ -123,23 +123,23 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 const diaIdentificacao = conteudo[18];
                 await ehIgualFamilia(informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
                     if (familia !== -1) {
-                        alteracaoInformacao += `familia_nome: ${familia}, `;
+                        alteracaoInformacao += `"familia_nome": "${familia}", `;
                     }
                 });
                 await ehIgualGenero(informacoesTomboBd.genero_id, nomeGenero).then(genero => {
                     if (genero !== -1) {
-                        alteracaoInformacao += `genero_nome: ${genero}, `;
+                        alteracaoInformacao += `"genero_nome": "${genero}", `;
                     }
                 });
                 await ehIgualEspecie(informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
                     if (especie !== -1) {
-                        alteracaoInformacao += `especie_nome: ${especie}, `;
+                        alteracaoInformacao += `"especie_nome": "${especie}", `;
                     }
                 });
                 // subespecie
                 await ehIgualSubespecie(informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
                     if (subespecie !== -1) {
-                        alteracaoInformacao += `subespecie_nome: ${subespecie}, `;
+                        alteracaoInformacao += `"subespecie_nome: ${subespecie}", `;
                     }
                 });
                 alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
