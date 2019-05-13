@@ -8,6 +8,8 @@ RUN yarn install --production=false && yarn dist
 
 FROM node:10.15-alpine
 
+WORKDIR /home/node/app
+
 COPY package.json yarn.lock ./
 RUN yarn install
 
