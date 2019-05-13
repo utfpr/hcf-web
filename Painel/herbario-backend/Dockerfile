@@ -10,6 +10,6 @@ FROM node:10.15-alpine
 COPY package.json yarn.lock ./
 RUN yarn install
 
-COPY --from=build dist ./dist
+COPY --from=build /var/app/dist ./dist
 
 EXPOSE 3003
