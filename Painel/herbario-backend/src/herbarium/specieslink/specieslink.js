@@ -4,7 +4,7 @@ import {
     selectTombo,
     insereAlteracaoSugerida,
     selectExisteServicoUsuario,
-    insereServicoUsuario,
+    insereIdentificadorUsuario,
 } from '../herbariumdatabase';
 import {
     ehIgualFamilia,
@@ -30,7 +30,10 @@ export function getDiaIdentificacao(diaIdentificacao) {
     if (Number.isNaN(valorDiaIdentificacao)) {
         return null;
     }
-    return valorDiaIdentificacao;
+    if (valorDiaIdentificacao > 0 && valorDiaIdentificacao < 32) {
+        return valorDiaIdentificacao;
+    }
+    return null;
 }
 
 /**
@@ -49,7 +52,10 @@ export function getMesIdentificacao(mesIdentificacao) {
     if (Number.isNaN(valorMesIdentificacao)) {
         return null;
     }
-    return valorMesIdentificacao;
+    if (valorMesIdentificacao > 0 && valorMesIdentificacao < 13) {
+        return valorMesIdentificacao;
+    }
+    return null;
 }
 
 /**
@@ -68,7 +74,10 @@ export function getAnoIdentificacao(anoIdentificacao) {
     if (Number.isNaN(valorAnoIdentificacao)) {
         return null;
     }
-    return valorAnoIdentificacao;
+    if (valorAnoIdentificacao > 0) {
+        return valorAnoIdentificacao;
+    }
+    return null;
 }
 
 /**
@@ -104,33 +113,33 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 let alteracaoInformacao = '{';
                 const informacoesTomboBd = tombo[0].dataValues;
                 // INFORMAÇÕES DO SPECIESLINK
-                const nomeFamilia = conteudo[10];
-                const nomeGenero = conteudo[11];
-                const nomeEspecie = conteudo[12];
-                const nomeSubespecie = conteudo[13];
-                const identificador = conteudo[15];
-                const anoIdentificacao = conteudo[16];
-                const mesIdentificacao = conteudo[17];
-                const diaIdentificacao = conteudo[18];
+                const nomeFamilia = conteudo[10].replace(/"/g, '');
+                const nomeGenero = conteudo[11].replace(/"/g, '');
+                const nomeEspecie = conteudo[12].replace(/"/g, '');
+                const nomeSubespecie = conteudo[13].replace(/"/g, '');
+                const identificador = conteudo[15].replace(/"/g, '');
+                const anoIdentificacao = conteudo[16].replace(/"/g, '');
+                const mesIdentificacao = conteudo[17].replace(/"/g, '');
+                const diaIdentificacao = conteudo[18].replace(/"/g, '');
                 await ehIgualFamilia(informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
                     if (familia !== -1) {
-                        alteracaoInformacao += `familia_nome: ${familia}, `;
+                        alteracaoInformacao += `"familia_nome": "${familia}", `;
                     }
                 });
                 await ehIgualGenero(informacoesTomboBd.genero_id, nomeGenero).then(genero => {
                     if (genero !== -1) {
-                        alteracaoInformacao += `genero_nome: ${genero}, `;
+                        alteracaoInformacao += `"genero_nome": "${genero}", `;
                     }
                 });
                 await ehIgualEspecie(informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
                     if (especie !== -1) {
-                        alteracaoInformacao += `especie_nome: ${especie}, `;
+                        alteracaoInformacao += `"especie_nome": "${especie}", `;
                     }
                 });
                 // subespecie
                 await ehIgualSubespecie(informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
                     if (subespecie !== -1) {
-                        alteracaoInformacao += `subespecie_nome: ${subespecie}, `;
+                        alteracaoInformacao += `"subespecie_nome: ${subespecie}", `;
                     }
                 });
                 alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
@@ -138,9 +147,9 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
                 if (alteracaoInformacao.length > 2) {
                     existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
                         if (!existe) {
-                            selectExisteServicoUsuario('Species Link').then(listaUsuario => {
+                            selectExisteServicoUsuario(identificador).then(listaUsuario => {
                                 if (listaUsuario.length === 0) {
-                                    insereServicoUsuario('Species Link').then(idUsuario => {
+                                    insereIdentificadorUsuario(identificador).then(idUsuario => {
                                         insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);

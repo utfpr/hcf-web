@@ -65,7 +65,7 @@ function jsonTemErro(respostaReflora) {
  */
 export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, body) {
     // if ((error !== null) && (error.code !== null)) {
-    if ((!error && response.statusCode === 200) || (error !== null && error.code !== 'ETIMEDOUT')) {
+    if (!error && response.statusCode === 200 && error === null) {
         if (jsonTemErro(body)) {
             atualizaTabelaReflora(codBarra, body, false);
         } else {

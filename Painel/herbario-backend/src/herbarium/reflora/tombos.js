@@ -21,7 +21,7 @@ import {
     atualizaJaComparouTabelaReflora,
     insereAlteracaoSugerida,
     selectExisteServicoUsuario,
-    insereServicoUsuario,
+    insereIdentificadorUsuario,
 } from '../herbariumdatabase';
 
 /**
@@ -119,11 +119,17 @@ export function getDiaIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
-            const valorDiaIdentificacao = parseInt(dataIdentificacao.substring(0, dataIdentificacao.indexOf('/')));
-            if (Number.isNaN(valorDiaIdentificacao)) {
+            const valorDiaIdentificacao = dataIdentificacao.substring(0, dataIdentificacao.indexOf('/'));
+            if (valorDiaIdentificacao.length === 0) {
                 return null;
             }
-            return valorDiaIdentificacao;
+            if (Number.isNaN(parseInt(valorDiaIdentificacao))) {
+                return null;
+            }
+            if (parseInt(valorDiaIdentificacao) > 0 && parseInt(valorDiaIdentificacao) < 32) {
+                return parseInt(valorDiaIdentificacao);
+            }
+            return null;
         }
     }
     return null;
@@ -141,18 +147,27 @@ export function getMesIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         if (dataIdentificacao.indexOf('/') !== dataIdentificacao.lastIndexOf('/')) {
-            const valorMesIdentificacao = parseInt(dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/')));
-            if (Number.isNaN(valorMesIdentificacao)) {
+            const valorMesIdentificacao = dataIdentificacao.substring(dataIdentificacao.indexOf('/') + 1, dataIdentificacao.lastIndexOf('/'));
+            if (valorMesIdentificacao.length === 0) {
                 return null;
             }
-            return valorMesIdentificacao;
+            if (Number.isNaN(parseInt(valorMesIdentificacao))) {
+                return null;
+            }
+            return parseInt(valorMesIdentificacao);
         }
         if (dataIdentificacao.indexOf('/') === dataIdentificacao.lastIndexOf('/')) {
             const valorMesIdentificacao = dataIdentificacao.substring(0, dataIdentificacao.lastIndexOf('/'));
-            if (Number.isNaN(valorMesIdentificacao)) {
+            if (valorMesIdentificacao.length === 0) {
                 return null;
             }
-            return valorMesIdentificacao;
+            if (Number.isNaN(parseInt(valorMesIdentificacao))) {
+                return null;
+            }
+            if (parseInt(valorMesIdentificacao) > 0 && parseInt(valorMesIdentificacao) < 13) {
+                return parseInt(valorMesIdentificacao);
+            }
+            return null;
         }
     }
     return null;
@@ -170,10 +185,16 @@ export function getAnoIdentificacao(dataIdentificacao) {
     // O s. d. significa sem determinação
     if ((dataIdentificacao.length > 0) && (dataIdentificacao !== null) && (dataIdentificacao !== 's. d.')) {
         const valorAnoIdentificacao = dataIdentificacao.substring(dataIdentificacao.lastIndexOf('/') + 1, dataIdentificacao.length);
-        if (Number.isNaN(valorAnoIdentificacao)) {
+        if (valorAnoIdentificacao.length === 0) {
             return null;
         }
-        return valorAnoIdentificacao;
+        if (Number.isNaN(parseInt(valorAnoIdentificacao))) {
+            return null;
+        }
+        if (parseInt(valorAnoIdentificacao) > 0) {
+            return parseInt(valorAnoIdentificacao);
+        }
+        return null;
     }
     return null;
 }
@@ -202,9 +223,10 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
                     if (alteracao.length > 2) {
                         existeAlteracaoSugerida(getNroTombo, alteracao).then(existe => {
                             if (!existe) {
-                                selectExisteServicoUsuario('Reflora').then(listaUsuario => {
+                                const nomeIdentificador = getInformacaoReflora.identifiedby;
+                                selectExisteServicoUsuario(nomeIdentificador).then(listaUsuario => {
                                     if (listaUsuario.length === 0) {
-                                        insereServicoUsuario('Reflora').then(idUsuario => {
+                                        insereIdentificadorUsuario(nomeIdentificador).then(idUsuario => {
                                             const diaIdentificacao = getDiaIdentificacao(getInformacaoReflora.dateidentified);
                                             const mesIdentificacao = getMesIdentificacao(getInformacaoReflora.dateidentified);
                                             const anoIdentificacao = getAnoIdentificacao(getInformacaoReflora.dateidentified);

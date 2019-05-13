@@ -20,6 +20,7 @@ import modeloAlteracao from '../models/Alteracao';
 import modeloReflora from '../models/Reflora';
 import modeloConfiguracao from '../models/Configuracao';
 import modeloUsuario from '../models/Usuario';
+import { cadastraUsuario } from '../controllers/usuarios-controller';
 
 export const conexao = new Sequelize(database, username, password, options);
 
@@ -675,24 +676,32 @@ export function selectExisteServicoUsuario(servico) {
 }
 
 /**
- * A função insereServicoUsuario, insere o usuário que foi passado por parâmetro
+ * A função insereIdentificadorUsuario, insere o usuário que foi passado por parâmetro
  * na tabela de usuários.
- * @param {*} servico, é o nome do serviço que pode ser 'REFLORA' ou 'SPECIESLINK'.
+ * @param {*} identificador, é o nome do identificador que fez a alteração.
  * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
  * quando terminar de realizar a consulta.
  */
-export function insereServicoUsuario(servico) {
-    const tabelaUsuario = modeloUsuario(conexao, Sequelize);
+export function insereIdentificadorUsuario(identificador) {
+    // const tabelaUsuario = modeloUsuario(conexao, Sequelize);
     const promessa = Q.defer();
-    tabelaUsuario.create({
-        nome: servico,
-        telefone: null,
+    const usuario = {
         ra: null,
+        nome: identificador,
         email: '',
+        tipo_usuario_id: '3',
+        telefone: null,
         senha: '',
-    }).then(listaUsuario => {
+        herbario_id: 1,
+    };
+    cadastraUsuario(usuario).then(listaUsuario => {
         promessa.resolve(listaUsuario.dataValues.id);
     });
+    /*
+    tabelaUsuario.create(usuario).then(listaUsuario => {
+        promessa.resolve(listaUsuario.dataValues.id);
+    });
+    */
     return promessa.promise;
 }
 
