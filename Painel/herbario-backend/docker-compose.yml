@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: herbario_db
+    environment:
+      MYSQL_DATABASE: $DB_NAME
+      MYSQL_USER: $DB_USER
+      MYSQL_PASSWORD: $DB_PASS
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+    ports:
+      - 3306:3306
+  
+  app:
+    build: .
+    container_name: herbario_app
+    environment:
+      DB_HOST: herbario_db
+      DB_NAME: $DB_NAME
+      DB_USER: $DB_USER
+      DB_PASS: $DB_PASS
+      UPLOAD_PATH: $UPLOAD_PATH
+      STORAGE_PATH: $STORAGE_PATH
+    ports:
+      - 3003:3003
+    entrypoint: yarn start
+    depends_on: 
+      - db
