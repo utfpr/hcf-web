@@ -175,7 +175,7 @@ export default class MainLayout extends Component {
 							<Menu.Item key="15">Tombo</Menu.Item>
 						</SubMenu>
 						<Menu.Item key="16">
-							<a href="http://localhost:3003/api/darwincore" target="_blank">
+							<a href="http://localhost:3003/api/darwincore " target="_blank">
 								<Icon type="desktop" />
 								<span>Darwin Core</span>
 							</a>

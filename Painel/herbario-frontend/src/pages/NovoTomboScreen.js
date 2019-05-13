@@ -67,9 +67,25 @@ class NovoTomboScreen extends Component {
             coletores: [],
             fotosExsicata: [],
             fotosEmVivo: [],
-            estadoInicial: "",
-            paisInicial: "",
-            cidadeInicial: ""
+            herbarioInicial: '',
+            localidadeInicial: '',
+            tipoInicial: '',
+            paisInicial: '',
+            estadoInicial: '',
+            cidadeInicial: '',
+            familiaInicial: '',
+            subfamiliaInicial: '',
+            generoInicial: '',
+            especieInicial: '',
+            subespecieInicial: '',
+            variedadeInicial: '',
+            soloInicial: '',
+            relevoInicial: '',
+            vegetacaoInicial: '',
+            faseInicial: '',
+            identificadorInicial: '',
+            coletoresInicial: '',
+            colecaoInicial: '',
         };
     }
 
@@ -85,6 +101,113 @@ class NovoTomboScreen extends Component {
         this.setState({
             loading: true
         });
+        if (this.props.match.params.tombo_id) {
+            this.requisitaDadosEdicao(this.props.match.params.tombo_id);
+        }
+    }
+
+    requisitaDadosEdicao = (id) => {
+        axios.get(`/tombos/${id}`)
+            .then(response => {
+                if (response.status === 200) {
+                    let data = response.data
+                    this.setState({
+                        ...this.state,
+                        loading: false,
+                        data
+                    });
+                    console.log("RESPONSEEEE")
+                    console.log(response.data)
+                } else {
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
+                }
+
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                });
+                const { response } = err;
+                if (response && response.data) {
+                    const { error } = response.data;
+                    console.log(error.message)
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+    
+    insereDadosFormulario(dados) {
+        this.setState({
+            estados: dados.estados,
+            cidades: dados.cidades,
+            subfamilias: dados.subfamilias,
+            generos: dados.generos,
+            especies: dados.especies,
+            subespecies: dados.subespecies,
+            variedades: dados.variedade,
+        })
+        this.setState({
+
+        })
+        this.props.form.setFields({
+            altitude: {
+                value: dados.localizacao.altitude,
+            },
+            /* autorEspecie: {
+                value: ,
+            },
+            autorVariedade: {
+                value: ,
+            },
+            autoresSubespecie: {
+                value: ,
+            }, */
+            dataColetaAno: {
+                value: dados.data_coleta_ano,
+            },
+            dataColetaDia: {
+                value: dados.data_coleta_dia,
+            },
+            dataColetaMes: {
+                value: dados.data_coleta_mes,
+            },
+            dataIdentAno: {
+                value: dados.data_identificacao_ano,
+            },
+            dataIdentDia: {
+                value: dados.data_identificacao_dia,
+            },
+            dataIdentMes: {
+                value: dados.data_identificacao_mes,
+            },
+            latitude: {
+                value: dados.localizacao.latitude,
+            },
+            longitude: {
+                value: dados.localizacao.longitude,
+            },
+            nomePopular: {
+                value: dados.taxonomia.nome_popular,
+            },
+            numColeta: {
+                value: dados.numero_coleta,
+            },
+            observacoesColecaoAnexa: {
+                value: dados.colecao_anexa.observacao,
+            },
+            observacoesTombo: {
+                value: dados.observacao,
+            },
+            relevoDescricao: {
+                value: dados.local_coleta.descricao,
+            },
+            complemento: {
+                value: dados.localizacao.complemento,
+            },
+            autorEspecie: {
+                value: dados.complemento,
+            }  
+        });
     }
 
     requisitaDadosFormulario = () => {
@@ -94,13 +217,8 @@ class NovoTomboScreen extends Component {
                     loading: false
                 })
                 if (response.status === 200) {
-                    console.log(response.data)
-                    this.setState(response.data)
-                    this.props.form.setFields({
-                        numColeta: {
-                            value: response.data.numero_coleta,
-                        },
-                    });
+                    let dados = response.data;
+                    this.setState(dados)                
 
                 } else {
                     this.openNotification("error", "Falha", "Houve um problema ao buscar os dados do usuário, tente novamente.")
@@ -1662,6 +1780,7 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('entidade', {
+                                    //initialValue: String(this.state.herbarioInicial),
                                     rules: [{
                                         required: true,
                                         message: 'Escolha uma entidade',
@@ -1681,7 +1800,6 @@ class NovoTomboScreen extends Component {
                         </Col>
                     </Col>
                 </Row>
-
                 <Row gutter={8}>
                     <Col xs={24} sm={24} md={8} lg={8} xl={8}>
                         <Col span={24}>
@@ -1752,6 +1870,7 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('localidadeCor', {
+                                    initialValue: String(this.state.localidadeInicial),
                                     rules: [{
                                         required: true,
                                         message: 'Escolha uma localidade',
@@ -1767,9 +1886,6 @@ class NovoTomboScreen extends Component {
                         </Col>
                     </Col>
                 </Row>
-
-
-
                 <Row gutter={8}>
                     <Col xs={24} sm={24} md={12} lg={12} xl={12}>
                         <Col span={24}>
@@ -1777,7 +1893,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col xs={22} sm={22} md={12} lg={12} xl={12}>
                             <FormItem>
-                                {getFieldDecorator('tipo')(
+                                {getFieldDecorator('tipo', {
+                                   // initialValue: String(this.state.tipoInicial),
+                                })(                                    
                                     <Select
                                         showSearch
                                         placeholder="Selecione o tipo"
@@ -1804,7 +1922,6 @@ class NovoTomboScreen extends Component {
                         </Col>
                     </Col>
                 </Row>
-
             </div >
         );
     }
@@ -1960,7 +2077,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem>
-                                {getFieldDecorator('familia')(
+                                {getFieldDecorator('familia', {
+                                    initialValue: String(this.state.familiaInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma família"
@@ -2019,7 +2138,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.subfamilia}>
-                                {getFieldDecorator('subfamilia')(
+                                {getFieldDecorator('subfamilia', {
+                                    initialValue: String(this.state.subfamiliaInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma subfamília"
@@ -2055,7 +2176,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.genero}>
-                                {getFieldDecorator('genero')(
+                                {getFieldDecorator('genero', {
+                                    initialValue: String(this.state.generoInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione um gênero"
@@ -2106,7 +2229,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.especie}>
-                                {getFieldDecorator('especie')(
+                                {getFieldDecorator('especie', {
+                                    initialValue: String(this.state.especieInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma espécie"
@@ -2161,7 +2286,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.subespecie}>
-                                {getFieldDecorator('subespecie')(
+                                {getFieldDecorator('subespecie', {
+                                    initialValue: String(this.state.subespecieInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma subespécie"
@@ -2194,7 +2321,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.variedade}>
-                                {getFieldDecorator('variedade')(
+                                {getFieldDecorator('variedade', {
+                                    initialValue: String(this.state.variedadeInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma variedade"
@@ -2237,7 +2366,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.solo}>
-                                {getFieldDecorator('solo')(
+                                {getFieldDecorator('solo', {
+                                    initialValue: String(this.state.soloInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione um solo"
@@ -2269,7 +2400,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.relevo}>
-                                {getFieldDecorator('relevo')(
+                                {getFieldDecorator('relevo', {
+                                    initialValue: String(this.state.relevoInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione um relevo"
@@ -2304,7 +2437,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.vegetacao}>
-                                {getFieldDecorator('vegetacao')(
+                                {getFieldDecorator('vegetacao', {
+                                    initialValue: String(this.state.vegetacaoInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma vegetacao"
@@ -2336,7 +2471,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={24}>
                             <FormItem>
-                                {getFieldDecorator('fases')(
+                                {getFieldDecorator('fases', {
+                                    initialValue: String(this.state.faseInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione uma fase sucessional"
@@ -2376,7 +2513,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={24}>
                             <FormItem>
-                                {getFieldDecorator('identificador')(
+                                {getFieldDecorator('identificador', {
+                                    initialValue: String(this.state.identificadorInicial),
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione um identificador"
@@ -2450,6 +2589,7 @@ class NovoTomboScreen extends Component {
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.coletor}>
                                 {getFieldDecorator('coletores', {
+                                    initialValue: String(this.state.coletoresInicial),
                                     rules: [{
                                         required: true,
                                         message: 'Insira ao menos um coletor',
@@ -2495,7 +2635,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={24}>
                             <FormItem>
-                                {getFieldDecorator('tipoColecaoAnexa')(
+                                {getFieldDecorator('tipoColecaoAnexa', {
+                                    initialValue: String(this.state.colecaoInicial),
+                                })(
                                     <RadioGroup onChange={this.onChange} value={this.state.value}>
                                         <Radio value={'CARPOTECA'}><Tag color="red">Carpoteca</Tag></Radio>
                                         <Radio value={'XILOTECA'}><Tag color="green">Xiloteca</Tag></Radio>
@@ -2900,7 +3042,7 @@ class NovoTomboScreen extends Component {
                             <ButtonComponent titleButton={"Salvar"} />
                         </Col>
                     </Row>
-                </Form>
+                </Form> 
             </div>
         );
     }
