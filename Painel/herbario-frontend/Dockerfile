@@ -13,7 +13,7 @@ FROM node:10.15-alpine
 
 RUN yarn global add serve
 
-COPY --from=build /var/app/dist ./dist
+COPY --from=build /var/app/build ./dist
 
 EXPOSE 8080
 
