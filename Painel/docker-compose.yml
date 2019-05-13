@@ -1,21 +1,25 @@
 version: '3'
 
+networks:
+  default:
+    driver: bridge
+
 services:
-  db:
+  database:
     image: mysql:5.7
     container_name: herbario_db
     environment:
+      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
       MYSQL_DATABASE: $DB_NAME
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASS
-      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
     volumes:
       - /var/lib/mysql:/var/lib/mysql
     ports:
       - 3306:3306
-  
+
   app:
-    build: .
+    build: ./herbario-backend
     container_name: herbario_app
     environment:
       DB_HOST: herbario_db
@@ -24,8 +28,23 @@ services:
       DB_PASS: $DB_PASS
       UPLOAD_PATH: $UPLOAD_PATH
       STORAGE_PATH: $STORAGE_PATH
+    depends_on:
+      - database
+
+  painel:
+    build: ./herbario-frontend
+    container_name: herbario_painel
+    depends_on:
+      - app
+
+  nginx:
+    image: nginx:1.16-alpine
+    container_name: nginx
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
     ports:
-      - 3003:3003
-    entrypoint: yarn start
-    depends_on: 
-      - db
+      - 80:80
+      - 443:443
+    depends_on:
+      - app
+      - painel

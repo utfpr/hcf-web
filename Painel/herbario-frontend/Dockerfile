@@ -8,11 +8,10 @@ RUN yarn install --production=false && yarn dist
 
 FROM node:10.15-alpine
 
-COPY package.json yarn.lock ./
-RUN yarn install
+RUN yarn global add serve
 
 COPY --from=build /var/app/dist ./dist
 
-EXPOSE 3003
+EXPOSE 8080
 
-ENTRYPOINT yarn start
+ENTRYPOINT serve -s -l 8080 ./dist
