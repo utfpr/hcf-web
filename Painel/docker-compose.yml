@@ -38,7 +38,7 @@ services:
     environment:
       NODE_ENV: $NODE_ENV
       PUBLIC_URL: $PUBLIC_URL
-      API_BASE_URL: $API_BASE_URL
+      REACT_APP_API_URL: $API_BASE_URL
     depends_on:
       - app
 
