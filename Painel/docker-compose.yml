@@ -8,6 +8,7 @@ services:
   database:
     image: mysql:5.7
     container_name: herbario_db
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
       MYSQL_DATABASE: $DB_NAME
@@ -21,6 +22,7 @@ services:
   app:
     build: ./herbario-backend
     container_name: herbario_app
+    restart: always
     environment:
       NODE_ENV: $NODE_ENV
       DB_HOST: herbario_db
@@ -35,6 +37,7 @@ services:
   painel:
     build: ./herbario-frontend
     container_name: herbario_painel
+    restart: always
     environment:
       NODE_ENV: $NODE_ENV
       PUBLIC_URL: $PUBLIC_URL
@@ -45,6 +48,7 @@ services:
   nginx:
     image: nginx:1.16-alpine
     container_name: nginx
+    restart: always
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
     ports:
