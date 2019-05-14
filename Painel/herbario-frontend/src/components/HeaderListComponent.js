@@ -27,8 +27,6 @@ export default class HeaderListComponent extends Component {
 	}
 
 	render() {
-		console.log("NAOOOOOOOOOOOO")
-		console.log(isCuradorOuOperador())
 		return (
 			<Row gutter={24} style={{ marginBottom: "20px" }}>
 				<Col xs={24} sm={12} md={16} lg={20} xl={20}>

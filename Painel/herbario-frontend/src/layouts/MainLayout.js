@@ -34,8 +34,6 @@ export default class MainLayout extends Component {
 					loading: false
 				});
 				if (response.data && response.status === 200) {
-					console.log("Foiiii")
-					console.log(response.data)
 				}
 			})
 			.catch(err => {
@@ -180,7 +178,7 @@ export default class MainLayout extends Component {
 								<span>Darwin Core</span>
 							</a>
 						</Menu.Item>
-						{isCurador() ? (							
+						{isCurador() ? (
 							/**
 							 * Adicionando ao menu lateral o botão de serviços,
 							 * Reflora e speciesLink.
@@ -230,8 +228,6 @@ export default class MainLayout extends Component {
 	}
 
 	render() {
-		console.log('Cidades')
-		console.log(this.state.cidades)
 		if (this.state.loading) {
 			return (
 				<Spin tip="Carregando...">

@@ -5,7 +5,6 @@ const padraoSemVirgula = str => masker.toPattern(str, '999°99\'99"A');
 
 export default value => {
     const sanitizedValue = value.replace(/[^0-9NSWO]+/g, '');
-    console.log(sanitizedValue);
 
     if (/[0-9]/.test(sanitizedValue[6])) {
         return padraoComVirgula(value);

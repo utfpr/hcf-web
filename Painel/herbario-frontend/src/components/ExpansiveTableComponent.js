@@ -59,7 +59,6 @@ export default class ExpansiveTableComponent extends Component {
     };
 
     handleChange = (pagination, filters, sorter) => {
-        console.log("Various parameters", pagination, filters, sorter);
         const pager = { ...this.state.pagination };
         pager.current = pagination.current;
 

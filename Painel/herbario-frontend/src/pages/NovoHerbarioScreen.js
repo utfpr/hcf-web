@@ -297,7 +297,7 @@ class NovoHerbarioScreen extends Component {
 						this.notificacao("error", "Falha", "Houve um problema ao buscar os dados do herbário, tente novamente.")
 					}
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				} else {
 					throw err;
 				}
@@ -572,8 +572,6 @@ class NovoHerbarioScreen extends Component {
 	}
 
 	render() {
-		console.log('Cidades')
-		console.log(this.state.cidades)
 		if (this.state.loading) {
 			return (
 				<Spin tip="Carregando...">

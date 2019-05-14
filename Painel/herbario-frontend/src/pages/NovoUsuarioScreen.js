@@ -96,7 +96,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -107,8 +107,6 @@ class NovoUsuarioScreen extends Component {
 			.then(response => {
 
 				if (response.data && response.status === 200) {
-					console.log("ENTROU")
-					console.log(response.data)
 					this.props.form.setFields({
 						nome: {
 							value: response.data.nome
@@ -143,7 +141,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -191,7 +189,7 @@ class NovoUsuarioScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);

@@ -60,7 +60,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
     }
@@ -84,7 +84,6 @@ class ListaTaxonomiaFamilia extends Component {
                 self.requisitaExclusao(id);
             },
             onCancel() {
-                console.log('Cancel');
             },
         });
     }
@@ -171,7 +170,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -207,7 +206,6 @@ class ListaTaxonomiaFamilia extends Component {
                     this.requisitaListaFamilia();
                     this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
                 } else if (response.status === 400) {
-                    console.log(response.data)
                     this.openNotificationWithIcon("warning", "Falha", response.data.error);
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar a nova familia, tente novamente.")
@@ -225,7 +223,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -263,7 +261,7 @@ class ListaTaxonomiaFamilia extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);

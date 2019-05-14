@@ -68,7 +68,7 @@ class ListaUsuariosScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 	}
@@ -92,7 +92,6 @@ class ListaUsuariosScreen extends Component {
 				self.requisitaExclusao(id);
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}
@@ -169,7 +168,7 @@ class ListaUsuariosScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);

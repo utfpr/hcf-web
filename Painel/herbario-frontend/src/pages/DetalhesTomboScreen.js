@@ -45,8 +45,6 @@ export default class DetalhesTomboScreen extends Component {
                         loading: false,
                         tombo: response.data
                     });
-                    console.log("RESPONSEEEE")
-                    console.log(response.data)
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
                 }
@@ -59,7 +57,7 @@ export default class DetalhesTomboScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -400,7 +398,6 @@ export default class DetalhesTomboScreen extends Component {
     }
 
     renderIdentificador() {
-        console.log(this.state.tombo)
         const tombo = this.state.tombo;
         if (tombo) {
             return (

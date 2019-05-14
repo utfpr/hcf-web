@@ -116,8 +116,6 @@ class NovoTomboScreen extends Component {
                         loading: false,
                         data
                     });
-                    console.log("RESPONSEEEE")
-                    console.log(response.data)
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
                 }
@@ -130,12 +128,12 @@ class NovoTomboScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
     }
-    
+
     insereDadosFormulario(dados) {
         this.setState({
             estados: dados.estados,
@@ -206,7 +204,7 @@ class NovoTomboScreen extends Component {
             },
             autorEspecie: {
                 value: dados.complemento,
-            }  
+            }
         });
     }
 
@@ -218,7 +216,7 @@ class NovoTomboScreen extends Component {
                 })
                 if (response.status === 200) {
                     let dados = response.data;
-                    this.setState(dados)                
+                    this.setState(dados)
 
                 } else {
                     this.openNotification("error", "Falha", "Houve um problema ao buscar os dados do usuário, tente novamente.")
@@ -269,9 +267,6 @@ class NovoTomboScreen extends Component {
     handleSubmit = e => {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
-            console.log(tomboParaRequisicao(values));
-            console.log("data coleta dia")
-            console.log(this.props.form.getFieldsValue().dataColetaDia)
             if (!(this.props.form.getFieldsValue().dataColetaDia || this.props.form.getFieldsValue().dataColetaMes || this.props.form.getFieldsValue().dataColetaAno)) {
                 this.openNotificationWithIcon("warning", "Falha", "É necessário pelo menos o dia ou o mês ou o ano da data de coleta para o cadastro.")
                 return false;
@@ -336,7 +331,7 @@ class NovoTomboScreen extends Component {
                 }
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message);
+                    console.error(error.message);
                 } else {
                     throw err;
                 }
@@ -417,7 +412,7 @@ class NovoTomboScreen extends Component {
         if (autorEspecie !== undefined) json.autores = { especie: autorEspecie };
         if (autoresSubespecie !== undefined) json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade !== undefined) json.autores = { ...json.autores, variedade: autorVariedade };
-        console.log(json)
+
         axios.post('/tombos', { json })
             .then(response => {
                 if (response.status === 201) {
@@ -471,7 +466,7 @@ class NovoTomboScreen extends Component {
                 }
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message);
+                    console.error(error.message);
                 } else {
                     throw err;
                 }
@@ -1895,7 +1890,7 @@ class NovoTomboScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('tipo', {
                                    // initialValue: String(this.state.tipoInicial),
-                                })(                                    
+                                })(
                                     <Select
                                         showSearch
                                         placeholder="Selecione o tipo"
@@ -1986,7 +1981,6 @@ class NovoTomboScreen extends Component {
                                         placeholder="Selecione um país"
                                         optionFilterProp="children"
                                         onChange={(value) => {
-                                            console.log(value)
                                             this.requisitaEstados(value)
                                         }}
                                     >
@@ -2010,7 +2004,6 @@ class NovoTomboScreen extends Component {
                                         placeholder="Selecione um estado"
                                         optionFilterProp="children"
                                         onChange={(value) => {
-                                            console.log(value)
                                             this.requisitaCidades(value);
                                         }}
                                     >
@@ -2037,7 +2030,7 @@ class NovoTomboScreen extends Component {
                                         showSearch
                                         placeholder="Selecione uma cidade"
                                         optionFilterProp="children"
-                                        
+
                                     >
                                         {this.optionCidade()}
                                     </Select>
@@ -2862,7 +2855,6 @@ class NovoTomboScreen extends Component {
     }
 
     renderConteudo() {
-        // console.log(this.state.fotosExsicata)
         const { getFieldDecorator } = this.props.form;
         return (
             <div>
@@ -3042,7 +3034,7 @@ class NovoTomboScreen extends Component {
                             <ButtonComponent titleButton={"Salvar"} />
                         </Col>
                     </Row>
-                </Form> 
+                </Form>
             </div>
         );
     }

@@ -99,7 +99,7 @@ class ListaHerbariosScreen extends Component {
 						this.notificacao("error", "Falha", "Houve um problema ao excluir o herbários, tente novamente.")
 					}
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(() => {
@@ -151,7 +151,6 @@ class ListaHerbariosScreen extends Component {
 				self.requisitaExclusao(id);
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}
@@ -180,10 +179,8 @@ class ListaHerbariosScreen extends Component {
 				this.setState({
 					loading: false
 				})
-				console.log(response.status)
 				if (response.status === 200) {
 					const { data } = response;
-					console.log(data)
 					this.setState({
 						herbarios: this.formataDadosHerbarios(data.herbarios),
 						metadados: data.metadados,
@@ -202,7 +199,7 @@ class ListaHerbariosScreen extends Component {
 						this.notificacao("error", "Falha", "Houve um problema ao buscar os herbários, tente novamente.")
 					}
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 	}
@@ -325,8 +322,6 @@ class ListaHerbariosScreen extends Component {
 					metadados={this.state.metadados}
 					loading={this.state.loading}
 					changePage={(pg) => {
-						console.log("pagina")
-						console.log(pg)
 						this.setState({
 							pagina: pg,
 							loading: true
