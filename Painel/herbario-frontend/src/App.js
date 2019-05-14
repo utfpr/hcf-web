@@ -53,7 +53,7 @@ import {
 
 import { baseUrl } from './config/api';
 
-axios.defaults.baseURL = `${baseUrl}/api`;
+axios.defaults.baseURL = baseUrl;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.interceptors.request.use(config => {
     config.headers['token'] = getTokenUsuario();
