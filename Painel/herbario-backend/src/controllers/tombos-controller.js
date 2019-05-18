@@ -5,7 +5,9 @@ import NotFoundException from '../errors/not-found-exception';
 import models from '../models';
 import codigos from '../resources/codigosHTTP';
 import pick from '../helpers/pick';
-import { converteParaDecimal } from '../helpers/coordenadas';
+import {
+    converteParaDecimal, converteDecimalParaGraus, converteDecimalParaGMSGrau, converteDecimalParaGMSMinutos, converteDecimalParaGMSSegundos,
+} from '../helpers/coordenadas';
 import { selecionaObjetoCompletoTomboPorId } from '../services/tombos-service';
 import { converteInteiroParaRomano } from '../helpers/tombo';
 
@@ -704,7 +706,6 @@ export const getDadosCadTombo = (request, response, next) => {
             retorno.tipos = tipos.rows;
         })
         .then(() => Pais.findAndCountAll({
-            attributes: ['sigla', 'nome'],
             order: [['nome', 'ASC']],
             transaction,
         }))
@@ -891,12 +892,28 @@ export const cadastrarColetores = (request, response, next) => {
 };
 
 export const buscarColetores = (request, response, next) => {
+    let where = {
+        ativo: 1,
+    };
+    let limit = 10;
+    const { limite, nome } = request.query;
+
+    if (limite) {
+        limit = parseInt(limite);
+    }
+
+    if (nome) {
+        where = {
+            ...where,
+            nome: { [Op.like]: `%${nome}%` },
+        };
+    }
+
     Promise.resolve()
         .then(() => Coletor.findAndCountAll({
             attributes: ['id', 'nome', 'email', 'numero'],
-            where: {
-                ativo: 1,
-            },
+            where,
+            limit,
         }))
         .then(coletores => {
             if (!coletores) {
@@ -1066,7 +1083,7 @@ export const obterTombo = (request, response, next) => {
                 localidadeInicial: tombo.cor !== null ? tombo.cor : '',
                 tipoInicial: tombo.tipo !== null ? tombo.tipo.id : '',
                 paisInicial: tombo.locais_coletum.cidade.estado.paise !== null ? tombo.locais_coletum.cidade.estado.paise.id : '',
-                estadoInicial: tombo.locais_coletum.cidade.estado !== null ? tombo.locais_coletum.cidade.estado.paise.id : '',
+                estadoInicial: tombo.locais_coletum.cidade.estado !== null ? tombo.locais_coletum.cidade.estado.id : '',
                 cidadeInicial: tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.id : '',
                 familiaInicial: tombo.familia !== null ? tombo.familia.id : '',
                 subfamiliaInicial: tombo.sub_familia !== null ? tombo.sub_familia.id : '',
@@ -1077,9 +1094,10 @@ export const obterTombo = (request, response, next) => {
                 soloInicial: tombo.locais_coletum !== null && tombo.locais_coletum.solo !== null ? tombo.locais_coletum.solo.id : '',
                 relevoInicial: tombo.locais_coletum !== null && tombo.locais_coletum.relevo !== null ? tombo.locais_coletum.relevo.id : '',
                 vegetacaoInicial: tombo.locais_coletum !== null && tombo.locais_coletum.vegetaco !== null ? tombo.locais_coletum.vegetaco.id : '',
-                faseInicial: tombo.locais_coletum !== null && tombo.locais_coletum.fase_sucessional !== null ? tombo.locais_coletum.fase_sucessional.id : '',
+                faseInicial: tombo.locais_coletum !== null && tombo.locais_coletum.fase_sucessional !== null ? tombo.locais_coletum.fase_sucessional.numero : '',
                 coletoresInicial: tombo.coletores.map(coletor => coletor.id),
                 colecaoInicial: tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.id : '',
+                complementoInicial: tombo.localizacao !== null && tombo.localizacao !== undefined ? tombo.localizacao.complemento : '',
                 hcf: tombo.hcf,
                 situacao: tombo.situacao,
                 data_tombo: tombo.data_tombo,
@@ -1090,6 +1108,14 @@ export const obterTombo = (request, response, next) => {
                 localizacao: {
                     latitude: tombo.latitude !== null ? tombo.latitude : '',
                     longitude: tombo.longitude !== null ? tombo.longitude : '',
+                    lat_grau: tombo.longitude !== null ? converteDecimalParaGraus(tombo.longitude, true) : '',
+                    latitude_graus: tombo.latitude !== null ? converteDecimalParaGMSGrau(tombo.latitude, true) : '',
+                    latitude_min: tombo.latitude !== null ? converteDecimalParaGMSMinutos(tombo.latitude, true) : '',
+                    latitude_sec: tombo.latitude !== null ? converteDecimalParaGMSSegundos(tombo.latitude, true) : '',
+                    longitude_graus: tombo.longitude !== null ? converteDecimalParaGraus(tombo.longitude, false) : '',
+                    long_graus: tombo.latitude !== null ? converteDecimalParaGMSGrau(tombo.longitude, false) : '',
+                    long_min: tombo.latitude !== null ? converteDecimalParaGMSMinutos(tombo.longitude, false) : '',
+                    long_sec: tombo.latitude !== null ? converteDecimalParaGMSSegundos(tombo.longitude, false) : '',
                     altitude: tombo.altitude !== null ? tombo.altitude : '',
                     cidade: tombo.locais_coletum !== null && tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.nome : '',
                     estado: tombo.locais_coletum !== null && tombo.locais_coletum.cidade !== null ? tombo.locais_coletum.cidade.estado.nome : '',
@@ -1131,6 +1157,11 @@ export const obterTombo = (request, response, next) => {
             let dataCol = '';
             let dataIdent = '';
 
+            // let ultimaData = '';
+            // tombo.usuarios.forEach(item => {
+
+            // });
+
             if (tombo.usuarios[0].alteracoes.identificacao !== false) {
                 if (tombo.usuarios[0].alteracoes.data_identificacao_dia !== null) {
                     dataIdent = `${tombo.usuarios[0].alteracoes.data_identificacao_dia}/`;
@@ -1169,12 +1200,10 @@ export const obterTombo = (request, response, next) => {
             resposta.data_coleta = dataCol;
             resposta.data_identificacao = dataIdent;
 
-            let coletores = '';
-
             if (tombo.coletores != null) {
-                coletores = tombo.coletores.map(coletor => `${coletores}${coletor.nome},`).toString();
+                // coletores = tombo.coletores.map(coletor => `${coletores}${coletor.nome},`).toString();
+                resposta.coletores = tombo.coletores;
             }
-            resposta.coletores = coletores;
 
             return resposta;
         })
@@ -1280,11 +1309,30 @@ export const obterTombo = (request, response, next) => {
         .then(() => TomboFoto.findAll({
             where: {
                 tombo_hcf: id,
+                ativo: 1,
             },
-            attributes: ['id', 'caminho_foto'],
+            attributes: ['id', 'caminho_foto', 'em_vivo'],
         }))
         .then(fotos => {
             const formatoFotos = [];
+            resposta.fotosExsicata = formatoFotos.filter(item => {
+                if (!item.em_vivo) {
+                    return {
+                        original: item.caminho_foto,
+                        thumbnail: item.caminho_foto,
+                    };
+                }
+                return {};
+            });
+            resposta.fotosEmVivo = formatoFotos.filter(item => {
+                if (item.em_vivo) {
+                    return {
+                        original: item.caminho_foto,
+                        thumbnail: item.caminho_foto,
+                    };
+                }
+                return {};
+            });
             fotos.map(foto => formatoFotos.push({
                 original: foto.caminho_foto,
                 thumbnail: foto.caminho_foto,

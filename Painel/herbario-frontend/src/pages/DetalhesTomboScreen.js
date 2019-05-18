@@ -18,6 +18,7 @@ export default class DetalhesTomboScreen extends Component {
         super(props);
         this.state = {
             loading: false,
+            nomesColetores: "",
         };
     }
 
@@ -50,7 +51,13 @@ export default class DetalhesTomboScreen extends Component {
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
                 }
-
+                if (response.data.coletores) {
+                    var coletores = "";
+                    coletores = response.data.coletores.map(coletor => `${coletores}${coletor.nome},`).toString();
+                    this.setState({
+                        nomesColetores: coletores,
+                    })
+                }
             })
             .catch(err => {
                 this.setState({
@@ -245,6 +252,9 @@ export default class DetalhesTomboScreen extends Component {
     renderLocal() {
         const tombo = this.state.tombo;
         if (tombo) {
+            
+        console.log("kokoko")
+        console.log(tombo.localizacao.longitude_graus)
             return (
                 <div>
                     <Row gutter={8} style={{ marginBottom: '20px' }}>
@@ -253,7 +263,7 @@ export default class DetalhesTomboScreen extends Component {
                                 <h4>Latitude: (datum wgs84)</h4>
                             </Col>
                             <Col span={24}>
-                                <span> {tombo.localizacao.latitude} </span>
+                                <span> {tombo.localizacao.latitude_graus} </span>
                             </Col>
                         </Col>
                         <Col xs={24} sm={12} md={8} lg={8} xl={8}>
@@ -261,7 +271,7 @@ export default class DetalhesTomboScreen extends Component {
                                 <h4>Longitude: (datum wgs84)</h4>
                             </Col>
                             <Col span={24}>
-                                <span> {tombo.localizacao.longitude} </span>
+                                <span> {tombo.localizacao.longitude_graus} </span>
                             </Col>
                         </Col>
                         <Col xs={24} sm={12} md={8} lg={8} xl={8}>
@@ -370,7 +380,7 @@ export default class DetalhesTomboScreen extends Component {
                                 <h4>Coletores:</h4>
                             </Col>
                             <Col span={24}>
-                                <span> {tombo.coletores} </span>
+                                <span> {this.state.nomesColetores} </span>
                             </Col>
                         </Col>
                     </Row>

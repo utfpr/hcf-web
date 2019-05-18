@@ -86,6 +86,10 @@ class NovoTomboScreen extends Component {
             identificadorInicial: '',
             coletoresInicial: '',
             colecaoInicial: '',
+            complementoInicial: '',
+            latGraus: '',
+            latMinutos: '',
+            latSegundos: '',
         };
     }
 
@@ -101,9 +105,7 @@ class NovoTomboScreen extends Component {
         this.setState({
             loading: true
         });
-        if (this.props.match.params.tombo_id) {
-            this.requisitaDadosEdicao(this.props.match.params.tombo_id);
-        }
+        
     }
 
     requisitaDadosEdicao = (id) => {
@@ -114,10 +116,13 @@ class NovoTomboScreen extends Component {
                     this.setState({
                         ...this.state,
                         loading: false,
-                        data
+                        ...data
                     });
-                    console.log("RESPONSEEEE")
+                    this.insereDadosFormulario(data)
+                    console.log("RESPONSEEEE dados edicao - id")
                     console.log(response.data)
+                    console.log("SState")
+                    console.log(this.state)
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
                 }
@@ -137,31 +142,27 @@ class NovoTomboScreen extends Component {
     }
     
     insereDadosFormulario(dados) {
+        if (dados.localizacao) {
+            this.setState({
+                latGraus: dados.localizacao.latitude_graus,
+                latMinutos: dados.localizacao.latitude_min,
+                latSegundos: dados.localizacao.latitude_sec,
+            })
+        }
         this.setState({
+            ...this.state,
             estados: dados.estados,
             cidades: dados.cidades,
             subfamilias: dados.subfamilias,
             generos: dados.generos,
             especies: dados.especies,
             subespecies: dados.subespecies,
-            variedades: dados.variedade,
-        })
-        this.setState({
-
+            variedades: dados.variedades,
         })
         this.props.form.setFields({
             altitude: {
                 value: dados.localizacao.altitude,
             },
-            /* autorEspecie: {
-                value: ,
-            },
-            autorVariedade: {
-                value: ,
-            },
-            autoresSubespecie: {
-                value: ,
-            }, */
             dataColetaAno: {
                 value: dados.data_coleta_ano,
             },
@@ -213,14 +214,23 @@ class NovoTomboScreen extends Component {
     requisitaDadosFormulario = () => {
         axios.get('/tombos/dados')
             .then(response => {
-                this.setState({
-                    loading: false
-                })
                 if (response.status === 200) {
                     let dados = response.data;
-                    this.setState(dados)                
-
+                    this.setState({
+                        ...this.state,
+                        ...dados
+                    })
+                    if (this.props.match.params.tombo_id) {
+                        this.requisitaDadosEdicao(this.props.match.params.tombo_id);
+                    } else {
+                        this.setState({
+                            loading: false
+                        })
+                    }
                 } else {
+                    this.setState({
+                        loading: false
+                    })
                     this.openNotification("error", "Falha", "Houve um problema ao buscar os dados do usuário, tente novamente.")
                 }
             })
@@ -269,14 +279,12 @@ class NovoTomboScreen extends Component {
     handleSubmit = e => {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
-            console.log(tomboParaRequisicao(values));
-            console.log("data coleta dia")
-            console.log(this.props.form.getFieldsValue().dataColetaDia)
             if (!(this.props.form.getFieldsValue().dataColetaDia || this.props.form.getFieldsValue().dataColetaMes || this.props.form.getFieldsValue().dataColetaAno)) {
                 this.openNotificationWithIcon("warning", "Falha", "É necessário pelo menos o dia ou o mês ou o ano da data de coleta para o cadastro.")
                 return false;
             }
-            if (!err) {
+            if (err != null) {
+                console.log(err)
                 this.openNotificationWithIcon("warning", "Falha", "Preencha todos os dados requiridos.")
             } else {
                 this.requisitaCadastroTombo(values);
@@ -489,75 +497,75 @@ class NovoTomboScreen extends Component {
     };
 
     optionEntidades = () => this.state.herbarios.map(item => (
-        <Option value={item.id}>{item.sigla} - {item.nome}</Option>
+        <Option value={`${item.id}`}>{item.sigla} - {item.nome}</Option>
     ));
 
     optionTipo = () => this.state.tipos.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionFase = () => this.state.fases.map(item => (
-        <Option value={item.numero}>{item.nome}</Option>
+        <Option value={`${item.numero}`}>{item.nome}</Option>
     ));
 
     optionPais = () => this.state.paises.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionEstado = () => this.state.estados.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionCidade = () => this.state.cidades.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionFamilia = () => this.state.familias.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionSubfamilia = () => this.state.subfamilias.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionGenero = () => this.state.generos.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionEspecie = () => this.state.especies.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionSubespecie = () => this.state.subespecies.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionVariedade = () => this.state.variedades.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionAutores = () => this.state.autores.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionVegetacao = () => this.state.vegetacoes.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionRelevo = () => this.state.relevos.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionSolo = () => this.state.solos.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionColetores = () => this.state.coletores.map(item => (
-        <Option key={parseInt(item.id)}>{item.nome}</Option>
+        <Option key={`${item.id}`}>{item.nome}</Option>
     ));
 
     optionIdentificador = () => this.state.identificadores.map(item => (
-        <Option value={item.id}>{item.nome}</Option>
+        <Option value={`${item.id}`}>{item.nome}</Option>
     ));
 
 
@@ -1673,7 +1681,7 @@ class NovoTomboScreen extends Component {
                     loading: false
                 })
                 if (response.status === 204) {
-                    this.requisitaColetores();
+                    this.requisitaColetores('');
                     this.setState({
                         search: {
                             coletor: 'validating'
@@ -1714,11 +1722,13 @@ class NovoTomboScreen extends Component {
 
     }
 
-    requisitaColetores = (id) => {
+    requisitaColetores = (nome) => {
         this.setState({
             loading: true
         })
-        axios.get('/coletores/')
+        axios.get('/coletores/', {
+            nome
+        })
             .then(response => {
                 this.setState({
                     loading: false
@@ -1727,11 +1737,9 @@ class NovoTomboScreen extends Component {
                     this.setState({
                         search: {
                             coletor: ''
-                        }
-                    })
-                    this.setState({
+                        },
                         coletores: response.data
-                    });
+                    })
                 }
             })
             .catch(err => {
@@ -1780,7 +1788,7 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('entidade', {
-                                    //initialValue: String(this.state.herbarioInicial),
+                                    initialValue: String(this.state.herbarioInicial),
                                     rules: [{
                                         required: true,
                                         message: 'Escolha uma entidade',
@@ -1808,6 +1816,7 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('numColeta', {
+                                    initialValue: String(this.state.numero_coleta),
                                     rules: [{
                                         required: true,
                                         message: 'Insira o numero da coleta',
@@ -1894,7 +1903,7 @@ class NovoTomboScreen extends Component {
                         <Col xs={22} sm={22} md={12} lg={12} xl={12}>
                             <FormItem>
                                 {getFieldDecorator('tipo', {
-                                   // initialValue: String(this.state.tipoInicial),
+                                   initialValue: String(this.state.tipoInicial),
                                 })(                                    
                                     <Select
                                         showSearch
@@ -1939,6 +1948,9 @@ class NovoTomboScreen extends Component {
                             {getFieldDecorator('latitude')(
                                     <CoordenadaInputText
                                         placeholder={`48°40'30"O`}
+                                        graus={this.state.latGraus}
+                                        minutos={this.state.latMinutos}
+                                        segundos={this.state.latSegundos}
                                     />
                                 )}
                             </FormItem>
@@ -2053,6 +2065,7 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={24}>
                             {getFieldDecorator('complemento', {
+                                initialValue: String(this.state.complementoInicial),
                                 rules: [{
                                     required: true,
                                     message: 'Informe um complemento válido',
@@ -2599,6 +2612,10 @@ class NovoTomboScreen extends Component {
                                         mode="multiple"
                                         style={{ width: '100%' }}
                                         placeholder="Selecione os coletores"
+                                        nChange={event => {
+                                            const { value } = event.target;
+                                            this.requisitaColetores(value)
+                                        }}
                                     >
                                         {this.optionColetores()}
                                     </Select>
@@ -3055,6 +3072,10 @@ class NovoTomboScreen extends Component {
     }
 
     render() {
+        console.log("STATE Estado: ")
+        console.log(this.state.estadoInicial)
+        console.log(this.state.estados)
+        
         if (this.state.loading) {
             return (
                 <Spin tip="Carregando...">
