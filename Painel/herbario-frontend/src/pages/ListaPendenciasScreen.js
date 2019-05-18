@@ -66,7 +66,7 @@ class ListaPendenciasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 	}
@@ -90,7 +90,6 @@ class ListaPendenciasScreen extends Component {
 				self.requisitaExclusao(id);
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}
@@ -140,9 +139,6 @@ class ListaPendenciasScreen extends Component {
 		}
 		axios.get('/pendencias', { params })
 			.then(response => {
-				console.log("RESPOSTAAA");
-				console.log(response.data.resultado);
-				console.log(this.formataDadosPendencia(response.data.resultado));
 				this.setState({
 					loading: false
 				})
@@ -161,7 +157,7 @@ class ListaPendenciasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);

@@ -3,9 +3,6 @@ import { render } from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 
-render(
-    <App />,
-    document.getElementById('root')
-);
+render(<App />, document.getElementById('root'));
 
 registerServiceWorker();

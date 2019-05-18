@@ -1,4 +1,8 @@
-export const baseUrl = 'http://localhost:3003';
+const {
+    REACT_APP_API_URL = 'http://localhost:3003/api',
+} = process.env;
+
+export const baseUrl = REACT_APP_API_URL;
 
 export const fotosBaseUrl = `${baseUrl}/fotos`;
 

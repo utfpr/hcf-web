@@ -95,7 +95,7 @@ class ListaTombosScreen extends Component {
                         this.openNotificationWithIcon("error", "Falha", "Houve um problema ao excluir o tombo, tente novamente.")
                     }
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
     }
@@ -119,7 +119,6 @@ class ListaTombosScreen extends Component {
                 self.requisitaExclusao(id);
             },
             onCancel() {
-                console.log('Cancel');
             },
         });
     }
@@ -241,7 +240,7 @@ class ListaTombosScreen extends Component {
                         this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os tombos, tente novamente.")
                     }
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -399,8 +398,6 @@ class ListaTombosScreen extends Component {
     handleSubmitExport = event => {
         event.preventDefault();
 
-        console.log(event)
-
         const {
             exDataColeta, exFamilia, exSubfamilia, exGenero, exEspecie,
             exSubespecie, exVariedade, exAutor, exNumTombo, exSeqTombo,
@@ -502,7 +499,7 @@ class ListaTombosScreen extends Component {
 
                         if (response && response.data) {
                             const { error } = response.data;
-                            console.log(error.message)
+                            console.error(error.message)
                         }
                     })
             }
@@ -522,8 +519,6 @@ class ListaTombosScreen extends Component {
         this.lastFetchId += 1;
         const fetchId = this.lastFetchId;
         this.setState({ data: [], fetching: true });
-        console.log("valueeeee")
-        console.log(value)
         axios.get(`/tombos/filtrar_numero/${value}`)
             .then(response => {
                 if (response.status === 200) {
@@ -541,7 +536,7 @@ class ListaTombosScreen extends Component {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
     }

@@ -89,7 +89,6 @@ class ListaTaxonomiaSubespecie extends Component {
                 self.requisitaExclusao(id);
             },
             onCancel() {
-                console.log('Cancel');
             },
         });
     }

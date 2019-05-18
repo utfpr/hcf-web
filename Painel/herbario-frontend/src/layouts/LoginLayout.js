@@ -60,7 +60,6 @@ export default class LoginLayout extends Component {
                     }
                     this.props.requisicao(value);
                     const { error } = response.data;
-                    console.log(error.message)
                 }
             })
             .catch(this.catchRequestError);

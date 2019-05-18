@@ -76,7 +76,6 @@ class NovaRemessaScreen extends Component {
 		});
 		axios.get(`/remessas/${this.props.match.params.remessa_id}`)
 			.then(response => {
-				console.log(response)
 				if (response.status === 200) {
 					this.setState({
 						loading: false
@@ -109,7 +108,7 @@ class NovaRemessaScreen extends Component {
 				if (response && response.data) {
 					const { error } = response.data;
 					this.notificacao("error", "Falha", "Houve um problema ao buscar os dados da remessa, tente novamente.")
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -149,7 +148,7 @@ class NovaRemessaScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -196,7 +195,6 @@ class NovaRemessaScreen extends Component {
 			tombos: this.state.data
 		})
 			.then(response => {
-				console.log(response)
 				if (response.status === 204) {
 					this.setState({
 						loading: false
@@ -221,7 +219,7 @@ class NovaRemessaScreen extends Component {
 					} else {
 						this.notificacao("error", "Falha", "Houve um problema ao cadastrar a novo genero, tente novamente.")
 					}
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -268,7 +266,7 @@ class NovaRemessaScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -312,7 +310,6 @@ class NovaRemessaScreen extends Component {
 				})
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}

@@ -27,8 +27,6 @@ export function formatarDataBDtoDataHora(valor) {
     if (valor === null || valor === "") {
         return ""
     }
-    console.log("dataaa")
-    console.log(valor)
     return moment(valor, "YYYY-MM-DDTHH:mm:sssZ").format("DD/MM/YYYY HH:mm")
 }
 

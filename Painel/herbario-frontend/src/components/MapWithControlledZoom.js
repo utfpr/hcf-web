@@ -66,9 +66,6 @@ export default class MapWithControlledZoom extends Component {
 	}
 
 	render() {
-		console.log("LKIU")
-		console.log(latitude);
-		console.log(longitude);
 		return <MapWithControledZoom />;
 	}
 }

@@ -40,7 +40,7 @@ class VerPendenciaScreen extends Component {
             }
 		};
 	}
-    
+
     componentDidMount() {
         if (this.props.match.params.pendencia_id !== undefined) {
             this.requisitaPendencia();
@@ -57,7 +57,7 @@ class VerPendenciaScreen extends Component {
                     this.setState({
                         data: response.data.tabela,
                         fotos: response.data.fotos,
-                    });                
+                    });
                 }
                 this.setState({
                     loading: false
@@ -75,7 +75,7 @@ class VerPendenciaScreen extends Component {
                         this.notificacao("error", "Falha", "Houve um problema ao buscar as pendências, tente novamente.")
                     }
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 } else {
                     throw err;
                 }
@@ -95,7 +95,7 @@ class VerPendenciaScreen extends Component {
             loading: true
         })
         axios.post(`/pendencias/${this.props.match.params.pendencia_id}`, { observacao, status: this.state.aprovar })
-            .then(response => {                
+            .then(response => {
                 this.setState({
                     loading: false
                 })
@@ -118,7 +118,7 @@ class VerPendenciaScreen extends Component {
                         codigo: response.status
                     }
                     const { error } = response.data;
-                    console.log(error.message)
+                    console.error(error.message)
                 }
             })
             .catch(this.catchRequestError);
@@ -184,7 +184,7 @@ class VerPendenciaScreen extends Component {
                 <Row type="flex" justify="end">
                     <Col xs={24} sm={12} md={8} lg={6} xl={4}>
                         <FormItem>
-                            <Button type="primary" icon="check" 
+                            <Button type="primary" icon="check"
                             htmlType="submit"
                             style={{
                                 backgroundColor: "#5cb85c",

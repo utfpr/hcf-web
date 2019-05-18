@@ -115,7 +115,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
@@ -134,7 +134,6 @@ class ListaRemessasScreen extends Component {
 				self.requisitaExclusao(id);
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}
@@ -151,7 +150,6 @@ class ListaRemessasScreen extends Component {
 				self.requisitaDevolucao(idRemessa, idTombo);
 			},
 			onCancel() {
-				console.log('Cancel');
 			},
 		});
 	}
@@ -168,7 +166,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 	}
@@ -192,7 +190,7 @@ class ListaRemessasScreen extends Component {
 				if (response && response.data) {
 					this.notificacao('error', 'Erro ao devolver o tombo', response.data.error.message)
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 	}
@@ -282,7 +280,7 @@ class ListaRemessasScreen extends Component {
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
-					console.log(error.message)
+					console.error(error.message)
 				}
 			})
 			.catch(this.catchRequestError);
