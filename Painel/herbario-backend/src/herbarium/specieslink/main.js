@@ -57,7 +57,7 @@ export function daemonSpeciesLink() {
                 const nomeArquivo = processaNomeLog(horaInicio);
                 const arquivoSpeciesLink = statusExecucao[0].dataValues.nome_arquivo;
                 const { id } = statusExecucao[0].dataValues;
-                const quantidadeAmostras = 15000;
+                const quantidadeAmostras = 0;
                 if (horaFim === null) {
                     atualizaHoraFimSpeciesLink(id, 'EXECUTANDO').then(() => {
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
