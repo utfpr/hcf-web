@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+import fs from 'fs';
 import { processaArquivo } from './arquivo';
 import { getHoraAtual, escreveLOG, processaNomeLog } from '../log';
 import {
@@ -56,11 +57,12 @@ export function daemonSpeciesLink() {
                 const nomeArquivo = processaNomeLog(horaInicio);
                 const arquivoSpeciesLink = statusExecucao[0].dataValues.nome_arquivo;
                 const { id } = statusExecucao[0].dataValues;
+                const quantidadeAmostras = 15000;
                 if (horaFim === null) {
                     atualizaHoraFimSpeciesLink(id, 'EXECUTANDO').then(() => {
                         const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
                         escreveLOG(`specieslink/${nomeArquivo}`, 'Inicializando a aplicação do SpeciesLink.');
-                        realizaComparacao(horaInicio, geraListaAleatorio(listaConteudoArquivo, 0)).then(acabou => {
+                        realizaComparacao(horaInicio, geraListaAleatorio(listaConteudoArquivo, quantidadeAmostras)).then(acabou => {
                             if (acabou) {
                                 escreveLOG(`specieslink/${nomeArquivo}`, 'O processo de comparação do SpeciesLink acabou.');
                                 atualizaHoraFimSpeciesLink(id, getHoraAtual());
@@ -68,6 +70,16 @@ export function daemonSpeciesLink() {
                         });
                     });
                 } else if (horaFim === 'EXECUTANDO') {
+                    if (!fs.existsSync(`specieslink/${nomeArquivo}`)) {
+                        const listaConteudoArquivo = processaArquivo(arquivoSpeciesLink);
+                        escreveLOG(`specieslink/${nomeArquivo}`, 'Inicializando a aplicação do SpeciesLink.');
+                        realizaComparacao(horaInicio, geraListaAleatorio(listaConteudoArquivo, quantidadeAmostras)).then(acabou => {
+                            if (acabou) {
+                                escreveLOG(`specieslink/${nomeArquivo}`, 'O processo de comparação do SpeciesLink acabou.');
+                                atualizaHoraFimSpeciesLink(id, getHoraAtual());
+                            }
+                        });
+                    }
                     // eslint-disable-next-line no-console
                     console.log('TÁ EXECUTANDO!!!!11');
                 }
