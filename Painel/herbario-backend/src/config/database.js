@@ -29,6 +29,8 @@ export const options = {
         multipleStatements: true,
     },
 
-    max: 30,
-    acquire: 180000,
+    pool: {
+        max: 30,
+        acquire: 180000,
+    }
 };
