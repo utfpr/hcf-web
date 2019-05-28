@@ -23,4 +23,3 @@ Se quiser pode atualizar os dois ao mesmo tempo, executando o comando `docker-co
 Aguarde o término da execução do comando e verifique se o serviço está funcionando corretamente.
 
 Mais detalhes utilize o comando `docker ps`.
-
