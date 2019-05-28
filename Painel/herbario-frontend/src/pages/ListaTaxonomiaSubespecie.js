@@ -46,7 +46,7 @@ class ListaTaxonomiaSubespecie extends Component {
         this.setState({
             loading: true
         })
-        axios.delete(`/subespecies/${id}`)
+        axios.delete(`/api/subespecies/${id}`)
             .then(response => {
                 this.setState({
                     loading: false
@@ -301,7 +301,7 @@ class ListaTaxonomiaSubespecie extends Component {
         this.setState({
             loading: true
         })
-        axios.put(`/subespecies/${this.state.id}`, {
+        axios.put(`/api/subespecies/${this.state.id}`, {
             nome: this.props.form.getFieldsValue().nomeSubespecie,
             especie_id: this.props.form.getFieldsValue().nomeEspecie,
             autor_id: this.props.form.getFieldsValue().nomeAutor,

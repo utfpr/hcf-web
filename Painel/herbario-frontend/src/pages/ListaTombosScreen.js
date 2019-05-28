@@ -73,7 +73,7 @@ class ListaTombosScreen extends Component {
         this.setState({
             loading: true
         })
-        axios.delete(`/tombos/${id}`)
+        axios.delete(`/api/tombos/${id}`)
             .then(response => {
                 this.setState({
                     loading: false
@@ -519,7 +519,7 @@ class ListaTombosScreen extends Component {
         this.lastFetchId += 1;
         const fetchId = this.lastFetchId;
         this.setState({ data: [], fetching: true });
-        axios.get(`/tombos/filtrar_numero/${value}`)
+        axios.get(`/api/tombos/filtrar_numero/${value}`)
             .then(response => {
                 if (response.status === 200) {
                     if (fetchId !== this.lastFetchId) { // for fetch callback order

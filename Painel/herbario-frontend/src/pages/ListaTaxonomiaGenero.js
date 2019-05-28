@@ -45,7 +45,7 @@ class ListaTaxonomiaGenero extends Component {
         this.setState({
             loading: true
         })
-        axios.delete(`/generos/${id}`)
+        axios.delete(`/api/generos/${id}`)
             .then(response => {
                 this.setState({
                     loading: false
@@ -264,7 +264,7 @@ class ListaTaxonomiaGenero extends Component {
         this.setState({
             loading: true
         })
-        axios.put(`/generos/${this.state.id}`, {
+        axios.put(`/api/generos/${this.state.id}`, {
             nome: this.props.form.getFieldsValue().nomeGenero,
             familia_id: this.props.form.getFieldsValue().nomeFamilia,
         })

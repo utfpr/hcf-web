@@ -74,7 +74,7 @@ class NovaRemessaScreen extends Component {
 		this.setState({
 			loading: true
 		});
-		axios.get(`/remessas/${this.props.match.params.remessa_id}`)
+		axios.get(`/api/remessas/${this.props.match.params.remessa_id}`)
 			.then(response => {
 				if (response.status === 200) {
 					this.setState({
@@ -239,7 +239,7 @@ class NovaRemessaScreen extends Component {
 			doador
 		} = valores;
 
-		axios.put(`/remessas/${this.props.match.params.remessa_id}`, {
+		axios.put(`/api/remessas/${this.props.match.params.remessa_id}`, {
 			remessa: {
 				observacao: observacoes,
 				data_envio: dataEnvio,

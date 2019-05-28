@@ -55,7 +55,7 @@ class ListaPendenciasScreen extends Component {
 	}
 
 	requisitaExclusao(id) {
-		axios.delete(`/pendencias/${id}`)
+		axios.delete(`/api/pendencias/${id}`)
 			.then(response => {
 				if (response.status === 204) {
 					this.requisitaListaPendencias(this.state.valores, this.state.pagina)

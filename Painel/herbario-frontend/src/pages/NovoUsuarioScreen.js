@@ -103,7 +103,7 @@ class NovoUsuarioScreen extends Component {
 	}
 
 	requisitaUsuario = () => {
-		axios.get(`/usuarios/${this.props.match.params.usuario_id}`)
+		axios.get(`/api/usuarios/${this.props.match.params.usuario_id}`)
 			.then(response => {
 
 				if (response.data && response.status === 200) {
@@ -161,7 +161,7 @@ class NovoUsuarioScreen extends Component {
 			tipo,
 		} = valores;
 
-		axios.put(`/usuarios/${this.props.match.params.usuario_id}`, {
+		axios.put(`/api/usuarios/${this.props.match.params.usuario_id}`, {
 			ra,
 			nome,
 			email,

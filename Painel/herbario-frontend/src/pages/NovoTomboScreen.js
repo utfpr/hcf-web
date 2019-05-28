@@ -113,7 +113,7 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaDadosEdicao = (id) => {
-        axios.get(`/tombos/${id}`)
+        axios.get(`/api/tombos/${id}`)
             .then(response => {
                 if (response.status === 200) {
                     let data = response.data
@@ -325,7 +325,7 @@ class NovoTomboScreen extends Component {
             if (variedade) {
                 json.variedade_id = variedade;
             }
-            axios.put(`/tombos/${this.props.match.params.tombo_id}`, json)
+            axios.put(`/api/tombos/${this.props.match.params.tombo_id}`, json)
             .then(response => {
                 this.setState({
                     loading: false
@@ -1731,7 +1731,7 @@ class NovoTomboScreen extends Component {
             coletores: [],
             fetchingColetores: true 
         })
-        axios.get(`/coletores-predicao?nome=${nome}`)
+        axios.get(`/api/coletores-predicao?nome=${nome}`)
             .then(response => {
                 if (response.status === 200) {
                     this.setState({
@@ -1763,7 +1763,7 @@ class NovoTomboScreen extends Component {
             identificadores: [],
             fetchingIdentificadores: true 
         })
-        axios.get(`/identificadores-predicao?nome=${nome}`)
+        axios.get(`/api/identificadores-predicao?nome=${nome}`)
             .then(response => {
                 if (response.status === 200) {
                     this.setState({

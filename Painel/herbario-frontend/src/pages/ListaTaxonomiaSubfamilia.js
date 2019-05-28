@@ -45,7 +45,7 @@ class ListaTaxonomiaSubfamilia extends Component {
         this.setState({
             loading: true
         })
-        axios.delete(`/subfamilias/${id}`)
+        axios.delete(`/api/subfamilias/${id}`)
             .then(response => {
                 this.setState({
                     loading: false
@@ -241,7 +241,7 @@ class ListaTaxonomiaSubfamilia extends Component {
         this.setState({
             loading: true
         })
-        axios.put(`/subfamilias/${this.state.id}`, {
+        axios.put(`/api/subfamilias/${this.state.id}`, {
             nome: this.props.form.getFieldsValue().nomeSubfamilia,
             familia_id: this.props.form.getFieldsValue().nomeFamilia,
         })

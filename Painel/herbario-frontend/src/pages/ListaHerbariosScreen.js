@@ -83,7 +83,7 @@ class ListaHerbariosScreen extends Component {
 	};
 
 	requisitaExclusao(id) {
-		axios.delete(`/herbarios/${id}`)
+		axios.delete(`/api/herbarios/${id}`)
 			.then(response => {
 				if (response.status === 204) {
 					this.requisitaListaHerbarios(this.state.valores, this.state.pagina)
