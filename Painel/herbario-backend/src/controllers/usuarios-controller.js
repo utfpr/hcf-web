@@ -4,7 +4,9 @@ import BadRequestExeption from '../errors/bad-request-exception';
 import models from '../models';
 import codigos from '../resources/codigosHTTP';
 
-const { Sequelize: { Op }, Usuario, TipoUsuario } = models;
+const {
+    Sequelize: { Op }, Usuario, TipoUsuario, Coletor,
+} = models;
 
 export const encontraUsuarioAtivoPorEmail = email => {
     const where = {
@@ -230,6 +232,44 @@ export const usuario = (request, response, next) => {
 
             response.status(codigos.BUSCAR_UM_ITEM)
                 .json(user);
+        })
+        .catch(next);
+};
+
+export const obtemColetores = (request, response, next) => {
+    const { nome } = request.query;
+
+    Promise.resolve()
+        .then(() => Coletor.findAll({
+            attributes: ['id', 'nome'],
+            order: [['nome', 'ASC']],
+            where: {
+                ativo: true,
+                nome: { [Op.like]: `%${nome}%` },
+            },
+            limit: 10,
+        }))
+        .then(coletores => {
+            response.status(200).json(coletores);
+        })
+        .catch(next);
+};
+
+export const obtemIdentificadores = (request, response, next) => {
+    const { nome } = request.query;
+
+    Promise.resolve()
+        .then(() => Usuario.findAll({
+            attributes: ['id', 'nome'],
+            order: [['nome', 'ASC']],
+            where: {
+                ativo: true,
+                nome: { [Op.like]: `%${nome}%` },
+            },
+            limit: 10,
+        }))
+        .then(identificadores => {
+            response.status(200).json(identificadores);
         })
         .catch(next);
 };

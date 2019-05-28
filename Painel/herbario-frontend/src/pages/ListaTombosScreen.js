@@ -215,7 +215,7 @@ class ListaTombosScreen extends Component {
                 params.situacao = situacao;
             }
         }
-        axios.get('/tombos', { params })
+        axios.get('tombos', { params })
             .then(response => {
                 this.setState({
                     loading: false

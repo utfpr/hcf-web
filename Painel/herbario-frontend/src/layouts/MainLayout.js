@@ -7,6 +7,7 @@ import {
 	isLogado,
 } from '../helpers/usuarios';
 import axios from 'axios';
+import { setTokenUsuario, setUsuario } from '../helpers/usuarios';
 
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -193,8 +194,16 @@ export default class MainLayout extends Component {
 							</SubMenu>
 						) : null}
 						{isLogado() ? (
+							
 							<Menu.Item key="17">
-								<Link to="/inicio">
+								<Link to="/inicio" onClick = {() => {
+									setTokenUsuario("");
+									localStorage.setItem('token', "");
+							
+									setUsuario("");
+									localStorage.setItem('usuario', "");
+									console.log("ZERO TOKEN")
+								}}>
 									<Icon type="logout" />
 									<span>Sair</span>
 								</Link>

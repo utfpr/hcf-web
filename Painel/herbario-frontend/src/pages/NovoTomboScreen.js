@@ -20,6 +20,7 @@ import ButtonComponent from '../components/ButtonComponent';
 import CoordenadaInputText from '../components/CoordenadaInputText';
 import tomboParaRequisicao from '../helpers/conversoes/TomboParaRequisicao';
 import { isIdentificador } from '../helpers/usuarios';
+import debounce from 'lodash/debounce';
 
 
 const FormItem = Form.Item;
@@ -33,6 +34,9 @@ class NovoTomboScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            fetchingColetores: false,
+            fetchingIdentificadores: false,
+            valoresColetores: [],
             search: {
                 subfamilia: '',
                 genero: '',
@@ -1724,37 +1728,58 @@ class NovoTomboScreen extends Component {
 
     requisitaColetores = (nome) => {
         this.setState({
-            loading: true
+            coletores: [],
+            fetchingColetores: true 
         })
-        axios.get('/coletores/', {
-            nome
-        })
+        axios.get(`/coletores-predicao?nome=${nome}`)
             .then(response => {
-                this.setState({
-                    loading: false
-                })
                 if (response.status === 200) {
                     this.setState({
-                        search: {
-                            coletor: ''
-                        },
                         coletores: response.data
                     })
+                    console.log(response.data)
                 }
+                this.setState({ fetchingColetores: false });
             })
             .catch(err => {
-                this.setState({
-                    search: {
-                        coletor: ''
-                    },
-                    loading: false
-                })
                 const { response } = err;
                 if (response && response.data) {
                     if (response.status === 400 || response.status === 422) {
                         this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
                     } else {
                         this.openNotificationWithIcon("error", "Falha", "Houve um problema ao requisitar coletores, tente novamente.")
+                    }
+                    const { error } = response.data;
+                    throw new Error(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+
+    requisitaIdentificadores = (nome) => {
+        this.setState({
+            identificadores: [],
+            fetchingIdentificadores: true 
+        })
+        axios.get(`/identificadores-predicao?nome=${nome}`)
+            .then(response => {
+                if (response.status === 200) {
+                    this.setState({
+                        identificadores: response.data
+                    })
+                    console.log(response.data)
+                }
+                this.setState({ fetchingIdentificadores: false });
+            })
+            .catch(err => {
+                const { response } = err;
+                if (response && response.data) {
+                    if (response.status === 400 || response.status === 422) {
+                        this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                    } else {
+                        this.openNotificationWithIcon("error", "Falha", "Houve um problema ao requisitar os identificadores, tente novamente.")
                     }
                     const { error } = response.data;
                     throw new Error(error.message);
@@ -2530,10 +2555,17 @@ class NovoTomboScreen extends Component {
                                     initialValue: String(this.state.identificadorInicial),
                                 })(
                                     <Select
-                                        showSearch
-                                        placeholder="Selecione um identificador"
-                                        optionFilterProp="children"
-
+                                        mode="default"
+                                        style={{ width: '100%' }}
+                                        notFoundContent={this.state.fetchingIdentificadores ? <Spin size="small" /> : null}
+                                        labelInValue
+                                        value={this.state.valoresIdentificadores}
+                                        onChange={this.handleChangeIdentificadores}
+                                        placeholder="Selecione o idenficador"
+                                        filterOption={false}
+                                        onSearch = {value => {
+                                            this.requisitaIdentificadores(value)
+                                        }}
                                     >
                                         {this.optionIdentificador()}
                                     </Select>
@@ -2591,6 +2623,22 @@ class NovoTomboScreen extends Component {
         )
     }
 
+    handleChangeColetores = valores => {
+        this.setState({
+            fetchingColetores: false,
+            valoresColetores: valores,
+            coletores: []
+        })
+    }
+
+    handleChangeIdentificadores = valores => {
+        this.setState({
+            fetchingIdentificadores: false,
+            valoresIdentificadores: valores,
+            identificadores: []
+        })
+    }
+
     renderColetores(getFieldDecorator) {
         return (
             <div>
@@ -2611,9 +2659,13 @@ class NovoTomboScreen extends Component {
                                     <Select
                                         mode="multiple"
                                         style={{ width: '100%' }}
+                                        notFoundContent={this.state.fetchingColetores ? <Spin size="small" /> : null}
+                                        labelInValue
+                                        value={this.state.valoresColetores}
+                                        onChange={this.handleChangeColetores}
                                         placeholder="Selecione os coletores"
-                                        nChange={event => {
-                                            const { value } = event.target;
+                                        filterOption={false}
+                                        onSearch = {value => {
                                             this.requisitaColetores(value)
                                         }}
                                     >

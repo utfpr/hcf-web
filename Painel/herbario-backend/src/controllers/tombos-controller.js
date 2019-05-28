@@ -773,34 +773,6 @@ export const getDadosCadTombo = (request, response, next) => {
             }
             retorno.fases = fases.rows;
         })
-        .then(() => Usuario.findAndCountAll({
-            attributes: ['id', 'nome'],
-            order: [['nome', 'ASC']],
-            where: {
-                ativo: true,
-            },
-            transaction,
-        }))
-        .then(usuarios => {
-            if (!usuarios) {
-                throw new BadRequestExeption(211);
-            }
-            retorno.identificadores = usuarios.rows;
-        })
-        .then(() => Coletor.findAndCountAll({
-            attributes: ['id', 'nome'],
-            order: [['nome', 'ASC']],
-            where: {
-                ativo: true,
-            },
-            transaction,
-        }))
-        .then(coletores => {
-            if (!coletores) {
-                throw new BadRequestExeption(212);
-            }
-            retorno.coletores = coletores.rows;
-        })
         .then(() => Autor.findAndCountAll({
             attributes: ['id', 'nome'],
             order: [['nome', 'ASC']],

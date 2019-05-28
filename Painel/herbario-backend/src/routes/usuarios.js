@@ -16,6 +16,24 @@ export default app => {
             controller.login,
         ]);
 
+    app.route('/coletores-predicao')
+        .get([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+            ]),
+            controller.obtemColetores,
+        ]);
+
+    app.route('/identificadores-predicao')
+        .get([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+            ]),
+            controller.obtemIdentificadores,
+        ]);
+
     app.route('/usuarios')
         .get([
             tokensMiddleware([
