@@ -176,7 +176,7 @@ class ListaTaxonomiaGenero extends Component {
                 params.genero = genero;
             }
         }
-        axios.get('/generos', { params })
+        axios.get('/api/generos', { params })
             .then(response => {
                 this.setState({
                     loading: false
@@ -225,7 +225,7 @@ class ListaTaxonomiaGenero extends Component {
         this.setState({
             loading: true
         })
-        axios.post('/generos/', {
+        axios.post('/api/generos/', {
             nome: this.props.form.getFieldsValue().nomeGenero,
             familia_id: this.props.form.getFieldsValue().nomeFamilia,
         })
@@ -300,7 +300,7 @@ class ListaTaxonomiaGenero extends Component {
     }
 
     requisitaFamilias = () => {
-        axios.get('/familias/', {
+        axios.get('/api/familias/', {
             params: {
                 limite: 9999999,
             }

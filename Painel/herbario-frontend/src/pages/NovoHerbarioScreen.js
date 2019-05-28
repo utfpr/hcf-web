@@ -42,7 +42,7 @@ class NovoHerbarioScreen extends Component {
 		this.setState({
 			loading: true
 		});
-		axios.get('/paises/')
+		axios.get('/api/paises/')
 			.then(response => {
 				this.setState({
 					loading: false
@@ -79,7 +79,7 @@ class NovoHerbarioScreen extends Component {
 		this.setState({
 			loading: true
 		});
-		axios.get('/estados/', {
+		axios.get('/api/estados/', {
 			params: {
 				id
 			}
@@ -120,7 +120,7 @@ class NovoHerbarioScreen extends Component {
 		this.setState({
 			loading: true
 		});
-		axios.get('/cidades/', {
+		axios.get('/api/cidades/', {
 			params: {
 				id
 			}
@@ -216,7 +216,7 @@ class NovoHerbarioScreen extends Component {
 		if (numero) json.endereco.numero = numero;
 		if (complemento) json.endereco.complemento = complemento;
 
-		axios.post('/herbarios', json)
+		axios.post('/api/herbarios', json)
 			.then(response => {
 				this.setState({
 					loading: false

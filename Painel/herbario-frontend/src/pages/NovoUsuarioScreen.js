@@ -68,7 +68,7 @@ class NovoUsuarioScreen extends Component {
 			tipo,
 		} = valores;
 
-		axios.post('/usuarios', {
+		axios.post('/api/usuarios', {
 			ra,
 			nome,
 			email,

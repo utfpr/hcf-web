@@ -160,7 +160,7 @@ class ListaTaxonomiaScreen extends Component {
                 params.variedade = variedade;
             }
         }
-        axios.get('/taxonomias', { params })
+        axios.get('/api/taxonomias', { params })
             .then(response => {
                 this.setState({
                     loading: false

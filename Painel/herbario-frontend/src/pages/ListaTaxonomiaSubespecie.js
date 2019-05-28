@@ -181,7 +181,7 @@ class ListaTaxonomiaSubespecie extends Component {
                 params.subespecie = subespecie;
             }
         }
-        axios.get('/subespecies', { params })
+        axios.get('/api/subespecies', { params })
             .then(response => {
                 this.setState({
                     loading: false
@@ -229,7 +229,7 @@ class ListaTaxonomiaSubespecie extends Component {
     };
 
     requisitaAutores = () => {
-        axios.get('/autores/', {
+        axios.get('/api/autores/', {
             params: {
                 limite: 9999999,
             }
@@ -259,7 +259,7 @@ class ListaTaxonomiaSubespecie extends Component {
         this.setState({
             loading: true
         })
-        axios.post('/subespecies/', {
+        axios.post('/api/subespecies/', {
             nome: this.props.form.getFieldsValue().nomeSubespecie,
             especie_id: this.props.form.getFieldsValue().nomeEspecie,
             autor_id: this.props.form.getFieldsValue().nomeAutor,
@@ -340,7 +340,7 @@ class ListaTaxonomiaSubespecie extends Component {
     }
 
     requisitaEspecies = () => {
-        axios.get('/especies/', {
+        axios.get('/api/especies/', {
             params: {
                 limite: 9999999,
             }

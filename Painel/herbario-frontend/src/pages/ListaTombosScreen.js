@@ -476,7 +476,7 @@ class ListaTombosScreen extends Component {
                     tombos: exTombos,
                     campos: exportarSelecionados,
                 }
-                axios.get('/tombos/exportar', { params })
+                axios.get('/api/tombos/exportar', { params })
                     .then(response => {
                         this.setState({
                             loading: false

@@ -97,7 +97,7 @@ class ListaRemessasScreen extends Component {
 			limite: 9999999
 		}
 
-		axios.get('/herbarios', { params })
+		axios.get('/api/herbarios', { params })
 			.then(response => {
 				this.setState({
 					loading: false
@@ -173,7 +173,7 @@ class ListaRemessasScreen extends Component {
 
 	requisitaDevolucao(idRemessa, idTombo) {
 
-		axios.get('/remessas-devolver', {
+		axios.get('/api/remessas-devolver', {
 			params: {
 				tombo_id: idTombo,
 				remessa_id: idRemessa,
@@ -256,7 +256,7 @@ class ListaRemessasScreen extends Component {
 			}
 		}
 
-		axios.get('/remessas', { params })
+		axios.get('/api/remessas', { params })
 			.then(response => {
 				this.setState({
 					loading: false

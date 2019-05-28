@@ -146,7 +146,7 @@ class ListaTaxonomiaFamilia extends Component {
                 params.familia = familia;
             }
         }
-        axios.get('/familias', { params })
+        axios.get('/api/familias', { params })
             .then(response => {
                 this.setState({
                     loading: false
@@ -195,7 +195,7 @@ class ListaTaxonomiaFamilia extends Component {
         this.setState({
             loading: true
         })
-        axios.post('/familias/', {
+        axios.post('/api/familias/', {
             nome: this.props.form.getFieldsValue().nomeFamilia
         })
             .then(response => {

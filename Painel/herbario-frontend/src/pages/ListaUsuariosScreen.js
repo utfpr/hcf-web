@@ -148,7 +148,7 @@ class ListaUsuariosScreen extends Component {
 				params.telefone = telefone;
 			}
 		}
-		axios.get('/usuarios', { params })
+		axios.get('/api/usuarios', { params })
 			.then(response => {
 				this.setState({
 					loading: false

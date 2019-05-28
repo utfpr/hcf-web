@@ -137,7 +137,7 @@ class ListaPendenciasScreen extends Component {
 				params.status = status.toUpperCase();
 			}
 		}
-		axios.get('/pendencias', { params })
+		axios.get('/api/pendencias', { params })
 			.then(response => {
 				this.setState({
 					loading: false

@@ -149,7 +149,7 @@ class ListaTaxonomiaAutores extends Component {
                 params.autor = autor;
             }
         }
-        axios.get('/autores', { params })
+        axios.get('/api/autores', { params })
             .then(response => {
                 this.setState({
                     loading: false
@@ -198,7 +198,7 @@ class ListaTaxonomiaAutores extends Component {
         this.setState({
             loading: true
         })
-        axios.post('/autores/', {
+        axios.post('/api/autores/', {
             nome: this.props.form.getFieldsValue().nomeAutor,
             iniciais: this.props.form.getFieldsValue().nomeIniciais,
         })

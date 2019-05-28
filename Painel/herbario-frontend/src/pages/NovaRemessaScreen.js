@@ -127,7 +127,7 @@ class NovaRemessaScreen extends Component {
 			loading: true
 		});
 
-		axios.get('/herbarios/', {
+		axios.get('/api/herbarios/', {
 			params: {
 				limite: 9999999,
 			}
@@ -185,7 +185,7 @@ class NovaRemessaScreen extends Component {
 			doador
 		} = valores;
 
-		axios.post('/remessas/', {
+		axios.post('/api/remessas/', {
 			remessa: {
 				observacao: observacoes,
 				data_envio: dataEnvio,

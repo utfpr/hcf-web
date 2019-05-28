@@ -1,5 +1,5 @@
 const {
-    REACT_APP_API_URL = 'http://localhost:3003/api',
+    REACT_APP_API_URL = 'http://localhost:3003',
 } = process.env;
 
 export const baseUrl = REACT_APP_API_URL;

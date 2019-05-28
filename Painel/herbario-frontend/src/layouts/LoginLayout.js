@@ -35,7 +35,7 @@ export default class LoginLayout extends Component {
     requisitaLoginUsuario = valores => {
         const { email, senha } = valores;
         this.props.load(true);
-        axios.post('/login', { email, senha })
+        axios.post('/api/login', { email, senha })
             .then(response => {
                 this.props.load(false);
                 if (response.status !== 200) {

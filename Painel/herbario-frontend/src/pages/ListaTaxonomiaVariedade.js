@@ -159,7 +159,7 @@ class ListaTaxonomiaVariedade extends Component {
                 params.variedade = variedade;
             }
         }
-        axios.get('/variedades', { params })
+        axios.get('/api/variedades', { params })
             .then(response => {
                 this.setState({
                     loading: false
@@ -207,7 +207,7 @@ class ListaTaxonomiaVariedade extends Component {
     };
 
     requisitaAutores = () => {
-        axios.get('/autores/', {
+        axios.get('/api/autores/', {
             params: {
                 limite: 9999999,
             }
@@ -259,7 +259,7 @@ class ListaTaxonomiaVariedade extends Component {
         this.setState({
             loading: true
         })
-        axios.post('/variedades/', {
+        axios.post('/api/variedades/', {
             nome: this.props.form.getFieldsValue().nomeVariedade,
             especie_id: this.props.form.getFieldsValue().nomeEspecie,
             autor_id: this.props.form.getFieldsValue().nomeAutor,
@@ -340,7 +340,7 @@ class ListaTaxonomiaVariedade extends Component {
     }
 
     requisitaEspecies = () => {
-        axios.get('/especies/', {
+        axios.get('/api/especies/', {
             params: {
                 limite: 9999999,
             }

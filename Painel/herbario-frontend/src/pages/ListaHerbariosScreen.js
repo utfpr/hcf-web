@@ -174,7 +174,7 @@ class ListaHerbariosScreen extends Component {
 			}
 		}
 
-		axios.get('/herbarios', { params })
+		axios.get('/api/herbarios', { params })
 			.then(response => {
 				this.setState({
 					loading: false

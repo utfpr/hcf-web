@@ -29,7 +29,7 @@ export default class MainLayout extends Component {
 		this.setState({
 			loading: true
 		});
-		axios.get('/darwincore')
+		axios.get('/api/darwincore')
 			.then(response => {
 				this.setState({
 					loading: false
