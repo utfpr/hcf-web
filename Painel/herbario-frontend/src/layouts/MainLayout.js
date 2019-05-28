@@ -141,7 +141,7 @@ export default class MainLayout extends Component {
 								<span>Herbários</span>
 							</Link>
 						</Menu.Item>
-						<SubMenu
+						{/* <SubMenu
 							key="sub1"
 							title={
 								<span>
@@ -157,8 +157,8 @@ export default class MainLayout extends Component {
 							<Menu.Item key="13">
 								<Link to="/relatorio-familia">Família & Gênero</Link>
 							</Menu.Item>
-						</SubMenu>
-						<SubMenu
+						</SubMenu> */}
+						{/* <SubMenu
 							key="sub2"
 							title={
 								<span>
@@ -172,13 +172,15 @@ export default class MainLayout extends Component {
 								<Link to="/livro-tombo"> Livro Tombo </Link>{" "}
 							</Menu.Item>
 							<Menu.Item key="15">Tombo</Menu.Item>
-						</SubMenu>
-						<Menu.Item key="16">
+						</SubMenu> */}
+						{isCuradorOuOperador() ? (
+							<Menu.Item key="16">
 							<a href="http://localhost:3003/api/darwincore " target="_blank">
 								<Icon type="desktop" />
 								<span>Darwin Core</span>
 							</a>
-						</Menu.Item>
+							</Menu.Item>
+						) : null}
 						{isCurador() ? (
 							/**
 							 * Adicionando ao menu lateral o botão de serviços,

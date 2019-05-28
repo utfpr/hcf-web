@@ -125,7 +125,7 @@ export default class App extends Component {
             <BrowserRouter>
                 <Switch>
                     <Route path="/inicio" component={InicioScreen} />
-                    <Route path="/" render={this._renderContent} />
+                    <Route path="/tombos" render={this._renderContent} />
                 </Switch>
             </BrowserRouter>
         );
