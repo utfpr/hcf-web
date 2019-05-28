@@ -1,0 +1,14 @@
+server {
+    listen 80 default_server;
+
+    root /var/www/html;
+
+    location ~ /\.well-known {
+        index index.html;
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+

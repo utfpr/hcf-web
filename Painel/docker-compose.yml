@@ -34,9 +34,9 @@ services:
     depends_on:
       - database
 
-  painel:
+  web:
     build: ./herbario-frontend
-    container_name: herbario_painel
+    container_name: herbario_web
     restart: always
     environment:
       NODE_ENV: $NODE_ENV
@@ -51,9 +51,22 @@ services:
     restart: always
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/snippets:/etc/nginx/snippets
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/www/html:/var/www/html
     ports:
       - 80:80
       - 443:443
     depends_on:
       - app
-      - painel
+      - web
+
+#  certbot:
+#    build: ./certbot
+#    container_name: certbot
+#    restart: always
+#    volumes:
+#      - /etc/letsencrypt:/etc/letsencrypt
+#      - /var/www/html:/var/www/html
+#    depends_on:
+#      - nginx
