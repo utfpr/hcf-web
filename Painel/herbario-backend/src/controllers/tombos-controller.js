@@ -1129,28 +1129,25 @@ export const obterTombo = (request, response, next) => {
             let dataCol = '';
             let dataIdent = '';
 
-            // let ultimaData = '';
-            // tombo.usuarios.forEach(item => {
+            const [tomboUsuario] = tombo.usuarios;
 
-            // });
-
-            if (tombo.usuarios[0].alteracoes.identificacao !== false) {
-                if (tombo.usuarios[0].alteracoes.data_identificacao_dia !== null) {
-                    dataIdent = `${tombo.usuarios[0].alteracoes.data_identificacao_dia}/`;
-                    resposta.data_identificacao_dia = tombo.usuarios[0].alteracoes.data_identificacao_dia;
+            if (tomboUsuario && tomboUsuario.alteracoes.identificacao !== false) {
+                if (tomboUsuario.alteracoes.data_identificacao_dia !== null) {
+                    dataIdent = `${tomboUsuario.alteracoes.data_identificacao_dia}/`;
+                    resposta.data_identificacao_dia = tomboUsuario.alteracoes.data_identificacao_dia;
                 }
-                if (tombo.usuarios[0].alteracoes.data_identificacao_mes !== null) {
-                    dataIdent += `${tombo.usuarios[0].alteracoes.data_identificacao_mes}/`;
-                    resposta.data_identificacao_mes = tombo.usuarios[0].alteracoes.data_identificacao_mes;
+                if (tomboUsuario.alteracoes.data_identificacao_mes !== null) {
+                    dataIdent += `${tomboUsuario.alteracoes.data_identificacao_mes}/`;
+                    resposta.data_identificacao_mes = tomboUsuario.alteracoes.data_identificacao_mes;
                 }
-                if (tombo.usuarios[0].alteracoes.data_identificacao_ano !== null) {
-                    dataIdent += `${tombo.usuarios[0].alteracoes.data_identificacao_ano}`;
-                    resposta.data_identificacao_ano = tombo.usuarios[0].alteracoes.data_identificacao_ano;
+                if (tomboUsuario.alteracoes.data_identificacao_ano !== null) {
+                    dataIdent += `${tomboUsuario.alteracoes.data_identificacao_ano}`;
+                    resposta.data_identificacao_ano = tomboUsuario.alteracoes.data_identificacao_ano;
                 }
 
                 if (tombo.usuarios != null && tombo.usuarios.length !== 0 && dataIdent !== '') {
-                    resposta.identificador_nome = tombo.usuarios[0].nome;
-                    resposta.identificadorInicial = tombo.usuarios[0].id;
+                    resposta.identificador_nome = tomboUsuario.nome;
+                    resposta.identificadorInicial = tomboUsuario.id;
                 } else {
                     resposta.identificadorInicial = '';
                 }
