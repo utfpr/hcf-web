@@ -28,4 +28,7 @@ export const options = {
         charset: 'utf8mb4',
         multipleStatements: true,
     },
+
+    max: 30,
+    acquire: 180000,
 };
