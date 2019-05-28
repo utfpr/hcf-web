@@ -60,3 +60,13 @@ services:
     depends_on:
       - app
       - web
+
+#  certbot:
+#    build: ./certbot
+#    container_name: certbot
+#    restart: always
+#    volumes:
+#      - /etc/letsencrypt:/etc/letsencrypt
+#      - /var/www/html:/var/www/html
+#    depends_on:
+#      - nginx
