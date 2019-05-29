@@ -158,12 +158,14 @@ class ListaTombosScreen extends Component {
     }
 
     gerarAcao(id) {
-        if (isCuradorOuOperador) {
-            this.renderDetalhes(id)
-            this.renderEditar(id)
-            this.renderExcluir(id)
+        if (isCuradorOuOperador()) {
+            return [
+                this.renderDetalhes(id),
+                this.renderEditar(id),
+                this.renderExcluir(id)
+            ];
         } else {
-            this.renderDetalhes(id)
+            return this.renderDetalhes(id)
         }
     }
 
