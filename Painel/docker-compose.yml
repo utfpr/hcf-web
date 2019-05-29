@@ -23,6 +23,8 @@ services:
     build: ./herbario-backend
     container_name: herbario_app
     restart: always
+    volumes:
+      - $STORAGE_PATH:$STORAGE_PATH
     environment:
       NODE_ENV: $NODE_ENV
       DB_HOST: herbario_db
