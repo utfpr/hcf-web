@@ -11,7 +11,7 @@ import HeaderListComponent from '../components/HeaderListComponent';
 import { Link } from 'react-router-dom';
 import debounce from 'lodash/debounce';
 import {
-    isIdentificador
+    isIdentificador, isCuradorOuOperador
 } from './../helpers/usuarios';
 
 
@@ -128,30 +128,43 @@ class ListaTombosScreen extends Component {
     }
 
     renderExcluir(id) {
-        if (!isIdentificador()) {
-            return (
-                <div>
-                    <Divider type="vertical" />
-                    <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
-                        <Icon type="delete" style={{ color: "#e30613" }} />
-                    </a>
-                </div>
-            )
-        }
-    }
-    gerarAcao(id) {
         return (
-            <span>
-                <Link to={`/tombos/detalhes/${id}`}>
-                    <Icon type="search" />
-                </Link>
+            <div>
+                <Divider type="vertical" />
+                <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
+                    <Icon type="delete" style={{ color: "#e30613" }} />
+                </a>
+            </div>
+        )
+    }
+
+    renderEditar(id) {
+        return (
+            <div>
                 <Divider type="vertical" />
                 <Link to={`/tombos/${id}`}>
                     <Icon type="edit" style={{ color: "#FFCC00" }} />
                 </Link>
-                {this.renderExcluir(id)}
-            </span>
+            </div>
         )
+    }
+
+    renderDetalhes(id) {
+        return (
+            <Link to={`/tombos/detalhes/${id}`}>
+                <Icon type="search" />
+            </Link>
+        )
+    }
+
+    gerarAcao(id) {
+        if (isCuradorOuOperador) {
+            this.renderDetalhes(id)
+            this.renderEditar(id)
+            this.renderExcluir(id)
+        } else {
+            this.renderDetalhes(id)
+        }
     }
 
     retornaColetores = coletores => coletores.map(item => (
