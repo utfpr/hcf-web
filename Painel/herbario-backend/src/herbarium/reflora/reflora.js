@@ -72,7 +72,7 @@ export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, bod
             atualizaTabelaReflora(codBarra, body, true);
         }
     } else {
-        escreveLOG(`reflora/${nomeArquivo}`, `Erro no código de barra {${codBarra}} que foi ${error}`);
+        escreveLOG(`reflora/${nomeArquivo}`, `Falha na requisição do código de barra {${codBarra}} que foi ${error}`);
     }
     // }
 }

@@ -131,7 +131,7 @@ export function transformaNomeLog(nomeArquivo) {
  */
 export function tempoGastoLog(conteudoLog) {
     const mensagemFinal = conteudoLog.substring(conteudoLog.lastIndexOf(']') + 1, conteudoLog.lastIndexOf('\n'));
-    if (!mensagemFinal.includes(' Erro no código de barra ')) {
+    if (!mensagemFinal.includes(' Falha na requisição do código de barra ')) {
         const dataInicial = conteudoLog.substring(conteudoLog.indexOf('[') + 1, conteudoLog.indexOf(']'));
         const dataFinal = conteudoLog.substring(conteudoLog.lastIndexOf('[') + 1, conteudoLog.lastIndexOf(']'));
         const diferenca = moment(dataFinal, 'DD/MM/YYYY-HH:mm:ss').diff(moment(dataInicial, 'DD/MM/YYYY-HH:mm:ss'));
