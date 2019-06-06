@@ -19,25 +19,25 @@ class CoordenadaInputText extends Component {
         if (this.props.graus) {
             this.setState({
                 graus: this.props.graus
-            })
+            });
         }
 
         if (this.props.minutos) {
             this.setState({
                 minutos: this.props.minutos
-            })
+            });
         }
 
         if (this.props.segundos) {
             this.setState({
                 segundos: this.props.segundos
-            })
+            });
         }
 
         if (this.props.pontoCardeal) {
             this.setState({
                 pontoCardeal: this.props.pontoCardeal
-            })
+            });
         }
     }
 
@@ -52,8 +52,6 @@ class CoordenadaInputText extends Component {
     }
 
     render() {
-        console.log("proppsss")
-        console.log(this.props.graus)
         return (
             <Row gutter={6}>
                 <Col span={6}>

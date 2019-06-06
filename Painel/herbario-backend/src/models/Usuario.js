@@ -12,6 +12,11 @@ function associate(modelos) {
         foreignKey: 'usuario_id',
     });
 
+    // Usuario.hasMany(Alteracao, {
+    //     as: 'alteracoes',
+    //     foreignKey: 'usuario_id',
+    // });
+
     Usuario.belongsTo(Herbario, {
         foreignKey: 'herbario_id',
     });

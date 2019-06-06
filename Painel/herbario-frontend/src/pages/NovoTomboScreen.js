@@ -374,7 +374,7 @@ class NovoTomboScreen extends Component {
         if (dataColetaDia !== undefined) json.principal.data_coleta = { dia: dataColetaDia };
         if (dataColetaMes !== undefined) json.principal.data_coleta = { ...json.principal.data_coleta, mes: dataColetaMes };
         if (dataColetaAno !== undefined) json.principal.data_coleta = { ...json.principal.data_coleta, ano: dataColetaAno };
-        if (tipo !== undefined) json.principal.tipo_id = tipo;
+        if (tipo !== "") json.principal.tipo_id = tipo;
         json.principal.cor = localidadeCor;
         if (familia !== undefined && familia !== "") json.taxonomia = { ...json.taxonomia, familia_id: familia };
         if (genero !== undefined && genero !== "") json.taxonomia = { ...json.taxonomia, genero_id: genero };
@@ -389,13 +389,13 @@ class NovoTomboScreen extends Component {
         if (complemento !== undefined && complemento !== ""){
             json.localidade = { ...json.localidade, complemento };
         }
-        if (solo !== undefined) json.paisagem = { ...json.paisagem, solo_id: solo };
-        if (relevoDescricao !== undefined) json.paisagem = { ...json.paisagem, descricao: relevoDescricao };
-        if (relevo !== undefined) json.paisagem = { ...json.paisagem, relevo_id: relevo };
-        if (vegetacao !== undefined) json.paisagem = { ...json.paisagem, vegetacao_id: vegetacao };
-        if (fases !== undefined) json.paisagem = { ...json.paisagem, fase_sucessional_id: fases };
-        if (identificador !== undefined) json.identificacao = { identificador_id: identificador };
-        if (dataIdentDia !== undefined) {
+        if (solo !== undefined && solo !== "") json.paisagem = { ...json.paisagem, solo_id: solo };
+        if (relevoDescricao !== undefined && relevoDescricao !== "") json.paisagem = { ...json.paisagem, descricao: relevoDescricao };
+        if (relevo !== undefined && relevo !== "") json.paisagem = { ...json.paisagem, relevo_id: relevo };
+        if (vegetacao !== undefined && vegetacao !== "") json.paisagem = { ...json.paisagem, vegetacao_id: vegetacao };
+        if (fases !== undefined && fases !== "") json.paisagem = { ...json.paisagem, fase_sucessional_id: fases };
+        if (identificador !== undefined && identificador !== "") json.identificacao = { identificador_id: identificador };
+        if (dataIdentDia !== undefined && dataColetaDia !== "") {
             json.identificacao = {
                 ...json.identificacao,
                 data_identificacao: {
@@ -403,7 +403,7 @@ class NovoTomboScreen extends Component {
                 }
             }
         }
-        if (dataIdentMes !== undefined) {
+        if (dataIdentMes !== undefined && dataIdentMes !== "") {
             json.identificacao = {
                 ...json.identificacao,
                 data_identificacao: {
@@ -412,7 +412,7 @@ class NovoTomboScreen extends Component {
                 }
             }
         }
-        if (dataIdentAno !== undefined) {
+        if (dataIdentAno !== undefined && dataIdentAno !== "") {
             json.identificacao = {
                 ...json.identificacao,
                 data_identificacao: {
@@ -421,14 +421,14 @@ class NovoTomboScreen extends Component {
                 }
             }
         }
-        const converterInteiroColetores = () => coletores.map(item => parseInt(item));
+        const converterInteiroColetores = () => coletores.map(item => parseInt(item.key));
         json.coletores = converterInteiroColetores()
-        if (tipoColecaoAnexa !== undefined) json.colecoes_anexas = { tipo: tipoColecaoAnexa };
-        if (observacoesColecaoAnexa !== undefined) json.colecoes_anexas = { ...json.colecoes_anexas, observacoes: observacoesColecaoAnexa };
-        if (observacoesTombo !== undefined) json.observacoes = observacoesTombo;
-        if (autorEspecie !== undefined) json.autores = { especie: autorEspecie };
-        if (autoresSubespecie !== undefined) json.autores = { ...json.autores, subespecie: autoresSubespecie };
-        if (autorVariedade !== undefined) json.autores = { ...json.autores, variedade: autorVariedade };
+        if (tipoColecaoAnexa !== undefined && tipoColecaoAnexa != "") json.colecoes_anexas = { tipo: tipoColecaoAnexa };
+        if (observacoesColecaoAnexa !== undefined && observacoesColecaoAnexa !== "") json.colecoes_anexas = { ...json.colecoes_anexas, observacoes: observacoesColecaoAnexa };
+        if (observacoesTombo !== undefined && observacoesTombo !== "") json.observacoes = observacoesTombo;
+        if (autorEspecie !== undefined && autorEspecie !== "") json.autores = { especie: autorEspecie };
+        if (autoresSubespecie !== undefined && autoresSubespecie !== "") json.autores = { ...json.autores, subespecie: autoresSubespecie };
+        if (autorVariedade !== undefined && autorVariedade !== "") json.autores = { ...json.autores, variedade: autorVariedade };
         console.log(json)
         axios.post('/api/tombos', { json })
             .then(response => {
@@ -569,7 +569,7 @@ class NovoTomboScreen extends Component {
     ));
 
     optionIdentificador = () => this.state.identificadores.map(item => (
-        <Option value={`${item.id}`}>{item.nome}</Option>
+        <Option key={`${item.id}`}>{item.nome}</Option>
     ));
 
 
@@ -2091,10 +2091,6 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             {getFieldDecorator('complemento', {
                                 initialValue: String(this.state.complementoInicial),
-                                rules: [{
-                                    required: true,
-                                    message: 'Informe um complemento válido',
-                                }]
                             })(
                                 <TextArea rows={4} />
                             )}
@@ -2555,17 +2551,18 @@ class NovoTomboScreen extends Component {
                                     initialValue: String(this.state.identificadorInicial),
                                 })(
                                     <Select
-                                        mode="default"
+                                        showSearch
                                         style={{ width: '100%' }}
-                                        notFoundContent={this.state.fetchingIdentificadores ? <Spin size="small" /> : null}
-                                        labelInValue
-                                        value={this.state.valoresIdentificadores}
-                                        onChange={this.handleChangeIdentificadores}
+                                        optionFilterProp="children"
+                                        // onChange={this.handleChangeIdentificadores}
                                         placeholder="Selecione o idenficador"
-                                        filterOption={false}
                                         onSearch = {value => {
                                             this.requisitaIdentificadores(value)
                                         }}
+                                        filterOption={false}
+                                        // filterOption={(input, option) =>
+                                        //     option.props.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+                                        // }
                                     >
                                         {this.optionIdentificador()}
                                     </Select>
@@ -2631,10 +2628,10 @@ class NovoTomboScreen extends Component {
         })
     }
 
-    handleChangeIdentificadores = valores => {
+    handleChangeIdentificadores = valor => {
         this.setState({
             fetchingIdentificadores: false,
-            valoresIdentificadores: valores,
+            //identificadorInicial: `${valor}`,
             identificadores: []
         })
     }
@@ -2662,7 +2659,7 @@ class NovoTomboScreen extends Component {
                                         notFoundContent={this.state.fetchingColetores ? <Spin size="small" /> : null}
                                         labelInValue
                                         value={this.state.valoresColetores}
-                                        onChange={this.handleChangeColetores}
+                                        // onChange={this.handleChangeColetores}
                                         placeholder="Selecione os coletores"
                                         filterOption={false}
                                         onSearch = {value => {
@@ -3124,9 +3121,6 @@ class NovoTomboScreen extends Component {
     }
 
     render() {
-        console.log("STATE Estado: ")
-        console.log(this.state.estadoInicial)
-        console.log(this.state.estados)
         
         if (this.state.loading) {
             return (

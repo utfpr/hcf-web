@@ -3,7 +3,7 @@ const {
     DB_USER = 'hcf',
     DB_PASS = 'masterkey',
     DB_HOST = 'mysql995.umbler.com',
-    DB_PORT = '3306',
+    DB_PORT = '41890',
 } = process.env;
 
 

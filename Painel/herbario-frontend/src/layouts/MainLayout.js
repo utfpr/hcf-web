@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon, Col, Spin } from 'antd';
+import { Layout, Menu, Icon, Col, Spin, Button, Row } from 'antd';
 import { Link } from 'react-router-dom';
 import {
 	isCurador,
 	isCuradorOuOperador,
 	isLogado,
+	isCuradorOuOperadorOuIdentificador,
 } from '../helpers/usuarios';
 import axios from 'axios';
 import { setTokenUsuario, setUsuario } from '../helpers/usuarios';
@@ -215,13 +216,20 @@ export default class MainLayout extends Component {
 				</Sider>
 				<Layout>
 					<Header style={{ background: "#fff" }}>
-						<div style={{ cursor: "pointer" }}>
-							<Icon
-								className="trigger"
-								type={this.state.collapsed ? "menu-unfold" : "menu-fold"}
-								onClick={this.toggle}
-							/>
-						</div>
+						<Row type="flex" justify="space-between">
+							<div style={{ cursor: "pointer" }}>
+								<Icon
+									className="trigger"
+									type={this.state.collapsed ? "menu-unfold" : "menu-fold"}
+									onClick={this.toggle}
+								/>
+							</div>
+							{!isCuradorOuOperadorOuIdentificador() ? (
+								<Link to={"/inicio"}>
+									<Button>Entrar</Button>
+								</Link>
+						) : null}
+						</Row>
 					</Header>
 					<Content
 						style={{

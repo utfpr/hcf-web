@@ -25,6 +25,19 @@ function associate(modelos) {
     });
 
     Tombo.belongsToMany(Usuario, {
+        as: 'identificadores',
+        through: {
+            model: Alteracao,
+            scope: {
+                ativo: true,
+                status: 'APROVADO',
+                identificacao: true,
+            },
+        },
+        foreignKey: 'tombo_hcf',
+    });
+
+    Tombo.belongsToMany(Usuario, {
         through: Alteracao,
         foreignKey: 'tombo_hcf',
     });

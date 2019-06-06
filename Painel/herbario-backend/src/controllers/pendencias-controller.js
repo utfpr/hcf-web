@@ -61,6 +61,7 @@ export const listagem = (request, response, next) => {
             limit: limite,
             offset,
             where,
+            order: [['id', 'DESC']],
             transaction,
         }))
         .then(alteracoes => {
@@ -467,12 +468,14 @@ export const formatarTomboNovo = tombo => {
                 novo: tombo.locais_coletum.cidade.nome,
             });
         }
-        parametros.push({
-            key: '16',
-            campo: 'Fase Sucessional',
-            antigo: '',
-            novo: tombo.locais_coletum.fase_sucessional.nome,
-        });
+        if (tombo.locais_coletum.fase_sucessional) {
+            parametros.push({
+                key: '16',
+                campo: 'Fase Sucessional',
+                antigo: '',
+                novo: tombo.locais_coletum.fase_sucessional.nome,
+            });
+        }
     }
     parametros.push({
         key: '17',
@@ -1225,7 +1228,6 @@ export const aprovarComCadastro = (hcf, transaction) => new Promise((resolve, re
 export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promise((resolve, reject) => Tombo.findOne({
     where: {
         hcf,
-        ativo: true,
     },
     include: [
         {
@@ -1251,10 +1253,10 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
 })
     .then(tombos => {
         // eslint-disable-next-line
-            var jsonRetorno = [];
+        var jsonRetorno = [];
         if (tombos.especy) {
             if (alteracao.especie_nome) {
-                if (tombos.especy.nome !== alteracao.especie_nome) {
+                if (tombos.especy.nome !== alteracao.especie_nome || tombos.rascunho) {
                     jsonRetorno.push({
                         key: '1',
                         campo: 'Especie',
@@ -1263,7 +1265,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.especie_nome) {
+        } else if (alteracao.especie_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '1',
                 campo: 'Especie',
@@ -1273,7 +1275,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
         }
         if (tombos.familia) {
             if (alteracao.familia_nome) {
-                if (tombos.familia.nome !== alteracao.familia_nome) {
+                if (tombos.familia.nome !== alteracao.familia_nome || tombos.rascunho) {
                     jsonRetorno.push({
                         key: '2',
                         campo: 'Familia',
@@ -1282,7 +1284,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.familia_nome) {
+        } else if (alteracao.familia_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '2',
                 campo: 'Familia',
@@ -1292,7 +1294,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
         }
         if (tombos.genero) {
             if (alteracao.genero_nome) {
-                if (tombos.genero.nome !== alteracao.genero_nome) {
+                if (tombos.genero.nome !== alteracao.genero_nome || tombos.rascunho) {
                     jsonRetorno.push({
                         key: '3',
                         campo: 'Gênero',
@@ -1301,7 +1303,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.genero_nome) {
+        } else if (alteracao.genero_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '3',
                 campo: 'Gênero',
@@ -1311,7 +1313,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
         }
         if (tombos.variedade) {
             if (alteracao.variedade_nome) {
-                if (tombos.variedade.nome !== alteracao.variedade_nome) {
+                if (tombos.variedade.nome !== alteracao.variedade_nome || tombos.rascunho) {
                     jsonRetorno.push({
                         key: '4',
                         campo: 'Variedade',
@@ -1320,7 +1322,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.variedade_nome) {
+        } else if (alteracao.variedade_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '4',
                 campo: 'Variedade',
@@ -1330,7 +1332,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
         }
         if (tombos.sub_especy) {
             if (alteracao.subespecie_nome) {
-                if (tombos.sub_especy.nome !== alteracao.subespecie_nome) {
+                if (tombos.sub_especy.nome !== alteracao.subespecie_nome || tombos.rascunho) {
                     jsonRetorno.push({
                         key: '5',
                         campo: 'Subespecie',
@@ -1339,7 +1341,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.subespecie_nome) {
+        } else if (alteracao.subespecie_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '5',
                 campo: 'Subespecie',
@@ -1347,7 +1349,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                 novo: alteracao.subespecie_nome,
             });
         }
-        if (tombos.sub_familia) {
+        if (tombos.sub_familia || tombos.rascunho) {
             if (alteracao.subfamilia_nome) {
                 if (tombos.sub_familia.nome !== alteracao.subfamilia_nome) {
                     jsonRetorno.push({
@@ -1358,7 +1360,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
                     });
                 }
             }
-        } else if (alteracao.subfamilia_nome) {
+        } else if (alteracao.subfamilia_nome || tombos.rascunho) {
             jsonRetorno.push({
                 key: '6',
                 campo: 'Subfamilia',
