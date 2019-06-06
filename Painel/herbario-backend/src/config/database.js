@@ -32,5 +32,5 @@ export const options = {
     pool: {
         max: 30,
         acquire: 180000,
-    }
+    },
 };
