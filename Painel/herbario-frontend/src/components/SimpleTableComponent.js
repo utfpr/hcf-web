@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table } from 'antd';
 
 export default class SimpleTableComponent extends Component {
+
 	constructor(props) {
 		super(props);
 
@@ -43,14 +44,14 @@ export default class SimpleTableComponent extends Component {
 
 		this.props.changePage(pagination.current);
 	};
+
 	clearFilters = () => {
 		this.setState({ filteredInfo: null });
 	};
 
-
-	buildColumns = (props, state) => props.columns.map(item => {
+	buildColumns = props => props.columns.map(item => {
 		let itemColumn = {}
-		if (itemColumn.key !== "acao") {
+		if (itemColumn.key !== 'acao') {
 			itemColumn = {
 				title: item.title,
 				dataIndex: item.key,
