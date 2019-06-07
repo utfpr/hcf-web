@@ -274,7 +274,7 @@ export function fazComparacaoInformacao(codBarra, informacaoReflora) {
  */
 export function fazComparacaoTombo() {
     const promessa = Q.defer();
-    const throttle = throttledQueue(1, 1000);
+    const throttle = throttledQueue(1, 2000);
     selectUmaInformacaoReflora().then(informacaoReflora => {
         if (informacaoReflora.length === 0) {
             // eslint-disable-next-line no-console
