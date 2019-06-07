@@ -62,7 +62,7 @@ class FichaTomboScreen extends Component {
 
         this.setState({ loading: true });
 
-        axios.get('/tombos', { params })
+        axios.get('/api/tombos', { params })
             .then(response => {
                 const { status, data } = response;
                 const { metadados, tombos } = data;
