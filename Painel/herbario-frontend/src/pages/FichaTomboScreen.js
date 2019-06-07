@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import {
-    Row, Col, Divider,
+    Row, Col, Divider, Icon,
     Form, Input, Button,
 } from 'antd';
+import { Link } from 'react-router-dom';
 
 import SimpleTableComponent from '../components/SimpleTableComponent';
 // import ButtonExportComponent from '../components/ButtonExportComponent';
@@ -13,24 +14,19 @@ const FormItem = Form.Item;
 const columns = [
     {
         title: 'HCF',
-        type: 'number',
-        key: 'hcf'
+        key: 'hcf',
     },
     {
         title: 'Data Coleta',
-        type: 'text',
-        key: 'data_coleta'
+        key: 'data_coleta',
     },
     {
         title: 'Nome científico',
-        type: 'text',
-        key: 'nome_cientifico'
+        key: 'nome_cientifico',
     },
     {
         title: 'Ação',
-        render: () => (
-            <span>Ações</span>
-        ),
+        key: 'acao',
     }
 ];
 
@@ -42,21 +38,50 @@ class FichaTomboScreen extends Component {
 
     handleFormSubmit = event => {
         event.preventDefault();
-        this.props.form.validateFields(this.validateFieldsCallback);
+        this.props.form.validateFields(this.validaCamposFormulario);
     };
 
-    validateFieldsCallback = (err, values) => {
+    onImprimirClick = (event, tombo) => {
+        event.preventDefault();
+        console.log(tombo);
+    }
+
+    geraColunaAcao = tombo => (
+        <Link to="" onClick={event => this.onImprimirClick(event, tombo)} title="Imprimir ficha">
+            <Icon type="printer" style={{ color: '#277a01' }} />
+        </Link>
+    );
+
+    geraColunaDataColeta = (...args) => {
+        const saida = args.reduce((saida, arg) => {
+            if (!!arg) {
+                saida.push(arg);
+            }
+
+            return saida;
+        }, []);
+
+        return saida.join('/');
+    };
+
+    formataTomboItem = tombo => ({
+        ...tombo,
+        acao: this.geraColunaAcao(tombo),
+        data_coleta: this.geraColunaDataColeta(tombo.data_coleta_dia, tombo.data_coleta_mes, tombo.data_coleta_ano),
+    });
+
+    validaCamposFormulario = (err, values) => {
 
         const params = Object.entries(values)
-            .filter(entry => {
-                const [, value] = entry;
-                return !!value;
+            .filter(entrada => {
+                const [, valor] = entrada;
+                return !!valor;
             })
-            .reduce((output, entry) => {
-                const [key, value] = entry;
+            .reduce((saida, entrada) => {
+                const [chave, valor] = entrada;
                 return {
-                    ...output,
-                    [key]: value,
+                    ...saida,
+                    [chave]: valor,
                 };
             }, {});
 
@@ -67,7 +92,11 @@ class FichaTomboScreen extends Component {
                 const { status, data } = response;
                 const { metadados, tombos } = data;
 
-                this.setState({ loading: false, metadados, tombos });
+                this.setState({
+                    loading: false,
+                    metadados,
+                    tombos: tombos.map(this.formataTomboItem),
+                });
             })
             .catch(err => {
                 console.error(err);
