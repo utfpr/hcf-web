@@ -6,13 +6,11 @@ import {
     Tag, Checkbox, Spin
 } from 'antd';
 import axios from 'axios';
-import SimpleTableComponent from '../components/SimpleTableComponent';
-import HeaderListComponent from '../components/HeaderListComponent';
 import { Link } from 'react-router-dom';
 import debounce from 'lodash/debounce';
-import {
-    isIdentificador, isCuradorOuOperador
-} from './../helpers/usuarios';
+import SimpleTableComponent from '../components/SimpleTableComponent';
+import HeaderListComponent from '../components/HeaderListComponent';
+import { isCuradorOuOperador } from './../helpers/usuarios';
 
 
 const confirm = Modal.confirm;
