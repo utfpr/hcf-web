@@ -9,7 +9,7 @@ import "./assets/css/Search.css";
 
 import MainLayout from './layouts/MainLayout';
 import InicioScreen from './pages/InicioScreen';
-import DashboardScreen from './pages/DashboardScreen';
+// import DashboardScreen from './pages/DashboardScreen';
 import ListaTombosScreen from './pages/ListaTombosScreen';
 import NovoTomboScreen from './pages/NovoTomboScreen';
 import DetalhesTomboScreen from './pages/DetalhesTomboScreen';
@@ -18,6 +18,7 @@ import ListaPendenciasScreen from './pages/ListaPendenciasScreen';
 import ListaRemessasScreen from './pages/ListaRemessasScreen';
 import ListaUsuariosScreen from './pages/ListaUsuariosScreen';
 import ListaHerbariosScreen from './pages/ListaHerbariosScreen';
+import FichaTomboScreen from './pages/FichaTomboScreen';
 import NovoUsuarioScreen from './pages/NovoUsuarioScreen';
 import NovaRemessaScreen from './pages/NovaRemessaScreen';
 import NovoHerbarioScreen from './pages/NovoHerbarioScreen';
@@ -103,6 +104,7 @@ export default class App extends Component {
                 <PrivateRoute authed={isCurador()} path="/herbarios/novo" component={NovoHerbarioScreen} />
                 <PrivateRoute authed={isCurador()} path="/herbarios/:herbario_id" component={NovoHerbarioScreen} />
                 <Route path="/herbarios" component={ListaHerbariosScreen} />
+                <Route path="/fichas/tombos" component={FichaTomboScreen} />
                 <PrivateRoute authed={isCurador()} path="/reflora" component={ListaServicosRefloraScreen} />
                 <PrivateRoute authed={isCurador()} path="/specieslink" component={ListaServicosSpeciesLinkScreen} />
 
