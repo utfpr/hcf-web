@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
-import "antd/dist/antd.css";
-import "./assets/css/App.css";
-import "./assets/css/FormEnterSystem.css";
-import "./assets/css/Main.css";
-import "./assets/css/Search.css";
+import 'antd/dist/antd.css';
+import './assets/css/App.css';
+import './assets/css/FormEnterSystem.css';
+import './assets/css/Main.css';
+import './assets/css/Search.css';
 
 import MainLayout from './layouts/MainLayout';
 import InicioScreen from './pages/InicioScreen';
@@ -36,11 +36,11 @@ import ListaTaxonomiaSubfamilia from './pages/ListaTaxonomiaSubfamilia';
 import ListaTaxonomiaVariedade from './pages/ListaTaxonomiaVariedade';
 import ListaTaxonomiaAutores from './pages/ListaTaxonomiaAutores';
 
-import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
-import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss";
-import "../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css";
+import '../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss';
+import '../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css';
 
 import axios from 'axios';
 import {
