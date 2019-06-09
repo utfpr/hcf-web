@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import Q from 'q';
-import throttledQueue from 'throttled-queue';
 import {
     selectTombo,
     insereAlteracaoSugerida,
@@ -107,78 +106,75 @@ export function realizaComparacao(nomeArquivo, listaConteudoArquivo) {
     } else {
         const conteudo = listaConteudoArquivo.pop();
         const codBarra = conteudo[3];
-        const throttle = throttledQueue(1, 2000);
-        throttle(() => {
-            selectTombo(codBarra).then(async tombo => {
-                if (tombo.length === 0) {
-                    promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
-                } else {
-                    let alteracaoInformacao = '{';
-                    const informacoesTomboBd = tombo[0].dataValues;
-                    // INFORMAÇÕES DO SPECIESLINK
-                    const nomeFamilia = conteudo[10].replace(/"/g, '');
-                    const nomeGenero = conteudo[11].replace(/"/g, '');
-                    const nomeEspecie = conteudo[12].replace(/"/g, '');
-                    const nomeSubespecie = conteudo[13].replace(/"/g, '');
-                    const identificador = conteudo[15].replace(/"/g, '');
-                    const anoIdentificacao = conteudo[16].replace(/"/g, '');
-                    const mesIdentificacao = conteudo[17].replace(/"/g, '');
-                    const diaIdentificacao = conteudo[18].replace(/"/g, '');
-                    await ehIgualFamilia(informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
-                        if (familia !== -1) {
-                            alteracaoInformacao += `"familia_nome": "${familia}", `;
-                        }
-                    });
-                    await ehIgualGenero(informacoesTomboBd.genero_id, nomeGenero).then(genero => {
-                        if (genero !== -1) {
-                            alteracaoInformacao += `"genero_nome": "${genero}", `;
-                        }
-                    });
-                    await ehIgualEspecie(informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
-                        if (especie !== -1) {
-                            alteracaoInformacao += `"especie_nome": "${especie}", `;
-                        }
-                    });
-                    // subespecie
-                    await ehIgualSubespecie(informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
-                        if (subespecie !== -1) {
-                            alteracaoInformacao += `"subespecie_nome: ${subespecie}", `;
-                        }
-                    });
-                    alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
-                    alteracaoInformacao += '}';
-                    if (alteracaoInformacao.length > 2) {
-                        existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
-                            if (!existe) {
-                                selectExisteServicoUsuario(identificador).then(listaUsuario => {
-                                    if (listaUsuario.length === 0) {
-                                        insereIdentificadorUsuario(identificador).then(idUsuario => {
-                                            insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
-                                            // eslint-disable-next-line no-console
-                                            console.log(identificador);
-                                            // eslint-disable-next-line no-console
-                                            console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
-                                            promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
-                                        });
-                                    } else {
-                                        const { id } = listaUsuario[0].dataValues;
-                                        insereAlteracaoSugerida(id, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
+        selectTombo(codBarra).then(async tombo => {
+            if (tombo.length === 0) {
+                promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
+            } else {
+                let alteracaoInformacao = '{';
+                const informacoesTomboBd = tombo[0].dataValues;
+                // INFORMAÇÕES DO SPECIESLINK
+                const nomeFamilia = conteudo[10].replace(/"/g, '');
+                const nomeGenero = conteudo[11].replace(/"/g, '');
+                const nomeEspecie = conteudo[12].replace(/"/g, '');
+                const nomeSubespecie = conteudo[13].replace(/"/g, '');
+                const identificador = conteudo[15].replace(/"/g, '');
+                const anoIdentificacao = conteudo[16].replace(/"/g, '');
+                const mesIdentificacao = conteudo[17].replace(/"/g, '');
+                const diaIdentificacao = conteudo[18].replace(/"/g, '');
+                await ehIgualFamilia(informacoesTomboBd.familia_id, nomeFamilia).then(familia => {
+                    if (familia !== -1) {
+                        alteracaoInformacao += `"familia_nome": "${familia}", `;
+                    }
+                });
+                await ehIgualGenero(informacoesTomboBd.genero_id, nomeGenero).then(genero => {
+                    if (genero !== -1) {
+                        alteracaoInformacao += `"genero_nome": "${genero}", `;
+                    }
+                });
+                await ehIgualEspecie(informacoesTomboBd.especie_id, nomeEspecie).then(especie => {
+                    if (especie !== -1) {
+                        alteracaoInformacao += `"especie_nome": "${especie}", `;
+                    }
+                });
+                // subespecie
+                await ehIgualSubespecie(informacoesTomboBd.sub_especie_id, nomeSubespecie).then(subespecie => {
+                    if (subespecie !== -1) {
+                        alteracaoInformacao += `"subespecie_nome: ${subespecie}", `;
+                    }
+                });
+                alteracaoInformacao = alteracaoInformacao.substring(0, alteracaoInformacao.lastIndexOf(','));
+                alteracaoInformacao += '}';
+                if (alteracaoInformacao.length > 2) {
+                    existeAlteracaoSugerida(codBarra, alteracaoInformacao).then(existe => {
+                        if (!existe) {
+                            selectExisteServicoUsuario(identificador).then(listaUsuario => {
+                                if (listaUsuario.length === 0) {
+                                    insereIdentificadorUsuario(identificador).then(idUsuario => {
+                                        insereAlteracaoSugerida(idUsuario, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
                                         // eslint-disable-next-line no-console
                                         console.log(identificador);
                                         // eslint-disable-next-line no-console
                                         console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
                                         promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
-                                    }
-                                });
-                            } else {
-                                promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
-                            }
-                        });
-                    } else {
-                        promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
-                    }
+                                    });
+                                } else {
+                                    const { id } = listaUsuario[0].dataValues;
+                                    insereAlteracaoSugerida(id, 'ESPERANDO', codBarra, alteracaoInformacao, getDiaIdentificacao(diaIdentificacao), getMesIdentificacao(mesIdentificacao), getAnoIdentificacao(anoIdentificacao));
+                                    // eslint-disable-next-line no-console
+                                    console.log(identificador);
+                                    // eslint-disable-next-line no-console
+                                    console.log(`${diaIdentificacao}/${mesIdentificacao}/${anoIdentificacao}`);
+                                    promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
+                                }
+                            });
+                        } else {
+                            promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
+                        }
+                    });
+                } else {
+                    promessa.resolve(realizaComparacao(nomeArquivo, listaConteudoArquivo));
                 }
-            });
+            }
         });
     }
     return promessa.promise;
