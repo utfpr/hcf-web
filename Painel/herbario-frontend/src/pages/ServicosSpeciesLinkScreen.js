@@ -8,7 +8,7 @@ import HeaderServicesComponent from '../components/HeaderServicesComponent';
 const Panel = Collapse.Panel;
 const Option = Select.Option;
 
-class ListaServicosSpeciesLinkScreen extends Component {
+class ServicosSpeciesLinkScreen extends Component {
 
     /**
      * O constructor é aqui que herda as características do pai, que no caso é 
@@ -272,4 +272,4 @@ class ListaServicosSpeciesLinkScreen extends Component {
 }
 
 // Exportar essa classe como padrão
-export default Form.create()(ListaServicosSpeciesLinkScreen);
+export default Form.create()(ServicosSpeciesLinkScreen);
