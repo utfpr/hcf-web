@@ -22,7 +22,7 @@ const AXIOS = axios.create({
     }
 });
 
-class ListaServicosRefloraScreen extends Component {
+class ServicosRefloraScreen extends Component {
 
     /**
      * O constructor é aqui que herda as características do pai, que no caso é 
@@ -457,4 +457,4 @@ class ListaServicosRefloraScreen extends Component {
 }
 
 // Exportar essa classe como padrão
-export default Form.create()(ListaServicosRefloraScreen);
+export default Form.create()(ServicosRefloraScreen);

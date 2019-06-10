@@ -25,8 +25,8 @@ import NovoHerbarioScreen from './pages/NovoHerbarioScreen';
 import LivroTomboScreen from './pages/LivroTomboScreen';
 import PendenciaPagina from './pages/VerPendenciaScreen';
 
-import ListaServicosRefloraScreen from './pages/ListaServicosRefloraScreen';
-import ListaServicosSpeciesLinkScreen from './pages/ListaServicosSpeciesLinkScreen';
+import ServicosRefloraScreen from './pages/ServicosRefloraScreen';
+import ServicosSpeciesLinkScreen from './pages/ServicosSpeciesLinkScreen';
 
 import ListaTaxonomiaEspecie from './pages/ListaTaxonomiaEspecie';
 import ListaTaxonomiaFamilia from './pages/ListaTaxonomiaFamilia';
@@ -105,8 +105,8 @@ export default class App extends Component {
                 <PrivateRoute authed={isCurador()} path="/herbarios/:herbario_id" component={NovoHerbarioScreen} />
                 <Route path="/herbarios" component={ListaHerbariosScreen} />
                 <Route path="/fichas/tombos" component={FichaTomboScreen} />
-                <PrivateRoute authed={isCurador()} path="/reflora" component={ListaServicosRefloraScreen} />
-                <PrivateRoute authed={isCurador()} path="/specieslink" component={ListaServicosSpeciesLinkScreen} />
+                <PrivateRoute authed={isCurador()} path="/reflora" component={ServicosRefloraScreen} />
+                <PrivateRoute authed={isCurador()} path="/specieslink" component={ServicosSpeciesLinkScreen} />
 
                 <Route path="/livro-tombo" component={LivroTomboScreen} />
 

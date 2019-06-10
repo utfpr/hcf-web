@@ -9,6 +9,7 @@ import {
 } from '../helpers/usuarios';
 import axios from 'axios';
 import { setTokenUsuario, setUsuario } from '../helpers/usuarios';
+import { baseUrl } from '../config/api';
 
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -192,7 +193,7 @@ export default class MainLayout extends Component {
 						</SubMenu> */}
 						{isCuradorOuOperador() ? (
 							<Menu.Item key="16">
-								<a href="http://localhost:3003/api/darwincore " target="_blank">
+								<a href={`${baseUrl}/api/darwincore`} target="_blank">
 									<Icon type="desktop" />
 									<span>Darwin Core</span>
 								</a>
