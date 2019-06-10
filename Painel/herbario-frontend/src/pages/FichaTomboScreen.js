@@ -6,7 +6,8 @@ import {
 } from 'antd';
 
 import SimpleTableComponent from '../components/SimpleTableComponent';
-// import ButtonExportComponent from '../components/ButtonExportComponent';
+
+import { baseUrl } from '../config/api';
 
 const FormItem = Form.Item;
 
@@ -41,7 +42,7 @@ class FichaTomboScreen extends Component {
     };
 
     geraColunaAcao = tombo => (
-        <a target="_blank" href={`http://localhost:3003/api/fichas/tombos/${tombo.hcf}`} title="Imprimir ficha">
+        <a target="_blank" href={`${baseUrl}/api/fichas/tombos/${tombo.hcf}`} title="Imprimir ficha">
             <Icon type="printer" style={{ color: '#277a01' }} />
         </a>
     );
