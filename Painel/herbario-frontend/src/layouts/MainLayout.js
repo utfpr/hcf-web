@@ -177,7 +177,7 @@ export default class MainLayout extends Component {
 						</SubMenu> */}
 						{isCuradorOuOperador() ? (
 							<Menu.Item key="16">
-							<a href={`${baseUrl}/darwincore`} target="_blank">
+							<a href={`${baseUrl}/api/darwincore`} target="_blank">
 								<Icon type="desktop" />
 								<span>Darwin Core</span>
 							</a>
