@@ -4,7 +4,6 @@ import {
     Row, Col, Divider, Icon,
     Form, Input, Button,
 } from 'antd';
-import { Link } from 'react-router-dom';
 
 import SimpleTableComponent from '../components/SimpleTableComponent';
 // import ButtonExportComponent from '../components/ButtonExportComponent';
@@ -41,15 +40,10 @@ class FichaTomboScreen extends Component {
         this.props.form.validateFields(this.validaCamposFormulario);
     };
 
-    onImprimirClick = (event, tombo) => {
-        event.preventDefault();
-        console.log(tombo);
-    }
-
     geraColunaAcao = tombo => (
-        <Link to="" onClick={event => this.onImprimirClick(event, tombo)} title="Imprimir ficha">
+        <a target="_blank" href={`http://localhost:3003/api/fichas/tombos/${tombo.hcf}`} title="Imprimir ficha">
             <Icon type="printer" style={{ color: '#277a01' }} />
-        </Link>
+        </a>
     );
 
     geraColunaDataColeta = (...args) => {
@@ -89,7 +83,7 @@ class FichaTomboScreen extends Component {
 
         axios.get('/api/tombos', { params })
             .then(response => {
-                const { status, data } = response;
+                const { data } = response;
                 const { metadados, tombos } = data;
 
                 this.setState({
