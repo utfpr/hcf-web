@@ -287,7 +287,7 @@ class NovaRemessaScreen extends Component {
 	gerarAcao(item) {
 		return (
 			<span>
-				<a href="" onClick={() => this.mostraMensagemDelete(item.id)}>
+				<a href="#" onClick={() => this.mostraMensagemDelete(item.id)}>
 					<Icon type="delete" style={{ color: "#e30613" }} />
 				</a>
 			</span>

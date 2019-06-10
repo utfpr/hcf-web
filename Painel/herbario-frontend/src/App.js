@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
-import "antd/dist/antd.css";
-import "./assets/css/App.css";
-import "./assets/css/FormEnterSystem.css";
-import "./assets/css/Main.css";
-import "./assets/css/Search.css";
+import 'antd/dist/antd.css';
+import './assets/css/App.css';
+import './assets/css/FormEnterSystem.css';
+import './assets/css/Main.css';
+import './assets/css/Search.css';
 
 import MainLayout from './layouts/MainLayout';
 import InicioScreen from './pages/InicioScreen';
-import DashboardScreen from './pages/DashboardScreen';
+// import DashboardScreen from './pages/DashboardScreen';
 import ListaTombosScreen from './pages/ListaTombosScreen';
 import NovoTomboScreen from './pages/NovoTomboScreen';
 import DetalhesTomboScreen from './pages/DetalhesTomboScreen';
@@ -18,6 +18,7 @@ import ListaPendenciasScreen from './pages/ListaPendenciasScreen';
 import ListaRemessasScreen from './pages/ListaRemessasScreen';
 import ListaUsuariosScreen from './pages/ListaUsuariosScreen';
 import ListaHerbariosScreen from './pages/ListaHerbariosScreen';
+import FichaTomboScreen from './pages/FichaTomboScreen';
 import NovoUsuarioScreen from './pages/NovoUsuarioScreen';
 import NovaRemessaScreen from './pages/NovaRemessaScreen';
 import NovoHerbarioScreen from './pages/NovoHerbarioScreen';
@@ -35,11 +36,11 @@ import ListaTaxonomiaSubfamilia from './pages/ListaTaxonomiaSubfamilia';
 import ListaTaxonomiaVariedade from './pages/ListaTaxonomiaVariedade';
 import ListaTaxonomiaAutores from './pages/ListaTaxonomiaAutores';
 
-import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
-import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss";
-import "../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css";
+import '../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss';
+import '../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css';
 
 import axios from 'axios';
 import {
@@ -103,6 +104,7 @@ export default class App extends Component {
                 <PrivateRoute authed={isCurador()} path="/herbarios/novo" component={NovoHerbarioScreen} />
                 <PrivateRoute authed={isCurador()} path="/herbarios/:herbario_id" component={NovoHerbarioScreen} />
                 <Route path="/herbarios" component={ListaHerbariosScreen} />
+                <Route path="/fichas/tombos" component={FichaTomboScreen} />
                 <PrivateRoute authed={isCurador()} path="/reflora" component={ServicosRefloraScreen} />
                 <PrivateRoute authed={isCurador()} path="/specieslink" component={ServicosSpeciesLinkScreen} />
 

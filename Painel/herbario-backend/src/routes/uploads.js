@@ -1,5 +1,5 @@
 import multer from 'multer';
-import { upload } from '../config/upload';
+import { upload } from '../config/directory';
 import tokensMiddleware, { TIPOS_USUARIOS } from '../middlewares/tokens-middleware';
 
 const controller = require('../controllers/uploads-controller');

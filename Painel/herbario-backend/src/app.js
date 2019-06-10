@@ -6,7 +6,7 @@ import morgan from 'morgan';
 import routes from './routes';
 import errors from './middlewares/erros-middleware';
 
-import { storage } from './config/upload';
+import { storage, assets } from './config/directory';
 
 import { daemonFazRequisicaoReflora } from './herbarium/reflora/main';
 import { daemonSpeciesLink } from './herbarium/specieslink/main';
@@ -17,6 +17,7 @@ app.use(parser.json());
 app.use(morgan('dev'));
 
 app.use('/fotos', express.static(storage));
+app.use('/assets', express.static(assets));
 
 app.use('/api', routes);
 app.use(errors);

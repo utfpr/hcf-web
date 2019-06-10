@@ -143,6 +143,22 @@ export default class MainLayout extends Component {
 								<span>Herbários</span>
 							</Link>
 						</Menu.Item>
+						<SubMenu
+							key="sub2"
+							title={
+								<span>
+									<Icon type="file-text" />
+									<span>Fichas</span>
+								</span>
+							}
+						>
+							<Menu.Item key="14">
+								{' '}<Link to="/livro-tombo">Livro Tombo</Link>{' '}
+							</Menu.Item>
+							<Menu.Item key="15">
+								{' '}<Link to="/fichas/tombos">Ficha Tombo</Link>{' '}
+							</Menu.Item>
+						</SubMenu>
 						{/* <SubMenu
 							key="sub1"
 							title={
@@ -177,10 +193,10 @@ export default class MainLayout extends Component {
 						</SubMenu> */}
 						{isCuradorOuOperador() ? (
 							<Menu.Item key="16">
-							<a href={`${baseUrl}/api/darwincore`} target="_blank">
-								<Icon type="desktop" />
-								<span>Darwin Core</span>
-							</a>
+								<a href={`${baseUrl}/api/darwincore`} target="_blank">
+									<Icon type="desktop" />
+									<span>Darwin Core</span>
+								</a>
 							</Menu.Item>
 						) : null}
 						{isCurador() ? (
@@ -198,12 +214,12 @@ export default class MainLayout extends Component {
 							</SubMenu>
 						) : null}
 						{isLogado() ? (
-							
+
 							<Menu.Item key="17">
-								<Link to="/inicio" onClick = {() => {
+								<Link to="/inicio" onClick={() => {
 									setTokenUsuario("");
 									localStorage.setItem('token', "");
-							
+
 									setUsuario("");
 									localStorage.setItem('usuario', "");
 									console.log("ZERO TOKEN")
@@ -229,7 +245,7 @@ export default class MainLayout extends Component {
 								<Link to={"/inicio"}>
 									<Button>Entrar</Button>
 								</Link>
-						) : null}
+							) : null}
 						</Row>
 					</Header>
 					<Content

@@ -42,6 +42,13 @@
                 "args": "none"
             }
         ],
+        "comma-dangle": [
+            "error",
+            "always-multiline",
+            {
+                "functions": "ignore"
+            }
+        ],
         "class-methods-use-this": "off",
         "no-useless-constructor": "off"
     }
