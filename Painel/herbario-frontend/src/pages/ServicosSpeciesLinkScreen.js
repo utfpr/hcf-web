@@ -7,8 +7,19 @@ import HeaderServicesComponent from '../components/HeaderServicesComponent';
 
 const Panel = Collapse.Panel;
 const Option = Select.Option;
+/**
+ * Instanciamos o axios dessa forma diferente, para evitar problemas no back end.
+ * Esse problema no back end, está relacionado ao CORS, então por isso adicionamos
+ * um parâmetro no cabeçalho que será utilizado na requisição.
+ */
+const AXIOS = axios.create({
+    baseURL: 'http://localhost:3003/api',
+    headers: {
+        'Access-Control-Allow-Origin': 'http://localhost:3003/api'
+    }
+});
 
-class ListaServicosSpeciesLinkScreen extends Component {
+class ServicosSpeciesLinkScreen extends Component {
 
     /**
      * O constructor é aqui que herda as características do pai, que no caso é 
@@ -72,7 +83,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
         const params = {
             herbarioVirtual: 'specieslink',
         };
-        axios.get('/specieslink-todoslogs', { params }).then(response => {
+        AXIOS.get('/specieslink-todoslogs', { params }).then(response => {
             if (response.status === 200) {
                 const logs = response.data.logs.sort();
                 const duracao = response.data.duracao;
@@ -95,7 +106,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
      */
     statusExecucao = () => {
         this.timerStatusExecucao = setInterval(() => {
-            axios.get('/specieslink-status-execucao').then(response => {
+            AXIOS.get('/specieslink-status-execucao').then(response => {
                 if (response.status === 200) {
                     if (response.data.result) {
                         if (this.state.estaMontado) {
@@ -123,7 +134,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
             herbarioVirtual: 'specieslink',
             nomeLog: log,
         };
-        axios.get('/specieslink-log', { params }).then(response => {
+        AXIOS.get('/specieslink-log', { params }).then(response => {
             if (this.state.estaMontado) {
                 this.setState({ saidaLOG: response.data.log });
             }
@@ -145,7 +156,7 @@ class ListaServicosSpeciesLinkScreen extends Component {
                 'content-type': 'multipart/form-data'
             }
         };
-        axios.post("/specieslink-executa", dadosArquivo, cabecalhoRequisicao).then(response => {
+        AXIOS.post("/specieslink-executa", dadosArquivo, cabecalhoRequisicao).then(response => {
             if (response.status === 200) {
                 if (response.data.result === 'error_file') {
                     this.exibeNotificacao('error', 'Falha', 'O arquivo não é o esperado.');
@@ -272,4 +283,4 @@ class ListaServicosSpeciesLinkScreen extends Component {
 }
 
 // Exportar essa classe como padrão
-export default Form.create()(ListaServicosSpeciesLinkScreen);
+export default Form.create()(ServicosSpeciesLinkScreen);

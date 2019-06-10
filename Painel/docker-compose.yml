@@ -27,8 +27,9 @@ services:
       - $STORAGE_PATH:$STORAGE_PATH
     environment:
       NODE_ENV: $NODE_ENV
-      DB_HOST: herbario_db
       DB_NAME: $DB_NAME
+      DB_HOST: herbario_db
+      DB_PORT: 3306
       DB_USER: $DB_USER
       DB_PASS: $DB_PASS
       UPLOAD_PATH: $UPLOAD_PATH
