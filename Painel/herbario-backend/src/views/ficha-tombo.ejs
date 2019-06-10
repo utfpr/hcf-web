@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ficha Tombo</title>
+    <style>
+        @page {
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 1vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .tabela-principal {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .tabela-principal td {
+            /* border: 1px solid #f0f; */
+            padding: 8px;
+        }
+
+        .tabela-principal td:first-child {
+            border-left: 1px solid #333;
+        }
+
+        .tabela-principal td:last-child {
+            border-right: 1px solid #333;
+        }
+
+        .tabela-principal tr:first-child td {
+            border-top: 1px solid #333;
+        }
+
+        .tabela-principal tr:last-child td {
+            border-bottom: 1px solid #333;
+        }
+
+        .tabela-principal .linha-vazia {
+            height: 5px;
+        }
+
+        .tabela-principal .celular-imagem {
+            border-right: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="tabela-principal">
+        <tr>
+            <td rowspan="2" width="200" class="celular-imagem text-center">
+                <img width="200" src="http://localhost:3003/assets/logo-utfpr.jpg" alt="Logo UTFPR">
+                <span style="font-size: .8em;"><b>CAMPUS CAMPO MOURÃO</b></span>
+            </td>
+            <td colspan="3" class="text-center">
+                <b>Herbário da Universidade Tecnológica Federal do Paraná - Campus Campo Mourão</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="border: none;">
+                <b>HCF:</b> <%- tombo.hcf %>
+            </td>
+            <td colspan="2">
+                <b>Data:</b> <%- tombo.data_tombo %>
+            </td>
+        </tr>
+        <% if (familia && familia.nome) { %>
+        <tr>
+            <td colspan="4">
+                <b>Família:</b> <%- tombo.familia.nome %>
+            </td>
+        </tr>
+        <% } %>
+        <% if (especie && especie.nome) { %>
+        <tr>
+            <td colspan="4">
+                <b>Espécie:</b> <%- especie.nome %>
+            </td>
+        </tr>
+        <% } %>
+        <tr>
+            <td colspan="4" class="linha-vazia"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <b>Nome Vulgar:</b> <%- tombo.nomes_populares %>
+            </td>
+        </tr>
+        <% if (identificacao && identificacao.usuario) { %>
+        <tr>
+            <td colspan="3">
+                <b>Identificador:</b> <%- identificacao.usuario.nome %>
+            </td>
+            <td>
+                <b>Data:</b> <%- identificacao.data_identificacao %>
+            </td>
+        </tr>
+        <% } %>
+        <tr>
+            <td colspan="4">
+                <b>Local de coleta:</b>
+                <%- localColeta.descricao %>
+                - <%- localColeta.complemento %>
+                - <%- cidade.nome %>
+                - <%- cidade.estado.nome %>
+                - <%- cidade.estado.pais.nome %>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="linha-vazia"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <b>Observações:</b> <%- tombo.observacao %>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="linha-vazia"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="linha-vazia"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b><%- tombo.coletores.length == 1 ? 'Coletor' : 'Coletores' %>:</b> <%- tombo.coletores %>
+            </td>
+            <td width="20%">
+                <b>nº:</b> <%- tombo.numero_coleta %>
+            </td>
+            <td width="30%">
+                <b>Data:</b> <%- tombo.data_coleta %>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function onPageLoaded() {
+            window.print();
+        }
+
+        window.addEventListener('load', onPageLoaded);
+    </script>
+</body>
+
+</html>

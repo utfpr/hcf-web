@@ -56,7 +56,7 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: true,
         },
-        data_indentificacao_ano: {
+        data_identificacao_ano: {
             type: DataTypes.INTEGER,
             allowNull: true,
         },
