@@ -1,5 +1,5 @@
 import { renderFile } from 'ejs';
-import { resolve } from 'path';
+import path from 'path';
 import moment from 'moment-timezone';
 
 import formataDataColeta from '../helpers/formata-data-coleta';
@@ -24,13 +24,24 @@ function formataDataSaida(data) {
         .format('D/M/YYYY');
 }
 
+function renderizaArquivoHtml(caminho, parametros) {
+    return new Promise((resolve, reject) => {
+
+        function onRenderCompleted(err, html) {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve(html);
+        }
+
+        renderFile(caminho, parametros, {}, onRenderCompleted);
+    });
+}
+
 export default function fichaTomboController(request, response, next) {
     const { tombo_id: tomboId } = request.params;
-
-    function onRenderCompleted(err, html) {
-        response.status(200)
-            .send(html);
-    }
 
     Promise.resolve()
         .then(_ => {
@@ -96,8 +107,6 @@ export default function fichaTomboController(request, response, next) {
 
             return Alteracao.findAll({ include, where, ...options })
                 .then(alteracoes => {
-                    const [identificacao] = alteracoes;
-
                     if (alteracoes.length < 1) {
                         return {
                             tombo: tombo.toJSON(),
@@ -105,6 +114,7 @@ export default function fichaTomboController(request, response, next) {
                         };
                     }
 
+                    const [identificacao] = alteracoes;
                     return {
                         tombo: tombo.toJSON(),
                         identificacao: identificacao.toJSON(),
@@ -153,6 +163,11 @@ export default function fichaTomboController(request, response, next) {
                 pais,
             };
 
-            renderFile(resolve(__dirname, '../views/ficha-tombo.ejs'), parametros, {}, onRenderCompleted);
-        });
+            const caminhoArquivoHtml = path.resolve(__dirname, '../views/ficha-tombo.ejs');
+            return renderizaArquivoHtml(caminhoArquivoHtml, parametros, response)
+                .then(html => {
+                    response.status(200).send(html);
+                });
+        })
+        .catch(next);
 }
