@@ -101,7 +101,7 @@ export default function fichaTomboController(request, response, next) {
                     if (alteracoes.length < 1) {
                         return {
                             tombo: tombo.toJSON(),
-                            identificacao: null,
+                            identificacao: {},
                         };
                     }
 
@@ -113,7 +113,7 @@ export default function fichaTomboController(request, response, next) {
 
         })
         .then(resultado => {
-            const { tombo, identificacao = {} } = resultado;
+            const { tombo, identificacao } = resultado;
 
             const coletores = tombo.coletores
                 .map(coletor => coletor.nome)

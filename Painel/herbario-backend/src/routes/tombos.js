@@ -12,7 +12,7 @@ import {
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
     buscarProximoNumeroColetor, alteracao,
 } from '../controllers/tombos-controller';
-import fichaTomboController from '../controllers/fichas-tombos-cntroller';
+import fichaTomboController from '../controllers/fichas-tombos-controller';
 
 export default app => {
 
