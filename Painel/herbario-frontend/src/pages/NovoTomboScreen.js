@@ -117,6 +117,7 @@ class NovoTomboScreen extends Component {
             .then(response => {
                 if (response.status === 200) {
                     let data = response.data
+                    console.log(data)
                     this.setState({
                         ...this.state,
                         loading: false,
@@ -146,15 +147,7 @@ class NovoTomboScreen extends Component {
     }
     
     insereDadosFormulario(dados) {
-        if (dados.localizacao) {
-            this.setState({
-                latGraus: dados.localizacao.latitude_graus,
-                latMinutos: dados.localizacao.latitude_min,
-                latSegundos: dados.localizacao.latitude_sec,
-            })
-        }
-        this.setState({
-            ...this.state,
+        const insereState = {
             estados: dados.estados,
             cidades: dados.cidades,
             subfamilias: dados.subfamilias,
@@ -162,8 +155,23 @@ class NovoTomboScreen extends Component {
             especies: dados.especies,
             subespecies: dados.subespecies,
             variedades: dados.variedades,
-        })
+        };
+        if (dados.localizacao) {
+            insereState = {
+                ...insereState,
+                latGraus: dados.localizacao.latitude_graus,
+                latMinutos: dados.localizacao.latitude_min,
+                latSegundos: dados.localizacao.latitude_sec,
+            }
+        }
+        if (dados.retorno.identificadores) {
+            this.setState({
+                insereState,
+                identificadores: dados.retorno.identificadores,
+            })
+        }
         this.props.form.setFields({
+            coletores: dados.coletoresInicial,
             altitude: {
                 value: dados.localizacao.altitude,
             },
@@ -2647,7 +2655,7 @@ class NovoTomboScreen extends Component {
                         <Col span={22}>
                             <FormItem validateStatus={this.state.search.coletor}>
                                 {getFieldDecorator('coletores', {
-                                    initialValue: String(this.state.coletoresInicial),
+                                    //initialValue:  this.state.coletoresInicial != '' ? String(this.state.coletoresInicial) : "oi",
                                     rules: [{
                                         required: true,
                                         message: 'Insira ao menos um coletor',
@@ -3121,7 +3129,8 @@ class NovoTomboScreen extends Component {
     }
 
     render() {
-        
+        console.log(this.props.form.getFieldsValue())
+        console.log(this.state.fotosExsicata)
         if (this.state.loading) {
             return (
                 <Spin tip="Carregando...">

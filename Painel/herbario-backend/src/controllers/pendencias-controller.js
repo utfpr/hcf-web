@@ -37,12 +37,14 @@ export const listagem = (request, response, next) => {
         },
         resultado: {},
     };
-    let where = {};
+    let where = {
+        ativo: 1,
+    };
     let whereUsuario = {};
     if (status) {
         where = {
+            ...where,
             status,
-            ativo: 1,
         };
     }
     if (nomeUsuario) {

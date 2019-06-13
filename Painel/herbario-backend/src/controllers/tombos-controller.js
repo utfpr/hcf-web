@@ -116,6 +116,9 @@ export const cadastro = (request, response, next) => {
             if (paisagem) {
                 json = pick(paisagem, ['descricao', 'solo_id', 'relevo_id', 'vegetacao_id', 'fase_sucessional_id']);
             }
+            if (localidade.complemento) {
+                json.complemento = localidade.complemento;
+            }
             json.cidade_id = localidade.cidade_id;
             return LocalColeta.create(json, { transaction });
         })
@@ -332,6 +335,10 @@ export const cadastro = (request, response, next) => {
             }
             let status = 'ESPERANDO';
             principal.hcf = tombo.hcf;
+            // eslint-disable-next-line
+            console.log('ID ENVIADOOOOOOO0OOOOO 1')
+            // eslint-disable-next-line
+            console.log(request.usuario.tipo_usuario_id)
             if (request.usuario.tipo_usuario_id === 1) {
                 status = 'APROVADO';
             }
@@ -366,9 +373,14 @@ export const cadastro = (request, response, next) => {
                     };
 
                     principal.hcf = tomboCriado.hcf;
+                    // eslint-disable-next-line
+                    console.log('ID ENVIADOOOOOOO0OOOOO 2')
+                    // eslint-disable-next-line
+                    console.log(request.usuario.tipo_usuario_id)
                     if (request.usuario.tipo_usuario_id === 1) {
                         status = 'APROVADO';
                     }
+                    dados.status = status;
                     if (nomeFamilia !== "") {
                         jsonTaxonomia.familia_nome = nomeFamilia;
                     }
@@ -1044,8 +1056,10 @@ export const obterTombo = (request, response, next) => {
                     },
                 },
             ],
-
         }))
+        // .then(tombo => {
+        //     response.status(codigos.BUSCAR_UM_ITEM).json(tombo);
+        // })
         .then(tombo => {
         // eslint-disable-next-line
 
@@ -1073,8 +1087,11 @@ export const obterTombo = (request, response, next) => {
                 relevoInicial: tombo.locais_coletum !== null && tombo.locais_coletum.relevo !== null ? tombo.locais_coletum.relevo.id : '',
                 vegetacaoInicial: tombo.locais_coletum !== null && tombo.locais_coletum.vegetaco !== null ? tombo.locais_coletum.vegetaco.id : '',
                 faseInicial: tombo.locais_coletum !== null && tombo.locais_coletum.fase_sucessional !== null ? tombo.locais_coletum.fase_sucessional.numero : '',
-                coletoresInicial: tombo.coletores.map(coletor => coletor.id),
-                colecaoInicial: tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.id : '',
+                coletoresInicial: tombo.coletores.map(coletor => ({
+                    key: `${coletor.id}`,
+                    label: coletor.nome,
+                })),
+                colecaoInicial: tombo.colecoes_anexa !== null ? tombo.colecoes_anexa.tipo : '',
                 complementoInicial: tombo.localizacao !== null && tombo.localizacao !== undefined ? tombo.localizacao.complemento : '',
                 hcf: tombo.hcf,
                 situacao: tombo.situacao,
@@ -1151,7 +1168,7 @@ export const obterTombo = (request, response, next) => {
                     resposta.data_identificacao_ano = tomboUsuario.alteracoes.data_identificacao_ano;
                 }
                 resposta.identificador_nome = tomboUsuario.nome;
-                resposta.identificadorInicial = tomboUsuario.id;
+                resposta.identificadorInicial = `${tomboUsuario.id}`;
             } else {
                 resposta.identificadorInicial = '';
             }
@@ -1278,6 +1295,19 @@ export const obterTombo = (request, response, next) => {
                 resposta.variedades = [];
             }
         })
+        .then(() => Alteracao.findOne({
+            where: {
+                tombo_hcf: dadosTombo.hcf,
+                status: 'APROVADO',
+                identificacao: true,
+            },
+            order: [['created_at', 'DESC']],
+        }))
+        .then(alter => {
+            if (alter) {
+                resposta.identificacao = alter;
+            }
+        })
         .then(() => TomboFoto.findAll({
             where: {
                 tombo_hcf: id,
@@ -1287,24 +1317,25 @@ export const obterTombo = (request, response, next) => {
         }))
         .then(fotos => {
             const formatoFotos = [];
-            resposta.fotosExsicata = formatoFotos.filter(item => {
-                if (!item.em_vivo) {
-                    return {
-                        original: item.caminho_foto,
-                        thumbnail: item.caminho_foto,
-                    };
+            const fotosExsicata = [];
+            const fotosEmVivo = [];
+
+            // eslint-disable-next-line no-plusplus
+            for (let i = 0; i < fotos.length; i++) {
+                if (!fotos[i].em_vivo) {
+                    fotosExsicata.push({
+                        original: fotos[i].caminho_foto,
+                        thumbnail: fotos[i].caminho_foto,
+                    });
+                } else {
+                    fotosEmVivo.push({
+                        original: fotos[i].caminho_foto,
+                        thumbnail: fotos[i].caminho_foto,
+                    });
                 }
-                return {};
-            });
-            resposta.fotosEmVivo = formatoFotos.filter(item => {
-                if (item.em_vivo) {
-                    return {
-                        original: item.caminho_foto,
-                        thumbnail: item.caminho_foto,
-                    };
-                }
-                return {};
-            });
+            }
+            resposta.fotos_exsicata = fotosExsicata;
+            resposta.fotos_vivo = fotosEmVivo;
             fotos.map(foto => formatoFotos.push({
                 original: foto.caminho_foto,
                 thumbnail: foto.caminho_foto,
