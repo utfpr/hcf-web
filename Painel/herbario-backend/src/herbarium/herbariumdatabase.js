@@ -614,7 +614,7 @@ export function insereAlteracaoSugerida(idUsuario, statusAlteracao, idTombo, tom
             identificacao: true,
             data_identificacao_dia: diaIdentificacao,
             data_identificacao_mes: mesIdentificacao,
-            data_indentificacao_ano: anoIdentificacao,
+            data_identificacao_ano: anoIdentificacao,
         }).then(() => {
             promessa.resolve();
         });
