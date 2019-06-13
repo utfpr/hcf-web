@@ -7,6 +7,11 @@ function associate(modelos) {
     Estado.belongsTo(Pais, {
         foreignKey: 'pais_id',
     });
+
+    Estado.belongsTo(Pais, {
+        as: 'pais',
+        foreignKey: 'pais_id',
+    });
 }
 
 export const defaultScope = {

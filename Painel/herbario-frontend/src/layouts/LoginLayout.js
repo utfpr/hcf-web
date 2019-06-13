@@ -59,7 +59,6 @@ export default class LoginLayout extends Component {
                         codigo: response.status
                     }
                     this.props.requisicao(value);
-                    const { error } = response.data;
                 }
             })
             .catch(this.catchRequestError);

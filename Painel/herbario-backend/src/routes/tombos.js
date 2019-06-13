@@ -12,6 +12,7 @@ import {
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
     buscarProximoNumeroColetor, alteracao,
 } from '../controllers/tombos-controller';
+import fichaTomboController from '../controllers/fichas-tombos-controller';
 
 export default app => {
 
@@ -105,4 +106,6 @@ export default app => {
             buscarProximoNumeroColetor,
         ]);
 
+    app.route('/fichas/tombos/:tombo_id')
+        .get(fichaTomboController);
 };

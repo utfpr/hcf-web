@@ -1,7 +1,7 @@
 import multer from 'multer';
 import path from 'path';
 import moment from 'moment';
-import { upload } from '../config/upload';
+import { upload } from '../config/directory';
 
 const controller = require('../controllers/specieslink-controller');
 const controllerComum = require('../controllers/herbariovirtual-controller');

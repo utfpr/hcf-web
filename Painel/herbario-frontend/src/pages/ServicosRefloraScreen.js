@@ -33,7 +33,7 @@ class ServicosRefloraScreen extends Component {
         super(props);
         this.state = {
             estaMontado: false,
-            desabilitaCamposAtualizacaoAutomatico: true,
+            desabilitaCamposAtualizacaoProgramada: true,
             horarioUltimaAtualizacao: '',
             duracaoAtualizacao: '',
             executando: false,
@@ -101,18 +101,18 @@ class ServicosRefloraScreen extends Component {
                         }
                     }
                     if (response.data.periodicidade === ' ') {
-                        if (!this.state.desabilitaCamposAtualizacaoAutomatico) {
+                        if (!this.state.desabilitaCamposAtualizacaoProgramada) {
                             if (this.state.estaMontado) {
-                                this.setState({ desabilitaCamposAtualizacaoAutomatico: true });
+                                this.setState({ desabilitaCamposAtualizacaoProgramada: true });
                             }
                         }
                     } else {
                         if (this.state.estaMontado) {
                             this.setState({ periodicidadeAtualizacao: response.data.periodicidade });
                         }
-                        if (this.state.desabilitaCamposAtualizacaoAutomatico) {
+                        if (this.state.desabilitaCamposAtualizacaoProgramada) {
                             if (this.state.estaMontado) {
-                                this.setState({ desabilitaCamposAtualizacaoAutomatico: false });
+                                this.setState({ desabilitaCamposAtualizacaoProgramada: false });
                             }
                         }
                     }
@@ -122,16 +122,16 @@ class ServicosRefloraScreen extends Component {
     }
 
     /**
-     * A função trocaEstadoCamposAtualizacaoAutomatico, ela é invocada quando o
+     * A função trocaEstadoCamposAtualizacaoProgramada, ela é invocada quando o
      * usuário habilita ou desabilita o Switch presente na interface. Então
      * se a variável de estado inicial é false quando o usuário troca nesse Switch
      * ela muda o estado da variável para verdadeiro, e o contrário também é válido.
      * Essa função é utilizada para poder habilitar os campos para se programar
      * uma atualização.
      */
-    trocaEstadoCamposAtualizacaoAutomatico() {
+    trocaEstadoCamposAtualizacaoProgramada() {
         if (this.state.estaMontado) {
-            this.setState({ desabilitaCamposAtualizacaoAutomatico: !this.state.desabilitaCamposAtualizacaoAutomatico });
+            this.setState({ desabilitaCamposAtualizacaoProgramada: !this.state.desabilitaCamposAtualizacaoProgramada });
         }
     }
 
@@ -373,11 +373,11 @@ class ServicosRefloraScreen extends Component {
                 </Row>
                 <Row gutter={6}>
                     <Col span={6} style={{ top: '21px' }}>
-                        <span>Atualização automática</span>
+                        <span>Atualização programada</span>
                     </Col>
                     <Col span={6} style={{ top: '12px', textAlign: 'center' }}>
                         <FormItem>
-                            <Switch checked={!this.state.desabilitaCamposAtualizacaoAutomatico} onChange={this.trocaEstadoCamposAtualizacaoAutomatico.bind(this)} disabled={this.state.executando} />
+                            <Switch checked={!this.state.desabilitaCamposAtualizacaoProgramada} onChange={this.trocaEstadoCamposAtualizacaoProgramada.bind(this)} disabled={this.state.executando} />
                         </FormItem>
                     </Col>
                 </Row>
@@ -392,7 +392,7 @@ class ServicosRefloraScreen extends Component {
                             placeholder='Selecione a periodicidade desejada'
                             onChange={this.programaPeriodicidadeAtualizacao}
                             value={this.state.periodicidadeAtualizacao !== '' ? this.state.periodicidadeAtualizacao : ''}
-                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico}>
+                            disabled={this.state.desabilitaCamposAtualizacaoProgramada}>
                             <Option value='SEMANAL'>A cada semana</Option>
                             <Option value='1MES'>A cada mês</Option>
                             <Option value='2MESES'>A cada dois meses</Option>
@@ -400,8 +400,8 @@ class ServicosRefloraScreen extends Component {
                     </Col>
                     <Col span={6}>
                         <Button type='primary' htmlType='submit' className='login-form-button'
-                            disabled={this.state.desabilitaCamposAtualizacaoAutomatico} onClick={this.programaAtualizacao}>
-                            Definir atualização automática
+                            disabled={this.state.desabilitaCamposAtualizacaoProgramada} onClick={this.programaAtualizacao}>
+                            Definir atualização programada
                         </Button>
                     </Col>
                     <Col span={6} style={{ textAlign: 'center' }}>
