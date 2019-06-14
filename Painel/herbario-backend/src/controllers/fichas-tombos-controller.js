@@ -161,7 +161,9 @@ export default function fichaTomboController(request, response, next) {
             const { pais } = estado;
 
             const parametros = {
-                fotos,
+                // Se não tem fotos, cria um array de 1 posição com um objeto vazio
+                // para poder iterar pelo array e criar pelo menos 1 ficha
+                fotos: (fotos.length < 1 ? [{}] : fotos),
                 tombo: {
                     ...tombo,
                     coletores,

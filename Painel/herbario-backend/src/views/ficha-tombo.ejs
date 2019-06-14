@@ -163,12 +163,15 @@
                 <b>Data:</b> <%- tombo.data_coleta %>
             </td>
         </tr>
+        <% if (!!fotos[i]['id']) { %>
         <tr>
             <td colspan="4" class="text-right">
                 <svg id="<%- 'code128_' + fotos[i]['id'] %>"></svg>
             </td>
         </tr>
+        <% } %>
     </table>
+    <% if (!!fotos[i]['id']) { %>
     <script>
         window.addEventListener('load', () => {
             const id = "<%- '#code128_' + fotos[i]['id'] %>";
@@ -176,6 +179,7 @@
             JsBarcode(id, cbarra, { margin: 0, width: 1.4, height: 40, fontSize: 10 });
         });
     </script>
+    <% } %>
     <% } %>
     <script src="/assets/js/jsbarcode.code128.min.js"></script>
     <script>
