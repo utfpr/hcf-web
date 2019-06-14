@@ -7,6 +7,7 @@ import models from '../models';
 
 const {
     Tombo,
+    TomboFoto,
     Coletor,
     Familia,
     Especie,
@@ -120,10 +121,35 @@ export default function fichaTomboController(request, response, next) {
                         identificacao: identificacao.toJSON(),
                     };
                 });
-
         })
         .then(resultado => {
-            const { tombo, identificacao } = resultado;
+            const { tombo } = resultado;
+
+            const attributes = [
+                'id',
+                'codigo_barra',
+                'num_barra',
+                'em_vivo',
+                'sequencia',
+            ];
+
+            const where = {
+                ativo: true,
+                tombo_hcf: tombo.hcf,
+            };
+
+            const options = {
+                order: [['id', 'desc']],
+            };
+
+            return TomboFoto.findAll({ attributes, where, ...options })
+                .then(registros => {
+                    const fotos = registros.map(foto => foto.toJSON());
+                    return { ...resultado, fotos };
+                });
+        })
+        .then(resultado => {
+            const { tombo, identificacao, fotos } = resultado;
 
             const coletores = tombo.coletores
                 .map(coletor => coletor.nome)
@@ -135,6 +161,7 @@ export default function fichaTomboController(request, response, next) {
             const { pais } = estado;
 
             const parametros = {
+                fotos,
                 tombo: {
                     ...tombo,
                     coletores,
