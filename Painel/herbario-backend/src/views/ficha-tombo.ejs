@@ -14,21 +14,36 @@
         html,
         body {
             height: 1vh;
+            font-size: 11px;
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            max-width: 80%;
+        }
+
+        .break-line-before {
+            page-break-before: always;
+            page-break-inside: avoid;
         }
 
         .text-center {
             text-align: center;
         }
 
+        .text-right {
+            text-align: right;
+        }
+
         .tabela-principal {
             border-collapse: collapse;
             width: 100%;
+            margin-bottom: 20px;
         }
 
         .tabela-principal td {
             /* border: 1px solid #f0f; */
-            padding: 8px;
+            padding: 2px 8px;
         }
 
         .tabela-principal td:first-child {
@@ -59,11 +74,15 @@
 </head>
 
 <body>
+    <% for (let i = 0; i < fotos.length; i++) { %>
+    <% if (i !== 0 && i % 3 === 0) { %>
+    <div class="break-line-before" style="height: 20px"></div>
+    <% } %>
     <table class="tabela-principal">
         <tr>
-            <td rowspan="2" width="200" class="celular-imagem text-center">
-                <img width="200" src="http://localhost:3003/assets/logo-utfpr.jpg" alt="Logo UTFPR">
-                <span style="font-size: .8em;"><b>CAMPUS CAMPO MOURÃO</b></span>
+            <td rowspan="2" width="100" class="celular-imagem text-center">
+                <img width="100" src="/assets/logo-hcf.jpg" alt="Logo UTFPR">
+                <div style="font-size: .6em;"><b>CAMPUS CAMPO MOURÃO</b></div>
             </td>
             <td colspan="3" class="text-center">
                 <b>Herbário da Universidade Tecnológica Federal do Paraná - Campus Campo Mourão</b>
@@ -137,17 +156,37 @@
             <td colspan="2">
                 <b><%- tombo.coletores.length == 1 ? 'Coletor' : 'Coletores' %>:</b> <%- tombo.coletores %>
             </td>
-            <td width="20%">
+            <td width="20%" class="text-right">
                 <b>nº:</b> <%- tombo.numero_coleta %>
             </td>
-            <td width="30%">
+            <td width="21%" class="text-right">
                 <b>Data:</b> <%- tombo.data_coleta %>
             </td>
         </tr>
+        <% if (!!fotos[i]['id']) { %>
+        <tr>
+            <td colspan="4" class="text-right">
+                <svg id="<%- 'code128_' + fotos[i]['id'] %>"></svg>
+            </td>
+        </tr>
+        <% } %>
     </table>
+    <% if (!!fotos[i]['id']) { %>
+    <script>
+        window.addEventListener('load', () => {
+            const id = "<%- '#code128_' + fotos[i]['id'] %>";
+            const cbarra = "<%- fotos[i]['codigo_barra'] %>";
+            JsBarcode(id, cbarra, { margin: 0, width: 1.4, height: 40, fontSize: 10 });
+        });
+    </script>
+    <% } %>
+    <% } %>
+    <script src="/assets/js/jsbarcode.code128.min.js"></script>
     <script>
         function onPageLoaded() {
-            window.print();
+            if (!/standalone/.test(window.location.href)) {
+                window.print();
+            }
         }
 
         window.addEventListener('load', onPageLoaded);
