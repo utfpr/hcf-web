@@ -1,5 +1,5 @@
 import models from '../models';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 import BadRequestExeption from '../errors/bad-request-exception';
 import subespecie from '../validators/subespecie';
 

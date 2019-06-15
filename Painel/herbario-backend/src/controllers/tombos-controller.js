@@ -3,7 +3,7 @@
 import BadRequestExeption from '../errors/bad-request-exception';
 import NotFoundException from '../errors/not-found-exception';
 import models from '../models';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 import pick from '../helpers/pick';
 import {
     converteParaDecimal, converteDecimalParaGraus, converteDecimalParaGMSGrau, converteDecimalParaGMSMinutos, converteDecimalParaGMSSegundos,

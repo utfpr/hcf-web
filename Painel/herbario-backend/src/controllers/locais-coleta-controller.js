@@ -1,6 +1,6 @@
 import models from '../models';
 import BadRequestExeption from '../errors/bad-request-exception';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 
 const {
     Relevo, Solo, Vegetacao, sequelize,

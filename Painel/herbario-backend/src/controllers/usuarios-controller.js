@@ -2,7 +2,7 @@ import { comparaSenha, gerarSenha } from '../helpers/senhas';
 import { constroiPayloadUsuario, geraTokenUsuario } from '../helpers/tokens';
 import BadRequestExeption from '../errors/bad-request-exception';
 import models from '../models';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 
 const {
     Sequelize: { Op }, Usuario, TipoUsuario, Coletor,

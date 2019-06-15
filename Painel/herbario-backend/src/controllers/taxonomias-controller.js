@@ -1,7 +1,7 @@
 import listaTaxonomiasSQL from '../resources/sqls/lista-taxonomias';
 import models from '../models';
 import BadRequestExeption from '../errors/bad-request-exception';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 
 const {
     sequelize, Sequelize: { Op }, Sequelize, Familia, Genero, Subfamilia, Especie, Variedade, Subespecie, Autor,

@@ -1,7 +1,6 @@
 // @ts-nocheck
 import moment from 'moment-timezone';
 import models from '../models';
-// import codigos from '../resources/codigosHTTP';
 
 const {
     Solo, Relevo, Cidade, Estado, Pais, Vegetacao, FaseSucessional, Tipo, LocalColeta, Familia,

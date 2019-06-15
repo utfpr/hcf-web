@@ -2,7 +2,7 @@ import BadRequestExeption from '../errors/bad-request-exception';
 import NotFoundExeption from '../errors/not-found-exception';
 import models from '../models';
 import omit from '../helpers/omit';
-import codigos from '../resources/codigosHTTP';
+import codigos from '../resources/codigos-http';
 
 
 const {
