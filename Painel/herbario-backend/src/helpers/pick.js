@@ -1,12 +1,22 @@
-export default (object, attributes = [], inverse = false) => {
-    if (!Array.isArray(attributes)) {
+/**
+ * Obtem um novo objeto com os atributos especificados
+ * @param {object} object Objeto para obter os atributos
+ * @param {string[]} attributes Atributos para obter do objeto
+ */
+export default function pick(object, attributes = []) {
+    if (!Array.isArray(attributes) || attributes.length < 1) {
         return {};
     }
 
-    const red = o => (prev, key) => {
-        const value = o[key];
-        return value === undefined ? prev : { ...prev, [key]: value };
-    };
+    function reducer(output, key) {
+        if (!object.hasOwnProperty(key)) { // eslint-disable-line
+            return output;
+        }
 
-    return attributes.reduce(red(object), {});
-};
+        const value = object[key];
+        return { ...output, [key]: value };
+    }
+
+
+    return attributes.reduce(reducer, {});
+}
