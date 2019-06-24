@@ -22,4 +22,5 @@ export default {
     420: 'É necessário informar um período de tombos, ou os tombos especificos.',
     421: 'Erro ao alterar o tombo',
     422: 'É permitido exportar um período ou os tombos específicos, nunca os dois ao mesmo tempo.',
+    423: 'Não há tombos para este filtro',
 };

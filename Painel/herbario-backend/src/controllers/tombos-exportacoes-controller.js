@@ -1,5 +1,8 @@
+import path from 'path';
 import knex from '../factories/knex';
 import PreconditionFailedException from '../errors/precondition-failed-exception';
+import BadRequestException from '../errors/bad-request-exception';
+import renderizaArquivoHtml from '../helpers/renderiza-arquivo-html';
 
 
 function adicionaColunaDataColeta(consulta, coluna) {
@@ -84,13 +87,15 @@ function adicionaColunaColetores(consulta, coluna) {
     consulta.column({ [coluna]: subconsulta });
 }
 
-function adicionaColunasTombosFotos(consulta, coluna) {
-    consulta.innerJoin({ tbf: 'tombos_fotos' }, 'tbf.tombo_hcf', 'tmb.hcf');
+function adicionaColunasTombosFotos(consulta, coluna, juncoes) {
+    if (!juncoes.tbf) {
+        // Se a junção da tabela já foi feita, não faz de novo
+        // pra não duplicar o INNER JOIN com a tabela
+        consulta.innerJoin({ tbf: 'tombos_fotos' }, 'tbf.tombo_hcf', 'tmb.hcf');
+        juncoes.tbf = true; // eslint-disable-line
+    }
 
-    consulta.columns([
-        'sequencia',
-        'codigo_barra',
-    ]);
+    consulta.columns(coluna);
 }
 
 
@@ -108,8 +113,11 @@ const COLUNAS = {
     subespecie: adicionaColunaSubespecie,
     variedade: adicionaColunaVariedade,
     coletores: adicionaColunaColetores,
-    fotos: adicionaColunasTombosFotos,
+    sequencia: adicionaColunasTombosFotos,
+    codigo_barra: adicionaColunasTombosFotos,
 };
+
+const COLUNAS_PERMITIDAS = Object.keys(COLUNAS);
 
 const FILTROS = {
     de: (consulta, valor) => { consulta.where('tmb.hcf', '>=', valor); },
@@ -122,9 +130,10 @@ function criaConsultaTombos(colunas, filtros) {
     const consulta = knex
         .from({ tmb: 'tombos' });
 
+    const juncoes = {};
     colunas.forEach(coluna => {
         const funcao = COLUNAS[coluna];
-        funcao(consulta, coluna);
+        funcao(consulta, coluna, juncoes);
     });
 
     Object.entries(filtros)
@@ -157,16 +166,28 @@ export default function exportacoes(request, response, next) {
                 throw new PreconditionFailedException(422);
             }
 
-            const consulta = criaConsultaTombos(query.campos, query.filtros)
+            const campos = query.campos
+                .filter(campo => COLUNAS_PERMITIDAS.includes(campo));
+
+            const consulta = criaConsultaTombos(campos, query.filtros)
                 .limit(paginacao.limite)
                 .offset(paginacao.offset);
 
-            console.log(consulta.toString()); // eslint-disable-line
+            return consulta.then(registros => registros);
+        })
+        .then(tombos => {
 
-            consulta
-                .then(registros => {
-                    response.status(200)
-                        .json(registros);
+            if (tombos.length < 1) {
+                throw new BadRequestException(423);
+            }
+
+            const colunas = Object.keys(tombos[0]);
+            const parametros = { colunas, tombos };
+
+            const caminhoArquivoHtml = path.resolve(__dirname, '../views/exportacao-tombos.ejs');
+            return renderizaArquivoHtml(caminhoArquivoHtml, parametros, response)
+                .then(html => {
+                    response.status(200).send(html);
                 });
         })
         .catch(next);
