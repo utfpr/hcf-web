@@ -1,17 +1,18 @@
 import tokensMiddleware, { TIPOS_USUARIOS } from '../middlewares/tokens-middleware';
 import listagensMiddleware from '../middlewares/listagens-middleware';
+import criaJsonMiddleware from '../middlewares/json-middleware';
 import validacoesMiddleware from '../middlewares/validacoes-middleware';
 import cadastrarTomboEsquema from '../validators/tombo-cadastro';
 import cadastrarTipoEsquema from '../validators/tipo-cadastro';
 import coletorCadastro from '../validators/coletor-cadastro';
 import listagemTombo from '../validators/tombo-listagem';
-import tomboExportarCadastro from '../validators/tombo-exportar-cadastro';
 
 import {
-    getDadosCadTombo, getExportarDados, getNumeroTombo, cadastro, listagem,
+    getDadosCadTombo, getNumeroTombo, cadastro, listagem,
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
     buscarProximoNumeroColetor, alteracao,
 } from '../controllers/tombos-controller';
+import exportarTombosController from '../controllers/tombos-exportacoes-controller';
 import fichaTomboController from '../controllers/fichas-tombos-controller';
 
 export default app => {
@@ -28,8 +29,12 @@ export default app => {
 
     app.route('/tombos/exportar')
         .get([
-            getExportarDados,
-            validacoesMiddleware(tomboExportarCadastro),
+            listagensMiddleware,
+            criaJsonMiddleware([
+                'campos',
+                'filtros',
+            ]),
+            exportarTombosController,
         ]);
 
     app.route('/tombos/filtrar_numero/:id')
