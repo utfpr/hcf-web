@@ -189,7 +189,9 @@ export const editar = (request, response, next) => {
                     throw new BadRequestExeption(110);
                 }
             }
-            body.senha = gerarSenha(body.senha);
+            if (body.senha) {
+                body.senha = gerarSenha(body.senha);
+            }
         })
         .then(() => atualizaUsuario(body, usuarioId))
         .then(retorno => {

@@ -3,10 +3,6 @@ export default {
         isEmpty: false,
         isEmail: true,
     },
-    senha: {
-        isEmpty: false,
-        isString: true,
-    },
     nome: {
         isEmpty: false,
         isString: true,

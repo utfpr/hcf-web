@@ -45,7 +45,11 @@ class NovoUsuarioScreen extends Component {
 			if (this.props.match.params.usuario_id !== undefined) {
 				this.requisitaEdicaoUsuario(valores);
 			} else {
-				this.requisitaCadastroUsuario(valores);
+				if (valores.password == null || valores.password.trim() == "") {
+					this.openNotificationWithIcon("error", "Falha", "Informe a senha do usuário.")
+				} else {
+					this.requisitaCadastroUsuario(valores);
+				}								
 			}
 		}
 	}
@@ -54,6 +58,13 @@ class NovoUsuarioScreen extends Component {
 		event.preventDefault();
 		this.props.form.validateFields(this.handleSubmit);
 	};
+
+	openNotificationWithIcon = (type, message, description) => {
+        notification[type]({
+            message: message,
+            description: description,
+        });
+    };
 
 	requisitaCadastroUsuario = valores => {
 		this.setState({
@@ -93,6 +104,8 @@ class NovoUsuarioScreen extends Component {
 				this.setState({
 					loading: false
 				});
+				this.openNotificationWithIcon("error", "Cadastro", "Houve um problema ao realizar o cadastro, o email deve ser único por usuário, verifique os dados e tente novamente.")
+
 				const { response } = err;
 				if (response && response.data) {
 					const { error } = response.data;
@@ -160,16 +173,18 @@ class NovoUsuarioScreen extends Component {
 			telefone,
 			tipo,
 		} = valores;
-
-		axios.put(`/api/usuarios/${this.props.match.params.usuario_id}`, {
+		const body = {
 			ra,
 			nome,
 			email,
 			tipo_usuario_id: tipo,
 			telefone,
-			senha: password,
 			herbario_id: 1
-		})
+		}
+		if (valores.password != null && valores.password.trim() != "") {
+			body.senha = password
+		}
+		axios.put(`/api/usuarios/${this.props.match.params.usuario_id}`, body)
 			.then(response => {
 				if (response.status !== 201 && response.status !== 204) {
 					this.openNotificationWithIcon("error", "Edição", "Houve um problema ao realizar a edição, verifique os dados e tente novamente.")
@@ -303,12 +318,7 @@ class NovoUsuarioScreen extends Component {
 						</Col>
 						<Col span={24}>
 							<FormItem>
-								{getFieldDecorator('password', {
-									rules: [{
-										required: true,
-										message: 'Insira a senha do usuário',
-									}]
-								})(
+								{getFieldDecorator('password')(
 									<Input type={"password"} placeholder={"123456"} />
 								)}
 							</FormItem>

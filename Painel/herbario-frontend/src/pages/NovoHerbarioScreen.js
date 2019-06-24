@@ -472,9 +472,10 @@ class NovoHerbarioScreen extends Component {
 									}]
 								})(
 									<Select
-										showSearch
+										showSearch										
+										placeholder="Selecione um país"
+                                        optionFilterProp="children"
 										style={{ width: '100%' }}
-										placeholder="Brasil"
 										onChange={(value) => {
 											this.requisitaEstados(value)
 										}}
@@ -502,7 +503,7 @@ class NovoHerbarioScreen extends Component {
 										showSearch
 										style={{ width: '100%' }}
 										placeholder="Paraná"
-
+										optionFilterProp="children"
 										onChange={(value) => {
 											this.requisitaCidades(value);
 										}}
@@ -530,6 +531,7 @@ class NovoHerbarioScreen extends Component {
 										showSearch
 										style={{ width: '100%' }}
 										placeholder="Campo Mourão"
+										optionFilterProp="children"
 
 									>
 										{this.formataDadosCidades()}
