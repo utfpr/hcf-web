@@ -3,6 +3,7 @@ import path from 'path';
 import moment from 'moment-timezone';
 
 import formataDataColeta from '../helpers/formata-data-coleta';
+import renderizaArquivoHtml from '../helpers/renderiza-arquivo-html';
 import models from '../models';
 
 const {
@@ -23,22 +24,6 @@ const {
 function formataDataSaida(data) {
     return moment(data)
         .format('D/M/YYYY');
-}
-
-function renderizaArquivoHtml(caminho, parametros) {
-    return new Promise((resolve, reject) => {
-
-        function onRenderCompleted(err, html) {
-            if (err) {
-                reject(err);
-                return;
-            }
-
-            resolve(html);
-        }
-
-        renderFile(caminho, parametros, {}, onRenderCompleted);
-    });
 }
 
 export default function fichaTomboController(request, response, next) {
