@@ -411,114 +411,65 @@ class ListaTombosScreen extends Component {
     handleSubmitExport = event => {
         event.preventDefault();
 
-        const {
-            exDataColeta, exFamilia, exSubfamilia, exGenero, exEspecie,
-            exSubespecie, exVariedade, exAutor, exNumTombo, exSeqTombo,
-            exCodBarra, exLatitude, exLongitude, exAltitude, exNumColeta,
-            exColetores, exHcf, exDe, exAte, exTombos
-        } = this.props.form.getFieldsValue();
-        let total = 0;
-        let exportarSelecionados = [];
-
-        if (exDataColeta) {
-            total++;
-            exportarSelecionados.push("data_coleta");
-        } else if (exFamilia) {
-            total++;
-            exportarSelecionados.push("familia");
-        } else if (exSubfamilia) {
-            total++;
-            exportarSelecionados.push("subfamilia");
-        } else if (exGenero) {
-            total++;
-            exportarSelecionados.push("genero");
-        } else if (exEspecie) {
-            total++;
-            exportarSelecionados.push("especie");
-        } else if (exSubespecie) {
-            total++;
-            exportarSelecionados.push("subespecie");
-        } else if (exVariedade) {
-            total++;
-            exportarSelecionados.push("variedade");
-        } else if (exAutor) {
-            total++;
-            exportarSelecionados.push("autor");
-        } else if (exNumTombo) {
-            total++;
-            exportarSelecionados.push("num_tombo");
-        } else if (exSeqTombo) {
-            total++;
-            exportarSelecionados.push("seq_tombo");
-        } else if (exCodBarra) {
-            total++;
-            exportarSelecionados.push("cod_barra");
-        } else if (exLatitude) {
-            total++;
-            exportarSelecionados.push("latitude");
-        } else if (exLongitude) {
-            total++;
-            exportarSelecionados.push("longitude");
-        } else if (exAltitude) {
-            total++;
-            exportarSelecionados.push("altitude");
-        } else if (exNumColeta) {
-            total++;
-            exportarSelecionados.push("num_coleta");
-        } else if (exColetores) {
-            total++;
-            exportarSelecionados.push("coletores");
-        } else if (exHcf) {
-            total++;
-            exportarSelecionados.push("hcf");
+        function ehCheckboxComValorValido([chave, valor]) {
+            return valor === true && !chave.startsWith('inp_');
         }
 
-        if (total > 5 || total === 0) {
-            this.openNotificationWithIcon("warning", "Alerta", "Você tem que selecionar de 1 à 5 itens para serem exportados.");
-        } else {
+        function extraiApenasChave([chave]) {
+            return chave;
+        }
 
-            if ((!exDe && !exAte && !exTombos) || ((exDe || exAte) && exTombos)) {
-                this.openNotificationWithIcon("warning", "Alerta", "Você tem que selecionar um perído de tombos, ou tombos especificos.");
-            } else {
-                this.setState({
-                    loading: true,
-                })
-                const params = {
-                    de: exDe,
-                    ate: exAte,
-                    tombos: exTombos,
-                    campos: exportarSelecionados,
+        function extraiChavesFiltros(valores) {
+            return {
+                de: valores.inp_de,
+                ate: valores.inp_ate,
+                ids: valores.inp_ids,
+                data_coleta: [valores.inp_data_coleta_de, valores.inp_data_coleta_ate],
+            };
+        }
+
+        const valores = this.props.form.getFieldsValue();
+        const campos = Object.entries(valores)
+            .filter(ehCheckboxComValorValido)
+            .map(extraiApenasChave);
+
+        if (campos.length < 1 || campos.length > 5) {
+            this.openNotificationWithIcon('warning', 'Alerta', 'Selecione o mínimo de 1 e o máximo de 5 colunas para exportar.');
+            return;
+        }
+
+        const grupos = [
+            (!!valores.inp_de && !!valores.inp_ate),
+            (!!valores.inp_ids),
+            (!!valores.inp_data_coleta_de && !!valores.inp_data_coleta_ate)
+        ].filter(item => item === true);
+
+
+        if (grupos.length === 0) {
+            this.openNotificationWithIcon('warning', 'Alerta', 'Informe um período, tombos específicos ou período de datas para exportar');
+            return;
+        }
+
+        if (grupos.length > 1) {
+            this.openNotificationWithIcon('warning', 'Alerta', 'A exportação dos dados deve ser feita por um período, tombos específicos ou período de datas, nunca utilizando dois ou mais');
+            return;
+        }
+
+        const f = extraiChavesFiltros(valores);
+        const filtros = Object.entries(f)
+            .filter(entrada => {
+                const [, valor] = entrada;
+
+                if (Array.isArray(valor)) {
+                    return valor.filter(item => !!item).length > 0;
+                } else {
+                    return !!valor;
                 }
-                axios.get('/api/tombos/exportar', { params })
-                    .then(response => {
-                        this.setState({
-                            loading: false
-                        });
+            })
+            .reduce((filtros, [chave, valor]) => ({ ...filtros, [chave]: valor }), {});
 
-                        this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
-
-                    })
-                    .catch(err => {
-                        this.setState({
-                            loading: false
-                        });
-                        const { response } = err;
-
-                        if (response.status === 400) {
-                            this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
-                        } else {
-                            this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo , tombo tente novamente.")
-                        }
-
-                        if (response && response.data) {
-                            const { error } = response.data;
-                            console.error(error.message)
-                        }
-                    })
-            }
-
-        }
-
+        const url = `http://127.0.0.1:3003/api/tombos/exportar?campos=${JSON.stringify(campos)}&filtros=${JSON.stringify(filtros)}`;
+        window.open(url, '_blank');
     }
 
     openNotificationWithIcon = (type, message, description) => {
@@ -556,6 +507,7 @@ class ListaTombosScreen extends Component {
 
     renderExportar(getFieldDecorator) {
         const { fetching, data } = this.state;
+
         return (
             <Form onSubmit={this.handleSubmitExport}>
                 <Collapse accordion>
@@ -564,9 +516,9 @@ class ListaTombosScreen extends Component {
                         <Row gutter={8}>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exHcf')(
+                                    {getFieldDecorator('hcf')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="red">HCF</Tag>
                                         </Checkbox>
                                     )}
@@ -574,9 +526,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exDataColeta')(
+                                    {getFieldDecorator('data_coleta')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="magenta">Data da Coleta</Tag>
                                         </Checkbox>
                                     )}
@@ -584,9 +536,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exFamilia')(
+                                    {getFieldDecorator('familia')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="red">Família</Tag>
                                         </Checkbox>
                                     )}
@@ -594,9 +546,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exSubfamilia')(
+                                    {getFieldDecorator('subfamilia')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="green">Subfamília</Tag>
                                         </Checkbox>
                                     )}
@@ -604,9 +556,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exGenero')(
+                                    {getFieldDecorator('genero')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="red">Gênero</Tag>
                                         </Checkbox>
                                     )}
@@ -614,9 +566,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exEspecie')(
+                                    {getFieldDecorator('especie')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="blue">Espécie</Tag>
                                         </Checkbox>
                                     )}
@@ -624,9 +576,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exSubespecie')(
+                                    {getFieldDecorator('subespecie')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="blue">Subespécie</Tag>
                                         </Checkbox>
                                     )}
@@ -634,9 +586,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exVariedade')(
+                                    {getFieldDecorator('variedade')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="red">Variedade</Tag>
                                         </Checkbox>
                                     )}
@@ -644,29 +596,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exAutor')(
+                                    {getFieldDecorator('sequencia')(
                                         <Checkbox>
-                                            {" "}
-                                            <Tag color="orange">Autor</Tag>
-                                        </Checkbox>
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
-                                <FormItem>
-                                    {getFieldDecorator('exNumTombo')(
-                                        <Checkbox>
-                                            {" "}
-                                            <Tag color="gold">Nº Tombo</Tag>
-                                        </Checkbox>
-                                    )}
-                                </FormItem>
-                            </Col>
-                            <Col xs={24} sm={24} md={12} lg={4} xl={4}>
-                                <FormItem>
-                                    {getFieldDecorator('exSeqTombo')(
-                                        <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="yellow">Sequencia do tombo</Tag>
                                         </Checkbox>
                                     )}
@@ -674,9 +606,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={6} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exCodBarra')(
+                                    {getFieldDecorator('codigo_barra')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="gold">Codigo de barra</Tag>
                                         </Checkbox>
                                     )}
@@ -684,9 +616,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exLatitude')(
+                                    {getFieldDecorator('latitude')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="purple">Latitude</Tag>
                                         </Checkbox>
                                     )}
@@ -694,9 +626,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exLongitude')(
+                                    {getFieldDecorator('longitude')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="green">Longitude</Tag>
                                         </Checkbox>
                                     )}
@@ -704,9 +636,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exAltitude')(
+                                    {getFieldDecorator('altitude')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="green">Altitude</Tag>
                                         </Checkbox>
                                     )}
@@ -714,9 +646,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exNumColeta')(
+                                    {getFieldDecorator('numero_coleta')(
                                         <Checkbox >
-                                            {" "}
+                                            {' '}
                                             <Tag color="volcano">Nº Coleta</Tag>
                                         </Checkbox>
                                     )}
@@ -724,9 +656,9 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={4} xl={4}>
                                 <FormItem>
-                                    {getFieldDecorator('exColetores')(
+                                    {getFieldDecorator('coletores')(
                                         <Checkbox>
-                                            {" "}
+                                            {' '}
                                             <Tag color="geekblue">Coletores</Tag>
                                         </Checkbox>
                                     )}
@@ -741,7 +673,7 @@ class ListaTombosScreen extends Component {
                                 </Col>
                                 <Col span={24}>
                                     <FormItem>
-                                        {getFieldDecorator('exDe')(
+                                        {getFieldDecorator('inp_de')(
                                             <InputNumber
                                                 style={{ width: "100%" }}
                                             />
@@ -755,7 +687,7 @@ class ListaTombosScreen extends Component {
                                 </Col>
                                 <Col span={24}>
                                     <FormItem>
-                                        {getFieldDecorator('exAte')(
+                                        {getFieldDecorator('inp_ate')(
                                             <InputNumber
                                                 style={{ width: "100%" }}
                                             />
@@ -774,7 +706,7 @@ class ListaTombosScreen extends Component {
                                 </Col>
                                 <Col span={24}>
                                     <FormItem>
-                                        {getFieldDecorator('exTombos')(
+                                        {getFieldDecorator('inp_ids')(
                                             <Select
                                                 mode="multiple"
                                                 labelInValue
@@ -801,7 +733,7 @@ class ListaTombosScreen extends Component {
                                 style={{ backgroundColor: "#FF7F00", borderColor: "#FF7F00" }}
                             >
                                 Exportar
-                                    </Button>
+                            </Button>
                         </Row>
                     </Panel>
                 </Collapse>
