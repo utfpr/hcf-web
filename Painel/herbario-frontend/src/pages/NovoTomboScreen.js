@@ -1982,12 +1982,9 @@ class NovoTomboScreen extends Component {
                         </Col>
                         <Col span={24}>
                             <FormItem>
-                            {getFieldDecorator('latitude')(
+                                {getFieldDecorator('latitude')(
                                     <CoordenadaInputText
                                         placeholder={`48°40'30"O`}
-                                        graus={this.state.latGraus}
-                                        minutos={this.state.latMinutos}
-                                        segundos={this.state.latSegundos}
                                     />
                                 )}
                             </FormItem>
