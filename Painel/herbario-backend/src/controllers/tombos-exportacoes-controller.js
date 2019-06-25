@@ -185,7 +185,8 @@ export default function exportacoes(request, response, next) {
                 throw new BadRequestException(423);
             }
 
-            const colunas = Object.keys(tombos[0]);
+            const colunas = Object.keys(tombos[0])
+                .sort(a => a == 'codigo_barra' ? 1 : -1); // eslint-disable-line
             const parametros = { colunas, tombos };
 
             const caminhoArquivoHtml = path.resolve(__dirname, '../views/exportacao-tombos.ejs');
