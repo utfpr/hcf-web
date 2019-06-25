@@ -123,6 +123,10 @@ const FILTROS = {
     de: (consulta, valor) => { consulta.where('tmb.hcf', '>=', valor); },
     ate: (consulta, valor) => { consulta.where('tmb.hcf', '<=', valor); },
     ids: (consulta, valor) => { consulta.whereIn('tmb.hcf', valor); },
+    data_coleta: (consulta, valor) => {
+        const [data1, data2] = valor;
+        consulta.whereBetween('tmb.data_tombo', [`${data1} 00:00:00`, `${data2} 23:59:59`]);
+    },
 };
 
 function criaConsultaTombos(colunas, filtros) {

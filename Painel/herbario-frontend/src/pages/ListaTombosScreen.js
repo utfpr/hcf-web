@@ -747,7 +747,7 @@ class ListaTombosScreen extends Component {
                         <Row gutter={8}>
                             <Col xs={24} sm={12} md={12} lg={12} xl={12}>
                                 <Col span={24}>
-                                    <span>A partir da data de coleta:</span>
+                                    <span>A partir da data de tombo:</span>
                                 </Col>
                                 <Col span={24}>
                                     <FormItem>
@@ -755,7 +755,7 @@ class ListaTombosScreen extends Component {
                                             <DatePicker
                                                 style={{ width: '100%' }}
                                                 format="DD/MM/YYYY"
-                                                placeholder="Seleciona a data de coleta inicial"
+                                                placeholder="Seleciona a data de tombo inicial"
                                             />
                                         )}
                                     </FormItem>
@@ -763,7 +763,7 @@ class ListaTombosScreen extends Component {
                             </Col>
                             <Col xs={24} sm={12} md={12} lg={12} xl={12}>
                                 <Col span={24}>
-                                    <span>Até a data de coleta:</span>
+                                    <span>Até a data de tombo:</span>
                                 </Col>
                                 <Col span={24}>
                                     <FormItem>
@@ -771,7 +771,7 @@ class ListaTombosScreen extends Component {
                                             <DatePicker
                                                 style={{ width: '100%' }}
                                                 format="DD/MM/YYYY"
-                                                placeholder="Seleciona a data de coleta final"
+                                                placeholder="Seleciona a data de tombo final"
                                             />
                                         )}
                                     </FormItem>
