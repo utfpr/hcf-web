@@ -616,7 +616,7 @@ class ListaTombosScreen extends Component {
                                     {getFieldDecorator('sequencia')(
                                         <Checkbox>
                                             {' '}
-                                            <Tag color="yellow">Sequencia do tombo</Tag>
+                                            <Tag color="gold">Sequencia do tombo</Tag>
                                         </Checkbox>
                                     )}
                                 </FormItem>
