@@ -2,43 +2,16 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Input, Row, Col } from 'antd';
 import masker from 'vanilla-masker';
+import decimalParaGrausMinutosSegundos from '../helpers/conversoes/Coordenadas';
 
 
 class CoordenadaInputText extends Component {
     constructor(props) {
         super(props);
-        
+
         this.state = {
-            valorSaida: '',
-            graus: '',
-            minutos: '',
-            segundos: '',
-            pontoCardeal: '',
+            valorSaida: ''
         };
-
-        if (this.props.graus) {
-            this.setState({
-                graus: this.props.graus
-            });
-        }
-
-        if (this.props.minutos) {
-            this.setState({
-                minutos: this.props.minutos
-            });
-        }
-
-        if (this.props.segundos) {
-            this.setState({
-                segundos: this.props.segundos
-            });
-        }
-
-        if (this.props.pontoCardeal) {
-            this.setState({
-                pontoCardeal: this.props.pontoCardeal
-            });
-        }
     }
 
     aplicaMascaraNoCampo = (campo, mascara, valor) => {
@@ -51,14 +24,31 @@ class CoordenadaInputText extends Component {
         this.props.onChange(`${graus}°${minutos}'${segundos}"${pontoCardeal}`);
     }
 
+    temValorValido = (valor1, valor2) => {
+        const invalido = valor1 === undefined || valor1 === null;
+        return invalido ? valor2 : valor1;
+    }
+
     render() {
+        // // console.log('CoordenadaInputText props', this.props);
+        // console.log('render value', this.props.value);
+
+        if (this.props.value && !this.graus && !this.minutos && !this.segundos) {
+            const coordenadas = decimalParaGrausMinutosSegundos(this.props.value, true);
+
+            this.graus = coordenadas.graus;
+            this.minutos = coordenadas.minutos;
+            this.segundos = coordenadas.segundos;
+            this.pontoCardeal = coordenadas.direcao;
+        }
+
         return (
             <Row gutter={6}>
                 <Col span={6}>
                     <Input
                         type="text"
                         placeholder="48"
-                        value={this.state.graus}
+                        value={this.temValorValido(this.state.graus, this.graus)}
                         onChange={event => {
                             const { value } = event.target;
                             this.aplicaMascaraNoCampo('graus', '999', value);
@@ -69,7 +59,7 @@ class CoordenadaInputText extends Component {
                     <Input
                         type="text"
                         placeholder="56"
-                        value={this.state.minutos}
+                        value={this.temValorValido(this.state.minutos, this.minutos)}
                         onChange={event => {
                             const { value } = event.target;
                             this.aplicaMascaraNoCampo('minutos', '99', value);
@@ -80,7 +70,7 @@ class CoordenadaInputText extends Component {
                     <Input
                         type="text"
                         placeholder="15,5"
-                        value={this.state.segundos}
+                        value={this.temValorValido(this.state.segundos, this.segundos)}
                         onChange={event => {
                             const { value } = event.target;
                             this.aplicaMascaraNoCampo('segundos', '99,99', value);
@@ -91,7 +81,7 @@ class CoordenadaInputText extends Component {
                     <Input
                         type="text"
                         placeholder="W"
-                        value={this.state.pontoCardeal}
+                        value={this.temValorValido(this.state.pontoCardeal, this.pontoCardeal)}
                         maxLength="1"
                         onChange={event => {
                             const { value } = event.target;
