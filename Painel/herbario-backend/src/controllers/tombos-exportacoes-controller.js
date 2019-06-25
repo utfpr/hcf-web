@@ -186,6 +186,7 @@ export default function exportacoes(request, response, next) {
             }
 
             const colunas = Object.keys(tombos[0])
+                // Ordena para deixar a coluna "codigo_barra" sempre no final da tabela
                 .sort(a => a == 'codigo_barra' ? 1 : -1); // eslint-disable-line
             const parametros = { colunas, tombos };
 
