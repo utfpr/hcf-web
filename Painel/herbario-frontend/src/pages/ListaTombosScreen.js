@@ -3,10 +3,11 @@ import {
     Divider, Icon, Modal, Card, Row,
     Col, Form, Select, Input, Button,
     notification, InputNumber, Collapse,
-    Tag, Checkbox, Spin
+    Tag, Checkbox, Spin, DatePicker,
 } from 'antd';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import moment from 'moment';
 import debounce from 'lodash/debounce';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
@@ -420,11 +421,27 @@ class ListaTombosScreen extends Component {
         }
 
         function extraiChavesFiltros(valores) {
+            let {
+                inp_data_coleta_de: dataColetaDe,
+                inp_data_coleta_ate: dataColetaAte,
+                inp_ids: ids = [],
+            } = valores;
+
+            if (dataColetaDe) {
+                dataColetaDe = moment(dataColetaDe)
+                    .format('YYYY-MM-DD');
+            }
+
+            if (dataColetaAte) {
+                dataColetaAte = moment(dataColetaAte)
+                    .format('YYYY-MM-DD');
+            }
+
             return {
                 de: valores.inp_de,
                 ate: valores.inp_ate,
-                ids: valores.inp_ids,
-                data_coleta: [valores.inp_data_coleta_de, valores.inp_data_coleta_ate],
+                ids: ids.map(id => Number(id.key || id.label)),
+                data_coleta: [dataColetaDe, dataColetaAte],
             };
         }
 
@@ -675,7 +692,7 @@ class ListaTombosScreen extends Component {
                                     <FormItem>
                                         {getFieldDecorator('inp_de')(
                                             <InputNumber
-                                                style={{ width: "100%" }}
+                                                style={{ width: '100%' }}
                                             />
                                         )}
                                     </FormItem>
@@ -689,7 +706,7 @@ class ListaTombosScreen extends Component {
                                     <FormItem>
                                         {getFieldDecorator('inp_ate')(
                                             <InputNumber
-                                                style={{ width: "100%" }}
+                                                style={{ width: '100%' }}
                                             />
                                         )}
                                     </FormItem>
@@ -719,6 +736,43 @@ class ListaTombosScreen extends Component {
                                             >
                                                 {data.map(d => <Option key={d.value}>{d.text}</Option>)}
                                             </Select>
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Col>
+                        </Row>
+                        <Row gutter={8} type="flex" justify="center">
+                            <span>OU</span>
+                        </Row>
+                        <Row gutter={8}>
+                            <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                                <Col span={24}>
+                                    <span>A partir da data de coleta:</span>
+                                </Col>
+                                <Col span={24}>
+                                    <FormItem>
+                                        {getFieldDecorator('inp_data_coleta_de')(
+                                            <DatePicker
+                                                style={{ width: '100%' }}
+                                                format="DD/MM/YYYY"
+                                                placeholder="Seleciona a data de coleta inicial"
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Col>
+                            </Col>
+                            <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                                <Col span={24}>
+                                    <span>Até a data de coleta:</span>
+                                </Col>
+                                <Col span={24}>
+                                    <FormItem>
+                                        {getFieldDecorator('inp_data_coleta_ate')(
+                                            <DatePicker
+                                                style={{ width: '100%' }}
+                                                format="DD/MM/YYYY"
+                                                placeholder="Seleciona a data de coleta final"
+                                            />
                                         )}
                                     </FormItem>
                                 </Col>
