@@ -37,7 +37,8 @@ class VerPendenciaScreen extends Component {
             fotos: {
                 novas: [],
                 antigas: []
-            }
+            },
+            status: ''
 		};
 	}
 
@@ -57,6 +58,7 @@ class VerPendenciaScreen extends Component {
                     this.setState({
                         data: response.data.tabela,
                         fotos: response.data.fotos,
+                        status: response.data.status,
                     });
                 }
                 this.setState({
@@ -153,6 +155,60 @@ class VerPendenciaScreen extends Component {
         }
     }
 
+    renderBotoesAprovar(getFieldDecorator) {
+        if (this.state.status != "APROVADO") {
+            return (
+                <div>
+                    <Row gutter={8} style={{ marginBottom: "10px" }}>
+                        <Col span={24}>
+                            <Col span={24}>
+                                <span>Observação:</span>
+                            </Col>
+                            <Col span={24}>
+                                <FormItem>
+                                    {getFieldDecorator('observacao')(
+                                        <TextArea rows={8} />
+                                    )}
+                                </FormItem>
+                            </Col>
+                        </Col>
+                    </Row>
+                    <Divider dashed />
+                    <Row type="flex" justify="end">
+                        <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+                            <FormItem>
+                                <Button type="primary" icon="check"
+                                htmlType="submit"
+                                style={{
+                                    backgroundColor: "#5cb85c",
+                                    borderColor: "#4cae4c"
+                                }}
+                                onClick={() => this.setState({
+                                    aprovar: 'APROVADO'
+                                })}
+                                >Aprovar</Button>
+                            </FormItem>
+                        </Col>
+                        <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+                            <FormItem>
+                                <Button type="primary" icon="close"
+                                htmlType="submit"
+                                style={{
+                                    backgroundColor: "#d9534f",
+                                    borderColor: "#d43f3a"
+                                }}
+                                onClick={() => this.setState({
+                                    aprovar: 'REPROVADO'
+                                })}
+                                >Reprovar</Button>
+                            </FormItem>
+                        </Col>
+                    </Row>
+                </div>
+            )
+        }
+    }
+
     renderFormulario() {
         const { getFieldDecorator } = this.props.form;
         return (
@@ -165,52 +221,7 @@ class VerPendenciaScreen extends Component {
                 </Row>
                 <Divider dashed />
 
-
-                <Row gutter={8} style={{ marginBottom: "10px" }}>
-                    <Col span={24}>
-                        <Col span={24}>
-                            <span>Observação:</span>
-                        </Col>
-                        <Col span={24}>
-                            <FormItem>
-                                {getFieldDecorator('observacao')(
-                                    <TextArea rows={8} />
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Col>
-                </Row>
-                <Divider dashed />
-                <Row type="flex" justify="end">
-                    <Col xs={24} sm={12} md={8} lg={6} xl={4}>
-                        <FormItem>
-                            <Button type="primary" icon="check"
-                            htmlType="submit"
-                            style={{
-                                backgroundColor: "#5cb85c",
-                                borderColor: "#4cae4c"
-                            }}
-                            onClick={() => this.setState({
-                                aprovar: 'APROVADO'
-                            })}
-                            >Aprovar</Button>
-                        </FormItem>
-                    </Col>
-                    <Col xs={24} sm={12} md={8} lg={6} xl={4}>
-                        <FormItem>
-                            <Button type="primary" icon="close"
-                            htmlType="submit"
-                            style={{
-                                backgroundColor: "#d9534f",
-                                borderColor: "#d43f3a"
-                            }}
-                            onClick={() => this.setState({
-                                aprovar: 'REPROVADO'
-                            })}
-                            >Reprovar</Button>
-                        </FormItem>
-                    </Col>
-                </Row>
+                {this.renderBotoesAprovar(getFieldDecorator)}
             </Form>
         );
     }

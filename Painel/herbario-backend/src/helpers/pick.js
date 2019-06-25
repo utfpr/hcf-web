@@ -9,7 +9,7 @@ export default function pick(object, attributes = []) {
     }
 
     function reducer(output, key) {
-        if (!object.hasOwnProperty(key)) { // eslint-disable-line
+        if (!(key in object)) {
             return output;
         }
 

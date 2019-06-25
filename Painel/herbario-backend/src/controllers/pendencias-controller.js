@@ -1214,6 +1214,7 @@ export const aprovarComJsonNome = (alteracao, hcf, transaction) => {
 
 export const aprovarComCadastroJson = (alteracao, hcf, transaction) => true;
 
+
 export const aprovarComCadastro = (hcf, transaction) => new Promise((resolve, reject) => Tombo.update({
     rascunho: 0,
 }, {
@@ -1377,6 +1378,7 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
 export function visualizar(request, response, next) {
     const id = request.params.pendencia_id;
     let retorno = {};
+    let status = '';
     const callback = transaction => Promise.resolve()
         .then(() => Alteracao.findOne({
             where: {
@@ -1389,6 +1391,8 @@ export function visualizar(request, response, next) {
             if (!alteracao) {
                 throw new BadRequestExeption(800);
             }
+            // eslint-disable-next-line prefer-destructuring
+            status = alteracao.status;
             const objetoAlterado = JSON.parse(alteracao.tombo_json);
             if (objetoAlterado.hcf) {
                 retorno = visualizarComCadastro(alteracao, transaction);
@@ -1407,6 +1411,7 @@ export function visualizar(request, response, next) {
                     novas: [],
                     antigas: [],
                 },
+                status,
                 // eslint-disable-next-line no-underscore-dangle
                 tabela: retorno._rejectionHandler0 || retorno,
             });

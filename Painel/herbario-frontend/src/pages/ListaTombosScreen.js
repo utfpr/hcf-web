@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import debounce from 'lodash/debounce';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
-import { isCuradorOuOperador } from './../helpers/usuarios';
+import { isCuradorOuOperador, isIdentificador } from './../helpers/usuarios';
 
 
 const confirm = Modal.confirm;
@@ -162,6 +162,11 @@ class ListaTombosScreen extends Component {
                 this.renderEditar(id),
                 this.renderExcluir(id)
             ];
+        } if (isIdentificador()) {
+            return [
+                this.renderDetalhes(id),
+                this.renderEditar(id),
+            ]
         } else {
             return this.renderDetalhes(id)
         }

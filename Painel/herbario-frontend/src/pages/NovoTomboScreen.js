@@ -117,7 +117,6 @@ class NovoTomboScreen extends Component {
             .then(response => {
                 if (response.status === 200) {
                     let data = response.data
-                    console.log(data)
                     this.setState({
                         ...this.state,
                         loading: false,
@@ -147,7 +146,7 @@ class NovoTomboScreen extends Component {
     }
     
     insereDadosFormulario(dados) {
-        const insereState = {
+        let insereState = {
             estados: dados.estados,
             cidades: dados.cidades,
             subfamilias: dados.subfamilias,
@@ -156,6 +155,7 @@ class NovoTomboScreen extends Component {
             subespecies: dados.subespecies,
             variedades: dados.variedades,
         };
+        
         if (dados.localizacao) {
             insereState = {
                 ...insereState,
@@ -164,12 +164,15 @@ class NovoTomboScreen extends Component {
                 latSegundos: dados.localizacao.latitude_sec,
             }
         }
+        console.log("MUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU")
+
         if (dados.retorno.identificadores) {
             this.setState({
                 insereState,
                 identificadores: dados.retorno.identificadores,
             })
         }
+        console.log(dados.retorno.nomes_populares)
         this.props.form.setFields({
             coletores: dados.coletoresInicial,
             altitude: {
@@ -200,7 +203,7 @@ class NovoTomboScreen extends Component {
                 value: dados.localizacao.longitude,
             },
             nomePopular: {
-                value: dados.taxonomia.nome_popular,
+                value: dados.retorno.nomes_populares,
             },
             numColeta: {
                 value: dados.numero_coleta,
@@ -233,6 +236,7 @@ class NovoTomboScreen extends Component {
                         ...dados
                     })
                     if (this.props.match.params.tombo_id) {
+                        console.log("MAAAAAAAAAAAAAAAAAAAAAAAAAOEEEE")
                         this.requisitaDadosEdicao(this.props.match.params.tombo_id);
                     } else {
                         this.setState({
@@ -861,9 +865,9 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaSubfamilias = (id) => {
-        this.setState({
-            loading: true,
-        });
+        // this.setState({
+        //     loading: true,
+        // });
         axios.get('/api/subfamilias/', {
             params: {
                 familia_id: id,
@@ -871,9 +875,9 @@ class NovoTomboScreen extends Component {
             }
         })
             .then(response => {
-                this.setState({
-                    loading: false,
-                });
+                // this.setState({
+                //     loading: false,
+                // });
                 this.setState({
                     search: {
                         subfamilia: ''
@@ -892,7 +896,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         subfamilia: ''
                     },
-                    loading: false
+                    //loading: false
                 })
                 const { response } = err;
                 if (response && response.data) {
@@ -962,9 +966,9 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaGeneros = (id) => {
-        this.setState({
-            loading: true,
-        });
+        // this.setState({
+        //     loading: true,
+        // });
         axios.get('/api/generos/', {
             params: {
                 familia_id: id,
@@ -976,7 +980,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         genero: ''
                     },
-                    loading: false,
+                    //loading: false,
                 })
                 if (response.status === 200) {
                     this.setState({
@@ -989,7 +993,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         genero: ''
                     },
-                    loading: false
+                    //loading: false
                 })
                 const { response } = err;
                 if (response && response.data) {
@@ -1064,9 +1068,9 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaEspecies = (id) => {
-        this.setState({
-            loading: true,
-        });
+        // this.setState({
+        //     loading: true,
+        // });
         axios.get('/api/especies/', {
             params: {
                 genero_id: id,
@@ -1078,7 +1082,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         especie: ''
                     },
-                    loading: false,
+                    //loading: false,
                 })
                 if (response.status === 200) {
                     this.setState({
@@ -1093,7 +1097,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         especie: ''
                     },
-                    loading: false,
+                   // loading: false,
                 })
                 const { response } = err;
                 if (response && response.data) {
@@ -1172,9 +1176,9 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaSubespecies = (id) => {
-        this.setState({
-            loading: true,
-        });
+        // this.setState({
+        //     loading: true,
+        // });
         axios.get('/api/subespecies/', {
             params: {
                 especie_id: id,
@@ -1186,7 +1190,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         subespecie: ''
                     },
-                    loading: false
+                    //loading: false
                 })
                 if (response.status === 200) {
                     this.setState({
@@ -1199,7 +1203,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         subespecie: ''
                     },
-                    loading: false
+                   // loading: false
                 })
                 const { response } = err;
                 if (response && response.data) {
@@ -1278,9 +1282,9 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaVariedades = (id) => {
-        this.setState({
-            loading: true,
-        });
+        // this.setState({
+        //     loading: true,
+        // });
         axios.get('/api/variedades/', {
             params: {
                 especie_id: id,
@@ -1292,7 +1296,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         variedade: ''
                     },
-                    loading: false
+                  //  loading: false
                 })
                 if (response.status === 200) {
                     this.setState({
@@ -1305,7 +1309,7 @@ class NovoTomboScreen extends Component {
                     search: {
                         variedade: ''
                     },
-                    loading: false
+                  //  loading: false
                 })
                 const { response } = err;
                 if (response && response.data) {
@@ -1816,7 +1820,7 @@ class NovoTomboScreen extends Component {
                     </Col>
                     <Col xs={24} sm={24} md={8} lg={12} xl={12}>
                         <Col span={24}>
-                            <span>Entidade:</span>
+                            <span>Herbário:</span>
                         </Col>
                         <Col span={24}>
                             <FormItem>
