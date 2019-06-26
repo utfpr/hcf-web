@@ -19,6 +19,7 @@ import ModalCadastroComponent from '../components/ModalCadastroComponent';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import axios from 'axios';
 import 'moment/locale/pt-br';
+import moment from 'moment';
 
 import { formatarDataENtoBR, formatarDataBDtoDataHora } from '../helpers/conversoes/ConversoesData';
 
@@ -89,9 +90,9 @@ class NovaRemessaScreen extends Component {
 					receptor: {
 						value: remessa.entidade_destino_id,
 					},
-					/* dataEnvio: {
-						value: remessa.data_envio,
-					},*/
+					dataEnvio: {
+						value: moment(remessa.data_envio),
+					},
 					observacoes: {
 						value: remessa.observacao,
 					},
@@ -155,6 +156,9 @@ class NovaRemessaScreen extends Component {
 	}
 
 	handleSubmit = (err, valores) => {
+		console.log("REMESSASSS")
+		console.log(this.state.data)
+		console.log(this.props.match.params.remessa_id)
 		if (!err) {
 			if (this.state.data.length > 0) {
 				if (this.props.match.params.remessa_id !== undefined) {
@@ -167,6 +171,13 @@ class NovaRemessaScreen extends Component {
 			}
 		}
 	}
+
+	notificacao = (type, titulo, descricao) => {
+		notification[type]({
+			message: titulo,
+			description: descricao,
+		});
+	};
 
 	onSubmit = event => {
 		event.preventDefault();
@@ -200,6 +211,7 @@ class NovaRemessaScreen extends Component {
 						loading: false
 					});
 					this.notificacao("success", "Sucesso", "O cadastro foi realizado com sucesso.")
+					this.props.history.goBack();
 				}
 				this.props.form.setFields({
 					campo: {
@@ -238,7 +250,6 @@ class NovaRemessaScreen extends Component {
 			receptor,
 			doador
 		} = valores;
-
 		axios.put(`/api/remessas/${this.props.match.params.remessa_id}`, {
 			remessa: {
 				observacao: observacoes,
@@ -248,16 +259,18 @@ class NovaRemessaScreen extends Component {
 			},
 			tombos: this.state.data
 		})
-			.then(response => {
-				if (response.status !== 201) {
-					this.openNotificationWithIcon("error", "Edição", "Houve um problema ao realizar a edição, verifique os dados e tente novamente.")
-				} else {
-					this.props.form.resetFields();
-					this.openNotificationWithIcon('success', 'Edição', 'O usuário foi alterado com sucesso.')
-				}
+			.then(response => {				
 				this.setState({
 					loading: false
 				});
+				if (response.status == 204) {					
+					this.props.form.resetFields();					
+					this.notificacao('success', 'Edição', 'A remessa foi alterada com sucesso.')
+					this.props.history.goBack();
+				} else {
+					this.notificacao("error", "Edição", "Houve um problema ao realizar a edição, verifique os dados e tente novamente.")
+
+				}
 			})
 			.catch(err => {
 				this.setState({
@@ -287,7 +300,7 @@ class NovaRemessaScreen extends Component {
 	gerarAcao(item) {
 		return (
 			<span>
-				<a href="#" onClick={() => this.mostraMensagemDelete(item.id)}>
+				<a href="#" onClick={() => this.mostraMensagemDelete(item.hcf)}>
 					<Icon type="delete" style={{ color: "#e30613" }} />
 				</a>
 			</span>
@@ -303,11 +316,15 @@ class NovaRemessaScreen extends Component {
 			okType: 'danger',
 			cancelText: 'NÃO',
 			onOk() {
-				let vetor = self.state.data;
-				vetor = self.state.data.splice(id, 1);
-				self.setState({
-					data: vetor
-				})
+				for(let i = 0; i < self.state.data.length; i++) {
+					if (self.state.data[i].hcf == id) {
+						let vetor = self.state.data;						
+						vetor.splice(i, 1);
+						self.setState({
+							data: vetor
+						})
+					}
+				}
 			},
 			onCancel() {
 			},
@@ -327,7 +344,7 @@ class NovaRemessaScreen extends Component {
 		const { getFieldDecorator } = this.props.form;
 		return (
 			<div>
-				<Form onSubmit={this.handleSubmitForm}>
+				<Form onSubmit={this.onSubmit}>
 					<ModalCadastroComponent title={'Adicionar tombo a remessa'} visibleModal={this.state.visibleModal}
 						onCancel={
 							() => {
@@ -348,6 +365,18 @@ class NovaRemessaScreen extends Component {
 								visibleModal: false,
 								data: vetor
 							})
+							
+						this.props.form.setFields({
+							hcf: {
+                                value: ''
+							},
+							tipo: {
+                                value: ''
+							},
+							dataVencimento: {
+                                value: ''
+                            },
+						});
 						}}>
 
 						<div>
@@ -404,11 +433,9 @@ class NovaRemessaScreen extends Component {
 						</div>
 
 					</ModalCadastroComponent>
-				</Form>
-				<Form onSubmit={this.handleSubmit}>
 					<Row>
 						<Col span={12}>
-							<h2 style={{ fontWeight: 200 }}>Cadastrar Remessa</h2>
+							<h2 style={{ fontWeight: 200 }}>Remessa</h2>
 						</Col>
 					</Row>
 					<Divider dashed />
@@ -522,6 +549,7 @@ class NovaRemessaScreen extends Component {
 	}
 
 	render() {
+		console.log(this.state)
 		if (this.state.loading) {
 			return (
 				<Spin tip="Carregando...">

@@ -91,7 +91,7 @@ function adicionaColunasTombosFotos(consulta, coluna, juncoes) {
     if (!juncoes.tbf) {
         // Se a junção da tabela já foi feita, não faz de novo
         // pra não duplicar o INNER JOIN com a tabela
-        consulta.innerJoin({ tbf: 'tombos_fotos' }, 'tbf.tombo_hcf', 'tmb.hcf');
+        consulta.leftJoin({ tbf: 'tombos_fotos' }, 'tbf.tombo_hcf', 'tmb.hcf');
         juncoes.tbf = true; // eslint-disable-line
     }
 

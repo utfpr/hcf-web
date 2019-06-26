@@ -164,7 +164,6 @@ class NovoTomboScreen extends Component {
                 latSegundos: dados.localizacao.latitude_sec,
             }
         }
-        console.log("MUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU")
 
         if (dados.retorno.identificadores) {
             this.setState({
