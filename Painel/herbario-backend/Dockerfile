@@ -14,6 +14,7 @@ COPY package.json yarn.lock ./
 RUN yarn install
 
 COPY --from=build /var/app/dist ./dist
+COPY ./public ./public
 
 EXPOSE 3003
 
