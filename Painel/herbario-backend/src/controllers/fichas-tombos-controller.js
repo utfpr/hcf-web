@@ -2,7 +2,7 @@ import { renderFile } from 'ejs';
 import path from 'path';
 import moment from 'moment-timezone';
 
-import formataDataColeta from '../helpers/formata-data-coleta';
+import formataColunasSeparadas from '../helpers/formata-colunas-separadas';
 import renderizaArquivoHtml from '../helpers/renderiza-arquivo-html';
 import models from '../models';
 
@@ -153,7 +153,7 @@ export default function fichaTomboController(request, response, next) {
                     ...tombo,
                     coletores,
                     data_tombo: formataDataSaida(tombo.data_tombo),
-                    data_coleta: formataDataColeta(
+                    data_coleta: formataColunasSeparadas(
                         tombo.data_coleta_dia,
                         tombo.data_coleta_mes,
                         tombo.data_coleta_ano
@@ -164,7 +164,7 @@ export default function fichaTomboController(request, response, next) {
                 especie: tombo.especie,
                 identificacao: {
                     ...identificacao,
-                    data_identificacao: formataDataSaida(
+                    data_identificacao: formataColunasSeparadas(
                         identificacao.data_identificacao_dia,
                         identificacao.data_identificacao_mes,
                         identificacao.data_identificacao_ano
