@@ -1324,11 +1324,13 @@ export const obterTombo = (request, response, next) => {
             for (let i = 0; i < fotos.length; i++) {
                 if (!fotos[i].em_vivo) {
                     fotosExsicata.push({
+                        id: fotos[i].id,
                         original: fotos[i].caminho_foto,
                         thumbnail: fotos[i].caminho_foto,
                     });
                 } else {
                     fotosEmVivo.push({
+                        id: fotos[i].id,
                         original: fotos[i].caminho_foto,
                         thumbnail: fotos[i].caminho_foto,
                     });
@@ -1337,6 +1339,7 @@ export const obterTombo = (request, response, next) => {
             resposta.fotos_exsicata = fotosExsicata;
             resposta.fotos_vivo = fotosEmVivo;
             fotos.map(foto => formatoFotos.push({
+                id: foto.id,
                 original: foto.caminho_foto,
                 thumbnail: foto.caminho_foto,
             }));

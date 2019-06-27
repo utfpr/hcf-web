@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
 import {
-    Form,
-    Row,
-    Col,
-    Divider,
-    Select,
-    InputNumber,
-    Tag,
-    Input,
-    Button,
-    notification,
-    Spin,
-    Radio,
+    Form, Row, Col, Divider, Select, InputNumber,
+    Tag, Input, Button, notification, Spin, Modal,
+    Radio, Icon, Table,
 } from 'antd';
 import axios from 'axios';
 import UploadPicturesComponent from '../components/UploadPicturesComponent';
@@ -20,16 +11,36 @@ import ButtonComponent from '../components/ButtonComponent';
 import CoordenadaInputText from '../components/CoordenadaInputText';
 import tomboParaRequisicao from '../helpers/conversoes/TomboParaRequisicao';
 import { isIdentificador } from '../helpers/usuarios';
+import { fotosBaseUrl } from '../config/api';
 import debounce from 'lodash/debounce';
+import SimpleTableComponent from '../components/SimpleTableComponent';
 
-
+const confirm = Modal.confirm;
 const FormItem = Form.Item;
 const Option = Select.Option;
 const { TextArea } = Input;
 const RadioGroup = Radio.Group;
 
-
 class NovoTomboScreen extends Component {
+
+    tabelaFotosColunas = [
+        {
+            title: 'Foto',
+            dataIndex: 'thumbnail',
+            render: thumbnail => (
+                <img width="120" src={`${fotosBaseUrl}/${thumbnail}`} />
+            ),
+        },
+        {
+            title: 'Ação',
+            dataIndex: 'acao',
+            render: (text, record, index) => (
+                <a href="#" onClick={(e) => { e.preventDefault(); this.excluirFotoTombo(record, index); }}>
+                    <Icon type="delete" style={{ color: "#e30613" }} />
+                </a>
+            ),
+        },
+    ]
 
     constructor(props) {
         super(props);
@@ -94,7 +105,12 @@ class NovoTomboScreen extends Component {
             latGraus: '',
             latMinutos: '',
             latSegundos: '',
+            fotosCadastradas: []
         };
+    }
+
+    excluirFotoTombo = (foto, indice) => {
+        console.log('Excluir a foto', foto, indice);
     }
 
     openNotification = (type, message, description) => {
@@ -123,10 +139,6 @@ class NovoTomboScreen extends Component {
                         ...data
                     });
                     this.insereDadosFormulario(data)
-                    console.log("RESPONSEEEE dados edicao - id")
-                    console.log(response.data)
-                    console.log("SState")
-                    console.log(this.state)
                 } else {
                     this.openNotificationWithIcon("error", "Falha", "Houve um problema ao buscar os dados do tombo, tente novamente.")
                 }
@@ -155,7 +167,20 @@ class NovoTomboScreen extends Component {
             subespecies: dados.subespecies,
             variedades: dados.variedades,
         };
-        
+        if (dados.coletores) {
+            console.log("PASSOU TUR")
+            const colet = dados.coletores.map(item => ({
+                key: item.id,
+                label: item.nome
+            }));
+            console.log(colet)
+
+            this.props.form.setFields({
+                coletores: {
+                    value: colet
+                }
+            })
+        }
         if (dados.localizacao) {
             insereState = {
                 ...insereState,
@@ -171,9 +196,7 @@ class NovoTomboScreen extends Component {
                 identificadores: dados.retorno.identificadores,
             })
         }
-        console.log(dados.retorno.nomes_populares)
         this.props.form.setFields({
-            coletores: dados.coletoresInicial,
             altitude: {
                 value: dados.localizacao.altitude,
             },
@@ -235,7 +258,6 @@ class NovoTomboScreen extends Component {
                         ...dados
                     })
                     if (this.props.match.params.tombo_id) {
-                        console.log("MAAAAAAAAAAAAAAAAAAAAAAAAAOEEEE")
                         this.requisitaDadosEdicao(this.props.match.params.tombo_id);
                     } else {
                         this.setState({
@@ -440,7 +462,7 @@ class NovoTomboScreen extends Component {
         if (autorEspecie !== undefined && autorEspecie !== "") json.autores = { especie: autorEspecie };
         if (autoresSubespecie !== undefined && autoresSubespecie !== "") json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade !== undefined && autorVariedade !== "") json.autores = { ...json.autores, variedade: autorVariedade };
-        console.log(json)
+    
         axios.post('/api/tombos', { json })
             .then(response => {
                 if (response.status === 201) {
@@ -648,7 +670,7 @@ class NovoTomboScreen extends Component {
         notification[type]({
             message: message,
             description: description,
-            duration: 15
+            duration: 10
         });
     };
 
@@ -1748,7 +1770,6 @@ class NovoTomboScreen extends Component {
                     this.setState({
                         coletores: response.data
                     })
-                    console.log(response.data)
                 }
                 this.setState({ fetchingColetores: false });
             })
@@ -1780,7 +1801,6 @@ class NovoTomboScreen extends Component {
                     this.setState({
                         identificadores: response.data
                     })
-                    console.log(response.data)
                 }
                 this.setState({ fetchingIdentificadores: false });
             })
@@ -2031,7 +2051,6 @@ class NovoTomboScreen extends Component {
                                         placeholder="Selecione um país"
                                         optionFilterProp="children"
                                         onChange={(value) => {
-                                            console.log(value)
                                             this.requisitaEstados(value)
                                         }}
                                     >
@@ -2055,7 +2074,6 @@ class NovoTomboScreen extends Component {
                                         placeholder="Selecione um estado"
                                         optionFilterProp="children"
                                         onChange={(value) => {
-                                            console.log(value)
                                             this.requisitaCidades(value);
                                         }}
                                     >
@@ -2936,7 +2954,6 @@ class NovoTomboScreen extends Component {
     }
 
     renderConteudo() {
-        // console.log(this.state.fotosExsicata)
         const { getFieldDecorator } = this.props.form;
         return (
             <div>
@@ -3111,6 +3128,17 @@ class NovoTomboScreen extends Component {
                             </Col>
                         </Col>
                     </Row>
+                    
+                    <Divider dashed />
+                    <Row gutter={8}>
+                    <Table
+                        columns={this.tabelaFotosColunas}
+                        dataSource={this.state.fotos}
+                        loading={this.state.loading}
+                        rowKey="id"
+                    />
+                    
+                    </Row>             
                     <Row type="flex" justify="end">
                         <Col xs={24} sm={8} md={3} lg={3} xl={3}>
                             <ButtonComponent titleButton={"Salvar"} />
@@ -3121,6 +3149,45 @@ class NovoTomboScreen extends Component {
         );
     }
 
+    // fotosTabela = this.state.fotos.map(item => ({
+    //     key: item.id,
+    //     title: 'operation',
+    //     dataIndex: 'operation',
+    //     render: (text, record) =>
+    //       this.state.dataSource.length >= 1 ? (
+    //         <Popconfirm title="Sure to delete?" onConfirm={() => this.handleDelete(record.key)}>
+    //           <a href="javascript:;">Delete</a>
+    //         </Popconfirm>
+    //       ) : null,
+    //     acao: gerarAcaoFoto(item.id)
+    // }))
+
+    mostraMensagemDelete(id) {
+		const self = this;
+		confirm({
+			title: 'Você tem certeza que deseja excluir esta foto?',
+			content: 'Ao clicar em SIM, a foto será excluída.',
+			okText: 'SIM',
+			okType: 'danger',
+			cancelText: 'NÃO',
+			onOk() {
+				
+			},
+			onCancel() {
+			},
+		});
+	}
+
+    gerarAcaoFoto = id => {
+        return (
+            <span>
+                <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
+                    <Icon type="delete" style={{ color: "#e30613" }} />
+                </a>
+            </span>
+        )
+	}
+
     renderPorTipo() {
         if (isIdentificador()) {
             return this.renderConteudoIdentificador()
@@ -3129,8 +3196,8 @@ class NovoTomboScreen extends Component {
     }
 
     render() {
+        console.log("COLETOOOOOORES")
         console.log(this.props.form.getFieldsValue())
-        console.log(this.state.fotosExsicata)
         if (this.state.loading) {
             return (
                 <Spin tip="Carregando...">

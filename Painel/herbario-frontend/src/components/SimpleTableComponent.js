@@ -5,17 +5,23 @@ export default class SimpleTableComponent extends Component {
 
 	constructor(props) {
 		super(props);
+		let paginacao = {}
+		if (props.semPaginacao) {
+			paginacao = false
+		} else {
+			paginacao = {
+				total: 0,
+				current: 1,
+				defaultPageSize: props.pageSize || 20
+			}
+		}
 
 		this.state = {
 			filteredInfo: null,
 			sortedInfo: null,
-			pagina: {
-				total: 0,
-				current: 1,
-				defaultPageSize: props.pageSize || 20
-			},
+			paginacao:  paginacao,
 		};
-
+		
 
 		this.columns = this.buildColumns(props, this.state);
 	}
@@ -69,12 +75,13 @@ export default class SimpleTableComponent extends Component {
 	});
 
 	render() {
+
 		return (
 			<Table
 				columns={this.columns}
 				dataSource={this.props.data}
 				onChange={this.handleChange}
-				pagination={this.state.pagina}
+				pagination={this.state.paginacao}
 				loading={this.props.loading}
 				scroll={{ x: 800 }}
 			/>
