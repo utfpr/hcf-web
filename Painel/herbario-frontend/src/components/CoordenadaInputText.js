@@ -30,10 +30,10 @@ class CoordenadaInputText extends Component {
     }
 
     render() {
-        // // console.log('CoordenadaInputText props', this.props);
-        // console.log('render value', this.props.value);
 
-        if (this.props.value && !this.graus && !this.minutos && !this.segundos) {
+        const semValoresEmPropriedades = !this.graus && !this.minutos && !this.segundos;
+        const semValoresEmEstados = !this.state.graus && !this.state.minutos && !this.state.graus;
+        if (this.props.value && semValoresEmPropriedades && semValoresEmEstados) {
             const coordenadas = decimalParaGrausMinutosSegundos(this.props.value, true);
 
             this.graus = coordenadas.graus;
