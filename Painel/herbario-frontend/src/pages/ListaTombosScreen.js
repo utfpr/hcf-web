@@ -12,6 +12,7 @@ import debounce from 'lodash/debounce';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
 import { isCuradorOuOperador, isIdentificador } from './../helpers/usuarios';
+import { baseUrl } from '../config/api';
 
 
 const confirm = Modal.confirm;
@@ -490,7 +491,7 @@ class ListaTombosScreen extends Component {
             })
             .reduce((filtros, [chave, valor]) => ({ ...filtros, [chave]: valor }), {});
 
-        const url = `http://127.0.0.1:3003/api/tombos/exportar?campos=${JSON.stringify(campos)}&filtros=${JSON.stringify(filtros)}`;
+        const url = `${baseUrl}/api/tombos/exportar?campos=${JSON.stringify(campos)}&filtros=${JSON.stringify(filtros)}`;
         window.open(url, '_blank');
     }
 
