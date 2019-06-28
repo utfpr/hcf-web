@@ -26,8 +26,6 @@ function obtemNomeArquivoCsv() {
 }
 
 export const obterModeloDarwinCore = (request, response, next) => {
-    // let parametros = {};
-    // let retorno = [];
     Promise.resolve()
         .then(() => Tombo.findAll({
             where: {
@@ -202,11 +200,11 @@ export const obterModeloDarwinCore = (request, response, next) => {
                 let dataIdentificacao = '';
                 let identificationQualifier = '';
                 let nomeIdentificador = '';
-                const paisNome = tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.paise.nome : '';
-                const paisCodigo = tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.paise.sigla : '';
-                const paranaNome = tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.nome : '';
-                const cidadeNome = tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.nome : '';
-                const vegetacao = tombo.locais_coletum.vegetaco ? tombo.locais_coletum.vegetaco.nome : '';
+                const paisNome = tombo.locais_coletum && tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.paise.nome : '';
+                const paisCodigo = tombo.locais_coletum && tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.paise.sigla : '';
+                const paranaNome = tombo.locais_coletum && tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.estado.nome : '';
+                const cidadeNome = tombo.locais_coletum && tombo.locais_coletum.cidade ? tombo.locais_coletum.cidade.nome : '';
+                const vegetacao = tombo.locais_coletum && tombo.locais_coletum.vegetaco ? tombo.locais_coletum.vegetaco.nome : '';
                 const familiaNome = tombo.familia ? tombo.familia.nome : '';
                 const generoNome = tombo.genero ? tombo.genero.nome : '';
                 const especieNome = tombo.especy ? tombo.especy.nome : '';
@@ -291,8 +289,7 @@ export const obterModeloDarwinCore = (request, response, next) => {
                             `\t${tombo.nomes_populares}\t\t${nomeTipo}\t${nomeIdentificador}\t${dataIdentificacao}`,
                             `\t${identificationQualifier}`,
                         ].join('');
-                        linha = linha.replace(/null/g, '');
-                        linha = linha.replace(/undefined/g, '');
+                        linha = linha.replace(/(null|undefined)/g, '');
                         response.write(`${linha}\n`);
                     });
                 } else {
@@ -314,7 +311,7 @@ export const obterModeloDarwinCore = (request, response, next) => {
                         `\t${identificationQualifier}`,
                     ].join('');
 
-                    linha = linha.replace(/undefined/g, '');
+                    linha = linha.replace(/null|undefined/g, '');
                     response.write(`${linha}\n`);
                 }
             });
