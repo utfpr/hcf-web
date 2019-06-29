@@ -33,16 +33,7 @@ export const cadastro = (request, response, next) => {
     let nomeVariedade = "";
 
     const callback = transaction => Promise.resolve()
-        .then(() => Tombo.findOne({
-            where: {
-                numero_coleta: principal.numero_coleta,
-            },
-            transaction,
-        }))
-        .then(tombo => {
-            if (tombo) {
-                throw new BadRequestExeption(417);
-            }
+        .then(() => {
 
             if (!paisagem || !paisagem.solo_id) {
                 return undefined;

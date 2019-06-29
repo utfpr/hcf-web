@@ -4,6 +4,7 @@ import SimpleTableComponent from '../components/SimpleTableComponent';
 import HeaderListComponent from '../components/HeaderListComponent';
 import GalleryComponent from '../components/GalleryComponent';
 import axios from 'axios';
+import fotosTomboMap from '../helpers/fotos-tombo-map';
 
 const { TextArea } = Input;
 const FormItem = Form.Item;
@@ -128,7 +129,10 @@ class VerPendenciaScreen extends Component {
     }
 
     renderFotos() {
-        if (this.state.fotos.novas.length > 0) {
+        if (this.state.fotos.novas.length > 0 && this.state.fotos.antigas.length > 0) {
+            const fotosNovas =  this.state.fotos.novas.map(fotosTomboMap);
+            const fotosAntigas = this.state.fotos.novas.map(fotosTomboMap);
+
             return (
                 <div>
                     <Divider dashed />
@@ -138,7 +142,7 @@ class VerPendenciaScreen extends Component {
                                 <span>Fotos antigas:</span>
                             </Col>
                             <Col span={24}>
-                                <GalleryComponent />
+                                <GalleryComponent fotos={fotosAntigas}/>
                             </Col>
                         </Col>
                         <Col xs={24} sm={12} md={12} lg={12} xl={12}>
@@ -146,7 +150,24 @@ class VerPendenciaScreen extends Component {
                                 <span>Novas fotos:</span>
                             </Col>
                             <Col span={24}>
-                                <GalleryComponent />
+                                <GalleryComponent fotos={fotosNovas} />
+                            </Col>
+                        </Col>
+                    </Row>
+                </div>
+            )
+        } else if (this.state.fotos.novas.length > 0) {
+            const fotos = this.state.fotos.novas.map(fotosTomboMap);
+            return (
+                <div>
+                    <Divider dashed />
+                    <Row gutter={8}>
+                        <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                            <Col span={24}>
+                                <span>Fotos:</span>
+                            </Col>
+                            <Col span={24}>
+                                <GalleryComponent fotos={fotos} />
                             </Col>
                         </Col>
                     </Row>

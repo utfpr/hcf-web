@@ -462,7 +462,10 @@ class NovoTomboScreen extends Component {
         if (autorEspecie !== undefined && autorEspecie !== "") json.autores = { especie: autorEspecie };
         if (autoresSubespecie !== undefined && autoresSubespecie !== "") json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade !== undefined && autorVariedade !== "") json.autores = { ...json.autores, variedade: autorVariedade };
-    
+        
+        console.log('TOMBO ENVIADO:')
+        console.log(json)
+
         axios.post('/api/tombos', { json })
             .then(response => {
                 if (response.status === 201) {

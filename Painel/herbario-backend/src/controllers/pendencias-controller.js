@@ -2,6 +2,7 @@ import models from '../models';
 import codigos from '../resources/codigos-http';
 import BadRequestExeption from '../errors/bad-request-exception';
 import subespecie from '../validators/subespecie';
+import { converteParaDecimal } from '../helpers/coordenadas';
 
 const {
     Alteracao,
@@ -18,9 +19,11 @@ const {
     Tombo,
     Especie,
     Variedade,
+    Coletor,
     Tipo,
     Familia,
     Subfamilia,
+    TomboFoto,
     Genero,
     Subespecie,
     ColecaoAnexa,
@@ -46,6 +49,11 @@ export const listagem = (request, response, next) => {
             ...where,
             status,
         };
+    } else {
+        where = {
+            ...where,
+            status: { [Op.ne]: 'APROVADO' },
+        };
     }
     if (nomeUsuario) {
         whereUsuario = {
@@ -68,7 +76,19 @@ export const listagem = (request, response, next) => {
         }))
         .then(alteracoes => {
             retorno.metadados.total = alteracoes.count;
-            retorno.resultado = alteracoes.rows.map(item => ({
+            const alteracoesValidas = alteracoes.rows.filter(item => {
+                if (item.usuario.tipo_usuario_id === 1) {
+                    return false;
+                }
+                if (item.identificacao) {
+                    if (item.usuario.tipo_usuario_id === 3) {
+                        return true;
+                    }
+                    return false;
+                }
+                return true;
+            });
+            retorno.resultado = alteracoesValidas.map(item => ({
                 id: item.id,
                 nome_usuario: item.usuario.nome,
                 numero_tombo: item.tombo_hcf,
@@ -664,6 +684,405 @@ export const visualizarComCadastro = (alteracao, transaction) => {
                     parametros = formatarTomboNovo(tombos[0]);
                 }
                 resolve(parametros);
+            })
+            .catch(reject);
+    });
+};
+
+const insereNoParametro = (key, campo, antigo, novo) => ({
+    key, campo, antigo, novo,
+});
+
+
+const comparaDoisTombosOperador = (tombo, tomboAlterado) => {
+    const parametros = [];
+    // / colecoes anexas
+    if (tomboAlterado.colecoes_anexas) {
+        if (tombo.colecoes_anexa) {
+            if (tombo.colecoes_anexa.tipo !== tomboAlterado.colecoes_anexas.tipo) {
+                parametros.push(insereNoParametro('1', 'Coleções anexas tipo', tombo.colecoes_anexa.tipo, tomboAlterado.colecoes_anexas.tipo));
+            }
+            if (tombo.colecoes_anexa.observacoes !== tomboAlterado.colecoes_anexas.observacoes) {
+                parametros.push(insereNoParametro('2', 'Coleções anexas observacoes', tombo.colecoes_anexa.observacoes, tomboAlterado.colecoes_anexas.observacoes));
+            }
+        } else {
+            if (tomboAlterado.colecoes_anexas.tipo) {
+                parametros.push(insereNoParametro('1', 'Coleções anexas tipo', '', tomboAlterado.colecoes_anexas.tipo));
+            }
+            if (tomboAlterado.colecoes_anexas.observacoes) {
+                parametros.push(insereNoParametro('2', 'Coleções anexas observacoes', '', tomboAlterado.colecoes_anexas.observacoes));
+            }
+        }
+    }
+    // / coletores
+    let coletorPrincipalOrig = {};
+    let coletoresOrig = '';
+    let coletoresAlt = '';
+    let novo = '';
+    let antigo = '';
+
+    if (tomboAlterado.coletores) {
+        const colAlt = tomboAlterado.coletores;
+        for (let i = 0; i < colAlt.length; i++) { // eslint-disable-line
+            coletoresAlt += ` ${colAlt[i].nome} `;
+        }
+        novo = coletoresAlt;
+    }
+    if (tombo.coletores) {
+        const colOrig = tombo.coletores;
+        for (let i = 0; i < colOrig.length; i++) { // eslint-disable-line
+            if (colOrig[i].tombos_coletores.principal) {
+                coletorPrincipalOrig = {
+                    id: colOrig[i].id,
+                    nome: colOrig[i].nome,
+                };
+            } else {
+                coletoresOrig += ` ${colOrig[i].nome} `;
+            }
+        }
+        antigo = coletoresOrig;
+    }
+    parametros.push(insereNoParametro('3', 'Coletores', antigo, novo));
+    if (coletorPrincipalOrig.id) {
+        if (tomboAlterado.coletor_principal.id) {
+            if (coletorPrincipalOrig.id !== tomboAlterado.coletor_principal.id) {
+                parametros.push(insereNoParametro('4', 'Coletor principal', coletorPrincipalOrig.nome, tomboAlterado.coletor_principal.nome));
+            }
+        }
+    } else if (tomboAlterado.coletor_principal.id) {
+        parametros.push(insereNoParametro('4', 'Coletor principal', '', tomboAlterado.coletor_principal.nome));
+    }
+    // /////local de coleta
+    if (tomboAlterado.localidade) {
+        if (tomboAlterado.localidade.altitude) {
+            if (tombo.altitude) {
+                if (tombo.altitude !== tomboAlterado.localidade.altitude) {
+                    parametros.push(insereNoParametro('5', 'Altitude', tombo.altitude, tomboAlterado.localidade.altitude));
+                }
+            } else {
+                parametros.push(insereNoParametro('5', 'Altitude', '', tomboAlterado.localidade.altitude));
+            }
+        }
+        if (tomboAlterado.localidade.cidade) {
+            if (tomboAlterado.localidade.cidade.id) {
+                if (tombo.locais_coletum && tombo.locais_coletum.cidade) {
+                    if (tombo.locais_coletum.cidade.id !== tomboAlterado.localidade.cidade.id) {
+                        parametros.push(insereNoParametro('6', 'Cidade', tombo.locais_coletum.cidade.nome, tomboAlterado.localidade.cidade.nome));
+                    }
+                } else {
+                    parametros.push(insereNoParametro('6', 'Cidade', '', tomboAlterado.localidade.cidade.nome));
+                }
+            }
+        }
+        if (tomboAlterado.localidade.latitude) {
+            if (tombo.latitude) {
+                if (converteParaDecimal(tomboAlterado.localidade.latitude) !== tombo.latitude) {
+                    parametros.push(insereNoParametro('7', 'Latitude', tombo.latitude, tomboAlterado.localidade.latitude));
+                }
+            } else {
+                parametros.push(insereNoParametro('7', 'Latitude', '', tomboAlterado.localidade.latitude));
+            }
+        }
+        if (tomboAlterado.localidade.longitude) {
+            if (tombo.longitude) {
+                if (converteParaDecimal(tomboAlterado.localidade.longitude) !== tombo.longitude) {
+                    parametros.push(insereNoParametro('8', 'Longitude', tombo.longitude, tomboAlterado.localidade.longitude));
+                }
+            } else {
+                parametros.push(insereNoParametro('8', 'Longitude', '', tomboAlterado.localidade.longitude));
+            }
+        }
+    }
+
+    if (tomboAlterado.observacoes) {
+        if (tombo.observacoes) {
+            parametros.push(insereNoParametro('9', 'Observações', tombo.observacoes, tomboAlterado.observacoes));
+        } else {
+            parametros.push(insereNoParametro('9', 'Observações', '', tomboAlterado.observacoes));
+        }
+    }
+
+    if (tomboAlterado.paisagem) {
+        const {
+            descricao, fase_sucessional: faseSucessional, relevo, solo, vegetacao,
+        } = tomboAlterado.paisagem;
+        if (descricao) {
+            if (tombo.locais_coletum && tombo.locais_coletum.descricao) {
+                if (descricao !== tombo.locais_coletum.descricao) {
+                    parametros.push(insereNoParametro('10', 'Descrição do local de coleta', tombo.locais_coletum.descricao, descricao));
+                }
+            } else {
+                parametros.push(insereNoParametro('10', 'Descrição do local de coleta', '', descricao));
+            }
+        }
+        if (faseSucessional) {
+            if (tombo.locais_coletum && tombo.locais_coletum.fase_sucessional) {
+                if (tombo.locais_coletum.fase_sucessional.nome !== faseSucessional.nome) {
+                    parametros.push(insereNoParametro('11', 'Fase sucessional', tombo.locais_coletum.nome, faseSucessional.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('11', 'Fase sucessional', '', faseSucessional.nome));
+            }
+        }
+        if (relevo) {
+            if (tombo.locais_coletum && tombo.locais_coletum.relevo) {
+                if (tombo.locais_coletum.relevo.nome !== relevo.nome) {
+                    parametros.push(insereNoParametro('12', 'Relevo', tombo.locais_coletum.relevo.nome, relevo.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('12', 'Relevo', '', relevo.nome));
+            }
+        }
+        if (solo) {
+            if (tombo.locais_coletum && tombo.locais_coletum.solo) {
+                if (tombo.locais_coletum.solo.nome !== solo.nome) {
+                    parametros.push(insereNoParametro('13', 'Solo', tombo.locais_coletum.solo.nome, solo.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('13', 'Solo', '', solo.nome));
+            }
+        }
+        if (vegetacao) {
+            if (tombo.locais_coletum && tombo.locais_coletum.vegetaco) {
+                if (tombo.locais_coletum.vegetaco.nome !== solo.nome) {
+                    parametros.push(insereNoParametro('14', 'Vegetação', tombo.locais_coletum.vegetaco.nome, vegetacao.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('14', 'Vegetação', '', vegetacao.nome));
+            }
+        }
+    }
+
+    if (tomboAlterado.principal) {
+        const {
+            cor, data_coleta: dataColeta, entidade,
+            nome_popular: nomePopular, numero_coleta: numColeta, tipo,
+        } = tomboAlterado.principal;
+
+        if (cor) {
+            if (tombo.cor !== cor) {
+                parametros.push(insereNoParametro('15', 'Cor', '', tombo.cor));
+            }
+        }
+        if (dataColeta) {
+            if (dataColeta.dia) {
+                if (tombo.data_coleta_dia) {
+                    if (dataColeta.dia !== tombo.data_coleta_dia) {
+                        parametros.push(insereNoParametro('16', 'Data coleta dia', tombo.data_coleta_dia, dataColeta.dia));
+                    }
+                } else {
+                    parametros.push(insereNoParametro('16', 'Data coleta dia', '', dataColeta.dia));
+                }
+            }
+            if (dataColeta.mes) {
+                if (tombo.data_coleta_mes) {
+                    if (dataColeta.mes !== tombo.data_coleta_mes) {
+                        parametros.push(insereNoParametro('17', 'Data coleta mes', tombo.data_coleta_mes, dataColeta.mes));
+                    }
+                } else {
+                    parametros.push(insereNoParametro('17', 'Data coleta mes', '', dataColeta.mes));
+                }
+            }
+            if (dataColeta.ano) {
+                if (tombo.data_coleta_ano) {
+                    if (dataColeta.ano !== tombo.data_coleta_ano) {
+                        parametros.push(insereNoParametro('18', 'Data coleta ano', tombo.data_coleta_ano, dataColeta.ano));
+                    }
+                } else {
+                    parametros.push(insereNoParametro('18', 'Data coleta ano', '', dataColeta.ano));
+                }
+            }
+        }
+
+        if (entidade) {
+            if (tombo.herbario) {
+                if (entidade.id !== tombo.herbario.id) {
+                    parametros.push(insereNoParametro('19', 'Herbário', tombo.herbario.nome, entidade.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('19', 'Herbário', '', entidade.nome));
+            }
+        }
+
+        if (nomePopular) {
+            if (tombo.nome_populares) {
+                if (nomePopular !== tombo.nome_populares) {
+                    parametros.push(insereNoParametro('20', 'Nomes populares', tombo.nome_populares, nomePopular));
+                }
+            } else {
+                parametros.push(insereNoParametro('20', 'Nomes populares', '', nomePopular));
+            }
+        }
+
+        if (numColeta) {
+            if (tombo.numero_coleta) {
+                if (numColeta !== tombo.numero_coleta) {
+                    parametros.push(insereNoParametro('21', 'Numero de coleta', numColeta, tombo.numero_coleta));
+                }
+            } else {
+                parametros.push(insereNoParametro('21', 'Numero de coleta', '', tombo.numero_coleta));
+            }
+        }
+
+        if (tipo) {
+            if (tombo.tipo) {
+                if (tipo.id !== tombo.tipo.id) {
+                    parametros.push(insereNoParametro('22', 'Tipo', tombo.tipo.nome, tipo.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('22', 'Tipo', '', tipo.nome));
+            }
+        }
+    }
+
+    if (tomboAlterado.taxonomia) {
+        const {
+            especie, familia, genero, sub_especie: subEspecie, sub_familia: subFamilia, variedade,
+        } = tomboAlterado.taxonomia;
+
+        if (especie) {
+            if (tombo.especy) {
+                if (especie.nome !== tombo.especy.nome) {
+                    parametros.push(insereNoParametro('23', 'Especie', especie, tombo.especy.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('23', 'Especie', '', especie.nome));
+            }
+        }
+
+        if (familia) {
+            if (tombo.familia) {
+                if (familia.nome !== tombo.familia.nome) {
+                    parametros.push(insereNoParametro('24', 'Familia', familia, tombo.familia.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('24', 'Familia', '', familia.nome));
+            }
+        }
+
+        if (genero) {
+            if (tombo.genero) {
+                if (genero.nome !== tombo.genero.nome) {
+                    parametros.push(insereNoParametro('25', 'Genero', genero, tombo.genero.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('25', 'Genero', '', genero.nome));
+            }
+        }
+
+        if (subEspecie) {
+            if (tombo.sub_especy) {
+                if (subEspecie.nome !== tombo.sub_especy) {
+                    parametros.push(insereNoParametro('26', 'Subespecie', subEspecie, tombo.sub_especy.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('26', 'Subespecie', '', subEspecie.nome));
+            }
+        }
+
+        if (subFamilia) {
+            if (tombo.sub_familia) {
+                if (subFamilia.nome !== tombo.sub_familia) {
+                    parametros.push(insereNoParametro('27', 'Subfamilia', subFamilia, tombo.sub_familia.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('27', 'Subfamilia', '', subFamilia.nome));
+            }
+        }
+
+        if (variedade) {
+            if (tombo.variedade) {
+                if (variedade.nome !== tombo.variedade) {
+                    parametros.push(insereNoParametro('28', 'Variedade', variedade, tombo.variedade.nome));
+                }
+            } else {
+                parametros.push(insereNoParametro('28', 'Variedade', '', variedade.nome));
+            }
+        }
+    }
+    return parametros;
+
+};
+
+export const visualizarAlteracaoOperador = (json, alteracao, transaction) => {
+    let parametros = {};
+
+    return new Promise((resolve, reject) => {
+
+        parametros = {
+            ...parametros,
+            numero_tombo: alteracao.tombo_hcf,
+        };
+        return Tombo.findAll({
+            where: {
+                hcf: alteracao.tombo_hcf,
+                ativo: true,
+            },
+            include: [
+                {
+                    model: Coletor,
+                },
+                {
+                    model: Herbario,
+                },
+                {
+                    model: Variedade,
+                },
+                {
+                    model: Tipo,
+                },
+                {
+                    model: Especie,
+                },
+                {
+                    model: Familia,
+                },
+                {
+                    model: Subfamilia,
+                },
+                {
+                    model: Genero,
+                },
+                {
+                    model: Subespecie,
+                },
+                {
+                    model: ColecaoAnexa,
+                },
+                {
+                    model: LocalColeta,
+                    include: [
+                        {
+                            model: Solo,
+                        },
+                        {
+                            model: Relevo,
+                        },
+                        {
+                            model: Vegetacao,
+                        },
+                        {
+                            model: Cidade,
+                        },
+                        {
+                            model: FaseSucessional,
+                        },
+                    ],
+                },
+            ],
+            transaction,
+        })
+            .then(tombo => {
+                parametros = {
+                    ...parametros,
+                    tombo_original: tombo,
+                };
+                const visualizacaoFormatada = comparaDoisTombosOperador(tombo, json);
+                parametros = {
+                    ...parametros,
+                    retorno: visualizacaoFormatada,
+                };
+                resolve(visualizacaoFormatada);
             })
             .catch(reject);
     });
@@ -1375,10 +1794,17 @@ export const visualizarComJsonNome = (alteracao, hcf, transaction) => new Promis
     })
     .catch(reject));
 
+
 export function visualizar(request, response, next) {
     const id = request.params.pendencia_id;
     let retorno = {};
     let status = '';
+    let tombo = -1;
+    const tombosBuscarFoto = [];
+    let fotosOriginaisFormatas = [];
+    let fotosInseridasFinal = [];
+    let fotosRemovidasFinal = [];
+    let objetoAlterado = {};
     const callback = transaction => Promise.resolve()
         .then(() => Alteracao.findOne({
             where: {
@@ -1388,27 +1814,93 @@ export function visualizar(request, response, next) {
             transaction,
         }))
         .then(alteracao => {
+            // eslint-disable-next-line no-console
             if (!alteracao) {
                 throw new BadRequestExeption(800);
             }
+            tombo = alteracao.tombo_hcf;
             // eslint-disable-next-line prefer-destructuring
             status = alteracao.status;
-            const objetoAlterado = JSON.parse(alteracao.tombo_json);
-            if (objetoAlterado.hcf) {
+            objetoAlterado = JSON.parse(alteracao.tombo_json);
+            if (objetoAlterado.alteracao_operador) {
+                retorno = visualizarAlteracaoOperador(objetoAlterado, alteracao, transaction);
+            } else if (objetoAlterado.hcf) {
                 retorno = visualizarComCadastro(alteracao, transaction);
             } else if (objetoAlterado.familia_id) {
                 retorno = visualizarComJsonId(objetoAlterado, alteracao.tombo_hcf, transaction);
             } else {
                 retorno = visualizarComJsonNome(objetoAlterado, alteracao.tombo_hcf, transaction);
             }
+
             return retorno;
+        })
+        .then(retorno => {
+            if (objetoAlterado.alteracao_operador) {
+                const fotosInseridas = objetoAlterado.fotos.inseridas;
+                const fotosRemovidas = objetoAlterado.fotos.removidas;
+                const todasFotos = fotosInseridas.concat(fotosRemovidas);
+
+                return TomboFoto.findAll({
+                    where: {
+                        tombo_hcf: { [Op.in]: todasFotos },
+                        ativo: 1,
+                    },
+                    transaction,
+                });
+            }
+            return TomboFoto.findAll({
+                where: {
+                    tombo_hcf: tombo,
+                    // tombo_hcf: { [Op.in]:  tombosBuscarFoto},
+                    ativo: 1,
+                },
+                transaction,
+            });
+        })
+        .then(fotos => {
+            if (objetoAlterado.alteracao_operador) {
+                const fotosRemovida = objetoAlterado.fotos.removidas;
+                const fotosRemo = fotos.filter(item => {
+                    if (fotosRemovida.includes(item.id)) {
+                        return true;
+                    }
+                    return false;
+                });
+
+                const fotosInseridas = objetoAlterado.fotos.inseridas;
+                const fotosIns = fotos.filter(item => {
+                    if (fotosInseridas.includes(item.id)) {
+                        return true;
+                    }
+                    return false;
+                });
+
+                fotosInseridasFinal = fotosIns.map(item => ({
+                    id: item.tombo_hcf,
+                    original: item.caminho_foto,
+                    thumbnail: item.caminho_foto,
+                }));
+
+                fotosInseridasFinal = fotosIns.map(item => ({
+                    id: item.tombo_hcf,
+                    original: item.caminho_foto,
+                    thumbnail: item.caminho_foto,
+                }));
+
+            } else {
+                fotosOriginaisFormatas = fotos.map(item => ({
+                    id: item.tombo_hcf,
+                    original: item.caminho_foto,
+                    thumbnail: item.caminho_foto,
+                }));
+            }            
         });
     sequelize.transaction(callback)
         .then(() => {
             // eslint-disable-next-line no-underscore-dangle
             response.status(codigos.LISTAGEM).json({
                 fotos: {
-                    novas: [],
+                    novas: fotosOriginaisFormatas,
                     antigas: [],
                 },
                 status,

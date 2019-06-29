@@ -22,6 +22,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             primaryKey: true,
         },
+        principal: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false,
+        },
     };
 
     const options = {
