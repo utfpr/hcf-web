@@ -27,8 +27,8 @@ app.use(errors);
  * com o back end. Essas daemon de tempos em tempos verificam
  * se é necessário realizar o processo de atualização do serviço.
  */
-// daemonFazRequisicaoReflora();
-// daemonSpeciesLink();
+daemonFazRequisicaoReflora();
+daemonSpeciesLink();
 
 
 export default app;

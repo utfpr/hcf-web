@@ -6,6 +6,7 @@ import { escreveLOG } from '../log';
 import {
     selectUmCodBarra,
     atualizaTabelaReflora,
+    decrementaTabelaReflora,
 } from '../herbariumdatabase';
 
 /**
@@ -73,6 +74,7 @@ export function salvaRespostaReflora(nomeArquivo, codBarra, error, response, bod
         }
     } else {
         escreveLOG(`reflora/${nomeArquivo}`, `Falha na requisição do código de barra {${codBarra}} que foi ${error}`);
+        decrementaTabelaReflora(codBarra);
     }
     // }
 }
