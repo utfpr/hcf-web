@@ -76,19 +76,19 @@ export const listagem = (request, response, next) => {
         }))
         .then(alteracoes => {
             retorno.metadados.total = alteracoes.count;
-            const alteracoesValidas = alteracoes.rows.filter(item => {
-                if (item.usuario.tipo_usuario_id === 1) {
-                    return false;
-                }
-                if (item.identificacao) {
-                    if (item.usuario.tipo_usuario_id === 3) {
-                        return true;
-                    }
-                    return false;
-                }
-                return true;
-            });
-            retorno.resultado = alteracoesValidas.map(item => ({
+            // const alteracoesValidas = alteracoes.rows.filter(item => {
+            //     if (item.usuario.tipo_usuario_id === 1) {
+            //         return false;
+            //     }
+            //     if (item.identificacao) {
+            //         if (item.usuario.tipo_usuario_id === 3) {
+            //             return true;
+            //         }
+            //         return false;
+            //     }
+            //     return true;
+            // });
+            retorno.resultado = alteracoes.rows.map(item => ({
                 id: item.id,
                 nome_usuario: item.usuario.nome,
                 numero_tombo: item.tombo_hcf,
@@ -1900,7 +1900,7 @@ export function visualizar(request, response, next) {
             // eslint-disable-next-line no-underscore-dangle
             response.status(codigos.LISTAGEM).json({
                 fotos: {
-                    novas: fotosOriginaisFormatas,
+                    novas: [],
                     antigas: [],
                 },
                 status,
