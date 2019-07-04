@@ -319,7 +319,10 @@ export function selectUmCodBarra() {
     // conexao.sync().then(() => {
     tabelaReflora.findAll({
         attributes: ['cod_barra'],
-        where: { ja_requisitou: false },
+        where: {
+            [Sequelize.Op.and]:
+                [{ nro_requisicoes: { [Sequelize.Op.ne]: 0 } }, { ja_requisitou: false }],
+        },
         limit: 1,
     }).then(codBarra => {
         promessa.resolve(codBarra);
@@ -338,8 +341,6 @@ export function selectUmCodBarra() {
  * @param {*} json, é o JSON com a resposta vinda da requisição do Reflora.
  * @param {*} valorJaRequisitou, é o valor utilizado para marcar que já foi feita
  * a requisição, sendo false que não feito e true que foi feito a requisição.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a atualização.
  */
 export function atualizaTabelaReflora(codBarra, json, valorJaRequisitou) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
@@ -350,13 +351,23 @@ export function atualizaTabelaReflora(codBarra, json, valorJaRequisitou) {
 }
 
 /**
+ * A função decrementaTabelaReflora, é invocada quando temos erros
+ * na requisição dos códigos de barras, assim é decrementado o valor
+ * presente na coluna nro_requisicoes.
+ * @param {*} codBarra, é o código de barra na qual aconteceu um erro
+ * e é decrementado o valor da coluna nro_requisicoes.
+ */
+export function decrementaTabelaReflora(codBarra) {
+    const tabelaReflora = modeloReflora(conexao, Sequelize);
+    tabelaReflora.decrement('nro_requisicoes', { where: { cod_barra: codBarra } });
+}
+
+/**
  * A função atualizaJaComparouTabelaReflora, é utilizado para marcar
  * os códigos de barras que tiveram as suas respostas de requisições vindas do Reflora
  * comparadas com as que estão no banco de dados.
  * @param {*} codBarra, é o código de barra na qual é necessário para colocar que já foi
  * feito a comparação.
- * @return promessa.promise, como é assíncrono ele só retorna quando resolver, ou seja,
- * quando terminar de realizar a atualização.
  */
 export function atualizaJaComparouTabelaReflora(codBarra) {
     const tabelaReflora = modeloReflora(conexao, Sequelize);
