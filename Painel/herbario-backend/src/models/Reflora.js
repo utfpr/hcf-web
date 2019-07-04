@@ -25,6 +25,10 @@ export default (Sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN,
             defaultValue: false,
         },
+        nro_requisicoes: {
+            type: DataTypes.INTEGER,
+            defaultValue: false,
+        },
     };
 
     const options = {
