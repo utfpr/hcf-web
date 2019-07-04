@@ -295,6 +295,7 @@ export function insereTabelaReflora(tabelaReflora, listaCodBarra) {
                 cod_barra: codBarra.dataValues.codigo_barra,
                 tombo_json: null,
                 ja_requisitou: false,
+                nro_requisicoes: 3,
             }).then(() => {
                 if (index === listaCodBarra.length - 1) {
                     promessa.resolve();
