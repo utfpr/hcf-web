@@ -1360,4 +1360,49 @@ export const getNumeroTombo = (request, response, next) => {
         .catch(next);
 };
 
+export const getNumeroColetor = (request, response, next) => {
+    const { idColetor } = request.params;
+    console.log(idColetor); // eslint-disable-line
+    Promise.resolve()
+        .then(() => TomboColetor.findAll({
+            where: {
+                coletor_id: idColetor,
+            },
+            attributes: [
+                'tombo_hcf',
+            ],
+        }))
+        .then( tombo_hcf => Tombo.findAll({
+            where: {
+                hcf : tombo_hcf.map(e => e.tombo_hcf)
+            },
+            attributes: [
+                'hcf',
+                'numero_coleta',
+            ],
+        }))
+        .then(tombos => {
+            response.status(codigos.BUSCAR_UM_ITEM)
+                .json(tombos);
+        })
+        .catch(next);
+};
+
+export const getUltimoNumeroTombo = (request, response, next) => {
+    Promise.resolve()
+        .then(() => Tombo.findAll({
+            attributes: [
+                'hcf',
+            ],
+        }))
+        .then(tombos => {
+            const maximo = Math.max(... tombos.map(e => e.hcf));
+            const tombo = {}
+            tombo.hcf = maximo
+            response.status(codigos.BUSCAR_UM_ITEM)
+                .json(tombo);
+        })
+        .catch(next);
+};
+
 export default {};

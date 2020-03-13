@@ -104,7 +104,7 @@ class VerPendenciaScreen extends Component {
                 })
                 if (response.status == 204) {
                     this.notificacao('success', 'Atualização', 'A pendência foi atualizada com sucesso.')
-                    this.props.history.goBack();
+                    this.props.history.push('/pendencias');
                 }else {
                     this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
                 }

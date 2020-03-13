@@ -14,7 +14,7 @@ import { isIdentificador } from '../helpers/usuarios';
 import { fotosBaseUrl } from '../config/api';
 import debounce from 'lodash/debounce';
 import SimpleTableComponent from '../components/SimpleTableComponent';
-
+import {Link} from 'react-router-dom';
 const confirm = Modal.confirm;
 const FormItem = Form.Item;
 const Option = Select.Option;
@@ -82,6 +82,7 @@ class NovoTomboScreen extends Component {
             coletores: [],
             fotosExsicata: [],
             fotosEmVivo: [],
+            numeroHcf: 0,
             herbarioInicial: '',
             localidadeInicial: '',
             tipoInicial: '',
@@ -252,6 +253,7 @@ class NovoTomboScreen extends Component {
         axios.get('/api/tombos/dados')
             .then(response => {
                 if (response.status === 200) {
+                    this.requisitaNumeroHcf();
                     let dados = response.data;
                     this.setState({
                         ...this.state,
@@ -275,6 +277,43 @@ class NovoTomboScreen extends Component {
                 this.setState({
                     loading: false
                 })
+                const { response } = err;
+                if (response && response.data) {
+                    const { error } = response.data;
+                    // throw new Error(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+
+    requisitaNumeroHcf = () => {
+        axios.get('/api/tombos/filtrar_ultimo_numero')
+            .then(response => {
+                if (response.status === 200) {
+                    if(this.props.match.params.tombo_id){
+                        this.setState({numeroHcf: this.props.match.params.tombo_id});
+                        this.props.form.setFields({
+                            numeroTombo: {
+                                value: this.props.match.params.tombo_id,
+                            },
+                        });
+                    } else {
+                        this.setState({numeroHcf: response.data.hcf + 1});
+                        this.props.form.setFields({
+                            numeroTombo: {
+                                value: response.data.hcf + 1,
+                            },
+                        });
+                    }
+                    
+
+                } else {
+                    this.openNotification("error", "Falha", "Houve um problema ao buscar o numero de coletor sugerido, tente novamente.")
+                }
+            })
+            .catch(err => {
                 const { response } = err;
                 if (response && response.data) {
                     const { error } = response.data;
@@ -365,7 +404,7 @@ class NovoTomboScreen extends Component {
                 });
                 if (response.status === 200) {
                     this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
-                    this.props.history.goBack()
+                    this.props.history.push("/tombos/" + this.state.numeroHcf);
                 }
             })
             .catch(err => {
@@ -503,7 +542,7 @@ class NovoTomboScreen extends Component {
                 });
 
                 this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
-                this.props.history.goBack()
+                this.props.history.push("/tombos/" + this.state.numeroHcf);
 
             })
             .catch(err => {
@@ -1762,6 +1801,44 @@ class NovoTomboScreen extends Component {
 
     }
 
+    ajustaColetores = (value) => {
+        if(value.length !== 0) {
+            axios.get(`/api/tombos/numeroColetor/${value[0].key}`)
+                .then(response => {
+                    if (response.status === 200) {
+                        var todosNumeros = response.data;
+                        var numeros = todosNumeros.map(e => e.numero_coleta);
+                        var numero = 0;
+                        var maior = 0;
+                        var menor = 0;
+                        var result = 0;
+                        if(numeros === []) numero = 1;
+                        else if(numeros.length == 1) numero = numero + 1;
+                        else {
+                            var menor = [0];
+                            do {
+                                if(numeros === []) result = menor[0] + 1;
+                                var index = numeros.indexOf(Math.min(...numeros));
+                                var maior = numeros.splice(index, 1);
+
+                                if(maior[0] - menor[0] === 1) {
+                                    menor = maior;
+                                } else {
+                                    result = menor[0] + 1;
+                                }
+                            } while(result === 0 && numeros !== []);
+                            this.props.form.setFields({
+                                numColeta: {
+                                    value: result
+                                }
+                            })
+                        }
+                    }
+                })
+                .catch(this.catchRequestError);
+        }
+    }
+
     requisitaColetores = (nome) => {
         this.setState({
             coletores: [],
@@ -1828,46 +1905,6 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
-                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
-                        <Col span={24}>
-                            <span>Nome Popular:</span>
-                        </Col>
-                        <Col span={24}>
-                            <FormItem>
-                                {getFieldDecorator('nomePopular')(
-                                    <Input placeholder={"Maracujá Doce"} type="text" />
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Col>
-                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
-                        <Col span={24}>
-                            <span>Herbário:</span>
-                        </Col>
-                        <Col span={24}>
-                            <FormItem>
-                                {getFieldDecorator('entidade', {
-                                    initialValue: String(this.state.herbarioInicial),
-                                    rules: [{
-                                        required: true,
-                                        message: 'Escolha uma entidade',
-                                    }]
-                                })(
-                                    <Select
-                                        showSearch
-                                        placeholder="Selecione uma entidade"
-                                        optionFilterProp="children"
-
-                                    >
-
-                                        {this.optionEntidades()}
-                                    </Select>
-                                )}
-                            </FormItem>
-                        </Col>
-                    </Col>
-                </Row>
-                <Row gutter={8}>
                     <Col xs={24} sm={24} md={8} lg={8} xl={8}>
                         <Col span={24}>
                             <span>Número da coleta:</span>
@@ -1875,7 +1912,6 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('numColeta', {
-                                    initialValue: String(this.state.numero_coleta),
                                     rules: [{
                                         required: true,
                                         message: 'Insira o numero da coleta',
@@ -1949,6 +1985,46 @@ class NovoTomboScreen extends Component {
                                         <Radio value={'VERDE'}><Tag color="green">Brasil</Tag></Radio>
                                         <Radio value={'AZUL'}><Tag color="blue">Outros países</Tag></Radio>
                                     </RadioGroup>
+                                )}
+                            </FormItem>
+                        </Col>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Nome Popular:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('nomePopular')(
+                                    <Input placeholder={"Maracujá Doce"} type="text" />
+                                )}
+                            </FormItem>
+                        </Col>
+                    </Col>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Herbário:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('entidade', {
+                                    initialValue: String(this.state.herbarioInicial),
+                                    rules: [{
+                                        required: true,
+                                        message: 'Escolha uma entidade',
+                                    }]
+                                })(
+                                    <Select
+                                        showSearch
+                                        placeholder="Selecione uma entidade"
+                                        optionFilterProp="children"
+
+                                    >
+
+                                        {this.optionEntidades()}
+                                    </Select>
                                 )}
                             </FormItem>
                         </Col>
@@ -2134,6 +2210,20 @@ class NovoTomboScreen extends Component {
         return (
             <div>
                 <Row gutter={8}>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Numero de Tombo:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('numeroTombo')(
+                                    <Input disabled type="text" />
+                                )}
+                            </FormItem>
+                        </Col>
+                    </Col>
+                </Row>
+                <Row gutter={8}>
                     <Col xs={24} sm={24} md={12} lg={12} xl={12}>
                         <Col span={24}>
                             <span>Família:</span>
@@ -2231,7 +2321,8 @@ class NovoTomboScreen extends Component {
                     </Col>
                 </Row>
 
-
+                <Divider dashed />
+                
                 <Row gutter={8}>
                     <Col xs={24} sm={24} md={12} lg={12} xl={12}>
                         <Col span={24}>
@@ -2694,6 +2785,9 @@ class NovoTomboScreen extends Component {
                                         onSearch = {value => {
                                             this.requisitaColetores(value)
                                         }}
+                                        onChange = {value => {
+                                            this.ajustaColetores(value)
+                                        }}
                                     >
                                         {this.optionColetores()}
                                     </Select>
@@ -3032,18 +3126,19 @@ class NovoTomboScreen extends Component {
                             <h2 style={{ fontWeight: 200 }}>Tombo</h2>
                         </Col>
                     </Row>
+
+                    {this.renderFamiliaTombo(getFieldDecorator)}
+                    
+                    <Divider dashed />
+                    {this.renderColetores(getFieldDecorator)}
                     <Divider dashed />
                     {this.renderPrincipaisCaracteristicas(getFieldDecorator)}
                     <Divider dashed />
                     {this.renderLocalTombo(getFieldDecorator)}
                     <Divider dashed />
-                    {this.renderFamiliaTombo(getFieldDecorator)}
-                    <Divider dashed />
                     {this.renderTipoSoloTombo(getFieldDecorator)}
                     <Divider dashed />
                     {this.renderIdentificador(getFieldDecorator)}
-                    <Divider dashed />
-                    {this.renderColetores(getFieldDecorator)}
                     <Divider dashed />
                     {this.renderColecoesAnexas(getFieldDecorator)}
                     <Divider dashed />
@@ -3142,12 +3237,40 @@ class NovoTomboScreen extends Component {
                     />
                     
                     </Row>             
-                    <Row type="flex" justify="end">
-                        <Col xs={24} sm={8} md={3} lg={3} xl={3}>
-                            <ButtonComponent titleButton={"Salvar"} />
+                    <Row gutter={10} type="flex" justify="end">
+                        <Col >
+                            <Button
+                                disabled = {this.props.match.params.tombo_id ? false : true}
+                                type = "primary"
+                            >
+                                <Link
+                                    to={{
+                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf
+                                    }}
+                                    target="_blank"
+                                    > imprimir ficha
+                                </Link>
+                            </Button>
+                        </Col>
+                        <Col >
+                            <Button
+                                disabled = {this.props.match.params.tombo_id ? false : true}
+                                type = "primary"
+                            >
+                                <Link
+                                    to={{
+                                    pathname: '/pendencias/' + this.state.numeroHcf,
+                                    }}
+                                    target="_blank"
+                                    > ver pendencias
+                                </Link>
+                            </Button>
+                        </Col>
+                        <Col >
+                            <ButtonComponent titleButton={"Salvar"} htmlType="submit"/>
                         </Col>
                     </Row>
-                </Form> 
+                </Form>
             </div>
         );
     }

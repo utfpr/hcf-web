@@ -35,6 +35,21 @@ class FichaTomboScreen extends Component {
     state = {
         tombos: [],
     };
+    
+    componentDidMount() {
+        console.log("cheguei aqui ao menos \n\n\n", this.props.location);
+        if(this.props.location.search !== undefined) {
+            this.props.form.setFields({
+                hcf: {
+                    value: parseInt(this.props.location.search.split("?")[1]),
+                },
+            });
+        }
+        this.setState({
+            loading: true
+        });
+        
+    }
 
     handleFormSubmit = event => {
         event.preventDefault();
