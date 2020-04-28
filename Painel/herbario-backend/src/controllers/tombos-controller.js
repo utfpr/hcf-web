@@ -1362,7 +1362,6 @@ export const getNumeroTombo = (request, response, next) => {
 
 export const getNumeroColetor = (request, response, next) => {
     const { idColetor } = request.params;
-    console.log(idColetor); // eslint-disable-line
     Promise.resolve()
         .then(() => TomboColetor.findAll({
             where: {
@@ -1398,9 +1397,19 @@ export const getUltimoNumeroTombo = (request, response, next) => {
         .then(tombos => {
             const maximo = Math.max(... tombos.map(e => e.hcf));
             const tombo = {}
-            tombo.hcf = maximo
-            response.status(codigos.BUSCAR_UM_ITEM)
-                .json(tombo);
+            tombo.hcf = maximo;
+            Tombo.findOne({
+                where: {
+                    hcf : maximo
+                },
+                attributes: [
+                    'hcf',
+                    'data_tombo'
+                ],
+            }).then(tomboDate => {
+                response.status(codigos.BUSCAR_UM_ITEM)
+                    .json(tomboDate);
+            })
         })
         .catch(next);
 };

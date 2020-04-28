@@ -12,6 +12,8 @@ const {
     Coletor,
     Familia,
     Especie,
+    Subespecie,
+    Variedade,
     Usuario,
     Alteracao,
     LocalColeta,
@@ -44,6 +46,12 @@ export default function fichaTomboController(request, response, next) {
                     model: Especie,
                 },
                 {
+                    model: Subespecie,
+                },
+                {
+                    model: Variedade,
+                },
+                {
                     as: 'local_coleta',
                     required: true,
                     model: LocalColeta,
@@ -67,10 +75,10 @@ export default function fichaTomboController(request, response, next) {
                 ativo: true,
                 hcf: tomboId,
             };
-
             return Tombo.findOne({ include, where });
         })
         .then(tombo => {
+            // console.log("aqui e meu tombooooooooooooooooooooo\n\n\n\n\n\n\n\n", tombo);
             if (!tombo) {
                 throw new Error('Tombo não encontrado');
             }
@@ -144,7 +152,6 @@ export default function fichaTomboController(request, response, next) {
             const { cidade } = localColeta;
             const { estado } = cidade;
             const { pais } = estado;
-
             const parametros = {
                 // Se não tem fotos, cria um array de 1 posição com um objeto vazio
                 // para poder iterar pelo array e criar pelo menos 1 ficha
@@ -162,6 +169,8 @@ export default function fichaTomboController(request, response, next) {
 
                 familia: tombo.familia,
                 especie: tombo.especie,
+                subespecie: tombo.sub_especy,
+                variedade: tombo.variedade,
                 identificacao: {
                     ...identificacao,
                     data_identificacao: formataColunasSeparadas(
@@ -176,8 +185,11 @@ export default function fichaTomboController(request, response, next) {
                 estado,
                 pais,
             };
-
+        
             const caminhoArquivoHtml = path.resolve(__dirname, '../views/ficha-tombo.ejs');
+
+
+            // console.log(parametros);
             return renderizaArquivoHtml(caminhoArquivoHtml, parametros, response)
                 .then(html => {
                     response.status(200).send(html);

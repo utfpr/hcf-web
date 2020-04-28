@@ -299,6 +299,12 @@ class NovoTomboScreen extends Component {
                                 value: this.props.match.params.tombo_id,
                             },
                         });
+                        const date = new Date(response.data.data_tombo);
+                        this.props.form.setFields({
+                            dataTombo: {
+                                value: date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear(),
+                            },
+                        });
                     } else {
                         this.setState({numeroHcf: response.data.hcf + 1});
                         this.props.form.setFields({
@@ -306,8 +312,13 @@ class NovoTomboScreen extends Component {
                                 value: response.data.hcf + 1,
                             },
                         });
+                        const date = new Date();
+                        this.props.form.setFields({
+                            dataTombo: {
+                                value: date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear(),
+                            },
+                        });
                     }
-                    
 
                 } else {
                     this.openNotification("error", "Falha", "Houve um problema ao buscar o numero de coletor sugerido, tente novamente.")
@@ -2217,6 +2228,18 @@ class NovoTomboScreen extends Component {
                         <Col span={24}>
                             <FormItem>
                                 {getFieldDecorator('numeroTombo')(
+                                    <Input disabled type="text" />
+                                )}
+                            </FormItem>
+                        </Col>
+                    </Col>
+                    <Col xs={24} sm={24} md={8} lg={12} xl={12}>
+                        <Col span={24}>
+                            <span>Data do Tombo:</span>
+                        </Col>
+                        <Col span={24}>
+                            <FormItem>
+                                {getFieldDecorator('dataTombo')(
                                     <Input disabled type="text" />
                                 )}
                             </FormItem>
