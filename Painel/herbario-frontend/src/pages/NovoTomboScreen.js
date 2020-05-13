@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     Form, Row, Col, Divider, Select, InputNumber,
     Tag, Input, Button, notification, Spin, Modal,
-    Radio, Icon, Table,
+    Radio, Icon, Table, Popover
 } from 'antd';
 import axios from 'axios';
 import UploadPicturesComponent from '../components/UploadPicturesComponent';
@@ -26,18 +26,63 @@ class NovoTomboScreen extends Component {
     tabelaFotosColunas = [
         {
             title: 'Foto',
-            dataIndex: 'thumbnail',
-            render: thumbnail => (
-                <img width="120" src={`${fotosBaseUrl}/${thumbnail}`} />
+            dataIndex: this.props.match.params.tombo_id ? 'caminho_foto' : 'thumbnail',
+            render: (caminho_foto, thumbnail) => (
+                <img width="120" src={`${fotosBaseUrl}/${this.props.match.params.tombo_id ? caminho_foto : thumbnail}`} />
+            ),
+        },
+        {
+            title: 'Codigo de Barras',
+            dataIndex: 'codigo_barra',
+            render: codigo_barra => (
+            <div width="120">{codigo_barra}</div>
             ),
         },
         {
             title: 'Ação',
             dataIndex: 'acao',
             render: (text, record, index) => (
-                <a href="#" onClick={(e) => { e.preventDefault(); this.excluirFotoTombo(record, index); }}>
-                    <Icon type="delete" style={{ color: "#e30613" }} />
-                </a>
+                <Row>
+                    {/* <Col span={6} >
+                        <a href="#" onClick={(e) => { e.preventDefault(); this.excluirFotoTombo(record, index); }}>
+                            <Icon type="delete" style={{ color: "#e30613" }} />
+                        </a>
+                    </Col> */}
+                    <Col span={6}>
+                        <Popover
+                            onVisibleChange = {() => {
+                                this.setState({
+                                    codigoBarras: record.codigo_barra
+                                })
+                            }}
+                            content={
+                            <Row span={10}>
+                                <Row>
+                                    <Col >
+                                        <text><strong>código de barras:</strong></text>
+                                    </Col>
+                                    <Col >
+                                        <Input
+                                            value = {this.state.codigoBarras}
+                                            onChange = {(e) => {
+                                                this.setState({codigoBarras: e.target.value})
+                                            }}
+                                            placeholder="digite o novo código de barras aqui"
+                                        />
+                                    </Col>
+                                </Row>
+                                <Row type="flex" justify="end">
+                                    <Button type = "primary" onClick = {() => {this.submitCodBar(record, index)}}>alterar</Button>
+                                </Row>
+                            </Row>     
+                            }
+                            title="Alterar código de barras"
+                            trigger="click"
+                        >
+                            <Icon type="barcode" size="large" style={{ color: "black" }} />
+                        </Popover>
+                    </Col>
+                </Row>
             ),
         },
     ]
@@ -106,12 +151,56 @@ class NovoTomboScreen extends Component {
             latGraus: '',
             latMinutos: '',
             latSegundos: '',
-            fotosCadastradas: []
+            fotosCadastradas: [],
+            fotosTeste: [],
+            codigoBarras: ""
         };
     }
 
     excluirFotoTombo = (foto, indice) => {
         console.log('Excluir a foto', foto, indice);
+    }
+
+    submitCodBar = (foto, indice) => {
+        console.log('alterar codigo de barras', foto, indice);
+        var json = {};
+
+        json.codBarra = foto.codigo_barra;
+
+        json.novoCod = {};
+
+        json.novoCod.codBarra = this.state.codigoBarras;
+        json.novoCod.numBarra = foto.num_barra;
+
+        axios.put('/api/tombos/codBarras', json)
+            .then(response => {
+                this.setState({
+                    loading: false
+                });
+                if (response.status === 204) {
+                    this.openNotificationWithIcon("success", "Sucesso", "O codigo de barras foi alterado com sucesso.")
+                    window.location.reload();
+                }
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                });
+                const { response } = err;
+
+                if (response.status === 400) {
+                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                } else {
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao alterar o codigo tente novamente.")
+                }
+                if (response && response.data) {
+                    const { error } = response.data;
+                    console.log(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
     }
 
     openNotification = (type, message, description) => {
@@ -305,6 +394,7 @@ class NovoTomboScreen extends Component {
                                 value: date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear(),
                             },
                         });
+                        this.requisitaCodigoBarras();
                     } else {
                         this.setState({numeroHcf: response.data.hcf + 1});
                         this.props.form.setFields({
@@ -319,7 +409,6 @@ class NovoTomboScreen extends Component {
                             },
                         });
                     }
-
                 } else {
                     this.openNotification("error", "Falha", "Houve um problema ao buscar o numero de coletor sugerido, tente novamente.")
                 }
@@ -349,6 +438,30 @@ class NovoTomboScreen extends Component {
 
                 } else {
                     this.openNotification("error", "Falha", "Houve um problema ao buscar o numero de coletor sugerido, tente novamente.")
+                }
+            })
+            .catch(err => {
+                const { response } = err;
+                if (response && response.data) {
+                    const { error } = response.data;
+                    throw new Error(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+
+    requisitaCodigoBarras = () => {
+        axios.get(`/api/tombos/codBarras/${this.props.match.params.tombo_id}`)
+            .then(response => {
+                if (response.status === 200) {
+                    const dados = response.data;
+                    this.setState({
+                        fotosTeste: dados
+                    })
+                } else {
+                    this.openNotification("error", "Falha", "Houve um erro ao buscar os codigos de barras, tente novamente.")
                 }
             })
             .catch(err => {
@@ -3075,6 +3188,8 @@ class NovoTomboScreen extends Component {
 
     renderConteudo() {
         const { getFieldDecorator } = this.props.form;
+        console.log("as fotos do cramunhao: ", this.state.fotosTeste);
+        
         return (
             <div>
                 <Form onSubmit={this.handleSubmitForm}>
@@ -3254,7 +3369,7 @@ class NovoTomboScreen extends Component {
                     <Row gutter={8}>
                     <Table
                         columns={this.tabelaFotosColunas}
-                        dataSource={this.state.fotos}
+                        dataSource={this.state.fotosTeste.length !== 0 ? this.state.fotosTeste : this.state.fotos}
                         loading={this.state.loading}
                         rowKey="id"
                     />
@@ -3297,19 +3412,6 @@ class NovoTomboScreen extends Component {
             </div>
         );
     }
-
-    // fotosTabela = this.state.fotos.map(item => ({
-    //     key: item.id,
-    //     title: 'operation',
-    //     dataIndex: 'operation',
-    //     render: (text, record) =>
-    //       this.state.dataSource.length >= 1 ? (
-    //         <Popconfirm title="Sure to delete?" onConfirm={() => this.handleDelete(record.key)}>
-    //           <a href="javascript:;">Delete</a>
-    //         </Popconfirm>
-    //       ) : null,
-    //     acao: gerarAcaoFoto(item.id)
-    // }))
 
     mostraMensagemDelete(id) {
 		const self = this;

@@ -1414,4 +1414,47 @@ export const getUltimoNumeroTombo = (request, response, next) => {
         .catch(next);
 };
 
+export const getCodigoBarraTombo = (request, response, next) => {
+    const { idTombo } = request.params;
+    Promise.resolve()
+        .then(() => TomboFoto.findAll({
+            where: {
+                tombo_hcf : idTombo
+            },
+            attributes: [
+                'id',
+                'codigo_barra',
+                'num_barra',
+                'caminho_foto',
+            ],
+        }))
+        .then(tombos => {
+            response.status(codigos.BUSCAR_UM_ITEM)
+                .json(tombos);
+        })
+        .catch(next);
+};
+
+export const atualizaCodigoBarra = (codBarra, novoCod) => TomboFoto.update({
+    num_barra: novoCod.numBarra,
+    codigo_barra: novoCod.codBarra
+}, {
+    where: {
+        codigo_barra: codBarra,
+    },
+});
+
+export const editarCodigoBarra = (request, response, next) => {
+    const { body } = request;
+    Promise.resolve()
+        .then(() => atualizaCodigoBarra(body.codBarra, body.novoCod))
+        .then(retorno => {
+            if (!retorno) {
+                throw new BadRequestExeption(111);
+            }
+            response.status(codigos.EDITAR_SEM_RETORNO).send();
+        })
+        .catch(next);
+};
+
 export default {};

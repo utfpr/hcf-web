@@ -10,7 +10,8 @@ import listagemTombo from '../validators/tombo-listagem';
 import {
     getDadosCadTombo, getNumeroTombo, cadastro, listagem,
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
-    buscarProximoNumeroColetor, alteracao, getNumeroColetor, getUltimoNumeroTombo,
+    buscarProximoNumeroColetor, alteracao, getNumeroColetor, getUltimoNumeroTombo, getCodigoBarraTombo,
+    editarCodigoBarra,
 } from '../controllers/tombos-controller';
 import exportarTombosController from '../controllers/tombos-exportacoes-controller';
 import fichaTomboController from '../controllers/fichas-tombos-controller';
@@ -32,6 +33,16 @@ export default app => {
         .get([
             getNumeroColetor,
         ]);
+    
+    app.route('/tombos/codBarras/:idTombo')
+    .get([
+        getCodigoBarraTombo,
+    ]);
+
+    app.route('/tombos/codBarras')
+    .put([
+        editarCodigoBarra,
+    ]);
 
     app.route('/tombos/exportar')
         .get([
