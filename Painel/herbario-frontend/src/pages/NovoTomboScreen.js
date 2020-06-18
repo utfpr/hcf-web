@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import {
     Form, Row, Col, Divider, Select, InputNumber,
     Tag, Input, Button, notification, Spin, Modal,
-    Radio, Icon, Table, Popover
+    Radio, Icon, Table, Popover, Tooltip, Upload
 } from 'antd';
+
 import axios from 'axios';
 import UploadPicturesComponent from '../components/UploadPicturesComponent';
 import ModalCadastroComponent from '../components/ModalCadastroComponent';
@@ -48,7 +49,7 @@ class NovoTomboScreen extends Component {
                             <Icon type="delete" style={{ color: "#e30613" }} />
                         </a>
                     </Col> */}
-                    <Col span={6}>
+                    {/* <Col span={6}>
                         <Popover
                             onVisibleChange = {() => {
                                 this.setState({
@@ -81,6 +82,24 @@ class NovoTomboScreen extends Component {
                         >
                             <Icon type="barcode" size="large" style={{ color: "black" }} />
                         </Popover>
+                    </Col> */}
+                    <Col span={6}>
+                        <Tooltip placement="top" title={"editar imagem"}>
+                            <Upload
+                                multiple
+                                {...this.props}
+                                beforeUpload={(foto) => {
+                                    this.atualizarFotoTombo(foto, record, index);
+                                }}
+                            > 
+                                <Tooltip placement="top" title={"editar imagem"}>
+                                    <Icon type="edit"
+                                            size="large"
+                                            style={{ color: "#FFCC00" }} />
+                                </Tooltip>
+                            </Upload>
+                            
+                        </Tooltip>
                     </Col>
                 </Row>
             ),
@@ -151,7 +170,6 @@ class NovoTomboScreen extends Component {
             latGraus: '',
             latMinutos: '',
             latSegundos: '',
-            fotosCadastradas: [],
             fotosTeste: [],
             codigoBarras: ""
         };
@@ -159,6 +177,28 @@ class NovoTomboScreen extends Component {
 
     excluirFotoTombo = (foto, indice) => {
         console.log('Excluir a foto', foto, indice);
+    }
+
+    atualizarFotoTombo = (foto, record) => {
+        console.log('foto', foto);
+        console.log('record', record);
+
+        const tombo_codBarr = record.codigo_barra;
+        const form = new FormData();
+        form.append('imagem', foto);
+        form.append('tombo_codBarr', tombo_codBarr);
+
+        return axios.post('/api/uploads/atualizaImagem', form, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            },
+        }).then(response => {
+            window.location.reload();
+        }).catch(response => {
+            window.location.reload();
+        });
+
+
     }
 
     submitCodBar = (foto, indice) => {
@@ -639,6 +679,10 @@ class NovoTomboScreen extends Component {
                         form.append('tombo_hcf', hcf);
                         form.append('em_vivo', emVivo);
 
+                        console.log('imagem', foto)
+                        console.log('tombo_hcf', hcf)
+                        console.log('em_vivo', emVivo)
+                        console.log('meu form', form)
                         return axios.post('/api/uploads', form, {
                             headers: {
                                 'Content-Type': 'multipart/form-data'
