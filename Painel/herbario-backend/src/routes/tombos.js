@@ -133,6 +133,6 @@ export default app => {
             buscarProximoNumeroColetor,
         ]);
 
-    app.route('/fichas/tombos/:tombo_id')
+    app.route('/fichas/tombos/:tombo_id/:imprimir_cod')
         .get(fichaTomboController);
 };

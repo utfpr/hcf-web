@@ -88,6 +88,7 @@ class NovoTomboScreen extends Component {
                             <Upload
                                 multiple
                                 {...this.props}
+                                
                                 beforeUpload={(foto) => {
                                     this.atualizarFotoTombo(foto, record, index);
                                 }}
@@ -193,12 +194,61 @@ class NovoTomboScreen extends Component {
                 'Content-Type': 'multipart/form-data'
             },
         }).then(response => {
+            if (response.status === 204) {
+                this.openNotificationWithIcon("success", "Sucesso", "A foto foi alterada com sucesso.")
+                window.location.reload();
+            }
             window.location.reload();
         }).catch(response => {
+            if (response.status === 400) {
+                this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+            } else {
+                this.openNotificationWithIcon("error", "Falha", "Houve um problema ao alterar a foto, tente novamente.")
+            }
+            if (response && response.data) {
+                const { error } = response.data;
+                console.log(error.message);
+            } else {
+                throw response;
+            }
             window.location.reload();
         });
 
+    }
 
+    criaCodigoBarrasSemFotos = (emVivo) => {
+        const form = new FormData();
+        console.log("olha la o numero que a gente quer:", this.state.numeroHcf);
+        form.append('tombo_hcf', this.state.numeroHcf);
+        form.append('em_vivo', emVivo);
+
+        console.log('tombo_hcf', this.state.numeroHcf)
+        console.log('em_vivo', emVivo)
+        console.log('meu form', form)
+        return axios.post('/api/uploads/criaCodigoSemFoto', form, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            },
+        }).then(response => {
+            if (response.status === 204) {
+                this.openNotificationWithIcon("success", "Sucesso", "O codigo foi criado com sucesso.")
+                window.location.reload();
+            }
+            window.location.reload();
+        }).catch(response => {
+            if (response.status === 400) {
+                this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+            } else {
+                this.openNotificationWithIcon("error", "Falha", "Houve um problema ao criar o codigo, tente novamente.")
+            }
+            if (response && response.data) {
+                const { error } = response.data;
+                console.log(error.message);
+            } else {
+                throw response;
+            }
+            window.location.reload();
+        });
     }
 
     submitCodBar = (foto, indice) => {
@@ -231,7 +281,7 @@ class NovoTomboScreen extends Component {
                 if (response.status === 400) {
                     this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
                 } else {
-                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao alterar o codigo tente novamente.")
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao alterar o codigo de barras, tente novamente.")
                 }
                 if (response && response.data) {
                     const { error } = response.data;
@@ -2357,14 +2407,21 @@ class NovoTomboScreen extends Component {
                     </Col>
                 </Row>
                 <Row gutter={8}>
-                    <Col xs={24} sm={24} md={16} lg={8} xl={8}>
-                        <Col span={24}>
-                            <span>Complemento:</span>
-                        </Col>
-                        <Col span={24}>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col>
+                            <span>Local de coleta:</span>
                             {getFieldDecorator('complemento', {
                                 initialValue: String(this.state.complementoInicial),
                             })(
+                                <TextArea rows={4} />
+                            )}
+                        </Col>
+                    </Col>
+                    
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                        <Col>
+                            <span>Descrição:</span>
+                            {getFieldDecorator('relevoDescricao')(
                                 <TextArea rows={4} />
                             )}
                         </Col>
@@ -2821,18 +2878,7 @@ class NovoTomboScreen extends Component {
                         </Col>
                     </Col>
                 </Row>
-                <Row gutter={8}>
-                    <Col xs={24} sm={24} md={16} lg={8} xl={8}>
-                        <Col span={24}>
-                            <span>Descrição:</span>
-                        </Col>
-                        <Col span={24}>
-                            {getFieldDecorator('relevoDescricao')(
-                                <TextArea rows={4} />
-                            )}
-                        </Col>
-                    </Col>
-                </Row>
+                
             </div>
         );
     }
@@ -3343,7 +3389,7 @@ class NovoTomboScreen extends Component {
                             <Col span={24}>
                                 <span> Fotos da exsicata: </span>
                             </Col>
-                            <Col span={24}>
+                            <Col span={8}>
                                 <FormItem>
                                     {getFieldDecorator('fotosExsicata')(
                                         <UploadPicturesComponent
@@ -3377,7 +3423,7 @@ class NovoTomboScreen extends Component {
                             <Col span={24}>
                                 <span> Fotos em vivo: </span>
                             </Col>
-                            <Col span={24}>
+                            <Col span={8}>
                                 <FormItem>
                                     {getFieldDecorator('fotosVivo')(
                                         <UploadPicturesComponent
@@ -3407,6 +3453,30 @@ class NovoTomboScreen extends Component {
                                 </FormItem>
                             </Col>
                         </Col>
+                        {this.props.match.params.tombo_id ? 
+                            <div>
+                                <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                                    <Col span={24}>
+                                        <span> Exsicata sem foto: </span>
+                                    </Col>
+                                    <Col span={8}>
+                                    <Button onClick={() => this.criaCodigoBarrasSemFotos(false)} >
+                                        <Icon type="upload" /> upload
+                                    </Button>
+                                    </Col>
+                                </Col>
+                                <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                                    <Col span={24}>
+                                        <span> Em vivo sem foto: </span>
+                                    </Col>
+                                    <Col span={8}>
+                                    <Button onClick={() => this.criaCodigoBarrasSemFotos(true)} >
+                                        <Icon type="upload" /> upload
+                                    </Button>
+                                    </Col>
+                                </Col>
+                            </div>
+                         : <div></div>}
                     </Row>
                     
                     <Divider dashed />
@@ -3427,10 +3497,24 @@ class NovoTomboScreen extends Component {
                             >
                                 <Link
                                     to={{
-                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf
+                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf + "/1"
                                     }}
                                     target="_blank"
-                                    > imprimir ficha
+                                    > imprimir ficha c/ código
+                                </Link>
+                            </Button>
+                        </Col>
+                        <Col >
+                            <Button
+                                disabled = {this.props.match.params.tombo_id ? false : true}
+                                type = "primary"
+                            >
+                                <Link
+                                    to={{
+                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf + "/0"
+                                    }}
+                                    target="_blank"
+                                    > imprimir ficha s/ código
                                 </Link>
                             </Button>
                         </Col>

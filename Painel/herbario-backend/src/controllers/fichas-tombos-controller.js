@@ -14,6 +14,8 @@ const {
     Especie,
     Subespecie,
     Variedade,
+    Genero,
+    Autor,
     Usuario,
     Alteracao,
     LocalColeta,
@@ -29,7 +31,8 @@ function formataDataSaida(data) {
 }
 
 export default function fichaTomboController(request, response, next) {
-    const { tombo_id: tomboId } = request.params;
+    console.log("meu parametrooooooo\n\n\n\n\n\n\n\n\n\n\n", request.params);
+    const { tombo_id: tomboId, imprimir: imprimir_cod  } = request.params;
 
     Promise.resolve()
         .then(_ => {
@@ -44,12 +47,24 @@ export default function fichaTomboController(request, response, next) {
                 {
                     as: 'especie',
                     model: Especie,
+                    include: {
+                        model: Autor,
+                    }
                 },
                 {
                     model: Subespecie,
+                    include: {
+                        model: Autor,
+                    }
                 },
                 {
                     model: Variedade,
+                    include: {
+                        model: Autor,
+                    }
+                },
+                {
+                    model: Genero,
                 },
                 {
                     as: 'local_coleta',
@@ -167,10 +182,14 @@ export default function fichaTomboController(request, response, next) {
                     ),
                 },
 
-                familia: tombo.familia,
+                genero: tombo.genero,
                 especie: tombo.especie,
-                subespecie: tombo.sub_especy,
                 variedade: tombo.variedade,
+                subespecie: tombo.sub_especy,
+
+                familia: tombo.familia,
+                imprimir: request.params.imprimir_cod,
+                
                 identificacao: {
                     ...identificacao,
                     data_identificacao: formataColunasSeparadas(
@@ -189,7 +208,7 @@ export default function fichaTomboController(request, response, next) {
             const caminhoArquivoHtml = path.resolve(__dirname, '../views/ficha-tombo.ejs');
 
 
-            // console.log(parametros);
+            console.log("estes sao meus parametros \n\n\n\n", parametros);
             return renderizaArquivoHtml(caminhoArquivoHtml, parametros, response)
                 .then(html => {
                     response.status(200).send(html);

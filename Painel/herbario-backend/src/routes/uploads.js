@@ -19,11 +19,21 @@ export default app => {
     
         app.route('/uploads/atualizaImagem')
         .post([
-            // tokensMiddleware([
-            //     TIPOS_USUARIOS.CURADOR,
-            //     TIPOS_USUARIOS.OPERADOR,
-            // ]),
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+            ]),
             uploadMiddleware.single('imagem'),
             controller.put,
+        ]);
+
+        app.route('/uploads/criaCodigoSemFoto')
+        .post([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+            ]),
+            uploadMiddleware.single('imagem'),
+            controller.postBarrSemFotos,
         ]);
 };

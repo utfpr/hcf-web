@@ -67,6 +67,8 @@ export const post = (request, response, next) => {
             return foto.update(atualizacao, { transaction });
         })
         .then(foto => {
+
+            console.log("estes dados sao meusssss\n\n\n\n", file.path, )
             renameSync(file.path, join(storage, foto.caminho_foto));
             return foto;
         });
@@ -88,8 +90,6 @@ export const put = (request, response, next) => {
         .then(() => {
             const body = pick(request.body, [
                 'tombo_codBarr',
-                // 'tombo_hcf',
-                // 'em_vivo',
             ]);
             return TomboFoto.findOne({
                 where: {
@@ -125,7 +125,7 @@ export const put = (request, response, next) => {
                 ...foto,
                 caminho_foto: caminho,
             };
-
+            
             return foto.update(atualizacao, { transaction });
         })
         .then(foto => {
@@ -143,5 +143,49 @@ export const put = (request, response, next) => {
 
 };
 
+export const postBarrSemFotos = (request, response, next) => {
+    console.log( "esse e meu request bodyyyyyyyyy\n\n\n\n\n\n\n", request.body); // eslint-disable-line
+
+    const fn = transaction => Promise.resolve()
+        .then(() => {
+            const body = pick(request.body, [
+                'tombo_hcf',
+                'em_vivo',
+            ]);
+
+            return TomboFoto.create(body, { transaction });
+        })
+        .then(foto => {
+
+            var nomeArquivo;
+            // @ts-ignore
+            if(foto.em_vivo){
+                nomeArquivo = `HCFV${String(foto.id).padStart(8, '0')}`;
+            } else {
+                nomeArquivo = `HCF${String(foto.id).padStart(9, '0')}`;
+            }
+
+            const numeroBarra = `${foto.id}.${''.padEnd(6, '0')}`;
+
+            const caminho = "semFoto.png";
+
+            const atualizacao = {
+                ...foto,
+                codigo_barra: nomeArquivo,
+                num_barra: numeroBarra,
+                caminho_foto: caminho,
+            };
+
+            return foto.update(atualizacao, { transaction });
+        })
+
+    sequelize.transaction(fn)
+        .then(imagem => {
+            response.status(201)
+                .json(imagem);
+        })
+        .catch(ForeignKeyConstraintError, catchForeignKeyConstraintError)
+        .catch(next);
+};
 
 export default {};
