@@ -106,13 +106,32 @@
             </td>
         </tr>
         <% } %>
-        <% if (especie && especie.nome) { %>
         <tr>
             <td colspan="4">
-                <b>Espécie:</b> <i><%- genero.nome %> <%- especie.nome %> <%- especie.autore.nome %> var. <%- variedade.nome %> <%- variedade.autore.nome %> ssp. <%- subespecie.nome %> <%- subespecie.autore.nome %></i>
+                <b>Espécie:</b>
+                <% if (genero && genero.nome) { %>
+                    <i><%- genero.nome %></i>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    <i><%- especie.nome %></i>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    <%- especie.autore.nome %>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    var. <i><%- variedade.nome %></i>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    <%- variedade.autore.nome %>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    ssp. <i><%- subespecie.nome %></i>
+                <% } %>
+                <% if (especie && especie.nome) { %>
+                    <%- subespecie.autore.nome %>
+                <% } %>
             </td>
         </tr>
-        <% } %>
         <tr>
             <td colspan="4" class="linha-vazia"></td>
         </tr>

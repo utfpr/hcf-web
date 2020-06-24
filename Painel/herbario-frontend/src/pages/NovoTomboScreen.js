@@ -181,8 +181,6 @@ class NovoTomboScreen extends Component {
     }
 
     atualizarFotoTombo = (foto, record) => {
-        console.log('foto', foto);
-        console.log('record', record);
 
         const tombo_codBarr = record.codigo_barra;
         const form = new FormData();
@@ -218,13 +216,9 @@ class NovoTomboScreen extends Component {
 
     criaCodigoBarrasSemFotos = (emVivo) => {
         const form = new FormData();
-        console.log("olha la o numero que a gente quer:", this.state.numeroHcf);
         form.append('tombo_hcf', this.state.numeroHcf);
         form.append('em_vivo', emVivo);
 
-        console.log('tombo_hcf', this.state.numeroHcf)
-        console.log('em_vivo', emVivo)
-        console.log('meu form', form)
         return axios.post('/api/uploads/criaCodigoSemFoto', form, {
             headers: {
                 'Content-Type': 'multipart/form-data'
@@ -252,7 +246,6 @@ class NovoTomboScreen extends Component {
     }
 
     submitCodBar = (foto, indice) => {
-        console.log('alterar codigo de barras', foto, indice);
         var json = {};
 
         json.codBarra = foto.codigo_barra;
@@ -348,12 +341,10 @@ class NovoTomboScreen extends Component {
             variedades: dados.variedades,
         };
         if (dados.coletores) {
-            console.log("PASSOU TUR")
             const colet = dados.coletores.map(item => ({
                 key: item.id,
                 label: item.nome
             }));
-            console.log(colet)
 
             this.props.form.setFields({
                 coletores: {
@@ -426,6 +417,7 @@ class NovoTomboScreen extends Component {
                 value: dados.complemento,
             }  
         });
+
     }
 
     requisitaDadosFormulario = () => {
@@ -644,7 +636,6 @@ class NovoTomboScreen extends Component {
     }
 
     requisitaCadastroTombo(values) {
-
         const {
             altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complemento,
             dataColetaAno, dataColetaDia, dataColetaMes, dataIdentAno, dataIdentDia, dataIdentMes,
@@ -652,6 +643,8 @@ class NovoTomboScreen extends Component {
             nomePopular, numColeta, observacoesColecaoAnexa, observacoesTombo, relevo, solo,
             subespecie, subfamilia, tipo, tipoColecaoAnexa, variedade, vegetacao, entidade, relevoDescricao,
         } = values;
+
+
         let json = {}
 
         if (nomePopular !== undefined) json.principal = { nome_popular: nomePopular };
@@ -668,7 +661,7 @@ class NovoTomboScreen extends Component {
         if (especie !== undefined && especie !== "") json.taxonomia = { ...json.taxonomia, especie_id: especie };
         if (variedade !== undefined && variedade !== "") json.taxonomia = { ...json.taxonomia, variedade_id: variedade };
         if (subespecie !== undefined && subespecie !== "") json.taxonomia = { ...json.taxonomia, sub_especie_id: subespecie };
-        if (latitude !== undefined) json.localidade = { latitude: latitude };
+        if (latitude !== undefined) json.localidade = { ...json.localidade, latitude: latitude };
         if (longitude !== undefined) json.localidade = { ...json.localidade, longitude: longitude };
         if (altitude !== undefined) json.localidade = { ...json.localidade, altitude: altitude };
         json.localidade = { ...json.localidade, cidade_id: cidade };
@@ -718,7 +711,7 @@ class NovoTomboScreen extends Component {
         
         console.log('TOMBO ENVIADO:')
         console.log(json)
-
+        
         axios.post('/api/tombos', { json })
             .then(response => {
                 if (response.status === 201) {
@@ -729,10 +722,6 @@ class NovoTomboScreen extends Component {
                         form.append('tombo_hcf', hcf);
                         form.append('em_vivo', emVivo);
 
-                        console.log('imagem', foto)
-                        console.log('tombo_hcf', hcf)
-                        console.log('em_vivo', emVivo)
-                        console.log('meu form', form)
                         return axios.post('/api/uploads', form, {
                             headers: {
                                 'Content-Type': 'multipart/form-data'
@@ -760,6 +749,7 @@ class NovoTomboScreen extends Component {
                 });
 
                 this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
+                this.props.history.push("/tombos/" + this.state.numeroHcf);
                 this.props.history.push("/tombos/" + this.state.numeroHcf);
 
             })
@@ -2026,25 +2016,27 @@ class NovoTomboScreen extends Component {
                     if (response.status === 200) {
                         var todosNumeros = response.data;
                         var numeros = todosNumeros.map(e => e.numero_coleta);
+
+                        numeros.sort((a, b)=> {return (a - b)});
                         var numero = 0;
-                        var maior = 0;
-                        var menor = 0;
                         var result = 0;
+                        var lacuna = [];
                         if(numeros === []) numero = 1;
                         else if(numeros.length == 1) numero = numero + 1;
                         else {
-                            var menor = [0];
-                            do {
-                                if(numeros === []) result = menor[0] + 1;
-                                var index = numeros.indexOf(Math.min(...numeros));
-                                var maior = numeros.splice(index, 1);
-
-                                if(maior[0] - menor[0] === 1) {
-                                    menor = maior;
-                                } else {
-                                    result = menor[0] + 1;
+                            numeros = [0].concat(numeros);
+                            for(var i = 0; i < numeros.length; i++){
+                                if(numeros[i+1] - numeros[i] !== 1 && numeros[i+1] - numeros[i] !== 0){
+                                    lacuna.push(numeros[i]);
                                 }
-                            } while(result === 0 && numeros !== []);
+                            }
+                            if(lacuna.length === 0){
+                                result = numeros[numeros.length -1] + 1;
+                            }else{
+                                var index = lacuna.indexOf(Math.min(...lacuna));
+                                result = lacuna.splice(index, 1)[0] + 1;
+
+                            }
                             this.props.form.setFields({
                                 numColeta: {
                                     value: result
@@ -2314,6 +2306,9 @@ class NovoTomboScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('longitude')(
                                     <CoordenadaInputText
+                                        onChange={(value) =>{
+                                            console.log("valorrrrrrrrrrrrr", value)
+                                        }}
                                         placeholder={`48°40'30"O`}
                                     />
                                 )}
@@ -3278,7 +3273,6 @@ class NovoTomboScreen extends Component {
 
     renderConteudo() {
         const { getFieldDecorator } = this.props.form;
-        console.log("as fotos do cramunhao: ", this.state.fotosTeste);
         
         return (
             <div>
@@ -3575,8 +3569,6 @@ class NovoTomboScreen extends Component {
     }
 
     render() {
-        console.log("COLETOOOOOORES")
-        console.log(this.props.form.getFieldsValue())
         if (this.state.loading) {
             return (
                 <Spin tip="Carregando...">

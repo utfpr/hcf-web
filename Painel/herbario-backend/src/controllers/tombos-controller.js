@@ -410,6 +410,7 @@ export const cadastro = (request, response, next) => {
         })
         // /////////////// CADASTRA O COLETOR ///////////////
         .then(ident => {
+            console.log("estou tentando implementar o coletor \n\n\n\n\n\n\n");
             let jsonColetores = []; // eslint-disable-line
             for (let i = 0; i < coletores.length; i++) { // eslint-disable-line
                 jsonColetores.push({
@@ -417,6 +418,7 @@ export const cadastro = (request, response, next) => {
                     coletor_id: coletores[i],
                 });
             }
+            console.log("estou tentando implementar o coletor json \n\n\n\n\n\n\n", jsonColetores);
             return TomboColetor.bulkCreate(jsonColetores, { transaction });
         })
         .then(coletoresCad => {

@@ -130,7 +130,6 @@ class ListaTombosScreen extends Component {
     renderExcluir(id) {
         return (
             <div>
-                <Divider type="vertical" />
                 <a href="#" onClick={() => this.mostraMensagemDelete(id)}>
                     <Icon type="delete" style={{ color: "#e30613" }} />
                 </a>
@@ -141,7 +140,6 @@ class ListaTombosScreen extends Component {
     renderEditar(id) {
         return (
             <div>
-                <Divider type="vertical" />
                 <Link to={`/tombos/${id}`}>
                     <Icon type="edit" style={{ color: "#FFCC00" }} />
                 </Link>
@@ -151,9 +149,11 @@ class ListaTombosScreen extends Component {
 
     renderDetalhes(id) {
         return (
-            <Link to={`/tombos/detalhes/${id}`}>
-                <Icon type="search" />
-            </Link>
+            <div>
+                <Link to={`/tombos/detalhes/${id}`}>
+                    <Icon type="search" />
+                </Link>
+            </div>
         )
     }
 
