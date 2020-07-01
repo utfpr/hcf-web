@@ -55,6 +55,7 @@ class VerPendenciaScreen extends Component {
         });
         axios.get(`/api/pendencias/${this.props.match.params.pendencia_id}`)
             .then(response => {
+                console.log("resposta e", response)
                 if (response.status === 200) {
                     this.setState({
                         data: response.data.tabela,

@@ -1937,6 +1937,7 @@ export function aceitarPendencia(request, response, next) {
         .then(alt => {
             if (status === 'APROVADO') {
                 const objetoAlterado = JSON.parse(alt.tombo_json);
+                console.log("este e meu objetoAlterado: \n\n\n\n\n\n\n", objetoAlterado);
                 if (objetoAlterado.hcf) {
                     retorno = aprovarComCadastro(alt.tombo_hcf, transaction);
                 } else if (objetoAlterado.familia_id) {

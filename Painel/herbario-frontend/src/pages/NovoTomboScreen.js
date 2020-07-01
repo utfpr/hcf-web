@@ -172,7 +172,9 @@ class NovoTomboScreen extends Component {
             latMinutos: '',
             latSegundos: '',
             fotosTeste: [],
-            codigoBarras: ""
+            codigoBarras: "",
+            dadosFormulario: {},
+            editing: Boolean(this.props.match.params.tombo_id)
         };
     }
 
@@ -331,6 +333,7 @@ class NovoTomboScreen extends Component {
     }
     
     insereDadosFormulario(dados) {
+        this.setState({dadosFormulario: dados});
         let insereState = {
             estados: dados.estados,
             cidades: dados.cidades,
@@ -569,7 +572,13 @@ class NovoTomboScreen extends Component {
                 console.log(err)
                 this.openNotificationWithIcon("warning", "Falha", "Preencha todos os dados requiridos.")
             } else {
-                this.requisitaCadastroTombo(values);
+                const { editing } = this.state;
+                const valoresFormatados = this.formatValues(values);
+                if(editing){
+                    this.requisitaAtualizacaoTombo(values);
+                }else{
+                    this.requisitaCadastroTombo(valoresFormatados);
+                }
                 this.setState({
                     loading: true
                 })
@@ -603,6 +612,7 @@ class NovoTomboScreen extends Component {
             if (variedade) {
                 json.variedade_id = variedade;
             }
+
             axios.put(`/api/tombos/${this.props.match.params.tombo_id}`, json)
             .then(response => {
                 this.setState({
@@ -635,7 +645,7 @@ class NovoTomboScreen extends Component {
         }
     }
 
-    requisitaCadastroTombo(values) {
+    formatValues(values) {
         const {
             altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complemento,
             dataColetaAno, dataColetaDia, dataColetaMes, dataIdentAno, dataIdentDia, dataIdentMes,
@@ -708,9 +718,11 @@ class NovoTomboScreen extends Component {
         if (autorEspecie !== undefined && autorEspecie !== "") json.autores = { especie: autorEspecie };
         if (autoresSubespecie !== undefined && autoresSubespecie !== "") json.autores = { ...json.autores, subespecie: autoresSubespecie };
         if (autorVariedade !== undefined && autorVariedade !== "") json.autores = { ...json.autores, variedade: autorVariedade };
-        
-        console.log('TOMBO ENVIADO:')
-        console.log(json)
+
+        return json;
+    }
+
+    requisitaCadastroTombo(json) {
         
         axios.post('/api/tombos', { json })
             .then(response => {
@@ -750,6 +762,170 @@ class NovoTomboScreen extends Component {
 
                 this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
                 this.props.history.push("/tombos/" + this.state.numeroHcf);
+                this.props.history.push("/tombos/" + this.state.numeroHcf);
+
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                });
+                const { response } = err;
+
+                if (response.status === 400) {
+                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                } else {
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao cadastrar o novo tombo tente novamente.")
+                }
+                if (response && response.data) {
+                    const { error } = response.data;
+                    console.log(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+
+    requisitaAtualizacaoTombo(values){
+
+        const {
+            altitude, autorEspecie, autorVariedade, autoresSubespecie, cidade, coletores, complemento,
+            dataColetaAno, dataColetaDia, dataColetaMes, dataIdentAno, dataIdentDia, dataIdentMes,
+            especie, familia, fases, genero, identificador, latitude, localidadeCor, longitude,
+            nomePopular, numColeta, observacoesColecaoAnexa, observacoesTombo, relevo, solo,
+            subespecie, subfamilia, tipo, tipoColecaoAnexa, variedade, vegetacao, entidade, relevoDescricao,
+        } = values;
+
+        let json = {}
+        const dados = this.state.dadosFormulario;
+        console.log("dados do formulariooooo\n\n", this.state.dadosFormulario, dados.retorno.nomes_populares);
+        
+        json.principal = {};
+
+        if (nomePopular !== undefined && nomePopular !== dados.retorno.nomes_populares) json.principal = { nome_popular: nomePopular };
+        
+        if (entidade !== undefined && entidade !== dados.herbarioInicial.toString()) json.principal = { ...json.principal, entidade_id: entidade };
+        if (numColeta !== undefined && numColeta !== dados.numero_coleta) json.principal.numero_coleta = numColeta;
+        
+        if (dataColetaDia !== undefined && dataColetaDia !== dados.data_coleta_dia) json.principal.data_coleta = { dia: dataColetaDia };
+        if (dataColetaMes !== undefined && dataColetaMes !== dados.data_coleta_mes) json.principal.data_coleta = { ...json.principal.data_coleta, mes: dataColetaMes };
+        if (dataColetaAno !== undefined && dataColetaAno !== dados.data_coleta_ano) json.principal.data_coleta = { ...json.principal.data_coleta, ano: dataColetaAno };
+        if (tipo !== "" && tipo !== dados.tipoInicial.toString()) json.principal.tipo_id = tipo;
+        
+        if (localidadeCor !== "" && localidadeCor !== dados.localidadeInicial) json.principal.cor = localidadeCor;
+
+        json.taxonomia = {};
+
+        if (familia !== undefined && familia !== "" && familia !== dados.familiaInicial.toString()) json.taxonomia = { ...json.taxonomia, familia_id: familia };
+        if (genero !== undefined && genero !== "" && genero !== dados.generoInicial.toString()) json.taxonomia = { ...json.taxonomia, genero_id: genero };
+        if (subfamilia !== undefined && subfamilia !== "" && subfamilia !== dados.subfamiliaInicial.toString()) json.taxonomia = { ...json.taxonomia, sub_familia_id: subfamilia };
+        if (especie !== undefined && especie !== "" && especie !== dados.especieInicial.toString()) json.taxonomia = { ...json.taxonomia, especie_id: especie };
+        if (variedade !== undefined && variedade !== "" && variedade !== dados.variedadeInicial.toString()) json.taxonomia = { ...json.taxonomia, variedade_id: variedade };
+        if (subespecie !== undefined && subespecie !== "" && subespecie !== dados.subespecieInicial.toString()) json.taxonomia = { ...json.taxonomia, sub_especie_id: subespecie };
+
+        json.localidade = {};
+
+        if (latitude !== undefined && latitude !== dados.localizacao.latitude_graus) json.localidade = { ...json.localidade, latitude: latitude };
+        if (longitude !== undefined && longitude !== dados.localizacao.longitude_graus) json.localidade = { ...json.localidade, longitude: longitude };
+        if (altitude !== undefined && altitude !== dados.localizacao.altitude) json.localidade = { ...json.localidade, altitude: altitude };
+        if (cidade !== undefined && cidade !== dados.cidadeInicial.toString()) json.localidade = { ...json.localidade, cidade_id: cidade };
+        if (complemento !== undefined && complemento !== "" && complemento !== dados.localizacao.complemento) json.localidade = { ...json.localidade, complemento };
+
+        json.paisagem = {};
+
+        if (solo !== undefined && solo !== "" && solo !== dados.soloInicial.toString()) json.paisagem = { ...json.paisagem, solo_id: solo };
+        if (relevoDescricao !== undefined && relevoDescricao !== "" && relevoDescricao !== dados.local_coleta.descricao) json.paisagem = { ...json.paisagem, descricao: relevoDescricao };
+        if (relevo !== undefined && relevo !== "" && relevo !== dados.relevoInicial.toString()) json.paisagem = { ...json.paisagem, relevo_id: relevo };
+        if (vegetacao !== undefined && vegetacao !== "" && vegetacao !== dados.vegetacaoInicial.toString()) json.paisagem = { ...json.paisagem, vegetacao_id: vegetacao };
+        if (fases !== undefined && fases !== "" && fases !== dados.faseInicial.toString()) json.paisagem = { ...json.paisagem, fase_sucessional_id: fases };
+
+        json.identificacao = {};
+
+        if (identificador !== undefined && identificador !== "" && identificador !== dados.identificadorInicial) json.identificacao = { identificador_id: identificador };
+        if (dataIdentDia !== undefined && dataIdentDia !== "" && dataIdentDia !== dados.data_identificacao_dia) {
+            json.identificacao = {
+                ...json.identificacao,
+                data_identificacao: {
+                    dia: dataIdentDia
+                }
+            }
+        }
+        if (dataIdentMes !== undefined && dataIdentMes !== "" && dataIdentMes !== dados.data_identificacao_mes) {
+            json.identificacao = {
+                ...json.identificacao,
+                data_identificacao: {
+                    ...json.identificacao.data_identificacao,
+                    mes: dataIdentMes
+                }
+            }
+        }
+        if (dataIdentAno !== undefined && dataIdentAno !== "" && dataIdentAno !== dados.data_identificacao_ano) {
+            json.identificacao = {
+                ...json.identificacao,
+                data_identificacao: {
+                    ...json.identificacao.data_identificacao,
+                    ano: dataIdentAno
+                }
+            }
+        }
+
+        const converterInteiroColetores = () => coletores.map(item => parseInt(item.key));
+        console.log("estes sao meus coletores",  dados.coletoresInicial.map(item => parseInt(item.key)));
+        if (converterInteiroColetores().toString() !== dados.coletoresInicial.map(item => parseInt(item.key)).toString()) json.coletores = converterInteiroColetores()
+
+        json.colecoes_anexas = {};
+        
+        if (tipoColecaoAnexa !== undefined && tipoColecaoAnexa !== "" && tipoColecaoAnexa !== dados.colecao_anexa.tipo) json.colecoes_anexas = { tipo: tipoColecaoAnexa };
+        if (observacoesColecaoAnexa !== undefined && observacoesColecaoAnexa !== "" && observacoesColecaoAnexa !== dados.colecao_anexa.observacao) json.colecoes_anexas = { ...json.colecoes_anexas, observacoes: observacoesColecaoAnexa };
+        if (observacoesTombo !== undefined && observacoesTombo !== "" && observacoesTombo !== dados.observacao) json.observacoes = observacoesTombo;
+
+        json.autores = {};
+
+        if (autorEspecie !== undefined && autorEspecie !== "") json.autores = { especie: autorEspecie };
+        if (autoresSubespecie !== undefined && autoresSubespecie !== "") json.autores = { ...json.autores, subespecie: autoresSubespecie };
+        if (autorVariedade !== undefined && autorVariedade !== "") json.autores = { ...json.autores, variedade: autorVariedade };
+
+        console.log("este e o json que a gente querrrrr!!!", json);
+        
+        const tomboId = this.props.match.params.tombo_id;
+        console.log("foi na atualizacao mesmo que chegouuuuuuu!!!!");
+        axios.put(`/api/tombos/${tomboId}`, { json })
+            .then(response => {
+                if (response.status === 201) {
+                    const tombo = response.data
+                    const criaRequisicaoFoto = (hcf, emVivo, foto) => {
+                        const form = new FormData();
+                        form.append('imagem', foto);
+                        form.append('tombo_hcf', hcf);
+                        form.append('em_vivo', emVivo);
+
+                        return axios.post('/api/uploads', form, {
+                            headers: {
+                                'Content-Type': 'multipart/form-data'
+                            },
+                        });
+                    };
+
+                    const criaFuncaoMap = (hcf, emVivo) => foto => criaRequisicaoFoto(hcf, emVivo, foto);
+
+                    const { fotosEmVivo, fotosExsicata } = this.state;
+
+                    const promises = [
+                        ...fotosEmVivo.map(criaFuncaoMap(tombo.hcf, true)),
+                        ...fotosExsicata.map(criaFuncaoMap(tombo.hcf, false)),
+                    ];
+
+                    return Promise.all(promises);
+
+                }
+
+            })
+            .then(response => {
+                this.setState({
+                    loading: false
+                });
+
+                this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
                 this.props.history.push("/tombos/" + this.state.numeroHcf);
 
             })

@@ -506,6 +506,7 @@ function alteracaoIdentificador(request, transaction) {
     } = request.body;
     const { tombo_id: tomboId } = request.params;
     const update = {};
+    console.log("este e meu JSONNNNNN \n\n\n\n\n\n\n\n\n", request.body);
 
     if (familiaId) {
         update.familia_id = familiaId;
@@ -530,7 +531,177 @@ function alteracaoIdentificador(request, transaction) {
         .then(() => Alteracao.create({
             tombo_hcf: tomboId,
             usuario_id: request.usuario.id,
-            status: 'ESPERANDO',
+            status: 'ESPERANDO',  //operador fica em espera e curador  APROVADO ESPERANDO
+            tombo_json: JSON.stringify(update),
+            ativo: true,
+            identificacao: 1,
+        }, { transaction }))
+        .then(alteracaoIdent => {
+            if (request.usuario.tipo_usuario_id === 3) {
+                if (!alteracaoIdent) {
+                    throw new BadRequestExeption(421);
+                }
+            }
+        });
+}
+
+function alteracaoCuradorouOperador(request, transaction) {
+
+    const body = request.body;
+    const json = {};
+
+    console.log("este e meu JSONNNNNN \n\n\n\n\n\n\n\n\n", request.body);
+    const nomePopular = body.json.principal.nome_popular;
+    const entidadeId = body.json.principal.entidade_id;
+    const numeroColeta = body.json.principal.numero_coleta;
+    const dataColeta = body.json.principal.data_coleta;
+    const tipoId = body.json.principal.tipo_id;
+    const cor = body.json.principal.cor;
+
+    const familiaId = body.json.taxonomia.familia_id;
+    const subfamiliaId = body.json.taxonomia.sub_familia_id;
+    const generoId = body.json.taxonomia.genero_id;
+    const especieId = body.json.taxonomia.especie_id;
+    const subespecieId = body.json.taxonomia.sub_especie_id;
+    const variedadeId = body.json.taxonomia.variedade_id;
+
+    const latitude = body.json.localidade.latitude;
+    const longitude = body.json.localidade.longitude;
+    const altitude = body.json.localidade.altitude;
+    const cidadeId = body.json.localidade.cidade_id;
+    const complemento = body.json.localidade.complemento;
+
+    const soloId = body.json.paisagem.solo_id;
+    const descricao = body.json.paisagem.descricao;
+    const relevoId = body.json.paisagem.relevo_id;
+    const vegetacaoId = body.json.paisagem.vegetacao_id;
+    const faseSucessionalId = body.json.paisagem.fase_sucessional_id;
+
+    const identificadorId = body.json.identificacao.identificador_id;
+    const dataIdentificacao = body.json.identificacao.data_identificacao;
+
+    const coletores = body.json.coletores;
+    const colecoesAnexasTipo = body.json.colecoes_anexas.tipo;
+    const colecoesAnexasObservacoes = body.json.colecoes_anexas.observacoes;
+
+    const observacoes = body.json.observacoes;
+
+    const { tombo_id: tomboId } = request.params;
+    const update = {};
+
+    if(nomePopular){
+        update.nome_popular = nomePopular;
+    }
+
+    if(entidadeId){
+        update.entidade_id = entidadeId;
+    }
+
+    if(numeroColeta){
+        update.numero_coleta = numeroColeta;
+    }
+
+    if(dataColeta){
+        update.data_coleta = dataColeta;
+    }
+
+    if(tipoId){
+        update.tipo_id = tipoId;
+    }
+
+    if(cor){
+        update.cor = cor;
+    }
+
+    if (familiaId) {
+        update.familia_id = familiaId;
+    }
+    if (subfamiliaId) {
+        update.subfamilia_id = subfamiliaId;
+    }
+    if (generoId) {
+        update.genero_id = generoId;
+    }
+    if (especieId) {
+        update.especie_id = especieId;
+    }
+    if (subespecieId) {
+        update.subespecie_id = subespecieId;
+    }
+    if (variedadeId) {
+        update.variedade_id = variedadeId;
+    }
+
+    if(latitude){
+        update.latitude = latitude;
+    }
+
+    if(longitude){
+        update.longitude = longitude;
+    }
+
+    if(altitude){
+        update.altitude = altitude;
+    }
+
+    if(cidadeId){
+        update.cidade_id = cidadeId;
+    }
+
+    if(complemento){
+        update.complemento = complemento;
+    }
+
+    if(soloId){
+        update.solo_id = soloId;
+    }
+
+    if(descricao){
+        update.descricao = descricao;
+    }
+
+    if(relevoId){
+        update.relevo_id = relevoId;
+    }
+
+    if(vegetacaoId){
+        update.vegetacao_id = vegetacaoId;
+    }
+
+    if(faseSucessionalId){
+        update.fase_sucessional_id = faseSucessionalId;
+    }
+
+    if(identificadorId){
+        update.identificador_id = identificadorId;
+    }
+
+    if(dataIdentificacao){
+        update.data_identificacao = dataIdentificacao;
+    }
+
+    if(coletores){
+        update.coletores = coletores;
+    }
+
+    if(colecoesAnexasTipo){
+        update.colecoes_anexas_tipo = colecoesAnexasTipo;
+    }
+
+    if(colecoesAnexasObservacoes){
+        update.colecoes_anexas_observacoes = colecoesAnexasObservacoes;
+    }
+
+    if(observacoes){
+        update.observacoes = observacoes;
+    }
+    
+    console.log("update \n\n\n\n\n\n\n\n\n", update);
+    return Promise.resolve()
+        .then(() => Alteracao.create({
+            tombo_hcf: tomboId,
+            usuario_id: request.usuario.id,
+            status: 'ESPERANDO',  //operador fica em espera e curador APROVADO {ESPERANDO - para nao esquecer}
             tombo_json: JSON.stringify(update),
             ativo: true,
             identificacao: 1,
@@ -548,6 +719,8 @@ export function alteracao(request, response, next) {
     const callback = transaction => {
         if (request.usuario.tipo_usuario_id === 3) {
             return alteracaoIdentificador(request, transaction);
+        } else if(request.usuario.tipo_usuario_id === 1 || request.usuario.tipo_usuario_id === 2 ) {
+            return alteracaoCuradorouOperador(request, transaction);
         }
         return Promise.reject(new BadRequestExeption(421));
     };
