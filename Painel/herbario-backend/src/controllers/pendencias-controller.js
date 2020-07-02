@@ -693,7 +693,6 @@ const insereNoParametro = (key, campo, antigo, novo) => ({
     key, campo, antigo, novo,
 });
 
-
 const comparaDoisTombosOperador = (tombo, tomboAlterado) => {
     const parametros = [];
     // / colecoes anexas
@@ -1815,6 +1814,7 @@ export function visualizar(request, response, next) {
         }))
         .then(alteracao => {
             // eslint-disable-next-line no-console
+            console.log("esta e minha alteracao \n\n\n\n\n\n", alteracao);
             if (!alteracao) {
                 throw new BadRequestExeption(800);
             }
@@ -1822,6 +1822,7 @@ export function visualizar(request, response, next) {
             // eslint-disable-next-line prefer-destructuring
             status = alteracao.status;
             objetoAlterado = JSON.parse(alteracao.tombo_json);
+            console.log("esta e meu objeto alterado \n\n\n\n\n\n", objetoAlterado);
             if (objetoAlterado.alteracao_operador) {
                 retorno = visualizarAlteracaoOperador(objetoAlterado, alteracao, transaction);
             } else if (objetoAlterado.hcf) {

@@ -12,7 +12,7 @@ import ButtonComponent from '../components/ButtonComponent';
 import CoordenadaInputText from '../components/CoordenadaInputText';
 import tomboParaRequisicao from '../helpers/conversoes/TomboParaRequisicao';
 import { isIdentificador } from '../helpers/usuarios';
-import { fotosBaseUrl } from '../config/api';
+import { fotosBaseUrl, baseUrl } from '../config/api';
 import debounce from 'lodash/debounce';
 import SimpleTableComponent from '../components/SimpleTableComponent';
 import {Link} from 'react-router-dom';
@@ -3667,7 +3667,7 @@ class NovoTomboScreen extends Component {
                             >
                                 <Link
                                     to={{
-                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf + "/1"
+                                    pathname: `${baseUrl}/api/fichas/tombos/${this.state.numeroHcf}/1`
                                     }}
                                     target="_blank"
                                     > imprimir ficha c/ código
@@ -3681,7 +3681,7 @@ class NovoTomboScreen extends Component {
                             >
                                 <Link
                                     to={{
-                                    pathname: 'http://localhost:3003/api/fichas/tombos/' + this.state.numeroHcf + "/0"
+                                    pathname: `${baseUrl}/api/fichas/tombos/${this.state.numeroHcf}/0`
                                     }}
                                     target="_blank"
                                     > imprimir ficha s/ código
