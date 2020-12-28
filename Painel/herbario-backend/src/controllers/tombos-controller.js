@@ -1632,4 +1632,23 @@ export const editarCodigoBarra = (request, response, next) => {
         .catch(next);
 };
 
+export const deletaCodigoBarra = (codBarra) => TomboFoto.destroy({
+    where: {
+        codigo_barra: codBarra,
+    },
+});
+
+export const deletarCodigoBarra = (request, response, next) => {
+    const { idTombo } = request.params;
+    Promise.resolve()
+        .then(() => deletaCodigoBarra(idTombo))
+        .then(retorno => {
+            if (!retorno) {
+                throw new BadRequestExeption(111);
+            }
+            response.status(codigos.EDITAR_SEM_RETORNO).send();
+        })
+        .catch(next);
+};
+
 export default {};

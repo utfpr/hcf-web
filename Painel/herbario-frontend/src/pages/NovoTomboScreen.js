@@ -44,11 +44,14 @@ class NovoTomboScreen extends Component {
             dataIndex: 'acao',
             render: (text, record, index) => (
                 <Row>
-                    {/* <Col span={6} >
-                        <a href="#" onClick={(e) => { e.preventDefault(); this.excluirFotoTombo(record, index); }}>
-                            <Icon type="delete" style={{ color: "#e30613" }} />
-                        </a>
-                    </Col> */}
+                    <Tooltip placement="top" title={"Excluir"}>
+
+                        <Col span={6} >
+                            <a href="#" onClick={(e) => { e.preventDefault(); this.mostraMensagemDeleteCod(record, index) }}>
+                                <Icon type="delete" style={{ color: "#e30613" }} />
+                            </a>
+                        </Col>
+                    </Tooltip>
                     {/* <Col span={6}>
                         <Popover
                             onVisibleChange = {() => {
@@ -178,8 +181,56 @@ class NovoTomboScreen extends Component {
         };
     }
 
+    mostraMensagemDeleteCod(foto, indice) {
+        const self = this;
+        confirm({
+            title: 'Você tem certeza que deseja excluir este campo?',
+            content: 'Ao clicar em SIM, o campo será excluído.',
+            okText: 'SIM',
+            okType: 'danger',
+            cancelText: 'NÃO',
+            onOk() {
+                self.excluirFotoTombo(foto, indice);
+            },
+            onCancel() {
+            },
+        });
+    }
+
     excluirFotoTombo = (foto, indice) => {
-        console.log('Excluir a foto', foto, indice);
+
+        var codBarras = foto.codigo_barra;
+
+        console.log("meu json :", codBarras);
+        axios.delete(`/api/tombos/codBarras/${codBarras}`)
+            .then(response => {
+                this.setState({
+                    loading: false
+                });
+                if (response.status === 204) {
+                    this.openNotificationWithIcon("success", "Sucesso", "O codigo de barras foi deletado com sucesso.")
+                    window.location.reload();
+                }
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                });
+                const { response } = err;
+
+                if (response.status === 400) {
+                    this.openNotificationWithIcon("warning", "Falha", response.data.error.message);
+                } else {
+                    this.openNotificationWithIcon("error", "Falha", "Houve um problema ao deletar o codigo de barras, tente novamente.")
+                }
+                if (response && response.data) {
+                    const { error } = response.data;
+                    console.log(error.message);
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
     }
 
     atualizarFotoTombo = (foto, record) => {
@@ -462,6 +513,46 @@ class NovoTomboScreen extends Component {
             .catch(this.catchRequestError);
     }
 
+    mostraMensagemVerificaPendencia() {
+        const self = this;
+        confirm({
+            title: 'Pendência',
+            content: 'Este tombo possui pendências não resolvidas, deseja continuar alterando?',
+            okText: 'SIM',
+            okType: 'danger',
+            cancelText: 'NÃO',
+            onOk() {
+            },
+            onCancel() {
+                window.history.go(-1);
+            },
+        });
+    }
+
+    verificaPendencias = (tombo_id) => {
+        axios.get(`/api/pendencias/${tombo_id}`)
+            .then(response => {
+                this.setState({
+                    loading: false
+                })
+                if(response.data !== null){
+                    this.mostraMensagemVerificaPendencia()
+                }
+            })
+            .catch(err => {
+                this.setState({
+                    loading: false
+                })
+                const { response } = err;
+                if (response && response.data) {
+                    const { error } = response.data;
+                } else {
+                    throw err;
+                }
+            })
+            .catch(this.catchRequestError);
+    }
+
     requisitaNumeroHcf = () => {
         axios.get('/api/tombos/filtrar_ultimo_numero')
             .then(response => {
@@ -480,6 +571,7 @@ class NovoTomboScreen extends Component {
                             },
                         });
                         this.requisitaCodigoBarras();
+                        this.verificaPendencias(this.props.match.params.tombo_id);
                     } else {
                         this.setState({numeroHcf: response.data.hcf + 1});
                         this.props.form.setFields({

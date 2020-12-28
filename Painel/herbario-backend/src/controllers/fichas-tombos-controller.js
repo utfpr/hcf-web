@@ -5,6 +5,7 @@ import moment from 'moment-timezone';
 import formataColunasSeparadas from '../helpers/formata-colunas-separadas';
 import renderizaArquivoHtml from '../helpers/renderiza-arquivo-html';
 import models from '../models';
+// import FaseSucessional from '../models/FaseSucessional';
 
 const {
     Tombo,
@@ -15,6 +16,10 @@ const {
     Subespecie,
     Variedade,
     Genero,
+    Solo,
+    Relevo,
+    Vegetacao,
+    FaseSucessional,
     Autor,
     Usuario,
     Alteracao,
@@ -70,7 +75,7 @@ export default function fichaTomboController(request, response, next) {
                     as: 'local_coleta',
                     required: true,
                     model: LocalColeta,
-                    include: {
+                    include: [{
                         required: true,
                         model: Cidade,
                         include: {
@@ -83,6 +88,19 @@ export default function fichaTomboController(request, response, next) {
                             },
                         },
                     },
+                    {
+                        model: Solo,  
+                    },
+                    {
+                        model: Relevo,  
+                    },
+                    {
+                        model: Vegetacao,  
+                    },
+                    {
+                        model: FaseSucessional,  
+                    },
+                ],
                 },
             ];
 
@@ -93,7 +111,7 @@ export default function fichaTomboController(request, response, next) {
             return Tombo.findOne({ include, where });
         })
         .then(tombo => {
-            // console.log("aqui e meu tombooooooooooooooooooooo\n\n\n\n\n\n\n\n", tombo);
+            console.log("aqui e meu tombooooooooooooooooooooo\n\n\n\n\n\n\n\n", tombo);
             if (!tombo) {
                 throw new Error('Tombo não encontrado');
             }
@@ -165,8 +183,15 @@ export default function fichaTomboController(request, response, next) {
 
             const localColeta = tombo.local_coleta;
             const { cidade } = localColeta;
+            const { solo } = localColeta;
             const { estado } = cidade;
             const { pais } = estado;
+
+            const romanos = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
+            var dataTombo = new Date(tombo.data_tombo);
+            const romano_data_tombo = ( (dataTombo.getDate() ) + "/" + (romanos[dataTombo.getMonth()]) + "/" + dataTombo.getFullYear());
+            const romano_data_identificacao = ( (identificacao.data_identificacao_dia ) + "/" + (romanos[identificacao.data_identificacao_mes - 1]) + "/" + identificacao.data_identificacao_ano);
+            const romano_data_coleta = ( (tombo.data_coleta_dia ) + "/" + (romanos[tombo.data_coleta_mes - 1]) + "/" + tombo.data_coleta_ano);
             const parametros = {
                 // Se não tem fotos, cria um array de 1 posição com um objeto vazio
                 // para poder iterar pelo array e criar pelo menos 1 ficha
@@ -183,6 +208,7 @@ export default function fichaTomboController(request, response, next) {
                 },
 
                 genero: tombo.genero,
+                solo: Solo,
                 especie: tombo.especie,
                 variedade: tombo.variedade,
                 subespecie: tombo.sub_especy,
@@ -201,8 +227,12 @@ export default function fichaTomboController(request, response, next) {
 
                 localColeta,
                 cidade,
+                solo,
                 estado,
                 pais,
+                romano_data_tombo,
+                romano_data_identificacao,
+                romano_data_coleta,
             };
         
             const caminhoArquivoHtml = path.resolve(__dirname, '../views/ficha-tombo.ejs');

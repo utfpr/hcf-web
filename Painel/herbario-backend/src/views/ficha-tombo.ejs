@@ -96,7 +96,7 @@
                 <b>HCF:</b> <%- tombo.hcf %>
             </td>
             <td colspan="2">
-                <b>Data:</b> <%- tombo.data_tombo %>
+                <b>Data:</b> <%- romano_data_tombo %>
             </td>
         </tr>
         <% if (familia && familia.nome) { %>
@@ -146,18 +146,28 @@
                 <b>Identificador:</b> <%- identificacao.usuario.nome %>
             </td>
             <td>
-                <b>Data:</b> <%- identificacao.data_identificacao %>
+                <b>Data:</b> <%- romano_data_identificacao %>
             </td>
         </tr>
         <% } %>
         <tr>
             <td colspan="4">
                 <b>Local de coleta:</b>
-                <%- localColeta.descricao %>
-                - <%- localColeta.complemento %>
-                - <%- cidade.nome %>
-                - <%- cidade.estado.nome %>
-                - <%- cidade.estado.pais.nome %>
+                <% if (localColeta && localColeta.complemento) { %>
+                    <%- localColeta.complemento %>
+                <% } %>
+                <% if (localColeta && localColeta.descricao) { %>
+                    - <%- localColeta.descricao %>
+                <% } %>
+                <% if (cidade && cidade.nome) { %>
+                    - <%- cidade.nome %>
+                <% } %>
+                <% if (cidade && cidade.estado) { %>
+                    - <%- cidade.estado.nome %>
+                <% } %>
+                <% if (cidade && cidade.estado && cidade.estado.pais) { %>
+                    - <%- cidade.estado.pais.nome %>
+                <% } %>
             </td>
         </tr>
         <tr>
@@ -165,7 +175,31 @@
         </tr>
         <tr>
             <td colspan="4">
-                <b>Observações:</b> <%- tombo.observacao %>
+                <b>Observações:</b> 
+                <% if (tombo && tombo.observacao) { %>
+                    <%- tombo.observacao %>
+                <% } %>
+                <% if (tombo && tombo.latitude) { %>
+                    - Latitude: <%- tombo.latitude %>
+                <% } %>
+                <% if (tombo && tombo.longitude) { %>
+                    - Longitude: <%- tombo.longitude %>
+                <% } %>
+                <% if (tombo && tombo.altitude) { %>
+                    - Altitude: <%- tombo.altitude %>
+                <% } %>
+                <% if (localColeta && localColeta.solo) { %>
+                    - Solo: <%- localColeta.solo.nome %>
+                <% } %>
+                <% if (localColeta && localColeta.relevo) { %>
+                    - Relevo: <%- localColeta.relevo.nome %>
+                <% } %>
+                <% if (localColeta && localColeta.vegetaco) { %>
+                    - Vegetação: <%- localColeta.vegetaco.nome %>
+                <% } %>
+                <% if (localColeta && localColeta.fase_sucessional) { %>
+                    - Fase sucessional: <%- localColeta.fase_sucessional.nome %>
+                <% } %>
             </td>
         </tr>
         <tr>
@@ -182,7 +216,7 @@
                 <b>nº:</b> <%- tombo.numero_coleta %>
             </td>
             <td width="21%" class="text-right">
-                <b>Data:</b> <%- tombo.data_coleta %>
+                <b>Data:</b> <%- romano_data_coleta %>
             </td>
         </tr>
         <% if (!!fotos[i]['id'] && imprimir !== '0') { %>
