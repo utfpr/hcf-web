@@ -410,7 +410,6 @@ export const cadastro = (request, response, next) => {
         })
         // /////////////// CADASTRA O COLETOR ///////////////
         .then(ident => {
-            console.log("estou tentando implementar o coletor \n\n\n\n\n\n\n");
             let jsonColetores = []; // eslint-disable-line
             for (let i = 0; i < coletores.length; i++) { // eslint-disable-line
                 jsonColetores.push({
@@ -418,7 +417,6 @@ export const cadastro = (request, response, next) => {
                     coletor_id: coletores[i],
                 });
             }
-            console.log("estou tentando implementar o coletor json \n\n\n\n\n\n\n", jsonColetores);
             return TomboColetor.bulkCreate(jsonColetores, { transaction });
         })
         .then(coletoresCad => {
@@ -506,7 +504,6 @@ function alteracaoIdentificador(request, transaction) {
     } = request.body;
     const { tombo_id: tomboId } = request.params;
     const update = {};
-    console.log("este e meu JSONNNNNN \n\n\n\n\n\n\n\n\n", request.body);
 
     if (familiaId) {
         update.familia_id = familiaId;
@@ -528,29 +525,26 @@ function alteracaoIdentificador(request, transaction) {
     }
 
     return Promise.resolve()
-        .then(() => Alteracao.create({
-            tombo_hcf: tomboId,
-            usuario_id: request.usuario.id,
-            status: 'ESPERANDO',  //operador fica em espera e curador  APROVADO ESPERANDO
-            tombo_json: JSON.stringify(update),
-            ativo: true,
-            identificacao: 1,
-        }, { transaction }))
-        .then(alteracaoIdent => {
-            if (request.usuario.tipo_usuario_id === 3) {
-                if (!alteracaoIdent) {
-                    throw new BadRequestExeption(421);
-                }
-            }
-        });
+        .then(() => {
+            Alteracao.create({
+                tombo_hcf: tomboId,
+                usuario_id: request.usuario.id,
+                status: 'ESPERANDO',  //operador fica em espera e curador  APROVADO ESPERANDO
+                tombo_json: JSON.stringify(update),
+                ativo: true,
+                identificacao: 1,
+            }).then(tombos => {
+                response.status(codigos.BUSCAR_UM_ITEM)
+                    .json(tombos);
+            })
+            .catch(next);
+        });  
 }
 
-function alteracaoCuradorouOperador(request, transaction) {
-
+function alteracaoCuradorouOperador(request, response, next) {
     const body = request.body;
     const json = {};
 
-    console.log("este e meu JSONNNNNN \n\n\n\n\n\n\n\n\n", request.body);
     const nomePopular = body.json.principal.nome_popular;
     const entidadeId = body.json.principal.entidade_id;
     const numeroColeta = body.json.principal.numero_coleta;
@@ -590,7 +584,7 @@ function alteracaoCuradorouOperador(request, transaction) {
     const update = {};
 
     if(nomePopular){
-        update.nome_popular = nomePopular;
+        update.nomes_populares = nomePopular;
     }
 
     if(entidadeId){
@@ -617,7 +611,7 @@ function alteracaoCuradorouOperador(request, transaction) {
         update.familia_id = familiaId;
     }
     if (subfamiliaId) {
-        update.subfamilia_id = subfamiliaId;
+        update.sub_familia_id = subfamiliaId;
     }
     if (generoId) {
         update.genero_id = generoId;
@@ -626,19 +620,19 @@ function alteracaoCuradorouOperador(request, transaction) {
         update.especie_id = especieId;
     }
     if (subespecieId) {
-        update.subespecie_id = subespecieId;
+        update.sub_especie_id = subespecieId;
     }
     if (variedadeId) {
         update.variedade_id = variedadeId;
     }
 
-    if(latitude){
-        update.latitude = latitude;
-    }
+    // if(latitude){
+    //     update.latitude = latitude;
+    // }
 
-    if(longitude){
-        update.longitude = longitude;
-    }
+    // if(longitude){
+    //     update.longitude = longitude;
+    // }
 
     if(altitude){
         update.altitude = altitude;
@@ -673,7 +667,7 @@ function alteracaoCuradorouOperador(request, transaction) {
     }
 
     if(identificadorId){
-        update.identificador_id = identificadorId;
+        update.identificadores = identificadorId;
     }
 
     if(dataIdentificacao){
@@ -693,43 +687,56 @@ function alteracaoCuradorouOperador(request, transaction) {
     }
 
     if(observacoes){
-        update.observacoes = observacoes;
+        update.observacao = observacoes;
     }
     
-    console.log("update \n\n\n\n\n\n\n\n\n", update);
     return Promise.resolve()
-        .then(() => Alteracao.create({
+    .then(() => {
+        
+        if(request.usuario.tipo_usuario_id === 2){ // OPERADOR
+            Alteracao.create({
             tombo_hcf: tomboId,
             usuario_id: request.usuario.id,
             status: 'ESPERANDO',  //operador fica em espera e curador APROVADO {ESPERANDO - para nao esquecer}
             tombo_json: JSON.stringify(update),
             ativo: true,
             identificacao: 1,
-        }, { transaction }))
-        .then(alteracaoIdent => {
-            if (request.usuario.tipo_usuario_id === 3) {
-                if (!alteracaoIdent) {
-                    throw new BadRequestExeption(421);
-                }
-            }
-        });
+            }).then(tombos => {
+                response.status(codigos.BUSCAR_UM_ITEM)
+                    .json(tombos);
+            })
+            .catch(next);
+        }else if(request.usuario.tipo_usuario_id === 1){ // CURADOR
+            Alteracao.create({
+            tombo_hcf: tomboId,
+            usuario_id: request.usuario.id,
+            status: 'APROVADO',  //operador fica em espera e curador APROVADO {ESPERANDO - para nao esquecer}
+            tombo_json: JSON.stringify(update),
+            ativo: true,
+            identificacao: 1,
+            }).then(tombos => {
+                response.status(codigos.BUSCAR_UM_ITEM)
+                    .json(tombos);
+            })
+            .catch(next);
+        }
+    })
+    // .then(alteracaoIdent => {
+    //     if (request.usuario.tipo_usuario_id === 3) {
+    //         if (!alteracaoIdent) {
+    //             throw new BadRequestExeption(421);
+    //         }
+    //     }
+    // });
 }
 
 export function alteracao(request, response, next) {
-    const callback = transaction => {
-        if (request.usuario.tipo_usuario_id === 3) {
-            return alteracaoIdentificador(request, transaction);
-        } else if(request.usuario.tipo_usuario_id === 1 || request.usuario.tipo_usuario_id === 2 ) {
-            return alteracaoCuradorouOperador(request, transaction);
-        }
-        return Promise.reject(new BadRequestExeption(421));
-    };
-    sequelize.transaction(callback)
-        .then(() => {
-            response.status(codigos.LISTAGEM).send();
-        })
-        .catch(next);
-
+    console.log("request\n\n\n\n\n\n", request);
+    if (request.usuario.tipo_usuario_id === 3) {
+        alteracaoIdentificador(request, response, next);
+    }else if(request.usuario.tipo_usuario_id === 1 || request.usuario.tipo_usuario_id === 2 ) {
+        alteracaoCuradorouOperador(request, response, next);
+    }
 }
 
 export const desativar = (request, response, next) => {
@@ -1585,6 +1592,29 @@ export const getUltimoNumeroTombo = (request, response, next) => {
                 response.status(codigos.BUSCAR_UM_ITEM)
                     .json(tomboDate);
             })
+        })
+        .catch(next);
+};
+
+export const getUltimoNumeroCodigoBarras = (request, response, next) => {
+    const { emVivo } = request.params;
+    Promise.resolve()
+        .then(() => TomboFoto.findAll({
+            where: {
+                em_vivo : emVivo
+            },
+            attributes: [
+                'id',
+                'codigo_barra',
+                'num_barra',
+                'caminho_foto',
+            ],
+        }))
+        .then(codBArras => {
+            const maximoCodBarras = Math.max(... codBarras.map(e => e.id));
+            console.log("meu numero de barras \n\n\n\n\n\n", maximoCodBarras);
+            response.status(codigos.BUSCAR_UM_ITEM)
+                .json(maximoCodBarras);
         })
         .catch(next);
 };

@@ -11,7 +11,7 @@ import {
     getDadosCadTombo, getNumeroTombo, cadastro, listagem,
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
     buscarProximoNumeroColetor, alteracao, getNumeroColetor, getUltimoNumeroTombo, getCodigoBarraTombo,
-    editarCodigoBarra, deletarCodigoBarra,
+    editarCodigoBarra, deletarCodigoBarra, getUltimoNumeroCodigoBarras,
 } from '../controllers/tombos-controller';
 import exportarTombosController from '../controllers/tombos-exportacoes-controller';
 import fichaTomboController from '../controllers/fichas-tombos-controller';
@@ -44,6 +44,11 @@ export default app => {
     app.route('/tombos/codBarras')
     .put([
         editarCodigoBarra,
+    ]);
+
+    app.route('/tombos/MaxcodBarras/:emVivo')
+    .put([
+        getUltimoNumeroCodigoBarras,
     ]);
 
     app.route('/tombos/exportar')
