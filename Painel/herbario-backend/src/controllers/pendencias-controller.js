@@ -1254,7 +1254,7 @@ export const aprovarComJson = (alteracao, hcf, response, next) => {
                     }
                 })
             }
-
+            console.log("minha alteracaoooooo\n\n\n\n", alteracao);
             Tombo.update(alteracao, {
                 where: {
                     hcf,

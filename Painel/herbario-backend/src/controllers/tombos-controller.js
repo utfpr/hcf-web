@@ -6,7 +6,7 @@ import models from '../models';
 import codigos from '../resources/codigos-http';
 import pick from '../helpers/pick';
 import {
-    converteParaDecimal, converteDecimalParaGraus, converteDecimalParaGMSGrau, converteDecimalParaGMSMinutos, converteDecimalParaGMSSegundos,
+    converteDecimalParaGMSSinal, converteParaDecimal, converteDecimalParaGraus, converteDecimalParaGMSGrau, converteDecimalParaGMSMinutos, converteDecimalParaGMSSegundos,
 } from '../helpers/coordenadas';
 import { selecionaObjetoCompletoTomboPorId } from '../services/tombos-service';
 import { converteInteiroParaRomano } from '../helpers/tombo';
@@ -626,13 +626,13 @@ function alteracaoCuradorouOperador(request, response, next) {
         update.variedade_id = variedadeId;
     }
 
-    // if(latitude){
-    //     update.latitude = latitude;
-    // }
+    if(latitude){
+        update.latitude = converteParaDecimal(latitude);
+    }
 
-    // if(longitude){
-    //     update.longitude = longitude;
-    // }
+    if(longitude){
+        update.longitude = converteParaDecimal(longitude);
+    }
 
     if(altitude){
         update.altitude = altitude;
@@ -1276,10 +1276,12 @@ export const obterTombo = (request, response, next) => {
                 localizacao: {
                     latitude: tombo.latitude !== null ? tombo.latitude : '',
                     longitude: tombo.longitude !== null ? tombo.longitude : '',
+                    latitude_sinal: tombo.latitude !== null ? converteDecimalParaGMSSinal(tombo.latitude, true).replace('.', ',') : '',
                     latitude_graus: tombo.latitude !== null ? converteDecimalParaGraus(tombo.latitude, true).replace('.', ',') : '',
                     lat_grau: tombo.latitude !== null ? converteDecimalParaGMSGrau(tombo.latitude, true) : '',
                     latitude_min: tombo.latitude !== null ? converteDecimalParaGMSMinutos(tombo.latitude, true) : '',
                     latitude_sec: tombo.latitude !== null ? converteDecimalParaGMSSegundos(tombo.latitude, true) : '',
+                    longitude_sinal: tombo.longitude !== null ? converteDecimalParaGMSSinal(tombo.longitude, true).replace('.', ',') : '',
                     longitude_graus: tombo.longitude !== null ? converteDecimalParaGraus(tombo.longitude, false).replace('.', ',') : '',
                     long_graus: tombo.longitude !== null ? converteDecimalParaGMSGrau(tombo.longitude, false) : '',
                     long_min: tombo.longitude !== null ? converteDecimalParaGMSMinutos(tombo.longitude, false) : '',

@@ -116,6 +116,10 @@ export const converteDecimalParaGMSSegundos = (decimal, isLat) => {
 };
 
 export const converteDecimalParaGMSSinal = (decimal, isLat) => {
+    const CHAR_DEG = '\u00B0';
+    const CHAR_MIN = '\u0027';
+    const CHAR_SEC = '\u0022';
+    const CHAR_SEP = '\u0020';
     let max = 180;
 
     if (isLat) {

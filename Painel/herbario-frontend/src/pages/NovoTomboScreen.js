@@ -174,6 +174,9 @@ class NovoTomboScreen extends Component {
             latGraus: '',
             latMinutos: '',
             latSegundos: '',
+            longGraus: '',
+            longMinutos: '',
+            longSegundos: '',
             fotosTeste: [],
             codigoBarras: "",
             dadosFormulario: {},
@@ -407,11 +410,19 @@ class NovoTomboScreen extends Component {
             })
         }
         if (dados.localizacao) {
+            console.log("minha localizacao\n\n\n\n\\n", dados.localizacao)
             insereState = {
                 ...insereState,
-                latGraus: dados.localizacao.latitude_graus,
+                latGraus: dados.localizacao.lat_grau,
                 latMinutos: dados.localizacao.latitude_min,
                 latSegundos: dados.localizacao.latitude_sec,
+            }
+
+            insereState = {
+                ...insereState,
+                longGraus: dados.localizacao.long_graus,
+                longMinutos: dados.localizacao.long_min,
+                longSegundos: dados.localizacao.latitude_sec,
             }
         }
 
@@ -2580,9 +2591,6 @@ class NovoTomboScreen extends Component {
                             <FormItem>
                                 {getFieldDecorator('longitude')(
                                     <CoordenadaInputText
-                                        onChange={(value) =>{
-                                            console.log("valorrrrrrrrrrrrr", value)
-                                        }}
                                         placeholder={`48°40'30"O`}
                                     />
                                 )}

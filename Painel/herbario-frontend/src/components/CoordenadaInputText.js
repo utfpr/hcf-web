@@ -11,7 +11,7 @@ class CoordenadaInputText extends Component {
 
         this.state = {
             coordenadas: '',
-            valorSaida: ''
+            valorSaida: '',
         };
     }
 
@@ -28,15 +28,18 @@ class CoordenadaInputText extends Component {
 
     aplicaMascaraNoCampo = (campo, mascara, valor) => {
         const valorMascarado = masker.toPattern(valor, mascara);
+        // console.log("meu valoorrrrrr", this.state.graus);
         this.setState({ [campo]: valorMascarado }, this.onStateChanged);
     }
 
     onStateChanged = () => {
         const { graus, minutos, segundos, pontoCardeal } = this.state;
+        // console.log("minhas coordenadas\n\n\n", this.state);
         this.props.onChange(`${graus}°${minutos}'${segundos}"${pontoCardeal}`);
     }
 
     temValorValido = (valor1, valor2) => {
+        console.log("valores\n\n\n\n",valor1, valor2);
         const invalido = valor1 === undefined || valor1 === null;
         return invalido ? valor2 : valor1;
     }
