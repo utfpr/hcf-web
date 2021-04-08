@@ -10,7 +10,7 @@ export default class UploadPicturesComponent extends Component {
 				{...this.props}
 			>
 				<Button style={{ width: "100%" }}>
-					<Icon type="upload" /> upload
+					<Icon type="upload" /> Enviar
         		</Button>
 			</Upload>
 		);

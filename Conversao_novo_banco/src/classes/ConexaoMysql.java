@@ -38,14 +38,14 @@ public class ConexaoMysql {
             Class.forName(driverName);
 
 // Configurando a nossa conexão com um banco de dados//
-            String serverName = "mysql995.umbler.com:41890";    //caminho do servidor do BD
+            String serverName = "localhost:3306";    //caminho do servidor do BD
 
-            String mydatabase ="hcf";        //nome do seu banco de dados
+            String mydatabase ="herbarium";        //nome do seu banco de dados
 
             String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 
 
-            connection = DriverManager.getConnection(url, "hcf", "masterkey");
+            connection = DriverManager.getConnection(url, "root", "root");
 
             //Testa sua conexão//  
             if (connection != null) {

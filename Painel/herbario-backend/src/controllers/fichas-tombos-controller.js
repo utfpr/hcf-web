@@ -5,6 +5,9 @@ import moment from 'moment-timezone';
 import formataColunasSeparadas from '../helpers/formata-colunas-separadas';
 import renderizaArquivoHtml from '../helpers/renderiza-arquivo-html';
 import models from '../models';
+import {
+    converteDecimalParaGMSSinal, converteParaDecimal, converteDecimalParaGraus, converteDecimalParaGMSGrau, converteDecimalParaGMSMinutos, converteDecimalParaGMSSegundos,
+} from '../helpers/coordenadas';
 // import FaseSucessional from '../models/FaseSucessional';
 
 const {
@@ -199,6 +202,8 @@ export default function fichaTomboController(request, response, next) {
                 tombo: {
                     ...tombo,
                     coletores,
+                    latitude:converteDecimalParaGMSSinal(tombo.latitude, true),
+                    longitude:converteDecimalParaGMSSinal(tombo.longitude, true),
                     data_tombo: formataDataSaida(tombo.data_tombo),
                     data_coleta: formataColunasSeparadas(
                         tombo.data_coleta_dia,

@@ -1,11 +1,11 @@
-package dao;
+package Dao;
 
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
 public class DAOGeneric<T> { 
-    private  static EntityManager em = Persistence.createEntityManagerFactory("UP").createEntityManager();
+    private static final EntityManager em = Persistence.createEntityManagerFactory("UP").createEntityManager();
     
     private Class clazz;
 

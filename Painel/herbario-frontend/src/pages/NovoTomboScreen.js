@@ -1035,7 +1035,7 @@ class NovoTomboScreen extends Component {
                 });
 
                 this.openNotificationWithIcon("success", "Sucesso", "O cadastro foi realizado com sucesso.")
-                // window.location.reload();
+                window.location.reload();
 
             })
             .catch(err => {
@@ -3740,7 +3740,7 @@ class NovoTomboScreen extends Component {
                                     </Col>
                                     <Col span={8}>
                                     <Button onClick={() => this.criaCodigoBarrasSemFotos(false)} >
-                                        <Icon type="upload" /> upload
+                                        <Icon type="upload" /> Enviar
                                     </Button>
                                     </Col>
                                 </Col>
@@ -3750,7 +3750,7 @@ class NovoTomboScreen extends Component {
                                     </Col>
                                     <Col span={8}>
                                     <Button onClick={() => this.criaCodigoBarrasSemFotos(true)} >
-                                        <Icon type="upload" /> upload
+                                        <Icon type="upload" /> Enviar
                                     </Button>
                                     </Col>
                                 </Col>

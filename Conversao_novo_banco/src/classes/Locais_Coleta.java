@@ -6,7 +6,7 @@
 package classes;
 
 import java.io.Serializable;
-import javafx.scene.text.Text;
+//import javafx.scene.text.Text
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
