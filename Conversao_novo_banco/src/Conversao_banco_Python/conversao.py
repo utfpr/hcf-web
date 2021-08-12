@@ -1,5 +1,6 @@
 from __future__ import print_function
 from datetime import date
+import csv
 
 import mysql.connector
 from mysql.connector import errorcode
@@ -62,7 +63,6 @@ class Database():
         else:
             print("OK")
             
-
     def getNome(self):
         return self.__DB_NOME
 
@@ -91,7 +91,38 @@ class Database():
             print(err.msg)       
         else:
             print("OK")
-        
+    
+def padronizaNomeAutor(nome):
+    nomeFinal = ""
+    for i in range(0, len(nome)):
+        if (nome[i] != '(' and nome[i] != ')'):
+            if (nome[i] == '&'):
+                nomeFinal += " & "
+            elif (ord(nome[i]) >= 65 and ord(nome[i]) <= 90): # é maiusculo
+                if (i + 1 < len(nome)):
+                    if (nome[i + 1] == '&'):
+                        nomeFinal += nome[i] + ". "
+                    elif (ord(nome[i + 1]) >= 65 and ord(nome[i + 1]) <= 90):
+                        nomeFinal += nome[i] + ". "
+                    elif (i - 1 >= 0 and ord(nome[i - 1]) >= 97 and ord(nome[i - 1]) <= 122):
+                        nomeFinal += " " + nome[i]
+                    else :
+                        nomeFinal += nome[i]
+            else:
+                nomeFinal += nome[i]
+        else:
+            nomeFinal += nome[i]
+    return nomeFinal
+
+def getIniciaisAutores(nome) :
+    iniciais = ""
+    for i in range(0, len(nome)):
+        if (nome[i] == '&'):
+            iniciais += " & "
+        elif (ord(nome[i]) >= 65 and ord(nome[i]) <= 90): # é maiusculo
+            iniciais += nome[i] + "."
+    return iniciais
+
 def main():
 
     conexaoNova = Conexao()
@@ -626,7 +657,7 @@ def main():
 
 # verificar nome do banco no sistema
 
-    databaseTeste = Database("hcf", conexaoNova.getCursor())  #nome da nova base de dados
+    databaseTeste = Database("bancoteste", conexaoNova.getCursor())  #nome da nova base de dados
 
     try:
         conexaoNova.getCursor().execute("USE {}".format(databaseTeste.getNome()))
@@ -640,82 +671,224 @@ def main():
             print(err)
             exit(1)
     
-    for nome in reversed(TABLES): # a lista precisa ser invertida por conta das dependecias na hora de dropar
-        databaseTeste.drop_table(nome)
+    # for nome in reversed(TABLES): # a lista precisa ser invertida por conta das dependecias na hora de dropar
+    #     databaseTeste.drop_table(nome)
     
-    for nome in TABLES: # cria tabelas
-        sql = TABLES[nome]
-        databaseTeste.create_table(nome, sql)
+    # for nome in TABLES: # cria tabelas
+    #     sql = TABLES[nome]
+    #     databaseTeste.create_table(nome, sql)
 
   
     
     databaseAntiga = Database("hcfteste", conexaoAntiga.getCursor())  #nome da base de dados em mysql que foi migrada do firebird
     # -----------------------Insere dados Coletores---------------------
-    coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT * FROM coletor")
+    # coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
 
-    commitColetorData = ()
-    sql = ("INSERT INTO coletores "
-        "(id, nome, email, numero, data_criacao, ativo) "
-        "VALUES (%s, %s, %s, %s, %s, %s)")
+    # coletorNumero = databaseAntiga.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) FROM hcfteste.tombo GROUP BY tombo_coletor;")
+
+    # commitColetorData = ()
+    # sql = ("INSERT INTO coletores "
+    #     "(id, nome, email, numero, data_criacao, ativo) "
+    #     "VALUES (%s, %s, %s, %s, %s, %s)")
     
-    dataAtual = date.today()
-    conexaoColetor = conexaoNova.getConexao()
-    for coletor in coletorData:
-        commitColetorData = (coletor[0], coletor[1], None, None, dataAtual, 1)
-        databaseTeste.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+    # dataAtual = date.today()
+    # conexaoColetor = conexaoNova.getConexao()
+    # for coletor in coletorData:
+    #     for numero in coletorNumero:
+    #         if(numero[0] == coletor[0]):
+    #             commitColetorData = (coletor[0], coletor[1], None, numero[1], dataAtual, 1)
+    #             databaseTeste.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
 
     # -----------------------Insere dados Relevos---------------------
-    relevosData = databaseAntiga.getConteudoTabela("relevo", "SELECT * FROM relevo")
+    # relevosData = databaseAntiga.getConteudoTabela("relevo", "SELECT cod_relevo, tp_relevo FROM relevo")
 
-    commitRelevosData = ()
-    sql = ("INSERT INTO relevos "
-        "(id, nome) "
-        "VALUES (%s, %s)")
+    # commitRelevosData = ()
+    # sql = ("INSERT INTO relevos "
+    #     "(id, nome) "
+    #     "VALUES (%s, %s)")
     
-    conexaoRelevos = conexaoNova.getConexao()
-    for relevos in relevosData:
-        commitRelevosData = (relevos[0], relevos[1])
-        databaseTeste.insertConteudoTabela("relevos", sql, commitRelevosData, conexaoRelevos )
+    # conexaoRelevos = conexaoNova.getConexao()
+    # for relevos in relevosData:
+    #     commitRelevosData = (relevos[0], relevos[1])
+    #     databaseTeste.insertConteudoTabela("relevos", sql, commitRelevosData, conexaoRelevos )
 
     # -----------------------Insere dados Solos---------------------
-    solosData = databaseAntiga.getConteudoTabela("solo", "SELECT * FROM solo")
+    # solosData = databaseAntiga.getConteudoTabela("solo", "SELECT cod_solo, tp_solo  FROM solo")
 
-    commitSolosData = ()
-    sql = ("INSERT INTO Solos "
-        "(id, nome) "
-        "VALUES (%s, %s)")
+    # commitSolosData = ()
+    # sql = ("INSERT INTO Solos "
+    #     "(id, nome) "
+    #     "VALUES (%s, %s)")
     
-    conexaoSolos = conexaoNova.getConexao()
-    for solos in solosData:
-        commitSolosData = (solos[0], solos[1])
-        databaseTeste.insertConteudoTabela("Solos", sql, commitSolosData, conexaoSolos )
+    # conexaoSolos = conexaoNova.getConexao()
+    # for solos in solosData:
+    #     commitSolosData = (solos[0], solos[1])
+    #     databaseTeste.insertConteudoTabela("Solos", sql, commitSolosData, conexaoSolos )
 
     # -----------------------Insere dados Vegetacoes---------------------
-    vegetacoesData = databaseAntiga.getConteudoTabela("vegetacao", "SELECT * FROM vegetacao")
+    # vegetacoesData = databaseAntiga.getConteudoTabela("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
 
-    commitVegetacoesData = ()
-    sql = ("INSERT INTO Vegetacoes "
-        "(id, nome) "
-        "VALUES (%s, %s)")
+    # commitVegetacoesData = ()
+    # sql = ("INSERT INTO Vegetacoes "
+    #     "(id, nome) "
+    #     "VALUES (%s, %s)")
     
-    conexaoVegetacoes = conexaoNova.getConexao()
-    for vegetacoes in vegetacoesData:
-        commitVegetacoesData = (vegetacoes[0], vegetacoes[1])
-        databaseTeste.insertConteudoTabela("Vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
+    # conexaoVegetacoes = conexaoNova.getConexao()
+    # for vegetacoes in vegetacoesData:
+    #     commitVegetacoesData = (vegetacoes[0], vegetacoes[1])
+    #     databaseTeste.insertConteudoTabela("Vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
 
     # -----------------------Insere dados fase_sucessional---------------------
-    fase_sucessionalData = [(1, '1º fase sucessão vegetal'), (2, '2º fase sucessão vegetal'), (3, '3º fase ou capoeirinhia'), (4, '4º fase capoeira'), (5, '5º fase capoeirão'), (6, '6º fase floresta secundária')]
+    # fase_sucessionalData = [(1, '1º fase sucessão vegetal'), (2, '2º fase sucessão vegetal'), (3, '3º fase ou capoeirinhia'), (4, '4º fase capoeira'), (5, '5º fase capoeirão'), (6, '6º fase floresta secundária')]
 
-    commitFase_sucessionalData = ()
-    sql = ("INSERT INTO fase_sucessional "
-        "(numero, nome) "
-        "VALUES (%s, %s)")
+    # commitFase_sucessionalData = ()
+    # sql = ("INSERT INTO fase_sucessional "
+    #     "(numero, nome) "
+    #     "VALUES (%s, %s)")
     
-    conexaoFase_sucessional = conexaoNova.getConexao()
-    for vegetacoes in fase_sucessionalData:
-        commitFase_sucessionalData = (vegetacoes[0], vegetacoes[1])
-        databaseTeste.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional )
+    # conexaoFase_sucessional = conexaoNova.getConexao()
+    # for fase_sucessional in fase_sucessionalData:
+    #     commitFase_sucessionalData = (fase_sucessional[0], fase_sucessional[1])
+    #     databaseTeste.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional )
 
+    # -----------------------Insere dados paises-------------------------------------
+    # paisesData = ''
+    # with open('HCFPaises.csv', newline='') as csvfile:
+    #     paisesData = list(csv.reader(csvfile))
+
+    # commitPaisesData = ()
+    # sql = ("INSERT INTO paises "
+    #     "(id, nome, sigla) "
+    #     "VALUES (%s, %s, %s)")
+    
+    # conexaoPaises = conexaoNova.getConexao()
+    # for pais in paisesData:
+    #     commitPaisesData = (pais[0], pais[1], pais[2])
+    #     databaseTeste.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises )
+
+    # -----------------------Insere dados estados-------------------------------------
+
+    # estadosData = ''
+    # with open('HCFEstados.csv', newline='') as csvfile:
+    #     estadosData = list(csv.reader(csvfile))
+
+    # commitEstadosData = ()
+    # sql = ("INSERT INTO estados "
+    #     "(id, nome, codigo_telefone, pais_id) "
+    #     "VALUES (%s, %s, %s, %s)")
+    
+    # conexaoEstados = conexaoNova.getConexao()
+    # for estado in estadosData:
+    #     commitEstadosData = (estado[0], estado[1], estado[2], estado[3])
+    #     databaseTeste.insertConteudoTabela("estados", sql, commitEstadosData, conexaoEstados )
+
+    # -----------------------Insere dados cidades-------------------------------------
+
+    # cidadesData = ''
+    # with open('HCFCidades.csv', newline='') as csvfile:
+    #     cidadesData = list(csv.reader(csvfile))
+
+    # commitCidadesData = ()
+    # sql = ("INSERT INTO cidades "
+    #     "(id, estado_id, latitude, longitude, nome) "
+    #     "VALUES (%s, %s, %s, %s, %s)")
+    
+    # conexaoCidades = conexaoNova.getConexao()
+    # for cidade in cidadesData:
+    #     commitCidadesData = (cidade[0], cidade[1], cidade[2], cidade[3], cidade[4])
+    #     databaseTeste.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades )
+
+    # -----------------------Insere dados locais_coleta-------------------------------------
+
+    # locais_coletaData = databaseAntiga.getConteudoTabela("local_coleta", "SELECT codigo, local, regiao_do_local, cidade FROM local_coleta")
+
+    # tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT local_coleta, codigo_solo, codigo_relevo, codigo_vegetacao FROM tombo group by local_coleta;")
+
+    # commitLocais_coletaData = ()
+    # sql = ("INSERT INTO locais_coleta "
+    #     "(id, descricao, solo_id, relevo_id, vegetacao_id, cidade_id, fase_sucessional_id, complemento, fase_numero) "
+    #     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)")
+    
+    # cidadeLista = databaseTeste.getConteudoTabela("cidades", "select id, nome from cidades")
+    # conexaoLocais_coleta = conexaoNova.getConexao()
+    # for locais_coleta in locais_coletaData:
+    #     for tombo in tomboData: #passa pelo tombo tentando encontrar as informacoes daquela coleta que se encontram no tombo
+    #         if(tombo[0] == locais_coleta[0]):
+    #             flag = 0  #essa flag garante que uma transacao nao sera feita para duas cidades com o mesmo nome
+    #             for cidade in cidadeLista: # passa pela lista de cidades encontrando o id da cidade dessa coleta
+    #                 if(flag == 0  and cidade[1] == locais_coleta[3]):
+    #                     flag = 1
+    #                     print(locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", tombo[1], tombo[2], tombo[3], cidade[0])
+    #                     commitLocais_coletaData = (locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", tombo[1], tombo[2], tombo[3], cidade[0], None, None, None)
+    #                     databaseTeste.insertConteudoTabela("locais_coleta", sql, commitLocais_coletaData, conexaoLocais_coleta )
+
+    # -----------------------Insere dados familias-------------------------------------------
+
+    # familiasData = databaseAntiga.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
+
+    # commitFamiliasData = ()
+    # sql = ("INSERT INTO familias "
+    #     "(id, nome, ativo) "
+    #     "VALUES (%s, %s, %s)")  
+    
+    # conexaoFamilias = conexaoNova.getConexao()
+    # for familias in familiasData:
+    #     commitFamiliasData = (familias[0], familias[1], 1)
+    #     databaseTeste.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias )
+
+    # -----------------------Insere dados generos-------------------------------------------
+
+    # generosData = databaseAntiga.getConteudoTabela("especie", "SELECT especie, cd_familia FROM especie")
+
+    # commitgenerosData = ()
+    # sql = ("INSERT INTO generos "
+    #     "(id, nome, familia_id, ativo) "
+    #     "VALUES (%s, %s, %s, %s)")  
+    
+    # conexaogeneros = conexaoNova.getConexao()
+    # id = 0
+    # for generos in generosData:
+    #     id += 1
+    #     commitgenerosData = (id, generos[0], generos[1], 1)
+    #     databaseTeste.insertConteudoTabela("generos", sql, commitgenerosData, conexaogeneros )
+
+    # -----------------------Insere dados autores-------------------------------------------
+
+    # autoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM hcfteste.tombo")
+
+    # commitAutoresData = ()
+    # sql = ("INSERT INTO autores "
+    #     "(id, nome, iniciais, ativo) "
+    #     "VALUES (%s, %s, %s, %s)")  
+    
+    # conexaoAutores = conexaoNova.getConexao()
+    # id = 0
+    # for autores in autoresData:
+    #     if(autores[0] != None):
+    #         id += 1
+    #         nomePadronizado = padronizaNomeAutor(autores[0])
+    #         iniciais = getIniciaisAutores(nomePadronizado)
+    #         commitAutoresData = (id, nomePadronizado, iniciais, 1)
+    #         databaseTeste.insertConteudoTabela("autores", sql, commitAutoresData, conexaoAutores )
+
+    # -----------------------Insere dados especies-------------------------------------------
+
+    especiesData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM hcfteste.tombo")
+
+    commitEspeciesData = ()
+    sql = ("INSERT INTO especies "
+        "(id, nome, iniciais, ativo) "
+        "VALUES (%s, %s, %s, %s)")  
+    
+    conexaoEspecies = conexaoNova.getConexao()
+    id = 0
+    for especies in especiesData:
+        if(especies[0] != None):
+            id += 1
+            nomePadronizado = padronizaNomeAutor(especies[0])
+            iniciais = getIniciaisespecies(nomePadronizado)
+            commitEspeciesData = (id, nomePadronizado, iniciais, 1)
+            databaseTeste.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
 
     conexaoNova.closeConexao()
     conexaoAntiga.closeConexao()
