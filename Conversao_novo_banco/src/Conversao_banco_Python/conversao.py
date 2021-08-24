@@ -213,7 +213,7 @@ def main():
         "CREATE TABLE `paises` ("
         "`id` smallint unsigned NOT NULL AUTO_INCREMENT,"
         "`nome` varchar(255) NOT NULL,"
-        "`sigla` varchar(10) DEFAULT NULL,"
+        "`sigla` char(2) DEFAULT NULL,"
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`)"
@@ -224,6 +224,7 @@ def main():
         "CREATE TABLE `estados` ("
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"
         "`nome` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,"
+        "`sigla` char(2) DEFAULT NULL,"
         "`codigo_telefone` varchar(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,"
         "`pais_id` smallint unsigned NOT NULL,"
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
@@ -254,9 +255,6 @@ def main():
         "CREATE TABLE `locais_coleta` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
         "`descricao` text,"
-        "`solo_id` int DEFAULT NULL,"
-        "`relevo_id` int DEFAULT NULL,"
-        "`vegetacao_id` int DEFAULT NULL,"
         "`cidade_id` int unsigned DEFAULT NULL,"
         "`fase_sucessional_id` int DEFAULT NULL,"
         "`complemento` text,"
@@ -264,18 +262,12 @@ def main():
         "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`fase_numero` int DEFAULT NULL,"
         "PRIMARY KEY (`id`),"
-        "KEY `fk_locais_coleta_solo1_idx` (`solo_id`),"
-        "KEY `fk_locais_coleta_relevo1_idx` (`relevo_id`),"
-        "KEY `fk_locais_coleta_vegetacao1_idx` (`vegetacao_id`),"
         "KEY `fk_locais_coleta_fase_sucessional1_idx` (`fase_sucessional_id`),"
         "KEY `fk_locais_coleta_cidades_idx` (`cidade_id`),"
         "KEY `FK_99i0itontmoklfxmoo8armtnv` (`fase_numero`),"
         "CONSTRAINT `FK_99i0itontmoklfxmoo8armtnv` FOREIGN KEY (`fase_numero`) REFERENCES `fase_sucessional` (`numero`),"
-        "CONSTRAINT `FK_dv9so0cpvr0ema3w8jr5od0s3` FOREIGN KEY (`vegetacao_id`) REFERENCES `vegetacoes` (`id`),"
-        "CONSTRAINT `FK_dyowm58jvxq3u0p7vhw8qldng` FOREIGN KEY (`solo_id`) REFERENCES `solos` (`id`),"
         "CONSTRAINT `fk_locais_coleta_cidades` FOREIGN KEY (`cidade_id`) REFERENCES `cidades` (`id`),"
-        "CONSTRAINT `fk_locais_coleta_fase_sucessional1` FOREIGN KEY (`fase_sucessional_id`) REFERENCES `fase_sucessional` (`numero`),"
-        "CONSTRAINT `FK_nqf13udlqbeor6xlkkqdsf9ke` FOREIGN KEY (`relevo_id`) REFERENCES `relevos` (`id`)"
+        "CONSTRAINT `fk_locais_coleta_fase_sucessional1` FOREIGN KEY (`fase_sucessional_id`) REFERENCES `fase_sucessional` (`numero`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
 #feito
@@ -519,6 +511,9 @@ def main():
         "`cor` enum('VERMELHO','VERDE','AZUL') DEFAULT NULL,"
         "`data_coleta_mes` int DEFAULT NULL,"
         "`data_coleta_ano` int DEFAULT NULL,"
+        "`solo_id` int DEFAULT NULL,"
+        "`relevo_id` int DEFAULT NULL,"
+        "`vegetacao_id` int DEFAULT NULL,"
         "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`ativo` tinyint(1) DEFAULT '1',"
@@ -535,6 +530,9 @@ def main():
         "KEY `fk_tombos_variedades1_idx` (`variedade_id`,`colecao_anexa_id`),"
         "KEY `fk_tombos_colecoes1_idx` (`colecao_anexa_id`),"
         "KEY `fk_tombos_local1_idx` (`local_coleta_id`),"
+        "KEY `fk_tombos_solo1_idx` (`solo_id`),"
+        "KEY `fk_tombos_relevo1_idx` (`relevo_id`),"
+        "KEY `fk_tombos_vegetacao1_idx` (`vegetacao_id`),"
         "CONSTRAINT `fk_TOMBO_ENTIDADE1` FOREIGN KEY (`entidade_id`) REFERENCES `herbarios` (`id`),"
         "CONSTRAINT `fk_tombos_colecoes1` FOREIGN KEY (`colecao_anexa_id`) REFERENCES `colecoes_anexas` (`id`),"
         "CONSTRAINT `fk_tombos_especies1` FOREIGN KEY (`especie_id`) REFERENCES `especies` (`id`),"
@@ -543,9 +541,11 @@ def main():
         "CONSTRAINT `fk_tombos_local1` FOREIGN KEY (`local_coleta_id`) REFERENCES `locais_coleta` (`id`),"
         "CONSTRAINT `fk_tombos_sub_especies1` FOREIGN KEY (`sub_especie_id`) REFERENCES `sub_especies` (`id`),"
         "CONSTRAINT `fk_tombos_sub_familias1` FOREIGN KEY (`sub_familia_id`) REFERENCES `sub_familias` (`id`),"
-        "CONSTRAINT `fk_tombos_tipo1` FOREIGN KEY (`tipo_id`) REFERENCES `tipos` (`id`)"
+        "CONSTRAINT `fk_tombos_tipo1` FOREIGN KEY (`tipo_id`) REFERENCES `tipos` (`id`),"
+        "CONSTRAINT `FK_tombos_solo1` FOREIGN KEY (`solo_id`) REFERENCES `solos` (`id`),"
+        "CONSTRAINT `FK_tombos_relevo1` FOREIGN KEY (`relevo_id`) REFERENCES `relevos` (`id`),"
+        "CONSTRAINT `FK_tombos_vegetacao1` FOREIGN KEY (`vegetacao_id`) REFERENCES `vegetacoes` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
-
 
     TABLES['tombos_coletores'] = (
         "CREATE TABLE `tombos_coletores` ("
@@ -763,24 +763,30 @@ def main():
     
     # conexaoPaises = conexaoNova.getConexao()
     # for pais in paisesData:
-    #     commitPaisesData = (pais[0], pais[1], pais[2])
+    #     id =  pais[0] if pais[0] else 'NULL'
+    #     nome =  pais[1] if pais[1] else 'NULL'
+    #     sigla =  pais[2] if pais[2] else 'NULL'
+    #     commitPaisesData = (id, nome, sigla)
     #     databaseTeste.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises )
 
     # -----------------------Insere dados estados-------------------------------------
 
-    # estadosData = ''
-    # with open('HCFEstados.csv', newline='') as csvfile:
-    #     estadosData = list(csv.reader(csvfile))
+    estadosData = ''
+    with open('HCFEstados.csv', newline='') as csvfile:
+        estadosData = list(csv.reader(csvfile))
 
-    # commitEstadosData = ()
-    # sql = ("INSERT INTO estados "
-    #     "(id, nome, codigo_telefone, pais_id) "
-    #     "VALUES (%s, %s, %s, %s)")
+    commitEstadosData = ()
+    sql = ("INSERT INTO estados "
+        "(id, nome, sigla, codigo_telefone, pais_id) "
+        "VALUES (%s, %s, %s, %s, %s)")
     
-    # conexaoEstados = conexaoNova.getConexao()
-    # for estado in estadosData:
-    #     commitEstadosData = (estado[0], estado[1], estado[2], estado[3])
-    #     databaseTeste.insertConteudoTabela("estados", sql, commitEstadosData, conexaoEstados )
+    conexaoEstados = conexaoNova.getConexao()
+    for estado in estadosData:
+        id =  estado[0] if estado[0] else 'NULL'
+        nome =  estado[1] if estado[1] else 'NULL'
+        pais_id =  estado[4] if estado[4] else 'NULL'
+        commitEstadosData = (id, nome, estado[2], estado[3], pais_id)
+        databaseTeste.insertConteudoTabela("estados", sql, commitEstadosData, conexaoEstados )
 
     # -----------------------Insere dados cidades-------------------------------------
 
@@ -808,13 +814,15 @@ def main():
     # sql = ("INSERT INTO locais_coleta "
     #     "(id, descricao, solo_id, relevo_id, vegetacao_id, cidade_id, fase_sucessional_id, complemento, fase_numero) "
     #     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)")
-    
+    # ## adicionar siglas de estado no banco e alterar a flag
     # cidadeLista = databaseTeste.getConteudoTabela("cidades", "select id, nome from cidades")
     # conexaoLocais_coleta = conexaoNova.getConexao()
     # for locais_coleta in locais_coletaData:
     #     for tombo in tomboData: #passa pelo tombo tentando encontrar as informacoes daquela coleta que se encontram no tombo
     #         if(tombo[0] == locais_coleta[0]):
     #             flag = 0  #essa flag garante que uma transacao nao sera feita para duas cidades com o mesmo nome
+                
+    #             #fazer funcao que devolve cidade
     #             for cidade in cidadeLista: # passa pela lista de cidades encontrando o id da cidade dessa coleta
     #                 if(flag == 0  and cidade[1] == locais_coleta[3]):
     #                     flag = 1
@@ -822,7 +830,7 @@ def main():
     #                     commitLocais_coletaData = (locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", tombo[1], tombo[2], tombo[3], cidade[0], None, None, None)
     #                     databaseTeste.insertConteudoTabela("locais_coleta", sql, commitLocais_coletaData, conexaoLocais_coleta )
 
-    # -----------------------Insere dados familias-------------------------------------------
+    # # -----------------------Insere dados familias-------------------------------------------
 
     # familiasData = databaseAntiga.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
 
@@ -836,7 +844,7 @@ def main():
     #     commitFamiliasData = (familias[0], familias[1], 1)
     #     databaseTeste.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias )
 
-    # -----------------------Insere dados generos-------------------------------------------
+    # # -----------------------Insere dados generos-------------------------------------------
 
     # generosData = databaseAntiga.getConteudoTabela("especie", "SELECT especie, cd_familia FROM especie")
 
@@ -853,6 +861,9 @@ def main():
     #     databaseTeste.insertConteudoTabela("generos", sql, commitgenerosData, conexaogeneros )
 
     # -----------------------Insere dados autores-------------------------------------------
+    
+    # adicionar autores de variedade
+    # adicionar autores de subespecie
 
     # autoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM hcfteste.tombo")
 
