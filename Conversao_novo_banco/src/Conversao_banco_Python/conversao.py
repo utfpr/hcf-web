@@ -87,13 +87,13 @@ class Database():
 
     def insertConteudoTabela(self, nome, sql, conteudo, conexao):
         try:
-            print("Inserting table content {}: ".format(nome), end='')
+            # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
             print(err.msg)       
-        else:
-            print("OK")
+        # # else:
+        # #     print("OK")
     
 def padronizaNomeAutor(nome):
     nomeFinal = ""
@@ -140,15 +140,15 @@ def buscaCidadeId(listaCidade, listaEstados, listaPaises, cidadeAntiga):
                     if(estado[3] == pais[0]):
                         return estado[0] * 100000
 
-    #gerar lista de cidades que nao estao sendo inseridas select * from hcffirebird.local_coleta where codigo in (SELECT id FROM hcf.locais_coleta where cidade_id is NULL);
+    # # gerar lista de cidades que nao estao sendo inseridas select * from hcffirebird.local_coleta where codigo in (SELECT id FROM hcf.locais_coleta where cidade_id is NULL);
 
 def unique(list):
-    # initialize a null list
+    # # initialize a null list
     unique_list = []
      
     # traverse for all elements
     for x in list:
-        # check if exists in unique_list or not
+        # # check if exists in unique_list or not
         if x not in unique_list:
             unique_list.append(x)
     return unique_list
@@ -158,7 +158,7 @@ def padronizaCoordenada(coordenada):
     coordenada = coordenada.replace("k","")
     coordenada = coordenada.replace("º","°")
     coordenada = coordenada.replace("\'\'","\"")
-    # se nao tiver graus e minutos coordenada invalida 
+    # # se nao tiver graus e minutos coordenada invalida 
     if(coordenada.find("°") == -1):
         coordenada = "0°" + coordenada
     if(coordenada.find("\'") == -1):
@@ -172,12 +172,12 @@ def convertLatitude(latitude):
     if(not latitude):
         return None
     latitude = padronizaCoordenada(latitude)
-    print(latitude)
+    # # print(latitude)
     latitudeSplit = []
     latitudeSplit.append(latitude.split('°')[0])
     latitudeSplit.append(latitude.split('°')[1].split("'")[0])
     latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-    print(latitude.split('°')[1].split("'")[1].split('"'))
+    # # print(latitude.split('°')[1].split("'")[1].split('"'))
     latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
 
     latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
@@ -191,7 +191,7 @@ def convertLongitude(longitude):
     if(not longitude):
         return None
     longitude = padronizaCoordenada(longitude)
-    print(longitude)
+    # # print(longitude)
     longitudeSplit = []
     longitudeSplit.append(longitude.split('°')[0])
     longitudeSplit.append(longitude.split('°')[1].split("'")[0])
@@ -206,8 +206,8 @@ def convertLongitude(longitude):
     return longitudeConvertida
     
 def converteAltitude(altitude):
-    #encontrar altitudes erradas
-    print(altitude)
+    # # encontrar altitudes erradas
+    # # print(altitude)
     if(altitude):
         return int(re.sub('[^0-9]', '', altitude))
     return None
@@ -265,22 +265,20 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
 def main():
 
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', '@Gds1998@') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', '@Gds1998@', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
-#feito ;; ela nem cria um modelo pra essa tabela no sistema
-    # TABLES['historico_acessos'] = (
-    #     "CREATE TABLE `historico_acessos` ("
-    #     "`id` int NOT NULL AUTO_INCREMENT,"
-    #     "`data_criacao` datetime NOT NULL,"
-    #     "`usuario_id` int NOT NULL,"
-    #     "PRIMARY KEY (`id`)"
-    #     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+    TABLES['historico_acessos'] = (
+        "CREATE TABLE `historico_acessos` ("
+        "`id` int NOT NULL AUTO_INCREMENT,"
+        "`data_criacao` datetime NOT NULL,"
+        "`usuario_id` int NOT NULL,"
+        "PRIMARY KEY (`id`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['configuracao'] = (
         "CREATE TABLE `configuracao` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -307,7 +305,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['relevos'] = (
         "CREATE TABLE `relevos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -317,7 +314,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['solos'] = (
         "CREATE TABLE `solos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -327,7 +323,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['vegetacoes'] = (
         "CREATE TABLE `vegetacoes` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -337,7 +332,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['fase_sucessional'] = (
         "CREATE TABLE `fase_sucessional` ("
         "`numero` int NOT NULL,"
@@ -347,7 +341,6 @@ def main():
         "PRIMARY KEY (`numero`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['paises'] = (
         "CREATE TABLE `paises` ("
         "`id` smallint unsigned NOT NULL AUTO_INCREMENT,"
@@ -358,7 +351,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=latin1;")
 
-#feito
     TABLES['estados'] = (
         "CREATE TABLE `estados` ("
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"
@@ -373,7 +365,6 @@ def main():
         "CONSTRAINT `fk_estados_paises` FOREIGN KEY (`pais_id`) REFERENCES `paises` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin ROW_FORMAT=DYNAMIC;")
 
-#feito
     TABLES['cidades'] = (
         "CREATE TABLE `cidades` ("
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"  
@@ -386,8 +377,7 @@ def main():
         "KEY `pais_estado_nome` (`estado_id`,`nome`),"
         "CONSTRAINT `fk_cidades_estados` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`)"   
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin;")
-
-#feito      
+     
     TABLES['locais_coleta'] = ( ###foi alterado
         "CREATE TABLE `locais_coleta` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -407,7 +397,6 @@ def main():
         "CONSTRAINT `fk_locais_coleta_fase_sucessional1` FOREIGN KEY (`fase_sucessional_id`) REFERENCES `fase_sucessional` (`numero`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['familias'] = (
         "CREATE TABLE `familias` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -418,7 +407,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['generos'] = (  ###foi alterada
         "CREATE TABLE `generos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -432,7 +420,6 @@ def main():
         "CONSTRAINT `fk_generos_familias1` FOREIGN KEY (`familia_id`) REFERENCES `familias` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['autores'] = (
         "CREATE TABLE `autores` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -444,7 +431,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['especies'] = ( ###foi alterada
         "CREATE TABLE `especies` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -465,7 +451,6 @@ def main():
         "CONSTRAINT `FK_rygol8x4wtm3bduaj1wjp6ses` FOREIGN KEY (`genero_id`) REFERENCES `generos` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['variedades'] = ( ###foi alterada
         "CREATE TABLE `variedades` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -489,7 +474,6 @@ def main():
         "CONSTRAINT `fk_variedades_especies1` FOREIGN KEY (`especie_id`) REFERENCES `especies` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['sub_especies'] = ( ###foi alterada
         "CREATE TABLE `sub_especies` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -513,7 +497,6 @@ def main():
         "CONSTRAINT `FK_tr5tae25suecit9ch4o6vxbie` FOREIGN KEY (`familia_id`) REFERENCES `familias` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['sub_familias'] = (
         "CREATE TABLE `sub_familias` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -530,7 +513,6 @@ def main():
         "CONSTRAINT `fk_sub_familias_familias1` FOREIGN KEY (`familia_id`) REFERENCES `familias` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['colecoes_anexas'] = (
         "CREATE TABLE `colecoes_anexas` ("
         "`tipo` enum('CARPOTECA','XILOTECA','VIA LIQUIDA') NOT NULL,"
@@ -541,7 +523,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['enderecos'] = (
         "CREATE TABLE `enderecos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -556,7 +537,6 @@ def main():
         "CONSTRAINT `fk_enderecos_cidades` FOREIGN KEY (`cidade_id`) REFERENCES `cidades` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito  
     TABLES['herbarios'] = (
         "CREATE TABLE `herbarios` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -573,7 +553,6 @@ def main():
         "CONSTRAINT `fk_herbarios_enderecos1` FOREIGN KEY (`endereco_id`) REFERENCES `enderecos` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['telefones'] = (
         "CREATE TABLE `telefones` ("
         "`id` int NOT NULL,"
@@ -585,7 +564,6 @@ def main():
         "CONSTRAINT `fk_telefones_herbarios1` FOREIGN KEY (`herbario_id`) REFERENCES `herbarios` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['remessas'] = (
         "CREATE TABLE `remessas` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -600,7 +578,6 @@ def main():
         "CONSTRAINT `fk_remessa_herbarios1` FOREIGN KEY (`herbario_id`) REFERENCES `herbarios` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito   
     TABLES['tipos'] = (
         "CREATE TABLE `tipos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -673,7 +650,6 @@ def main():
         "CONSTRAINT `FK_tombos_vegetacao1` FOREIGN KEY (`vegetacao_id`) REFERENCES `vegetacoes` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['tombos_coletores'] = (
         "CREATE TABLE `tombos_coletores` ("
         "`tombo_hcf` int NOT NULL,"
@@ -688,7 +664,7 @@ def main():
         "CONSTRAINT `fk_tombos_coletores_coletor1` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#ainda nao fiz, 1 para 1 com tombo_exsicatas no firebird ;; existe um tombo com id = 0 converçar com caxambu
+#pendente, 1 para 1 com tombo_exsicatas no firebird ;; existe um tombo com id = 0 converçar com caxambu
     TABLES['tombos_fotos'] = (
         "CREATE TABLE `tombos_fotos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -707,7 +683,7 @@ def main():
         "CONSTRAINT `fk_tombos_fotos_tombos1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito ;; verificar se a elaine implementou isso no sistema se não pode excluir
+#verificar implementação no sistema
     TABLES['tombo_alteracoes_antigas'] = (
         "CREATE TABLE `tombo_alteracoes_antigas` ("
         "`sequencia` int NOT NULL,"
@@ -719,7 +695,6 @@ def main():
         "CONSTRAINT `fk_TOMBO_REG_ALT_TOMBO1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#feito
     TABLES['retirada_exsiccata_tombos'] = (
         "CREATE TABLE `retirada_exsiccata_tombos` ("
         "`retirada_exsiccata_id` int NOT NULL,"
@@ -736,7 +711,7 @@ def main():
         "CONSTRAINT `fk_doacoes_has_tombos_tombos1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#ainda nao fiz, fazer na mao
+#pendente
     TABLES['tipos_usuarios'] = (
         "CREATE TABLE `tipos_usuarios` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -746,7 +721,7 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#ainda nao fiz, fazer na mao, adicionar apenas caxambu e admin
+#pendente, adicionar apenas o curador e admin
     TABLES['usuarios'] = (
         "CREATE TABLE `usuarios` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -765,7 +740,7 @@ def main():
         "KEY `fk_usuarios_herbarios1_idx` (`herbario_id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#ainda nao fiz, adicionar alteracos aprovadas para tombos que forem migrados
+#pendente, adicionar alteracos aprovadas para tombos que forem migrados
     TABLES['alteracoes'] = (
         "CREATE TABLE `alteracoes` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -805,545 +780,579 @@ def main():
     # for nome in reversed(TABLES): # a lista precisa ser invertida por conta das dependecias na hora de dropar
     #     databaseNova.drop_table(nome)
     
-    # for nome in TABLES: # cria tabelas
-    #     sql = TABLES[nome]
-    #     databaseNova.create_table(nome, sql)
+    # cria tabelas
+    for nome in TABLES: 
+       sql = TABLES[nome]
+       databaseNova.create_table(nome, sql)
 
     databaseAntiga = Database("hcffirebird", conexaoAntiga.getCursor())  #nome da base de dados em mysql que foi migrada do firebird
 
     # -----------------------Insere dados Coletores---------------------
 
-    ##contem coletores duplicados
-    # coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
+    # contem coletores duplicados
+    print("Processando Coletores! Aguarde...")
+    coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
 
-    # coletorNumero = databaseAntiga.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) FROM tombo GROUP BY tombo_coletor;")
+    coletorNumero = databaseAntiga.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) FROM tombo GROUP BY tombo_coletor;")
 
-    # coletorComplemento = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct complemento_coletor FROM tombo;")
+    coletorComplemento = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct complemento_coletor FROM tombo;")
     
-    # commitColetorData = ()
-    # sql = ("INSERT INTO coletores "
-    #     "(id, nome, email, numero, data_criacao, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s)")
+    commitColetorData = ()
+    sql = ("INSERT INTO coletores "
+        "(id, nome, email, numero, data_criacao, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")
     
-    # dataAtual = date.today()
-    # conexaoColetor = conexaoNova.getConexao()
-    # idColetor = 0
-    # for coletor in coletorData:
-    #     for numero in coletorNumero:
-    #         if(numero[0] == coletor[0]):
-    #             idColetor = coletor[0]
-    #             commitColetorData = (idColetor, coletor[1], None, numero[1], dataAtual, 1)
-    #             databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+    dataAtual = date.today()
+    conexaoColetor = conexaoNova.getConexao()
+    idColetor = 0
+    for coletor in coletorData:
+        for numero in coletorNumero:
+            if(numero[0] == coletor[0]):
+                idColetor = coletor[0]
+                commitColetorData = (idColetor, coletor[1], None, numero[1], dataAtual, 1)
+                databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
     
-    # coletorList = list()
-    # for complementares in coletorComplemento:
-    #     if(complementares[0]):
-    #         complementaresSplit = re.split('[&|;|:|,]', complementares[0])
-    #     for coletorSplit in complementaresSplit:
-    #         if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
-    #             print(coletorSplit)
-    #             coletorList.append(coletorSplit.strip())
+    coletorList = list()
+    for complementares in coletorComplemento:
+        if(complementares[0]):
+            complementaresSplit = re.split('[&|;|:|,]', complementares[0])
+        for coletorSplit in complementaresSplit:
+            if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
+                # # print(coletorSplit)
+                coletorList.append(coletorSplit.strip())
                 
     
-    # coletorList = list(set(coletorList))
+    coletorList = list(set(coletorList))
 
-    # coletorList = unique(coletorList) # testar para mostrar na proxima reuniao              
+    coletorList = unique(coletorList) # testar para mostrar na proxima reuniao              
 
-    # for coletorFinal in coletorList:
-    #     idColetor += 1
-    #     commitColetorData = (idColetor, coletorFinal, None, None, dataAtual, 1)
-    #     databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+    for coletorFinal in coletorList:
+        idColetor += 1
+        commitColetorData = (idColetor, coletorFinal, None, None, dataAtual, 1)
+        databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+    print("Concluído!")
 
     # -----------------------Insere dados Relevos---------------------
-    # relevosData = databaseAntiga.getConteudoTabela("relevo", "SELECT cod_relevo, tp_relevo FROM relevo")
+    print("Processando Relevos! Aguarde...")
 
-    # commitRelevosData = ()
-    # sql = ("INSERT INTO relevos "
-    #     "(id, nome) "
-    #     "VALUES (%s, %s)")
+    relevosData = databaseAntiga.getConteudoTabela("relevo", "SELECT cod_relevo, tp_relevo FROM relevo")
+
+    commitRelevosData = ()
+    sql = ("INSERT INTO relevos "
+        "(id, nome) "
+        "VALUES (%s, %s)")
     
-    # conexaoRelevos = conexaoNova.getConexao()
-    # for relevos in relevosData:
-    #     commitRelevosData = (relevos[0], relevos[1])
-    #     databaseNova.insertConteudoTabela("relevos", sql, commitRelevosData, conexaoRelevos )
+    conexaoRelevos = conexaoNova.getConexao()
+    for relevos in relevosData:
+        commitRelevosData = (relevos[0], relevos[1])
+        databaseNova.insertConteudoTabela("relevos", sql, commitRelevosData, conexaoRelevos )
+    print("Concluído!")
 
     # -----------------------Insere dados Solos---------------------
-    # solosData = databaseAntiga.getConteudoTabela("solo", "SELECT cod_solo, tp_solo  FROM solo")
+    print("Processando Solos! Aguarde...")
 
-    # commitSolosData = ()
-    # sql = ("INSERT INTO Solos "
-    #     "(id, nome) "
-    #     "VALUES (%s, %s)")
+    solosData = databaseAntiga.getConteudoTabela("solo", "SELECT cod_solo, tp_solo  FROM solo")
+
+    commitSolosData = ()
+    sql = ("INSERT INTO Solos "
+        "(id, nome) "
+        "VALUES (%s, %s)")
     
-    # conexaoSolos = conexaoNova.getConexao()
-    # for solos in solosData:
-    #     commitSolosData = (solos[0], solos[1])
-    #     databaseNova.insertConteudoTabela("Solos", sql, commitSolosData, conexaoSolos )
+    conexaoSolos = conexaoNova.getConexao()
+    for solos in solosData:
+        commitSolosData = (solos[0], solos[1])
+        databaseNova.insertConteudoTabela("Solos", sql, commitSolosData, conexaoSolos )
+    print("Concluído!")
 
     # -----------------------Insere dados Vegetacoes---------------------
-    # vegetacoesData = databaseAntiga.getConteudoTabela("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
+    print("Processando Vegetacoes! Aguarde...")
+    vegetacoesData = databaseAntiga.getConteudoTabela("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
 
-    # commitVegetacoesData = ()
-    # sql = ("INSERT INTO Vegetacoes "
-    #     "(id, nome) "
-    #     "VALUES (%s, %s)")
+    commitVegetacoesData = ()
+    sql = ("INSERT INTO Vegetacoes "
+        "(id, nome) "
+        "VALUES (%s, %s)")
     
-    # conexaoVegetacoes = conexaoNova.getConexao()
-    # for vegetacoes in vegetacoesData:
-    #     commitVegetacoesData = (vegetacoes[0], vegetacoes[1])
-    #     databaseNova.insertConteudoTabela("Vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
+    conexaoVegetacoes = conexaoNova.getConexao()
+    for vegetacoes in vegetacoesData:
+        commitVegetacoesData = (vegetacoes[0], vegetacoes[1])
+        databaseNova.insertConteudoTabela("Vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
+    print("Concluído!")
 
     # -----------------------Insere dados fase_sucessional---------------------
-    # fase_sucessionalData = [(1, '1º fase sucessão vegetal'), (2, '2º fase sucessão vegetal'), (3, '3º fase ou capoeirinhia'), (4, '4º fase capoeira'), (5, '5º fase capoeirão'), (6, '6º fase floresta secundária')]
+    print("Processando Fase sucessional! Aguarde...")
+    fase_sucessionalData = [(1, '1º fase sucessão vegetal'), (2, '2º fase sucessão vegetal'), (3, '3º fase ou capoeirinhia'), (4, '4º fase capoeira'), (5, '5º fase capoeirão'), (6, '6º fase floresta secundária')]
 
-    # commitFase_sucessionalData = ()
-    # sql = ("INSERT INTO fase_sucessional "
-    #     "(numero, nome) "
-    #     "VALUES (%s, %s)")
+    commitFase_sucessionalData = ()
+    sql = ("INSERT INTO fase_sucessional "
+        "(numero, nome) "
+        "VALUES (%s, %s)")
     
-    # conexaoFase_sucessional = conexaoNova.getConexao()
-    # for fase_sucessional in fase_sucessionalData:
-    #     commitFase_sucessionalData = (fase_sucessional[0], fase_sucessional[1])
-    #     databaseNova.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional )
+    conexaoFase_sucessional = conexaoNova.getConexao()
+    for fase_sucessional in fase_sucessionalData:
+        commitFase_sucessionalData = (fase_sucessional[0], fase_sucessional[1])
+        databaseNova.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional )
+    print("Concluído!")
 
     # -----------------------Insere dados paises-------------------------------------
-    # paisesData = ''
-    # with open('Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
-    #     paisesData = list(csv.reader(csvfile, delimiter = ';'))
-
-    # # print(paisesData)
-    # commitPaisesData = ()
-    # sql = ("INSERT INTO paises "
-    #     "(id, nome, sigla) "
-    #     "VALUES (%s, %s, %s)")
+    print("Processando Países! Aguarde...")
     
-    # conexaoPaises = conexaoNova.getConexao()
-    # for pais in paisesData:
-    #     commitPaisesData = (pais[0], pais[2], pais[1])
-    #     databaseNova.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises )
+    paisesData = ''
+    with open('Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
+        paisesData = list(csv.reader(csvfile, delimiter = ';'))
+
+    # print(paisesData)
+    commitPaisesData = ()
+    sql = ("INSERT INTO paises "
+        "(id, nome, sigla) "
+        "VALUES (%s, %s, %s)")
+    
+    conexaoPaises = conexaoNova.getConexao()
+    for pais in paisesData:
+        commitPaisesData = (pais[0], pais[2], pais[1])
+        databaseNova.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises )
+    print("Concluído!")
 
     # -----------------------Insere dados estados-------------------------------------
+    print("Processando Estados! Aguarde...")
+    estadosData = ''
+    with open('Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
+        estadosData = list(csv.reader(csvfile, delimiter = ';'))
 
-    # estadosData = ''
-    # with open('Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
-    #     estadosData = list(csv.reader(csvfile, delimiter = ';'))
-
-    # commitEstadosData = ()
-    # sql = ("INSERT INTO estados "
-    #     "(id, nome, sigla, codigo_telefone, pais_id) "
-    #     "VALUES (%s, %s, %s, %s, %s)")
+    commitEstadosData = ()
+    sql = ("INSERT INTO estados "
+        "(id, nome, sigla, codigo_telefone, pais_id) "
+        "VALUES (%s, %s, %s, %s, %s)")
     
-    # conexaoEstados = conexaoNova.getConexao()
-    # for estado in estadosData:
-    #     commitEstadosData = (estado[0], estado[2], estado[1], None, estado[3])
-    #     databaseNova.insertConteudoTabela("estados", sql, commitEstadosData, conexaoEstados )
+    conexaoEstados = conexaoNova.getConexao()
+    for estado in estadosData:
+        commitEstadosData = (estado[0], estado[2], estado[1], None, estado[3])
+        databaseNova.insertConteudoTabela("estados", sql, commitEstadosData, conexaoEstados )
+    print("Concluído!")
 
     # -----------------------Insere dados cidades-------------------------------------
+    print("Processando Cidades! Aguarde...")
+    cidadesData = ''
+    with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
+        cidadesData = list(csv.reader(csvfile, delimiter = ';'))
 
-    # cidadesData = ''
-    # with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
-    #     cidadesData = list(csv.reader(csvfile, delimiter = ';'))
-
-    # commitCidadesData = ()
-    # sql = ("INSERT INTO cidades "
-    #     "(id, estado_id, nome) "
-    #     "VALUES (%s, %s, %s)")
+    commitCidadesData = ()
+    sql = ("INSERT INTO cidades "
+        "(id, estado_id, nome) "
+        "VALUES (%s, %s, %s)")
     
-    # conexaoCidades = conexaoNova.getConexao()
-    # for cidade in cidadesData:
-    #     commitCidadesData = (cidade[0], cidade[2], cidade[1])
-    #     databaseNova.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades )
+    conexaoCidades = conexaoNova.getConexao()
+    for cidade in cidadesData:
+        commitCidadesData = (cidade[0], cidade[2], cidade[1])
+        databaseNova.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades )
+    print("Concluído!")
 
     # -----------------------Insere dados locais_coleta-------------------------------------
+    print("Processando Locais Coleta! Aguarde...")
+    locais_coletaData = databaseAntiga.getConteudoTabela("local_coleta", "SELECT codigo, local, regiao_do_local, cidade, estado, pais FROM local_coleta")
 
-    # locais_coletaData = databaseAntiga.getConteudoTabela("local_coleta", "SELECT codigo, local, regiao_do_local, cidade, estado, pais FROM local_coleta")
+    commitLocais_coletaData = ()
+    sql = ("INSERT INTO locais_coleta "
+        "(id, descricao, cidade_id, fase_sucessional_id, complemento, fase_numero) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")
 
-    # commitLocais_coletaData = ()
-    # sql = ("INSERT INTO locais_coleta "
-    #     "(id, descricao, cidade_id, fase_sucessional_id, complemento, fase_numero) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s)")
+    cidadeLista = databaseNova.getConteudoTabela("cidades", "select id, nome, estado_id from cidades")
 
-    # cidadeLista = databaseNova.getConteudoTabela("cidades", "select id, nome, estado_id from cidades")
+    estadoLista = databaseNova.getConteudoTabela("estado", "select id, nome, sigla, pais_id from estados")
 
-    # estadoLista = databaseNova.getConteudoTabela("estado", "select id, nome, sigla, pais_id from estados")
+    paisLista = databaseNova.getConteudoTabela("pais", "select id, nome, sigla from paises")
 
-    # paisLista = databaseNova.getConteudoTabela("pais", "select id, nome, sigla from paises")
-
-    # conexaoLocais_coleta = conexaoNova.getConexao()
-    # for locais_coleta in locais_coletaData:
-    #     cidadeId = buscaCidadeId(cidadeLista, estadoLista, paisLista, locais_coleta)
-    #     commitLocais_coletaData = (locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", cidadeId, None, None, None)
-    #     databaseNova.insertConteudoTabela("locais_coleta", sql, commitLocais_coletaData, conexaoLocais_coleta )
+    conexaoLocais_coleta = conexaoNova.getConexao()
+    for locais_coleta in locais_coletaData:
+        cidadeId = buscaCidadeId(cidadeLista, estadoLista, paisLista, locais_coleta)
+        commitLocais_coletaData = (locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", cidadeId, None, None, None)
+        databaseNova.insertConteudoTabela("locais_coleta", sql, commitLocais_coletaData, conexaoLocais_coleta )
+    print("Concluído!")
 
     # -----------------------Insere dados familias-------------------------------------------
-
-    # familiasData = databaseAntiga.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
-
-    # commitFamiliasData = ()
-    # sql = ("INSERT INTO familias "
-    #     "(id, nome, ativo) "
-    #     "VALUES (%s, %s, %s)")  
+    print("Processando Famílias! Aguarde...")
+    familiasData = databaseAntiga.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
     
-    # conexaoFamilias = conexaoNova.getConexao()
-    # for familias in familiasData:
-    #     commitFamiliasData = (familias[0], familias[1], 1)
-    #     databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias )
+
+    commitFamiliasData = ()
+    sql = ("INSERT INTO familias "
+        "(id, nome, ativo) "
+        "VALUES (%s, %s, %s)")  
+    
+    conexaoFamilias = conexaoNova.getConexao()
+    for familias in familiasData:
+        commitFamiliasData = (familias[0], familias[1], 1)
+        databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias )
+    print("Concluído!")
 
     # -----------------------Insere dados generos-------------------------------------------
-
-    # generosData = databaseAntiga.getConteudoTabela("especie", "SELECT especie, cd_familia FROM especie")
-
-    # commitgenerosData = ()
-    # sql = ("INSERT INTO generos "
-    #     "(id, nome, familia_id, ativo) "
-    #     "VALUES (%s, %s, %s, %s)")  
+    print("Processando Gêneros! Aguarde...")
+    generosData = databaseAntiga.getConteudoTabela("especie", "SELECT especie, cd_familia FROM especie")
     
-    # conexaogeneros = conexaoNova.getConexao()
-    # id = 0
-    # for generos in generosData:
-    #     id += 1
-    #     commitgenerosData = (id, generos[0], generos[1], 1)
-    #     databaseNova.insertConteudoTabela("generos", sql, commitgenerosData, conexaogeneros )
+    commitgenerosData = ()
+    sql = ("INSERT INTO generos "
+        "(id, nome, familia_id, ativo) "
+        "VALUES (%s, %s, %s, %s)")  
+    
+    conexaogeneros = conexaoNova.getConexao()
+    id = 0
+    for generos in generosData:
+        id += 1
+        commitgenerosData = (id, generos[0], generos[1], 1)
+        databaseNova.insertConteudoTabela("generos", sql, commitgenerosData, conexaogeneros )
+    print("Concluído!")
 
     # -----------------------Insere dados autores-------------------------------------------
     # adicionar autores de especie
     # adicionar autores de variedade
     # adicionar autores de subespecie
+    print("Processando Autores! Aguarde...")
+    autoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM tombo union SELECT distinct especie_subspecie_autor FROM tombo union SELECT distinct especie_variedade_autor FROM tombo")
+      
+    nomePadronizado = list()
+    for autor in autoresData:
+        if(autor[0]):
+            nomePadronizado.append(padronizaNomeAutor(autor[0]))
+    
+    nomePadronizado = list(set(nomePadronizado))
 
-    # autoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM tombo union SELECT distinct especie_subspecie_autor FROM tombo union SELECT distinct especie_variedade_autor FROM tombo")
+    nomePadronizado = unique(nomePadronizado) # testar para mostrar na proxima reuniao
+    commitAutoresData = ()
+    sql = ("INSERT INTO autores "
+        "(id, nome, iniciais, ativo) "
+        "VALUES (%s, %s, %s, %s)")  
     
-    # nomePadronizado = list()
-    # for autor in autoresData:
-    #     if(autor[0]):
-    #         nomePadronizado.append(padronizaNomeAutor(autor[0]))
-    
-    # nomePadronizado = list(set(nomePadronizado))
-
-    # nomePadronizado = unique(nomePadronizado) # testar para mostrar na proxima reuniao
-    # commitAutoresData = ()
-    # sql = ("INSERT INTO autores "
-    #     "(id, nome, iniciais, ativo) "
-    #     "VALUES (%s, %s, %s, %s)")  
-    
-    # conexaoAutores = conexaoNova.getConexao()
-    # id = 0
-    # for autores in nomePadronizado:
-    #     id += 1
-    #     iniciais = getIniciaisAutores(autores)
-    #     commitAutoresData = (id, autores, iniciais, 1)
-    #     databaseNova.insertConteudoTabela("autores", sql, commitAutoresData, conexaoAutores )
+    conexaoAutores = conexaoNova.getConexao()
+    id = 0
+    for autores in nomePadronizado:
+        id += 1
+        iniciais = getIniciaisAutores(autores)
+        commitAutoresData = (id, autores, iniciais, 1)
+        databaseNova.insertConteudoTabela("autores", sql, commitAutoresData, conexaoAutores )
+    print("Concluído!")
 
     # -----------------------Insere dados especies-------------------------------------------
 
     # algumas insercoes estao dando erro de chave estrangeira, prints no whats especies/variedades
-    # tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_2 as especie, especie_especie_autor as autor_especie, codigo_familia, codigo_especie FROM tombo")
+    print("Processando Espécies! Aguarde...")
+    tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_2 as especie, especie_especie_autor as autor_especie, codigo_familia, codigo_especie FROM tombo")
 
-    # especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
+    especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
 
-    # autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
 
-    # generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
-
-    # commitEspeciesData = ()
-    # sql = ("INSERT INTO especies "
-    #     "(id, nome, autor_id, genero_id, familia_id, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s)")  
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
     
-    # conexaoEspecies = conexaoNova.getConexao()
-    # id = 0
-    # for tombo in tomboData:
-    #     if(tombo[0]):
-    #         id += 1
-    #         if(tombo[1]): # insere quando especie tem um autor
-    #             for autor in autorData:
-    #                 if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
-    #                     for especie in especieData:
-    #                         if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                             for genero in generoData: #procura o id do genero com o nome encontrado
-    #                                 if(especie[2] == genero[1]):
-    #                                     commitEspeciesData = (id, tombo[0], autor[0], genero[0], tombo[2], 1)
-    #                                     databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
-    #         else: #insere quando especie nao tem um autor
-    #             for especie in especieData:
-    #                 if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                     for genero in generoData: #procura o id do genero com o nome encontrado
-    #                         if(especie[2] == genero[1]):
-    #                             commitEspeciesData = (id, tombo[0], None, genero[0], tombo[2], 1)
-    #                             databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
+    commitEspeciesData = ()
+    sql = ("INSERT INTO especies "
+        "(id, nome, autor_id, genero_id, familia_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")  
+    
+    conexaoEspecies = conexaoNova.getConexao()
+    id = 0
+    for tombo in tomboData:
+        if(tombo[0]):
+            id += 1
+            if(tombo[1]): # insere quando especie tem um autor
+                for autor in autorData:
+                    if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
+                        for especie in especieData:
+                            if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                                for genero in generoData: #procura o id do genero com o nome encontrado
+                                    if(especie[2] == genero[1]):
+                                        commitEspeciesData = (id, tombo[0], autor[0], genero[0], tombo[2], 1)
+                                        databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
+            else: #insere quando especie nao tem um autor
+                for especie in especieData:
+                    if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                        for genero in generoData: #procura o id do genero com o nome encontrado
+                            if(especie[2] == genero[1]):
+                                commitEspeciesData = (id, tombo[0], None, genero[0], tombo[2], 1)
+                                databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
+    print("Concluído!")
 
     # -----------------------Insere dados variedades-------------------------------------------
+    print("Processando Variedades! Aguarde...")
+    tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_variedade as variedade, especie_variedade_autor as variedade_autor, codigo_familia, codigo_especie, especie_especie_2 FROM tombo")
 
-    # tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_variedade as variedade, especie_variedade_autor as variedade_autor, codigo_familia, codigo_especie, especie_especie_2 FROM tombo")
+    especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
 
-    # especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
+    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
 
-    # autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
 
-    # generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
-
-    # especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
-
-    # commitEspeciesData = ()
-    # sql = ("INSERT INTO variedades "
-    #     "(id, nome, autor_id, especie_id, genero_id, familia_id, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
     
-    # conexaoEspecies = conexaoNova.getConexao()
-    # id = 0
-    # for tombo in tomboData:
-    #     if(tombo[0]):
-    #         id += 1
-    #         if(tombo[1]): # insere quando variedade tem um autor
-    #             for autor in autorData:                
-    #                 if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
-    #                     for especieNova in especiesData:
-    #                         if(especieNova[1] == tombo[4]): # procura id da especie gerado
-    #                             for especie in especieData: 
-    #                                 if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                                     for genero in generoData: #procura o id do genero com o nome encontrado
-    #                                         if(especie[2] == genero[1]):
-    #                                             commitEspeciesData = (id, tombo[0], autor[0], especieNova[0], genero[0], tombo[2], 1)
-    #                                             databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
-    #         else: # insere quando variedade nao tem um autor
-    #             for especieNova in especiesData:
-    #                 if(especieNova[1] == tombo[4]): # procura id da especie gerado
-    #                     for especie in especieData: 
-    #                         if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                             for genero in generoData: #procura o id do genero com o nome encontrado
-    #                                 if(especie[2] == genero[1]):
-    #                                     commitEspeciesData = (id, tombo[0], None, especieNova[0], genero[0], tombo[2], 1)
-    #                                     databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
-                
+    commitEspeciesData = ()
+    sql = ("INSERT INTO variedades "
+        "(id, nome, autor_id, especie_id, genero_id, familia_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+    
+    conexaoEspecies = conexaoNova.getConexao()
+    id = 0
+    for tombo in tomboData:
+        if(tombo[0]):
+            id += 1
+            if(tombo[1]): # insere quando variedade tem um autor
+                for autor in autorData:                
+                    if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
+                        for especieNova in especiesData:
+                            if(especieNova[1] == tombo[4]): # procura id da especie gerado
+                                for especie in especieData: 
+                                    if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                                        for genero in generoData: #procura o id do genero com o nome encontrado
+                                            if(especie[2] == genero[1]):
+                                                commitEspeciesData = (id, tombo[0], autor[0], especieNova[0], genero[0], tombo[2], 1)
+                                                databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
+            else: # insere quando variedade nao tem um autor
+                for especieNova in especiesData:
+                    if(especieNova[1] == tombo[4]): # procura id da especie gerado
+                        for especie in especieData: 
+                            if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                                for genero in generoData: #procura o id do genero com o nome encontrado
+                                    if(especie[2] == genero[1]):
+                                        commitEspeciesData = (id, tombo[0], None, especieNova[0], genero[0], tombo[2], 1)
+                                        databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
+    print("Concluído!")
+                    
     # -----------------------Insere dados sub_especies-------------------------------------------
+    print("Processando Sub-espécies! Aguarde...")   
+    tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_subspecie as subEspecie, especie_subspecie_autor as autor_subEspecie, codigo_familia, codigo_especie, especie_especie_2 FROM tombo")
+
+    especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
+
+    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+
+    commitSubEspeciesData = ()
+    sql = ("INSERT INTO sub_especies "
+        "(id, nome, especie_id, genero_id, familia_id, autor_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
     
-    # tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_subspecie as subEspecie, especie_subspecie_autor as autor_subEspecie, codigo_familia, codigo_especie, especie_especie_2 FROM tombo")
-
-    # especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
-
-    # autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
-
-    # generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
-
-    # especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
-
-    # commitSubEspeciesData = ()
-    # sql = ("INSERT INTO sub_especies "
-    #     "(id, nome, especie_id, genero_id, familia_id, autor_id, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
-    
-    # conexaoSub_especies = conexaoNova.getConexao()
-    # id = 0
-    # for tombo in tomboData:
-    #     if(tombo[0]):
-    #         id += 1
-    #         if(tombo[1]): # insere quando subEspecie tem um autor
-    #             for autor in autorData:
-    #                 if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
-    #                     for especieNova in especiesData:
-    #                         if(especieNova[1] == tombo[4]): # procura id da especie gerado
-    #                             for especie in especieData:
-    #                                 if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                                     for genero in generoData: #procura o id do genero com o nome encontrado
-    #                                         if(especie[2] == genero[1]):
-    #                                             commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], autor[0], 1)
-    #                                             databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
-    #         else: #insere quando especie nao tem um autor
-    #             for especieNova in especiesData:
-    #                 if(especieNova[1] == tombo[4]): # procura id da especie gerado
-    #                     for especie in especieData:
-    #                         if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
-    #                             for genero in generoData: #procura o id do genero com o nome encontrado
-    #                                 if(especie[2] == genero[1]):
-    #                                     commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], None, 1)
-    #                                     databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
+    conexaoSub_especies = conexaoNova.getConexao()
+    id = 0
+    for tombo in tomboData:
+        if(tombo[0]):
+            id += 1
+            if(tombo[1]): # insere quando subEspecie tem um autor
+                for autor in autorData:
+                    if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
+                        for especieNova in especiesData:
+                            if(especieNova[1] == tombo[4]): # procura id da especie gerado
+                                for especie in especieData:
+                                    if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                                        for genero in generoData: #procura o id do genero com o nome encontrado
+                                            if(especie[2] == genero[1]):
+                                                commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], autor[0], 1)
+                                                databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
+            else: #insere quando especie nao tem um autor
+                for especieNova in especiesData:
+                    if(especieNova[1] == tombo[4]): # procura id da especie gerado
+                        for especie in especieData:
+                            if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
+                                for genero in generoData: #procura o id do genero com o nome encontrado
+                                    if(especie[2] == genero[1]):
+                                        commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], None, 1)
+                                        databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
+    print("Concluído!")
 
     # -----------------------Insere dados sub_familias-------------------------------------------
-    
-    # subFamiliaData = databaseAntiga.getConteudoTabela("subfamilia", "SELECT cd_familiasub, subfamilia FROM subfamilia")
+    print("Processando Sub-famílias! Aguarde...")    
+    subFamiliaData = databaseAntiga.getConteudoTabela("subfamilia", "SELECT cd_familiasub, subfamilia FROM subfamilia")
 
-    # commitSubFamiliasData = ()
-    # sql = ("INSERT INTO sub_familias "
-    #     "(id, nome, familia_id, autor_id, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s)")  
+    commitSubFamiliasData = ()
+    sql = ("INSERT INTO sub_familias "
+        "(id, nome, familia_id, autor_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s)")  
     
-    # conexaoSub_familias = conexaoNova.getConexao()
-    # id = 0
-    # for subFamilia in subFamiliaData:
-    #     id += 1
-    #     commitSubFamiliasData = (id, subFamilia[1], subFamilia[0], None, 1)
-    #     databaseNova.insertConteudoTabela("sub_familias", sql, commitSubFamiliasData, conexaoSub_familias )
+    conexaoSub_familias = conexaoNova.getConexao()
+    id = 0
+    for subFamilia in subFamiliaData:
+        id += 1
+        commitSubFamiliasData = (id, subFamilia[1], subFamilia[0], None, 1)
+        databaseNova.insertConteudoTabela("sub_familias", sql, commitSubFamiliasData, conexaoSub_familias )
+    print("Concluído!")
 
     # -----------------------Insere dados colexoes_anexas-------------------------------------------
 
-    #colecoes_anexas perguntar para o caxambu
+    # colecoes_anexas perguntar para o caxambu
 
     # -----------------------Insere dados endereco-------------------------------------------
-    #procurar crud de enderecos
+    # procurar crud de enderecos
     
     # -----------------------Insere dados herbarios-------------------------------------------
-    # conexaoHerbariosAntiga = conexaoAntiga.getConexao()
-    # commitHerbariosDataAntiga = ()
+    print("Processando Herbários! Aguarde...")
+    conexaoHerbariosAntiga = conexaoAntiga.getConexao()
+    commitHerbariosDataAntiga = ()
 
-    # updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga)
+    updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga)
 
-    # herbariosData = databaseAntiga.getConteudoTabela("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
+    herbariosData = databaseAntiga.getConteudoTabela("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
 
-    # commitHerbariosData = ()
-    # sql = ("INSERT INTO herbarios "
-    #     "(id, nome, caminho_logotipo, sigla, email, ativo) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s)")  
+    commitHerbariosData = ()
+    sql = ("INSERT INTO herbarios "
+        "(id, nome, caminho_logotipo, sigla, email, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")  
     
-    # conexaoHerbarios = conexaoNova.getConexao()
-    # for herbarios in herbariosData:
-    #     nome = herbarios[1].replace(" - ","-", 1)
-    #     nomeSplit = nome.split('-', 1)
-    #     if(len(nomeSplit) > 1):
-    #         commitHerbariosData = (herbarios[0], nomeSplit[1], None, nomeSplit[0], None, 1)
-    #         databaseNova.insertConteudoTabela("herbarios", sql, commitHerbariosData, conexaoHerbarios )
-    #     else:
-    #         commitHerbariosData = (herbarios[0], nomeSplit[0], None, None, None, 1)
-    #         databaseNova.insertConteudoTabela("herbarios", sql, commitHerbariosData, conexaoHerbarios )
+    conexaoHerbarios = conexaoNova.getConexao()
+    for herbarios in herbariosData:
+        nome = herbarios[1].replace(" - ","-", 1)
+        nomeSplit = nome.split('-', 1)
+        if(len(nomeSplit) > 1):
+            commitHerbariosData = (herbarios[0], nomeSplit[1], None, nomeSplit[0], None, 1)
+            databaseNova.insertConteudoTabela("herbarios", sql, commitHerbariosData, conexaoHerbarios )
+        else:
+            commitHerbariosData = (herbarios[0], nomeSplit[0], None, None, None, 1)
+            databaseNova.insertConteudoTabela("herbarios", sql, commitHerbariosData, conexaoHerbarios )
+    print("Concluído!")
 
     # -----------------------Insere dados tipos-------------------------------------------
-    # tipoData = databaseAntiga.getConteudoTabela("tipo", "SELECT cod_tipo, tp_descricao FROM tipo")
+    print("Processando Tipos! Aguarde...")
+    tipoData = databaseAntiga.getConteudoTabela("tipo", "SELECT cod_tipo, tp_descricao FROM tipo")
 
-    # commitTipoData = ()
-    # sql = ("INSERT INTO tipos "
-    #     "(id, nome) "
-    #     "VALUES (%s, %s)")  
+    commitTipoData = ()
+    sql = ("INSERT INTO tipos "
+        "(id, nome) "
+        "VALUES (%s, %s)")  
     
-    # conexaoTipo = conexaoNova.getConexao()
-    # for tipo in tipoData:
-    #     commitTipoData = (tipo[0], tipo[1])
-    #     databaseNova.insertConteudoTabela("herbarios", sql, commitTipoData, conexaoTipo )
+    conexaoTipo = conexaoNova.getConexao()
+    for tipo in tipoData:
+        commitTipoData = (tipo[0], tipo[1])
+        databaseNova.insertConteudoTabela("herbarios", sql, commitTipoData, conexaoTipo )
+    print("Concluído!")
 
     # -----------------------Insere dados tombos-------------------------------------------
+    print("Processando Tombos! Aguarde...")    
+    tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao FROM tombo")
+
+    variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
+
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+
+    especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
+
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+
+    sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
+
+    sub_especiesData = databaseNova.getConteudoTabela("sub_especies", "SELECT id, nome FROM sub_especies")
+
+    commitTombosData = ()
+    sql = ("INSERT INTO tombos "
+        "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
+        "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, situacao, especie_id, genero_id, "
+        "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
+        "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")  
     
-    # tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao FROM tombo")
-
-    # variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
-
-    # especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
-
-    # especieData = databaseAntiga.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
-
-    # generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
-
-    # sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
-
-    # sub_especiesData = databaseNova.getConteudoTabela("sub_especies", "SELECT id, nome FROM sub_especies")
-
-    # commitTombosData = ()
-    # sql = ("INSERT INTO tombos "
-    #     "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
-    #     "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, situacao, especie_id, genero_id, "
-    #     "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
-    #     "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho) "
-    #     "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")  
-    
-    # conexaoTombo = conexaoNova.getConexao()
-    # for tombo in tombosData:
-    #     dataSplit = str(tombo[2]).split('-')  #separa a data do tombo em 3 campos de ano/mes/dia
-    #     if(dataSplit == None or dataSplit == ['None']):
-    #         dataSplit = [None, None, None]
+    conexaoTombo = conexaoNova.getConexao()
+    for tombo in tombosData:
+        dataSplit = str(tombo[2]).split('-')  #separa a data do tombo em 3 campos de ano/mes/dia
+        if(dataSplit == None or dataSplit == ['None']):
+            dataSplit = [None, None, None]
         
-    #     variedadeFinal = None #procura uma nova variedade caso haja alguma
-    #     if(tombo[11]):
-    #         for variedade in variedadesData:
-    #             if(variedade[1] == tombo[11]):
-    #                 variedadeFinal = variedade[0]
+        variedadeFinal = None #procura uma nova variedade caso haja alguma
+        if(tombo[11]):
+            for variedade in variedadesData:
+                if(variedade[1] == tombo[11]):
+                    variedadeFinal = variedade[0]
 
-    #     especieFinal = None
-    #     if(tombo[13]):
-    #         for especie in especiesData:
-    #             if(especie[1] == tombo[13]):
-    #                 especieFinal = especie[0]
+        especieFinal = None
+        if(tombo[13]):
+            for especie in especiesData:
+                if(especie[1] == tombo[13]):
+                    especieFinal = especie[0]
 
-    #     generoFinal = None
-    #     if(tombo[14] and tombo[15]):
-    #         for especie in especieData:
-    #             if(especie[0] == tombo[14] and especie[1] == tombo[15]): #procura o nome do genero na tabela especie
-    #                 for genero in generoData: #procura o id do genero com o nome encontrado
-    #                     if(especie[2] == genero[1]):
-    #                         generoFinal = genero[0]
+        generoFinal = None
+        if(tombo[14] and tombo[15]):
+            for especie in especieData:
+                if(especie[0] == tombo[14] and especie[1] == tombo[15]): #procura o nome do genero na tabela especie
+                    for genero in generoData: #procura o id do genero com o nome encontrado
+                        if(especie[2] == genero[1]):
+                            generoFinal = genero[0]
 
-    #     sub_familiasFinal = None
-    #     if(tombo[16]):
-    #         for subFamilia in sub_familiasData:
-    #             if(tombo[16] == subFamilia[1]):
-    #                 sub_familiasFinal = subFamilia[0]
+        sub_familiasFinal = None
+        if(tombo[16]):
+            for subFamilia in sub_familiasData:
+                if(tombo[16] == subFamilia[1]):
+                    sub_familiasFinal = subFamilia[0]
 
-    #     sub_especiesFinal = None
-    #     if(tombo[17]):
-    #         for subEspecie in sub_especiesData:
-    #             if(tombo[17] == subEspecie[1]):
-    #                 sub_especiesFinal = subEspecie[0]
+        sub_especiesFinal = None
+        if(tombo[17]):
+            for subEspecie in sub_especiesData:
+                if(tombo[17] == subEspecie[1]):
+                    sub_especiesFinal = subEspecie[0]
 
-    #     corFinal = None
-    #     if(tombo[19] == 1):
-    #         corFinal = 1
-    #     elif(tombo[20] == 1):
-    #         corFinal = 2
-    #     elif(tombo[21] == 1):
-    #         corFinal = 3
+        corFinal = None
+        if(tombo[19] == 1):
+            corFinal = 1
+        elif(tombo[20] == 1):
+            corFinal = 2
+        elif(tombo[21] == 1):
+            corFinal = 3
 
-    #     #testar se tombo['hcf'] funciona
-    #     commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
-    #     databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
+    # testar se tombo['hcf'] funciona
+        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
+        databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
 
-    #obs tombo
+    print("Concluído!")
+
+    # obs tombo
     # verficar Situacao
-    #nome cientifico falta primeiro nome
-    #falta colexoes anexas
-    #falta taxonomia
-    #falta rascunho
-    #latitude/longitude/altitude sao double mas vem string
+    # nome cientifico falta primeiro nome
+    # falta colexoes anexas
+    # falta taxonomia
+    # falta rascunho
+    # latitude/longitude/altitude sao double mas vem string
 
     # -----------------------Insere dados tombos_coletores-------------------------------------------
-
+    print("Processando Tombos Coletores! Aguarde...")
     tombos_coletoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, tombo_coletor, complemento_coletor FROM tombo")
 
     coletoresData = databaseNova.getConteudoTabela("coletores", "select id, nome from coletores;")
 
     commitTombos_fotosData = ()
     sql = ("INSERT INTO tombos_coletores "
-        "(tombo_hcf, coletor_id, principal) "
-        "VALUES (%s, %s, %s)")  
+       "(tombo_hcf, coletor_id, principal) "
+       "VALUES (%s, %s, %s)")  
     
     conexaoTombos_coletores = conexaoNova.getConexao()
     for tombos_coletores in tombos_coletoresData:
-        if(tombos_coletores[1]):
-            commitTombos_fotosData = (tombos_coletores[0], tombos_coletores[1], 1)
-            databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
-        if(tombos_coletores[2]):
-            complementaresSplit = re.split('[&|;|:|,]', tombos_coletores[2])
-            coletorNameList = []
-            for coletorSplit in complementaresSplit:
-                if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
-                    coletorNameList.append(coletorSplit.strip())
-            for coletorName in coletorNameList:
-                coletorInserido = None
-                for coletor in coletoresData:
-                    if(coletor[1] == coletorName):
-                        coletorInserido = coletor
-                if(coletorInserido):
-                    commitTombos_fotosData = (tombos_coletores[0], coletorInserido[0], 0)
-                    databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
-      
+       if(tombos_coletores[1]):
+           commitTombos_fotosData = (tombos_coletores[0], tombos_coletores[1], 1)
+           databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
+       if(tombos_coletores[2]):
+           complementaresSplit = re.split('[&|;|:|,]', tombos_coletores[2])
+           coletorNameList = []
+           for coletorSplit in complementaresSplit:
+               if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
+                   coletorNameList.append(coletorSplit.strip())
+           for coletorName in coletorNameList:
+               coletorInserido = None
+               for coletor in coletoresData:
+                   if(coletor[1] == coletorName):
+                       coletorInserido = coletor
+               if(coletorInserido):
+                   commitTombos_fotosData = (tombos_coletores[0], coletorInserido[0], 0)
+                   databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
+    print("Concluído!")
 
-    # -----------------------Insere dados tombos_fotos-------------------------------------------
+    # # -----------------------Insere dados tombos_fotos-------------------------------------------
 
-    # tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM familia")
+    # # tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM familia")
 
-    # commitTombos_fotosData = ()
-    # sql = ("INSERT INTO tombos_fotos "
-    #     "(id, nome, ativo) "
-    #     "VALUES (%s, %s, %s)")  
+    # # commitTombos_fotosData = ()
+    # # sql = ("INSERT INTO tombos_fotos "
+    # #     "(id, nome, ativo) "
+    # #     "VALUES (%s, %s, %s)")  
     
-    # conexaoTombos_fotos = conexaoNova.getConexao()
-    # for tombos_fotos in tombos_fotosData:
-    #     commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[1], 1)
-    #     databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
+    # # conexaoTombos_fotos = conexaoNova.getConexao()
+    # # for tombos_fotos in tombos_fotosData:
+    # #     commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[1], 1)
+    # #     databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
 
 
 
