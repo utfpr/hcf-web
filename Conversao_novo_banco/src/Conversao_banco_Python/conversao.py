@@ -899,7 +899,9 @@ def main():
     
     paisesData = ''
     with open('Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
-        paisesData = list(csv.reader(csvfile, delimiter = ';'))
+        csvReader = csv.reader(csvfile, delimiter = ';')
+        next(csvReader)
+        paisesData = list(csvReader)
 
     # print(paisesData)
     commitPaisesData = ()
@@ -917,8 +919,10 @@ def main():
     print("Processando Estados! Aguarde...")
     estadosData = ''
     with open('Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
-        estadosData = list(csv.reader(csvfile, delimiter = ';'))
-
+        csvReader = csv.reader(csvfile, delimiter = ';')
+        next(csvReader)
+        estadosData = list(csvReader)
+        
     commitEstadosData = ()
     sql = ("INSERT INTO estados "
         "(id, nome, sigla, codigo_telefone, pais_id) "
@@ -934,7 +938,9 @@ def main():
     print("Processando Cidades! Aguarde...")
     cidadesData = ''
     with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
-        cidadesData = list(csv.reader(csvfile, delimiter = ';'))
+        csvReader = csv.reader(csvfile, delimiter = ';')
+        next(csvReader)
+        cidadesData = list(csvReader)
 
     commitCidadesData = ()
     sql = ("INSERT INTO cidades "
@@ -1033,7 +1039,6 @@ def main():
 
     # -----------------------Insere dados especies-------------------------------------------
 
-    # algumas insercoes estao dando erro de chave estrangeira, prints no whats especies/variedades
     print("Processando Espécies! Aguarde...")
     tomboData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_2 as especie, especie_especie_autor as autor_especie, codigo_familia, codigo_especie FROM tombo")
 
@@ -1045,14 +1050,14 @@ def main():
     
     commitEspeciesData = ()
     sql = ("INSERT INTO especies "
-        "(id, nome, autor_id, genero_id, familia_id, ativo) "
-        "VALUES (%s, %s, %s, %s, %s, %s)")  
+        "(nome, autor_id, genero_id, familia_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s)")  
     
     conexaoEspecies = conexaoNova.getConexao()
-    id = 0
+    #id = 0
     for tombo in tomboData:
         if(tombo[0]):
-            id += 1
+            #id += 1
             if(tombo[1]): # insere quando especie tem um autor
                 for autor in autorData:
                     if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
@@ -1060,14 +1065,14 @@ def main():
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
                                     if(especie[2] == genero[1]):
-                                        commitEspeciesData = (id, tombo[0], autor[0], genero[0], tombo[2], 1)
+                                        commitEspeciesData = (tombo[0], autor[0], genero[0], tombo[2], 1)
                                         databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
             else: #insere quando especie nao tem um autor
                 for especie in especieData:
                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                         for genero in generoData: #procura o id do genero com o nome encontrado
                             if(especie[2] == genero[1]):
-                                commitEspeciesData = (id, tombo[0], None, genero[0], tombo[2], 1)
+                                commitEspeciesData = (tombo[0], None, genero[0], tombo[2], 1)
                                 databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
     print("Concluído!")
 
@@ -1085,14 +1090,14 @@ def main():
     
     commitEspeciesData = ()
     sql = ("INSERT INTO variedades "
-        "(id, nome, autor_id, especie_id, genero_id, familia_id, ativo) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+        "(nome, autor_id, especie_id, genero_id, familia_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")  
     
     conexaoEspecies = conexaoNova.getConexao()
-    id = 0
+    #id = 0
     for tombo in tomboData:
         if(tombo[0]):
-            id += 1
+            #id += 1
             if(tombo[1]): # insere quando variedade tem um autor
                 for autor in autorData:                
                     if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
@@ -1102,7 +1107,7 @@ def main():
                                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                         for genero in generoData: #procura o id do genero com o nome encontrado
                                             if(especie[2] == genero[1]):
-                                                commitEspeciesData = (id, tombo[0], autor[0], especieNova[0], genero[0], tombo[2], 1)
+                                                commitEspeciesData = (tombo[0], autor[0], especieNova[0], genero[0], tombo[2], 1)
                                                 databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
             else: # insere quando variedade nao tem um autor
                 for especieNova in especiesData:
@@ -1111,7 +1116,7 @@ def main():
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
                                     if(especie[2] == genero[1]):
-                                        commitEspeciesData = (id, tombo[0], None, especieNova[0], genero[0], tombo[2], 1)
+                                        commitEspeciesData = (tombo[0], None, especieNova[0], genero[0], tombo[2], 1)
                                         databaseNova.insertConteudoTabela("variedades", sql, commitEspeciesData, conexaoEspecies )
     print("Concluído!")
                     
@@ -1129,14 +1134,14 @@ def main():
 
     commitSubEspeciesData = ()
     sql = ("INSERT INTO sub_especies "
-        "(id, nome, especie_id, genero_id, familia_id, autor_id, ativo) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+        "(nome, especie_id, genero_id, familia_id, autor_id, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s)")  
     
     conexaoSub_especies = conexaoNova.getConexao()
-    id = 0
+    #id = 0
     for tombo in tomboData:
         if(tombo[0]):
-            id += 1
+            #id += 1
             if(tombo[1]): # insere quando subEspecie tem um autor
                 for autor in autorData:
                     if(autor[1] == padronizaNomeAutor(tombo[1])): #verifica se o nome do autor bate com o do tombo
@@ -1146,7 +1151,7 @@ def main():
                                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                         for genero in generoData: #procura o id do genero com o nome encontrado
                                             if(especie[2] == genero[1]):
-                                                commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], autor[0], 1)
+                                                commitSubEspeciesData = (tombo[0], especieNova[0], genero[0],  tombo[2], autor[0], 1)
                                                 databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
             else: #insere quando especie nao tem um autor
                 for especieNova in especiesData:
@@ -1155,7 +1160,7 @@ def main():
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
                                     if(especie[2] == genero[1]):
-                                        commitSubEspeciesData = (id, tombo[0], especieNova[0], genero[0],  tombo[2], None, 1)
+                                        commitSubEspeciesData = (tombo[0], especieNova[0], genero[0],  tombo[2], None, 1)
                                         databaseNova.insertConteudoTabela("sub_especies", sql, commitSubEspeciesData, conexaoSub_especies )
     print("Concluído!")
 
@@ -1228,6 +1233,7 @@ def main():
     print("Processando Tombos! Aguarde...")    
     tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao FROM tombo")
 
+    #olhar para espécie também
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
 
     especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
@@ -1254,6 +1260,7 @@ def main():
         if(dataSplit == None or dataSplit == ['None']):
             dataSplit = [None, None, None]
         
+        #selecionar especie junto com variedade
         variedadeFinal = None #procura uma nova variedade caso haja alguma
         if(tombo[11]):
             for variedade in variedadesData:
