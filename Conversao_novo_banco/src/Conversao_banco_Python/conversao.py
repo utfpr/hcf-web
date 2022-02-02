@@ -291,7 +291,6 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=latin1;")
 
-#feito, problema com duplicidades de coletores
     TABLES['coletores'] = (
         "CREATE TABLE `coletores` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -377,7 +376,8 @@ def main():
         "KEY `pais_estado_nome` (`estado_id`,`nome`),"
         "CONSTRAINT `fk_cidades_estados` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`)"   
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin;")
-     
+
+    #falta update de locais coleta 
     TABLES['locais_coleta'] = ( ###foi alterado
         "CREATE TABLE `locais_coleta` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -711,7 +711,7 @@ def main():
         "CONSTRAINT `fk_doacoes_has_tombos_tombos1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#pendente
+#pendente, falta insert de CURADOR, OPERADOR e IDENTIFICADOR
     TABLES['tipos_usuarios'] = (
         "CREATE TABLE `tipos_usuarios` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -721,7 +721,7 @@ def main():
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#pendente, adicionar apenas o curador e admin
+#pendente, falta insert apenas o caxambu e hcfmaster
     TABLES['usuarios'] = (
         "CREATE TABLE `usuarios` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -740,7 +740,7 @@ def main():
         "KEY `fk_usuarios_herbarios1_idx` (`herbario_id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#pendente, adicionar alteracos aprovadas para tombos que forem migrados
+#pendente, falta insert adicionar alteracos aprovadas para tombos que forem migrados
     TABLES['alteracoes'] = (
         "CREATE TABLE `alteracoes` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -1294,19 +1294,10 @@ def main():
         elif(tombo[21] == 1):
             corFinal = 3
 
-    # testar se tombo['hcf'] funciona
         commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
         databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
 
     print("Concluído!")
-
-    # obs tombo
-    # verficar Situacao
-    # nome cientifico falta primeiro nome
-    # falta colexoes anexas
-    # falta taxonomia
-    # falta rascunho
-    # latitude/longitude/altitude sao double mas vem string
 
     # -----------------------Insere dados tombos_coletores-------------------------------------------
     print("Processando Tombos Coletores! Aguarde...")
