@@ -1,1 +1,12 @@
 *.sql
+
+# tools
+.idea/
+.vscode/
+.gradle/
+gradle/
+gradlew*
+
+# generated
+build/
+out/

@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'br.edu.utfpr.cm.firebirddarwincore'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.firebirdsql.jdbc:jaybird:3.0.12'
+}
