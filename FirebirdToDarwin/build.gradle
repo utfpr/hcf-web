@@ -12,3 +12,7 @@ repositories {
 dependencies {
     implementation 'org.firebirdsql.jdbc:jaybird:3.0.12'
 }
+
+compileJava {
+    targetCompatibility = '1.8'
+}
