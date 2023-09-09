@@ -51,47 +51,41 @@ function obtemNomeArquivoCsv() {
   return `hcf_${data}.csv`;
 }
 
-export const obterModeloDarwinCore = async (request, response, next) => {
-  const t = await TomboColetor.findAll();
-  console.log(
-    '🚀 ~ file: darwincore-controller.js:57 ~ obterModeloDarwinCore ~ t:',
-    t
-  );
-
+export const obterModeloDarwinCore = (request, response, next) => {
   Promise.resolve()
     .then(() =>
       Tombo.findAll({
         where: {
-          // ativo: true,
+          ativo: true,
           //   rascunho: 0,
         },
-        // attributes: [
-        //   'data_coleta_mes',
-        //   'data_coleta_ano',
-        //   'situacao',
-        //   'nome_cientifico',
-        //   'hcf',
-        //   'data_tombo',
-        //   'data_coleta_dia',
-        //   'observacao',
-        //   'nomes_populares',
-        //   'numero_coleta',
-        //   'updated_at',
-        //   'latitude',
-        //   'longitude',
-        //   'altitude',
-        //   'taxon',
-        //   'entidade_id',
-        //   'local_coleta_id',
-        //   'variedade_id',
-        //   'tipo_id',
-        //   'especie_id',
-        //   'genero_id',
-        //   'familia_id',
-        //   'sub_familia_id',
-        //   'sub_especie_id',
-        //   'colecao_anexa_id',
-        // ],
+        attributes: [
+          'data_coleta_mes',
+          'data_coleta_ano',
+          'situacao',
+          'nome_cientifico',
+          'hcf',
+          'data_tombo',
+          'data_coleta_dia',
+          'observacao',
+          'nomes_populares',
+          'numero_coleta',
+          'updated_at',
+          'latitude',
+          'longitude',
+          'altitude',
+          'taxon',
+          'entidade_id',
+          'local_coleta_id',
+          'variedade_id',
+          'tipo_id',
+          'especie_id',
+          'genero_id',
+          'familia_id',
+          'sub_familia_id',
+          'sub_especie_id',
+          'colecao_anexa_id',
+        ],
         include: [
           // {
           //   model: Herbario,
@@ -175,10 +169,10 @@ export const obterModeloDarwinCore = async (request, response, next) => {
           // {
           //   model: ColecaoAnexa,
           // },
-          // {
-          //   model: Coletor,
-          //   // attributes: ['id', 'nome'],
-          // },
+          {
+            model: Coletor,
+            // attributes: ['id', 'nome'],
+          },
           // {
           //   model: Genero,
           // },
