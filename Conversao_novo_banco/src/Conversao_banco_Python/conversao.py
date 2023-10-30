@@ -9,7 +9,7 @@ from mysql.connector import errorcode
 
 import numpy as np
 
-latitudesZuadas, longitudesZuadas = list(), list()
+latitudesErros, longitudesErros = list(), list()
 
 class Conexao():
     def __init__(self):
@@ -186,8 +186,8 @@ def convertLatitude(latitude):
         latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
         # latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
     else:
-        latitudesZuadas.append(latitude)
-        latitudesZuadas.append(dadoReal)
+        latitudesErros.append(latitude)
+        latitudesErros.append(dadoReal)
         print(f"Formato de latitude inesperado: {latitude}")
         return None
     latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
@@ -210,8 +210,8 @@ def convertLongitude(longitude):
         longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[0])
         longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[1].strip())
     else:
-        longitudesZuadas.append(longitude)
-        longitudesZuadas.append(dadoReal)
+        longitudesErros.append(longitude)
+        longitudesErros.append(dadoReal)
         print(f"Formato de longitude inesperado: {longitude}")
         return None
     
@@ -1497,9 +1497,9 @@ def main():
     end_time = time.time()
     elapsed_time = (end_time - start_time)/60
     print(f"Tempo de execução: {elapsed_time:.2f} minutos")
-    # print("Latitudes: ", latitudesZuadas)
+    # print("Latitudes: ", latitudesErros)
     # print()
-    # print("Longitudes: ", longitudesZuadas)
+    # print("Longitudes: ", longitudesErros)
 
     conexaoNova.closeConexao()
     conexaoAntiga.closeConexao()
