@@ -177,7 +177,6 @@ def convertLatitude(latitude):
     dadoReal = latitude
     latitude = padronizaCoordenada(latitude)
     if '°' in latitude and "'" in latitude and '"' in latitude:
-        # print(latitude)
         latitudeSplit = []
         latitudeSplit.append(latitude.split('°')[0])
         latitudeSplit.append(latitude.split('°')[1].split("'")[0])
@@ -203,7 +202,6 @@ def convertLongitude(longitude):
     dadoReal = longitude
     longitude = padronizaCoordenada(longitude)
     if '°' in longitude and "'" in longitude and '"' in longitude:
-        # # print(longitude)
         longitudeSplit = []
         longitudeSplit.append(longitude.split('°')[0])
         longitudeSplit.append(longitude.split('°')[1].split("'")[0])
