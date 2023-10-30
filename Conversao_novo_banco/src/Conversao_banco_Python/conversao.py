@@ -227,30 +227,38 @@ def converteAltitude(altitude):
         return int(re.sub('[^0-9]', '', altitude))
     return None
 
+def roman_to_int(s):
+    roman_dict = {
+        'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5,
+        'VI': 6, 'VII': 7, 'VIII': 8, 'IX': 9,
+        'X': 10, 'XI': 11, 'XII': 12
+    }
+    return roman_dict.get(s.upper())
+
 def splitData(data):
     dia, mes, ano = None, None, None
 
     # Tratar os diferentes cenários com base na contagem de componentes
     if len(data) == 1:
         if len(data[0]) == 4 and data[0].isdigit():
-            ano = data[0]
+            ano = int(data[0])
         elif data[0].isnumeric():
-            dia = data[0]
+            dia = int(data[0])
         else:
-            mes = data[0]
+            mes = roman_to_int(data[0])
             
     elif len(data) == 2:
         if len(data[1]) == 4 and data[1].isdigit():
             if data[0].isnumeric():
-                dia = data[0]
+                dia = int(data[0])
             else:
-                mes = data[0]
-            ano = data[1]
+                mes = roman_to_int(data[0])
+            ano = int(data[1])
         else:
-            dia, mes = data
+            dia, mes = int(data[0]), roman_to_int(data[1])
 
     elif len(data) == 3:
-        dia, mes, ano = data
+        dia, mes, ano = int(data[0]), roman_to_int(data[1]), int(data[2])
 
     return dia, mes, ano
 
@@ -305,11 +313,10 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
     
 def main():
-
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'ryan123') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'ryan123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -632,9 +639,9 @@ def main():
     # Criação da tabela identificador
     TABLES['identificadores'] = (
     "CREATE TABLE `identificadores` ("
-    "`identificador_id` int NOT NULL AUTO_INCREMENT,"
+    "`id` int UNSIGNED NOT NULL AUTO_INCREMENT,"
     "`nome` varchar(255) NOT NULL,"
-    "PRIMARY KEY (`identificador_id`)"
+    "PRIMARY KEY (`id`)"
     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     )
     
@@ -654,9 +661,9 @@ def main():
         "`local_coleta_id` int DEFAULT NULL,"
         "`variedade_id` int DEFAULT NULL,"
         "`tipo_id` int DEFAULT NULL,"
-        "`data_identificacao_dia` text DEFAULT NULL,"
-        "`data_identificacao_mes` text DEFAULT NULL,"
-        "`data_identificacao_ano` text DEFAULT NULL,"
+        "`data_identificacao_dia` tinyint UNSIGNED DEFAULT NULL,"
+        "`data_identificacao_mes` tinyint UNSIGNED DEFAULT NULL,"
+        "`data_identificacao_ano` year DEFAULT NULL,"
         "`situacao` enum('REGULAR','PERMUTA','EMPRESTIMO','DOACAO') DEFAULT 'REGULAR',"
         "`especie_id` int DEFAULT NULL,"
         "`genero_id` int DEFAULT NULL,"
@@ -721,13 +728,13 @@ def main():
     # Criação da tabela de junção tombos_identificadores
     TABLES['tombos_identificadores'] = (
     "CREATE TABLE `tombos_identificadores` ("
-    "`identificador_id` int NOT NULL,"
+    "`identificador_id` int UNSIGNED NOT NULL,"
     "`tombo_hcf` int NOT NULL,"
-    "`ordem` int NOT NULL,"
+    "`ordem` tinyint UNSIGNED DEFAULT 1,"
     "PRIMARY KEY (`identificador_id`, `tombo_hcf`),"
     "KEY `fk_tombos_identificadores_identificador_idx` (`identificador_id`),"
     "KEY `fk_tombos_identificadores_tombo_idx` (`tombo_hcf`),"
-    "CONSTRAINT `fk_tombos_identificadores_identificador` FOREIGN KEY (`identificador_id`) REFERENCES `identificadores` (`identificador_id`),"
+    "CONSTRAINT `fk_tombos_identificadores_identificador` FOREIGN KEY (`identificador_id`) REFERENCES `identificadores` (`id`),"
     "CONSTRAINT `fk_tombos_identificadores_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     )
@@ -1391,12 +1398,9 @@ def main():
             corFinal = 2
         elif(tombo[21] == 1):
             corFinal = 3
-        
-        # data identificação
-        dataIdentificacao = str(tombo[25]).split('/')
-        data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
-        # print(tombo[0], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano)
 
+        dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
+        data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
 
         commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
         databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
@@ -1416,7 +1420,7 @@ def main():
     sql_get_nome_identificador_antigo = ("SELECT nome FROM identificador WHERE num_identificador = %s")
 
     # SQL para buscar o identificador_id pelo nome na base nova
-    sql_get_identificador_novo = ("SELECT identificador_id FROM identificadores WHERE nome = %s")
+    sql_get_identificador_novo = ("SELECT id FROM identificadores WHERE nome = %s")
 
     conexaoIdentificadorTombo = conexaoNova.getConexao()
     conexaoIdentificadorTomboAntigo = conexaoAntiga.getConexao()
