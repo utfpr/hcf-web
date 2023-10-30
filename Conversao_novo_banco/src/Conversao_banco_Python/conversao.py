@@ -314,9 +314,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'ryan123') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'ryan123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -1398,7 +1398,7 @@ def main():
             corFinal = 2
         elif(tombo[21] == 1):
             corFinal = 3
-
+            
         dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
         data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
 
