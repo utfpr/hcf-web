@@ -1496,15 +1496,14 @@ def main():
         "(tombo_hcf, codigo_barra, num_barra, caminho_foto, em_vivo, sequencia, ativo) "
         "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
 
-    baseDirectory = "./"
     conexaoTombos_fotos = conexaoNova.getConexao()
 
     for tombos_fotos in tombos_fotosData:
         if tombos_fotos[0] != 0:
             if tombos_fotos[0] in tombos_com_sequencia:
-                caminho_foto = baseDirectory + tombos_fotos[2] + "_" + str(tombos_fotos[1]) + ".JPG"
+                caminho_foto = tombos_fotos[2] + "_" + str(tombos_fotos[1]) + ".JPG"
             else:
-                caminho_foto = baseDirectory + tombos_fotos[2] + ".JPG"
+                caminho_foto = tombos_fotos[2] + ".JPG"
 
             commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, 1, tombos_fotos[1], 1)
             databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos, tombos_fotos[0])
