@@ -88,13 +88,13 @@ class Database():
 
         return result
 
-    def insertConteudoTabela(self, nome, sql, conteudo, conexao):
+    def insertConteudoTabela(self, nome, sql, conteudo, conexao, tombo = None):
         try:
             # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
-            print(err.msg)       
+            print(tombo, err.msg)       
         # # else:
         # #     print("OK")
     
@@ -187,7 +187,7 @@ def convertLatitude(latitude):
     else:
         latitudesErros.append(latitude)
         latitudesErros.append(dadoReal)
-        print(f"Formato de latitude inesperado: {latitude}")
+        print(f"Formato de latitude inesperado: {dadoReal}")
         return None
     latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
 
@@ -210,7 +210,7 @@ def convertLongitude(longitude):
     else:
         longitudesErros.append(longitude)
         longitudesErros.append(dadoReal)
-        print(f"Formato de longitude inesperado: {longitude}")
+        print(f"Formato de longitude inesperado: {dadoReal}")
         return None
     
     longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
@@ -314,9 +314,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'ryan123') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'ryan123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -749,10 +749,10 @@ def main():
         "`num_barra` varchar(45) DEFAULT '',"
         "`caminho_foto` text,"
         "`em_vivo` tinyint(1) NOT NULL DEFAULT '0',"
-        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
-        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`sequencia` int DEFAULT NULL,"
         "`ativo` int DEFAULT '1',"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`),"
         "KEY `TOMBO_EXSICATA_IDX1` (`num_barra`),"
         "KEY `fk_TOMBO_EXSICATA_TOMBO1_idx` (`tombo_hcf`),"
@@ -1481,19 +1481,35 @@ def main():
                    databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
     print("Concluído!")
 
-    # # -----------------------Insere dados tombos_fotos-------------------------------------------
+    #-----------------------Insere dados tombos_fotos-------------------------------------------
+    print("Processando Tombos Fotos! Aguarde...")
+    tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM tombo_exsicata")
 
-    # # tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM familia")
+    # Identificando os tombos com sequência > 1
+    tombos_com_sequencia = set()
+    for tombos_fotos in tombos_fotosData:
+        if tombos_fotos[1] > 1:
+            tombos_com_sequencia.add(tombos_fotos[0])
 
-    # # commitTombos_fotosData = ()
-    # # sql = ("INSERT INTO tombos_fotos "
-    # #     "(id, nome, ativo) "
-    # #     "VALUES (%s, %s, %s)")  
-    
-    # # conexaoTombos_fotos = conexaoNova.getConexao()
-    # # for tombos_fotos in tombos_fotosData:
-    # #     commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[1], 1)
-    # #     databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
+    commitTombos_fotosData = ()
+    sql = ("INSERT INTO tombos_fotos "
+        "(tombo_hcf, codigo_barra, num_barra, caminho_foto, em_vivo, sequencia, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+
+    baseDirectory = "./"
+    conexaoTombos_fotos = conexaoNova.getConexao()
+
+    for tombos_fotos in tombos_fotosData:
+        if tombos_fotos[0] != 0:
+            if tombos_fotos[0] in tombos_com_sequencia:
+                caminho_foto = baseDirectory + tombos_fotos[2] + "_" + str(tombos_fotos[1]) + ".JPG"
+            else:
+                caminho_foto = baseDirectory + tombos_fotos[2] + ".JPG"
+
+            commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, 1, tombos_fotos[1], 1)
+            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos, tombos_fotos[0])
+
+    print("Concluído!")
 
 
     end_time = time.time()
