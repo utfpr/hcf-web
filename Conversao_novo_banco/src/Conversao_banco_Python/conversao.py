@@ -314,9 +314,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'ryan123') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'ryan123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -1514,9 +1514,6 @@ def main():
     end_time = time.time()
     elapsed_time = (end_time - start_time)/60
     print(f"Tempo de execução: {elapsed_time:.2f} minutos")
-    # print("Latitudes: ", latitudesErros)
-    # print()
-    # print("Longitudes: ", longitudesErros)
 
     conexaoNova.closeConexao()
     conexaoAntiga.closeConexao()
