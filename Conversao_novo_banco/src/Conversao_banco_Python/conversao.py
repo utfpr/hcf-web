@@ -171,7 +171,7 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude):
+def convertLatitude(latitude, tombo = None):
     if(not latitude):
         return None
     dadoReal = latitude
