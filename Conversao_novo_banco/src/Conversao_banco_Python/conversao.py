@@ -1518,7 +1518,7 @@ def main():
     
     conexaoTipos_usuarios = conexaoNova.getConexao()
     
-    tipos = ["Curador", "Operador", "Identificador"]
+    tipos = ["CURADOR", "OPERADOR", "IDENTIFICADOR"]
 
     for i, tipo in enumerate(tipos, start = 1):
         databaseNova.insertConteudoTabela("tipos_usuarios", sql, (i, tipo), conexaoTipos_usuarios)
