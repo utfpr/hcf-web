@@ -88,13 +88,13 @@ class Database():
 
         return result
 
-    def insertConteudoTabela(self, nome, sql, conteudo, conexao, tombo = None):
+    def insertConteudoTabela(self, nome, sql, conteudo, conexao):
         try:
             # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
-            print(tombo, err.msg)       
+            print(err.msg)       
         # # else:
         # #     print("OK")
     
@@ -171,7 +171,7 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude, tombo = None):
+def convertLatitude(latitude):
     if(not latitude):
         return None
     dadoReal = latitude
@@ -1402,7 +1402,7 @@ def main():
         dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
         data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
 
-        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
+        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, 0)
         databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
 
     print("Concluído!")
@@ -1506,10 +1506,24 @@ def main():
                 caminho_foto = tombos_fotos[2] + ".JPG"
 
             commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, 1, tombos_fotos[1], 1)
-            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos, tombos_fotos[0])
+            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
 
     print("Concluído!")
 
+    print("Inserindo tipos_usuarios")
+
+    sql = ("INSERT INTO tipos_usuarios "
+        "(id, tipo) "
+        "VALUES (%s, %s)")  
+    
+    conexaoTipos_usuarios = conexaoNova.getConexao()
+    
+    tipos = ["CURADOR", "OPERADOR", "IDENTIFICADOR"]
+
+    for i, tipo in enumerate(tipos, start = 1):
+        databaseNova.insertConteudoTabela("tipos_usuarios", sql, (i, tipo), conexaoTipos_usuarios)
+        
+    print("Concluído")
 
     end_time = time.time()
     elapsed_time = (end_time - start_time)/60
