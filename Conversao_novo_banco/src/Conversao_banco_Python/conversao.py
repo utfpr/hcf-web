@@ -88,13 +88,13 @@ class Database():
 
         return result
 
-    def insertConteudoTabela(self, nome, sql, conteudo, conexao, tombo = None):
+    def insertConteudoTabela(self, nome, sql, conteudo, conexao):
         try:
             # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
-            print(tombo, err.msg)       
+            print(err.msg)       
         # # else:
         # #     print("OK")
     
@@ -171,7 +171,7 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude, tombo = None):
+def convertLatitude(latitude):
     if(not latitude):
         return None
     dadoReal = latitude
@@ -1506,10 +1506,24 @@ def main():
                 caminho_foto = tombos_fotos[2] + ".JPG"
 
             commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, 1, tombos_fotos[1], 1)
-            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos, tombos_fotos[0])
+            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
 
     print("Concluído!")
 
+    print("Inserindo tipos_usuarios")
+
+    sql = ("INSERT INTO tipos_usuarios "
+        "(id, tipo) "
+        "VALUES (%s, %s)")  
+    
+    conexaoTipos_usuarios = conexaoNova.getConexao()
+    
+    tipos = ["Curador", "Operador", "Identificador"]
+
+    for i, tipo in enumerate(tipos, start = 1):
+        databaseNova.insertConteudoTabela("tipos_usuarios", sql, (i, tipo), conexaoTipos_usuarios)
+        
+    print("Concluído")
 
     end_time = time.time()
     elapsed_time = (end_time - start_time)/60
