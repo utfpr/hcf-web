@@ -171,7 +171,7 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude):
+def convertLatitude(latitude, tombo = None):
     if(not latitude):
         return None
     dadoReal = latitude
@@ -1398,7 +1398,7 @@ def main():
             corFinal = 2
         elif(tombo[21] == 1):
             corFinal = 3
-
+            
         dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
         data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
 
