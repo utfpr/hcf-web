@@ -2,11 +2,14 @@ from __future__ import print_function
 from datetime import date
 import csv
 import re
-
+import time
+start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
 
 import numpy as np
+
+latitudesErros, longitudesErros = list(), list()
 
 class Conexao():
     def __init__(self):
@@ -85,13 +88,13 @@ class Database():
 
         return result
 
-    def insertConteudoTabela(self, nome, sql, conteudo, conexao):
+    def insertConteudoTabela(self, nome, sql, conteudo, conexao, tombo = None):
         try:
             # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
-            print(err.msg)       
+            print(tombo, err.msg)       
         # # else:
         # #     print("OK")
     
@@ -140,7 +143,7 @@ def buscaCidadeId(listaCidade, listaEstados, listaPaises, cidadeAntiga):
                     if(estado[3] == pais[0]):
                         return estado[0] * 100000
 
-    # # gerar lista de cidades que nao estao sendo inseridas select * from hcffirebird.local_coleta where codigo in (SELECT id FROM hcf.locais_coleta where cidade_id is NULL);
+    # # gerar lista de cidades que nao estao sendo inseridas select * from _.local_coleta where codigo in (SELECT id FROM hcf.locais_coleta where cidade_id is NULL);
 
 def unique(list):
     # # initialize a null list
@@ -171,15 +174,21 @@ def padronizaCoordenada(coordenada):
 def convertLatitude(latitude):
     if(not latitude):
         return None
+    dadoReal = latitude
     latitude = padronizaCoordenada(latitude)
-    # # print(latitude)
-    latitudeSplit = []
-    latitudeSplit.append(latitude.split('°')[0])
-    latitudeSplit.append(latitude.split('°')[1].split("'")[0])
-    latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-    # # print(latitude.split('°')[1].split("'")[1].split('"'))
-    latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
-
+    if '°' in latitude and "'" in latitude and '"' in latitude:
+        latitudeSplit = []
+        latitudeSplit.append(latitude.split('°')[0])
+        latitudeSplit.append(latitude.split('°')[1].split("'")[0])
+        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
+        # # print(latitude.split('°')[1].split("'")[1].split('"'))
+        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
+        # latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
+    else:
+        latitudesErros.append(latitude)
+        latitudesErros.append(dadoReal)
+        print(f"Formato de latitude inesperado: {dadoReal}")
+        return None
     latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
 
     if(latitudeSplit[3] == 'S'):
@@ -190,14 +199,20 @@ def convertLatitude(latitude):
 def convertLongitude(longitude):
     if(not longitude):
         return None
+    dadoReal = longitude
     longitude = padronizaCoordenada(longitude)
-    # # print(longitude)
-    longitudeSplit = []
-    longitudeSplit.append(longitude.split('°')[0])
-    longitudeSplit.append(longitude.split('°')[1].split("'")[0])
-    longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[0])
-    longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[1].strip())
-
+    if '°' in longitude and "'" in longitude and '"' in longitude:
+        longitudeSplit = []
+        longitudeSplit.append(longitude.split('°')[0])
+        longitudeSplit.append(longitude.split('°')[1].split("'")[0])
+        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[0])
+        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[1].strip())
+    else:
+        longitudesErros.append(longitude)
+        longitudesErros.append(dadoReal)
+        print(f"Formato de longitude inesperado: {dadoReal}")
+        return None
+    
     longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
 
     if(longitudeSplit[3] == 'W'):
@@ -211,6 +226,41 @@ def converteAltitude(altitude):
     if(altitude):
         return int(re.sub('[^0-9]', '', altitude))
     return None
+
+def roman_to_int(s):
+    roman_dict = {
+        'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5,
+        'VI': 6, 'VII': 7, 'VIII': 8, 'IX': 9,
+        'X': 10, 'XI': 11, 'XII': 12
+    }
+    return roman_dict.get(s.upper())
+
+def splitData(data):
+    dia, mes, ano = None, None, None
+
+    # Tratar os diferentes cenários com base na contagem de componentes
+    if len(data) == 1:
+        if len(data[0]) == 4 and data[0].isdigit():
+            ano = int(data[0])
+        elif data[0].isnumeric():
+            dia = int(data[0])
+        else:
+            mes = roman_to_int(data[0])
+            
+    elif len(data) == 2:
+        if len(data[1]) == 4 and data[1].isdigit():
+            if data[0].isnumeric():
+                dia = int(data[0])
+            else:
+                mes = roman_to_int(data[0])
+            ano = int(data[1])
+        else:
+            dia, mes = int(data[0]), roman_to_int(data[1])
+
+    elif len(data) == 3:
+        dia, mes, ano = int(data[0]), roman_to_int(data[1]), int(data[2])
+
+    return dia, mes, ano
 
 def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga):
     sqlAntiga = 'UPDATE instituicao_identificadora SET nome_instituicao="UEC - Herbário do Instituto de Biologia da UNICAMP" WHERE codigo=20;'
@@ -263,7 +313,6 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
     
 def main():
-
     conexaoNova = Conexao()
     conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
     conexaoAntiga = Conexao()
@@ -586,7 +635,16 @@ def main():
         "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
-
+    
+    # Criação da tabela identificador
+    TABLES['identificadores'] = (
+    "CREATE TABLE `identificadores` ("
+    "`id` int UNSIGNED NOT NULL AUTO_INCREMENT,"
+    "`nome` varchar(255) NOT NULL,"
+    "PRIMARY KEY (`id`)"
+    ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+    )
+    
 #feito, buscar no sistema funcionalidade de rascunho
     TABLES['tombos'] = ( ###foi alterado
         "CREATE TABLE `tombos` ("
@@ -603,6 +661,9 @@ def main():
         "`local_coleta_id` int DEFAULT NULL,"
         "`variedade_id` int DEFAULT NULL,"
         "`tipo_id` int DEFAULT NULL,"
+        "`data_identificacao_dia` tinyint UNSIGNED DEFAULT NULL,"
+        "`data_identificacao_mes` tinyint UNSIGNED DEFAULT NULL,"
+        "`data_identificacao_ano` year DEFAULT NULL,"
         "`situacao` enum('REGULAR','PERMUTA','EMPRESTIMO','DOACAO') DEFAULT 'REGULAR',"
         "`especie_id` int DEFAULT NULL,"
         "`genero_id` int DEFAULT NULL,"
@@ -664,7 +725,22 @@ def main():
         "CONSTRAINT `fk_tombos_coletores_coletor1` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
         ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
-#pendente, 1 para 1 com tombo_exsicatas no firebird ;; existe um tombo com id = 0 converçar com caxambu
+    # Criação da tabela de junção tombos_identificadores
+    TABLES['tombos_identificadores'] = (
+    "CREATE TABLE `tombos_identificadores` ("
+    "`identificador_id` int UNSIGNED NOT NULL,"
+    "`tombo_hcf` int NOT NULL,"
+    "`ordem` tinyint UNSIGNED DEFAULT 1,"
+    "PRIMARY KEY (`identificador_id`, `tombo_hcf`),"
+    "KEY `fk_tombos_identificadores_identificador_idx` (`identificador_id`),"
+    "KEY `fk_tombos_identificadores_tombo_idx` (`tombo_hcf`),"
+    "CONSTRAINT `fk_tombos_identificadores_identificador` FOREIGN KEY (`identificador_id`) REFERENCES `identificadores` (`id`),"
+    "CONSTRAINT `fk_tombos_identificadores_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
+    ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+    )
+
+
+#pendente, 1 para 1 com tombo_exsicatas no firebird ;; existe um tombo com id = 0 conversar com caxambu
     TABLES['tombos_fotos'] = (
         "CREATE TABLE `tombos_fotos` ("
         "`id` int NOT NULL AUTO_INCREMENT,"
@@ -673,10 +749,10 @@ def main():
         "`num_barra` varchar(45) DEFAULT '',"
         "`caminho_foto` text,"
         "`em_vivo` tinyint(1) NOT NULL DEFAULT '0',"
-        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
-        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`sequencia` int DEFAULT NULL,"
         "`ativo` int DEFAULT '1',"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`),"
         "KEY `TOMBO_EXSICATA_IDX1` (`num_barra`),"
         "KEY `fk_TOMBO_EXSICATA_TOMBO1_idx` (`tombo_hcf`),"
@@ -753,9 +829,6 @@ def main():
         "`tombo_hcf` int NOT NULL,"
         "`tombo_json` text,"
         "`identificacao` tinyint DEFAULT '0',"
-        "`data_identificacao_dia` int DEFAULT NULL,"
-        "`data_identificacao_mes` int DEFAULT NULL,"
-        "`data_identificacao_ano` int DEFAULT NULL,"
         "PRIMARY KEY (`id`),"
         "KEY `fk_alteraoes_usuarios_idx` (`usuario_id`),"
         "KEY `fk_alt_tombos_idx` (`tombo_hcf`),"
@@ -785,11 +858,11 @@ def main():
        sql = TABLES[nome]
        databaseNova.create_table(nome, sql)
 
-    databaseAntiga = Database("hcffirebird", conexaoAntiga.getCursor())  #nome da base de dados em mysql que foi migrada do firebird
+    databaseAntiga = Database("hcf_firebird", conexaoAntiga.getCursor())  #nome da base de dados em mysql que foi migrada do firebird
 
     # -----------------------Insere dados Coletores---------------------
 
-    # contem coletores duplicados
+    #contem coletores duplicados
     print("Processando Coletores! Aguarde...")
     coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
 
@@ -854,14 +927,14 @@ def main():
     solosData = databaseAntiga.getConteudoTabela("solo", "SELECT cod_solo, tp_solo  FROM solo")
 
     commitSolosData = ()
-    sql = ("INSERT INTO Solos "
+    sql = ("INSERT INTO solos "
         "(id, nome) "
         "VALUES (%s, %s)")
     
     conexaoSolos = conexaoNova.getConexao()
     for solos in solosData:
         commitSolosData = (solos[0], solos[1])
-        databaseNova.insertConteudoTabela("Solos", sql, commitSolosData, conexaoSolos )
+        databaseNova.insertConteudoTabela("solos", sql, commitSolosData, conexaoSolos )
     print("Concluído!")
 
     # -----------------------Insere dados Vegetacoes---------------------
@@ -869,14 +942,14 @@ def main():
     vegetacoesData = databaseAntiga.getConteudoTabela("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
 
     commitVegetacoesData = ()
-    sql = ("INSERT INTO Vegetacoes "
+    sql = ("INSERT INTO vegetacoes "
         "(id, nome) "
         "VALUES (%s, %s)")
     
     conexaoVegetacoes = conexaoNova.getConexao()
     for vegetacoes in vegetacoesData:
         commitVegetacoesData = (vegetacoes[0], vegetacoes[1])
-        databaseNova.insertConteudoTabela("Vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
+        databaseNova.insertConteudoTabela("vegetacoes", sql, commitVegetacoesData, conexaoVegetacoes )
     print("Concluído!")
 
     # -----------------------Insere dados fase_sucessional---------------------
@@ -1229,9 +1302,34 @@ def main():
         databaseNova.insertConteudoTabela("herbarios", sql, commitTipoData, conexaoTipo )
     print("Concluído!")
 
+    # -----------------------Insere dados identificadores-------------------------------------------
+    print("Processando Identificadores! Aguarde...")
+    identificadorData = databaseAntiga.getConteudoTabela("identificador", "SELECT nome FROM identificador")
+
+    sql = ("INSERT INTO identificadores "
+        "(nome) "
+        "VALUES (%s)")
+
+    sql_check = ("SELECT COUNT(*) FROM identificadores WHERE nome = %s")
+
+    conexaoIdentificador = conexaoNova.getConexao()
+    cursor = conexaoIdentificador.cursor()
+
+    for identificadores in identificadorData:
+        identificadorSplit = re.split(r'[&;,]', identificadores[0])
+        for identificador in identificadorSplit:
+            identificador = identificador.strip()  # Remove os espaços em branco
+            cursor.execute(sql_check, (identificador,))
+            if cursor.fetchone()[0] == 0:  # Se não existir o identificador
+                commitIdentificadorData = (identificador, )
+                databaseNova.insertConteudoTabela("identificador", sql, commitIdentificadorData, conexaoIdentificador)
+    # cursor close
+    cursor.close()
+    print("Concluído!")
+
     # -----------------------Insere dados tombos-------------------------------------------
     print("Processando Tombos! Aguarde...")    
-    tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao FROM tombo")
+    tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao FROM tombo")
 
     #olhar para espécie também
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
@@ -1249,10 +1347,10 @@ def main():
     commitTombosData = ()
     sql = ("INSERT INTO tombos "
         "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
-        "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, situacao, especie_id, genero_id, "
+        "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, situacao, especie_id, genero_id, "
         "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
         "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")  
+        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")  
     
     conexaoTombo = conexaoNova.getConexao()
     for tombo in tombosData:
@@ -1301,11 +1399,56 @@ def main():
         elif(tombo[21] == 1):
             corFinal = 3
 
-        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
+        dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
+        data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
+
+        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, None)
         databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
 
     print("Concluído!")
 
+    # -----------------------Insere dados tombos_identificadores--------------------------------------------
+    print("Processando Identificadores Tombo! Aguarde...")
+    tombos_identificadorData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, tombo_identificador FROM tombo")
+
+    # SQL para inserção na nova tabela de relação
+    sql_insert = ("INSERT INTO tombos_identificadores "
+                "(identificador_id, tombo_hcf, ordem) "
+                "VALUES (%s, %s, %s)")
+
+    # SQL para buscar o nome do identificador na base antiga
+    sql_get_nome_identificador_antigo = ("SELECT nome FROM identificador WHERE num_identificador = %s")
+
+    # SQL para buscar o identificador_id pelo nome na base nova
+    sql_get_identificador_novo = ("SELECT id FROM identificadores WHERE nome = %s")
+
+    conexaoIdentificadorTombo = conexaoNova.getConexao()
+    conexaoIdentificadorTomboAntigo = conexaoAntiga.getConexao()
+    cursorNova = conexaoIdentificadorTombo.cursor()
+    cursorAntiga = conexaoIdentificadorTomboAntigo.cursor()
+    
+    for tombo in tombos_identificadorData:
+        hcf = tombo[0]
+        identificador_antigo_id = tombo[1]
+
+        # Recuperar o nome (ou nomes) do identificador da base antiga
+        cursorAntiga.execute(sql_get_nome_identificador_antigo, (identificador_antigo_id,))
+        result = cursorAntiga.fetchone()
+        if result:
+            identificadores_nomes = re.split(r'[&;,]', result[0])
+            
+            for ordem, identificador_nome in enumerate(identificadores_nomes, 1):
+                identificador_nome = identificador_nome.strip()
+
+                # Buscar o identificador_id correspondente na base nova
+                cursorNova.execute(sql_get_identificador_novo, (identificador_nome,))
+                identificador_id_novo = cursorNova.fetchone()[0]
+                
+                # Inserir na nova tabela de relação com a ordem correta
+                databaseNova.insertConteudoTabela("tombos_identificadores", sql_insert, (identificador_id_novo, hcf, ordem), conexaoIdentificadorTombo)
+
+    print("Concluído!")
+    
     # -----------------------Insere dados tombos_coletores-------------------------------------------
     print("Processando Tombos Coletores! Aguarde...")
     tombos_coletoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, tombo_coletor, complemento_coletor FROM tombo")
@@ -1338,23 +1481,43 @@ def main():
                    databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
     print("Concluído!")
 
-    # # -----------------------Insere dados tombos_fotos-------------------------------------------
+    #-----------------------Insere dados tombos_fotos-------------------------------------------
+    print("Processando Tombos Fotos! Aguarde...")
+    tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM tombo_exsicata")
 
-    # # tombos_fotosData = databaseAntiga.getConteudoTabela("tombo_exsicata", "SELECT num_tombo, sequencia, cod_barra, num_barra FROM familia")
+    # Identificando os tombos com sequência > 1
+    tombos_com_sequencia = set()
+    for tombos_fotos in tombos_fotosData:
+        if tombos_fotos[1] > 1:
+            tombos_com_sequencia.add(tombos_fotos[0])
 
-    # # commitTombos_fotosData = ()
-    # # sql = ("INSERT INTO tombos_fotos "
-    # #     "(id, nome, ativo) "
-    # #     "VALUES (%s, %s, %s)")  
-    
-    # # conexaoTombos_fotos = conexaoNova.getConexao()
-    # # for tombos_fotos in tombos_fotosData:
-    # #     commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[1], 1)
-    # #     databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
+    commitTombos_fotosData = ()
+    sql = ("INSERT INTO tombos_fotos "
+        "(tombo_hcf, codigo_barra, num_barra, caminho_foto, em_vivo, sequencia, ativo) "
+        "VALUES (%s, %s, %s, %s, %s, %s, %s)")  
+
+    conexaoTombos_fotos = conexaoNova.getConexao()
+
+    for tombos_fotos in tombos_fotosData:
+        if tombos_fotos[0] != 0:
+            if tombos_fotos[0] in tombos_com_sequencia:
+                caminho_foto = tombos_fotos[2] + "_" + str(tombos_fotos[1]) + ".JPG"
+            else:
+                caminho_foto = tombos_fotos[2] + ".JPG"
+
+            commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, 1, tombos_fotos[1], 1)
+            databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos, tombos_fotos[0])
+
+    print("Concluído!")
 
 
+    end_time = time.time()
+    elapsed_time = (end_time - start_time)/60
+    print(f"Tempo de execução: {elapsed_time:.2f} minutos")
 
     conexaoNova.closeConexao()
     conexaoAntiga.closeConexao()
+
+
 if __name__ == "__main__":
     main()
