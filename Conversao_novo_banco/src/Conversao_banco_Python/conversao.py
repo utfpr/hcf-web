@@ -314,9 +314,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'root') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'root', 'hcffirebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'Test@123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -865,9 +865,7 @@ def main():
     #contem coletores duplicados
     print("Processando Coletores! Aguarde...")
     coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
-
     coletorNumero = databaseAntiga.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) FROM tombo GROUP BY tombo_coletor;")
-
     coletorComplemento = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct complemento_coletor FROM tombo;")
     
     commitColetorData = ()
@@ -875,15 +873,24 @@ def main():
         "(id, nome, email, numero, data_criacao, ativo) "
         "VALUES (%s, %s, %s, %s, %s, %s)")
     
+    sql_select = "SELECT nome FROM coletores WHERE nome = %s"
+    
     dataAtual = date.today()
     conexaoColetor = conexaoNova.getConexao()
+    cursor = conexaoColetor.cursor()
     idColetor = 0
     for coletor in coletorData:
         for numero in coletorNumero:
             if(numero[0] == coletor[0]):
-                idColetor = coletor[0]
-                commitColetorData = (idColetor, coletor[1], None, numero[1], dataAtual, 1)
-                databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+                cursor.execute(sql_select, (coletor[1],))
+                resultado = cursor.fetchone()
+                cursor.fetchall()
+                if resultado is None:
+                    idColetor = coletor[0]
+                    commitColetorData = (idColetor, coletor[1], None, numero[1], dataAtual, 1)
+                    databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+    cursor.close()
+
     
     coletorList = list()
     for complementares in coletorComplemento:
@@ -894,15 +901,20 @@ def main():
                 # # print(coletorSplit)
                 coletorList.append(coletorSplit.strip())
                 
-    
+    cursor = conexaoColetor.cursor()
     coletorList = list(set(coletorList))
 
     coletorList = unique(coletorList) # testar para mostrar na proxima reuniao              
 
     for coletorFinal in coletorList:
-        idColetor += 1
-        commitColetorData = (idColetor, coletorFinal, None, None, dataAtual, 1)
-        databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+        cursor.execute(sql_select, (coletorFinal,))
+        resultado = cursor.fetchone()
+        cursor.fetchall()
+        if resultado is None:
+            idColetor += 1
+            commitColetorData = (idColetor, coletorFinal, None, None, dataAtual, 1)
+            databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
+
     print("Concluído!")
 
     # -----------------------Insere dados Relevos---------------------
@@ -1087,28 +1099,34 @@ def main():
     # adicionar autores de subespecie
     print("Processando Autores! Aguarde...")
     autoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct especie_especie_autor FROM tombo union SELECT distinct especie_subspecie_autor FROM tombo union SELECT distinct especie_variedade_autor FROM tombo")
-      
+    
     nomePadronizado = list()
     for autor in autoresData:
         if(autor[0]):
             nomePadronizado.append(padronizaNomeAutor(autor[0]))
-    
+
     nomePadronizado = list(set(nomePadronizado))
 
-    nomePadronizado = unique(nomePadronizado) # testar para mostrar na proxima reuniao
-    commitAutoresData = ()
-    sql = ("INSERT INTO autores "
+    nomePadronizado = unique(nomePadronizado)
+    sql_select = "SELECT nome FROM autores WHERE nome = %s"
+    sql_insert = ("INSERT INTO autores "
         "(id, nome, iniciais, ativo) "
         "VALUES (%s, %s, %s, %s)")  
-    
+
     conexaoAutores = conexaoNova.getConexao()
+    cursor = conexaoAutores.cursor()
     id = 0
-    for autores in nomePadronizado:
-        id += 1
-        iniciais = getIniciaisAutores(autores)
-        commitAutoresData = (id, autores, iniciais, 1)
-        databaseNova.insertConteudoTabela("autores", sql, commitAutoresData, conexaoAutores )
+    for autor in nomePadronizado:
+        cursor.execute(sql_select, (autor,))
+        resultado = cursor.fetchone()
+        if resultado is None:
+            id += 1
+            iniciais = getIniciaisAutores(autor)
+            commitAutoresData = (id, autor, iniciais, 1)
+            databaseNova.insertConteudoTabela("autores", sql_insert, commitAutoresData, conexaoAutores)
+
     print("Concluído!")
+
 
     # -----------------------Insere dados especies-------------------------------------------
 
@@ -1450,35 +1468,56 @@ def main():
     print("Concluído!")
     
     # -----------------------Insere dados tombos_coletores-------------------------------------------
+    print("Processando Coletores! Aguarde...")
+
+    nome_para_id_novo = {}
+    conexaoTombos_coletores = conexaoNova.getConexao()
+    cursor = conexaoTombos_coletores.cursor()
+    conexaoCursorAntigo = conexaoAntiga.getConexao()
+    cursorAntigo = conexaoCursorAntigo.cursor()
+
+    cursor.execute("SELECT id, nome FROM coletores")
+    for id_novo, nome in cursor:
+        nome_para_id_novo[nome] = id_novo
+    cursor.close()
+
     print("Processando Tombos Coletores! Aguarde...")
     tombos_coletoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, tombo_coletor, complemento_coletor FROM tombo")
 
-    coletoresData = databaseNova.getConteudoTabela("coletores", "select id, nome from coletores;")
+    sql_insert = ("INSERT INTO tombos_coletores "
+                "(tombo_hcf, coletor_id, principal) "
+                "VALUES (%s, %s, %s)")
 
-    commitTombos_fotosData = ()
-    sql = ("INSERT INTO tombos_coletores "
-       "(tombo_hcf, coletor_id, principal) "
-       "VALUES (%s, %s, %s)")  
-    
-    conexaoTombos_coletores = conexaoNova.getConexao()
-    for tombos_coletores in tombos_coletoresData:
-       if(tombos_coletores[1]):
-           commitTombos_fotosData = (tombos_coletores[0], tombos_coletores[1], 1)
-           databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
-       if(tombos_coletores[2]):
-           complementaresSplit = re.split('[&|;|:|,]', tombos_coletores[2])
-           coletorNameList = []
-           for coletorSplit in complementaresSplit:
-               if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
-                   coletorNameList.append(coletorSplit.strip())
-           for coletorName in coletorNameList:
-               coletorInserido = None
-               for coletor in coletoresData:
-                   if(coletor[1] == coletorName):
-                       coletorInserido = coletor
-               if(coletorInserido):
-                   commitTombos_fotosData = (tombos_coletores[0], coletorInserido[0], 0)
-                   databaseNova.insertConteudoTabela("tombos_coletores", sql, commitTombos_fotosData, conexaoTombos_coletores)
+    sql_check = "SELECT 1 FROM tombos_coletores WHERE tombo_hcf = %s AND coletor_id = %s"
+
+    cursor = conexaoTombos_coletores.cursor()
+
+    for tombo in tombos_coletoresData:
+        id_coletor_antigo = tombo[1]
+        cursorAntigo.execute("SELECT nome FROM coletores WHERE id = %s", (id_coletor_antigo,))
+        nome_coletor_antigo = cursorAntigo.fetchone()
+        if nome_coletor_antigo:
+            nome_coletor_antigo = nome_coletor_antigo[0]
+            id_coletor_novo = nome_para_id_novo.get(nome_coletor_antigo)
+
+        if id_coletor_novo:
+            cursor.execute(sql_check, (tombo[0], id_coletor_novo))
+            if cursor.fetchone() is None:
+                cursor.execute(sql_insert, (tombo[0], id_coletor_novo, 1))
+                conexaoTombos_coletores.commit()
+            
+        # coletores complementares
+        if tombo[2]:
+            complementaresSplit = re.split('[&|;|:|,]', tombo[2])
+            for coletor_complementar in complementaresSplit:
+                coletor_complementar = coletor_complementar.strip()
+                id_coletor_complementar_novo = nome_para_id_novo.get(coletor_complementar)
+                if id_coletor_complementar_novo:
+                    cursor.execute(sql_check, (tombo[0], id_coletor_complementar_novo))
+                    if cursor.fetchone() is None:
+                        cursor.execute(sql_insert, (tombo[0], id_coletor_complementar_novo, 0))
+                        conexaoTombos_coletores.commit()
+
     print("Concluído!")
 
     #-----------------------Insere dados tombos_fotos-------------------------------------------
