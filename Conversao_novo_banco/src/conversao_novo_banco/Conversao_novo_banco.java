@@ -20,7 +20,7 @@ import classes.Sub_Familias;
 import classes.Tipos;
 import classes.Variedades;
 import classes.Vegetacoes;
-import dao.DAOGeneric;
+import Dao.DAOGeneric;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -37,11 +37,11 @@ import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javafx.scene.text.Text;
+//import javafx.scene.text.Text;
 import javax.resource.cci.ConnectionFactory;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.json.JSONString;
+//import org.json.JSONArray;
+//import org.json.JSONObject;
+//import org.json.JSONString;
 
 /**
  *
@@ -381,9 +381,12 @@ public class Conversao_novo_banco {
                         DAOGeneric<Familias> fam = new DAOGeneric<>(Familias.class);
                         Familias familiaBuscada = new Familias();
                         familiaBuscada = (Familias) (fam.getId(familia).get(0));
-
+                        
+                        System.out.println(familiaBuscada.getId());
                         stmt.setString(2, nome);
                         stmt.setInt(1, cod);
+                        
+//                        stmt.setInt(3, Integer.parseInt(familia));
                         stmt.setInt(3, familiaBuscada.getId());
                         stmt.execute();
                         subfam.add(nome);
@@ -1417,10 +1420,10 @@ public class Conversao_novo_banco {
             Class.forName("org.firebirdsql.jdbc.FBDriver");
             Properties props = new Properties();
             props.setProperty("user", "SYSDBA");
-            props.setProperty("password", "masterkey");
+            props.setProperty("password", "root");
             props.setProperty("encoding", "NONE");
             Connection connection = DriverManager.getConnection(
-                    "jdbc:firebirdsql:localhost/3050:C:/Firebird/herbario.gdb", props);
+                    "jdbc:firebirdsql:localhost/3050:/home/gabriel/Documents/2020.1/herbarium.gdb", props);
 //             Connection connection = DriverManager.getConnection(
 //                    "jdbc:firebirdsql:localhost/3050:C:/Firebird_1.5/databases/herbario.gdb", props);
             Statement st = connection.createStatement();
@@ -1429,8 +1432,8 @@ public class Conversao_novo_banco {
 
             ConexaoMysql.getConexaoMySQL();
 
-            ///////////////TIPO///////////////
-            /*try {
+            ///////////TIPO///////////////
+            try {
                 resultado = st.executeQuery(selectTabelaTipo());
             } catch (SQLException se) {
                 se.printStackTrace();
@@ -1438,7 +1441,6 @@ public class Conversao_novo_banco {
             insereInstanciaTipo(resultado);
             
             /////////////////RELEVO////////////////
-            
             try {
                 resultado = st.executeQuery(selectTabelaRelevo());
             } catch (SQLException se) {
@@ -1462,14 +1464,14 @@ public class Conversao_novo_banco {
             }
             insereInstanciaSolo(resultado);
             
-            ///////////////FAMILIA///////////////
+            /////////////FAMILIA///////////////
             try {
                 resultado = st.executeQuery(selectTabelaFamilia());
             } catch (SQLException se) {
                 se.printStackTrace();
             }
             insereInstanciaFamilia(resultado);
-            ///////////////autores///////////////
+            /////////////autores///////////////
             try {
                 resultado = st.executeQuery(selectTabelaAutores());
             } catch (SQLException se) {
@@ -1512,6 +1514,7 @@ public class Conversao_novo_banco {
                 se.printStackTrace();
             }
             insereInstanciaVariedades(resultado);
+            
             ///////////////coletor///////////////
             try {
                 resultado = st.executeQuery(selectTabelaColetor());
@@ -1520,33 +1523,33 @@ public class Conversao_novo_banco {
             }
             insereInstanciaColetor(resultado);
             ///////////////LOCAL_COLETA/////////////// tem que migrar na mao
-            /*try {
+            try {
                 resultado = st.executeQuery(selectTabelaLocalColeta());
             } catch (SQLException se) {
                 se.printStackTrace();
             }
-            insereInstanciaLocalColeta(resultado);*/
+            insereInstanciaLocalColeta(resultado);
             ///////////////IDENTIFICADOR///////////////            
-            /*try {
+            try {
                 resultado = st.executeQuery(selectTabelaIdentificador());
             } catch (SQLException se) {
                 se.printStackTrace();
             }
-            insereInstanciaIdentificador(resultado);*/
+            insereInstanciaIdentificador(resultado);
             ///////////////DOACAO///////////////            
-//            try {
-//                resultado = st.executeQuery(selectTabelaDoacao());
-//            } catch (SQLException se) {
-//                se.printStackTrace();
-//            }
-//            insereInstanciaDoacao(resultado);
-//            try {;
-//                resultado = st.executeQuery(selectTabelaLocalColeta2());
-//            } catch (SQLException se) {
-//                se.printStackTrace();
-//            }
+            try {
+                resultado = st.executeQuery(selectTabelaDoacao());
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
+            insereInstanciaDoacao(resultado);
+            try {;
+                resultado = st.executeQuery(selectTabelaLocalColeta2());
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
             ///////////TOMBO//////////
-            /*try {
+            try {
                 resultado = st.executeQuery(selectTabelaTombo());
             } catch (SQLException se) {
                 se.printStackTrace();
@@ -1558,9 +1561,9 @@ public class Conversao_novo_banco {
             } catch (SQLException se) {
                 se.printStackTrace();
             }
-            insereColetoresTombo(resultado);*/
+            insereColetoresTombo(resultado);
             ////////Alteracao//////////////
-            //gerarAlteracao();*/
+            gerarAlteracao();
             
              ///////////////TOMBO EXSICATA///////////////
             try {
@@ -1570,11 +1573,11 @@ public class Conversao_novo_banco {
             }
             insereInstanciaTomboExsicata(resultado);
 
-//            System.out.println("----------------Locais de coleta não inseridos-------------------");
-//            for (int i = 0; i < locaisColetaErro.size(); i++) {
-//                System.out.println(locaisColetaErro.get(i));
-//            }
-//            System.out.println("-----------------------------------");
+            System.out.println("----------------Locais de coleta não inseridos-------------------");
+            for (int i = 0; i < locaisColetaErro.size(); i++) {
+                System.out.println(locaisColetaErro.get(i));
+            }
+            System.out.println("-----------------------------------");
          } catch (Exception e) {
             e.printStackTrace();
         }

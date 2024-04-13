@@ -35,6 +35,29 @@ class FichaTomboScreen extends Component {
     state = {
         tombos: [],
     };
+    
+    componentDidMount() {
+
+        axios.get('/api/tombos', { })
+        .then(response => {
+            const { data } = response;
+            const { metadados, tombos } = data;
+
+            this.setState({
+                loading: false,
+                metadados,
+                tombos: tombos.map(this.formataTomboItem),
+            });
+        })
+        .catch(err => {
+            console.error(err);
+        });
+
+        this.setState({
+            loading: true
+        });
+        
+    }
 
     handleFormSubmit = event => {
         event.preventDefault();
@@ -42,9 +65,15 @@ class FichaTomboScreen extends Component {
     };
 
     geraColunaAcao = tombo => (
-        <a target="_blank" rel="noreferrer" href={`${baseUrl}/api/fichas/tombos/${tombo.hcf}`} title="Imprimir ficha">
-            <Icon type="printer" style={{ color: '#277a01' }} />
-        </a>
+        <div>
+            <a target="_blank" rel="noreferrer" href={`${baseUrl}/api/fichas/tombos/${tombo.hcf}/1`} title="Imprimir ficha com código de barras">
+                <Icon type="printer" style={{ color: '#277a01' }} />
+            </a>
+            <a target="_blank" rel="noreferrer" href={`${baseUrl}/api/fichas/tombos/${tombo.hcf}/0`} title="Imprimir ficha sem código de barras">
+                <Icon type="printer" style={{ color: '#0066ff', marginLeft: '5px'}} />
+            </a>
+        </div>
+
     );
 
     geraColunaDataColeta = (...args) => {

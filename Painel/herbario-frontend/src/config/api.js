@@ -4,6 +4,6 @@ const {
 
 export const baseUrl = REACT_APP_API_URL;
 
-export const fotosBaseUrl = `${baseUrl}/fotos`;
+export const fotosBaseUrl = `${baseUrl}/api/fotos`;
 
 export default {};

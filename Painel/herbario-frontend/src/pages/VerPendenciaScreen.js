@@ -94,37 +94,42 @@ class VerPendenciaScreen extends Component {
 
     handleSubmit = () => {
         const observacao = this.props.form.getFieldsValue().observacao;
+        const status = this.state.aprovar;
         this.setState({
             loading: true
         })
-        axios.post(`/api/pendencias/${this.props.match.params.pendencia_id}`, { observacao, status: this.state.aprovar })
-            .then(response => {
-                this.setState({
-                    loading: false
-                })
-                if (response.status == 204) {
-                    this.notificacao('success', 'Atualização', 'A pendência foi atualizada com sucesso.')
-                    this.props.history.goBack();
-                }else {
-                    this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
-                }
-            })
-            .catch(err => {
-                this.setState({
-                    loading: false
-                })
-                this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
-                const { response } = err;
-                if (response && response.data) {
-                    const value = {
-                        mensagem: response.data.error.message,
-                        codigo: response.status
+        axios.put(`/api/pendencias/${this.props.match.params.pendencia_id}`, {observacao, status})
+        .then(atualizado => {
+            console.log("meu parangole atualizado\n\n\n\n", atualizado);
+            axios.post(`/api/pendencias/${this.props.match.params.pendencia_id}`)
+                .then(response => {
+                    this.setState({
+                        loading: false
+                    })
+                    if (response.status == 204 || response.status == 200 || response.status == 201) {
+                        this.notificacao('success', 'Atualização', 'A pendência foi atualizada com sucesso.')
+                        window.history.go(-1)
+                    }else {
+                        this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
                     }
-                    const { error } = response.data;
-                    console.error(error.message)
-                }
-            })
-            .catch(this.catchRequestError);
+                })
+                .catch(err => {
+                    this.setState({
+                        loading: false
+                    })
+                    this.notificacao('warning', 'Atualização', 'Houve um problema em atualizar a pendência.')
+                    const { response } = err;
+                    if (response && response.data) {
+                        const value = {
+                            mensagem: response.data.error.message,
+                            codigo: response.status
+                        }
+                        const { error } = response.data;
+                        console.error(error.message)
+                    }
+                })
+                .catch(this.catchRequestError);
+        })
 
     }
 

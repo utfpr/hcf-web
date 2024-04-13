@@ -10,7 +10,8 @@ import listagemTombo from '../validators/tombo-listagem';
 import {
     getDadosCadTombo, getNumeroTombo, cadastro, listagem,
     desativar, obterTombo, cadastrarTipo, buscarTipos, cadastrarColetores, buscarColetores,
-    buscarProximoNumeroColetor, alteracao,
+    buscarProximoNumeroColetor, alteracao, getNumeroColetor, getUltimoNumeroTombo, getCodigoBarraTombo,
+    editarCodigoBarra, deletarCodigoBarra, getUltimoNumeroCodigoBarras,
 } from '../controllers/tombos-controller';
 import exportarTombosController from '../controllers/tombos-exportacoes-controller';
 import fichaTomboController from '../controllers/fichas-tombos-controller';
@@ -27,6 +28,29 @@ export default app => {
             getDadosCadTombo,
         ]);
 
+    
+    app.route('/tombos/numeroColetor/:idColetor')
+        .get([
+            getNumeroColetor,
+        ]);
+    
+    app.route('/tombos/codBarras/:idTombo')
+    .get([
+        getCodigoBarraTombo,
+    ]).delete([
+        deletarCodigoBarra,
+    ]);
+
+    app.route('/tombos/codBarras')
+    .put([
+        editarCodigoBarra,
+    ]);
+
+    app.route('/tombos/MaxcodBarras/:emVivo')
+    .put([
+        getUltimoNumeroCodigoBarras,
+    ]);
+
     app.route('/tombos/exportar')
         .get([
             listagensMiddleware,
@@ -40,6 +64,11 @@ export default app => {
     app.route('/tombos/filtrar_numero/:id')
         .get([
             getNumeroTombo,
+        ]);
+    
+    app.route('/tombos/filtrar_ultimo_numero')
+        .get([
+            getUltimoNumeroTombo,
         ]);
 
     app.route('/tombos')
@@ -111,6 +140,6 @@ export default app => {
             buscarProximoNumeroColetor,
         ]);
 
-    app.route('/fichas/tombos/:tombo_id')
+    app.route('/fichas/tombos/:tombo_id/:imprimir_cod')
         .get(fichaTomboController);
 };

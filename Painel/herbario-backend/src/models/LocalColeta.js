@@ -46,7 +46,7 @@ export default (Sequelize, DataTypes) => {
             autoIncrement: true,
             primaryKey: true,
         },
-        descricao: {
+        descricao: { //local de coleta
             type: DataTypes.TEXT,
             allowNull: true,
         },

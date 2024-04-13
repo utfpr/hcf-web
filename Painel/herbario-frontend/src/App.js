@@ -89,7 +89,7 @@ export default class App extends Component {
         <MainLayout>
             <Switch>
                 <Route path="/tombos/detalhes/:tombo_id" component={DetalhesTomboScreen} />
-                <PrivateRoute authed={isCuradorOuOperador()} path="/tombos/novo" component={NovoTomboScreen} />
+                <Route authed={isCuradorOuOperador()} path="/tombos/novo" component={NovoTomboScreen} />
                 <PrivateRoute authed={isCuradorOuOperadorOuIdentificador()} path="/tombos/:tombo_id" component={NovoTomboScreen} />
                 <Route exact path="/tombos" component={ListaTombosScreen} />
                 <Route path="/taxonomias" component={ListaTaxonomiaScreen} />

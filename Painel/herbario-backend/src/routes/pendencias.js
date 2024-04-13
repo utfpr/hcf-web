@@ -5,6 +5,11 @@ const controller = require('../controllers/pendencias-controller');
 
 export default app => {
 
+    app.route('/pendencias/TomboId/:tombo_id')
+        .get([
+            controller.verificaAlteracao,
+        ]);
+
     app.route('/pendencias')
         .get([
             tokensMiddleware([
@@ -30,7 +35,17 @@ export default app => {
         .post([
             tokensMiddleware([
                 TIPOS_USUARIOS.CURADOR,
+                TIPOS_USUARIOS.OPERADOR,
+                TIPOS_USUARIOS.IDENTIFICADOR,
             ]),
             controller.aceitarPendencia,
+        ])
+        .put([
+            tokensMiddleware([
+                TIPOS_USUARIOS.CURADOR,
+            ]),
+            controller.avaliaPendencia,
         ]);
+        
+        
 };
