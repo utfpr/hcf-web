@@ -88,13 +88,13 @@ class Database():
 
         return result
 
-    def insertConteudoTabela(self, nome, sql, conteudo, conexao):
+    def insertConteudoTabela(self, nome, sql, conteudo, conexao, tombo = 0, dia = 0, mes = 0, ano = 0):
         try:
             # # print("Inserting table content {}: ".format(nome), end='')
             self.__cursor.execute(sql, conteudo)
             conexao.commit()
         except mysql.connector.Error as err:
-            print(err.msg)       
+            print(err.msg, tombo, dia, mes, ano)       
         # # else:
         # #     print("OK")
     
@@ -171,11 +171,12 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude):
+def convertLatitude(latitude, tombo = 0):
     if(not latitude):
         return None
     dadoReal = latitude
     latitude = padronizaCoordenada(latitude)
+    # print(tombo)
     if '°' in latitude and "'" in latitude and '"' in latitude:
         latitudeSplit = []
         latitudeSplit.append(latitude.split('°')[0])
@@ -189,14 +190,21 @@ def convertLatitude(latitude):
         latitudesErros.append(dadoReal)
         print(f"Formato de latitude inesperado: {dadoReal}")
         return None
-    latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
+    
+    try:
+        latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
 
-    if(latitudeSplit[3] == 'S'):
-        latitudeConvertida = latitudeConvertida * -1
+        if(latitudeSplit[3] == 'S'):
+            latitudeConvertida = latitudeConvertida * -1
+    except ValueError:
+        latitudesErros.append(latitude)
+        latitudesErros.append(dadoReal)
+        print(f"Erro ao converter a latitude: {tombo}: '{dadoReal}'. Verifique os valores.'. Verifique os valores.")
+        return None
 
     return latitudeConvertida
     
-def convertLongitude(longitude):
+def convertLongitude(longitude, tombo = 0):
     if(not longitude):
         return None
     dadoReal = longitude
@@ -210,13 +218,20 @@ def convertLongitude(longitude):
     else:
         longitudesErros.append(longitude)
         longitudesErros.append(dadoReal)
-        print(f"Formato de longitude inesperado: {dadoReal}")
+        print(f"Formato de longitude inesperado: {tombo}: {dadoReal}")
         return None
     
-    longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
+    try:
+        longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
 
-    if(longitudeSplit[3] == 'W'):
-        longitudeConvertida = longitudeConvertida * -1
+        if(longitudeSplit[3] == 'W'):
+            longitudeConvertida = longitudeConvertida * -1
+
+    except ValueError:
+        longitudesErros.append(longitude)
+        longitudesErros.append(dadoReal)
+        print(f"Erro ao converter a longitude: {tombo}: '{dadoReal}'. Verifique os valores.")
+        return None
 
     return longitudeConvertida
     
@@ -314,9 +329,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'masterkey') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'Test@123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'masterkey', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -346,7 +361,6 @@ def main():
         "`nome` varchar(255) NOT NULL,"
         "`email` varchar(200) DEFAULT NULL,"
         "`numero` int DEFAULT NULL,"
-        "`data_criacao` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`ativo` tinyint DEFAULT '1',"
         "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
@@ -641,12 +655,14 @@ def main():
     "CREATE TABLE `identificadores` ("
     "`id` int UNSIGNED NOT NULL AUTO_INCREMENT,"
     "`nome` varchar(255) NOT NULL,"
+    "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
+    "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
     "PRIMARY KEY (`id`)"
     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     )
-    
+
 #feito, buscar no sistema funcionalidade de rascunho
-    TABLES['tombos'] = ( ###foi alterado
+    TABLES['tombos'] = (
         "CREATE TABLE `tombos` ("
         "`hcf` int NOT NULL AUTO_INCREMENT,"
         "`data_tombo` datetime DEFAULT CURRENT_TIMESTAMP,"
@@ -683,6 +699,7 @@ def main():
         "`ativo` tinyint(1) DEFAULT '1',"
         "`taxon` varchar(45) DEFAULT NULL,"
         "`rascunho` tinyint(1) DEFAULT '0',"
+        "`coletor_id` int DEFAULT NULL,"
         "PRIMARY KEY (`hcf`),"
         "KEY `fk_TOMBO_ENTIDADE1_idx` (`entidade_id`),"
         "KEY `fk_tombos_tipo1_idx` (`tipo_id`),"
@@ -708,24 +725,37 @@ def main():
         "CONSTRAINT `fk_tombos_tipo1` FOREIGN KEY (`tipo_id`) REFERENCES `tipos` (`id`),"
         "CONSTRAINT `FK_tombos_solo1` FOREIGN KEY (`solo_id`) REFERENCES `solos` (`id`),"
         "CONSTRAINT `FK_tombos_relevo1` FOREIGN KEY (`relevo_id`) REFERENCES `relevos` (`id`),"
-        "CONSTRAINT `FK_tombos_vegetacao1` FOREIGN KEY (`vegetacao_id`) REFERENCES `vegetacoes` (`id`)"
-        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+        "CONSTRAINT `FK_tombos_vegetacao1` FOREIGN KEY (`vegetacao_id`) REFERENCES `vegetacoes` (`id`),"
+        "CONSTRAINT `fk_tombos_coletores` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+    )
 
-    TABLES['tombos_coletores'] = (
-        "CREATE TABLE `tombos_coletores` ("
-        "`tombo_hcf` int NOT NULL,"
-        "`coletor_id` int NOT NULL,"
-        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
-        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
-        "`principal` tinyint(1) NOT NULL DEFAULT '0',"
-        "PRIMARY KEY (`tombo_hcf`,`coletor_id`),"
-        "KEY `fk_COLETOR_has_TOMBO_TOMBO1_idx` (`tombo_hcf`),"
-        "KEY `fk_tombos_coletores_coletor1_idx` (`coletor_id`),"
-        "CONSTRAINT `fk_COLETOR_has_TOMBO_TOMBO1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`),"
-        "CONSTRAINT `fk_tombos_coletores_coletor1` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
-        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+    TABLES['coletores_complementares'] = (
+    "CREATE TABLE `coletores_complementares` ("
+    "`hcf` int NOT NULL,"
+    "`complementares` varchar(1000) NOT NULL,"
+    "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
+    "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
+    "PRIMARY KEY (`hcf`),"
+    "FOREIGN KEY (`hcf`) REFERENCES `tombos` (`hcf`)"
+    ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+    )
 
-    # Criação da tabela de junção tombos_identificadores
+
+    # TABLES['tombos_coletores'] = (
+    #     "CREATE TABLE `tombos_coletores` ("
+    #     "`tombo_hcf` int NOT NULL,"
+    #     "`coletor_id` int NOT NULL,"
+    #     "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+    #     "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+    #     "`principal` tinyint(1) NOT NULL DEFAULT '0',"
+    #     "PRIMARY KEY (`tombo_hcf`,`coletor_id`),"
+    #     "KEY `fk_COLETOR_has_TOMBO_TOMBO1_idx` (`tombo_hcf`),"
+    #     "KEY `fk_tombos_coletores_coletor1_idx` (`coletor_id`),"
+    #     "CONSTRAINT `fk_COLETOR_has_TOMBO_TOMBO1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`),"
+    #     "CONSTRAINT `fk_tombos_coletores_coletor1` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
+    #     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
     TABLES['tombos_identificadores'] = (
     "CREATE TABLE `tombos_identificadores` ("
     "`identificador_id` int UNSIGNED NOT NULL,"
@@ -866,16 +896,14 @@ def main():
     print("Processando Coletores! Aguarde...")
     coletorData = databaseAntiga.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
     coletorNumero = databaseAntiga.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) FROM tombo GROUP BY tombo_coletor;")
-    coletorComplemento = databaseAntiga.getConteudoTabela("tombo", "SELECT distinct complemento_coletor FROM tombo;")
     
     commitColetorData = ()
     sql = ("INSERT INTO coletores "
-        "(id, nome, email, numero, data_criacao, ativo) "
-        "VALUES (%s, %s, %s, %s, %s, %s)")
+        "(id, nome, email, numero, ativo) "
+        "VALUES (%s, %s, %s, %s, %s)")
     
     sql_select = "SELECT nome FROM coletores WHERE nome = %s"
     
-    dataAtual = date.today()
     conexaoColetor = conexaoNova.getConexao()
     cursor = conexaoColetor.cursor()
     idColetor = 0
@@ -887,33 +915,9 @@ def main():
                 cursor.fetchall()
                 if resultado is None:
                     idColetor = coletor[0]
-                    commitColetorData = (idColetor, coletor[1], None, numero[1], dataAtual, 1)
+                    commitColetorData = (idColetor, coletor[1], None, numero[1], 1)
                     databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
     cursor.close()
-
-    
-    coletorList = list()
-    for complementares in coletorComplemento:
-        if(complementares[0]):
-            complementaresSplit = re.split('[&|;|:|,]', complementares[0])
-        for coletorSplit in complementaresSplit:
-            if(coletorSplit != '' and coletorSplit != None and not coletorSplit.isspace()):
-                # # print(coletorSplit)
-                coletorList.append(coletorSplit.strip())
-                
-    cursor = conexaoColetor.cursor()
-    coletorList = list(set(coletorList))
-
-    coletorList = unique(coletorList) # testar para mostrar na proxima reuniao              
-
-    for coletorFinal in coletorList:
-        cursor.execute(sql_select, (coletorFinal,))
-        resultado = cursor.fetchone()
-        cursor.fetchall()
-        if resultado is None:
-            idColetor += 1
-            commitColetorData = (idColetor, coletorFinal, None, None, dataAtual, 1)
-            databaseNova.insertConteudoTabela("coletores", sql, commitColetorData, conexaoColetor )
 
     print("Concluído!")
 
@@ -1347,7 +1351,7 @@ def main():
 
     # -----------------------Insere dados tombos-------------------------------------------
     print("Processando Tombos! Aguarde...")    
-    tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao FROM tombo")
+    tombosData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao, tombo_coletor FROM tombo")
 
     #olhar para espécie também
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
@@ -1364,13 +1368,29 @@ def main():
 
     commitTombosData = ()
     sql = ("INSERT INTO tombos "
-        "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
-        "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, situacao, especie_id, genero_id, "
-        "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
-        "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")  
+       "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
+       "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, situacao, especie_id, genero_id, "
+       "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
+       "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho, coletor_id) "
+       "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
     
+    
+    # Conexão com a base nova
     conexaoTombo = conexaoNova.getConexao()
+    cursorNovo = conexaoTombo.cursor()
+    
+    # Conexão com a base antiga
+    conexaoAntigaTombo = conexaoAntiga.getConexao()
+    cursorAntigo = conexaoAntigaTombo.cursor()
+    
+    coletor_id_map = {}
+
+    # Consulta para obter o nome do coletor na base antiga
+    sql_nome_coletor_antiga = "SELECT nome_coletor FROM coletor WHERE num_coletor = %s"
+
+    # Consulta para verificar a existência do coletor na base nova e obter o id
+    sql_id_coletor_nova = "SELECT id FROM coletores WHERE nome = %s"
+    
     for tombo in tombosData:
         dataSplit = str(tombo[2]).split('-')  #separa a data do tombo em 3 campos de ano/mes/dia
         if(dataSplit == None or dataSplit == ['None']):
@@ -1416,14 +1436,57 @@ def main():
             corFinal = 2
         elif(tombo[21] == 1):
             corFinal = 3
-            
+
+        coletor_id = None
+        if tombo[26]:
+            tombo_coletor = tombo[26]
+
+            if tombo_coletor in coletor_id_map:
+                coletor_id = coletor_id_map[tombo_coletor]
+            else:
+                cursorAntigo.execute(sql_nome_coletor_antiga, (tombo_coletor,))
+                nome_coletor = cursorAntigo.fetchone()
+                if nome_coletor:
+                    nome_coletor = nome_coletor[0]
+
+                    cursorNovo.execute(sql_id_coletor_nova, (nome_coletor,))
+                    resultado = cursorNovo.fetchone()
+                    if resultado:
+                        coletor_id = resultado[0]
+                        coletor_id_map[tombo_coletor] = coletor_id
+
         dataIdentificacao = re.split(r'[-/,.]', str(tombo[25]))
         data_identificacao_dia, data_identificacao_mes, data_identificacao_ano = splitData(dataIdentificacao)
 
-        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6]), convertLongitude(tombo[7]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, 0)
-        databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo)
+        commitTombosData = (tombo[0], tombo[1], dataSplit[2], tombo[3], tombo[4], tombo[5], convertLatitude(tombo[6], tombo[0]), convertLongitude(tombo[7], tombo[0]), converteAltitude(tombo[8]), tombo[9], tombo[10], variedadeFinal, tombo[12], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, 'REGULAR', especieFinal, generoFinal, tombo[14], sub_familiasFinal, sub_especiesFinal, tombo[18], None, corFinal, dataSplit[1], dataSplit[0], tombo[22], tombo[23], tombo[24], 1, None, 0, coletor_id)
+        databaseNova.insertConteudoTabela("tombos", sql, commitTombosData, conexaoTombo, tombo[0], data_identificacao_dia, data_identificacao_mes, data_identificacao_ano)
 
+    cursorAntigo.close()
+    cursorNovo.close()
     print("Concluído!")
+
+    # -----------------------Insere dados Coletores Complementares--------------------------------------------
+    print("Processando Complementares! Aguarde...")
+    
+    conexaoTombo = conexaoNova.getConexao()
+    cursorNovo = conexaoTombo.cursor()
+
+    sql_tombo_complementares = "SELECT hcf, complemento_coletor FROM tombo WHERE complemento_coletor IS NOT NULL AND complemento_coletor != ''"
+
+    cursorAntigo = conexaoAntigaTombo.cursor()
+    cursorAntigo.execute(sql_tombo_complementares)
+    tombos_complementares = cursorAntigo.fetchall()
+
+    sql_insert_coletor_complementar = "INSERT INTO coletores_complementares (hcf, complementares) VALUES (%s, %s)"
+
+    for tombo in tombos_complementares:
+        hcf, complemento_coletor = tombo
+        cursorNovo.execute(sql_insert_coletor_complementar, (hcf, complemento_coletor.strip()))
+        conexaoTombo.commit()
+
+    cursorAntigo.close()
+    cursorNovo.close()
+    print("Complementares processados!")
 
     # -----------------------Insere dados tombos_identificadores--------------------------------------------
     print("Processando Identificadores Tombo! Aguarde...")
@@ -1449,7 +1512,6 @@ def main():
         hcf = tombo[0]
         identificador_antigo_id = tombo[1]
 
-        # Recuperar o nome (ou nomes) do identificador da base antiga
         cursorAntiga.execute(sql_get_nome_identificador_antigo, (identificador_antigo_id,))
         result = cursorAntiga.fetchone()
         if result:
@@ -1458,65 +1520,10 @@ def main():
             for ordem, identificador_nome in enumerate(identificadores_nomes, 1):
                 identificador_nome = identificador_nome.strip()
 
-                # Buscar o identificador_id correspondente na base nova
                 cursorNova.execute(sql_get_identificador_novo, (identificador_nome,))
                 identificador_id_novo = cursorNova.fetchone()[0]
                 
-                # Inserir na nova tabela de relação com a ordem correta
                 databaseNova.insertConteudoTabela("tombos_identificadores", sql_insert, (identificador_id_novo, hcf, ordem), conexaoIdentificadorTombo)
-
-    print("Concluído!")
-    
-    # -----------------------Insere dados tombos_coletores-------------------------------------------
-    print("Processando Coletores! Aguarde...")
-
-    nome_para_id_novo = {}
-    conexaoTombos_coletores = conexaoNova.getConexao()
-    cursor = conexaoTombos_coletores.cursor()
-    conexaoCursorAntigo = conexaoAntiga.getConexao()
-    cursorAntigo = conexaoCursorAntigo.cursor()
-
-    cursor.execute("SELECT id, nome FROM coletores")
-    for id_novo, nome in cursor:
-        nome_para_id_novo[nome] = id_novo
-    cursor.close()
-
-    print("Processando Tombos Coletores! Aguarde...")
-    tombos_coletoresData = databaseAntiga.getConteudoTabela("tombo", "SELECT hcf, tombo_coletor, complemento_coletor FROM tombo")
-
-    sql_insert = ("INSERT INTO tombos_coletores "
-                "(tombo_hcf, coletor_id, principal) "
-                "VALUES (%s, %s, %s)")
-
-    sql_check = "SELECT 1 FROM tombos_coletores WHERE tombo_hcf = %s AND coletor_id = %s"
-
-    cursor = conexaoTombos_coletores.cursor()
-
-    for tombo in tombos_coletoresData:
-        id_coletor_antigo = tombo[1]
-        cursorAntigo.execute("SELECT nome FROM coletores WHERE id = %s", (id_coletor_antigo,))
-        nome_coletor_antigo = cursorAntigo.fetchone()
-        if nome_coletor_antigo:
-            nome_coletor_antigo = nome_coletor_antigo[0]
-            id_coletor_novo = nome_para_id_novo.get(nome_coletor_antigo)
-
-        if id_coletor_novo:
-            cursor.execute(sql_check, (tombo[0], id_coletor_novo))
-            if cursor.fetchone() is None:
-                cursor.execute(sql_insert, (tombo[0], id_coletor_novo, 1))
-                conexaoTombos_coletores.commit()
-            
-        # coletores complementares
-        if tombo[2]:
-            complementaresSplit = re.split('[&|;|:|,]', tombo[2])
-            for coletor_complementar in complementaresSplit:
-                coletor_complementar = coletor_complementar.strip()
-                id_coletor_complementar_novo = nome_para_id_novo.get(coletor_complementar)
-                if id_coletor_complementar_novo:
-                    cursor.execute(sql_check, (tombo[0], id_coletor_complementar_novo))
-                    if cursor.fetchone() is None:
-                        cursor.execute(sql_insert, (tombo[0], id_coletor_complementar_novo, 0))
-                        conexaoTombos_coletores.commit()
 
     print("Concluído!")
 
@@ -1549,7 +1556,7 @@ def main():
 
     print("Concluído!")
 
-    print("Inserindo tipos_usuarios")
+    print("Inserindo tipos dos usuários")
 
     sql = ("INSERT INTO tipos_usuarios "
         "(id, tipo) "
