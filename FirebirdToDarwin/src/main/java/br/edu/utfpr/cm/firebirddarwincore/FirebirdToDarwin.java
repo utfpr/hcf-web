@@ -9,6 +9,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -140,7 +141,6 @@ public class FirebirdToDarwin {
         }
         if (cf || aff) {
             System.out.println("cf");
-            identificationQualifier = "";
             identificationQualifier = valoresNomeCientifico[0];
         }
         if (!genero.equals("") || !especie.equals("")) {
@@ -192,7 +192,8 @@ public class FirebirdToDarwin {
                 identificationQualifier = "";
                 taxon = "";
                 String dataIdentificacao = (rs.getString("DATA_IDENTIFICACAO") != null) ? rs.getString("DATA_IDENTIFICACAO") : "";
-                String hcf = rs.getString("HCF") + rs.getString("SEQUENCIA");
+                String hcf = rs.getString("HCF");
+                String sequencia =  rs.getString("SEQUENCIA");
                 String complementoColetor = rs.getString("COMPLEMENTO_COLETOR");
                 complementoColetor = (complementoColetor != null) ? new String(complementoColetor) : "";
                 complementoColetor = (complementoColetor != null) ? complementoColetor.replaceAll(",", ";") : "";
@@ -264,12 +265,12 @@ public class FirebirdToDarwin {
                     System.out.println("Antes --------------------------");
                     System.out.println(latitude);
                     System.out.println("Depois ----------------------------------");
-                    latitude = converteParaGrausDecimais(latitude);
+                    latitude = latitude;
                     System.out.println(latitude);
                     System.out.println("-----------------------------------------");
                 }
                 if (!longitude.equals("")) {
-                    longitude = converteParaGrausDecimais(longitude);
+                    longitude = longitude;
                 }
 
                 if (familia.toLowerCase().equals("indeterminada")) {
@@ -321,11 +322,6 @@ public class FirebirdToDarwin {
 
                 String nomeCientifico = retornaNomeCientifico(familia, genero, especie, subspecie, especieVariedade);
 
-                if (!autorEspecie.equals("")) {
-                    Boolean inicialNome = autorEspecie.toUpperCase().charAt(0) == '(';
-                    char autorInicial = inicialNome ? autorEspecie.toUpperCase().charAt(1) : autorEspecie.toUpperCase().charAt(0);
-                    nomeCientifico += " " + autorInicial;
-                }
                 if (!"".equals(nomeCientifico)) {
                     nomeCientifico = nomeCientifico.replaceAll(",", ".");
                 }
@@ -338,10 +334,39 @@ public class FirebirdToDarwin {
                     identificationQualifier = valores[0];
                 }
 
-                DarwinCore dc = new DarwinCore(dataIdentificacao, codigoBarras, "Br:UTFPR:HCF:" + hcf, hcf, coletor, numColeta,
-                        observacao, dataColeta, day, month, year, vegetacao, estado, cidade, altitude, altitude, latitude,
-                        longitude, familia, genero, especie, infraspecificEpithet, nomeCientifico, autor, taxon,
-                        nomesPopulares, tipo, identificador, dataIdentificacao, identificationQualifier);
+                DarwinCore dc = new DarwinCore(
+                        dataIdentificacao, // modified,
+                        codigoBarras, // dynamicProp,
+                        "Br:UTFPR:HCF:" + hcf, // occurrenceID,
+                        hcf, // catalogNumber,
+                        coletor, // recordedBy,
+                        numColeta, // recordNumber,
+                        observacao, // occurrenceRemarks,
+                        dataColeta, // eventDate,
+                        day, // year,
+                        month, // month,
+                        year, // day,
+                        vegetacao, // habitat,
+                        estado, // stateProvince,
+                        cidade, // county,
+                        altitude, // minElevation,
+                        altitude, // maxElevation,
+                        latitude, // latitude,
+                        longitude, // longitude,
+                        familia, // family,
+                        genero, // genus,
+                        especie, // specificEpithet,
+                        infraspecificEpithet, // infraspecificEpithet,
+                        nomeCientifico, // scientificName,
+                        autor, // scientificNameAuthors,
+                        taxon, // taxonRank,
+                        nomesPopulares, // vernacularName,
+                        tipo, // typeStatus,
+                        identificador, // identifiedBy,
+                        dataIdentificacao, // dateIdentified,
+                        identificationQualifier, // identificationQualifier,
+                        sequencia // sequencia
+                );
 
                 String resultadoFinal = dc.toString();
                 resultadoFinal = resultadoFinal.replaceAll("null", "");
@@ -587,7 +612,7 @@ public class FirebirdToDarwin {
                 + "county\tminimumElevationInMeters\tmaximumElevationInMeters\tverbatimLatitude\tverbatimLongitude\t"
                 + "decimalLatitude\tdecimalLongitude\tgeodeticDatum\tgeoreferenceProtocol\tkingdom\tfamily\tgenus\t"
                 + "specificEpithet\tinfraspecificEpithet\tscientificName\tscientificNameAuthorship\ttaxonRank\t"
-                + "vernacularName\ttaxonRemarks\ttypeStatus\tidentifiedBy\tdateIdentified\tidentificationQualifier \n";
+                + "vernacularName\ttaxonRemarks\ttypeStatus\tidentifiedBy\tdateIdentified\tidentificationQualifier\tsequence \n";
         writer.write(header);
 
         criarInstancia(resultSet, writer);
