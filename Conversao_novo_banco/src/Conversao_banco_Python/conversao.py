@@ -2,6 +2,7 @@ from __future__ import print_function
 from datetime import date
 import csv
 import re
+import requests
 import time
 start_time = time.time()
 import mysql.connector
@@ -277,6 +278,32 @@ def splitData(data):
 
     return dia, mes, ano
 
+def get_state_name_by_id(conexao, estado_id):
+    cursor = conexao.cursor()
+    cursor.execute("SELECT nome FROM estados WHERE id = %s", (estado_id,))
+    result = cursor.fetchone()
+    return result[0] if result else "Estado não existe."
+
+def format_coordinate(coord):
+    if coord.startswith('-'):
+        return '-' + coord[1:3] + '.' + coord[3:]
+    else:
+        return coord[0:2] + '.' + coord[2:]
+
+def get_coordinates_from_city(city, state):
+    with open('Cidades_Estados_Paises/coordenadas.csv', newline='', encoding='ISO-8859-1') as csvfile:
+        csvReader = csv.reader(csvfile, delimiter=';')
+
+        next(csvReader)
+        for row in csvReader:
+            municipio = row[1].strip()
+            estado = row[6].strip() 
+            if municipio == city and estado == state:
+                latitude = format_coordinate(row[2])
+                longitude = format_coordinate(row[3])
+                return latitude, longitude
+    return None, None
+
 def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga):
     sqlAntiga = 'UPDATE instituicao_identificadora SET nome_instituicao="UEC - Herbário do Instituto de Biologia da UNICAMP" WHERE codigo=20;'
     databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
@@ -329,9 +356,9 @@ def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, d
     
 def main():
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'masterkey') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123') # nickname, password
     conexaoAntiga = Conexao()
-    conexaoAntiga.conexaoBancoExistente('root', 'masterkey', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
+    conexaoAntiga.conexaoBancoExistente('root', 'Test@123', 'hcf_firebird') # nickname, password, nome da base de dados em mysql que foi migrada do firebird
 
     TABLES = {}
 
@@ -432,6 +459,8 @@ def main():
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"  
         "`estado_id` int unsigned NOT NULL,"  
         "`nome` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,"
+        "`latitude` double DEFAULT NULL,"
+        "`longitude` double DEFAULT NULL,"
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`)," 
@@ -1027,19 +1056,31 @@ def main():
     print("Processando Cidades! Aguarde...")
     cidadesData = ''
     with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
-        csvReader = csv.reader(csvfile, delimiter = ';')
+        csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)
         cidadesData = list(csvReader)
 
     commitCidadesData = ()
     sql = ("INSERT INTO cidades "
-        "(id, estado_id, nome) "
-        "VALUES (%s, %s, %s)")
-    
+        "(id, estado_id, nome, latitude, longitude) "
+        "VALUES (%s, %s, %s, %s, %s)")
+
     conexaoCidades = conexaoNova.getConexao()
+    # count = 0
+    # total = len(cidadesData)
     for cidade in cidadesData:
-        commitCidadesData = (cidade[0], cidade[2], cidade[1])
-        databaseNova.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades )
+        # print("cidade: ", cidade)
+        city_name = cidade[1]
+        state_id = cidade[2]
+        
+        state_name = get_state_name_by_id(conexaoCidades, state_id)
+        latitude, longitude = get_coordinates_from_city(city_name, state_name)
+
+        commitCidadesData = (cidade[0], cidade[2], city_name, latitude, longitude)
+        databaseNova.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades)
+        # count += 1
+        # print(f"Cidades Processadas: {count}/{total}")
+
     print("Concluído!")
 
     # -----------------------Insere dados locais_coleta-------------------------------------
