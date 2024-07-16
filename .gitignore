@@ -6,7 +6,7 @@
 .gradle/
 gradle/
 gradlew*
-
 # generated
 build/
 out/
+**/*.class
