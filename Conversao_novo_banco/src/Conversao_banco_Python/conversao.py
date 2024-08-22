@@ -1083,6 +1083,22 @@ def main():
 
     print("Concluído!")
 
+    print("Corrigindo latitudes e longitudes de cidades")
+
+    conexaoSql = conexaoNova.getConexao()
+    cursorNova = conexaoSql.cursor()
+
+    with open('Cidades_Estados_Paises/updated_cities_coordinates.sql', 'r') as sql_file:
+        sql_queries = sql_file.read()
+
+    for query in sql_queries.split(';'):
+        if query.strip():
+            cursorNova.execute(query)
+
+    conexaoSql.commit()
+
+    print("Concluído!")
+
     # -----------------------Insere dados locais_coleta-------------------------------------
     print("Processando Locais Coleta! Aguarde...")
     locais_coletaData = databaseAntiga.getConteudoTabela("local_coleta", "SELECT codigo, local, regiao_do_local, cidade, estado, pais FROM local_coleta")
@@ -1101,7 +1117,7 @@ def main():
     conexaoLocais_coleta = conexaoNova.getConexao()
     for locais_coleta in locais_coletaData:
         cidadeId = buscaCidadeId(cidadeLista, estadoLista, paisLista, locais_coleta)
-        commitLocais_coletaData = (locais_coleta[0], locais_coleta[1] if locais_coleta[1] else "" + locais_coleta[2] if locais_coleta[2] else "", cidadeId, None, None, None)
+        commitLocais_coletaData = (locais_coleta[0], (locais_coleta[1] if locais_coleta[1] else "") + (locais_coleta[2] if locais_coleta[2] else ""), cidadeId, None, None, None)
         databaseNova.insertConteudoTabela("locais_coleta", sql, commitLocais_coletaData, conexaoLocais_coleta )
     print("Concluído!")
 
