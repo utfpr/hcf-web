@@ -1,14 +1,10 @@
 from __future__ import print_function
-from datetime import date
 import csv
 import re
-import requests
 import time
 start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
-
-import numpy as np
 
 latitudesErros, longitudesErros = list(), list()
 
