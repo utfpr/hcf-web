@@ -1,0 +1,13 @@
+services:
+  firebird:
+    build: .
+    container_name: firebird
+    environment:
+      ISC_PASSWORD: masterkey
+      FIREBIRD_DATABASE: HERBARIUM.GDB
+    volumes:
+      - ./firebird/data:/firebird/data
+      - ./firebird/backup:/backup
+      - ./scripts:/scripts
+    ports:
+      - 3050:3050
