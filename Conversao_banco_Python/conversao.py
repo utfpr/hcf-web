@@ -14,11 +14,11 @@ class Conexao():
         self.__cursor = ''
 
     def conexaoNovoBanco(self, user, password):
-        self.__conexao = mysql.connector.connect(user=user, password=password)
+        self.__conexao = mysql.connector.connect(user=user, password=password, host='localhost', port='3306')
         self.__cursor =  self.__conexao.cursor()
     
     def conexaoBancoExistente(self, user, password, banco):
-        self.__conexao = mysql.connector.connect(user=user, password=password, database=banco)
+        self.__conexao = mysql.connector.connect(user=user, password=password, database=banco, host='localhost', port='3306')
         self.__cursor =  self.__conexao.cursor()
     
     def getCursor(self):
