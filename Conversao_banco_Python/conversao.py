@@ -14,10 +14,10 @@ class Conexao():
         self.__conexao = ''
         self.__cursor = ''
 
-    def conexaoNovoBanco(self, user, password):
+    def conexaoNovoBanco(self, user, password, host):
         print("[CONN] Conectando ao banco MySQL")
         print("[CONN] Conexão realizada com sucesso")
-        self.__conexao = mysql.connector.connect(user=user, password=password, host='localhost', port='3306')
+        self.__conexao = mysql.connector.connect(user=user, password=password, host=host, port='3306')
         self.__cursor =  self.__conexao.cursor()
 
     def conexaoBancoFirebird(self, database, user, password, power):
@@ -26,7 +26,9 @@ class Conexao():
         if (power):
             self.__conexao = fdb.connect(
                 dsn=database,
-                user=user, password=password
+                user=user, 
+                password=password,
+                charset='UTF8'
             )
             self.__cursor = self.__conexao.cursor()
         print("[CONN] Conexão realizada com sucesso")
@@ -301,7 +303,7 @@ def format_coordinate(coord):
         return coord[0:2] + '.' + coord[2:]
 
 def get_coordinates_from_city(city, state):
-    with open('Cidades_Estados_Paises/coordenadas.csv', newline='', encoding='ISO-8859-1') as csvfile:
+    with open('coordenadas.csv', newline='', encoding='ISO-8859-1') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
 
         next(csvReader)
@@ -697,7 +699,7 @@ def dictTables():
     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     )
 
-#feito, buscar no sistema funcionalidade de rascunho
+    #feito, buscar no sistema funcionalidade de rascunho
     TABLES['tombos'] = (
         "CREATE TABLE `tombos` ("
         "`hcf` int NOT NULL AUTO_INCREMENT,"
@@ -777,13 +779,136 @@ def dictTables():
     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     )
 
+    # TABLES['tombos_coletores'] = (
+    #     "CREATE TABLE `tombos_coletores` ("
+    #     "`tombo_hcf` int NOT NULL,"
+    #     "`coletor_id` int NOT NULL,"
+    #     "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+    #     "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+    #     "`principal` tinyint(1) NOT NULL DEFAULT '0',"
+    #     "PRIMARY KEY (`tombo_hcf`,`coletor_id`),"
+    #     "KEY `fk_COLETOR_has_TOMBO_TOMBO1_idx` (`tombo_hcf`),"
+    #     "KEY `fk_tombos_coletores_coletor1_idx` (`coletor_id`),"
+    #     "CONSTRAINT `fk_COLETOR_has_TOMBO_TOMBO1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`),"
+    #     "CONSTRAINT `fk_tombos_coletores_coletor1` FOREIGN KEY (`coletor_id`) REFERENCES `coletores` (`id`)"
+    #     ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    TABLES['tombos_identificadores'] = (
+    "CREATE TABLE `tombos_identificadores` ("
+    "`identificador_id` int UNSIGNED NOT NULL,"
+    "`tombo_hcf` int NOT NULL,"
+    "`ordem` tinyint UNSIGNED DEFAULT 1,"
+    "PRIMARY KEY (`identificador_id`, `tombo_hcf`),"
+    "KEY `fk_tombos_identificadores_identificador_idx` (`identificador_id`),"
+    "KEY `fk_tombos_identificadores_tombo_idx` (`tombo_hcf`),"
+    "CONSTRAINT `fk_tombos_identificadores_identificador` FOREIGN KEY (`identificador_id`) REFERENCES `identificadores` (`id`),"
+    "CONSTRAINT `fk_tombos_identificadores_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
+    ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+    )
+
+    #pendente, 1 para 1 com tombo_exsicatas no firebird ;; existe um tombo com id = 0 conversar com caxambu
+    TABLES['tombos_fotos'] = (
+        "CREATE TABLE `tombos_fotos` ("
+        "`id` int NOT NULL AUTO_INCREMENT,"
+        "`tombo_hcf` int NOT NULL,"
+        "`codigo_barra` varchar(45) DEFAULT '',"
+        "`num_barra` varchar(45) DEFAULT '',"
+        "`caminho_foto` text,"
+        "`em_vivo` tinyint(1) NOT NULL DEFAULT '0',"
+        "`sequencia` int DEFAULT NULL,"
+        "`ativo` int DEFAULT '1',"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "PRIMARY KEY (`id`),"
+        "KEY `TOMBO_EXSICATA_IDX1` (`num_barra`),"
+        "KEY `fk_TOMBO_EXSICATA_TOMBO1_idx` (`tombo_hcf`),"
+        "CONSTRAINT `fk_tombos_fotos_tombos1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    #verificar implementação no sistema
+    TABLES['tombo_alteracoes_antigas'] = (
+        "CREATE TABLE `tombo_alteracoes_antigas` ("
+        "`sequencia` int NOT NULL,"
+        "`data` date DEFAULT NULL,"
+        "`descricao` text,"
+        "`tombo_hcf` int NOT NULL,"
+        "PRIMARY KEY (`sequencia`,`tombo_hcf`),"
+        "KEY `fk_TOMBO_REG_ALT_TOMBO1_idx` (`tombo_hcf`),"
+        "CONSTRAINT `fk_TOMBO_REG_ALT_TOMBO1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    TABLES['retirada_exsiccata_tombos'] = (
+        "CREATE TABLE `retirada_exsiccata_tombos` ("
+        "`retirada_exsiccata_id` int NOT NULL,"
+        "`tombo_hcf` int NOT NULL,"
+        "`tipo` enum('DOACAO','EMPRESTIMO','PERMUTA') NOT NULL,"
+        "`data_vencimento` datetime DEFAULT NULL,"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`devolvido` tinyint(1) DEFAULT '0',"
+        "PRIMARY KEY (`retirada_exsiccata_id`,`tombo_hcf`),"
+        "KEY `fk_doacoes_has_tombos_tombos1_idx` (`tombo_hcf`),"
+        "KEY `fk_doacoes_has_tombos_doacoes1_idx` (`retirada_exsiccata_id`),"
+        "CONSTRAINT `fk_doacoes_has_tombos_doacoes1` FOREIGN KEY (`retirada_exsiccata_id`) REFERENCES `remessas` (`id`),"
+        "CONSTRAINT `fk_doacoes_has_tombos_tombos1` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    #pendente, falta insert de CURADOR, OPERADOR e IDENTIFICADOR
+    TABLES['tipos_usuarios'] = (
+        "CREATE TABLE `tipos_usuarios` ("
+        "`id` int NOT NULL AUTO_INCREMENT,"
+        "`tipo` varchar(100) DEFAULT NULL,"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "PRIMARY KEY (`id`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    #pendente, falta insert apenas o caxambu e hcfmaster
+    TABLES['usuarios'] = (
+        "CREATE TABLE `usuarios` ("
+        "`id` int NOT NULL AUTO_INCREMENT,"
+        "`nome` varchar(200) NOT NULL,"
+        "`ra` varchar(45) DEFAULT NULL,"
+        "`email` varchar(200) NOT NULL,"
+        "`senha` varchar(200) NOT NULL,"
+        "`ativo` tinyint NOT NULL DEFAULT '1',"
+        "`tipo_usuario_id` int NOT NULL,"
+        "`telefone` varchar(45) DEFAULT NULL,"
+        "`herbario_id` int NOT NULL,"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "PRIMARY KEY (`id`),"
+        "KEY `fk_usuarios_tipos_usuarios1_idx` (`tipo_usuario_id`),"
+        "KEY `fk_usuarios_herbarios1_idx` (`herbario_id`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
+    #pendente, falta insert adicionar alteracos aprovadas para tombos que forem migrados
+    TABLES['alteracoes'] = (
+        "CREATE TABLE `alteracoes` ("
+        "`id` int NOT NULL AUTO_INCREMENT,"
+        "`usuario_id` int NOT NULL,"
+        "`status` enum('ESPERANDO','APROVADO','REPROVADO') NOT NULL,"
+        "`observacao` text,"
+        "`ativo` tinyint DEFAULT '1',"
+        "`created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,"
+        "`tombo_hcf` int NOT NULL,"
+        "`tombo_json` text,"
+        "`identificacao` tinyint DEFAULT '0',"
+        "PRIMARY KEY (`id`),"
+        "KEY `fk_alteraoes_usuarios_idx` (`usuario_id`),"
+        "KEY `fk_alt_tombos_idx` (`tombo_hcf`),"
+        "CONSTRAINT `fk_alteracoes_tombos_id` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`),"
+        "CONSTRAINT `fk_alteraoes_usuarios` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`)"
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
+
     return TABLES
 
 def main():
     conexaoFirebird = Conexao()
-    conexaoFirebird.conexaoBancoFirebird('~/Desktop/test.fdb', 'SYSDBA', 'masterkey', True)
+    conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
 
     TABLES = dictTables()
 
@@ -910,7 +1035,7 @@ def main():
     print("\n\n---- PAISES ... ----")
     print("[OTHER] Criando dados: países")
     paisesData = ''
-    with open('Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
+    with open('paises.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
         next(csvReader)
         paisesData = list(csvReader)
@@ -931,7 +1056,7 @@ def main():
     print("\n\n---- ESTADOS ... ----")
     print("[OTHER] Criando dados: estados")
     estadosData = ''
-    with open('Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
+    with open('estados.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
         next(csvReader)
         estadosData = list(csvReader)
@@ -952,7 +1077,7 @@ def main():
     print("\n\n---- CIDADES ... ----")
     print("[OTHER] Criando dados: cidades")
     cidadesData = ''
-    with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
+    with open('municipios.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)
         cidadesData = list(csvReader)
@@ -981,7 +1106,7 @@ def main():
     conexaoSql = conexaoNova.getConexao()
     cursorNova = conexaoSql.cursor()
 
-    with open('Cidades_Estados_Paises/updated_cities_coordinates.sql', 'r') as sql_file:
+    with open('updated_cities_coordinates.sql', 'r') as sql_file:
         sql_queries = sql_file.read()
 
     for query in sql_queries.split(';'):
@@ -995,7 +1120,7 @@ def main():
 
     print("\n\n---- LOCAIS_COLETA ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: local_coleta")
-    locais_coletaData = bancoFirebird.getConteudoTabela("local_coleta", "SELECT codigo, 'local', regiao_do_local, cidade, estado, pais FROM local_coleta")
+    locais_coletaData = bancoFirebird.getConteudoTabela("local_coleta", "SELECT codigo, local, regiao_do_local, cidade, estado, pais FROM local_coleta")
     print("[DB_MYSQL] Migrando dados para tabela: locais_coleta")
     commitLocais_coletaData = ()
     sql = ("INSERT INTO locais_coleta "
@@ -1342,7 +1467,7 @@ def main():
     coletor_id_map = {}
 
     # Consulta para obter o nome do coletor na base antiga
-    sql_nome_coletor_antiga = "SELECT nome_coletor FROM coletor WHERE num_coletor = %s"
+    sql_nome_coletor_antiga = "SELECT nome_coletor FROM coletor WHERE num_coletor = ?"
 
     # Consulta para verificar a existência do coletor na base nova e obter o id
     sql_id_coletor_nova = "SELECT id FROM coletores WHERE nome = %s"
@@ -1437,9 +1562,15 @@ def main():
     sql_insert_coletor_complementar = "INSERT INTO coletores_complementares (hcf, complementares) VALUES (%s, %s)"
     for tombo in tombos_complementares:
         hcf, complemento_coletor = tombo
+        cursorNovo.execute("SELECT COUNT(*) FROM tombos WHERE hcf = %s", (hcf,))
+        result = cursorNovo.fetchone()
+        if result[0] == 0:
+            print(f"Erro: O valor hcf={hcf} não existe na tabela tombos.")
+            continue
+
         cursorNovo.execute(sql_insert_coletor_complementar, (hcf, complemento_coletor.strip()))
         conexaoTombo.commit()
-
+        
     cursorAntigo.close()
     cursorNovo.close()
     print("[DB_MYSQL] Migração concluída com sucesso")
@@ -1456,7 +1587,7 @@ def main():
                 "VALUES (%s, %s, %s)")
 
     # SQL para buscar o nome do identificador na base antiga
-    sql_get_nome_identificador_antigo = ("SELECT nome FROM identificador WHERE num_identificador = %s")
+    sql_get_nome_identificador_antigo = ("SELECT nome FROM identificador WHERE num_identificador = ?")
 
     # SQL para buscar o identificador_id pelo nome na base nova
     sql_get_identificador_novo = ("SELECT id FROM identificadores WHERE nome = %s")

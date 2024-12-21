@@ -79,37 +79,6 @@ CLIENT_MAX_BODY_SIZE=256M
 
 ## Conversão do Firebird para MySQL
 
-### Executando o script de conversão
-Para execução do script de conversão, é necessário que sejam feitas 2 conexões de banco de dados. Essas conexões são feitas através da biblioteca `mysql-connector-python` que pode ser instalada atravé do comando `pip install mysql-connector-python` (ou pip3 de acordo com a sua versão do Python).
-
-Caso não tenha as conexões de banco de dados, os seguintes passos podem ser seguidos:
-```shell
-# Para criar a conexão do banco a ser migrado
-docker run --name hcf_db_conn -e MYSQL_ROOT_PASSWORD=Test@123 -p 3306:3306 -d mysql:8.0
-```
-
-Após a criação da conexão do banco a ser migrado, é necessário usar o dump do banco de dados para criar os dados no MySQL. Para isso, use o comando abaixo para copiar o dump para dentro do container:
-```shell
-# Observe que no comando abaixo, o arquivo `meu_banco_dump.sql` é o arquivo de dump do banco de dados
-docker cp meu_banco_dump.sql hcf_db_conn:/meu_banco_dump.sql
-```
-
-Após copiar o dump, se conecte ao container e execute o comando abaixo para criar o banco de dados e os dados:
-```shell
-docker exec -it hcf_db_conn mysql -u root -p
-```
-```sql
-CREATE DATABASE hcf_firebird;
-EXIT;
-```
-
-Após a criação do banco de dados, execute o comando abaixo para criar as tabelas e os dados:
-```shell
-# Observe que no comando abaixo, o arquivo `meu_banco_dump.sql` é o arquivo de dump do banco de dados copiado para dentro do container
-docker exec -i hcf_db_conn mysql -u root -pTest@123 hcf_firebird < meu_banco_dump.sql
-```
-
-
 ### Restauração do backup
 
 Você precisa de um arquivo `.fbk` gerado a partir do banco de dados original. Você pode fazer isso com o comando abaixo:
