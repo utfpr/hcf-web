@@ -102,6 +102,6 @@ Uma vez que o container está em pé, abra outro terminal e digite o comando `do
 ## Backup e restauração de banco de dados Firebird no Windows
 
 ```powershell
-gbak.exe -USER SYSDBA -PASSWORD masterkey -TRANSPORTABLE -VERIFY -BACKUP_DATABASE C:\Program_Files\Firebird\Firebird_2_5\HERBARIUM_2024-03-26.GDB C:\Users\Edvaldo\Documents\HERBARIUM_2024-03-26.FBK
-gbak.exe -USER SYSDBA -PASSWORD masterkey -TRANSPORTABLE -VERIFY -REPLACE_DATABASE C:\Users\Edvaldo\Documents\HERBARIUM_2024-03-26.FBK C:\Program_Files\Firebird\Firebird_2_5\HERBARIUM_2023-09-03.GDB
+gbak.exe -USER SYSDBA -PASSWORD masterkey -TRANSPORTABLE -VERIFY -BACKUP_DATABASE <Caminho Base .GDB> <Caminho Arquivo Backup .FBK>
+gbak.exe -USER SYSDBA -PASSWORD masterkey -TRANSPORTABLE -VERIFY -REPLACE_DATABASE <Caminho Arquivo Backup .FBK> <Caminho Base .GDB>
 ```
