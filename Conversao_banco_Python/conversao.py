@@ -6,6 +6,10 @@ start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
 import fdb
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 latitudesErros, longitudesErros = list(), list()
 
@@ -906,13 +910,14 @@ def dictTables():
 
 def main():
     conexaoFirebird = Conexao()
-    conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
+    conexaoFirebird.conexaoBancoFirebird(os.getenv("FIREBIRD_DB_PATH"), os.getenv("FIREBIRD_USER"), os.getenv("FIREBIRD_PASSWORD"), True)
+
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco(os.getenv("MYSQL_USER"), os.getenv("MYSQL_PASSWORD"), os.getenv("MYSQL_HOST"))
 
     TABLES = dictTables()
 
-    databaseNova = Database("hcf", conexaoNova.getCursor())  #nome da nova base de dados
+    databaseNova = Database(os.getenv("MYSQL_DB_NAME"), conexaoNova.getCursor()) 
 
     try:
         conexaoNova.getCursor().execute("USE {}".format(databaseNova.getNome()))
@@ -931,7 +936,7 @@ def main():
        sql = TABLES[nome]
        databaseNova.create_table(nome, sql)
 
-    bancoFirebird = Database('~/Desktop/test.fdb', conexaoFirebird.getCursor())
+    bancoFirebird = Database(os.getenv("FIREBIRD_DB_NAME"), conexaoFirebird.getCursor())
 
     print("\n\n---- COLETORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: coletor")
