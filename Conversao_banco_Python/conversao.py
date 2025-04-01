@@ -316,56 +316,27 @@ def get_coordinates_from_city(city, state):
                 return latitude, longitude
     return None, None
 
-def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga):
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UEC - Herbário do Instituto de Biologia da UNICAMP' WHERE codigo=20;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='CTES - Herbário del Instituto de Botânica del Nordeste, Corrientes, Argentina' WHERE codigo=49;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='CVRD - Herbário da Reserva Natural Vale' WHERE codigo=19;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='EVB - Herbário Evaldo Buturra (UNILA)' WHERE codigo=43;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='FLOR - Herbário da Universidade Federal de Santa Catarina ' WHERE codigo=18;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='FUEL - Herbário da Universidade Estadual de Londrina' WHERE codigo=11;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='G - Herbarium Genavense' WHERE codigo=16;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HBR - Herbário Barbosa Rodrigues' WHERE codigo=54;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HCF - Herbário da Universidade Tecnológica Federal do Paraná Campus Campo Mourão' WHERE codigo=2;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='IBGE - Herbário' WHERE codigo=3;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HI - Herbário Integrado' WHERE codigo=5;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HUEM - Herbário da Universidade Estadual de Maringá' WHERE codigo=21;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='ICN - Herbário da Universidade Federal do Rio Grande do Sul' WHERE codigo=10;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MBM - Museu Botânico Municipal de Curitiba' WHERE codigo=1;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MEXU - Herbario Nacional de Mexico' WHERE codigo=47;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MO - Missouri Botanical Garden' WHERE codigo=52;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='RB - Herbário do Jardim Botânico do Rio de Janeiro' WHERE codigo=17;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UNOP - Herbário da Universidade Estadual do Oeste do Paraná' WHERE codigo=14;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UFPE - Laboratório Biologia de Briófitas' WHERE codigo=12;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UNOP - Herbário da Universidade Estadual do Oeste do Paraná' WHERE codigo=13;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UPCB - Herbário do Depto de Botânica da Universidade Federal do Paraná' WHERE codigo=4;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='VIC - Herbário da Universidade Federal de Viçosa' WHERE codigo=58;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='VIES - Herbário Central da Universidade Federal do Espírito Santo' WHERE codigo=44;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='INPA -  Herbário Instituto Nacional de Pesquisas da Amazônia' WHERE codigo=6;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
+# Caso use a função para ler arquivos relacionados ao banco firebird, adicionar o database no último argumento, se for o sql, pode deixar vazio.
+def executar_sqls(nome_arquivo, conexao, database=None):
+    print(f"\n\n---- Executando SQLs do arquivo {nome_arquivo} ... ----")
+    cursor = None
     
+    if not database:
+        cursor = conexao.cursor()
+    
+    with open(nome_arquivo, 'r') as sql_file:
+        sql_queries = sql_file.read()
+    
+    for query in sql_queries.split(';'):
+        if query.strip():
+            if database:
+                database.insertConteudoTabela('Execução de SQLs', query.strip(), (), conexao)
+            else:
+                cursor.execute(query.strip())
+    
+    conexao.commit()
+    cursor.close()
+    print(f"Execução do arquivo {nome_arquivo} concluída com sucesso.")
 
 def dictTables():
     """Função que retorna um dicionário com as tabelas do banco de dados."""
@@ -1106,17 +1077,7 @@ def main():
     conexaoSql = conexaoNova.getConexao()
     cursorNova = conexaoSql.cursor()
 
-    with open('updated_cities_coordinates.sql', 'r') as sql_file:
-        sql_queries = sql_file.read()
-
-    for query in sql_queries.split(';'):
-        if query.strip():
-            cursorNova.execute(query)
-
-    conexaoSql.commit()
-    print("[DB_MYSQL] Correção concluída com sucesso")
-
-
+    executar_sqls('updated_cities_coordinates.sql', conexaoSql)
 
     print("\n\n---- LOCAIS_COLETA ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: local_coleta")
@@ -1364,9 +1325,9 @@ def main():
     print("\n\n---- HERBARIOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: instituicao_identificadora")
     conexaoHerbariosAntiga = conexaoFirebird.getConexao()
-    commitHerbariosDataAntiga = ()
 
-    updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, bancoFirebird)
+    executar_sqls('updated_herbarios.sql', conexaoHerbariosAntiga, bancoFirebird)
+
     herbariosData = bancoFirebird.getConteudoTabela("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
     print("[DB_MYSQL] Migrando dados para tabela: herbarios")
     commitHerbariosData = ()
