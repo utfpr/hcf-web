@@ -17,6 +17,6 @@ RUN useradd --create-home --shell /bin/bash herbario \
 
 WORKDIR /home/herbario
 
-COPY Cidades_Estados_Paises/ conversao.py teste.py ./
+COPY Cidades_Estados_Paises/ conversao.py teste.py updated_herbarios.sql ./ 
 
 RUN chown herbario:herbario conversao.py
