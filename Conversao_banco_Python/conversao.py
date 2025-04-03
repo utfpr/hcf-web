@@ -6,10 +6,6 @@ start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
 import fdb
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 latitudesErros, longitudesErros = list(), list()
 
@@ -188,69 +184,88 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude, tombo = 0):
-    if(not latitude):
-        return None
+def convertLatitude(latitude, hcf=0):
+    if not latitude:  # Se latitude for NULL ou vazia
+        print(f"⚠️ Não foi possível converter a latitude para HCF {hcf}. Usando 0.0.")
+        return 0.0
+
     dadoReal = latitude
     latitude = padronizaCoordenada(latitude)
-    # print(tombo)
-    if '°' in latitude and "'" in latitude and '"' in latitude:
-        latitudeSplit = []
-        latitudeSplit.append(latitude.split('°')[0])
-        latitudeSplit.append(latitude.split('°')[1].split("'")[0])
-        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-        # # print(latitude.split('°')[1].split("'")[1].split('"'))
-        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
-        # latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-    else:
-        latitudesErros.append(latitude)
-        latitudesErros.append(dadoReal)
-        print(f"Formato de latitude inesperado: {dadoReal}")
-        return None
-    
+
+    # Substitui possíveis caracteres errados
+    latitude = latitude.replace(chr(176), '°')
+
     try:
-        latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
+        if '°' in latitude and "'" in latitude and '"' in latitude:
+            partes = latitude.split('°')
+            graus = partes[0].strip()
+            resto = partes[1].split("'")
+            minutos = resto[0].strip()
+            segundos_direcao = resto[1].split('"')
+            segundos = segundos_direcao[0].strip()
+            direcao = segundos_direcao[1].strip()
 
-        if(latitudeSplit[3] == 'S'):
-            latitudeConvertida = latitudeConvertida * -1
-    except ValueError:
-        latitudesErros.append(latitude)
-        latitudesErros.append(dadoReal)
-        print(f"Erro ao converter a latitude: {tombo}: '{dadoReal}'. Verifique os valores.'. Verifique os valores.")
-        return None
+            # Conversão para float
+            latitudeConvertida = float(graus.replace(",", ".")) + \
+                                 float(minutos.replace(",", ".")) / 60 + \
+                                 float(segundos.replace(",", ".")) / 3600
 
-    return latitudeConvertida
-    
-def convertLongitude(longitude, tombo = 0):
-    if(not longitude):
-        return None
+            # Se for Sul (S), o valor deve ser negativo
+            if direcao.upper() == 'S':
+                latitudeConvertida *= -1
+
+            return latitudeConvertida
+
+        else:
+            print(f"⚠️ Formato inesperado de latitude para HCF {hcf}: {dadoReal}. Usando 0.0.")
+            return 0.0
+
+    except (ValueError, IndexError) as e:
+        print(f"⚠️ Erro ao converter latitude para HCF {hcf}: {dadoReal}. Usando 0.0. Motivo: {e}")
+        return 0.0
+
+
+def convertLongitude(longitude, hcf=0):
+    if not longitude:  # Se longitude for NULL ou vazia
+        print(f"⚠️ Não foi possível converter a longitude para HCF {hcf}. Usando 0.0.")
+        return 0.0
+
     dadoReal = longitude
     longitude = padronizaCoordenada(longitude)
-    if '°' in longitude and "'" in longitude and '"' in longitude:
-        longitudeSplit = []
-        longitudeSplit.append(longitude.split('°')[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[1].strip())
-    else:
-        longitudesErros.append(longitude)
-        longitudesErros.append(dadoReal)
-        print(f"Formato de longitude inesperado: {tombo}: {dadoReal}")
-        return None
-    
+
+    # Substitui possíveis caracteres errados
+    longitude = longitude.replace(chr(176), '°')
+
     try:
-        longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
+        if '°' in longitude and "'" in longitude and '"' in longitude:
+            partes = longitude.split('°')
+            graus = partes[0].strip()
+            resto = partes[1].split("'")
+            minutos = resto[0].strip()
+            segundos_direcao = resto[1].split('"')
+            segundos = segundos_direcao[0].strip()
+            direcao = segundos_direcao[1].strip()
 
-        if(longitudeSplit[3] == 'W'):
-            longitudeConvertida = longitudeConvertida * -1
+            # Conversão para float
+            longitudeConvertida = float(graus.replace(",", ".")) + \
+                                  float(minutos.replace(",", ".")) / 60 + \
+                                  float(segundos.replace(",", ".")) / 3600
 
-    except ValueError:
-        longitudesErros.append(longitude)
-        longitudesErros.append(dadoReal)
-        print(f"Erro ao converter a longitude: {tombo}: '{dadoReal}'. Verifique os valores.")
-        return None
+            # Se for Oeste (W), o valor deve ser negativo
+            if direcao.upper() in ['W', 'O']:  # Aceita 'O' para Oeste
+                longitudeConvertida *= -1
 
-    return longitudeConvertida
+            return longitudeConvertida
+
+        else:
+            print(f"⚠️ Formato inesperado de longitude para HCF {hcf}: {dadoReal}. Usando 0.0.")
+            return 0.0
+
+    except (ValueError, IndexError) as e:
+        print(f"⚠️ Erro ao converter longitude para HCF {hcf}: {dadoReal}. Usando 0.0. Motivo: {e}")
+        return 0.0
+
+
     
 def converteAltitude(altitude):
     # # encontrar altitudes erradas
@@ -910,14 +925,14 @@ def dictTables():
 
 def main():
     conexaoFirebird = Conexao()
-    conexaoFirebird.conexaoBancoFirebird(os.getenv("FIREBIRD_DB_PATH"), os.getenv("FIREBIRD_USER"), os.getenv("FIREBIRD_PASSWORD"), True)
+    conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
 
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco(os.getenv("MYSQL_USER"), os.getenv("MYSQL_PASSWORD"), os.getenv("MYSQL_HOST"))
+    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
 
     TABLES = dictTables()
 
-    databaseNova = Database(os.getenv("MYSQL_DB_NAME"), conexaoNova.getCursor()) 
+    databaseNova = Database("hcf", conexaoNova.getCursor()) #nome da nova base de dados
 
     try:
         conexaoNova.getCursor().execute("USE {}".format(databaseNova.getNome()))
@@ -936,7 +951,7 @@ def main():
        sql = TABLES[nome]
        databaseNova.create_table(nome, sql)
 
-    bancoFirebird = Database(os.getenv("FIREBIRD_DB_NAME"), conexaoFirebird.getCursor())
+    bancoFirebird = Database('~/Desktop/test.fdb', conexaoFirebird.getCursor())
 
     print("\n\n---- COLETORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: coletor")
