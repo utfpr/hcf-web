@@ -335,7 +335,8 @@ def executar_sqls(nome_arquivo, conexao, database=None):
                 cursor.execute(query.strip())
     
     conexao.commit()
-    cursor.close()
+    if not database:
+        cursor.close()
     print(f"Execução do arquivo {nome_arquivo} concluída com sucesso.")
 
 def dictTables():
