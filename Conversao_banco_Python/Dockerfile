@@ -1,5 +1,7 @@
 FROM jacobalberty/firebird:v2.5.9-sc
 
+ENV PATH=$PATH:/usr/local/firebird/bin/
+
 RUN useradd --create-home --shell /bin/bash herbario \
   && apt update \
   && apt upgrade -y \
