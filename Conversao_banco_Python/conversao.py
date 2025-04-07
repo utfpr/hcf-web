@@ -1484,12 +1484,6 @@ def main():
                 if(variedade[1] == tombo[11]):
                     variedadeFinal = variedade[0]
 
-        especieFinal = None
-        if(tombo[13]):
-            for especie in especiesData:
-                if(especie[1] == tombo[13]):
-                    especieFinal = especie[0]
-
         generoFinal = None
         if(tombo[14] and tombo[15]):
             for especie in especieData:
@@ -1497,6 +1491,12 @@ def main():
                     for genero in generoData: #procura o id do genero com o nome encontrado
                         if(especie[2] == genero[1]):
                             generoFinal = genero[0]
+        
+        especieFinal = None
+        if(tombo[13]):
+            for especie in especiesData:
+                if((especie[1] == tombo[13]) and (especie[2] == generoFinal)):
+                    especieFinal = especie[0]
 
         sub_familiasFinal = None
         if(tombo[16]):
