@@ -216,9 +216,11 @@ def convertLatitude(latitude, hcf=0):
             return latitudeConvertida
 
         else:
+            print(f"[INFO] Formato inesperado de latitude no HCF - {hcf}: {dadoReal}. Usando NULL")
             return None
 
     except (ValueError, IndexError) as e:
+        print(f"[INFO] Erro ao converter latitude no HCF - {hcf}: {dadoReal}. Usando NULL")
         return None
 
 def convertLongitude(longitude, hcf=0):
@@ -253,9 +255,11 @@ def convertLongitude(longitude, hcf=0):
             return longitudeConvertida
 
         else:
+            print(f"[INFO] Formato inesperado de longitude no HCF - {hcf}: {dadoReal}. Usando NULL")
             return None
 
     except (ValueError, IndexError) as e:
+        print(f"[INFO] Erro ao converter longitude no HCF - {hcf}: {dadoReal}. Usando NULL")
         return None
 
 
