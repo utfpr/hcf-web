@@ -908,7 +908,7 @@ def main():
     conexaoFirebird = Conexao()
     conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'hcf_mysql') # nickname, password
 
     TABLES = dictTables()
 
@@ -1438,7 +1438,7 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome, genero_id FROM especies")
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
     especieData = bancoFirebird.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
