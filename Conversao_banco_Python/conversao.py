@@ -9,7 +9,8 @@ import fdb
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path=dotenv_path)
 
 latitudesErros, longitudesErros = list(), list()
 
@@ -917,7 +918,7 @@ def main():
 
     TABLES = dictTables()
 
-    databaseNova = Database(os.getenv("MYSQL_DB_NAME"), conexaoNova.getCursor()) 
+    databaseNova = Database("hcf", conexaoNova.getCursor()) #nome da nova base de dados
 
     try:
         conexaoNova.getCursor().execute("USE {}".format(databaseNova.getNome()))
@@ -936,7 +937,7 @@ def main():
        sql = TABLES[nome]
        databaseNova.create_table(nome, sql)
 
-    bancoFirebird = Database(os.getenv("FIREBIRD_DB_NAME"), conexaoFirebird.getCursor())
+    bancoFirebird = Database('~/Desktop/test.fdb', conexaoFirebird.getCursor())
 
     print("\n\n---- COLETORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: coletor")
