@@ -186,11 +186,10 @@ def padronizaCoordenada(coordenada):
     
 def convertLatitude(latitude, hcf=0):
     if not latitude:  # Se latitude for NULL ou vazia
-        print(f"⚠️ Não foi possível converter a latitude para HCF {hcf}. Usando 0.0.")
         return None
 
     dadoReal = latitude
-    latitude = padronizaCoordenada(latitude)928741
+    latitude = padronizaCoordenada(latitude)
 
     # Substitui possíveis caracteres errados
     latitude = latitude.replace(chr(176), '°')
@@ -217,16 +216,13 @@ def convertLatitude(latitude, hcf=0):
             return latitudeConvertida
 
         else:
-            print(f"⚠️ Formato inesperado de latitude para HCF {hcf}: {dadoReal}. Usando 0.0.")
             return None
 
     except (ValueError, IndexError) as e:
-        print(f"⚠️ Erro ao converter latitude para HCF {hcf}: {dadoReal}. Usando 0.0. Motivo: {e}")
         return None
 
 def convertLongitude(longitude, hcf=0):
     if not longitude:  # Se longitude for NULL ou vazia
-        print(f"⚠️ Não foi possível converter a longitude para HCF {hcf}. Usando 0.0.")
         return None
 
     dadoReal = longitude
@@ -257,11 +253,9 @@ def convertLongitude(longitude, hcf=0):
             return longitudeConvertida
 
         else:
-            print(f"⚠️ Formato inesperado de longitude para HCF {hcf}: {dadoReal}. Usando 0.0.")
             return None
 
     except (ValueError, IndexError) as e:
-        print(f"⚠️ Erro ao converter longitude para HCF {hcf}: {dadoReal}. Usando 0.0. Motivo: {e}")
         return None
 
 
@@ -927,7 +921,7 @@ def main():
     conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
 
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'hcf_mysql') # nickname, password
 
     TABLES = dictTables()
 
