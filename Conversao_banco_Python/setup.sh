@@ -27,7 +27,10 @@ echo "🔁 Reiniciando containers para aplicar permissões..."
 docker-compose restart
 
 echo "🔄 Aplicando updates no banco Firebird..."
-docker exec -i hcf_firebird /usr/local/firebird/bin/isql -u SYSDBA -p masterkey -ch UTF8 /firebird/data/HERBARIUM.GDB < /scripts/update_data.sql
+docker exec -i hcf_firebird /usr/local/firebird/bin/isql -u SYSDBA -p masterkey -ch UTF8 /firebird/data/HERBARIUM.GDB < ./scripts/update_data.sql
+
+echo "🧹 Limpando tabelas existentes no MySQL..."
+docker exec -i hcf_mysql mysql -u root -pTest@123 hcf < ./scripts/dropTablesMySql.sql
 
 echo "🐍 Executando script Python de conversão..."
 docker exec -it hcf_firebird python3 conversao.py

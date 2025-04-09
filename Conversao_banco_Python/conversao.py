@@ -1218,7 +1218,7 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
     autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Migrando dados para tabela: especies")
     commitEspeciesData = ()
     sql = ("INSERT INTO especies "
@@ -1236,14 +1236,14 @@ def main():
                         for especie in especieData:
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
-                                    if(especie[2] == genero[1]):
+                                    if(especie[2] == genero[1] and especie[0] == genero[2]):
                                         commitEspeciesData = (tombo[0], autor[0], genero[0], tombo[2], 1)
                                         databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
             else: #insere quando especie nao tem um autor
                 for especie in especieData:
                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                         for genero in generoData: #procura o id do genero com o nome encontrado
-                            if(especie[2] == genero[1]):
+                            if(especie[2] == genero[1] and especie[0] == genero[2]):
                                 commitEspeciesData = (tombo[0], None, genero[0], tombo[2], 1)
                                 databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
     print("[DB_MYSQL] Migração concluída com sucesso")
@@ -1442,7 +1442,7 @@ def main():
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
     especieData = bancoFirebird.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_familias")
     sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_especies")
@@ -1489,7 +1489,7 @@ def main():
             for especie in especieData:
                 if(especie[0] == tombo[14] and especie[1] == tombo[15]): #procura o nome do genero na tabela especie
                     for genero in generoData: #procura o id do genero com o nome encontrado
-                        if(especie[2] == genero[1]):
+                        if(especie[2] == genero[1] and especie[0] == genero[2]):
                             generoFinal = genero[0]
         
         especieFinal = None
