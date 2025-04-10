@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 mysql-connector-python = "9.1.0"
 fdb = "2.0.2"
+psycopg2-binary = "*"
 
 [dev-packages]
 

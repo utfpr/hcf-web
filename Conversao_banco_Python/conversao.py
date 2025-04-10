@@ -908,7 +908,7 @@ def main():
     conexaoFirebird = Conexao()
     conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'localhost') # nickname, password
 
     TABLES = dictTables()
 
@@ -1035,7 +1035,7 @@ def main():
     print("\n\n---- PAISES ... ----")
     print("[OTHER] Criando dados: países")
     paisesData = ''
-    with open('paises.csv', newline='', encoding="utf8") as csvfile:
+    with open('./Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
         next(csvReader)
         paisesData = list(csvReader)
@@ -1056,7 +1056,7 @@ def main():
     print("\n\n---- ESTADOS ... ----")
     print("[OTHER] Criando dados: estados")
     estadosData = ''
-    with open('estados.csv', newline='', encoding="utf8") as csvfile:
+    with open('./Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
         next(csvReader)
         estadosData = list(csvReader)
@@ -1077,7 +1077,7 @@ def main():
     print("\n\n---- CIDADES ... ----")
     print("[OTHER] Criando dados: cidades")
     cidadesData = ''
-    with open('municipios.csv', newline='', encoding='UTF-8') as csvfile:
+    with open('./Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)
         cidadesData = list(csvReader)
@@ -1106,7 +1106,7 @@ def main():
     conexaoSql = conexaoNova.getConexao()
     cursorNova = conexaoSql.cursor()
 
-    with open('updated_cities_coordinates.sql', 'r') as sql_file:
+    with open('./Cidades_Estados_Paises/updated_cities_coordinates.sql', 'r') as sql_file:
         sql_queries = sql_file.read()
 
     for query in sql_queries.split(';'):

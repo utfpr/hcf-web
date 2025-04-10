@@ -28,8 +28,25 @@ services:
     networks:
       - my_network
 
+  postgres:
+    image: postgres:15
+    container_name: hcf_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: hcf
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-volume:/var/lib/postgresql/data
+    networks:
+      - my_network
+
 volumes:
   mysql-volume:
+    driver: local
+  postgres-volume:
     driver: local
 
 networks:
