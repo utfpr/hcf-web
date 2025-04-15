@@ -1202,7 +1202,7 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
     autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Migrando dados para tabela: especies")
     commitEspeciesData = ()
     sql = ("INSERT INTO especies "
@@ -1220,14 +1220,14 @@ def main():
                         for especie in especieData:
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
-                                    if(especie[2] == genero[1]):
+                                    if(especie[2] == genero[1] and especie[0] == genero[2]):
                                         commitEspeciesData = (tombo[0], autor[0], genero[0], tombo[2], 1)
                                         databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
             else: #insere quando especie nao tem um autor
                 for especie in especieData:
                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                         for genero in generoData: #procura o id do genero com o nome encontrado
-                            if(especie[2] == genero[1]):
+                            if(especie[2] == genero[1] and especie[0] == genero[2]):
                                 commitEspeciesData = (tombo[0], None, genero[0], tombo[2], 1)
                                 databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
     print("[DB_MYSQL] Migração concluída com sucesso")
@@ -1422,11 +1422,11 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome, genero_id FROM especies")
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
     especieData = bancoFirebird.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_familias")
     sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_especies")
@@ -1468,19 +1468,19 @@ def main():
                 if(variedade[1] == tombo[11]):
                     variedadeFinal = variedade[0]
 
-        especieFinal = None
-        if(tombo[13]):
-            for especie in especiesData:
-                if(especie[1] == tombo[13]):
-                    especieFinal = especie[0]
-
         generoFinal = None
         if(tombo[14] and tombo[15]):
             for especie in especieData:
                 if(especie[0] == tombo[14] and especie[1] == tombo[15]): #procura o nome do genero na tabela especie
                     for genero in generoData: #procura o id do genero com o nome encontrado
-                        if(especie[2] == genero[1]):
+                        if(especie[2] == genero[1] and especie[0] == genero[2]):
                             generoFinal = genero[0]
+        
+        especieFinal = None
+        if(tombo[13]):
+            for especie in especiesData:
+                if((especie[1] == tombo[13]) and (especie[2] == generoFinal)):
+                    especieFinal = especie[0]
 
         sub_familiasFinal = None
         if(tombo[16]):
