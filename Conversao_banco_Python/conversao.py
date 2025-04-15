@@ -319,7 +319,7 @@ def format_coordinate(coord):
         return coord[0:2] + '.' + coord[2:]
 
 def get_coordinates_from_city(city, state):
-    with open('coordenadas.csv', newline='', encoding='ISO-8859-1') as csvfile:
+    with open('coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
 
         next(csvReader)
@@ -377,7 +377,7 @@ def dictTables():
         "`nome_arquivo` varchar(50) DEFAULT NULL,"
         "`servico` enum('REFLORA','SPECIESLINK') DEFAULT NULL,"
         "PRIMARY KEY (`id`)"
-        ") ENGINE=InnoDB DEFAULT CHARSET=latin1;")
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
     TABLES['coletores'] = (
         "CREATE TABLE `coletores` ("
@@ -435,14 +435,14 @@ def dictTables():
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "PRIMARY KEY (`id`)"
-        ") ENGINE=InnoDB DEFAULT CHARSET=latin1;")
+        ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;")
 
     TABLES['estados'] = (
         "CREATE TABLE `estados` ("
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"
-        "`nome` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,"
+        "`nome` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,"
         "`sigla` char(4) DEFAULT NULL,"
-        "`codigo_telefone` varchar(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,"
+        "`codigo_telefone` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,"
         "`pais_id` smallint unsigned NOT NULL,"
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
         "`updated_at` datetime DEFAULT CURRENT_TIMESTAMP,"
@@ -455,7 +455,7 @@ def dictTables():
         "CREATE TABLE `cidades` ("
         "`id` int unsigned NOT NULL AUTO_INCREMENT,"  
         "`estado_id` int unsigned NOT NULL,"  
-        "`nome` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,"
+        "`nome` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,"
         "`latitude` double DEFAULT NULL,"
         "`longitude` double DEFAULT NULL,"
         "`created_at` datetime DEFAULT CURRENT_TIMESTAMP,"
