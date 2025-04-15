@@ -13,10 +13,13 @@ RUN useradd --create-home --shell /bin/bash herbario \
   && apt clean autoclean -y \
   && rm -rf /var/lib/{apt,dpkg,cache,log} \
   && pip install fdb \
-  && pip install mysql-connector-python
+  && pip install mysql-connector-python \
+  && pip install python-dotenv
 
 WORKDIR /home/herbario
 
-COPY Cidades_Estados_Paises/ conversao.py teste.py ./
+COPY Cidades_Estados_Paises/ conversao.py teste.py updated_herbarios.sql ./ 
+
+COPY .env .env
 
 RUN chown herbario:herbario conversao.py
