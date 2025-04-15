@@ -6,6 +6,11 @@ start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
 import fdb
+import os
+from dotenv import load_dotenv
+
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path=dotenv_path)
 
 latitudesErros, longitudesErros = list(), list()
 
@@ -894,10 +899,10 @@ def dictTables():
 
 def main():
     conexaoFirebird = Conexao()
-    conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
+    conexaoFirebird.conexaoBancoFirebird(os.getenv("FIREBIRD_DB_PATH"), os.getenv("FIREBIRD_USER"), os.getenv("FIREBIRD_PASSWORD"), True)
 
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'hcf_mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco(os.getenv("MYSQL_USER"), os.getenv("MYSQL_PASSWORD"), os.getenv("MYSQL_HOST"))
 
     TABLES = dictTables()
 
