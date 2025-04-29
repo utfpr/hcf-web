@@ -6,6 +6,11 @@ start_time = time.time()
 import mysql.connector
 from mysql.connector import errorcode
 import fdb
+import os
+from dotenv import load_dotenv
+
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path=dotenv_path)
 
 latitudesErros, longitudesErros = list(), list()
 
@@ -184,69 +189,85 @@ def padronizaCoordenada(coordenada):
     
     return coordenada
     
-def convertLatitude(latitude, tombo = 0):
-    if(not latitude):
+def convertLatitude(latitude, hcf=0):
+    if not latitude:  # Se latitude for NULL ou vazia
         return None
+
     dadoReal = latitude
     latitude = padronizaCoordenada(latitude)
-    # print(tombo)
-    if '°' in latitude and "'" in latitude and '"' in latitude:
-        latitudeSplit = []
-        latitudeSplit.append(latitude.split('°')[0])
-        latitudeSplit.append(latitude.split('°')[1].split("'")[0])
-        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-        # # print(latitude.split('°')[1].split("'")[1].split('"'))
-        latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[1].strip())
-        # latitudeSplit.append(latitude.split('°')[1].split("'")[1].split('"')[0])
-    else:
-        latitudesErros.append(latitude)
-        latitudesErros.append(dadoReal)
-        print(f"Formato de latitude inesperado: {dadoReal}")
-        return None
-    
+
+    # Substitui possíveis caracteres errados
+    latitude = latitude.replace(chr(176), '°')
+
     try:
-        latitudeConvertida = (float(latitudeSplit[0].replace(",","."))) + (float(latitudeSplit[1].replace(",","."))/60) + (float(latitudeSplit[2].replace(",","."))/3600)
+        if '°' in latitude and "'" in latitude and '"' in latitude:
+            partes = latitude.split('°')
+            graus = partes[0].strip()
+            resto = partes[1].split("'")
+            minutos = resto[0].strip()
+            segundos_direcao = resto[1].split('"')
+            segundos = segundos_direcao[0].strip()
+            direcao = segundos_direcao[1].strip()
 
-        if(latitudeSplit[3] == 'S'):
-            latitudeConvertida = latitudeConvertida * -1
-    except ValueError:
-        latitudesErros.append(latitude)
-        latitudesErros.append(dadoReal)
-        print(f"Erro ao converter a latitude: {tombo}: '{dadoReal}'. Verifique os valores.'. Verifique os valores.")
+            # Conversão para float
+            latitudeConvertida = float(graus.replace(",", ".")) + \
+                                 float(minutos.replace(",", ".")) / 60 + \
+                                 float(segundos.replace(",", ".")) / 3600
+
+            # Se for Sul (S), o valor deve ser negativo
+            if direcao.upper() == 'S':
+                latitudeConvertida *= -1
+
+            return latitudeConvertida
+
+        else:
+            print(f"[INFO] Formato inesperado de latitude no HCF - {hcf}: {dadoReal}. Usando NULL")
+            return None
+
+    except (ValueError, IndexError) as e:
+        print(f"[INFO] Erro ao converter latitude no HCF - {hcf}: {dadoReal}. Usando NULL")
         return None
 
-    return latitudeConvertida
-    
-def convertLongitude(longitude, tombo = 0):
-    if(not longitude):
+def convertLongitude(longitude, hcf=0):
+    if not longitude:  # Se longitude for NULL ou vazia
         return None
+
     dadoReal = longitude
     longitude = padronizaCoordenada(longitude)
-    if '°' in longitude and "'" in longitude and '"' in longitude:
-        longitudeSplit = []
-        longitudeSplit.append(longitude.split('°')[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[0])
-        longitudeSplit.append(longitude.split('°')[1].split("'")[1].split('"')[1].strip())
-    else:
-        longitudesErros.append(longitude)
-        longitudesErros.append(dadoReal)
-        print(f"Formato de longitude inesperado: {tombo}: {dadoReal}")
-        return None
-    
+
+    # Substitui possíveis caracteres errados
+    longitude = longitude.replace(chr(176), '°')
+
     try:
-        longitudeConvertida = (float(longitudeSplit[0].replace(",","."))) + (float(longitudeSplit[1].replace(",","."))/60) + (float(longitudeSplit[2].replace(",","."))/3600)
+        if '°' in longitude and "'" in longitude and '"' in longitude:
+            partes = longitude.split('°')
+            graus = partes[0].strip()
+            resto = partes[1].split("'")
+            minutos = resto[0].strip()
+            segundos_direcao = resto[1].split('"')
+            segundos = segundos_direcao[0].strip()
+            direcao = segundos_direcao[1].strip()
 
-        if(longitudeSplit[3] == 'W'):
-            longitudeConvertida = longitudeConvertida * -1
+            # Conversão para float
+            longitudeConvertida = float(graus.replace(",", ".")) + \
+                                  float(minutos.replace(",", ".")) / 60 + \
+                                  float(segundos.replace(",", ".")) / 3600
 
-    except ValueError:
-        longitudesErros.append(longitude)
-        longitudesErros.append(dadoReal)
-        print(f"Erro ao converter a longitude: {tombo}: '{dadoReal}'. Verifique os valores.")
+            # Se for Oeste (W), o valor deve ser negativo
+            if direcao.upper() in ['W', 'O']:  # Aceita 'O' para Oeste
+                longitudeConvertida *= -1
+
+            return longitudeConvertida
+
+        else:
+            print(f"[INFO] Formato inesperado de longitude no HCF - {hcf}: {dadoReal}. Usando NULL")
+            return None
+
+    except (ValueError, IndexError) as e:
+        print(f"[INFO] Erro ao converter longitude no HCF - {hcf}: {dadoReal}. Usando NULL")
         return None
 
-    return longitudeConvertida
+
     
 def converteAltitude(altitude):
     # # encontrar altitudes erradas
@@ -303,7 +324,7 @@ def format_coordinate(coord):
         return coord[0:2] + '.' + coord[2:]
 
 def get_coordinates_from_city(city, state):
-    with open('coordenadas.csv', newline='', encoding='ISO-8859-1') as csvfile:
+    with open('coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
 
         next(csvReader)
@@ -316,63 +337,35 @@ def get_coordinates_from_city(city, state):
                 return latitude, longitude
     return None, None
 
-def updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, databaseAntiga):
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UEC - Herbário do Instituto de Biologia da UNICAMP' WHERE codigo=20;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='CTES - Herbário del Instituto de Botânica del Nordeste, Corrientes, Argentina' WHERE codigo=49;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='CVRD - Herbário da Reserva Natural Vale' WHERE codigo=19;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='EVB - Herbário Evaldo Buturra (UNILA)' WHERE codigo=43;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='FLOR - Herbário da Universidade Federal de Santa Catarina ' WHERE codigo=18;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='FUEL - Herbário da Universidade Estadual de Londrina' WHERE codigo=11;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='G - Herbarium Genavense' WHERE codigo=16;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HBR - Herbário Barbosa Rodrigues' WHERE codigo=54;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HCF - Herbário da Universidade Tecnológica Federal do Paraná Campus Campo Mourão' WHERE codigo=2;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='IBGE - Herbário' WHERE codigo=3;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HI - Herbário Integrado' WHERE codigo=5;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='HUEM - Herbário da Universidade Estadual de Maringá' WHERE codigo=21;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='ICN - Herbário da Universidade Federal do Rio Grande do Sul' WHERE codigo=10;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MBM - Museu Botânico Municipal de Curitiba' WHERE codigo=1;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MEXU - Herbario Nacional de Mexico' WHERE codigo=47;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='MO - Missouri Botanical Garden' WHERE codigo=52;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='RB - Herbário do Jardim Botânico do Rio de Janeiro' WHERE codigo=17;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UNOP - Herbário da Universidade Estadual do Oeste do Paraná' WHERE codigo=14;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UFPE - Laboratório Biologia de Briófitas' WHERE codigo=12;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UNOP - Herbário da Universidade Estadual do Oeste do Paraná' WHERE codigo=13;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='UPCB - Herbário do Depto de Botânica da Universidade Federal do Paraná' WHERE codigo=4;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='VIC - Herbário da Universidade Federal de Viçosa' WHERE codigo=58;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='VIES - Herbário Central da Universidade Federal do Espírito Santo' WHERE codigo=44;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
-    sqlAntiga = "UPDATE instituicao_identificadora SET nome_instituicao='INPA -  Herbário Instituto Nacional de Pesquisas da Amazônia' WHERE codigo=6;"
-    databaseAntiga.insertConteudoTabela('Update Herbarios Antigos', sqlAntiga, commitHerbariosDataAntiga, conexaoHerbariosAntiga )
+# Caso use a função para ler arquivos relacionados ao banco firebird, adicionar o database no último argumento, se for o sql, pode deixar vazio.
+def executar_sqls(nome_arquivo, conexao, database=None):
+    print(f"\n\n---- Executando SQLs do arquivo {nome_arquivo} ... ----")
+    cursor = None
     
+    if not database:
+        cursor = conexao.cursor()
+    
+    with open(nome_arquivo, 'r') as sql_file:
+        sql_queries = sql_file.read()
+    
+    for query in sql_queries.split(';'):
+        if query.strip():
+            if database:
+                database.insertConteudoTabela('Execução de SQLs', query.strip(), (), conexao)
+            else:
+                cursor.execute(query.strip())
+    
+    conexao.commit()
+    if not database:
+        cursor.close()
+    print(f"Execução do arquivo {nome_arquivo} concluída com sucesso.")
 
 def buildTables(arquivoSql):
     # Lê o arquivo .sql de criação de tabelas em SQL
     tabelas = {}
     with open(arquivoSql, 'r', encoding='utf-8') as f:
         sqlContent = f.read()
-    
+            
     # Expressão regular para capturar blocos de CREATE TABLE
     matches = re.findall(r'CREATE TABLE `(\w+)` \((.*?)\) ENGINE=.*?;', sqlContent, re.S)
     
@@ -388,13 +381,14 @@ def importarSql():
 
 def main():
     conexaoFirebird = Conexao()
-    conexaoFirebird.conexaoBancoFirebird('/firebird/data/HERBARIUM.GDB', 'SYSDBA', 'masterkey', True)
+    conexaoFirebird.conexaoBancoFirebird(os.getenv("FIREBIRD_DB_PATH"), os.getenv("FIREBIRD_USER"), os.getenv("FIREBIRD_PASSWORD"), True)
+
     conexaoNova = Conexao()
-    conexaoNova.conexaoNovoBanco('root', 'Test@123', 'my-mysql') # nickname, password
+    conexaoNova.conexaoNovoBanco(os.getenv("MYSQL_USER"), os.getenv("MYSQL_PASSWORD"), os.getenv("MYSQL_HOST"))
 
     TABLES = importarSql()
 
-    databaseNova = Database("hcf", conexaoNova.getCursor())  #nome da nova base de dados
+    databaseNova = Database("hcf", conexaoNova.getCursor()) #nome da nova base de dados
 
     try:
         conexaoNova.getCursor().execute("USE {}".format(databaseNova.getNome()))
@@ -587,17 +581,7 @@ def main():
     conexaoSql = conexaoNova.getConexao()
     cursorNova = conexaoSql.cursor()
 
-    with open('updated_cities_coordinates.sql', 'r') as sql_file:
-        sql_queries = sql_file.read()
-
-    for query in sql_queries.split(';'):
-        if query.strip():
-            cursorNova.execute(query)
-
-    conexaoSql.commit()
-    print("[DB_MYSQL] Correção concluída com sucesso")
-
-
+    executar_sqls('updated_cities_coordinates.sql', conexaoSql)
 
     print("\n\n---- LOCAIS_COLETA ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: local_coleta")
@@ -699,7 +683,7 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
     autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Migrando dados para tabela: especies")
     commitEspeciesData = ()
     sql = ("INSERT INTO especies "
@@ -717,14 +701,14 @@ def main():
                         for especie in especieData:
                             if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                                 for genero in generoData: #procura o id do genero com o nome encontrado
-                                    if(especie[2] == genero[1]):
+                                    if(especie[2] == genero[1] and especie[0] == genero[2]):
                                         commitEspeciesData = (tombo[0], autor[0], genero[0], tombo[2], 1)
                                         databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
             else: #insere quando especie nao tem um autor
                 for especie in especieData:
                     if(especie[0] == tombo[2] and especie[1] == tombo[3]): #procura o nome do genero na tabela especie
                         for genero in generoData: #procura o id do genero com o nome encontrado
-                            if(especie[2] == genero[1]):
+                            if(especie[2] == genero[1] and especie[0] == genero[2]):
                                 commitEspeciesData = (tombo[0], None, genero[0], tombo[2], 1)
                                 databaseNova.insertConteudoTabela("especies", sql, commitEspeciesData, conexaoEspecies )
     print("[DB_MYSQL] Migração concluída com sucesso")
@@ -845,9 +829,9 @@ def main():
     print("\n\n---- HERBARIOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: instituicao_identificadora")
     conexaoHerbariosAntiga = conexaoFirebird.getConexao()
-    commitHerbariosDataAntiga = ()
 
-    updateHerbariosFirebird(conexaoHerbariosAntiga, commitHerbariosDataAntiga, bancoFirebird)
+    executar_sqls('updated_herbarios.sql', conexaoHerbariosAntiga, bancoFirebird)
+
     herbariosData = bancoFirebird.getConteudoTabela("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
     print("[DB_MYSQL] Migrando dados para tabela: herbarios")
     commitHerbariosData = ()
@@ -919,11 +903,11 @@ def main():
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome, genero_id FROM especies")
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
     especieData = bancoFirebird.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_familias")
     sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
     print("[DB_MYSQL] Obtendo dados da tabela: sub_especies")
@@ -965,19 +949,19 @@ def main():
                 if(variedade[1] == tombo[11]):
                     variedadeFinal = variedade[0]
 
-        especieFinal = None
-        if(tombo[13]):
-            for especie in especiesData:
-                if(especie[1] == tombo[13]):
-                    especieFinal = especie[0]
-
         generoFinal = None
         if(tombo[14] and tombo[15]):
             for especie in especieData:
                 if(especie[0] == tombo[14] and especie[1] == tombo[15]): #procura o nome do genero na tabela especie
                     for genero in generoData: #procura o id do genero com o nome encontrado
-                        if(especie[2] == genero[1]):
+                        if(especie[2] == genero[1] and especie[0] == genero[2]):
                             generoFinal = genero[0]
+        
+        especieFinal = None
+        if(tombo[13]):
+            for especie in especiesData:
+                if((especie[1] == tombo[13]) and (especie[2] == generoFinal)):
+                    especieFinal = especie[0]
 
         sub_familiasFinal = None
         if(tombo[16]):
