@@ -9,6 +9,7 @@ services:
       - ./firebird/data:/firebird/data
       - ./firebird/backup:/backup
       - ./scripts:/scripts
+      - ./BuildTabelas.sql:/home/herbario/BuildTabelas.sql 
     ports:
       - 3050:3050
     networks:
