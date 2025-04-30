@@ -18,9 +18,10 @@ services:
     image: mysql/mysql-server:latest
     container_name: hcf_mysql
     restart: always
+    command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_DATABASE: hcf
       MYSQL_ROOT_PASSWORD: Test@123
+      MYSQL_DATABASE: hcf
     ports:
       - 3306:3306
     volumes:

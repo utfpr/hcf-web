@@ -324,7 +324,7 @@ def format_coordinate(coord):
         return coord[0:2] + '.' + coord[2:]
 
 def get_coordinates_from_city(city, state):
-    with open('coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
+    with open('./Cidades_Estados_Paises/coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
 
         next(csvReader)
@@ -1418,7 +1418,7 @@ def main():
 
     print("\n\n---- TOMBOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tombosData = bancoFirebird.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao, tombo_coletor FROM tombo")
+    tombosData = bancoFirebird.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, nome_especie_formatada, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao, tombo_coletor FROM tombo")
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
     print("[DB_MYSQL] Obtendo dados da tabela: especies")

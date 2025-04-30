@@ -5,7 +5,7 @@ def transferCities(databaseNova, conexaoNova):
     print("Processando Cidades! Aguarde...")
     
     cidadesData = ''
-    with open('Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
+    with open('../Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)  # Pula o cabeçalho
         cidadesData = list(csvReader)
@@ -44,7 +44,7 @@ def transferCities(databaseNova, conexaoNova):
 
     cursorNova.execute("SET search_path TO public;")
     
-    with open('Cidades_Estados_Paises/updated_cities_coordinates_pg.sql', 'r') as sql_file:
+    with open('../Cidades_Estados_Paises/updated_cities_coordinates_pg.sql', 'r') as sql_file:
         sql_queries = sql_file.read()
     
     for query in sql_queries.split(';'):

@@ -194,7 +194,7 @@ def format_coordinate(coord):
         return coord[0:2] + '.' + coord[2:]
 
 def get_coordinates_from_city(city, state):
-    with open('Cidades_Estados_Paises/coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
+    with open('../Cidades_Estados_Paises/coordenadas.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
 
         next(csvReader)

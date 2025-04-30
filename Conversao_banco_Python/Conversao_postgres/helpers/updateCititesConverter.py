@@ -1,6 +1,6 @@
 import re
 
-with open("Cidades_Estados_Paises/updated_cities_coordinates.sql", "r") as f:
+with open("../Cidades_Estados_Paises/updated_cities_coordinates.sql", "r") as f:
     mysql_sql = f.read()
 
 postgres_sql = ""
@@ -20,7 +20,7 @@ WHERE {match['city_alias']}.estado_id = {match['state_alias']}.id AND {match['wh
 """
     postgres_sql += pg_query + "\n"
 
-with open("Cidades_Estados_Paises/updated_cities_coordinates_pg.sql", "w") as f:
+with open("../Cidades_Estados_Paises/updated_cities_coordinates_pg.sql", "w") as f:
     f.write(postgres_sql)
 
 print("Arquivo convertido para PostgreSQL com sucesso!")

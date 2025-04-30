@@ -38,7 +38,7 @@ if not db_exists or table_count == 0:
         print("Banco 'hcf' encontrado, mas está vazio. Criando tabelas...")
 
     # Criar tabelas no PostgreSQL a partir do arquivo SQL
-    with open("Conversao_postgres/tables/tabelasPostgres.sql", "r", encoding="UTF-8") as file:
+    with open("./tables/tabelasPostgres.sql", "r", encoding="UTF-8") as file:
         sql_script = file.read()
 
     # Dividir e limpar comandos SQL corretamente

@@ -4,7 +4,7 @@ def transferStates(databaseNova, conexaoNova):
     print("Processando Estados! Aguarde...")
     
     estadosData = ''
-    with open('Cidades_Estados_Paises/estados.csv', newline='', encoding="UTF-8") as csvfile:
+    with open('../Cidades_Estados_Paises/estados.csv', newline='', encoding="UTF-8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)  # Pula o cabeçalho
         estadosData = list(csvReader)
