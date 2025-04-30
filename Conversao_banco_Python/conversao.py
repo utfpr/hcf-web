@@ -361,7 +361,6 @@ def executar_sqls(nome_arquivo, conexao, database=None):
     print(f"Execução do arquivo {nome_arquivo} concluída com sucesso.")
 
 def buildTables(arquivoSql):
-    # Lê o arquivo .sql de criação de tabelas em SQL
     tabelas = {}
     with open(arquivoSql, 'r', encoding='utf-8') as f:
         sqlContent = f.read()
@@ -375,9 +374,11 @@ def buildTables(arquivoSql):
     return tabelas
 
 def importarSql():
-    arquivoSql = 'BuildTabelas.sql'
+    caminho_script = os.path.dirname(__file__)
 
-    return buildTables(arquivoSql)
+    caminho_arquivo_sql = os.path.join(caminho_script, 'BuildTabelas.sql')
+    
+    return buildTables(caminho_arquivo_sql)
 
 def main():
     conexaoFirebird = Conexao()
