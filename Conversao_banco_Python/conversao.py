@@ -535,14 +535,9 @@ def main():
 
     print("\n\n---- PAISES ... ----")
     print("[OTHER] Criando dados: países")
-<<<<<<< HEAD
     paisesData = ''
     with open('./Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
-=======
-    with open('paises.csv', newline='', encoding="utf8") as csvfile:
-        csvReader = csv.reader(csvfile, delimiter=';')
->>>>>>> development
         next(csvReader)
         paisesData = list(csvReader)
     print("[DB_MYSQL] Inserindo dados para tabela: paises")
@@ -561,14 +556,9 @@ def main():
 
     print("\n\n---- ESTADOS ... ----")
     print("[OTHER] Criando dados: estados")
-<<<<<<< HEAD
     estadosData = ''
     with open('./Cidades_Estados_Paises/estados.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
-=======
-    with open('estados.csv', newline='', encoding="utf8") as csvfile:
-        csvReader = csv.reader(csvfile, delimiter=';')
->>>>>>> development
         next(csvReader)
         estadosData = list(csvReader)
     print("[DB_MYSQL] Inserindo dados para tabela: estados")
@@ -588,12 +578,8 @@ def main():
 
     print("\n\n---- CIDADES ... ----")
     print("[OTHER] Criando dados: cidades")
-<<<<<<< HEAD
     cidadesData = ''
     with open('./Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
-=======
-    with open('municipios.csv', newline='', encoding='UTF-8') as csvfile:
->>>>>>> development
         csvReader = csv.reader(csvfile, delimiter=';')
         next(csvReader)
         cidadesData = list(csvReader)
@@ -1114,19 +1100,7 @@ def main():
 
     print("\n\n---- TOMBOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-<<<<<<< HEAD
     tombosData = bancoFirebird.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, nome_especie_formatada, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao, tombo_coletor FROM tombo")
-=======
-    tombosData = bancoFirebird.getConteudoTabela("tombo", """
-        SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, 
-               altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, 
-               codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, 
-               vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, 
-               data_identificacao, tombo_coletor 
-        FROM tombo
-    """)
-
->>>>>>> development
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
     variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
 
