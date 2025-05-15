@@ -14,7 +14,11 @@ CREATE TABLE `configuracao` (
     `nome_arquivo` varchar(50) DEFAULT NULL,
     `servico` enum('REFLORA','SPECIESLINK') DEFAULT NULL,
     PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+=======
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+>>>>>>> development
 
 CREATE TABLE `coletores` (
     `id` int NOT NULL AUTO_INCREMENT,
