@@ -531,7 +531,16 @@ def main():
         databaseNova.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional)
     print("[DB_MYSQL] Inserção concluída com sucesso")
 
+    print("\n\n---- REINOS ... ----")
+    print("[DB_MYSQL] Inserindo dados para tabela: reinos")
+    sql_reinos = "INSERT INTO reinos (nome) VALUES (%s)"
 
+    conexaoReinos = conexaoNova.getConexao()
+    reinosData = ["Plantae", "Fungi"]
+    for nome in reinosData:
+        params = (nome,)
+        databaseNova.insertConteudoTabela("reinos", sql_reinos, params, conexaoReinos)
+    print("[DB_MYSQL] Inserção concluída com sucesso")
 
     print("\n\n---- PAISES ... ----")
     print("[OTHER] Criando dados: países")
@@ -649,11 +658,19 @@ def main():
     print("[DB_FIREBIRD] Obtendo dados da tabela: familia")
     familiasData = bancoFirebird.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
 
+    print("[DB_MYSQL] Alterando tabela 'familias' para adicionar coluna reino_id")
+    sql_alter = "ALTER TABLE familias ADD COLUMN reino_id INT(11) AFTER id;"
+    conexaoMeta = conexaoNova.getConexao()
+    with conexaoMeta.cursor() as cursor:
+        cursor.execute(sql_alter)
+        conexaoMeta.commit()
+    print("[DB_MYSQL] Alteração concluída com sucesso")
+
     print("[DB_MYSQL] Migrando dados para tabela: familias")
     sql = (
         "INSERT INTO familias "
-        "(id, nome, ativo) "
-        "VALUES (%s, %s, %s)"
+        "(id, nome, ativo, reino_id) "
+        "VALUES (%s, %s, %s, %s)"
     )
 
     conexaoFamilias = conexaoNova.getConexao()
@@ -661,7 +678,8 @@ def main():
         commitFamiliasData = (
             familia.get("cod_familia"),
             familia.get("familia"),
-            1
+            1,
+            familia.get("reino_id")
         )
         databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias)
 

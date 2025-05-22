@@ -68,6 +68,14 @@ CREATE TABLE `paises` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE `reinos` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `nome` varchar(200) NOT NULL,
+    `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 CREATE TABLE `estados` (
     `id` int unsigned NOT NULL AUTO_INCREMENT,
     `nome` varchar(255) NOT NULL,
