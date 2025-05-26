@@ -658,14 +658,6 @@ def main():
     print("[DB_FIREBIRD] Obtendo dados da tabela: familia")
     familiasData = bancoFirebird.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
 
-    print("[DB_MYSQL] Alterando tabela 'familias' para adicionar coluna reino_id")
-    sql_alter = "ALTER TABLE familias ADD COLUMN reino_id INT(11) AFTER id;"
-    conexaoMeta = conexaoNova.getConexao()
-    with conexaoMeta.cursor() as cursor:
-        cursor.execute(sql_alter)
-        conexaoMeta.commit()
-    print("[DB_MYSQL] Alteração concluída com sucesso")
-
     print("[DB_MYSQL] Migrando dados para tabela: familias")
     sql = (
         "INSERT INTO familias "
@@ -679,7 +671,7 @@ def main():
             familia.get("cod_familia"),
             familia.get("familia"),
             1,
-            familia.get("reino_id")
+            1
         )
         databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias)
 
