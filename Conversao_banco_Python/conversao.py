@@ -531,7 +531,16 @@ def main():
         databaseNova.insertConteudoTabela("fase_sucessional", sql, commitFase_sucessionalData, conexaoFase_sucessional)
     print("[DB_MYSQL] Inserção concluída com sucesso")
 
+    print("\n\n---- REINOS ... ----")
+    print("[DB_MYSQL] Inserindo dados para tabela: reinos")
+    sql_reinos = "INSERT INTO reinos (nome) VALUES (%s)"
 
+    conexaoReinos = conexaoNova.getConexao()
+    reinosData = ["Plantae", "Fungi"]
+    for nome in reinosData:
+        params = (nome,)
+        databaseNova.insertConteudoTabela("reinos", sql_reinos, params, conexaoReinos)
+    print("[DB_MYSQL] Inserção concluída com sucesso")
 
     print("\n\n---- PAISES ... ----")
     print("[OTHER] Criando dados: países")
@@ -652,8 +661,8 @@ def main():
     print("[DB_MYSQL] Migrando dados para tabela: familias")
     sql = (
         "INSERT INTO familias "
-        "(id, nome, ativo) "
-        "VALUES (%s, %s, %s)"
+        "(id, nome, ativo, reino_id) "
+        "VALUES (%s, %s, %s, %s)"
     )
 
     conexaoFamilias = conexaoNova.getConexao()
@@ -661,6 +670,7 @@ def main():
         commitFamiliasData = (
             familia.get("cod_familia"),
             familia.get("familia"),
+            1,
             1
         )
         databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias)
