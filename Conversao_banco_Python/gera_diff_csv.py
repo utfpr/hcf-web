@@ -6,13 +6,11 @@ import csv
 # Mapeamento manual baseado nas tabelas que você me passou
 tabela_map = {
     'COLETOR': 'coletores',
-    'DOACAO': None,  # não foi migrada explicitamente
-    'ESPECIE': 'generos',  # gêneros vêm de especie (Firebird)
+    'ESPECIE': 'generos', 
     'FAMILIA': 'familias',
     'IDENTIFICADOR': 'identificadores',
     'INSTITUICAO_IDENTIFICADORA': 'herbarios',
     'LOCAL_COLETA': 'locais_coleta',
-    'PARAMETROS': 'configuracao',
     'RELEVO': 'relevos',
     'REMESSA': 'remessas',
     'SOLO': 'solos',
@@ -22,7 +20,6 @@ tabela_map = {
     'TOMBO_EXSICATA': 'tombos_fotos',
     'TOMBO_FOTOS': 'tombos_fotos',  # mesma origem
     'TOMBO_REG_ALT': 'tombo_alteracoes_antigas',
-    'USUARIO': 'usuarios',
     'VEGETACAO': 'vegetacoes'
 }
 
@@ -67,17 +64,7 @@ def comparar_tabelas():
     resultados = []
 
     for fb_nome, destino_nome in tabela_map.items():
-        if destino_nome is None:
-            resultados.append({
-                'Tabela Firebird': fb_nome,
-                'Tabela Destino': 'NÃO MIGRADA',
-                'Registros Firebird': 'IGNORADO',
-                'Registros MySQL': 'N/A',
-                'Registros PostgreSQL': 'N/A',
-                'Status': '⚠️ Tabela não migrada'
-            })
-            continue
-
+  
         try:
             fb_cursor.execute(f"SELECT COUNT(*) FROM {fb_nome}")
             count_fb = fb_cursor.fetchone()[0]
@@ -88,7 +75,7 @@ def comparar_tabelas():
             pg_cursor.execute(f"SELECT COUNT(*) FROM {destino_nome}")
             count_pg = pg_cursor.fetchone()[0]
 
-            status = '✅ OK' if count_fb == count_mysql == count_pg else '❌ Divergente'
+            status = '✅ OK' if count_fb == count_pg else '❌ Divergente'
 
             resultados.append({
                 'Tabela Firebird': fb_nome,

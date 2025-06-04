@@ -1,4 +1,11 @@
 import re
+import unicodedata
+
+def normalizar_nome(nome: str) -> str:
+    """Remove acentos, espaços duplicados e deixa lowercase."""
+    nome = unicodedata.normalize("NFKD", nome)
+    nome = ''.join(c for c in nome if not unicodedata.combining(c))
+    return ' '.join(nome.lower().strip().split())
 
 def transferIdentifiers(databaseAntiga, databaseNova, conexaoNova):
     print("Processando Identificadores! Aguarde...")
@@ -12,10 +19,10 @@ def transferIdentifiers(databaseAntiga, databaseNova, conexaoNova):
     cursor = conexaoIdentificador.cursor()
 
     for identificadores in identificadorData:
-        identificadorSplit = re.split(r'[&;,]', identificadores[0])
+        identificadorSplit = re.split(r'\s*(?:&|;|,| e )\s*', identificadores[0])
         
         for identificador in identificadorSplit:
-            identificador = identificador.strip()  # Remove espaços extras
+            identificador = normalizar_nome(identificador)
             cursor.execute(sql_check, (identificador,))
             
             if cursor.fetchone()[0] == 0:  # Se não existir o identificador

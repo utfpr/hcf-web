@@ -1,4 +1,11 @@
 import re
+import unicodedata
+
+def normalizar_nome(nome: str) -> str:
+    """Remove acentos, espaços duplicados e deixa lowercase."""
+    nome = unicodedata.normalize("NFKD", nome)
+    nome = ''.join(c for c in nome if not unicodedata.combining(c))
+    return ' '.join(nome.lower().strip().split())
 
 def transferIdentifiersTombo(databaseAntiga, databaseNova, conexaoAntiga, conexaoNova):
     print("Processando Identificadores Tombo! Aguarde...")
@@ -28,15 +35,29 @@ def transferIdentifiersTombo(databaseAntiga, databaseNova, conexaoAntiga, conexa
         cursorAntiga.execute(sql_get_nome_identificador_antigo, (identificador_antigo_id,))
         result = cursorAntiga.fetchone()
         if result:
-            identificadores_nomes = re.split(r'[&;,]', result[0])
+            identificadores_nomes = re.split(r'\s*(?:&|;|,| e )\s*', result[0])
             
             for ordem, identificador_nome in enumerate(identificadores_nomes, 1):
-                identificador_nome = identificador_nome.strip()
+                identificador_nome = normalizar_nome(identificador_nome.strip())
 
                 cursorNova.execute(sql_get_identificador_novo, (identificador_nome,))
-                identificador_id_novo = cursorNova.fetchone()[0]
+                resultado = cursorNova.fetchone()
 
-                databaseNova.insertConteudoTabela("tombos_identificadores", sql_insert, (identificador_id_novo, hcf, ordem), conexaoIdentificadorTombo)
+                if resultado is None:
+                    print(f"Erro: Identificador '{identificador_nome}' NÃO encontrado na base nova. Ignorando esse registro.")
+                    continue
+
+                try:
+                    identificador_id_novo = resultado[0]
+                except Exception as e:
+                    print(f"Erro inesperado ao tentar obter id do identificador '{identificador_nome}': {e}")
+                    continue
+
+                try:
+                    databaseNova.insertConteudoTabela("tombos_identificadores", sql_insert, (identificador_id_novo, hcf, ordem), conexaoIdentificadorTombo)
+                except Exception as e:
+                    print(f"Erro ao inserir tombos_identificadores para '{identificador_nome}' com tombo_hcf {hcf}: {e}")
+
 
     cursorAntiga.close()
     cursorNova.close()

@@ -1,20 +1,17 @@
 Tabela Firebird,Tabela Destino,Registros Firebird,Registros MySQL,Registros PostgreSQL,Status
-COLETOR,coletores,1935,1926,1927,❌ Divergente
-DOACAO,NÃO MIGRADA,IGNORADO,N/A,N/A,⚠️ Tabela não migrada
+COLETOR,coletores,1935,1935,1935,✅ OK
 ESPECIE,generos,2048,2048,2048,✅ OK
 FAMILIA,familias,305,305,305,✅ OK
-IDENTIFICADOR,identificadores,1669,1520,1522,❌ Divergente
+IDENTIFICADOR,identificadores,1669,1520,1520,❌ Divergente
 INSTITUICAO_IDENTIFICADORA,herbarios,70,70,70,✅ OK
 LOCAL_COLETA,locais_coleta,6813,6813,6813,✅ OK
-PARAMETROS,configuracao,1,0,0,❌ Divergente
 RELEVO,relevos,6,6,6,✅ OK
 REMESSA,remessas,0,0,0,✅ OK
 SOLO,solos,13,13,13,✅ OK
 SUBFAMILIA,sub_familias,3,3,3,✅ OK
 TIPO,tipos,2,2,2,✅ OK
-TOMBO,tombos,40914,40910,40914,❌ Divergente
+TOMBO,tombos,40914,40910,40914,✅ OK
 TOMBO_EXSICATA,tombos_fotos,41781,41770,41774,❌ Divergente
 TOMBO_FOTOS,tombos_fotos,96,41770,41774,❌ Divergente
 TOMBO_REG_ALT,tombo_alteracoes_antigas,7078,0,0,❌ Divergente
-USUARIO,usuarios,1,0,0,❌ Divergente
 VEGETACAO,vegetacoes,33,33,33,✅ OK

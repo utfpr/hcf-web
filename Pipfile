@@ -4,12 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fdb = "2.0.2"
-psycopg2-binary = "*"
-python-dotenv = "*"
-mysql-connector-python = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.10"
