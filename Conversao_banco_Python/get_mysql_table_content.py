@@ -14,17 +14,27 @@ def get_mysql_table_content():
     my_cursor = my_conn.cursor()
 
     # Obtém a lista de tabelas no banco de dados
-    table = "identificadores"
-    fields = "nome"
+    table = "tombos"
+    fields = "*"
     
+    # Executa a consulta para obter os dados da tabela
     my_cursor.execute(f"SELECT {fields} FROM {table}")
+    
+    # Obtém os nomes dos campos (colunas) da tabela
+    columns = [desc[0] for desc in my_cursor.description]
+    
     rows = my_cursor.fetchall()
     print(f"\nConteúdo da tabela {table} ({len(rows)} registros):")
-    with open('identificadores_mysql.txt', 'w') as file:
+    
+    # Abre o arquivo para escrita
+    with open(f'{table}_mysql.txt', 'w') as file:
+        # Escreve os nomes dos campos como cabeçalho
+        file.write(" | ".join(columns) + "\n")
+        
+        # Escreve os dados das linhas abaixo do cabeçalho
         for row in rows:
-            nome_identificador = row[0].strip()
-            print(f"- {nome_identificador}")
-            file.write(f"{nome_identificador}\n")
+            print(f"- {row}")
+            file.write(" | ".join(str(value) for value in row) + "\n")
 
 
     my_cursor.close()

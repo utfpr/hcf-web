@@ -6,11 +6,13 @@ import csv
 # Mapeamento manual baseado nas tabelas que você me passou
 tabela_map = {
     'COLETOR': 'coletores',
-    'ESPECIE': 'generos', 
+    'DOACAO': None,  # não foi migrada explicitamente
+    'ESPECIE': 'generos',  # gêneros vêm de especie (Firebird)
     'FAMILIA': 'familias',
     'IDENTIFICADOR': 'identificadores',
     'INSTITUICAO_IDENTIFICADORA': 'herbarios',
     'LOCAL_COLETA': 'locais_coleta',
+    'PARAMETROS': 'configuracao',
     'RELEVO': 'relevos',
     'REMESSA': 'remessas',
     'SOLO': 'solos',
@@ -20,6 +22,7 @@ tabela_map = {
     'TOMBO_EXSICATA': 'tombos_fotos',
     'TOMBO_FOTOS': 'tombos_fotos',  # mesma origem
     'TOMBO_REG_ALT': 'tombo_alteracoes_antigas',
+    'USUARIO': 'usuarios',
     'VEGETACAO': 'vegetacoes'
 }
 
@@ -75,7 +78,7 @@ def comparar_tabelas():
             pg_cursor.execute(f"SELECT COUNT(*) FROM {destino_nome}")
             count_pg = pg_cursor.fetchone()[0]
 
-            status = '✅ OK' if count_fb == count_pg else '❌ Divergente'
+            status = '✅ OK' if count_mysql == count_pg else '❌ Divergente'
 
             resultados.append({
                 'Tabela Firebird': fb_nome,

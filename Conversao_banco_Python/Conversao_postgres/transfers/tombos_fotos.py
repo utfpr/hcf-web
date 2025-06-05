@@ -25,5 +25,8 @@ def transferTombosPhotos(databaseAntiga, databaseNova, conexaoNova):
 
             commitTombos_fotosData = (tombos_fotos[0], tombos_fotos[2], tombos_fotos[3], caminho_foto, True, tombos_fotos[1], True)
             databaseNova.insertConteudoTabela("tombos_fotos", sql, commitTombos_fotosData, conexaoTombos_fotos)
+        else: 
+            print(f"Tombo {tombos_fotos[0]} não inserido, pois é zero.")
+            print(f"Dados: {tombos_fotos}")
 
     print("Concluído!")

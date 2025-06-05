@@ -133,3 +133,44 @@ Identificadores: ['A.M. Miranda']
 Identificador: A.M. Miranda
 Identificadores: ['F.S. Meyer ', ' V. Weiss']
 Identificador: V. Weiss
+
+Processando Tombos Fotos! Aguarde...
+Obtendo conteúdo da tabela tombo_exsicata: OK
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 1, 'HCF000017582', 17582.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 2, 'HCF000021328', 21328.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 3, 'HCF000026309', 26309.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 4, 'HCF000026727', 26727.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 5, 'HCF000035040', 35040.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 6, 'HCF000039457', 39457.0)
+Tombo 0.0 não inserido, pois é zero.
+Dados: (0.0, 7, 'HCF000039458', 39458.0)
+
+---- TOMBO_FOTOS ... ----
+[DB_FIREBIRD] Obtendo dados da tabela: tombo_exsicata
+[INFO] Geting table content tombo_exsicata: OK
+[DB_MYSQL] Migrando dados para tabela: tombo_fotos
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 1, 'cod_barra': 'HCF000017582', 'num_barra': 17582.0}
+Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 2, 'cod_barra': 'HCF000021328', 'num_barra': 21328.0}
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 3, 'cod_barra': 'HCF000026309', 'num_barra': 26309.0}
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 4, 'cod_barra': 'HCF000026727', 'num_barra': 26727.0}
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 5, 'cod_barra': 'HCF000035040', 'num_barra': 35040.0}
+Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 6, 'cod_barra': 'HCF000039457', 'num_barra': 39457.0}
+Tombo 0.0 não inserido, pois é zero.
+Dados: {'num_tombo': 0.0, 'sequencia': 7, 'cod_barra': 'HCF000039458', 'num_barra': 39458.0}
+Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+[DB_MYSQL] Migração concluída com sucesso
