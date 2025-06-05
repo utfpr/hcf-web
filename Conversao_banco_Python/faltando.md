@@ -157,7 +157,7 @@ Dados: (0.0, 7, 'HCF000039458', 39458.0)
 [DB_MYSQL] Migrando dados para tabela: tombo_fotos
 Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 1, 'cod_barra': 'HCF000017582', 'num_barra': 17582.0}
-Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+Tombo com hcf 11197.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
 Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 2, 'cod_barra': 'HCF000021328', 'num_barra': 21328.0}
 Tombo 0.0 não inserido, pois é zero.
@@ -166,11 +166,10 @@ Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 4, 'cod_barra': 'HCF000026727', 'num_barra': 26727.0}
 Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 5, 'cod_barra': 'HCF000035040', 'num_barra': 35040.0}
-Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
+Tombo com hcf 38416.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
 Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 6, 'cod_barra': 'HCF000039457', 'num_barra': 39457.0}
 Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 7, 'cod_barra': 'HCF000039458', 'num_barra': 39458.0}
-Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
-Cannot add or update a child row: a foreign key constraint fails (`hcf`.`tombos_fotos`, CONSTRAINT `fk_tombos_fotos_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`)) 0 0 0 0
-[DB_MYSQL] Migração concluída com sucesso
+Tombo com hcf 38802.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
+Tombo com hcf 40560.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
