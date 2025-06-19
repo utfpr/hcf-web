@@ -2,10 +2,7 @@ import re
 import unicodedata
 
 def normalizar_nome(nome: str) -> str:
-    """Remove acentos, espaços duplicados e deixa lowercase."""
-    nome = unicodedata.normalize("NFKD", nome)
-    nome = ''.join(c for c in nome if not unicodedata.combining(c))
-    return ' '.join(nome.lower().strip().split())
+    return ' '.join(nome.strip().split())
 
 def transferIdentifiers(databaseAntiga, databaseNova, conexaoNova):
     print("Processando Identificadores! Aguarde...")
