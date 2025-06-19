@@ -2,10 +2,7 @@ import re
 import unicodedata
 
 def normalizar_nome(nome: str) -> str:
-    """Remove acentos, espaços duplicados e deixa lowercase."""
-    nome = unicodedata.normalize("NFKD", nome)
-    nome = ''.join(c for c in nome if not unicodedata.combining(c))
-    return ' '.join(nome.lower().strip().split())
+    return ' '.join(nome.strip().split())
 
 def transferIdentifiersTombo(databaseAntiga, databaseNova, conexaoAntiga, conexaoNova):
     print("Processando Identificadores Tombo! Aguarde...")
@@ -42,10 +39,6 @@ def transferIdentifiersTombo(databaseAntiga, databaseNova, conexaoAntiga, conexa
 
                 cursorNova.execute(sql_get_identificador_novo, (identificador_nome,))
                 resultado = cursorNova.fetchone()
-
-                if resultado is None:
-                    print(f"Erro: Identificador '{identificador_nome}' NÃO encontrado na base nova. Ignorando esse registro.")
-                    continue
 
                 try:
                     identificador_id_novo = resultado[0]
