@@ -277,10 +277,8 @@ def convertLongitude(longitude, hcf=0):
         return None
 
 def normalizar_nome(nome: str) -> str:
-    """Remove acentos, espaços duplicados e deixa lowercase."""
-    nome = unicodedata.normalize("NFKD", nome)
-    nome = ''.join(c for c in nome if not unicodedata.combining(c))
-    return ' '.join(nome.lower().strip().split())
+    """Remove acentos, espaços duplicados"""
+    return ' '.join(nome.strip().split())
 
 def converteAltitude(altitude):
     # # encontrar altitudes erradas
