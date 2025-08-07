@@ -1,37 +1,30 @@
 
 import csv
 import re
+import unicodedata
 
-def padronizaNomeAutor(nome):
-    nomeFinal = ""
-    for i in range(0, len(nome)):
-        if (nome[i] != '(' and nome[i] != ')'):
-            if (nome[i] == '&'):
-                nomeFinal += " & "
-            elif (ord(nome[i]) >= 65 and ord(nome[i]) <= 90): # é maiusculo
-                if (i + 1 < len(nome)):
-                    if (nome[i + 1] == '&'):
-                        nomeFinal += nome[i] + ". "
-                    elif (ord(nome[i + 1]) >= 65 and ord(nome[i + 1]) <= 90):
-                        nomeFinal += nome[i] + ". "
-                    elif (i - 1 >= 0 and ord(nome[i - 1]) >= 97 and ord(nome[i - 1]) <= 122):
-                        nomeFinal += " " + nome[i]
-                    else :
-                        nomeFinal += nome[i]
-            else:
-                nomeFinal += nome[i]
-        else:
-            nomeFinal += nome[i]
-    return nomeFinal
+def padronizaNomeAutor(nome: str) -> str:
+    # 1. Remover espaços nas pontas
+    nome = nome.strip()
+    
+    # 2. Normalizar acentos para forma NFC (mantém acentos)
+    nome = unicodedata.normalize("NFC", nome)
+    
+    # 3. Padronizar espaços múltiplos
+    nome = re.sub(r"\s+", " ", nome)
+    
+    # 4. Padronizar espaços ao redor de &
+    nome = re.sub(r"\s*&\s*", " & ", nome)
+    
+    # 5. Remover pontos finais isolados (ex: "Rohrb." -> "Rohrb")
+    nome = re.sub(r"\.(?=\s|$)", "", nome)
+    
+    return nome
 
-def getIniciaisAutores(nome) :
-    iniciais = ""
-    for i in range(0, len(nome)):
-        if (nome[i] == '&'):
-            iniciais += " & "
-        elif (ord(nome[i]) >= 65 and ord(nome[i]) <= 90): # é maiusculo
-            iniciais += nome[i] + "."
-    return iniciais
+def getIniciaisAutores(nome: str) -> str:
+    partes = nome.replace("&", "").split()
+    iniciais = [p[0].upper() + "." for p in partes if p and p[0].isalpha()]
+    return " ".join(iniciais)
 
 def buscaCidadeId(listaCidade, listaEstados, listaPaises, cidadeAntiga):
     if(cidadeAntiga[5] == 'Brasil' or cidadeAntiga[5] == 'BR'):

@@ -34,7 +34,7 @@ class Conexao():
                 dsn=database,
                 user=user, 
                 password=password,
-                charset='WIN1252'
+                charset='UTF8'
             )
             self.__cursor = self.__conexao.cursor()
         print("[CONN] Conexão realizada com sucesso")
@@ -61,7 +61,7 @@ class Database():
     def create_database(self):
         try:
             self.__cursor.execute(
-                "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8mb4'".format(self.__DB_NOME))
+                "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(self.__DB_NOME))
         except mysql.connector.Error as err:
             print("Failed creating database: {}".format(err))
             exit(1)
@@ -91,15 +91,31 @@ class Database():
     def getNome(self):
         return self.__DB_NOME
 
-    def getConteudoTabela(self, nome, sql):
-        result = 'error'
+    def getConteudoTabelaFirebird(self, nome, sql):
+        result = []
         try:
-            print("[INFO] Geting table content {}: ".format(nome), end='')
+            print(f"[INFO] Getting table content {nome}: ", end='')
             self.__cursor.execute(sql)
-            columns = [desc[0].lower() for desc in self.__cursor.description]
-            result = [dict(zip(columns, row)) for row in self.__cursor.fetchall()]
+            rows = self.__cursor.fetchall()
+            if rows:
+                columns = [desc[0].lower() for desc in self.__cursor.description]
+                result = [dict(zip(columns, row)) for row in rows]
+            else:
+                print("No data found.")
         except mysql.connector.Error as err:
-            result = err.msg
+            print(f"Error: {err.msg}")
+        else:
+            print("OK")
+        return result
+    
+    def getConteudoTabelaMySql(self, nome, sql):
+        result = []
+        try:
+            print(f"[INFO] Getting table content {nome}: ", end='')
+            self.__cursor.execute(sql)
+            result = self.__cursor.fetchall()
+        except mysql.connector.Error as err:
+            print(f"Error: {err.msg}")
         else:
             print("OK")
         return result
@@ -137,14 +153,10 @@ def padronizaNomeAutor(nome):
             nomeFinal += nome[i]
     return nomeFinal
 
-def getIniciaisAutores(nome) :
-    iniciais = ""
-    for i in range(0, len(nome)):
-        if (nome[i] == '&'):
-            iniciais += " & "
-        elif (ord(nome[i]) >= 65 and ord(nome[i]) <= 90): # é maiusculo
-            iniciais += nome[i] + "."
-    return iniciais
+def getIniciaisAutores(nome: str) -> str:
+    partes = nome.replace("&", "").split()
+    iniciais = [p[0].upper() + "." for p in partes if p and p[0].isalpha()]
+    return " ".join(iniciais)
 
 def buscaCidadeId(listaCidade, listaEstados, listaPaises, cidadeAntiga):
     pais_nome = cidadeAntiga.get("pais", "").upper()
@@ -380,7 +392,7 @@ def buildTables(arquivoSql):
     matches = re.findall(r'CREATE TABLE `(\w+)` \((.*?)\) ENGINE=.*?;', sqlContent, re.S)
     
     for nome, estrutura in matches:
-        tabelas[nome] = f"CREATE TABLE `{nome}` ({estrutura}) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;"
+        tabelas[nome] = f"CREATE TABLE `{nome}` ({estrutura}) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
     
     return tabelas
 
@@ -422,9 +434,9 @@ def main():
 
     print("\n\n---- COLETORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: coletor")
-    coletorData = bancoFirebird.getConteudoTabela("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
+    coletorData = bancoFirebird.getConteudoTabelaFirebird("coletor", "SELECT num_coletor, nome_coletor FROM coletor")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    coletorNumero = bancoFirebird.getConteudoTabela("tombo", "SELECT tombo_coletor, max(num_coleta) as max_coleta FROM tombo GROUP BY tombo_coletor;")
+    coletorNumero = bancoFirebird.getConteudoTabelaFirebird("tombo", "SELECT tombo_coletor, max(num_coleta) as max_coleta FROM tombo GROUP BY tombo_coletor;")
     print("[DB_MYSQL] Migrando dados para tabela: coletores")
 
     commitColetorData = ()
@@ -462,7 +474,7 @@ def main():
 
     print("\n\n---- RELEVOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: relevo")
-    relevosData = bancoFirebird.getConteudoTabela("relevo", "SELECT cod_relevo, tp_relevo FROM relevo")
+    relevosData = bancoFirebird.getConteudoTabelaFirebird("relevo", "SELECT cod_relevo, tp_relevo FROM relevo")
     print("[DB_MYSQL] Migrando dados para tabela: relevos")
 
     commitRelevosData = ()
@@ -480,7 +492,7 @@ def main():
 
     print("\n\n---- SOLOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: solo")
-    solosData = bancoFirebird.getConteudoTabela("solo", "SELECT cod_solo, tp_solo FROM solo")
+    solosData = bancoFirebird.getConteudoTabelaFirebird("solo", "SELECT cod_solo, tp_solo FROM solo")
     print("[DB_MYSQL] Migrando dados para tabela: solos")
     commitSolosData = ()
     sql = ("INSERT INTO solos "
@@ -491,11 +503,11 @@ def main():
         commitSolosData = (solos["cod_solo"], solos["tp_solo"])
         databaseNova.insertConteudoTabela("solos", sql, commitSolosData, conexaoSolos)
     print("[DB_MYSQL] Migração concluída com sucesso")
-
+    
 
     print("\n\n---- VEGETACOES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: vegetacao")
-    vegetacoesData = bancoFirebird.getConteudoTabela("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
+    vegetacoesData = bancoFirebird.getConteudoTabelaFirebird("vegetacao", "SELECT cod_vegetacao, tp_vegetacao FROM vegetacao")
     print("[DB_MYSQL] Migrando dados para tabela: vegetacoes")
 
     commitVegetacoesData = ()
@@ -540,7 +552,7 @@ def main():
     paisesData = ''
     with open('./Cidades_Estados_Paises/paises.csv', newline='', encoding="utf8") as csvfile:
         csvReader = csv.reader(csvfile, delimiter = ';')
-        # next(csvReader)
+        next(csvReader)
         paisesData = list(csvReader)
     print("[DB_MYSQL] Inserindo dados para tabela: paises")
     sql = ("INSERT INTO paises "
@@ -548,25 +560,10 @@ def main():
            "VALUES (%s, %s, %s)")
 
     conexaoPaises = conexaoNova.getConexao()
-    cursor = conexaoPaises.cursor()
-    
-    with open('paises.txt', 'w', encoding='utf-8') as f:
-        for pais in paisesData:
-            id_pais, sigla, nome = pais
-            f.write(nome + '\n')
-            
-    sql_select = "SELECT nome FROM paises WHERE nome = %s"
-       
     for pais in paisesData:
         id_pais, sigla, nome = pais
-        
-        cursor.execute(sql_select, (nome,))
-        resultado = cursor.fetchone()
-        cursor.fetchall()  # Limpa resultados pendentes
-        
-        if resultado is None:
-            commitPaisesData = (id_pais, nome, sigla)
-            databaseNova.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises)
+        commitPaisesData = (id_pais, nome, sigla)
+        databaseNova.insertConteudoTabela("paises", sql, commitPaisesData, conexaoPaises)
     print("[DB_MYSQL] Inserção concluída com sucesso")
 
 
@@ -584,7 +581,6 @@ def main():
            "VALUES (%s, %s, %s, %s, %s)")
 
     conexaoEstados = conexaoNova.getConexao()
-    
     for estado in estadosData:
         id_estado, sigla, nome, pais_id = estado
         commitEstadosData = (id_estado, nome, sigla, None, pais_id)
@@ -599,7 +595,7 @@ def main():
     cidadesData = ''
     with open('./Cidades_Estados_Paises/municipios.csv', newline='', encoding='utf8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
-        # next(csvReader)
+        next(csvReader)
         cidadesData = list(csvReader)
     print("[DB_MYSQL] Inserindo dados para tabela: cidades")
     sql = ("INSERT INTO cidades "
@@ -607,7 +603,6 @@ def main():
            "VALUES (%s, %s, %s, %s, %s)")
 
     conexaoCidades = conexaoNova.getConexao()
-        
     for cidade in cidadesData:
         cidade_id, nome_cidade, estado_id = cidade[0], cidade[1], cidade[2]
         
@@ -616,8 +611,6 @@ def main():
 
         commitCidadesData = (cidade_id, estado_id, nome_cidade, latitude, longitude)
         databaseNova.insertConteudoTabela("cidades", sql, commitCidadesData, conexaoCidades)
-
-            
     print("[DB_MYSQL] Inserção concluída com sucesso")
 
 
@@ -631,7 +624,7 @@ def main():
 
     print("\n\n---- LOCAIS_COLETA ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: local_coleta")
-    locaisColetaData = bancoFirebird.getConteudoTabela(
+    locaisColetaData = bancoFirebird.getConteudoTabelaFirebird(
         "local_coleta",
         "SELECT codigo, local, regiao_do_local, cidade, estado, pais FROM local_coleta"
     )
@@ -643,9 +636,9 @@ def main():
         "VALUES (%s, %s, %s, %s, %s, %s)"
     )
 
-    cidadeLista = databaseNova.getConteudoTabela("cidades", "SELECT id, nome, estado_id FROM cidades")
-    estadoLista = databaseNova.getConteudoTabela("estados", "SELECT id, nome, sigla, pais_id FROM estados")
-    paisLista = databaseNova.getConteudoTabela("paises", "SELECT id, nome, sigla FROM paises")
+    cidadeLista = databaseNova.getConteudoTabelaMySql("cidades", "SELECT id, nome, estado_id FROM cidades")
+    estadoLista = databaseNova.getConteudoTabelaMySql("estados", "SELECT id, nome, sigla, pais_id FROM estados")
+    paisLista = databaseNova.getConteudoTabelaMySql("paises", "SELECT id, nome, sigla FROM paises")
 
     conexaoLocaisColeta = conexaoNova.getConexao()
     for local in locaisColetaData:
@@ -669,7 +662,7 @@ def main():
 
     print("\n\n---- FAMILIAS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: familia")
-    familiasData = bancoFirebird.getConteudoTabela("familia", "SELECT cod_familia, familia FROM familia")
+    familiasData = bancoFirebird.getConteudoTabelaFirebird("familia", "SELECT cod_familia, familia FROM familia")
 
     print("[DB_MYSQL] Migrando dados para tabela: familias")
     sql = (
@@ -693,7 +686,7 @@ def main():
 
     print("\n\n---- GENEROS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
-    generosData = bancoFirebird.getConteudoTabela("especie", "SELECT especie, cd_familia FROM especie")
+    generosData = bancoFirebird.getConteudoTabelaFirebird("especie", "SELECT especie, cd_familia FROM especie")
     print("[DB_MYSQL] Migrando dados para tabela: generos")
     sql = (
         "INSERT INTO generos "
@@ -728,9 +721,7 @@ def main():
         SELECT DISTINCT especie_variedade_autor AS nome_autor FROM tombo
     """
 
-    autoresData = bancoFirebird.getConteudoTabela("tombo", query_autores)
-    
-    print(autoresData)
+    autoresData = bancoFirebird.getConteudoTabelaFirebird("tombo", query_autores)
 
     print("[DB_MYSQL] Migrando dados para tabela: autores")
 
@@ -747,11 +738,6 @@ def main():
         "(id, nome, iniciais, ativo) "
         "VALUES (%s, %s, %s, %s)"
     )
-    
-    with open('autores.txt', 'w', encoding='utf-8') as f:
-        for autor in nomePadronizado:
-            f.write(autor + '\n')
-        
 
     conexaoAutores = conexaoNova.getConexao()
     cursor = conexaoAutores.cursor()
@@ -771,7 +757,7 @@ def main():
 
     print("\n\n---- ESPECIES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tomboData = bancoFirebird.getConteudoTabela("tombo", """
+    tomboData = bancoFirebird.getConteudoTabelaFirebird("tombo", """
         SELECT DISTINCT 
             especie_especie_2 AS especie, 
             especie_especie_autor AS autor_especie, 
@@ -781,7 +767,7 @@ def main():
     """)
 
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
-    especieData = bancoFirebird.getConteudoTabela("especie", """
+    especieData = bancoFirebird.getConteudoTabelaFirebird("especie", """
         SELECT 
             cd_familia, 
             codigo_especie, 
@@ -790,10 +776,10 @@ def main():
     """)
 
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
-    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+    autorData = databaseNova.getConteudoTabelaMySql("autor", "SELECT id, nome FROM autores")
 
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
+    generoData = databaseNova.getConteudoTabelaMySql("generos", "SELECT id, nome, familia_id FROM generos")
 
     print("[DB_MYSQL] Migrando dados para tabela: especies")
     sql = (
@@ -840,7 +826,7 @@ def main():
 
     print("\n\n---- VARIEDADES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tomboData = bancoFirebird.getConteudoTabela("tombo", """
+    tomboData = bancoFirebird.getConteudoTabelaFirebird("tombo", """
         SELECT DISTINCT 
             especie_variedade AS variedade,
             especie_variedade_autor AS variedade_autor,
@@ -851,7 +837,7 @@ def main():
     """)
 
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
-    especieData = bancoFirebird.getConteudoTabela("especie", """
+    especieData = bancoFirebird.getConteudoTabelaFirebird("especie", """
         SELECT 
             cd_familia,
             codigo_especie,
@@ -860,13 +846,13 @@ def main():
     """)
 
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
-    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+    autorData = databaseNova.getConteudoTabelaMySql("autor", "SELECT id, nome FROM autores")
 
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabelaMySql("generos", "SELECT id, nome FROM generos")
 
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+    especiesData = databaseNova.getConteudoTabelaMySql("especies", "SELECT id, nome FROM especies")
 
     print("[DB_MYSQL] Migrando dados para tabela: variedades")
 
@@ -921,7 +907,7 @@ def main():
 
     print("\n\n---- SUB_ESPECIES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tomboData = bancoFirebird.getConteudoTabela("tombo", """
+    tomboData = bancoFirebird.getConteudoTabelaFirebird("tombo", """
         SELECT DISTINCT 
             especie_subspecie AS subEspecie,
             especie_subspecie_autor AS autor_subEspecie,
@@ -932,7 +918,7 @@ def main():
     """)
 
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
-    especieData = bancoFirebird.getConteudoTabela("especie", """
+    especieData = bancoFirebird.getConteudoTabelaFirebird("especie", """
         SELECT 
             cd_familia,
             codigo_especie,
@@ -941,13 +927,13 @@ def main():
     """)
 
     print("[DB_MYSQL] Obtendo dados da tabela: autores")
-    autorData = databaseNova.getConteudoTabela("autor", "SELECT id, nome FROM autores")
+    autorData = databaseNova.getConteudoTabelaMySql("autor", "SELECT id, nome FROM autores")
 
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome FROM generos")
+    generoData = databaseNova.getConteudoTabelaMySql("generos", "SELECT id, nome FROM generos")
 
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome FROM especies")
+    especiesData = databaseNova.getConteudoTabelaMySql("especies", "SELECT id, nome FROM especies")
 
     print("[DB_MYSQL] Migrando dados para tabela: sub_especies")
 
@@ -976,7 +962,7 @@ def main():
                             for genero in generoData:
                                 if especie["especie"] == genero["nome"]:
                                     commitSubEspeciesData = (
-                                        tombo["subEspecie"],
+                                        tombo["subespecie"],
                                         especieNova["id"],
                                         genero["id"],
                                         tombo["codigo_familia"],
@@ -992,7 +978,7 @@ def main():
 
     print("\n\n---- SUB_FAMILIAS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: subfamilia")
-    subFamiliaData = bancoFirebird.getConteudoTabela("subfamilia", """
+    subFamiliaData = bancoFirebird.getConteudoTabelaFirebird("subfamilia", """
         SELECT 
             cd_familiasub AS id_familia, 
             subfamilia AS nome 
@@ -1031,7 +1017,7 @@ def main():
 
     executar_sqls('updated_herbarios.sql', conexaoHerbariosAntiga, bancoFirebird)
 
-    herbariosData = bancoFirebird.getConteudoTabela("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
+    herbariosData = bancoFirebird.getConteudoTabelaFirebird("instituicao_identificadora", "SELECT codigo, nome_instituicao FROM instituicao_identificadora")
     print("[DB_MYSQL] Migrando dados para tabela: herbarios")
     commitHerbariosData = ()
     sql = ("INSERT INTO herbarios "
@@ -1067,7 +1053,7 @@ def main():
     print("\n\n---- TIPOS ... ----")
 
     print("[DB_FIREBIRD] Obtendo dados da tabela: tipo")
-    tipoData = bancoFirebird.getConteudoTabela("tipo", """
+    tipoData = bancoFirebird.getConteudoTabelaFirebird("tipo", """
         SELECT cod_tipo AS id, tp_descricao AS nome
         FROM tipo
     """)
@@ -1090,8 +1076,7 @@ def main():
 
     print("\n\n---- IDENTIFICADORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: identificador")
-
-    identificadorData = bancoFirebird.getConteudoTabela(
+    identificadorData = bancoFirebird.getConteudoTabelaFirebird(
         "identificador", 
         "SELECT nome FROM identificador"
     )
@@ -1132,36 +1117,44 @@ def main():
 
     print("\n\n---- TOMBOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tombosData = bancoFirebird.getConteudoTabela("tombo", "SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, nome_especie_formatada, vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, data_identificacao, tombo_coletor FROM tombo")
+    tombosData = bancoFirebird.getConteudoTabelaFirebird("tombo", """
+        SELECT hcf, data_tombo, data_coleta, observacao, nomes_populares, num_coleta, latitude, longitude, 
+               altitude, tombo_instituicao, local_coleta, especie_variedade, tipo, especie_especie_2, 
+               codigo_familia, codigo_especie, tombo_familia_sub, especie_subspecie, nome_especie, 
+               vermelho, verde, azul, codigo_solo, codigo_relevo, codigo_vegetacao, 
+               data_identificacao, tombo_coletor 
+        FROM tombo
+    """)
+
     print("[DB_MYSQL] Obtendo dados da tabela: variedades")
-    variedadesData = databaseNova.getConteudoTabela("variedades", "SELECT id, nome FROM variedades")
+    variedadesData = databaseNova.getConteudoTabelaMySql("variedades", "SELECT id, nome FROM variedades")
 
     print("[DB_MYSQL] Obtendo dados da tabela: especies")
-    especiesData = databaseNova.getConteudoTabela("especies", "SELECT id, nome, genero_id FROM especies")
+    especiesData = databaseNova.getConteudoTabelaMySql("especies", "SELECT id, nome, genero_id FROM especies")
 
     print("[DB_FIREBIRD] Obtendo dados da tabela: especie")
-    especieData = bancoFirebird.getConteudoTabela("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
+    especieData = bancoFirebird.getConteudoTabelaFirebird("especie", "SELECT cd_familia, codigo_especie, especie FROM especie")
 
     print("[DB_MYSQL] Obtendo dados da tabela: generos")
-    generoData = databaseNova.getConteudoTabela("generos", "SELECT id, nome, familia_id FROM generos")
+    generoData = databaseNova.getConteudoTabelaMySql("generos", "SELECT id, nome, familia_id FROM generos")
 
     print("[DB_MYSQL] Obtendo dados da tabela: sub_familias")
-    sub_familiasData = databaseNova.getConteudoTabela("sub_familias", "SELECT id, nome FROM sub_familias")
+    sub_familiasData = databaseNova.getConteudoTabelaMySql("sub_familias", "SELECT id, nome FROM sub_familias")
 
     print("[DB_MYSQL] Obtendo dados da tabela: sub_especies")
-    sub_especiesData = databaseNova.getConteudoTabela("sub_especies", "SELECT id, nome FROM sub_especies")
+    sub_especiesData = databaseNova.getConteudoTabelaMySql("sub_especies", "SELECT id, nome FROM sub_especies")
 
     print("[DB_MYSQL] Migrando dados para tabela: tombos")
 
     sql = ("INSERT INTO tombos "
-        "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
-        "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, situacao, especie_id, genero_id, "
-        "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
-        "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho, coletor_id) "
-        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
+           "(hcf, data_tombo, data_coleta_dia, observacao, nomes_populares, numero_coleta, latitude, longitude, "
+           "altitude, entidade_id, local_coleta_id, variedade_id, tipo_id, data_identificacao_dia, data_identificacao_mes, data_identificacao_ano, situacao, especie_id, genero_id, "
+           "familia_id, sub_familia_id, sub_especie_id, nome_cientifico, colecao_anexa_id, cor, data_coleta_mes, "
+           "data_coleta_ano, solo_id, relevo_id, vegetacao_id, ativo, taxon, rascunho, coletor_id) "
+           "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
 
     conexaoTombo = conexaoNova.getConexao()
-    cursorNovo = conexaoTombo.cursor(buffered=True)
+    cursorNovo = conexaoTombo.cursor()
 
     conexaoAntigaTombo = conexaoFirebird.getConexao()
     cursorAntigo = conexaoAntigaTombo.cursor()
@@ -1226,11 +1219,13 @@ def main():
                 nome_coletor = cursorAntigo.fetchone()
                 cursorAntigo.fetchall()  # Garante consumo total
                 if nome_coletor:
+                    # nome_coletor retorna apenas uma tupla com o nome, só pode acessar usando índice numérico
                     nome_coletor = nome_coletor[0]
                     cursorNovo.execute(sql_id_coletor_nova, (nome_coletor,))
                     resultado = cursorNovo.fetchone()
                     cursorNovo.fetchall()  # Garante consumo total
                     if resultado:
+                        # resultado retorna uma tupla com o id, só pode acessar usando índice numérico
                         coletor_id = resultado[0]
                         coletor_id_map[tombo_coletor] = coletor_id
 
@@ -1286,12 +1281,12 @@ def main():
 
     print("\n\n---- TOMBOS_IDENTIFICADORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo")
-    tombos_identificadorData = bancoFirebird.getConteudoTabela("tombo", "SELECT hcf, tombo_identificador FROM tombo")
+    tombos_identificadorData = bancoFirebird.getConteudoTabelaFirebird("tombo", "SELECT hcf, tombo_identificador FROM tombo")
     print("[DB_MYSQL] Migrando dados para tabela: tombos_identificadores")
 
     sql_insert = ("INSERT INTO tombos_identificadores "
-                "(identificador_id, tombo_hcf, ordem) "
-                "VALUES (%s, %s, %s)")
+                  "(identificador_id, tombo_hcf, ordem) "
+                  "VALUES (%s, %s, %s)")
 
     sql_get_nome_identificador_antigo = ("SELECT nome FROM identificador WHERE num_identificador = ?")
     sql_get_identificador_novo = ("SELECT id FROM identificadores WHERE LOWER(TRIM(nome)) = %s")
@@ -1331,7 +1326,7 @@ def main():
 
     print("\n\n---- TOMBO_FOTOS ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: tombo_exsicata")
-    tombos_fotosData = bancoFirebird.getConteudoTabela(
+    tombos_fotosData = bancoFirebird.getConteudoTabelaFirebird(
         "tombo_exsicata",
         "SELECT num_tombo, sequencia, cod_barra, num_barra FROM tombo_exsicata"
     )

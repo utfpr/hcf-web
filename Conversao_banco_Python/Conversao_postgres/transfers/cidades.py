@@ -7,7 +7,7 @@ def transferCities(databaseNova, conexaoNova):
     cidadesData = ''
     with open('../Cidades_Estados_Paises/municipios.csv', newline='', encoding='UTF-8') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=';')
-        # next(csvReader)  # Pula o cabeçalho
+        next(csvReader)  # Pula o cabeçalho
         cidadesData = list(csvReader)
     
     sql = ("INSERT INTO cidades "
@@ -19,7 +19,7 @@ def transferCities(databaseNova, conexaoNova):
     for cidade in cidadesData:
         city_name = cidade[1]
         state_id = cidade[2]
-        
+                
         state_name = get_state_name_by_id(conexaoCidades, state_id)
         latitude, longitude = get_coordinates_from_city(city_name, state_name)
         

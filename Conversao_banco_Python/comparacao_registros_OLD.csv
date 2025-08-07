@@ -1,0 +1,20 @@
+Tabela Firebird,Tabela Destino,Registros Firebird,Registros MySQL,Registros PostgreSQL,Status
+COLETOR,coletores,1999,1991,,❌ Divergente
+DOACAO,,erro,erro,erro,⚠️ 1146 (42S02): Table 'hcf.None' doesn't exist
+ESPECIE,generos,2080,2080,,✅ OK
+FAMILIA,familias,308,308,,✅ OK
+IDENTIFICADOR,identificadores,1747,1590,,❌ Divergente
+INSTITUICAO_IDENTIFICADORA,herbarios,71,71,,✅ OK
+LOCAL_COLETA,locais_coleta,7167,7167,,✅ OK
+PARAMETROS,configuracao,1,0,,❌ Divergente
+RELEVO,relevos,6,6,,✅ OK
+REMESSA,remessas,0,0,,✅ OK
+SOLO,solos,13,13,,✅ OK
+SUBFAMILIA,sub_familias,3,3,,✅ OK
+TIPO,tipos,2,2,,✅ OK
+TOMBO,tombos,42851,42850,,❌ Divergente
+TOMBO_EXSICATA,tombos_fotos,43754,43746,,❌ Divergente
+TOMBO_FOTOS,tombos_fotos,96,43746,,❌ Divergente
+TOMBO_REG_ALT,tombo_alteracoes_antigas,7307,0,,❌ Divergente
+USUARIO,usuarios,1,0,,❌ Divergente
+VEGETACAO,vegetacoes,35,35,,✅ OK

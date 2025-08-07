@@ -173,3 +173,350 @@ Tombo 0.0 não inserido, pois é zero.
 Dados: {'num_tombo': 0.0, 'sequencia': 7, 'cod_barra': 'HCF000039458', 'num_barra': 39458.0}
 Tombo com hcf 38802.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
 Tombo com hcf 40560.0 não encontrado na tabela 'tombos'. Inserção em 'tombos_fotos' não permitida.
+
+autores
+identificadores
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py
+Nomes presentes no arquivo de convertidos mas ausentes no MySQL (13):
+
+(L.) R.BR
+
+(Ruiz & Pav.) DC
+
+(Vell.) Arráb ex Steud
+
+Aubl
+
+Cristóbal
+
+Dusen ex Malme
+
+Dusén
+
+Krapóv & Cristóbal
+
+MIchx
+
+Müll Arg
+
+Ruiz & Pav
+
+Röth
+
+YuncK
+
+paises:
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py paises dup
+
+✅ Nenhum duplicado encontrado em Postgres.
+
+⚠️ Duplicados encontrados em MySQL (1 valores):
+
+- sudão
+
+especies:
+
+Nomes presentes no arquivo do Postgres mas ausentes no MySQL (20):
+
+acida
+amara
+bicornuta
+capillipes
+crenatifolius
+dichotomiflorum
+dictyocarpa
+fluviatilis
+haematospermum
+hoffmanniana
+lacerdae
+lappulaceus
+monocephala
+pes-caprae
+pyricollum
+quadriradiata
+sebifera
+smaragdina
+suterella
+tibourbou
+
+sub-especies:
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py sub_especies
+Nomes presentes no arquivo do Postgres mas ausentes no MySQL (0):
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py sub_especies inv
+Nomes presentes no arquivo do MySQL mas ausentes no Postgres (0):
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py sub_especies dup
+
+⚠️ Duplicados encontrados em Postgres (47 valores):
+
+- affinis
+- amazonica
+- angustata
+- angustius
+- arundinaceum
+- australis
+- axillaris
+- banksii
+- brevipetiolata
+- corniculata
+- cubaetensis
+- diformis
+- ecaudata
+- elegans
+- elongata
+- farinosa
+- fistulosa
+- grandiflora
+- guianensis
+- hasslerianum
+- hirtella
+- integrifolia
+- iricurana
+- lambertianus
+- littoralis
+- macrocalyx
+- micranthus
+- obovata
+- pachycarpa
+- paludosa
+- patellaria
+- pubescens
+- ramiflora
+- regia
+- reitzii
+- scandens
+- sellowiana
+- sericea
+- serpentina
+- serrae
+- sessilifolia
+- spiciflora
+- tinctoria
+- triangularis
+- tuberculata
+- verticillata
+- virescens
+
+⚠️ Duplicados encontrados em MySQL (47 valores):
+
+- affinis
+- amazonica
+- angustata
+- angustius
+- arundinaceum
+- australis
+- axillaris
+- banksii
+- brevipetiolata
+- corniculata
+- cubaetensis
+- diformis
+- ecaudata
+- elegans
+- elongata
+- farinosa
+- fistulosa
+- grandiflora
+- guianensis
+- hasslerianum
+- hirtella
+- integrifolia
+- iricurana
+- lambertianus
+- littoralis
+- macrocalyx
+- micranthus
+- obovata
+- pachycarpa
+- paludosa
+- patellaria
+- pubescens
+- ramiflora
+- regia
+- reitzii
+- scandens
+- sellowiana
+- sericea
+- serpentina
+- serrae
+- sessilifolia
+- spiciflora
+- tinctoria
+- triangularis
+- tuberculata
+- verticillata
+- virescens
+
+varidades:
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py variedades
+Nomes presentes no arquivo do Postgres mas ausentes no MySQL (1):
+
+gracilis
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py variedades inv
+Nomes presentes no arquivo do MySQL mas ausentes no Postgres (0):
+
+(Conversao_banco_Python) vitorribeiro@vitorRibeiro:~/tcc/hcf-web/Conversao_banco_Python$ python gera_diff_txt_lines.py variedades dup
+
+⚠️ Duplicados encontrados em Postgres (20 valores):
+
+- acutifolia
+- brasiliensis
+- ensiformis
+- extratropica
+- ferruginea
+- gracilior
+- hatschbachii
+- hirtellum
+- medium
+- megapotamica
+- nervosa
+- obovata
+- organensis
+- paludosa
+- pandanifolium
+- paraensis
+- peltophoroides
+- procumbens
+- sellowii
+- viscidula
+
+⚠️ Duplicados encontrados em MySQL (131 valores):
+
+- acerifolia
+- acutifolia
+- albobracteata
+- almus
+- amambayensis
+- angustata
+- angustifolia
+- annuum
+- anthriscifolia
+- arboreum
+- aspera
+- bogotensis
+- bracteosa
+- brasiliana
+- brasiliensis
+- brevibractea
+- brevifolia
+- calophylla
+- campestre
+- candida
+- capilliformis
+- capillipes
+- cathartica
+- cernuum
+- cinerascens
+- cinerscens
+- concolor
+- conferta
+- cristata
+- cuspidata
+- debilis
+- discolor
+- distans
+- elaeagnoides
+- elaegnoides
+- elatior
+- ensiformis
+- excelsa
+- extratropica
+- exuta
+- falcata
+- ferruginea
+- flagellaris
+- flexuosa
+- floccosa
+- floribundum
+- foetida
+- fontanesii
+- franciscana
+- fraternus
+- glabrata
+- glandulosos
+- glandulosus
+- glaziovii
+- gracilior
+- grossiseta
+- guianensis
+- hatschbachii
+- herteri
+- hirtellum
+- hispida
+- hoehneana
+- inermis
+- intermedia
+- karawata
+- lanuginosa
+- latibracteata
+- ligularis
+- littorale
+- macrophyllum
+- malitiosa
+- maritima
+- medium
+- megapotamica
+- mesostemon
+- micropteris
+- montana
+- multiflora
+- nervosa
+- niederleinii
+- nitens
+- nivea
+- oblonga
+- obovata
+- organensis
+- palescens
+- paludosa
+- pandanifolium
+- paraensis
+- paraguariensis
+- parvifoliola
+- peltophoroides
+- pentaphyllum
+- peregrina
+- piliformis
+- polyanthus
+- polytricha
+- procumbens
+- pseudovernonioides
+- pulchella
+- pungens
+- purpurea
+- regnelliana
+- reticulata
+- robusta
+- rosmarinifolia
+- rotundifolia
+- rubella
+- sellowiana
+- sellowii
+- semiserrata
+- sericeus
+- serrata
+- setosa
+- spegazzinii
+- subconcolor
+- supersetosa
+- taxifolia
+- tenera
+- tetrandra
+- tetraphylla
+- ursinoides
+- venosa
+- vestita
+- villosa
+- virgata
+- viridiflavescens
+- viscidula
+- waltillia
+- weirii
+- widgrenianum
+
+O código do PostgreSQL converte menos registros porque é mais restritivo que o do MySQL. Ele depende de correspondências exatas entre especie_id, genero_id e familia_id. Qualquer diferença de acento, maiúsculas ou espaços impede a inserção. Além disso, ele exige que tombo[4] corresponda exatamente a um registro em especiesData para continuar. Já o código do MySQL é mais permissivo: insere mesmo sem autor, faz correspondências mais flexíveis e depende menos de matches rígidos. Essas diferenças fazem com que o PostgreSQL pule muitos registros e o MySQL converta muito mais.

@@ -14,8 +14,8 @@ def get_mysql_table_content():
     my_cursor = my_conn.cursor()
 
     # Obtém a lista de tabelas no banco de dados
-    table = "tombos"
-    fields = "*"
+    table = "autores"
+    fields = "nome"
     
     # Executa a consulta para obter os dados da tabela
     my_cursor.execute(f"SELECT {fields} FROM {table}")
