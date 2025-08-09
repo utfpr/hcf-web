@@ -97,6 +97,13 @@ CREATE TABLE locais_coleta (
     CONSTRAINT fk_locais_coleta_fase_sucessional FOREIGN KEY (fase_sucessional_id) REFERENCES fase_sucessional (numero)
 );
 
+CREATE TABLE reinos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(200) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
 CREATE TABLE familias (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(200) NOT NULL,
