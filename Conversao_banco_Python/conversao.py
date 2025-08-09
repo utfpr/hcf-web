@@ -430,7 +430,27 @@ def main():
     for nome, sql in TABLES.items():
         databaseNova.create_table(nome, sql)
 
-    bancoFirebird = Database('~/Desktop/test.fdb', conexaoFirebird.getCursor())
+    bancoFirebird = Database('~/Desktop/test.fdb', conexaoFirebird.getCursor())    
+
+    
+    print("\n\n --- INICIANDO MIGRAÇÃO DE DADOS ... ----")
+    print("\n\n --- INSERINDO REINOS ... ----")
+    
+    print("[OTHER] Criando dados: reinos")
+    reinosData = [
+        (1, 'Plantae'),
+        (2, 'Fungi')
+    ]
+    print("[DB_MYSQL] Inserindo dados para tabela: reinos")
+    sql = ("INSERT INTO reinos "
+           "(id, nome) "
+              "VALUES (%s, %s)")
+    conexaoReinos = conexaoNova.getConexao()
+    for reino in reinosData:
+        commitReinosData = (reino[0], reino[1])
+        databaseNova.insertConteudoTabela("reinos", sql, commitReinosData, conexaoReinos)
+    print("[DB_MYSQL] Inserção concluída com sucesso")
+    
 
     print("\n\n---- COLETORES ... ----")
     print("[DB_FIREBIRD] Obtendo dados da tabela: coletor")
@@ -667,8 +687,8 @@ def main():
     print("[DB_MYSQL] Migrando dados para tabela: familias")
     sql = (
         "INSERT INTO familias "
-        "(id, nome, ativo) "
-        "VALUES (%s, %s, %s)"
+        "(id, nome, ativo, reino_id) "
+        "VALUES (%s, %s, %s, %s)"
     )
 
     conexaoFamilias = conexaoNova.getConexao()
@@ -676,6 +696,7 @@ def main():
         commitFamiliasData = (
             familia.get("cod_familia"),
             familia.get("familia"),
+            1,
             1
         )
         databaseNova.insertConteudoTabela("familias", sql, commitFamiliasData, conexaoFamilias)

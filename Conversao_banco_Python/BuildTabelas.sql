@@ -14,7 +14,7 @@ CREATE TABLE `configuracao` (
     `nome_arquivo` varchar(50) DEFAULT NULL,
     `servico` enum('REFLORA','SPECIESLINK') DEFAULT NULL,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE `coletores` (
     `id` int NOT NULL AUTO_INCREMENT,
@@ -65,6 +65,14 @@ CREATE TABLE `paises` (
     `sigla` char(4) DEFAULT NULL,
     `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
     `updated_at` datetime DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `reinos` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `nome` varchar(200) NOT NULL,
+    `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -119,6 +127,7 @@ CREATE TABLE `familias` (
     `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `ativo` tinyint(1) DEFAULT '1',
+    `reino_id` int NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -470,53 +479,6 @@ CREATE TABLE `alteracoes` (
     CONSTRAINT `fk_alteracoes_usuario` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE `reinos` (
-    `id` int NOT NULL AUTO_INCREMENT,
-    `nome` varchar(200) NOT NULL,
-    `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-ALTER TABLE `familias`
-ADD COLUMN `reino_id` int NOT NULL AFTER `id`;
-UPDATE `familias` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `familias`
-ADD CONSTRAINT `fk_familias_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `sub_familias`
-ADD COLUMN `reino_id` int NOT NULL AFTER `nome`;
-UPDATE `sub_familias` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `sub_familias`
-ADD CONSTRAINT `fk_sub_familias_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `generos`
-ADD COLUMN `reino_id` int NOT NULL AFTER `nome`;
-UPDATE `generos` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `generos`
-ADD CONSTRAINT `fk_generos_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `especies`
-ADD COLUMN `reino_id` int NOT NULL AFTER `nome`;
-UPDATE `especies` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `especies`
-ADD CONSTRAINT `fk_especies_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `sub_especies`
-ADD COLUMN `reino_id` int NOT NULL AFTER `nome`;
-UPDATE `sub_especies` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `sub_especies`
-ADD CONSTRAINT `fk_sub_especies_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `variedades`
-ADD COLUMN `reino_id` int NOT NULL AFTER `nome`;
-UPDATE `variedades` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `variedades`
-ADD CONSTRAINT `fk_variedades_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
-ALTER TABLE `tombos`
-ADD COLUMN `reino_id` int NOT NULL AFTER `genero_id`;
-UPDATE `tombos` SET `reino_id` = 1 WHERE `reino_id` IS NULL;
-ALTER TABLE `tombos`
-ADD CONSTRAINT `fk_tombos_reinos`
-FOREIGN KEY (`reino_id`) REFERENCES `reinos` (`id`);
+INSERT INTO 'reinos' ('id', 'nome') VALUES
+(1, 'Plantae', NOW(), NOW()),
+(2, 'Fungi', NOW(), NOW()),

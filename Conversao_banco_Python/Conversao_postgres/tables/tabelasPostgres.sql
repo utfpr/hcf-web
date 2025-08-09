@@ -103,6 +103,14 @@ CREATE TABLE familias (
     created_at TIMESTAMP NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
     ativo BOOLEAN DEFAULT TRUE
+    reino_id INT NOT NULL,
+);
+
+CREATE TABLE reinos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(200) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE generos (
