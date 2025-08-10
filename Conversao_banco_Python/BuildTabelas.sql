@@ -478,3 +478,23 @@ CREATE TABLE `alteracoes` (
     CONSTRAINT `fk_alteracoes_tombo` FOREIGN KEY (`tombo_hcf`) REFERENCES `tombos` (`hcf`),
     CONSTRAINT `fk_alteracoes_usuario` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `reflora` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `cod_barra` varchar(12) DEFAULT NULL,
+    `tombo_json` text DEFAULT NULL,
+    `ja_comparou` tinyint(1) DEFAULT 0,
+    `ja_requisitou` tinyint(1) DEFAULT 0,
+    `nro_requisicoes` int DEFAULT 0,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `specieslink` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `cod_barra` varchar(12) DEFAULT NULL,
+    `tombo_json` text DEFAULT NULL,
+    `ja_comparou` tinyint(1) DEFAULT 0,
+    `ja_requisitou` tinyint(1) DEFAULT 0,
+    `nro_requisicoes` int DEFAULT 0,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

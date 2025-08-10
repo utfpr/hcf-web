@@ -31,5 +31,7 @@ DROP TABLE IF EXISTS alteracoes,
     hcf.tombos_identificadores,
     usuarios,
     variedades,
-    vegetacoes
+    vegetacoes,
+    reflora,
+    specieslink
 CASCADE;
