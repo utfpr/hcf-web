@@ -3,7 +3,7 @@ CREATE TABLE `historico_acessos` (
     `data_criacao` datetime NOT NULL,
     `usuario_id` int NOT NULL,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `configuracao` (
     `id` int NOT NULL AUTO_INCREMENT,
@@ -14,7 +14,7 @@ CREATE TABLE `configuracao` (
     `nome_arquivo` varchar(50) DEFAULT NULL,
     `servico` enum('REFLORA','SPECIESLINK') DEFAULT NULL,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `coletores` (
     `id` int NOT NULL AUTO_INCREMENT,

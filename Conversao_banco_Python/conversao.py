@@ -392,7 +392,7 @@ def buildTables(arquivoSql):
     matches = re.findall(r'CREATE TABLE `(\w+)` \((.*?)\) ENGINE=.*?;', sqlContent, re.S)
     
     for nome, estrutura in matches:
-        tabelas[nome] = f"CREATE TABLE `{nome}` ({estrutura}) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;"
+        tabelas[nome] = f"CREATE TABLE `{nome}` ({estrutura}) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;"
     
     return tabelas
 
