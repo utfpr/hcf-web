@@ -434,8 +434,8 @@ def main():
 
     
     print("\n\n --- INICIANDO MIGRAÇÃO DE DADOS ... ----")
-    print("\n\n --- INSERINDO REINOS ... ----")
     
+    print("\n\n --- INSERINDO REINOS ... ----")
     print("[OTHER] Criando dados: reinos")
     reinosData = [
         (1, 'Plantae'),
