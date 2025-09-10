@@ -1,3 +1,4 @@
+CREATE EXTENSION IF NOT EXISTS postgis;
 CREATE TABLE solos (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(300) NOT NULL,
@@ -79,6 +80,7 @@ CREATE TABLE cidades (
     nome VARCHAR(255) NOT NULL,
     latitude DOUBLE PRECISION DEFAULT NULL,
     longitude DOUBLE PRECISION DEFAULT NULL,
+    poligono GEOMETRY(Polygon, 4674) DEFAULT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW(),
     CONSTRAINT fk_cidades_estados FOREIGN KEY (estado_id) REFERENCES estados (id)
