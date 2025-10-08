@@ -30,7 +30,7 @@ services:
       - my_network
 
   postgres:
-    image: postgres:15
+    image: postgis/postgis:15-3.4
     container_name: hcf_postgres
     restart: always
     environment:
