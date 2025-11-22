@@ -1,0 +1,63 @@
+LOAD DATABASE
+  FROM mysql://root:root@src-mysql:3306/olddb
+  INTO postgresql://postgres:postgres@hcf-postgres:5432/hcf
+
+WITH
+  create tables,
+  create indexes,
+  reset sequences,
+  workers = 8,
+  concurrency = 1,
+  batch rows = 25000
+
+SET work_mem to '16MB', maintenance_work_mem to '512MB'
+
+CAST
+  column tombos.data_identificacao_dia to smallint drop typemod,
+  column tombos.data_identificacao_mes to smallint drop typemod,
+  column tombos.data_identificacao_ano to integer  drop typemod,
+  column tombos_identificadores.ordem to smallint drop typemod,
+  column tombos_fotos.ativo to boolean drop typemod,
+
+  type year to integer drop typemod,
+  type tinyint to boolean drop typemod using tinyint-to-boolean,
+  type bit when (= precision 1) to boolean drop typemod using bit-to-boolean,
+  type bit when (> precision 1) to varbit drop typemod,
+  type int       to integer  drop typemod,
+  type integer   to integer  drop typemod,
+  type mediumint to integer  drop typemod,
+  type smallint  to smallint drop typemod,
+  type bigint    to bigint   drop typemod
+
+  -- AQUI: PKs que você quer em INTEGER no Postgres
+  column alteracoes.id           to integer drop typemod,
+  column autores.id              to integer drop typemod,
+  column cidades.id              to integer drop typemod,
+  column colecoes_anexas.id      to integer drop typemod,
+  column coletores.id            to integer drop typemod,
+  column configuracao.id         to integer drop typemod,
+  column enderecos.id            to integer drop typemod,
+  column especies.id             to integer drop typemod,
+  column estados.id              to integer drop typemod,
+  column familias.id             to integer drop typemod,
+  column generos.id              to integer drop typemod,
+  column herbarios.id            to integer drop typemod,
+  column historico_acessos.id    to integer drop typemod,
+  column identificadores.id      to integer drop typemod,
+  column locais_coleta.id        to integer drop typemod,
+  column reflora.id              to integer drop typemod,
+  column reinos.id               to integer drop typemod,
+  column relevos.id              to integer drop typemod,
+  column remessas.id             to integer drop typemod,
+  column solos.id                to integer drop typemod,
+  column specieslink.id          to integer drop typemod,
+  column sub_especies.id         to integer drop typemod,
+  column sub_familias.id         to integer drop typemod,
+  column telefones.id            to integer drop typemod,
+  column tipos.id                to integer drop typemod,
+  column tipos_usuarios.id       to integer drop typemod,
+  column usuarios.id             to integer drop typemod,
+  column variedades.id           to integer drop typemod,
+  column vegetacoes.id           to integer drop typemod,
+  column tombos.hcf              to integer drop typemod,
+;

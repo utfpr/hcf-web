@@ -1,0 +1,371 @@
+CREATE TABLE public.alteracoes (
+    id bigint NOT NULL,
+    usuario_id integer NOT NULL,
+    status public.alteracoes_status NOT NULL,
+    observacao text,
+    ativo boolean DEFAULT true,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    tombo_hcf integer NOT NULL,
+    tombo_json text,
+    identificacao boolean DEFAULT false
+);
+
+CREATE TABLE public.autores (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    iniciais character varying(200) DEFAULT NULL::character varying,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.cidades (
+    id bigint NOT NULL,
+    estado_id integer NOT NULL,
+    nome character varying(255) NOT NULL,
+    latitude double precision,
+    longitude double precision,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE public.colecoes_anexas (
+    tipo public.colecoes_anexas_tipo NOT NULL,
+    observacoes text,
+    id bigint NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.coletores (
+    id bigint NOT NULL,
+    nome character varying(255) NOT NULL,
+    email character varying(200) DEFAULT NULL::character varying,
+    ativo boolean DEFAULT true,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.coletores_complementares (
+    hcf integer NOT NULL,
+    complementares character varying(1000) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE public.configuracao (
+    id bigint NOT NULL,
+    hora_inicio character varying(19) NOT NULL,
+    hora_fim character varying(19) DEFAULT NULL::character varying,
+    periodicidade public.configuracao_periodicidade,
+    data_proxima_atualizacao character varying(10) DEFAULT NULL::character varying,
+    nome_arquivo character varying(50) DEFAULT NULL::character varying,
+    servico public.configuracao_servico
+);
+
+CREATE TABLE public.enderecos (
+    id bigint NOT NULL,
+    logradouro character varying(200) NOT NULL,
+    numero character varying(10) DEFAULT NULL::character varying,
+    complemento text,
+    cidade_id integer,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.especies (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    autor_id integer,
+    genero_id integer,
+    familia_id integer NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.estados (
+    id bigint NOT NULL,
+    nome character varying(255) NOT NULL,
+    sigla character(4) DEFAULT NULL::bpchar,
+    codigo_telefone character varying(10) DEFAULT NULL::character varying,
+    pais_id smallint NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE public.familias (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true,
+    reino_id integer NOT NULL
+);
+
+CREATE TABLE public.fase_sucessional (
+    numero integer NOT NULL,
+    nome character varying(200) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.generos (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    familia_id integer NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.herbarios (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    caminho_logotipo text,
+    sigla character varying(80) NOT NULL,
+    email character varying(200) DEFAULT NULL::character varying,
+    ativo boolean DEFAULT true,
+    endereco_id integer,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.historico_acessos (
+    id bigint NOT NULL,
+    data_criacao timestamp with time zone NOT NULL,
+    usuario_id integer NOT NULL
+);
+
+CREATE TABLE public.identificadores (
+    id bigint NOT NULL,
+    nome character varying(255) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE public.locais_coleta (
+    id bigint NOT NULL,
+    descricao text,
+    cidade_id integer,
+    fase_sucessional_id integer,
+    complemento text,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    fase_numero integer
+);
+
+CREATE TABLE public.migrations (
+    name character varying(300) NOT NULL,
+    applied_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.paises (
+    id integer NOT NULL,
+    nome character varying(255) NOT NULL,
+    sigla character(4) DEFAULT NULL::bpchar,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE public.reflora (
+    id bigint NOT NULL,
+    cod_barra character varying(12) DEFAULT NULL::character varying,
+    tombo_json text,
+    ja_comparou boolean DEFAULT false,
+    ja_requisitou boolean DEFAULT false,
+    nro_requisicoes integer DEFAULT 0
+);
+
+CREATE TABLE public.reinos (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.relevos (
+    id bigint NOT NULL,
+    nome character varying(300) NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.remessas (
+    id bigint NOT NULL,
+    observacao text,
+    data_envio timestamp with time zone,
+    entidade_destino_id integer NOT NULL,
+    herbario_id integer NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.retirada_exsiccata_tombos (
+    retirada_exsiccata_id integer NOT NULL,
+    tombo_hcf integer NOT NULL,
+    tipo public.retirada_exsiccata_tombos_tipo NOT NULL,
+    data_vencimento timestamp with time zone,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    devolvido boolean DEFAULT false
+);
+
+CREATE TABLE public.solos (
+    id bigint NOT NULL,
+    nome character varying(300) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.specieslink (
+    id bigint NOT NULL,
+    cod_barra character varying(12) DEFAULT NULL::character varying,
+    tombo_json text,
+    ja_comparou boolean DEFAULT false,
+    ja_requisitou boolean DEFAULT false,
+    nro_requisicoes integer DEFAULT 0
+);
+
+CREATE TABLE public.sub_especies (
+    id bigint NOT NULL,
+    nome character varying(255) NOT NULL,
+    especie_id integer NOT NULL,
+    genero_id integer,
+    familia_id integer NOT NULL,
+    autor_id integer,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.sub_familias (
+    id bigint NOT NULL,
+    nome character varying(300) NOT NULL,
+    familia_id integer NOT NULL,
+    autor_id integer,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.telefones (
+    id bigint NOT NULL,
+    numero character varying(200) NOT NULL,
+    herbario_id integer NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.tipos (
+    id bigint NOT NULL,
+    nome character varying(250) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.tipos_usuarios (
+    id bigint NOT NULL,
+    tipo character varying(100) DEFAULT NULL::character varying,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.tombo_alteracoes_antigas (
+    sequencia integer NOT NULL,
+    data date,
+    descricao text,
+    tombo_hcf integer NOT NULL
+)
+
+CREATE TABLE public.tombos (
+    hcf bigint NOT NULL,
+    data_tombo timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    data_coleta_dia integer,
+    observacao text,
+    nomes_populares text,
+    numero_coleta integer,
+    latitude double precision,
+    longitude double precision,
+    altitude double precision,
+    entidade_id integer,
+    local_coleta_id integer,
+    variedade_id integer,
+    tipo_id integer,
+    data_identificacao_dia smallint,
+    data_identificacao_mes smallint,
+    data_identificacao_ano integer,
+    situacao public.tombos_situacao DEFAULT 'REGULAR'::public.tombos_situacao,
+    especie_id integer,
+    genero_id integer,
+    familia_id integer,
+    sub_familia_id integer,
+    sub_especie_id integer,
+    nome_cientifico text,
+    colecao_anexa_id integer,
+    cor public.tombos_cor,
+    data_coleta_mes integer,
+    data_coleta_ano integer,
+    solo_id integer,
+    relevo_id integer,
+    vegetacao_id integer,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true,
+    taxon character varying(45) DEFAULT NULL::character varying,
+    rascunho boolean DEFAULT false,
+    coletor_id integer,
+    descricao text,
+    unicata boolean
+);
+
+CREATE TABLE public.tombos_fotos (
+    id bigint NOT NULL,
+    tombo_hcf integer NOT NULL,
+    codigo_barra character varying(45) DEFAULT ''::character varying,
+    num_barra character varying(45) DEFAULT ''::character varying,
+    caminho_foto text,
+    em_vivo boolean DEFAULT false NOT NULL,
+    sequencia integer,
+    ativo integer DEFAULT 1,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE public.tombos_identificadores (
+    identificador_id integer NOT NULL,
+    tombo_hcf integer NOT NULL,
+    ordem boolean DEFAULT true
+);
+
+CREATE TABLE public.usuarios (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    ra character varying(45) DEFAULT NULL::character varying,
+    email character varying(200) NOT NULL,
+    senha character varying(200) NOT NULL,
+    ativo boolean DEFAULT true NOT NULL,
+    tipo_usuario_id integer NOT NULL,
+    telefone character varying(45) DEFAULT NULL::character varying,
+    herbario_id integer NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+CREATE TABLE public.variedades (
+    id bigint NOT NULL,
+    nome character varying(200) NOT NULL,
+    autor_id integer,
+    especie_id integer NOT NULL,
+    genero_id integer,
+    familia_id integer NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ativo boolean DEFAULT true
+);
+
+CREATE TABLE public.vegetacoes (
+    id bigint NOT NULL,
+    nome character varying(300) NOT NULL,
+    created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);

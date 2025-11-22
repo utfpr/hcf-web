@@ -1,34 +1,4 @@
 services:
-  firebird:
-    build: .
-    container_name: hcf_firebird
-    environment:
-      ISC_PASSWORD: masterkey
-      FIREBIRD_DATABASE: HERBARIUM.GDB
-    volumes:
-      - ./firebird/data:/firebird/data
-      - ./firebird/backup:/backup
-      - ./scripts:/scripts
-      - ./BuildTabelas.sql:/home/herbario/BuildTabelas.sql
-    ports:
-      - 3050:3050
-    networks:
-      - my_network
-
-  mysql:
-    image: mysql/mysql-server:latest
-    container_name: hcf_mysql
-    restart: always
-    environment:
-      MYSQL_DATABASE: hcf
-      MYSQL_ROOT_PASSWORD: Test@123
-    ports:
-      - 3306:3306
-    volumes:
-      - mysql-volume:/var/lib/mysql
-    networks:
-      - my_network
-
   postgres:
     image: postgres:15
     container_name: hcf_postgres
@@ -45,8 +15,6 @@ services:
       - my_network
 
 volumes:
-  mysql-volume:
-    driver: local
   postgres-volume:
     driver: local
 
