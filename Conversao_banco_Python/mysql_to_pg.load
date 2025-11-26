@@ -1,6 +1,6 @@
 LOAD DATABASE
-  FROM mysql://root:root@src-mysql:3306/olddb
-  INTO postgresql://postgres:postgres@hcf-postgres:5432/hcf
+  FROM mysql://root:root@localhost:3307/olddb
+  INTO postgresql://postgres:postgres@localhost:5432/hcf
 
 WITH
   create tables,
@@ -27,7 +27,7 @@ CAST
   type integer   to integer  drop typemod,
   type mediumint to integer  drop typemod,
   type smallint  to smallint drop typemod,
-  type bigint    to bigint   drop typemod
+  type bigint    to bigint   drop typemod,
 
   -- AQUI: PKs que você quer em INTEGER no Postgres
   column alteracoes.id           to integer drop typemod,
@@ -59,5 +59,4 @@ CAST
   column usuarios.id             to integer drop typemod,
   column variedades.id           to integer drop typemod,
   column vegetacoes.id           to integer drop typemod,
-  column tombos.hcf              to integer drop typemod,
-;
+  column tombos.hcf              to integer drop typemod;
