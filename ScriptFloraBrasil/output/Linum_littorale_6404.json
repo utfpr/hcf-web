@@ -1,0 +1,934 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8617,
+      "scientificname": "Linum littorale A. St.-Hil.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "A. St.-Hil.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.",
+      "source": "Secco, R. 2015. Linaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8617>http://floradobrasil2015.jbrj.gov.br/FB8617</a>)<br><br>Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8617\">https://floradobrasil2020.jbrj.gov.br/FB8617</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;MILDNER, R. A.; RA, MILDNER; CM, ROGERS. &lt;strong&gt;Revision of the native South American species of &lt;em&gt;Linum&lt;/em&gt; (Linaceae)&lt;/strong&gt;. 1978.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;ROGERS, C. M.; SMITH, L. B. Lin&amp;aacute;ceas.&amp;nbsp;&lt;strong&gt;Flora Ilustrada Catarinense&lt;/strong&gt;. Itaja&amp;iacute;, Santa Catarina, 1975.&lt;/span&gt;",
+      "parentnameusage": "Linum L.",
+      "parentnameusageid": 8613,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Bras. Merid. 1(4): 133 1825",
+      "namepublishedinyear": "1825",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8617",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8617>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-29 18:14:54.548"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "linho-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "A. St.-Hil.,Fl. Bras. Merid.,1(4): 133,1825"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 594488,
+        "relationshipofresource": null,
+        "scientificname": "Linum litorale A. St.-Hil."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Funez, L.A. 8497",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0066958",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0066958",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Per Dusén 10863",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096760",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1096760",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900920",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01900920",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900919",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01900919",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Barboza, E. 4009",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0054926",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0054926",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900918",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01900918",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Per Dusén 10863",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096760",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97984516",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Barboza, E. 4009",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0054926",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226930939",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900918",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197468381",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197468383",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire B2-61",
+        "collectioncode": "P",
+        "catalognumber": "P01900920",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197468385",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Funez, L.A. 8497",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0066958",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=265768848",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 30245,
+      "scientificname": "Linum littorale A. St.-Hil. var. littorale",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "littorale",
+      "scientificnameauthorship": "A. St.-Hil.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale A. St.-Hil. var. littorale",
+      "source": "Secco, R. 2015. Linaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB30245>http://floradobrasil2015.jbrj.gov.br/FB30245</a>)<br><br>Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB30245\">https://floradobrasil2020.jbrj.gov.br/FB30245</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;MILDNER, R. A.; RA, MILDNER; CM, ROGERS. &lt;strong&gt;Revision of the native South American species of &lt;em&gt;Linum&lt;/em&gt; (Linaceae)&lt;/strong&gt;. 1978.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;ROGERS, C. M.; SMITH, L. B. Lin&amp;aacute;ceas.&amp;nbsp;&lt;strong&gt;Flora Ilustrada Catarinense&lt;/strong&gt;. Itaja&amp;iacute;, Santa Catarina, 1975.&lt;/span&gt;",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Bras. Merid. 1(4): 133 1825",
+      "namepublishedinyear": "1825",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB30245",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB30245>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-29 17:47:40.174"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "linho-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "A. St.-Hil.,Fl. Bras. Merid.,1(4): 133,1825"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 598866,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Linum junceum A. St.-Hil."
+      },
+      {
+        "relatedresourceid": 612506,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale var. glandulosa A St.-Hil."
+      },
+      {
+        "relatedresourceid": 623031,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Linum junceum f. genuinum Urb."
+      },
+      {
+        "relatedresourceid": 623034,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale f. cuspidatum Urb."
+      },
+      {
+        "relatedresourceid": 623032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale f. cuspidatum Urb."
+      },
+      {
+        "relatedresourceid": 623030,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Linum littorale f. cuspidatum Urb."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "R. Kummrow 685",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096761",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1096761",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 44426",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM076317",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM076317",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kummrow, R 1408",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM071465",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM071465",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Kummrow 685",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096761",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1096761",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kummrow, R 1408",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM071465",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229459269",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 44426",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM076317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229461461",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Kummrow 685",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096761",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97984518",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Kummrow 685",
+        "collectioncode": "MO",
+        "catalognumber": "MO1096761",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97984518",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 601865,
+      "scientificname": "Linum littorale var. oblongifolium (Urb.) C.M. Rogers",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "oblongifolium",
+      "scientificnameauthorship": "(Urb.) C.M. Rogers",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale var. oblongifolium (Urb.) C.M. Rogers",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601865\">https://floradobrasil2020.jbrj.gov.br/FB601865</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;MILDNER, R. A.; RA, MILDNER; CM, ROGERS. &lt;strong&gt;Revision of the native South American species of &lt;em&gt;Linum&lt;/em&gt; (Linaceae)&lt;/strong&gt;. 1978.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 10pt;&quot;&gt;ROGERS, C. M.; SMITH, L. B. Lin&amp;aacute;ceas.&amp;nbsp;&lt;strong&gt;Flora Ilustrada Catarinense&lt;/strong&gt;. Itaja&amp;iacute;, Santa Catarina, 1975.&lt;/span&gt;",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. I. Catarinense Lináceas: 22 1975",
+      "namepublishedinyear": "1975",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601865",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601865>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-29 17:48:24.262"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "linho-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "C.M. Rogers,Fl. I. Catarinense,Lináceas: 22,1975"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 612513,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Linum junceum f. genuinum Urb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 612506,
+      "scientificname": "Linum littorale var. glandulosa A St.-Hil.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "glandulosa",
+      "scientificnameauthorship": "A St.-Hil.",
+      "acceptednameusage": "Linum littorale A. St.-Hil. var. littorale",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale var. glandulosa A St.-Hil.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB612506\">https://floradobrasil2020.jbrj.gov.br/FB612506</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Bras. Merid. 1(4): 134 1825",
+      "namepublishedinyear": "1825",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB612506",
+      "acceptednameusageid": 30245,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB612506>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-20 12:46:07.114"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "A. St.-Hil.,Fl. Bras. Merid.,1(4): 134,1825"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 30245,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale A. St.-Hil. var. littorale"
+      },
+      {
+        "relatedresourceid": 623032,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Linum littorale f. cuspidatum Urb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 612510,
+      "scientificname": "Linum littorale f. cuspidatum Urb.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "cuspidatum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum erigeroides A. St.-Hil.",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale f. cuspidatum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB612510\">https://floradobrasil2020.jbrj.gov.br/FB612510</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Mart. Fl. Bras. 12(2): 463 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB612510",
+      "acceptednameusageid": 8616,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB612510>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:18:57.096"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Mart. Fl. Bras.,12(2): 463,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8616,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum erigeroides A. St.-Hil."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 613339,
+      "scientificname": "Linum littorale var. corymbosum Urb.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "corymbosum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum erigeroides A. St.-Hil.",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale var. corymbosum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB613339\">https://floradobrasil2020.jbrj.gov.br/FB613339</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Mart. Fl. Bras. 12: 2: 464 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB613339",
+      "acceptednameusageid": 8616,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB613339>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 21:45:32.773"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Mart. Fl. Bras.,12: 2: 464,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8616,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum erigeroides A. St.-Hil."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 623029,
+      "scientificname": "Linum littorale f. cuspidatum Urb.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "cuspidatum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum erigeroides A. St.-Hil.",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale f. cuspidatum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB623029\">https://floradobrasil2020.jbrj.gov.br/FB623029</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora Brasiliensis 12(2): 464 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB623029",
+      "acceptednameusageid": 8616,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB623029>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:06:43.108"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Flora Brasiliensis,12(2): 464,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8616,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum erigeroides A. St.-Hil."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 623030,
+      "scientificname": "Linum littorale f. cuspidatum Urb.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "cuspidatum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum littorale A. St.-Hil. var. littorale",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale f. cuspidatum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB623030\">https://floradobrasil2020.jbrj.gov.br/FB623030</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora Brasiliensis 12(2): 464 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB623030",
+      "acceptednameusageid": 30245,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB623030>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:02:17.82"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Flora Brasiliensis,12(2): 464,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 30245,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Linum littorale A. St.-Hil. var. littorale"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 623032,
+      "scientificname": "Linum littorale f. cuspidatum Urb.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "cuspidatum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum littorale A. St.-Hil. var. littorale",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale f. cuspidatum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB623032\">https://floradobrasil2020.jbrj.gov.br/FB623032</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora Brasiliensis 12(2): 463 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB623032",
+      "acceptednameusageid": 30245,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB623032>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:17:13.325"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Flora Brasiliensis,12(2): 463,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 612506,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Linum littorale var. glandulosa A St.-Hil."
+      },
+      {
+        "relatedresourceid": 30245,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale A. St.-Hil. var. littorale"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 623034,
+      "scientificname": "Linum littorale f. cuspidatum Urb.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Linaceae",
+      "genus": "Linum",
+      "specificepithet": "littorale",
+      "infraspecificepithet": "cuspidatum",
+      "scientificnameauthorship": "Urb.",
+      "acceptednameusage": "Linum littorale A. St.-Hil. var. littorale",
+      "higherclassification": "Flora e Funga;Angiospermas;Linaceae DC. ex Perleb;Linum L.;Linum littorale A. St.-Hil.;Linum littorale f. cuspidatum Urb.",
+      "source": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB623034\">https://floradobrasil2020.jbrj.gov.br/FB623034</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Linum littorale A. St.-Hil.",
+      "parentnameusageid": 8617,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora Brasiliensis 12(2): 464 1877",
+      "namepublishedinyear": "1877",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB623034",
+      "acceptednameusageid": 30245,
+      "bibliographiccitation_how_to_cite": "Soares-Silva, J.P., Sampaio, D. Linaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB623034>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:21:49.78"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Urb.,Flora Brasiliensis,12(2): 464,1877"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 30245,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Linum littorale A. St.-Hil. var. littorale"
+      }
+    ],
+    "voucher": []
+  }
+]

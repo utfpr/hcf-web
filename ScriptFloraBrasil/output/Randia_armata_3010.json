@@ -1,0 +1,969 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14231,
+      "scientificname": "Randia armata (Sw.) DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Randia",
+      "specificepithet": "armata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sw.) DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Randia L.;Randia armata (Sw.) DC.",
+      "source": "Barbosa, M.R. 2015. Randia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14231>http://floradobrasil2015.jbrj.gov.br/FB14231</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Randia L.",
+      "parentnameusageid": 14230,
+      "originalnameusageid": "72767",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14231",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Salas, R.M. , Borges, R.L. Randia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14231>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-12-31 01:20:10.404"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "espinho-de-judeu",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "esporão-de-galo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Prodr.,4: 387,1830"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 74136,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia spinosa var. pubescens K.Schum."
+      },
+      {
+        "relatedresourceid": 20840,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia nitida (Kunth) DC."
+      },
+      {
+        "relatedresourceid": 71557,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha mollis Rusby"
+      },
+      {
+        "relatedresourceid": 71558,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha mucronata Rusby"
+      },
+      {
+        "relatedresourceid": 74130,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia oblanceolata Rusby"
+      },
+      {
+        "relatedresourceid": 71569,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha spinosa var. pubescens (Kunth) K.Schum."
+      },
+      {
+        "relatedresourceid": 71562,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha spinosa var. guatemalensis K.Schum. ex Loes."
+      },
+      {
+        "relatedresourceid": 71565,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha spinosa var. nitida (Kunth) K.Schum."
+      },
+      {
+        "relatedresourceid": 71566,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha spinosa var. paraguariensis Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 71567,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha spinosa var. parviflora Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 74121,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia armata var. pubescens (K.Schum.) Standl."
+      },
+      {
+        "relatedresourceid": 71551,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha erythropoda Rusby"
+      },
+      {
+        "relatedresourceid": 71554,
+        "relationshipofresource": null,
+        "scientificname": "Basanacantha humboldtiana (Schult.) Benth. & Hook.f. ex B.D.Jacks."
+      },
+      {
+        "relatedresourceid": 72767,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gardenia armata Sw."
+      },
+      {
+        "relatedresourceid": 74552,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Solena armata (Sw.) D.Dietr."
+      },
+      {
+        "relatedresourceid": 24583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia spinosa Jacq."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Jarenkow 1050",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA019990",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA019990",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 1050",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA019990",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226748533",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 20838,
+      "scientificname": "Randia armata var. polyantha (Schum.) Steyerm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Randia",
+      "specificepithet": "armata",
+      "infraspecificepithet": "polyantha",
+      "scientificnameauthorship": "(Schum.) Steyerm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Randia L.;Randia armata (Sw.) DC.;Randia armata var. polyantha (Schum.) Steyerm.",
+      "source": "Barbosa, M.R. 2015. Randia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20838>http://floradobrasil2015.jbrj.gov.br/FB20838</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Randia armata (Sw.) DC.",
+      "parentnameusageid": 14231,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20838",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Salas, R.M. , Borges, R.L. Randia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20838>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-11 14:31:26.603604"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 39229,
+      "scientificname": "Randia armata (Sw.) DC. subsp. armata",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Randia",
+      "specificepithet": "armata",
+      "infraspecificepithet": "armata",
+      "scientificnameauthorship": "(Sw.) DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Randia L.;Randia armata (Sw.) DC.;Randia armata (Sw.) DC. subsp. armata",
+      "source": "Barbosa, M.R. 2015. Randia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39229>http://floradobrasil2015.jbrj.gov.br/FB39229</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Randia armata (Sw.) DC.",
+      "parentnameusageid": 14231,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39229",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Salas, R.M. , Borges, R.L. Randia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB39229>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-12-31 01:30:27.714"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Carrasco",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 71568,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa var. polyantha K.Schum."
+      },
+      {
+        "relatedresourceid": 71570,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa var. typica K.Schum."
+      },
+      {
+        "relatedresourceid": 71564,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa var. macrocalyx Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 71563,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa var. longipedunculata Kuntze"
+      },
+      {
+        "relatedresourceid": 74120,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia armata var. ferox (K.Schum.) Bernardi"
+      },
+      {
+        "relatedresourceid": 71561,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa var. ferox K.Schum."
+      },
+      {
+        "relatedresourceid": 71560,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha spinosa (Jacq.) K.Schum."
+      },
+      {
+        "relatedresourceid": 73445,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mussaenda spinosa Jacq."
+      },
+      {
+        "relatedresourceid": 71559,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Basanacantha phyllosepala R.O.Williams & Cheesman"
+      },
+      {
+        "relatedresourceid": 74132,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia ovata Duchass. ex Griseb."
+      },
+      {
+        "relatedresourceid": 72794,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gardenia tetracantha Lam."
+      },
+      {
+        "relatedresourceid": 74125,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Randia guianensis Sagot ex K.Schum."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74120,
+      "scientificname": "Randia armata var. ferox (K.Schum.) Bernardi",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Randia",
+      "specificepithet": "armata",
+      "infraspecificepithet": "ferox",
+      "scientificnameauthorship": "(K.Schum.) Bernardi",
+      "acceptednameusage": "Randia armata (Sw.) DC. subsp. armata",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Randia L.;Randia armata (Sw.) DC.;Randia armata var. ferox (K.Schum.) Bernardi",
+      "source": "Barbosa, M.R. 2015. Randia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74120>http://floradobrasil2015.jbrj.gov.br/FB74120</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Randia armata (Sw.) DC.",
+      "parentnameusageid": 14231,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74120",
+      "acceptednameusageid": 39229,
+      "bibliographiccitation_how_to_cite": "Salas, R.M. , Borges, R.L. Randia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74120>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-11 14:29:06.0003"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Boissiera,37: 204,1985"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39229,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Randia armata (Sw.) DC. subsp. armata"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74121,
+      "scientificname": "Randia armata var. pubescens (K.Schum.) Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Randia",
+      "specificepithet": "armata",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "(K.Schum.) Standl.",
+      "acceptednameusage": "Randia armata (Sw.) DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Randia L.;Randia armata (Sw.) DC.;Randia armata var. pubescens (K.Schum.) Standl.",
+      "source": "Barbosa, M.R. 2015. Randia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74121>http://floradobrasil2015.jbrj.gov.br/FB74121</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Randia armata (Sw.) DC.",
+      "parentnameusageid": 14231,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74121",
+      "acceptednameusageid": 14231,
+      "bibliographiccitation_how_to_cite": "Salas, R.M. , Borges, R.L. Randia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74121>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-11 14:28:33.276931"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Publ. Field Mus. Nat. Hist., Bot. Ser.,13: 103,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14231,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Randia armata (Sw.) DC."
+      },
+      {
+        "relatedresourceid": 20840,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Randia nitida (Kunth) DC."
+      }
+    ],
+    "voucher": []
+  }
+]

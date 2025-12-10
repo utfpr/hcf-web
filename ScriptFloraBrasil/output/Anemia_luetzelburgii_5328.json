@@ -1,0 +1,110 @@
+[
+  {
+    "taxon": {
+      "taxonid": 90627,
+      "scientificname": "Anemia luetzelburgii Rosenst.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Schizaeales",
+      "family": "Anemiaceae",
+      "genus": "Anemia",
+      "specificepithet": "luetzelburgii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Rosenst.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Anemiaceae Link;Anemia Sw.;Anemia luetzelburgii Rosenst.",
+      "source": "Mickel, J.,Barros, I.C.L.,Santiago, A.C.P.,Pereira, A.F. de N.,Labiak, P.H. 2015. Anemiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB90627>http://floradobrasil2015.jbrj.gov.br/FB90627</a>)<br><br>Labiak, P. H. 2020. Anemia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB90627\">https://floradobrasil2020.jbrj.gov.br/FB90627</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Anemia Sw.",
+      "parentnameusageid": 90589,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB90627",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Labiak, P. H. Anemia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB90627>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-30 13:14:51.218"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "A.C. Brade 18436",
+        "collectioncode": "NY",
+        "catalognumber": "NY02553965",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228507773",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 18436",
+        "collectioncode": "NY",
+        "catalognumber": "NY02553965",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02553965",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  }
+]

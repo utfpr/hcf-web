@@ -1,0 +1,137 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14468,
+      "scientificname": "Chrysophyllum viride Mart. & Eichler",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sapotaceae",
+      "genus": "Chrysophyllum",
+      "specificepithet": "viride",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart. & Eichler",
+      "acceptednameusage": "Chloroluma viridis (Mart. & Eichler ex Miq.) Aubrév.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapotaceae Juss.;Chrysophyllum L.;Chrysophyllum viride Mart. & Eichler",
+      "source": "Carneiro, C.E.,Alves-Araujo, A.,Almeida Jr., E.B.,Terra-Araujo, M.H. 2015. Sapotaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14468>http://floradobrasil2015.jbrj.gov.br/FB14468</a>)<br><br>Alves-Araújo, A., Carneiro, C.E., Faria, A.D. 2020. Chrysophyllum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14468\">https://floradobrasil2020.jbrj.gov.br/FB14468</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Pennington, T.D. 1990. Sapotaceae. Fl. Neotrop. 52: 613.",
+      "parentnameusage": "Chrysophyllum L.",
+      "parentnameusageid": 14455,
+      "originalnameusageid": "75477",
+      "namepublishedin": "Fl. bras. 7: 102 1863",
+      "namepublishedinyear": "1863",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14468",
+      "acceptednameusageid": 75477,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-05 17:50:00.821"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "massaranduba",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SP"
+      },
+      {
+        "vernacularname": "aguaí",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC, RS"
+      },
+      {
+        "vernacularname": "cacheta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      },
+      {
+        "vernacularname": "caixeta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      },
+      {
+        "vernacularname": "caxeta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      },
+      {
+        "vernacularname": "caixeta-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      },
+      {
+        "vernacularname": "caxeta-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,7: 102,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 75477,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Chloroluma viridis (Mart. & Eichler ex Miq.) Aubrév."
+      },
+      {
+        "relatedresourceid": 75622,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fibrocentrum glaziovianum Pierre ex Glaz."
+      },
+      {
+        "relatedresourceid": 75551,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chrysophyllum perfidum Allemão"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.L. Gasper 1713",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03490",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB03490",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Seele, C. 621",
+        "collectioncode": "RB",
+        "catalognumber": "RB00385030",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00385030",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Seele, C. 621",
+        "collectioncode": "RB",
+        "catalognumber": "RB00385030",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284113126",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.L. Gasper 1713",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03490",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226944429",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

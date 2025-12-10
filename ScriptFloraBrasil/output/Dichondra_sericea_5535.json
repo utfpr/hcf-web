@@ -1,0 +1,182 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6989,
+      "scientificname": "Dichondra sericea Sw.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Dichondra",
+      "specificepithet": "sericea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Sw.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Dichondra J.R.Forst. & G.Forst.;Dichondra sericea Sw.",
+      "source": "Simão-Bianchini, R.,Ferreira, P.P.A. 2015. Dichondra in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6989>http://floradobrasil2015.jbrj.gov.br/FB6989</a>)<br><br>Ferreira, P.P.A., Delgado-Junior, G.C. 2020. Dichondra in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6989\">https://floradobrasil2020.jbrj.gov.br/FB6989</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dichondra J.R.Forst. & G.Forst.",
+      "parentnameusageid": 6985,
+      "originalnameusageid": null,
+      "namepublishedin": "Prodr. 54 1788",
+      "namepublishedinyear": "1788",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6989",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ferreira, P.P.A., Delgado-Junior, G.C. Dichondra in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB6989>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-20 10:51:26.362"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Swartz, O.,Prodr.,54,1788"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Simão-Bianchini, R. 1126",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00143453",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=135031650",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 406",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00030843",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00030843",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 6362",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB22721",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB22721",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Simão-Bianchini, R. 1126",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00143453",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00143453",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi,A.C. 9079",
+        "collectioncode": "RB",
+        "catalognumber": "RB00672694",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00672694",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi,A.C. 9079",
+        "collectioncode": "RB",
+        "catalognumber": "RB00672694",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284650638",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 406",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00030843",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229099529",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 6362",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB22721",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226985553",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

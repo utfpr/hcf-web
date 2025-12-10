@@ -1,0 +1,112 @@
+[
+  {
+    "taxon": {
+      "taxonid": 106073,
+      "scientificname": "Bromus auleticus Trin. ex Nees",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Bromus",
+      "specificepithet": "auleticus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Trin. ex Nees",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Bromus L.;Bromus auleticus Trin. ex Nees",
+      "source": "Longhi-Wagner, H.M. 2015. Bromus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB106073>http://floradobrasil2015.jbrj.gov.br/FB106073</a>)<br><br>Essi, L. 2020. Bromus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB106073\">https://floradobrasil2020.jbrj.gov.br/FB106073</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Burkart, A. Flora Ilustrada de Entre Rios (Argentina). Gram&amp;iacute;neas, Buenos Aires, INTA, 1969, T. VI, p. 2.\r\nLonghi-Wagner, H.M. 1987. Flora Ilustrada do Rio Grande do Sul. Gramineae - tribo Poeae. Boletim do Instituto de Bioci&amp;ecirc;ncias, Universidade Federal do Rio Grande do Sul, Porto Alegre. 1: 1-191",
+      "parentnameusage": "Bromus L.",
+      "parentnameusageid": 13065,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Bras. Enum. Pl. 2(1): 468. 1829",
+      "namepublishedinyear": "1829",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB106073",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Essi, L. Bromus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB106073>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 16:01:24.958"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cevadilha-vacariana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul do Brasil"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Nees von Esenbeck, C.G.D.,Fl. Bras. Enum. Pl.,2(1): 468.,1829"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "J.F.M. Valls 14915",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051194",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226316622",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.M. Valls 14915",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051194",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00051194",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

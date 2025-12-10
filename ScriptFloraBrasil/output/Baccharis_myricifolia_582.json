@@ -1,0 +1,191 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5215,
+      "scientificname": "Baccharis myricifolia DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "myricifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis myricifolia DC.",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5215>http://floradobrasil2015.jbrj.gov.br/FB5215</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5215\">https://floradobrasil2020.jbrj.gov.br/FB5215</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5215",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-01-31 13:50:48.668"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 26862,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis myricaefolia DC."
+      },
+      {
+        "relatedresourceid": 26878,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis xiphophylla Baker"
+      },
+      {
+        "relatedresourceid": 634877,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis xylophylla Baker"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Santos-Silva 159",
+        "collectioncode": "RB",
+        "catalognumber": "RB00735525",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00735525",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 1598",
+        "collectioncode": "RB",
+        "catalognumber": "RB00808193",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00808193",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 1424",
+        "collectioncode": "RB",
+        "catalognumber": "RB00809101",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00809101",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Santos-Silva 159",
+        "collectioncode": "RB",
+        "catalognumber": "RB00735525",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284756018",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 1424",
+        "collectioncode": "RB",
+        "catalognumber": "RB00809101",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284842722",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 1598",
+        "collectioncode": "RB",
+        "catalognumber": "RB00808193",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284842254",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

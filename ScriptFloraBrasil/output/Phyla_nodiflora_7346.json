@@ -1,0 +1,795 @@
+[
+  {
+    "taxon": {
+      "taxonid": 39728,
+      "scientificname": "Phyla nodiflora (L.) Greene",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Greene",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39728>http://floradobrasil2015.jbrj.gov.br/FB39728</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB39728\">https://floradobrasil2020.jbrj.gov.br/FB39728</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla Lour.",
+      "parentnameusageid": 15185,
+      "originalnameusageid": "77410",
+      "namepublishedin": "Species Plantarum 1: 20 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39728",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB39728>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-09-16 10:00:34.815"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ciliar ou Galeria",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Greene, E.L.,Pittonia,4: 46,1899"
+      },
+      {
+        "reference": "Linnaeus,Species Plantarum,1: 20,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 77028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia nodiflora Cham."
+      },
+      {
+        "relatedresourceid": 583418,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene var. nodiflora"
+      },
+      {
+        "relatedresourceid": 583414,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. minor (HooK) N.O'Leary & Múlgura"
+      },
+      {
+        "relatedresourceid": 76863,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lantana larranagae Moldenke"
+      },
+      {
+        "relatedresourceid": 76904,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lantana repens Sessé & Moc."
+      },
+      {
+        "relatedresourceid": 76944,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia aegyptiaca Carrière"
+      },
+      {
+        "relatedresourceid": 77007,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia incisa (Small) Tidestr."
+      },
+      {
+        "relatedresourceid": 77051,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia repens (Bertol.) Spreng."
+      },
+      {
+        "relatedresourceid": 77018,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia litoralis Phil."
+      },
+      {
+        "relatedresourceid": 77329,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena cuneata Willd. ex Spreng."
+      },
+      {
+        "relatedresourceid": 77317,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena capitata Forssk."
+      },
+      {
+        "relatedresourceid": 77410,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena nodiflora L."
+      },
+      {
+        "relatedresourceid": 77446,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena repens Bertol."
+      },
+      {
+        "relatedresourceid": 77454,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena sarmentosa Willd."
+      },
+      {
+        "relatedresourceid": 77158,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla strigulosa var. parvifolia (Moldenke) Moldenke"
+      },
+      {
+        "relatedresourceid": 581935,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. reptans (Kunth) Moldenke"
+      },
+      {
+        "relatedresourceid": 597979,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia reptans Kunth"
+      },
+      {
+        "relatedresourceid": 77055,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia sarmentosa (Willd.) Spreng."
+      },
+      {
+        "relatedresourceid": 77153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. galapagensis Moldenke"
+      },
+      {
+        "relatedresourceid": 77154,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. incisa (Small) Moldenke"
+      },
+      {
+        "relatedresourceid": 77032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia nodiflora var. sarmentosa (Willd.) Schauer"
+      },
+      {
+        "relatedresourceid": 77155,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. longifolia Moldenke"
+      },
+      {
+        "relatedresourceid": 77029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia nodiflora var. acutifolia Kuntze"
+      },
+      {
+        "relatedresourceid": 77157,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. texensis Moldenke"
+      },
+      {
+        "relatedresourceid": 76636,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Blairia nodiflora (L.) Gaertn."
+      },
+      {
+        "relatedresourceid": 77148,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla chinensis Lour."
+      },
+      {
+        "relatedresourceid": 77166,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Platonia nodiflora (L.) Raf."
+      },
+      {
+        "relatedresourceid": 77163,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Piarimula chinensis (Lour.) Raf."
+      },
+      {
+        "relatedresourceid": 77151,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla incisa Small"
+      },
+      {
+        "relatedresourceid": 77149,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla filiformis (Schrad.) Meikle"
+      },
+      {
+        "relatedresourceid": 77337,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena elliptica Willd. ex Spreng."
+      },
+      {
+        "relatedresourceid": 77506,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zappania nodiflora (L.) Lam."
+      },
+      {
+        "relatedresourceid": 77509,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zappania repens (Bertol.) Bertol."
+      },
+      {
+        "relatedresourceid": 77510,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zappania suberosa Spreng."
+      },
+      {
+        "relatedresourceid": 77031,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lippia nodiflora var. repens (Bertol.) Schauer"
+      },
+      {
+        "relatedresourceid": 77152,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora var. antillana Moldenke"
+      },
+      {
+        "relatedresourceid": 76911,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lantana sarmentosa Spreng."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "O.S. Ribas 1846",
+        "collectioncode": "K",
+        "catalognumber": "K000925069",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000925069",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzatti, F. 5161",
+        "collectioncode": "EVB",
+        "catalognumber": "EVB00005669",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EVB00005669",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 1846",
+        "collectioncode": "K",
+        "catalognumber": "K000925069",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227356211",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzatti, F. 5161",
+        "collectioncode": "EVB",
+        "catalognumber": "EVB00005669",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308649981",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 77152,
+      "scientificname": "Phyla nodiflora var. antillana Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "antillana",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. antillana Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77152>http://floradobrasil2015.jbrj.gov.br/FB77152</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77152\">https://floradobrasil2020.jbrj.gov.br/FB77152</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77152",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77152>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-08 14:41:25.144837"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,40: 468,1978"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77153,
+      "scientificname": "Phyla nodiflora var. galapagensis Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "galapagensis",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. galapagensis Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77153>http://floradobrasil2015.jbrj.gov.br/FB77153</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77153\">https://floradobrasil2020.jbrj.gov.br/FB77153</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77153",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77153>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-08 14:41:58.078569"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,41: 450,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77154,
+      "scientificname": "Phyla nodiflora var. incisa (Small) Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "incisa",
+      "scientificnameauthorship": "(Small) Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. incisa (Small) Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77154>http://floradobrasil2015.jbrj.gov.br/FB77154</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77154\">https://floradobrasil2020.jbrj.gov.br/FB77154</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77154",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77154>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-08 14:42:21.771997"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,27: 69,1973"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77155,
+      "scientificname": "Phyla nodiflora var. longifolia Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "longifolia",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. longifolia Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77155>http://floradobrasil2015.jbrj.gov.br/FB77155</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77155\">https://floradobrasil2020.jbrj.gov.br/FB77155</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77155",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77155>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-08 14:42:46.833114"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,2: 22,1941"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77156,
+      "scientificname": "Phyla nodiflora var. sericea Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "sericea",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. sericea Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77156>http://floradobrasil2015.jbrj.gov.br/FB77156</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77156\">https://floradobrasil2020.jbrj.gov.br/FB77156</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77156",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77156>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-04 10:05:57.904"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Phytologia,1: 98,1934"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77157,
+      "scientificname": "Phyla nodiflora var. texensis Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "texensis",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. texensis Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77157>http://floradobrasil2015.jbrj.gov.br/FB77157</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77157\">https://floradobrasil2020.jbrj.gov.br/FB77157</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77157",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77157>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-08 14:43:20.922545"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,27: 69,1973"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581935,
+      "scientificname": "Phyla nodiflora var. reptans (Kunth) Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "reptans",
+      "scientificnameauthorship": "(Kunth) Moldenke",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. reptans (Kunth) Moldenke",
+      "source": "França, F.,O'Leary, N.,Salimena, F.R.G. 2015. Phyla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581935>http://floradobrasil2015.jbrj.gov.br/FB581935</a>)<br><br>O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581935\">https://floradobrasil2020.jbrj.gov.br/FB581935</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "Nov. Gen. Sp. Pl. 2: 263 1818",
+      "namepublishedinyear": "1818",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581935",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581935>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-22 13:08:12.09"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Moldenke, H.N.,Torreya,34: 9,1934"
+      },
+      {
+        "reference": "Kunth, C.S.,Nov. Gen. Sp. Pl.,2: 263,1818"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 583414,
+      "scientificname": "Phyla nodiflora var. minor (HooK) N.O'Leary & Múlgura",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "(HooK) N.O'Leary & Múlgura",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora var. minor (HooK) N.O'Leary & Múlgura",
+      "source": "O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB583414\">https://floradobrasil2020.jbrj.gov.br/FB583414</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Misc. 1: 171 1830",
+      "namepublishedinyear": "1830",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB583414",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB583414>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-22 13:06:21.76"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "O'Leary et al.,Annals of the Missouri Botanical Garden,98: 589,2011"
+      },
+      {
+        "reference": "Gillies, J. & Hooker, W.J.,Bot. Misc.,1: 171,1830"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 583418,
+      "scientificname": "Phyla nodiflora (L.) Greene var. nodiflora",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Phyla",
+      "specificepithet": "nodiflora",
+      "infraspecificepithet": "nodiflora",
+      "scientificnameauthorship": "(L.) Greene",
+      "acceptednameusage": "Phyla nodiflora (L.) Greene",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Phyla Lour.;Phyla nodiflora (L.) Greene;Phyla nodiflora (L.) Greene var. nodiflora",
+      "source": "O’Leary, N. 2020. Phyla in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB583418\">https://floradobrasil2020.jbrj.gov.br/FB583418</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Phyla nodiflora (L.) Greene",
+      "parentnameusageid": 39728,
+      "originalnameusageid": null,
+      "namepublishedin": "Species Plantarum 1: 20 1788",
+      "namepublishedinyear": "1788",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB583418",
+      "acceptednameusageid": 39728,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Cardoso, P.H. Phyla in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB583418>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-22 13:04:51.45"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaeus,Species Plantarum,1: 20,1788"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39728,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Phyla nodiflora (L.) Greene"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,725 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7069,
+      "scientificname": "Ipomoea triloba L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "triloba",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea triloba L.",
+      "source": "Simão-Bianchini, R.,Ferreira, P.P.A. 2015. Ipomoea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7069>http://floradobrasil2015.jbrj.gov.br/FB7069</a>)<br><br>Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7069\">https://floradobrasil2020.jbrj.gov.br/FB7069</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea L.",
+      "parentnameusageid": 7021,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 1: 161 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7069",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7069>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-02-16 21:31:36.69"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "campainha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "corda-de-viola",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "corriola",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "jetirana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Linnaeus, C. von,Sp. Pl.,1: 161,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 128762,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea cordatotriloba var. australis (O'Donell) D.F. Austin"
+      },
+      {
+        "relatedresourceid": 601126,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea triloba var. eustachiana L."
+      },
+      {
+        "relatedresourceid": 601200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea triloba var. genuina L."
+      },
+      {
+        "relatedresourceid": 125996,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Convolvulus trilobus (L.) Desr."
+      },
+      {
+        "relatedresourceid": 126044,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea blancoi Choisy"
+      },
+      {
+        "relatedresourceid": 130623,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Jacquemontia grandifolia Dammer"
+      },
+      {
+        "relatedresourceid": 130484,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Batatas triloba (L.) Choisy"
+      },
+      {
+        "relatedresourceid": 623006,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea australis (O’Donell) J.R.I. Wood & P. Muñoz"
+      },
+      {
+        "relatedresourceid": 17000,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ipomoea grandifolia (Dammer) O'Donell"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Bianchini, R.S.; Bianchini, S. 13",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00143468",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=135034462",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Trinta, Z.A. 713",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263243",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283958712",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 29678",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263200",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283958628",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 379",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00031921",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229104593",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 379",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00031921",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00031921",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Trinta, Z.A. 713",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263243",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00263243",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 29678",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263200",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00263200",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Trinta, Z.A. 713",
+        "collectioncode": "NY",
+        "catalognumber": "NY01013936",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01013936",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 125",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00031874",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00031874",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bianchini, R.S.; Bianchini, S. 13",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00143468",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00143468",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, PPA 125",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00031874",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229104477",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Trinta, Z.A. 713",
+        "collectioncode": "NY",
+        "catalognumber": "NY01013936",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228391263",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 601126,
+      "scientificname": "Ipomoea triloba var. eustachiana L.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "triloba",
+      "infraspecificepithet": "eustachiana",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Ipomoea triloba L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea triloba L.;Ipomoea triloba var. eustachiana L.",
+      "source": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601126\">https://floradobrasil2020.jbrj.gov.br/FB601126</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea triloba L.",
+      "parentnameusageid": 7069,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601126",
+      "acceptednameusageid": 7069,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601126>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 22:35:10.201"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7069,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea triloba L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601200,
+      "scientificname": "Ipomoea triloba var. genuina L.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "triloba",
+      "infraspecificepithet": "genuina",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Ipomoea triloba L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea triloba L.;Ipomoea triloba var. genuina L.",
+      "source": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601200\">https://floradobrasil2020.jbrj.gov.br/FB601200</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea triloba L.",
+      "parentnameusageid": 7069,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601200",
+      "acceptednameusageid": 7069,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601200>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 22:40:52.825"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7069,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea triloba L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601248,
+      "scientificname": "Ipomoea triloba var. glaberrima L.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_MAL_APLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "triloba",
+      "infraspecificepithet": "glaberrima",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea triloba L.;Ipomoea triloba var. glaberrima L.",
+      "source": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601248\">https://floradobrasil2020.jbrj.gov.br/FB601248</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea triloba L.",
+      "parentnameusageid": 7069,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601248",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601248>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 22:44:09.859"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  }
+]

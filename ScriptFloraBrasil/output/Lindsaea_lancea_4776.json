@@ -1,0 +1,929 @@
+[
+  {
+    "taxon": {
+      "taxonid": 91303,
+      "scientificname": "Lindsaea lancea (L.) Bedd.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Bedd.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91303>http://floradobrasil2015.jbrj.gov.br/FB91303</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91303\">https://floradobrasil2020.jbrj.gov.br/FB91303</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Kramer KU (1957) A Revision of the genus &lt;em&gt;Lindsaea&lt;/em&gt; in the new world with notes on allied genera. Acta Botanica Neerlandica 6: 97&amp;ndash;290.\r\nPrado J, Sylvestre LS, Labiak PH, Windisch PG, Salino A, Barros ICL, Hirai RY, Almeida TE, Santiago ACP, Kieling-Rubio MA, Pereira AFN, &amp;Oslash;llgaard B, Ramos CGV, Mickel JT, Dittrich VAO, Mynssen CM, Schwartsburd PB, Condack JPS, Pereira JBS &amp;amp; Matos FB (2015) Diversity of ferns and lycophytes in Brazil. Rodrigu&amp;eacute;sia 66: 1&amp;ndash;11.\r\nPrado, J. 2004. Cript&amp;oacute;gamos do Parque Estadual das Fontes do Ipiranga, S&amp;atilde;o Paulo, SP. Pteridophyta. 5. Dennstaedtiaceae. Hoehnea 31(1): 11-22.",
+      "parentnameusage": "Lindsaea Pic.Serm.",
+      "parentnameusageid": 91284,
+      "originalnameusageid": "596919",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91303",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-09-26 14:13:28.16"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campinarana",
+        "Campo de Altitude",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Perenifólia",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 91310,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lindsaea pumila Klotzsch"
+      },
+      {
+        "relatedresourceid": 130938,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lindsaea elatior Kunze"
+      },
+      {
+        "relatedresourceid": 130937,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lindsaea remota Kunze"
+      },
+      {
+        "relatedresourceid": 599234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lindsaya trapeziformis Dryand."
+      },
+      {
+        "relatedresourceid": 619110,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lindsaea trapeziformis Dryand."
+      },
+      {
+        "relatedresourceid": 596919,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Adiantum lancea L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 91304,
+      "scientificname": "Lindsaea lancea var. elatior (Kunze) K.U.Kramer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": "elatior",
+      "scientificnameauthorship": "(Kunze) K.U.Kramer",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.;Lindsaea lancea var. elatior (Kunze) K.U.Kramer",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91304>http://floradobrasil2015.jbrj.gov.br/FB91304</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91304\">https://floradobrasil2020.jbrj.gov.br/FB91304</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lindsaea lancea (L.) Bedd.",
+      "parentnameusageid": 91303,
+      "originalnameusageid": "130938",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91304",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-08 11:02:24.481"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 130938,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Lindsaea elatior Kunze"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 91306,
+      "scientificname": "Lindsaea lancea var. falcata (Dryand.) Rosenst.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": "falcata",
+      "scientificnameauthorship": "(Dryand.) Rosenst.",
+      "acceptednameusage": "Lindsaea falcata Dryand.",
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.;Lindsaea lancea var. falcata (Dryand.) Rosenst.",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91306>http://floradobrasil2015.jbrj.gov.br/FB91306</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91306\">https://floradobrasil2020.jbrj.gov.br/FB91306</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lindsaea lancea (L.) Bedd.",
+      "parentnameusageid": 91303,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91306",
+      "acceptednameusageid": 91305,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-03 10:55:26.029"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 91305,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Lindsaea falcata Dryand."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 91307,
+      "scientificname": "Lindsaea lancea (L.) Bedd. var. lancea",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": "lancea",
+      "scientificnameauthorship": "(L.) Bedd.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.;Lindsaea lancea (L.) Bedd. var. lancea",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91307>http://floradobrasil2015.jbrj.gov.br/FB91307</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91307\">https://floradobrasil2020.jbrj.gov.br/FB91307</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prado, J. 2004. Cript&amp;oacute;gamos do Parque Estadual das Fontes do Ipiranga, S&amp;atilde;o Paulo, SP. Pteridophyta. 5. Dennstaedtiaceae. Hoehnea 31(1): 11-22.",
+      "parentnameusage": "Lindsaea lancea (L.) Bedd.",
+      "parentnameusageid": 91303,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91307",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-08 11:09:07.312"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 105408,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Adiantum lanceum L."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00588354",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284488382",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00588354",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00588354",
+        "locality": "PA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 91309,
+      "scientificname": "Lindsaea lancea var. remota (Kunze) K.U.Kramer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": "remota",
+      "scientificnameauthorship": "(Kunze) K.U.Kramer",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.;Lindsaea lancea var. remota (Kunze) K.U.Kramer",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91309>http://floradobrasil2015.jbrj.gov.br/FB91309</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91309\">https://floradobrasil2020.jbrj.gov.br/FB91309</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lindsaea lancea (L.) Bedd.",
+      "parentnameusageid": 91303,
+      "originalnameusageid": "91311",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91309",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-08 10:55:11.771"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 91311,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Lindsaea pumila var. remota Kunze"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 105515,
+      "scientificname": "Lindsaea lancea var. semilunata C.Chr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Lindsaeaceae",
+      "genus": "Lindsaea",
+      "specificepithet": "lancea",
+      "infraspecificepithet": "semilunata",
+      "scientificnameauthorship": "C.Chr.",
+      "acceptednameusage": "Lindsaea semilunata (C.Chr.) C.Chr.",
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Lindsaeaceae C.Presl;Lindsaea Pic.Serm.;Lindsaea lancea (L.) Bedd.;Lindsaea lancea var. semilunata C.Chr.",
+      "source": "Prado, J. 2015. Lindsaeaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB105515>http://floradobrasil2015.jbrj.gov.br/FB105515</a>)<br><br>Pena, N.T.L., Miranda, C.V., Schwartsburd, P.B., Oliveira, A.G.S., Smith-Braga, N. Lindsaeaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB105515\">https://floradobrasil2020.jbrj.gov.br/FB105515</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lindsaea lancea (L.) Bedd.",
+      "parentnameusageid": 91303,
+      "originalnameusageid": "91326",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB105515",
+      "acceptednameusageid": 91326,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-03 10:55:32.999"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 91326,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Lindsaea semilunata (C.Chr.) C.Chr."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,828 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14049,
+      "scientificname": "Geophila repens (L.) I.M.Johnst.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Geophila",
+      "specificepithet": "repens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) I.M.Johnst.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Geophila D.Don;Geophila repens (L.) I.M.Johnst.",
+      "source": "Macias, L.,Oliveira, J.A. 2015. Geophila in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14049>http://floradobrasil2015.jbrj.gov.br/FB14049</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Geophila D.Don",
+      "parentnameusageid": 14047,
+      "originalnameusageid": "74279",
+      "namepublishedin": "Sargentia 8: 281 1949",
+      "namepublishedinyear": "1949",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14049",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-30 20:57:06.994"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Johnston, I.M.,Sargentia,8: 281,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 73877,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria herbacea Jacq."
+      },
+      {
+        "relatedresourceid": 71869,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Carinta repens var. americana Bremek."
+      },
+      {
+        "relatedresourceid": 72841,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila reniformis var. asiatica Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72840,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila reniformis var. americana Schltdl."
+      },
+      {
+        "relatedresourceid": 73309,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mapouria herbacea var. minor Müll.Arg."
+      },
+      {
+        "relatedresourceid": 71867,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Carinta herbacea (Jacq.) W.Wight"
+      },
+      {
+        "relatedresourceid": 71868,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Carinta repens (L.) L.B.Sm. & Downs"
+      },
+      {
+        "relatedresourceid": 71870,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Carinta uniflora (Hiern) G.Taylor"
+      },
+      {
+        "relatedresourceid": 71954,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaelis herbacea (Jacq.) Kurz"
+      },
+      {
+        "relatedresourceid": 71943,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaelis diversifolia Blume"
+      },
+      {
+        "relatedresourceid": 72822,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geocardia macrocarpa (Müll.Arg.) Standl."
+      },
+      {
+        "relatedresourceid": 72825,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Geocardia repens (L.) Bakh.f."
+      },
+      {
+        "relatedresourceid": 72821,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geocardia herbacea (Jacq.) Standl."
+      },
+      {
+        "relatedresourceid": 72831,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila diversifolia (Blume) DC."
+      },
+      {
+        "relatedresourceid": 72832,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila herbacea (Jacq.) K.Schum."
+      },
+      {
+        "relatedresourceid": 74064,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria sylvana Pers."
+      },
+      {
+        "relatedresourceid": 74100,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotrophum herbaceum (Jacq.) Crantz"
+      },
+      {
+        "relatedresourceid": 73866,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria gracilis Ruiz & Pav."
+      },
+      {
+        "relatedresourceid": 75011,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga gracilis (Ruiz & Pav.) Kuntze"
+      },
+      {
+        "relatedresourceid": 131918,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mapouria macrocarpa Müll. Arg."
+      },
+      {
+        "relatedresourceid": 72843,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila repens subsp. reniformis (D.Don) M.R.Almeida"
+      },
+      {
+        "relatedresourceid": 72835,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila hydrocotyloides Zipp. ex Span."
+      },
+      {
+        "relatedresourceid": 71989,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaelis reniformis Kunth"
+      },
+      {
+        "relatedresourceid": 73308,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mapouria herbacea (Jacq.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72820,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geocardia cordata (Miq.) Standl."
+      },
+      {
+        "relatedresourceid": 72847,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila violacea (Aubl.) DC."
+      },
+      {
+        "relatedresourceid": 72839,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila reniformis (Kunth) Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72829,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila cordata Miq."
+      },
+      {
+        "relatedresourceid": 72846,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila uniflora Span."
+      },
+      {
+        "relatedresourceid": 74016,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria repens (L.) L."
+      },
+      {
+        "relatedresourceid": 74090,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria violacea Aubl."
+      },
+      {
+        "relatedresourceid": 74279,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Rondeletia repens L."
+      },
+      {
+        "relatedresourceid": 75300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga vellozoana Kuntze"
+      },
+      {
+        "relatedresourceid": 75016,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga herbacea (Jacq.) Kuntze"
+      },
+      {
+        "relatedresourceid": 75192,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga reniformis (D.Don) M.Gómez"
+      },
+      {
+        "relatedresourceid": 24466,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila gracilis (Ruiz & Pav.) DC."
+      },
+      {
+        "relatedresourceid": 73293,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mapouria cordata (Miq.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72842,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Geophila repens var. asiatica (Cham. & Schltdl.) Fosberg"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "W.R. Anderson 10667",
+        "collectioncode": "NY",
+        "catalognumber": "NY01061691",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228865938",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Paciencia, M.B. 2439",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA104421",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226820853",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 10667",
+        "collectioncode": "NY",
+        "catalognumber": "NY01061691",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01061691",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Paciencia, M.B. 2439",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA104421",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA104421",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03343",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB03343",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03343",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226944129",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 72842,
+      "scientificname": "Geophila repens var. asiatica (Cham. & Schltdl.) Fosberg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Geophila",
+      "specificepithet": "repens",
+      "infraspecificepithet": "asiatica",
+      "scientificnameauthorship": "(Cham. & Schltdl.) Fosberg",
+      "acceptednameusage": "Geophila repens (L.) I.M.Johnst.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Geophila D.Don;Geophila repens (L.) I.M.Johnst.;Geophila repens var. asiatica (Cham. & Schltdl.) Fosberg",
+      "source": "Macias, L.,Oliveira, J.A. 2015. Geophila in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB72842>http://floradobrasil2015.jbrj.gov.br/FB72842</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Geophila repens (L.) I.M.Johnst.",
+      "parentnameusageid": 14049,
+      "originalnameusageid": "72841",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB72842",
+      "acceptednameusageid": 14049,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-14 11:43:43.887073"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Smithsonian Contr. Bot.,45: 27,1980"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14049,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Geophila repens (L.) I.M.Johnst."
+      },
+      {
+        "relatedresourceid": 72841,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Geophila reniformis var. asiatica Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 72843,
+      "scientificname": "Geophila repens subsp. reniformis (D.Don) M.R.Almeida",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Geophila",
+      "specificepithet": "repens",
+      "infraspecificepithet": "reniformis",
+      "scientificnameauthorship": "(D.Don) M.R.Almeida",
+      "acceptednameusage": "Geophila repens (L.) I.M.Johnst.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Geophila D.Don;Geophila repens (L.) I.M.Johnst.;Geophila repens subsp. reniformis (D.Don) M.R.Almeida",
+      "source": "Macias, L.,Oliveira, J.A. 2015. Geophila in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB72843>http://floradobrasil2015.jbrj.gov.br/FB72843</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Geophila repens (L.) I.M.Johnst.",
+      "parentnameusageid": 14049,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB72843",
+      "acceptednameusageid": 14049,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-14 11:43:58.212433"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Fl. Maharashtra,3A: 16,2001"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14049,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Geophila repens (L.) I.M.Johnst."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 72844,
+      "scientificname": "Geophila repens var. violifolia (Kunth) Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Geophila",
+      "specificepithet": "repens",
+      "infraspecificepithet": "violifolia",
+      "scientificnameauthorship": "(Kunth) Chodat & Hassl.",
+      "acceptednameusage": "Geophila macropoda (Ruiz & Pav.) DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Geophila D.Don;Geophila repens (L.) I.M.Johnst.;Geophila repens var. violifolia (Kunth) Chodat & Hassl.",
+      "source": "Macias, L.,Oliveira, J.A. 2015. Geophila in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB72844>http://floradobrasil2015.jbrj.gov.br/FB72844</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Geophila repens (L.) I.M.Johnst.",
+      "parentnameusageid": 14049,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB72844",
+      "acceptednameusageid": 14048,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-28 14:29:12.444767"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Herb. Boissier II, 4: 180,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14048,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Geophila macropoda (Ruiz & Pav.) DC."
+      },
+      {
+        "relatedresourceid": 72848,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Geophila violifolia (Kunth) DC."
+      }
+    ],
+    "voucher": []
+  }
+]

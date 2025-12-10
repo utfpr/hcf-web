@@ -1,0 +1,628 @@
+[
+  {
+    "taxon": {
+      "taxonid": 4864,
+      "scientificname": "Tabernaemontana laeta Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Tabernaemontana",
+      "specificepithet": "laeta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Tabernaemontana L.;Tabernaemontana laeta Mart.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4864>http://floradobrasil2015.jbrj.gov.br/FB4864</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Lorenzi, H. Plantas para jardim no Brasil: herb&amp;aacute;ceas, arbustivas e trepadeiras. Nova Odessa, SP: Instituto Plantarum, 2013. p.197.",
+      "parentnameusage": "Tabernaemontana L.",
+      "parentnameusageid": 4860,
+      "originalnameusageid": "41784",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4864",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-04-08 12:18:41.539"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "jasmim-de-leite",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "jasmim-de-cachorro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "leiteira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "café-do-mato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "leiteiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "C.P.F. von Martius,Flora,20: 98,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 41784,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Peschiera laeta (Mart.) Miers"
+      },
+      {
+        "relatedresourceid": 41776,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peschiera florida Miers"
+      },
+      {
+        "relatedresourceid": 41800,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peschiera spixiana (Mart. ex Müll.Arg.) Miers"
+      },
+      {
+        "relatedresourceid": 41976,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana breviflora Müll.Arg."
+      },
+      {
+        "relatedresourceid": 42050,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana spixiana Mart. ex Müll.Arg."
+      },
+      {
+        "relatedresourceid": 42005,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta var. densa Müll.Arg."
+      },
+      {
+        "relatedresourceid": 42007,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta var. pubiflora Müll.Arg."
+      },
+      {
+        "relatedresourceid": 42006,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta var. minor Müll.Arg."
+      },
+      {
+        "relatedresourceid": 41767,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peschiera brevifolia (Müll.Arg.) Miers"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS137546",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238661959",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "K",
+        "catalognumber": "K000587786",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227590299",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "K",
+        "catalognumber": "K000587787",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227590301",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Pohl 1847",
+        "collectioncode": "NY",
+        "catalognumber": "NY00318370",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228094973",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "NY",
+        "catalognumber": "NY00318369",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228094971",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G.Gardner 5011",
+        "collectioncode": "P",
+        "catalognumber": "P00093841",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228044229",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "H.F.Leitão Filho et al. 34848",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA027609",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA027609",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Gardner 5011",
+        "collectioncode": "G",
+        "catalognumber": "G00169887",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/G00169887",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G.Gardner 5011",
+        "collectioncode": "P",
+        "catalognumber": "P00093841",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00093841",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Pohl 1847",
+        "collectioncode": "K",
+        "catalognumber": "K000587788",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000587788",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Pohl 1847",
+        "collectioncode": "NY",
+        "catalognumber": "NY00318370",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00318370",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "F. Sellow 418",
+        "collectioncode": "K",
+        "catalognumber": "K000587785",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000587785",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "K",
+        "catalognumber": "K000587786",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000587786",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. 456",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA028670",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA028670",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00009493",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00009493",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "K",
+        "catalognumber": "K000587787",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000587787",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.F.P. Martius 104",
+        "collectioncode": "NY",
+        "catalognumber": "NY00318369",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00318369",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0021572",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0021572",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.R.Martins 2753",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00104544",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00104544",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.F.Leitão Filho et al. 34848",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC189596",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC189596",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS137546",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS137546",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pohl 1847",
+        "collectioncode": "K",
+        "catalognumber": "K000587788",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227590303",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0021572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225945057",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Miranda, AM 5642",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00009493",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100434259",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.R.Martins 2753",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00104544",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226247220",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. 456",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA028670",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226755681",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow 418",
+        "collectioncode": "K",
+        "catalognumber": "K000587785",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227590297",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 42005,
+      "scientificname": "Tabernaemontana laeta var. densa Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Tabernaemontana",
+      "specificepithet": "laeta",
+      "infraspecificepithet": "densa",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tabernaemontana laeta Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Tabernaemontana L.;Tabernaemontana laeta Mart.;Tabernaemontana laeta var. densa Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42005>http://floradobrasil2015.jbrj.gov.br/FB42005</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Leeuwenberg, A. J. M. 1994. A Revision of Tabernaemontana two. The New World species and Stemmadenia. Series of Revisions of Apocynaceae: XXXVI, 213&#8211;450.",
+      "parentnameusage": "Tabernaemontana laeta Mart.",
+      "parentnameusageid": 4864,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42005",
+      "acceptednameusageid": 4864,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-28 14:23:47.217236"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(1): 80,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4864,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42006,
+      "scientificname": "Tabernaemontana laeta var. minor Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Tabernaemontana",
+      "specificepithet": "laeta",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tabernaemontana laeta Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Tabernaemontana L.;Tabernaemontana laeta Mart.;Tabernaemontana laeta var. minor Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42006>http://floradobrasil2015.jbrj.gov.br/FB42006</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Leeuwenberg, A. J. M. 1994. A Revision of Tabernaemontana two. The New World species and Stemmadenia. Series of Revisions of Apocynaceae: XXXVI, 213&#8211;450.",
+      "parentnameusage": "Tabernaemontana laeta Mart.",
+      "parentnameusageid": 4864,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42006",
+      "acceptednameusageid": 4864,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-28 14:22:53.416063"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(1): 80,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4864,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42007,
+      "scientificname": "Tabernaemontana laeta var. pubiflora Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Tabernaemontana",
+      "specificepithet": "laeta",
+      "infraspecificepithet": "pubiflora",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tabernaemontana laeta Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Tabernaemontana L.;Tabernaemontana laeta Mart.;Tabernaemontana laeta var. pubiflora Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42007>http://floradobrasil2015.jbrj.gov.br/FB42007</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Leeuwenberg, A. J. M. 1994. A Revision of Tabernaemontana two. The New World species and Stemmadenia. Series of Revisions of Apocynaceae: XXXVI, 213&#8211;450.",
+      "parentnameusage": "Tabernaemontana laeta Mart.",
+      "parentnameusageid": 4864,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42007",
+      "acceptednameusageid": 4864,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-28 14:19:30.598508"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(1): 79,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4864,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tabernaemontana laeta Mart."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6341,
+      "scientificname": "Quesnelia imbricata L.B.Sm.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Quesnelia",
+      "specificepithet": "imbricata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Quesnelia Gaudich.;Quesnelia imbricata L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6341>http://floradobrasil2015.jbrj.gov.br/FB6341</a>)<br><br>Oliveira, F.M.C., Tardivo, R.C. 2020. Quesnelia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6341\">https://floradobrasil2020.jbrj.gov.br/FB6341</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Quesnelia Gaudich.",
+      "parentnameusageid": 6335,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo 2: 195 1952",
+      "namepublishedinyear": "1952",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6341",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-10-30 21:38:20.153"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo,2: 195,1952"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "E. P. dos Santos 476",
+        "collectioncode": "NY",
+        "catalognumber": "NY00645844",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228318343",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16831",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263075",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283958338",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16831",
+        "collectioncode": "RB",
+        "catalognumber": "RB00263075",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00263075",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Vieira 955",
+        "collectioncode": "RB",
+        "catalognumber": "RB00648796",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00648796",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. P. dos Santos 476",
+        "collectioncode": "NY",
+        "catalognumber": "NY00645844",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00645844",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Vieira 955",
+        "collectioncode": "RB",
+        "catalognumber": "RB00648796",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284614572",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

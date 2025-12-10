@@ -1,0 +1,100 @@
+[
+  {
+    "taxon": {
+      "taxonid": 78939,
+      "scientificname": "Parkia bahiae H.C.Hopkins",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Parkia",
+      "specificepithet": "bahiae",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "H.C.Hopkins",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Parkia R.Br.;Parkia bahiae H.C.Hopkins",
+      "source": "Iganci, J.R.V. 2015. Parkia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB78939>http://floradobrasil2015.jbrj.gov.br/FB78939</a>)<br><br>Oliveira, L.C., Hopkins, M. 2020. Parkia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB78939\">https://floradobrasil2020.jbrj.gov.br/FB78939</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Parkia R.Br.",
+      "parentnameusageid": 23107,
+      "originalnameusageid": null,
+      "namepublishedin": "Three new species of Parkia (Leguminosae: Mimosoid 34(3): 346\u0013350 1982",
+      "namepublishedinyear": "1982",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB78939",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Oliveira, L.C., Hopkins, M. Parkia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB78939>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-06-25 16:13:20.117"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Hopkins, H.C.F.,Flora Neotropica,43: 1-124,1986"
+      },
+      {
+        "reference": "Hopkins, H.C.F.,Three new species of Parkia (Leguminosae: Mimosoid,34(3): 346\u0013350,1982"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R. P. Belém 3183",
+        "collectioncode": "NY",
+        "catalognumber": "NY00003183",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00003183",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L.P. Queiroz 15698",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00084593",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00084593",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.P. Queiroz 15698",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00084593",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226301742",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. P. Belém 3183",
+        "collectioncode": "NY",
+        "catalognumber": "NY00003183",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228081811",
+        "locality": "BA",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

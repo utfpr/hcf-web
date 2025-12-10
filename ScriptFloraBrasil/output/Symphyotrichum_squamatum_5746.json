@@ -1,0 +1,925 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5514,
+      "scientificname": "Symphyotrichum squamatum (Spreng.) G.L.Nesom",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Symphyotrichum",
+      "specificepithet": "squamatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Spreng.) G.L.Nesom",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Symphyotrichum Nees;Symphyotrichum squamatum (Spreng.) G.L.Nesom",
+      "source": "Heiden, G.,Borges, R.A.X.,Teles, A.M. 2015. Symphyotrichum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5514>http://floradobrasil2015.jbrj.gov.br/FB5514</a>)<br><br>Heiden, G. 2020. Symphyotrichum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5514\">https://floradobrasil2020.jbrj.gov.br/FB5514</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Symphyotrichum Nees",
+      "parentnameusageid": 5512,
+      "originalnameusageid": "632175",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5514",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Heiden, G. Symphyotrichum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5514>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-02-22 19:05:12.843"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Nesom, G.L.,Review of the taxonomy of Aster sensu lato (Asteraceae: Astereae), emphasizing the new world species,Phytologia 77(3):141-297,1994"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 26846,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aster squamatus (Spreng.) Hieron."
+      },
+      {
+        "relatedresourceid": 632175,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Conyza squamata Spreng."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Kegler 816",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781656",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781656",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 3630",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369622",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01369622",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 12270",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781667",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781667",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sprengel 1064",
+        "collectioncode": "P",
+        "catalognumber": "P00578749",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00578749",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Kegler 816",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781656",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781656",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Agnes Chase 8532",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998028",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1998028",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Barreto, K.D. 2227",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA019076",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA019076",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2/2423/ bis",
+        "collectioncode": "P",
+        "catalognumber": "P03732130",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03732130",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Weddell 738",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781661",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781661",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prof. R. B. Lange 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125142",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Kegler 816",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781656",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333751",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Quarín 963",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389916",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125176",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000221647",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227576367",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Quarín 963",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389916",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125176",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sprengel 1064",
+        "collectioncode": "P",
+        "catalognumber": "P00578749",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98314405",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oro, EJ 001",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006894",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271831",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Barreto, K.D. 2227",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA019076",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226747757",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Furman, D 002",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006920",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271879",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Regnell s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00834825",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228078013",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Agnes Chase 8532",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998028",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98003774",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prof. R. B. Lange 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125142",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Soares Nunes 129",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389903",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125214",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Agnes Chase 8532",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998028",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98003774",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Piacentini, N 016",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006532",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271105",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "* AFONSO 35",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998012",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98003768",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivy, VV 012",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006835",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271711",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bridges s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000221656",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227474527",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Usteri 16498",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781668",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333767",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Nuernberg, A. 1063",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0048540",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226920359",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Weddell 738",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781661",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333753",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 7571",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781664",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333759",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Eiten 6233",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781666",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333763",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2321",
+        "collectioncode": "RB",
+        "catalognumber": "RB01151236",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01151236",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Usteri 16498",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781668",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781668",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Soares Nunes 129",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389903",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389903",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bridges s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000221656",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000221656",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Agnes Chase 8532",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998028",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1998028",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prof. R. B. Lange 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389892",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Piacentini, N 016",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006532",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00006532",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Eiten 6233",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781666",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781666",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 7571",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781664",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781664",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oro, EJ 001",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006894",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00006894",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "George Eiten & Liene T. Eiten 6233",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998021",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1998021",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Nuernberg, A. 1063",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0048540",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0048540",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 695",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781663",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781663",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Marchiori, J N C 0",
+        "collectioncode": "HDCF",
+        "catalognumber": "HDCF00281",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HDCF00281",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "* AFONSO 35",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998012",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1998012",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00389922",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389922",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Adur, AR 025",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006730",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00006730",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "NY",
+        "catalognumber": "NY02474538",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02474538",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Furman, D 002",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006920",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00006920",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sakane, M 478",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB048217",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB048217",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000221647",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000221647",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 3630",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369622",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01369622",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Longhi, S. .J. 0",
+        "collectioncode": "HDCF",
+        "catalognumber": "HDCF005549",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HDCF005549",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Pereira 4896",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781669",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00781669",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Regnell s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00834825",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00834825",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00389922",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389922",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I. Ligório A. 35",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998012",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1998012",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivy, VV 012",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006835",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00006835",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Quarín 963",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389916",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389916",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000935",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI000935",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lange, R.B. 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389892",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prof. R. B. Lange 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389892",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Quarín 963",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389916",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00389916",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 12270",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781667",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333765",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2/2423/ bis",
+        "collectioncode": "P",
+        "catalognumber": "P03732130",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=212541962",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Adur, AR 025",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006730",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271503",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Adur, AR 025",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006730",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271501",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Adur, AR 025",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00006730",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97271499",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "NY",
+        "catalognumber": "NY02474538",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228462933",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Marchiori, J N C 0",
+        "collectioncode": "HDCF",
+        "catalognumber": "HDCF00281",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97198582",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00389922",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125194",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000935",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226131397",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Longhi, S. .J. 0",
+        "collectioncode": "HDCF",
+        "catalognumber": "HDCF005549",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97202040",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Pereira 4896",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781669",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333769",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00389922",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125194",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 695",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781663",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333757",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I. Ligório A. 35",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998012",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98003768",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "George Eiten & Liene T. Eiten 6233",
+        "collectioncode": "MO",
+        "catalognumber": "MO1998021",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98003770",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sakane, M 478",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB048217",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=124120875",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2321",
+        "collectioncode": "RB",
+        "catalognumber": "RB01151236",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284989908",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2321",
+        "collectioncode": "RB",
+        "catalognumber": "RB01151236",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284989906",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 3630",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369622",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285110898",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 3630",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369622",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285110898",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Kegler 816",
+        "collectioncode": "NY",
+        "catalognumber": "NY00781656",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228333751",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lange, R.B. 1307",
+        "collectioncode": "RB",
+        "catalognumber": "RB00389892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284125142",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

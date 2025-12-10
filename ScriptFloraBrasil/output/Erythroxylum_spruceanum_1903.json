@@ -1,0 +1,101 @@
+[
+  {
+    "taxon": {
+      "taxonid": 82416,
+      "scientificname": "Erythroxylum spruceanum Peyr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Erythroxylaceae",
+      "genus": "Erythroxylum",
+      "specificepithet": "spruceanum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Peyr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Erythroxylaceae Kunth;Erythroxylum P.Browne;Erythroxylum spruceanum Peyr.",
+      "source": "Loiola, M.I.B.,Costa-Lima, J.L. 2015. Erythroxylaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB82416>http://floradobrasil2015.jbrj.gov.br/FB82416</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;text-align: justify;&quot;&gt;Peyritsch, J. Erythroxylaceae. 1878. In: Martius, C.P.F. &amp;amp; Eichler, A.G. (eds.). Flora Brasiliensis 12 (1): 125-180.\r\n&lt;p style=&quot;text-align: justify;&quot;&gt;Plowman, T.C. &amp;amp; Hensold, N. 2004. Names, types and distribution of neotropical species of &lt;em&gt;Erythroxylum&lt;/em&gt; (Erythroxylaceae). Brittonia 56(1): 1-53.",
+      "parentnameusage": "Erythroxylum P.Browne",
+      "parentnameusageid": 7680,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 12(1): 160 1878",
+      "namepublishedinyear": "1878",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82416",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-09-27 12:24:01.895"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Floresta de Igapó"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Peyritsch, J.,Fl. bras.,12(1): 160,1878"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "M.J. Pires & N.T. Silva 745",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0148931",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0148931",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Spruce 2417",
+        "collectioncode": "K",
+        "catalognumber": "K000407497",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000407497",
+        "locality": "AM",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R. Spruce 2417",
+        "collectioncode": "K",
+        "catalognumber": "K000407497",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227604833",
+        "locality": "AM",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

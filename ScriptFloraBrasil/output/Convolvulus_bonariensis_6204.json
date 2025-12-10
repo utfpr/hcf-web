@@ -1,0 +1,105 @@
+[
+  {
+    "taxon": {
+      "taxonid": 102852,
+      "scientificname": "Convolvulus bonariensis Cav.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Convolvulus",
+      "specificepithet": "bonariensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cav.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Convolvulus L.;Convolvulus bonariensis Cav.",
+      "source": "Simão-Bianchini, R.,Ferreira, P.P.A. 2015. Convolvulus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB102852>http://floradobrasil2015.jbrj.gov.br/FB102852</a>)<br><br>Ferreira, P.P.A., Simão-Bianchini, R. 2020. Convolvulus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB102852\">https://floradobrasil2020.jbrj.gov.br/FB102852</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Convolvulus L.",
+      "parentnameusageid": 6975,
+      "originalnameusageid": null,
+      "namepublishedin": "Icon. 5: 54 1799",
+      "namepublishedinyear": "1799",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB102852",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ferreira, P.P.A., Simão-Bianchini, R. Convolvulus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB102852>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-06-21 15:51:09.458"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cavanilles, A.J.,Icon.,5: 54,1799"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach A.C. Cervi 78288",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000023992",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000023992",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach A.C. Cervi 78288",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000023992",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97192659",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

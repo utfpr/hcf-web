@@ -1,0 +1,188 @@
+[
+  {
+    "taxon": {
+      "taxonid": 814,
+      "scientificname": "Metrodorea flavida K.Krause",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Metrodorea",
+      "specificepithet": "flavida",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "K.Krause",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Metrodorea A.St.-Hil.;Metrodorea flavida K.Krause",
+      "source": "Pirani, J.R. 2015. Metrodorea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB814>http://floradobrasil2015.jbrj.gov.br/FB814</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB814\">https://floradobrasil2020.jbrj.gov.br/FB814</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Metrodorea A.St.-Hil.",
+      "parentnameusageid": 811,
+      "originalnameusageid": null,
+      "namepublishedin": "Notizbl. Königl. Bot. Gart. Berlin 6: 146 1914",
+      "namepublishedinyear": "1914",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB814",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB814>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-26 23:01:20.583"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "café-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Maranhão"
+      },
+      {
+        "vernacularname": "pirarara",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "casca-grossa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "pau-d'arquinho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "pirarara-branca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Krause, K.,Notizbl. Königl. Bot. Gart. Berlin,6: 146,1914"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 576,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Esenbeckia coriacea A.C.Sm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.T. Prance 8344",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0025142",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0025142",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Marcelo Fragomeni Simon 1561",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082054",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00082054",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Marcelo Fragomeni Simon 1561",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082054",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226261440",
+        "locality": "RO",
+        "typestatus": null
+      }
+    ]
+  }
+]

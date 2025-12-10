@@ -1,0 +1,147 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7893,
+      "scientificname": "Sinningia conspicua (Seem.) G.Nicholson",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Sinningia",
+      "specificepithet": "conspicua",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Seem.) G.Nicholson",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Sinningia Nees;Sinningia conspicua (Seem.) G.Nicholson",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Sinningia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7893>http://floradobrasil2015.jbrj.gov.br/FB7893</a>)<br><br>Araujo, A.O., Chautems, A., Rossini, J. 2020. Sinningia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7893\">https://floradobrasil2020.jbrj.gov.br/FB7893</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sinningia Nees",
+      "parentnameusageid": 7879,
+      "originalnameusageid": "133214",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7893",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O., Chautems, A., Rossini, J. Sinningia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7893>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-06-15 12:30:46.804"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 133212,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rosanowia conspicua (Seem.) Regel"
+      },
+      {
+        "relatedresourceid": 133214,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Biglandularia conspicua Seem."
+      },
+      {
+        "relatedresourceid": 133210,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sinningia caulina Malme"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 46004",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00033017",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00033017",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 16543",
+        "collectioncode": "S",
+        "catalognumber": "S03-2132",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S03-2132",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 46004",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00033017",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226499323",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 16543",
+        "collectioncode": "S",
+        "catalognumber": "S03-2132",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99808395",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 16543",
+        "collectioncode": "S",
+        "catalognumber": "S03-2132",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99808391",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 16543",
+        "collectioncode": "S",
+        "catalognumber": "S03-2132",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99808393",
+        "locality": "PR",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

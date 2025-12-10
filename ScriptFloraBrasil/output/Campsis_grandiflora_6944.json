@@ -1,0 +1,100 @@
+[
+  {
+    "taxon": {
+      "taxonid": 633085,
+      "scientificname": "Campsis grandiflora (Thunb.) K.Schum.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Bignoniaceae",
+      "genus": "Campsis",
+      "specificepithet": "grandiflora",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Thunb.) K.Schum.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bignoniaceae Juss.;Campsis Lour.;Campsis grandiflora (Thunb.) K.Schum.",
+      "source": "Lorenzi, H. Plantas para jardim no Brasil: herb&amp;aacute;ceas, arbustivas e trepadeiras. Nova Odessa, SP: Instituto Plantarum, 2013. p.440.",
+      "parentnameusage": "Campsis Lour.",
+      "parentnameusageid": 610368,
+      "originalnameusageid": "633086",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB633085",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Lohmann, L.G., Kaehler, M., Fonseca, L.H.M. , Farias-Singer, R., Firetti, F., Silva-Castro, M.M., Gomes, B.M., Frazão, A., Francisco, J.N.C., Thode, V.A., Zuntini, A.R., Medeiros, M.C.M.P., Kataoka, E.Y., Beyer, M., Sun, J.X. Bignoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB633085>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-08-25 11:30:56.817"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "trombeta-chinesa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "cipó-trombeta-chinês",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 633086,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bignonia grandiflora Thunb."
+      },
+      {
+        "relatedresourceid": 633087,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bignonia chinensis Lam."
+      },
+      {
+        "relatedresourceid": 633088,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Campsis chinensis (Lam.) Voss"
+      }
+    ],
+    "voucher": []
+  }
+]

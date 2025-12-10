@@ -1,0 +1,102 @@
+[
+  {
+    "taxon": {
+      "taxonid": 617516,
+      "scientificname": "Palicourea swartziana Borhidi",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "swartziana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Borhidi",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea swartziana Borhidi",
+      "source": "",
+      "parentnameusage": "Palicourea Aubl.",
+      "parentnameusageid": 14133,
+      "originalnameusageid": null,
+      "namepublishedin": "Acta Botanica Hungarica 53(3–4): 247 2011",
+      "namepublishedinyear": "2011",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB617516",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-01-21 15:30:49.525"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Igapó"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Borhidi, A. L.,Acta Botanica Hungarica,53(3–4): 247,2011"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 73484,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Nonatelia officinalis Aubl."
+      },
+      {
+        "relatedresourceid": 602530,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria officinalis subsp. wilhelminensis Steyerm."
+      },
+      {
+        "relatedresourceid": 20820,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria officinalis (Aubl.) Raeusch."
+      },
+      {
+        "relatedresourceid": 39166,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria officinalis (Aubl.) Raeusch. subsp. officinalis"
+      },
+      {
+        "relatedresourceid": 73528,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Oribasia officinalis (Aubl.) J.F.Gmel."
+      },
+      {
+        "relatedresourceid": 73898,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria involucrata Willd."
+      }
+    ],
+    "voucher": []
+  }
+]

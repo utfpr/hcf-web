@@ -1,0 +1,704 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7207,
+      "scientificname": "Fimbristylis spadicea (L.) Vahl",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "spadicea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Vahl",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis spadicea (L.) Vahl",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7207>http://floradobrasil2015.jbrj.gov.br/FB7207</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7207\">https://floradobrasil2020.jbrj.gov.br/FB7207</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Alves, M.; A. C. Ara&amp;uacute;jo, A. P. Prata, F. Vitta, S. Hefler, R. Trevisan, A. B. Gil, S. Martins &amp;amp; W. Thomas. 2009. Diversity of Cyperaceae in Brazil. Rodriguesia 60(3): XXX-XXX (in press).",
+      "parentnameusage": "Fimbristylis Vahl",
+      "parentnameusageid": 7202,
+      "originalnameusageid": "52256",
+      "namepublishedin": "Sp. Pl. 51 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7207",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7207>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 07:53:03.167"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Floresta Ciliar ou Galeria",
+        "Manguezal",
+        "Palmeiral",
+        "Restinga",
+        "Savana Amazônica",
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "L.,Sp. Pl.,51,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 50667,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea var. castanea (Michx.) A.Gray"
+      },
+      {
+        "relatedresourceid": 50670,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea var. longestigmata Zavaro"
+      },
+      {
+        "relatedresourceid": 50886,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Iria spadicea var. pallida Kuntze"
+      },
+      {
+        "relatedresourceid": 50884,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Iria spadicea var. nigra Kuntze"
+      },
+      {
+        "relatedresourceid": 50883,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Iria spadicea (L.) Kuntze"
+      },
+      {
+        "relatedresourceid": 50873,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Iria castanea (Michx.) Farw."
+      },
+      {
+        "relatedresourceid": 50677,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis sterilis Nees"
+      },
+      {
+        "relatedresourceid": 50653,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis riehleana Steud."
+      },
+      {
+        "relatedresourceid": 50638,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis pallidula Kral"
+      },
+      {
+        "relatedresourceid": 50673,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis speciosa Rohde ex Spreng."
+      },
+      {
+        "relatedresourceid": 52067,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Scirpus domingensis Pers."
+      },
+      {
+        "relatedresourceid": 52064,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Scirpus dichotomus G.Mey."
+      },
+      {
+        "relatedresourceid": 52059,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Scirpus cylindraceus Willd. ex Kunth"
+      },
+      {
+        "relatedresourceid": 52256,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Scirpus spadiceus L."
+      },
+      {
+        "relatedresourceid": 52262,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Scirpus sterilis Salzm. ex Steud."
+      },
+      {
+        "relatedresourceid": 50668,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea var. depauperata T.Koyama"
+      },
+      {
+        "relatedresourceid": 50890,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Iria umbellata (Schrad. ex Nees) Kuntze"
+      },
+      {
+        "relatedresourceid": 50452,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Eleogiton spadicea (L.) A.Dietr."
+      },
+      {
+        "relatedresourceid": 50529,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis castanea (Michx.) Vahl"
+      },
+      {
+        "relatedresourceid": 50546,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis cylindrica Vahl"
+      },
+      {
+        "relatedresourceid": 50693,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis umbellata Schrad. ex Nees"
+      },
+      {
+        "relatedresourceid": 51957,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Schoenus spadiceus (L.) Vahl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "R.M. Harley 17216",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00010701",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00010701",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 17216",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00010701",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226461299",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 50667,
+      "scientificname": "Fimbristylis spadicea var. castanea (Michx.) A.Gray",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "spadicea",
+      "infraspecificepithet": "castanea",
+      "scientificnameauthorship": "(Michx.) A.Gray",
+      "acceptednameusage": "Fimbristylis spadicea (L.) Vahl",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis spadicea (L.) Vahl;Fimbristylis spadicea var. castanea (Michx.) A.Gray",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB50667>http://floradobrasil2015.jbrj.gov.br/FB50667</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB50667\">https://floradobrasil2020.jbrj.gov.br/FB50667</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Fimbristylis spadicea (L.) Vahl",
+      "parentnameusageid": 7207,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB50667",
+      "acceptednameusageid": 7207,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB50667>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-02-23 12:56:18.612"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Manual (Gray), ed. 2. ed. 5: 566,1867"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7207,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea (L.) Vahl"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 50668,
+      "scientificname": "Fimbristylis spadicea var. depauperata T.Koyama",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "spadicea",
+      "infraspecificepithet": "depauperata",
+      "scientificnameauthorship": "T.Koyama",
+      "acceptednameusage": "Fimbristylis spadicea (L.) Vahl",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis spadicea (L.) Vahl;Fimbristylis spadicea var. depauperata T.Koyama",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB50668>http://floradobrasil2015.jbrj.gov.br/FB50668</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB50668\">https://floradobrasil2020.jbrj.gov.br/FB50668</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Fimbristylis spadicea (L.) Vahl",
+      "parentnameusageid": 7207,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB50668",
+      "acceptednameusageid": 7207,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB50668>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-02-23 12:56:47.725"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "J. Jap. Bot.,30: 129,1955"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7207,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea (L.) Vahl"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 50669,
+      "scientificname": "Fimbristylis spadicea var. ferruginea (L.) Alph.Wood",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "spadicea",
+      "infraspecificepithet": "ferruginea",
+      "scientificnameauthorship": "(L.) Alph.Wood",
+      "acceptednameusage": "Fimbristylis ferruginea (L.) Vahl",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis spadicea (L.) Vahl;Fimbristylis spadicea var. ferruginea (L.) Alph.Wood",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB50669>http://floradobrasil2015.jbrj.gov.br/FB50669</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB50669\">https://floradobrasil2020.jbrj.gov.br/FB50669</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Fimbristylis spadicea (L.) Vahl",
+      "parentnameusageid": 7207,
+      "originalnameusageid": null,
+      "namepublishedin": "Class-book Bot. (ed. 1861). 741 1861",
+      "namepublishedinyear": "1861",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB50669",
+      "acceptednameusageid": 110120,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB50669>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-25 12:50:56.745"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Alph. Wood,Class-book Bot. (ed. 1861).,741,1861"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 110120,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Fimbristylis ferruginea (L.) Vahl"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 50670,
+      "scientificname": "Fimbristylis spadicea var. longestigmata Zavaro",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "spadicea",
+      "infraspecificepithet": "longestigmata",
+      "scientificnameauthorship": "Zavaro",
+      "acceptednameusage": "Fimbristylis spadicea (L.) Vahl",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis spadicea (L.) Vahl;Fimbristylis spadicea var. longestigmata Zavaro",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB50670>http://floradobrasil2015.jbrj.gov.br/FB50670</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB50670\">https://floradobrasil2020.jbrj.gov.br/FB50670</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Fimbristylis spadicea (L.) Vahl",
+      "parentnameusageid": 7207,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB50670",
+      "acceptednameusageid": 7207,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB50670>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-02-23 12:57:33.205"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fontqueria,42: 199,1995"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7207,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis spadicea (L.) Vahl"
+      }
+    ],
+    "voucher": []
+  }
+]

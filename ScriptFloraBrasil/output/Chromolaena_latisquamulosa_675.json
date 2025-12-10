@@ -1,0 +1,192 @@
+[
+  {
+    "taxon": {
+      "taxonid": 114961,
+      "scientificname": "Chromolaena latisquamulosa (Hieron.) R.M.King & H.Rob.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Chromolaena",
+      "specificepithet": "latisquamulosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Hieron.) R.M.King & H.Rob.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Eupatorieae Cass.;Chromolaena DC.;Chromolaena latisquamulosa (Hieron.) R.M.King & H.Rob.",
+      "source": "Oliveira, C.T. 2015. Chromolaena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB114961>http://floradobrasil2015.jbrj.gov.br/FB114961</a>)<br><br>Christ, A.L., Rebouças, N.C. 2020. Chromolaena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB114961\">https://floradobrasil2020.jbrj.gov.br/FB114961</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Christ, A.L. &amp;amp; Ritter, M.R. 2019. A taxonomic study of Praxelinae (Asteraceae - Eupatorieae) in Rio Grande do Sul, Brasil. Phytotaxa 393(2): 141-197.\r\nChrist, A.L., Nakajima, J.N. &amp;amp; Ritter, M.R. 2025. &amp;ldquo;Towards a Better Understanding of the Chromolaena congesta Complex (Asteraceae, Eupatorieae): Updated Synopsis With Taxonomic Novelties&amp;rdquo;. Phytotaxa 689 (2):163-84. https://doi.org/10.11646/phytotaxa.689.2.1.",
+      "parentnameusage": "Chromolaena DC.",
+      "parentnameusageid": 16052,
+      "originalnameusageid": "615256",
+      "namepublishedin": "Botanische Jahrbücher fur Systematik 22(4-5):759 1897",
+      "namepublishedinyear": "1897",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB114961",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-10-20 11:27:27.006"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "King, R.M. & Robinson, H.,Phytologia,20(3):202,1970"
+      },
+      {
+        "reference": "Hieronymus, G.H.E.W.,Botanische Jahrbücher fur Systematik,22(4-5):759,1897"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 615256,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eupatorium rhinanthaceum var. latisquamulosum Hieron."
+      },
+      {
+        "relatedresourceid": 615257,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Eupatorium latisquamulosum (Hieron.) Malme"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. Smith 10749",
+        "collectioncode": "US",
+        "catalognumber": "US01667940",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100336545",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Brotto, M.L. 5953",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM00447441",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM00447441",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Smith 10749",
+        "collectioncode": "US",
+        "catalognumber": "US01667940",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01667940",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Christ, AL 699",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00055978",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00055978",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Reitz, R. 17446",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0008486",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0008486",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Dusén 3227",
+        "collectioncode": "S",
+        "catalognumber": "S-R-8995",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S-R-8995",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Brotto, M.L. 5953",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM00447441",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308323971",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Christ, AL 699",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00055978",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308269024",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Reitz, R. 17446",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0008486",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226918295",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Dusén 3227",
+        "collectioncode": "S",
+        "catalognumber": "S-R-8995",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99808283",
+        "locality": "PR",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

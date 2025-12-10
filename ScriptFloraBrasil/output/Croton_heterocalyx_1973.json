@@ -1,0 +1,101 @@
+[
+  {
+    "taxon": {
+      "taxonid": 35834,
+      "scientificname": "Croton heterocalyx Baill.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "heterocalyx",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Baill.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton heterocalyx Baill.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35834>http://floradobrasil2015.jbrj.gov.br/FB35834</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35834\">https://floradobrasil2020.jbrj.gov.br/FB35834</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-size: 10pt;&quot;&gt;Caruzo, M.B.R. &amp;amp; Cordeiro, I. 2013. Taxonomic revision of&amp;nbsp;&lt;em&gt;Croton&lt;/em&gt;&amp;nbsp;section&amp;nbsp;&lt;em&gt;Cleodora&lt;/em&gt;&amp;nbsp;(Euphorbiaceae).&amp;nbsp;&lt;em&gt;Phytotaxa&lt;/em&gt;&amp;nbsp;121 (1): 1-41.&lt;/span&gt;",
+      "parentnameusage": "Croton L.",
+      "parentnameusageid": 17497,
+      "originalnameusageid": null,
+      "namepublishedin": "Adansonia 4: 324 1864",
+      "namepublishedinyear": "1864",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35834",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-22 10:20:02.365"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Baillon, H.E.,Adansonia,4: 324,1864"
+      },
+      {
+        "reference": "Caruzo, M.B.R. & Cordeiro, I.,Phytotaxa,121(1): 1-41,2013"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 54871,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton umbrinus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56367,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oxydectes heterocalyx (Baill.) Kuntze"
+      }
+    ],
+    "voucher": []
+  }
+]

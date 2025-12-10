@@ -1,0 +1,598 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6441,
+      "scientificname": "Vriesea carinata Wawra",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Wawra",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6441>http://floradobrasil2015.jbrj.gov.br/FB6441</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6441\">https://floradobrasil2020.jbrj.gov.br/FB6441</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Costa, A.F. 2002. Revisa&amp;otilde; Taxon&amp;ocirc;mica do complexo Vriesea paraibica Wawra (Bromeliaceae). Tese de Doutorado, USP.",
+      "parentnameusage": "Vriesea Lindl.",
+      "parentnameusageid": 6414,
+      "originalnameusageid": null,
+      "namepublishedin": "Oesterr. Bot. Z. 12: 349 1862",
+      "namepublishedinyear": "1862",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6441",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-10-31 09:53:55.471"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wawra,Oesterr. Bot. Z.,12: 349,1862"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47251,
+      "scientificname": "Vriesea carinata var. aurea Padilla",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_EFETIVAMENTE_PUBLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "aurea",
+      "scientificnameauthorship": "Padilla",
+      "acceptednameusage": "Vriesea flava A.F.Costa, H.Luther & Wand.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata var. aurea Padilla",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47251>http://floradobrasil2015.jbrj.gov.br/FB47251</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47251\">https://floradobrasil2020.jbrj.gov.br/FB47251</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47251",
+      "acceptednameusageid": 34513,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-02-22 14:25:39.1083"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Bromeliad Soc.,24: 101,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34513,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Vriesea flava A.F.Costa, H.Luther & Wand."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47252,
+      "scientificname": "Vriesea carinata var. constricta Wawra",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "constricta",
+      "scientificnameauthorship": "Wawra",
+      "acceptednameusage": "Vriesea paraibica Wawra",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata var. constricta Wawra",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47252>http://floradobrasil2015.jbrj.gov.br/FB47252</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47252\">https://floradobrasil2020.jbrj.gov.br/FB47252</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47252",
+      "acceptednameusageid": 6516,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-03-14 09:25:55.131052"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wawra, H.R. von F.,Oesterr. Bot. Z.,30: 183,1880"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6516,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Vriesea paraibica Wawra"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47254,
+      "scientificname": "Vriesea carinata var. inflata Wawra",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "inflata",
+      "scientificnameauthorship": "Wawra",
+      "acceptednameusage": "Vriesea inflata (Wawra) Wawra",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata var. inflata Wawra",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47254>http://floradobrasil2015.jbrj.gov.br/FB47254</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47254\">https://floradobrasil2020.jbrj.gov.br/FB47254</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47254",
+      "acceptednameusageid": 6484,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-02-22 14:28:37.872451"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Oesterr. Bot. Z.,30: 183,1880"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6484,
+        "relationshipofresource": null,
+        "scientificname": "Vriesea inflata (Wawra) Wawra"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47255,
+      "scientificname": "Vriesea carinata var. mangaratibensis Leme & A.F.Costa",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "mangaratibensis",
+      "scientificnameauthorship": "Leme & A.F.Costa",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata var. mangaratibensis Leme & A.F.Costa",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47255>http://floradobrasil2015.jbrj.gov.br/FB47255</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47255\">https://floradobrasil2020.jbrj.gov.br/FB47255</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47255",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-02 16:52:32.119"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Leme, E.M.C. & Costa, A.F.,Bromélia,1(4): 23,1994"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "E.M.C. Leme 656",
+        "collectioncode": "RB",
+        "catalognumber": "RB00566733",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00566733",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "E.M.C. Leme 656",
+        "collectioncode": "RB",
+        "catalognumber": "RB00286945",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00286945",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "E.M.C. Leme 656",
+        "collectioncode": "RB",
+        "catalognumber": "RB00566733",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284447110",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "E.M.C. Leme 656",
+        "collectioncode": "RB",
+        "catalognumber": "RB00286945",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283989884",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 78030,
+      "scientificname": "Vriesea carinata var. flavo-miniata Leme",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "flavo-miniata",
+      "scientificnameauthorship": "Leme",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata var. flavo-miniata Leme",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB78030>http://floradobrasil2015.jbrj.gov.br/FB78030</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB78030\">https://floradobrasil2020.jbrj.gov.br/FB78030</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Costa, A.F. 2002. Revis&amp;atilde;o Taxon&amp;ocirc;mica do complexo &lt;em&gt;Vriesea paraibica&lt;/em&gt; Wawra (Bromeliaceae). Tese de Doutorado, USP.\r\n&amp;nbsp;",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "J. Bromeliad Soc. 34(3):121-122 1984",
+      "namepublishedinyear": "1984",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB78030",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-02 16:42:50.658"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Leme, E.M.C.,J. Bromeliad Soc.,34(3):121-122,1984"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Gomes, J.M.L. s.n.",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES012417",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100599057",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, J.M.L. s.n.",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES012417",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES012417",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 121778,
+      "scientificname": "Vriesea carinata Wawra var. carinata",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Vriesea",
+      "specificepithet": "carinata",
+      "infraspecificepithet": "carinata",
+      "scientificnameauthorship": "Wawra",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Vriesea Lindl.;Vriesea carinata Wawra;Vriesea carinata Wawra var. carinata",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB121778>http://floradobrasil2015.jbrj.gov.br/FB121778</a>)<br><br>Costa, A.F., Moura, R.L., Neves, B., Machado, T.M., Kessous, I.M., Uribbe, F.P., Couto, D.R., Gomes-da-Silva, J. 2020. Vriesea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB121778\">https://floradobrasil2020.jbrj.gov.br/FB121778</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Costa, A.F. 2002. Revis&amp;atilde;o&amp;nbsp;Taxon&amp;ocirc;mica do complexo Vriesea paraibica Wawra (Bromeliaceae). Tese de Doutorado, USP.",
+      "parentnameusage": "Vriesea carinata Wawra",
+      "parentnameusageid": 6441,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB121778",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-02 16:35:20.863"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46982,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tillandsia carinata (Wawra) Baker"
+      },
+      {
+        "relatedresourceid": 47248,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vriesea brachystachys Regel"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Costa, A. 428",
+        "collectioncode": "RB",
+        "catalognumber": "RB00266176",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00266176",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Costa, A. 428",
+        "collectioncode": "RB",
+        "catalognumber": "RB00266176",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283965414",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  }
+]

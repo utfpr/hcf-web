@@ -1,0 +1,535 @@
+[
+  {
+    "taxon": {
+      "taxonid": 603100,
+      "scientificname": "Hexasepalum apiculatum (Willd.) Delprete & J.H.Kirkbr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Hexasepalum",
+      "specificepithet": "apiculatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Willd.) Delprete & J.H.Kirkbr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Hexasepalum Bartl. ex DC.;Hexasepalum apiculatum (Willd.) Delprete & J.H.Kirkbr.",
+      "source": "Caba&amp;ntilde;a Fader, A.A., R.M. Salas, S. Dessein &amp;amp; E.L. Cabral. Synopsis of &lt;span class=&quot;il&quot;&gt;Hexasepalum&lt;/span&gt; (Rubiaceae), the Priority Name for Diodella and a New Species from Brazil. Systematic Botany 41(2):408-422.",
+      "parentnameusage": "Hexasepalum Bartl. ex DC.",
+      "parentnameusageid": 73004,
+      "originalnameusageid": "74571",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB603100",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-08-07 12:06:30.967"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Delprete P.G. & J.H. Kirkbride,J. Bot. Res. Inst. Texas,9(1): 104,2015"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 72459,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia aspera Brandegee"
+      },
+      {
+        "relatedresourceid": 72498,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia rigida var. barbicocca K.Schum."
+      },
+      {
+        "relatedresourceid": 72490,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia polyseta DC."
+      },
+      {
+        "relatedresourceid": 71597,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bigelovia distans (Kunth) Hook. & Arn."
+      },
+      {
+        "relatedresourceid": 72453,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodella rigida (Cham. & Schltdl.) Small"
+      },
+      {
+        "relatedresourceid": 72469,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia grandiflora (Spreng.) DC."
+      },
+      {
+        "relatedresourceid": 72475,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia latiflora DC."
+      },
+      {
+        "relatedresourceid": 74685,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce setosa Willd. ex DC."
+      },
+      {
+        "relatedresourceid": 74571,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Spermacoce apiculata Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 74625,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce grandiflora Spreng."
+      },
+      {
+        "relatedresourceid": 74606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce distans Kunth"
+      },
+      {
+        "relatedresourceid": 74680,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce rigida Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 20733,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia conferta DC."
+      },
+      {
+        "relatedresourceid": 72456,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia angolensis S.Moore"
+      },
+      {
+        "relatedresourceid": 72500,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia rigida var. macrantha K.Schum."
+      },
+      {
+        "relatedresourceid": 72499,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia rigida var. buchii Urb."
+      },
+      {
+        "relatedresourceid": 13932,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Diodella apiculata (Willd. ex Roem. & Schult.) Delprete"
+      },
+      {
+        "relatedresourceid": 20734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia rosmarinifolia Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 32585,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia apiculata (Willd. ex Roem. & Schult.) K.Schum."
+      },
+      {
+        "relatedresourceid": 72506,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia setigera DC."
+      },
+      {
+        "relatedresourceid": 72496,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia rigida Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia pulchella Brandegee"
+      },
+      {
+        "relatedresourceid": 71663,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Borreria distans (Kunth) DC."
+      },
+      {
+        "relatedresourceid": 74599,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce decidua Bosc ex DC."
+      },
+      {
+        "relatedresourceid": 74594,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce conferta Schott ex DC."
+      },
+      {
+        "relatedresourceid": 102499,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodella rosmarinifolia (Pohl ex DC.) Delprete & Cortés-B."
+      }
+    ],
+    "voucher": []
+  }
+]

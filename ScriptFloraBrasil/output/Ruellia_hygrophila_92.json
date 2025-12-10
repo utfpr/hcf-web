@@ -1,0 +1,112 @@
+[
+  {
+    "taxon": {
+      "taxonid": 26266,
+      "scientificname": "Ruellia hygrophila Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Acanthaceae",
+      "genus": "Ruellia",
+      "specificepithet": "hygrophila",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Acanthaceae Juss.;Ruellia L.;Ruellia hygrophila Mart.",
+      "source": "Profice, S.R.,Kameyama, C.,Côrtes, A.L.A.,Braz, D.M.,Indriunas, A.,Vilar, T.,Pessoa, C.,Ezcurra, C.,Wasshausen, D. 2015. Acanthaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB26266>http://floradobrasil2015.jbrj.gov.br/FB26266</a>)<br><br>Fernandes, U.G., Kameyama, C., Ezcurra, C., Indriunas, A., Pessoa, C.S. 2020. Ruellia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB26266\">https://floradobrasil2020.jbrj.gov.br/FB26266</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ruellia L.",
+      "parentnameusageid": 4195,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB26266",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-08-21 17:20:58.912"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Palmeiral"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 622459,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ruellia chiquitensis Baill."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "D.Brandão 58",
+        "collectioncode": "COR",
+        "catalognumber": "COR00002495",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/COR00002495",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "P",
+        "catalognumber": "P03047490",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03047490",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "P",
+        "catalognumber": "P03047490",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=212503262",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.Brandão 58",
+        "collectioncode": "COR",
+        "catalognumber": "COR00002495",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226103469",
+        "locality": "MS",
+        "typestatus": null
+      }
+    ]
+  }
+]

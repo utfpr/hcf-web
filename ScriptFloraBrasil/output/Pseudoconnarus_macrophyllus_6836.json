@@ -1,0 +1,112 @@
+[
+  {
+    "taxon": {
+      "taxonid": 22535,
+      "scientificname": "Pseudoconnarus macrophyllus (Poepp.) Radlk.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Oxalidales",
+      "family": "Connaraceae",
+      "genus": "Pseudoconnarus",
+      "specificepithet": "macrophyllus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Poepp.) Radlk.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Connaraceae R.Br.;Pseudoconnarus Radlk.;Pseudoconnarus macrophyllus (Poepp.) Radlk.",
+      "source": "Forero, E. 2015. Connaraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB22535>http://floradobrasil2015.jbrj.gov.br/FB22535</a>)<br><br>Toledo, C.A.P., Souza, V.C. Connaraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB22535\">https://floradobrasil2020.jbrj.gov.br/FB22535</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Forero, E. 1983. Connaraceae. Fl. Neotrop. Monogr. 36: 133-136.",
+      "parentnameusage": "Pseudoconnarus Radlk.",
+      "parentnameusageid": 22534,
+      "originalnameusageid": "104639",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22535",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Toledo, C.A.P., Souza, V.C. Connaraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB22535>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-21 20:21:24.771"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bull. Herb. Boissier,1(9); 891,1901"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104641,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Connarus fecundus Baker"
+      },
+      {
+        "relatedresourceid": 104639,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Connarus macrophyllus Poepp. & Endl."
+      },
+      {
+        "relatedresourceid": 104640,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rourea macrophylla (Poepp.) Baker"
+      },
+      {
+        "relatedresourceid": 104642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudoconnarus fecundus (Baker) Radlk."
+      },
+      {
+        "relatedresourceid": 82012,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudoconnarus krukovii Steyerm."
+      }
+    ],
+    "voucher": []
+  }
+]

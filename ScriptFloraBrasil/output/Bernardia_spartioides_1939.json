@@ -1,0 +1,282 @@
+[
+  {
+    "taxon": {
+      "taxonid": 29152,
+      "scientificname": "Bernardia spartioides (Baill.) Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Bernardia",
+      "specificepithet": "spartioides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Baill.) Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Bernardia Houst. ex Mill.;Bernardia spartioides (Baill.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R. 2015. Bernardia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29152>http://floradobrasil2015.jbrj.gov.br/FB29152</a>)<br><br>Carrión, J.F. 2020. Bernardia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29152\">https://floradobrasil2020.jbrj.gov.br/FB29152</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bernardia Houst. ex Mill.",
+      "parentnameusageid": 17466,
+      "originalnameusageid": "56547",
+      "namepublishedin": "Linnaea 34: 177 1865",
+      "namepublishedinyear": "1865",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29152",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carrión, J.F. Bernardia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29152>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 13:17:09.908"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaea,34: 177,1865"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53967,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Adelia spartioides (Baill.) Baill."
+      },
+      {
+        "relatedresourceid": 54262,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bernardia spartioides var. glabrata Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54263,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bernardia spartioides var. pubescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56547,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Passaea spartioides Baill."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 37222",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039579",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229199026",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 37222",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039579",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM039579",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635066",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00635066",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635064",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00635064",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635067",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00635067",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635068",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00635068",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635064",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228060479",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635066",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228060483",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635067",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228060485",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire C2-1490-ter",
+        "collectioncode": "P",
+        "catalognumber": "P00635068",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228060487",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 54262,
+      "scientificname": "Bernardia spartioides var. glabrata Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Bernardia",
+      "specificepithet": "spartioides",
+      "infraspecificepithet": "glabrata",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Bernardia spartioides (Baill.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Bernardia Houst. ex Mill.;Bernardia spartioides (Baill.) Müll.Arg.;Bernardia spartioides var. glabrata Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R. 2015. Bernardia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54262>http://floradobrasil2015.jbrj.gov.br/FB54262</a>)<br><br>Carrión, J.F. 2020. Bernardia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54262\">https://floradobrasil2020.jbrj.gov.br/FB54262</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bernardia spartioides (Baill.) Müll.Arg.",
+      "parentnameusageid": 29152,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54262",
+      "acceptednameusageid": 29152,
+      "bibliographiccitation_how_to_cite": "Carrión, J.F. Bernardia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB54262>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-08-08 22:45:39.811"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 402,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 29152,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bernardia spartioides (Baill.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54263,
+      "scientificname": "Bernardia spartioides var. pubescens Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Bernardia",
+      "specificepithet": "spartioides",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Bernardia spartioides (Baill.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Bernardia Houst. ex Mill.;Bernardia spartioides (Baill.) Müll.Arg.;Bernardia spartioides var. pubescens Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R. 2015. Bernardia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54263>http://floradobrasil2015.jbrj.gov.br/FB54263</a>)<br><br>Carrión, J.F. 2020. Bernardia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54263\">https://floradobrasil2020.jbrj.gov.br/FB54263</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bernardia spartioides (Baill.) Müll.Arg.",
+      "parentnameusageid": 29152,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54263",
+      "acceptednameusageid": 29152,
+      "bibliographiccitation_how_to_cite": "Carrión, J.F. Bernardia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB54263>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-08-08 22:53:23.053"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 401,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 29152,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bernardia spartioides (Baill.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  }
+]

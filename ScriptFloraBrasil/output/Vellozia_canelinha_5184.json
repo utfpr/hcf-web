@@ -1,0 +1,250 @@
+[
+  {
+    "taxon": {
+      "taxonid": 21374,
+      "scientificname": "Vellozia canelinha Mello-Silva",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Vellozia",
+      "specificepithet": "canelinha",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mello-Silva",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Vellozia Vand.;Vellozia canelinha Mello-Silva",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB21374>http://floradobrasil2015.jbrj.gov.br/FB21374</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vellozia Vand.",
+      "parentnameusageid": 15114,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB21374",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-03-11 12:22:39.327"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "canelinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Mello-Silva, R.,Kew Bull.,48: 5,1993"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0243305",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225978682",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00047967",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226608381",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "E",
+        "catalognumber": "E00077742",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230367063",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "RB",
+        "catalognumber": "RB00544387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284407344",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00069697",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100030505",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "US",
+        "catalognumber": "US00385934",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100284795",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM141007",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229811391",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM141007",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229811393",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM141007",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229811389",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MO",
+        "catalognumber": "MO256525",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97971136",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "NY",
+        "catalognumber": "NY00232843",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228091317",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "US",
+        "catalognumber": "US00385934",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00385934",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00047967",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00047967",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "K",
+        "catalognumber": "K000400780",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000400780",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "RB",
+        "catalognumber": "RB00544387",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00544387",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MO",
+        "catalognumber": "MO256525",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO256525",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "NY",
+        "catalognumber": "NY00232843",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00232843",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM141007",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM141007",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "E",
+        "catalognumber": "E00077742",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/E00077742",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00069697",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00069697",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0243305",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0243305",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 25810",
+        "collectioncode": "K",
+        "catalognumber": "K000400780",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227604257",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

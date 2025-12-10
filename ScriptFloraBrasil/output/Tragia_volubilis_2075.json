@@ -1,0 +1,967 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17694,
+      "scientificname": "Tragia volubilis L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17694>http://floradobrasil2015.jbrj.gov.br/FB17694</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17694\">https://floradobrasil2020.jbrj.gov.br/FB17694</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span class=&quot;fontstyle0&quot;&gt;M&amp;Uacute;LGURA DE ROMERO, M. E., GUTI&amp;Eacute;RREZ DE SANGUINETTI. 1989.&amp;nbsp;Actualizaci&amp;oacute;n taxon&amp;oacute;mica de&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;Tragia&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;(Euphorbiaceae) para Argentina&amp;nbsp;y regions lim&amp;iacute;trofes.&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle2&quot;&gt;Darwiniana&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;29: 77&lt;/span&gt;&lt;span class=&quot;fontstyle3&quot;&gt;&amp;ndash;&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;138.&lt;/span&gt;",
+      "parentnameusage": "Tragia L.",
+      "parentnameusageid": 17691,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17694",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17694>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 04:45:35.243"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Perenifólia",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sp. Pl.,: 980,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 57451,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. guaranitica Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 57456,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. tenuifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57453,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. longifolia Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57457,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. triangularis (Vell.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57450,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. grandifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57454,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. pedicellaris (Müll.Arg.) Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57415,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia diffusa Vell."
+      },
+      {
+        "relatedresourceid": 57418,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia gayana Baill."
+      },
+      {
+        "relatedresourceid": 57446,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia triangularis Vell."
+      },
+      {
+        "relatedresourceid": 57432,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia ovata Parodi"
+      },
+      {
+        "relatedresourceid": 57423,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia ibaguensis Goudot ex Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57430,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia monandra Baill."
+      },
+      {
+        "relatedresourceid": 57440,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia pedunculata P.Beauv."
+      },
+      {
+        "relatedresourceid": 57421,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia haguensis Goudot ex Baill."
+      },
+      {
+        "relatedresourceid": 57448,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia virgata Lam."
+      },
+      {
+        "relatedresourceid": 57424,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia infesta Mart. ex D.Dietr."
+      },
+      {
+        "relatedresourceid": 57439,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia pedicellaris Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57452,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. lanceolata Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57455,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. serra (Poepp.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57442,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia plumosa Desf."
+      },
+      {
+        "relatedresourceid": 57445,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia serra Poepp."
+      },
+      {
+        "relatedresourceid": 54825,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton scandens Sieber ex C.Presl"
+      },
+      {
+        "relatedresourceid": 57403,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia amoena Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57449,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis var. genuina Müll.Arg."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Arturo Burkart 9022",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00014475",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226337411",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verger, P s/n",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB012357",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB012357",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gasper, A.L. de 3394",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB24269",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB24269",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Arturo Burkart 9022",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00014475",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00014475",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Carvalho 1528",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00031027",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00031027",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Carvalho 1528",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00031027",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226469125",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verger, P s/n",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB012357",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97003035",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gasper, A.L. de 3394",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB24269",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226988681",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 57449,
+      "scientificname": "Tragia volubilis var. genuina Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "genuina",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. genuina Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57449>http://floradobrasil2015.jbrj.gov.br/FB57449</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57449\">https://floradobrasil2020.jbrj.gov.br/FB57449</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57449",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57449>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:56:26.772224"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 936,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57450,
+      "scientificname": "Tragia volubilis var. grandifolia Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "grandifolia",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. grandifolia Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57450>http://floradobrasil2015.jbrj.gov.br/FB57450</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57450\">https://floradobrasil2020.jbrj.gov.br/FB57450</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57450",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57450>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:56:37.839441"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 936,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57451,
+      "scientificname": "Tragia volubilis var. guaranitica Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "guaranitica",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. guaranitica Chodat & Hassl.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57451>http://floradobrasil2015.jbrj.gov.br/FB57451</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57451\">https://floradobrasil2020.jbrj.gov.br/FB57451</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57451",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57451>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:56:51.237815"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Herb. Boissier II, 5: 608,1905"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57452,
+      "scientificname": "Tragia volubilis var. lanceolata Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "lanceolata",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. lanceolata Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57452>http://floradobrasil2015.jbrj.gov.br/FB57452</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57452\">https://floradobrasil2020.jbrj.gov.br/FB57452</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57452",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57452>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:02.76337"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 414,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57453,
+      "scientificname": "Tragia volubilis var. longifolia Pax & K.Hoffm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "longifolia",
+      "scientificnameauthorship": "Pax & K.Hoffm.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. longifolia Pax & K.Hoffm.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57453>http://floradobrasil2015.jbrj.gov.br/FB57453</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57453\">https://floradobrasil2020.jbrj.gov.br/FB57453</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57453",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57453>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:13.506452"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Pflanzenr. (Engler) IV, 147, IX: 49,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57454,
+      "scientificname": "Tragia volubilis var. pedicellaris (Müll.Arg.) Pax & K.Hoffm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "pedicellaris",
+      "scientificnameauthorship": "(Müll.Arg.) Pax & K.Hoffm.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. pedicellaris (Müll.Arg.) Pax & K.Hoffm.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57454>http://floradobrasil2015.jbrj.gov.br/FB57454</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57454\">https://floradobrasil2020.jbrj.gov.br/FB57454</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57454",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57454>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:24.162961"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Pflanzenr. (Engler) IV, 147, IX: 50,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57455,
+      "scientificname": "Tragia volubilis var. serra (Poepp.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "serra",
+      "scientificnameauthorship": "(Poepp.) Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. serra (Poepp.) Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57455>http://floradobrasil2015.jbrj.gov.br/FB57455</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57455\">https://floradobrasil2020.jbrj.gov.br/FB57455</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57455",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57455>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:35.071193"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 936,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57456,
+      "scientificname": "Tragia volubilis var. tenuifolia Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "tenuifolia",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. tenuifolia Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57456>http://floradobrasil2015.jbrj.gov.br/FB57456</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57456\">https://floradobrasil2020.jbrj.gov.br/FB57456</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57456",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57456>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:45.092003"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 936,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 57457,
+      "scientificname": "Tragia volubilis var. triangularis (Vell.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Tragia",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "triangularis",
+      "scientificnameauthorship": "(Vell.) Müll.Arg.",
+      "acceptednameusage": "Tragia volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Tragia L.;Tragia volubilis L.;Tragia volubilis var. triangularis (Vell.) Müll.Arg.",
+      "source": "Maya-L., C.A. 2015. Tragia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB57457>http://floradobrasil2015.jbrj.gov.br/FB57457</a>)<br><br>Secco, R.S., Cordeiro, W.P.F.S., Bigio, N.C., Pereira-Silva, R.A., Melo, A.L., Gama, B.R.A., Athiê-Souza, S.M., Oliveira, J.C.P., Mendes, J.C.R., Leal, B.A., Silva, D.F., Sales, M.F. 2020. Tragia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB57457\">https://floradobrasil2020.jbrj.gov.br/FB57457</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tragia volubilis L.",
+      "parentnameusageid": 17694,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB57457",
+      "acceptednameusageid": 17694,
+      "bibliographiccitation_how_to_cite": "Secco, R.S., Cordeiro, W.P.F.S., Athiê-Souza, S.M., Pereira-Silva, R.A., Bigio, N.C., Sales, M.F., Oliveira, J.C.P., Mendes, J.C.R., Silva, D.F., Leal, B.A., Gama, B.R.A., Melo, A.L. Tragia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB57457>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 16:57:55.500799"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 936,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17694,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tragia volubilis L."
+      }
+    ],
+    "voucher": []
+  }
+]

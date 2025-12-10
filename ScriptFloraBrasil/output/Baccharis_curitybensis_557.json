@@ -1,0 +1,143 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5174,
+      "scientificname": "Baccharis curitybensis Heering ex Malme",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "curitybensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Heering ex Malme",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis curitybensis Heering ex Malme",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5174>http://floradobrasil2015.jbrj.gov.br/FB5174</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5174\">https://floradobrasil2020.jbrj.gov.br/FB5174</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Heiden, G.; Pirani, J. R. . Taxonomy of Baccharis subgen. Tarchonanthoides (Asteraceae: Astereae: Baccharidinae), a group from the southeastern South American grasslands and savannas. Phytotaxa (Online), v. 241, p. 1-70, 2016. &lt;a href=&quot;https://doi.org/10.11646/phytotaxa.241.1.1&quot;&gt;https://doi.org/10.11646/phytotaxa.241.1.1&lt;/a&gt;&amp;nbsp;",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5174",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-03-03 16:38:19.859"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Floresta Ombrófila Mista",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 129545,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lanugothamnus curitybensis (Heering ex Malme) Deble"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Dusén, P. 6906",
+        "collectioncode": "K",
+        "catalognumber": "K000221944",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227576511",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dusén, P. 6906",
+        "collectioncode": "K",
+        "catalognumber": "K000221944",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000221944",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

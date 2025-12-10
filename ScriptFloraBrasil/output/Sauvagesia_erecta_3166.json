@@ -1,0 +1,762 @@
+[
+  {
+    "taxon": {
+      "taxonid": 19941,
+      "scientificname": "Sauvagesia erecta L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB19941>http://floradobrasil2015.jbrj.gov.br/FB19941</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB19941\">https://floradobrasil2020.jbrj.gov.br/FB19941</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia L.",
+      "parentnameusageid": 19940,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19941",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB19941>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 16:38:24.874"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 112218,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sauvagesia erecta L. var. erecta"
+      },
+      {
+        "relatedresourceid": 111579,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta var. coriacea Sastre"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.M. Amorim 8042",
+        "collectioncode": "CEPEC",
+        "catalognumber": "RB00804953",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284839650",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Chacon, R.G. 558",
+        "collectioncode": "RB",
+        "catalognumber": "RB00268405",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00268405",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Amorim 8042",
+        "collectioncode": "CEPEC",
+        "catalognumber": "RB00804953",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00804953",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.W. Thomas 12423",
+        "collectioncode": "NY",
+        "catalognumber": "RB00720768",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00720768",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.W. Thomas 12423",
+        "collectioncode": "NY",
+        "catalognumber": "RB00720768",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284748648",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Chacon, R.G. 558",
+        "collectioncode": "RB",
+        "catalognumber": "RB00268405",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283970614",
+        "locality": "DF",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111576,
+      "scientificname": "Sauvagesia erecta var. stricta Mart. & Zucc.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "stricta",
+      "scientificnameauthorship": "Mart. & Zucc.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.;Sauvagesia erecta var. stricta Mart. & Zucc.",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111576>http://floradobrasil2015.jbrj.gov.br/FB111576</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111576\">https://floradobrasil2020.jbrj.gov.br/FB111576</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia erecta L.",
+      "parentnameusageid": 19941,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111576",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB111576>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-14 11:47:31.389129"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 112218,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta L. var. erecta"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 111577,
+      "scientificname": "Sauvagesia erecta var. sincorensis Ule",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "sincorensis",
+      "scientificnameauthorship": "Ule",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.;Sauvagesia erecta var. sincorensis Ule",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111577>http://floradobrasil2015.jbrj.gov.br/FB111577</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111577\">https://floradobrasil2020.jbrj.gov.br/FB111577</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia erecta L.",
+      "parentnameusageid": 19941,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111577",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB111577>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-14 11:48:04.420231"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 112218,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta L. var. erecta"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 111578,
+      "scientificname": "Sauvagesia erecta var. parvifolia Hoehne",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "Hoehne",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.;Sauvagesia erecta var. parvifolia Hoehne",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111578>http://floradobrasil2015.jbrj.gov.br/FB111578</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111578\">https://floradobrasil2020.jbrj.gov.br/FB111578</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia erecta L.",
+      "parentnameusageid": 19941,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111578",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB111578>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-14 11:48:25.484999"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 112218,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta L. var. erecta"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 111579,
+      "scientificname": "Sauvagesia erecta var. coriacea Sastre",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "coriacea",
+      "scientificnameauthorship": "Sastre",
+      "acceptednameusage": "Sauvagesia erecta L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.;Sauvagesia erecta var. coriacea Sastre",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111579>http://floradobrasil2015.jbrj.gov.br/FB111579</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111579\">https://floradobrasil2020.jbrj.gov.br/FB111579</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia erecta L.",
+      "parentnameusageid": 19941,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111579",
+      "acceptednameusageid": 19941,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB111579>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 22:46:01.383"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 19941,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 112218,
+      "scientificname": "Sauvagesia erecta L. var. erecta",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Sauvagesia",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "erecta",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Sauvagesia erecta L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Sauvagesia L.;Sauvagesia erecta L.;Sauvagesia erecta L. var. erecta",
+      "source": "Cardoso, D.B.O.S.,Chacon, R.G. 2015. Sauvagesia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB112218>http://floradobrasil2015.jbrj.gov.br/FB112218</a>)<br><br>Cardoso, D.B.O.S., Sousa, H.C.F., Lima, A.Q. 2020. Sauvagesia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB112218\">https://floradobrasil2020.jbrj.gov.br/FB112218</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sauvagesia erecta L.",
+      "parentnameusageid": 19941,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB112218",
+      "acceptednameusageid": 19941,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, A.Q., Pirani, J.R., Reinales, S. Sauvagesia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB112218>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 22:47:37.253"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 111578,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta var. parvifolia Hoehne"
+      },
+      {
+        "relatedresourceid": 111575,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia salicifolia Ging."
+      },
+      {
+        "relatedresourceid": 19941,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Sauvagesia erecta L."
+      },
+      {
+        "relatedresourceid": 111576,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta var. stricta Mart. & Zucc."
+      },
+      {
+        "relatedresourceid": 111577,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia erecta var. sincorensis Ule"
+      },
+      {
+        "relatedresourceid": 111429,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sauvagesia grandifolia Dwyer"
+      }
+    ],
+    "voucher": []
+  }
+]

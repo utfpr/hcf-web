@@ -1,0 +1,850 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15735,
+      "scientificname": "Syagrus comosa (Mart.) Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Syagrus",
+      "specificepithet": "comosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Syagrus Mart.;Syagrus comosa (Mart.) Mart.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15735>http://floradobrasil2015.jbrj.gov.br/FB15735</a>)<br><br>Soares, K.P. 2020. Syagrus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15735\">https://floradobrasil2020.jbrj.gov.br/FB15735</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).DRUDE, O. Palmae. In: MARTIUS, C.F.P. Flora Brasiliensis, v. 3 (2). Wilhelm Engelmann, Leipzig, pp. 1-93. 1981",
+      "parentnameusage": "Syagrus Mart.",
+      "parentnameusageid": 15732,
+      "originalnameusageid": "44042",
+      "namepublishedin": "Voy. Amér. Mér. 7(3): 134 1847",
+      "namepublishedinyear": "1847",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15735",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares, K.P. Syagrus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15735>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 23:43:23.942"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Cerrado (lato sensu)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "catolé",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Centro-oeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "C.P.F. von Martius,Voy. Amér. Mér.,7(3): 134,1847"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43943,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa comosa (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 44019,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos acaulis Drude"
+      },
+      {
+        "relatedresourceid": 44796,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Syagrus acaulis (Drude) Becc."
+      },
+      {
+        "relatedresourceid": 44020,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos acaulis var. glabra Drude"
+      },
+      {
+        "relatedresourceid": 43936,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa acaulis (Drude) Kuntze"
+      },
+      {
+        "relatedresourceid": 44042,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cocos comosa Mart."
+      },
+      {
+        "relatedresourceid": 608096,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos plumosa Lodd. ex Loudon"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009656",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965007",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009656",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965005",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009660",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965023",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009660",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965021",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00001020",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226178959",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00001020",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226178961",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194531",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194533",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194535",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194537",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194539",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194697",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194699",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194701",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194703",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022157",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194721",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022157",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194723",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022157",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194725",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022157",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226194727",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195425",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195433",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195427",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195429",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195431",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024741",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195603",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00030185",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197513",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197611",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197613",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197615",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197617",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197619",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032400",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197709",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032400",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197703",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032400",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197705",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032400",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226197707",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037449",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200483",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037449",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200485",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200765",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200767",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200769",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200771",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200773",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226200775",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201969",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201961",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201963",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201965",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201967",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226204655",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226204649",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226204651",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226204653",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00053317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205287",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00053317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205289",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00074565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211577",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00074565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211579",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00074565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211581",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00074565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211583",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075873",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211987",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075873",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211989",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075873",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211991",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022157",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00022157",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024058",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00024058",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022071",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00022071",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075873",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00075873",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00053317",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00053317",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009660",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB009660",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00021398",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00021398",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032400",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00032400",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024741",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00024741",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051387",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00051387",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032094",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00032094",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009656",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB009656",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037449",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00037449",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041856",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00041856",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00030185",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00030185",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00037596",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00037596",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00074565",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00074565",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "K. Soares 3",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00001020",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00001020",
+        "locality": "MS",
+        "typestatus": null
+      }
+    ]
+  }
+]

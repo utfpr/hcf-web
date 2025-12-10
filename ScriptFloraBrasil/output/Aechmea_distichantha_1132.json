@@ -1,0 +1,640 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5799,
+      "scientificname": "Aechmea distichantha Lem.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Lem.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5799>http://floradobrasil2015.jbrj.gov.br/FB5799</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5799\">https://floradobrasil2020.jbrj.gov.br/FB5799</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea Ruiz & Pav.",
+      "parentnameusageid": 5753,
+      "originalnameusageid": null,
+      "namepublishedin": "Jard. Fleur. 3: t. 269 1853",
+      "namepublishedinyear": "1853",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5799",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5799>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-02 13:30:15.482"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Lemaire,Jard. Fleur.,3: t. 269,1853"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45632,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea polystachia var. myriophylla Hassl."
+      },
+      {
+        "relatedresourceid": 45630,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea polystachia var. excavata (Baker) Mez"
+      },
+      {
+        "relatedresourceid": 34200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha var. glaziovii (Baker) L.B.Sm."
+      },
+      {
+        "relatedresourceid": 34199,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aechmea distichantha Lem. var. distichantha"
+      },
+      {
+        "relatedresourceid": 46765,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Platyaechmea distichantha (Lem.) L.B.Sm. & W.J.Kress"
+      },
+      {
+        "relatedresourceid": 45596,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea microphylla Mez"
+      },
+      {
+        "relatedresourceid": 45642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea regelii Mez"
+      },
+      {
+        "relatedresourceid": 45648,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea rubra Silveira"
+      },
+      {
+        "relatedresourceid": 46858,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Quesnelia distichanta (Lem.) Lindm."
+      },
+      {
+        "relatedresourceid": 46089,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chevaliera grandiceps Griseb."
+      },
+      {
+        "relatedresourceid": 46334,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hohenbergia distichantha (Lem.) Baker"
+      },
+      {
+        "relatedresourceid": 46379,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hoplophytum polystachium (Lindl. & Paxton) Beer"
+      },
+      {
+        "relatedresourceid": 45929,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia polystachia Lindl. & Paxton"
+      },
+      {
+        "relatedresourceid": 45629,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea polystachia (Vell.) Mez"
+      },
+      {
+        "relatedresourceid": 46366,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hoplophytum distichanthum (Lem.) Beer"
+      },
+      {
+        "relatedresourceid": 46767,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platyaechmea distichantha var. schlumbergeri (É.Morren ex Mez) L.B.Sm. & W.J.Kress"
+      },
+      {
+        "relatedresourceid": 46766,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platyaechmea distichantha var. glaziovii (Baker) L.B.Sm. & W.J.Kress"
+      },
+      {
+        "relatedresourceid": 46768,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platyaechmea distichantha var. vernicosa (E.Pereira) L.B.Sm. & W.J.Kress"
+      },
+      {
+        "relatedresourceid": 45536,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha var. canaliculata M.B.Foster"
+      },
+      {
+        "relatedresourceid": 34202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha var. vernicosa E.Pereira"
+      },
+      {
+        "relatedresourceid": 45876,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia distichostachya Lem."
+      },
+      {
+        "relatedresourceid": 45544,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea excavata Baker"
+      },
+      {
+        "relatedresourceid": 45513,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea brasiliensis Regel"
+      },
+      {
+        "relatedresourceid": 45557,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea glaziovii Baker"
+      },
+      {
+        "relatedresourceid": 45562,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea grandiceps (Griseb.) Mez"
+      },
+      {
+        "relatedresourceid": 45566,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea hookeri Lem."
+      },
+      {
+        "relatedresourceid": 45625,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea platyphylla Hassl."
+      },
+      {
+        "relatedresourceid": 46356,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hoiriri polystachya (Baker) Kuntze"
+      },
+      {
+        "relatedresourceid": 45537,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aechmea distichantha var. typica L.B.Sm."
+      },
+      {
+        "relatedresourceid": 45573,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea involucrifera Mez"
+      },
+      {
+        "relatedresourceid": 45599,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aechmea minor É.Morren"
+      },
+      {
+        "relatedresourceid": 45637,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea pulchella É.Morren ex Mez"
+      },
+      {
+        "relatedresourceid": 45603,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea myriophylla É.Morren ex Baker"
+      },
+      {
+        "relatedresourceid": 34201,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha var. schlumbergeri É.Morren ex Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M. Verdi 5639",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19260",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB19260",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 5639",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19260",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226978483",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34199,
+      "scientificname": "Aechmea distichantha Lem. var. distichantha",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "distichantha",
+      "scientificnameauthorship": "Lem.",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha Lem. var. distichantha",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34199>http://floradobrasil2015.jbrj.gov.br/FB34199</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34199\">https://floradobrasil2020.jbrj.gov.br/FB34199</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34199",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34199>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 22:30:52.11"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 34200,
+      "scientificname": "Aechmea distichantha var. glaziovii (Baker) L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "glaziovii",
+      "scientificnameauthorship": "(Baker) L.B.Sm.",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha var. glaziovii (Baker) L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34200>http://floradobrasil2015.jbrj.gov.br/FB34200</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34200\">https://floradobrasil2020.jbrj.gov.br/FB34200</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": "45557",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34200",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34200>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:26:16.215"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado Sao Paulo,2(1): 102,1943"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      },
+      {
+        "relatedresourceid": 45557,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Aechmea glaziovii Baker"
+      },
+      {
+        "relatedresourceid": 46766,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Platyaechmea distichantha var. glaziovii (Baker) L.B.Sm. & W.J.Kress"
+      },
+      {
+        "relatedresourceid": 45642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea regelii Mez"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 34201,
+      "scientificname": "Aechmea distichantha var. schlumbergeri É.Morren ex Mez",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "schlumbergeri",
+      "scientificnameauthorship": "É.Morren ex Mez",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha var. schlumbergeri É.Morren ex Mez",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34201>http://floradobrasil2015.jbrj.gov.br/FB34201</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34201\">https://floradobrasil2020.jbrj.gov.br/FB34201</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 3(3): 343 1894",
+      "namepublishedinyear": "1894",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34201",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34201>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:27:25.095"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mez, C.,Fl. bras.,3(3): 343,1894"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      },
+      {
+        "relatedresourceid": 46767,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Platyaechmea distichantha var. schlumbergeri (É.Morren ex Mez) L.B.Sm. & W.J.Kress"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 34202,
+      "scientificname": "Aechmea distichantha var. vernicosa E.Pereira",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "vernicosa",
+      "scientificnameauthorship": "E.Pereira",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha var. vernicosa E.Pereira",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34202>http://floradobrasil2015.jbrj.gov.br/FB34202</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34202\">https://floradobrasil2020.jbrj.gov.br/FB34202</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": null,
+      "namepublishedin": "Bradea 2: 308 1979",
+      "namepublishedinyear": "1979",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34202",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34202>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:29:11.42"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bradea,2: 308,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      },
+      {
+        "relatedresourceid": 46768,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Platyaechmea distichantha var. vernicosa (E.Pereira) L.B.Sm. & W.J.Kress"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45536,
+      "scientificname": "Aechmea distichantha var. canaliculata M.B.Foster",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "canaliculata",
+      "scientificnameauthorship": "M.B.Foster",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha var. canaliculata M.B.Foster",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45536>http://floradobrasil2015.jbrj.gov.br/FB45536</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45536\">https://floradobrasil2020.jbrj.gov.br/FB45536</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": null,
+      "namepublishedin": "J. Bromeliad Soc. 12: 4 1962",
+      "namepublishedinyear": "1962",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45536",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45536>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:22:20.541"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "J. Bromeliad Soc.,12: 4,1962"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45537,
+      "scientificname": "Aechmea distichantha var. typica L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "distichantha",
+      "infraspecificepithet": "typica",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": "Aechmea distichantha Lem.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea distichantha Lem.;Aechmea distichantha var. typica L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45537>http://floradobrasil2015.jbrj.gov.br/FB45537</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45537\">https://floradobrasil2020.jbrj.gov.br/FB45537</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea distichantha Lem.",
+      "parentnameusageid": 5799,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45537",
+      "acceptednameusageid": 5799,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45537>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:28:34.022"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Arq. Bot. Estado Sao Paulo n.s., 1: 101,1943"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5799,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Aechmea distichantha Lem."
+      }
+    ],
+    "voucher": []
+  }
+]

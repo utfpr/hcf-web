@@ -1,0 +1,158 @@
+[
+  {
+    "taxon": {
+      "taxonid": 100968,
+      "scientificname": "Mimosa per-dusenii Burkart",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "per-dusenii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Burkart",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa per-dusenii Burkart",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB100968>http://floradobrasil2015.jbrj.gov.br/FB100968</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB100968\">https://floradobrasil2020.jbrj.gov.br/FB100968</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Barneby, R.C. 1991. Sensitivae censitae: a description of the genus&amp;nbsp;&lt;em&gt;Mimosa&lt;/em&gt;&amp;nbsp;L. (Mimosaceae) in the New World. Memoirs of The New York Botanical Garden: 65: 1-835.",
+      "parentnameusage": "Mimosa L.",
+      "parentnameusageid": 23084,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB100968",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-28 02:52:40.843"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "juquiri",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Santa Catarina"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Per Dusén 14817",
+        "collectioncode": "MO",
+        "catalognumber": "MO1195902",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1195902",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0062232",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0062232",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB25293",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB25293",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 7235",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01781",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB01781",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 7235",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01781",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226940949",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0062232",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226923747",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0062232",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226925215",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB25293",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226990745",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 114",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB25293",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226990743",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Per Dusén 14817",
+        "collectioncode": "MO",
+        "catalognumber": "MO1195902",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97991224",
+        "locality": "PR",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1206 @@
+[
+  {
+    "taxon": {
+      "taxonid": 20795,
+      "scientificname": "Palicourea rigida Kunth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20795>http://floradobrasil2015.jbrj.gov.br/FB20795</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FFSP",
+      "parentnameusage": "Palicourea Aubl.",
+      "parentnameusageid": 14133,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20795",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2015-01-29 14:08:33.284"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Humboldt, F.W.H.A. et al.,Nov. Gen. Sp. Pl.,3: 370,1819"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39161,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria noxia A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 75197,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Uragoga rigida (Bredem. ex Schult.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "V.C.  Souza 7009",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA026610",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA026610",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA005202",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA005202",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 8559",
+        "collectioncode": "K",
+        "catalognumber": "K000471440",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000471440",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "H.S. Irwin 8559",
+        "collectioncode": "K",
+        "catalognumber": "K000471440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227608477",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA005202",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226736395",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 7009",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA026610",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226753739",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 20796,
+      "scientificname": "Palicourea rigida Kunth subsp. rigida",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "rigida",
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida Kunth subsp. rigida",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20796>http://floradobrasil2015.jbrj.gov.br/FB20796</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20796",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2015-01-29 14:08:52.266"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 74024,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria rigida var. intermedia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 74021,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria rigida var. aurata (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73624,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. amazonica Huber"
+      },
+      {
+        "relatedresourceid": 73626,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. aurata (Mart.) Standl."
+      },
+      {
+        "relatedresourceid": 73629,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. paraguariensis Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 73628,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. hirtibacca Steyerm."
+      },
+      {
+        "relatedresourceid": 74020,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria rigida Bredem. ex Schult."
+      },
+      {
+        "relatedresourceid": 73559,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea aurata Mart."
+      },
+      {
+        "relatedresourceid": 74025,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria rigida var. oligoneura Müll.Arg."
+      },
+      {
+        "relatedresourceid": 74022,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria rigida var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73625,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. angustior Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 73573,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea diuretica Mart."
+      },
+      {
+        "relatedresourceid": 73777,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria byrsophylla Spreng."
+      },
+      {
+        "relatedresourceid": 73630,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. stenophylla Standl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20797,
+      "scientificname": "Palicourea rigida subsp. strepens (Mart.) Steyerm.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "strepens",
+      "scientificnameauthorship": "(Mart.) Steyerm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida subsp. strepens (Mart.) Steyerm.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20797>http://floradobrasil2015.jbrj.gov.br/FB20797</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20797",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2015-01-29 14:09:43.703"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 39028,
+      "scientificname": "Palicourea rigida subsp. hirtella (Müll.Arg.) Steyerm.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "hirtella",
+      "scientificnameauthorship": "(Müll.Arg.) Steyerm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida subsp. hirtella (Müll.Arg.) Steyerm.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39028>http://floradobrasil2015.jbrj.gov.br/FB39028</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "Mem. New York Bot. Gard. 23: 732 1972",
+      "namepublishedinyear": "1972",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39028",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2015-01-29 14:09:23.797"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Steyermark, J.A.,Mem. New York Bot. Gard.,23: 732,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 73631,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida var. strepens (Müll.Arg.) Steyerm."
+      },
+      {
+        "relatedresourceid": 73634,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea sonans Mart."
+      },
+      {
+        "relatedresourceid": 74023,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria rigida var. hirtella Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73640,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea strepens Mart."
+      },
+      {
+        "relatedresourceid": 74026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria rigida var. strepens Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73624,
+      "scientificname": "Palicourea rigida var. amazonica Huber",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "amazonica",
+      "scientificnameauthorship": "Huber",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. amazonica Huber",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73624>http://floradobrasil2015.jbrj.gov.br/FB73624</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73624",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-07-24 18:07:53.45"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Soc. Bot. Genève (ser. 2),6: 206,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73625,
+      "scientificname": "Palicourea rigida var. angustior Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "angustior",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. angustior Chodat & Hassl.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73625>http://floradobrasil2015.jbrj.gov.br/FB73625</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73625",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:57:50.461544"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Herb. Boissier II, 4: 178,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73626,
+      "scientificname": "Palicourea rigida var. aurata (Mart.) Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "aurata",
+      "scientificnameauthorship": "(Mart.) Standl.",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. aurata (Mart.) Standl.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73626>http://floradobrasil2015.jbrj.gov.br/FB73626</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73626",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:58:04.278236"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Publ. Field Mus. Nat. Hist., Bot. Ser.,8: 381,1931"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73627,
+      "scientificname": "Palicourea rigida var. brevipes Rusby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "brevipes",
+      "scientificnameauthorship": "Rusby",
+      "acceptednameusage": "Palicourea grandiflora (Kunth) Standl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. brevipes Rusby",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73627>http://floradobrasil2015.jbrj.gov.br/FB73627</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73627",
+      "acceptednameusageid": 24504,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:58:19.109966"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Mem. Torrey Bot. Club,6: 50,1896"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24504,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea grandiflora (Kunth) Standl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73628,
+      "scientificname": "Palicourea rigida var. hirtibacca Steyerm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "hirtibacca",
+      "scientificnameauthorship": "Steyerm.",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. hirtibacca Steyerm.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73628>http://floradobrasil2015.jbrj.gov.br/FB73628</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73628",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:58:31.393151"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Mem. New York Bot. Gard.,23: 732,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73629,
+      "scientificname": "Palicourea rigida var. paraguariensis Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "paraguariensis",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. paraguariensis Chodat & Hassl.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73629>http://floradobrasil2015.jbrj.gov.br/FB73629</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73629",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:58:42.882464"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Herb. Boissier II, 4: 177,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73630,
+      "scientificname": "Palicourea rigida var. stenophylla Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "stenophylla",
+      "scientificnameauthorship": "Standl.",
+      "acceptednameusage": "Palicourea rigida Kunth subsp. rigida",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. stenophylla Standl.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73630>http://floradobrasil2015.jbrj.gov.br/FB73630</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73630",
+      "acceptednameusageid": 20796,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:58:56.906574"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Publ. Field Mus. Nat. Hist., Bot. Ser.,22: 197,1940"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20796,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida Kunth subsp. rigida"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73631,
+      "scientificname": "Palicourea rigida var. strepens (Müll.Arg.) Steyerm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "rigida",
+      "infraspecificepithet": "strepens",
+      "scientificnameauthorship": "(Müll.Arg.) Steyerm.",
+      "acceptednameusage": "Palicourea rigida subsp. hirtella (Müll.Arg.) Steyerm.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea rigida Kunth;Palicourea rigida var. strepens (Müll.Arg.) Steyerm.",
+      "source": "Taylor, C. 2015. Palicourea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73631>http://floradobrasil2015.jbrj.gov.br/FB73631</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Palicourea rigida Kunth",
+      "parentnameusageid": 20795,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73631",
+      "acceptednameusageid": 39028,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-21 09:57:22.219222"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Mem. New York Bot. Gard.,23: 732,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39028,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Palicourea rigida subsp. hirtella (Müll.Arg.) Steyerm."
+      }
+    ],
+    "voucher": []
+  }
+]

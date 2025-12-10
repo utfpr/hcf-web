@@ -1,0 +1,108 @@
+[
+  {
+    "taxon": {
+      "taxonid": 16534,
+      "scientificname": "Cordia trachyphylla Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Boraginales",
+      "family": "Cordiaceae",
+      "genus": "Cordia",
+      "specificepithet": "trachyphylla",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cordiaceae R.Br. ex Dumort.;Cordia L.;Cordia trachyphylla Mart.",
+      "source": "Stapf, M.N.S. 2015. Cordia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16534>http://floradobrasil2015.jbrj.gov.br/FB16534</a>)<br><br>Stapf, M.N.S. 2020. Cordia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16534\">https://floradobrasil2020.jbrj.gov.br/FB16534</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Herb. Fl. Bras. n. 412.Herb. n. 412.",
+      "parentnameusage": "Cordia L.",
+      "parentnameusageid": 16502,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16534",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-10-30 23:27:11.185"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fresenius, J.B.G.W.,Flora Brasilensis,8/10,1857"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "C.F.P. Martius 412",
+        "collectioncode": "P",
+        "catalognumber": "P00634086",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00634086",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "T.S. Santos 1960",
+        "collectioncode": "RB",
+        "catalognumber": "RB00060696",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00060696",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Santos 1960",
+        "collectioncode": "RB",
+        "catalognumber": "RB00060696",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284647550",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.F.P. Martius 412",
+        "collectioncode": "P",
+        "catalognumber": "P00634086",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228059915",
+        "locality": "BA",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

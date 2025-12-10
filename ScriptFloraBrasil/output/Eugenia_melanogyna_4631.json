@@ -1,0 +1,137 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10458,
+      "scientificname": "Eugenia melanogyna (D.Legrand) Sobral",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Eugenia",
+      "specificepithet": "melanogyna",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(D.Legrand) Sobral",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Eugenia L.;Eugenia melanogyna (D.Legrand) Sobral",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10458>http://floradobrasil2015.jbrj.gov.br/FB10458</a>)<br><br>Mazine, F.F., Bünger, M., Faria, J.E.Q., Fernandes, T., Giaretta, A., Valdemarin, K.S., Santana, K.C., Souza, M.A.D., Sobral, M. 2020. Eugenia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10458\">https://floradobrasil2020.jbrj.gov.br/FB10458</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Eugenia L.",
+      "parentnameusageid": 10338,
+      "originalnameusageid": "62360",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10458",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-19 00:09:48.856"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sobral, M.,Napaea,11: 35,1995"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62360,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eugenia stictosepala var. melanogyna D.Legrand"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Carvalhaes, M. 27",
+        "collectioncode": "SP",
+        "catalognumber": "SP006913",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP006913",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 825",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM0047325",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM0047325",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 2037",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM0047327",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM0047327",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.A. Folli 4823",
+        "collectioncode": "CVRD",
+        "catalognumber": "CVRD008690",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CVRD008690",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  }
+]

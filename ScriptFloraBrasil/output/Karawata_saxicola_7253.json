@@ -1,0 +1,93 @@
+[
+  {
+    "taxon": {
+      "taxonid": 607076,
+      "scientificname": "Karawata saxicola (L.B.Sm.) J.R.Maciel & G.Sousa",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Karawata",
+      "specificepithet": "saxicola",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.B.Sm.) J.R.Maciel & G.Sousa",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Karawata J.R.Maciel & G.Sousa;Karawata saxicola (L.B.Sm.) J.R.Maciel & G.Sousa",
+      "source": "Sousa, G.M., Wanderley, M.G.L., Maciel, J.R. 2020. Karawata in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB607076\">https://floradobrasil2020.jbrj.gov.br/FB607076</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Jefferson Rodrigues Maciel, Gardene Maria de Sousa, Maria das Gra&amp;ccedil;as&amp;nbsp; Lapa Wanderley, Georg Zizka, Marccus Alves.&amp;nbsp;Systematic Botany. 44(3) : 519-535. 2019.",
+      "parentnameusage": "Karawata J.R.Maciel & G.Sousa",
+      "parentnameusageid": 606599,
+      "originalnameusageid": "5870",
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo 2: 118 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB607076",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Sousa, G.M., Wanderley, M.G.L., Maciel, J.R. Karawata in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB607076>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-06-21 16:48:34.458"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "gravatá",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SE"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo,2: 118,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5870,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Aechmea saxicola L.B.Sm."
+      },
+      {
+        "relatedresourceid": 46101,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Chevaliera saxicola (L.B.Sm.) L.B.Sm. & W.J.Kress"
+      }
+    ],
+    "voucher": []
+  }
+]

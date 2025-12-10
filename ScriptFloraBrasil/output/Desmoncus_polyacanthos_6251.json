@@ -1,0 +1,773 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15710,
+      "scientificname": "Desmoncus polyacanthos Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Desmoncus",
+      "specificepithet": "polyacanthos",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Desmoncus Mart.;Desmoncus polyacanthos Mart.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15710>http://floradobrasil2015.jbrj.gov.br/FB15710</a>)<br><br>Leitman, P.M. 2020. Desmoncus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15710\">https://floradobrasil2020.jbrj.gov.br/FB15710</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Desmoncus Mart.",
+      "parentnameusageid": 15707,
+      "originalnameusageid": null,
+      "namepublishedin": "Hist. Nat. Palm. 2: 85 1824",
+      "namepublishedinyear": "1824",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15710",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Leitman, P.M., Vianna, S.A., Sant'Anna-Santos, B.F. Desmoncus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15710>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-18 10:15:40.081"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira",
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta de Várzea",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "jacitara",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "C.P.F. von Martius,Hist. Nat. Palm.,2: 85,1824"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 44174,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus polyacanthos var. oxyacanthos (Mart.) Drude"
+      },
+      {
+        "relatedresourceid": 26578,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Desmoncus polyacanthos Mart. var. polyacanthos"
+      },
+      {
+        "relatedresourceid": 15709,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus phoenicocarpus Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43596,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara oxyacantha (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43577,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara aerea (Drude) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43579,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara caespitosa (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara riparia (Spruce) Kuntze"
+      },
+      {
+        "relatedresourceid": 43585,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara inermis (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43588,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara macroacantha (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43590,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara macrodon (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43593,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara nemorosa (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43594,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara oligacantha (Barb.Rodr.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43598,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara paraensis Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43599,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara phengophylla (Drude) Kuntze"
+      },
+      {
+        "relatedresourceid": 43600,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara philippiana (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43601,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara phoenicocarpa (Barb.Rodr.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43605,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara pycnacantha (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 44128,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus aereus Drude"
+      },
+      {
+        "relatedresourceid": 44132,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus brevisectus Burret"
+      },
+      {
+        "relatedresourceid": 44134,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus caespitosus Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 44135,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus campylacanthus Burret"
+      },
+      {
+        "relatedresourceid": 44137,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus dasyacanthus Burret"
+      },
+      {
+        "relatedresourceid": 44139,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus duidensis Steyerm."
+      },
+      {
+        "relatedresourceid": 44143,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus inermis Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 44150,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus longisectus Burret"
+      },
+      {
+        "relatedresourceid": 44153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus macroacanthos Mart."
+      },
+      {
+        "relatedresourceid": 44156,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus maguirei L.H.Bailey"
+      },
+      {
+        "relatedresourceid": 44159,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus mirandanus L.H.Bailey"
+      },
+      {
+        "relatedresourceid": 44170,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus peraltus L.H.Bailey"
+      },
+      {
+        "relatedresourceid": 44175,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus prestoei L.H.Bailey"
+      },
+      {
+        "relatedresourceid": 44186,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus ulei Dammer"
+      },
+      {
+        "relatedresourceid": 44166,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus oxyacanthos Mart."
+      },
+      {
+        "relatedresourceid": 43602,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Atitara polyacantha (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara dubia (Lodd. ex Loudon) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "W.L. Balée 2301",
+        "collectioncode": "NY",
+        "catalognumber": "NY00194176",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228739815",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.L. Balée 2301",
+        "collectioncode": "NY",
+        "catalognumber": "NY00194176",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00194176",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.A. Damasceno-Junior 4612",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003225",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS003225",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 10779",
+        "collectioncode": "NY",
+        "catalognumber": "NY00869959",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00869959",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. de Lemos Fróes 2001",
+        "collectioncode": "NY",
+        "catalognumber": "NY00878181",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00878181",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Farah, F.T. 1240",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA057775",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA057775",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 10779",
+        "collectioncode": "NY",
+        "catalognumber": "NY00869959",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228741311",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Farah, F.T. 1240",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA057775",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226839491",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. de Lemos Fróes 2001",
+        "collectioncode": "NY",
+        "catalognumber": "NY00878181",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228741655",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.A. Damasceno-Junior 4612",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003225",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094496",
+        "locality": "MS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 26578,
+      "scientificname": "Desmoncus polyacanthos Mart. var. polyacanthos",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Desmoncus",
+      "specificepithet": "polyacanthos",
+      "infraspecificepithet": "polyacanthos",
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": "Desmoncus polyacanthos Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Desmoncus Mart.;Desmoncus polyacanthos Mart.;Desmoncus polyacanthos Mart. var. polyacanthos",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB26578>http://floradobrasil2015.jbrj.gov.br/FB26578</a>)<br><br>Leitman, P.M. 2020. Desmoncus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB26578\">https://floradobrasil2020.jbrj.gov.br/FB26578</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Desmoncus polyacanthos Mart.",
+      "parentnameusageid": 15710,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB26578",
+      "acceptednameusageid": 15710,
+      "bibliographiccitation_how_to_cite": "Leitman, P.M., Vianna, S.A., Sant'Anna-Santos, B.F. Desmoncus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB26578>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-11-03 16:48:30.901"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Henderson, A.,Field Guide Palms Amer.,352p.,1995"
+      },
+      {
+        "reference": "Henderson, A.,Palms Amazon,362,1995"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15710,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Desmoncus polyacanthos Mart."
+      },
+      {
+        "relatedresourceid": 44173,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus polyacanthos var. cuspidatus Drude"
+      },
+      {
+        "relatedresourceid": 44179,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus pycnacanthos var. sarmentosus Drude"
+      },
+      {
+        "relatedresourceid": 43583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara dubia (Lodd. ex Loudon) Kuntze"
+      },
+      {
+        "relatedresourceid": 43577,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara aerea (Drude) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43579,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara caespitosa (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara riparia (Spruce) Kuntze"
+      },
+      {
+        "relatedresourceid": 43585,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara inermis (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43588,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Atitara macroacantha (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 44163,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus oligacanthus Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 44168,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus paraensis (Barb.Rodr.) Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 44171,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus phengophyllus Drude"
+      },
+      {
+        "relatedresourceid": 44172,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus philippianus Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 44178,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus pycnacanthos Mart."
+      },
+      {
+        "relatedresourceid": 44180,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus riparius Spruce"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 44173,
+      "scientificname": "Desmoncus polyacanthos var. cuspidatus Drude",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_APLICACAO_INCERTA",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Desmoncus",
+      "specificepithet": "polyacanthos",
+      "infraspecificepithet": "cuspidatus",
+      "scientificnameauthorship": "Drude",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Desmoncus Mart.;Desmoncus polyacanthos Mart.;Desmoncus polyacanthos var. cuspidatus Drude",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB44173>http://floradobrasil2015.jbrj.gov.br/FB44173</a>)<br><br>Leitman, P.M. 2020. Desmoncus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB44173\">https://floradobrasil2020.jbrj.gov.br/FB44173</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Desmoncus polyacanthos Mart.",
+      "parentnameusageid": 15710,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB44173",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Leitman, P.M., Vianna, S.A., Sant'Anna-Santos, B.F. Desmoncus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB44173>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-13 22:17:36.605"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,3(2): 314,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 26578,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus polyacanthos Mart. var. polyacanthos"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 44174,
+      "scientificname": "Desmoncus polyacanthos var. oxyacanthos (Mart.) Drude",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Desmoncus",
+      "specificepithet": "polyacanthos",
+      "infraspecificepithet": "oxyacanthos",
+      "scientificnameauthorship": "(Mart.) Drude",
+      "acceptednameusage": "Desmoncus polyacanthos Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Desmoncus Mart.;Desmoncus polyacanthos Mart.;Desmoncus polyacanthos var. oxyacanthos (Mart.) Drude",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB44174>http://floradobrasil2015.jbrj.gov.br/FB44174</a>)<br><br>Leitman, P.M. 2020. Desmoncus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB44174\">https://floradobrasil2020.jbrj.gov.br/FB44174</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Desmoncus polyacanthos Mart.",
+      "parentnameusageid": 15710,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB44174",
+      "acceptednameusageid": 15710,
+      "bibliographiccitation_how_to_cite": "Leitman, P.M., Vianna, S.A., Sant'Anna-Santos, B.F. Desmoncus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB44174>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-13 22:11:08.893"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,3(2): 314,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15710,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Desmoncus polyacanthos Mart."
+      }
+    ],
+    "voucher": []
+  }
+]

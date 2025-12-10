@@ -1,0 +1,100 @@
+[
+  {
+    "taxon": {
+      "taxonid": 91214,
+      "scientificname": "Hymenophyllum polyanthos (Sw.) Sw.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Hymenophyllales",
+      "family": "Hymenophyllaceae",
+      "genus": "Hymenophyllum",
+      "specificepithet": "polyanthos",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sw.) Sw.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Hymenophyllaceae Gaudich.;Hymenophyllum J. Sm.;Hymenophyllum polyanthos (Sw.) Sw.",
+      "source": "Windisch, P.G. 2015. Hymenophyllaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91214>http://floradobrasil2015.jbrj.gov.br/FB91214</a>)<br><br>Gonzatti, F., Windisch, P.G. Hymenophyllaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91214\">https://floradobrasil2020.jbrj.gov.br/FB91214</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Hymenophyllum J. Sm.",
+      "parentnameusageid": 91194,
+      "originalnameusageid": "117381",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91214",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-05 02:06:46.777"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 117381,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Trichomanes polyanthos Sw."
+      },
+      {
+        "relatedresourceid": 607198,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hymenophyllum producens Fée"
+      },
+      {
+        "relatedresourceid": 607202,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mecodium polyanthos (Sw.) Copel."
+      },
+      {
+        "relatedresourceid": 598335,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hymenophyllum protrusum Hook."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "R. Engelmann RE0839",
+        "collectioncode": "RB",
+        "catalognumber": "RB00698434",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00698434",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Engelmann RE0839",
+        "collectioncode": "RB",
+        "catalognumber": "RB00698434",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284703104",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

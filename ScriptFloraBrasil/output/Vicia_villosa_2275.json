@@ -1,0 +1,156 @@
+[
+  {
+    "taxon": {
+      "taxonid": 622387,
+      "scientificname": "Vicia villosa Roth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Vicia",
+      "specificepithet": "villosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Roth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Vicia L.;Vicia villosa Roth",
+      "source": "Iganci, J.R.V., Hechenleitner, P., Miotto, S.T.S. 2020. Vicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB622387\">https://floradobrasil2020.jbrj.gov.br/FB622387</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.2. p.562-564.",
+      "parentnameusage": "Vicia L.",
+      "parentnameusageid": 101184,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB622387",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Hechenleitner, P., Miotto, S.T.S. Vicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB622387>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 12:02:20.43"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "ervilhaca-peluda",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "ervilhaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 622394,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vicia varia Host"
+      },
+      {
+        "relatedresourceid": 622388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vicia dasycarpa Ten."
+      },
+      {
+        "relatedresourceid": 622392,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vicia polyphylla Waldst. & Kit."
+      },
+      {
+        "relatedresourceid": 622395,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vicia villosa var. glabrescens W.D.J.Koch"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 622395,
+      "scientificname": "Vicia villosa var. glabrescens W.D.J.Koch",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Vicia",
+      "specificepithet": "villosa",
+      "infraspecificepithet": "glabrescens",
+      "scientificnameauthorship": "W.D.J.Koch",
+      "acceptednameusage": "Vicia villosa Roth",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Vicia L.;Vicia villosa Roth;Vicia villosa var. glabrescens W.D.J.Koch",
+      "source": "Iganci, J.R.V., Hechenleitner, P., Miotto, S.T.S. 2020. Vicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB622395\">https://floradobrasil2020.jbrj.gov.br/FB622395</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.2. p.561.",
+      "parentnameusage": "Vicia villosa Roth",
+      "parentnameusageid": 622387,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB622395",
+      "acceptednameusageid": 622387,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Hechenleitner, P., Miotto, S.T.S. Vicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB622395>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 12:03:43.287"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 622387,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Vicia villosa Roth"
+      }
+    ],
+    "voucher": []
+  }
+]

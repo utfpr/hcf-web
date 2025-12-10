@@ -1,0 +1,919 @@
+[
+  {
+    "taxon": {
+      "taxonid": 104991,
+      "scientificname": "Phalaris canariensis L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.",
+      "source": "Longhi-Wagner, H.M. 2015. Phalaris in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104991>http://floradobrasil2015.jbrj.gov.br/FB104991</a>)<br><br>Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104991\">https://floradobrasil2020.jbrj.gov.br/FB104991</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Longhi-Wagner, H.M. 2001. Subfam&amp;iacute;lia Pooideae. Pp. 248-267. In: Longhi-Wagner et al. Poaceae. Flora Fanerog&amp;acirc;mica do Estado de S&amp;atilde;o Paulo v. 1. S&amp;atilde;o Paulo: Hucitec.\r\n&amp;nbsp;\r\n&amp;nbsp;",
+      "parentnameusage": "Phalaris L.",
+      "parentnameusageid": 13517,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 1: 54–55. 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104991",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB104991>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-31 18:56:57.732"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "alpiste",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,1: 54–55.,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 616366,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris avicularis Salisb."
+      },
+      {
+        "relatedresourceid": 616368,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis f. colorata Jansen & Wacht."
+      },
+      {
+        "relatedresourceid": 616367,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis f. colorata Jansen & Wacht."
+      },
+      {
+        "relatedresourceid": 616371,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis f. vivipara Junge"
+      },
+      {
+        "relatedresourceid": 616372,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis subsp. typica Posp."
+      },
+      {
+        "relatedresourceid": 616373,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis var. debilis Tocl & Rohlena"
+      },
+      {
+        "relatedresourceid": 616376,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis var. nigra Stokes"
+      },
+      {
+        "relatedresourceid": 616377,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis var. subcylindrica Thell."
+      },
+      {
+        "relatedresourceid": 616378,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis var. tenuis Jansen & Wacht."
+      },
+      {
+        "relatedresourceid": 616380,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis var. villosula Jansen & Wacht."
+      },
+      {
+        "relatedresourceid": 616382,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris ovata Moench"
+      },
+      {
+        "relatedresourceid": 616384,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris aquatica Delile ex Boiss."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Funez, L.A. 1128",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB04659",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB04659",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.Mautone 500",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624550",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00624550",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinto, GCP 53-43",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB00019632",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB00019632",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W s.n.",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00084202",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00084202",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.A.Archer 4288",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624651",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00624651",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.C.Bernacci 74",
+        "collectioncode": "RB",
+        "catalognumber": "RB01390200",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01390200",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jos   Francisco Montenegro Valls 6902",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007957",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00007957",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Aranha s/n",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00106579",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00106579",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Barros, AAM 520",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00071847",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00071847",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00032304",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00032304",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kátia Calago 283",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00036555",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00036555",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hassemer, G.N. 725",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0051215",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0051215",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, L.A. 3511",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB39299",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB39299",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00624669",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00624669",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Aranha s/n",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00106579",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00106579",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00624661",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00624661",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G.Kuhlmann 6170",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624655",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00624655",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Motta, JT 492",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM224728",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM224728",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00624669",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284555682",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kátia Calago 283",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00036555",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226279968",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00032304",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97364945",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Aranha s/n",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00106579",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226220477",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, L.A. 3511",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB39299",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227019349",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinto, GCP 53-43",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB00019632",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=306764959",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W s.n.",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00084202",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99831463",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.C.Bernacci 74",
+        "collectioncode": "RB",
+        "catalognumber": "RB01390200",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285149726",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Aranha s/n",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00106579",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226220477",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hassemer, G.N. 725",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0051215",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226922429",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00624661",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284555664",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G.Kuhlmann 6170",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624655",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284555648",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Motta, JT 492",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM224728",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229637259",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jos   Francisco Montenegro Valls 6902",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007957",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226274736",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Barros, AAM 520",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00071847",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99831151",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, L.A. 1128",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB04659",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226946827",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.A.Archer 4288",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624651",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284555636",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.Mautone 500",
+        "collectioncode": "RB",
+        "catalognumber": "RB00624550",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284555398",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 616367,
+      "scientificname": "Phalaris canariensis f. colorata Jansen & Wacht.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "colorata",
+      "scientificnameauthorship": "Jansen & Wacht.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis f. colorata Jansen & Wacht.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616367\">https://floradobrasil2020.jbrj.gov.br/FB616367</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96\r\nBaldini, R.M.. 1995. Webbia 49(2): 295",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Nederlandsch Kruidkundig Archief. Verslangen en Me 6: 135 1917",
+      "namepublishedinyear": "1917",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616367",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616367>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:01:33.606"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Jansen, P. & Wachter, W.H.,Nederlandsch Kruidkundig Archief. Verslangen en Me,6: 135,1917"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616368,
+      "scientificname": "Phalaris canariensis f. colorata Jansen & Wacht.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "colorata",
+      "scientificnameauthorship": "Jansen & Wacht.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis f. colorata Jansen & Wacht.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616368\">https://floradobrasil2020.jbrj.gov.br/FB616368</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96\r\nBaldini, R.M.. 1995. Webbia 49(2): 295",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Nederlandsch Kruidkundig Archief. Verslangen en Me 52: 213 1942",
+      "namepublishedinyear": "1942",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616368",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616368>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:04:38.01"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Jansen, P. & Wachter, W.H.,Nederlandsch Kruidkundig Archief. Verslangen en Me,52: 213,1942"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616371,
+      "scientificname": "Phalaris canariensis f. vivipara Junge",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "vivipara",
+      "scientificnameauthorship": "Junge",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis f. vivipara Junge",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616371\">https://floradobrasil2020.jbrj.gov.br/FB616371</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Jahrbuch der Hamburgischen Wissenschaftlichen Anst 30: 123 1912",
+      "namepublishedinyear": "1912",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616371",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616371>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:07:37.796"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Junge, P.,Jahrbuch der Hamburgischen Wissenschaftlichen Anst,30: 123,1912"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616372,
+      "scientificname": "Phalaris canariensis subsp. typica Posp.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "typica",
+      "scientificnameauthorship": "Posp.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis subsp. typica Posp.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616372\">https://floradobrasil2020.jbrj.gov.br/FB616372</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Baldini, R.M.. 1995. Webbia 49(2): 295",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora des Oesterreichischen Küstenlandes 1: 59 1897",
+      "namepublishedinyear": "1897",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616372",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616372>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:10:36.487"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Pospichal, E.,Flora des Oesterreichischen Küstenlandes,1: 59,1897"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616373,
+      "scientificname": "Phalaris canariensis var. debilis Tocl & Rohlena",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "debilis",
+      "scientificnameauthorship": "Tocl & Rohlena",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis var. debilis Tocl & Rohlena",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616373\">https://floradobrasil2020.jbrj.gov.br/FB616373</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Baldini, R.M.. 1995. Webbia 49(2): 295",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Sitzungsberichte der Königlichen Böhmischen Gesell 49: 1 1902",
+      "namepublishedinyear": "1902",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616373",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616373>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:14:38.04"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Tocl, K.C. & Rohlena, J.,Sitzungsberichte der Königlichen Böhmischen Gesell,49: 1,1902"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616376,
+      "scientificname": "Phalaris canariensis var. nigra Stokes",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "nigra",
+      "scientificnameauthorship": "Stokes",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis var. nigra Stokes",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616376\">https://floradobrasil2020.jbrj.gov.br/FB616376</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "A Botanical Materia Medica 1: 135 1812",
+      "namepublishedinyear": "1812",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616376",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616376>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:18:45.856"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Stokes, J.S.,A Botanical Materia Medica,1: 135,1812"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616377,
+      "scientificname": "Phalaris canariensis var. subcylindrica Thell.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "subcylindrica",
+      "scientificnameauthorship": "Thell.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis var. subcylindrica Thell.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616377\">https://floradobrasil2020.jbrj.gov.br/FB616377</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96\r\nBaldini, R.M.. 1995. Webbia 49(2): 295",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Vierteljahrsschrift der Naturforschenden Gesellsch 56: 271 1912",
+      "namepublishedinyear": "1912",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616377",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616377>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:22:34.06"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Thellung, A.,Vierteljahrsschrift der Naturforschenden Gesellsch,56: 271,1912"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616378,
+      "scientificname": "Phalaris canariensis var. tenuis Jansen & Wacht.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "tenuis",
+      "scientificnameauthorship": "Jansen & Wacht.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis var. tenuis Jansen & Wacht.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616378\">https://floradobrasil2020.jbrj.gov.br/FB616378</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Nederlandsch Kruidkundig Archief. Verslangen en Me 52: 213 1942",
+      "namepublishedinyear": "1942",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616378",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616378>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:25:28.608"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Jansen, P. & Wachter, W.H.,Nederlandsch Kruidkundig Archief. Verslangen en Me,52: 213,1942"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616380,
+      "scientificname": "Phalaris canariensis var. villosula Jansen & Wacht.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Phalaris",
+      "specificepithet": "canariensis",
+      "infraspecificepithet": "villosula",
+      "scientificnameauthorship": "Jansen & Wacht.",
+      "acceptednameusage": "Phalaris canariensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Pooideae Benth.;Phalaris L.;Phalaris canariensis L.;Phalaris canariensis var. villosula Jansen & Wacht.",
+      "source": "Iganci, J.R.V., Schröder, T., da Silva, L.N. 2020. Phalaris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB616380\">https://floradobrasil2020.jbrj.gov.br/FB616380</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, D.E.&amp;nbsp;1961.&amp;nbsp;&amp;nbsp;Iowa State Coll. J. Sci.&amp;nbsp;36(1): 1&amp;ndash;96",
+      "parentnameusage": "Phalaris canariensis L.",
+      "parentnameusageid": 104991,
+      "originalnameusageid": null,
+      "namepublishedin": "Nederlandsch Kruidkundig Archief. Verslangen en Me 52: 213 1942",
+      "namepublishedinyear": "1942",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616380",
+      "acceptednameusageid": 104991,
+      "bibliographiccitation_how_to_cite": "Iganci, J.R.V., Schröder, T., da Silva, L.N. Phalaris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB616380>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-29 15:28:11.467"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Jansen, P. & Wachter, W.H.,Nederlandsch Kruidkundig Archief. Verslangen en Me,52: 213,1942"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104991,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Phalaris canariensis L."
+      }
+    ],
+    "voucher": []
+  }
+]

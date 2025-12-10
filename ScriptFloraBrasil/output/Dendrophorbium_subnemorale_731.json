@@ -1,0 +1,127 @@
+[
+  {
+    "taxon": {
+      "taxonid": 116380,
+      "scientificname": "Dendrophorbium subnemorale (Dusén) A.M.Teles",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Dendrophorbium",
+      "specificepithet": "subnemorale",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Dusén) A.M.Teles",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Senecioneae Cass.;Dendrophorbium (Cuatrec.) C.Jeffrey;Dendrophorbium subnemorale (Dusén) A.M.Teles",
+      "source": "Borges, R.A.X.,Teles, A.M. 2015. Dendrophorbium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB116380>http://floradobrasil2015.jbrj.gov.br/FB116380</a>)<br><br>Teles, A.M., Freitas, F.S. 2020. Dendrophorbium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB116380\">https://floradobrasil2020.jbrj.gov.br/FB116380</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cabrera, A.L. 1957. El g&amp;eacute;nero &lt;em&gt;Senecio&lt;/em&gt; (Compositae) en Brasil, Paraguay y Uruguay. Arquivos do Jardim Bot&amp;acirc;nico do Rio de Janeiro 15: 163-264.",
+      "parentnameusage": "Dendrophorbium (Cuatrec.) C.Jeffrey",
+      "parentnameusageid": 27021,
+      "originalnameusageid": "632474",
+      "namepublishedin": "Rodriguésia 61(1): 143-145 2010",
+      "namepublishedinyear": "2010",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB116380",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Teles, A.M., Freitas, F.S. Dendrophorbium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB116380>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-03-23 09:42:13.747"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Teles, A.M.,Rodriguésia,61(1): 143-145,2010"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 632474,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Senecio subnemoralis Dusén"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "E. Ule 1773",
+        "collectioncode": "P",
+        "catalognumber": "P03736073",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03736073",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 4044",
+        "collectioncode": "RB",
+        "catalognumber": "RB00428668",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00428668",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 4044",
+        "collectioncode": "RB",
+        "catalognumber": "RB00428668",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284198168",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Ule 1773",
+        "collectioncode": "P",
+        "catalognumber": "P03736073",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197411835",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

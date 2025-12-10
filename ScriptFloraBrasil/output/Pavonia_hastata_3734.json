@@ -1,0 +1,291 @@
+[
+  {
+    "taxon": {
+      "taxonid": 9145,
+      "scientificname": "Pavonia hastata Cav.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Pavonia",
+      "specificepithet": "hastata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cav.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Pavonia Cav.;Pavonia hastata Cav.",
+      "source": "Esteves, G. 2015. Pavonia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB9145>http://floradobrasil2015.jbrj.gov.br/FB9145</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Grings, M. 2013. O g&amp;ecirc;nero Pavonia Cav. (Malvaceae) no Rio Grande do Sul, Brasil. Revista Brasileira de Bioci&amp;ecirc;ncias (online) 11:352-380.",
+      "parentnameusage": "Pavonia Cav.",
+      "parentnameusageid": 9118,
+      "originalnameusageid": null,
+      "namepublishedin": "Diss. 3:138 1787",
+      "namepublishedinyear": "1787",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9145",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-10-01 16:06:31.342"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Esteves, G.L.,Bol. Inst. Bot. (São Paulo),15: 125-194,2001"
+      },
+      {
+        "reference": "Cavanilles,Diss.,3:138,1787"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 633344,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata var. pubescens Gürke"
+      },
+      {
+        "relatedresourceid": 633345,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata f. brevifolia Gürke"
+      },
+      {
+        "relatedresourceid": 600901,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata f. brevifolia Gürke"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600901,
+      "scientificname": "Pavonia hastata f. brevifolia Gürke",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Pavonia",
+      "specificepithet": "hastata",
+      "infraspecificepithet": "brevifolia",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Pavonia hastata Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Pavonia Cav.;Pavonia hastata Cav.;Pavonia hastata f. brevifolia Gürke",
+      "source": "Flora Brasiliensis. Vol. XII, Part III, Fasc. 111 Coluna 499 - 500 Publicado em 15-Abr-1892. Fam&amp;iacute;lia Malvaceae Tribo Ureneae Benth. &amp;amp; Hook. G&amp;ecirc;nero Pavonia Cav. Se&amp;ccedil;&amp;atilde;o Eupavonia. &lt;em&gt;Pavonia hastata&lt;/em&gt; Cav.",
+      "parentnameusage": "Pavonia hastata Cav.",
+      "parentnameusageid": 9145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600901",
+      "acceptednameusageid": 9145,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-10-01 16:11:01.2"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9145,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata Cav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601294,
+      "scientificname": "Pavonia hastata var. glabriuscula Gürke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_APLICACAO_INCERTA",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Pavonia",
+      "specificepithet": "hastata",
+      "infraspecificepithet": "glabriuscula",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Pavonia Cav.;Pavonia hastata Cav.;Pavonia hastata var. glabriuscula Gürke",
+      "source": "Flora Brasiliensis. Vol. XII, Part III, Fasc. 111 Coluna&amp;nbsp;500 - 501 Publicado em 15-Abr-1892. Fam&amp;iacute;lia Malvaceae Tribo Ureneae Benth. &amp;amp; Hook. G&amp;ecirc;nero Pavonia Cav. Se&amp;ccedil;&amp;atilde;o Eupavonia. &lt;em&gt;Pavonia hastata&lt;/em&gt; Cav.",
+      "parentnameusage": "Pavonia hastata Cav.",
+      "parentnameusageid": 9145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601294",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-10-01 16:13:48.746"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 633344,
+      "scientificname": "Pavonia hastata var. pubescens Gürke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Pavonia",
+      "specificepithet": "hastata",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Pavonia hastata Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Pavonia Cav.;Pavonia hastata Cav.;Pavonia hastata var. pubescens Gürke",
+      "source": "Flora Brasiliensis. Vol. XII, Part III, Fasc. 111 Coluna 499 - 500 Publicado em 15-Abr-1892. Fam&amp;iacute;lia Malvaceae Tribo Ureneae Benth. &amp;amp; Hook. G&amp;ecirc;nero Pavonia Cav. Se&amp;ccedil;&amp;atilde;o Eupavonia. &lt;em&gt;Pavonia hastata&lt;/em&gt; Cav.",
+      "parentnameusage": "Pavonia hastata Cav.",
+      "parentnameusageid": 9145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB633344",
+      "acceptednameusageid": 9145,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-10-01 16:04:45.006"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9145,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata Cav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 633345,
+      "scientificname": "Pavonia hastata f. brevifolia Gürke",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Pavonia",
+      "specificepithet": "hastata",
+      "infraspecificepithet": "brevifolia",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Pavonia hastata Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Pavonia Cav.;Pavonia hastata Cav.;Pavonia hastata f. brevifolia Gürke",
+      "source": "Flora Brasiliensis. Vol. XII, Part III, Fasc. 111 Coluna 499 - 500 Publicado em 15-Abr-1892. Fam&amp;iacute;lia Malvaceae Tribo Ureneae Benth. &amp;amp; Hook. G&amp;ecirc;nero Pavonia Cav. Se&amp;ccedil;&amp;atilde;o Eupavonia. &lt;em&gt;Pavonia hastata&lt;/em&gt; Cav.",
+      "parentnameusage": "Pavonia hastata Cav.",
+      "parentnameusageid": 9145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB633345",
+      "acceptednameusageid": 9145,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-10-01 16:08:12.995"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9145,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pavonia hastata Cav."
+      }
+    ],
+    "voucher": []
+  }
+]

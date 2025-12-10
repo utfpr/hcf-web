@@ -1,0 +1,123 @@
+[
+  {
+    "taxon": {
+      "taxonid": 116078,
+      "scientificname": "Hyperbaena hassleri Diels",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ranunculales",
+      "family": "Menispermaceae",
+      "genus": "Hyperbaena",
+      "specificepithet": "hassleri",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Diels",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Menispermaceae A.Juss.;Hyperbaena Miers ex Benth.;Hyperbaena hassleri Diels",
+      "source": "Braga, J.M.A. 2015. Menispermaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB116078>http://floradobrasil2015.jbrj.gov.br/FB116078</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Mathias, M.E. &amp;amp; Theobald, W.L. 1981. A revision of the genus Hyperbaena (Menispermaceae). Brittonia 33: 81-104.",
+      "parentnameusage": "Hyperbaena Miers ex Benth.",
+      "parentnameusageid": 10040,
+      "originalnameusageid": null,
+      "namepublishedin": "Das Pflanzenreich 94: 201 1910",
+      "namepublishedinyear": "1910",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB116078",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-04-19 20:20:38.983"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Diels, F.,Das Pflanzenreich,94: 201,1910"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 74372",
+        "collectioncode": "US",
+        "catalognumber": "US01342333",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100101725",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 74372",
+        "collectioncode": "US",
+        "catalognumber": "US01342333",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01342333",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hassler, E. 7299",
+        "collectioncode": "K",
+        "catalognumber": "K000485728",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000485728",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hassler, E. 7299",
+        "collectioncode": "K",
+        "catalognumber": "K000485728",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227507049",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

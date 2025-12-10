@@ -1,0 +1,735 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7051,
+      "scientificname": "Ipomoea pes-caprae (L.) R.Br.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "pes-caprae",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) R.Br.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea pes-caprae (L.) R.Br.",
+      "source": "Simão-Bianchini, R.,Ferreira, P.P.A. 2015. Ipomoea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7051>http://floradobrasil2015.jbrj.gov.br/FB7051</a>)<br><br>Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7051\">https://floradobrasil2020.jbrj.gov.br/FB7051</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea L.",
+      "parentnameusageid": 7021,
+      "originalnameusageid": "125979",
+      "namepublishedin": "Observ. Congo 58 1818",
+      "namepublishedinyear": "1818",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7051",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7051>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 10:38:32.744"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "salsa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "salsa-brava",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "salsa-pé-de-cabra",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Brown, R.,Observ. Congo,58,1818"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125979,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Convolvulus pes-caprae L."
+      },
+      {
+        "relatedresourceid": 125932,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Batatas maritima (R.Br.) Bojer"
+      },
+      {
+        "relatedresourceid": 126043,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea biloba Forssk."
+      },
+      {
+        "relatedresourceid": 126026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ipomoea aegopoda St.-Lag."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "IBGE",
+        "catalognumber": "IBGE00000491",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IBGE00000491",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Agra 1440",
+        "collectioncode": "K",
+        "catalognumber": "K000944786",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000944786",
+        "locality": "PB",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "K",
+        "catalognumber": "K000944787",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000944787",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "NY",
+        "catalognumber": "NY00494138",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00494138",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 6251",
+        "collectioncode": "K",
+        "catalognumber": "K000944789",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000944789",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 6251",
+        "collectioncode": "NY",
+        "catalognumber": "NY00494137",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00494137",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00262599",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00262599",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC014609",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC014609",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ridley 93",
+        "collectioncode": "K",
+        "catalognumber": "K000944792",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000944792",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 6251",
+        "collectioncode": "RB",
+        "catalognumber": "RB00262639",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283957348",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00262599",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283957262",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00262599",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283957264",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "IBGE",
+        "catalognumber": "IBGE00000491",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=265645859",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "K",
+        "catalognumber": "K000944787",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227369677",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 6251",
+        "collectioncode": "NY",
+        "catalognumber": "NY00494137",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228295339",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ridley 93",
+        "collectioncode": "K",
+        "catalognumber": "K000944792",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227369687",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Agra 1440",
+        "collectioncode": "K",
+        "catalognumber": "K000944786",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227369675",
+        "locality": "PB",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 6251",
+        "collectioncode": "K",
+        "catalognumber": "K000944789",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227369681",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 3329",
+        "collectioncode": "NY",
+        "catalognumber": "NY00494138",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228295341",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 17004,
+      "scientificname": "Ipomoea pes-caprae subsp. brasiliensis (L.) Ooststr.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Ipomoea",
+      "specificepithet": "pes-caprae",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "(L.) Ooststr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Ipomoea L.;Ipomoea pes-caprae (L.) R.Br.;Ipomoea pes-caprae subsp. brasiliensis (L.) Ooststr.",
+      "source": "Simão-Bianchini, R.,Ferreira, P.P.A. 2015. Ipomoea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17004>http://floradobrasil2015.jbrj.gov.br/FB17004</a>)<br><br>Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. 2020. Ipomoea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17004\">https://floradobrasil2020.jbrj.gov.br/FB17004</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ipomoea pes-caprae (L.) R.Br.",
+      "parentnameusageid": 7051,
+      "originalnameusageid": null,
+      "namepublishedin": "Blumea 3(3): 533 1940",
+      "namepublishedinyear": "1940",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17004",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Simão-Bianchini, R., Ferreira, P.P.A., Vasconcelos, L.V. Ipomoea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17004>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-04-09 15:17:05.664"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "batata-da-praia",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      },
+      {
+        "vernacularname": "batata-do-mar",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      },
+      {
+        "vernacularname": "pé-de-cabra",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      },
+      {
+        "vernacularname": "salsa-brava",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Ooststroom, S.J.,Blumea,3(3): 533,1940"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125945,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Convolvulus brasiliensis L."
+      },
+      {
+        "relatedresourceid": 126046,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ipomoea brasiliensis (L.) G.Mey."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "P",
+        "catalognumber": "P00758755",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197499587",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

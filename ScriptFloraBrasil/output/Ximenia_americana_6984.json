@@ -1,0 +1,807 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10971,
+      "scientificname": "Ximenia americana L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Ximeniaceae",
+      "genus": "Ximenia",
+      "specificepithet": "americana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ximeniaceae Horan.;Ximenia L.;Ximenia americana L.",
+      "source": "Rossi, L. 2015. Olacaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10971>http://floradobrasil2015.jbrj.gov.br/FB10971</a>)<br><br>Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10971\">https://floradobrasil2020.jbrj.gov.br/FB10971</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sleumer, H.O. 1984. Olacaceae. Pp. 1&amp;ndash;159 in Flora Neotropica, monograph no. 38. New York: Published for Organization for Flora Neotropica by The New York Botanical Garden.",
+      "parentnameusage": "Ximenia L.",
+      "parentnameusageid": 10970,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 2: 1193 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10971",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10971>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 15:28:34.92"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Hemiparasita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,2: 1193,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 116312,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amyris arborescens P.Browne"
+      },
+      {
+        "relatedresourceid": 116326,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia verrucosa Roem."
+      },
+      {
+        "relatedresourceid": 116323,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia montana Macfad."
+      },
+      {
+        "relatedresourceid": 116317,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia multiflora Jacq."
+      },
+      {
+        "relatedresourceid": 116314,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pimecaria odorata Raf."
+      },
+      {
+        "relatedresourceid": 115926,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia aculeata Crantz"
+      },
+      {
+        "relatedresourceid": 115932,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia spinosa Salisb."
+      },
+      {
+        "relatedresourceid": 115935,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heymassoli spinosa Aubl."
+      },
+      {
+        "relatedresourceid": 115934,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heymassoli inermis Aubl."
+      },
+      {
+        "relatedresourceid": 116320,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia inermis L."
+      },
+      {
+        "relatedresourceid": 116324,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia fluminensis M.Roem."
+      },
+      {
+        "relatedresourceid": 116331,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia americana var. ovata Lam. ex DC."
+      },
+      {
+        "relatedresourceid": 116333,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia americana var. oblonga Lam. ex DC."
+      },
+      {
+        "relatedresourceid": 19960,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ximenia americana L. var. americana"
+      },
+      {
+        "relatedresourceid": 116327,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia oblonga Lam. ex Hemsl."
+      },
+      {
+        "relatedresourceid": 115928,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia elliptica Spreng."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "RFA",
+        "catalognumber": "RFA47260",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RFA47260",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Cardoso 1238",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01182796",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01182796",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.E.L. Miranda et al. 714",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY02269594",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02269594",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima et al. 383",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0223284",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0223284",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM014542",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM014542",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima et al. 383",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01839820",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01839820",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY00396120",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00396120",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0033919",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0033919",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "US",
+        "catalognumber": "US01336168",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01336168",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima et al. 383",
+        "collectioncode": "JPB",
+        "catalognumber": "JPB0047521",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/JPB0047521",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.E.L. Miranda et al. 714",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY02269594",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228446437",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY00396120",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228280277",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0033919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100553721",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "US",
+        "catalognumber": "US01336168",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100095737",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.M. Moraes IFN_27314311.10",
+        "collectioncode": "UB",
+        "catalognumber": "UB0124962",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0124962",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.M. Teixeira 31",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0134363",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0134363",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F. Ramos INPA235287",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0235287",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0235287",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Cardoso 1238",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0108407",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0108407",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Cardoso 1238",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01182796",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228407141",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach et al. 23113",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM014542",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229908079",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.M. Teixeira 31",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0134363",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238531429",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Cardoso 1238",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0108407",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238523847",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Cardoso 1238",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0108407",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238523845",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima et al. 383",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01839820",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228414909",
+        "locality": "RN",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 19960,
+      "scientificname": "Ximenia americana L. var. americana",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Ximeniaceae",
+      "genus": "Ximenia",
+      "specificepithet": "americana",
+      "infraspecificepithet": "americana",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Ximenia americana L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Ximeniaceae Horan.;Ximenia L.;Ximenia americana L.;Ximenia americana L. var. americana",
+      "source": "Rossi, L. 2015. Olacaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB19960>http://floradobrasil2015.jbrj.gov.br/FB19960</a>)<br><br>Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB19960\">https://floradobrasil2020.jbrj.gov.br/FB19960</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ximenia americana L.",
+      "parentnameusageid": 10971,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19960",
+      "acceptednameusageid": 10971,
+      "bibliographiccitation_how_to_cite": "Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB19960>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 16:54:38.109"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10971,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Ximenia americana L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 116331,
+      "scientificname": "Ximenia americana var. ovata Lam. ex DC.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Ximeniaceae",
+      "genus": "Ximenia",
+      "specificepithet": "americana",
+      "infraspecificepithet": "ovata",
+      "scientificnameauthorship": "Lam. ex DC.",
+      "acceptednameusage": "Ximenia americana L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Ximeniaceae Horan.;Ximenia L.;Ximenia americana L.;Ximenia americana var. ovata Lam. ex DC.",
+      "source": "Rossi, L. 2015. Olacaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB116331>http://floradobrasil2015.jbrj.gov.br/FB116331</a>)<br><br>Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB116331\">https://floradobrasil2020.jbrj.gov.br/FB116331</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sleumer, H.O. 1984. Olacaceae. Pp. 1&amp;ndash;159 in Flora Neotropica, monograph no. 38. New York: Published for Organization for Flora Neotropica by The New York Botanical Garden.",
+      "parentnameusage": "Ximenia americana L.",
+      "parentnameusageid": 10971,
+      "originalnameusageid": null,
+      "namepublishedin": "Prodr. 1: 533 1824",
+      "namepublishedinyear": "1824",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB116331",
+      "acceptednameusageid": 10971,
+      "bibliographiccitation_how_to_cite": "Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB116331>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 15:37:59.077"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P.,Prodr.,1: 533,1824"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10971,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia americana L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 116333,
+      "scientificname": "Ximenia americana var. oblonga Lam. ex DC.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Ximeniaceae",
+      "genus": "Ximenia",
+      "specificepithet": "americana",
+      "infraspecificepithet": "oblonga",
+      "scientificnameauthorship": "Lam. ex DC.",
+      "acceptednameusage": "Ximenia americana L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Ximeniaceae Horan.;Ximenia L.;Ximenia americana L.;Ximenia americana var. oblonga Lam. ex DC.",
+      "source": "Rossi, L. 2015. Olacaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB116333>http://floradobrasil2015.jbrj.gov.br/FB116333</a>)<br><br>Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB116333\">https://floradobrasil2020.jbrj.gov.br/FB116333</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sleumer, H.O. 1984. Olacaceae. Pp. 1&amp;ndash;159 in Flora Neotropica, monograph no. 38. New York: Published for Organization for Flora Neotropica by The New York Botanical Garden.",
+      "parentnameusage": "Ximenia americana L.",
+      "parentnameusageid": 10971,
+      "originalnameusageid": null,
+      "namepublishedin": "Prodr. 1: 533 1824",
+      "namepublishedinyear": "1824",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB116333",
+      "acceptednameusageid": 10971,
+      "bibliographiccitation_how_to_cite": "Costa-Lima, J.L., Chagas, E.C.O. Ximeniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB116333>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 15:38:49.389"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P.,Prodr.,1: 533,1824"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10971,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ximenia americana L."
+      },
+      {
+        "relatedresourceid": 116327,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Ximenia oblonga Lam. ex Hemsl."
+      }
+    ],
+    "voucher": []
+  }
+]

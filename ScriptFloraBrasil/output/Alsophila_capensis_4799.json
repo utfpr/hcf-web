@@ -1,0 +1,392 @@
+[
+  {
+    "taxon": {
+      "taxonid": 90852,
+      "scientificname": "Alsophila capensis (L.f.) J.Sm.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Cyatheales",
+      "family": "Cyatheaceae",
+      "genus": "Alsophila",
+      "specificepithet": "capensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.f.) J.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Cyatheaceae Kaulf.;Alsophila R.Br.;Alsophila capensis (L.f.) J.Sm.",
+      "source": "Windisch, P.G.,Santiago, A.C.P. 2015. Cyatheaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB90852>http://floradobrasil2015.jbrj.gov.br/FB90852</a>)<br><br>Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB90852\">https://floradobrasil2020.jbrj.gov.br/FB90852</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Alsophila R.Br.",
+      "parentnameusageid": 90851,
+      "originalnameusageid": "117186",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB90852",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB90852>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 06:17:49.202"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 115455,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hemitelia capensis (L.f.) Spreng."
+      },
+      {
+        "relatedresourceid": 115454,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Cyathea capensis (L.f.) J.Sm."
+      },
+      {
+        "relatedresourceid": 117186,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Polypodium capense L.f."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.C. Brade 20629",
+        "collectioncode": "RB",
+        "catalognumber": "RB00643262",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00643262",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.R. Damasceno 351",
+        "collectioncode": "RB",
+        "catalognumber": "RB00581734",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284472678",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 20629",
+        "collectioncode": "RB",
+        "catalognumber": "RB00643262",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284599462",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Brügger 389",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ022963",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226080384",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Brügger 389",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ022963",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226080382",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Brügger 389",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ022963",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CESJ022963",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.R. Damasceno 351",
+        "collectioncode": "RB",
+        "catalognumber": "RB00581734",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00581734",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.B. Schwartsburd 674",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0000539",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0000539",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos; C. Matos 2382",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0037222",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0037222",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Gonzatti 4268",
+        "collectioncode": "HUCS",
+        "catalognumber": "HUCS001567",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCS001567",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.B. Schwartsburd 674",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0000539",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100544101",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos; C. Matos 2382",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0037222",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=202011366",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos; C. Matos 2382",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0037222",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=202011364",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 90853,
+      "scientificname": "Alsophila capensis subsp. polypodioides (Sw.) D.S.Conant",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Cyatheales",
+      "family": "Cyatheaceae",
+      "genus": "Alsophila",
+      "specificepithet": "capensis",
+      "infraspecificepithet": "polypodioides",
+      "scientificnameauthorship": "(Sw.) D.S.Conant",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Cyatheaceae Kaulf.;Alsophila R.Br.;Alsophila capensis (L.f.) J.Sm.;Alsophila capensis subsp. polypodioides (Sw.) D.S.Conant",
+      "source": "Windisch, P.G.,Santiago, A.C.P. 2015. Cyatheaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB90853>http://floradobrasil2015.jbrj.gov.br/FB90853</a>)<br><br>Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB90853\">https://floradobrasil2020.jbrj.gov.br/FB90853</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Alsophila capensis (L.f.) J.Sm.",
+      "parentnameusageid": 90852,
+      "originalnameusageid": "90855",
+      "namepublishedin": "Journal of the Arnold Arboretum 64: 369. 1983",
+      "namepublishedinyear": "1983",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB90853",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB90853>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-25 16:04:35.059"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Conant, D.S,Journal of the Arnold Arboretum,64: 369.,1983"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 90855,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cyathea polypodioides Sw."
+      },
+      {
+        "relatedresourceid": 620204,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hemitelia gardneriana C. Presl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Gardner 5954",
+        "collectioncode": "P",
+        "catalognumber": "P00642444",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00642444",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 5954",
+        "collectioncode": "P",
+        "catalognumber": "P00642444",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228061689",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

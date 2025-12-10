@@ -1,0 +1,620 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7511,
+      "scientificname": "Actinocephalus polyanthus (Bong.) Sano",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Actinocephalus",
+      "specificepithet": "polyanthus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Bong.) Sano",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Actinocephalus (Körn.) Sano;Actinocephalus polyanthus (Bong.) Sano",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7511>http://floradobrasil2015.jbrj.gov.br/FB7511</a>)<br><br>Costa, F.N., Sano, P.T. 2020. Actinocephalus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7511\">https://floradobrasil2020.jbrj.gov.br/FB7511</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sano, P. T. 2004.&amp;nbsp; Actinocephalus (K&amp;ouml;rn.) Sano (Paepalanthus sect. Actinocephalus), a new genus of Eriocaulaceae, and other taxonomic and nomenclatural changes involving Paepalanthus Mart. Taxon 53(1):99-107.",
+      "parentnameusage": "Actinocephalus (Körn.) Sano",
+      "parentnameusageid": 7505,
+      "originalnameusageid": "53271",
+      "namepublishedin": "Mem. Acad. St.-Pétersb., ser. 6, Bot. 622, 639 1831",
+      "namepublishedinyear": "1831",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7511",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa, F.N., Sano, P.T., Andrino, C.O., Almeida, R.B.P. Actinocephalus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7511>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-04-03 10:19:06.675"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "gravatá-do-campo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Sano, P.T.,Taxon,53: 103,2004"
+      },
+      {
+        "reference": "Bongard, M.,Mem. Acad. St.-Pétersb., ser. 6, Bot.,622, 639,1831"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53082,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dupatya polyantha (Bong.) Kuntze"
+      },
+      {
+        "relatedresourceid": 53271,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eriocaulon polyanthum Mart."
+      },
+      {
+        "relatedresourceid": 53205,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon gardneri Steud."
+      },
+      {
+        "relatedresourceid": 53558,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Paepalanthus polyanthus (Bong.) Kunth"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0244470",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0244470",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "K",
+        "catalognumber": "K000899593",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000899593",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "P",
+        "catalognumber": "P00162046",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00162046",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "P",
+        "catalognumber": "P00162046",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228048173",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0244470",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225979466",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L. Riedel 2065",
+        "collectioncode": "K",
+        "catalognumber": "K000899593",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227569153",
+        "locality": "MG",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 28671,
+      "scientificname": "Actinocephalus polyanthus var. bifrons (Silveira) Sano",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Actinocephalus",
+      "specificepithet": "polyanthus",
+      "infraspecificepithet": "bifrons",
+      "scientificnameauthorship": "(Silveira) Sano",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Actinocephalus (Körn.) Sano;Actinocephalus polyanthus (Bong.) Sano;Actinocephalus polyanthus var. bifrons (Silveira) Sano",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB28671>http://floradobrasil2015.jbrj.gov.br/FB28671</a>)<br><br>Costa, F.N., Sano, P.T. 2020. Actinocephalus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB28671\">https://floradobrasil2020.jbrj.gov.br/FB28671</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sano, P. T. 2004.&amp;nbsp; Actinocephalus (K&amp;ouml;rn.) Sano (Paepalanthus sect. Actinocephalus), a new genus of Eriocaulaceae, and other taxonomic and nomenclatural changes involving Paepalanthus Mart. Taxon 53(1):99-107.",
+      "parentnameusage": "Actinocephalus polyanthus (Bong.) Sano",
+      "parentnameusageid": 7511,
+      "originalnameusageid": "53378",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB28671",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa, F.N., Sano, P.T., Andrino, C.O., Almeida, R.B.P. Actinocephalus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB28671>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-21 23:12:09.602"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sano, P. T.,Taxon,53: 104,2004"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53378,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Paepalanthus bifrons Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 28672,
+      "scientificname": "Actinocephalus polyanthus var. plumipes (Silveira) Sano",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Actinocephalus",
+      "specificepithet": "polyanthus",
+      "infraspecificepithet": "plumipes",
+      "scientificnameauthorship": "(Silveira) Sano",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Actinocephalus (Körn.) Sano;Actinocephalus polyanthus (Bong.) Sano;Actinocephalus polyanthus var. plumipes (Silveira) Sano",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB28672>http://floradobrasil2015.jbrj.gov.br/FB28672</a>)<br><br>Costa, F.N., Sano, P.T. 2020. Actinocephalus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB28672\">https://floradobrasil2020.jbrj.gov.br/FB28672</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sano, P. T. 2004.&amp;nbsp; Actinocephalus (K&amp;ouml;rn.) Sano (Paepalanthus sect. Actinocephalus), a new genus of Eriocaulaceae, and other taxonomic and nomenclatural changes involving Paepalanthus Mart. Taxon 53(1):99-107.",
+      "parentnameusage": "Actinocephalus polyanthus (Bong.) Sano",
+      "parentnameusageid": 7511,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB28672",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa, F.N., Sano, P.T., Andrino, C.O., Almeida, R.B.P. Actinocephalus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB28672>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 23:29:18.996"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sano, P. T.,Taxon,53: 104,2004"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53557,
+        "relationshipofresource": null,
+        "scientificname": "Paepalanthus plumipes Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35370,
+      "scientificname": "Actinocephalus polyanthus (Bong.) Sano var. polyanthus",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Actinocephalus",
+      "specificepithet": "polyanthus",
+      "infraspecificepithet": "polyanthus",
+      "scientificnameauthorship": "(Bong.) Sano",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Actinocephalus (Körn.) Sano;Actinocephalus polyanthus (Bong.) Sano;Actinocephalus polyanthus (Bong.) Sano var. polyanthus",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35370>http://floradobrasil2015.jbrj.gov.br/FB35370</a>)<br><br>Costa, F.N., Sano, P.T. 2020. Actinocephalus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35370\">https://floradobrasil2020.jbrj.gov.br/FB35370</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sano, P. T. 2004.&amp;nbsp; Actinocephalus (K&amp;ouml;rn.) Sano (Paepalanthus sect. Actinocephalus), a new genus of Eriocaulaceae, and other taxonomic and nomenclatural changes involving Paepalanthus Mart. Taxon 53(1):99-107.",
+      "parentnameusage": "Actinocephalus polyanthus (Bong.) Sano",
+      "parentnameusageid": 7511,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35370",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa, F.N., Sano, P.T., Andrino, C.O., Almeida, R.B.P. Actinocephalus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35370>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 23:34:03.562"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53559,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus polyanthus var. tomentosa Silveira"
+      },
+      {
+        "relatedresourceid": 53160,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon brasiliense Mart."
+      },
+      {
+        "relatedresourceid": 53053,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dupatya martiana (Körn.) Kuntze"
+      },
+      {
+        "relatedresourceid": 602078,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Paepalanthus polyanthus (Bong.) Kunth f. polyanthus"
+      },
+      {
+        "relatedresourceid": 53379,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus bifrons var. fusciora Silveira"
+      },
+      {
+        "relatedresourceid": 53560,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus polyanthus var. villosus Beauverd"
+      },
+      {
+        "relatedresourceid": 53108,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dupatya sellowiana (Körn.) Kuntze"
+      },
+      {
+        "relatedresourceid": 53383,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus brasiliensis (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 53537,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus oliveirae Ruhland"
+      },
+      {
+        "relatedresourceid": 53511,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus martianus Körn."
+      },
+      {
+        "relatedresourceid": 53598,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus spirifer Silveira"
+      },
+      {
+        "relatedresourceid": 53591,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus sellowianus Körn."
+      },
+      {
+        "relatedresourceid": 53593,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus similis Silveira"
+      },
+      {
+        "relatedresourceid": 52965,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dupatya brasiliensis (Mart.) Kuntze"
+      }
+    ],
+    "voucher": []
+  }
+]

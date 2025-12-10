@@ -1,0 +1,125 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7911,
+      "scientificname": "Sinningia leopoldii (Scheidw. ex Planch.) Chautems",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Sinningia",
+      "specificepithet": "leopoldii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Scheidw. ex Planch.) Chautems",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Sinningia Nees;Sinningia leopoldii (Scheidw. ex Planch.) Chautems",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Sinningia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7911>http://floradobrasil2015.jbrj.gov.br/FB7911</a>)<br><br>Araujo, A.O., Chautems, A., Rossini, J. 2020. Sinningia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7911\">https://floradobrasil2020.jbrj.gov.br/FB7911</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sinningia Nees",
+      "parentnameusageid": 7879,
+      "originalnameusageid": "132360",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7911",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O., Chautems, A., Rossini, J. Sinningia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7911>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-12-17 10:19:34.902"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 132360,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gesneria leopoldii Scheidw. ex Planch."
+      },
+      {
+        "relatedresourceid": 593988,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Gesnera leopoldii Scheidw. ex Planch."
+      },
+      {
+        "relatedresourceid": 133040,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rechsteineria oligantha Hoehne subsp. oligantha form. rupestris"
+      },
+      {
+        "relatedresourceid": 132817,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rechsteineria leopoldii (Scheidw. ex Planch.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. B. Smith 6183 a",
+        "collectioncode": "US",
+        "catalognumber": "US00126613",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00126613",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 32308",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM028614",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM028614",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. B. Smith 6183 a",
+        "collectioncode": "US",
+        "catalognumber": "US00126613",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100279861",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 32308",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM028614",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229290016",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

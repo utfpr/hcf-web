@@ -1,0 +1,139 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5050,
+      "scientificname": "Philodendron obliquifolium Engl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Philodendron",
+      "specificepithet": "obliquifolium",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Engl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Philodendron Schott;Philodendron obliquifolium Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5050>http://floradobrasil2015.jbrj.gov.br/FB5050</a>)<br><br>Sakuragui, C.M., Calazans, L.S.B., Soares, M.L., Mayo, S.J., Ferreira, J.B. 2020. Philodendron in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5050\">https://floradobrasil2020.jbrj.gov.br/FB5050</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Barbosa, J.F. &amp;amp; Sakuragui, C.M. Taxonomy and conservation of the Brazilian extra-Amazonian species of&amp;nbsp;&lt;em&gt;Philodendron&lt;/em&gt;&amp;nbsp;subg.&amp;nbsp;&lt;em&gt;Pteromischum&lt;/em&gt;&amp;nbsp;(Araceae). Phytotaxa 191 (1): 045&amp;ndash;065 (2014).",
+      "parentnameusage": "Philodendron Schott",
+      "parentnameusageid": 5015,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5050",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Sakuragui, C.M., Calazans, L.S.B., Soares, M.L., Mayo, S.J., Ferreira, J.B. Philodendron in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5050>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 19:50:18.981"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "D. Sucre 6946",
+        "collectioncode": "RB",
+        "catalognumber": "RB00473779",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00473779",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Loefgren CGG4064",
+        "collectioncode": "SP",
+        "catalognumber": "SP001731",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP001731",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00473791",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00473791",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.V. Buturi 08",
+        "collectioncode": "RB",
+        "catalognumber": "RB00781928",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00781928",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sucre 6946",
+        "collectioncode": "RB",
+        "catalognumber": "RB00473779",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284291178",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.V. Buturi 08",
+        "collectioncode": "RB",
+        "catalognumber": "RB00781928",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284815756",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00473791",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284291228",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,743 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5105,
+      "scientificname": "Dendropanax cuneatus (DC.) Decne. & Planch.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Araliaceae",
+      "genus": "Dendropanax",
+      "specificepithet": "cuneatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(DC.) Decne. & Planch.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araliaceae Juss.;Dendropanax Decne. & Planch.;Dendropanax cuneatus (DC.) Decne. & Planch.",
+      "source": "Fiaschi, P. 2015. Araliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5105>http://floradobrasil2015.jbrj.gov.br/FB5105</a>)<br><br>Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5105\">https://floradobrasil2020.jbrj.gov.br/FB5105</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dendropanax Decne. & Planch.",
+      "parentnameusageid": 5099,
+      "originalnameusageid": "43328",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5105",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5105>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-09 09:01:20.412"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43299,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gilibertia cuneata var. abbreviata Marchal"
+      },
+      {
+        "relatedresourceid": 43300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gilibertia cuneata var. ramiflora (DC.) Marchal"
+      },
+      {
+        "relatedresourceid": 43202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aralia ramiflora (DC.) Pohl ex Marchal"
+      },
+      {
+        "relatedresourceid": 43235,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax ramiflorus (DC.) Seem."
+      },
+      {
+        "relatedresourceid": 43231,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax oblongus Decne. & Planch."
+      },
+      {
+        "relatedresourceid": 43227,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax lanceolatus Decne. & Planch."
+      },
+      {
+        "relatedresourceid": 43232,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax obovatus Decne. & Planch."
+      },
+      {
+        "relatedresourceid": 43238,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax sellowianus Miq."
+      },
+      {
+        "relatedresourceid": 43292,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gilibertia affinis Marchal"
+      },
+      {
+        "relatedresourceid": 43298,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Gilibertia cuneata (DC.) Marchal"
+      },
+      {
+        "relatedresourceid": 43331,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hedera ramiflora DC."
+      },
+      {
+        "relatedresourceid": 26540,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendropanax affinis (Marchal) Gamerro & Zuloaga"
+      },
+      {
+        "relatedresourceid": 43328,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Hedera cuneata DC."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.N. Nakajima 2032",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052508",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00052508",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.L.B. Sartori 507",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002985",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS002985",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Weyland Vieira 800",
+        "collectioncode": null,
+        "catalognumber": "RB00703724",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00703724",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Bosquetti 1294",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001894",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00001894",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, S.P.C. 758",
+        "collectioncode": "UFG",
+        "catalognumber": "UFG0045887",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFG0045887",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, S.P.C. 393",
+        "collectioncode": "UFG",
+        "catalognumber": "UFG0045885",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFG0045885",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001976",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00001976",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 2556",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052511",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00052511",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Uber-Bucek, E. 197",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00073017",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00073017",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00106238",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00106238",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "s.c. s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P03236973",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03236973",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.S.Wängler 2023",
+        "collectioncode": "RB",
+        "catalognumber": "RB01390454",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01390454",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.J. Pott 4867",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002987",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS002987",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 4294",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052482",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00052482",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.C.S. Magalhães 492",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002986",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS002986",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.G. Viana 518",
+        "collectioncode": "HUEMG",
+        "catalognumber": "HUEMG004217",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEMG004217",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Pott 14412",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002984",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS002984",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Pires 16604",
+        "collectioncode": "NY",
+        "catalognumber": "NY00955255",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00955255",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Weyland Vieira 1224",
+        "collectioncode": null,
+        "catalognumber": "RB00703725",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00703725",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001975",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00001975",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Damasceno-Junior, G.A. 1568",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001978",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00001978",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 4478",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052510",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00052510",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.C.S. Magalhães 492",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002986",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226093816",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001976",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97359701",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.N. Nakajima 2032",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052508",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97443319",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Pires 16604",
+        "collectioncode": "NY",
+        "catalognumber": "NY00955255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228829011",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, S.P.C. 758",
+        "collectioncode": "UFG",
+        "catalognumber": "UFG0045887",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=275110640",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Weyland Vieira 1224",
+        "collectioncode": null,
+        "catalognumber": "RB00703725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284712286",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.C. Weyland Vieira 800",
+        "collectioncode": null,
+        "catalognumber": "RB00703724",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284712284",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001975",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97359695",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Uber-Bucek, E. 197",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00073017",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=186014111",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00106238",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226420943",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Bosquetti 1294",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001894",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97358529",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Pott 14412",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002984",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226093812",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.S.Wängler 2023",
+        "collectioncode": "RB",
+        "catalognumber": "RB01390454",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285152360",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 4478",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052510",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97340255",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.G. Viana 518",
+        "collectioncode": "HUEMG",
+        "catalognumber": "HUEMG004217",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=141376362",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.L.B. Sartori 507",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002985",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226093814",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.J. Pott 4867",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS002987",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226093818",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "s.c. s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P03236973",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227845004",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 2556",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052511",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97341587",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Damasceno-Junior, G.A. 1568",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00001978",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97359713",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, S.P.C. 393",
+        "collectioncode": "UFG",
+        "catalognumber": "UFG0045885",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=275110636",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Romero 4294",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00052482",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97446811",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

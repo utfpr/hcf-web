@@ -1,0 +1,1687 @@
+[
+  {
+    "taxon": {
+      "taxonid": 31139,
+      "scientificname": "Mimosa dolens Vell.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Vell.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB31139>http://floradobrasil2015.jbrj.gov.br/FB31139</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB31139\">https://floradobrasil2020.jbrj.gov.br/FB31139</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa L.",
+      "parentnameusageid": 23084,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Flumin. Icon. 11: 34 1836",
+      "namepublishedinyear": "1836",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB31139",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-07-28 23:20:20.913"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "VELLOZO, J.M. da C.,Fl. Flumin. Icon.,11: 34,1836"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 104130,
+      "scientificname": "Mimosa dolens var. acerba (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "acerba",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. acerba (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104130>http://floradobrasil2015.jbrj.gov.br/FB104130</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104130\">https://floradobrasil2020.jbrj.gov.br/FB104130</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104130",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 13:56:22.45"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125489,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa acerba var. minor Benth."
+      },
+      {
+        "relatedresourceid": 125488,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa acerba Benth."
+      },
+      {
+        "relatedresourceid": 600656,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa acerba Benth. var. acerba"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "H.S. Irwin 22134",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933115",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228251039",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 22134",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933115",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00933115",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 104131,
+      "scientificname": "Mimosa dolens Vell. var. dolens",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "dolens",
+      "scientificnameauthorship": "Vell.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens Vell. var. dolens",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104131>http://floradobrasil2015.jbrj.gov.br/FB104131</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104131\">https://floradobrasil2020.jbrj.gov.br/FB104131</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;Dutra, V.F. &amp;amp; Garcia&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;, F.C.P. 2014.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;L. (Leguminosae-Mimosoideae) dos campos rupestres de Minas Gerais, Brasil.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Iheringia&amp;nbsp;S&amp;eacute;r. Bot.&lt;/strong&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;69&lt;/strong&gt;(1): 51-90.&lt;/span&gt;\r\n&amp;nbsp;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104131",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 10:39:23.426"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "arranha-gato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "MG"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125506,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa meticulosa var. major Mart. ex Benth."
+      },
+      {
+        "relatedresourceid": 125504,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa trachycephala Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "H.S. Irwin 20082",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933215",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00933215",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C. Hoehne 1550",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419296",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419296",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C. Hoehne 1550",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419296",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249531",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 20082",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933215",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228777425",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 104132,
+      "scientificname": "Mimosa dolens var. rigida (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "rigida",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. rigida (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104132>http://floradobrasil2015.jbrj.gov.br/FB104132</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104132\">https://floradobrasil2020.jbrj.gov.br/FB104132</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;margin: 0cm; margin-bottom: .0001pt; mso-line-height-alt: 8.45pt; background: white;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; text-transform: uppercase; mso-ansi-language: EN-US;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; mso-ansi-language: EN-US;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt; background: white;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; mso-ansi-language: EN-US;&quot;&gt;&amp;nbsp;&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt; background: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Helvetica, sans-serif; color: #386134; text-transform: uppercase;&quot;&gt;DUTRA, V.F. &amp;amp; GARCIA&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Helvetica, sans-serif; color: #386134;&quot;&gt;, F.C.P. 2014.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;L. (Leguminosae-Mimosoideae) dos campos rupestres de Minas Gerais, Brasil.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Iheringia&amp;nbsp;S&amp;eacute;r. Bot.&lt;/strong&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;69&lt;/strong&gt;(1): 51-90.&lt;/span&gt;\r\n&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 4.25pt; line-height: 8.45pt; background: white;&quot;&gt;&lt;span style=&quot;font-size: 6.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134;&quot;&gt;&amp;nbsp;&lt;/span&gt;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104132",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 15:34:54.51"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125527,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa rigida Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Lombardi 817",
+        "collectioncode": "NY",
+        "catalognumber": "NY01090883",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01090883",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Lombardi 817",
+        "collectioncode": "NY",
+        "catalognumber": "NY01090883",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228251779",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111957,
+      "scientificname": "Mimosa dolens var. rudis (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "rudis",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. rudis (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111957>http://floradobrasil2015.jbrj.gov.br/FB111957</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111957\">https://floradobrasil2020.jbrj.gov.br/FB111957</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;margin: 0cm; margin-bottom: .0001pt; mso-line-height-alt: 8.45pt; background: white;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; text-transform: uppercase; mso-ansi-language: EN-US;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; mso-ansi-language: EN-US;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt; background: white;&quot;&gt;&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111957",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 14:45:49.565"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125533,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa rudis var. genuina Hassl."
+      },
+      {
+        "relatedresourceid": 125535,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa rudis var. asperrima (Benth.) Hassl."
+      },
+      {
+        "relatedresourceid": 125530,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa asperrima Benth."
+      },
+      {
+        "relatedresourceid": 125531,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa rudis Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Sello F. 678",
+        "collectioncode": "P",
+        "catalognumber": "P00756023",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228076641",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Campos, S.M. 158",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419325",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419325",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sello F. 678",
+        "collectioncode": "P",
+        "catalognumber": "P00756023",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00756023",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Campos, S.M. 158",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419325",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249547",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111958,
+      "scientificname": "Mimosa dolens var. latifolia (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "latifolia",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. latifolia (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111958>http://floradobrasil2015.jbrj.gov.br/FB111958</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111958\">https://floradobrasil2020.jbrj.gov.br/FB111958</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": "601541",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111958",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 14:41:41.303"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125515,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa conferta var. guaranitica Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 125517,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa acerba var. asperrimoides Burkart"
+      },
+      {
+        "relatedresourceid": 601541,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Mimosa acerba var. latifolia Benth."
+      },
+      {
+        "relatedresourceid": 602321,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa acerba var. strigosa (Griseb.) Burkart"
+      },
+      {
+        "relatedresourceid": 125511,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa conferta Benth."
+      },
+      {
+        "relatedresourceid": 125509,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa marginata var. strigosa Griseb."
+      },
+      {
+        "relatedresourceid": 125514,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa conferta var. multifoliolata Chodat & Hassl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 49022",
+        "collectioncode": "NY",
+        "catalognumber": "NY01090878",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01090878",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 49022",
+        "collectioncode": "NY",
+        "catalognumber": "NY01090878",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228251777",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111959,
+      "scientificname": "Mimosa dolens var. uncta Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "uncta",
+      "scientificnameauthorship": "Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. uncta Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111959>http://floradobrasil2015.jbrj.gov.br/FB111959</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111959\">https://floradobrasil2020.jbrj.gov.br/FB111959</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;margin: 0cm; margin-bottom: .0001pt; mso-line-height-alt: 8.45pt; background: white;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; text-transform: uppercase; mso-ansi-language: EN-US;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; mso-ansi-language: EN-US;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt; background: white;&quot;&gt;&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111959",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 15:01:13.635"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "O.S. Ribas 1730",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419329",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419329",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 1730",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419329",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249551",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111961,
+      "scientificname": "Mimosa dolens var. pubescens (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. pubescens (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111961>http://floradobrasil2015.jbrj.gov.br/FB111961</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111961\">https://floradobrasil2020.jbrj.gov.br/FB111961</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111961",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 15:02:09.193"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125523,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa meticulosa var. pubescens (Benth.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 111962,
+      "scientificname": "Mimosa dolens var. rigescens (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "rigescens",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. rigescens (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111962>http://floradobrasil2015.jbrj.gov.br/FB111962</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111962\">https://floradobrasil2020.jbrj.gov.br/FB111962</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;margin: 0cm; margin-bottom: .0001pt; mso-line-height-alt: 8.3pt; background: white;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; text-transform: uppercase; mso-ansi-language: EN-US;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt; font-family: &#39;Helvetica&#39;,&#39;sans-serif&#39;; color: #386134; mso-ansi-language: EN-US;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111962",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 15:55:38.336"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125495,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa rigescens Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "O.S. Ribas 204",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419334",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419334",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 204",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419334",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249555",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111963,
+      "scientificname": "Mimosa dolens var. foliolosa (Benth.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "foliolosa",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. foliolosa (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111963>http://floradobrasil2015.jbrj.gov.br/FB111963</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111963\">https://floradobrasil2020.jbrj.gov.br/FB111963</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111963",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 14:29:14.88"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa meticulosa var. microphylla Benth."
+      },
+      {
+        "relatedresourceid": 125496,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa rigescens var. foliolosa (Benth.) Barneby"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Eiten, G. 6057",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419308",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249539",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Eiten, G. 6057",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419308",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419308",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111964,
+      "scientificname": "Mimosa dolens var. anisitsii (Lindm.) Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "anisitsii",
+      "scientificnameauthorship": "(Lindm.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. anisitsii (Lindm.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111964>http://floradobrasil2015.jbrj.gov.br/FB111964</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111964\">https://floradobrasil2020.jbrj.gov.br/FB111964</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111964",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 14:22:58.647"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125498,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa meticulosa var. genuina Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 125500,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa rigidicaulis var. ciliata Burkart"
+      },
+      {
+        "relatedresourceid": 125499,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa rigidicaulis Burkart"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 46199",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933015",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00933015",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 11208",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933014",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00933014",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 11208",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933014",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228251001",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 46199",
+        "collectioncode": "NY",
+        "catalognumber": "NY00933015",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228777373",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111966,
+      "scientificname": "Mimosa dolens subsp. eriophylla (Benth.) Barneby",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "eriophylla",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens subsp. eriophylla (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111966>http://floradobrasil2015.jbrj.gov.br/FB111966</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111966\">https://floradobrasil2020.jbrj.gov.br/FB111966</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111966",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 13:48:06.797"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125483,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa eriophylla Benth."
+      },
+      {
+        "relatedresourceid": 125484,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa eriophylloides Hoehne"
+      },
+      {
+        "relatedresourceid": 125486,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa eriophylloides var. lanosa Hoehne"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "O.S. Ribas 1779",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419305",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249537",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 1779",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419305",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419305",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111967,
+      "scientificname": "Mimosa dolens subsp. callosa (Benth.) Barneby",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "callosa",
+      "scientificnameauthorship": "(Benth.) Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens subsp. callosa (Benth.) Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111967>http://floradobrasil2015.jbrj.gov.br/FB111967</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111967\">https://floradobrasil2020.jbrj.gov.br/FB111967</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111967",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 13:41:22.153"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125478,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa callosa var. microphylla Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 125475,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mimosa callosa Benth."
+      },
+      {
+        "relatedresourceid": 125481,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa setipes Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Lewis, G.P. 1392",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419302",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00419302",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lewis, G.P. 1392",
+        "collectioncode": "NY",
+        "catalognumber": "NY00419302",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228249535",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 111968,
+      "scientificname": "Mimosa dolens var. pangloea Barneby",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "dolens",
+      "infraspecificepithet": "pangloea",
+      "scientificnameauthorship": "Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa dolens Vell.;Mimosa dolens var. pangloea Barneby",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111968>http://floradobrasil2015.jbrj.gov.br/FB111968</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111968\">https://floradobrasil2020.jbrj.gov.br/FB111968</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p style=&quot;margin: 0cm 0cm 0.0001pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; text-transform: uppercase;&quot;&gt;BARNEBY&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt;&quot;&gt;, R. C. 1991. Sensitivae censitae: a description of the genus&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;Mimosa&lt;/em&gt;&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Linnaeus (Mimosaceae) in the new world.&lt;span class=&quot;apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;Memoirs of the New York Botanical Garden 65&lt;/strong&gt;: 1-835.&lt;/span&gt;\r\n&amp;nbsp;",
+      "parentnameusage": "Mimosa dolens Vell.",
+      "parentnameusageid": 31139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111968",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-10 15:30:05.985"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Lewis, G.P. et al. 1391",
+        "collectioncode": "NY",
+        "catalognumber": "NY00002781",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00002781",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Lewis, G.P. et al. 1391",
+        "collectioncode": "NY",
+        "catalognumber": "NY00002781",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228081313",
+        "locality": "PR",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

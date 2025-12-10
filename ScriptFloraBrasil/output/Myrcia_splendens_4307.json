@@ -1,0 +1,1412 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10759,
+      "scientificname": "Myrcia splendens (Sw.) DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "splendens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sw.) DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia splendens (Sw.) DC.",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10759>http://floradobrasil2015.jbrj.gov.br/FB10759</a>)<br><br>Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10759\">https://floradobrasil2020.jbrj.gov.br/FB10759</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia DC.",
+      "parentnameusageid": 10660,
+      "originalnameusageid": "63599",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10759",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10759>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 21:32:04.687"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Perenifólia",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,3: 244,1828"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 19861,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acutiloba O.Berg"
+      },
+      {
+        "relatedresourceid": 62916,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acuminata var. bullata O.Berg"
+      },
+      {
+        "relatedresourceid": 62917,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acuminata var. meridensis O.Berg"
+      },
+      {
+        "relatedresourceid": 62918,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acuminata var. peruviana O.Berg"
+      },
+      {
+        "relatedresourceid": 62919,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acuminata var. tovarensis O.Berg"
+      },
+      {
+        "relatedresourceid": 62923,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia alagoensis var. intermedia O.Berg"
+      },
+      {
+        "relatedresourceid": 62924,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia alagoensis var. oblongata O.Berg"
+      },
+      {
+        "relatedresourceid": 62958,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia berberis var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 62980,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia communis var. glabrata O.Berg"
+      },
+      {
+        "relatedresourceid": 62981,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia communis var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63003,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia costata var. bahiensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63004,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia costata var. minensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63039,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia elongata var. brunnea O.Berg"
+      },
+      {
+        "relatedresourceid": 63040,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia elongata var. grandifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63041,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia elongata var. ochracea O.Berg"
+      },
+      {
+        "relatedresourceid": 63047,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia erythroxylon var. caerulescens O.Berg"
+      },
+      {
+        "relatedresourceid": 63070,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia gracilis var. opaca O.Berg"
+      },
+      {
+        "relatedresourceid": 63071,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia gracilis var. prasina O.Berg"
+      },
+      {
+        "relatedresourceid": 63072,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia gracilis var. sessiliflora O.Berg"
+      },
+      {
+        "relatedresourceid": 63077,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavifolia var. bullata O.Berg"
+      },
+      {
+        "relatedresourceid": 63078,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavifolia var. impunctata O.Berg"
+      },
+      {
+        "relatedresourceid": 63079,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavifolia var. perforata O.Berg"
+      },
+      {
+        "relatedresourceid": 63091,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia humboldtiana var. caribaea O.Berg"
+      },
+      {
+        "relatedresourceid": 63092,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia humboldtiana var. orinocensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63102,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana var. angustifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63103,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63104,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana var. longifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63106,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana var. vulgaris O.Berg"
+      },
+      {
+        "relatedresourceid": 63110,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laevigata var. brunnea O.Berg"
+      },
+      {
+        "relatedresourceid": 63111,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laevigata var. canescens O.Berg"
+      },
+      {
+        "relatedresourceid": 63151,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia mikaniana var. angustifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 601208,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia hayneana var. genuina DC."
+      },
+      {
+        "relatedresourceid": 600926,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia velutina var. canecens O.Berg"
+      },
+      {
+        "relatedresourceid": 600912,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavaefolia var. bullata O.Berg"
+      },
+      {
+        "relatedresourceid": 601641,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia cujabensis var. longifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 602014,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavaefolia var. perforata O.Berg"
+      },
+      {
+        "relatedresourceid": 24029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia mollis (Kunth) DC."
+      },
+      {
+        "relatedresourceid": 31541,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia augustana Kiaersk."
+      },
+      {
+        "relatedresourceid": 31552,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia chapadensis S.Moore"
+      },
+      {
+        "relatedresourceid": 37042,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia atramentifera Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 37058,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia cujabensis O.Berg"
+      },
+      {
+        "relatedresourceid": 37076,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia hilariana O.Berg"
+      },
+      {
+        "relatedresourceid": 37052,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia cancellata O.Berg"
+      },
+      {
+        "relatedresourceid": 37081,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia imperatoris-maximiliani Wawra"
+      },
+      {
+        "relatedresourceid": 37066,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia doniana O.Berg"
+      },
+      {
+        "relatedresourceid": 37074,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia govinha S.Moore"
+      },
+      {
+        "relatedresourceid": 37111,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia regnelliana O.Berg"
+      },
+      {
+        "relatedresourceid": 37127,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia velloziana O.Berg"
+      },
+      {
+        "relatedresourceid": 37107,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia pertusa DC."
+      },
+      {
+        "relatedresourceid": 37119,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sericea G.Don"
+      },
+      {
+        "relatedresourceid": 61775,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cumetea divaricata (Lam.) Raf."
+      },
+      {
+        "relatedresourceid": 61090,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia doniana O.Berg"
+      },
+      {
+        "relatedresourceid": 61242,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia pertusa (DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 63268,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sororia DC."
+      },
+      {
+        "relatedresourceid": 63247,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sartoriana O.Berg"
+      },
+      {
+        "relatedresourceid": 63300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia venezuelensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63262,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sericiflora O.Berg"
+      },
+      {
+        "relatedresourceid": 63248,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia saxicola O.Berg"
+      },
+      {
+        "relatedresourceid": 63315,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ypanemensis O.Berg"
+      },
+      {
+        "relatedresourceid": 62147,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia mollis Willd. ex O.Berg"
+      },
+      {
+        "relatedresourceid": 61381,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia wullschlaegeliana O.Berg"
+      },
+      {
+        "relatedresourceid": 63503,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus deflexa Kunth"
+      },
+      {
+        "relatedresourceid": 63504,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus dioica Spreng."
+      },
+      {
+        "relatedresourceid": 63494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus complicata Kunth"
+      },
+      {
+        "relatedresourceid": 63518,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus fulva Spreng."
+      },
+      {
+        "relatedresourceid": 62915,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acuminata (Kunth) DC."
+      },
+      {
+        "relatedresourceid": 62963,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia bracteolaris (Poir.) DC."
+      },
+      {
+        "relatedresourceid": 62954,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia barrensis O.Berg"
+      },
+      {
+        "relatedresourceid": 62962,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia brachylopadia Diels"
+      },
+      {
+        "relatedresourceid": 62975,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia catharinae O.Berg"
+      },
+      {
+        "relatedresourceid": 62982,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia complicata (Kunth) DC."
+      },
+      {
+        "relatedresourceid": 62955,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia belizensis Lundell"
+      },
+      {
+        "relatedresourceid": 63006,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia coumetoides O.Berg"
+      },
+      {
+        "relatedresourceid": 62998,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia coroicensis Rusby"
+      },
+      {
+        "relatedresourceid": 62956,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia berberis Schauer"
+      },
+      {
+        "relatedresourceid": 63002,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia costata DC."
+      },
+      {
+        "relatedresourceid": 63029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia divaricata (Lam.) DC."
+      },
+      {
+        "relatedresourceid": 63176,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia oxyoentophylla Kiaersk."
+      },
+      {
+        "relatedresourceid": 63125,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63240,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia rufidula Schltdl."
+      },
+      {
+        "relatedresourceid": 63200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia pellucida O.Berg"
+      },
+      {
+        "relatedresourceid": 63290,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia tingens O.Berg"
+      },
+      {
+        "relatedresourceid": 63297,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia velutina O.Berg"
+      },
+      {
+        "relatedresourceid": 63146,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia melanosticta Kiaersk."
+      },
+      {
+        "relatedresourceid": 63255,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia schuechiana O.Berg"
+      },
+      {
+        "relatedresourceid": 63234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia riedeliana O.Berg"
+      },
+      {
+        "relatedresourceid": 127528,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia neodoniana Mattos"
+      },
+      {
+        "relatedresourceid": 599839,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia brandamii O. Berg"
+      },
+      {
+        "relatedresourceid": 130450,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kunthiana Steud."
+      },
+      {
+        "relatedresourceid": 130328,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia subglabra McVaugh"
+      },
+      {
+        "relatedresourceid": 596775,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavaefolia O. Berg"
+      },
+      {
+        "relatedresourceid": 61059,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia costata (DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 62979,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia communis O.Berg"
+      },
+      {
+        "relatedresourceid": 63137,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia macrophylla DC."
+      },
+      {
+        "relatedresourceid": 62964,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia brandamii O.Berg"
+      },
+      {
+        "relatedresourceid": 63105,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana var. pendula O.Berg"
+      },
+      {
+        "relatedresourceid": 63108,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia klotzschiana var. impellucida O.Berg"
+      },
+      {
+        "relatedresourceid": 63261,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sellowiana var. costata O.Berg"
+      },
+      {
+        "relatedresourceid": 595921,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia pseudo-mini DC."
+      },
+      {
+        "relatedresourceid": 63101,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia kegeliana O.Berg"
+      },
+      {
+        "relatedresourceid": 63001,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia costa-ricensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63046,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia erythroxylon O.Berg"
+      },
+      {
+        "relatedresourceid": 63011,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia cucullata O.Berg"
+      },
+      {
+        "relatedresourceid": 63152,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia mikaniana var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63172,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia opaca var. angustifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63173,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia opaca var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia phaeoclada var. alagoensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63203,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia phaeoclada var. guyanensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63230,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia regnelliana var. leptocalama O.Berg"
+      },
+      {
+        "relatedresourceid": 63237,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia rostrata var. brunea Cambess."
+      },
+      {
+        "relatedresourceid": 63245,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia rufula var. martiana (O.Berg) Kiaersk."
+      },
+      {
+        "relatedresourceid": 63249,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia saxicola var. grandifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63231,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia regnelliana var. robustior O.Berg"
+      },
+      {
+        "relatedresourceid": 63260,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sellowiana var. bullata O.Berg"
+      },
+      {
+        "relatedresourceid": 63299,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia velutina var. ochracea O.Berg"
+      },
+      {
+        "relatedresourceid": 63298,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia velutina var. canescens O.Berg"
+      },
+      {
+        "relatedresourceid": 601451,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia alagoensis var. intermaedia O.Berg"
+      },
+      {
+        "relatedresourceid": 601432,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavaefolia var. impuctata O.Berg"
+      },
+      {
+        "relatedresourceid": 601542,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia cujabensis var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 601949,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia hayneana var. paraensis DC."
+      },
+      {
+        "relatedresourceid": 10760,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sporadosticta Kiaersk."
+      },
+      {
+        "relatedresourceid": 19865,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ciarensis O.Berg"
+      },
+      {
+        "relatedresourceid": 19862,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia alagoensis O.Berg"
+      },
+      {
+        "relatedresourceid": 19869,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia fallax (Rich.) DC."
+      },
+      {
+        "relatedresourceid": 19870,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia gardneriana O.Berg"
+      },
+      {
+        "relatedresourceid": 19880,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia rostrata DC."
+      },
+      {
+        "relatedresourceid": 19860,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia acutata O.Berg"
+      },
+      {
+        "relatedresourceid": 19881,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sepiaria DC."
+      },
+      {
+        "relatedresourceid": 25864,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia oocarpa Cambess."
+      },
+      {
+        "relatedresourceid": 25867,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia schaueriana O.Berg"
+      },
+      {
+        "relatedresourceid": 25868,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sellowiana O.Berg"
+      },
+      {
+        "relatedresourceid": 25865,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia pohliana O.Berg"
+      },
+      {
+        "relatedresourceid": 31575,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia formosiana DC."
+      },
+      {
+        "relatedresourceid": 31580,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia hayneana O.Berg"
+      },
+      {
+        "relatedresourceid": 31557,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia corcovadensis O.Berg"
+      },
+      {
+        "relatedresourceid": 31620,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia riparia O.Berg"
+      },
+      {
+        "relatedresourceid": 31624,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia rufula Miq."
+      },
+      {
+        "relatedresourceid": 31588,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laevigata O.Berg"
+      },
+      {
+        "relatedresourceid": 31603,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia nitens O.Berg"
+      },
+      {
+        "relatedresourceid": 31631,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia superba O.Berg"
+      },
+      {
+        "relatedresourceid": 61983,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia fallax Rich."
+      },
+      {
+        "relatedresourceid": 61953,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia divaricata Lam."
+      },
+      {
+        "relatedresourceid": 62083,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia laxiflora Poir."
+      },
+      {
+        "relatedresourceid": 62217,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia periplocifolia Jacq."
+      },
+      {
+        "relatedresourceid": 62208,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia paniculiflora Steud."
+      },
+      {
+        "relatedresourceid": 63479,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus bracteolaris Poir."
+      },
+      {
+        "relatedresourceid": 63456,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus acuminata Kunth"
+      },
+      {
+        "relatedresourceid": 63599,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Myrtus splendens Sw."
+      },
+      {
+        "relatedresourceid": 63601,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus stoupii Spreng."
+      },
+      {
+        "relatedresourceid": 62922,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia aguitensis Gleason"
+      },
+      {
+        "relatedresourceid": 62952,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ayresiana O.Berg"
+      },
+      {
+        "relatedresourceid": 63028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia discolor O.Berg"
+      },
+      {
+        "relatedresourceid": 63076,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia guajavifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 63094,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia impressa O.Berg"
+      },
+      {
+        "relatedresourceid": 63056,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia friburgensis O.Berg"
+      },
+      {
+        "relatedresourceid": 62976,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia chilensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63024,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia dictyoneura Diels"
+      },
+      {
+        "relatedresourceid": 63038,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia elongata O.Berg"
+      },
+      {
+        "relatedresourceid": 63090,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia humboldtiana DC."
+      },
+      {
+        "relatedresourceid": 63131,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia lindeniana O.Berg"
+      },
+      {
+        "relatedresourceid": 63142,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia martiana O.Berg"
+      },
+      {
+        "relatedresourceid": 62983,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia compressa Gleason"
+      },
+      {
+        "relatedresourceid": 63148,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia micrantha O.Berg"
+      },
+      {
+        "relatedresourceid": 63160,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia negrensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63134,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia linkiana DC."
+      },
+      {
+        "relatedresourceid": 63107,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia klotzschiana O.Berg"
+      },
+      {
+        "relatedresourceid": 63069,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia gracilis O.Berg"
+      },
+      {
+        "relatedresourceid": 63144,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia melanoclada O.Berg"
+      },
+      {
+        "relatedresourceid": 63171,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia opaca O.Berg"
+      },
+      {
+        "relatedresourceid": 63214,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia pseudomini DC."
+      },
+      {
+        "relatedresourceid": 63136,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia luetzelburgii Burret ex Luetzelb."
+      },
+      {
+        "relatedresourceid": 63143,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia martinicensis Krug & Urb."
+      },
+      {
+        "relatedresourceid": 63112,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia lamprosericea Diels"
+      },
+      {
+        "relatedresourceid": 63118,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia langsdorffii O.Berg"
+      },
+      {
+        "relatedresourceid": 86007,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia sororopanensis Steyerm."
+      },
+      {
+        "relatedresourceid": 63280,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia spruceana O.Berg"
+      },
+      {
+        "relatedresourceid": 63135,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia longicaudata Lundell"
+      },
+      {
+        "relatedresourceid": 63571,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus polyantha Kunth"
+      },
+      {
+        "relatedresourceid": 63150,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia mikaniana (DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 62925,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia alagoensis var. ovata O.Berg"
+      },
+      {
+        "relatedresourceid": 62957,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia berberis var. angustifolia O.Berg"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Matos, GMA 524",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0036059",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225967075",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA005659",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226736845",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aguiar, O.T. 226",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA003719",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA003719",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Matos, GMA 524",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0036059",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0036059",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 4685",
+        "collectioncode": "CVRD",
+        "catalognumber": "CVRD001383",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CVRD001383",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA005659",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA005659",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aguiar, O.T. 226",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA003719",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226735063",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

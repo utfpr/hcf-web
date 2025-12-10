@@ -1,0 +1,754 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10756,
+      "scientificname": "Myrcia selloi (Spreng.) N.Silveira",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "selloi",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Spreng.) N.Silveira",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia selloi (Spreng.) N.Silveira",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10756>http://floradobrasil2015.jbrj.gov.br/FB10756</a>)<br><br>Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10756\">https://floradobrasil2020.jbrj.gov.br/FB10756</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Lannoy, L.C., Goldenberg, R. &amp;amp; Lima, D.F. 2019. Taxonomic and typifications in Myrcia sect. Tomentosae (Myrteae, Myrtaceae). Phytotaxa 404(3): 111-120.",
+      "parentnameusage": "Myrcia DC.",
+      "parentnameusageid": 10660,
+      "originalnameusageid": "63591",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10756",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10756>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-12-27 11:50:29.896"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sobral, M.,Fam. Myrtac. Rio Grande do Sul,128,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 60983,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia acutifolia var. villosa O.Berg"
+      },
+      {
+        "relatedresourceid": 61279,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. acutata O.Berg"
+      },
+      {
+        "relatedresourceid": 61281,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. colorata O.Berg"
+      },
+      {
+        "relatedresourceid": 61282,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. panicularis O.Berg"
+      },
+      {
+        "relatedresourceid": 61283,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. pauciflora O.Berg"
+      },
+      {
+        "relatedresourceid": 61284,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. subcordata O.Berg"
+      },
+      {
+        "relatedresourceid": 61280,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. australis O.Berg"
+      },
+      {
+        "relatedresourceid": 601186,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. genuina (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 601209,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. genuina O. Berg"
+      },
+      {
+        "relatedresourceid": 601291,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. glabriuscula (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 601293,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. glabriuscula Cambess."
+      },
+      {
+        "relatedresourceid": 601431,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. impuctata (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 601433,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. impunctata Cambess."
+      },
+      {
+        "relatedresourceid": 601951,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. paraguayensis O. Berg"
+      },
+      {
+        "relatedresourceid": 602494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia acutifolia var. vilosa O.Berg"
+      },
+      {
+        "relatedresourceid": 10713,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia lajeana D.Legrand"
+      },
+      {
+        "relatedresourceid": 10715,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana Cambess."
+      },
+      {
+        "relatedresourceid": 61088,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia dimorpha O.Berg"
+      },
+      {
+        "relatedresourceid": 61151,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 61319,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aulomyrcia selloi (Spreng.) Kausel"
+      },
+      {
+        "relatedresourceid": 61361,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia undulata O.Berg"
+      },
+      {
+        "relatedresourceid": 63591,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Myrtus selloi Spreng."
+      },
+      {
+        "relatedresourceid": 62999,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia corrientinensis Barb.Rodr. ex Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 63149,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia microsiphonata D.Legrand"
+      },
+      {
+        "relatedresourceid": 597520,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia triflora Cambess."
+      },
+      {
+        "relatedresourceid": 37064,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia dimorpha (O.Berg) N.Silveira"
+      },
+      {
+        "relatedresourceid": 61156,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. punctata O.Berg"
+      },
+      {
+        "relatedresourceid": 63081,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia hassleriana Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 60982,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia acutifolia var. pubescens O.Berg"
+      },
+      {
+        "relatedresourceid": 61152,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. membranacea O.Berg"
+      },
+      {
+        "relatedresourceid": 615409,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. macrophylla Kiaerskou"
+      },
+      {
+        "relatedresourceid": 601519,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana Cambess. var. laruotteana"
+      },
+      {
+        "relatedresourceid": 615407,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia selloi var. australis (O.Berg) N. Silveira"
+      },
+      {
+        "relatedresourceid": 61153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. opaca O.Berg"
+      },
+      {
+        "relatedresourceid": 61154,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia laruotteana var. paraguayensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63226,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. multiflora DC."
+      },
+      {
+        "relatedresourceid": 63222,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. acutata (O.Berg) Mattos"
+      },
+      {
+        "relatedresourceid": 63227,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. pauciflora Kiaersk."
+      },
+      {
+        "relatedresourceid": 63223,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. leptophylla Kiaersk."
+      },
+      {
+        "relatedresourceid": 63224,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. megapotamica D.Legrand"
+      },
+      {
+        "relatedresourceid": 600835,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia laruotteana var. australis D. Legrand"
+      },
+      {
+        "relatedresourceid": 31615,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa DC."
+      },
+      {
+        "relatedresourceid": 60980,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia acutata O.Berg"
+      },
+      {
+        "relatedresourceid": 60981,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia acutifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 61008,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia assumptionis (Morong) Kausel"
+      },
+      {
+        "relatedresourceid": 61278,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa (DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 63266,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia smithii D.Legrand & Kausel"
+      },
+      {
+        "relatedresourceid": 62951,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia assumptionis Morong"
+      },
+      {
+        "relatedresourceid": 63201,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia perorebimi Barb.Rodr. ex Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 61285,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia ramulosa var. triflora (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 63225,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia ramulosa var. microsiphonata (D.Legrand) D.Legrand"
+      },
+      {
+        "relatedresourceid": 615408,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia selloi var. microsiphonata (D.Legrand) N.Silveira"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Krieger, L. 16587",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA068718",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA068718",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zandoval, José Anibal 6",
+        "collectioncode": "RB",
+        "catalognumber": "RB00787586",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00787586",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. s.n.",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02541",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942487",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G 41109",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM057630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229984627",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Krieger, L. 16587",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA068718",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226788899",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lucas, E.J. 154",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA087863",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226806351",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 3602",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA060481",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226780981",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 3602",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA060481",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA060481",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lucas, E.J. 154",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA087863",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA087863",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. s.n.",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02541",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02541",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G 41109",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM057630",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM057630",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vieira, F.C.S. 169",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02561",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02561",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Souza, J.P. 2693",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA065127",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA065127",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zandoval, José Anibal 6",
+        "collectioncode": "RB",
+        "catalognumber": "RB00787586",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284824348",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Souza, J.P. 2693",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA065127",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226785199",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vieira, F.C.S. 169",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02561",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942527",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 615407,
+      "scientificname": "Myrcia selloi var. australis (O.Berg) N. Silveira",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "selloi",
+      "infraspecificepithet": "australis",
+      "scientificnameauthorship": "(O.Berg) N. Silveira",
+      "acceptednameusage": "Myrcia selloi (Spreng.) N.Silveira",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia selloi (Spreng.) N.Silveira;Myrcia selloi var. australis (O.Berg) N. Silveira",
+      "source": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615407\">https://floradobrasil2020.jbrj.gov.br/FB615407</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia selloi (Spreng.) N.Silveira",
+      "parentnameusageid": 10756,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615407",
+      "acceptednameusageid": 10756,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615407>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-04 15:06:37.047"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10756,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia selloi (Spreng.) N.Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615408,
+      "scientificname": "Myrcia selloi var. microsiphonata (D.Legrand) N.Silveira",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "selloi",
+      "infraspecificepithet": "microsiphonata",
+      "scientificnameauthorship": "(D.Legrand) N.Silveira",
+      "acceptednameusage": "Myrcia selloi (Spreng.) N.Silveira",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia selloi (Spreng.) N.Silveira;Myrcia selloi var. microsiphonata (D.Legrand) N.Silveira",
+      "source": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615408\">https://floradobrasil2020.jbrj.gov.br/FB615408</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia selloi (Spreng.) N.Silveira",
+      "parentnameusageid": 10756,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615408",
+      "acceptednameusageid": 10756,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615408>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-04 15:09:38.394"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10756,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia selloi (Spreng.) N.Silveira"
+      }
+    ],
+    "voucher": []
+  }
+]

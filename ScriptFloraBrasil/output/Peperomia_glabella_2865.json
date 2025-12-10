@@ -1,0 +1,896 @@
+[
+  {
+    "taxon": {
+      "taxonid": 12653,
+      "scientificname": "Peperomia glabella (Sw.) A.Dietr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sw.) A.Dietr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.",
+      "source": "Guimarães, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB12653>http://floradobrasil2015.jbrj.gov.br/FB12653</a>)<br><br>Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB12653\">https://floradobrasil2020.jbrj.gov.br/FB12653</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Peperomia Ruiz & Pav.",
+      "parentnameusageid": 12609,
+      "originalnameusageid": "596430",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12653",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB12653>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-04-19 05:58:58.184"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 596430,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Piper glabellum Sw."
+      },
+      {
+        "relatedresourceid": 596013,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Micropiper melanostigma Miq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20291,
+      "scientificname": "Peperomia glabella (Sw.) A.Dietr. var. glabella",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "glabella",
+      "scientificnameauthorship": "(Sw.) A.Dietr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella (Sw.) A.Dietr. var. glabella",
+      "source": "Guimarães, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20291>http://floradobrasil2015.jbrj.gov.br/FB20291</a>)<br><br>Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20291\">https://floradobrasil2020.jbrj.gov.br/FB20291</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: Times; mso-fareast-font-family: &#39;Times New Roman&#39;; mso-bidi-font-family: &#39;Times New Roman&#39;; color: black;&quot;&gt;Yuncker, T. 1974. The Piperaceae of Brazil III. Peperomia; taxa of incertain status. Hoehnea 4: 185.&lt;/span&gt;",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20291",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20291>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-20 15:17:32.497"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601795,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia lineatipila form. mogotana Trel."
+      },
+      {
+        "relatedresourceid": 12630,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia caulibarbis Miq."
+      },
+      {
+        "relatedresourceid": 596821,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia leucandra Trel."
+      },
+      {
+        "relatedresourceid": 597687,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia fuscociliata Trel."
+      },
+      {
+        "relatedresourceid": 596100,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia lineatipila A. Rich."
+      },
+      {
+        "relatedresourceid": 595657,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia brachyphylla A. Dietr."
+      },
+      {
+        "relatedresourceid": 594196,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia similis Britton"
+      },
+      {
+        "relatedresourceid": 603482,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia sublaxiflora C.DC."
+      },
+      {
+        "relatedresourceid": 602050,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia cubana form. platana Trel."
+      },
+      {
+        "relatedresourceid": 600877,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia trinervis var. brachyphylla (A. Dietr.) C. DC."
+      },
+      {
+        "relatedresourceid": 600876,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella var. brachyphylla (A. Dietr.) C. DC."
+      },
+      {
+        "relatedresourceid": 600875,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia caulibarbis var. brachyphylla (A. Dietr.) Dahlst."
+      },
+      {
+        "relatedresourceid": 596490,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Piper scandens Sw."
+      },
+      {
+        "relatedresourceid": 598825,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia chagalana C.DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20292,
+      "scientificname": "Peperomia glabella var. nervulosa (C.DC) Yunck.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "nervulosa",
+      "scientificnameauthorship": "(C.DC) Yunck.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella var. nervulosa (C.DC) Yunck.",
+      "source": "Guimarães, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20292>http://floradobrasil2015.jbrj.gov.br/FB20292</a>)<br><br>Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20292\">https://floradobrasil2020.jbrj.gov.br/FB20292</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: Times; mso-fareast-font-family: &#39;Times New Roman&#39;; mso-bidi-font-family: &#39;Times New Roman&#39;; color: black;&quot;&gt;Yuncker, T. 1974. The Piperaceae of Brazil III. Peperomia; taxa of incertain status. Hoehnea 4: 185&lt;/span&gt;",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20292",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20292>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-20 15:19:08.524"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601290,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia melanostigma var. glabrior C. DC."
+      },
+      {
+        "relatedresourceid": 601833,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia melanostigma var. nervulosa C. DC."
+      },
+      {
+        "relatedresourceid": 601731,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella var. melanostigma Dahlst."
+      },
+      {
+        "relatedresourceid": 597715,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia melanostigma (Miq.) Miq."
+      },
+      {
+        "relatedresourceid": 595676,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia conjungens Trel."
+      },
+      {
+        "relatedresourceid": 597963,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia johnstoni Trel."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 105165,
+      "scientificname": "Peperomia glabella var. nigropunctata (Miq.) Dahlst.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "nigropunctata",
+      "scientificnameauthorship": "(Miq.) Dahlst.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella var. nigropunctata (Miq.) Dahlst.",
+      "source": "Guimarães, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB105165>http://floradobrasil2015.jbrj.gov.br/FB105165</a>)<br><br>Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB105165\">https://floradobrasil2020.jbrj.gov.br/FB105165</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: Times; mso-fareast-font-family: &#39;Times New Roman&#39;; mso-bidi-font-family: &#39;Times New Roman&#39;; color: black;&quot;&gt;Yuncker, T. 1974. The Piperaceae of Brazil III. Peperomia; taxa of incertain status. Hoehnea 4: 188&lt;/span&gt;",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": "599014",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB105165",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB105165>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-20 15:21:38.697"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601847,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella var. nudipetiolata Trel. & Yunck."
+      },
+      {
+        "relatedresourceid": 603483,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia atropunctata Miq."
+      },
+      {
+        "relatedresourceid": 599014,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Peperomia nigropunctata Miq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600876,
+      "scientificname": "Peperomia glabella var. brachyphylla (A. Dietr.) C. DC.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "brachyphylla",
+      "scientificnameauthorship": "(A. Dietr.) C. DC.",
+      "acceptednameusage": "Peperomia glabella (Sw.) A.Dietr. var. glabella",
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella var. brachyphylla (A. Dietr.) C. DC.",
+      "source": "Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600876\">https://floradobrasil2020.jbrj.gov.br/FB600876</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Yuncker, T.G. 1974. The Piperaceae of Brazil III &amp;ndash; &lt;em&gt;Peperomia; &lt;/em&gt;Taxa of uncertain &lt;em&gt;status&lt;/em&gt;. Hoehnea 4: 185.\r\nTrelease, W. &amp;amp; T. G. Yuncker. 1950. Piperac. N. South Amer. 1&amp;ndash;838. University of Illinois Press, Urbana.",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600876",
+      "acceptednameusageid": 20291,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600876>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-03-28 10:40:34.889"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20291,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella (Sw.) A.Dietr. var. glabella"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601731,
+      "scientificname": "Peperomia glabella var. melanostigma Dahlst.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "melanostigma",
+      "scientificnameauthorship": "Dahlst.",
+      "acceptednameusage": "Peperomia glabella var. nervulosa (C.DC) Yunck.",
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella var. melanostigma Dahlst.",
+      "source": "Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601731\">https://floradobrasil2020.jbrj.gov.br/FB601731</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Trelease, W. &amp;amp; T. G. Yuncker. 1950. Piperac. N. South Amer. 1&amp;ndash;838. University of Illinois Press, Urbana.\r\nYuncker, T.G. 1974. The Piperaceae of Brazil III &amp;ndash; &lt;em&gt;Peperomia; &lt;/em&gt;Taxa of uncertain &lt;em&gt;status&lt;/em&gt;. Hoehnea 4: 187.",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601731",
+      "acceptednameusageid": 20292,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601731>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-03-28 10:44:21.062"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20292,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella var. nervulosa (C.DC) Yunck."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601847,
+      "scientificname": "Peperomia glabella var. nudipetiolata Trel. & Yunck.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Peperomia",
+      "specificepithet": "glabella",
+      "infraspecificepithet": "nudipetiolata",
+      "scientificnameauthorship": "Trel. & Yunck.",
+      "acceptednameusage": "Peperomia glabella var. nigropunctata (Miq.) Dahlst.",
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Peperomia Ruiz & Pav.;Peperomia glabella (Sw.) A.Dietr.;Peperomia glabella var. nudipetiolata Trel. & Yunck.",
+      "source": "Carvalho-Silva, M., Monteiro, D. 2020. Peperomia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601847\">https://floradobrasil2020.jbrj.gov.br/FB601847</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Yuncker, T.G. 1974. The Piperaceae of Brazil III &amp;ndash; &lt;em&gt;Peperomia; &lt;/em&gt;Taxa of uncertain &lt;em&gt;status&lt;/em&gt;. Hoehnea 4: 188.",
+      "parentnameusage": "Peperomia glabella (Sw.) A.Dietr.",
+      "parentnameusageid": 12653,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601847",
+      "acceptednameusageid": 105165,
+      "bibliographiccitation_how_to_cite": "Carvalho-Silva, M., Monteiro, D., Marcusso, G.M. Peperomia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601847>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-03-28 10:48:55.401"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 105165,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Peperomia glabella var. nigropunctata (Miq.) Dahlst."
+      }
+    ],
+    "voucher": []
+  }
+]

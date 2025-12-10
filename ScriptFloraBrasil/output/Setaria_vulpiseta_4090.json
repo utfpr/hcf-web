@@ -1,0 +1,596 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13598,
+      "scientificname": "Setaria vulpiseta (Lam.) Roem. & Schult.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Setaria",
+      "specificepithet": "vulpiseta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Lam.) Roem. & Schult.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Setaria P. Beauv.;Setaria vulpiseta (Lam.) Roem. & Schult.",
+      "source": "Shirasuna, R.T.,Rodrigues, R.S. 2015. Setaria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13598>http://floradobrasil2015.jbrj.gov.br/FB13598</a>)<br><br>Sousa, V.F., Santos, C.A.G., Boldrini, I.I. 2020. Setaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB13598\">https://floradobrasil2020.jbrj.gov.br/FB13598</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Setaria P. Beauv.",
+      "parentnameusageid": 13581,
+      "originalnameusageid": null,
+      "namepublishedin": "Encycl. 4: 735. 1798",
+      "namepublishedinyear": "1798",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13598",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Sousa, V.F., Santos, C.A.G., Boldrini, I.I. Setaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB13598>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-28 19:57:15.052"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Lamarck, J.B.A.P.M.,Encycl.,4: 735.,1798"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32354,
+        "relationshipofresource": null,
+        "scientificname": "Setaria vulpiseta (Lam.) Roem. & Schult. var. vulpiseta"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.C. Allem 2450",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002653",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00002653",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.M. Valls 2577",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00030515",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00030515",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Pereira-Silva 11802",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00071550",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00071550",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.M. Valls 2577",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00030515",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226279440",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Pereira-Silva 11802",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00071550",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226285212",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Allem 2450",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002653",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226271726",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 32354,
+      "scientificname": "Setaria vulpiseta (Lam.) Roem. & Schult. var. vulpiseta",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Setaria",
+      "specificepithet": "vulpiseta",
+      "infraspecificepithet": "vulpiseta",
+      "scientificnameauthorship": "(Lam.) Roem. & Schult.",
+      "acceptednameusage": "Setaria vulpiseta (Lam.) Roem. & Schult.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Setaria P. Beauv.;Setaria vulpiseta (Lam.) Roem. & Schult.;Setaria vulpiseta (Lam.) Roem. & Schult. var. vulpiseta",
+      "source": "Shirasuna, R.T.,Rodrigues, R.S. 2015. Setaria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32354>http://floradobrasil2015.jbrj.gov.br/FB32354</a>)<br><br>Sousa, V.F., Santos, C.A.G., Boldrini, I.I. 2020. Setaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32354\">https://floradobrasil2020.jbrj.gov.br/FB32354</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Pensiero, J. F. 2003. Setaria. 46: 569&amp;ndash;593. In F. O. Zuloaga, O. Morrone, G. Davidse, T. S. Filgueiras, P. M. Peterson, R. J. Soreng &amp;amp; E. J. Judziewicz (eds.) Catalogue of New World Grasses (Poaceae): III. Subfamilies Panicoideae, Aristidoideae, Arundinoideae, and Danthonioideae, Contr. U.S. Natl. Herb. Smithsonian Institution, Washington, D.C.",
+      "parentnameusage": "Setaria vulpiseta (Lam.) Roem. & Schult.",
+      "parentnameusageid": 13598,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32354",
+      "acceptednameusageid": 13598,
+      "bibliographiccitation_how_to_cite": "Sousa, V.F., Santos, C.A.G., Boldrini, I.I. Setaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32354>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 15:42:05.392"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 13598,
+        "relationshipofresource": null,
+        "scientificname": "Setaria vulpiseta (Lam.) Roem. & Schult."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 111396,
+      "scientificname": "Setaria vulpiseta var. reversipila (R.A.W.Herrm.) Pensiero",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Setaria",
+      "specificepithet": "vulpiseta",
+      "infraspecificepithet": "reversipila",
+      "scientificnameauthorship": "(R.A.W.Herrm.) Pensiero",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Setaria P. Beauv.;Setaria vulpiseta (Lam.) Roem. & Schult.;Setaria vulpiseta var. reversipila (R.A.W.Herrm.) Pensiero",
+      "source": "Shirasuna, R.T.,Rodrigues, R.S. 2015. Setaria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111396>http://floradobrasil2015.jbrj.gov.br/FB111396</a>)<br><br>Sousa, V.F., Santos, C.A.G., Boldrini, I.I. 2020. Setaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111396\">https://floradobrasil2020.jbrj.gov.br/FB111396</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Setaria vulpiseta (Lam.) Roem. & Schult.",
+      "parentnameusageid": 13598,
+      "originalnameusageid": null,
+      "namepublishedin": "Beitr. Biol. Pflanzen. 10(1): 58. 1909",
+      "namepublishedinyear": "1909",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111396",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Sousa, V.F., Santos, C.A.G., Boldrini, I.I. Setaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB111396>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-28 16:22:31.692"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Herrmann, R.A.W.,Beitr. Biol. Pflanzen.,10(1): 58.,1909"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "M.A. Chase 11016",
+        "collectioncode": "NY",
+        "catalognumber": "NY00906256",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228729685",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.A. Chase 11016",
+        "collectioncode": "NY",
+        "catalognumber": "NY00906256",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00906256",
+        "locality": "MS",
+        "typestatus": null
+      }
+    ]
+  }
+]

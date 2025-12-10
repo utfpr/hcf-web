@@ -1,0 +1,153 @@
+[
+  {
+    "taxon": {
+      "taxonid": 1124,
+      "scientificname": "Zanthoxylum kleinii (R.S.Cowan) P.G.Waterman",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Zanthoxylum",
+      "specificepithet": "kleinii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(R.S.Cowan) P.G.Waterman",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Zanthoxylum L.;Zanthoxylum kleinii (R.S.Cowan) P.G.Waterman",
+      "source": "Pirani, J.R. 2015. Zanthoxylum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1124>http://floradobrasil2015.jbrj.gov.br/FB1124</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1124\">https://floradobrasil2020.jbrj.gov.br/FB1124</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Pirani, J.R. 1999. Sinopse de Rutaceae do Brasil. Tese de Livre-doc&amp;ecirc;ncia, Universidade de S&amp;atilde;o Paulo, ined.",
+      "parentnameusage": "Zanthoxylum L.",
+      "parentnameusageid": 1064,
+      "originalnameusageid": "671",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1124",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1124>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 11:54:25.832"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "juvevê",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      },
+      {
+        "vernacularname": "tembetari",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Waterman, P.G....,Taxon,24: 364,1975"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 671,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Fagara kleinii R.S.Cowan"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 15626",
+        "collectioncode": "P",
+        "catalognumber": "P05297348",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P05297348",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G 4305",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM048746",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM048746",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Hatschbach, G 4305",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM048746",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880777",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Hatschbach, G 4305",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM048746",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880779",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Hatschbach, G 4305",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM048746",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880775",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 15626",
+        "collectioncode": "P",
+        "catalognumber": "P05297348",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=212546834",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

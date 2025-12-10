@@ -1,0 +1,192 @@
+[
+  {
+    "taxon": {
+      "taxonid": 27362,
+      "scientificname": "Senecio leptoschizus Bong.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Senecio",
+      "specificepithet": "leptoschizus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Bong.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Senecioneae Cass.;Senecio L.;Senecio leptoschizus Bong.",
+      "source": "Teles, A.M. 2015. Senecio in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB27362>http://floradobrasil2015.jbrj.gov.br/FB27362</a>)<br><br>Teles, A.M., Heiden, G., Freitas, F.S. 2020. Senecio in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB27362\">https://floradobrasil2020.jbrj.gov.br/FB27362</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cabrera, A.L. 1957. El g&amp;eacute;nero &lt;em&gt;Senecio&lt;/em&gt; (Compositae) en Brasil, Paraguay y Uruguay. Arquivos do Jardim Bot&amp;acirc;nico do Rio de Janeiro 15: 163-264.\r\nTeles, A.M. &amp;amp; Stehmann, J.R. 2016. A tribo Senecioneae (Asteraceae) em Minas Gerais, Brasil. Rodrigu&amp;eacute;sia 67(2): 455-487.",
+      "parentnameusage": "Senecio L.",
+      "parentnameusageid": 16295,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB27362",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Teles, A.M., Heiden, G., Freitas, F.S. Senecio in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB27362>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-11-24 20:19:12.332"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 632355,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Senecio leptoschizus var. leptocladus Baker"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Oliveira 568",
+        "collectioncode": "RB",
+        "catalognumber": "RB01339242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285085564",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Osmar dos Santos Ribas 3328",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00046463",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226360432",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Oliveira 568",
+        "collectioncode": "RB",
+        "catalognumber": "RB01339242",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01339242",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Osmar dos Santos Ribas 3328",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00046463",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00046463",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 632355,
+      "scientificname": "Senecio leptoschizus var. leptocladus Baker",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Senecio",
+      "specificepithet": "leptoschizus",
+      "infraspecificepithet": "leptocladus",
+      "scientificnameauthorship": "Baker",
+      "acceptednameusage": "Senecio leptoschizus Bong.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Senecioneae Cass.;Senecio L.;Senecio leptoschizus Bong.;Senecio leptoschizus var. leptocladus Baker",
+      "source": "Flora Brasiliensis. Vol. VI, Part III, Fasc. 93 Coluna 305 - 306 Publicado em 01-Mai-1884. Fam&amp;iacute;lia Compositae SubFam&amp;iacute;lia Senecionideae G&amp;ecirc;nero Senecio L. Senecio leptoschizus Bong.",
+      "parentnameusage": "Senecio leptoschizus Bong.",
+      "parentnameusageid": 27362,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB632355",
+      "acceptednameusageid": 27362,
+      "bibliographiccitation_how_to_cite": "Teles, A.M., Heiden, G., Freitas, F.S. Senecio in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB632355>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-04-06 12:01:44.575"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 27362,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Senecio leptoschizus Bong."
+      }
+    ],
+    "voucher": []
+  }
+]

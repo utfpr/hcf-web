@@ -1,0 +1,103 @@
+[
+  {
+    "taxon": {
+      "taxonid": 638749,
+      "scientificname": "Paulownia tomentosa (Thunb.) Steud.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": "Paulowniaceae",
+      "genus": "Paulownia",
+      "specificepithet": "tomentosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Thunb.) Steud.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Paulowniaceae Nakai;Paulownia Siebold & Zucc.;Paulownia tomentosa (Thunb.) Steud.",
+      "source": "Lorenzi, H.; Bacher, L.B.; Torres, M.A.V. &amp;Aacute;rvores e arvoretas ex&amp;oacute;ticas no Brasil: madeireiras, ornamentais e arom&amp;aacute;ticas. Nova Odessa, SP: Instituto Plantarum de estudos da flora, 2018. p.386.\r\n&amp;nbsp;",
+      "parentnameusage": "Paulownia Siebold & Zucc.",
+      "parentnameusageid": 638743,
+      "originalnameusageid": "638750",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB638749",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-31 14:03:10.074"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "quiri",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "kiri",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638751,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paulownia imperialis Siebold & Zucc."
+      },
+      {
+        "relatedresourceid": 638750,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bignonia tomentosa Thunb."
+      }
+    ],
+    "voucher": []
+  }
+]

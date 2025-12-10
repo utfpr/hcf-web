@@ -1,0 +1,83 @@
+[
+  {
+    "taxon": {
+      "taxonid": 130624,
+      "scientificname": "Acicarpha bonariensis (Pers.) Herter",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Calyceraceae",
+      "genus": "Acicarpha",
+      "specificepithet": "bonariensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Pers.) Herter",
+      "acceptednameusage": "Acicarpha spathulata R.Br.",
+      "higherclassification": "Flora e Funga;Angiospermas;Calyceraceae R.Br. ex Rich.;Acicarpha Juss.;Acicarpha bonariensis (Pers.) Herter",
+      "source": "Magenta, M.A.G. 2015. Calyceraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB130624>http://floradobrasil2015.jbrj.gov.br/FB130624</a>)<br><br>Magenta, M.A.G. Calyceraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB130624\">https://floradobrasil2020.jbrj.gov.br/FB130624</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;h1&gt;&lt;strong&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif; font-size: 10pt;&quot;&gt;Herter, W.G. 1943. Plantae uruguayenses novae vel criticae. &lt;em&gt;Revista Sudamer. Bot. 7: 233.&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/h1&gt;\r\n&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;M&amp;uuml;ller, C.A. 1885. Calyceraceae. In C.F.P. Martius &amp;amp; A.G. Eichler (eds.) Flora brasiliensis. Lipsiae, Frid. Fleischer, vol.&amp;nbsp;6, pars 4, p. 351&amp;ndash;360, tab. 103-104.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Pozner, R.E., Johnson, L.A. &amp;amp; Denhan, S.S. 2021. Evolution of flower morphology and a natural re-arrangement of Calyceraceae. Taxon 70 (3), p. 589-619.&lt;/span&gt;",
+      "parentnameusage": "Acicarpha Juss.",
+      "parentnameusageid": 101525,
+      "originalnameusageid": "607028",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB130624",
+      "acceptednameusageid": 101527,
+      "bibliographiccitation_how_to_cite": "Magenta, M.A.G. Calyceraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB130624>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-01-30 16:43:08.778"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carrapicho-de-praia",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 101527,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acicarpha spathulata R.Br."
+      },
+      {
+        "relatedresourceid": 607028,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Buphthalmum bonariense Pers."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.A.G. Magenta 9",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00095141",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=165415880",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.A.G. Magenta 9",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00095141",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00095141",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

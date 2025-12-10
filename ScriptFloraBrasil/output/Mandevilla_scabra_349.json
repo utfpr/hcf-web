@@ -1,0 +1,634 @@
+[
+  {
+    "taxon": {
+      "taxonid": 4672,
+      "scientificname": "Mandevilla scabra (Hoffmanns. ex Roem. & Schult.) K.Schum.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Mandevilla",
+      "specificepithet": "scabra",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Hoffmanns. ex Roem. & Schult.) K.Schum.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Mandevilla Lindl.;Mandevilla scabra (Hoffmanns. ex Roem. & Schult.) K.Schum.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4672>http://floradobrasil2015.jbrj.gov.br/FB4672</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mandevilla Lindl.",
+      "parentnameusageid": 4652,
+      "originalnameusageid": "41351",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4672",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-12-15 04:49:37.856"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 40839,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. intermedia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 40842,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. pubiflora Müll.Arg."
+      },
+      {
+        "relatedresourceid": 40841,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. psilophylla Müll.Arg."
+      },
+      {
+        "relatedresourceid": 15585,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mandevilla rugosa (Benth.) Woodson"
+      },
+      {
+        "relatedresourceid": 41234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites brachystachyus Benth."
+      },
+      {
+        "relatedresourceid": 41226,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites bicolor Miq."
+      },
+      {
+        "relatedresourceid": 41251,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites cuyabensis A.DC."
+      },
+      {
+        "relatedresourceid": 41238,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites canescens Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 41351,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Echites scabrus Hoffmanns. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 40892,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Angadenia reticulata Miers"
+      },
+      {
+        "relatedresourceid": 41520,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Laseguea bicolor (Miq.) Miers"
+      },
+      {
+        "relatedresourceid": 33709,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mandevilla muelleri Woodson"
+      },
+      {
+        "relatedresourceid": 595816,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera cuiabensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 40837,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor (Mart. ex Stadelm.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 40840,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. olivacea Müll.Arg."
+      },
+      {
+        "relatedresourceid": 40843,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. stenosolen Müll.Arg."
+      },
+      {
+        "relatedresourceid": 633341,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mandevilla cuneifolia Woodson"
+      },
+      {
+        "relatedresourceid": 633347,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mandevilla symphitocarpa (G.Mey.) Woodson"
+      },
+      {
+        "relatedresourceid": 40838,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera versicolor var. glabrata Müll.Arg."
+      },
+      {
+        "relatedresourceid": 41367,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites tenuicaulis var. angustifolius Stadelm."
+      },
+      {
+        "relatedresourceid": 41366,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites tenuicaulis Stadelm."
+      },
+      {
+        "relatedresourceid": 41604,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mandevilla cuyabensis (A.DC.) K.Schum."
+      },
+      {
+        "relatedresourceid": 41652,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitozus cuyabensis (A.DC.) Miers"
+      },
+      {
+        "relatedresourceid": 41650,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitozus brachystachys (Benth.) Miers"
+      },
+      {
+        "relatedresourceid": 41664,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitozus tenuicaulis (Stadelm.) Miers"
+      },
+      {
+        "relatedresourceid": 41336,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites pubiflorus G.Don"
+      },
+      {
+        "relatedresourceid": 40815,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Amblyanthera cuyabensis (A.DC.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 41368,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites tenuicaulis var. latifolius Stadelm."
+      },
+      {
+        "relatedresourceid": 41388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites versicolor Mart. ex Stadelm."
+      },
+      {
+        "relatedresourceid": 41308,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echites maranhamensis G.Don"
+      },
+      {
+        "relatedresourceid": 41195,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dipladenia scabra Müll.Arg."
+      },
+      {
+        "relatedresourceid": 41665,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitozus versicolor (Mart. ex Stadelm.) Miers"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.L.S. Guedes 24820",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB027348",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB027348",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kinoshita, L.S.; Yamamoto, K. 211",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC067899",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC067899",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Morokawa, R.; et al. 265",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC068725",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC068725",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 24820",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB027348",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96968061",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 24820",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB027348",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96968059",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

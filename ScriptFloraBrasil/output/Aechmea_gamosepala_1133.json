@@ -1,0 +1,418 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5812,
+      "scientificname": "Aechmea gamosepala Wittm.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "gamosepala",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Wittm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea gamosepala Wittm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5812>http://floradobrasil2015.jbrj.gov.br/FB5812</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5812\">https://floradobrasil2020.jbrj.gov.br/FB5812</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea Ruiz & Pav.",
+      "parentnameusageid": 5753,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Jahrb. Syst. 13(29): 3-4 1891",
+      "namepublishedinyear": "1891",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5812",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5812>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-06-22 15:42:23.145"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wittmack, L.,Bot. Jahrb. Syst.,13(29): 3-4,1891"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46634,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ortgiesia gamosepala (Wittm.) L.B.Sm. & W.J.Kress"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Dreveck, S 1445",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19113",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226978187",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dreveck, S 1445",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19113",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB19113",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dreveck, S 1575",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19274",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB19274",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Neves, B. 156",
+        "collectioncode": "R",
+        "catalognumber": "R010000053",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/R010000053",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Klein 1973",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376319",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00376319",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Klein 1973",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376319",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228276863",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dreveck, S 1575",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19274",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226978511",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Neves, B. 156",
+        "collectioncode": "R",
+        "catalognumber": "R010000053",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=207775430",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34209,
+      "scientificname": "Aechmea gamosepala Wittm. var. gamosepala",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "gamosepala",
+      "infraspecificepithet": "gamosepala",
+      "scientificnameauthorship": "Wittm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea gamosepala Wittm.;Aechmea gamosepala Wittm. var. gamosepala",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34209>http://floradobrasil2015.jbrj.gov.br/FB34209</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34209\">https://floradobrasil2020.jbrj.gov.br/FB34209</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea gamosepala Wittm.",
+      "parentnameusageid": 5812,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Jahrb. Syst. 13 (29): 3-4 1891",
+      "namepublishedinyear": "1891",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34209",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34209>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-07-29 11:49:52.156"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wittmack, L.,Bot. Jahrb. Syst.,13 (29): 3-4,1891"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45555,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea gamosepala var. angustifolia Wittm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Korte 5177",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19254",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB19254",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P 1168",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48540",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB48540",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P 1168",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48540",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227037907",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Korte 5177",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB19254",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226978471",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34210,
+      "scientificname": "Aechmea gamosepala var. nivea Reitz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "gamosepala",
+      "infraspecificepithet": "nivea",
+      "scientificnameauthorship": "Reitz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea gamosepala Wittm.;Aechmea gamosepala var. nivea Reitz",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34210>http://floradobrasil2015.jbrj.gov.br/FB34210</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34210\">https://floradobrasil2020.jbrj.gov.br/FB34210</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea gamosepala Wittm.",
+      "parentnameusageid": 5812,
+      "originalnameusageid": null,
+      "namepublishedin": "Sellowia 14: 101 1962",
+      "namepublishedinyear": "1962",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34210",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34210>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-07-29 11:38:20.841"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Reitz, R.,Sellowia,14: 101,1962"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46635,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ortgiesia gamosepala var. nivea (Reitz) L.B.Sm. & W.J.Kress"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 9093",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0046225",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBR0046225",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz 9093",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0046225",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97144613",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45555,
+      "scientificname": "Aechmea gamosepala var. angustifolia Wittm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Aechmea",
+      "specificepithet": "gamosepala",
+      "infraspecificepithet": "angustifolia",
+      "scientificnameauthorship": "Wittm.",
+      "acceptednameusage": "Aechmea gamosepala Wittm. var. gamosepala",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Aechmea Ruiz & Pav.;Aechmea gamosepala Wittm.;Aechmea gamosepala var. angustifolia Wittm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45555>http://floradobrasil2015.jbrj.gov.br/FB45555</a>)<br><br>Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L. 2020. Aechmea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45555\">https://floradobrasil2020.jbrj.gov.br/FB45555</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aechmea gamosepala Wittm.",
+      "parentnameusageid": 5812,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Jahrb. Syst. 13(29): 13 1891",
+      "namepublishedinyear": "1891",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45555",
+      "acceptednameusageid": 34209,
+      "bibliographiccitation_how_to_cite": "Faria, A.P.G., Romanini, R.P., Koch, A.K., Sousa, G.M., Sousa, L.O.F., Wanderley, M.G.L., Silva, T.S. Aechmea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45555>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-29 19:44:26.612"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wittm.,Bot. Jahrb. Syst.,13(29): 13,1891"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34209,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aechmea gamosepala Wittm. var. gamosepala"
+      }
+    ],
+    "voucher": []
+  }
+]

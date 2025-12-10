@@ -1,0 +1,767 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17242,
+      "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "globosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Kunth) Roem. & Schult.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17242>http://floradobrasil2015.jbrj.gov.br/FB17242</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17242\">https://floradobrasil2020.jbrj.gov.br/FB17242</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora Vahl",
+      "parentnameusageid": 7258,
+      "originalnameusageid": "49177",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17242",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2018-11-16 19:49:32.5"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Syst. Veg.,2: 89,1817"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 51712,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa var. stenocarpa Kük."
+      },
+      {
+        "relatedresourceid": 51711,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa var. loefgrenii (Boeckeler) Kük."
+      },
+      {
+        "relatedresourceid": 51710,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa var. epiglobosa (C.B.Clarke) Kük."
+      },
+      {
+        "relatedresourceid": 49138,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaloschoenus globosus var. armeria Nees"
+      },
+      {
+        "relatedresourceid": 49177,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Chaetospora globosa Kunth"
+      },
+      {
+        "relatedresourceid": 51690,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora epiglobosa C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 51644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora cephalantha A.Rich."
+      },
+      {
+        "relatedresourceid": 35174,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult. var. globosa"
+      },
+      {
+        "relatedresourceid": 49139,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaloschoenus globosus var. minor Nees"
+      },
+      {
+        "relatedresourceid": 50147,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena alta (Boeckeler) J.F.Macbr."
+      },
+      {
+        "relatedresourceid": 49137,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Cephaloschoenus globosus (Kunth) Nees"
+      },
+      {
+        "relatedresourceid": 49143,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaloschoenus pohlianus Nees"
+      },
+      {
+        "relatedresourceid": 49141,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaloschoenus marginatus Liebm."
+      },
+      {
+        "relatedresourceid": 49133,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cephaloschoenus armeria Nees"
+      },
+      {
+        "relatedresourceid": 51789,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora pohliana (Nees) Steud."
+      },
+      {
+        "relatedresourceid": 51756,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora marginata (Liebm.) Steud."
+      },
+      {
+        "relatedresourceid": 51794,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora presleana Steud."
+      },
+      {
+        "relatedresourceid": 51918,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Schoenus cerasiformis Poir."
+      },
+      {
+        "relatedresourceid": 77670,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Xyris triquetra Kuntze"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35174,
+      "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult. var. globosa",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "globosa",
+      "infraspecificepithet": "globosa",
+      "scientificnameauthorship": "(Kunth) Roem. & Schult.",
+      "acceptednameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora globosa (Kunth) Roem. & Schult.;Rhynchospora globosa (Kunth) Roem. & Schult. var. globosa",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35174>http://floradobrasil2015.jbrj.gov.br/FB35174</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35174\">https://floradobrasil2020.jbrj.gov.br/FB35174</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "parentnameusageid": 17242,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35174",
+      "acceptednameusageid": 17242,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-14 04:33:38.202"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17242,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51710,
+      "scientificname": "Rhynchospora globosa var. epiglobosa (C.B.Clarke) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "globosa",
+      "infraspecificepithet": "epiglobosa",
+      "scientificnameauthorship": "(C.B.Clarke) Kük.",
+      "acceptednameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora globosa (Kunth) Roem. & Schult.;Rhynchospora globosa var. epiglobosa (C.B.Clarke) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51710>http://floradobrasil2015.jbrj.gov.br/FB51710</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51710\">https://floradobrasil2020.jbrj.gov.br/FB51710</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "parentnameusageid": 17242,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51710",
+      "acceptednameusageid": 17242,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-14 04:25:08.058"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Jahrb. Syst.,74: 465,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17242,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51711,
+      "scientificname": "Rhynchospora globosa var. loefgrenii (Boeckeler) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "globosa",
+      "infraspecificepithet": "loefgrenii",
+      "scientificnameauthorship": "(Boeckeler) Kük.",
+      "acceptednameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora globosa (Kunth) Roem. & Schult.;Rhynchospora globosa var. loefgrenii (Boeckeler) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51711>http://floradobrasil2015.jbrj.gov.br/FB51711</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51711\">https://floradobrasil2020.jbrj.gov.br/FB51711</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "parentnameusageid": 17242,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51711",
+      "acceptednameusageid": 17242,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-14 04:25:54.094"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Jahrb. Syst.,74: 465,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17242,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51712,
+      "scientificname": "Rhynchospora globosa var. stenocarpa Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "globosa",
+      "infraspecificepithet": "stenocarpa",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora globosa (Kunth) Roem. & Schult.;Rhynchospora globosa var. stenocarpa Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51712>http://floradobrasil2015.jbrj.gov.br/FB51712</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51712\">https://floradobrasil2020.jbrj.gov.br/FB51712</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora globosa (Kunth) Roem. & Schult.",
+      "parentnameusageid": 17242,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Jahrb. Syst. 74: 465 1949",
+      "namepublishedinyear": "1949",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51712",
+      "acceptednameusageid": 17242,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-14 04:26:45.114"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Jahrb. Syst.,74: 465,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17242,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora globosa (Kunth) Roem. & Schult."
+      }
+    ],
+    "voucher": []
+  }
+]

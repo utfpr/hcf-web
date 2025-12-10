@@ -1,0 +1,830 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5912,
+      "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Lindl.) Schult. & Schult.f.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5912>http://floradobrasil2015.jbrj.gov.br/FB5912</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5912\">https://floradobrasil2020.jbrj.gov.br/FB5912</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\nSiqueira-Filho, J.A. &amp;amp; Leme, E.M.C. 2006. Fragmentos de Mata Atl&amp;acirc;ntica do Nordeste: Biodiversidade, conserva&amp;ccedil;&amp;atilde;o e suas brom&amp;eacute;lias. Andrea Jakobsson Est&amp;uacute;dio Editorial Ltda., Rio de Janeiro. 416 p.\r\nSmith, L.B. &amp;amp; Downs, R.J. 1979. Bromelioideae (Bromeliaceae), vol 14(3) Flora Neotropica Monograph. New York: Hafner Press.",
+      "parentnameusage": "Ananas Mill.",
+      "parentnameusageid": 5910,
+      "originalnameusageid": "45759",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5912",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5912>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-28 13:24:41.408"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Schultes, J.A. & Schultes, J.H.,Syst. Veg.,7: 1286,1830"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45701,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. rudis Bertoni"
+      },
+      {
+        "relatedresourceid": 45709,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ananas comosus var. bracteatus (Lindl.) Coppens & F.Leal"
+      },
+      {
+        "relatedresourceid": 45714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas comosus var. tricolor (Bertoni) Camargo"
+      },
+      {
+        "relatedresourceid": 45703,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. striatus M.B.Foster"
+      },
+      {
+        "relatedresourceid": 45699,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. macrodontes Bertoni"
+      },
+      {
+        "relatedresourceid": 600881,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f. var. bracteatus"
+      },
+      {
+        "relatedresourceid": 45759,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Ananassa bracteata Lindl."
+      },
+      {
+        "relatedresourceid": 45718,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas genesio-linsii Reitz"
+      },
+      {
+        "relatedresourceid": 45766,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananassa sagenaria D.Dietr."
+      },
+      {
+        "relatedresourceid": 45704,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. tricolor (Bertoni) L.B.Sm."
+      },
+      {
+        "relatedresourceid": 45742,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas sativus var. bracteatus (Lindl.) Mez"
+      },
+      {
+        "relatedresourceid": 45713,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas comosus var. rudis (Bertoni) Camargo"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F.M. Glaziou 13264",
+        "collectioncode": "P",
+        "catalognumber": "P01764126",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01764126",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 1937",
+        "collectioncode": "RB",
+        "catalognumber": "RB00113548",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00113548",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 13264",
+        "collectioncode": "P",
+        "catalognumber": "P01764126",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197359605",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 1937",
+        "collectioncode": "RB",
+        "catalognumber": "RB00113548",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283737290",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45697,
+      "scientificname": "Ananas bracteatus var. albus L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "albus",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": "Ananas fritzmuelleri Camargo",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. albus L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45697>http://floradobrasil2015.jbrj.gov.br/FB45697</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45697\">https://floradobrasil2020.jbrj.gov.br/FB45697</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45697",
+      "acceptednameusageid": 5913,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45697>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-10-18 06:57:27.148"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Mus. Leafl.,7: 76,1939"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5913,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas fritzmuelleri Camargo"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45698,
+      "scientificname": "Ananas bracteatus var. hondurensis Bertoni",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "hondurensis",
+      "scientificnameauthorship": "Bertoni",
+      "acceptednameusage": "Ananas comosus (L.) Merril",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. hondurensis Bertoni",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45698>http://floradobrasil2015.jbrj.gov.br/FB45698</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45698\">https://floradobrasil2020.jbrj.gov.br/FB45698</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45698",
+      "acceptednameusageid": 16574,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45698>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-10-18 07:01:20.82"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anales Ci. Parag.,2(4): 258,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 16574,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas comosus (L.) Merril"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45699,
+      "scientificname": "Ananas bracteatus var. macrodontes Bertoni",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "macrodontes",
+      "scientificnameauthorship": "Bertoni",
+      "acceptednameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. macrodontes Bertoni",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45699>http://floradobrasil2015.jbrj.gov.br/FB45699</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45699\">https://floradobrasil2020.jbrj.gov.br/FB45699</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45699",
+      "acceptednameusageid": 5912,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45699>. Acesso em: 20 nov. 2025.",
+      "modified": "2015-03-05 20:09:50.189"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anales Ci. Parag. II, 4: 256,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5912,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45700,
+      "scientificname": "Ananas bracteatus var. paraguayensis Bertoni",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "paraguayensis",
+      "scientificnameauthorship": "Bertoni",
+      "acceptednameusage": "Ananas comosus (L.) Merril",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. paraguayensis Bertoni",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45700>http://floradobrasil2015.jbrj.gov.br/FB45700</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45700\">https://floradobrasil2020.jbrj.gov.br/FB45700</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45700",
+      "acceptednameusageid": 16574,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45700>. Acesso em: 20 nov. 2025.",
+      "modified": "2015-03-05 20:15:43.429"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anales Ci. Parag.,2(4): 259,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 16574,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas comosus (L.) Merril"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45701,
+      "scientificname": "Ananas bracteatus var. rudis Bertoni",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "rudis",
+      "scientificnameauthorship": "Bertoni",
+      "acceptednameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. rudis Bertoni",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45701>http://floradobrasil2015.jbrj.gov.br/FB45701</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45701\">https://floradobrasil2020.jbrj.gov.br/FB45701</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45701",
+      "acceptednameusageid": 5912,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45701>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-10-18 07:04:34.601"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Monogr. Ananas,: 256,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5912,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45702,
+      "scientificname": "Ananas bracteatus var. sagenarius (Arruda) Bertoni",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "sagenarius",
+      "scientificnameauthorship": "(Arruda) Bertoni",
+      "acceptednameusage": "Pseudananas sagenarius (Arruda) Camargo",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. sagenarius (Arruda) Bertoni",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45702>http://floradobrasil2015.jbrj.gov.br/FB45702</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45702\">https://floradobrasil2020.jbrj.gov.br/FB45702</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45702",
+      "acceptednameusageid": 6334,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45702>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-10-18 07:15:28.612"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Revista Agron. (Puerto Bertoni),4: 43,1910"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6334,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Pseudananas sagenarius (Arruda) Camargo"
+      },
+      {
+        "relatedresourceid": 34254,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Ananas sagenaria (Arruda) Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 46025,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Bromelia sagenaria Arruda"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45703,
+      "scientificname": "Ananas bracteatus var. striatus M.B.Foster",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "striatus",
+      "scientificnameauthorship": "M.B.Foster",
+      "acceptednameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. striatus M.B.Foster",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45703>http://floradobrasil2015.jbrj.gov.br/FB45703</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45703\">https://floradobrasil2020.jbrj.gov.br/FB45703</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "J. Bromeliad Soc. 8: 97 1959",
+      "namepublishedinyear": "1959",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45703",
+      "acceptednameusageid": 5912,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45703>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 22:26:05.772"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "J. Bromeliad Soc.,8: 97,1959"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5912,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 45704,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. tricolor (Bertoni) L.B.Sm."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45704,
+      "scientificname": "Ananas bracteatus var. tricolor (Bertoni) L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "tricolor",
+      "scientificnameauthorship": "(Bertoni) L.B.Sm.",
+      "acceptednameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. tricolor (Bertoni) L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45704>http://floradobrasil2015.jbrj.gov.br/FB45704</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45704\">https://floradobrasil2020.jbrj.gov.br/FB45704</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Mus. Leafl. 7: 76 1939",
+      "namepublishedinyear": "1939",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45704",
+      "acceptednameusageid": 5912,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45704>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 22:33:55.817"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Mus. Leafl.,7: 76,1939"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5912,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 45703,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ananas bracteatus var. striatus M.B.Foster"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45705,
+      "scientificname": "Ananas bracteatus var. typicus L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "typicus",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus var. typicus L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45705>http://floradobrasil2015.jbrj.gov.br/FB45705</a>)<br><br>Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45705\">https://floradobrasil2020.jbrj.gov.br/FB45705</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45705",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45705>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 11:38:12.562"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Mus. Leafl.,7: 76,1939"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600881,
+      "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f. var. bracteatus",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Ananas",
+      "specificepithet": "bracteatus",
+      "infraspecificepithet": "bracteatus",
+      "scientificnameauthorship": "(Lindl.) Schult. & Schult.f.",
+      "acceptednameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Ananas Mill.;Ananas bracteatus (Lindl.) Schult. & Schult.f.;Ananas bracteatus (Lindl.) Schult. & Schult.f. var. bracteatus",
+      "source": "Monteiro, R.F. 2020. Ananas in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600881\">https://floradobrasil2020.jbrj.gov.br/FB600881</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Ananas bracteatus (Lindl.) Schult. & Schult.f.",
+      "parentnameusageid": 5912,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600881",
+      "acceptednameusageid": 5912,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Ananas in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600881>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 22:32:36.803"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5912,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Ananas bracteatus (Lindl.) Schult. & Schult.f."
+      }
+    ],
+    "voucher": []
+  }
+]

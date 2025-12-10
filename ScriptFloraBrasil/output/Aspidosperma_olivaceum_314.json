@@ -1,0 +1,215 @@
+[
+  {
+    "taxon": {
+      "taxonid": 4528,
+      "scientificname": "Aspidosperma olivaceum Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Aspidosperma",
+      "specificepithet": "olivaceum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Aspidosperma Mart. & Zucc.;Aspidosperma olivaceum Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4528>http://floradobrasil2015.jbrj.gov.br/FB4528</a>)<br><br>Castello, A.C.D., Pereira, A.S.S., Simões, A.O., Koch, I. 2020. Aspidosperma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB4528\">https://floradobrasil2020.jbrj.gov.br/FB4528</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aspidosperma Mart. & Zucc.",
+      "parentnameusageid": 4520,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. Bras. 6: 57 1860",
+      "namepublishedinyear": "1860",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4528",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Castello, A.C.D., Pereira, A.S.S., Simões, A.O., Koch, I. Aspidosperma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB4528>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-02-06 13:41:20.757"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Müller-Argoviensis, J.,Fl. Bras.,6: 57,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 40985,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidosperma olivaceum var. obtusifolium Müll.Arg."
+      },
+      {
+        "relatedresourceid": 41555,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Macaglia olivacea (Müll.Arg.) Kuntze"
+      },
+      {
+        "relatedresourceid": 26443,
+        "relationshipofresource": null,
+        "scientificname": "Aspidosperma eburneum Allem. ex Saldanha"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Sellow 446",
+        "collectioncode": "R",
+        "catalognumber": "RB00535071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284390270",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow 446",
+        "collectioncode": "R",
+        "catalognumber": "RB00535071",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00535071",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C. Souza 5022",
+        "collectioncode": "K",
+        "catalognumber": "K000965906",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000965906",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C. Souza 5022",
+        "collectioncode": "K",
+        "catalognumber": "K000965906",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227446727",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 40985,
+      "scientificname": "Aspidosperma olivaceum var. obtusifolium Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Aspidosperma",
+      "specificepithet": "olivaceum",
+      "infraspecificepithet": "obtusifolium",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Aspidosperma olivaceum Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Aspidosperma Mart. & Zucc.;Aspidosperma olivaceum Müll.Arg.;Aspidosperma olivaceum var. obtusifolium Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB40985>http://floradobrasil2015.jbrj.gov.br/FB40985</a>)<br><br>Castello, A.C.D., Pereira, A.S.S., Simões, A.O., Koch, I. 2020. Aspidosperma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB40985\">https://floradobrasil2020.jbrj.gov.br/FB40985</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aspidosperma olivaceum Müll.Arg.",
+      "parentnameusageid": 4528,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB40985",
+      "acceptednameusageid": 4528,
+      "bibliographiccitation_how_to_cite": "Castello, A.C.D., Pereira, A.S.S., Simões, A.O., Koch, I. Aspidosperma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB40985>. Acesso em: 20 nov. 2025.",
+      "modified": "2010-01-17 23:09:28.223445"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(1): 58,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4528,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Aspidosperma olivaceum Müll.Arg."
+      }
+    ],
+    "voucher": []
+  }
+]

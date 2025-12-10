@@ -1,0 +1,82 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8934,
+      "scientificname": "Peixotoa catarinensis C.E.Anderson",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Malpighiaceae",
+      "genus": "Peixotoa",
+      "specificepithet": "catarinensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "C.E.Anderson",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Malpighiaceae Juss.;Peixotoa A.Juss.;Peixotoa catarinensis C.E.Anderson",
+      "source": "Mamede, M.C.H. 2015. Peixotoa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8934>http://floradobrasil2015.jbrj.gov.br/FB8934</a>)<br><br>Almeida, R.F. 2020. Peixotoa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8934\">https://floradobrasil2020.jbrj.gov.br/FB8934</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Peixotoa A.Juss.",
+      "parentnameusageid": 8933,
+      "originalnameusageid": null,
+      "namepublishedin": "Contr. Univ. Michigan Herb. 15/1-92 1982",
+      "namepublishedinyear": "1982",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8934",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Almeida, R.F. Peixotoa in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8934>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 23:29:44.58"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "C.E. Anderson,Contr. Univ. Michigan Herb.,15/1-92,1982"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "L.B. Smith 12276",
+        "collectioncode": "RB",
+        "catalognumber": "RB00540754",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00540754",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L.B. Smith 12276",
+        "collectioncode": "RB",
+        "catalognumber": "RB00540754",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284412566",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

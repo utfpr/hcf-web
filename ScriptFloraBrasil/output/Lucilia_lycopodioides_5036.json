@@ -1,0 +1,78 @@
+[
+  {
+    "taxon": {
+      "taxonid": 106916,
+      "scientificname": "Lucilia lycopodioides (Less.) S.E.Freire",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Lucilia",
+      "specificepithet": "lycopodioides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Less.) S.E.Freire",
+      "acceptednameusage": "Lucilia adpressa Sitowski, A.M.Teles & J.F.B.Pastore,",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Gnaphalieae (Cass.) Lecoq & Juill.;Lucilia Cass.;Lucilia lycopodioides (Less.) S.E.Freire",
+      "source": "Loeuille, B.,Monge, M. 2015. Lucilia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB106916>http://floradobrasil2015.jbrj.gov.br/FB106916</a>)<br><br>Monge, M., Semir, J. (in memoriam) 2020. Lucilia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB106916\">https://floradobrasil2020.jbrj.gov.br/FB106916</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lucilia Cass.",
+      "parentnameusageid": 106912,
+      "originalnameusageid": "593822",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB106916",
+      "acceptednameusageid": 637557,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-05-16 15:29:41.338"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 637557,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Lucilia adpressa Sitowski, A.M.Teles & J.F.B.Pastore,"
+      },
+      {
+        "relatedresourceid": 593822,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Oligandra lycopodioides Less."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "V.C.  Souza 8924",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA023974",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226751611",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 8924",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA023974",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA023974",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

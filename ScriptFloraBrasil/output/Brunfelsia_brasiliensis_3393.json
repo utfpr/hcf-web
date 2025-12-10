@@ -1,0 +1,492 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14596,
+      "scientificname": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Brunfelsia",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Spreng.) L.B.Sm. & Downs",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Brunfelsia L.;Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14596>http://floradobrasil2015.jbrj.gov.br/FB14596</a>)<br><br>Ribeiro-Silva, S., Knapp, S. 2020. Brunfelsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14596\">https://floradobrasil2020.jbrj.gov.br/FB14596</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Brunfelsia L.",
+      "parentnameusageid": 14593,
+      "originalnameusageid": "633205",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14596",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ribeiro-Silva, S., Knapp, S. Brunfelsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14596>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-09-05 15:33:15.673"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 633205,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gerardia brasiliensis Spreng."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.N. Nakajima s.n.",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB001965",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB001965",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 32818,
+      "scientificname": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs subsp. brasiliensis",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Brunfelsia",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "(Spreng.) L.B.Sm. & Downs",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Brunfelsia L.;Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs;Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs subsp. brasiliensis",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32818>http://floradobrasil2015.jbrj.gov.br/FB32818</a>)<br><br>Ribeiro-Silva, S., Knapp, S. 2020. Brunfelsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32818\">https://floradobrasil2020.jbrj.gov.br/FB32818</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs",
+      "parentnameusageid": 14596,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32818",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ribeiro-Silva, S., Knapp, S. Brunfelsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32818>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 02:37:45.249"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 594081,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Brunfelsia acuminata (Pohl) Benth."
+      },
+      {
+        "relatedresourceid": 596833,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Brunfelsia ramosissima (Pohl) Benth."
+      },
+      {
+        "relatedresourceid": 594776,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Brunfelsia confertiflora (Pohl) Benth."
+      },
+      {
+        "relatedresourceid": 600669,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Brunfelsia brasiliensis var. acuminata (Pohl) L.B.Sm. & Downs"
+      },
+      {
+        "relatedresourceid": 600046,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Franciscea ramosissima Pohl"
+      },
+      {
+        "relatedresourceid": 595963,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Franciscea divaricata Pohl"
+      },
+      {
+        "relatedresourceid": 600521,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Franciscea confertiflora Pohl"
+      },
+      {
+        "relatedresourceid": 596351,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Franciscea acuminata Pohl"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 32819,
+      "scientificname": "Brunfelsia brasiliensis subsp. macrocalyx (Dusén) Plowman",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Brunfelsia",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "macrocalyx",
+      "scientificnameauthorship": "(Dusén) Plowman",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Brunfelsia L.;Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs;Brunfelsia brasiliensis subsp. macrocalyx (Dusén) Plowman",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32819>http://floradobrasil2015.jbrj.gov.br/FB32819</a>)<br><br>Ribeiro-Silva, S., Knapp, S. 2020. Brunfelsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32819\">https://floradobrasil2020.jbrj.gov.br/FB32819</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs",
+      "parentnameusageid": 14596,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32819",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ribeiro-Silva, S., Knapp, S. Brunfelsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32819>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 02:04:29.149"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600669,
+      "scientificname": "Brunfelsia brasiliensis var. acuminata (Pohl) L.B.Sm. & Downs",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Brunfelsia",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "acuminata",
+      "scientificnameauthorship": "(Pohl) L.B.Sm. & Downs",
+      "acceptednameusage": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs subsp. brasiliensis",
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Brunfelsia L.;Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs;Brunfelsia brasiliensis var. acuminata (Pohl) L.B.Sm. & Downs",
+      "source": "Ribeiro-Silva, S., Knapp, S. 2020. Brunfelsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600669\">https://floradobrasil2020.jbrj.gov.br/FB600669</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs",
+      "parentnameusageid": 14596,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600669",
+      "acceptednameusageid": 32818,
+      "bibliographiccitation_how_to_cite": "Ribeiro-Silva, S., Knapp, S. Brunfelsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600669>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 02:06:02.482"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32818,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Brunfelsia brasiliensis (Spreng.) L.B.Sm. & Downs subsp. brasiliensis"
+      }
+    ],
+    "voucher": []
+  }
+]

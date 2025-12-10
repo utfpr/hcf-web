@@ -1,0 +1,113 @@
+[
+  {
+    "taxon": {
+      "taxonid": 600488,
+      "scientificname": "Archontophoenix cunninghamiana (H.Wendl.) H.Wendl. & Drude",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Archontophoenix",
+      "specificepithet": "cunninghamiana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(H.Wendl.) H.Wendl. & Drude",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Archontophoenix H.Wendl. & Drude;Archontophoenix cunninghamiana (H.Wendl.) H.Wendl. & Drude",
+      "source": "Soares, K.P., Lorenzi, H., Vianna, S.A., Leitman, P.M., Heiden, G., Moraes R., M., Martins, R.C., Campos-Rocha, A., Ellert-Pereira, P.E., Eslabão, M.P. Arecaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600488\">https://floradobrasil2020.jbrj.gov.br/FB600488</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Esp&amp;eacute;cie nativa da Austr&amp;aacute;lia (&lt;a href=&quot;https://powo.science.kew.org/taxon/134734-3&quot;&gt;https://powo.science.kew.org/taxon/134734-3&lt;/a&gt;) e cultivada no arboreto do Jardim Bot&amp;acirc;nico do Rio de Janeiro.",
+      "parentnameusage": "Archontophoenix H.Wendl. & Drude",
+      "parentnameusageid": 593074,
+      "originalnameusageid": "595388",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600488",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-05-15 09:42:27.543"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "palmeira-ciaforte",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "seafórtia",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 596520,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Jessenia amazonum Drude"
+      },
+      {
+        "relatedresourceid": 595313,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loroma amethystina O.F.Cook"
+      },
+      {
+        "relatedresourceid": 599042,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Loroma cunninghamiana (H.Wendl.) O.F.Cook"
+      },
+      {
+        "relatedresourceid": 595388,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Ptychosperma cunninghamianum H.Wendl."
+      }
+    ],
+    "voucher": []
+  }
+]

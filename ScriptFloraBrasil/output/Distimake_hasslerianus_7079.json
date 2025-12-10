@@ -1,0 +1,87 @@
+[
+  {
+    "taxon": {
+      "taxonid": 603916,
+      "scientificname": "Distimake hasslerianus (Chodat) A.R. Simões & Staples",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Convolvulaceae",
+      "genus": "Distimake",
+      "specificepithet": "hasslerianus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Chodat) A.R. Simões & Staples",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Convolvulaceae Juss.;Distimake Raf.;Distimake hasslerianus (Chodat) A.R. Simões & Staples",
+      "source": "Petrongari, F.S., Simões, A.R. 2020. Distimake in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB603916\">https://floradobrasil2020.jbrj.gov.br/FB603916</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Distimake Raf.",
+      "parentnameusageid": 603005,
+      "originalnameusageid": "126531",
+      "namepublishedin": "Bot. J. Linn. Soc. 183(4): 574 2017",
+      "namepublishedinyear": "2017",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB603916",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Petrongari, F.S., Simões, A.R. Distimake in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB603916>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-14 18:28:12.571"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Simões, A.R. & Staples, G.,Bot. J. Linn. Soc.,183(4): 574,2017"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 126530,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Merremia hassleriana (Chodat) Hassl."
+      },
+      {
+        "relatedresourceid": 126531,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Ipomoea hassleriana Chodat"
+      }
+    ],
+    "voucher": []
+  }
+]

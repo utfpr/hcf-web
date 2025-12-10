@@ -1,0 +1,131 @@
+[
+  {
+    "taxon": {
+      "taxonid": 603046,
+      "scientificname": "Pleroma raddianum (DC.) Gardner",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Pleroma",
+      "specificepithet": "raddianum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(DC.) Gardner",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Pleroma D.Don;Pleroma raddianum (DC.) Gardner",
+      "source": "Guimarães, P.J.F. 2020. Pleroma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB603046\">https://floradobrasil2020.jbrj.gov.br/FB603046</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pleroma D.Don",
+      "parentnameusageid": 134028,
+      "originalnameusageid": "637873",
+      "namepublishedin": "Mem. Mat. Fis. Soc. Ital. Sci. Modena, Pt. Mem. Fis. 18(2): 38 1820",
+      "namepublishedinyear": "1820",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB603046",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Guimarães, P.J.F. Pleroma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB603046>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-09-13 13:35:19.974"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gardner, G.,London J. Bot.,2: 351,1843"
+      },
+      {
+        "reference": "Raddi, G.,Mem. Mat. Fis. Soc. Ital. Sci. Modena, Pt. Mem. Fis.,18(2): 38,1820"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 134376,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tibouchina raddiana (DC.) Cogn."
+      },
+      {
+        "relatedresourceid": 637873,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Lasiandra raddiana DC."
+      },
+      {
+        "relatedresourceid": 637890,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhexia uniflora Raddi"
+      },
+      {
+        "relatedresourceid": 9951,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tibouchina pulchra Cogn."
+      },
+      {
+        "relatedresourceid": 79328,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tibouchina petroniana Cogn."
+      },
+      {
+        "relatedresourceid": 114843,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tibouchina saldanhaei Cogn."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "taxon": {
+      "taxonid": 34942,
+      "scientificname": "Carex sororia Kunth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Carex",
+      "specificepithet": "sororia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Carex L.;Carex sororia Kunth",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34942>http://floradobrasil2015.jbrj.gov.br/FB34942</a>)<br><br>Jiménez-Mejías, P., Pereira-Silva, L. 2020. Carex in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34942\">https://floradobrasil2020.jbrj.gov.br/FB34942</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Hoff Silveira G., Longhi-Wagner H.M. 2012. O g&amp;ecirc;nero &lt;em&gt;Carex &lt;/em&gt;L. (Cyperaceae) no Rio Grande do Sul, Brasil. Revista Basileira de Bioci&amp;ecirc;ncias 10: 373-417.\r\nWheeler, G.A. 2002. &lt;em&gt;Carex &lt;/em&gt;(Cyperaceae) from South America: three new species and some name changes. Darwiniana 40: 199-208.",
+      "parentnameusage": "Carex L.",
+      "parentnameusageid": 7161,
+      "originalnameusageid": null,
+      "namepublishedin": "Enum. Pl. [Kunth] 2: 379 1837",
+      "namepublishedinyear": "1837",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34942",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jiménez-Mejías, P., Pereira-Silva, L. Carex in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34942>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-27 09:28:56.338"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Kunth,Enum. Pl. [Kunth],2: 379,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34907,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Carex apiahyensis Palla"
+      },
+      {
+        "relatedresourceid": 49071,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Carex involucrata var. submuricata C.B.Clarke ex Kük."
+      },
+      {
+        "relatedresourceid": 34943,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Carex sororia Kunth var. sororia"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Jarenkow 928",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM207106",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229520017",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lindeman, JC 450",
+        "collectioncode": "UB",
+        "catalognumber": "UB0005949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100359685",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 7355",
+        "collectioncode": "NY",
+        "catalognumber": "NY00622480",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228547489",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lindeman, JC 450",
+        "collectioncode": "UB",
+        "catalognumber": "UB0005949",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0005949",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, LA 3839",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB50372",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB50372",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 928",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM207106",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM207106",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 7355",
+        "collectioncode": "NY",
+        "catalognumber": "NY00622480",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00622480",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, LA 3839",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB50372",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227041617",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34943,
+      "scientificname": "Carex sororia Kunth var. sororia",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Carex",
+      "specificepithet": "sororia",
+      "infraspecificepithet": "sororia",
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": "Carex sororia Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Carex L.;Carex sororia Kunth;Carex sororia Kunth var. sororia",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34943>http://floradobrasil2015.jbrj.gov.br/FB34943</a>)<br><br>Jiménez-Mejías, P., Pereira-Silva, L. 2020. Carex in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34943\">https://floradobrasil2020.jbrj.gov.br/FB34943</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Carex sororia Kunth",
+      "parentnameusageid": 34942,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34943",
+      "acceptednameusageid": 34942,
+      "bibliographiccitation_how_to_cite": "Jiménez-Mejías, P., Pereira-Silva, L. Carex in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34943>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 21:33:58.637"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34942,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Carex sororia Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49106,
+      "scientificname": "Carex sororia var. involucrata Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Carex",
+      "specificepithet": "sororia",
+      "infraspecificepithet": "involucrata",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Carex fossa G. A. Wheeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Carex L.;Carex sororia Kunth;Carex sororia var. involucrata Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49106>http://floradobrasil2015.jbrj.gov.br/FB49106</a>)<br><br>Jiménez-Mejías, P., Pereira-Silva, L. 2020. Carex in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49106\">https://floradobrasil2020.jbrj.gov.br/FB49106</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Carex sororia Kunth",
+      "parentnameusageid": 34942,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49106",
+      "acceptednameusageid": 130220,
+      "bibliographiccitation_how_to_cite": "Jiménez-Mejías, P., Pereira-Silva, L. Carex in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49106>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-03-14 08:17:19.973"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler) IV, 20(38): 150,1909"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 130220,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Carex fossa G. A. Wheeler"
+      },
+      {
+        "relatedresourceid": 606158,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Carex involucrata Boott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49107,
+      "scientificname": "Carex sororia subsp. uruguensis (Boeckeler) Luceño & M.Alves",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Carex",
+      "specificepithet": "sororia",
+      "infraspecificepithet": "uruguensis",
+      "scientificnameauthorship": "(Boeckeler) Luceño & M.Alves",
+      "acceptednameusage": "Carex uruguensis Boeckeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Carex L.;Carex sororia Kunth;Carex sororia subsp. uruguensis (Boeckeler) Luceño & M.Alves",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49107>http://floradobrasil2015.jbrj.gov.br/FB49107</a>)<br><br>Jiménez-Mejías, P., Pereira-Silva, L. 2020. Carex in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49107\">https://floradobrasil2020.jbrj.gov.br/FB49107</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Carex sororia Kunth",
+      "parentnameusageid": 34942,
+      "originalnameusageid": null,
+      "namepublishedin": "Anales Jard. Bot. Madrid 57: 173 1999",
+      "namepublishedinyear": "1999",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49107",
+      "acceptednameusageid": 34945,
+      "bibliographiccitation_how_to_cite": "Jiménez-Mejías, P., Pereira-Silva, L. Carex in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49107>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-06-21 19:20:55.287"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Luceño & M.Alves,Anales Jard. Bot. Madrid,57: 173,1999"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34945,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Carex uruguensis Boeckeler"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,960 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13145,
+      "scientificname": "Cynodon dactylon (L.) Pers.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Pers.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.",
+      "source": "Filgueiras, T.S.,Valls, J.F.M. 2015. Cynodon in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13145>http://floradobrasil2015.jbrj.gov.br/FB13145</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.1. p.528-530.\r\nFlora Brasiliensis. &lt;span class=&quot;normal&quot;&gt;Vol. II, Part III, Fasc. 79 Coluna 77 - 78 Publicado em 01-Set-1878. &lt;/span&gt; &lt;span class=&quot;sp&quot;&gt;Gramineae (Poaceae)&lt;/span&gt; &lt;span class=&quot;sptag&quot;&gt;Tribo&lt;/span&gt; &lt;span class=&quot;sp&quot;&gt;Chlorideae&lt;/span&gt; &lt;span class=&quot;sptag&quot;&gt;G&amp;ecirc;nero&lt;/span&gt; &lt;span class=&quot;sp&quot;&gt;Cynodon&lt;/span&gt; &lt;span class=&quot;normal&quot;&gt;Rich.&lt;/span&gt; &lt;em&gt;&lt;span class=&quot;sp&quot;&gt;Cynodon&lt;/span&gt; &lt;span class=&quot;sp&quot;&gt;dactylon&lt;/span&gt;&lt;/em&gt; &lt;span class=&quot;normal&quot;&gt;Pers.&lt;/span&gt;\r\nPeterson, P.M.; Soreng, R.J.; Davidse, G.; Filgueiras, T.S.; Zuloaga, F.O.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): II. Subfamily Chloridoideae. Contributions from the United States National Herbarium. 41: 1-256, 2001. (p.59).",
+      "parentnameusage": "Cynodon Rich.",
+      "parentnameusageid": 13144,
+      "originalnameusageid": "615074",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13145",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-29 11:15:05.073"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Palmeiral",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "capim-de-burro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "capim-da-cidade",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "capim-seda",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "pé-de-galinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 615074,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Panicum dactylon L."
+      },
+      {
+        "relatedresourceid": 615095,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fibichia umbellata Koeler"
+      },
+      {
+        "relatedresourceid": 615083,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon linearis Willd."
+      },
+      {
+        "relatedresourceid": 615084,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon stellatus Willd."
+      },
+      {
+        "relatedresourceid": 615085,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon pascuus Nees"
+      },
+      {
+        "relatedresourceid": 615087,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Capriola dactylon (L.) Kuntze"
+      },
+      {
+        "relatedresourceid": 615089,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dactilon officinale Vill."
+      },
+      {
+        "relatedresourceid": 615101,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon aristulatus Caro & E.A.Sánchez"
+      },
+      {
+        "relatedresourceid": 615109,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon dactylon var. elegans Rendle"
+      },
+      {
+        "relatedresourceid": 615090,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Digitaria dactylon (L.) Scop."
+      },
+      {
+        "relatedresourceid": 615091,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Digitaria stolonifera Schrad."
+      },
+      {
+        "relatedresourceid": 615096,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Paspalum dactylon (L.) Lam."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.C.Allem et al. 2434",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002637",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226304316",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.C.Lindeman & J.H.Haas 484",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651074",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228727647",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.Klein 16001",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC048410",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC048410",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Hatschbach & P.Pelanda 35114",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM031992",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM031992",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Hatschbach & P.Pelanda 35114",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC048412",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC048412",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C.Allem et al. 2346",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002549",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00002549",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.C.Lindeman & J.H.Haas 484",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651074",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00651074",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C.Allem et al. 2434",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002637",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00002637",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Hatschbach & P.Pelanda 35114",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM031992",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229636425",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C.Allem et al. 2346",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00002549",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226304282",
+        "locality": "MS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 615075,
+      "scientificname": "Cynodon dactylon var. biflorus Merino",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "biflorus",
+      "scientificnameauthorship": "Merino",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. biflorus Merino",
+      "source": "Peterson, P.M.; Soreng, R.J.; Davidse, G.; Filgueiras, T.S.; Zuloaga, F.O.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): II. Subfamily Chloridoideae. Contributions from the United States National Herbarium. 41: 1-256, 2001. (p.60).",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615075",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-28 13:23:50.874"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615077,
+      "scientificname": "Cynodon dactylon var. pilosus Caro & E.A.Sánchez",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "pilosus",
+      "scientificnameauthorship": "Caro & E.A.Sánchez",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. pilosus Caro & E.A.Sánchez",
+      "source": "Peterson, P.M.; Soreng, R.J.; Davidse, G.; Filgueiras, T.S.; Zuloaga, F.O.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): II. Subfamily Chloridoideae. Contributions from the United States National Herbarium. 41: 1-256, 2001. (p.60).",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615077",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-28 13:38:57.345"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615078,
+      "scientificname": "Cynodon dactylon var. hirsutissimus Litard. & Maire",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "hirsutissimus",
+      "scientificnameauthorship": "Litard. & Maire",
+      "acceptednameusage": "Cynodon hirsutissimus (Litard. & Maire) Caro & E.A.Sánchez",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. hirsutissimus Litard. & Maire",
+      "source": "Peterson, P.M.; Soreng, R.J.; Davidse, G.; Filgueiras, T.S.; Zuloaga, F.O.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): II. Subfamily Chloridoideae. Contributions from the United States National Herbarium. 41: 1-256, 2001. (p.61).\r\nO t&amp;aacute;xon infraespec&amp;iacute;fico do basi&amp;ocirc;nimo &amp;eacute;, efetivamente, &quot;&lt;strong&gt;subvar.&lt;/strong&gt;&quot;.",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": "111620",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615078",
+      "acceptednameusageid": 111620,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-28 13:56:01.128"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 111620,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Cynodon hirsutissimus (Litard. & Maire) Caro & E.A.Sánchez"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615079,
+      "scientificname": "Cynodon dactylon var. hirsutissimus (Litard. & Maire) Maire",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "hirsutissimus",
+      "scientificnameauthorship": "(Litard. & Maire) Maire",
+      "acceptednameusage": "Cynodon hirsutissimus (Litard. & Maire) Caro & E.A.Sánchez",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. hirsutissimus (Litard. & Maire) Maire",
+      "source": "Peterson, P.M.; Soreng, R.J.; Davidse, G.; Filgueiras, T.S.; Zuloaga, F.O.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): II. Subfamily Chloridoideae. Contributions from the United States National Herbarium. 41: 1-256, 2001. (p.61).",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615079",
+      "acceptednameusageid": 111620,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-28 13:55:38.266"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 111620,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Cynodon hirsutissimus (Litard. & Maire) Caro & E.A.Sánchez"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615106,
+      "scientificname": "Cynodon dactylon var. aridus J.R.Harlan & de Wet",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "aridus",
+      "scientificnameauthorship": "J.R.Harlan & de Wet",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. aridus J.R.Harlan & de Wet",
+      "source": "",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615106",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-29 11:03:51.262"
+    },
+    "distribuition": [
+      {
+        "countrycode": null,
+        "locationid": null,
+        "establishmentmeans": null,
+        "occurrenceremarks": {}
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615107,
+      "scientificname": "Cynodon dactylon var. coursii (A.Camus) J.R.Harlan & de Wet",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "coursii",
+      "scientificnameauthorship": "(A.Camus) J.R.Harlan & de Wet",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. coursii (A.Camus) J.R.Harlan & de Wet",
+      "source": "",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": "615108",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615107",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-29 11:15:00.666"
+    },
+    "distribuition": [
+      {
+        "countrycode": null,
+        "locationid": null,
+        "establishmentmeans": null,
+        "occurrenceremarks": {}
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 615108,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cynodon coursii A.Camus"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615109,
+      "scientificname": "Cynodon dactylon var. elegans Rendle",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Cynodon",
+      "specificepithet": "dactylon",
+      "infraspecificepithet": "elegans",
+      "scientificnameauthorship": "Rendle",
+      "acceptednameusage": "Cynodon dactylon (L.) Pers.",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Chloridoideae Kunth ex Beilschm.;Cynodon Rich.;Cynodon dactylon (L.) Pers.;Cynodon dactylon var. elegans Rendle",
+      "source": "",
+      "parentnameusage": "Cynodon dactylon (L.) Pers.",
+      "parentnameusageid": 13145,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615109",
+      "acceptednameusageid": 13145,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-08-29 11:33:55.391"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 13145,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cynodon dactylon (L.) Pers."
+      }
+    ],
+    "voucher": []
+  }
+]

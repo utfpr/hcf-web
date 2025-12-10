@@ -1,0 +1,547 @@
+[
+  {
+    "taxon": {
+      "taxonid": 80029,
+      "scientificname": "Mangifera indica L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Anacardiaceae",
+      "genus": "Mangifera",
+      "specificepithet": "indica",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Anacardiaceae R.Br.;Mangifera L.;Mangifera indica L.",
+      "source": "Silva-Luz, C.L.,Pirani, J.R. 2015. Anacardiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB80029>http://floradobrasil2015.jbrj.gov.br/FB80029</a>)<br><br>Silva-Luz, C.L., Pirani, J.R., Pell, S.K., Mitchell, J.D. Anacardiaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB80029\">https://floradobrasil2020.jbrj.gov.br/FB80029</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.5. p.87-88.\r\nLorenzi, H.; Bacher, L.B.; Lacerda, M.; Sartori, S. Frutas brasileiras e ex&amp;oacute;ticas cultivadas (de consumo in natura). S&amp;atilde;o Paulo, Instituto Plantarum de estudos da flora, 2006. 672p. (p.318-352).\r\nVan Wyk, B.E. Food plants of the world: an illustrated guide. Timber Press, Inc., Portland, USA, 2005. 480p. (p.240).",
+      "parentnameusage": "Mangifera L.",
+      "parentnameusageid": 80027,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 1:200 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB80029",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-02-28 11:06:35.514"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "manga",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mangueira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mango",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mango",
+        "language_vernacularname": "ESPANHOL",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,1:200,1753"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "L. Krieger CESJ2073",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ002073",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226081474",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS003966",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271260534",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.P. Mosca 30",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00002586",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100430787",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3846",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032098",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226327708",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3846",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00134826",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99933007",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000092",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226129687",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.M. Nogueira s.n.",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0060565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226710919",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Rossi s.n.",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00043937",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99932761",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Darlan s.n.",
+        "collectioncode": "DVPR",
+        "catalognumber": "DVPR000021",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226615245",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.H. Fernandes & J.B. Pereira 141",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00083527",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226332816",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM100574",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM100574",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.C.V. Souza 16",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0234423",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0234423",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.A.S. Graça 15662",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0022817",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0022817",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS003966",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS003966",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000092",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI000092",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00009480",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00009480",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 557",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0076063",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0076063",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Darlan s.n.",
+        "collectioncode": "DVPR",
+        "catalognumber": "DVPR000021",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/DVPR000021",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Gély 472",
+        "collectioncode": "MG",
+        "catalognumber": "MG124020",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MG124020",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Krieger CESJ2073",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ002073",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CESJ002073",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.P. Mosca 30",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00002586",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00002586",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3846",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00134826",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00134826",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.H. Fernandes & J.B. Pereira 141",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00083527",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00083527",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3846",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032098",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00032098",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Rossi s.n.",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00043937",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00043937",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Gély 472",
+        "collectioncode": "MG",
+        "catalognumber": "MG130139",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MG130139",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.M. Nogueira s.n.",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0060565",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0060565",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00009480",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226409645",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 2239",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM100574",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229472373",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Gély 472",
+        "collectioncode": "MG",
+        "catalognumber": "MG124020",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271949192",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Gély 472",
+        "collectioncode": "MG",
+        "catalognumber": "MG130139",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271953332",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.A.S. Graça 15662",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0022817",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225947387",
+        "locality": "SE",
+        "typestatus": null
+      }
+    ]
+  }
+]

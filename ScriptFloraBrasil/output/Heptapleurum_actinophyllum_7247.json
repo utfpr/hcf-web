@@ -1,0 +1,112 @@
+[
+  {
+    "taxon": {
+      "taxonid": 608687,
+      "scientificname": "Heptapleurum actinophyllum (Endl.) Lowry & G.M.Plunkett",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Araliaceae",
+      "genus": "Heptapleurum",
+      "specificepithet": "actinophyllum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Endl.) Lowry & G.M.Plunkett",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araliaceae Juss.;Heptapleurum Gaertn.;Heptapleurum actinophyllum (Endl.) Lowry & G.M.Plunkett",
+      "source": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB608687\">https://floradobrasil2020.jbrj.gov.br/FB608687</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Lorenzi, H. Plantas para jardim no Brasil: herb&amp;aacute;ceas, arbustivas e trepadeiras. Nova Odessa, SP: Instituto Plantarum, 2013. p.269.",
+      "parentnameusage": "Heptapleurum Gaertn.",
+      "parentnameusageid": 43335,
+      "originalnameusageid": "606982",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB608687",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB608687>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-05-14 16:01:57.817"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Hemiepífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cheflera",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "árvore-guarda-chuva",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "árvore-polvo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 80525,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Schefflera actinophylla (Endl.) Harms"
+      },
+      {
+        "relatedresourceid": 606982,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Brassaia actinophylla Endl."
+      }
+    ],
+    "voucher": []
+  }
+]

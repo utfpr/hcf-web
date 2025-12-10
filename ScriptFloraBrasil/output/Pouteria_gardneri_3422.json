@@ -1,0 +1,714 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14502,
+      "scientificname": "Pouteria gardneri (Mart. & Miq.) Baehni",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sapotaceae",
+      "genus": "Pouteria",
+      "specificepithet": "gardneri",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart. & Miq.) Baehni",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Sapotaceae Juss.;Pouteria Aubl.;Pouteria gardneri (Mart. & Miq.) Baehni",
+      "source": "Alves-Araujo, A. 2015. Pouteria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14502>http://floradobrasil2015.jbrj.gov.br/FB14502</a>)<br><br>Alves-Araújo, A. 2020. Pouteria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14502\">https://floradobrasil2020.jbrj.gov.br/FB14502</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0cm 0cm 0.0001pt 18pt; text-align: justify; text-indent: -18pt;&quot;&gt;Alves-Ara&amp;uacute;jo, A., Swenson, U. &amp;amp; M.Alves. 2014. &lt;span lang=&quot;EN-US&quot;&gt;A Taxonomic Survey of &lt;em&gt;Pouteria&lt;/em&gt; (Sapotaceae) from the Northern Portion of the Atlantic Rainforest of Brazil. &lt;/span&gt;&lt;em&gt;Systematic Botany&lt;/em&gt; 39 (3): 915&amp;ndash;938.",
+      "parentnameusage": "Pouteria Aubl.",
+      "parentnameusageid": 14492,
+      "originalnameusageid": "75510",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14502",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Alves-Araújo, A., Nichio-Amaral, R. Pouteria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14502>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-08-06 15:28:50.48"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Igapó",
+        "Floresta de Várzea",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Perenifólia",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "imbiridiba-preta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "leitero-folha-miuda",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SC"
+      },
+      {
+        "vernacularname": "massaranduba-vermelha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Maranhão"
+      },
+      {
+        "vernacularname": "sapotinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Maranhão"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Candollea,9: 233,1942"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14512,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pouteria peduncularis (Mart. & Eichler ex Miq.) Baehni"
+      },
+      {
+        "relatedresourceid": 76002,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Podoluma peduncularis (Mart. & Eichler ex Miq.) Aubrév."
+      },
+      {
+        "relatedresourceid": 75738,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lucuma gardneri (Mart. & Eichler ex Miq.) Engl."
+      },
+      {
+        "relatedresourceid": 75727,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lucuma catocladantha Eichler"
+      },
+      {
+        "relatedresourceid": 76317,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vitellaria catocladantha (Eichler) Engl."
+      },
+      {
+        "relatedresourceid": 75779,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lucuma paraguariensis Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 75587,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Discoluma gardneri (Mart. & Eichler ex Miq.) Baill."
+      },
+      {
+        "relatedresourceid": 75510,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Chrysophyllum gardneri Mart. & Eichler ex Miq."
+      },
+      {
+        "relatedresourceid": 76025,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pouteria catocladantha (Eichler) Baehni"
+      },
+      {
+        "relatedresourceid": 75782,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lucuma peduncularis Mart. & Eichler ex Miq."
+      },
+      {
+        "relatedresourceid": 75998,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Podoluma gardneri (Mart. & Eichler ex Miq.) Aubrév."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Gomes, LA 1033",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0032016",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0032016",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, LA 1033",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0032016",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225963849",
+        "locality": "SE",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 14503,
+      "scientificname": "Pouteria gardneriana (A.DC.) Radlk.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sapotaceae",
+      "genus": "Pouteria",
+      "specificepithet": "gardneriana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(A.DC.) Radlk.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Sapotaceae Juss.;Pouteria Aubl.;Pouteria gardneriana (A.DC.) Radlk.",
+      "source": "Alves-Araujo, A. 2015. Pouteria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14503>http://floradobrasil2015.jbrj.gov.br/FB14503</a>)<br><br>Alves-Araújo, A. 2020. Pouteria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14503\">https://floradobrasil2020.jbrj.gov.br/FB14503</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Monteiro, M.H.D.A, Neves, L.J &amp;amp; Andreata, R.H.P. 2007.Taxonomia e anatomia das espécies de Pouteria Aublet (Sapotaceae) do estado do Rio de Janeiro, Brasil. Pesquisas, Botânica 58: 7-118.\r\nMonteiro, M.H.D.A, Neves, L.J &amp;amp; Andreata, R.H.P. 2007. Levantamento e distribuição das espécies de Pouteria Aubl. (Sapotaceae) do Estado do Rio de Janeiro, Brasil. Revista Brasileira de Biociências 5, supl. 2: 369-371, jul.",
+      "parentnameusage": "Pouteria Aubl.",
+      "parentnameusageid": 14492,
+      "originalnameusageid": "75739",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14503",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Alves-Araújo, A., Nichio-Amaral, R. Pouteria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14503>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-08-11 15:50:51.897"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "aguai",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "RJ"
+      },
+      {
+        "vernacularname": "cuti-guaçu",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "RS"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Sitzungsber. Math.-Phys. Cl. Königl. Bayer. Akad. Wiss. München,12: 333,1882"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 76028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pouteria ciliolata (Engl.) Dubard"
+      },
+      {
+        "relatedresourceid": 75698,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Labatia lanceolata (Raunk. ex Warm.) Engl."
+      },
+      {
+        "relatedresourceid": 75703,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Labatia ostenii Hassl."
+      },
+      {
+        "relatedresourceid": 75711,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Labatia sapota-anguai Rojas"
+      },
+      {
+        "relatedresourceid": 76125,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pouteria salicifolia var. ciliolata (Engl.) Baehni"
+      },
+      {
+        "relatedresourceid": 76145,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pouteria suavis Hemsl."
+      },
+      {
+        "relatedresourceid": 75693,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Labatia ciliolata Engl."
+      },
+      {
+        "relatedresourceid": 75739,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Lucuma gardneriana A.DC."
+      },
+      {
+        "relatedresourceid": 75757,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lucuma lanceolata Raunk. ex Warm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Gardner 2228",
+        "collectioncode": "K",
+        "catalognumber": "P00647919",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00647919",
+        "locality": "PI",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 2228",
+        "collectioncode": "K",
+        "catalognumber": "P00647919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228062931",
+        "locality": "PI",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

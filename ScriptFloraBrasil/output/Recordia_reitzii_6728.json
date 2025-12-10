@@ -1,0 +1,154 @@
+[
+  {
+    "taxon": {
+      "taxonid": 129869,
+      "scientificname": "Recordia reitzii (Moldenke) N.O'Leary & V.Thode",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Recordia",
+      "specificepithet": "reitzii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Moldenke) N.O'Leary & V.Thode",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Recordia Moldenke;Recordia reitzii (Moldenke) N.O'Leary & V.Thode",
+      "source": "Salimena, F.R.G.,Thode, V.,Mulgura, M.,O'Leary, N.,França, F.,Silva, T.R.S.,Souza, V.C. 2015. Verbenaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB129869>http://floradobrasil2015.jbrj.gov.br/FB129869</a>)<br><br>O’Leary, N., Thode, V.A. 2020. Recordia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB129869\">https://floradobrasil2020.jbrj.gov.br/FB129869</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).THODE, V.A. et al. 2013. Phylogenetic position of the monotypic genus &lt;em&gt;Verbenoxylum&lt;/em&gt; (Verbenaceae) and new combination under &lt;em&gt;Recordia.&lt;/em&gt; Systematic Botany 38: 805-817.",
+      "parentnameusage": "Recordia Moldenke",
+      "parentnameusageid": 129868,
+      "originalnameusageid": "15218",
+      "namepublishedin": "Phytologia 3: 59 1949",
+      "namepublishedinyear": "1949",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB129869",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Thode, V.A. Recordia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB129869>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-10-07 15:12:24.502"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Thode, V. A.,Systematic Botany,38: 805-817,2013"
+      },
+      {
+        "reference": "Moldenke, H.N.,Phytologia,3: 59,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15218,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbenoxylum reitzii (Moldenke) Tronc."
+      },
+      {
+        "relatedresourceid": 76699,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Citharexylum reitzii Moldenke"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 71780",
+        "collectioncode": "K",
+        "catalognumber": "K000925071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227356215",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz c175",
+        "collectioncode": "NY",
+        "catalognumber": "NY00137281",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00137281",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 2779",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03733",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB03733",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz c175",
+        "collectioncode": "NY",
+        "catalognumber": "NY00232974",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00232974",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 71780",
+        "collectioncode": "K",
+        "catalognumber": "K000925071",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000925071",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 2779",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03733",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226944915",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz c175",
+        "collectioncode": "NY",
+        "catalognumber": "NY00137281",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228087977",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz c175",
+        "collectioncode": "NY",
+        "catalognumber": "NY00232974",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228091323",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

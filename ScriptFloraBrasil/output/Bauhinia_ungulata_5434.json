@@ -1,0 +1,739 @@
+[
+  {
+    "taxon": {
+      "taxonid": 22831,
+      "scientificname": "Bauhinia ungulata L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "specificepithet": "ungulata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Bauhinia L.;Bauhinia ungulata L.",
+      "source": "Vaz, A.M.S.F. 2015. Bauhinia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB22831>http://floradobrasil2015.jbrj.gov.br/FB22831</a>)<br><br>Vaz, A.M.S.F. 2020. Bauhinia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB22831\">https://floradobrasil2020.jbrj.gov.br/FB22831</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Vaz, A.M.S. da F. 2003. Flora dos estados de Gio&amp;aacute;s e Tocantins. In Rizzo, J. A. coord.&amp;nbsp; vol.30:94-99. ilustr. 107.&amp;nbsp;",
+      "parentnameusage": "Bauhinia L.",
+      "parentnameusageid": 22811,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22831",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vaz, A.M.S.F., Santos, A.C.B. Bauhinia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB22831>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-05-09 19:07:39.106"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore",
+        "Subarbusto"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "mororó-vermelho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 598834,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia hiemalis Malme"
+      },
+      {
+        "relatedresourceid": 637494,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pauletia ungulata (L.) A.Schmitz"
+      },
+      {
+        "relatedresourceid": 637497,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Cansenia ungulata (L.) Raf."
+      },
+      {
+        "relatedresourceid": 637435,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pauletia angulicaulis (Harms) A.Schmitz"
+      },
+      {
+        "relatedresourceid": 594815,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia angulicaulis Harms"
+      },
+      {
+        "relatedresourceid": 595069,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia cataholo Hoehne"
+      },
+      {
+        "relatedresourceid": 600241,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia chapadensis Malme"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Pires, J. M. 9941",
+        "collectioncode": "NY",
+        "catalognumber": "NY01135170",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01135170",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, B.A.S.  et Alvarenga, D. 3030",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA057813",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA057813",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Calderón, C.E. et al. 2523",
+        "collectioncode": "NY",
+        "catalognumber": "NY01135179",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01135179",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Calderón, C.E. et al. 2523",
+        "collectioncode": "NY",
+        "catalognumber": "NY01135179",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228788575",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pires, J. M. 9941",
+        "collectioncode": "NY",
+        "catalognumber": "NY01135170",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228788557",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, B.A.S.  et Alvarenga, D. 3030",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA057813",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226780453",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 36266,
+      "scientificname": "Bauhinia ungulata var. cuiabensis (Bong.) Vaz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "specificepithet": "ungulata",
+      "infraspecificepithet": "cuiabensis",
+      "scientificnameauthorship": "(Bong.) Vaz",
+      "acceptednameusage": "Bauhinia ungulata L. var. ungulata",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Bauhinia L.;Bauhinia ungulata L.;Bauhinia ungulata var. cuiabensis (Bong.) Vaz",
+      "source": "Vaz, A.M.S.F. 2015. Bauhinia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB36266>http://floradobrasil2015.jbrj.gov.br/FB36266</a>)<br><br>Vaz, A.M.S.F. 2020. Bauhinia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB36266\">https://floradobrasil2020.jbrj.gov.br/FB36266</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bauhinia ungulata L.",
+      "parentnameusageid": 22831,
+      "originalnameusageid": "594828",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB36266",
+      "acceptednameusageid": 82693,
+      "bibliographiccitation_how_to_cite": "Vaz, A.M.S.F., Santos, A.C.B. Bauhinia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB36266>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-05-06 19:49:53.545"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Vaz, A.M.S.F. & Tozzi, A.M.G.A.,Rodriguésia,54(83): 55-143,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 82693,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia ungulata L. var. ungulata"
+      },
+      {
+        "relatedresourceid": 594828,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pauletia cuyabensis Bong."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 82691,
+      "scientificname": "Bauhinia ungulata var. obtusifolia (Ducke) Vaz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "specificepithet": "ungulata",
+      "infraspecificepithet": "obtusifolia",
+      "scientificnameauthorship": "(Ducke) Vaz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Bauhinia L.;Bauhinia ungulata L.;Bauhinia ungulata var. obtusifolia (Ducke) Vaz",
+      "source": "Vaz, A.M.S.F. 2015. Bauhinia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB82691>http://floradobrasil2015.jbrj.gov.br/FB82691</a>)<br><br>Vaz, A.M.S.F. 2020. Bauhinia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB82691\">https://floradobrasil2020.jbrj.gov.br/FB82691</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bauhinia ungulata L.",
+      "parentnameusageid": 22831,
+      "originalnameusageid": "78526",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82691",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vaz, A.M.S.F., Santos, A.C.B. Bauhinia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB82691>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-08-08 17:43:37.288"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta de Terra Firme"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 78526,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bauhinia macrostachya var. obtusifolia Ducke"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 82692,
+      "scientificname": "Bauhinia ungulata var. parvifolia (Ducke) Vaz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "specificepithet": "ungulata",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "(Ducke) Vaz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Bauhinia L.;Bauhinia ungulata L.;Bauhinia ungulata var. parvifolia (Ducke) Vaz",
+      "source": "Vaz, A.M.S.F. 2015. Bauhinia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB82692>http://floradobrasil2015.jbrj.gov.br/FB82692</a>)<br><br>Vaz, A.M.S.F. 2020. Bauhinia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB82692\">https://floradobrasil2020.jbrj.gov.br/FB82692</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bauhinia ungulata L.",
+      "parentnameusageid": 22831,
+      "originalnameusageid": "78527",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82692",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vaz, A.M.S.F., Santos, A.C.B. Bauhinia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB82692>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-08-08 17:53:30.49"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 78527,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bauhinia macrostachya var. parvifolia Ducke"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 82693,
+      "scientificname": "Bauhinia ungulata L. var. ungulata",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Bauhinia",
+      "specificepithet": "ungulata",
+      "infraspecificepithet": "ungulata",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Bauhinia L.;Bauhinia ungulata L.;Bauhinia ungulata L. var. ungulata",
+      "source": "Vaz, A.M.S.F. 2015. Bauhinia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB82693>http://floradobrasil2015.jbrj.gov.br/FB82693</a>)<br><br>Vaz, A.M.S.F. 2020. Bauhinia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB82693\">https://floradobrasil2020.jbrj.gov.br/FB82693</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bauhinia ungulata L.",
+      "parentnameusageid": 22831,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB82693",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vaz, A.M.S.F., Santos, A.C.B. Bauhinia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB82693>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-05-09 15:58:45.167"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 78525,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia macrostachya Benth."
+      },
+      {
+        "relatedresourceid": 637470,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pauletia macrostachya (Benth.) A.Schmitz"
+      },
+      {
+        "relatedresourceid": 78528,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia macrostachya var. tenuifolia Ducke"
+      },
+      {
+        "relatedresourceid": 36266,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bauhinia ungulata var. cuiabensis (Bong.) Vaz"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14098,
+      "scientificname": "Manettia cordifolia Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14098>http://floradobrasil2015.jbrj.gov.br/FB14098</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Macias, L.F.N. in&amp;eacute;d. Estudos Taxon&amp;ocirc;micos do g&amp;ecirc;nero Manettia Mutis ex L. (Rubiaceae) no Brasil, Paraguai, Argentina e Uruguai. Tese de doutorado, Universidade Estadual de Campinas, SP, 1998.",
+      "parentnameusage": "Manettia Mutis ex L.",
+      "parentnameusageid": 14093,
+      "originalnameusageid": "73236",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14098",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-09-17 23:20:39.831"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "coral",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Denkschr. Königl. Akad. Wiss. München,1823-1824: 95,1824"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 73234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia ignita var. glabra K.Schum."
+      },
+      {
+        "relatedresourceid": 20773,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia var. glabra (Cham. & Schltdl.) Standl."
+      },
+      {
+        "relatedresourceid": 73233,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Manettia ignita var. cordifolia (Mart.) K.Schum."
+      },
+      {
+        "relatedresourceid": 73232,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia ignita var. angustifolia K.Schum."
+      },
+      {
+        "relatedresourceid": 73219,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia var. paranensis (Standl.) I.C.Chung"
+      },
+      {
+        "relatedresourceid": 73236,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Manettia ignita var. micans K.Schum."
+      },
+      {
+        "relatedresourceid": 73235,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia ignita var. incana K.Schum."
+      },
+      {
+        "relatedresourceid": 73217,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia var. filiformis Wernham"
+      },
+      {
+        "relatedresourceid": 38953,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia splendens Regel"
+      },
+      {
+        "relatedresourceid": 38954,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia tomantha Standl."
+      },
+      {
+        "relatedresourceid": 73208,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia boliviana Wernham"
+      },
+      {
+        "relatedresourceid": 73225,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia glabra Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 73242,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia micans Poepp."
+      },
+      {
+        "relatedresourceid": 72890,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Guagnebina ignita Vell."
+      },
+      {
+        "relatedresourceid": 75332,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Vanessa cordifolia (Mart.) Raf."
+      },
+      {
+        "relatedresourceid": 73157,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lygistum ignitum (Vell.) Kuntze"
+      },
+      {
+        "relatedresourceid": 73158,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lygistum ignitum var. micans B.L.Rob."
+      },
+      {
+        "relatedresourceid": 73160,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lygistum micans (Poepp.) Rusby"
+      },
+      {
+        "relatedresourceid": 20772,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Manettia cordifolia Mart. var. cordifolia"
+      },
+      {
+        "relatedresourceid": 73205,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia attenuata Nees & Mart."
+      },
+      {
+        "relatedresourceid": 73227,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia grandiflora Miq."
+      },
+      {
+        "relatedresourceid": 73265,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia stipulosa Wernham"
+      },
+      {
+        "relatedresourceid": 73231,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia ignita (Vell.) K.Schum."
+      },
+      {
+        "relatedresourceid": 20771,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia var. attenuata (Nees & Mart.) Wernham"
+      },
+      {
+        "relatedresourceid": 73238,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manettia leianthiflora Griseb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20771,
+      "scientificname": "Manettia cordifolia var. attenuata (Nees & Mart.) Wernham",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "attenuata",
+      "scientificnameauthorship": "(Nees & Mart.) Wernham",
+      "acceptednameusage": "Manettia cordifolia Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. attenuata (Nees & Mart.) Wernham",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20771>http://floradobrasil2015.jbrj.gov.br/FB20771</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Macias, L.F.N. in&#233;d. Estudos Taxon&#244;micos do g&#234;nero Manettia Mutis ex L. (Rubiaceae) no Brasil, Paraguai, Argentina e Uruguai. Tese de doutorado, Universidade Estadual de Campinas, SP, 1998.",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20771",
+      "acceptednameusageid": 14098,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-12-30 20:54:04.185558"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Bot.,57(Suppl.): 20,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14098,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia Mart."
+      },
+      {
+        "relatedresourceid": 73205,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Manettia attenuata Nees & Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20772,
+      "scientificname": "Manettia cordifolia Mart. var. cordifolia",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "cordifolia",
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": "Manettia cordifolia Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia Mart. var. cordifolia",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20772>http://floradobrasil2015.jbrj.gov.br/FB20772</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20772",
+      "acceptednameusageid": 14098,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-06-09 07:01:54.877161"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14098,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Manettia cordifolia Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 20773,
+      "scientificname": "Manettia cordifolia var. glabra (Cham. & Schltdl.) Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "glabra",
+      "scientificnameauthorship": "(Cham. & Schltdl.) Standl.",
+      "acceptednameusage": "Manettia cordifolia Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. glabra (Cham. & Schltdl.) Standl.",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20773>http://floradobrasil2015.jbrj.gov.br/FB20773</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).World Checklist - Kew Gardens.",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20773",
+      "acceptednameusageid": 14098,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-12-30 21:06:50.319563"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(6): 171,1889"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14098,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia Mart."
+      },
+      {
+        "relatedresourceid": 73225,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Manettia glabra Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73216,
+      "scientificname": "Manettia cordifolia var. chrysoderma (Sprague) I.C.Chung",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "chrysoderma",
+      "scientificnameauthorship": "(Sprague) I.C.Chung",
+      "acceptednameusage": "Manettia chrysoderma Sprague",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. chrysoderma (Sprague) I.C.Chung",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73216>http://floradobrasil2015.jbrj.gov.br/FB73216</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Macias, L. Rubiaceae: Manettia. In: Wanderley, M.G.L. et al. (eds.) Flora Fanerog&#226;mica de S&#227;o Paulo vol. 5, p. 364-373.",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73216",
+      "acceptednameusageid": 14096,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-30 12:55:22.792947"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,17: 362,1968"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14096,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia chrysoderma Sprague"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73217,
+      "scientificname": "Manettia cordifolia var. filiformis Wernham",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "filiformis",
+      "scientificnameauthorship": "Wernham",
+      "acceptednameusage": "Manettia cordifolia Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. filiformis Wernham",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73217>http://floradobrasil2015.jbrj.gov.br/FB73217</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Macias, L.F.N. in&#233;d. Estudos Taxon&#244;micos do g&#234;nero Manettia Mutis ex L. (Rubiaceae) no Brasil, Paraguai, Argentina e Uruguai. Tese de doutorado, Universidade Estadual de Campinas, SP, 1998.",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73217",
+      "acceptednameusageid": 14098,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-12-28 12:30:49.841953"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Bot.,57(Suppl.): 20,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14098,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73218,
+      "scientificname": "Manettia cordifolia var. hassleriana (Chodat) I.C.Chung",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "hassleriana",
+      "scientificnameauthorship": "(Chodat) I.C.Chung",
+      "acceptednameusage": "Manettia tweedieana K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. hassleriana (Chodat) I.C.Chung",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73218>http://floradobrasil2015.jbrj.gov.br/FB73218</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73218",
+      "acceptednameusageid": 14108,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-30 13:01:28.169778"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,17: 362,1968"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14108,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia tweedieana K.Schum."
+      },
+      {
+        "relatedresourceid": 73228,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Manettia hassleriana Chodat"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73219,
+      "scientificname": "Manettia cordifolia var. paranensis (Standl.) I.C.Chung",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Manettia",
+      "specificepithet": "cordifolia",
+      "infraspecificepithet": "paranensis",
+      "scientificnameauthorship": "(Standl.) I.C.Chung",
+      "acceptednameusage": "Manettia cordifolia Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Manettia Mutis ex L.;Manettia cordifolia Mart.;Manettia cordifolia var. paranensis (Standl.) I.C.Chung",
+      "source": "Macias, L.,Firens, M. 2015. Manettia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73219>http://floradobrasil2015.jbrj.gov.br/FB73219</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Macias, L.F.N. in&amp;eacute;d. Estudos Taxon&amp;ocirc;micos do g&amp;ecirc;nero Manettia Mutis ex L. (Rubiaceae) no Brasil, Paraguai, Argentina e Uruguai. Tese de doutorado, Universidade Estadual de Campinas, SP, 1998.",
+      "parentnameusage": "Manettia cordifolia Mart.",
+      "parentnameusageid": 14098,
+      "originalnameusageid": "73251",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73219",
+      "acceptednameusageid": 14098,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2015-01-29 13:26:56.213"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Phytologia,17: 362,1968"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14098,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Manettia cordifolia Mart."
+      },
+      {
+        "relatedresourceid": 73251,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Manettia paranensis Standl."
+      }
+    ],
+    "voucher": []
+  }
+]

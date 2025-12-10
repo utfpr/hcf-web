@@ -1,0 +1,582 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15184,
+      "scientificname": "Petrea volubilis L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Petrea",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Petrea L.;Petrea volubilis L.",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Petrea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15184>http://floradobrasil2015.jbrj.gov.br/FB15184</a>)<br><br>Cardoso, P.H., Salimena, F.R.G. 2020. Petrea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15184\">https://floradobrasil2020.jbrj.gov.br/FB15184</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Petrea L.",
+      "parentnameusageid": 15183,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15184",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, P.H., Salimena, F.R.G. Petrea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15184>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-07-31 16:30:03.221"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaeus,Sp. Pl.,: 626,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 77118,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea kohautiana var. anomala Moldenke"
+      },
+      {
+        "relatedresourceid": 77131,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea racemosa var. alba Kuhlm. ex Moldenke"
+      },
+      {
+        "relatedresourceid": 77128,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea peruviana var. acuminata Moldenke"
+      },
+      {
+        "relatedresourceid": 77143,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis var. albiflora (Standl.) Moldenke"
+      },
+      {
+        "relatedresourceid": 77106,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea arborea Kunth"
+      },
+      {
+        "relatedresourceid": 77114,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea erecta Lodd."
+      },
+      {
+        "relatedresourceid": 77141,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea vincentina Turcz."
+      },
+      {
+        "relatedresourceid": 77144,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis var. pubescens Moldenke"
+      },
+      {
+        "relatedresourceid": 77110,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea atrocoerulea Moldenke"
+      },
+      {
+        "relatedresourceid": 77138,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea stapeliae Paxton"
+      },
+      {
+        "relatedresourceid": 77115,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea fragrantissima Rusby"
+      },
+      {
+        "relatedresourceid": 599208,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea denticulata Schrad."
+      },
+      {
+        "relatedresourceid": 77142,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis var. alba G.F.Freeman & W.G.Freeman"
+      },
+      {
+        "relatedresourceid": 77119,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea kohautiana var. pilosula Moldenke"
+      },
+      {
+        "relatedresourceid": 77107,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea arborea var. broadwayi Moldenke"
+      },
+      {
+        "relatedresourceid": 77104,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea amazonica Moldenke"
+      },
+      {
+        "relatedresourceid": 77125,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea nitidula Moldenke"
+      },
+      {
+        "relatedresourceid": 77123,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea mexicana Willd. ex Cham."
+      },
+      {
+        "relatedresourceid": 77117,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea kohautiana C.Presl"
+      },
+      {
+        "relatedresourceid": 77127,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea peruviana Moldenke"
+      },
+      {
+        "relatedresourceid": 77137,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea serrata C.Presl"
+      },
+      {
+        "relatedresourceid": 77139,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea subserrata Cham."
+      },
+      {
+        "relatedresourceid": 77112,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea colombiana Moldenke"
+      },
+      {
+        "relatedresourceid": 77133,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea riparia Moldenke"
+      },
+      {
+        "relatedresourceid": 77126,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea ovata M.Martens & Galeotti"
+      },
+      {
+        "relatedresourceid": 77103,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea algentryi Moldenke"
+      },
+      {
+        "relatedresourceid": 77132,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea retusa C.Presl"
+      },
+      {
+        "relatedresourceid": 77124,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea morii Moldenke"
+      },
+      {
+        "relatedresourceid": 77108,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea arborescens Archer ex Moldenke"
+      },
+      {
+        "relatedresourceid": 77140,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea swallenii Moldenke"
+      },
+      {
+        "relatedresourceid": 77134,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea rivularis Moldenke"
+      },
+      {
+        "relatedresourceid": 77130,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Petrea racemosa Nees"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 40343",
+        "collectioncode": "NY",
+        "catalognumber": "NY00573506",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00573506",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 40343",
+        "collectioncode": "NY",
+        "catalognumber": "NY00573506",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228109799",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 77142,
+      "scientificname": "Petrea volubilis var. alba G.F.Freeman & W.G.Freeman",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Petrea",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "alba",
+      "scientificnameauthorship": "G.F.Freeman & W.G.Freeman",
+      "acceptednameusage": "Petrea volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Petrea L.;Petrea volubilis L.;Petrea volubilis var. alba G.F.Freeman & W.G.Freeman",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Petrea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77142>http://floradobrasil2015.jbrj.gov.br/FB77142</a>)<br><br>Cardoso, P.H., Salimena, F.R.G. 2020. Petrea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77142\">https://floradobrasil2020.jbrj.gov.br/FB77142</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Petrea volubilis L.",
+      "parentnameusageid": 15184,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77142",
+      "acceptednameusageid": 15184,
+      "bibliographiccitation_how_to_cite": "Cardoso, P.H., Salimena, F.R.G. Petrea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77142>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-03-06 13:42:09.418"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mem. Dept. Agric. Trinidad & Tobago,1928: 127,1928"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15184,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77143,
+      "scientificname": "Petrea volubilis var. albiflora (Standl.) Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Petrea",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "albiflora",
+      "scientificnameauthorship": "(Standl.) Moldenke",
+      "acceptednameusage": "Petrea volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Petrea L.;Petrea volubilis L.;Petrea volubilis var. albiflora (Standl.) Moldenke",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Petrea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77143>http://floradobrasil2015.jbrj.gov.br/FB77143</a>)<br><br>Cardoso, P.H., Salimena, F.R.G. 2020. Petrea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77143\">https://floradobrasil2020.jbrj.gov.br/FB77143</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Petrea volubilis L.",
+      "parentnameusageid": 15184,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77143",
+      "acceptednameusageid": 15184,
+      "bibliographiccitation_how_to_cite": "Cardoso, P.H., Salimena, F.R.G. Petrea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77143>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-24 17:36:24.758067"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Rev. Sudamer. Bot.,5: 2,1937"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15184,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77144,
+      "scientificname": "Petrea volubilis var. pubescens Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Petrea",
+      "specificepithet": "volubilis",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Petrea volubilis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Petrea L.;Petrea volubilis L.;Petrea volubilis var. pubescens Moldenke",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Petrea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77144>http://floradobrasil2015.jbrj.gov.br/FB77144</a>)<br><br>Cardoso, P.H., Salimena, F.R.G. 2020. Petrea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77144\">https://floradobrasil2020.jbrj.gov.br/FB77144</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Petrea volubilis L.",
+      "parentnameusageid": 15184,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77144",
+      "acceptednameusageid": 15184,
+      "bibliographiccitation_how_to_cite": "Cardoso, P.H., Salimena, F.R.G. Petrea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77144>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-24 17:36:44.288092"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Repert. Spec. Nov. Regni Veg. Beih.,43: 45,1938"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15184,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Petrea volubilis L."
+      }
+    ],
+    "voucher": []
+  }
+]

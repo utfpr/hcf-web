@@ -1,0 +1,87 @@
+[
+  {
+    "taxon": {
+      "taxonid": 606400,
+      "scientificname": "Athenaea wettsteiniana (Witasek)  I.M.C.Rodrigues & Stehmann",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Athenaea",
+      "specificepithet": "wettsteiniana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Witasek)  I.M.C.Rodrigues & Stehmann",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Athenaea Sendtn.;Athenaea wettsteiniana (Witasek)  I.M.C.Rodrigues & Stehmann",
+      "source": "Rodrigues, I.M.C., Stehmann, J.R. 2020. Athenaea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB606400\">https://floradobrasil2020.jbrj.gov.br/FB606400</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span class=&quot;author&quot;&gt;Rodrigues, I. M. C.&lt;/span&gt;, &lt;span class=&quot;author&quot;&gt;Knapp, S.&lt;/span&gt;, and &lt;span class=&quot;author&quot;&gt;Stehmann, J. R.&lt;/span&gt; &lt;span class=&quot;pubYear&quot;&gt;2019.&lt;/span&gt; &lt;span class=&quot;articleTitle&quot;&gt;The nomenclatural re‐establishment of &lt;em&gt;Athenaea&lt;/em&gt; Sendtn. (Solanaceae) with a nomenclatural synopsis of the genus&lt;/span&gt;, &lt;em&gt;TAXON&lt;/em&gt;, 68 [2]. doi: &lt;a class=&quot;linkBehavior&quot; href=&quot;https://doi.org/10.1002/tax.12089&quot;&gt;https://doi.org/10.1002/tax.12089&lt;/a&gt;",
+      "parentnameusage": "Athenaea Sendtn.",
+      "parentnameusageid": 14573,
+      "originalnameusageid": "138344",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB606400",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-31 08:46:35.005"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 138344,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bassovia wettsteiniana Witasek"
+      },
+      {
+        "relatedresourceid": 21136,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Aureliana wettsteiniana (Witasek) Hunz. & Barboza"
+      }
+    ],
+    "voucher": []
+  }
+]

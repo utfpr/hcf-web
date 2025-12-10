@@ -1,0 +1,1784 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13799,
+      "scientificname": "Roupala montana Aubl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Aubl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13799>http://floradobrasil2015.jbrj.gov.br/FB13799</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB13799\">https://floradobrasil2020.jbrj.gov.br/FB13799</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prance, G.T., Plana, V., Edwards, K.S. &amp;amp; Pennington, R.T. 2007. &lt;em&gt;Flora Neotropica Monograph 100 - Proteaceae.&lt;/em&gt; The New York Botanical Garden, 218 pp.&amp;nbsp;&amp;nbsp;",
+      "parentnameusage": "Roupala Aubl.",
+      "parentnameusageid": 13793,
+      "originalnameusageid": null,
+      "namepublishedin": "Hist. Pl. Guiane 1:83 1775",
+      "namepublishedinyear": "1775",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13799",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB13799>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-27 14:16:54.943"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campinarana",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carne-de-vaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "carvalho-vermelho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "congonha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Norte"
+      },
+      {
+        "vernacularname": "carvalho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      },
+      {
+        "vernacularname": "mijo-de-guará",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Centro-oeste"
+      },
+      {
+        "vernacularname": "sambaibinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Cwntro-oeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Aublet, J.B.C.F.,Hist. Pl. Guiane,1:83,1775"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 609615,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala nervosa Klotzsch"
+      },
+      {
+        "relatedresourceid": 593614,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rhopala montana Aubl."
+      },
+      {
+        "relatedresourceid": 609865,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala arvensis Barb.Rodr."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Guedes, ML 13421",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB021235",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB021235",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guedes, ML 13421",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB021235",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96957383",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 20638,
+      "scientificname": "Roupala montana var. impressiuscula (Mez) K.S.Edwards",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "impressiuscula",
+      "scientificnameauthorship": "(Mez) K.S.Edwards",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana var. impressiuscula (Mez) K.S.Edwards",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20638>http://floradobrasil2015.jbrj.gov.br/FB20638</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20638\">https://floradobrasil2020.jbrj.gov.br/FB20638</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prance, G.T., Plana, V., Edwards, K.S. &amp;amp; Pennington, R.T. 2007. &lt;em&gt;Flora Neotropica Monograph 100 - Proteaceae.&lt;/em&gt; The New York Botanical Garden, 218 pp.",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": "609881",
+      "namepublishedin": "Bot. Jahrb. 12. Beibl. 27: 12 1890",
+      "namepublishedinyear": "1890",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20638",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20638>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-14 14:24:01.05"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carne-de-vaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Mez, C.,Bot. Jahrb.,12. Beibl. 27: 12,1890"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32485,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala mucronulata Mez"
+      },
+      {
+        "relatedresourceid": 609881,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Roupala impressiuscula Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F.M. Glaziou 4184",
+        "collectioncode": "NY",
+        "catalognumber": "NY00626337",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00626337",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 6670",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250319",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0250319",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 6670",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250319",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981860",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 4184",
+        "collectioncode": "NY",
+        "catalognumber": "NY00626337",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228312179",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 20639,
+      "scientificname": "Roupala montana Aubl. var. montana",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "montana",
+      "scientificnameauthorship": "Aubl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana Aubl. var. montana",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20639>http://floradobrasil2015.jbrj.gov.br/FB20639</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20639\">https://floradobrasil2020.jbrj.gov.br/FB20639</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20639",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20639>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-14 13:52:54.803"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo de Altitude",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Semidecidual",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carne-de-vaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32483,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala montana var. dentata (R.Br.) Sleumer"
+      },
+      {
+        "relatedresourceid": 609617,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala ovalis Pohl"
+      },
+      {
+        "relatedresourceid": 609889,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala ovalis Klotzsch ex Meisn."
+      },
+      {
+        "relatedresourceid": 609606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala affinis Pohl"
+      },
+      {
+        "relatedresourceid": 609607,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala complicata Kunth"
+      },
+      {
+        "relatedresourceid": 609608,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala dentata R.Br."
+      },
+      {
+        "relatedresourceid": 609610,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala gardneri Meisn."
+      },
+      {
+        "relatedresourceid": 609614,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala martii Meisn."
+      },
+      {
+        "relatedresourceid": 609616,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala media R.Br."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250314",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981856",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "H.S. Irwin 16701",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN138359",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN138359",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 15257",
+        "collectioncode": "NY",
+        "catalognumber": "NY00626347",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00626347",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250314",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0250314",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 15257",
+        "collectioncode": "NY",
+        "catalognumber": "NY00626347",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228312197",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 16701",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN138359",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228891056",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 20640,
+      "scientificname": "Roupala montana var. paraensis (Sleumer) K.S.Edwards",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "paraensis",
+      "scientificnameauthorship": "(Sleumer) K.S.Edwards",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana var. paraensis (Sleumer) K.S.Edwards",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20640>http://floradobrasil2015.jbrj.gov.br/FB20640</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20640\">https://floradobrasil2020.jbrj.gov.br/FB20640</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prance, G.T., Plana, V., Edwards, K.S. &amp;amp; Pennington, R.T. 2007. &lt;em&gt;Flora Neotropica Monograph 100 - Proteaceae.&lt;/em&gt; The New York Botanical Garden, 218 pp.&amp;nbsp;&amp;nbsp;",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": "609891",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20640",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20640>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-14 15:05:32.432"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carne-de-vaca-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "carne-de-vaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "carvalho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 13802,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala rhombifolia Mart. ex Meisn."
+      },
+      {
+        "relatedresourceid": 26051,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala tristis Mez"
+      },
+      {
+        "relatedresourceid": 609611,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala glabrata Klotzsch ex Meisn."
+      },
+      {
+        "relatedresourceid": 79560,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala lucens Meisn."
+      },
+      {
+        "relatedresourceid": 609882,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala longipetiolata Klotzsch ex Meisn."
+      },
+      {
+        "relatedresourceid": 609888,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala organensis Sleumer"
+      },
+      {
+        "relatedresourceid": 609891,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Roupala rhombifolia var. paraensis Sleumer"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F.M. Glaziou 15381",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250311",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0250311",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Góes, O.C. 1051",
+        "collectioncode": "RB",
+        "catalognumber": "RB00322607",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00322607",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Blanchet 3243",
+        "collectioncode": "K",
+        "catalognumber": "K000641025",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000641025",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Góes, O.C. 1051",
+        "collectioncode": "RB",
+        "catalognumber": "RB00322607",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284038326",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 15381",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981852",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Blanchet 3243",
+        "collectioncode": "K",
+        "catalognumber": "K000641025",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227595889",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 32483,
+      "scientificname": "Roupala montana var. dentata (R.Br.) Sleumer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "dentata",
+      "scientificnameauthorship": "(R.Br.) Sleumer",
+      "acceptednameusage": "Roupala montana Aubl. var. montana",
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana var. dentata (R.Br.) Sleumer",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32483>http://floradobrasil2015.jbrj.gov.br/FB32483</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32483\">https://floradobrasil2020.jbrj.gov.br/FB32483</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32483",
+      "acceptednameusageid": 20639,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32483>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-14 14:14:38.969"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20639,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Roupala montana Aubl. var. montana"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 32484,
+      "scientificname": "Roupala montana var. tomentosa (Pohl) Sleumer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "tomentosa",
+      "scientificnameauthorship": "(Pohl) Sleumer",
+      "acceptednameusage": "Roupala montana var. brasiliensis (Klotzsch) K.S.Edwards",
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana var. tomentosa (Pohl) Sleumer",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32484>http://floradobrasil2015.jbrj.gov.br/FB32484</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32484\">https://floradobrasil2020.jbrj.gov.br/FB32484</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32484",
+      "acceptednameusageid": 104848,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32484>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-05-11 08:24:19.197"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104848,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Roupala montana var. brasiliensis (Klotzsch) K.S.Edwards"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 104848,
+      "scientificname": "Roupala montana var. brasiliensis (Klotzsch) K.S.Edwards",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Roupala",
+      "specificepithet": "montana",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "(Klotzsch) K.S.Edwards",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Roupala Aubl.;Roupala montana Aubl.;Roupala montana var. brasiliensis (Klotzsch) K.S.Edwards",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104848>http://floradobrasil2015.jbrj.gov.br/FB104848</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104848\">https://floradobrasil2020.jbrj.gov.br/FB104848</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prance, G.T., Plana, V., Edwards, K.S. &amp;amp; Pennington, R.T. 2007. &lt;em&gt;Flora Neotropica Monograph 100 - Proteaceae.&lt;/em&gt; The New York Botanical Garden, 218 pp.&amp;nbsp;&amp;nbsp;",
+      "parentnameusage": "Roupala montana Aubl.",
+      "parentnameusageid": 13799,
+      "originalnameusageid": "32481",
+      "namepublishedin": "Linnaea 15:55 1841",
+      "namepublishedinyear": "1841",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104848",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB104848>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-14 14:14:14.189"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carnde-de-vaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Klotzsch,Linnaea,15:55,1841"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 609605,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala adiantifolia Klotzsch"
+      },
+      {
+        "relatedresourceid": 609618,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala pohlii Meisn."
+      },
+      {
+        "relatedresourceid": 32484,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala montana var. tomentosa (Pohl) Sleumer"
+      },
+      {
+        "relatedresourceid": 32481,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Roupala brasiliensis Klotzsch"
+      },
+      {
+        "relatedresourceid": 609619,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala tomentosa Pohl"
+      },
+      {
+        "relatedresourceid": 609871,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala dimorphophylla Meisn."
+      },
+      {
+        "relatedresourceid": 609887,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Roupala ochrantha Mart. ex Meisn."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Sellow -1357",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250321",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0250321",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.P. Duarte 2359",
+        "collectioncode": "NY",
+        "catalognumber": "NY01021716",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01021716",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Antônio Costa Allem 554",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00000554",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00000554",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow -1357",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250321",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981864",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Antônio Costa Allem 554",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00000554",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226156187",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Duarte 2359",
+        "collectioncode": "NY",
+        "catalognumber": "NY01021716",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228395177",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

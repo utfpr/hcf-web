@@ -1,0 +1,617 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10788,
+      "scientificname": "Myrciaria cuspidata O.Berg",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10788>http://floradobrasil2015.jbrj.gov.br/FB10788</a>)<br><br>Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10788\">https://floradobrasil2020.jbrj.gov.br/FB10788</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria O.Berg",
+      "parentnameusageid": 10787,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10788",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 18:12:11.841"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sobral, M.,Napaea,9: 15,1993"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601062,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata var. diffusa O.Berg"
+      },
+      {
+        "relatedresourceid": 601421,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata var. humilis O.Berg"
+      },
+      {
+        "relatedresourceid": 602318,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata var. stricta O.Berg"
+      },
+      {
+        "relatedresourceid": 63333,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria apiculata Barb.Rodr. ex Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 63393,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria minensis O.Berg"
+      },
+      {
+        "relatedresourceid": 63367,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria herbacea O.Berg"
+      },
+      {
+        "relatedresourceid": 62141,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia minensis (O.Berg) Kiaersk."
+      },
+      {
+        "relatedresourceid": 600672,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata var. acuminatissima O.Berg"
+      },
+      {
+        "relatedresourceid": 601546,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata var. latifolia O.Berg"
+      },
+      {
+        "relatedresourceid": 61800,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia alegrensis Kiaersk."
+      },
+      {
+        "relatedresourceid": 63414,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria recurvipetala Barb.Rodr. ex Chodat & Hassl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02574",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942553",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 2493",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA009526",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226740395",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pastore, J.A. 560",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA041659",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA041659",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02574",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02574",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 13626",
+        "collectioncode": "NY",
+        "catalognumber": "NY00908298",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00908298",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 2493",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA009526",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA009526",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 35662",
+        "collectioncode": "NY",
+        "catalognumber": "NY00908330",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00908330",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pastore, J.A. 560",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA041659",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226767411",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 13626",
+        "collectioncode": "NY",
+        "catalognumber": "NY00908298",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228822113",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 35662",
+        "collectioncode": "NY",
+        "catalognumber": "NY00908330",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228822129",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 600672,
+      "scientificname": "Myrciaria cuspidata var. acuminatissima O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": "acuminatissima",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Myrciaria cuspidata O.Berg",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg;Myrciaria cuspidata var. acuminatissima O.Berg",
+      "source": "Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600672\">https://floradobrasil2020.jbrj.gov.br/FB600672</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria cuspidata O.Berg",
+      "parentnameusageid": 10788,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600672",
+      "acceptednameusageid": 10788,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 17:37:45.639"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10788,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata O.Berg"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601062,
+      "scientificname": "Myrciaria cuspidata var. diffusa O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": "diffusa",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Myrciaria cuspidata O.Berg",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg;Myrciaria cuspidata var. diffusa O.Berg",
+      "source": "Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601062\">https://floradobrasil2020.jbrj.gov.br/FB601062</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria cuspidata O.Berg",
+      "parentnameusageid": 10788,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601062",
+      "acceptednameusageid": 10788,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 17:36:33.876"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10788,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata O.Berg"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601421,
+      "scientificname": "Myrciaria cuspidata var. humilis O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": "humilis",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Myrciaria cuspidata O.Berg",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg;Myrciaria cuspidata var. humilis O.Berg",
+      "source": "Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601421\">https://floradobrasil2020.jbrj.gov.br/FB601421</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria cuspidata O.Berg",
+      "parentnameusageid": 10788,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601421",
+      "acceptednameusageid": 10788,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 17:35:28.661"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10788,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata O.Berg"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601546,
+      "scientificname": "Myrciaria cuspidata var. latifolia O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": "latifolia",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Myrciaria cuspidata O.Berg",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg;Myrciaria cuspidata var. latifolia O.Berg",
+      "source": "Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601546\">https://floradobrasil2020.jbrj.gov.br/FB601546</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria cuspidata O.Berg",
+      "parentnameusageid": 10788,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601546",
+      "acceptednameusageid": 10788,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 17:39:00.336"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10788,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata O.Berg"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602318,
+      "scientificname": "Myrciaria cuspidata var. stricta O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrciaria",
+      "specificepithet": "cuspidata",
+      "infraspecificepithet": "stricta",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Myrciaria cuspidata O.Berg",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrciaria O.Berg;Myrciaria cuspidata O.Berg;Myrciaria cuspidata var. stricta O.Berg",
+      "source": "Stadnik, A., Proença, C.E.B., Caldas, D.K.D. 2020. Myrciaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602318\">https://floradobrasil2020.jbrj.gov.br/FB602318</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrciaria cuspidata O.Berg",
+      "parentnameusageid": 10788,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602318",
+      "acceptednameusageid": 10788,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 17:40:46.31"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10788,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrciaria cuspidata O.Berg"
+      }
+    ],
+    "voucher": []
+  }
+]

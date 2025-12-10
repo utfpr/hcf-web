@@ -1,0 +1,519 @@
+[
+  {
+    "taxon": {
+      "taxonid": 409,
+      "scientificname": "Citrus ×aurantium L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.",
+      "source": "Pirani, J.R. 2015. Citrus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB409>http://floradobrasil2015.jbrj.gov.br/FB409</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB409\">https://floradobrasil2020.jbrj.gov.br/FB409</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Mabberley, D.J. 1997. A classification for edible Citrus (Rutaceae). Telopea 7(2): 167-172.\r\nGade, D.W. 1976. Naturalization of plant alliens: the volunteer orange in Paraguay. Jour. Biogeogr. 3: 269-279.",
+      "parentnameusage": "Citrus L.",
+      "parentnameusageid": 361,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 2: 782-783 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB409",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB409>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-07-16 20:48:19.908"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "laranjeira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "laranja",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "tangerina",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "king-orange",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "laranja-king",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,2: 782-783,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 611652,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×tangelo J.W.Ingram & H.E.Moore"
+      },
+      {
+        "relatedresourceid": 339,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aurantium sinense Mill."
+      },
+      {
+        "relatedresourceid": 602460,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus maxima var. uvacarpa Merr."
+      },
+      {
+        "relatedresourceid": 419,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Citrus ×sinensis (L.) Osbeck"
+      },
+      {
+        "relatedresourceid": 600388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus nobilis Lour."
+      },
+      {
+        "relatedresourceid": 595994,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus paradisi Macfad."
+      },
+      {
+        "relatedresourceid": 611643,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium var. sinensis L."
+      },
+      {
+        "relatedresourceid": 611644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium var. limetta Guillaumin"
+      },
+      {
+        "relatedresourceid": 612056,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus aurantium var. vulgaris (Risso) Risso & Poit."
+      },
+      {
+        "relatedresourceid": 612057,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus aurantium var. dulcis Hayne"
+      },
+      {
+        "relatedresourceid": 612058,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium subsp. sinensis (L.) Engl."
+      },
+      {
+        "relatedresourceid": 611658,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×vulgaris Risso"
+      },
+      {
+        "relatedresourceid": 611660,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×paradisi Macfad."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 611579,
+      "scientificname": "Citrus ×aurantium var. decumana L.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": "decumana",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Citrus maxima (Burm.) Merr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.;Citrus ×aurantium var. decumana L.",
+      "source": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB611579\">https://floradobrasil2020.jbrj.gov.br/FB611579</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Citrus ×aurantium L.",
+      "parentnameusageid": 409,
+      "originalnameusageid": "611578",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611579",
+      "acceptednameusageid": 596742,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB611579>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 18:26:33.39"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 611578,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Citrus decumana (L.) L."
+      },
+      {
+        "relatedresourceid": 596742,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Citrus maxima (Burm.) Merr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 611642,
+      "scientificname": "Citrus ×aurantium subsp. japonica (Thunb.) Engl.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": "japonica",
+      "scientificnameauthorship": "(Thunb.) Engl.",
+      "acceptednameusage": "Citrus japonica Thunb.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.;Citrus ×aurantium subsp. japonica (Thunb.) Engl.",
+      "source": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB611642\">https://floradobrasil2020.jbrj.gov.br/FB611642</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Citrus ×aurantium L.",
+      "parentnameusageid": 409,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611642",
+      "acceptednameusageid": 611608,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB611642>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 18:25:34.557"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 611608,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Citrus japonica Thunb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 611643,
+      "scientificname": "Citrus ×aurantium var. sinensis L.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": "sinensis",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Citrus ×aurantium L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.;Citrus ×aurantium var. sinensis L.",
+      "source": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB611643\">https://floradobrasil2020.jbrj.gov.br/FB611643</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Citrus ×aurantium L.",
+      "parentnameusageid": 409,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611643",
+      "acceptednameusageid": 409,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB611643>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-08 18:45:33.503"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 409,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 611644,
+      "scientificname": "Citrus ×aurantium var. limetta Guillaumin",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": "limetta",
+      "scientificnameauthorship": "Guillaumin",
+      "acceptednameusage": "Citrus ×aurantium L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.;Citrus ×aurantium var. limetta Guillaumin",
+      "source": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB611644\">https://floradobrasil2020.jbrj.gov.br/FB611644</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Citrus ×aurantium L.",
+      "parentnameusageid": 409,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611644",
+      "acceptednameusageid": 409,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB611644>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-08 18:52:01.907"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 409,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 612058,
+      "scientificname": "Citrus ×aurantium subsp. sinensis (L.) Engl.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "specificepithet": "×aurantium",
+      "infraspecificepithet": "sinensis",
+      "scientificnameauthorship": "(L.) Engl.",
+      "acceptednameusage": "Citrus ×aurantium L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Citrus L.;Citrus ×aurantium L.;Citrus ×aurantium subsp. sinensis (L.) Engl.",
+      "source": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB612058\">https://floradobrasil2020.jbrj.gov.br/FB612058</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Citrus ×aurantium L.",
+      "parentnameusageid": 409,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB612058",
+      "acceptednameusageid": 409,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB612058>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-21 09:14:52.033"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 409,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Citrus ×aurantium L."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,751 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7548,
+      "scientificname": "Leiothrix flavescens (Bong.) Ruhland",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Bong.) Ruhland",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7548>http://floradobrasil2015.jbrj.gov.br/FB7548</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7548\">https://floradobrasil2020.jbrj.gov.br/FB7548</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix (Körn.) Ruhland",
+      "parentnameusageid": 7541,
+      "originalnameusageid": "53202",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7548",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7548>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 14:02:56.512"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campinarana",
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Palmeiral",
+        "Restinga",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53202,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eriocaulon flavescens Bong."
+      },
+      {
+        "relatedresourceid": 53009,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dupatya flavescens (Bong.) Kuntze"
+      },
+      {
+        "relatedresourceid": 53452,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Paepalanthus flavescens (Bong.) Körn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 17344,
+      "scientificname": "Leiothrix flavescens (Bong.) Ruhland var. flavescens",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "flavescens",
+      "scientificnameauthorship": "(Bong.) Ruhland",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens (Bong.) Ruhland var. flavescens",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17344>http://floradobrasil2015.jbrj.gov.br/FB17344</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17344\">https://floradobrasil2020.jbrj.gov.br/FB17344</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17344",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17344>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 17:23:01.82"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "botao-bolinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas Gerais"
+      },
+      {
+        "vernacularname": "capipoatinga-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Parana"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53334,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens var. chimantensis Moldenke"
+      },
+      {
+        "relatedresourceid": 53340,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix mucronata var. glabra Moldenke"
+      },
+      {
+        "relatedresourceid": 35414,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens var. parvifolia Moldenke"
+      },
+      {
+        "relatedresourceid": 53335,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens var. glabra Silveira"
+      },
+      {
+        "relatedresourceid": 53456,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus fraternus var. marahuacensis Moldenke"
+      },
+      {
+        "relatedresourceid": 35404,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix affinis Silveira"
+      },
+      {
+        "relatedresourceid": 35413,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix edwallii Silveira"
+      },
+      {
+        "relatedresourceid": 53513,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus meseticola Moldenke & Steyerm."
+      },
+      {
+        "relatedresourceid": 53194,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon falcatum Mart. ex Körn."
+      },
+      {
+        "relatedresourceid": 53344,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix umbratilis Moldenke"
+      },
+      {
+        "relatedresourceid": 53442,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus eriocephalus Klotzsch"
+      },
+      {
+        "relatedresourceid": 35426,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix tenuifolia Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 28719,
+      "scientificname": "Leiothrix flavescens var. distichophylla (Silveira) Giul. & Hensold",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "distichophylla",
+      "scientificnameauthorship": "(Silveira) Giul. & Hensold",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens var. distichophylla (Silveira) Giul. & Hensold",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB28719>http://floradobrasil2015.jbrj.gov.br/FB28719</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB28719\">https://floradobrasil2020.jbrj.gov.br/FB28719</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": "53331",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB28719",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB28719>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 17:40:07.766"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Giulietti, A.M. & Hensold, N.,Novon,1: 46,1991"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 28726,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix hirsuta var. obtusa Silveira"
+      },
+      {
+        "relatedresourceid": 53331,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Leiothrix distichophylla Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 28720,
+      "scientificname": "Leiothrix flavescens var. polystemma (Silveira) Giul. & Hensold",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "polystemma",
+      "scientificnameauthorship": "(Silveira) Giul. & Hensold",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens var. polystemma (Silveira) Giul. & Hensold",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB28720>http://floradobrasil2015.jbrj.gov.br/FB28720</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB28720\">https://floradobrasil2020.jbrj.gov.br/FB28720</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": "53341",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB28720",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB28720>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 17:32:17.235"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Giulietti, A.M. & Hensold, N.,Novon,1: 49,1991"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53342,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix polystemma var. robusta Silveira"
+      },
+      {
+        "relatedresourceid": 53341,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Leiothrix polystemma Silveira"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35414,
+      "scientificname": "Leiothrix flavescens var. parvifolia Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Leiothrix flavescens (Bong.) Ruhland var. flavescens",
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens var. parvifolia Moldenke",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35414>http://floradobrasil2015.jbrj.gov.br/FB35414</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35414\">https://floradobrasil2020.jbrj.gov.br/FB35414</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35414",
+      "acceptednameusageid": 17344,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35414>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-11 23:33:01.280045"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,24: 498,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17344,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens (Bong.) Ruhland var. flavescens"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53334,
+      "scientificname": "Leiothrix flavescens var. chimantensis Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "chimantensis",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Leiothrix flavescens (Bong.) Ruhland var. flavescens",
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens var. chimantensis Moldenke",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53334>http://floradobrasil2015.jbrj.gov.br/FB53334</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53334\">https://floradobrasil2020.jbrj.gov.br/FB53334</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53334",
+      "acceptednameusageid": 17344,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53334>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 14:05:30.338"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,54: 66,1982"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17344,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens (Bong.) Ruhland var. flavescens"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53335,
+      "scientificname": "Leiothrix flavescens var. glabra Silveira",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Leiothrix",
+      "specificepithet": "flavescens",
+      "infraspecificepithet": "glabra",
+      "scientificnameauthorship": "Silveira",
+      "acceptednameusage": "Leiothrix flavescens (Bong.) Ruhland var. flavescens",
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Leiothrix (Körn.) Ruhland;Leiothrix flavescens (Bong.) Ruhland;Leiothrix flavescens var. glabra Silveira",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53335>http://floradobrasil2015.jbrj.gov.br/FB53335</a>)<br><br>Giulietti, A.M. 2020. Leiothrix in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53335\">https://floradobrasil2020.jbrj.gov.br/FB53335</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Leiothrix flavescens (Bong.) Ruhland",
+      "parentnameusageid": 7548,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53335",
+      "acceptednameusageid": 17344,
+      "bibliographiccitation_how_to_cite": "Giulietti, A.M. Leiothrix in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53335>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-11 23:32:30.774995"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Floral. Mont.,1: 291,1928"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17344,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Leiothrix flavescens (Bong.) Ruhland var. flavescens"
+      }
+    ],
+    "voucher": []
+  }
+]

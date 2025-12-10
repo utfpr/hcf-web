@@ -1,0 +1,123 @@
+[
+  {
+    "taxon": {
+      "taxonid": 138250,
+      "scientificname": "Ficus insipida Willd.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Rosales",
+      "family": "Moraceae",
+      "genus": "Ficus",
+      "specificepithet": "insipida",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Willd.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Moraceae Gaudich.;Ficus L.;Ficus insipida Willd.",
+      "source": "Romaniuc Neto, S.,Carauta, J.P.P.,Vianna Filho, M.D.M.,Pereira, R.A.S.,Ribeiro, J.E.L. da S.,Machado, A.F.P.,Santos, A. dos,Pelissari, G.,Pederneiras, L.C. 2015. Moraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB138250>http://floradobrasil2015.jbrj.gov.br/FB138250</a>)<br><br>Pederneiras, L.C., Machado, A.F.P., Santos, O.D.A. 2020. Ficus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB138250\">https://floradobrasil2020.jbrj.gov.br/FB138250</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Berg, C.C. 2001. &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Moreae, Artocarpeae, and &lt;em&gt;Dorstenia&lt;/em&gt; (Moraceae) with introductions to the family and &lt;em&gt;Ficus&lt;/em&gt; and with additions and corrections to Flora Neotropica Monograph 7. &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Flora Neotropica Monograph 83: 1-346.&lt;/span&gt;",
+      "parentnameusage": "Ficus L.",
+      "parentnameusageid": 10137,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB138250",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pederneiras, L.C., Machado, A.F.P., Santos, O.D.A. Ficus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB138250>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-04-14 19:47:55.801"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Berg, C.C.,Ilicifolia,5: 1-172,2004"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 608164,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ficus helminthagoga Dugand"
+      },
+      {
+        "relatedresourceid": 85744,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ficus glabrata Kunth"
+      },
+      {
+        "relatedresourceid": 596608,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pharmacosycea anthelminthica Mart."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.T. Prance 16777",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0039967",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0039967",
+        "locality": "AM",
+        "typestatus": null
+      }
+    ]
+  }
+]

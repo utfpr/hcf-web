@@ -1,0 +1,91 @@
+[
+  {
+    "taxon": {
+      "taxonid": 624962,
+      "scientificname": "Senega bracteata (A.W.Benn.) J.F.B.Pastore",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Polygalaceae",
+      "genus": "Senega",
+      "specificepithet": "bracteata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(A.W.Benn.) J.F.B.Pastore",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Polygalaceae Hoffmanns. & Link;Senega Spach;Senega bracteata (A.W.Benn.) J.F.B.Pastore",
+      "source": "",
+      "parentnameusage": "Senega Spach",
+      "parentnameusageid": 624958,
+      "originalnameusageid": "32412",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB624962",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-04-09 10:28:16.397"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32412,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Polygala bracteata A.W.Benn."
+      }
+    ],
+    "voucher": []
+  }
+]

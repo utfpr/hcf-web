@@ -1,0 +1,608 @@
+[
+  {
+    "taxon": {
+      "taxonid": 26574,
+      "scientificname": "Butia eriospatha (Mart. ex Drude) Becc.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Butia",
+      "specificepithet": "eriospatha",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart. ex Drude) Becc.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Butia (Becc.) Becc.;Butia eriospatha (Mart. ex Drude) Becc.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB26574>http://floradobrasil2015.jbrj.gov.br/FB26574</a>)<br><br>Heiden, G., Ellert-Pereira, P.E., Eslabão, M.P. 2020. Butia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB26574\">https://floradobrasil2020.jbrj.gov.br/FB26574</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Soares, K.P. 2015. Le genre &lt;em&gt;Butia&lt;/em&gt;. Princeps 1: 12-57.",
+      "parentnameusage": "Butia (Becc.) Becc.",
+      "parentnameusageid": 15703,
+      "originalnameusageid": "44050",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB26574",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Heiden, G., Sant'Anna-Santos, B.F. Butia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB26574>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-02-24 17:34:36.827"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Palmeiral"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "butiá-da-serra",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Beccari, O.,Agric. Colon.,10: 489-524,1916"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43930,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Butia punctata Bomhard"
+      },
+      {
+        "relatedresourceid": 43947,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Calappa eriospatha (Mart. ex Drude) Kuntze"
+      },
+      {
+        "relatedresourceid": 44812,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Syagrus eriospatha (Mart. ex Drude) Glassman"
+      },
+      {
+        "relatedresourceid": 44050,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cocos eriospatha Mart. ex Drude"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725985",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071153",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066442",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209083",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066442",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209085",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066442",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209087",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725984",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071151",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209577",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209579",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "K",
+        "catalognumber": "K000462952",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227607565",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4874",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150253",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229796345",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4874",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150253",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229797047",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209577",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209579",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209581",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209583",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209585",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725987",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071157",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Stival-Santos 1578",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00635",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226938581",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Oliveira, AA de 2606",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48739",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227038313",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725984",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725984",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725987",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725987",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725983",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725983",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gondim Jr., M.G.C. 5",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA049725",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA049725",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725985",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725985",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM150255",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00066439",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00067311",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, AA de 2606",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48739",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB48739",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725982",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725982",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066442",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00066442",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00067311",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725986",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00725986",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Stival-Santos 1578",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00635",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB00635",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "K",
+        "catalognumber": "K000462952",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000462952",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4874",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150253",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM150253",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725986",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071155",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209581",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209583",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Glocimar Pereira-Silva 10316",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00067311",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209585",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gondim Jr., M.G.C. 5",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA049725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226839391",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gondim Jr., M.G.C. 5",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA049725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226839393",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gondim Jr., M.G.C. 5",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA049725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226839395",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gondim Jr., M.G.C. 5",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA049725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226839397",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725982",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071147",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229797051",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229797053",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229797055",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229314146",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229314148",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229314150",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Noblick, L.R. 4878",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM150255",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229797049",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8059",
+        "collectioncode": "P",
+        "catalognumber": "P00725983",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228071149",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209055",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209057",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209059",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209061",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209063",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Aécio Amaral-Santos 2641",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209065",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 602714,
+      "scientificname": "Butia eriospatha subsp. punctata Bomhard",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_APLICACAO_INCERTA",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Butia",
+      "specificepithet": "eriospatha",
+      "infraspecificepithet": "punctata",
+      "scientificnameauthorship": "Bomhard",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Butia (Becc.) Becc.;Butia eriospatha (Mart. ex Drude) Becc.;Butia eriospatha subsp. punctata Bomhard",
+      "source": "Heiden, G., Ellert-Pereira, P.E., Eslabão, M.P. 2020. Butia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602714\">https://floradobrasil2020.jbrj.gov.br/FB602714</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Butia eriospatha (Mart. ex Drude) Becc.",
+      "parentnameusageid": 26574,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602714",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Heiden, G., Sant'Anna-Santos, B.F. Butia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602714>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-01-20 08:24:11.119"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  }
+]

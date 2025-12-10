@@ -1,0 +1,238 @@
+[
+  {
+    "taxon": {
+      "taxonid": 631650,
+      "scientificname": "Chrysanthemum morifolium Ramat.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Chrysanthemum",
+      "specificepithet": "morifolium",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Ramat.",
+      "acceptednameusage": "Chrysanthemum morifolium (Ramat.) Hemsl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Anthemideae Cass.;Chrysanthemum L.;Chrysanthemum morifolium Ramat.",
+      "source": "",
+      "parentnameusage": "Chrysanthemum L.",
+      "parentnameusageid": 617610,
+      "originalnameusageid": "631649",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631650",
+      "acceptednameusageid": 631651,
+      "bibliographiccitation_how_to_cite": "Fernandes, F., Heiden, G. Chrysanthemum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB631650>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-01-11 14:58:44.805"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 631649,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Dendranthema morifolium (Ramat.) Tzvelev"
+      },
+      {
+        "relatedresourceid": 631651,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Chrysanthemum morifolium (Ramat.) Hemsl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 631651,
+      "scientificname": "Chrysanthemum morifolium (Ramat.) Hemsl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Chrysanthemum",
+      "specificepithet": "morifolium",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Ramat.) Hemsl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Anthemideae Cass.;Chrysanthemum L.;Chrysanthemum morifolium (Ramat.) Hemsl.",
+      "source": "",
+      "parentnameusage": "Chrysanthemum L.",
+      "parentnameusageid": 617610,
+      "originalnameusageid": "631652",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631651",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Fernandes, F., Heiden, G. Chrysanthemum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB631651>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-01-11 15:26:36.056"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "crisântemo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "crisântemo-da-china",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 631649,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dendranthema morifolium (Ramat.) Tzvelev"
+      },
+      {
+        "relatedresourceid": 631650,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Chrysanthemum morifolium Ramat."
+      },
+      {
+        "relatedresourceid": 631652,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Matricaria morifolia Ramat."
+      },
+      {
+        "relatedresourceid": 631665,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chrysanthemum procumbens Blume"
+      },
+      {
+        "relatedresourceid": 631666,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chrysanthemum sinense Sabine"
+      },
+      {
+        "relatedresourceid": 631667,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chrysanthemum morifolium var. sinense (Sabine) Makino"
+      },
+      {
+        "relatedresourceid": 631668,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dendranthema sinense (Sabine) Des Moul."
+      },
+      {
+        "relatedresourceid": 631669,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tanacetum sinense (Sabine) Sch.Bip."
+      },
+      {
+        "relatedresourceid": 631670,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pyrethrum sinense (Sabine) DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 631667,
+      "scientificname": "Chrysanthemum morifolium var. sinense (Sabine) Makino",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Chrysanthemum",
+      "specificepithet": "morifolium",
+      "infraspecificepithet": "sinense",
+      "scientificnameauthorship": "(Sabine) Makino",
+      "acceptednameusage": "Chrysanthemum morifolium (Ramat.) Hemsl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Anthemideae Cass.;Chrysanthemum L.;Chrysanthemum morifolium Ramat.;Chrysanthemum morifolium var. sinense (Sabine) Makino",
+      "source": "",
+      "parentnameusage": "Chrysanthemum morifolium Ramat.",
+      "parentnameusageid": 631650,
+      "originalnameusageid": "631666",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631667",
+      "acceptednameusageid": 631651,
+      "bibliographiccitation_how_to_cite": "Fernandes, F., Heiden, G. Chrysanthemum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB631667>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-01-11 15:02:22.061"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 631649,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Dendranthema morifolium (Ramat.) Tzvelev"
+      },
+      {
+        "relatedresourceid": 631651,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Chrysanthemum morifolium (Ramat.) Hemsl."
+      },
+      {
+        "relatedresourceid": 631666,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Chrysanthemum sinense Sabine"
+      }
+    ],
+    "voucher": []
+  }
+]

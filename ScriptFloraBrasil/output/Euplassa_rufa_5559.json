@@ -1,0 +1,123 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13788,
+      "scientificname": "Euplassa rufa (Loes.) Sleumer",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Proteales",
+      "family": "Proteaceae",
+      "genus": "Euplassa",
+      "specificepithet": "rufa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Loes.) Sleumer",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Proteaceae Juss.;Euplassa Salisb. ex Knight;Euplassa rufa (Loes.) Sleumer",
+      "source": "Prance, G.T.,Amorim, A.M.A. 2015. Proteaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13788>http://floradobrasil2015.jbrj.gov.br/FB13788</a>)<br><br>Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB13788\">https://floradobrasil2020.jbrj.gov.br/FB13788</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prance, G.T., Plana, V., Edwards, K.S. &amp;amp; Pennington, R.T. 2007. &lt;em&gt;Flora Neotropica Monograph 100 - Proteaceae.&lt;/em&gt; The New York Botanical Garden, 218 pp.&amp;nbsp;&amp;nbsp;",
+      "parentnameusage": "Euplassa Salisb. ex Knight",
+      "parentnameusageid": 13778,
+      "originalnameusageid": "609849",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13788",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Prance, G.T., Pirani, J.R. Proteaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB13788>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-27 13:58:20.31"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "tambu-do-cerrado",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Sleumer, H.O.,Bot. Jahrb. Syst.,76: 191,1954"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 609849,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Adenostephanus rufus Loes."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Odilon A. Salgado 257",
+        "collectioncode": "RB",
+        "catalognumber": "RB00322177",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284037212",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 17199",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250355",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0250355",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Odilon A. Salgado 257",
+        "collectioncode": "RB",
+        "catalognumber": "RB00322177",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00322177",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 17199",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0250355",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981892",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

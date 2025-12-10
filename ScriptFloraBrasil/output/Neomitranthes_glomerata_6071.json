@@ -1,0 +1,181 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10812,
+      "scientificname": "Neomitranthes glomerata (D.Legrand) D.Legrand",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Neomitranthes",
+      "specificepithet": "glomerata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(D.Legrand) D.Legrand",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Neomitranthes Kausel ex D.Legrand;Neomitranthes glomerata (D.Legrand) D.Legrand",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10812>http://floradobrasil2015.jbrj.gov.br/FB10812</a>)<br><br>Souza, M.C., Proença, C.E.B. 2020. Neomitranthes in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10812\">https://floradobrasil2020.jbrj.gov.br/FB10812</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Neomitranthes Kausel ex D.Legrand",
+      "parentnameusageid": 10805,
+      "originalnameusageid": "62819",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10812",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Souza, M.C., Proença, C.E.B. Neomitranthes in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10812>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 18:07:28.84"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Legrand, C.D.,Fl. Ilustr. Catarin.,679.,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 61533,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calyptranthes ranulphii D.Legrand"
+      },
+      {
+        "relatedresourceid": 62819,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Mitranthes glomerata D.Legrand"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 2015",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0024989",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBR0024989",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 19449",
+        "collectioncode": "RB",
+        "catalognumber": "RB00315455",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00315455",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 19449",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA013935",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA013935",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Castro, ER 50",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB013928",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB013928",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 2578",
+        "collectioncode": "RB",
+        "catalognumber": "RB00476644",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00476644",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 2015",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0024989",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97144089",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 19449",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA013935",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226743869",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 19449",
+        "collectioncode": "RB",
+        "catalognumber": "RB00315455",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284024666",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 2578",
+        "collectioncode": "RB",
+        "catalognumber": "RB00476644",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284298876",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,441 @@
+[
+  {
+    "taxon": {
+      "taxonid": 90866,
+      "scientificname": "Cyathea atrovirens (Langsd. & Fisch.) Domin",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Cyatheales",
+      "family": "Cyatheaceae",
+      "genus": "Cyathea",
+      "specificepithet": "atrovirens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Langsd. & Fisch.) Domin",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Cyatheaceae Kaulf.;Cyathea J.Sm.;Cyathea atrovirens (Langsd. & Fisch.) Domin",
+      "source": "Windisch, P.G.,Santiago, A.C.P. 2015. Cyatheaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB90866>http://floradobrasil2015.jbrj.gov.br/FB90866</a>)<br><br>Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB90866\">https://floradobrasil2020.jbrj.gov.br/FB90866</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyathea J.Sm.",
+      "parentnameusageid": 90854,
+      "originalnameusageid": "117184",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB90866",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB90866>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-27 08:49:57.47"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 102896,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila dryopteridoides var. fallaciana Domin"
+      },
+      {
+        "relatedresourceid": 90862,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea acantha (Sehnem) Lehnert"
+      },
+      {
+        "relatedresourceid": 102887,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila radens Kaulf."
+      },
+      {
+        "relatedresourceid": 102883,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Trichipteris atrovirens (Langsd. & Fisch.) Tryon"
+      },
+      {
+        "relatedresourceid": 102892,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila verruculosa Rosenst."
+      },
+      {
+        "relatedresourceid": 102884,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila compta (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 102880,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Alsophila atrovirens (Langsd. & Fisch.) C.Presl"
+      },
+      {
+        "relatedresourceid": 102894,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea verruculosa (Rosenst.) Domin"
+      },
+      {
+        "relatedresourceid": 102879,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea compta Mart."
+      },
+      {
+        "relatedresourceid": 102891,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea leptocladia (Fée) Domin"
+      },
+      {
+        "relatedresourceid": 102898,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila kleinii Sehnem"
+      },
+      {
+        "relatedresourceid": 102893,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila proceroides Rosenst."
+      },
+      {
+        "relatedresourceid": 102895,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila dryopteridoides Domin"
+      },
+      {
+        "relatedresourceid": 102942,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila acantha Sehnem"
+      },
+      {
+        "relatedresourceid": 117184,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Polypodium atrovirens Langsd. & Fisch."
+      },
+      {
+        "relatedresourceid": 102890,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila leptocladia Fée"
+      },
+      {
+        "relatedresourceid": 102889,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila hookeriana Hook."
+      },
+      {
+        "relatedresourceid": 102897,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea fallaciana (Domin) Domin"
+      },
+      {
+        "relatedresourceid": 102888,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea radens (Kaulf.) Domin"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 58571",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM158508",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229336597",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 921",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB06964",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226952201",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gebien, W. 198",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB59996",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227061165",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gebien, W. 198",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB59996",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227061167",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gebien, W. 198",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB59996",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227061169",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.P.P. Carauta 2625",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM062930",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229456067",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.P.P. Carauta 2625",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM062930",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229456065",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 58571",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM158508",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM158508",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Sehnem 13809",
+        "collectioncode": "HUCS",
+        "catalognumber": "HUCS000897",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCS000897",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gebien, W. 198",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB59996",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB59996",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 921",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB06964",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB06964",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kassner-Filho, A. 3357",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB60487",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB60487",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 10117",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM018563",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM018563",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.P.P. Carauta 2625",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM062930",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM062930",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kassner-Filho, A. 3357",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB60487",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227062159",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 10117",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM018563",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229347155",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 10117",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM018563",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229347153",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

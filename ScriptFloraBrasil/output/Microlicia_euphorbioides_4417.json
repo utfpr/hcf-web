@@ -1,0 +1,407 @@
+[
+  {
+    "taxon": {
+      "taxonid": 9791,
+      "scientificname": "Microlicia euphorbioides Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.",
+      "source": "Romero, R.,Woodgyer, E. 2015. Microlicia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB9791>http://floradobrasil2015.jbrj.gov.br/FB9791</a>)<br><br>Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB9791\">https://floradobrasil2020.jbrj.gov.br/FB9791</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia D.Don",
+      "parentnameusageid": 9782,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9791",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB9791>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-07-02 05:20:20.859"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 30760,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microlicia euphorbioides var. setosa Cogn."
+      },
+      {
+        "relatedresourceid": 30759,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microlicia euphorbioides var. ionantha Mart."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Martius 939",
+        "collectioncode": "P",
+        "catalognumber": "P02428290",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P02428290",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.N. Nakajima 345",
+        "collectioncode": "US",
+        "catalognumber": "US01896633",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01896633",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.N. Nakajima 345",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00064803",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00064803",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 4619",
+        "collectioncode": "K",
+        "catalognumber": "K000530624",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000530624",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Von Martius C. 229",
+        "collectioncode": "BR",
+        "catalognumber": "BR0000005105588",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BR0000005105588",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Von Martius C. 229",
+        "collectioncode": "BR",
+        "catalognumber": "BR0000005105588",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308606189",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Martius 939",
+        "collectioncode": "P",
+        "catalognumber": "P02428290",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197472607",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 4619",
+        "collectioncode": "K",
+        "catalognumber": "K000530624",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227580167",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.N. Nakajima 345",
+        "collectioncode": "US",
+        "catalognumber": "US01896633",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100256213",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 30759,
+      "scientificname": "Microlicia euphorbioides var. ionantha Mart.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "ionantha",
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": "Microlicia euphorbioides Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. ionantha Mart.",
+      "source": "Romero, R.,Woodgyer, E. 2015. Microlicia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB30759>http://floradobrasil2015.jbrj.gov.br/FB30759</a>)<br><br>Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB30759\">https://floradobrasil2020.jbrj.gov.br/FB30759</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB30759",
+      "acceptednameusageid": 9791,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB30759>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-25 10:31:58.314812"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9791,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microlicia euphorbioides Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 30760,
+      "scientificname": "Microlicia euphorbioides var. setosa Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "setosa",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Microlicia euphorbioides Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. setosa Cogn.",
+      "source": "Romero, R.,Woodgyer, E. 2015. Microlicia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB30760>http://floradobrasil2015.jbrj.gov.br/FB30760</a>)<br><br>Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB30760\">https://floradobrasil2020.jbrj.gov.br/FB30760</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB30760",
+      "acceptednameusageid": 9791,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB30760>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-25 10:33:22.016853"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9791,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microlicia euphorbioides Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600899,
+      "scientificname": "Microlicia euphorbioides var. brevifolia Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "brevifolia",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. brevifolia Cogn.",
+      "source": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600899\">https://floradobrasil2020.jbrj.gov.br/FB600899</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600899",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600899>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-14 11:54:19.527"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601420,
+      "scientificname": "Microlicia euphorbioides var. humilis Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "humilis",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. humilis Cogn.",
+      "source": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601420\">https://floradobrasil2020.jbrj.gov.br/FB601420</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601420",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601420>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-14 11:55:37.936"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601664,
+      "scientificname": "Microlicia euphorbioides var. macrocarpa Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "macrocarpa",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. macrocarpa Cogn.",
+      "source": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601664\">https://floradobrasil2020.jbrj.gov.br/FB601664</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601664",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601664>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-14 11:56:24.306"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601980,
+      "scientificname": "Microlicia euphorbioides var. parvifolia Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Microlicia",
+      "specificepithet": "euphorbioides",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Microlicia D.Don;Microlicia euphorbioides Mart.;Microlicia euphorbioides var. parvifolia Cogn.",
+      "source": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. 2020. Microlicia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601980\">https://floradobrasil2020.jbrj.gov.br/FB601980</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microlicia euphorbioides Mart.",
+      "parentnameusageid": 9791,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601980",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romero, R., Fontelas, J.C., Moreira, K.V.C., Ferreira-Alves, R., Oliveira, L.F.A., Versiane, A.F.A. Microlicia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601980>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-14 11:58:16.483"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  }
+]

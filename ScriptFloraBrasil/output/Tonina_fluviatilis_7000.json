@@ -1,0 +1,534 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7679,
+      "scientificname": "Tonina fluviatilis Aubl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Tonina",
+      "specificepithet": "fluviatilis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Aubl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Tonina Aubl.;Tonina fluviatilis Aubl.",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7679>http://floradobrasil2015.jbrj.gov.br/FB7679</a>)<br><br>Andrino, C.O. 2020. Tonina in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7679\">https://floradobrasil2020.jbrj.gov.br/FB7679</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tonina Aubl.",
+      "parentnameusageid": 7678,
+      "originalnameusageid": null,
+      "namepublishedin": "Hist. Pl. Guiane 2: 857 1775",
+      "namepublishedinyear": "1775",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7679",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O. Tonina in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7679>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-03-15 19:18:29.822"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Aquática",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Várzea",
+        "Cerrado (lato sensu)",
+        "Floresta de Várzea",
+        "Palmeiral",
+        "Savana Amazônica",
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Aublet,Hist. Pl. Guiane,2: 857,1775"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53295,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon sphagnoides Poepp. ex Körn."
+      },
+      {
+        "relatedresourceid": 53146,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon amplexicaule Rottb."
+      },
+      {
+        "relatedresourceid": 53325,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyphydra amplexicaulis (Rottb.) Vahl"
+      },
+      {
+        "relatedresourceid": 633390,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Paepalanthus fluviatilis (Aubl.) Christenh. & Byng"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.M. Giulietti 166",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS056195",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271280856",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.E.F. Silva 54",
+        "collectioncode": "RB",
+        "catalognumber": "RB01407411",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285173730",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 11219",
+        "collectioncode": "UB",
+        "catalognumber": "UB0014031",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100371007",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Rosa, NA 2781",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM099451",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229628655",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cavalcante, P.B. 1121",
+        "collectioncode": "MG",
+        "catalognumber": "MG030266",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=272008458",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.F. Kinupp 3726",
+        "collectioncode": "RB",
+        "catalognumber": "RB00778818",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284812322",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Assis 1053",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML039743",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230226297",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.E.F. Silva 54",
+        "collectioncode": "RB",
+        "catalognumber": "RB01407411",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01407411",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Giulietti 166",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS056195",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS056195",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Zarucchi 2972",
+        "collectioncode": "RB",
+        "catalognumber": "RB00601070",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00601070",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Rosa, NA 2781",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM099451",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM099451",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.F. Kinupp 3726",
+        "collectioncode": "RB",
+        "catalognumber": "RB00778818",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00778818",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cavalcante, P.B. 1121",
+        "collectioncode": "MG",
+        "catalognumber": "MG030266",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MG030266",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima 2145",
+        "collectioncode": "RB",
+        "catalognumber": "RB01381177",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01381177",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Assis 1053",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML039743",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML039743",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 11219",
+        "collectioncode": "UB",
+        "catalognumber": "UB0014031",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0014031",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Costa-Lima 2145",
+        "collectioncode": "RB",
+        "catalognumber": "RB01381177",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285131362",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.L. Zarucchi 2972",
+        "collectioncode": "RB",
+        "catalognumber": "RB00601070",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284512986",
+        "locality": "AM",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14870,
+      "scientificname": "Solanum subsylvestre L.B.Sm. & Downs",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Solanum",
+      "specificepithet": "subsylvestre",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.B.Sm. & Downs",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Solanum L.;Solanum subsylvestre L.B.Sm. & Downs",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14870>http://floradobrasil2015.jbrj.gov.br/FB14870</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Mentz, L.A. &amp;amp; Oliveira, P.L. 2004. O g&amp;ecirc;nero Solanum na Regi&amp;atilde;o Sul do Brasil. S&amp;atilde;o Leopoldo, Pesquisas S&amp;eacute;rie Bot&amp;acirc;nica 54: 1-327.",
+      "parentnameusage": "Solanum L.",
+      "parentnameusageid": 14716,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14870",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-15 19:07:45.39"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 127418,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Solanum gemellum var. racemiforme Witasek"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Soares, ELC 249",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00038195",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00038195",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Soares, ELC 249",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00038195",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229177013",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Soares, ELC 249",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00038195",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229177015",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "taxon": {
+      "taxonid": 613498,
+      "scientificname": "Palicourea ruelliifolia (Cham. & Schltdl.) Borhidi",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "ruelliifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Cham. & Schltdl.) Borhidi",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea ruelliifolia (Cham. & Schltdl.) Borhidi",
+      "source": "Taylor, C. M. 2010-2025. Studies in Tropical Rubiaceae. &lt;a href=&quot;http://www.tropicos.org/projectwebportal.aspx?pagename=homeIntro&amp;amp;projectid=34&quot; target=&quot;_blank&quot;&gt;&lt;img title=&quot;&quot; src=&quot;http://www.tropicos.org/images/extlink.gif&quot; alt=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;",
+      "parentnameusage": "Palicourea Aubl.",
+      "parentnameusageid": 14133,
+      "originalnameusageid": "71992",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB613498",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 11:58:50.871"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Borhidi, A. L.,Acta Bot. Hung.,59: 50,2017"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39132,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria involucrans Müll.Arg."
+      },
+      {
+        "relatedresourceid": 20807,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria biternata Müll.Arg."
+      },
+      {
+        "relatedresourceid": 14212,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria ruelliifolia (Cham. & Schltdl.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 71992,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cephaelis ruelliifolia Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 73999,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria peckoltiana Müll.Arg."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "taxon": {
+      "taxonid": 100896,
+      "scientificname": "Pomaria pilosa (Vogel) B.B.Simpson & G.P.Lewis",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Pomaria",
+      "specificepithet": "pilosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vogel) B.B.Simpson & G.P.Lewis",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Pomaria Cav.;Pomaria pilosa (Vogel) B.B.Simpson & G.P.Lewis",
+      "source": "Lewis, G.P. 2015. Pomaria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB100896>http://floradobrasil2015.jbrj.gov.br/FB100896</a>)<br><br>Bortoluzzi, R.L.C. 2020. Pomaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB100896\">https://floradobrasil2020.jbrj.gov.br/FB100896</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Simpson, B.B. &amp;amp; Lewis, G.P. 2003. New combinations in Pomaria (Caesalpinioideae: Leguminosae). Kew Bull. 58(1): 175-184.\r\n&amp;nbsp;Bortoluzzi, R.L.C.; Miotto, S. T. S.; Reis, A. 2010. Leguminosas-Caesalpinioideas - Tribo Caesalpinieae, V. III. Flora Ilustrada Catarinense.",
+      "parentnameusage": "Pomaria Cav.",
+      "parentnameusageid": 100894,
+      "originalnameusageid": "637416",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB100896",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Bortoluzzi, R.L.C. Pomaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB100896>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-05-06 16:19:35.246"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Simpson, B.B. & Lewis, G.P.,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 597544,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Caesalpinia pilosa (Vogel) Benth."
+      },
+      {
+        "relatedresourceid": 595957,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Caesalpinia epunctata (Vogel) Benth."
+      },
+      {
+        "relatedresourceid": 637407,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cladotrichium epunctatum Vogel"
+      },
+      {
+        "relatedresourceid": 637416,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cladotrichium pilosum Vogel"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,669 @@
+[
+  {
+    "taxon": {
+      "taxonid": 11857,
+      "scientificname": "Miltonia regnellii Rchb.f.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Rchb.f.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB11857>http://floradobrasil2015.jbrj.gov.br/FB11857</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB11857\">https://floradobrasil2020.jbrj.gov.br/FB11857</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p class=&quot;western&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Senghas, K. (1997). Miltonia und verwandten Gattungen. &lt;em&gt;Pfitzeriana&lt;/em&gt; 1: 1-109.&lt;/span&gt;&lt;/span&gt;",
+      "parentnameusage": "Miltonia Lindl.",
+      "parentnameusageid": 11853,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 22: 851 1850",
+      "namepublishedinyear": "1850",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11857",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB11857>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-04-01 11:10:16.912"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Reichenbach, H.G.,Linnaea,22: 851,1850"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67859,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii var. citrina Cogn."
+      },
+      {
+        "relatedresourceid": 67858,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii var. alba Tessmer"
+      },
+      {
+        "relatedresourceid": 67862,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii var. veitchiana Cogn."
+      },
+      {
+        "relatedresourceid": 67860,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii var. purpurea Dombrain"
+      },
+      {
+        "relatedresourceid": 67861,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii var. travassosiana Cogn."
+      },
+      {
+        "relatedresourceid": 68297,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Oncidium regnellii (Rchb.f.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67849,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia cereola Lem."
+      },
+      {
+        "relatedresourceid": 615967,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth"
+      },
+      {
+        "relatedresourceid": 615970,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii f. alba (Tessmer) Roeth"
+      },
+      {
+        "relatedresourceid": 615971,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii f. purpurea (Dombrain) M.Wolff & O.Gruss"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67858,
+      "scientificname": "Miltonia regnellii var. alba Tessmer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "alba",
+      "scientificnameauthorship": "Tessmer",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii var. alba Tessmer",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67858>http://floradobrasil2015.jbrj.gov.br/FB67858</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67858\">https://floradobrasil2020.jbrj.gov.br/FB67858</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "615970",
+      "namepublishedin": "Orchid Rev. 111: 309 2003",
+      "namepublishedinyear": "2003",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67858",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67858>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:19:54.09"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Tessmer, D.,Orchid Rev.,111: 309,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 615970,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii f. alba (Tessmer) Roeth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67859,
+      "scientificname": "Miltonia regnellii var. citrina Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "citrina",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii var. citrina Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67859>http://floradobrasil2015.jbrj.gov.br/FB67859</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67859\">https://floradobrasil2020.jbrj.gov.br/FB67859</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "615969",
+      "namepublishedin": "Dict. Icon. Orchid. : Miltonia pl. 7a 1900",
+      "namepublishedinyear": "1900",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67859",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67859>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:13:48.153"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cogniaux, A.,Dict. Icon. Orchid.,: Miltonia pl. 7a,1900"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 615969,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth"
+      },
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67860,
+      "scientificname": "Miltonia regnellii var. purpurea Dombrain",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "purpurea",
+      "scientificnameauthorship": "Dombrain",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii var. purpurea Dombrain",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67860>http://floradobrasil2015.jbrj.gov.br/FB67860</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67860\">https://floradobrasil2020.jbrj.gov.br/FB67860</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "615971",
+      "namepublishedin": "Fl. Mag. (London) 9: t. 490 1870",
+      "namepublishedinyear": "1870",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67860",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67860>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:20:48.327"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Dombrain, H.H,,Fl. Mag. (London),9: t. 490,1870"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 615971,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii f. purpurea (Dombrain) M.Wolff & O.Gruss"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67861,
+      "scientificname": "Miltonia regnellii var. travassosiana Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "travassosiana",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii var. travassosiana Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67861>http://floradobrasil2015.jbrj.gov.br/FB67861</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67861\">https://floradobrasil2020.jbrj.gov.br/FB67861</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cogniaux, A.&amp;nbsp;(1900)&amp;nbsp;&lt;em&gt;Miltonia&amp;nbsp;&lt;/em&gt;nouveaux.&amp;nbsp;&lt;em&gt;Chronique Orchideenne&amp;nbsp;&lt;/em&gt;1: 310-312.",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "615968",
+      "namepublishedin": "Chron. Orchideenne 1: 310 1900",
+      "namepublishedinyear": "1900",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67861",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67861>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:03:19.6"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cogniaux, A.,Chron. Orchideenne,1: 310,1900"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 615968,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67862,
+      "scientificname": "Miltonia regnellii var. veitchiana Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "veitchiana",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii var. veitchiana Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67862>http://floradobrasil2015.jbrj.gov.br/FB67862</a>)<br><br>van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67862\">https://floradobrasil2020.jbrj.gov.br/FB67862</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "615967",
+      "namepublishedin": "Dict. Icon. Orchid. : Miltonia pl. 7b 1900",
+      "namepublishedinyear": "1900",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67862",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67862>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:04:18.355"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cogniaux, A.,Dict. Icon. Orchid.,: Miltonia pl. 7b,1900"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 615967,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615967,
+      "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "citrina",
+      "scientificnameauthorship": "(Cogn.) Roeth",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "source": "van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615967\">https://floradobrasil2020.jbrj.gov.br/FB615967</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "67862",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615967",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615967>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:08:16.607"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 67862,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii var. veitchiana Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615968,
+      "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "citrina",
+      "scientificnameauthorship": "(Cogn.) Roeth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "source": "van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615968\">https://floradobrasil2020.jbrj.gov.br/FB615968</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "67861",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615968",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615968>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:10:20.6"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Roeth, J.,Die Orchidee (Hamburg),56: 336,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67861,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii var. travassosiana Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615969,
+      "scientificname": "Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "citrina",
+      "scientificnameauthorship": "(Cogn.) Roeth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii f. citrina (Cogn.) Roeth",
+      "source": "van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615969\">https://floradobrasil2020.jbrj.gov.br/FB615969</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "67859",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615969",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615969>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:15:34.901"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Roeth, J.,Die Orchidee (Hamburg),56: 336,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67859,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii var. citrina Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615970,
+      "scientificname": "Miltonia regnellii f. alba (Tessmer) Roeth",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "alba",
+      "scientificnameauthorship": "(Tessmer) Roeth",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii f. alba (Tessmer) Roeth",
+      "source": "van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615970\">https://floradobrasil2020.jbrj.gov.br/FB615970</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "67858",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615970",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615970>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:17:24.384"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Roeth, J.,Die Orchidee (Hamburg),56: 337,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      },
+      {
+        "relatedresourceid": 67858,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii var. alba Tessmer"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 615971,
+      "scientificname": "Miltonia regnellii f. purpurea (Dombrain) M.Wolff & O.Gruss",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Miltonia",
+      "specificepithet": "regnellii",
+      "infraspecificepithet": "purpurea",
+      "scientificnameauthorship": "(Dombrain) M.Wolff & O.Gruss",
+      "acceptednameusage": "Miltonia regnellii Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Miltonia Lindl.;Miltonia regnellii Rchb.f.;Miltonia regnellii f. purpurea (Dombrain) M.Wolff & O.Gruss",
+      "source": "van den Berg, C. 2020. Miltonia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB615971\">https://floradobrasil2020.jbrj.gov.br/FB615971</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Miltonia regnellii Rchb.f.",
+      "parentnameusageid": 11857,
+      "originalnameusageid": "67860",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB615971",
+      "acceptednameusageid": 11857,
+      "bibliographiccitation_how_to_cite": "van den Berg, C. Miltonia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB615971>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-17 21:23:17.514"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Wolff, M. & Gruss, O.,Orchid. Atlas,232,2007"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67860,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Miltonia regnellii var. purpurea Dombrain"
+      },
+      {
+        "relatedresourceid": 11857,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Miltonia regnellii Rchb.f."
+      }
+    ],
+    "voucher": []
+  }
+]

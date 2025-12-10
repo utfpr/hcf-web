@@ -1,0 +1,774 @@
+[
+  {
+    "taxon": {
+      "taxonid": 12188,
+      "scientificname": "Sarcoglottis acaulis (Sm.) Schltr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Sarcoglottis",
+      "specificepithet": "acaulis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sm.) Schltr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Sarcoglottis C.Presl;Sarcoglottis acaulis (Sm.) Schltr.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB12188>http://floradobrasil2015.jbrj.gov.br/FB12188</a>)<br><br>Meneguzzo, T.E.C. 2020. Sarcoglottis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB12188\">https://floradobrasil2020.jbrj.gov.br/FB12188</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sarcoglottis C.Presl",
+      "parentnameusageid": 12187,
+      "originalnameusageid": "67968",
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 6: 53 1919",
+      "namepublishedinyear": "1919",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12188",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Sarcoglottis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB12188>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-01-29 09:38:56.72"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,6: 53,1919"
+      },
+      {
+        "reference": "Fl. bras.,3 (4): t. 50,1895"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12193,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis glaucescens Schltr."
+      },
+      {
+        "relatedresourceid": 12192,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis fasciculata (Vell.) Schltr."
+      },
+      {
+        "relatedresourceid": 12200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis ventricosa (Vell.) Hoehne"
+      },
+      {
+        "relatedresourceid": 20187,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis villosa (Poepp. & Endl.) Schltr."
+      },
+      {
+        "relatedresourceid": 67968,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Neottia acaulis Sm."
+      },
+      {
+        "relatedresourceid": 67981,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Neottia picta (Anderson) R.Br."
+      },
+      {
+        "relatedresourceid": 69642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis ornithocephala Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 69736,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Serapias fasciculata Vell."
+      },
+      {
+        "relatedresourceid": 69983,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes allemanii (Barb.Rodr.) Cogn."
+      },
+      {
+        "relatedresourceid": 69975,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Spiranthes acaulis (Sm.) Cogn."
+      },
+      {
+        "relatedresourceid": 69979,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes acutata Rchb.f. & Warm."
+      },
+      {
+        "relatedresourceid": 70085,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes ornithocephala (Barb.Rodr.) B.D.Jacks."
+      },
+      {
+        "relatedresourceid": 70406,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Synoplectris picta (Anderson) Raf."
+      },
+      {
+        "relatedresourceid": 70040,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes fasciculata (Vell.) Cogn."
+      },
+      {
+        "relatedresourceid": 70100,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes rufescens Fisch. ex Warm."
+      },
+      {
+        "relatedresourceid": 70113,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes speciosa (C.Presl) Lindl."
+      },
+      {
+        "relatedresourceid": 69630,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis allemanii Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 66698,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gyrostachys sarcoglottis Kuntze"
+      },
+      {
+        "relatedresourceid": 12194,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis grandiflora (Lindl) Klotzsch"
+      },
+      {
+        "relatedresourceid": 65845,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dothilis grandiflora (Lindl.) Raf."
+      },
+      {
+        "relatedresourceid": 70095,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes picta var. grandiflora (Lindl.) L.O.Williams"
+      },
+      {
+        "relatedresourceid": 69643,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sarcoglottis picta Klotzsch"
+      },
+      {
+        "relatedresourceid": 70093,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Spiranthes picta Lindl."
+      },
+      {
+        "relatedresourceid": 66693,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gyrostachys picta (Anderson) Kuntze"
+      },
+      {
+        "relatedresourceid": 20184,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis riocontensis E.C.Smidt & Toscano"
+      },
+      {
+        "relatedresourceid": 69977,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes acaulis var. picta (Anderson) Teusch."
+      },
+      {
+        "relatedresourceid": 64458,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arethusa picta Anderson"
+      },
+      {
+        "relatedresourceid": 67944,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Narica moschata Raf."
+      },
+      {
+        "relatedresourceid": 68385,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Orchis ventricosa (Vell.) Steud."
+      },
+      {
+        "relatedresourceid": 69646,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis speciosa C.Presl"
+      },
+      {
+        "relatedresourceid": 70126,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spiranthes villosa Poepp. & Endl."
+      },
+      {
+        "relatedresourceid": 38230,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis acutata (Rchb.f. & Warm.) Garay"
+      },
+      {
+        "relatedresourceid": 32049,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarcoglottis rufescens Klotzsch"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Silva, B.D. 54",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0033473",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225966089",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 596",
+        "collectioncode": "RB",
+        "catalognumber": "RB01409901",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285178600",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sevilha, A.C. 2234",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00059913",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226207307",
+        "locality": "PB",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00084017",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226214279",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "RON",
+        "catalognumber": "RON00007417",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230402601",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bazzanella, A.P. 4",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP002039",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100494777",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, T.S. 1887",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00007047",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226553793",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sucre 5279",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259565",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283952390",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 400",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00022869",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=193731535",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Westra, L.Y.T. 48538",
+        "collectioncode": "US",
+        "catalognumber": "US00013411",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100080453",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jung-Mendaçolli, S.L. 715",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00035145",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226199333",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 20013",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259661",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283952610",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, E. 1578a",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN111421",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228946814",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN191078",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228954224",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "RB",
+        "catalognumber": "RB00793268",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284830972",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, K. 4424",
+        "collectioncode": "S",
+        "catalognumber": "S14-440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99799857",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Ducke 1954",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259648",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283952578",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 20013",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259661",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259661",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fróes, R.L. 30512",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN080654",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN080654",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 596",
+        "collectioncode": "RB",
+        "catalognumber": "RB01409901",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01409901",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 400",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00022869",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00022869",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sucre 5279",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259565",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259565",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jung-Mendaçolli, S.L. 715",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00035145",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00035145",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bazzanella, A.P. 4",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP002039",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UNOP002039",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, V. 64",
+        "collectioncode": "K",
+        "catalognumber": "K000396096",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000396096",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Westra, L.Y.T. 48538",
+        "collectioncode": "US",
+        "catalognumber": "US00013411",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00013411",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Westra, L.Y.T. 48538",
+        "collectioncode": "NY",
+        "catalognumber": "NY1721968",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY1721968",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00041168",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00041168",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, B.D. 54",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0033473",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0033473",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, K. 4424",
+        "collectioncode": "S",
+        "catalognumber": "S14-440",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S14-440",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "RON",
+        "catalognumber": "RON00007417",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RON00007417",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "RB",
+        "catalognumber": "RB00793268",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00793268",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN191078",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN191078",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 16264",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00084017",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00084017",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00259686",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259686",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sevilha, A.C. 2234",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00059913",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00059913",
+        "locality": "PB",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 7775-A",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051705",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00051705",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, E. 1578a",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN111421",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN111421",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, T.S. 1887",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00007047",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00007047",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Ducke 1954",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259648",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259648",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Westra, L.Y.T. 48538",
+        "collectioncode": "NY",
+        "catalognumber": "NY1721968",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228244527",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00259686",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283952666",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00041168",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229169163",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fróes, R.L. 30512",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN080654",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228943674",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira-Silva, G. 7775-A",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00051705",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226204803",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, V. 64",
+        "collectioncode": "K",
+        "catalognumber": "K000396096",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227093238",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 69629,
+      "scientificname": "Sarcoglottis acaulis var. grandiflora (Hook.) R.Knuth",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Sarcoglottis",
+      "specificepithet": "acaulis",
+      "infraspecificepithet": "grandiflora",
+      "scientificnameauthorship": "(Hook.) R.Knuth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Sarcoglottis C.Presl;Sarcoglottis acaulis (Sm.) Schltr.;Sarcoglottis acaulis var. grandiflora (Hook.) R.Knuth",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB69629>http://floradobrasil2015.jbrj.gov.br/FB69629</a>)<br><br>Meneguzzo, T.E.C. 2020. Sarcoglottis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB69629\">https://floradobrasil2020.jbrj.gov.br/FB69629</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sarcoglottis acaulis (Sm.) Schltr.",
+      "parentnameusageid": 12188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB69629",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Sarcoglottis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB69629>. Acesso em: 20 nov. 2025.",
+      "modified": "2015-02-02 23:31:37.719"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,43: 219,1927"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  }
+]

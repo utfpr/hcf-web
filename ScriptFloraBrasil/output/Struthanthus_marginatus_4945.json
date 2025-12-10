@@ -1,0 +1,666 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8711,
+      "scientificname": "Struthanthus marginatus (Desr.) G.Don",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "marginatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Desr.) G.Don",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus marginatus (Desr.) G.Don",
+      "source": "Dettke, G.A.,Caires, C.S. 2015. Loranthaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8711>http://floradobrasil2015.jbrj.gov.br/FB8711</a>)<br><br>Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8711\">https://floradobrasil2020.jbrj.gov.br/FB8711</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Vaz, L.M.C.; Dettke, G.A.; Sim&amp;atilde;o-Bianchini, R. 2024. Struthanthus marginatus (Desr.) G.Don (Loranthaceae): a new record for the Santa Catarina State, Brazil. Hoehnea 51: e1032023.",
+      "parentnameusage": "Struthanthus Mart.",
+      "parentnameusageid": 8702,
+      "originalnameusageid": "605914",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8711",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8711>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-02-25 17:36:42.823"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Hemiparasita"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta de Várzea",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 5, part. 2, tab. 22,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8707,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus dorothyi Rizzini"
+      },
+      {
+        "relatedresourceid": 19344,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus calobotrys Eichler"
+      },
+      {
+        "relatedresourceid": 105788,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus citricola (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 105782,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus harlingianus Rizzini"
+      },
+      {
+        "relatedresourceid": 105789,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus nigricans Eichler"
+      },
+      {
+        "relatedresourceid": 125769,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loranthus citricola Mart."
+      },
+      {
+        "relatedresourceid": 126999,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus vulgaris (Vell.) Mart."
+      },
+      {
+        "relatedresourceid": 605914,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Loranthus marginatus Desr."
+      },
+      {
+        "relatedresourceid": 605915,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loranthus vulgaris Vell."
+      },
+      {
+        "relatedresourceid": 605916,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus subrotundus (Pohl) G.Don"
+      },
+      {
+        "relatedresourceid": 605917,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loranthus subrotundus Pohl"
+      },
+      {
+        "relatedresourceid": 605919,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus f. macrobotrys Eichler"
+      },
+      {
+        "relatedresourceid": 605918,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus f. macrobotrys Eichler"
+      },
+      {
+        "relatedresourceid": 605920,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus var. oval-lanceolatus Rizzini"
+      },
+      {
+        "relatedresourceid": 605921,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus var. friburgensis Rizzini"
+      },
+      {
+        "relatedresourceid": 19353,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus salzmannii Eichler"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "S. de V. A. Pessoa 842",
+        "collectioncode": "RB",
+        "catalognumber": "RB00639576",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284592400",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Segadas-Vianna 3735",
+        "collectioncode": "US",
+        "catalognumber": "US01335249",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01335249",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. de V. A. Pessoa 842",
+        "collectioncode": "RB",
+        "catalognumber": "RB00639576",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00639576",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Belém, RP 2182",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN128313",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN128313",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Segadas-Vianna 1057",
+        "collectioncode": "US",
+        "catalognumber": "US01335250",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01335250",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Belém, RP 2182",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN128313",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228889814",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Segadas-Vianna 3735",
+        "collectioncode": "US",
+        "catalognumber": "US01335249",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100108267",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Segadas-Vianna 1057",
+        "collectioncode": "US",
+        "catalognumber": "US01335250",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100108269",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 605918,
+      "scientificname": "Struthanthus marginatus f. macrobotrys Eichler",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "marginatus",
+      "infraspecificepithet": "macrobotrys",
+      "scientificnameauthorship": "Eichler",
+      "acceptednameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus marginatus (Desr.) G.Don;Struthanthus marginatus f. macrobotrys Eichler",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605918\">https://floradobrasil2020.jbrj.gov.br/FB605918</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "parentnameusageid": 8711,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605918",
+      "acceptednameusageid": 8711,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605918>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-12 01:44:19.006"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8711,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus (Desr.) G.Don"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605919,
+      "scientificname": "Struthanthus marginatus f. macrobotrys Eichler",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "marginatus",
+      "infraspecificepithet": "macrobotrys",
+      "scientificnameauthorship": "Eichler",
+      "acceptednameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus marginatus (Desr.) G.Don;Struthanthus marginatus f. macrobotrys Eichler",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605919\">https://floradobrasil2020.jbrj.gov.br/FB605919</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "parentnameusageid": 8711,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605919",
+      "acceptednameusageid": 8711,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605919>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-12 01:45:45.318"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8711,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus (Desr.) G.Don"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605920,
+      "scientificname": "Struthanthus marginatus var. oval-lanceolatus Rizzini",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "marginatus",
+      "infraspecificepithet": "oval-lanceolatus",
+      "scientificnameauthorship": "Rizzini",
+      "acceptednameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus marginatus (Desr.) G.Don;Struthanthus marginatus var. oval-lanceolatus Rizzini",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605920\">https://floradobrasil2020.jbrj.gov.br/FB605920</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "parentnameusageid": 8711,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605920",
+      "acceptednameusageid": 8711,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605920>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-12 01:47:42.006"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8711,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus (Desr.) G.Don"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605921,
+      "scientificname": "Struthanthus marginatus var. friburgensis Rizzini",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "marginatus",
+      "infraspecificepithet": "friburgensis",
+      "scientificnameauthorship": "Rizzini",
+      "acceptednameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus marginatus (Desr.) G.Don;Struthanthus marginatus var. friburgensis Rizzini",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605921\">https://floradobrasil2020.jbrj.gov.br/FB605921</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus marginatus (Desr.) G.Don",
+      "parentnameusageid": 8711,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605921",
+      "acceptednameusageid": 8711,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605921>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-12 01:49:31.027"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8711,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus marginatus (Desr.) G.Don"
+      }
+    ],
+    "voucher": []
+  }
+]

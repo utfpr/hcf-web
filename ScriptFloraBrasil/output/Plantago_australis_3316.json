@@ -1,0 +1,584 @@
+[
+  {
+    "taxon": {
+      "taxonid": 12914,
+      "scientificname": "Plantago australis Lam.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Lam.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB12914>http://floradobrasil2015.jbrj.gov.br/FB12914</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB12914\">https://floradobrasil2020.jbrj.gov.br/FB12914</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago L.",
+      "parentnameusageid": 12913,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12914",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB12914>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 21:00:25.13"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 135720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago macrostachya Decne."
+      },
+      {
+        "relatedresourceid": 582038,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis subsp. macrostachya (Decne.) Rahn"
+      },
+      {
+        "relatedresourceid": 601555,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago myosuros var. latifolia Speg."
+      },
+      {
+        "relatedresourceid": 581901,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Plantago australis Lam. subsp. australis"
+      },
+      {
+        "relatedresourceid": 581976,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis subsp. angustifolia (Pilg.) Rahn"
+      },
+      {
+        "relatedresourceid": 581975,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis subsp. hirtella (Kunth) Rahn"
+      },
+      {
+        "relatedresourceid": 128302,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago bicallosa Decne."
+      },
+      {
+        "relatedresourceid": 128304,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago cantagallensis Zahlbr. ex Wawra"
+      },
+      {
+        "relatedresourceid": 128307,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago gigantea Decne."
+      },
+      {
+        "relatedresourceid": 128308,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago hirtella Kunth"
+      },
+      {
+        "relatedresourceid": 135833,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago leptophylla Decne."
+      },
+      {
+        "relatedresourceid": 581979,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago bicallosa var. angustifolia Pilg."
+      },
+      {
+        "relatedresourceid": 601285,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago tomentosa var. glabrescens Schltdl. ex J.A.Schmidt"
+      },
+      {
+        "relatedresourceid": 600257,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Plantago accrescens Pilg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581901,
+      "scientificname": "Plantago australis Lam. subsp. australis",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "australis",
+      "scientificnameauthorship": "Lam.",
+      "acceptednameusage": "Plantago australis Lam.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis Lam. subsp. australis",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581901>http://floradobrasil2015.jbrj.gov.br/FB581901</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581901\">https://floradobrasil2020.jbrj.gov.br/FB581901</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581901",
+      "acceptednameusageid": 12914,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581901>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:47:17.736"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12914,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Plantago australis Lam."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581902,
+      "scientificname": "Plantago australis subsp. pretoana Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "pretoana",
+      "scientificnameauthorship": "Rahn",
+      "acceptednameusage": "Plantago pretoana (Rahn) Hassemer",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. pretoana Rahn",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581902>http://floradobrasil2015.jbrj.gov.br/FB581902</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581902\">https://floradobrasil2020.jbrj.gov.br/FB581902</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": "603160",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581902",
+      "acceptednameusageid": 603160,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581902>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:44:53.087"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 603160,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Plantago pretoana (Rahn) Hassemer"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581975,
+      "scientificname": "Plantago australis subsp. hirtella (Kunth) Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "hirtella",
+      "scientificnameauthorship": "(Kunth) Rahn",
+      "acceptednameusage": "Plantago australis Lam.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. hirtella (Kunth) Rahn",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581975>http://floradobrasil2015.jbrj.gov.br/FB581975</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581975\">https://floradobrasil2020.jbrj.gov.br/FB581975</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581975",
+      "acceptednameusageid": 12914,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581975>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:45:18.416"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12914,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis Lam."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581976,
+      "scientificname": "Plantago australis subsp. angustifolia (Pilg.) Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "angustifolia",
+      "scientificnameauthorship": "(Pilg.) Rahn",
+      "acceptednameusage": "Plantago australis Lam.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. angustifolia (Pilg.) Rahn",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581976>http://floradobrasil2015.jbrj.gov.br/FB581976</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581976\">https://floradobrasil2020.jbrj.gov.br/FB581976</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581976",
+      "acceptednameusageid": 12914,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581976>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:50:00.664"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12914,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis Lam."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 581977,
+      "scientificname": "Plantago australis subsp. dielsiana (Pilg.) Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "dielsiana",
+      "scientificnameauthorship": "(Pilg.) Rahn",
+      "acceptednameusage": "Plantago dielsiana Pilg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. dielsiana (Pilg.) Rahn",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB581977>http://floradobrasil2015.jbrj.gov.br/FB581977</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB581977\">https://floradobrasil2020.jbrj.gov.br/FB581977</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB581977",
+      "acceptednameusageid": 103177,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB581977>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:45:22.871"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 103177,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Plantago dielsiana Pilg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 582038,
+      "scientificname": "Plantago australis subsp. macrostachya (Decne.) Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "macrostachya",
+      "scientificnameauthorship": "(Decne.) Rahn",
+      "acceptednameusage": "Plantago australis Lam.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. macrostachya (Decne.) Rahn",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantago in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB582038>http://floradobrasil2015.jbrj.gov.br/FB582038</a>)<br><br>Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB582038\">https://floradobrasil2020.jbrj.gov.br/FB582038</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB582038",
+      "acceptednameusageid": 12914,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB582038>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:45:06.28"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12914,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Plantago australis Lam."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605444,
+      "scientificname": "Plantago australis subsp. cumingiana (Fisch. & C.A.Mey.) Rahn",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Plantago",
+      "specificepithet": "australis",
+      "infraspecificepithet": "cumingiana",
+      "scientificnameauthorship": "(Fisch. & C.A.Mey.) Rahn",
+      "acceptednameusage": "Plantago cumingiana Fisch. & C.A.Mey.",
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Plantago L.;Plantago australis Lam.;Plantago australis subsp. cumingiana (Fisch. & C.A.Mey.) Rahn",
+      "source": "Hassemer, G. 2020. Plantago in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605444\">https://floradobrasil2020.jbrj.gov.br/FB605444</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Plantago australis Lam.",
+      "parentnameusageid": 12914,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605444",
+      "acceptednameusageid": 594505,
+      "bibliographiccitation_how_to_cite": "Hassemer, G. Plantago in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605444>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-12-04 18:53:21.552"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 594505,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Plantago cumingiana Fisch. & C.A.Mey."
+      }
+    ],
+    "voucher": []
+  }
+]

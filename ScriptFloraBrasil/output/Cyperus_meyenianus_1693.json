@@ -1,0 +1,625 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7187,
+      "scientificname": "Cyperus meyenianus Kunth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "meyenianus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus meyenianus Kunth",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7187>http://floradobrasil2015.jbrj.gov.br/FB7187</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7187\">https://floradobrasil2020.jbrj.gov.br/FB7187</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus L.",
+      "parentnameusageid": 7171,
+      "originalnameusageid": null,
+      "namepublishedin": "Enum. Pl. [Kunth] 2: 88 1837",
+      "namepublishedinyear": "1837",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7187",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7187>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-05-16 23:22:44.784"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Enum. Pl. [Kunth],2: 88,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 49733,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus var. breviradiatus Maury"
+      },
+      {
+        "relatedresourceid": 49734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus var. oligostachys (Schrad. ex Nees) Kük."
+      },
+      {
+        "relatedresourceid": 49206,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chlorocyperus paranaguensis Palla"
+      },
+      {
+        "relatedresourceid": 51315,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mariscus meyenianus (Kunth) Nees"
+      },
+      {
+        "relatedresourceid": 49735,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus var. paranaguensis (Palla) Kük."
+      },
+      {
+        "relatedresourceid": 49736,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus var. patentissimus Kük."
+      },
+      {
+        "relatedresourceid": 49881,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus prionensis Boeckeler"
+      },
+      {
+        "relatedresourceid": 51316,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mariscus oligostachys Schrad. ex Nees"
+      },
+      {
+        "relatedresourceid": 50036,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus subulatus Meyen"
+      },
+      {
+        "relatedresourceid": 50074,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus trispicatus Boeckeler"
+      },
+      {
+        "relatedresourceid": 51335,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mariscus subulatus Nees"
+      },
+      {
+        "relatedresourceid": 51341,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mariscus uliginosus Schrad. ex Nees"
+      },
+      {
+        "relatedresourceid": 49661,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus kunthianus Nees"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Dombrowski, LT 3538",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM174701",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229506739",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Loiola, M.I.B. UFRN2190",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00002190",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100439833",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zachia, R 1498",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM181349",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229510297",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.W. Thomas 9537",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00058621",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226460925",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zachia, R 1498",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM181349",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM181349",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Loiola, M.I.B. UFRN2190",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00002190",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00002190",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dombrowski, LT 3538",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM174701",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM174701",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.W. Thomas 9537",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00058621",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00058621",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Maciel, J.R. et al. 296",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0008480",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0008480",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5494",
+        "collectioncode": "RB",
+        "catalognumber": "RB00558005",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00558005",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kuhlmann, M 1867",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005682",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00005682",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 19862",
+        "collectioncode": "NY",
+        "catalognumber": "NY00919238",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00919238",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kuhlmann, M 1867",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005682",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229071575",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5494",
+        "collectioncode": "RB",
+        "catalognumber": "RB00558005",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284431056",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Maciel, J.R. et al. 296",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0008480",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225920593",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 19862",
+        "collectioncode": "NY",
+        "catalognumber": "NY00919238",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228735025",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 49733,
+      "scientificname": "Cyperus meyenianus var. breviradiatus Maury",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "meyenianus",
+      "infraspecificepithet": "breviradiatus",
+      "scientificnameauthorship": "Maury",
+      "acceptednameusage": "Cyperus meyenianus Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus meyenianus Kunth;Cyperus meyenianus var. breviradiatus Maury",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49733>http://floradobrasil2015.jbrj.gov.br/FB49733</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49733\">https://floradobrasil2020.jbrj.gov.br/FB49733</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus meyenianus Kunth",
+      "parentnameusageid": 7187,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49733",
+      "acceptednameusageid": 7187,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49733>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-28 12:25:56.454195"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Bot. (Morot),2: 392,1888"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7187,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49734,
+      "scientificname": "Cyperus meyenianus var. oligostachys (Schrad. ex Nees) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "meyenianus",
+      "infraspecificepithet": "oligostachys",
+      "scientificnameauthorship": "(Schrad. ex Nees) Kük.",
+      "acceptednameusage": "Cyperus meyenianus Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus meyenianus Kunth;Cyperus meyenianus var. oligostachys (Schrad. ex Nees) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49734>http://floradobrasil2015.jbrj.gov.br/FB49734</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49734\">https://floradobrasil2020.jbrj.gov.br/FB49734</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus meyenianus Kunth",
+      "parentnameusageid": 7187,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49734",
+      "acceptednameusageid": 7187,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49734>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-28 12:26:07.370144"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler) IV, 20(101): 491,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7187,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49735,
+      "scientificname": "Cyperus meyenianus var. paranaguensis (Palla) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "meyenianus",
+      "infraspecificepithet": "paranaguensis",
+      "scientificnameauthorship": "(Palla) Kük.",
+      "acceptednameusage": "Cyperus meyenianus Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus meyenianus Kunth;Cyperus meyenianus var. paranaguensis (Palla) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49735>http://floradobrasil2015.jbrj.gov.br/FB49735</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49735\">https://floradobrasil2020.jbrj.gov.br/FB49735</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus meyenianus Kunth",
+      "parentnameusageid": 7187,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49735",
+      "acceptednameusageid": 7187,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49735>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-28 12:10:31.220614"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler) IV, 20(101): 491,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7187,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49736,
+      "scientificname": "Cyperus meyenianus var. patentissimus Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "meyenianus",
+      "infraspecificepithet": "patentissimus",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Cyperus meyenianus Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus meyenianus Kunth;Cyperus meyenianus var. patentissimus Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49736>http://floradobrasil2015.jbrj.gov.br/FB49736</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49736\">https://floradobrasil2020.jbrj.gov.br/FB49736</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus meyenianus Kunth",
+      "parentnameusageid": 7187,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49736",
+      "acceptednameusageid": 7187,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49736>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-28 12:10:50.752792"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler) IV, 20(101): 491,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7187,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus meyenianus Kunth"
+      }
+    ],
+    "voucher": []
+  }
+]

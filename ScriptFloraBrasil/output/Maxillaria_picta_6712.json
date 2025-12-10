@@ -1,0 +1,702 @@
+[
+  {
+    "taxon": {
+      "taxonid": 37812,
+      "scientificname": "Maxillaria picta Hook.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Hook.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta Hook.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB37812>http://floradobrasil2015.jbrj.gov.br/FB37812</a>)<br><br>Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB37812\">https://floradobrasil2020.jbrj.gov.br/FB37812</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria Ruiz & Pav.",
+      "parentnameusageid": 11828,
+      "originalnameusageid": "64725",
+      "namepublishedin": "Bot. Mag. 59: t. 3154 1832",
+      "namepublishedinyear": "1832",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB37812",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB37812>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 06:01:57.648"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Mag.,59: t. 3154,1832"
+      },
+      {
+        "reference": "Fl. bras.,3 (6): t. 8 I,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67712,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta var. rupestris (Barb.Rodr.) Cogn."
+      },
+      {
+        "relatedresourceid": 67733,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria rupestris Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 67578,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria acutipetala Hook."
+      },
+      {
+        "relatedresourceid": 64725,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Brasiliorchis picta (Hook.) R.B.Singer et al."
+      },
+      {
+        "relatedresourceid": 136150,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Bolbidium pictum (Hook.) J.M.H.Shaw"
+      },
+      {
+        "relatedresourceid": 67734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria rupestris var. brevis (Hoehne & Schltr.) Hoehne"
+      },
+      {
+        "relatedresourceid": 67735,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria rupestris var. minor Hoehne"
+      },
+      {
+        "relatedresourceid": 67711,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta var. brevis Hoehne & Schltr."
+      },
+      {
+        "relatedresourceid": 37776,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria brevis (Hoehne & Schltr.) Hoehne"
+      },
+      {
+        "relatedresourceid": 67667,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria kreysigii Hoffmanns. ex Regel"
+      },
+      {
+        "relatedresourceid": 67675,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria leucocheile Hoffmanns."
+      },
+      {
+        "relatedresourceid": 67659,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria hoehnei Schltr."
+      },
+      {
+        "relatedresourceid": 607039,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Brasiliorchis rupestris (Barb.Rodr.) Szlach. & Sitko"
+      },
+      {
+        "relatedresourceid": 607040,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria rupestris f. brevis (Hoehne & Schltr.) F.Barros"
+      },
+      {
+        "relatedresourceid": 608380,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta var. major F.Buyss."
+      },
+      {
+        "relatedresourceid": 67713,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta-major F.Buyss."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Gonzaga, D.R. 677",
+        "collectioncode": "RB",
+        "catalognumber": "RB01121017",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01121017",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dettke, G.A. 52",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000009559",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEM000009559",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Batista, J.A.N. 2892",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00094762",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00094762",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G.G. 2942",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM049960",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM049960",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Korte, A. 4226",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB34555",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB34555",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 9501",
+        "collectioncode": "RB",
+        "catalognumber": "RB01411846",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01411846",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dias, H.M. 768",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES030131",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES030131",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA123026",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA123026",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Waechter, J.L. 837",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00040435",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00040435",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzaga, D.R. 971",
+        "collectioncode": "RB",
+        "catalognumber": "RB01313319",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01313319",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 358",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00022776",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00022776",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Porto, C.P. 320",
+        "collectioncode": "RB",
+        "catalognumber": "RB00258388",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00258388",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Batista, J.A.N. 2892",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00094762",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226289284",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA123026",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226885786",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G.G. 2942",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM049960",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229982331",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Waechter, J.L. 837",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00040435",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229157635",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Waechter, J.L. 837",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00040435",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229157633",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzaga, D.R. 677",
+        "collectioncode": "RB",
+        "catalognumber": "RB01121017",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284972544",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Porto, C.P. 320",
+        "collectioncode": "RB",
+        "catalognumber": "RB00258388",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283949686",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Garcia, G.S. 358",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00022776",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100474205",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dettke, G.A. 52",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000009559",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97314475",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzaga, D.R. 971",
+        "collectioncode": "RB",
+        "catalognumber": "RB01313319",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285067296",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dias, H.M. 768",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES030131",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=122989905",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 9501",
+        "collectioncode": "RB",
+        "catalognumber": "RB01411846",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285180620",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Korte, A. 4226",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB34555",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227009605",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 67711,
+      "scientificname": "Maxillaria picta var. brevis Hoehne & Schltr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta",
+      "infraspecificepithet": "brevis",
+      "scientificnameauthorship": "Hoehne & Schltr.",
+      "acceptednameusage": "Maxillaria picta Hook.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta Hook.;Maxillaria picta var. brevis Hoehne & Schltr.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67711>http://floradobrasil2015.jbrj.gov.br/FB67711</a>)<br><br>Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67711\">https://floradobrasil2020.jbrj.gov.br/FB67711</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria picta Hook.",
+      "parentnameusageid": 37812,
+      "originalnameusageid": "37776",
+      "namepublishedin": "Arch. Bot. São Paulo 1: 274 1927",
+      "namepublishedinyear": "1927",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67711",
+      "acceptednameusageid": 37812,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67711>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-03-03 19:21:41.876"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arch. Bot. São Paulo,1: 274,1927"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 67734,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Maxillaria rupestris var. brevis (Hoehne & Schltr.) Hoehne"
+      },
+      {
+        "relatedresourceid": 37776,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Maxillaria brevis (Hoehne & Schltr.) Hoehne"
+      },
+      {
+        "relatedresourceid": 37812,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta Hook."
+      },
+      {
+        "relatedresourceid": 607040,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Maxillaria rupestris f. brevis (Hoehne & Schltr.) F.Barros"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67712,
+      "scientificname": "Maxillaria picta var. rupestris (Barb.Rodr.) Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta",
+      "infraspecificepithet": "rupestris",
+      "scientificnameauthorship": "(Barb.Rodr.) Cogn.",
+      "acceptednameusage": "Maxillaria picta Hook.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta Hook.;Maxillaria picta var. rupestris (Barb.Rodr.) Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67712>http://floradobrasil2015.jbrj.gov.br/FB67712</a>)<br><br>Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67712\">https://floradobrasil2020.jbrj.gov.br/FB67712</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria picta Hook.",
+      "parentnameusageid": 37812,
+      "originalnameusageid": "67733",
+      "namepublishedin": "Fl. bras. 3 (6): 40 1904",
+      "namepublishedinyear": "1904",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67712",
+      "acceptednameusageid": 37812,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67712>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-15 16:04:00.233"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,3 (6): 40,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 37812,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta Hook."
+      },
+      {
+        "relatedresourceid": 67733,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maxillaria rupestris Barb.Rodr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 67713,
+      "scientificname": "Maxillaria picta-major F.Buyss.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta-major",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "F.Buyss.",
+      "acceptednameusage": "Maxillaria picta Hook.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta-major F.Buyss.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB67713>http://floradobrasil2015.jbrj.gov.br/FB67713</a>)<br><br>Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB67713\">https://floradobrasil2020.jbrj.gov.br/FB67713</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria Ruiz & Pav.",
+      "parentnameusageid": 11828,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB67713",
+      "acceptednameusageid": 37812,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB67713>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-15 16:05:59.996"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 608380,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Maxillaria picta var. major F.Buyss."
+      },
+      {
+        "relatedresourceid": 37812,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta Hook."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 136174,
+      "scientificname": "Maxillaria picta var. brunnea Rchb.f.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta",
+      "infraspecificepithet": "brunnea",
+      "scientificnameauthorship": "Rchb.f.",
+      "acceptednameusage": "Maxillaria piresiana Hoehne",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta Hook.;Maxillaria picta var. brunnea Rchb.f.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB136174>http://floradobrasil2015.jbrj.gov.br/FB136174</a>)<br><br>Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB136174\">https://floradobrasil2020.jbrj.gov.br/FB136174</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria picta Hook.",
+      "parentnameusageid": 37812,
+      "originalnameusageid": "67691",
+      "namepublishedin": "Ann. Bot. Syst. (Walpers) 6: 519 1863",
+      "namepublishedinyear": "1863",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136174",
+      "acceptednameusageid": 37813,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB136174>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-03-03 19:29:21.767"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ann. Bot. Syst. (Walpers),6: 519,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 37813,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria piresiana Hoehne"
+      },
+      {
+        "relatedresourceid": 67691,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Maxillaria monoceros Klotzsch"
+      },
+      {
+        "relatedresourceid": 607189,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Maxillaria fucata Klotzsch"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 608380,
+      "scientificname": "Maxillaria picta var. major F.Buyss.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Maxillaria",
+      "specificepithet": "picta",
+      "infraspecificepithet": "major",
+      "scientificnameauthorship": "F.Buyss.",
+      "acceptednameusage": "Maxillaria picta Hook.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Maxillaria Ruiz & Pav.;Maxillaria picta Hook.;Maxillaria picta var. major F.Buyss.",
+      "source": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. 2020. Maxillaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB608380\">https://floradobrasil2020.jbrj.gov.br/FB608380</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Maxillaria picta Hook.",
+      "parentnameusageid": 37812,
+      "originalnameusageid": null,
+      "namepublishedin": "L'orchidophile; Traité Théor. & Prat. 381 1878",
+      "namepublishedinyear": "1878",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB608380",
+      "acceptednameusageid": 37812,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C., Costa, I.G.C.M., Smidt, E.C., Santos, T.F., Schmidt, E.D.L. Maxillaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB608380>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-15 16:03:28.124"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "L'orchidophile; Traité Théor. & Prat.,381,1878"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 37812,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria picta Hook."
+      },
+      {
+        "relatedresourceid": 67713,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Maxillaria picta-major F.Buyss."
+      }
+    ],
+    "voucher": []
+  }
+]

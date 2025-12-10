@@ -1,0 +1,944 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15325,
+      "scientificname": "Drimys brasiliensis Miers",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Miers",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15325>http://floradobrasil2015.jbrj.gov.br/FB15325</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15325\">https://floradobrasil2020.jbrj.gov.br/FB15325</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Ehrendorfer, F., Silberbauer-Gottsberger, I. &amp;amp; Gottsberger, G. (1979). Variation on the population, racial, and species level in the primitive relic Angiosperm genus &lt;em&gt;Drimys&lt;/em&gt; (Winteraceae) in South America. Plant Systematics and Evolution, 132(1-2), 53-83.\r\nSantos-Silva, F., Cardoso, P.H., Tavares-Silva, P. &amp;amp; Cabral, A. (2019). Winteraceae R. Br. ex Lindl na Serra da Mantiqueira, Brasil. Boletim de Bot&amp;acirc;nica da Universidade de S&amp;atilde;o Paulo, 37, 59-67.\r\n&amp;nbsp;\r\n&amp;nbsp;",
+      "parentnameusage": "Drimys J.R.Forst. & G.Forst.",
+      "parentnameusageid": 15323,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15325",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15325>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-04-11 10:52:53.309"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      },
+      {
+        "reference": "Miers, J.,Ann. Mag. Nat. Hist.,2: 47,1858"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R. Mello-Silva 3768",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00217615",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=132160015",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Mello-Silva 2452",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00165307",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=132159803",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Mello-Silva 2452",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00165307",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00165307",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Mello-Silva 3768",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00217615",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00217615",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 21587,
+      "scientificname": "Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "sylvatica",
+      "scientificnameauthorship": "(A.St.-Hil.) Ehrend. & Gottsb.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb.",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB21587>http://floradobrasil2015.jbrj.gov.br/FB21587</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB21587\">https://floradobrasil2020.jbrj.gov.br/FB21587</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB21587",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB21587>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-06 08:54:58.64"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 73,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109158,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis var. montana (Miers) Hauman"
+      },
+      {
+        "relatedresourceid": 33337,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Drimys brasiliensis var. sylvatica (A.St.-Hil.) Miers"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 33335,
+      "scientificname": "Drimys brasiliensis Miers var. brasiliensis",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "Miers",
+      "acceptednameusage": "Drimys brasiliensis Miers subsp. brasiliensis",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis Miers var. brasiliensis",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33335>http://floradobrasil2015.jbrj.gov.br/FB33335</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB33335\">https://floradobrasil2020.jbrj.gov.br/FB33335</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33335",
+      "acceptednameusageid": 109157,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB33335>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 08:03:08.375211"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109157,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Drimys brasiliensis Miers subsp. brasiliensis"
+      },
+      {
+        "relatedresourceid": 109176,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis var. campestris (A.St.-Hil.) Miers"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 33336,
+      "scientificname": "Drimys brasiliensis var. retorta (Miers) A.C.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "retorta",
+      "scientificnameauthorship": "(Miers) A.C.Sm.",
+      "acceptednameusage": "Drimys brasiliensis Miers subsp. brasiliensis",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. retorta (Miers) A.C.Sm.",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33336>http://floradobrasil2015.jbrj.gov.br/FB33336</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB33336\">https://floradobrasil2020.jbrj.gov.br/FB33336</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33336",
+      "acceptednameusageid": 109157,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB33336>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 10:03:37.409735"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Arnold Arbor.,24(1): 31,1943"
+      },
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109157,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis Miers subsp. brasiliensis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 33337,
+      "scientificname": "Drimys brasiliensis var. sylvatica (A.St.-Hil.) Miers",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "sylvatica",
+      "scientificnameauthorship": "(A.St.-Hil.) Miers",
+      "acceptednameusage": "Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb.",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. sylvatica (A.St.-Hil.) Miers",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33337>http://floradobrasil2015.jbrj.gov.br/FB33337</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB33337\">https://floradobrasil2020.jbrj.gov.br/FB33337</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33337",
+      "acceptednameusageid": 21587,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB33337>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 08:59:43.391736"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Ann. Mag. Nat. Hist.,2: 48,1858"
+      },
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109168,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys granadensis var. montana A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 109165,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys granadensis var. sylvatica A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 21587,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb."
+      },
+      {
+        "relatedresourceid": 109166,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys granadensis var. axillaris A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 109170,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys montana (A.St.-Hil.) Miers"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109157,
+      "scientificname": "Drimys brasiliensis Miers subsp. brasiliensis",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "Miers",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis Miers subsp. brasiliensis",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109157>http://floradobrasil2015.jbrj.gov.br/FB109157</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109157\">https://floradobrasil2020.jbrj.gov.br/FB109157</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109157",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109157>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-06 08:49:10.307"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 73,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 33336,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis var. retorta (Miers) A.C.Sm."
+      },
+      {
+        "relatedresourceid": 601323,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys winteri f. revoluta Eichler"
+      },
+      {
+        "relatedresourceid": 109175,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys granadensis var. campestris A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 33335,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Drimys brasiliensis Miers var. brasiliensis"
+      },
+      {
+        "relatedresourceid": 109178,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys retorta Miers"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109158,
+      "scientificname": "Drimys brasiliensis var. montana (Miers) Hauman",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "montana",
+      "scientificnameauthorship": "(Miers) Hauman",
+      "acceptednameusage": "Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb.",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. montana (Miers) Hauman",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109158>http://floradobrasil2015.jbrj.gov.br/FB109158</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109158\">https://floradobrasil2020.jbrj.gov.br/FB109158</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": "109170",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109158",
+      "acceptednameusageid": 21587,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109158>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 09:26:07.02674"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Comun. Mus. Nac. B. Aires,2: 50,1923"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109170,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Drimys montana (A.St.-Hil.) Miers"
+      },
+      {
+        "relatedresourceid": 21587,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis subsp. sylvatica (A.St.-Hil.) Ehrend. & Gottsb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109172,
+      "scientificname": "Drimys brasiliensis subsp. subalpina Ehrend. & Gottsb.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "subalpina",
+      "scientificnameauthorship": "Ehrend. & Gottsb.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis subsp. subalpina Ehrend. & Gottsb.",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109172>http://floradobrasil2015.jbrj.gov.br/FB109172</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109172\">https://floradobrasil2020.jbrj.gov.br/FB109172</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109172",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109172>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 15:57:27.112"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 75,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109173,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Drimys winteri var. semiglobosa Dusén"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109176,
+      "scientificname": "Drimys brasiliensis var. campestris (A.St.-Hil.) Miers",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "campestris",
+      "scientificnameauthorship": "(A.St.-Hil.) Miers",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. campestris (A.St.-Hil.) Miers",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109176>http://floradobrasil2015.jbrj.gov.br/FB109176</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109176\">https://floradobrasil2020.jbrj.gov.br/FB109176</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109176",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109176>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 10:00:13.946228"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Ann. Mag. Nat. Hist.,2: 48,1858"
+      },
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 33335,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Drimys brasiliensis Miers var. brasiliensis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109180,
+      "scientificname": "Drimys brasiliensis var. roraimensis A.C.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "roraimensis",
+      "scientificnameauthorship": "A.C.Sm.",
+      "acceptednameusage": "Drimys roraimensis (A.C.Sm.) Ehrend. & Gottsb.",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. roraimensis A.C.Sm.",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109180>http://floradobrasil2015.jbrj.gov.br/FB109180</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109180\">https://floradobrasil2020.jbrj.gov.br/FB109180</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109180",
+      "acceptednameusageid": 109179,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109180>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 10:18:17.439662"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",J. Arnold Arbor.,24(1): 32-33,1943"
+      },
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109179,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Drimys roraimensis (A.C.Sm.) Ehrend. & Gottsb."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109181,
+      "scientificname": "Drimys brasiliensis var. ptaritepuiensis Steyerm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Canellales",
+      "family": "Winteraceae",
+      "genus": "Drimys",
+      "specificepithet": "brasiliensis",
+      "infraspecificepithet": "ptaritepuiensis",
+      "scientificnameauthorship": "Steyerm.",
+      "acceptednameusage": "Drimys roraimensis (A.C.Sm.) Ehrend. & Gottsb.",
+      "higherclassification": "Flora e Funga;Angiospermas;Winteraceae Lindl.;Drimys J.R.Forst. & G.Forst.;Drimys brasiliensis Miers;Drimys brasiliensis var. ptaritepuiensis Steyerm.",
+      "source": "Mello-Silva, R. 2015. Winteraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109181>http://floradobrasil2015.jbrj.gov.br/FB109181</a>)<br><br>Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109181\">https://floradobrasil2020.jbrj.gov.br/FB109181</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Drimys brasiliensis Miers",
+      "parentnameusageid": 15325,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109181",
+      "acceptednameusageid": 109179,
+      "bibliographiccitation_how_to_cite": "Cabral, A., Mello-Silva, R. (in memoriam) Winteraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109181>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-18 10:23:06.956876"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Fieldiana, Bot.,28: 235,1951"
+      },
+      {
+        "reference": "Ehrendorfer, F. et al.,Pl. Syst. Evol.,132: 53-83,1979"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109179,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Drimys roraimensis (A.C.Sm.) Ehrend. & Gottsb."
+      }
+    ],
+    "voucher": []
+  }
+]

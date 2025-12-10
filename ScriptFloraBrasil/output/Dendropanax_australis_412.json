@@ -1,0 +1,279 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5101,
+      "scientificname": "Dendropanax australis Fiaschi & Jung-Mend.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Araliaceae",
+      "genus": "Dendropanax",
+      "specificepithet": "australis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Fiaschi & Jung-Mend.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araliaceae Juss.;Dendropanax Decne. & Planch.;Dendropanax australis Fiaschi & Jung-Mend.",
+      "source": "Fiaschi, P. 2015. Araliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5101>http://floradobrasil2015.jbrj.gov.br/FB5101</a>)<br><br>Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5101\">https://floradobrasil2020.jbrj.gov.br/FB5101</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dendropanax Decne. & Planch.",
+      "parentnameusageid": 5099,
+      "originalnameusageid": null,
+      "namepublishedin": "Candollea 61: 458 2006",
+      "namepublishedinyear": "2006",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5101",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5101>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-23 14:55:44.36"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fiaschi, P.,Candollea,61: 458,2006"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Altamiro 53",
+        "collectioncode": "RB",
+        "catalognumber": "RB00048357",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00048357",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Negrelle 95",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000633",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI000633",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fiaschi, P. 4283",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0058780",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0058780",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caxambu, MG 5976",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM409166",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM409166",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Saint-Hilaire C2-1690",
+        "collectioncode": "P",
+        "catalognumber": "P03236350",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03236350",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000636",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI000636",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.G. Caxambu 2306",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000007181",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000007181",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Dusén 14092",
+        "collectioncode": "P",
+        "catalognumber": "P03236985",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P03236985",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C.S. Vieira 1900",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI004190",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/JOI004190",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bonaldi, RA 895",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM399488",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM399488",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Meirelles, J. 8",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI007974",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/JOI007974",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bächtold, A. 173",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI005182",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/JOI005182",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Dusén 14092",
+        "collectioncode": "P",
+        "catalognumber": "P03236985",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227845008",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C.S. Vieira 1900",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI004190",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=145005712",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bonaldi, RA 895",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM399488",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229236292",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Negrelle 95",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000633",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226130743",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000636",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226130749",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fiaschi, P. 4283",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0058780",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226916523",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Saint-Hilaire C2-1690",
+        "collectioncode": "P",
+        "catalognumber": "P03236350",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98292565",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caxambu, MG 5976",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM409166",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229873443",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Meirelles, J. 8",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI007974",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=145005732",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Altamiro 53",
+        "collectioncode": "RB",
+        "catalognumber": "RB00048357",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284314998",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.G. Caxambu 2306",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000007181",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97159079",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bächtold, A. 173",
+        "collectioncode": "JOI",
+        "catalognumber": "JOI005182",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=145005718",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

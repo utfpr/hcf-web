@@ -1,0 +1,111 @@
+[
+  {
+    "taxon": {
+      "taxonid": 91366,
+      "scientificname": "Nephrolepis rivularis (Vahl) Mett. ex Krug",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Nephrolepidaceae",
+      "genus": "Nephrolepis",
+      "specificepithet": "rivularis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vahl) Mett. ex Krug",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Nephrolepidaceae Pic. Serm.;Nephrolepis Schott;Nephrolepis rivularis (Vahl) Mett. ex Krug",
+      "source": "Barros, I.C.L.,Santiago, A.C.P.,Pereira, A.F. de N. 2015. Lomariopsidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91366>http://floradobrasil2015.jbrj.gov.br/FB91366</a>)<br><br>Maciel, S. Nephrolepidaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91366\">https://floradobrasil2020.jbrj.gov.br/FB91366</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Nephrolepis Schott",
+      "parentnameusageid": 91353,
+      "originalnameusageid": "91367",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91366",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Maciel, S. Nephrolepidaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB91366>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-09-24 10:06:40.847"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": null,
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Várzea",
+        "Floresta de Igapó",
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 91367,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Polypodium rivulare Vahl"
+      },
+      {
+        "relatedresourceid": 639258,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Nephrodium hoffmanseggi Desv."
+      },
+      {
+        "relatedresourceid": 639259,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidium sesquipedale Willd."
+      },
+      {
+        "relatedresourceid": 639260,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidium hoffmanseggi (Willd.) Poir."
+      },
+      {
+        "relatedresourceid": 639261,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidium eminens Wikstr."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.T. Prance 12179",
+        "collectioncode": "NY",
+        "catalognumber": "NY00868262",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00868262",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 12179",
+        "collectioncode": "NY",
+        "catalognumber": "NY00868262",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228725149",
+        "locality": "AC",
+        "typestatus": null
+      }
+    ]
+  }
+]

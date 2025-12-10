@@ -1,0 +1,783 @@
+[
+  {
+    "taxon": {
+      "taxonid": 16910,
+      "scientificname": "Commelina benghalensis L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO_VIA_CONSERVACAO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Commelinales",
+      "family": "Commelinaceae",
+      "genus": "Commelina",
+      "specificepithet": "benghalensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Commelinaceae Mirb.;Commelina L.;Commelina benghalensis L.",
+      "source": "Aona, L.Y.S.,Pellegrini, M.O.O. 2015. Commelinaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16910>http://floradobrasil2015.jbrj.gov.br/FB16910</a>)<br><br>Aona, L.Y.S., Amaral, M.C.E. 2020. Commelina in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16910\">https://floradobrasil2020.jbrj.gov.br/FB16910</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FADEN, R.B. 1992. Proposal to conserve &lt;em&gt;Commelina benghalensis&lt;/em&gt; (Commelinaceae) with a conserved type under art. 69. 3. Taxon 41: 341-342.\r\n&lt;span lang=&quot;EN-US&quot; style=&quot;mso-bidi-font-size: 13.0pt; mso-ansi-language: EN-US; mso-bidi-font-weight: bold;&quot;&gt;JOSEPH, S.M. &amp;amp; NAMPY, S. 2012. Capsule and seed morphology of &lt;em style=&quot;mso-bidi-font-style: normal;&quot;&gt;Commelina&lt;/em&gt; L. (Commelinaceae) in relation to taxonomy. &lt;/span&gt;&lt;span style=&quot;mso-bidi-font-size: 13.0pt; mso-bidi-font-weight: bold;&quot;&gt;International Journal of Botany. 8(1): 1&amp;ndash;12.&lt;/span&gt;",
+      "parentnameusage": "Commelina L.",
+      "parentnameusageid": 16909,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16910",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Aona, L.Y.S., Amaral, M.C.E. Commelina in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB16910>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-10-09 17:52:59.135"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "marianinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mata-brasil",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "trapoeraba",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,:41,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34788,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Commelina benghalensis L. var. benghalensis"
+      },
+      {
+        "relatedresourceid": 48465,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina rhizocarpa Afzel. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48407,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina canescens Vahl"
+      },
+      {
+        "relatedresourceid": 48408,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina cavaleriei H.Lév."
+      },
+      {
+        "relatedresourceid": 48411,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina cucullata L."
+      },
+      {
+        "relatedresourceid": 48412,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina delicatula Schltdl."
+      },
+      {
+        "relatedresourceid": 48442,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina mollis Jacq."
+      },
+      {
+        "relatedresourceid": 48445,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina nervosa Burm.f."
+      },
+      {
+        "relatedresourceid": 48461,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina procurrens Schltdl."
+      },
+      {
+        "relatedresourceid": 48464,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina radiciflora R.Br. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48459,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina poligama Blanco"
+      },
+      {
+        "relatedresourceid": 48479,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina uncata C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48484,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina villosiuscula Sol. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48474,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina senegalensis Ten."
+      },
+      {
+        "relatedresourceid": 48477,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina turbinata Vahl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Santos, R.R. de et al. 1478",
+        "collectioncode": "NY",
+        "catalognumber": "NY00872608",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00872608",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Ramalho s/n",
+        "collectioncode": "RBR",
+        "catalognumber": "RBR00005368",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RBR00005368",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.N. Piza 24156",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC043197",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC043197",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Barbosa 33",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0000114",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0000114",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Ramalho s/n",
+        "collectioncode": "RBR",
+        "catalognumber": "RBR00005368",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=261979888",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Barbosa 33",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0000114",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225906507",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, R.R. de et al. 1478",
+        "collectioncode": "NY",
+        "catalognumber": "NY00872608",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228749405",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34788,
+      "scientificname": "Commelina benghalensis L. var. benghalensis",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Commelinales",
+      "family": "Commelinaceae",
+      "genus": "Commelina",
+      "specificepithet": "benghalensis",
+      "infraspecificepithet": "benghalensis",
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": "Commelina benghalensis L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Commelinaceae Mirb.;Commelina L.;Commelina benghalensis L.;Commelina benghalensis L. var. benghalensis",
+      "source": "Aona, L.Y.S.,Pellegrini, M.O.O. 2015. Commelinaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34788>http://floradobrasil2015.jbrj.gov.br/FB34788</a>)<br><br>Aona, L.Y.S., Amaral, M.C.E. 2020. Commelina in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34788\">https://floradobrasil2020.jbrj.gov.br/FB34788</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FADEN, R.B. 1992. Proposal to conserve Commelina benghalensis (Commelinaceae) with a conserved type under art. 69. 3. Taxon 41: 341-342",
+      "parentnameusage": "Commelina benghalensis L.",
+      "parentnameusageid": 16910,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34788",
+      "acceptednameusageid": 16910,
+      "bibliographiccitation_how_to_cite": "Aona, L.Y.S., Amaral, M.C.E. Commelina in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34788>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-06-03 19:35:13.261"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 16910,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Commelina benghalensis L."
+      },
+      {
+        "relatedresourceid": 48465,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina rhizocarpa Afzel. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48407,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina canescens Vahl"
+      },
+      {
+        "relatedresourceid": 48408,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina cavaleriei H.Lév."
+      },
+      {
+        "relatedresourceid": 48411,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina cucullata L."
+      },
+      {
+        "relatedresourceid": 48412,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina delicatula Schltdl."
+      },
+      {
+        "relatedresourceid": 48442,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina mollis Jacq."
+      },
+      {
+        "relatedresourceid": 48445,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina nervosa Burm.f."
+      },
+      {
+        "relatedresourceid": 48461,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina procurrens Schltdl."
+      },
+      {
+        "relatedresourceid": 48464,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina radiciflora R.Br. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48459,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina poligama Blanco"
+      },
+      {
+        "relatedresourceid": 48479,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina uncata C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48484,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina villosiuscula Sol. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 48474,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina senegalensis Ten."
+      },
+      {
+        "relatedresourceid": 48477,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina turbinata Vahl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Santos, R.R. de et al. 1478",
+        "collectioncode": "NY",
+        "catalognumber": "NY00872608",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00872608",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Santos, R.R. de et al. 1478",
+        "collectioncode": "NY",
+        "catalognumber": "NY00872608",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228749405",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  }
+]

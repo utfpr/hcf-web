@@ -1,0 +1,633 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14911,
+      "scientificname": "Symplocos nitens (Pohl) Benth.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Symplocaceae",
+      "genus": "Symplocos",
+      "specificepithet": "nitens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Pohl) Benth.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Symplocaceae Desf.;Symplocos Jacq.;Symplocos nitens (Pohl) Benth.",
+      "source": "Aranha Filho, J.L.M. 2015. Symplocaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14911>http://floradobrasil2015.jbrj.gov.br/FB14911</a>)<br><br>Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14911\">https://floradobrasil2020.jbrj.gov.br/FB14911</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Aranha Filho, J.L.M. 2008.&amp;nbsp;Flora da Serra do Cip&amp;oacute;, Minas Gerais: Symplocaceae. Boletim de Bot&amp;acirc;nica da Universidade de S&amp;atilde;o Paulo 26: 69-77.",
+      "parentnameusage": "Symplocos Jacq.",
+      "parentnameusageid": 14897,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14911",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14911>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 15:49:59.581"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Alba Evangelista Ramos 109",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007040",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226250692",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Alba Evangelista Ramos 109",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007040",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00007040",
+        "locality": "DF",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 32917,
+      "scientificname": "Symplocos nitens var. bahiensis (A.DC.) Brand",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Symplocaceae",
+      "genus": "Symplocos",
+      "specificepithet": "nitens",
+      "infraspecificepithet": "bahiensis",
+      "scientificnameauthorship": "(A.DC.) Brand",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Symplocaceae Desf.;Symplocos Jacq.;Symplocos nitens (Pohl) Benth.;Symplocos nitens var. bahiensis (A.DC.) Brand",
+      "source": "Aranha Filho, J.L.M. 2015. Symplocaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32917>http://floradobrasil2015.jbrj.gov.br/FB32917</a>)<br><br>Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32917\">https://floradobrasil2020.jbrj.gov.br/FB32917</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Brand, A. 1901. Symplocaceae. Pp. 1-100 in A. Engler (ed.), Das Pflanzenreich IV. 242 (heft 6). Engelmann, Leipzig, Alemanha.",
+      "parentnameusage": "Symplocos nitens (Pohl) Benth.",
+      "parentnameusageid": 14911,
+      "originalnameusageid": "106049",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32917",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32917>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 12:46:11.048"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Carrasco",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cinzeiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 7, part. 0, tab. 8,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 106049,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Symplocos bahiensis A.DC."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Ganev, W. 454",
+        "collectioncode": "K",
+        "catalognumber": "197812",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/197812",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 32918,
+      "scientificname": "Symplocos nitens (Pohl) Benth. var. nitens",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Symplocaceae",
+      "genus": "Symplocos",
+      "specificepithet": "nitens",
+      "infraspecificepithet": "nitens",
+      "scientificnameauthorship": "(Pohl) Benth.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Symplocaceae Desf.;Symplocos Jacq.;Symplocos nitens (Pohl) Benth.;Symplocos nitens (Pohl) Benth. var. nitens",
+      "source": "Aranha Filho, J.L.M. 2015. Symplocaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32918>http://floradobrasil2015.jbrj.gov.br/FB32918</a>)<br><br>Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32918\">https://floradobrasil2020.jbrj.gov.br/FB32918</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Almeda, F.; Fritsch, P.W. &amp;amp; Aranha Filho, J.L.M. 2008. Symplocaceae. Pp. 3067-3069&amp;nbsp;in F.O. Zuloaga, O. Morrone &amp;amp; M.J. Belgrano (eds.), Cat&amp;aacute;logo de las Plantas Vasculares Del Cono Sur (Argentina, sur de Brasil, Chile, Paraguay y Uruguay), vol. 3. Missouri Botanical Garden Press, Saint Louis, EUA.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nAranha Filho, J.L.M. 2008.&amp;nbsp;Flora da Serra do Cip&amp;oacute;, Minas Gerais: Symplocaceae. Boletim de Bot&amp;acirc;nica da Universidade de S&amp;atilde;o Paulo 26: 69-77.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nAranha Filho, J.L.M. 2011. Symplocaceae. Pp. 195-209 in T.B. Cavalcanti &amp;amp; A.P. Silva (orgs.), Flora do Distrito Federal, vol. 9. Embrapa Recursos Gen&amp;eacute;ticos e Biotecnologia, Bras&amp;iacute;lia, Brasil.",
+      "parentnameusage": "Symplocos nitens (Pohl) Benth.",
+      "parentnameusageid": 14911,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32918",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32918>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 15:53:09.873"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cinzeiro-da-casca-fresca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas Gerais"
+      },
+      {
+        "vernacularname": "cinzeiro-da-terra-fresca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas Gerais"
+      },
+      {
+        "vernacularname": "sacaca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      },
+      {
+        "vernacularname": "mucuri-branco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 7, part. 0, tab. 8,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 106034,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Symplocos claussenii A.DC."
+      },
+      {
+        "relatedresourceid": 106035,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Symplocos nitens var. claussenii (A.DC.) Brand"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Alba Evangelista Ramos 109",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007040",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226250692",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Alba Evangelista Ramos 109",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007040",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00007040",
+        "locality": "DF",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 106035,
+      "scientificname": "Symplocos nitens var. claussenii (A.DC.) Brand",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Symplocaceae",
+      "genus": "Symplocos",
+      "specificepithet": "nitens",
+      "infraspecificepithet": "claussenii",
+      "scientificnameauthorship": "(A.DC.) Brand",
+      "acceptednameusage": "Symplocos nitens (Pohl) Benth. var. nitens",
+      "higherclassification": "Flora e Funga;Angiospermas;Symplocaceae Desf.;Symplocos Jacq.;Symplocos nitens (Pohl) Benth.;Symplocos nitens var. claussenii (A.DC.) Brand",
+      "source": "Aranha Filho, J.L.M. 2015. Symplocaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB106035>http://floradobrasil2015.jbrj.gov.br/FB106035</a>)<br><br>Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB106035\">https://floradobrasil2020.jbrj.gov.br/FB106035</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Almeda, F.; Fritsch, P.W. &amp; Aranha Filho, J.L.M. 2008. Symplocaceae. Pp. 3067-3069&#160;in F.O. Zuloaga, O. Morrone &amp; M.J. Belgrano (eds.), Cat&#225;logo de las Plantas Vasculares Del Cono Sur (Argentina, sur de Brasil, Chile, Paraguay y Uruguay), vol. 3. Missouri Botanical Garden Press, Saint Louis, EUA.Brand, A. 1901. Symplocaceae. Pp. 1-100 in A. Engler (ed.), Das Pflanzenreich IV. 242 (heft 6). Engelmann, Leipzig, Alemanha.",
+      "parentnameusage": "Symplocos nitens (Pohl) Benth.",
+      "parentnameusageid": 14911,
+      "originalnameusageid": "106034",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB106035",
+      "acceptednameusageid": 32918,
+      "bibliographiccitation_how_to_cite": "Romão, G.O., Cabral, A., Aranha Filho, J.L.M., Santos, F.B.D. Symplocaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB106035>. Acesso em: 20 nov. 2025.",
+      "modified": "2011-09-21 15:44:36.615334"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32918,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Symplocos nitens (Pohl) Benth. var. nitens"
+      },
+      {
+        "relatedresourceid": 106034,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Symplocos claussenii A.DC."
+      }
+    ],
+    "voucher": []
+  }
+]

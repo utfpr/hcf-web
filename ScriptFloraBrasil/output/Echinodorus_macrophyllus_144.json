@@ -1,0 +1,512 @@
+[
+  {
+    "taxon": {
+      "taxonid": 4264,
+      "scientificname": "Echinodorus macrophyllus (Kunth) Micheli",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Alismataceae",
+      "genus": "Echinodorus",
+      "specificepithet": "macrophyllus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Kunth) Micheli",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Alismataceae Vent.;Echinodorus Rich. ex Engelm.;Echinodorus macrophyllus (Kunth) Micheli",
+      "source": "Matias, L.Q.,Lopes, R.C.,Sakuragui, C.M. 2015. Alismataceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4264>http://floradobrasil2015.jbrj.gov.br/FB4264</a>)<br><br>Matias, L.Q. Alismataceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB4264\">https://floradobrasil2020.jbrj.gov.br/FB4264</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Lehtonen 2008, Kew Bull. 63(4): 542.",
+      "parentnameusage": "Echinodorus Rich. ex Engelm.",
+      "parentnameusageid": 4257,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4264",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matias, L.Q., Pestana, M.C.A. Alismataceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB4264>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-06-16 13:00:18.035"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Aquática"
+      ],
+      "vegetationType": [
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Micheli,M.,Monogr. Phan. [A.DC. & C.DC.],3: 50,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39900,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Alisma macrophyllum Kunth"
+      },
+      {
+        "relatedresourceid": 638316,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aquarius macrophyllus (Kunth) Christenh. & Byng"
+      },
+      {
+        "relatedresourceid": 15383,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Echinodorus macrophyllus (Kunth) Micheli subsp. macrophyllus"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Gardner 700",
+        "collectioncode": "K",
+        "catalognumber": "K000098527",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227466339",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gardner 700",
+        "collectioncode": "K",
+        "catalognumber": "K000098527",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000098527",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 15383,
+      "scientificname": "Echinodorus macrophyllus (Kunth) Micheli subsp. macrophyllus",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Alismataceae",
+      "genus": "Echinodorus",
+      "specificepithet": "macrophyllus",
+      "infraspecificepithet": "macrophyllus",
+      "scientificnameauthorship": "(Kunth) Micheli",
+      "acceptednameusage": "Echinodorus macrophyllus (Kunth) Micheli",
+      "higherclassification": "Flora e Funga;Angiospermas;Alismataceae Vent.;Echinodorus Rich. ex Engelm.;Echinodorus macrophyllus (Kunth) Micheli;Echinodorus macrophyllus (Kunth) Micheli subsp. macrophyllus",
+      "source": "Matias, L.Q.,Lopes, R.C.,Sakuragui, C.M. 2015. Alismataceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15383>http://floradobrasil2015.jbrj.gov.br/FB15383</a>)<br><br>Matias, L.Q. Alismataceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15383\">https://floradobrasil2020.jbrj.gov.br/FB15383</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Echinodorus macrophyllus (Kunth) Micheli",
+      "parentnameusageid": 4264,
+      "originalnameusageid": "39900",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15383",
+      "acceptednameusageid": 4264,
+      "bibliographiccitation_how_to_cite": "Matias, L.Q., Pestana, M.C.A. Alismataceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15383>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-09-23 13:54:37.972"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Aquática"
+      ],
+      "vegetationType": [
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "chapéu-de-couro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "sul, sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Haynes, R.R. & Holm-Nielsen, L.B.,Flora Neotropica,64: 1-112,1994"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4264,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Echinodorus macrophyllus (Kunth) Micheli"
+      },
+      {
+        "relatedresourceid": 39900,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Alisma macrophyllum Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 15384,
+      "scientificname": "Echinodorus macrophyllus subsp. scaber (Rataj) R.R.Haynes & Holm-Niels.",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Alismataceae",
+      "genus": "Echinodorus",
+      "specificepithet": "macrophyllus",
+      "infraspecificepithet": "scaber",
+      "scientificnameauthorship": "(Rataj) R.R.Haynes & Holm-Niels.",
+      "acceptednameusage": "Echinodorus scaber Rataj",
+      "higherclassification": "Flora e Funga;Angiospermas;Alismataceae Vent.;Echinodorus Rich. ex Engelm.;Echinodorus macrophyllus (Kunth) Micheli;Echinodorus macrophyllus subsp. scaber (Rataj) R.R.Haynes & Holm-Niels.",
+      "source": "Matias, L.Q.,Lopes, R.C.,Sakuragui, C.M. 2015. Alismataceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15384>http://floradobrasil2015.jbrj.gov.br/FB15384</a>)<br><br>Matias, L.Q. Alismataceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15384\">https://floradobrasil2020.jbrj.gov.br/FB15384</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Echinodorus macrophyllus (Kunth) Micheli",
+      "parentnameusageid": 4264,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15384",
+      "acceptednameusageid": 39984,
+      "bibliographiccitation_how_to_cite": "Matias, L.Q., Pestana, M.C.A. Alismataceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15384>. Acesso em: 20 nov. 2025.",
+      "modified": "2010-06-02 10:42:48.445964"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [
+      {
+        "vernacularname": "chapéu-de-couro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "sudeste"
+      },
+      {
+        "vernacularname": "golfe",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39984,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Echinodorus scaber Rataj"
+      },
+      {
+        "relatedresourceid": 39985,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Echinodorus scaber var. proliferatus Rataj"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 39963,
+      "scientificname": "Echinodorus macrophyllus var. muricatus (Griseb.) Micheli",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_MAL_APLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Alismataceae",
+      "genus": "Echinodorus",
+      "specificepithet": "macrophyllus",
+      "infraspecificepithet": "muricatus",
+      "scientificnameauthorship": "(Griseb.) Micheli",
+      "acceptednameusage": "Echinodorus floribundus (Seub.) Seub.",
+      "higherclassification": "Flora e Funga;Angiospermas;Alismataceae Vent.;Echinodorus Rich. ex Engelm.;Echinodorus macrophyllus (Kunth) Micheli;Echinodorus macrophyllus var. muricatus (Griseb.) Micheli",
+      "source": "Matias, L.Q.,Lopes, R.C.,Sakuragui, C.M. 2015. Alismataceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39963>http://floradobrasil2015.jbrj.gov.br/FB39963</a>)<br><br>Matias, L.Q. Alismataceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB39963\">https://floradobrasil2020.jbrj.gov.br/FB39963</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Echinodorus macrophyllus (Kunth) Micheli",
+      "parentnameusageid": 4264,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39963",
+      "acceptednameusageid": 39938,
+      "bibliographiccitation_how_to_cite": "Matias, L.Q., Pestana, M.C.A. Alismataceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB39963>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-06-23 16:17:20.908"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Micheli, M.,Monogr. Phan. [A.DC. & C.DC.],3: 50,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39938,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Echinodorus floribundus (Seub.) Seub."
+      }
+    ],
+    "voucher": []
+  }
+]

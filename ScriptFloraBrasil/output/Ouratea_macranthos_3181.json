@@ -1,0 +1,106 @@
+[
+  {
+    "taxon": {
+      "taxonid": 135907,
+      "scientificname": "Ouratea macranthos (Erhard) Tiegh.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Ochnaceae",
+      "genus": "Ouratea",
+      "specificepithet": "macranthos",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Erhard) Tiegh.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Ochnaceae DC.;Ouratea Aubl.;Ouratea macranthos (Erhard) Tiegh.",
+      "source": "Chacon, R.G.,Yamamoto, K. 2015. Ouratea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB135907>http://floradobrasil2015.jbrj.gov.br/FB135907</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Chacon, R.G. 2011. Ochnaceae s.s. nos estados de Goi&amp;aacute;s e Tocantins, Brasil. Disserta&amp;ccedil;&amp;atilde;o de mestrado &amp;ndash; Universidade de Bras&amp;iacute;lia/Instituto de Biologia, Departamento de Bot&amp;acirc;nica, Bras&amp;iacute;lia: DF.\r\nSASTRE, C. &amp;amp; OFFROY, B. 2016. R&amp;eacute;vision nomenclaturale des bin&amp;ocirc;mes du genre n&amp;eacute;otropical Ouratea Aublet (Ochnaceae) d&amp;eacute;crits par Van Tieghem.&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Adansonia&lt;/strong&gt;&lt;/strong&gt;, s&amp;eacute;r. 3, 38 (1): 55-98. http://dx.doi.org/10.5252/a2016n1a5",
+      "parentnameusage": "Ouratea Aubl.",
+      "parentnameusageid": 19917,
+      "originalnameusageid": null,
+      "namepublishedin": "Annales dês Sciences Naturelles, Botanique, sér. 8 16: 293 1902",
+      "namepublishedinyear": "1902",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB135907",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2016-12-23 14:52:20.248"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "van Tieghem,Annales dês Sciences Naturelles, Botanique, sér. 8,16: 293,1902"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 115387,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ouratea venulata (Tiegh.) Sastre"
+      },
+      {
+        "relatedresourceid": 115388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cercouratea venulata Tiegh."
+      }
+    ],
+    "voucher": []
+  }
+]

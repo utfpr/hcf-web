@@ -1,0 +1,730 @@
+[
+  {
+    "taxon": {
+      "taxonid": 12508,
+      "scientificname": "Passiflora alata Curtis",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Curtis",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Curtis",
+      "source": "Bernacci, L.C.,Cervi, A.C.,Milward-de-Azevedo, M.A.,Nunes, T.S.,Imig, D.C.,Mezzonato, A.C. 2015. Passifloraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB12508>http://floradobrasil2015.jbrj.gov.br/FB12508</a>)<br><br>Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB12508\">https://floradobrasil2020.jbrj.gov.br/FB12508</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;Bernacci, L.C., Vitta, F.A. &amp;amp; Bakker, Y.V. 2003. Passifloraceae. In: Flora Fanerog&amp;acirc;mica do Estado de S&amp;atilde;o Paulo. S&amp;atilde;o Paulo: FAPESP. p. 247-274.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;line-height: 115%; background: white; font-weight: normal;&quot;&gt;Mezzonato-Pires, A.C.; Bernacci, L.C. &amp;amp; Salimena, F.R.G.2013. Passifloraceae na Serra Negra, Minas Gerais. Rodrigu&amp;eacute;sia. 64(1): 123-136.&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;NUNES, T. S.; QUEIROZ, L. P. 2006. Flora da Bahia: Passifloraceae. &lt;strong&gt;Sitientibus&lt;/strong&gt;. Revista da Universidade Estadual de Feira de Santana, Bahia, v. 6, p. 194-226.&lt;/span&gt;",
+      "parentnameusage": "Passiflora L.",
+      "parentnameusageid": 12506,
+      "originalnameusageid": "600883",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12508",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-07-16 14:43:10.139"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "maracujá-doce",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "São Paulo"
+      },
+      {
+        "vernacularname": "maracujá-açú",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 13, part. 1, tab. 114,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 600883,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata var. brasiliana (Desf.) Mast."
+      },
+      {
+        "relatedresourceid": 123066,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora tetradena Vand. ex DC."
+      },
+      {
+        "relatedresourceid": 129300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora maliformis Vell."
+      },
+      {
+        "relatedresourceid": 129301,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Passiflora alata Aiton"
+      },
+      {
+        "relatedresourceid": 129302,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Passiflora alata Dryand."
+      },
+      {
+        "relatedresourceid": 595763,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora brasiliana Desf."
+      },
+      {
+        "relatedresourceid": 600000,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora mascarensis C.Presl"
+      },
+      {
+        "relatedresourceid": 594412,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora mauritiana A.Thouars"
+      },
+      {
+        "relatedresourceid": 599029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora latifolia DC."
+      },
+      {
+        "relatedresourceid": 599046,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora oviformis M.Roem."
+      },
+      {
+        "relatedresourceid": 595485,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora pyriformis DC."
+      },
+      {
+        "relatedresourceid": 594734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Passiflora sarcosepala Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 601554,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata var. latifolia (DC.) Mast."
+      },
+      {
+        "relatedresourceid": 601723,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata var. mauritiana Mast."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Guedes, ML; Alunos de Botânica Econômica 24982",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB033464",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97020523",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Nunes 749",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0057578",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0057578",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Nunes 1275",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS101359",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS101359",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guedes, ML; Alunos de Botânica Econômica 24982",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB033464",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB033464",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sena, T.S.N. 38",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0033182",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0033182",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pacheco, LM 100",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB043242",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB043242",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.C.P. Saint-Hilaire 287",
+        "collectioncode": "P",
+        "catalognumber": "P00464301",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00464301",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Nunes 749",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS057578",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS057578",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pacheco, LM 100",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB043242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=105095155",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.C.P. Saint-Hilaire 287",
+        "collectioncode": "P",
+        "catalognumber": "P00464301",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197490771",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Nunes 1275",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS101359",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238596830",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Nunes 749",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS057578",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238575082",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 129301,
+      "scientificname": "Passiflora alata Aiton",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Aiton",
+      "acceptednameusage": "Passiflora alata Curtis",
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Aiton",
+      "source": "Bernacci, L.C.,Cervi, A.C.,Milward-de-Azevedo, M.A.,Nunes, T.S.,Imig, D.C.,Mezzonato, A.C. 2015. Passifloraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB129301>http://floradobrasil2015.jbrj.gov.br/FB129301</a>)<br><br>Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB129301\">https://floradobrasil2020.jbrj.gov.br/FB129301</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Nunes, T.S., Zappi, D.C. &amp;amp; Queiroz, L.P. 2001. Lectotypification of two species of Passiflora. Kew Bull. 56: 245-246.;&amp;nbsp;&lt;span style=&quot;font-size: 10pt; font-family: &#39;Times New Roman&#39;, serif; text-transform: uppercase;&quot;&gt;Bernacci, L.C.; Meletti, L.M.M. &amp;amp; Soares-Scott, M.D.&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: &#39;Times New Roman&#39;, serif;&quot;&gt; 2003.&amp;nbsp; Maracuj&amp;aacute;-doce: o autor, a obra e a data da publica&amp;ccedil;&amp;atilde;o de Passiflora alata (Passifloraceae). &lt;strong&gt;Rev. Bras. Frutic.&lt;/strong&gt;, Jaboticabal &lt;strong&gt;25&lt;/strong&gt;(2): 355-356.&lt;/span&gt;",
+      "parentnameusage": "Passiflora L.",
+      "parentnameusageid": 12506,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB129301",
+      "acceptednameusageid": 12508,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-06-06 15:43:15.146"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12508,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Passiflora alata Curtis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 129302,
+      "scientificname": "Passiflora alata Dryand.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_NAO_EFETIVAMENTE_PUBLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Dryand.",
+      "acceptednameusage": "Passiflora alata Curtis",
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Dryand.",
+      "source": "Bernacci, L.C.,Cervi, A.C.,Milward-de-Azevedo, M.A.,Nunes, T.S.,Imig, D.C.,Mezzonato, A.C. 2015. Passifloraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB129302>http://floradobrasil2015.jbrj.gov.br/FB129302</a>)<br><br>Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB129302\">https://floradobrasil2020.jbrj.gov.br/FB129302</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;color: #386134; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; background-color: #ffffff;&quot;&gt;Nunes, T.S., Zappi, D.C. &amp;amp; Queiroz, L.P. 2001. Lectotypification of two species of Passiflora. Kew Bull. 56: 245-246.;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #386134; font-size: 10pt; line-height: 18px; background-color: #ffffff; font-family: &#39;Times New Roman&#39;, serif; text-transform: uppercase;&quot;&gt;BERNACCI, L.C.; MELETTI, L.M.M. &amp;amp; SOARES-SCOTT, M.D.&lt;/span&gt;&lt;span style=&quot;color: #386134; font-size: 10pt; line-height: 18px; background-color: #ffffff; font-family: &#39;Times New Roman&#39;, serif;&quot;&gt;&amp;nbsp;2003.&amp;nbsp; Maracuj&amp;aacute;-doce: o autor, a obra e a data da publica&amp;ccedil;&amp;atilde;o de Passiflora alata (Passifloraceae).&amp;nbsp;&lt;strong&gt;Rev. Bras. Frutic.&lt;/strong&gt;, Jaboticabal&amp;nbsp;&lt;strong&gt;25&lt;/strong&gt;(2): 355-356.&lt;/span&gt;",
+      "parentnameusage": "Passiflora L.",
+      "parentnameusageid": 12506,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB129302",
+      "acceptednameusageid": 12508,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-07 15:26:54.377"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12508,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Passiflora alata Curtis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600883,
+      "scientificname": "Passiflora alata var. brasiliana (Desf.) Mast.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": "brasiliana",
+      "scientificnameauthorship": "(Desf.) Mast.",
+      "acceptednameusage": "Passiflora alata Curtis",
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Curtis;Passiflora alata var. brasiliana (Desf.) Mast.",
+      "source": "Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600883\">https://floradobrasil2020.jbrj.gov.br/FB600883</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;Cervi, A. C. 1997. Passifloraceae do Brasil: Estudo do g&amp;ecirc;nero &lt;em&gt;Passiflora &lt;/em&gt;L. subg&amp;ecirc;nero &lt;em&gt;Passiflora&lt;/em&gt;. &lt;strong&gt;Fontqueria &lt;/strong&gt;v. 45, p 1-92.&lt;/span&gt;\r\n&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;Killip, E.P., 1938. The american species of Passifloraceae. &lt;strong&gt;Field Museum of Natural History - Botanical Series&lt;/strong&gt; 19 (1-2), 1-613.&lt;/span&gt;",
+      "parentnameusage": "Passiflora alata Curtis",
+      "parentnameusageid": 12508,
+      "originalnameusageid": "12508",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600883",
+      "acceptednameusageid": 12508,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-08 12:11:19.863"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Masters, M.T.,Trans. Linn. Soc. London,27,1871"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12508,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata Curtis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601554,
+      "scientificname": "Passiflora alata var. latifolia (DC.) Mast.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": "latifolia",
+      "scientificnameauthorship": "(DC.) Mast.",
+      "acceptednameusage": "Passiflora alata Curtis",
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Curtis;Passiflora alata var. latifolia (DC.) Mast.",
+      "source": "Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601554\">https://floradobrasil2020.jbrj.gov.br/FB601554</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Passiflora alata Curtis",
+      "parentnameusageid": 12508,
+      "originalnameusageid": "12508",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601554",
+      "acceptednameusageid": 12508,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-07 15:25:43.806"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12508,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata Curtis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601723,
+      "scientificname": "Passiflora alata var. mauritiana Mast.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Passifloraceae",
+      "genus": "Passiflora",
+      "specificepithet": "alata",
+      "infraspecificepithet": "mauritiana",
+      "scientificnameauthorship": "Mast.",
+      "acceptednameusage": "Passiflora alata Curtis",
+      "higherclassification": "Flora e Funga;Angiospermas;Passifloraceae Juss. ex Roussel;Passiflora L.;Passiflora alata Curtis;Passiflora alata var. mauritiana Mast.",
+      "source": "Bernacci, L.C., Nunes, T.S., Mezzonato, A.C., Milward-de-Azevedo, M.A., D.C. Imig, Cervi, A.C. (in memoriam) 2020. Passiflora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601723\">https://floradobrasil2020.jbrj.gov.br/FB601723</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Passiflora alata Curtis",
+      "parentnameusageid": 12508,
+      "originalnameusageid": "12508",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601723",
+      "acceptednameusageid": 12508,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-07 14:34:29.186"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 12508,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Passiflora alata Curtis"
+      }
+    ],
+    "voucher": []
+  }
+]

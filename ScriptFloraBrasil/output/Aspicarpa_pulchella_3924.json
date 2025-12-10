@@ -1,0 +1,83 @@
+[
+  {
+    "taxon": {
+      "taxonid": 101459,
+      "scientificname": "Aspicarpa pulchella (Griseb.) O'Donell & Lourteig",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Malpighiaceae",
+      "genus": "Aspicarpa",
+      "specificepithet": "pulchella",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Griseb.) O'Donell & Lourteig",
+      "acceptednameusage": "Mamedea pulchella (Griseb.) R.F.Almeida & M.Pell.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malpighiaceae Juss.;Aspicarpa Rich.;Aspicarpa pulchella (Griseb.) O'Donell & Lourteig",
+      "source": "Mamede, M.C.H. 2015. Aspicarpa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB101459>http://floradobrasil2015.jbrj.gov.br/FB101459</a>)<br><br>Sebastiani, R. 2020. Aspicarpa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB101459\">https://floradobrasil2020.jbrj.gov.br/FB101459</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).O&#39;Donell, C. A., and A. Lourteig. 1943. Malpighiaceae argentinae. Lilloa 9: 283.",
+      "parentnameusage": "Aspicarpa Rich.",
+      "parentnameusageid": 19388,
+      "originalnameusageid": "633012",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB101459",
+      "acceptednameusageid": 633012,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-08-19 06:56:55.955"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 633012,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Mamedea pulchella (Griseb.) R.F.Almeida & M.Pell."
+      },
+      {
+        "relatedresourceid": 30464,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Camarea pulchella Griseb."
+      },
+      {
+        "relatedresourceid": 621517,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Cryptolappa pulchella (Griseb.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Damasceno Jr, G.A. 1673",
+        "collectioncode": "SP",
+        "catalognumber": "SP012084",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP012084",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 7198",
+        "collectioncode": "SP",
+        "catalognumber": "SP012082",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP012082",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

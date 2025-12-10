@@ -1,0 +1,130 @@
+[
+  {
+    "taxon": {
+      "taxonid": 32490,
+      "scientificname": "Cephalostemon riedelianus Körn.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Rapateaceae",
+      "genus": "Cephalostemon",
+      "specificepithet": "riedelianus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Körn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rapateaceae Dumort.;Cephalostemon R.H.Schomb.;Cephalostemon riedelianus Körn.",
+      "source": "Monteiro, R.F. 2015. Rapateaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32490>http://floradobrasil2015.jbrj.gov.br/FB32490</a>)<br><br>Monteiro, R.F. 2020. Cephalostemon in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32490\">https://floradobrasil2020.jbrj.gov.br/FB32490</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Maguire, B. 1958. The botany of theGuayana Highland. Part. III.Mem. N. Y. Bot. Gard. 10: 19-49",
+      "parentnameusage": "Cephalostemon R.H.Schomb.",
+      "parentnameusageid": 32488,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32490",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Monteiro, R.F. Cephalostemon in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32490>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 09:54:18.783"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaea,37: 445,1872"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "G. Eit 10967",
+        "collectioncode": "NY",
+        "catalognumber": "NY01066407",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01066407",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 27138",
+        "collectioncode": "NY",
+        "catalognumber": "NY01066330",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01066330",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Eit 10967",
+        "collectioncode": "NY",
+        "catalognumber": "NY01066407",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228749069",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 27138",
+        "collectioncode": "NY",
+        "catalognumber": "NY01066330",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228749063",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

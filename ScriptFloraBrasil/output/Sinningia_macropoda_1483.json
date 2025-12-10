@@ -1,0 +1,139 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7916,
+      "scientificname": "Sinningia macropoda (Sprague) H.E.Moore",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Sinningia",
+      "specificepithet": "macropoda",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sprague) H.E.Moore",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Sinningia Nees;Sinningia macropoda (Sprague) H.E.Moore",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Sinningia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7916>http://floradobrasil2015.jbrj.gov.br/FB7916</a>)<br><br>Araujo, A.O., Chautems, A., Rossini, J. 2020. Sinningia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7916\">https://floradobrasil2020.jbrj.gov.br/FB7916</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sinningia Nees",
+      "parentnameusageid": 7879,
+      "originalnameusageid": "131885",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7916",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O., Chautems, A., Rossini, J. Sinningia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7916>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-28 13:40:29.756"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 132884,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rechsteineria macropoda (Sprague) C. H. Curtis"
+      },
+      {
+        "relatedresourceid": 131887,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Corytholoma cyclophyllum Dusén ex Laurent"
+      },
+      {
+        "relatedresourceid": 132885,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rechsteineria cyclophylla (Dusén ex Laurent) Hjelmq."
+      },
+      {
+        "relatedresourceid": 131885,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Corytholoma macropodum Sprague"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 1035",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040089",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM040089",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Maia, IC 03",
+        "collectioncode": "HUFABC",
+        "catalognumber": "HUFABC000287",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFABC000287",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 1035",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040089",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229301056",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

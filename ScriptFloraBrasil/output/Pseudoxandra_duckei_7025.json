@@ -1,0 +1,108 @@
+[
+  {
+    "taxon": {
+      "taxonid": 110519,
+      "scientificname": "Pseudoxandra duckei Maas",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Magnoliales",
+      "family": "Annonaceae",
+      "genus": "Pseudoxandra",
+      "specificepithet": "duckei",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Maas",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Annonaceae Juss.;Pseudoxandra R.E.Fr.;Pseudoxandra duckei Maas",
+      "source": "Maas, P.,Lobão, A.,Rainer, H. 2015. Annonaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB110519>http://floradobrasil2015.jbrj.gov.br/FB110519</a>)<br><br>Lopes, J.C., Mello-Silva, R. (in memoriam) 2020. Pseudoxandra in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB110519\">https://floradobrasil2020.jbrj.gov.br/FB110519</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Maas, P.M.J. &amp;amp; Westra, L.Y.T. 2003. Revision of the Neotropical genus &lt;em&gt;Pseudoxandra&lt;/em&gt; (Annonaceae). Blumea 48: 201-259.",
+      "parentnameusage": "Pseudoxandra R.E.Fr.",
+      "parentnameusageid": 110513,
+      "originalnameusageid": null,
+      "namepublishedin": "Blumea 48: 225 2003",
+      "namepublishedinyear": "2003",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB110519",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-10-21 14:49:34.216"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Maas, P.J.M. & Westra, L.Y.Th.,Blumea,48: 225,2003"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Sardelli, L s.n.",
+        "collectioncode": "RB",
+        "catalognumber": "RB01078205",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285214828",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sardelli, L s.n.",
+        "collectioncode": "RB",
+        "catalognumber": "RB01078205",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01078205",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sardelli, L s.n.",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM402616",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM402616",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sardelli, L s.n.",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM402616",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229268408",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  }
+]

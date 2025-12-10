@@ -1,0 +1,639 @@
+[
+  {
+    "taxon": {
+      "taxonid": 55510,
+      "scientificname": "Gymnanthes klotzschiana Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Gymnanthes",
+      "specificepithet": "klotzschiana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Gymnanthes Sw.;Gymnanthes klotzschiana Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Sales, M.F.d.,Silva, M.J.da,Pscheidt, A.C.,Athiê-Souza, S.M.,Melo, A.L.d.,Oliveira, L.S.D. 2015. Gymnanthes in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB55510>http://floradobrasil2015.jbrj.gov.br/FB55510</a>)<br><br>Oliveira, L.S.D. 2020. Gymnanthes in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB55510\">https://floradobrasil2020.jbrj.gov.br/FB55510</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).OLIVEIRA, L.S.D. et al. 2013. Lectotypification and a new synonym for&amp;nbsp;&lt;em&gt;Gymnanthes klotzschiana&lt;/em&gt; (Euphorbiaceae).&amp;nbsp;&lt;strong&gt;Phytotaxa&amp;nbsp;&lt;/strong&gt;135(1): 11-18.",
+      "parentnameusage": "Gymnanthes Sw.",
+      "parentnameusageid": 17574,
+      "originalnameusageid": "17678",
+      "namepublishedin": "Linnaea 32: 98 1863",
+      "namepublishedinyear": "1863",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB55510",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Oliveira, L.S.D. Gymnanthes in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB55510>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 16:53:00.052"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "branquinho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste e Sul"
+      },
+      {
+        "vernacularname": "branquio",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste e Sul"
+      },
+      {
+        "vernacularname": "branquilho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste e Sul"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Fl. Ilustr. Catarin.,1: 308,1988"
+      },
+      {
+        "reference": "Müller, J.,Fl. bras.,11(2): 573-574,1874"
+      },
+      {
+        "reference": "Pax, F. & Hoffmann, K. in Engler, H.G.A.,Das Pflanzenreich IV,147, V: 128,1912"
+      },
+      {
+        "reference": "Müller, J. in Candolle, A.P. de,Prodromus Systematis Naturalis Regni Vegetabilis,15(2): 1178,1866"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Linnaea,32: 98,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 55520,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes pachystachys var. pubescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57182,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachya var. pubescens (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57180,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachya var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 55518,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes pachystachya var. pubescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 55517,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes pachystachya var. glabra Müll.Arg."
+      },
+      {
+        "relatedresourceid": 602122,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachys var. pubescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 17678,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Sebastiania klotzschiana (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 25572,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania vestita Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36214,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania argutidens Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36215,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania bahiensis (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36219,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania commersoniana (Baill.) L.B.Sm. & Downs"
+      },
+      {
+        "relatedresourceid": 36225,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania laureola (Baill.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36232,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania riedelii Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36218,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania chaetodonta Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36222,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glabrescens Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36226,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania mosenii Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36230,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pubescens Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36233,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania rigida (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania rotundifolia Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36238,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania trichogyne Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 36241,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania ypanemensis (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53978,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Adenogyne pachystachya Klotzsch"
+      },
+      {
+        "relatedresourceid": 53975,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Adenogyne discolor Klotzsch"
+      },
+      {
+        "relatedresourceid": 53976,
+        "relationshipofresource": null,
+        "scientificname": "Adenogyne marginata Klotzsch"
+      },
+      {
+        "relatedresourceid": 55407,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Excoecaria discolor Spreng."
+      },
+      {
+        "relatedresourceid": 55512,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes marginata Baill."
+      },
+      {
+        "relatedresourceid": 55530,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes ypanemensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57265,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia commersoniana Baill."
+      },
+      {
+        "relatedresourceid": 57285,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia laureola Baill."
+      },
+      {
+        "relatedresourceid": 57319,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia ypanemensis (Müll.Arg.) Baill."
+      },
+      {
+        "relatedresourceid": 57259,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia bahiensis (Müll.Arg.) Baill."
+      },
+      {
+        "relatedresourceid": 53974,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Adenogyne brachyclada (Müll.Arg.) Klotzsch"
+      },
+      {
+        "relatedresourceid": 57005,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania brachyclada (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36227,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachya (Klotzsch) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57195,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania serrata var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 55494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes bahiensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56988,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarothrostachys laureola (Baill.) H.Buek"
+      },
+      {
+        "relatedresourceid": 57181,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachya var. glabra Pax"
+      },
+      {
+        "relatedresourceid": 57100,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania edwalliana var. acuminata Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57102,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania edwalliana var. vestita Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57199,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania serrata var. typica Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57196,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania serrata var. grandifolia Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 57197,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania serrata var. major Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57154,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57152,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. argentina Lillo"
+      },
+      {
+        "relatedresourceid": 57155,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. guaranitica Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 57156,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. parvifolia Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57198,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania serrata var. pubescens (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57157,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. trichoneura Müll.Arg."
+      },
+      {
+        "relatedresourceid": 601219,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachys var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29371,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania dimorphocalyx Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29376,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania edwalliana Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 35643,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Actinostemon unciformis Jabl."
+      },
+      {
+        "relatedresourceid": 55495,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes brachyclada Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57115,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania grandifolia (Chodat & Hassl.) Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57294,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia pachystachya (Klotzsch) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia rigida (Müll.Arg.) Baill."
+      },
+      {
+        "relatedresourceid": 598877,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania ypanamensis (Müll. Arg.) Müll. Arg."
+      },
+      {
+        "relatedresourceid": 55519,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes pachystachys (Klotzsch) Baill."
+      },
+      {
+        "relatedresourceid": 57153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. brachyclada (Müll.Arg.) Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 57158,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania klotzschiana var. trichopoda Müll.Arg."
+      },
+      {
+        "relatedresourceid": 594700,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania widgreni Müll. Arg."
+      },
+      {
+        "relatedresourceid": 55516,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes pachystachya Baill."
+      },
+      {
+        "relatedresourceid": 55522,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gymnanthes rigida Müll.Arg."
+      },
+      {
+        "relatedresourceid": 594247,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania pachystachys (Klotzsch) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57101,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania edwalliana var. minor Pax & K.Hoffm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P04864723",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P04864723",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "M. Verdi 5607",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01589",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB01589",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P04864723",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228080399",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P04864723",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228080397",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "M. Verdi 5607",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01589",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226940561",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7646,
+      "scientificname": "Paepalanthus vaginatus Körn.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Paepalanthus",
+      "specificepithet": "vaginatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Körn.",
+      "acceptednameusage": "Floralia vaginata (Körn.) Andrino",
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Paepalanthus Mart.;Paepalanthus vaginatus Körn.",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7646>http://floradobrasil2015.jbrj.gov.br/FB7646</a>)<br><br>Andrino, C.O., Sano, P.T., Costa, F.N., Echternacht, L., Sauthier, L.J., Hensold, N., Ramos, R., Tissot-Squalli, M., Trovó, M. 2020. Paepalanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7646\">https://floradobrasil2020.jbrj.gov.br/FB7646</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Paepalanthus Mart.",
+      "parentnameusageid": 7558,
+      "originalnameusageid": "635691",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7646",
+      "acceptednameusageid": 635691,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O., Sano, P.T., Costa, F.N., Sauthier, L.J., Tissot-Squalli, M., Almeida, R.B.P. Paepalanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7646>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-01-07 20:40:02.796"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,3(1): 313,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 635691,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Floralia vaginata (Körn.) Andrino"
+      },
+      {
+        "relatedresourceid": 28824,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus cylindraceus Silveira"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Riedel 1462",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247635",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225979992",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Riedel 1462",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247635",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0247635",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

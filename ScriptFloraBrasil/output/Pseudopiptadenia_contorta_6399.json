@@ -1,0 +1,96 @@
+[
+  {
+    "taxon": {
+      "taxonid": 18996,
+      "scientificname": "Pseudopiptadenia contorta (DC.) G.P.Lewis & M.P.Lima",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Pseudopiptadenia",
+      "specificepithet": "contorta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(DC.) G.P.Lewis & M.P.Lima",
+      "acceptednameusage": "Marlimorimia contorta (DC.) L.P.Queiroz & P.G.Ribeiro",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Pseudopiptadenia Rauschert;Pseudopiptadenia contorta (DC.) G.P.Lewis & M.P.Lima",
+      "source": "Morim, M.P. 2015. Pseudopiptadenia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB18996>http://floradobrasil2015.jbrj.gov.br/FB18996</a>)<br><br>Morim, M.P. 2020. Pseudopiptadenia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB18996\">https://floradobrasil2020.jbrj.gov.br/FB18996</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pseudopiptadenia Rauschert",
+      "parentnameusageid": 23130,
+      "originalnameusageid": "134236",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB18996",
+      "acceptednameusageid": 623912,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-05-29 13:38:08.918"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 623912,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Marlimorimia contorta (DC.) L.P.Queiroz & P.G.Ribeiro"
+      },
+      {
+        "relatedresourceid": 134236,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Acacia contorta DC"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.P. Queiroz 3700",
+        "collectioncode": "K",
+        "catalognumber": "K000849600",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227142788",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.P. Queiroz 3700",
+        "collectioncode": "RB",
+        "catalognumber": "RB00610249",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00610249",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.P. Queiroz 3700",
+        "collectioncode": "K",
+        "catalognumber": "K000849600",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000849600",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.P. Queiroz 3700",
+        "collectioncode": "RB",
+        "catalognumber": "RB00610249",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284532906",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

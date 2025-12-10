@@ -1,0 +1,89 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14189,
+      "scientificname": "Psychotria leitana C.M.Taylor",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leitana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "C.M.Taylor",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leitana C.M.Taylor",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14189>http://floradobrasil2015.jbrj.gov.br/FB14189</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria L.",
+      "parentnameusageid": 14153,
+      "originalnameusageid": null,
+      "namepublishedin": "Novon 9: 260 1999",
+      "namepublishedinyear": "1999",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14189",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-01-08 11:49:31.579"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Taylor, C.M.,Novon,9: 260,1999"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R. Romero 354",
+        "collectioncode": "SP",
+        "catalognumber": "SP001568",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP001568",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. Mendes, J.C.T.; Ferraz, K.M.B.; Ferraz, S.F.B.; Silva, E.V.; Valente, R.; Rocha, E.; Rodrigues, R.R.; Souza, V.C.; Tamashiro, J.Y. 4522",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA068287",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA068287",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. Mendes, J.C.T.; Ferraz, K.M.B.; Ferraz, S.F.B.; Silva, E.V.; Valente, R.; Rocha, E.; Rodrigues, R.R.; Souza, V.C.; Tamashiro, J.Y. 4522",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA068287",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226788511",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

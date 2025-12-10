@@ -1,0 +1,483 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7642,
+      "scientificname": "Paepalanthus tortilis (Bong.) Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Paepalanthus",
+      "specificepithet": "tortilis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Bong.) Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Paepalanthus Mart.;Paepalanthus tortilis (Bong.) Mart.",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7642>http://floradobrasil2015.jbrj.gov.br/FB7642</a>)<br><br>Andrino, C.O., Sano, P.T., Costa, F.N., Echternacht, L., Sauthier, L.J., Hensold, N., Ramos, R., Tissot-Squalli, M., Trovó, M. 2020. Paepalanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7642\">https://floradobrasil2020.jbrj.gov.br/FB7642</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Moldenke, H.N. Phytologia 33: 374. (1976).\r\n&amp;nbsp;",
+      "parentnameusage": "Paepalanthus Mart.",
+      "parentnameusageid": 7558,
+      "originalnameusageid": "53307",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7642",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O., Sano, P.T., Costa, F.N., Sauthier, L.J., Tissot-Squalli, M., Almeida, R.B.P. Paepalanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7642>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-08-23 10:58:01.319"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,3(1): 354,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53307,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eriocaulon tortile Bong."
+      },
+      {
+        "relatedresourceid": 53371,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus argillicola var. pilosus Moldenke"
+      },
+      {
+        "relatedresourceid": 35507,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus tortilis var. glaberrimus Moldenke"
+      },
+      {
+        "relatedresourceid": 53121,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dupatya tortilis (Bong.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Jacques S. Blanchet 3586",
+        "collectioncode": "MO",
+        "catalognumber": "MO150930",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO150930",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jacques S. Blanchet 3586",
+        "collectioncode": "MO",
+        "catalognumber": "MO150930",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97960970",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 35507,
+      "scientificname": "Paepalanthus tortilis var. glaberrimus Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Paepalanthus",
+      "specificepithet": "tortilis",
+      "infraspecificepithet": "glaberrimus",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Paepalanthus tortilis (Bong.) Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Paepalanthus Mart.;Paepalanthus tortilis (Bong.) Mart.;Paepalanthus tortilis var. glaberrimus Moldenke",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35507>http://floradobrasil2015.jbrj.gov.br/FB35507</a>)<br><br>Andrino, C.O., Sano, P.T., Costa, F.N., Echternacht, L., Sauthier, L.J., Hensold, N., Ramos, R., Tissot-Squalli, M., Trovó, M. 2020. Paepalanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35507\">https://floradobrasil2020.jbrj.gov.br/FB35507</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;color: #386134; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; background-color: #ffffff;&quot;&gt;Trov&amp;oacute;, M. ; Echternacht, L.A. ; Costa, F.N. ; Watanabe, M.T.C. ; Sano, P.T. Nomenclatural and taxonomic novelties in Eriocaulaceae from the states of Rio de Janeiro and Santa Catarina, Brazil. Phytotaxa: a rapid international journal for accelerating the publication of botanical taxonomy, v. 162, p. 217-222, 2014.&lt;/span&gt;",
+      "parentnameusage": "Paepalanthus tortilis (Bong.) Mart.",
+      "parentnameusageid": 7642,
+      "originalnameusageid": null,
+      "namepublishedin": "Phytologia 36: 51 1977",
+      "namepublishedinyear": "1977",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35507",
+      "acceptednameusageid": 7642,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O., Sano, P.T., Costa, F.N., Sauthier, L.J., Tissot-Squalli, M., Almeida, R.B.P. Paepalanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35507>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-03-22 19:51:16.452"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Moldenke, H.N.,Phytologia,36: 51,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7642,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus tortilis (Bong.) Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35508,
+      "scientificname": "Paepalanthus tortilis var. minor Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Paepalanthus",
+      "specificepithet": "tortilis",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Paepalanthus Mart.;Paepalanthus tortilis (Bong.) Mart.;Paepalanthus tortilis var. minor Moldenke",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35508>http://floradobrasil2015.jbrj.gov.br/FB35508</a>)<br><br>Andrino, C.O., Sano, P.T., Costa, F.N., Echternacht, L., Sauthier, L.J., Hensold, N., Ramos, R., Tissot-Squalli, M., Trovó, M. 2020. Paepalanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35508\">https://floradobrasil2020.jbrj.gov.br/FB35508</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Paepalanthus tortilis (Bong.) Mart.",
+      "parentnameusageid": 7642,
+      "originalnameusageid": null,
+      "namepublishedin": "Phytologia 33: 374 1976",
+      "namepublishedinyear": "1976",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35508",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O., Sano, P.T., Costa, F.N., Sauthier, L.J., Tissot-Squalli, M., Almeida, R.B.P. Paepalanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35508>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-09 11:03:41.765"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Moldenke, H.N.,Phytologia,33: 374,1976"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35509,
+      "scientificname": "Paepalanthus tortilis (Bong.) Mart. var. tortilis",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Eriocaulaceae",
+      "genus": "Paepalanthus",
+      "specificepithet": "tortilis",
+      "infraspecificepithet": "tortilis",
+      "scientificnameauthorship": "(Bong.) Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Eriocaulaceae Martinov;Paepalanthus Mart.;Paepalanthus tortilis (Bong.) Mart.;Paepalanthus tortilis (Bong.) Mart. var. tortilis",
+      "source": "Sano, P.T.,Giulietti, A.M.,Costa, F.N.,Trovo, M.,Echternacht, L.,Tissot-Squalli, M.L.,Watanabe, M.T.C.,Hensold, N.,Andrino, C.O.,Parra, L.R. 2015. Eriocaulaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35509>http://floradobrasil2015.jbrj.gov.br/FB35509</a>)<br><br>Andrino, C.O., Sano, P.T., Costa, F.N., Echternacht, L., Sauthier, L.J., Hensold, N., Ramos, R., Tissot-Squalli, M., Trovó, M. 2020. Paepalanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35509\">https://floradobrasil2020.jbrj.gov.br/FB35509</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Paepalanthus tortilis (Bong.) Mart.",
+      "parentnameusageid": 7642,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35509",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Andrino, C.O., Sano, P.T., Costa, F.N., Sauthier, L.J., Tissot-Squalli, M., Almeida, R.B.P. Paepalanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35509>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-09 11:06:52.655"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo rupestre",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53322,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon yuccifolium Mert. ex Mart."
+      },
+      {
+        "relatedresourceid": 53255,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon nigroniveum A.St.-Hil."
+      },
+      {
+        "relatedresourceid": 53272,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon polyphyllum Salzm. ex Steud."
+      },
+      {
+        "relatedresourceid": 53525,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus nigroniveus (A.St.-Hil.) Kunth"
+      },
+      {
+        "relatedresourceid": 53153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eriocaulon atrocephalum Steud."
+      },
+      {
+        "relatedresourceid": 53509,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus maguirei Moldenke"
+      },
+      {
+        "relatedresourceid": 53495,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus killipii Moldenke"
+      },
+      {
+        "relatedresourceid": 53613,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus tatei Moldenke"
+      },
+      {
+        "relatedresourceid": 53583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paepalanthus salticola Herzog"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "taxon": {
+      "taxonid": 29288,
+      "scientificname": "Manihot carthagenensis (Jacq.) Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Manihot",
+      "specificepithet": "carthagenensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Jacq.) Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Manihot Mill.;Manihot carthagenensis (Jacq.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Silva, M.J.da,Sodré, R.C.,Martins, M.L.L. 2015. Manihot in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29288>http://floradobrasil2015.jbrj.gov.br/FB29288</a>)<br><br>Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. 2020. Manihot in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29288\">https://floradobrasil2020.jbrj.gov.br/FB29288</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Rogers, D. J. &amp;amp; Appan, S.J. 1973. Manihot Manihotoides. Flora Neotropica 13: 1-271.",
+      "parentnameusage": "Manihot Mill.",
+      "parentnameusageid": 17591,
+      "originalnameusageid": "55661",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29288",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. Manihot in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29288>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 09:58:36.55"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 1073,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17597,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot catingae Ule"
+      },
+      {
+        "relatedresourceid": 17599,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot epruinosa Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 55661,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Jatropha carthaginensis Jacq."
+      },
+      {
+        "relatedresourceid": 55680,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Jatropha frutescens Loefl."
+      },
+      {
+        "relatedresourceid": 55707,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Jatropha janipha L."
+      },
+      {
+        "relatedresourceid": 55637,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Janipha loeflingii Kunth"
+      },
+      {
+        "relatedresourceid": 17606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot pseudoglaziovii Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 56059,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot janipha (L.) Pohl"
+      },
+      {
+        "relatedresourceid": 56115,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot remotiloba Pittier"
+      },
+      {
+        "relatedresourceid": 56043,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot floribunda Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 56102,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Manihot pittieri Pax & K.Hoffm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Fotius 3674",
+        "collectioncode": "RB",
+        "catalognumber": "RB00714094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284728578",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Fotius 3674",
+        "collectioncode": "RB",
+        "catalognumber": "RB00714094",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00714094",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 29289,
+      "scientificname": "Manihot carthagenensis subsp. glaziovii (Müll.Arg.) Allem",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Manihot",
+      "specificepithet": "carthagenensis",
+      "infraspecificepithet": "glaziovii",
+      "scientificnameauthorship": "(Müll.Arg.) Allem",
+      "acceptednameusage": "Manihot glaziovii Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Manihot Mill.;Manihot carthagenensis (Jacq.) Müll.Arg.;Manihot carthagenensis subsp. glaziovii (Müll.Arg.) Allem",
+      "source": "Cordeiro, I.,Secco, R.,Silva, M.J.da,Sodré, R.C.,Martins, M.L.L. 2015. Manihot in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29289>http://floradobrasil2015.jbrj.gov.br/FB29289</a>)<br><br>Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. 2020. Manihot in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29289\">https://floradobrasil2020.jbrj.gov.br/FB29289</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Rogers, D. J. &amp;amp; Appan, S.J. 1973. Manihot Manihotoides. Flora Neotropica 13: 1-271.\r\n&amp;nbsp;\r\n&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 18.1pt; text-align: justify; text-indent: -17.0pt; line-height: 150%; text-autospace: ideograph-numeric;&quot;&gt;Allem, A.C. (2001). Three New Infraspecific Taxa of &lt;em&gt;Manihot &lt;/em&gt;(Euphorbiaceae) from the Brazilian Neotropics. &lt;em&gt;Novon&lt;/em&gt;, 11(2): 157-165.",
+      "parentnameusage": "Manihot carthagenensis (Jacq.) Müll.Arg.",
+      "parentnameusageid": 29288,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29289",
+      "acceptednameusageid": 17601,
+      "bibliographiccitation_how_to_cite": "Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. Manihot in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29289>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-02-10 16:52:37.833"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Allem, A.C.,Novon,11: 160,2001"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17601,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Manihot glaziovii Müll.Arg."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Cruz, N.D. 117",
+        "collectioncode": "NY",
+        "catalognumber": "NY00640410",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00640410",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cruz, N.D. 117",
+        "collectioncode": "NY",
+        "catalognumber": "NY00640410",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228260905",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 29290,
+      "scientificname": "Manihot carthagenensis subsp. hahnii Allem",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Manihot",
+      "specificepithet": "carthagenensis",
+      "infraspecificepithet": "hahnii",
+      "scientificnameauthorship": "Allem",
+      "acceptednameusage": "Manihot hahnii (Allem) M. Martins & T. Silveira",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Manihot Mill.;Manihot carthagenensis (Jacq.) Müll.Arg.;Manihot carthagenensis subsp. hahnii Allem",
+      "source": "Cordeiro, I.,Secco, R.,Silva, M.J.da,Sodré, R.C.,Martins, M.L.L. 2015. Manihot in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29290>http://floradobrasil2015.jbrj.gov.br/FB29290</a>)<br><br>Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. 2020. Manihot in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29290\">https://floradobrasil2020.jbrj.gov.br/FB29290</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Rogers, D. J. &amp;amp; Appan, S.J. 1973. Manihot Manihotoides. Flora Neotropica 13: 1-271.",
+      "parentnameusage": "Manihot carthagenensis (Jacq.) Müll.Arg.",
+      "parentnameusageid": 29288,
+      "originalnameusageid": "605517",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29290",
+      "acceptednameusageid": 605517,
+      "bibliographiccitation_how_to_cite": "Martins, M.L.L., Orlandini, P., Mendoza F., J.M., Silveira, T.C. Manihot in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29290>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-02-10 16:53:27.356"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Decidual",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Allem, A. C.,Novon,11: 161,2001"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 605517,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Manihot hahnii (Allem) M. Martins & T. Silveira"
+      }
+    ],
+    "voucher": []
+  }
+]

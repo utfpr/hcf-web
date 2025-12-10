@@ -1,0 +1,548 @@
+[
+  {
+    "taxon": {
+      "taxonid": 122263,
+      "scientificname": "Gomesa ramosa (Lindl.) M.W.Chase & N.H.Williams",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Gomesa",
+      "specificepithet": "ramosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Lindl.) M.W.Chase & N.H.Williams",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Gomesa R.Br.;Gomesa ramosa (Lindl.) M.W.Chase & N.H.Williams",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB122263>http://floradobrasil2015.jbrj.gov.br/FB122263</a>)<br><br>Meneguzzo, T.E.C. 2020. Gomesa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB122263\">https://floradobrasil2020.jbrj.gov.br/FB122263</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Gomesa R.Br.",
+      "parentnameusageid": 11608,
+      "originalnameusageid": "20149",
+      "namepublishedin": "Ann. Bot. (Oxford) 104: 398 2009",
+      "namepublishedinyear": "2009",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB122263",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Gomesa in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB122263>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-06-24 07:38:12.06"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Cerrado (lato sensu)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "chita",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Brazil"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Ann. Bot. (Oxford),104: 398,2009"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): t. 76 II,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): t. 77,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): t. 86,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 316,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 317,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 330,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 331,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 385-386,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 387,1905"
+      },
+      {
+        "reference": "Cogniaux, A.C.,Fl. bras.,3 (6): 405-406,1906"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 65474,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia mandonii (Rchb.f.) Campacci"
+      },
+      {
+        "relatedresourceid": 68109,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Oncidium batemanianum var. ramosum (Lindl.) Lindl."
+      },
+      {
+        "relatedresourceid": 20136,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium blanchetii Rchb.f."
+      },
+      {
+        "relatedresourceid": 20149,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Oncidium ramosum Lindl."
+      },
+      {
+        "relatedresourceid": 37946,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium caldense Rchb.f."
+      },
+      {
+        "relatedresourceid": 37982,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium martianum Lindl."
+      },
+      {
+        "relatedresourceid": 118246,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium pontagrossense Campacci"
+      },
+      {
+        "relatedresourceid": 122023,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa adamantina (Marçal & Cath.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 122022,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa caldensis (Rchb.f.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582495,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa williamsii (Schltr.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582497,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa mantiqueirensis (Campacci) J.M.H.Shaw"
+      },
+      {
+        "relatedresourceid": 582494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa mandonii (Rchb.f.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582496,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia williamsii (Schltr.) Campacci"
+      },
+      {
+        "relatedresourceid": 582498,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa diamantinensis (V.P.Castro) J.M.H.Shaw"
+      },
+      {
+        "relatedresourceid": 64312,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum batemannianum (Parm. ex Knowles & Westc.) Campacci"
+      },
+      {
+        "relatedresourceid": 122030,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa blanchetii (Rchb.f.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 68108,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium batemanianum Parm. ex Knowles & Westc."
+      },
+      {
+        "relatedresourceid": 11395,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia paranapiacabensis (Hoehne) Campacci"
+      },
+      {
+        "relatedresourceid": 11396,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia pontagrossensis (Campacci) Campacci"
+      },
+      {
+        "relatedresourceid": 31971,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium batemannianum Parm. ex Knowles & Westc."
+      },
+      {
+        "relatedresourceid": 603371,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa batemaniana (Parm. ex Knowles & Westc.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582493,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa batemanniana (Parm. ex Knowles & Westc.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582747,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum williamsii (Schltr.) Campacci"
+      },
+      {
+        "relatedresourceid": 603370,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum batemanianum (Parm. ex Knowles & Westc.) Campacci"
+      },
+      {
+        "relatedresourceid": 603372,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia batemaniana (Parm. ex Knowles & Westc.) Campacci"
+      },
+      {
+        "relatedresourceid": 139319,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia diamantinensis V.P.Castro"
+      },
+      {
+        "relatedresourceid": 68173,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium gallopavinum C.Morren"
+      },
+      {
+        "relatedresourceid": 65467,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia batemanniana (Parm. ex Knowles & Westc.) Campacci"
+      },
+      {
+        "relatedresourceid": 64315,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum blanchetii (Rchb.f.) Campacci"
+      },
+      {
+        "relatedresourceid": 64331,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ampliglossum ramosum (Lindl.) Campacci"
+      },
+      {
+        "relatedresourceid": 637838,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia alvarengensis Campacci"
+      },
+      {
+        "relatedresourceid": 637839,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia cipoensis V.P.Castro & P.Blaha"
+      },
+      {
+        "relatedresourceid": 637840,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia meyerae V.P.Castro & P.Blaha"
+      },
+      {
+        "relatedresourceid": 637841,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia meyeri V.P.Castro & P.Blaha"
+      },
+      {
+        "relatedresourceid": 637842,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa meyerae (V.P.Castro & P.Blaha) J.M.H.Shaw"
+      },
+      {
+        "relatedresourceid": 637843,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa blahae J.M.H.Shaw"
+      },
+      {
+        "relatedresourceid": 637844,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa alvarenguensis (Campacci) R.Kr.Singh & Sanjeet Kumar"
+      },
+      {
+        "relatedresourceid": 637845,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia ourobranquensis Campacci"
+      },
+      {
+        "relatedresourceid": 637846,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa ourobranquensis (Campacci) R.Kr.Singh & Sanjeet Kumar"
+      },
+      {
+        "relatedresourceid": 11397,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Coppensia ramosa (Lindl.) Campacci"
+      },
+      {
+        "relatedresourceid": 37991,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium paranapiacabense Hoehne"
+      },
+      {
+        "relatedresourceid": 64326,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum mandonii (Rchb.f.) Campacci"
+      },
+      {
+        "relatedresourceid": 64327,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum martianum (Lindl.) Campacci"
+      },
+      {
+        "relatedresourceid": 64330,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ampliglossum paranapiacabense (Hoehne) Campacci"
+      },
+      {
+        "relatedresourceid": 65480,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia rupestris Docha Neto"
+      },
+      {
+        "relatedresourceid": 65470,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia caldensis (Rchb.f.) Docha Neto"
+      },
+      {
+        "relatedresourceid": 65476,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia martiana (Lindl.) Campacci"
+      },
+      {
+        "relatedresourceid": 68323,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium stenopetalum Klotzsch"
+      },
+      {
+        "relatedresourceid": 68118,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium boliviense Rolfe"
+      },
+      {
+        "relatedresourceid": 68121,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium brachystegium Kraenzl."
+      },
+      {
+        "relatedresourceid": 68249,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium mixtum Schltr."
+      },
+      {
+        "relatedresourceid": 68276,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium pinellianum Lindl."
+      },
+      {
+        "relatedresourceid": 119815,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia adamantina (Marçal & Cath.) Cath."
+      },
+      {
+        "relatedresourceid": 122268,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa rupestris (Docha Neto) Lückel"
+      },
+      {
+        "relatedresourceid": 122248,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa martiana (Lindl.) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 122254,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomesa paranapiacabensis (Hoehne) M.W.Chase & N.H.Williams"
+      },
+      {
+        "relatedresourceid": 582684,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium williamsii Schltr."
+      },
+      {
+        "relatedresourceid": 11388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia blanchetii (Rchb.f.) Campacci"
+      },
+      {
+        "relatedresourceid": 136714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium blancheti Rchb.f."
+      },
+      {
+        "relatedresourceid": 37935,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium adamantinum Marçal & Cath."
+      },
+      {
+        "relatedresourceid": 65475,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Coppensia mantiqueirensis Campacci"
+      },
+      {
+        "relatedresourceid": 68239,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oncidium mandonii Rchb.f."
+      },
+      {
+        "relatedresourceid": 603368,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Oncidium batemannianum var. ramosum (Lindl.) Lindl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "João Aguiar Nogueira Batista 1264",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00039723",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201363",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Cordeiro 3479",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM359675",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229962501",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 31624",
+        "collectioncode": "K",
+        "catalognumber": "K000886742",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227331710",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 31624",
+        "collectioncode": "K",
+        "catalognumber": "K000886742",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000886742",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Cordeiro 3479",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM359675",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM359675",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "João Aguiar Nogueira Batista 1264",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00039723",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00039723",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

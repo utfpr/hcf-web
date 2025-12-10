@@ -1,0 +1,535 @@
+[
+  {
+    "taxon": {
+      "taxonid": 9080,
+      "scientificname": "Hibiscus bifurcatus Cav.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "specificepithet": "bifurcatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cav.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Hibiscus L.;Hibiscus bifurcatus Cav.",
+      "source": "Esteves, G. 2015. Hibiscus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB9080>http://floradobrasil2015.jbrj.gov.br/FB9080</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Hibiscus L.",
+      "parentnameusageid": 9079,
+      "originalnameusageid": null,
+      "namepublishedin": "Dissertation 3: 146-147 1787",
+      "namepublishedinyear": "1787",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9080",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Coutinho, T.S., Fernandes-Júnior, A.J. Hibiscus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB9080>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-07-15 15:35:13.286"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Perenifólia",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "algodão-do-brejo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "vinagreira-do-campo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      },
+      {
+        "vernacularname": "algodão-rana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Norte"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Esteves G.L. et al.,Hoehnea2014"
+      },
+      {
+        "reference": "Krapovickas, A. & Fryxell, P.A.,Bonplandia,13(1-4): 35-115,2004"
+      },
+      {
+        "reference": "Cavanilles,Dissertation,3: 146-147,1787"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 624037,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus decipiens A. St.-Hil."
+      },
+      {
+        "relatedresourceid": 624038,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus f. pilosus Gürke"
+      },
+      {
+        "relatedresourceid": 602043,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus f. pilosus Gürke"
+      },
+      {
+        "relatedresourceid": 601245,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus f. pilosus Gürke"
+      },
+      {
+        "relatedresourceid": 624039,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus var. glaber (Gürke) Hochr."
+      },
+      {
+        "relatedresourceid": 136898,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus quinquelobatus Vell."
+      },
+      {
+        "relatedresourceid": 136897,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus fluminensis Vell"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.J. Strudwick 3360",
+        "collectioncode": "K",
+        "catalognumber": "K001218342",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227230096",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.J. Strudwick 3360",
+        "collectioncode": "K",
+        "catalognumber": "K001218342",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001218342",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Froes 1802",
+        "collectioncode": "K",
+        "catalognumber": "K001218339",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001218339",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. Mori 10551",
+        "collectioncode": "K",
+        "catalognumber": "K001218330",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001218330",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. Mori 10551",
+        "collectioncode": "K",
+        "catalognumber": "K001218330",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227230072",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Froes 1802",
+        "collectioncode": "K",
+        "catalognumber": "K001218339",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227230090",
+        "locality": "MA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 601245,
+      "scientificname": "Hibiscus bifurcatus f. pilosus Gürke",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "specificepithet": "bifurcatus",
+      "infraspecificepithet": "pilosus",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Hibiscus bifurcatus Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Hibiscus L.;Hibiscus bifurcatus Cav.;Hibiscus bifurcatus f. pilosus Gürke",
+      "source": "",
+      "parentnameusage": "Hibiscus bifurcatus Cav.",
+      "parentnameusageid": 9080,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601245",
+      "acceptednameusageid": 9080,
+      "bibliographiccitation_how_to_cite": "Coutinho, T.S., Fernandes-Júnior, A.J. Hibiscus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601245>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-01-06 20:26:37.996"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9080,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus Cav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602043,
+      "scientificname": "Hibiscus bifurcatus f. pilosus Gürke",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "specificepithet": "bifurcatus",
+      "infraspecificepithet": "pilosus",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Hibiscus bifurcatus Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Hibiscus L.;Hibiscus bifurcatus Cav.;Hibiscus bifurcatus f. pilosus Gürke",
+      "source": "",
+      "parentnameusage": "Hibiscus bifurcatus Cav.",
+      "parentnameusageid": 9080,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602043",
+      "acceptednameusageid": 9080,
+      "bibliographiccitation_how_to_cite": "Coutinho, T.S., Fernandes-Júnior, A.J. Hibiscus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602043>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 16:11:28.807"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9080,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus Cav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 624038,
+      "scientificname": "Hibiscus bifurcatus f. pilosus Gürke",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "specificepithet": "bifurcatus",
+      "infraspecificepithet": "pilosus",
+      "scientificnameauthorship": "Gürke",
+      "acceptednameusage": "Hibiscus bifurcatus Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Hibiscus L.;Hibiscus bifurcatus Cav.;Hibiscus bifurcatus f. pilosus Gürke",
+      "source": "",
+      "parentnameusage": "Hibiscus bifurcatus Cav.",
+      "parentnameusageid": 9080,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB624038",
+      "acceptednameusageid": 9080,
+      "bibliographiccitation_how_to_cite": "Coutinho, T.S., Fernandes-Júnior, A.J. Hibiscus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB624038>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-12-13 12:29:55.687"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9080,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus Cav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 624039,
+      "scientificname": "Hibiscus bifurcatus var. glaber (Gürke) Hochr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Hibiscus",
+      "specificepithet": "bifurcatus",
+      "infraspecificepithet": "glaber",
+      "scientificnameauthorship": "(Gürke) Hochr.",
+      "acceptednameusage": "Hibiscus bifurcatus Cav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malvaceae Juss.;Hibiscus L.;Hibiscus bifurcatus Cav.;Hibiscus bifurcatus var. glaber (Gürke) Hochr.",
+      "source": "",
+      "parentnameusage": "Hibiscus bifurcatus Cav.",
+      "parentnameusageid": 9080,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB624039",
+      "acceptednameusageid": 9080,
+      "bibliographiccitation_how_to_cite": "Coutinho, T.S., Fernandes-Júnior, A.J. Hibiscus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB624039>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-12-13 12:33:04.137"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9080,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Hibiscus bifurcatus Cav."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,1367 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17523,
+      "scientificname": "Croton lundianus (Didr.) Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Didr.) Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17523>http://floradobrasil2015.jbrj.gov.br/FB17523</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17523\">https://floradobrasil2020.jbrj.gov.br/FB17523</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Carneiro-Torres, D.S. 2009. Diversidade de Croton L. (Euphorbiaceae) no Bioma Caatinga. Tese de doutorado apresentada ao Programa de P&amp;oacute;s-Gradua&amp;ccedil;&amp;atilde;o em Bot&amp;acirc;nica da UEFS.",
+      "parentnameusage": "Croton L.",
+      "parentnameusageid": 17497,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17523",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-30 13:34:53.797"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Igapó",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 662,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 54623,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton glandulosus var. lundianus (Didr.) L.B.Sm. & Downs"
+      },
+      {
+        "relatedresourceid": 54699,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. genuinus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29217,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. bahiensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54700,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. glabrescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54701,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. gracilentus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54704,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. intercedens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54702,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. hilarii (Baill.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54703,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. hirtus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54706,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. leptophyllus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54707,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. major Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54708,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. microphyllus (Baill.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54712,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. rufidulus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54711,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. pubescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54713,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. serratus Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54715,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. subfloccosus (Didr.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29242,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton teucridium Baill."
+      },
+      {
+        "relatedresourceid": 54845,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton similis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54577,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton dentifolius Baill."
+      },
+      {
+        "relatedresourceid": 56636,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Podostachys sellowiana Klotzsch"
+      },
+      {
+        "relatedresourceid": 56637,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Podostachys serrata (Klotzsch) Klotzsch"
+      },
+      {
+        "relatedresourceid": 56638,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Podostachys subfloccosa Didr."
+      },
+      {
+        "relatedresourceid": 56634,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Podostachys lundianus Didr."
+      },
+      {
+        "relatedresourceid": 54670,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton klotzschii var. bahiensis Baill."
+      },
+      {
+        "relatedresourceid": 54672,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton klotzschii var. hilarii Baill."
+      },
+      {
+        "relatedresourceid": 54673,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton klotzschii var. incanus Baill."
+      },
+      {
+        "relatedresourceid": 54675,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton klotzschii var. latifolius Baill."
+      },
+      {
+        "relatedresourceid": 54714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. similis (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56495,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oxydectes subfloccosa Kuntze"
+      },
+      {
+        "relatedresourceid": 56510,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Oxydectes teucridium (Baill.) Kuntze"
+      },
+      {
+        "relatedresourceid": 54676,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton klotzschii var. microphyllus Baill."
+      },
+      {
+        "relatedresourceid": 54705,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. latifolius (Baill.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54709,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. mollis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54710,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus var. psilophyllus Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 29217,
+      "scientificname": "Croton lundianus var. bahiensis Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "bahiensis",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. bahiensis Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29217>http://floradobrasil2015.jbrj.gov.br/FB29217</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29217\">https://floradobrasil2020.jbrj.gov.br/FB29217</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29217",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:22:22.013"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54699,
+      "scientificname": "Croton lundianus var. genuinus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "genuinus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. genuinus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54699>http://floradobrasil2015.jbrj.gov.br/FB54699</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54699\">https://floradobrasil2020.jbrj.gov.br/FB54699</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54699",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:12:32.883"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54700,
+      "scientificname": "Croton lundianus var. glabrescens Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "glabrescens",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. glabrescens Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54700>http://floradobrasil2015.jbrj.gov.br/FB54700</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54700\">https://floradobrasil2020.jbrj.gov.br/FB54700</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54700",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:25:17.285"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54701,
+      "scientificname": "Croton lundianus var. gracilentus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "gracilentus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. gracilentus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54701>http://floradobrasil2015.jbrj.gov.br/FB54701</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54701\">https://floradobrasil2020.jbrj.gov.br/FB54701</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54701",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:28:04.229"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54702,
+      "scientificname": "Croton lundianus var. hilarii (Baill.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "hilarii",
+      "scientificnameauthorship": "(Baill.) Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. hilarii (Baill.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54702>http://floradobrasil2015.jbrj.gov.br/FB54702</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54702\">https://floradobrasil2020.jbrj.gov.br/FB54702</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54702",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:35:09.177"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54703,
+      "scientificname": "Croton lundianus var. hirtus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "hirtus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. hirtus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54703>http://floradobrasil2015.jbrj.gov.br/FB54703</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54703\">https://floradobrasil2020.jbrj.gov.br/FB54703</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54703",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:43:41.112"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 230,1873"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54704,
+      "scientificname": "Croton lundianus var. intercedens Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "intercedens",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. intercedens Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54704>http://floradobrasil2015.jbrj.gov.br/FB54704</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54704\">https://floradobrasil2020.jbrj.gov.br/FB54704</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54704",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:30:16.104"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 229,1873"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54705,
+      "scientificname": "Croton lundianus var. latifolius (Baill.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "latifolius",
+      "scientificnameauthorship": "(Baill.) Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. latifolius (Baill.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54705>http://floradobrasil2015.jbrj.gov.br/FB54705</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54705\">https://floradobrasil2020.jbrj.gov.br/FB54705</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54705",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:34:01.82"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54706,
+      "scientificname": "Croton lundianus var. leptophyllus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "leptophyllus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. leptophyllus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54706>http://floradobrasil2015.jbrj.gov.br/FB54706</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54706\">https://floradobrasil2020.jbrj.gov.br/FB54706</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54706",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:38:12.072"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54707,
+      "scientificname": "Croton lundianus var. major Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "major",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. major Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54707>http://floradobrasil2015.jbrj.gov.br/FB54707</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54707\">https://floradobrasil2020.jbrj.gov.br/FB54707</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54707",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:45:03.9"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54708,
+      "scientificname": "Croton lundianus var. microphyllus (Baill.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "microphyllus",
+      "scientificnameauthorship": "(Baill.) Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. microphyllus (Baill.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54708>http://floradobrasil2015.jbrj.gov.br/FB54708</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54708\">https://floradobrasil2020.jbrj.gov.br/FB54708</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54708",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:47:08.962"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54709,
+      "scientificname": "Croton lundianus var. mollis Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "mollis",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. mollis Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54709>http://floradobrasil2015.jbrj.gov.br/FB54709</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54709\">https://floradobrasil2020.jbrj.gov.br/FB54709</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54709",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:48:07.624"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54710,
+      "scientificname": "Croton lundianus var. psilophyllus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "psilophyllus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. psilophyllus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54710>http://floradobrasil2015.jbrj.gov.br/FB54710</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54710\">https://floradobrasil2020.jbrj.gov.br/FB54710</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54710",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:49:10.495"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 229,1873"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54711,
+      "scientificname": "Croton lundianus var. pubescens Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "pubescens",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. pubescens Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54711>http://floradobrasil2015.jbrj.gov.br/FB54711</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54711\">https://floradobrasil2020.jbrj.gov.br/FB54711</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54711",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:53:12.128"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54712,
+      "scientificname": "Croton lundianus var. rufidulus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "rufidulus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. rufidulus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54712>http://floradobrasil2015.jbrj.gov.br/FB54712</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54712\">https://floradobrasil2020.jbrj.gov.br/FB54712</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54712",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:50:27.773"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 227,1873"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54713,
+      "scientificname": "Croton lundianus var. serratus Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "serratus",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. serratus Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54713>http://floradobrasil2015.jbrj.gov.br/FB54713</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54713\">https://floradobrasil2020.jbrj.gov.br/FB54713</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54713",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:54:16.144"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 664,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54714,
+      "scientificname": "Croton lundianus var. similis (Müll.Arg.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "similis",
+      "scientificnameauthorship": "(Müll.Arg.) Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. similis (Müll.Arg.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54714>http://floradobrasil2015.jbrj.gov.br/FB54714</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54714\">https://floradobrasil2020.jbrj.gov.br/FB54714</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54714",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:52:17.17"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 54845,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Croton similis Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 54715,
+      "scientificname": "Croton lundianus var. subfloccosus (Didr.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Croton",
+      "specificepithet": "lundianus",
+      "infraspecificepithet": "subfloccosus",
+      "scientificnameauthorship": "(Didr.) Müll.Arg.",
+      "acceptednameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Croton L.;Croton lundianus (Didr.) Müll.Arg.;Croton lundianus var. subfloccosus (Didr.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Carneiro-Torres, D.S.,Lima, L.R. de,Caruzo, M.B.R.,Berry, P.,Riina, R.,Silva, O.L.M.,Silva, M.J.da,Sodré, R.C. 2015. Croton in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB54715>http://floradobrasil2015.jbrj.gov.br/FB54715</a>)<br><br>Caruzo, M.B.R., Secco, R.S., Medeiros, D., Riina, R., Torres, D.S.C., Santos, R.F.D., Pereira, A.P.N., Rossine, Y., Lima, L.R., Muniz Filho, E., Valduga, E. 2020. Croton in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB54715\">https://floradobrasil2020.jbrj.gov.br/FB54715</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Croton lundianus (Didr.) Müll.Arg.",
+      "parentnameusageid": 17523,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB54715",
+      "acceptednameusageid": 17523,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-27 16:56:54.638"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 663,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17523,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Croton lundianus (Didr.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56638,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Podostachys subfloccosa Didr."
+      }
+    ],
+    "voucher": []
+  }
+]

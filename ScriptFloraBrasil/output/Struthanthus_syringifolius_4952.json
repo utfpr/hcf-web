@@ -1,0 +1,603 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8719,
+      "scientificname": "Struthanthus syringifolius (Mart.) Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "syringifolius",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus syringifolius (Mart.) Mart.",
+      "source": "Dettke, G.A.,Caires, C.S. 2015. Loranthaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8719>http://floradobrasil2015.jbrj.gov.br/FB8719</a>)<br><br>Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8719\">https://floradobrasil2020.jbrj.gov.br/FB8719</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus Mart.",
+      "parentnameusageid": 8702,
+      "originalnameusageid": "605950",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8719",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8719>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-21 13:34:39.832"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Hemiparasita"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 5, part. 2, tab. 28,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 605950,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Loranthus syringifolius Mart."
+      },
+      {
+        "relatedresourceid": 605951,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus syringifolius var. longipedunculatus (Mart.) Eichler"
+      },
+      {
+        "relatedresourceid": 605952,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus triceps Klotzsch"
+      },
+      {
+        "relatedresourceid": 605953,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus syringifolius var. paniculatus Rizzini"
+      },
+      {
+        "relatedresourceid": 605908,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus heterophyllus Rizzini"
+      },
+      {
+        "relatedresourceid": 605910,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus longipedunculatus (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 605911,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loranthus longipedunculatus Mart."
+      },
+      {
+        "relatedresourceid": 605886,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phthirusa ptariana  Steyerm."
+      },
+      {
+        "relatedresourceid": 19349,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus longiflorus Rizzini"
+      },
+      {
+        "relatedresourceid": 84626,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Struthanthus syringaefolius (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 606028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus translucens Rizzini"
+      },
+      {
+        "relatedresourceid": 138801,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psittacanthus thyrsiflorus (Cham. & Schltdl.) G. Don"
+      },
+      {
+        "relatedresourceid": 138800,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Loranthus thyrsiflorus Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 138802,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus thyrsiflorus (Cham. & Schltdl.) Kuijt"
+      },
+      {
+        "relatedresourceid": 605883,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phthirusa hippocrateoides Steyerm. & Maguire"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. Riedel 2784",
+        "collectioncode": "US",
+        "catalognumber": "US01335079",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01335079",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vieira, M. G. 1043",
+        "collectioncode": "US",
+        "catalognumber": "US01335259",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01335259",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0147264",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0147264",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "NY",
+        "catalognumber": "NY02220293",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02220293",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M. PIRES 14184",
+        "collectioncode": "RB",
+        "catalognumber": "RB00208440",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00208440",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.C. PASSOS 18",
+        "collectioncode": "RB",
+        "catalognumber": "RB00208220",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00208220",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.C. PASSOS 18",
+        "collectioncode": "RB",
+        "catalognumber": "RB00208220",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283875186",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M. PIRES 14184",
+        "collectioncode": "RB",
+        "catalognumber": "RB00208440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283875642",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0147264",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238534877",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Riedel 2784",
+        "collectioncode": "US",
+        "catalognumber": "US01335079",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100129005",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vieira, M. G. 1043",
+        "collectioncode": "US",
+        "catalognumber": "US01335259",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100108287",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "NY",
+        "catalognumber": "NY02220293",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228503261",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 605951,
+      "scientificname": "Struthanthus syringifolius var. longipedunculatus (Mart.) Eichler",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "syringifolius",
+      "infraspecificepithet": "longipedunculatus",
+      "scientificnameauthorship": "(Mart.) Eichler",
+      "acceptednameusage": "Struthanthus syringifolius (Mart.) Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus syringifolius (Mart.) Mart.;Struthanthus syringifolius var. longipedunculatus (Mart.) Eichler",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605951\">https://floradobrasil2020.jbrj.gov.br/FB605951</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus syringifolius (Mart.) Mart.",
+      "parentnameusageid": 8719,
+      "originalnameusageid": "605911",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605951",
+      "acceptednameusageid": 8719,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605951>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-13 15:12:40.49"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8719,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus syringifolius (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 605910,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Struthanthus longipedunculatus (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 605911,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Loranthus longipedunculatus Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605953,
+      "scientificname": "Struthanthus syringifolius var. paniculatus Rizzini",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Santalales",
+      "family": "Loranthaceae",
+      "genus": "Struthanthus",
+      "specificepithet": "syringifolius",
+      "infraspecificepithet": "paniculatus",
+      "scientificnameauthorship": "Rizzini",
+      "acceptednameusage": "Struthanthus syringifolius (Mart.) Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Loranthaceae Juss.;Struthanthus Mart.;Struthanthus syringifolius (Mart.) Mart.;Struthanthus syringifolius var. paniculatus Rizzini",
+      "source": "Caires, C.S., Dettke, G.A. 2020. Struthanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605953\">https://floradobrasil2020.jbrj.gov.br/FB605953</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Struthanthus syringifolius (Mart.) Mart.",
+      "parentnameusageid": 8719,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605953",
+      "acceptednameusageid": 8719,
+      "bibliographiccitation_how_to_cite": "Caires, C.S., Dettke, G.A. Struthanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605953>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-05-13 15:26:48.43"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 8719,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Struthanthus syringifolius (Mart.) Mart."
+      }
+    ],
+    "voucher": []
+  }
+]

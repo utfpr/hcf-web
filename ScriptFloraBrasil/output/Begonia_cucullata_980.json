@@ -1,0 +1,663 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5597,
+      "scientificname": "Begonia cucullata Willd.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "cucullata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Willd.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia cucullata Willd.",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5597>http://floradobrasil2015.jbrj.gov.br/FB5597</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5597\">https://floradobrasil2020.jbrj.gov.br/FB5597</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Jacques, E.L. 1999. Flora da Serra do Cip&amp;oacute;, Minas Gerais: Begoniaceae. Bol. Bot. Univ. S&amp;atilde;o Paulo 18:33-37.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nJacques, E.L. 2002. Estudos taxon&amp;ocirc;micos das esp&amp;eacute;cies brasileiras do g&amp;ecirc;nero Begonia L. (Begoniaceae) com placenta partida. Tese de Doutorado. Universidade de S&amp;atilde;o Paulo. S&amp;atilde;o Paulo.",
+      "parentnameusage": "Begonia L.",
+      "parentnameusageid": 5562,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 4: 414 1805",
+      "namepublishedinyear": "1805",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5597",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5597>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 17:06:06.745"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Willdenow,Sp. Pl.,4: 414,1805"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45085,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia dispar Rchb."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Jacques, E.L. 213",
+        "collectioncode": "RB",
+        "catalognumber": "RB00052718",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00052718",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Duarte, E. 300",
+        "collectioncode": "DVPR",
+        "catalognumber": "DVPR000810",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/DVPR000810",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Duarte, E. 300",
+        "collectioncode": "DVPR",
+        "catalognumber": "DVPR000810",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226622029",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Jacques, E.L. 213",
+        "collectioncode": "RB",
+        "catalognumber": "RB00052718",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284374426",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34129,
+      "scientificname": "Begonia cucullata Willd. var. cucullata",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "cucullata",
+      "infraspecificepithet": "cucullata",
+      "scientificnameauthorship": "Willd.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia cucullata Willd.;Begonia cucullata Willd. var. cucullata",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34129>http://floradobrasil2015.jbrj.gov.br/FB34129</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34129\">https://floradobrasil2020.jbrj.gov.br/FB34129</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia cucullata Willd.",
+      "parentnameusageid": 5597,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. 4(1): 414 1805",
+      "namepublishedinyear": "1805",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34129",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34129>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-08-29 12:03:08.641"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Willdenow,Sp. Pl.,4(1): 414,1805"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45222,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia sellowii Klotzsch"
+      },
+      {
+        "relatedresourceid": 45135,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia hookeri Sweet"
+      },
+      {
+        "relatedresourceid": 45177,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia paludicola C.DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 34131,
+      "scientificname": "Begonia cucullata var. spatulata (Lodd.) Golding",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "cucullata",
+      "infraspecificepithet": "spatulata",
+      "scientificnameauthorship": "(Lodd.) Golding",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia cucullata Willd.;Begonia cucullata var. spatulata (Lodd.) Golding",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34131>http://floradobrasil2015.jbrj.gov.br/FB34131</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34131\">https://floradobrasil2020.jbrj.gov.br/FB34131</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia cucullata Willd.",
+      "parentnameusageid": 5597,
+      "originalnameusageid": "45231",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34131",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34131>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-08-29 12:02:38.604"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Golding, J.,Phytologia,50: 350,1982"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45077,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia cuneata Walp."
+      },
+      {
+        "relatedresourceid": 45045,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia agrial Rojas Acosta"
+      },
+      {
+        "relatedresourceid": 45231,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Begonia spatulata Lodd."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45074,
+      "scientificname": "Begonia cucullata var. arenosicola (C.DC.) L.B.Sm. & B.G.Schub.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "cucullata",
+      "infraspecificepithet": "arenosicola",
+      "scientificnameauthorship": "(C.DC.) L.B.Sm. & B.G.Schub.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia cucullata Willd.;Begonia cucullata var. arenosicola (C.DC.) L.B.Sm. & B.G.Schub.",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45074>http://floradobrasil2015.jbrj.gov.br/FB45074</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45074\">https://floradobrasil2020.jbrj.gov.br/FB45074</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia cucullata Willd.",
+      "parentnameusageid": 5597,
+      "originalnameusageid": "45235",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45074",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45074>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-08-29 12:02:25.432"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B. & Schubert, B.G.,Darwiniana,5: 106,1941"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45234,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia subcucullata C.DC."
+      },
+      {
+        "relatedresourceid": 45235,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Begonia subcucullata var. arenosicola C.DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 45075,
+      "scientificname": "Begonia cucullata var. hookeri (A.DC.) L.B.Sm. & Schub.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_MAL_APLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "cucullata",
+      "infraspecificepithet": "hookeri",
+      "scientificnameauthorship": "(A.DC.) L.B.Sm. & Schub.",
+      "acceptednameusage": "Begonia semperflorens Link & Otto",
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia cucullata Willd.;Begonia cucullata var. hookeri (A.DC.) L.B.Sm. & Schub.",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45075>http://floradobrasil2015.jbrj.gov.br/FB45075</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45075\">https://floradobrasil2020.jbrj.gov.br/FB45075</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Smith, L.B. &amp;amp; Schubert, B.G. 1941. Revisi&amp;oacute;n de las species Argentinas del g&amp;eacute;nero Begonia. Darwiniana 5:78-117",
+      "parentnameusage": "Begonia cucullata Willd.",
+      "parentnameusageid": 5597,
+      "originalnameusageid": null,
+      "namepublishedin": "Darwiniana 5: 104 1941",
+      "namepublishedinyear": "1941",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45075",
+      "acceptednameusageid": 5718,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45075>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-11-22 15:59:46.367"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B. & Schubert, B.G.,Darwiniana,5: 104,1941"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5718,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Begonia semperflorens Link & Otto"
+      }
+    ],
+    "voucher": []
+  }
+]

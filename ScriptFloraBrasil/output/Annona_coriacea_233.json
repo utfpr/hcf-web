@@ -1,0 +1,602 @@
+[
+  {
+    "taxon": {
+      "taxonid": 117066,
+      "scientificname": "Annona coriacea Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Magnoliales",
+      "family": "Annonaceae",
+      "genus": "Annona",
+      "specificepithet": "coriacea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Annonaceae Juss.;Annona L.;Annona coriacea Mart.",
+      "source": "Maas, P.,Lobão, A.,Rainer, H. 2015. Annonaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB117066>http://floradobrasil2015.jbrj.gov.br/FB117066</a>)<br><br>Mendes-Silva, I., Lopes, J.C., Silva, L.V., Oliveira, M.L.B. 2020. Annona in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB117066\">https://floradobrasil2020.jbrj.gov.br/FB117066</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Martius CFPh. Anonaceae.&amp;nbsp;&lt;em&gt;In&lt;/em&gt;: C.F.Ph. von Martius (ed.), Flora Brasiliensis 13(1): 6, pl. 1. Frid. Fleischer in comm., M&amp;uuml;nchen, Leipzig.\r\nFries, R.E. 1931. Revision der Arten einiger Annonaceen-Gattungen II. Acta Horti Bergiani 10(2): 129-341.",
+      "parentnameusage": "Annona L.",
+      "parentnameusageid": 110235,
+      "originalnameusageid": null,
+      "namepublishedin": "Flora Brasilensis 13(1): 6 1841",
+      "namepublishedinyear": "1841",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB117066",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mendes-Silva, I., Lopes, J.C., Silva, L.V., Bazante, M.L., Lobão, A.Q. Annona in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB117066>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-05-23 11:54:05.205"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "araticum",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Centro-Oeste"
+      },
+      {
+        "vernacularname": "marolinho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Martius CFP von,Flora Brasilensis,13(1): 6,1841"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638357,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Annona geraensis Barb. Rodr."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Figueiredo, M.A.; Lima-Verde, L.W. 954",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0026596",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226647881",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Figueiredo, M.A. 253",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0018087",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226640095",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "RB",
+        "catalognumber": "RB00040908",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284345342",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "US",
+        "catalognumber": "US01346896",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100106673",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 6066",
+        "collectioncode": "NY",
+        "catalognumber": "NY00836227",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228757029",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 6066",
+        "collectioncode": "NY",
+        "catalognumber": "NY00836228",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228757033",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 6066",
+        "collectioncode": "NY",
+        "catalognumber": "NY00836228",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228757031",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 30970",
+        "collectioncode": "US",
+        "catalognumber": "US01346892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100106665",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 6066",
+        "collectioncode": "NY",
+        "catalognumber": "NY00836227",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00836227",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 30970",
+        "collectioncode": "US",
+        "catalognumber": "US01346892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01346892",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 6066",
+        "collectioncode": "NY",
+        "catalognumber": "NY00836228",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00836228",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "RB",
+        "catalognumber": "RB00040908",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00040908",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "US",
+        "catalognumber": "US01346896",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01346896",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Figueiredo, M.A. 253",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0018087",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0018087",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "NY",
+        "catalognumber": "NY01099201",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01099201",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Figueiredo, M.A.; Lima-Verde, L.W. 954",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0026596",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0026596",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "NY",
+        "catalognumber": "NY01147772",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01147772",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "NY",
+        "catalognumber": "NY01099201",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228757815",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "NY",
+        "catalognumber": "NY01147772",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228761893",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. Cid Ferreira 4475",
+        "collectioncode": "NY",
+        "catalognumber": "NY01147772",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228761891",
+        "locality": "RO",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 117067,
+      "scientificname": "Annona coriacea var. amplexicaulis S.Moore",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Magnoliales",
+      "family": "Annonaceae",
+      "genus": "Annona",
+      "specificepithet": "coriacea",
+      "infraspecificepithet": "amplexicaulis",
+      "scientificnameauthorship": "S.Moore",
+      "acceptednameusage": "Annona aurantiaca Barb.Rodr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Annonaceae Juss.;Annona L.;Annona coriacea Mart.;Annona coriacea var. amplexicaulis S.Moore",
+      "source": "Maas, P.,Lobão, A.,Rainer, H. 2015. Annonaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB117067>http://floradobrasil2015.jbrj.gov.br/FB117067</a>)<br><br>Mendes-Silva, I., Lopes, J.C., Silva, L.V., Oliveira, M.L.B. 2020. Annona in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB117067\">https://floradobrasil2020.jbrj.gov.br/FB117067</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Annona coriacea Mart.",
+      "parentnameusageid": 117066,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB117067",
+      "acceptednameusageid": 117065,
+      "bibliographiccitation_how_to_cite": "Mendes-Silva, I., Lopes, J.C., Silva, L.V., Bazante, M.L., Lobão, A.Q. Annona in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB117067>. Acesso em: 20 nov. 2025.",
+      "modified": "2010-01-25 12:48:43.992028"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 117065,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Annona aurantiaca Barb.Rodr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 117279,
+      "scientificname": "Annona coriacea var. pygmaea Warm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Magnoliales",
+      "family": "Annonaceae",
+      "genus": "Annona",
+      "specificepithet": "coriacea",
+      "infraspecificepithet": "pygmaea",
+      "scientificnameauthorship": "Warm.",
+      "acceptednameusage": "Annona warmingiana Mello-Silva & Pirani",
+      "higherclassification": "Flora e Funga;Angiospermas;Annonaceae Juss.;Annona L.;Annona coriacea Mart.;Annona coriacea var. pygmaea Warm.",
+      "source": "Maas, P.,Lobão, A.,Rainer, H. 2015. Annonaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB117279>http://floradobrasil2015.jbrj.gov.br/FB117279</a>)<br><br>Mendes-Silva, I., Lopes, J.C., Silva, L.V., Oliveira, M.L.B. 2020. Annona in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB117279\">https://floradobrasil2020.jbrj.gov.br/FB117279</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Annona coriacea Mart.",
+      "parentnameusageid": 117066,
+      "originalnameusageid": "117278",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB117279",
+      "acceptednameusageid": 117278,
+      "bibliographiccitation_how_to_cite": "Mendes-Silva, I., Lopes, J.C., Silva, L.V., Bazante, M.L., Lobão, A.Q. Annona in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB117279>. Acesso em: 20 nov. 2025.",
+      "modified": "2010-02-01 10:07:19.998033"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 117278,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Annona warmingiana Mello-Silva & Pirani"
+      },
+      {
+        "relatedresourceid": 117280,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Annona pygmaea (Warm.) Warm."
+      }
+    ],
+    "voucher": []
+  }
+]

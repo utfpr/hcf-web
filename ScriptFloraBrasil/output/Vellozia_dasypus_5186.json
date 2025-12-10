@@ -1,0 +1,136 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15118,
+      "scientificname": "Vellozia dasypus Seub.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Vellozia",
+      "specificepithet": "dasypus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Seub.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Vellozia Vand.;Vellozia dasypus Seub.",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15118>http://floradobrasil2015.jbrj.gov.br/FB15118</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Mello-Silva, R., Santos, D.Y.A.C., Salatino, M.F., Mota, L.B., Cattai, M.B., Sasaki, D., Lovo, J., Pita, P.B., Rocini, C., Rodrigues, C.D.N., Zarrei, M. &amp;amp; Chase, M.W. (2011). Five vicariant genera from Gondwana: the Velloziaceae as shown by molecules and morphology. Annals of Botany 108: 87&amp;ndash;102.",
+      "parentnameusage": "Vellozia Vand.",
+      "parentnameusageid": 15114,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 3(1): 81 1847",
+      "namepublishedinyear": "1847",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15118",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-03-28 20:28:44.575"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Seubert, M.A.,Fl. bras.,3(1): 81,1847"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 33104,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vellozia harleyi L.B.Sm. & Ayensu"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.S. Blanchet 3558",
+        "collectioncode": "MO",
+        "catalognumber": "MO202180",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO202180",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.S. Blanchet 3558",
+        "collectioncode": "K",
+        "catalognumber": "K000400767",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000400767",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 19462",
+        "collectioncode": "RB",
+        "catalognumber": "RB00636690",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00636690",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.S. Blanchet 3558",
+        "collectioncode": "MO",
+        "catalognumber": "MO202180",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97951667",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 19462",
+        "collectioncode": "RB",
+        "catalognumber": "RB00636690",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284584698",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.S. Blanchet 3558",
+        "collectioncode": "K",
+        "catalognumber": "K000400767",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227604231",
+        "locality": "BA",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "taxon": {
+      "taxonid": 23510,
+      "scientificname": "Lophanthera lactescens Ducke",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Malpighiaceae",
+      "genus": "Lophanthera",
+      "specificepithet": "lactescens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Ducke",
+      "acceptednameusage": "Spachea lactescens (Ducke) R.F.Almeida & M.Pell.",
+      "higherclassification": "Flora e Funga;Angiospermas;Malpighiaceae Juss.;Lophanthera A.Juss.;Lophanthera lactescens Ducke",
+      "source": "Mamede, M.C.H. 2015. Lophanthera in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB23510>http://floradobrasil2015.jbrj.gov.br/FB23510</a>)<br><br>Francener, A. 2020. Lophanthera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB23510\">https://floradobrasil2020.jbrj.gov.br/FB23510</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Anderson, W.R. 1983. Lophanthera, a genus of Malpighiaceae new to Central America, Brittonia, 35(1): 37-41\r\nAnderson, W.R. 1981. Malpighiaceae in the botany of the Guayana Highland, part XI, 32: 36-42.",
+      "parentnameusage": "Lophanthera A.Juss.",
+      "parentnameusageid": 23509,
+      "originalnameusageid": "632725",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB23510",
+      "acceptednameusageid": 632725,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-05-22 13:38:32.373"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "chuva-de-ouro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 632725,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Spachea lactescens (Ducke) R.F.Almeida & M.Pell."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Ducke 17698",
+        "collectioncode": "K",
+        "catalognumber": "K000427060",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227605347",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Ducke 17698",
+        "collectioncode": "K",
+        "catalognumber": "K000427061",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227605349",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Ducke 17698",
+        "collectioncode": "K",
+        "catalognumber": "K000427060",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000427060",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Ducke 17698",
+        "collectioncode": "K",
+        "catalognumber": "K000427061",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000427061",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

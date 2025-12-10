@@ -1,0 +1,98 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15088,
+      "scientificname": "Valeriana eupatoria Sobral",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Dipsacales",
+      "family": "Caprifoliaceae",
+      "genus": "Valeriana",
+      "specificepithet": "eupatoria",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Sobral",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Caprifoliaceae Juss.;Valeriana L.;Valeriana eupatoria Sobral",
+      "source": "Sobral, M. 2015. Caprifoliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15088>http://floradobrasil2015.jbrj.gov.br/FB15088</a>)<br><br>Rabuske, C., Iganci, J.R.V., Sobral, M. Caprifoliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15088\">https://floradobrasil2020.jbrj.gov.br/FB15088</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Valeriana L.",
+      "parentnameusageid": 15083,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15088",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Rabuske, C., Iganci, J.R.V., Sobral, M. Caprifoliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15088>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-07 14:04:12.54"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sobral, M.,Novon,10: 149.,2000"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "M. Sobral 8604",
+        "collectioncode": "RB",
+        "catalognumber": "RB00544373",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284407310",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 8604",
+        "collectioncode": "UFSC",
+        "catalognumber": "FLOR0041692",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226937115",
+        "locality": "RS",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "M. Sobral 8604",
+        "collectioncode": "RB",
+        "catalognumber": "RB00544373",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00544373",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 8604",
+        "collectioncode": "UFSC",
+        "catalognumber": "FLOR0041692",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0041692",
+        "locality": "RS",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

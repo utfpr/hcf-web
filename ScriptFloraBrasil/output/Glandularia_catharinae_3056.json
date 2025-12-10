@@ -1,0 +1,113 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15143,
+      "scientificname": "Glandularia catharinae (Moldenke) N.O'Leary & P.Peralta",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Glandularia",
+      "specificepithet": "catharinae",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Moldenke) N.O'Leary & P.Peralta",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Glandularia J.F.Gmel.;Glandularia catharinae (Moldenke) N.O'Leary & P.Peralta",
+      "source": "Thode, V.,O'Leary, N. 2015. Glandularia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15143>http://floradobrasil2015.jbrj.gov.br/FB15143</a>)<br><br>O’Leary, N., Thode, V.A., Boldorini, A. 2020. Glandularia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15143\">https://floradobrasil2020.jbrj.gov.br/FB15143</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Glandularia J.F.Gmel.",
+      "parentnameusageid": 15140,
+      "originalnameusageid": "77320",
+      "namepublishedin": "Phytologia 5: 92 1954",
+      "namepublishedinyear": "1954",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15143",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N., Thode, V.A., Boldorini, A. Glandularia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15143>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-09-02 16:35:45.03"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "O'Leary et al.,Darwiniana,45: 219,2007"
+      },
+      {
+        "reference": "Moldenke, H.N.,Phytologia,5: 92,1954"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 77320,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena catharinae Moldenke"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz C1561",
+        "collectioncode": "NY",
+        "catalognumber": "NY00138252",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00138252",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz C1561",
+        "collectioncode": "NY",
+        "catalognumber": "NY00138252",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228088287",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

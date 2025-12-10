@@ -1,0 +1,797 @@
+[
+  {
+    "taxon": {
+      "taxonid": 25544,
+      "scientificname": "Microstachys corniculata (Vahl) Griseb.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "corniculata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vahl) Griseb.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys corniculata (Vahl) Griseb.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB25544>http://floradobrasil2015.jbrj.gov.br/FB25544</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB25544\">https://floradobrasil2020.jbrj.gov.br/FB25544</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys A.Juss.",
+      "parentnameusageid": 25542,
+      "originalnameusageid": "57413",
+      "namepublishedin": "Fl. Brit. W.I. [Grisebach] 49 1864",
+      "namepublishedinyear": "1864",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB25544",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB25544>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 13:11:28.571"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. Brit. W.I. [Grisebach],49,1864"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 57111,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. scabra (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57113,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. transiens (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57166,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania micrantha (Benth.) Lanj."
+      },
+      {
+        "relatedresourceid": 56990,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarothrostachys multiramea Klotzsch"
+      },
+      {
+        "relatedresourceid": 57264,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia campestris Baill."
+      },
+      {
+        "relatedresourceid": 57268,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia corniculata (Vahl) Baill."
+      },
+      {
+        "relatedresourceid": 57308,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia sellowiana Baill."
+      },
+      {
+        "relatedresourceid": 57315,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia velutina Baill."
+      },
+      {
+        "relatedresourceid": 57296,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia prostrata (Mart.) Baill."
+      },
+      {
+        "relatedresourceid": 57025,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. campestris (Baill.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57080,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. transiens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57112,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. sellowiana (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 54429,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys campestris Mart. ex Baill."
+      },
+      {
+        "relatedresourceid": 54444,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys patula Mart."
+      },
+      {
+        "relatedresourceid": 57052,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. micrantha (Benth.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57053,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. microdendron Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57054,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. obtusifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57056,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. olfersiana Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57070,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. rufescens Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57072,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. scabra Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57059,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. parvifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57060,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. patula (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57061,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. petiolaris Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57062,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. poeppigii Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57063,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. pohlii Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57064,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. potamophila Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57065,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. prostrata (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57066,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. psilophylla Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57075,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. sellowiana Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57079,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. tragioides (Mart.) Pax"
+      },
+      {
+        "relatedresourceid": 57081,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. villaricensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57105,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. fallax (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57106,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. microdendron (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57107,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. obtusifolia (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57108,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. parvifolia (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57104,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. campestris (Baill.) Pax"
+      },
+      {
+        "relatedresourceid": 57109,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. pohlii (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57110,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa var. psilophylla (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57137,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania hispida var. patula (Mart.) Pax"
+      },
+      {
+        "relatedresourceid": 57023,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. angustifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57024,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. blepharophylla Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57022,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. acalyphoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57033,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. glabrata (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. crotonoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57027,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. egensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. erecta Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. fallax (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57034,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. glandulosa (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57035,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. guianensis (Klotzsch) Pax"
+      },
+      {
+        "relatedresourceid": 57036,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. hassleriana Chodat"
+      },
+      {
+        "relatedresourceid": 57037,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. heterophylla Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57038,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata var. hispida (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 602535,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata form. sellowiana Müll.Arg."
+      },
+      {
+        "relatedresourceid": 602536,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania corniculata form. obtusifolia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 17673,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sebastiania corniculata (Vahl) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29378,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania glandulosa (Mart.) Pax"
+      },
+      {
+        "relatedresourceid": 54436,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys glabrata Mart."
+      },
+      {
+        "relatedresourceid": 54427,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys acalyphoides Mart."
+      },
+      {
+        "relatedresourceid": 54434,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys dubia Wawra"
+      },
+      {
+        "relatedresourceid": 54443,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys pahlii Spreng."
+      },
+      {
+        "relatedresourceid": 54445,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys prostrata Mart."
+      },
+      {
+        "relatedresourceid": 54448,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys sellowiana Klotzsch ex Baill."
+      },
+      {
+        "relatedresourceid": 54451,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys tragioides Mart."
+      },
+      {
+        "relatedresourceid": 54452,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys velutina Klotzsch ex Baill."
+      },
+      {
+        "relatedresourceid": 56204,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys guianensis Klotzsch"
+      },
+      {
+        "relatedresourceid": 56197,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys bicornis A.Juss."
+      },
+      {
+        "relatedresourceid": 56220,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys vahlii A.Rich."
+      },
+      {
+        "relatedresourceid": 56203,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys fruticulosa H.Karst."
+      },
+      {
+        "relatedresourceid": 56989,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sarothrostachys luschnathiana Klotzsch"
+      },
+      {
+        "relatedresourceid": 57413,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Tragia corniculata Vahl"
+      },
+      {
+        "relatedresourceid": 57411,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia bicornis Vahl ex A.Juss."
+      },
+      {
+        "relatedresourceid": 57461,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragiopsis fruticulosa H.Karst."
+      },
+      {
+        "relatedresourceid": 57441,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tragia pilosa Vell."
+      },
+      {
+        "relatedresourceid": 56206,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys micrantha Benth."
+      },
+      {
+        "relatedresourceid": 56207,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys polymorpha Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57276,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia glabrata (Mart.) Baill."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "C.F.P. Martius 906",
+        "collectioncode": "NY",
+        "catalognumber": "NY00273253",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00273253",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.G. Viana 374",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0026142",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0026142",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.F.P. Martius 906",
+        "collectioncode": "NY",
+        "catalognumber": "NY00273253",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228093101",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C.G. Viana 374",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0026142",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225953539",
+        "locality": "SE",
+        "typestatus": null
+      }
+    ]
+  }
+]
