@@ -1,0 +1,728 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5216,
+      "scientificname": "Baccharis myriocephala DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "myriocephala",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis myriocephala DC.",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5216>http://floradobrasil2015.jbrj.gov.br/FB5216</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5216\">https://floradobrasil2020.jbrj.gov.br/FB5216</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5216",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-02-07 09:11:28.662"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carqueja",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 126667,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis genistelloides var. myriocephala Baker ex G.M.Barroso"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027535",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100621573",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 3504",
+        "collectioncode": "RB",
+        "catalognumber": "RB00831408",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284863000",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Assis 2068",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML046847",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230221099",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 3504",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML046951",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220705",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 526",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517583",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284356120",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Chimalli, T. s.n.",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027535",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES027535",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 589",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391868",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00391868",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 3162",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP008881",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UNOP008881",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.V. Pinto Junior 212",
+        "collectioncode": "RB",
+        "catalognumber": "RB01188814",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01188814",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 472",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML005137",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML005137",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Giaretta,A.O. 601",
+        "collectioncode": "SAMES",
+        "catalognumber": "SAMES00666",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SAMES00666",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 586",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML004926",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML004926",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 16151",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391942",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00391942",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 6785",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML022575",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML022575",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.O. Giaretta 601",
+        "collectioncode": "RB",
+        "catalognumber": "RB01363438",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01363438",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ventura, S.P. 19",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES037655",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES037655",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. M. Assis 2068",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML046847",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML046847",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lorencini, T.S. 302",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES019050",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES019050",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 526",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517583",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00517583",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 7677",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML045769",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML045769",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kuntz, J. 835",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA121944",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA121944",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 3504",
+        "collectioncode": "RB",
+        "catalognumber": "RB00831408",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00831408",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 3787",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES008865",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES008865",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391864",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00391864",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 3504",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML046951",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML046951",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 2158",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES004768",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES004768",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Couto, D.R. 1605",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES030317",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES030317",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Milward de Azevedo, M. 289",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES020573",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES020573",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinto Junior, H.V. 212",
+        "collectioncode": "SAMES",
+        "catalognumber": "SAMES01158",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SAMES01158",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 1695",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES003040",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES003040",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lorencini, T.S. 46",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES018981",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES018981",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 471",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML005138",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML005138",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027535",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES027535",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 3787",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES008865",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100593463",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinto Junior, H.V. 212",
+        "collectioncode": "SAMES",
+        "catalognumber": "SAMES01158",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=157945548",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 7677",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML045769",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220685",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lorencini, T.S. 46",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES018981",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100613203",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 471",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML005138",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220403",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Chimalli, T. s.n.",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027535",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100621573",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ventura, S.P. 19",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES037655",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100628921",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391864",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284128046",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 2158",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES004768",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100584579",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 6785",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML022575",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220497",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Couto, D.R. 1605",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES030317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=280077211",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Milward de Azevedo, M. 289",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES020573",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=122988329",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 586",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML004926",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220393",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Giaretta,A.O. 601",
+        "collectioncode": "SAMES",
+        "catalognumber": "SAMES00666",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=159424402",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 472",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML005137",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220401",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pereira, O.J. 1695",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES003040",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100581071",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.O. Giaretta 601",
+        "collectioncode": "RB",
+        "catalognumber": "RB01363438",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285104902",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 3162",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP008881",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100509973",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 16151",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391942",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284128244",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "B. Weinberg 589",
+        "collectioncode": "RB",
+        "catalognumber": "RB00391868",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284128054",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kuntz, J. 835",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA121944",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226834633",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lorencini, T.S. 302",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES019050",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100613339",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.V. Pinto Junior 212",
+        "collectioncode": "RB",
+        "catalognumber": "RB01188814",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285018068",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 126721,
+      "scientificname": "Baccharis myriocephala Baker",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "myriocephala",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Baker",
+      "acceptednameusage": "Baccharis pseudomyriocephala Malag.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis myriocephala Baker",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB126721>http://floradobrasil2015.jbrj.gov.br/FB126721</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB126721\">https://floradobrasil2020.jbrj.gov.br/FB126721</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB126721",
+      "acceptednameusageid": 5233,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-06-11 09:40:25.309"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5233,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis pseudomyriocephala Malag."
+      }
+    ],
+    "voucher": []
+  }
+]

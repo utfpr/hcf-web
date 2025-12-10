@@ -1,0 +1,121 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8348,
+      "scientificname": "Salvia scoparia Epling",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lamiaceae",
+      "genus": "Salvia",
+      "specificepithet": "scoparia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Epling",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lamiaceae Martinov;Salvia L.;Salvia scoparia Epling",
+      "source": "Santos, E.P. 2015. Salvia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8348>http://floradobrasil2015.jbrj.gov.br/FB8348</a>)<br><br>Oliveira, A.B., Antar, G.M., Mota, M.C.A., Pastore, J.F.B. 2020. Salvia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8348\">https://floradobrasil2020.jbrj.gov.br/FB8348</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Salvia L.",
+      "parentnameusageid": 8296,
+      "originalnameusageid": null,
+      "namepublishedin": "Brittonia 12: 148 1960",
+      "namepublishedinyear": "1960",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8348",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Oliveira, A.B., Antar, G.M., Mota, M.C.A., Pastore, J.F.B. Salvia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8348>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-06-28 05:58:25.15"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ciliar ou Galeria",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Epling, C.,Brittonia,12: 148,1960"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 7452",
+        "collectioncode": "RB",
+        "catalognumber": "RB00128950",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283767212",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 9265",
+        "collectioncode": "US",
+        "catalognumber": "US00121644",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100279463",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L.B. Smith 9265",
+        "collectioncode": "US",
+        "catalognumber": "US00121644",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00121644",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 7452",
+        "collectioncode": "RB",
+        "catalognumber": "RB00128950",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00128950",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

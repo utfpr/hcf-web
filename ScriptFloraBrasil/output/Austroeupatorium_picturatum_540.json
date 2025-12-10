@@ -1,0 +1,97 @@
+[
+  {
+    "taxon": {
+      "taxonid": 115507,
+      "scientificname": "Austroeupatorium picturatum (Malme) R.M.King & H.Rob.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Austroeupatorium",
+      "specificepithet": "picturatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Malme) R.M.King & H.Rob.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Eupatorieae Cass.;Austroeupatorium R.M.King & H.Rob.;Austroeupatorium picturatum (Malme) R.M.King & H.Rob.",
+      "source": "Almeida, G. 2015. Austroeupatorium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB115507>http://floradobrasil2015.jbrj.gov.br/FB115507</a>)<br><br>Almeida, G.S.S., Grossi, M.A. 2020. Austroeupatorium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB115507\">https://floradobrasil2020.jbrj.gov.br/FB115507</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;p class=&quot;MsoNormal&quot;&gt;KING, R.M. &amp;amp; ROBINSON,H. (1987). The genera of the Eupatorieae (Asteraceae).Monograf. Syst.Bot.Missouri Bot. Gard. 22.\r\n&amp;nbsp;\r\n&lt;p class=&quot;MsoNormal&quot;&gt;BARROSO,G. (1950). Considera&amp;ccedil;&amp;otilde;es sobre o g&amp;ecirc;nero &lt;em&gt;Eupatorium&lt;/em&gt; L. Arch. Jard. Bot. Rio de Janeiro 16: 230-333.",
+      "parentnameusage": "Austroeupatorium R.M.King & H.Rob.",
+      "parentnameusageid": 15977,
+      "originalnameusageid": "636309",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB115507",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Almeida, G.S.S., Grossi, M.A. Austroeupatorium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB115507>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-08-12 21:24:11.316"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "King, R.M. & Robinson, H.,Phytologia,19(7):434,1970"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 636309,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eupatorium picturatum Malme"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "K",
+        "catalognumber": "K000924838",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000924838",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "K",
+        "catalognumber": "K000924838",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227355749",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

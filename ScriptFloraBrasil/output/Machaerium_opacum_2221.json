@@ -1,0 +1,284 @@
+[
+  {
+    "taxon": {
+      "taxonid": 29776,
+      "scientificname": "Machaerium opacum Vogel",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Machaerium",
+      "specificepithet": "opacum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Vogel",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Machaerium Pers.;Machaerium opacum Vogel",
+      "source": "Filardi, F.L.R. 2015. Machaerium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29776>http://floradobrasil2015.jbrj.gov.br/FB29776</a>)<br><br>Filardi, F.L.R., Cardoso, D.B.O.S., Lima, H.C. 2020. Machaerium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29776\">https://floradobrasil2020.jbrj.gov.br/FB29776</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Machaerium Pers.",
+      "parentnameusageid": 23055,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 11: 187 1837",
+      "namepublishedinyear": "1837",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29776",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Filardi, F.L.R., Jordão, V.M.M., Cardoso, D.B.O.S., Lima, H.C. Machaerium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29776>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-02-12 08:51:24.667"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bentham, G.,Fl. bras.,vol.15, part.1, tab.77,1862"
+      },
+      {
+        "reference": "Vogel, T.H.,Linnaea,11: 187,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 122200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Machaerium campestre Mart. ex Benth."
+      },
+      {
+        "relatedresourceid": 623153,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Machaerium opacum var. rotundatum Vogel"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "RB",
+        "catalognumber": "RB00179676",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00179676",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "MO",
+        "catalognumber": "MO1699645",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1699645",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM108365",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM108365",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 5580",
+        "collectioncode": "MO",
+        "catalognumber": "MO1699657",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1699657",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.D. Tosta 36",
+        "collectioncode": "RB",
+        "catalognumber": "RB00179123",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00179123",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00758542",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00758542",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.D. Tosta 36",
+        "collectioncode": "RB",
+        "catalognumber": "RB00179123",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283850738",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 5580",
+        "collectioncode": "MO",
+        "catalognumber": "MO1699657",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98038284",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00758542",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197499533",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM108365",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229213466",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "MO",
+        "catalognumber": "MO1699645",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98038260",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 50460",
+        "collectioncode": "RB",
+        "catalognumber": "RB00179676",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283852018",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 623153,
+      "scientificname": "Machaerium opacum var. rotundatum Vogel",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_MAL_APLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Machaerium",
+      "specificepithet": "opacum",
+      "infraspecificepithet": "rotundatum",
+      "scientificnameauthorship": "Vogel",
+      "acceptednameusage": "Machaerium opacum Vogel",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Machaerium Pers.;Machaerium opacum Vogel;Machaerium opacum var. rotundatum Vogel",
+      "source": "Filardi, F.L.R., Cardoso, D.B.O.S., Lima, H.C. 2020. Machaerium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB623153\">https://floradobrasil2020.jbrj.gov.br/FB623153</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Machaerium opacum Vogel",
+      "parentnameusageid": 29776,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 11: 203 1837",
+      "namepublishedinyear": "1837",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB623153",
+      "acceptednameusageid": 29776,
+      "bibliographiccitation_how_to_cite": "Filardi, F.L.R., Jordão, V.M.M., Cardoso, D.B.O.S., Lima, H.C. Machaerium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB623153>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-11-30 15:53:25.699"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Vogel, T.H.,Linnaea,11: 203,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 29776,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Machaerium opacum Vogel"
+      }
+    ],
+    "voucher": []
+  }
+]

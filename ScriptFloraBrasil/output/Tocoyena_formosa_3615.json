@@ -1,0 +1,820 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14338,
+      "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Cham. & Schltdl.) K.Schum.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14338>http://floradobrasil2015.jbrj.gov.br/FB14338</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14338\">https://floradobrasil2020.jbrj.gov.br/FB14338</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena Aubl.",
+      "parentnameusageid": 14335,
+      "originalnameusageid": "72776",
+      "namepublishedin": "Fl. bras. 6(6): 347 1889",
+      "namepublishedinyear": "1889",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14338",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14338>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-28 19:02:51.064"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "genipapo-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Schumann, K.,Fl. bras.,6(6): 347,1889"
+      },
+      {
+        "reference": "Delprete, P.G.,J. Bot. Res. Inst. Texas,2: 984-987,2008"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32698,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum. subsp. formosa"
+      },
+      {
+        "relatedresourceid": 74807,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa var. maxima Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 74810,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa var. pseudobrasiliensis Gottsb. & Ehrend."
+      },
+      {
+        "relatedresourceid": 74809,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa var. petropolitana Glaz."
+      },
+      {
+        "relatedresourceid": 72776,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gardenia formosa Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72782,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gardenia maritima Vahl ex DC."
+      },
+      {
+        "relatedresourceid": 74823,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena stipulacea K.Schum. ex Glaz."
+      },
+      {
+        "relatedresourceid": 14337,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena bullata (Vell.) Mart."
+      },
+      {
+        "relatedresourceid": 74808,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa var. microdon (Mart.) Gottsb. & Ehrend."
+      },
+      {
+        "relatedresourceid": 74814,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena hirsuta Moric. ex DC."
+      },
+      {
+        "relatedresourceid": 74827,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena velutina Mart."
+      },
+      {
+        "relatedresourceid": 74847,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ucriana hirsuta (Moric. ex DC.) D.Dietr."
+      },
+      {
+        "relatedresourceid": 74824,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena stipulosa K.Schum."
+      },
+      {
+        "relatedresourceid": 74825,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena surinamensis Bremek."
+      },
+      {
+        "relatedresourceid": 74820,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena microdon Mart."
+      },
+      {
+        "relatedresourceid": 20869,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena mollis Krause"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 32698,
+      "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum. subsp. formosa",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "formosa",
+      "scientificnameauthorship": "(Cham. & Schltdl.) K.Schum.",
+      "acceptednameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa (Cham. & Schltdl.) K.Schum. subsp. formosa",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32698>http://floradobrasil2015.jbrj.gov.br/FB32698</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32698\">https://floradobrasil2020.jbrj.gov.br/FB32698</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32698",
+      "acceptednameusageid": 14338,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32698>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-14 08:21:01.463076"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14338,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum."
+      },
+      {
+        "relatedresourceid": 74820,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena microdon Mart."
+      },
+      {
+        "relatedresourceid": 87598,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum. var. formosa"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 32699,
+      "scientificname": "Tocoyena formosa subsp. tomentosa Gardner ex A.L.Prado",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "tomentosa",
+      "scientificnameauthorship": "Gardner ex A.L.Prado",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa subsp. tomentosa Gardner ex A.L.Prado",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB32699>http://floradobrasil2015.jbrj.gov.br/FB32699</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB32699\">https://floradobrasil2020.jbrj.gov.br/FB32699</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB32699",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB32699>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-13 16:17:18.100206"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74807,
+      "scientificname": "Tocoyena formosa var. maxima Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "maxima",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa var. maxima Chodat & Hassl.",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74807>http://floradobrasil2015.jbrj.gov.br/FB74807</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB74807\">https://floradobrasil2020.jbrj.gov.br/FB74807</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "Bull. Herb. Boissier II, 4: 170 (326) 1904",
+      "namepublishedinyear": "1904",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74807",
+      "acceptednameusageid": 14338,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74807>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-07-27 15:12:26.695"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Chodat, R.H. & Hassler, E.,Bull. Herb. Boissier,II, 4: 170 (326),1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14338,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74808,
+      "scientificname": "Tocoyena formosa var. microdon (Mart.) Gottsb. & Ehrend.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "microdon",
+      "scientificnameauthorship": "(Mart.) Gottsb. & Ehrend.",
+      "acceptednameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa var. microdon (Mart.) Gottsb. & Ehrend.",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74808>http://floradobrasil2015.jbrj.gov.br/FB74808</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB74808\">https://floradobrasil2020.jbrj.gov.br/FB74808</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": "74820",
+      "namepublishedin": "Pl. Syst. Evol. 181: 163 1992",
+      "namepublishedinyear": "1992",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74808",
+      "acceptednameusageid": 14338,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74808>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-07-27 12:32:00.553"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gottsberger, G.K. & Ehrendorfer, F.,Pl. Syst. Evol.,181: 163,1992"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14338,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum."
+      },
+      {
+        "relatedresourceid": 74820,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Tocoyena microdon Mart."
+      },
+      {
+        "relatedresourceid": 20869,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena mollis Krause"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74809,
+      "scientificname": "Tocoyena formosa var. petropolitana Glaz.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "petropolitana",
+      "scientificnameauthorship": "Glaz.",
+      "acceptednameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa var. petropolitana Glaz.",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74809>http://floradobrasil2015.jbrj.gov.br/FB74809</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB74809\">https://floradobrasil2020.jbrj.gov.br/FB74809</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "Bull. Soc. Bot. France 56(3d): 343 1909",
+      "namepublishedinyear": "1909",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74809",
+      "acceptednameusageid": 14338,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74809>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-07-27 12:18:29.586"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Glaziou, A.F.M.,Bull. Soc. Bot. France,56(3d): 343,1909"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14338,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 74810,
+      "scientificname": "Tocoyena formosa var. pseudobrasiliensis Gottsb. & Ehrend.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "pseudobrasiliensis",
+      "scientificnameauthorship": "Gottsb. & Ehrend.",
+      "acceptednameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa var. pseudobrasiliensis Gottsb. & Ehrend.",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB74810>http://floradobrasil2015.jbrj.gov.br/FB74810</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB74810\">https://floradobrasil2020.jbrj.gov.br/FB74810</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "Pl. Syst. Evol. 181: 162 1992",
+      "namepublishedinyear": "1992",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB74810",
+      "acceptednameusageid": 14338,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB74810>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-07-27 11:52:05.633"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gottsberger, G.K. & Ehrendorfer, F.,Pl. Syst. Evol.,181: 162,1992"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14338,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Gottsberger, I.; Gottsberger, G. 11-11171",
+        "collectioncode": "K",
+        "catalognumber": "K000172525",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227573989",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Gottsberger, I. 11-11171",
+        "collectioncode": "SP",
+        "catalognumber": "SP001575",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP001575",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Gottsberger, I.; Gottsberger, G. 11-11171",
+        "collectioncode": "K",
+        "catalognumber": "K000172525",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000172525",
+        "locality": "SP",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 87598,
+      "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum. var. formosa",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Tocoyena",
+      "specificepithet": "formosa",
+      "infraspecificepithet": "formosa",
+      "scientificnameauthorship": "(Cham. & Schltdl.) K.Schum.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Tocoyena Aubl.;Tocoyena formosa (Cham. & Schltdl.) K.Schum.;Tocoyena formosa (Cham. & Schltdl.) K.Schum. var. formosa",
+      "source": "Oliveira, J.A. 2015. Tocoyena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB87598>http://floradobrasil2015.jbrj.gov.br/FB87598</a>)<br><br>Borges, R.L. 2020. Tocoyena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB87598\">https://floradobrasil2020.jbrj.gov.br/FB87598</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tocoyena formosa (Cham. & Schltdl.) K.Schum.",
+      "parentnameusageid": 14338,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB87598",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Borges, R.L. Tocoyena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB87598>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-13 16:13:48.162714"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32698,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Tocoyena formosa (Cham. & Schltdl.) K.Schum. subsp. formosa"
+      }
+    ],
+    "voucher": []
+  }
+]

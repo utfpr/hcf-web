@@ -1,0 +1,1226 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5010,
+      "scientificname": "Monstera adansonii Schott",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Schott",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5010>http://floradobrasil2015.jbrj.gov.br/FB5010</a>)<br><br>Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5010\">https://floradobrasil2020.jbrj.gov.br/FB5010</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Madison M.T. 1977. A revision of Monstera (Araceae). Contributions from the Gray Herbarium of Harvard University 207: 1-100.",
+      "parentnameusage": "Monstera Adans.",
+      "parentnameusageid": 5009,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5010",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5010>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-03-24 05:37:54.312"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "costela-de-adão",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Madison,Contr. Gray Herb.,207: 36,1977"
+      },
+      {
+        "reference": "Schott,Wiener Z. Kunst,4: 1028,1830"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42587,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calla pertusa (L.) Kunth"
+      },
+      {
+        "relatedresourceid": 42586,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calla dracontium G.Mey."
+      },
+      {
+        "relatedresourceid": 601479,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera pertusa var. jacquinii (Roxb.) Schott"
+      },
+      {
+        "relatedresourceid": 42795,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera pertusa (L.) de Vriese"
+      },
+      {
+        "relatedresourceid": 42662,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Dracontium pertusum L."
+      },
+      {
+        "relatedresourceid": 42900,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Philodendron pertusum (L.) K.Koch & C.D.Bouché"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "C.M. Mynssen 410",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472392",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00472392",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 893",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472300",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00472300",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.T. Valadares 1043",
+        "collectioncode": "RB",
+        "catalognumber": "RB00825736",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00825736",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 1154",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472294",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00472294",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 893",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472300",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284287196",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.T. Valadares 1043",
+        "collectioncode": "RB",
+        "catalognumber": "RB00825736",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284857346",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Mynssen 410",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472392",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284287462",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Nadruz 1154",
+        "collectioncode": "RB",
+        "catalognumber": "RB00472294",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284287174",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 15633,
+      "scientificname": "Monstera adansonii var. klotzschiana (Schott) Madison",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": "klotzschiana",
+      "scientificnameauthorship": "(Schott) Madison",
+      "acceptednameusage": "Monstera adansonii subsp. klotzschiana (Schott) Mayo & I.M. Andrade",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott;Monstera adansonii var. klotzschiana (Schott) Madison",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15633>http://floradobrasil2015.jbrj.gov.br/FB15633</a>)<br><br>Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15633\">https://floradobrasil2020.jbrj.gov.br/FB15633</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Madison M.T. 1977. A revision of Monstera (Araceae). Contributions from the Gray Herbarium of Harvard University 207: 1-100.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nAndrade I.M., Mayo, S.J., Van den Berg, C., Fay, M.F., Chester,M., Lexer, C., Kirkup, D. (2007).&amp;nbsp; A preliminary study of genetic variation in populations of Monstera adansonii var. klotzschiana (Araceae) from north-east Brazil, estimated with AFLP molecular markers.&amp;nbsp; Annals of Botany 100: 1143-1154.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nAndrade, I.M., Mayo, S.J., Kirkup, D., Van den Berg, C. (2008).&amp;nbsp; Comparative morphology of populations of Monstera Schott (Araceae) from natural forest fragments in Northeast Brazil using elliptic Fourier Analysis of leaf outlines.&amp;nbsp; Kew Bulletin 63: 193 &amp;ndash; 211.",
+      "parentnameusage": "Monstera adansonii Schott",
+      "parentnameusageid": 5010,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15633",
+      "acceptednameusageid": 602850,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15633>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-18 15:23:51.285"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta de Várzea",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "banana-de-macaco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      },
+      {
+        "vernacularname": "costela-de-adão",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Madison, M.T.,Contr. Gray Herb.,207: 40,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 602850,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Monstera adansonii subsp. klotzschiana (Schott) Mayo & I.M. Andrade"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "T.J. Cadorin 2846",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03883",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB03883",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.J. Cadorin 2846",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB03883",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226945225",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 15634,
+      "scientificname": "Monstera adansonii var. laniata (Schott) Madison",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": "laniata",
+      "scientificnameauthorship": "(Schott) Madison",
+      "acceptednameusage": "Monstera adansonii subsp. laniata (Schott) Mayo & I.M. Andrade",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott;Monstera adansonii var. laniata (Schott) Madison",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15634>http://floradobrasil2015.jbrj.gov.br/FB15634</a>)<br><br>Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15634\">https://floradobrasil2020.jbrj.gov.br/FB15634</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Madison M.T. 1977. A revision of Monstera (Araceae). Contributions from the Gray Herbarium of Harvard University 207: 1-100.\r\n&amp;nbsp;\r\n&amp;nbsp;\r\nAndrade, I.M., Mayo, S.J., Kirkup, D., Van den Berg, C. (2008).&amp;nbsp; Comparative morphology of populations of Monstera Schott (Araceae) from natural forest fragments in Northeast Brazil using elliptic Fourier Analysis of leaf outlines.&amp;nbsp; Kew Bulletin 63: 193 &amp;ndash; 211.",
+      "parentnameusage": "Monstera adansonii Schott",
+      "parentnameusageid": 5010,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15634",
+      "acceptednameusageid": 603033,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15634>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-18 16:28:29.544"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Madison, M.T.,Contr. Gray Herb.,207: 38,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 603033,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Monstera adansonii subsp. laniata (Schott) Mayo & I.M. Andrade"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 130750,
+      "scientificname": "Monstera adansonii subsp. blanchetii (Schott) Mayo & I.M.Andrade",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": "blanchetii",
+      "scientificnameauthorship": "(Schott) Mayo & I.M.Andrade",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott;Monstera adansonii subsp. blanchetii (Schott) Mayo & I.M.Andrade",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB130750>http://floradobrasil2015.jbrj.gov.br/FB130750</a>)<br><br>Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB130750\">https://floradobrasil2020.jbrj.gov.br/FB130750</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Monstera adansonii Schott",
+      "parentnameusageid": 5010,
+      "originalnameusageid": null,
+      "namepublishedin": "Feddes Repertorium 124(1): 21 2014",
+      "namepublishedinyear": "2014",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB130750",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB130750>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-19 00:27:03.328"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "banana-de-macaco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "S.J. Mayo & I.M. Andrade,Feddes Repertorium,124(1): 21,2014"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42785,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera maximilianii Engl."
+      },
+      {
+        "relatedresourceid": 42764,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera blanchetii Schott"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.P. Prata et. al. 3443",
+        "collectioncode": "ASE",
+        "catalognumber": "RB01074432",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285219722",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB005308",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB005308",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Landim 1033",
+        "collectioncode": "ASE",
+        "catalognumber": "RB00912090",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00912090",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Prata et. al. 3443",
+        "collectioncode": "ASE",
+        "catalognumber": "RB01074432",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01074432",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Landim 1033",
+        "collectioncode": "ASE",
+        "catalognumber": "RB00912090",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284918014",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Landim 1033",
+        "collectioncode": "ASE",
+        "catalognumber": "RB00912090",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284918016",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB005308",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97000941",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 602850,
+      "scientificname": "Monstera adansonii subsp. klotzschiana (Schott) Mayo & I.M. Andrade",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": "klotzschiana",
+      "scientificnameauthorship": "(Schott) Mayo & I.M. Andrade",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott;Monstera adansonii subsp. klotzschiana (Schott) Mayo & I.M. Andrade",
+      "source": "Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602850\">https://floradobrasil2020.jbrj.gov.br/FB602850</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Monstera adansonii Schott",
+      "parentnameusageid": 5010,
+      "originalnameusageid": "42782",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602850",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602850>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-18 17:11:06.614"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42796,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera pertusa var. klotzschiana (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42768,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera coriacea Engl."
+      },
+      {
+        "relatedresourceid": 42778,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera gaudichaudii Schott"
+      },
+      {
+        "relatedresourceid": 42793,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera parkeriana Schott"
+      },
+      {
+        "relatedresourceid": 42794,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera peckoltii K.Krause"
+      },
+      {
+        "relatedresourceid": 15633,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera adansonii var. klotzschiana (Schott) Madison"
+      },
+      {
+        "relatedresourceid": 42798,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera pertusa var. modesta (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42788,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera modesta Schott"
+      },
+      {
+        "relatedresourceid": 42782,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Monstera klotzschiana Schott"
+      },
+      {
+        "relatedresourceid": 42783,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera lanceifolia Schott"
+      },
+      {
+        "relatedresourceid": 42805,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera velloziana Schott"
+      },
+      {
+        "relatedresourceid": 42790,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera oblongifolia Schott"
+      },
+      {
+        "relatedresourceid": 42766,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera brownii S.Moore"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 603033,
+      "scientificname": "Monstera adansonii subsp. laniata (Schott) Mayo & I.M. Andrade",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Monstera",
+      "specificepithet": "adansonii",
+      "infraspecificepithet": "laniata",
+      "scientificnameauthorship": "(Schott) Mayo & I.M. Andrade",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Monstera Adans.;Monstera adansonii Schott;Monstera adansonii subsp. laniata (Schott) Mayo & I.M. Andrade",
+      "source": "Mayo, S.J., Andrade, I.M. 2020. Monstera in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB603033\">https://floradobrasil2020.jbrj.gov.br/FB603033</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Monstera adansonii Schott",
+      "parentnameusageid": 5010,
+      "originalnameusageid": "43113",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB603033",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J., Andrade, I.M. Monstera in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB603033>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-12-18 16:14:07.225"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42797,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera pertusa var. laniata (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42771,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera ecuadorensis Engl. & K.Krause"
+      },
+      {
+        "relatedresourceid": 42800,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera poeppigii Schott"
+      },
+      {
+        "relatedresourceid": 43114,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tornelia lindenii Schott ex Engl."
+      },
+      {
+        "relatedresourceid": 15634,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Monstera adansonii var. laniata (Schott) Madison"
+      },
+      {
+        "relatedresourceid": 42787,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera milleriana Schott"
+      },
+      {
+        "relatedresourceid": 42779,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera holtoniana Schott"
+      },
+      {
+        "relatedresourceid": 42792,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera ovata (Miq.) Schott"
+      },
+      {
+        "relatedresourceid": 42693,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heteropsis ovata Miq."
+      },
+      {
+        "relatedresourceid": 42696,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heteropsis surinamensis Miq."
+      },
+      {
+        "relatedresourceid": 42769,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera crassifolia Schott"
+      },
+      {
+        "relatedresourceid": 42776,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera fenestrata Schott"
+      },
+      {
+        "relatedresourceid": 42777,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera friedrichsthalii Schott"
+      },
+      {
+        "relatedresourceid": 43113,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Tornelia laniata Schott"
+      },
+      {
+        "relatedresourceid": 42803,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Monstera surinamensis (Miq.) Schott"
+      }
+    ],
+    "voucher": []
+  }
+]

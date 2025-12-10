@@ -1,0 +1,108 @@
+[
+  {
+    "taxon": {
+      "taxonid": 18984,
+      "scientificname": "Poecilanthe ulei (Harms) Arroyo & Rudd",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Poecilanthe",
+      "specificepithet": "ulei",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Harms) Arroyo & Rudd",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Poecilanthe Benth.;Poecilanthe ulei (Harms) Arroyo & Rudd",
+      "source": "Meireles, J.E. 2015. Poecilanthe in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB18984>http://floradobrasil2015.jbrj.gov.br/FB18984</a>)<br><br>Cardoso, D.B.O.S., Lima, H.C., Meireles, J.E. 2020. Poecilanthe in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB18984\">https://floradobrasil2020.jbrj.gov.br/FB18984</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Arroyo, M. T. K. &amp;amp; Rudd, V. E. (1973). New taxa and combinations in Leguminosae. &lt;em&gt;Phytologia&lt;/em&gt; 25: 398.\r\nMeireles, J. E. &amp;amp; Tozzi, A. M. G. A&amp;nbsp; 2007. A synopsis of the genus Poecilanthe (Leguminosae, Papilionoideae, Brongniartieae). &lt;em&gt;Rodriguesia&lt;/em&gt; 58(2): 255&amp;ndash;264.",
+      "parentnameusage": "Poecilanthe Benth.",
+      "parentnameusageid": 23126,
+      "originalnameusageid": "618585",
+      "namepublishedin": "Phytologia 25: 398. 1973",
+      "namepublishedinyear": "1973",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB18984",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cardoso, D.B.O.S., Lima, H.C., Meireles, J.E. Poecilanthe in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB18984>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-29 19:47:35.538"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Floresta Estacional Decidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "carrancudo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      },
+      {
+        "vernacularname": "mucitaíba-branca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Arroyo, M. T. K. & Rudd, V. E.,Phytologia,25: 398.,1973"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 618585,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Machaerium ulei Harms"
+      }
+    ],
+    "voucher": []
+  }
+]

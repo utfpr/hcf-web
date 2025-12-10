@@ -1,0 +1,379 @@
+[
+  {
+    "taxon": {
+      "taxonid": 11141,
+      "scientificname": "Aspidogyne bidentifera (Schltr.) Garay",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Aspidogyne",
+      "specificepithet": "bidentifera",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Schltr.) Garay",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Aspidogyne Garay;Aspidogyne bidentifera (Schltr.) Garay",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB11141>http://floradobrasil2015.jbrj.gov.br/FB11141</a>)<br><br>Meneguzzo, T.E.C. 2020. Aspidogyne in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB11141\">https://floradobrasil2020.jbrj.gov.br/FB11141</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Aspidogyne Garay",
+      "parentnameusageid": 11139,
+      "originalnameusageid": "68710",
+      "namepublishedin": "Bradea 2: 203 1977",
+      "namepublishedinyear": "1977",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11141",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Aspidogyne in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB11141>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-02-15 14:21:12.731"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bradea,2: 203,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 137545,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidogyne schlechteriana (Hoehne) Meneguzzo"
+      },
+      {
+        "relatedresourceid": 12009,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platythelys schlechteriana (Hoehne) Garay"
+      },
+      {
+        "relatedresourceid": 64488,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aspidogyne serripetala (Garay) Garay"
+      },
+      {
+        "relatedresourceid": 68750,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Physurus schlechterianus Hoehne"
+      },
+      {
+        "relatedresourceid": 68710,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Physurus bidentifer Schltr."
+      },
+      {
+        "relatedresourceid": 606952,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Physurus foliosus Schltr. ex Porto & Brade"
+      },
+      {
+        "relatedresourceid": 66500,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Erythrodes schlechteriana (Hoehne) Pabst"
+      },
+      {
+        "relatedresourceid": 66501,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Erythrodes serripetala Garay"
+      },
+      {
+        "relatedresourceid": 66467,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Erythrodes bidentifera (Schltr.) Garay"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Dutra, J. 1168",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039167",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00039167",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 18015",
+        "collectioncode": "S",
+        "catalognumber": "S-R-4467",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S-R-4467",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Rambo, B. 36584",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039165",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00039165",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Rambo, B. 36584",
+        "collectioncode": "S",
+        "catalognumber": "S17-12139",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S17-12139",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 9301",
+        "collectioncode": "US",
+        "catalognumber": "US00006305",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00006305",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 22430",
+        "collectioncode": "MO",
+        "catalognumber": "MO1334543",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1334543",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 22430",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM012490",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229903065",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 18015",
+        "collectioncode": "S",
+        "catalognumber": "S-R-4467",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99823289",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Dusén, P.K.H. 18015",
+        "collectioncode": "S",
+        "catalognumber": "S-R-4467",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99823287",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Rambo, B. 36584",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039165",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229100781",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Rambo, B. 36584",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039165",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229100783",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Rambo, B. 36584",
+        "collectioncode": "S",
+        "catalognumber": "S17-12139",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=110720393",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Amorim 6304",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00114280",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226534973",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwacke, C.A.W. 11212",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259026",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283951166",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 9301",
+        "collectioncode": "US",
+        "catalognumber": "US00006305",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100080325",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 22430",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM012490",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM012490",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 18906",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259011",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259011",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Amorim 6304",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00114280",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00114280",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Engels, M.E. 1797",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM389379",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM389379",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwacke, C.A.W. 11212",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259026",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00259026",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 22430",
+        "collectioncode": "MO",
+        "catalognumber": "MO1334543",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=98012128",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dutra, J. 1168",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039167",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229100787",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dutra, J. 1168",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039167",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229100789",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 18906",
+        "collectioncode": "RB",
+        "catalognumber": "RB00259011",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283951134",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Engels, M.E. 1797",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM389379",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229970593",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

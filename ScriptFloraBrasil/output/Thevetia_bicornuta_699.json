@@ -1,0 +1,107 @@
+[
+  {
+    "taxon": {
+      "taxonid": 33789,
+      "scientificname": "Thevetia bicornuta Müll.Arg.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Thevetia",
+      "specificepithet": "bicornuta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Thevetia L.;Thevetia bicornuta Müll.Arg.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33789>http://floradobrasil2015.jbrj.gov.br/FB33789</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Thevetia L.",
+      "parentnameusageid": 33787,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33789",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-06-13 09:43:47.476"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Palmeiral"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Müller Argoviensis, J.,Linnaea,30: 392,1860"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42087,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Thevetia paraguayensis Britton"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 29551",
+        "collectioncode": "NY",
+        "catalognumber": "NY00971415",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228840937",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Neto, G.G. 321",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0098951",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0098951",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 29551",
+        "collectioncode": "NY",
+        "catalognumber": "NY00971415",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00971415",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

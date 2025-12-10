@@ -1,0 +1,512 @@
+[
+  {
+    "taxon": {
+      "taxonid": 3955,
+      "scientificname": "Fuchsia regia (Vell.) Munz",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Onagraceae",
+      "genus": "Fuchsia",
+      "specificepithet": "regia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vell.) Munz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Onagraceae Juss.;Fuchsia L.;Fuchsia regia (Vell.) Munz",
+      "source": "Vieira, A.O.S. 2015. Onagraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB3955>http://floradobrasil2015.jbrj.gov.br/FB3955</a>)<br><br>Zeferino, L.C., Echternacht, L. 2020. Fuchsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB3955\">https://floradobrasil2020.jbrj.gov.br/FB3955</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Berry, P.E. 1989. A systematic revision of Fuchsia sect. Quelusia (Onagraceae). Ann. Missouri Bot. Gard. 76. 532-584.&amp;nbsp;",
+      "parentnameusage": "Fuchsia L.",
+      "parentnameusageid": 3938,
+      "originalnameusageid": "4080",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB3955",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Zeferino, L.C., Echternacht, L. Fuchsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB3955>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-02 23:46:22.092"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "brinco-de-princesa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 4080,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Quelusia regia Vell."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 3956,
+      "scientificname": "Fuchsia regia (Vell.) Munz subsp. regia",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Onagraceae",
+      "genus": "Fuchsia",
+      "specificepithet": "regia",
+      "infraspecificepithet": "regia",
+      "scientificnameauthorship": "(Vell.) Munz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Onagraceae Juss.;Fuchsia L.;Fuchsia regia (Vell.) Munz;Fuchsia regia (Vell.) Munz subsp. regia",
+      "source": "Vieira, A.O.S. 2015. Onagraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB3956>http://floradobrasil2015.jbrj.gov.br/FB3956</a>)<br><br>Zeferino, L.C., Echternacht, L. 2020. Fuchsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB3956\">https://floradobrasil2020.jbrj.gov.br/FB3956</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Berry, P.E. 1989. A systematic revision of Fuchsia sect. Quelusia (Onagraceae). Ann. Missouri Bot. Gard. 76. 532-584.",
+      "parentnameusage": "Fuchsia regia (Vell.) Munz",
+      "parentnameusageid": 3955,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB3956",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Zeferino, L.C., Echternacht, L. Fuchsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB3956>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-02 23:45:36.596"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "brinco-de-princesa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": ""
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 3948,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuchsia integrifolia Cambess."
+      },
+      {
+        "relatedresourceid": 3953,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuchsia pyrifolia C.Presl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Lindeman, J 5303",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM095764",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM095764",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lindeman, J 5303",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM095764",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229996413",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 3957,
+      "scientificname": "Fuchsia regia subsp. reitzii P.E.Berry",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Onagraceae",
+      "genus": "Fuchsia",
+      "specificepithet": "regia",
+      "infraspecificepithet": "reitzii",
+      "scientificnameauthorship": "P.E.Berry",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Onagraceae Juss.;Fuchsia L.;Fuchsia regia (Vell.) Munz;Fuchsia regia subsp. reitzii P.E.Berry",
+      "source": "Vieira, A.O.S. 2015. Onagraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB3957>http://floradobrasil2015.jbrj.gov.br/FB3957</a>)<br><br>Zeferino, L.C., Echternacht, L. 2020. Fuchsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB3957\">https://floradobrasil2020.jbrj.gov.br/FB3957</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Berry, P.E. 1989. A systematic revision of Fuchsia sect. Quelusia (Onagraceae). Ann. Missouri Bot. Gard. 76. 532-584. 1989\r\n&amp;nbsp;\r\nsee pp. 577-580, illustration in Fig. 18, distribution in Fig. 15",
+      "parentnameusage": "Fuchsia regia (Vell.) Munz",
+      "parentnameusageid": 3955,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB3957",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Zeferino, L.C., Echternacht, L. Fuchsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB3957>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-02 23:45:53.946"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ann. Missouri Bot. Gard.,76: 577,1989"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 3952,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuchsia pubescens Cambess."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 8135",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0249028",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0249028",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz 8135",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0249028",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225981218",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 3958,
+      "scientificname": "Fuchsia regia subsp. serrae P.E.Berry",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Onagraceae",
+      "genus": "Fuchsia",
+      "specificepithet": "regia",
+      "infraspecificepithet": "serrae",
+      "scientificnameauthorship": "P.E.Berry",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Onagraceae Juss.;Fuchsia L.;Fuchsia regia (Vell.) Munz;Fuchsia regia subsp. serrae P.E.Berry",
+      "source": "Vieira, A.O.S. 2015. Onagraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB3958>http://floradobrasil2015.jbrj.gov.br/FB3958</a>)<br><br>Zeferino, L.C., Echternacht, L. 2020. Fuchsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB3958\">https://floradobrasil2020.jbrj.gov.br/FB3958</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Berry, P.E. 1989. A systematic revision of Fuchsia sect. Quelusia (Onagraceae). Ann. Missouri Bot. Gard. 76. 532-584. 1989\r\n&amp;nbsp;\r\nsee pp.&amp;nbsp; 573-577",
+      "parentnameusage": "Fuchsia regia (Vell.) Munz",
+      "parentnameusageid": 3955,
+      "originalnameusageid": null,
+      "namepublishedin": "Ann. Missouri Bot. Gard. 76: 573 1898",
+      "namepublishedinyear": "1898",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB3958",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Zeferino, L.C., Echternacht, L. Fuchsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB3958>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-02 23:46:06.443"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ann. Missouri Bot. Gard.,76: 573,1898"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 3954,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuchsia radicans Miers"
+      },
+      {
+        "relatedresourceid": 3939,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuchsia affinis Cambess."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J. L. Waechter 827",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN0041273",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN0041273",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

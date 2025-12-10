@@ -1,0 +1,142 @@
+[
+  {
+    "taxon": {
+      "taxonid": 105093,
+      "scientificname": "Cyrtocymura mattos-silvae (H.Rob.) H.Rob.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Cyrtocymura",
+      "specificepithet": "mattos-silvae",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(H.Rob.) H.Rob.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Vernonieae Cass.;Cyrtocymura H. Rob.;Cyrtocymura mattos-silvae (H.Rob.) H.Rob.",
+      "source": "Soares, P.N. 2015. Cyrtocymura in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB105093>http://floradobrasil2015.jbrj.gov.br/FB105093</a>)<br><br>Picanço, W.L., Loeuille, B.F.P., Marques, D., Nakajima, J., Souza-Souza, R.M.B., Esteves, R.L. 2020. Cyrtocymura in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB105093\">https://floradobrasil2020.jbrj.gov.br/FB105093</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyrtocymura H. Rob.",
+      "parentnameusageid": 27009,
+      "originalnameusageid": "16421",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB105093",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Picanço, W., Loeuille, B.F.P., Marques, D., Nakajima, J., Souza-Souza, R.M.B., Esteves, R.L. Cyrtocymura in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB105093>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-02-01 00:39:22.186"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "caminho-de-roça-preto",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Robinson, H.,Proc. Biol. Soc. Washington,100(4): 852.,1987"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 16421,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Vernonia mattosilvae H.Rob."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.A. Mattos-Silva 182",
+        "collectioncode": "US",
+        "catalognumber": "US00147299",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100282621",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L.A. Mattos-Silva 182",
+        "collectioncode": "US",
+        "catalognumber": "US00147299",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00147299",
+        "locality": "BA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "L.A. Mattos-Silva 182",
+        "collectioncode": "US",
+        "catalognumber": "US00147299",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00147299",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.A. Mattos-Silva 182",
+        "collectioncode": "US",
+        "catalognumber": "US00147299",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100282621",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

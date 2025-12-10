@@ -1,0 +1,136 @@
+[
+  {
+    "taxon": {
+      "taxonid": 104602,
+      "scientificname": "Holocheilus pinnatifidus (Less.) Cabrera",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Holocheilus",
+      "specificepithet": "pinnatifidus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Less.) Cabrera",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Nassauvieae Cass.;Holocheilus Cass.;Holocheilus pinnatifidus (Less.) Cabrera",
+      "source": "Monge, M. 2015. Holocheilus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB104602>http://floradobrasil2015.jbrj.gov.br/FB104602</a>)<br><br>Monge, M., Semir, J. (in memoriam) 2020. Holocheilus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB104602\">https://floradobrasil2020.jbrj.gov.br/FB104602</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Holocheilus Cass.",
+      "parentnameusageid": 27095,
+      "originalnameusageid": "125874",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB104602",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Monge, M., Semir, J. (in memoriam) Holocheilus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB104602>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 01:57:49.557"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125874,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Trixis pinnatifida Less."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.S. Leoni 02",
+        "collectioncode": "RB",
+        "catalognumber": "RB00402455",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00402455",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 20126",
+        "collectioncode": "RB",
+        "catalognumber": "RB00402818",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00402818",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Edmundo Pereira 206",
+        "collectioncode": "RB",
+        "catalognumber": "RB00403423",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00403423",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Brade 20126",
+        "collectioncode": "RB",
+        "catalognumber": "RB00402818",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284151072",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Edmundo Pereira 206",
+        "collectioncode": "RB",
+        "catalognumber": "RB00403423",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284152444",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 02",
+        "collectioncode": "RB",
+        "catalognumber": "RB00402455",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284150234",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

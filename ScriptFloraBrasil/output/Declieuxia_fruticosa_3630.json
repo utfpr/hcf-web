@@ -1,0 +1,805 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13920,
+      "scientificname": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Declieuxia",
+      "specificepithet": "fruticosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Willd. ex Roem. & Schult.) Kuntze",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Declieuxia Kunth;Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "source": "Calió, M.F. 2015. Declieuxia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13920>http://floradobrasil2015.jbrj.gov.br/FB13920</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Kirkbride, J.H.Jr., 1976. A revision of the genus Declieuxia (Rubiaceae). Mem. New. York. Bot. Gard. 28 (4): 1-87.",
+      "parentnameusage": "Declieuxia Kunth",
+      "parentnameusageid": 13916,
+      "originalnameusageid": "73037",
+      "namepublishedin": "Fl. bras. 6(5): tab. 441-442 1881",
+      "namepublishedinyear": "1881",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13920",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-06-29 18:55:07.461"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campinarana",
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Restinga",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Revis. Gen. Pl.,1: 279,1891"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 66,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 435-436,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 449-450,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 437-438,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 443-444,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 445-446,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 439-440,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 65,1881"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,6(5): tab. 441-442,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 72388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides subsp. mexicana (DC.) Borhidi"
+      },
+      {
+        "relatedresourceid": 72380,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia brevicollis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72434,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia revoluta Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72436,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia rubioides Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 72420,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia mollis Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 72425,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia origanoides Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 72411,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia glabra Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 72396,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia clinopodioides Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72406,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia foliosa Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 72418,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia mexicana DC."
+      },
+      {
+        "relatedresourceid": 72372,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia alba Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 72373,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia alfredii Ernst"
+      },
+      {
+        "relatedresourceid": 74113,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psyllocarpus trichotomus Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 72412,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia glauca Mart. ex Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72408,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia fruticosa var. guyanensis (Müll.Arg.) Standl."
+      },
+      {
+        "relatedresourceid": 72391,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. pallida Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72390,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. opaca Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72385,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. hirta Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72384,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. guyanensis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72383,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72393,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. puberula Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72392,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. papillosa Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72409,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia fruticosa var. mexicana (DC.) Standl."
+      },
+      {
+        "relatedresourceid": 72395,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. vincoides (Mart. & Zucc. ex Schult. & Schult.f.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72387,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. lucida Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72386,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. linearis Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72446,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia vincoides Mart. & Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 72375,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia anceps K.Schum. ex Glaz."
+      },
+      {
+        "relatedresourceid": 74106,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psyllocarpus glaber Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 72382,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Declieuxia chiococcoides Kunth"
+      },
+      {
+        "relatedresourceid": 74104,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psyllocarpus foliosus Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 32581,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia mucronulata Mart. ex Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 72394,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. puberulina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73037,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Houstonia fruticosa Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 72381,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia calophylla Standl."
+      },
+      {
+        "relatedresourceid": 72389,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. mexicana (DC.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72433,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia pulverulenta Mart. ex Cham. & Schltdl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "W.J. Burchell 8426",
+        "collectioncode": "K",
+        "catalognumber": "K000432960",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227606075",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J. S. Blanchet 3751",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131214",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228087317",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.M. Pires 6317",
+        "collectioncode": "NY",
+        "catalognumber": "NY01061065",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01061065",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 3231",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131213",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00131213",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.B.E. Pohl 1971(862d)",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131220",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00131220",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J. S. Blanchet 3751",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131214",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00131214",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 3231",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131212",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00131212",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "W.J. Burchell 8426",
+        "collectioncode": "K",
+        "catalognumber": "K000432960",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000432960",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.B.E. Pohl 1971(862d)",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131220",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228087329",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.M. Pires 6317",
+        "collectioncode": "NY",
+        "catalognumber": "NY01061065",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228864654",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 3231",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131212",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228087313",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 3231",
+        "collectioncode": "NY",
+        "catalognumber": "NY00131213",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228087315",
+        "locality": "GO",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 72408,
+      "scientificname": "Declieuxia fruticosa var. guyanensis (Müll.Arg.) Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Declieuxia",
+      "specificepithet": "fruticosa",
+      "infraspecificepithet": "guyanensis",
+      "scientificnameauthorship": "(Müll.Arg.) Standl.",
+      "acceptednameusage": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Declieuxia Kunth;Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze;Declieuxia fruticosa var. guyanensis (Müll.Arg.) Standl.",
+      "source": "Calió, M.F. 2015. Declieuxia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB72408>http://floradobrasil2015.jbrj.gov.br/FB72408</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Kirkbride, J.H.Jr., 1976. A revision of the genus Declieuxia (Rubiaceae). Mem. New. York. Bot. Gard. 28 (4): 1-87.",
+      "parentnameusage": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "parentnameusageid": 13920,
+      "originalnameusageid": "72384",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB72408",
+      "acceptednameusageid": 13920,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-12-28 22:00:37.606"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Publ. Field Mus. Nat. Hist., Bot. Ser.,8: 369,1931"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 13920,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze"
+      },
+      {
+        "relatedresourceid": 72384,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Declieuxia chiococcoides var. guyanensis Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 72409,
+      "scientificname": "Declieuxia fruticosa var. mexicana (DC.) Standl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Declieuxia",
+      "specificepithet": "fruticosa",
+      "infraspecificepithet": "mexicana",
+      "scientificnameauthorship": "(DC.) Standl.",
+      "acceptednameusage": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Declieuxia Kunth;Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze;Declieuxia fruticosa var. mexicana (DC.) Standl.",
+      "source": "Calió, M.F. 2015. Declieuxia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB72409>http://floradobrasil2015.jbrj.gov.br/FB72409</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Kirkbride, J.H.Jr., 1976. A revision of the genus Declieuxia (Rubiaceae). Mem. New. York. Bot. Gard. 28 (4): 1-87.",
+      "parentnameusage": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze",
+      "parentnameusageid": 13920,
+      "originalnameusageid": "72418",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB72409",
+      "acceptednameusageid": 13920,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-03-07 16:17:47.925"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Publ. Field Mus. Nat. Hist., Bot. Ser.,12: 378,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 72388,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Declieuxia chiococcoides subsp. mexicana (DC.) Borhidi"
+      },
+      {
+        "relatedresourceid": 13920,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Declieuxia fruticosa (Willd. ex Roem. & Schult.) Kuntze"
+      },
+      {
+        "relatedresourceid": 72389,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Declieuxia chiococcoides var. mexicana (DC.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 72418,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Declieuxia mexicana DC."
+      }
+    ],
+    "voucher": []
+  }
+]

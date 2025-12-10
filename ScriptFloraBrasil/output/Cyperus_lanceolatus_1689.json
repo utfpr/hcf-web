@@ -1,0 +1,886 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17158,
+      "scientificname": "Cyperus lanceolatus Poir.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "lanceolatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Poir.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus lanceolatus Poir.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17158>http://floradobrasil2015.jbrj.gov.br/FB17158</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17158\">https://floradobrasil2020.jbrj.gov.br/FB17158</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus L.",
+      "parentnameusageid": 7171,
+      "originalnameusageid": null,
+      "namepublishedin": "J.B.A.M.de Lamarck, Encycl. 7: 245 1806",
+      "namepublishedinyear": "1806",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17158",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17158>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-05-16 23:06:30.009"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Poiret J.L.M.,J.B.A.M.de Lamarck, Encycl.,7: 245,1806"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 51567,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus elliottianus var. humilis Nees"
+      },
+      {
+        "relatedresourceid": 7255,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pycreus lanceolatus (Poir.) C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 49426,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus correctus Steud."
+      },
+      {
+        "relatedresourceid": 49450,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus densus Link"
+      },
+      {
+        "relatedresourceid": 49483,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus elliottianus Schult."
+      },
+      {
+        "relatedresourceid": 49508,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus fasciculatus Elliott"
+      },
+      {
+        "relatedresourceid": 49653,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus jacquemontii Boeckeler"
+      },
+      {
+        "relatedresourceid": 49607,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus helvus Liebm."
+      },
+      {
+        "relatedresourceid": 51566,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus elliottianus Nees"
+      },
+      {
+        "relatedresourceid": 51565,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus densus (Link) C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 51576,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus maximiliani Nees"
+      },
+      {
+        "relatedresourceid": 51583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus olfersianus Urb."
+      },
+      {
+        "relatedresourceid": 51593,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus propinquus Nees"
+      },
+      {
+        "relatedresourceid": 49804,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus olfersianus Kunth"
+      },
+      {
+        "relatedresourceid": 49627,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus humboldtianus Schult."
+      },
+      {
+        "relatedresourceid": 51573,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus humboldtianus (Schult.) Cufod."
+      },
+      {
+        "relatedresourceid": 49682,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus var. helvus (Liebm.) Kük."
+      },
+      {
+        "relatedresourceid": 49683,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus var. subunioloides Kük."
+      },
+      {
+        "relatedresourceid": 49681,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus var. compositus C.Presl"
+      },
+      {
+        "relatedresourceid": 49805,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus olfersianus var. elatior Boeckeler"
+      },
+      {
+        "relatedresourceid": 49806,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus olfersianus var. maximiliani (Nees) Boeckeler"
+      },
+      {
+        "relatedresourceid": 49294,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus ambiguus Liebm."
+      },
+      {
+        "relatedresourceid": 51571,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus helvus (Liebm.) C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 51574,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pycreus infirmus Nees"
+      },
+      {
+        "relatedresourceid": 49902,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus pycnocephalus Steud."
+      },
+      {
+        "relatedresourceid": 130122,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mariscus setaceus Raddi"
+      },
+      {
+        "relatedresourceid": 130119,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus setaceus Raddi"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.G. Caxambu E.L. Siqueira 7313",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000020842",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97186361",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 963",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00132159",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99952403",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinheiro, GS 319",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN142845",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN142845",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 15510",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0064357",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0064357",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.G. Caxambu E.L. Siqueira 7313",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000020842",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000020842",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 2074",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226940257",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pinheiro, GS 319",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN142845",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229028431",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5495",
+        "collectioncode": "RB",
+        "catalognumber": "RB00558006",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284431080",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Demeda, C. 94",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0057776",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=265767818",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 2074",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01437",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB01437",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 963",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00132159",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00132159",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Campos Novaes, J CGG3215",
+        "collectioncode": "SP",
+        "catalognumber": "SP009228",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP009228",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luceño, M; Alves, M; Vanzela, ALL; Mendes A.P.; Rocha, EA; Costa; S 609",
+        "collectioncode": "UFP",
+        "catalognumber": "UFP014539",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFP014539",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prata, A.P.; Konno, T.; Lopes, R.C.; & Inácio, C.L. 1104",
+        "collectioncode": "HURB",
+        "catalognumber": "HURB000016133",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HURB000016133",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Demeda, C. 94",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0057776",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0057776",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sobral, M 15295",
+        "collectioncode": "HUFSJ",
+        "catalognumber": "HUFSJ004453",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFSJ004453",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Shepherd, GJ; Monteiro, R; Andrade, JB 4072",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC075160",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC075160",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5495",
+        "collectioncode": "RB",
+        "catalognumber": "RB00558006",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00558006",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Juliene Roveratti Santos 699",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00076210",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00076210",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vali Joana Pott 5071",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00105815",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00105815",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Prata, A.P.; Konno, T.; Lopes, R.C.; & Inácio, C.L. 1104",
+        "collectioncode": "HURB",
+        "catalognumber": "HURB000016133",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=307352038",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vali Joana Pott 5071",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00105815",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226183935",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Juliene Roveratti Santos 699",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00076210",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226153711",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 15510",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0064357",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226931279",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 49681,
+      "scientificname": "Cyperus lanceolatus var. compositus C.Presl",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "lanceolatus",
+      "infraspecificepithet": "compositus",
+      "scientificnameauthorship": "C.Presl",
+      "acceptednameusage": "Cyperus lanceolatus Poir.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus lanceolatus Poir.;Cyperus lanceolatus var. compositus C.Presl",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49681>http://floradobrasil2015.jbrj.gov.br/FB49681</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49681\">https://floradobrasil2020.jbrj.gov.br/FB49681</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus lanceolatus Poir.",
+      "parentnameusageid": 17158,
+      "originalnameusageid": null,
+      "namepublishedin": "Reliq. Haenk. 1: 167 1828",
+      "namepublishedinyear": "1828",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49681",
+      "acceptednameusageid": 17158,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49681>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-05-18 14:35:04.164"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Presl, J.S. & Presl, C.B.,Reliq. Haenk.,1: 167,1828"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17158,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus Poir."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49682,
+      "scientificname": "Cyperus lanceolatus var. helvus (Liebm.) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "lanceolatus",
+      "infraspecificepithet": "helvus",
+      "scientificnameauthorship": "(Liebm.) Kük.",
+      "acceptednameusage": "Cyperus lanceolatus Poir.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus lanceolatus Poir.;Cyperus lanceolatus var. helvus (Liebm.) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49682>http://floradobrasil2015.jbrj.gov.br/FB49682</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49682\">https://floradobrasil2020.jbrj.gov.br/FB49682</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus lanceolatus Poir.",
+      "parentnameusageid": 17158,
+      "originalnameusageid": null,
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. 32: 74 1933",
+      "namepublishedinyear": "1933",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49682",
+      "acceptednameusageid": 17158,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49682>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-05-18 14:36:44.942"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Kükenthal, G.,Repert. Spec. Nov. Regni Veg.,32: 74,1933"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17158,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus Poir."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49683,
+      "scientificname": "Cyperus lanceolatus var. subunioloides Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "lanceolatus",
+      "infraspecificepithet": "subunioloides",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Cyperus lanceolatus Poir.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus lanceolatus Poir.;Cyperus lanceolatus var. subunioloides Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49683>http://floradobrasil2015.jbrj.gov.br/FB49683</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49683\">https://floradobrasil2020.jbrj.gov.br/FB49683</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus lanceolatus Poir.",
+      "parentnameusageid": 17158,
+      "originalnameusageid": null,
+      "namepublishedin": "Pflanzenr. IV, 20 (101): 351 1936",
+      "namepublishedinyear": "1936",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49683",
+      "acceptednameusageid": 17158,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49683>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-05-18 14:38:29.537"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr.,IV, 20 (101): 351,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17158,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus lanceolatus Poir."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49684,
+      "scientificname": "Cyperus lanceolatus var. tener (C.B.Clarke) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "lanceolatus",
+      "infraspecificepithet": "tener",
+      "scientificnameauthorship": "(C.B.Clarke) Kük.",
+      "acceptednameusage": "Cyperus barrosianus Herter",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus lanceolatus Poir.;Cyperus lanceolatus var. tener (C.B.Clarke) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49684>http://floradobrasil2015.jbrj.gov.br/FB49684</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49684\">https://floradobrasil2020.jbrj.gov.br/FB49684</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus lanceolatus Poir.",
+      "parentnameusageid": 17158,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49684",
+      "acceptednameusageid": 49344,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49684>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-07-24 16:34:52.519"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Physis (Buenos Aires),9: 362,1929"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 49344,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Cyperus barrosianus Herter"
+      }
+    ],
+    "voucher": []
+  }
+]

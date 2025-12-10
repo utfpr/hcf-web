@@ -1,0 +1,509 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10858,
+      "scientificname": "Psidium cattleyanum Sabine",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "cattleyanum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Sabine",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium cattleyanum Sabine",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10858>http://floradobrasil2015.jbrj.gov.br/FB10858</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10858\">https://floradobrasil2020.jbrj.gov.br/FB10858</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Tuler AC, Proen&amp;ccedil;a CEB, Carrijo TT, Peixoto AL (2018).&amp;nbsp;Typification and nomenclatural notes on &lt;em&gt;Psidium cattleyanum&lt;/em&gt;&lt;br /&gt;(Myrtaceae)TAXON 67(6): 1194&amp;ndash;1198",
+      "parentnameusage": "Psidium L.",
+      "parentnameusageid": 10853,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10858",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10858>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-29 17:42:21.06"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "araçá-amarelo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Paraná"
+      },
+      {
+        "vernacularname": "araçá-de-coroa",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas Gerais, Paraná"
+      },
+      {
+        "vernacularname": "araçá",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Paraná"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Sabine, J.,Trans. Hort. Soc. London,4: 317,1821"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62569,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Guajava cattleiana (Afzel. ex Sabine) Kuntze"
+      },
+      {
+        "relatedresourceid": 63858,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium indicum Bojer"
+      },
+      {
+        "relatedresourceid": 63871,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium littorale Raddi"
+      },
+      {
+        "relatedresourceid": 63821,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium ferrugineum C.Presl"
+      },
+      {
+        "relatedresourceid": 63982,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium variabile O.Berg"
+      },
+      {
+        "relatedresourceid": 63872,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium littorale var. longipes (O.Berg) Fosberg"
+      },
+      {
+        "relatedresourceid": 63797,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium coriaceum var. longipes O.Berg"
+      },
+      {
+        "relatedresourceid": 63798,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium coriaceum var. obovatum O.Berg"
+      },
+      {
+        "relatedresourceid": 63796,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium coriaceum var. grandifolium O.Berg"
+      },
+      {
+        "relatedresourceid": 10855,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium arboreum Vell."
+      },
+      {
+        "relatedresourceid": 25880,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium obovatum Mart. ex DC."
+      },
+      {
+        "relatedresourceid": 61987,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia ferruginea Sieber ex C.Presl"
+      },
+      {
+        "relatedresourceid": 62612,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Guajava obovata (Mart. ex DC.) Kuntze"
+      },
+      {
+        "relatedresourceid": 63795,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium coriaceum O.Berg"
+      },
+      {
+        "relatedresourceid": 596674,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psidium cattleianum Sabine"
+      },
+      {
+        "relatedresourceid": 63782,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum var. purpureum Mattos"
+      },
+      {
+        "relatedresourceid": 63783,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum var. pyriformis Mattos"
+      },
+      {
+        "relatedresourceid": 63781,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum var. littorale (Raddi) Mattos"
+      },
+      {
+        "relatedresourceid": 601001,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleianum var. coriaceum (O.Berg) Kiaersk."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.S. Leoni 2538",
+        "collectioncode": "RB",
+        "catalognumber": "RB01348317",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01348317",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.A. Beckhauser 42",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02601",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02601",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.A. Beckhauser 42",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02601",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942607",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2538",
+        "collectioncode": "RB",
+        "catalognumber": "RB01348317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285095214",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2538",
+        "collectioncode": "RB",
+        "catalognumber": "RB01348317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285095212",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 63781,
+      "scientificname": "Psidium cattleyanum var. littorale (Raddi) Mattos",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "cattleyanum",
+      "infraspecificepithet": "littorale",
+      "scientificnameauthorship": "(Raddi) Mattos",
+      "acceptednameusage": "Psidium cattleyanum Sabine",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium cattleyanum Sabine;Psidium cattleyanum var. littorale (Raddi) Mattos",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63781>http://floradobrasil2015.jbrj.gov.br/FB63781</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63781\">https://floradobrasil2020.jbrj.gov.br/FB63781</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium cattleyanum Sabine",
+      "parentnameusageid": 10858,
+      "originalnameusageid": "63871",
+      "namepublishedin": "Occas. Pap. Bernice Pauahi Bishop Mus. 23: 37 1962",
+      "namepublishedinyear": "1962",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63781",
+      "acceptednameusageid": 10858,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63781>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 15:17:14.277"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Occas. Pap. Bernice Pauahi Bishop Mus.,23: 37,1962"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10858,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum Sabine"
+      },
+      {
+        "relatedresourceid": 63871,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Psidium littorale Raddi"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 63782,
+      "scientificname": "Psidium cattleyanum var. purpureum Mattos",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "cattleyanum",
+      "infraspecificepithet": "purpureum",
+      "scientificnameauthorship": "Mattos",
+      "acceptednameusage": "Psidium cattleyanum Sabine",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium cattleyanum Sabine;Psidium cattleyanum var. purpureum Mattos",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63782>http://floradobrasil2015.jbrj.gov.br/FB63782</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63782\">https://floradobrasil2020.jbrj.gov.br/FB63782</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium cattleyanum Sabine",
+      "parentnameusageid": 10858,
+      "originalnameusageid": null,
+      "namepublishedin": "Loefgrenia 124: 4 2007",
+      "namepublishedinyear": "2007",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63782",
+      "acceptednameusageid": 10858,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63782>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 15:18:34.36"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Loefgrenia,124: 4,2007"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10858,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum Sabine"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 63783,
+      "scientificname": "Psidium cattleyanum var. pyriformis Mattos",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "cattleyanum",
+      "infraspecificepithet": "pyriformis",
+      "scientificnameauthorship": "Mattos",
+      "acceptednameusage": "Psidium cattleyanum Sabine",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium cattleyanum Sabine;Psidium cattleyanum var. pyriformis Mattos",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63783>http://floradobrasil2015.jbrj.gov.br/FB63783</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63783\">https://floradobrasil2020.jbrj.gov.br/FB63783</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium cattleyanum Sabine",
+      "parentnameusageid": 10858,
+      "originalnameusageid": null,
+      "namepublishedin": "Loefgrenia 76: 1 1981",
+      "namepublishedinyear": "1981",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63783",
+      "acceptednameusageid": 10858,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63783>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-10 15:19:11.498"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Loefgrenia,76: 1,1981"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10858,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium cattleyanum Sabine"
+      }
+    ],
+    "voucher": []
+  }
+]

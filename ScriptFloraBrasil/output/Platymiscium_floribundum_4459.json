@@ -1,0 +1,929 @@
+[
+  {
+    "taxon": {
+      "taxonid": 18970,
+      "scientificname": "Platymiscium floribundum Vogel var. floribundum",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": "floribundum",
+      "scientificnameauthorship": "Vogel",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel;Platymiscium floribundum Vogel var. floribundum",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB18970>http://floradobrasil2015.jbrj.gov.br/FB18970</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB18970\">https://floradobrasil2020.jbrj.gov.br/FB18970</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Klitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&amp;nbsp; Kew Bulletin 60:321-400.",
+      "parentnameusage": "Platymiscium floribundum Vogel",
+      "parentnameusageid": 29816,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB18970",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB18970>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 09:13:17.21"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Klitgaard, B.B., Kew Bulletin ,60:321-400. ,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 110168,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium praecox Benth."
+      },
+      {
+        "relatedresourceid": 110171,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium blanchetii Benth."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 18972,
+      "scientificname": "Platymiscium floribundum var. obtusifolium (Harms) Klitg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": "obtusifolium",
+      "scientificnameauthorship": "(Harms) Klitg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel;Platymiscium floribundum var. obtusifolium (Harms) Klitg.",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB18972>http://floradobrasil2015.jbrj.gov.br/FB18972</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB18972\">https://floradobrasil2020.jbrj.gov.br/FB18972</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Klitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&amp;nbsp; Kew Bulletin 60:321-400.",
+      "parentnameusage": "Platymiscium floribundum Vogel",
+      "parentnameusageid": 29816,
+      "originalnameusageid": "109871",
+      "namepublishedin": "Kew Bulletin 60:321-400. 2005",
+      "namepublishedinyear": "2005",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB18972",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB18972>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-24 19:04:56.88"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Carrasco",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Klitgaard, B.B.,Kew Bulletin,60:321-400.,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109871,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Platymiscium obtusifolium Harms"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 29816,
+      "scientificname": "Platymiscium floribundum Vogel",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Vogel",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29816>http://floradobrasil2015.jbrj.gov.br/FB29816</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29816\">https://floradobrasil2020.jbrj.gov.br/FB29816</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\nKlitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&amp;nbsp; Kew Bulletin 60:321-400.\r\nKlitgaard, B.B. &amp;amp; Lavin, M. 2005. Dalbergieae &lt;em&gt;s.l.&lt;/em&gt; In: Lewis, G., Schrire, B., Mackinder, B. &amp;amp; Lock, M. (eds.). Legumes of the World, Royal Botanic Gardens, Kew. pp307&amp;mdash;335.\r\nSaslis-Lagoudakis, C., Chase, M.W., Robinson, D.N., Russell, S.J. and Klitgaard, B.B. 2008. Phylogenetics of neotropical &lt;em&gt;Platymiscium&lt;/em&gt; (Leguminosae: Dalbergieae): systematics, divergence times, and biogeography inferred from nuclear ribosomal and plastid DNA sequence data. Am. J. Botany 95 (10): 1270-1286.\r\nKlitgaard, B.B. 2010.&amp;nbsp; &lt;em&gt;Brownea&lt;/em&gt;, &lt;em&gt;Browneopsis&lt;/em&gt;, &lt;em&gt;Centrolobium&lt;/em&gt;, &lt;em&gt;Platymiscium&lt;/em&gt;.&amp;nbsp; In: Forzza, R.C. et al. (eds.), Cat&amp;aacute;logo de plantas e fungos do Brasil vol 2, pp. 1001, 1006, 1078-1079. Instituto de Pasquisas Jardim Bot&amp;acirc;nico do Rio de Janeiro, RJ.&amp;nbsp; (&lt;a href=&quot;../../../2010/FB022840&quot;&gt;http://floradobrasil.jbrj.gov.br/2010/FB022840&lt;/a&gt;).\r\nKlitgaard, B.B. &amp;amp; (2016). &lt;em&gt;Platymiscium &lt;/em&gt;Vog.&lt;em&gt;, Platypodium &lt;/em&gt;Vog., &lt;em&gt;Pterocarpus &lt;/em&gt;Jacq. &lt;em&gt;In &lt;/em&gt;Tozzi, A.M.G.A. (&lt;em&gt;ed&lt;/em&gt;.) Papilionoideae. Flora Fanerog&amp;acirc;mica do Estado de S&amp;atilde;o Paulo. S&amp;atilde;o Paulo: Instituto de Bot&amp;acirc;nica. Vol. 8: 167-397.",
+      "parentnameusage": "Platymiscium Vogel",
+      "parentnameusageid": 23113,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29816",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29816>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 09:12:34.479"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 29817,
+      "scientificname": "Platymiscium floribundum var. nitens (Vogel) Klitg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": "nitens",
+      "scientificnameauthorship": "(Vogel) Klitg.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel;Platymiscium floribundum var. nitens (Vogel) Klitg.",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB29817>http://floradobrasil2015.jbrj.gov.br/FB29817</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB29817\">https://floradobrasil2020.jbrj.gov.br/FB29817</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Klitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&amp;nbsp; Kew Bulletin 60:321-400.",
+      "parentnameusage": "Platymiscium floribundum Vogel",
+      "parentnameusageid": 29816,
+      "originalnameusageid": "109869",
+      "namepublishedin": "Kew Bulletin 60:321-400. 2005",
+      "namepublishedinyear": "2005",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB29817",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29817>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-12 18:32:32.187"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Carrasco",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "angelim-bravo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Goiás"
+      },
+      {
+        "vernacularname": "fejao-cru",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Goiás, D.F."
+      },
+      {
+        "vernacularname": "ipe-candeia",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Espirito Santo"
+      },
+      {
+        "vernacularname": "jacaranda-branco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Klitgaard, B.B.,Kew Bulletin,60:321-400.,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109869,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Platymiscium nitens Vogel"
+      },
+      {
+        "relatedresourceid": 109870,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium piliferum Taub."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109865,
+      "scientificname": "Platymiscium floribundum var. latifolium (Benth.) Benth.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": "latifolium",
+      "scientificnameauthorship": "(Benth.) Benth.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel;Platymiscium floribundum var. latifolium (Benth.) Benth.",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109865>http://floradobrasil2015.jbrj.gov.br/FB109865</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109865\">https://floradobrasil2020.jbrj.gov.br/FB109865</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Klitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&amp;nbsp; Kew Bulletin 60:321-400.",
+      "parentnameusage": "Platymiscium floribundum Vogel",
+      "parentnameusageid": 29816,
+      "originalnameusageid": "109866",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109865",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109865>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-24 19:06:42.412"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "jacarandá-pitanga",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "S (PR)"
+      },
+      {
+        "vernacularname": "sacambú",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SE (SP)"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Klitgaard, B.B.,Kew Bulletin,60:321-400.,2005"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109867,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium floribundum var. majus Benth."
+      },
+      {
+        "relatedresourceid": 109868,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium cordatum Taub."
+      },
+      {
+        "relatedresourceid": 109866,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Platymiscium latifolium Benth."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 109867,
+      "scientificname": "Platymiscium floribundum var. majus Benth.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Platymiscium",
+      "specificepithet": "floribundum",
+      "infraspecificepithet": "majus",
+      "scientificnameauthorship": "Benth.",
+      "acceptednameusage": "Platymiscium floribundum var. latifolium (Benth.) Benth.",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Platymiscium Vogel;Platymiscium floribundum Vogel;Platymiscium floribundum var. majus Benth.",
+      "source": "Klitgaard, B.B. 2015. Platymiscium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109867>http://floradobrasil2015.jbrj.gov.br/FB109867</a>)<br><br>Klitgaard, B.B., Lima, A.G., Kuntz, J. 2020. Platymiscium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109867\">https://floradobrasil2020.jbrj.gov.br/FB109867</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Klitgaard, B.B. 2005. Platymiscium (Leguminosae: Dalbergieae): biogeography, systematics, morphology, taxonomy, and uses.&#160; Kew Bulletin 60:321-400.",
+      "parentnameusage": "Platymiscium floribundum Vogel",
+      "parentnameusageid": 29816,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109867",
+      "acceptednameusageid": 109865,
+      "bibliographiccitation_how_to_cite": "Klitgaard, B.B., Lima, A.G., Kuntz, J. Platymiscium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109867>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-27 10:15:15.510895"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109865,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Platymiscium floribundum var. latifolium (Benth.) Benth."
+      }
+    ],
+    "voucher": []
+  }
+]

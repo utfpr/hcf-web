@@ -1,0 +1,121 @@
+[
+  {
+    "taxon": {
+      "taxonid": 600236,
+      "scientificname": "Medicago lupulina L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Medicago",
+      "specificepithet": "lupulina",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Medicago L.;Medicago lupulina L.",
+      "source": "Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.1. p.59-60.",
+      "parentnameusage": "Medicago L.",
+      "parentnameusageid": 593341,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600236",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-11-15 20:33:45.699"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "alfafa-lupulina",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "alfafa-de-flor-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "luzerna-amarela",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 617806,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Medicago breviflora Gilib."
+      },
+      {
+        "relatedresourceid": 617807,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Medicago cupaniana Guss."
+      },
+      {
+        "relatedresourceid": 617808,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Medicago cupiniana Guss."
+      },
+      {
+        "relatedresourceid": 617809,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Medicago cupianiana Guss."
+      },
+      {
+        "relatedresourceid": 617810,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Medicago mniocarpa Wallr. ex Ser."
+      },
+      {
+        "relatedresourceid": 617811,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Trifolium lupulinum Savi"
+      }
+    ],
+    "voucher": []
+  }
+]

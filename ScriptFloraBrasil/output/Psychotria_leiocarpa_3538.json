@@ -1,0 +1,616 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14188,
+      "scientificname": "Psychotria leiocarpa Cham. & Schltdl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cham. & Schltdl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14188>http://floradobrasil2015.jbrj.gov.br/FB14188</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria L.",
+      "parentnameusageid": 14153,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 4: 22 1829",
+      "namepublishedinyear": "1829",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14188",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-01-08 11:36:04.481"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Flora,21(2): 61,1838"
+      },
+      {
+        "reference": "Chamisso, L.K.A. & Schlechtendal, D.F.L.,Linnaea,4: 22,1829"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 73917,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa var. extratropica Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 73918,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria leiocarpa var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73919,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa var. intermedia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73915,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa var. constricta (Müll.Arg.) Chodat & Hassl."
+      },
+      {
+        "relatedresourceid": 14182,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria intermedia Gardner"
+      },
+      {
+        "relatedresourceid": 73842,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria extratropica Müll.Arg."
+      },
+      {
+        "relatedresourceid": 74983,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga extratropica (Cham. & Schltdl.) Kuntze"
+      },
+      {
+        "relatedresourceid": 74067,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria tenella Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73920,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa var. tropica Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 74271,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ronabea myodendron A.Rich. ex DC."
+      },
+      {
+        "relatedresourceid": 74942,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga constricta (Müll.Arg.) Kuntze"
+      },
+      {
+        "relatedresourceid": 73803,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria constricta Müll.Arg."
+      },
+      {
+        "relatedresourceid": 73974,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria nemorosa var. oblongifolia Wawra"
+      },
+      {
+        "relatedresourceid": 39179,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria psilogyne Müll.Arg."
+      },
+      {
+        "relatedresourceid": 74274,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ronabia myodendra St.-Lég."
+      },
+      {
+        "relatedresourceid": 75260,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Uragoga tenella (Müll.Arg.) Kuntze"
+      },
+      {
+        "relatedresourceid": 73916,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa var. elliptica Müll.Arg."
+      },
+      {
+        "relatedresourceid": 75062,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Uragoga leiocarpa (Cham. & Schltdl.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Riedel 9",
+        "collectioncode": "K",
+        "catalognumber": "K000174315",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000174315",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 453",
+        "collectioncode": "K",
+        "catalognumber": "K000174319",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000174319",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Riedel 9",
+        "collectioncode": "K",
+        "catalognumber": "K000174315",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227574355",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Gardner 453",
+        "collectioncode": "K",
+        "catalognumber": "K000174319",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227574357",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 73915,
+      "scientificname": "Psychotria leiocarpa var. constricta (Müll.Arg.) Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "constricta",
+      "scientificnameauthorship": "(Müll.Arg.) Chodat & Hassl.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. constricta (Müll.Arg.) Chodat & Hassl.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73915>http://floradobrasil2015.jbrj.gov.br/FB73915</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73915",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:48:16.405013"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bull. Herb. Boissier II, 4: 177,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73916,
+      "scientificname": "Psychotria leiocarpa var. elliptica Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "elliptica",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. elliptica Müll.Arg.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73916>http://floradobrasil2015.jbrj.gov.br/FB73916</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73916",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:49:48.835853"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(5): 281,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73917,
+      "scientificname": "Psychotria leiocarpa var. extratropica Cham. & Schltdl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "extratropica",
+      "scientificnameauthorship": "Cham. & Schltdl.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. extratropica Cham. & Schltdl.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73917>http://floradobrasil2015.jbrj.gov.br/FB73917</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73917",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:50:22.143014"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,4: 23,1829"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73918,
+      "scientificname": "Psychotria leiocarpa var. genuina Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "genuina",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. genuina Müll.Arg.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73918>http://floradobrasil2015.jbrj.gov.br/FB73918</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73918",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:53:21.865767"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(5): 281,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73919,
+      "scientificname": "Psychotria leiocarpa var. intermedia Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "intermedia",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. intermedia Müll.Arg.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73919>http://floradobrasil2015.jbrj.gov.br/FB73919</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73919",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:54:47.040908"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(5): 281,1881"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 73920,
+      "scientificname": "Psychotria leiocarpa var. tropica Cham. & Schltdl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Psychotria",
+      "specificepithet": "leiocarpa",
+      "infraspecificepithet": "tropica",
+      "scientificnameauthorship": "Cham. & Schltdl.",
+      "acceptednameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Psychotria L.;Psychotria leiocarpa Cham. & Schltdl.;Psychotria leiocarpa var. tropica Cham. & Schltdl.",
+      "source": "Taylor, C.,M. Gomes,Zappi, D. 2015. Psychotria in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73920>http://floradobrasil2015.jbrj.gov.br/FB73920</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psychotria leiocarpa Cham. & Schltdl.",
+      "parentnameusageid": 14188,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73920",
+      "acceptednameusageid": 14188,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2010-01-15 20:55:30.064185"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,4: 22,1829"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14188,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psychotria leiocarpa Cham. & Schltdl."
+      }
+    ],
+    "voucher": []
+  }
+]

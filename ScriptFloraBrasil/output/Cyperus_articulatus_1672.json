@@ -1,0 +1,784 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7174,
+      "scientificname": "Cyperus articulatus L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7174>http://floradobrasil2015.jbrj.gov.br/FB7174</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7174\">https://floradobrasil2020.jbrj.gov.br/FB7174</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus L.",
+      "parentnameusageid": 7171,
+      "originalnameusageid": "50035",
+      "namepublishedin": "Sp. Pl. : 44 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7174",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7174>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-05-16 17:36:21.315"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Aquática"
+      ],
+      "vegetationType": [
+        "Campo de Várzea",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linneaus, C. von,Sp. Pl.,: 44,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 49323,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus var. fistulosus Kük."
+      },
+      {
+        "relatedresourceid": 49325,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus var. nodosus (Humb. & Bonpl. ex Willd.) Kük."
+      },
+      {
+        "relatedresourceid": 49430,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus var. macrostachyus Boeckeler"
+      },
+      {
+        "relatedresourceid": 49428,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus var. brevispiculosus Kuntze"
+      },
+      {
+        "relatedresourceid": 49432,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus var. subnodosus (Nees & Meyen) Kük."
+      },
+      {
+        "relatedresourceid": 49431,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus var. pangorei C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 49465,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus diphyllus var. elatior Benth."
+      },
+      {
+        "relatedresourceid": 49466,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus diphyllus var. triangularis Boeckeler"
+      },
+      {
+        "relatedresourceid": 49487,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus enodis var. longispiculatus Kuntze"
+      },
+      {
+        "relatedresourceid": 34966,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus Rottb."
+      },
+      {
+        "relatedresourceid": 49355,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus borbonicus Steud."
+      },
+      {
+        "relatedresourceid": 49345,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus bengalensis Spreng."
+      },
+      {
+        "relatedresourceid": 49586,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus gymnos Schult."
+      },
+      {
+        "relatedresourceid": 49647,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus interceptus Steud."
+      },
+      {
+        "relatedresourceid": 49659,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus koenigii Vahl"
+      },
+      {
+        "relatedresourceid": 49192,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chlorocyperus articulatus (L.) Rikli"
+      },
+      {
+        "relatedresourceid": 49196,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chlorocyperus cordobensis Palla"
+      },
+      {
+        "relatedresourceid": 49938,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus roestelii Kunth"
+      },
+      {
+        "relatedresourceid": 50044,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus tegetiformis Roxb. ex Arn."
+      },
+      {
+        "relatedresourceid": 49423,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus cordobensis (Palla) Hicken"
+      },
+      {
+        "relatedresourceid": 49770,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus niloticus Forssk."
+      },
+      {
+        "relatedresourceid": 49818,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus pallescens Desf."
+      },
+      {
+        "relatedresourceid": 49322,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus var. erythrostachys Graebn."
+      },
+      {
+        "relatedresourceid": 49324,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus var. multiflorus Kük."
+      },
+      {
+        "relatedresourceid": 49775,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus nodosus var. subnodosus (Nees & Meyen) Boeckeler"
+      },
+      {
+        "relatedresourceid": 49527,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus fistulosus Ehrenb. ex Boeckeler"
+      },
+      {
+        "relatedresourceid": 49464,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus diphyllus Retz."
+      },
+      {
+        "relatedresourceid": 49486,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus enodis Boeckeler"
+      },
+      {
+        "relatedresourceid": 49584,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus gula-metthi Schult."
+      },
+      {
+        "relatedresourceid": 49781,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus nudus Roxb."
+      },
+      {
+        "relatedresourceid": 49837,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus pertenuis Roxb."
+      },
+      {
+        "relatedresourceid": 50032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus subarticulatus Nees & Meyen"
+      },
+      {
+        "relatedresourceid": 50049,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus tenuicomus Miq."
+      },
+      {
+        "relatedresourceid": 49992,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus seminudus Roxb."
+      },
+      {
+        "relatedresourceid": 51453,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Papyrus pangorei Nees"
+      },
+      {
+        "relatedresourceid": 49321,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus var. conglomeratus Britton"
+      },
+      {
+        "relatedresourceid": 49774,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus nodosus var. aphyllus Boeckeler"
+      },
+      {
+        "relatedresourceid": 50035,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cyperus subnodosus Nees & Meyen"
+      },
+      {
+        "relatedresourceid": 49429,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus corymbosus var. longispiculatus (Kuntze) Kük."
+      },
+      {
+        "relatedresourceid": 49773,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus nodosus Humb. & Bonpl. ex Willd."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "W. A. Rodrigues 5073",
+        "collectioncode": "NY",
+        "catalognumber": "NY01174532",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01174532",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Marcondes Oliveira 4823",
+        "collectioncode": "HVASF",
+        "catalognumber": "HVASF008333",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HVASF008333",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W. A. Rodrigues 5073",
+        "collectioncode": "NY",
+        "catalognumber": "NY01174532",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228735913",
+        "locality": "PA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 49321,
+      "scientificname": "Cyperus articulatus var. conglomeratus Britton",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": "conglomeratus",
+      "scientificnameauthorship": "Britton",
+      "acceptednameusage": "Cyperus articulatus L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.;Cyperus articulatus var. conglomeratus Britton",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49321>http://floradobrasil2015.jbrj.gov.br/FB49321</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49321\">https://floradobrasil2020.jbrj.gov.br/FB49321</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus articulatus L.",
+      "parentnameusageid": 7174,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49321",
+      "acceptednameusageid": 7174,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49321>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-04-01 05:17:57.362"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mem. Torrey Bot. Club,13: 210,1886"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7174,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49322,
+      "scientificname": "Cyperus articulatus var. erythrostachys Graebn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": "erythrostachys",
+      "scientificnameauthorship": "Graebn.",
+      "acceptednameusage": "Cyperus articulatus L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.;Cyperus articulatus var. erythrostachys Graebn.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49322>http://floradobrasil2015.jbrj.gov.br/FB49322</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49322\">https://floradobrasil2020.jbrj.gov.br/FB49322</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus articulatus L.",
+      "parentnameusageid": 7174,
+      "originalnameusageid": null,
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 16: 25 1919",
+      "namepublishedinyear": "1919",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49322",
+      "acceptednameusageid": 7174,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49322>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-04-01 05:18:29.412"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,16: 25,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7174,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49323,
+      "scientificname": "Cyperus articulatus var. fistulosus Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": "fistulosus",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Cyperus articulatus L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.;Cyperus articulatus var. fistulosus Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49323>http://floradobrasil2015.jbrj.gov.br/FB49323</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49323\">https://floradobrasil2020.jbrj.gov.br/FB49323</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus articulatus L.",
+      "parentnameusageid": 7174,
+      "originalnameusageid": null,
+      "namepublishedin": "Pflanzenr. (Engler) IV, 20(101): 79 1935",
+      "namepublishedinyear": "1935",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49323",
+      "acceptednameusageid": 7174,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49323>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-04-01 05:19:06.478"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler),IV, 20(101): 79,1935"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7174,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49324,
+      "scientificname": "Cyperus articulatus var. multiflorus Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": "multiflorus",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Cyperus articulatus L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.;Cyperus articulatus var. multiflorus Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49324>http://floradobrasil2015.jbrj.gov.br/FB49324</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49324\">https://floradobrasil2020.jbrj.gov.br/FB49324</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus articulatus L.",
+      "parentnameusageid": 7174,
+      "originalnameusageid": null,
+      "namepublishedin": "Pflanzenr. (Engler) IV, 20(101): 79 1935",
+      "namepublishedinyear": "1935",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49324",
+      "acceptednameusageid": 7174,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49324>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-04-01 05:19:39.099"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler),IV, 20(101): 79,1935"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7174,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 49325,
+      "scientificname": "Cyperus articulatus var. nodosus (Humb. & Bonpl. ex Willd.) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "articulatus",
+      "infraspecificepithet": "nodosus",
+      "scientificnameauthorship": "(Humb. & Bonpl. ex Willd.) Kük.",
+      "acceptednameusage": "Cyperus articulatus L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus articulatus L.;Cyperus articulatus var. nodosus (Humb. & Bonpl. ex Willd.) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49325>http://floradobrasil2015.jbrj.gov.br/FB49325</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49325\">https://floradobrasil2020.jbrj.gov.br/FB49325</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus articulatus L.",
+      "parentnameusageid": 7174,
+      "originalnameusageid": null,
+      "namepublishedin": "Pflanzenr. (Engler) IV, 20(101): 79 1935",
+      "namepublishedinyear": "1935",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49325",
+      "acceptednameusageid": 7174,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49325>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-04-01 05:20:17.75"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler),IV, 20(101): 79,1935"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7174,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus articulatus L."
+      }
+    ],
+    "voucher": []
+  }
+]

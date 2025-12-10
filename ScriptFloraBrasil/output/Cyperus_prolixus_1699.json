@@ -1,0 +1,497 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17170,
+      "scientificname": "Cyperus prolixus Kunth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "prolixus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus prolixus Kunth",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17170>http://floradobrasil2015.jbrj.gov.br/FB17170</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17170\">https://floradobrasil2020.jbrj.gov.br/FB17170</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus L.",
+      "parentnameusageid": 7171,
+      "originalnameusageid": null,
+      "namepublishedin": "Nov. Gen. Sp. Pl. 1: 206 1817",
+      "namepublishedinyear": "1817",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17170",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17170>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-05-16 23:56:58.575"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Restinga",
+        "Vegetação Aquática"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Humboldt, F.W.H.A. et al.,Nov. Gen. Sp. Pl.,1: 206,1817"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 49237,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Comostemum schottii Nees"
+      },
+      {
+        "relatedresourceid": 49352,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus bisumbellatus Steud."
+      },
+      {
+        "relatedresourceid": 49210,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Chlorocyperus prolixus (Kunth) Palla"
+      },
+      {
+        "relatedresourceid": 49982,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus schottii (Nees) D.Dietr."
+      },
+      {
+        "relatedresourceid": 49655,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus jubaeflorus Rudge"
+      },
+      {
+        "relatedresourceid": 49885,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus prolixus var. vialis (Ridl.) Kük."
+      },
+      {
+        "relatedresourceid": 49236,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Comostemum prolixum (Kunth) Nees"
+      },
+      {
+        "relatedresourceid": 49297,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus amplissimus Steud."
+      },
+      {
+        "relatedresourceid": 50110,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus vialis Ridl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 314",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005976",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00005976",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. Koyama 13792",
+        "collectioncode": "K",
+        "catalognumber": "K001176624",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001176624",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. Koyama 13792",
+        "collectioncode": "UB",
+        "catalognumber": "UB0009114",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0009114",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 322",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005979",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00005979",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Macedo, C.C.L. 22",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA118328",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA118328",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, J.L. 203",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS133609",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS133609",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler 296",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517812",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00517812",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Damasceno-Junior, G.A. 3446",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000653",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/COR00000653",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Ducke s.n.",
+        "collectioncode": "UB",
+        "catalognumber": "UB0009114",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0009114",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 34983",
+        "collectioncode": "NY",
+        "catalognumber": "NY00919291",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00919291",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Damasceno-Junior, G.A. 3446",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000653",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226099652",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Damasceno-Junior, G.A. 3446",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000653",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308019452",
+        "locality": "MS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. Koyama 13792",
+        "collectioncode": "K",
+        "catalognumber": "K001176624",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227284304",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ferreira, J.L. 203",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS133609",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271305566",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 34983",
+        "collectioncode": "NY",
+        "catalognumber": "NY00919291",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228575167",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Macedo, C.C.L. 22",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA118328",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226854077",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler 296",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517812",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284356592",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. Koyama 13792",
+        "collectioncode": "UB",
+        "catalognumber": "UB0009114",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100364139",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 322",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005979",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229072287",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 322",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005979",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229072283",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 322",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005979",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229072285",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Ducke s.n.",
+        "collectioncode": "UB",
+        "catalognumber": "UB0009114",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100364139",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. M. Hefler e H. M. Longhi-Vagner 314",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00005976",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229072275",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 49885,
+      "scientificname": "Cyperus prolixus var. vialis (Ridl.) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Cyperus",
+      "specificepithet": "prolixus",
+      "infraspecificepithet": "vialis",
+      "scientificnameauthorship": "(Ridl.) Kük.",
+      "acceptednameusage": "Cyperus prolixus Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Cyperus L.;Cyperus prolixus Kunth;Cyperus prolixus var. vialis (Ridl.) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB49885>http://floradobrasil2015.jbrj.gov.br/FB49885</a>)<br><br>Matzenauer, W., Pereira-Silva, L., Hefler, S.M. 2020. Cyperus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB49885\">https://floradobrasil2020.jbrj.gov.br/FB49885</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyperus prolixus Kunth",
+      "parentnameusageid": 17170,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB49885",
+      "acceptednameusageid": 17170,
+      "bibliographiccitation_how_to_cite": "Matzenauer, W., Pereira-Silva, L., Hefler, S.M. Cyperus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB49885>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-28 18:57:07.941541"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A. (ed.),Pflanzenr. (Engler) IV, 20(101): 147,1935"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17170,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus prolixus Kunth"
+      }
+    ],
+    "voucher": []
+  }
+]

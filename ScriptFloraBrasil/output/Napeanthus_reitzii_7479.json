@@ -1,0 +1,174 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7840,
+      "scientificname": "Napeanthus reitzii (L.B.Sm.) B.L.Burtt ex Leeuwenb.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Napeanthus",
+      "specificepithet": "reitzii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.B.Sm.) B.L.Burtt ex Leeuwenb.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Napeanthus Gardner;Napeanthus reitzii (L.B.Sm.) B.L.Burtt ex Leeuwenb.",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Napeanthus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7840>http://floradobrasil2015.jbrj.gov.br/FB7840</a>)<br><br>Araujo, A.O. 2020. Napeanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7840\">https://floradobrasil2020.jbrj.gov.br/FB7840</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Napeanthus Gardner",
+      "parentnameusageid": 7838,
+      "originalnameusageid": "134450",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7840",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O. Napeanthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7840>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-22 16:43:17.605"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 134450,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Hatschbachia reitzii L.B.Sm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.G. Temponi 1219",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP008499",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UNOP008499",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Kassner-Filho 634",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB54666",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB54666",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Korte 5091",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01874",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB01874",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 1717",
+        "collectioncode": "US",
+        "catalognumber": "US00078083",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00078083",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz 3811",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0006231",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBR0006231",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 3487",
+        "collectioncode": "E",
+        "catalognumber": "E00155096",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/E00155096",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 1717",
+        "collectioncode": "US",
+        "catalognumber": "US00078083",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100274229",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 3487",
+        "collectioncode": "E",
+        "catalognumber": "E00155096",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230365121",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz 3811",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0006231",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97143579",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Korte 5091",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB01874",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226941137",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Kassner-Filho 634",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB54666",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227050361",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.G. Temponi 1219",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP008499",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100508893",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

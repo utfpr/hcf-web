@@ -1,0 +1,78 @@
+[
+  {
+    "taxon": {
+      "taxonid": 602617,
+      "scientificname": "Amauropelta neglecta (Brade & Rosenst.) Salino & T.E.Almeida",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Thelypteridaceae",
+      "genus": "Amauropelta",
+      "specificepithet": "neglecta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Brade & Rosenst.) Salino & T.E.Almeida",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Thelypteridaceae Pic.Serm.;Amauropelta Kunze;Amauropelta neglecta (Brade & Rosenst.) Salino & T.E.Almeida",
+      "source": "Salino, A., Fernandes, R.S., Moura, I.O., Moura, L.C., Almeida, T.E., Paixão, L.C. Thelypteridaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602617\">https://floradobrasil2020.jbrj.gov.br/FB602617</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Amauropelta Kunze",
+      "parentnameusageid": 602606,
+      "originalnameusageid": "133058",
+      "namepublishedin": "Phytokeys 57: 27 2015",
+      "namepublishedinyear": "2015",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602617",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Salino, A., Fernandes, R.S., Moura, I.O., Moura, L.C., Almeida, T.E., Paixão, L.C., Souza, M.I. Thelypteridaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602617>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 10:22:29.884"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Salino, A. et al.,Phytokeys,57: 27,2015"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 133058,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Dryopteris neglecta Brade & Rosenst."
+      },
+      {
+        "relatedresourceid": 111895,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Thelypteris neglecta (Brade & Rosenst.) Ching"
+      }
+    ],
+    "voucher": []
+  }
+]

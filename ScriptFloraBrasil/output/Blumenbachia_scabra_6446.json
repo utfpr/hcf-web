@@ -1,0 +1,603 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8627,
+      "scientificname": "Blumenbachia scabra (Miers) Urb.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cornales",
+      "family": "Loasaceae",
+      "genus": "Blumenbachia",
+      "specificepithet": "scabra",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Miers) Urb.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Loasaceae Juss.;Blumenbachia Schrad.;Blumenbachia scabra (Miers) Urb.",
+      "source": "Weigend, M. 2015. Loasaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8627>http://floradobrasil2015.jbrj.gov.br/FB8627</a>)<br><br>Acuña-Castillo, R., Henning, T., Weigend, M., Mello-Silva, R. (in memoriam) Loasaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8627\">https://floradobrasil2020.jbrj.gov.br/FB8627</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Blumenbachia Schrad.",
+      "parentnameusageid": 8622,
+      "originalnameusageid": "613027",
+      "namepublishedin": "Transactions of the Linnean Society of London 25(2): 235 Tab. 28 1866",
+      "namepublishedinyear": "1866",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8627",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Acuña-Castillo, R., Henning, T., Weigend, M., Mello-Silva, R. (in memoriam) Loasaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8627>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-10-25 14:44:52.766"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "urtiga-branca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Urban, I.,Fl. bras.,13(3),1889"
+      },
+      {
+        "reference": "Santos, E. & Fromm-Trinta E. (In Reitz, P.),Loasáceas: Flora Ilustrada Catarinense,3-20,1985"
+      },
+      {
+        "reference": "Miers, J.,Transactions of the Linnean Society of London,25(2): 235 Tab. 28,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 600433,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Blumenbachia aspera Urb."
+      },
+      {
+        "relatedresourceid": 613029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Caiophora aspera Urb."
+      },
+      {
+        "relatedresourceid": 613028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gripidea asperata Miers"
+      },
+      {
+        "relatedresourceid": 598167,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Caiophora scabra (Miers) Urb."
+      },
+      {
+        "relatedresourceid": 613025,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mentzelia aspera Vell."
+      },
+      {
+        "relatedresourceid": 613027,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gripidea scabra Miers"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Korte, A 6947",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB27899",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226996141",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2178",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55839",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227052741",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "RB",
+        "catalognumber": "RB00203523",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283865786",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 78054",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM300659",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229397889",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM002557",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229307176",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 21702",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM017413",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229343303",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17526",
+        "collectioncode": "US",
+        "catalognumber": "US01886247",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100204375",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2179",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55839",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227052741",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 6812",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039276",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229438021",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 1752",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM203525",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229354639",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2043",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB52147",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227045231",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2043",
+        "collectioncode": "RB",
+        "catalognumber": "RB01330711",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285082122",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwacke 12951",
+        "collectioncode": "P",
+        "catalognumber": "P00123869",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197494025",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 17526",
+        "collectioncode": "US",
+        "catalognumber": "US01886247",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100204375",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G 1495",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039278",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229438061",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Schwirkowski 2043",
+        "collectioncode": "RB",
+        "catalognumber": "RB01330711",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285082122",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 15452",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617843",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228311089",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17414",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617842",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00617842",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 1495",
+        "collectioncode": "US",
+        "catalognumber": "US01886231",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01886231",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2179",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55839",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB55839",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Lombardi 8631",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP007066",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UNOP007066",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 21702",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM017413",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM017413",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 78054",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM300659",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM300659",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. da 1752",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0200646",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0200646",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Weir, J. 465",
+        "collectioncode": "K",
+        "catalognumber": "K000372954",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000372954",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2178",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55839",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB55839",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. Schwirkowski 2043",
+        "collectioncode": "RB",
+        "catalognumber": "RB01330711",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01330711",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM002557",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM002557",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 5600",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039277",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM039277",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 41572",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM060272",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM060272",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 15452",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617843",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00617843",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2043",
+        "collectioncode": "RB",
+        "catalognumber": "RB01330711",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01330711",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G 1495",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039278",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM039278",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 5600",
+        "collectioncode": "PACA",
+        "catalognumber": "PACA064754",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/PACA064754",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Funez, L.A. 5492",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB51439",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB51439",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Korte, A 6947",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB27899",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB27899",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Weir, J. 465",
+        "collectioncode": "K",
+        "catalognumber": "K000372953",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000372953",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 17526",
+        "collectioncode": "US",
+        "catalognumber": "US01886247",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01886247",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17526",
+        "collectioncode": "US",
+        "catalognumber": "US01886247",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01886247",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 6812",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039276",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM039276",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617844",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00617844",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "RB",
+        "catalognumber": "RB00203523",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00203523",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2043",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB52147",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB52147",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 1752",
+        "collectioncode": "INPA",
+        "catalognumber": "INPA0200646",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/INPA0200646",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Lombardi 8631",
+        "collectioncode": "RB",
+        "catalognumber": "RB00786472",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00786472",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 1752",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM203525",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM203525",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwacke 12951",
+        "collectioncode": "P",
+        "catalognumber": "P00123869",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00123869",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17414",
+        "collectioncode": "US",
+        "catalognumber": "US01886248",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01886248",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 5600",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM039277",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229438043",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 41572",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM060272",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229455997",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Lombardi 8631",
+        "collectioncode": "RB",
+        "catalognumber": "RB00786472",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284822758",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Lombardi 8631",
+        "collectioncode": "UNOP",
+        "catalognumber": "UNOP007066",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100505687",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17414",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617842",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228311087",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 17414",
+        "collectioncode": "US",
+        "catalognumber": "US01886248",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100204377",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 16334",
+        "collectioncode": "NY",
+        "catalognumber": "NY00617844",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228311091",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Weir, J. 465",
+        "collectioncode": "K",
+        "catalognumber": "K000372953",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227602913",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Weir, J. 465",
+        "collectioncode": "K",
+        "catalognumber": "K000372954",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227602915",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Funez, L.A. 5492",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB51439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227043801",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. G.  (Hatschbach, Gerdt Guenther) 1495",
+        "collectioncode": "US",
+        "catalognumber": "US01886231",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100204343",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

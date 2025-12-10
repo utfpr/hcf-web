@@ -1,0 +1,198 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15104,
+      "scientificname": "Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Barbacenia",
+      "specificepithet": "flava",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart. ex Schult. & Schult.f.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Barbacenia Vand.;Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15104>http://floradobrasil2015.jbrj.gov.br/FB15104</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Barbacenia Vand.",
+      "parentnameusageid": 15099,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15104",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-25 16:54:06.96"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Schultes, J.A. & Schultes, J.H.,Syst. Veg.,7(1): 286,1829"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 33003,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Barbacenia flava var. minor L.B.Sm."
+      },
+      {
+        "relatedresourceid": 33002,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Barbacenia flava Mart. ex Schult. & Schult.f. var. flava"
+      },
+      {
+        "relatedresourceid": 33045,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Barbacenia sellovii Goethart & Henrard"
+      },
+      {
+        "relatedresourceid": 39601,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Barbacenia sellowii Goethart & Henrard"
+      },
+      {
+        "relatedresourceid": 32988,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Barbacenia bishopii L.B.Sm."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "R.C. Forzza 2644",
+        "collectioncode": "RB",
+        "catalognumber": "RB00551808",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00551808",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 2644",
+        "collectioncode": "RB",
+        "catalognumber": "RB00551808",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284420842",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 33002,
+      "scientificname": "Barbacenia flava Mart. ex Schult. & Schult.f. var. flava",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Barbacenia",
+      "specificepithet": "flava",
+      "infraspecificepithet": "flava",
+      "scientificnameauthorship": "Mart. ex Schult. & Schult.f.",
+      "acceptednameusage": "Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Barbacenia Vand.;Barbacenia flava Mart. ex Schult. & Schult.f.;Barbacenia flava Mart. ex Schult. & Schult.f. var. flava",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33002>http://floradobrasil2015.jbrj.gov.br/FB33002</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "parentnameusageid": 15104,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33002",
+      "acceptednameusageid": 15104,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-11-15 08:46:15.833229"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15104,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Barbacenia flava Mart. ex Schult. & Schult.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 33003,
+      "scientificname": "Barbacenia flava var. minor L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Barbacenia",
+      "specificepithet": "flava",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": "Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Barbacenia Vand.;Barbacenia flava Mart. ex Schult. & Schult.f.;Barbacenia flava var. minor L.B.Sm.",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33003>http://floradobrasil2015.jbrj.gov.br/FB33003</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Barbacenia flava Mart. ex Schult. & Schult.f.",
+      "parentnameusageid": 15104,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33003",
+      "acceptednameusageid": 15104,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-11-15 08:44:58.430226"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Contr. U.S. Natl. Herb.,35: 279,1962"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15104,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Barbacenia flava Mart. ex Schult. & Schult.f."
+      }
+    ],
+    "voucher": []
+  }
+]

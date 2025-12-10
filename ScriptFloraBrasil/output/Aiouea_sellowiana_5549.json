@@ -1,0 +1,121 @@
+[
+  {
+    "taxon": {
+      "taxonid": 624397,
+      "scientificname": "Aiouea sellowiana (Nees & Mart.) R.Rohde",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Laurales",
+      "family": "Lauraceae",
+      "genus": "Aiouea",
+      "specificepithet": "sellowiana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Nees & Mart.) R.Rohde",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lauraceae Juss.;Aiouea Aubl.;Aiouea sellowiana (Nees & Mart.) R.Rohde",
+      "source": "Rohde, R., B. Rudolph, K. Ruthe, F. G. Lorea-Hern&amp;aacute;ndez, P. L. R. Moraes, J. Li &amp;amp; J. G. Rohwer. 2017. Neither&amp;nbsp;&lt;em&gt;Phoebe&lt;/em&gt;&amp;nbsp;nor&amp;nbsp;&lt;em&gt;Cinnamomum&lt;/em&gt;&amp;nbsp;&amp;ndash; the tetrasporangiate species of&amp;nbsp;&lt;em&gt;Aiouea&lt;/em&gt;&amp;nbsp;(Lauraceae). Taxon 66 (5): 1085&amp;ndash;1111.",
+      "parentnameusage": "Aiouea Aubl.",
+      "parentnameusageid": 8378,
+      "originalnameusageid": "8398",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB624397",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-09-15 17:35:24.179"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601276,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phoebe sellowii var. glabrata Meisn."
+      },
+      {
+        "relatedresourceid": 601499,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phoebe sellowii var. lanata Meisn."
+      },
+      {
+        "relatedresourceid": 8398,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cinnamomum sellowianum (Nees & Mart.) Kosterm."
+      },
+      {
+        "relatedresourceid": 594456,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Phoebe sellowii Meisn."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "taxon": {
+      "taxonid": 603011,
+      "scientificname": "Malus pumila Mill.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_REJEITADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Malus",
+      "specificepithet": "pumila",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mill.",
+      "acceptednameusage": "Malus domestica (Suckow) Borkh.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rosaceae Juss.;Malus Mill.;Malus pumila Mill.",
+      "source": "IPNI. https://www.ipni.org/n/726282-1\r\nLorenzi, H.; Bacher, L.B.; Lacerda, M.; Sartori, S. Frutas brasileiras e ex&amp;oacute;ticas cultivadas (de consumo in natura). S&amp;atilde;o Paulo, Instituto Plantarum de estudos da flora, 2006. 672p. (p.492).\r\nTropicos. https://www.tropicos.org/name/27800985\r\n&amp;nbsp;\r\n* &lt;em&gt;Malus pumila&lt;/em&gt; foi&amp;nbsp;proposto em 1768, referindo-se&amp;nbsp;efetivamente &amp;agrave; macieira, sendo sinonimizado posteriormente como &lt;em&gt;Malus domestica&lt;/em&gt; Borkh., um bin&amp;ocirc;mio de 1803, e que foi muito utilizado em trabalhos cient&amp;iacute;ficos.&amp;nbsp;&lt;em&gt;Malus pumila&amp;nbsp;&lt;/em&gt;foi&amp;nbsp;recentemente rejeitado. Conforme o IPNI (2025), &amp;ldquo;... a proposta de Qian &amp;amp; al. (Taxon 59: 650-652, 2010) de tratar o nome &lt;em&gt;M. domestica&lt;/em&gt; (Suckow) Borkh. como uma nova combina&amp;ccedil;&amp;atilde;o e conserv&amp;aacute;-lo (em desfavor de &lt;em&gt;Malus pumila&lt;/em&gt;, &lt;em&gt;M. communis&lt;/em&gt;, &lt;em&gt;M. frutescens&lt;/em&gt; e &lt;em&gt;Pyrus dioica&lt;/em&gt;) foi aprovada no Congresso Bot&amp;acirc;nico de Shenzhen, de 2017 (ver Taxon 66: 1238. 2017)&quot;.",
+      "parentnameusage": "Malus Mill.",
+      "parentnameusageid": 603009,
+      "originalnameusageid": "597142",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB603011",
+      "acceptednameusageid": 603010,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-07-09 20:26:23.537"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "macieira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "maçã",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "apple",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "manzano",
+        "language_vernacularname": "ESPANHOL",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "pommelier",
+        "language_vernacularname": "FRANCES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 603010,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Malus domestica (Suckow) Borkh."
+      },
+      {
+        "relatedresourceid": 597142,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pyrus malus L."
+      },
+      {
+        "relatedresourceid": 617538,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Malus communis Poir."
+      }
+    ],
+    "voucher": []
+  }
+]

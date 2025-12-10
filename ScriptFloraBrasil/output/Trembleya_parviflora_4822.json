@@ -1,0 +1,994 @@
+[
+  {
+    "taxon": {
+      "taxonid": 9983,
+      "scientificname": "Trembleya parviflora (D.Don) Cogn.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(D.Don) Cogn.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.",
+      "source": "Martins, A.B.,Rodrigues, K.F.,Silva-Gonçalves, K.C. 2015. Trembleya in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB9983>http://floradobrasil2015.jbrj.gov.br/FB9983</a>)<br><br>Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB9983\">https://floradobrasil2020.jbrj.gov.br/FB9983</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\n&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 12.0pt; line-height: 115%; font-family: &#39;Times New Roman&#39;,&#39;serif&#39;; color: black;&quot;&gt;Martins, E. 1997. Revis&amp;atilde;o taxon&amp;ocirc;mica do g&amp;ecirc;nero &lt;em style=&quot;mso-bidi-font-style: normal;&quot;&gt;Trembleya&lt;/em&gt; DC. (Melastomataceae). Tese de Doutorado. Campinas, 162p.&lt;/span&gt;",
+      "parentnameusage": "Trembleya DC.",
+      "parentnameusageid": 9979,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9983",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB9983>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-08 15:35:50.443"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 600782,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. angustifolia Cogn."
+      },
+      {
+        "relatedresourceid": 602414,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. triflora Cogn."
+      },
+      {
+        "relatedresourceid": 602528,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. widgrenii Cogn."
+      },
+      {
+        "relatedresourceid": 603609,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya paniculata Naudin"
+      },
+      {
+        "relatedresourceid": 601050,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. denticulata Cogn."
+      },
+      {
+        "relatedresourceid": 601139,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. farinacea Cogn."
+      },
+      {
+        "relatedresourceid": 602526,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. warmingii Cogn."
+      },
+      {
+        "relatedresourceid": 602517,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. vulgaris Cogn."
+      },
+      {
+        "relatedresourceid": 603607,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya heterostemon Mart. & Schrank ex DC."
+      },
+      {
+        "relatedresourceid": 603608,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya triflora Mart. & Schrank ex DC."
+      },
+      {
+        "relatedresourceid": 601561,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. latifolia Cogn."
+      },
+      {
+        "relatedresourceid": 601720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. martii Cogn."
+      },
+      {
+        "relatedresourceid": 601820,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. multiflora Cogn."
+      },
+      {
+        "relatedresourceid": 602231,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. selloana Cogn."
+      },
+      {
+        "relatedresourceid": 602403,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. tomentosa Cogn."
+      },
+      {
+        "relatedresourceid": 602462,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. valtherii Cogn."
+      },
+      {
+        "relatedresourceid": 605632,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. heterophylla Cogn."
+      },
+      {
+        "relatedresourceid": 601991,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora var. parvifolia Cogn."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317053",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227938709",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317055",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227938713",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317056",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227938715",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Riedel s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558574",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228195023",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317055",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P05317055",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 379",
+        "collectioncode": "P",
+        "catalognumber": "P05317041",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P05317041",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317056",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P05317056",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 9712",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558579",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00558579",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Riedel s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558575",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00558575",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Riedel s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558574",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00558574",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 14744",
+        "collectioncode": "P",
+        "catalognumber": "P05317053",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P05317053",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. K. H. Dusén 9712",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558579",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228195031",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 379",
+        "collectioncode": "P",
+        "catalognumber": "P05317041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227938687",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Riedel s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00558575",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228195025",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 600782,
+      "scientificname": "Trembleya parviflora var. angustifolia Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "angustifolia",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. angustifolia Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600782\">https://floradobrasil2020.jbrj.gov.br/FB600782</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600782",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600782>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 15:15:20.973"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601050,
+      "scientificname": "Trembleya parviflora var. denticulata Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "denticulata",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. denticulata Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601050\">https://floradobrasil2020.jbrj.gov.br/FB601050</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601050",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601050>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 15:15:55.985"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601139,
+      "scientificname": "Trembleya parviflora var. farinacea Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "farinacea",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. farinacea Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601139\">https://floradobrasil2020.jbrj.gov.br/FB601139</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601139",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601139>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 15:20:20.815"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601561,
+      "scientificname": "Trembleya parviflora var. latifolia Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "latifolia",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. latifolia Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601561\">https://floradobrasil2020.jbrj.gov.br/FB601561</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601561",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601561>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 15:21:38.396"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601720,
+      "scientificname": "Trembleya parviflora var. martii Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "martii",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. martii Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601720\">https://floradobrasil2020.jbrj.gov.br/FB601720</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601720",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601720>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 15:23:13.542"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601820,
+      "scientificname": "Trembleya parviflora var. multiflora Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "multiflora",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. multiflora Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601820\">https://floradobrasil2020.jbrj.gov.br/FB601820</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601820",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601820>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 19:54:37.393"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601991,
+      "scientificname": "Trembleya parviflora var. parvifolia Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. parvifolia Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601991\">https://floradobrasil2020.jbrj.gov.br/FB601991</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601991",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601991>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 19:57:04.229"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602231,
+      "scientificname": "Trembleya parviflora var. selloana Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "selloana",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. selloana Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602231\">https://floradobrasil2020.jbrj.gov.br/FB602231</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602231",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602231>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 19:58:57.924"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602403,
+      "scientificname": "Trembleya parviflora var. tomentosa Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "tomentosa",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. tomentosa Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602403\">https://floradobrasil2020.jbrj.gov.br/FB602403</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602403",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602403>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:00:55.768"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602414,
+      "scientificname": "Trembleya parviflora var. triflora Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "triflora",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. triflora Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602414\">https://floradobrasil2020.jbrj.gov.br/FB602414</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602414",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602414>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:02:34.28"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602462,
+      "scientificname": "Trembleya parviflora var. valtherii Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "valtherii",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. valtherii Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602462\">https://floradobrasil2020.jbrj.gov.br/FB602462</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602462",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602462>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:04:45.32"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602517,
+      "scientificname": "Trembleya parviflora var. vulgaris Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "vulgaris",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. vulgaris Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602517\">https://floradobrasil2020.jbrj.gov.br/FB602517</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602517",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602517>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:06:34.818"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602526,
+      "scientificname": "Trembleya parviflora var. warmingii Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "warmingii",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. warmingii Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602526\">https://floradobrasil2020.jbrj.gov.br/FB602526</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602526",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602526>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:08:37.665"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602528,
+      "scientificname": "Trembleya parviflora var. widgrenii Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "widgrenii",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. widgrenii Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602528\">https://floradobrasil2020.jbrj.gov.br/FB602528</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602528",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602528>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:10:00.645"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605632,
+      "scientificname": "Trembleya parviflora var. heterophylla Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Trembleya",
+      "specificepithet": "parviflora",
+      "infraspecificepithet": "heterophylla",
+      "scientificnameauthorship": "Cogn.",
+      "acceptednameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Trembleya DC.;Trembleya parviflora (D.Don) Cogn.;Trembleya parviflora var. heterophylla Cogn.",
+      "source": "Pacifico, R., Fidanza, K. 2020. Trembleya in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605632\">https://floradobrasil2020.jbrj.gov.br/FB605632</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Trembleya parviflora (D.Don) Cogn.",
+      "parentnameusageid": 9983,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605632",
+      "acceptednameusageid": 9983,
+      "bibliographiccitation_how_to_cite": "Pacifico, R., Fidanza, K. Trembleya in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605632>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-04-07 20:15:22.833"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 9983,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Trembleya parviflora (D.Don) Cogn."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "taxon": {
+      "taxonid": 27162,
+      "scientificname": "Lessingianthus argenteus (Less.) H.Rob.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Lessingianthus",
+      "specificepithet": "argenteus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Less.) H.Rob.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Vernonieae Cass.;Lessingianthus H.Rob.;Lessingianthus argenteus (Less.) H.Rob.",
+      "source": "Dematteis, M.,Almeida, G. 2015. Lessingianthus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB27162>http://floradobrasil2015.jbrj.gov.br/FB27162</a>)<br><br>Loeuille, B.F.P., Saavedra, M.M., Angulo, M.B., Ribeiro, R.N., Dematteis, M. 2020. Lessingianthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB27162\">https://floradobrasil2020.jbrj.gov.br/FB27162</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cabrera, A. L. &amp;amp; M. Dematteis. 2009. Compositae VI. Asteroideae. Tribu Vernonieae. En: L. Ramella &amp;amp; P. Perret (eds.), Flora del Paraguay 39: 65&amp;ndash;268. Conservatoire et Jardin Botaniques de Geneve &amp;amp; Missouri Botanical Garden. ISBN 978-2-8277-0541-2.",
+      "parentnameusage": "Lessingianthus H.Rob.",
+      "parentnameusageid": 27159,
+      "originalnameusageid": "104827",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB27162",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Loeuille, B.F.P., Saavedra, M.M., Angulo, M.B., Ribeiro, R.N., Dematteis, M. Lessingianthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB27162>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 11:10:07.875"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 104827,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Vernonia argentea Less."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "P.E. Gibbs 1674",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM062077",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM062077",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.E. Gibbs 1674",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM062077",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229610923",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

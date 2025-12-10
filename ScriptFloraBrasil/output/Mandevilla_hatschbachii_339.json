@@ -1,0 +1,105 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15578,
+      "scientificname": "Mandevilla hatschbachii M.F.Sales et al.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Mandevilla",
+      "specificepithet": "hatschbachii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "M.F.Sales et al.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Mandevilla Lindl.;Mandevilla hatschbachii M.F.Sales et al.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15578>http://floradobrasil2015.jbrj.gov.br/FB15578</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Sales, M. F; Kinoshita, L. S. &amp;amp; Sim&amp;otilde;es, A. O. Eight New Species of Mandevilla Lindley (Apocynaceae, Apocynoideae) from Brazil.&amp;nbsp;&amp;nbsp;NOVON 16: 112-128. 2006.&amp;nbsp;",
+      "parentnameusage": "Mandevilla Lindl.",
+      "parentnameusageid": 4652,
+      "originalnameusageid": null,
+      "namepublishedin": "Eight New Species of Mandevilla Lindley NOVON 16: 112-128 2006",
+      "namepublishedinyear": "2006",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15578",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-30 23:18:54.617"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sales, M. F.  et al.,Eight New Species of Mandevilla Lindley,NOVON 16: 112-128,2006"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Pinto, G.C.P. 422-83",
+        "collectioncode": "RB",
+        "catalognumber": "RB00045465",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284256898",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 44208",
+        "collectioncode": "NY",
+        "catalognumber": "NY00008423",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00008423",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Pinto, G.C.P. 422-83",
+        "collectioncode": "RB",
+        "catalognumber": "RB00045465",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00045465",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 44208",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM0071137",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM0071137",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 44208",
+        "collectioncode": "NY",
+        "catalognumber": "NY00008423",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228083247",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

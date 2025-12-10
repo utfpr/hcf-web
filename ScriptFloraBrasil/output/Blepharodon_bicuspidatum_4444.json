@@ -1,0 +1,79 @@
+[
+  {
+    "taxon": {
+      "taxonid": 4544,
+      "scientificname": "Blepharodon bicuspidatum E.Fourn.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Blepharodon",
+      "specificepithet": "bicuspidatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "E.Fourn.",
+      "acceptednameusage": "Vailia bicuspidata (E.Fourn.) Morillo",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Blepharodon Decne.;Blepharodon bicuspidatum E.Fourn.",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4544>http://floradobrasil2015.jbrj.gov.br/FB4544</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Blepharodon Decne.",
+      "parentnameusageid": 4542,
+      "originalnameusageid": "638047",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4544",
+      "acceptednameusageid": 638047,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-07-18 18:09:38.404"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638047,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Vailia bicuspidata (E.Fourn.) Morillo"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.C. Lindeman 985",
+        "collectioncode": "RB",
+        "catalognumber": "RB00049012",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284331402",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.C. Lindeman 985",
+        "collectioncode": "RB",
+        "catalognumber": "RB00049012",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00049012",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.F. Leitão-Filho 14446",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC053534",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC053534",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

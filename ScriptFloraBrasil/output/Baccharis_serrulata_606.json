@@ -1,0 +1,718 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5249,
+      "scientificname": "Baccharis serrulata (Lam.) Pers.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "serrulata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Lam.) Pers.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis serrulata (Lam.) Pers.",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5249>http://floradobrasil2015.jbrj.gov.br/FB5249</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5249\">https://floradobrasil2020.jbrj.gov.br/FB5249</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5249",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-04-08 15:47:45.24"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "arnica",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "erva-de-coelho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "joão-russo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "vara-de-visgo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 126700,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis lundii var. punctigera (DC.) Baker"
+      },
+      {
+        "relatedresourceid": 126641,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis depauperata Gardner"
+      },
+      {
+        "relatedresourceid": 126699,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis lundii DC."
+      },
+      {
+        "relatedresourceid": 126745,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis punctigera DC."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M. M. Saavedra 755",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129597",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428499",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. M. Saavedra 754",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129785",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428569",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 1754",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00089336",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226365388",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.J.N. Hind PCD4274",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00020915",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100469883",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 706",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517592",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284356144",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Calvo 7566",
+        "collectioncode": "RB",
+        "catalognumber": "RB01355560",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285099674",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.N. Fraga 2463",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00130917",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428641",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fernandes, A. s.n.",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0011142",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226633041",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 11100",
+        "collectioncode": "RB",
+        "catalognumber": "RB00532876",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284384992",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. M. Saavedra 727",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129458",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428463",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.F.A. de Paula 1138",
+        "collectioncode": "RB",
+        "catalognumber": "RB01232787",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285047512",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 11100",
+        "collectioncode": "RB",
+        "catalognumber": "RB00532876",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00532876",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Andrade-Lima 5658",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00000089",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00000089",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5094",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129770",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00129770",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.N. Fraga 2463",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00130917",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00130917",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 659",
+        "collectioncode": "RB",
+        "catalognumber": "RB00677458",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00677458",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.F.A. de Paula 1138",
+        "collectioncode": "RB",
+        "catalognumber": "RB01232787",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01232787",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Calvo 7566",
+        "collectioncode": "RB",
+        "catalognumber": "RB01355560",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01355560",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fernandes, A. s.n.",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0011142",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0011142",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luan Silva 141",
+        "collectioncode": "RB",
+        "catalognumber": "RB01045480",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01045480",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 69080",
+        "collectioncode": "US",
+        "catalognumber": "US01726372",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01726372",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 262",
+        "collectioncode": "RB",
+        "catalognumber": "RB00677549",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00677549",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 1754",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00089336",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00089336",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.N. Fraga 2345",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00131691",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00131691",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. M. Curran 195",
+        "collectioncode": "US",
+        "catalognumber": "US01718362",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01718362",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. M. King 8058",
+        "collectioncode": "US",
+        "catalognumber": "US01726408",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01726408",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. R. Coleman 584",
+        "collectioncode": "US",
+        "catalognumber": "US01718405",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01718405",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. M. Saavedra 754",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129785",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00129785",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. M. Saavedra 727",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129458",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00129458",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. M. Saavedra 755",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129597",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00129597",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Viana, A. UFRN05",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00005982",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00005982",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S.S. Lira, E. Menezes, F.M.O. Villarouco 34",
+        "collectioncode": "MO",
+        "catalognumber": "MO1777285",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1777285",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Miranda 1362",
+        "collectioncode": "RB",
+        "catalognumber": "RB00718178",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00718178",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ordones. 542",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00071769",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00071769",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 706",
+        "collectioncode": "RB",
+        "catalognumber": "RB00517592",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00517592",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "MBML",
+        "catalognumber": "MBML050524",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML050524",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 496",
+        "collectioncode": null,
+        "catalognumber": "P00755564",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00755564",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.J.N. Hind PCD4274",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00020915",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00020915",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ordones. 542",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00071769",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97356871",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.N. Fraga 2345",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00131691",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428723",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. M. Curran 195",
+        "collectioncode": "US",
+        "catalognumber": "US01718362",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100342127",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 496",
+        "collectioncode": null,
+        "catalognumber": "P00755564",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228076245",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "MBML",
+        "catalognumber": "MBML050524",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230220737",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 262",
+        "collectioncode": "RB",
+        "catalognumber": "RB00677549",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284661358",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 5094",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00129770",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226428555",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Viana, A. UFRN05",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00005982",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100433603",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. M. King 8058",
+        "collectioncode": "US",
+        "catalognumber": "US01726408",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100346423",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Andrade-Lima 5658",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00000089",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100432405",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luan Silva 141",
+        "collectioncode": "RB",
+        "catalognumber": "RB01045480",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285208934",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S.S. Lira, E. Menezes, F.M.O. Villarouco 34",
+        "collectioncode": "MO",
+        "catalognumber": "MO1777285",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97962664",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M.A. Braga 659",
+        "collectioncode": "RB",
+        "catalognumber": "RB00677458",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284661140",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 69080",
+        "collectioncode": "US",
+        "catalognumber": "US01726372",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100346353",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Miranda 1362",
+        "collectioncode": "RB",
+        "catalognumber": "RB00718178",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284735250",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. R. Coleman 584",
+        "collectioncode": "US",
+        "catalognumber": "US01718405",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100342157",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 126673,
+      "scientificname": "Baccharis serrulata DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "serrulata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": "Baccharis pingraea DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis serrulata DC.",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB126673>http://floradobrasil2015.jbrj.gov.br/FB126673</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB126673\">https://floradobrasil2020.jbrj.gov.br/FB126673</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB126673",
+      "acceptednameusageid": 124391,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-06-11 09:30:28.643"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 126785,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis serrulata var. pingraea (DC.) Baker"
+      },
+      {
+        "relatedresourceid": 124391,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis pingraea DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 126785,
+      "scientificname": "Baccharis serrulata var. pingraea (DC.) Baker",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "serrulata",
+      "infraspecificepithet": "pingraea",
+      "scientificnameauthorship": "(DC.) Baker",
+      "acceptednameusage": "Baccharis pingraea DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis serrulata DC.;Baccharis serrulata var. pingraea (DC.) Baker",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB126785>http://floradobrasil2015.jbrj.gov.br/FB126785</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB126785\">https://floradobrasil2020.jbrj.gov.br/FB126785</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis serrulata DC.",
+      "parentnameusageid": 126673,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB126785",
+      "acceptednameusageid": 124391,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-04-29 00:57:35.069241"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 124391,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis pingraea DC."
+      },
+      {
+        "relatedresourceid": 126673,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis serrulata DC."
+      }
+    ],
+    "voucher": []
+  }
+]

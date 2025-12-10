@@ -1,0 +1,113 @@
+[
+  {
+    "taxon": {
+      "taxonid": 103901,
+      "scientificname": "Eclipta elliptica DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Eclipta",
+      "specificepithet": "elliptica",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Heliantheae Cass.;Eclipta L.;Eclipta elliptica DC.",
+      "source": "Mondin, C.A. 2015. Eclipta in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB103901>http://floradobrasil2015.jbrj.gov.br/FB103901</a>)<br><br>Alves, M. 2020. Eclipta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB103901\">https://floradobrasil2020.jbrj.gov.br/FB103901</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&amp;nbsp;\r\nMondin, C.A. 2004. &lt;em&gt;Levantamento da tribo Heliantheae Cass. (Asteraceae),&lt;/em&gt; sensu stricto&lt;em&gt;, no Rio Grande do Sul, Brasil. 2004.&lt;/em&gt; Tese de Doutorado em Ci&amp;ecirc;ncias (Bot&amp;acirc;nica).&amp;nbsp;- Universidade Federal do Rio Grande do Sul.",
+      "parentnameusage": "Eclipta L.",
+      "parentnameusageid": 16091,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB103901",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Alves, M., Remor, D., Bueno, V.R. Eclipta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB103901>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-04-09 17:53:32.87"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 103900,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eclipta bellidioides (Spreng.) Sch.Bip. ex S.F.Blake"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Pabst 10170",
+        "collectioncode": "RB",
+        "catalognumber": "RB00399551",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284145582",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 1514",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA031281",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226757323",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Jarenkow 1514",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA031281",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA031281",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pabst 10170",
+        "collectioncode": "RB",
+        "catalognumber": "RB00399551",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00399551",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

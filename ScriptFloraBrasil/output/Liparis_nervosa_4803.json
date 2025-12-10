@@ -1,0 +1,695 @@
+[
+  {
+    "taxon": {
+      "taxonid": 11797,
+      "scientificname": "Liparis nervosa (Thumb.) Lindl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Liparis",
+      "specificepithet": "nervosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Thumb.) Lindl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Liparis Rich.;Liparis nervosa (Thumb.) Lindl.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB11797>http://floradobrasil2015.jbrj.gov.br/FB11797</a>)<br><br>Santos, T.F., Smidt, E.C. 2020. Liparis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB11797\">https://floradobrasil2020.jbrj.gov.br/FB11797</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Liparis Rich.",
+      "parentnameusageid": 11796,
+      "originalnameusageid": "68370",
+      "namepublishedin": "Syst. Veg. (ed. 14) 14: 6575 1784",
+      "namepublishedinyear": "1784",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11797",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Santos, T.F., Smidt, E.C. Liparis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB11797>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-10-30 15:59:39.856"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Murray, J.A.,Syst. Veg. (ed. 14),14: 6575,1784"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 65615,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Cymbidium nervosum (Thunb.) Sw."
+      },
+      {
+        "relatedresourceid": 65839,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Diteilis nervosa (Thunb.) M.A.Clem. & D.L.Jones"
+      },
+      {
+        "relatedresourceid": 66257,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Epidendrum nervosum (Thunb.) Thunb."
+      },
+      {
+        "relatedresourceid": 67392,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Leptorkis nervosa (Thunb.) Kuntze"
+      },
+      {
+        "relatedresourceid": 68370,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Ophrys nervosa Thunb."
+      },
+      {
+        "relatedresourceid": 70395,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sturmia nervosa (Thunb.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 137219,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata Lindl."
+      },
+      {
+        "relatedresourceid": 639552,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata var. purpurascens Regel"
+      },
+      {
+        "relatedresourceid": 639553,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata var. inundata Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 639554,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata var. latifolia Ridl."
+      },
+      {
+        "relatedresourceid": 639555,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata var. rufina Ridl."
+      },
+      {
+        "relatedresourceid": 639556,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis elata var. longifolia Cogn."
+      },
+      {
+        "relatedresourceid": 639557,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis bituberculata var. khasiana Hook.f."
+      },
+      {
+        "relatedresourceid": 596627,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis kappleri (Rchb.f.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 639558,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis odontostoma Rchb.f."
+      },
+      {
+        "relatedresourceid": 639559,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis eggersii Reichb.f."
+      },
+      {
+        "relatedresourceid": 639560,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis violaceao-nervosa Guillaumin"
+      },
+      {
+        "relatedresourceid": 639561,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cymbidium bituberculatum Hook."
+      },
+      {
+        "relatedresourceid": 639562,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sturmia bituberculata (Hook.) Rchb.f"
+      },
+      {
+        "relatedresourceid": 67125,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Iebine nervosa (Thunb.) Raf."
+      },
+      {
+        "relatedresourceid": 67510,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Malaxis nervosa (Thunb.) Sw."
+      },
+      {
+        "relatedresourceid": 639550,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis bituberculata (Hook.) Lindl."
+      },
+      {
+        "relatedresourceid": 639551,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Liparis guineensis Lindl."
+      },
+      {
+        "relatedresourceid": 639563,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sturmia kappleri Reichb.f."
+      },
+      {
+        "relatedresourceid": 639564,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diteilis elata (Lindl.) M.A.Clem. & D.L.Jones"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Hagelund, K 4434",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00040341",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229157417",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vanilde Citadini-Zanette 1618",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI005837",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226145473",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, L.A. 488",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB54787",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227050607",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vanilde Citadini-Zanette 1416",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI005835",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226145469",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "FEEP 116",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00030600",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00030600",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gomes, L.A. 488",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB54787",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB54787",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hagelund, K 4434",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00040341",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00040341",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.E. Engels E.D. Lozano B.K. Canestraro M. Bolson  L. Bacci T. Bochorny 2840",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000003686",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000003686",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fonseca, MR 1382",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007376",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB007376",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "João Aguiar Nogueira Batista 3543",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00113076",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00113076",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vanilde Citadini-Zanette 1618",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI005837",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI005837",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA051530",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA051530",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Vanilde Citadini-Zanette 1416",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI005835",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI005835",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luciano de Bem Bianchetti 830",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00015103",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00015103",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Mattos Andrade, PE de 102",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007370",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB007370",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Grupo Pedra do Cavalo 458",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007373",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB007373",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA051530",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA051530",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "João Aguiar Nogueira Batista 3543",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00113076",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=256612903",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA051530",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226883628",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luciano de Bem Bianchetti 830",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00015103",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226192171",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Grupo Pedra do Cavalo 458",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007373",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96960653",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Mattos Andrade, PE de 102",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007370",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96960647",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA051530",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226883628",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fonseca, MR 1382",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB007376",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96960659",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "FEEP 116",
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00030600",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97414831",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.E. Engels E.D. Lozano B.K. Canestraro M. Bolson  L. Bacci T. Bochorny 2840",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000003686",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97152097",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

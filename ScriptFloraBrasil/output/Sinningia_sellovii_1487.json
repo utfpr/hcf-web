@@ -1,0 +1,169 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7929,
+      "scientificname": "Sinningia sellovii (Mart.) Wiehler",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Sinningia",
+      "specificepithet": "sellovii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) Wiehler",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Sinningia Nees;Sinningia sellovii (Mart.) Wiehler",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Sinningia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7929>http://floradobrasil2015.jbrj.gov.br/FB7929</a>)<br><br>Araujo, A.O., Chautems, A., Rossini, J. 2020. Sinningia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7929\">https://floradobrasil2020.jbrj.gov.br/FB7929</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sinningia Nees",
+      "parentnameusageid": 7879,
+      "originalnameusageid": "132412",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7929",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O., Chautems, A., Rossini, J. Sinningia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7929>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-30 16:42:03.86"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 132412,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gesneria sellovii Mart."
+      },
+      {
+        "relatedresourceid": 132961,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rechsteineria ramboi Hoehne"
+      },
+      {
+        "relatedresourceid": 132962,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rechsteineria sellovii (Mart.) Wiehler"
+      },
+      {
+        "relatedresourceid": 600567,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Gesnera sellovii Mart."
+      },
+      {
+        "relatedresourceid": 131893,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Corytholoma sellovii (Mart.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000509946",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000509946",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 64030",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM195317",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM195317",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fontella 1225",
+        "collectioncode": "RB",
+        "catalognumber": "RB00119310",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00119310",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fontella 1225",
+        "collectioncode": "RB",
+        "catalognumber": "RB00119310",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283747966",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000509946",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227613707",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 64030",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM195317",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229350977",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

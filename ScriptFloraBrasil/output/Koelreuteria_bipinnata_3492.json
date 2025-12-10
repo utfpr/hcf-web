@@ -1,0 +1,176 @@
+[
+  {
+    "taxon": {
+      "taxonid": 638654,
+      "scientificname": "Koelreuteria bipinnata Franch.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Koelreuteria",
+      "specificepithet": "bipinnata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Franch.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Koelreuteria Laxm.;Koelreuteria bipinnata Franch.",
+      "source": "Lorenzi, H.; Bacher, L.B.; Torres, M.A.V. &amp;Aacute;rvores e arvoretas ex&amp;oacute;ticas no Brasil: madeireiras, ornamentais e arom&amp;aacute;ticas. Nova Odessa, SP: Instituto Plantarum de estudos da flora, 2018. p.440.\r\nWFO. https://www.worldfloraonline.org/taxon/wfo-0001135155",
+      "parentnameusage": "Koelreuteria Laxm.",
+      "parentnameusageid": 638651,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB638654",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-29 11:27:22.199"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "árvore-da-china",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638657,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Koelreuteria bipinnata var. puberula Chun"
+      },
+      {
+        "relatedresourceid": 638656,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Koelreuteria integrifoliola Merr."
+      },
+      {
+        "relatedresourceid": 638655,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Koelreuteria bipinnata var. integrifoliola (Merr.) T.C.Chen"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 638655,
+      "scientificname": "Koelreuteria bipinnata var. integrifoliola (Merr.) T.C.Chen",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Koelreuteria",
+      "specificepithet": "bipinnata",
+      "infraspecificepithet": "integrifoliola",
+      "scientificnameauthorship": "(Merr.) T.C.Chen",
+      "acceptednameusage": "Koelreuteria bipinnata Franch.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Koelreuteria Laxm.;Koelreuteria bipinnata Franch.;Koelreuteria bipinnata var. integrifoliola (Merr.) T.C.Chen",
+      "source": "WFO. https://www.worldfloraonline.org/taxon/wfo-0001387771",
+      "parentnameusage": "Koelreuteria bipinnata Franch.",
+      "parentnameusageid": 638654,
+      "originalnameusageid": "638656",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB638655",
+      "acceptednameusageid": 638654,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-29 10:40:49.586"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638654,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Koelreuteria bipinnata Franch."
+      },
+      {
+        "relatedresourceid": 638656,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Koelreuteria integrifoliola Merr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 638657,
+      "scientificname": "Koelreuteria bipinnata var. puberula Chun",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Koelreuteria",
+      "specificepithet": "bipinnata",
+      "infraspecificepithet": "puberula",
+      "scientificnameauthorship": "Chun",
+      "acceptednameusage": "Koelreuteria bipinnata Franch.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Koelreuteria Laxm.;Koelreuteria bipinnata Franch.;Koelreuteria bipinnata var. puberula Chun",
+      "source": "WFO. https://www.worldfloraonline.org/taxon/wfo-0001221539",
+      "parentnameusage": "Koelreuteria bipinnata Franch.",
+      "parentnameusageid": 638654,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB638657",
+      "acceptednameusageid": 638654,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-08-29 10:51:14.7"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638654,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Koelreuteria bipinnata Franch."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6406,
+      "scientificname": "Tillandsia streptocarpa Baker",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Tillandsia",
+      "specificepithet": "streptocarpa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Baker",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Tillandsia L.;Tillandsia streptocarpa Baker",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6406>http://floradobrasil2015.jbrj.gov.br/FB6406</a>)<br><br>Tardivo, R.C., Araújo, C.C., Paixão Souza, B. 2020. Tillandsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6406\">https://floradobrasil2020.jbrj.gov.br/FB6406</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Siqueira-Filho, J.A. &amp;amp; Leme, E.M.C. 2006. Fragmentos de Mata Atl&amp;acirc;ntica do Nordeste: Biodiversidade, conserva&amp;ccedil;&amp;atilde;o e suas brom&amp;eacute;lias. Andrea Jakobsson Est&amp;uacute;dio Editorial Ltda., Rio de Janeiro. 416 p.\r\nPAIX&amp;Atilde;O-SOUZA, B. 2012. Taxonomia e Anatomia foliar do complexo Tillandsia streptocarpa Baker (Tillhandsia subg. Phytarrhiza &amp;ndash; Bromeliaceae) . Disserta&amp;ccedil;&amp;atilde;o (Mestrado). Universidade Federal de Vi&amp;ccedil;osa.",
+      "parentnameusage": "Tillandsia L.",
+      "parentnameusageid": 6361,
+      "originalnameusageid": null,
+      "namepublishedin": "J. Bot. 25: 241 1887",
+      "namepublishedinyear": "1887",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6406",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Tardivo, R.C., Araújo, C.C., Paixão Souza, B. Tillandsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB6406>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-11 21:34:35.971"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Baker, J.G.,J. Bot.,25: 241,1887"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 47020,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia duratii subsp. streptocarpa (Baker) Halda"
+      },
+      {
+        "relatedresourceid": 46994,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia condensata Baker"
+      },
+      {
+        "relatedresourceid": 46959,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia bakeriana Britten"
+      },
+      {
+        "relatedresourceid": 47176,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia soratensis Baker"
+      },
+      {
+        "relatedresourceid": 47185,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa var. peruviana Ule"
+      },
+      {
+        "relatedresourceid": 47184,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa var. filifolia Hassl."
+      },
+      {
+        "relatedresourceid": 47186,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa var. pungens Chodat & Vischer"
+      },
+      {
+        "relatedresourceid": 47183,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa var. aureiflora Rauh"
+      },
+      {
+        "relatedresourceid": 46950,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia apoloensis Rusby"
+      },
+      {
+        "relatedresourceid": 47152,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia retrorsa Silveira"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "R.F. Monteiro 12",
+        "collectioncode": "RB",
+        "catalognumber": "RB00550539",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00550539",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gay 9093",
+        "collectioncode": "P",
+        "catalognumber": "P01641210",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01641210",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Siqueira Filho 1539",
+        "collectioncode": "HVASF",
+        "catalognumber": "HVASF4584",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HVASF4584",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gay 9093",
+        "collectioncode": "P",
+        "catalognumber": "P01641210",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197345287",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.F. Monteiro 12",
+        "collectioncode": "RB",
+        "catalognumber": "RB00550539",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284424720",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Siqueira Filho 1539",
+        "collectioncode": "HVASF",
+        "catalognumber": "HVASF4584",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=277606034",
+        "locality": "PE",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 47183,
+      "scientificname": "Tillandsia streptocarpa var. aureiflora Rauh",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Tillandsia",
+      "specificepithet": "streptocarpa",
+      "infraspecificepithet": "aureiflora",
+      "scientificnameauthorship": "Rauh",
+      "acceptednameusage": "Tillandsia streptocarpa Baker",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Tillandsia L.;Tillandsia streptocarpa Baker;Tillandsia streptocarpa var. aureiflora Rauh",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47183>http://floradobrasil2015.jbrj.gov.br/FB47183</a>)<br><br>Tardivo, R.C., Araújo, C.C., Paixão Souza, B. 2020. Tillandsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47183\">https://floradobrasil2020.jbrj.gov.br/FB47183</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tillandsia streptocarpa Baker",
+      "parentnameusageid": 6406,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47183",
+      "acceptednameusageid": 6406,
+      "bibliographiccitation_how_to_cite": "Tardivo, R.C., Araújo, C.C., Paixão Souza, B. Tillandsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB47183>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-04-03 20:09:13.401"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Trop. Subtrop. Pflanzenwelt,50: 14,1984"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6406,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa Baker"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47184,
+      "scientificname": "Tillandsia streptocarpa var. filifolia Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Tillandsia",
+      "specificepithet": "streptocarpa",
+      "infraspecificepithet": "filifolia",
+      "scientificnameauthorship": "Hassl.",
+      "acceptednameusage": "Tillandsia streptocarpa Baker",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Tillandsia L.;Tillandsia streptocarpa Baker;Tillandsia streptocarpa var. filifolia Hassl.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47184>http://floradobrasil2015.jbrj.gov.br/FB47184</a>)<br><br>Tardivo, R.C., Araújo, C.C., Paixão Souza, B. 2020. Tillandsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47184\">https://floradobrasil2020.jbrj.gov.br/FB47184</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tillandsia streptocarpa Baker",
+      "parentnameusageid": 6406,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47184",
+      "acceptednameusageid": 6406,
+      "bibliographiccitation_how_to_cite": "Tardivo, R.C., Araújo, C.C., Paixão Souza, B. Tillandsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB47184>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-04-03 20:10:10.463"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Annuaire Conserv. Jard. Bot. Genève,20: 326,1919"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6406,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa Baker"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47185,
+      "scientificname": "Tillandsia streptocarpa var. peruviana Ule",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Tillandsia",
+      "specificepithet": "streptocarpa",
+      "infraspecificepithet": "peruviana",
+      "scientificnameauthorship": "Ule",
+      "acceptednameusage": "Tillandsia streptocarpa Baker",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Tillandsia L.;Tillandsia streptocarpa Baker;Tillandsia streptocarpa var. peruviana Ule",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47185>http://floradobrasil2015.jbrj.gov.br/FB47185</a>)<br><br>Tardivo, R.C., Araújo, C.C., Paixão Souza, B. 2020. Tillandsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47185\">https://floradobrasil2020.jbrj.gov.br/FB47185</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tillandsia streptocarpa Baker",
+      "parentnameusageid": 6406,
+      "originalnameusageid": null,
+      "namepublishedin": "Verh. Bot. Vereins Prov. Brandenburg 48: 146 1907",
+      "namepublishedinyear": "1907",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47185",
+      "acceptednameusageid": 6406,
+      "bibliographiccitation_how_to_cite": "Tardivo, R.C., Araújo, C.C., Paixão Souza, B. Tillandsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB47185>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-04-03 20:11:14.259"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Verh. Bot. Vereins Prov. Brandenburg,48: 146,1907"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6406,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa Baker"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 47186,
+      "scientificname": "Tillandsia streptocarpa var. pungens Chodat & Vischer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Tillandsia",
+      "specificepithet": "streptocarpa",
+      "infraspecificepithet": "pungens",
+      "scientificnameauthorship": "Chodat & Vischer",
+      "acceptednameusage": "Tillandsia streptocarpa Baker",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Tillandsia L.;Tillandsia streptocarpa Baker;Tillandsia streptocarpa var. pungens Chodat & Vischer",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB47186>http://floradobrasil2015.jbrj.gov.br/FB47186</a>)<br><br>Tardivo, R.C., Araújo, C.C., Paixão Souza, B. 2020. Tillandsia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB47186\">https://floradobrasil2020.jbrj.gov.br/FB47186</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tillandsia streptocarpa Baker",
+      "parentnameusageid": 6406,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB47186",
+      "acceptednameusageid": 6406,
+      "bibliographiccitation_how_to_cite": "Tardivo, R.C., Araújo, C.C., Paixão Souza, B. Tillandsia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB47186>. Acesso em: 20 nov. 2025.",
+      "modified": "2013-04-03 20:11:57.692"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bull. Soc. Bot. Genève (ser. 2),8: 217,1916"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6406,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia streptocarpa Baker"
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8264,
+      "scientificname": "Hyptis turnerifolia Mart. ex Benth.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lamiaceae",
+      "genus": "Hyptis",
+      "specificepithet": "turnerifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart. ex Benth.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lamiaceae Martinov;Hyptis Jacq.;Hyptis turnerifolia Mart. ex Benth.",
+      "source": "Harley, R.,França, F.,Santos, E.P.,Santos, J.S.,Pastore, J.F. 2015. Lamiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8264>http://floradobrasil2015.jbrj.gov.br/FB8264</a>)<br><br>Harley, R.M., Antar, G.M. 2020. Hyptis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8264\">https://floradobrasil2020.jbrj.gov.br/FB8264</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Hyptis Jacq.",
+      "parentnameusageid": 8183,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8264",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Harley, R.M., Antar, G.M. Hyptis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8264>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 12:15:54.168"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bentham, G.,Labiat. Gen. Spec.,: 93,1833"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 58722,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyptis crulsii Glaz."
+      },
+      {
+        "relatedresourceid": 59428,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mesosphaerum turnerifolium (Mart. ex Benth.) Kuntze"
+      },
+      {
+        "relatedresourceid": 58761,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyptis gratiolifolia A.St.-Hil. ex Benth."
+      },
+      {
+        "relatedresourceid": 59287,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosphaerum gratiolifolium (A.St.-Hil. ex Benth.) Kuntze"
+      },
+      {
+        "relatedresourceid": 594922,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyptis gratiolaefolia A. St-Hil. x Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 43080",
+        "collectioncode": "K",
+        "catalognumber": "K001228866",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001228866",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 43080",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM066573",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM066573",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 43080",
+        "collectioncode": "K",
+        "catalognumber": "K001228866",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227248832",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 43080",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM066573",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229302834",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  }
+]

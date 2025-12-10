@@ -1,0 +1,617 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6715,
+      "scientificname": "Polycarpaea corymbosa (L.) Lam.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Caryophyllaceae",
+      "genus": "Polycarpaea",
+      "specificepithet": "corymbosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Lam.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Caryophyllaceae Juss.;Polycarpaea Lam.;Polycarpaea corymbosa (L.) Lam.",
+      "source": "Carneiro, C.E. 2015. Caryophyllaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6715>http://floradobrasil2015.jbrj.gov.br/FB6715</a>)<br><br>Carneiro, C.E. Caryophyllaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6715\">https://floradobrasil2020.jbrj.gov.br/FB6715</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;color: #386134; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; background-color: #ffffff;&quot;&gt;Carneiro, C.E. 2004. A fam&amp;iacute;lia Caryophyllaceae no Brasil. UNESP. Rio Claro, SP. Tese de Doutorado.&lt;/span&gt;",
+      "parentnameusage": "Polycarpaea Lam.",
+      "parentnameusageid": 6714,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 14(2): 253-264 1872",
+      "namepublishedinyear": "1872",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6715",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Carneiro, C.E. Caryophyllaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB6715>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-06-22 17:04:23.77"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta de Terra Firme",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,14(2): tab. 58,1872"
+      },
+      {
+        "reference": "Fl. bras.,14(2): 253-264,1872"
+      },
+      {
+        "reference": "Fl. bras.,14(2): 255-256,1872"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 136692,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea indica Poiret"
+      },
+      {
+        "relatedresourceid": 136687,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polia arenaria Loureiro"
+      },
+      {
+        "relatedresourceid": 136697,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paronychia subulata Poir."
+      },
+      {
+        "relatedresourceid": 136695,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea spadicea Lamarck"
+      },
+      {
+        "relatedresourceid": 136690,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea filifolia Muschl."
+      },
+      {
+        "relatedresourceid": 136696,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Paronychia linearifolia DC. ex Poir."
+      },
+      {
+        "relatedresourceid": 136694,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea nebulosa Lakela"
+      },
+      {
+        "relatedresourceid": 136693,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea linearifolia (DC. ex Poir.) DC."
+      },
+      {
+        "relatedresourceid": 136691,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Polycarpaea grandiflora (Pax) A. Chevalier"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J. Guimarães 198",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066903",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284646996",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I.S. Miranda 176",
+        "collectioncode": "RB",
+        "catalognumber": "RB00788998",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284826610",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Pereira 9069",
+        "collectioncode": "RB",
+        "catalognumber": "RB00491713",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284333510",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Glaziou 3789/A",
+        "collectioncode": "P",
+        "catalognumber": "P04925964",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227901201",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, M.A.P. 3851",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0049672",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0049672",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Pereira 9069",
+        "collectioncode": "RB",
+        "catalognumber": "RB00491713",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00491713",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.A. Assis 1113",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066630",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00066630",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I.S. Miranda 176",
+        "collectioncode": "RB",
+        "catalognumber": "RB00788998",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00788998",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Guimarães 198",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066903",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00066903",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Glaziou 3789/A",
+        "collectioncode": "P",
+        "catalognumber": "P04925964",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P04925964",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fonseca, M.L. 6437",
+        "collectioncode": "RB",
+        "catalognumber": "RB00681490",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00681490",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, A.C.P. 733",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00012379",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00012379",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Spruce 732",
+        "collectioncode": "P",
+        "catalognumber": "P04925962",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P04925962",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 21899",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066929",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00066929",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Loefgren CGG973",
+        "collectioncode": "SP",
+        "catalognumber": "SP023388",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP023388",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Spruce 732",
+        "collectioncode": "P",
+        "catalognumber": "P04925962",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227901197",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, A.C.P. 733",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00012379",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100441067",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 21899",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066929",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284646958",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, M.A.P. 3851",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0049672",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226671461",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Fonseca, M.L. 6437",
+        "collectioncode": "RB",
+        "catalognumber": "RB00681490",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284669546",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.A. Assis 1113",
+        "collectioncode": "RB",
+        "catalognumber": "RB00066630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284644954",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

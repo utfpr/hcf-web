@@ -1,0 +1,129 @@
+[
+  {
+    "taxon": {
+      "taxonid": 31256,
+      "scientificname": "Mimosa orthacantha Benth.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "orthacantha",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Benth.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa orthacantha Benth.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB31256>http://floradobrasil2015.jbrj.gov.br/FB31256</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB31256\">https://floradobrasil2020.jbrj.gov.br/FB31256</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Barneby, R. C. 1991. Sensitivae censitae: a description of the genus Mimosa Linnaeus (Mimosaceae) in the new world. Memoirs of the New York Botanical Garden 65: 1-835.",
+      "parentnameusage": "Mimosa L.",
+      "parentnameusageid": 23084,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB31256",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-27 03:09:15.569"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 124014,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa botucatuana Hoehne"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Souza, VC 4233",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00130786",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00130786",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, F.C. s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000532623",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000532623",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 58198",
+        "collectioncode": "RB",
+        "catalognumber": "RB00164442",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00164442",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 58198",
+        "collectioncode": "RB",
+        "catalognumber": "RB00164442",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283819476",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, F.C. s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000532623",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227581625",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Souza, VC 4233",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00130786",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99853785",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

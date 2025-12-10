@@ -1,0 +1,122 @@
+[
+  {
+    "taxon": {
+      "taxonid": 137655,
+      "scientificname": "Misopates orontium (L.) Raf.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Misopates",
+      "specificepithet": "orontium",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Raf.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Misopates Raf.;Misopates orontium (L.) Raf.",
+      "source": "Souza, V.C.,Hassemer, G. 2015. Plantaginaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB137655>http://floradobrasil2015.jbrj.gov.br/FB137655</a>)<br><br>Souza, V.C., Scatigna, A.V., Hassemer, G., Colletta, G.D. Plantaginaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB137655\">https://floradobrasil2020.jbrj.gov.br/FB137655</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Misopates Raf.",
+      "parentnameusageid": 137654,
+      "originalnameusageid": "137657",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB137655",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Souza, V.C., Scatigna, A.V., Hassemer, G., Colletta, G.D. Plantaginaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB137655>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-25 11:58:46.901"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "boca-de-leão-selvagem",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 137657,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Antirrhinum orontium L."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "C.L.F. Ichaso 150",
+        "collectioncode": "RB",
+        "catalognumber": "RB00381581",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00381581",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.L.F. Ichaso 150",
+        "collectioncode": "RB",
+        "catalognumber": "RB00381581",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284104868",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  }
+]

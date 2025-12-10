@@ -1,0 +1,454 @@
+[
+  {
+    "taxon": {
+      "taxonid": 25545,
+      "scientificname": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "daphnoides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) F.Dietr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys daphnoides (Mart.) F.Dietr.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB25545>http://floradobrasil2015.jbrj.gov.br/FB25545</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB25545\">https://floradobrasil2020.jbrj.gov.br/FB25545</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys A.Juss.",
+      "parentnameusageid": 25542,
+      "originalnameusageid": "54432",
+      "namepublishedin": "Neu. Nachtr. Vollst. Lex. Gärtn. 5:555 1836",
+      "namepublishedinyear": "1836",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB25545",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB25545>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-08-09 15:26:58.631"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "F. Dietr.,Neu. Nachtr. Vollst. Lex. Gärtn.,5:555,1836"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 57172,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides var. daphnoides (Mart.) Pax"
+      },
+      {
+        "relatedresourceid": 57173,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides var. incana (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57174,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides var. intermedia (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57175,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides var. major (Müll.Arg.) Pax"
+      },
+      {
+        "relatedresourceid": 57176,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides var. martiana Pax"
+      },
+      {
+        "relatedresourceid": 56200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides var. incana Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides var. oleoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56201,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides var. myrtilloides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 29370,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sebastiania daphnoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57178,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania oleoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57083,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57084,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. incana (Müll.Arg.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57085,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. intermedia Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57086,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. major Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57087,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. myrtilloides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 57088,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania daphnoides var. oleoides (Mart.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56199,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 17680,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sebastiania myrtilloides (Mart.) Pax"
+      },
+      {
+        "relatedresourceid": 54432,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cnemidostachys daphnoides Mart."
+      },
+      {
+        "relatedresourceid": 54441,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys myrtilloides Mart."
+      },
+      {
+        "relatedresourceid": 54442,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cnemidostachys oleoides Mart."
+      },
+      {
+        "relatedresourceid": 57291,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Stillingia myrtilloides (Mart.) Baill."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "P",
+        "catalognumber": "P00716973",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00716973",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "P",
+        "catalognumber": "P00716973",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228069697",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 56199,
+      "scientificname": "Microstachys daphnoides var. genuina Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "daphnoides",
+      "infraspecificepithet": "genuina",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys daphnoides (Mart.) F.Dietr.;Microstachys daphnoides var. genuina Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56199>http://floradobrasil2015.jbrj.gov.br/FB56199</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56199\">https://floradobrasil2020.jbrj.gov.br/FB56199</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "parentnameusageid": 25545,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56199",
+      "acceptednameusageid": 25545,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56199>. Acesso em: 20 nov. 2025.",
+      "modified": "2011-10-19 16:24:47.682694"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,32: 91,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25545,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides (Mart.) F.Dietr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 56200,
+      "scientificname": "Microstachys daphnoides var. incana Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "daphnoides",
+      "infraspecificepithet": "incana",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys daphnoides (Mart.) F.Dietr.;Microstachys daphnoides var. incana Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56200>http://floradobrasil2015.jbrj.gov.br/FB56200</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56200\">https://floradobrasil2020.jbrj.gov.br/FB56200</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "parentnameusageid": 25545,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56200",
+      "acceptednameusageid": 25545,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56200>. Acesso em: 20 nov. 2025.",
+      "modified": "2011-10-19 16:25:04.215979"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,32: 91,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25545,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides (Mart.) F.Dietr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 56201,
+      "scientificname": "Microstachys daphnoides var. myrtilloides (Mart.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "daphnoides",
+      "infraspecificepithet": "myrtilloides",
+      "scientificnameauthorship": "(Mart.) Müll.Arg.",
+      "acceptednameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys daphnoides (Mart.) F.Dietr.;Microstachys daphnoides var. myrtilloides (Mart.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56201>http://floradobrasil2015.jbrj.gov.br/FB56201</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56201\">https://floradobrasil2020.jbrj.gov.br/FB56201</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "parentnameusageid": 25545,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56201",
+      "acceptednameusageid": 25545,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56201>. Acesso em: 20 nov. 2025.",
+      "modified": "2011-10-19 16:25:27.605918"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,32: 91,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25545,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides (Mart.) F.Dietr."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 56202,
+      "scientificname": "Microstachys daphnoides var. oleoides (Mart.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Microstachys",
+      "specificepithet": "daphnoides",
+      "infraspecificepithet": "oleoides",
+      "scientificnameauthorship": "(Mart.) Müll.Arg.",
+      "acceptednameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Microstachys A.Juss.;Microstachys daphnoides (Mart.) F.Dietr.;Microstachys daphnoides var. oleoides (Mart.) Müll.Arg.",
+      "source": "Cordeiro, I.,Secco, R.,Pscheidt, A.C. 2015. Microstachys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56202>http://floradobrasil2015.jbrj.gov.br/FB56202</a>)<br><br>Cordeiro, I., Pscheidt, A.C., Esser, H.-J. 2020. Microstachys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56202\">https://floradobrasil2020.jbrj.gov.br/FB56202</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Microstachys daphnoides (Mart.) F.Dietr.",
+      "parentnameusageid": 25545,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56202",
+      "acceptednameusageid": 25545,
+      "bibliographiccitation_how_to_cite": "Cordeiro, I., Pscheidt, A.C., Esser, H.-J. Microstachys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56202>. Acesso em: 20 nov. 2025.",
+      "modified": "2011-10-19 16:25:43.875891"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Linnaea,32: 91,1863"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25545,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Microstachys daphnoides (Mart.) F.Dietr."
+      }
+    ],
+    "voucher": []
+  }
+]

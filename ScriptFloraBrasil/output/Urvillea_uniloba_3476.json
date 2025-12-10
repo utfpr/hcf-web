@@ -1,0 +1,231 @@
+[
+  {
+    "taxon": {
+      "taxonid": 108599,
+      "scientificname": "Urvillea uniloba Radlk.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Urvillea",
+      "specificepithet": "uniloba",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Radlk.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Urvillea Kunth;Urvillea uniloba Radlk.",
+      "source": "Somner, G.V.,Ferrucci, M.S.,Acevedo-Rodríguez, P. 2015. Urvillea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB108599>http://floradobrasil2015.jbrj.gov.br/FB108599</a>)<br><br>Ferrucci, M.S. 2020. Urvillea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB108599\">https://floradobrasil2020.jbrj.gov.br/FB108599</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: &#39;times new roman&#39;, times, serif; font-size: 12pt;&quot;&gt;Radlkofer, L. 1878. Ueber &lt;em&gt;Sapindus&lt;/em&gt; und damit in Zusammenhang stehende Pflanzen. Sitzungsber. Math.-Phys. Cl. K&amp;ouml;nigl. Bayer. Akad. Wiss. M&amp;uuml;nchen 8: 221-408.&lt;/span&gt;",
+      "parentnameusage": "Urvillea Kunth",
+      "parentnameusageid": 20996,
+      "originalnameusageid": null,
+      "namepublishedin": "Sitzungsber. Math.-Phys. Cl. Königl. Bayer. Akad. Wiss. München 8: 264 1878",
+      "namepublishedinyear": "1878",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB108599",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Ferrucci, M.S. Urvillea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB108599>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-21 10:03:07.784"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Radlkofer, L.A.T.,Sitzungsber. Math.-Phys. Cl. Königl. Bayer. Akad. Wiss. München,8: 264,1878"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 136892,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Urvillea euryptera Griseb."
+      },
+      {
+        "relatedresourceid": 601071,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba form. incana Radlk."
+      },
+      {
+        "relatedresourceid": 601435,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba form. incana Radlk."
+      },
+      {
+        "relatedresourceid": 601229,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba form. incana Radlk."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Jarenkow 696",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC085893",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC085893",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 601071,
+      "scientificname": "Urvillea uniloba form. incana Radlk.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Urvillea",
+      "specificepithet": "uniloba",
+      "infraspecificepithet": "incana",
+      "scientificnameauthorship": "Radlk.",
+      "acceptednameusage": "Urvillea uniloba Radlk.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Urvillea Kunth;Urvillea uniloba Radlk.;Urvillea uniloba form. incana Radlk.",
+      "source": "Ferrucci, M.S. 2020. Urvillea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601071\">https://floradobrasil2020.jbrj.gov.br/FB601071</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FERRUCCI, M. S. 2020. Revisi&amp;oacute;n taxon&amp;oacute;mica de Urvillea (Sapindaceae, Paullinieae): Un g&amp;eacute;nero americano. Bol. Argent. Bot. 55:&amp;nbsp; 53-130.",
+      "parentnameusage": "Urvillea uniloba Radlk.",
+      "parentnameusageid": 108599,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601071",
+      "acceptednameusageid": 108599,
+      "bibliographiccitation_how_to_cite": "Ferrucci, M.S. Urvillea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601071>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 20:45:30.184"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 108599,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba Radlk."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601229,
+      "scientificname": "Urvillea uniloba form. incana Radlk.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Urvillea",
+      "specificepithet": "uniloba",
+      "infraspecificepithet": "incana",
+      "scientificnameauthorship": "Radlk.",
+      "acceptednameusage": "Urvillea uniloba Radlk.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Urvillea Kunth;Urvillea uniloba Radlk.;Urvillea uniloba form. incana Radlk.",
+      "source": "Ferrucci, M.S. 2020. Urvillea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601229\">https://floradobrasil2020.jbrj.gov.br/FB601229</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FERRUCCI, M.S. 2020. Revisi&amp;oacute;n taxon&amp;oacute;mica de Urvillea (Sapindaceae, Paullinieae): Un g&amp;eacute;nero americano. Bol. Soc. Argent. Bot. 55: 53-130.",
+      "parentnameusage": "Urvillea uniloba Radlk.",
+      "parentnameusageid": 108599,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601229",
+      "acceptednameusageid": 108599,
+      "bibliographiccitation_how_to_cite": "Ferrucci, M.S. Urvillea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601229>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 20:49:43.636"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 108599,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba Radlk."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 601435,
+      "scientificname": "Urvillea uniloba form. incana Radlk.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Urvillea",
+      "specificepithet": "uniloba",
+      "infraspecificepithet": "incana",
+      "scientificnameauthorship": "Radlk.",
+      "acceptednameusage": "Urvillea uniloba Radlk.",
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Urvillea Kunth;Urvillea uniloba Radlk.;Urvillea uniloba form. incana Radlk.",
+      "source": "Ferrucci, M.S. 2020. Urvillea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601435\">https://floradobrasil2020.jbrj.gov.br/FB601435</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).FERRUCCI, M. S. 2020. Revisi&amp;oacute;n taxon&amp;oacute;mica de Urvillea (Sapindaceae, Paullinieae): Un g&amp;eacute;nero americano. Bol. Soc. Argent. Bot. 55: 53-130.",
+      "parentnameusage": "Urvillea uniloba Radlk.",
+      "parentnameusageid": 108599,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601435",
+      "acceptednameusageid": 108599,
+      "bibliographiccitation_how_to_cite": "Ferrucci, M.S. Urvillea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601435>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 20:53:01.034"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 108599,
+        "relationshipofresource": null,
+        "scientificname": "Urvillea uniloba Radlk."
+      }
+    ],
+    "voucher": []
+  }
+]

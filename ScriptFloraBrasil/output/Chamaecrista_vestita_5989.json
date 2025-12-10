@@ -1,0 +1,157 @@
+[
+  {
+    "taxon": {
+      "taxonid": 100883,
+      "scientificname": "Chamaecrista vestita (Vogel) H.S.Irwin & Barneby",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Chamaecrista",
+      "specificepithet": "vestita",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vogel) H.S.Irwin & Barneby",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Chamaecrista (L.) Moench;Chamaecrista vestita (Vogel) H.S.Irwin & Barneby",
+      "source": "Souza, V.C.,Bortoluzzi, R.L.C. 2015. Chamaecrista in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB100883>http://floradobrasil2015.jbrj.gov.br/FB100883</a>)<br><br>Rando, J.G., Cota, M.M.T., Conceição, A.S., Barbosa, A.R., Barros, T.L.A. 2020. Chamaecrista in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB100883\">https://floradobrasil2020.jbrj.gov.br/FB100883</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-weight: 400;&quot;&gt;Irwin, H.S. &amp;amp; Barneby, R.C. (1982) The American Cassiinae. A synoptical revision of Leguminosae, tribe Cassieae, subtribe Cassiinae in New World. Memoirs of the New York Botanical Garden 35 (1&amp;ndash;2): 1&amp;ndash;918.&lt;/span&gt;",
+      "parentnameusage": "Chamaecrista (L.) Moench",
+      "parentnameusageid": 22876,
+      "originalnameusageid": "116042",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB100883",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-28 22:40:53.989"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Irwin, H.S. & Barneby, R.C.,1982"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 116042,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cassia vestita Vogel"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM013631",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229202006",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 10643",
+        "collectioncode": "K",
+        "catalognumber": "K000839454",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227134814",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "NY",
+        "catalognumber": "NY00470770",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00470770",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "NY",
+        "catalognumber": "NY00470774",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00470774",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.B. Smith 10643",
+        "collectioncode": "K",
+        "catalognumber": "K000839454",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000839454",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM013631",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM013631",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "NY",
+        "catalognumber": "NY00470770",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228101771",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 23926",
+        "collectioncode": "NY",
+        "catalognumber": "NY00470774",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228101777",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

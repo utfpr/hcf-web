@@ -1,0 +1,661 @@
+[
+  {
+    "taxon": {
+      "taxonid": 23094,
+      "scientificname": "Mimosa velloziana Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB23094>http://floradobrasil2015.jbrj.gov.br/FB23094</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB23094\">https://floradobrasil2020.jbrj.gov.br/FB23094</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa L.",
+      "parentnameusageid": 23084,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB23094",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-06-09 10:00:25.618"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Campinarana",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,vol. 15, part. 2, tab. 80,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 125194,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa heterocarpa K.Presl"
+      },
+      {
+        "relatedresourceid": 125197,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa maxonii Standl."
+      },
+      {
+        "relatedresourceid": 125196,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa jiramenensis Karsten"
+      },
+      {
+        "relatedresourceid": 125193,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa velloziana var. oranensis Burkart"
+      },
+      {
+        "relatedresourceid": 125192,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa velloziana var. glabra Wawra"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Saint-Hilaire 49d",
+        "collectioncode": "P",
+        "catalognumber": "P00684551",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00684551",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire 49d",
+        "collectioncode": "P",
+        "catalognumber": "P00684551",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197497515",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 123964,
+      "scientificname": "Mimosa velloziana var. glaberrima Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "glaberrima",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. glaberrima Chodat & Hassl.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB123964>http://floradobrasil2015.jbrj.gov.br/FB123964</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB123964\">https://floradobrasil2020.jbrj.gov.br/FB123964</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": "31248",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB123964",
+      "acceptednameusageid": 83410,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 14:34:20.962"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 83410,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis"
+      },
+      {
+        "relatedresourceid": 31248,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Mimosa nuda var. glaberrima (Chodat & Hassl.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 123966,
+      "scientificname": "Mimosa velloziana var. malmeana Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "malmeana",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. malmeana Chodat & Hassl.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB123966>http://floradobrasil2015.jbrj.gov.br/FB123966</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB123966\">https://floradobrasil2020.jbrj.gov.br/FB123966</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB123966",
+      "acceptednameusageid": 83410,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 14:38:50.939"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 83410,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis"
+      },
+      {
+        "relatedresourceid": 31248,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa nuda var. glaberrima (Chodat & Hassl.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 123968,
+      "scientificname": "Mimosa velloziana var. atrostipulata Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "atrostipulata",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. atrostipulata Chodat & Hassl.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB123968>http://floradobrasil2015.jbrj.gov.br/FB123968</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB123968\">https://floradobrasil2020.jbrj.gov.br/FB123968</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB123968",
+      "acceptednameusageid": 83410,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 14:32:05.378"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 83410,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis"
+      },
+      {
+        "relatedresourceid": 31248,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa nuda var. glaberrima (Chodat & Hassl.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 123969,
+      "scientificname": "Mimosa velloziana var. inermis Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "inermis",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. inermis Chodat & Hassl.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB123969>http://floradobrasil2015.jbrj.gov.br/FB123969</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB123969\">https://floradobrasil2020.jbrj.gov.br/FB123969</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB123969",
+      "acceptednameusageid": 83410,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 14:37:16.658"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 83410,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis"
+      },
+      {
+        "relatedresourceid": 31248,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa nuda var. glaberrima (Chodat & Hassl.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 123971,
+      "scientificname": "Mimosa velloziana var. guaranitica Chodat & Hassl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "guaranitica",
+      "scientificnameauthorship": "Chodat & Hassl.",
+      "acceptednameusage": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. guaranitica Chodat & Hassl.",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB123971>http://floradobrasil2015.jbrj.gov.br/FB123971</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB123971\">https://floradobrasil2020.jbrj.gov.br/FB123971</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB123971",
+      "acceptednameusageid": 83410,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 14:35:34.817"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 83410,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa debilis Humb. & Bonpl. ex Willd. var. debilis"
+      },
+      {
+        "relatedresourceid": 31248,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa nuda var. glaberrima (Chodat & Hassl.) Barneby"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 125192,
+      "scientificname": "Mimosa velloziana var. glabra Wawra",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "glabra",
+      "scientificnameauthorship": "Wawra",
+      "acceptednameusage": "Mimosa velloziana Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. glabra Wawra",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB125192>http://floradobrasil2015.jbrj.gov.br/FB125192</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB125192\">https://floradobrasil2020.jbrj.gov.br/FB125192</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB125192",
+      "acceptednameusageid": 23094,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2011-12-28 12:07:15.863887"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 23094,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa velloziana Mart."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 125193,
+      "scientificname": "Mimosa velloziana var. oranensis Burkart",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Mimosa",
+      "specificepithet": "velloziana",
+      "infraspecificepithet": "oranensis",
+      "scientificnameauthorship": "Burkart",
+      "acceptednameusage": "Mimosa velloziana Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Mimosa L.;Mimosa velloziana Mart.;Mimosa velloziana var. oranensis Burkart",
+      "source": "Dutra, V.F.,Morim, M.P. 2015. Mimosa in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB125193>http://floradobrasil2015.jbrj.gov.br/FB125193</a>)<br><br>Dutra, V.F., Morales, M., Jordão, L.S.B., Borges, L.M., Silveira, F.S., Simon, M.F., Santos-Silva, J., Nascimento, J.G.A., Ribas, O.D.S. 2020. Mimosa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB125193\">https://floradobrasil2020.jbrj.gov.br/FB125193</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mimosa velloziana Mart.",
+      "parentnameusageid": 23094,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB125193",
+      "acceptednameusageid": 23094,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2011-12-28 12:08:26.410401"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 23094,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mimosa velloziana Mart."
+      }
+    ],
+    "voucher": []
+  }
+]

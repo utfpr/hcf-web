@@ -1,0 +1,634 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5927,
+      "scientificname": "Billbergia distachia (Vell.) Mez",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Billbergia",
+      "specificepithet": "distachia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vell.) Mez",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Billbergia Thunb.;Billbergia distachia (Vell.) Mez",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5927>http://floradobrasil2015.jbrj.gov.br/FB5927</a>)<br><br>Jacques, S.S.A., Neves, B. 2020. Billbergia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5927\">https://floradobrasil2020.jbrj.gov.br/FB5927</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Billbergia Thunb.",
+      "parentnameusageid": 5920,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 3(3): 417 1892",
+      "namepublishedinyear": "1892",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5927",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, S.S.A., Neves, B. Billbergia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5927>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-08-31 21:36:08.508"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mez, C.,Fl. bras.,3(3): 417,1892"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 593688,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Billbergia distacaia Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Kinoshita, L.S. 04/77",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC076908",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC076908",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45873,
+      "scientificname": "Billbergia distachia var. concolor Reitz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Billbergia",
+      "specificepithet": "distachia",
+      "infraspecificepithet": "concolor",
+      "scientificnameauthorship": "Reitz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Billbergia Thunb.;Billbergia distachia (Vell.) Mez;Billbergia distachia var. concolor Reitz",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45873>http://floradobrasil2015.jbrj.gov.br/FB45873</a>)<br><br>Jacques, S.S.A., Neves, B. 2020. Billbergia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45873\">https://floradobrasil2020.jbrj.gov.br/FB45873</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Billbergia distachia (Vell.) Mez",
+      "parentnameusageid": 5927,
+      "originalnameusageid": null,
+      "namepublishedin": "Anais Bot. Herb. 'Barbosa Rodrigues' 4: 33 1952",
+      "namepublishedinyear": "1952",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45873",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, S.S.A., Neves, B. Billbergia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45873>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 14:43:07.086"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anais Bot. Herb. 'Barbosa Rodrigues',4: 33,1952"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R. Reitz 4152",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0004130",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBR0004130",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Altamiro 19",
+        "collectioncode": "RB",
+        "catalognumber": "RB00135860",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00135860",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Altamiro 19",
+        "collectioncode": "RB",
+        "catalognumber": "RB00135860",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283780510",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Reitz 4152",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0004130",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97143497",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45874,
+      "scientificname": "Billbergia distachia var. maculata Reitz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Billbergia",
+      "specificepithet": "distachia",
+      "infraspecificepithet": "maculata",
+      "scientificnameauthorship": "Reitz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Billbergia Thunb.;Billbergia distachia (Vell.) Mez;Billbergia distachia var. maculata Reitz",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45874>http://floradobrasil2015.jbrj.gov.br/FB45874</a>)<br><br>Jacques, S.S.A., Neves, B. 2020. Billbergia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45874\">https://floradobrasil2020.jbrj.gov.br/FB45874</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Billbergia distachia (Vell.) Mez",
+      "parentnameusageid": 5927,
+      "originalnameusageid": null,
+      "namepublishedin": "Anais Bot. Herb. 'Barbosa Rodrigues' 4: 33 1952",
+      "namepublishedinyear": "1952",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45874",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, S.S.A., Neves, B. Billbergia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45874>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 14:47:39.145"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anais Bot. Herb. 'Barbosa Rodrigues',4: 33,1952"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 4763",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0004304",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBR0004304",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.R. Reitz 4763",
+        "collectioncode": "HBR",
+        "catalognumber": "HBR0004304",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97143519",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45875,
+      "scientificname": "Billbergia distachia var. straussiana (Wittm.) L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Billbergia",
+      "specificepithet": "distachia",
+      "infraspecificepithet": "straussiana",
+      "scientificnameauthorship": "(Wittm.) L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Billbergia Thunb.;Billbergia distachia (Vell.) Mez;Billbergia distachia var. straussiana (Wittm.) L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45875>http://floradobrasil2015.jbrj.gov.br/FB45875</a>)<br><br>Jacques, S.S.A., Neves, B. 2020. Billbergia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45875\">https://floradobrasil2020.jbrj.gov.br/FB45875</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Billbergia distachia (Vell.) Mez",
+      "parentnameusageid": 5927,
+      "originalnameusageid": null,
+      "namepublishedin": "Anais Bot. Herb. 'Barbosa Rodrigues' 2: 13 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45875",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, S.S.A., Neves, B. Billbergia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45875>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 14:51:16.379"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anais Bot. Herb. 'Barbosa Rodrigues',2: 13,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45923,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia pallescens Baker"
+      },
+      {
+        "relatedresourceid": 45851,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia bakeri var. straussiana Wittm."
+      },
+      {
+        "relatedresourceid": 45850,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia bakeri É.Morren"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 780",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376439",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00376439",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 780",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM034028",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM034028",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 780",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM034028",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229575793",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 780",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376439",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228277035",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 128007,
+      "scientificname": "Billbergia distachia (Vell.) Mez var. distachia",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Billbergia",
+      "specificepithet": "distachia",
+      "infraspecificepithet": "distachia",
+      "scientificnameauthorship": "(Vell.) Mez",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Billbergia Thunb.;Billbergia distachia (Vell.) Mez;Billbergia distachia (Vell.) Mez var. distachia",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB128007>http://floradobrasil2015.jbrj.gov.br/FB128007</a>)<br><br>Jacques, S.S.A., Neves, B. 2020. Billbergia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB128007\">https://floradobrasil2020.jbrj.gov.br/FB128007</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Smith, L.B. &amp;amp; R. J. Downs. 1979. Bromelioideae (Bromeliaceae), Part III. Fl. Neotrop. Monogr. 14(3): 1493&amp;ndash;2142.",
+      "parentnameusage": "Billbergia distachia (Vell.) Mez",
+      "parentnameusageid": 5927,
+      "originalnameusageid": "47017",
+      "namepublishedin": "Fl. bras. 3(3):417 1892",
+      "namepublishedinyear": "1892",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB128007",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, S.S.A., Neves, B. Billbergia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB128007>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 14:46:20.834"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mez, C.,Fl. bras.,3(3):417,1892"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45878,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia ensifolia Baker"
+      },
+      {
+        "relatedresourceid": 45859,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia caespitosa Lindm."
+      },
+      {
+        "relatedresourceid": 45858,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia burchellii Baker"
+      },
+      {
+        "relatedresourceid": 45945,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Billbergia regeliana Mez"
+      },
+      {
+        "relatedresourceid": 46716,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pitcairnia distachia (Vell.) Beer"
+      },
+      {
+        "relatedresourceid": 47017,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Tillandsia distachia Vell."
+      }
+    ],
+    "voucher": []
+  }
+]

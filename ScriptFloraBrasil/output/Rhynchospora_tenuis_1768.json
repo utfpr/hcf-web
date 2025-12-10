@@ -1,0 +1,1097 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7285,
+      "scientificname": "Rhynchospora tenuis Link",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Link",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7285>http://floradobrasil2015.jbrj.gov.br/FB7285</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7285\">https://floradobrasil2020.jbrj.gov.br/FB7285</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora Vahl",
+      "parentnameusageid": 7258,
+      "originalnameusageid": null,
+      "namepublishedin": "Jahrb. Gewächsk. 1(3): 76 1820",
+      "namepublishedinyear": "1820",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7285",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-04-09 12:00:53.293"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Restinga",
+        "Savana Amazônica",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Jahrb. Gewächsk.,1(3): 76,1820"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17261,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis subsp. austro-brasiliensis T.Koyama"
+      },
+      {
+        "relatedresourceid": 50752,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus capillaris var. ustilaginosa Nees"
+      },
+      {
+        "relatedresourceid": 50750,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus capillaris var. descendens Nees"
+      },
+      {
+        "relatedresourceid": 50762,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus sabulosus Nees"
+      },
+      {
+        "relatedresourceid": 50717,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fuirena gracilis Spreng."
+      },
+      {
+        "relatedresourceid": 50753,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus caracasanus Liebm."
+      },
+      {
+        "relatedresourceid": 50748,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus capillaris Nees"
+      },
+      {
+        "relatedresourceid": 52465,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermodon curvulus Nees"
+      },
+      {
+        "relatedresourceid": 35228,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis subsp. austrobrasiliensis T.Koyama"
+      },
+      {
+        "relatedresourceid": 51856,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis var. pseudolunata (Boeckeler) Kük."
+      },
+      {
+        "relatedresourceid": 51797,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora pseudolunata Boeckeler"
+      },
+      {
+        "relatedresourceid": 51851,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis var. brevinux Kük."
+      },
+      {
+        "relatedresourceid": 50209,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena sabulosa Kunth"
+      },
+      {
+        "relatedresourceid": 50167,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena cubensis Poepp. & Kunth"
+      },
+      {
+        "relatedresourceid": 50185,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena linkii J.F.Macbr."
+      },
+      {
+        "relatedresourceid": 51714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora gracilis (Spreng.) Kuntze"
+      },
+      {
+        "relatedresourceid": 130115,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena brasiliensis Raddi"
+      },
+      {
+        "relatedresourceid": 50155,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dichromena capillaris Kunth"
+      },
+      {
+        "relatedresourceid": 50751,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Haloschoenus capillaris var. minor Nees"
+      },
+      {
+        "relatedresourceid": 35171,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora enmanuelis Luceño & Rocha"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 17261,
+      "scientificname": "Rhynchospora tenuis subsp. austro-brasiliensis T.Koyama",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "VARIANTE_ORTOGRAFICA",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "austro-brasiliensis",
+      "scientificnameauthorship": "T.Koyama",
+      "acceptednameusage": "Rhynchospora tenuis Link",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis subsp. austro-brasiliensis T.Koyama",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17261>http://floradobrasil2015.jbrj.gov.br/FB17261</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17261\">https://floradobrasil2020.jbrj.gov.br/FB17261</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17261",
+      "acceptednameusageid": 7285,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-12-11 19:48:20.678939"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7285,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis Link"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 35228,
+      "scientificname": "Rhynchospora tenuis subsp. austrobrasiliensis T.Koyama",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "austrobrasiliensis",
+      "scientificnameauthorship": "T.Koyama",
+      "acceptednameusage": "Rhynchospora tenuis Link",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis subsp. austrobrasiliensis T.Koyama",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35228>http://floradobrasil2015.jbrj.gov.br/FB35228</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35228\">https://floradobrasil2020.jbrj.gov.br/FB35228</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35228",
+      "acceptednameusageid": 7285,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-03-28 11:59:31.395"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Mem. New York Bot. Gard.,23: 78,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7285,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis Link"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51850,
+      "scientificname": "Rhynchospora tenuis var. antillana Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "antillana",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Rhynchospora subnipensis Kük.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. antillana Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51850>http://floradobrasil2015.jbrj.gov.br/FB51850</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51850\">https://floradobrasil2020.jbrj.gov.br/FB51850</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 23: 206 1926",
+      "namepublishedinyear": "1926",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51850",
+      "acceptednameusageid": 608039,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-15 05:05:53.121"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,23: 206,1926"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 608039,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora subnipensis Kük."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51851,
+      "scientificname": "Rhynchospora tenuis var. brevinux Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "brevinux",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Rhynchospora tenuis Link",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. brevinux Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51851>http://floradobrasil2015.jbrj.gov.br/FB51851</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51851\">https://floradobrasil2020.jbrj.gov.br/FB51851</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 23: 207 1926",
+      "namepublishedinyear": "1926",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51851",
+      "acceptednameusageid": 7285,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-15 05:06:43.911"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,23: 207,1926"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7285,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis Link"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51852,
+      "scientificname": "Rhynchospora tenuis var. congesta (Nees) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "congesta",
+      "scientificnameauthorship": "(Nees) Kük.",
+      "acceptednameusage": "Rhynchospora riparia (Nees) Boeckeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. congesta (Nees) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51852>http://floradobrasil2015.jbrj.gov.br/FB51852</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51852\">https://floradobrasil2020.jbrj.gov.br/FB51852</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51852",
+      "acceptednameusageid": 17254,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-13 12:24:05.049"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Jahrb. Syst.,75: 191,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17254,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora riparia (Nees) Boeckeler"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51853,
+      "scientificname": "Rhynchospora tenuis var. emaciata (Nees) Lindm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "emaciata",
+      "scientificnameauthorship": "(Nees) Lindm.",
+      "acceptednameusage": "Rhynchospora emaciata (Nees) Boeckeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. emaciata (Nees) Lindm.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51853>http://floradobrasil2015.jbrj.gov.br/FB51853</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51853\">https://floradobrasil2020.jbrj.gov.br/FB51853</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51853",
+      "acceptednameusageid": 17239,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-15 04:44:16.228"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bih. Kongl. Svenska Vetensk.-Akad. Handl.,26(3; 9): 28,1900"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17239,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Rhynchospora emaciata (Nees) Boeckeler"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51854,
+      "scientificname": "Rhynchospora tenuis var. maritima Boeckeler",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "maritima",
+      "scientificnameauthorship": "Boeckeler",
+      "acceptednameusage": "Rhynchospora riparia (Nees) Boeckeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. maritima Boeckeler",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51854>http://floradobrasil2015.jbrj.gov.br/FB51854</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51854\">https://floradobrasil2020.jbrj.gov.br/FB51854</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 37: 612 1873",
+      "namepublishedinyear": "1873",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51854",
+      "acceptednameusageid": 17254,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-13 12:23:25.84"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaea,37: 612,1873"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17254,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora riparia (Nees) Boeckeler"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51855,
+      "scientificname": "Rhynchospora tenuis var. prorepens Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "prorepens",
+      "scientificnameauthorship": "Kük.",
+      "acceptednameusage": "Rhynchospora subnipensis Kük.",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. prorepens Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51855>http://floradobrasil2015.jbrj.gov.br/FB51855</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51855\">https://floradobrasil2020.jbrj.gov.br/FB51855</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 23: 206 1926",
+      "namepublishedinyear": "1926",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51855",
+      "acceptednameusageid": 608039,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-15 05:07:37.422"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,23: 206,1926"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 608039,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora subnipensis Kük."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51856,
+      "scientificname": "Rhynchospora tenuis var. pseudolunata (Boeckeler) Kük.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "pseudolunata",
+      "scientificnameauthorship": "(Boeckeler) Kük.",
+      "acceptednameusage": "Rhynchospora tenuis Link",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis var. pseudolunata (Boeckeler) Kük.",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51856>http://floradobrasil2015.jbrj.gov.br/FB51856</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51856\">https://floradobrasil2020.jbrj.gov.br/FB51856</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51856",
+      "acceptednameusageid": 7285,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-15 05:08:29.889"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Repert. Spec. Nov. Regni Veg. Beih.,23: 206,1926"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 7285,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora tenuis Link"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51857,
+      "scientificname": "Rhynchospora tenuis subsp. riparia (Nees) T.Koyama",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuis",
+      "infraspecificepithet": "riparia",
+      "scientificnameauthorship": "(Nees) T.Koyama",
+      "acceptednameusage": "Rhynchospora riparia (Nees) Boeckeler",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuis Link;Rhynchospora tenuis subsp. riparia (Nees) T.Koyama",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51857>http://floradobrasil2015.jbrj.gov.br/FB51857</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51857\">https://floradobrasil2020.jbrj.gov.br/FB51857</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora tenuis Link",
+      "parentnameusageid": 7285,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51857",
+      "acceptednameusageid": 17254,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-13 12:22:24.409"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mem. New York Bot. Gard.,23: 78,1972"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17254,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Rhynchospora riparia (Nees) Boeckeler"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 51858,
+      "scientificname": "Rhynchospora tenuiseta C.Wright",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Rhynchospora",
+      "specificepithet": "tenuiseta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "C.Wright",
+      "acceptednameusage": "Rhynchospora marisculus Lindl. & Nees",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Rhynchospora Vahl;Rhynchospora tenuiseta C.Wright",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S. 2015. Rhynchospora in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB51858>http://floradobrasil2015.jbrj.gov.br/FB51858</a>)<br><br>Thomas, W.W., Weber, P., Silva Filho, P.J.S. 2020. Rhynchospora in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB51858\">https://floradobrasil2020.jbrj.gov.br/FB51858</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Rhynchospora Vahl",
+      "parentnameusageid": 7258,
+      "originalnameusageid": null,
+      "namepublishedin": "Anales Acad. Ci. Med. Habana 8: 83 1871",
+      "namepublishedinyear": "1871",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB51858",
+      "acceptednameusageid": 17245,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2014-04-11 05:05:12.939"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Anales Acad. Ci. Med. Habana,8: 83,1871"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17245,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Rhynchospora marisculus Lindl. & Nees"
+      }
+    ],
+    "voucher": []
+  }
+]

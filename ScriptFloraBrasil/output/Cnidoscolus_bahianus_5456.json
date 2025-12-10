@@ -1,0 +1,150 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17492,
+      "scientificname": "Cnidoscolus bahianus (Ule) Pax & K.Hoffm.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Cnidoscolus",
+      "specificepithet": "bahianus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Ule) Pax & K.Hoffm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Cnidoscolus Pohl;Cnidoscolus bahianus (Ule) Pax & K.Hoffm.",
+      "source": "Cordeiro, I.,Secco, R. 2015. Cnidoscolus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17492>http://floradobrasil2015.jbrj.gov.br/FB17492</a>)<br><br>Maya-Lastra., C.A., Torres, D.S.C., Cordeiro, I., Silva, O.L.M. 2020. Cnidoscolus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17492\">https://floradobrasil2020.jbrj.gov.br/FB17492</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cnidoscolus Pohl",
+      "parentnameusageid": 17491,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17492",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Maya-Lastra., C.A., Torres, D.S.C., Cordeiro, I., Silva, O.L.M. Cnidoscolus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17492>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-28 13:37:49.736"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Nat. Pflanzenfam. [Engler & Prantl] 19c: 164,1931"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 55656,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Jatropha bahiana var. genuina Pax"
+      },
+      {
+        "relatedresourceid": 55657,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Jatropha bahiana var. rupestris Ule"
+      },
+      {
+        "relatedresourceid": 55655,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Jatropha bahiana Ule"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Saar, E. 5098",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS029236",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271273579",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Saar, E. 5098",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS029236",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS029236",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

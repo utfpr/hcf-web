@@ -1,0 +1,795 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15745,
+      "scientificname": "Syagrus romanzoffiana (Cham.) Glassman",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Syagrus",
+      "specificepithet": "romanzoffiana",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Cham.) Glassman",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Syagrus Mart.;Syagrus romanzoffiana (Cham.) Glassman",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15745>http://floradobrasil2015.jbrj.gov.br/FB15745</a>)<br><br>Soares, K.P. 2020. Syagrus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15745\">https://floradobrasil2020.jbrj.gov.br/FB15745</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Syagrus Mart.",
+      "parentnameusageid": 15732,
+      "originalnameusageid": "44089",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15745",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares, K.P. Syagrus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15745>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 01:14:02.719"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo de Várzea",
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Perenifólia",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "geriva",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "BA"
+      },
+      {
+        "vernacularname": "jarobá",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "GO"
+      },
+      {
+        "vernacularname": "jeriva",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SP"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Fieldiana, Bot.,31: 382,1968"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43526,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arecastrum romanzoffianum var. ensifolium (Drude) Becc."
+      },
+      {
+        "relatedresourceid": 43524,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arecastrum romanzoffianum var. australe (Mart.) Becc."
+      },
+      {
+        "relatedresourceid": 44034,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos botryophora var. ensifolia Drude"
+      },
+      {
+        "relatedresourceid": 44032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos australis Drude & Brandt"
+      },
+      {
+        "relatedresourceid": 44089,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cocos romanzoffiana Cham."
+      },
+      {
+        "relatedresourceid": 44056,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos geriba Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 602189,
+        "relationshipofresource": null,
+        "scientificname": "Arecastrum romanzoffianum (Cham.) Becc. var. romanzoffianum"
+      },
+      {
+        "relatedresourceid": 44026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos arechavaletana Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 43937,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa acrocomioides (Drude) Kuntze"
+      },
+      {
+        "relatedresourceid": 44070,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos martiana Drude & Glaz."
+      },
+      {
+        "relatedresourceid": 43958,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Calappa romanzoffiana (Cham.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43956,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa plumosa (Hook.f.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43952,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa martiana (Drude & Glaz.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43945,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa datil (Drude & Griseb.) Kuntze"
+      },
+      {
+        "relatedresourceid": 44022,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos acrocomioides Drude"
+      },
+      {
+        "relatedresourceid": 44045,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos datil Drude & Griseb."
+      },
+      {
+        "relatedresourceid": 130032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos australis Mart."
+      },
+      {
+        "relatedresourceid": 43523,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Arecastrum romanzoffianum (Cham.) Becc."
+      },
+      {
+        "relatedresourceid": 43528,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arecastrum romanzoffianum var. micropindo Becc."
+      },
+      {
+        "relatedresourceid": 43527,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arecastrum romanzoffianum var. genuinum Becc."
+      },
+      {
+        "relatedresourceid": 44082,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos plumosa Lodd. ex Hook."
+      },
+      {
+        "relatedresourceid": 602060,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos romanzoffiana var. plumosa (Lodd. ex Hook.) A. Berger"
+      },
+      {
+        "relatedresourceid": 43938,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa australis (Mart.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568095",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228658695",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201959",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201951",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201953",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201955",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226201957",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209069",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209071",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209073",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066441",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209075",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010392",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010392",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010393",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010393",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003242",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS003242",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010361",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010361",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010360",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010360",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010359",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010359",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000300",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/COR00000300",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00069572",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066441",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00066441",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000664",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI000664",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003246",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS003246",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010355",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010355",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066440",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00066440",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00041854",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00041854",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010386",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000010386",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568095",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00568095",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00770750",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00770750",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00770749",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00770749",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066441",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209077",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066441",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209079",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00066441",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226209081",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210393",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210395",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210397",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210399",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210401",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210403",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00069572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226210405",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094554",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094556",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094558",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003242",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094560",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003246",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226096082",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003246",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226096084",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003246",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226096086",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000300",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226098864",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "COR",
+        "catalognumber": "COR00000300",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308018678",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI000664",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226130863",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010355",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165415",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010359",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165423",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010360",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165425",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010361",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165427",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010386",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165477",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010392",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165489",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000010393",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97165491",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00770749",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284809958",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 5472",
+        "collectioncode": "RB",
+        "catalognumber": "RB00770750",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284809968",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

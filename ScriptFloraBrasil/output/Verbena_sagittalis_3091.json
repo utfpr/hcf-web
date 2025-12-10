@@ -1,0 +1,144 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15215,
+      "scientificname": "Verbena sagittalis Cham.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "sagittalis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cham.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena sagittalis Cham.",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15215>http://floradobrasil2015.jbrj.gov.br/FB15215</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15215\">https://floradobrasil2020.jbrj.gov.br/FB15215</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena L.",
+      "parentnameusageid": 15201,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 7: 259 1832",
+      "namepublishedinyear": "1832",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15215",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15215>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-24 19:33:56.636"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Chamisso, A.,Linnaea,7: 259,1832"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39779,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena lindmanii Briq."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J. E. Leite 244",
+        "collectioncode": "NY",
+        "catalognumber": "NY00589217",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228111519",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lindman, C.A.M. 1203",
+        "collectioncode": "S",
+        "catalognumber": "S04-2440",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99808863",
+        "locality": "RS",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. A. M. Lindman A1203",
+        "collectioncode": "NY",
+        "catalognumber": "NY00138284",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228088303",
+        "locality": "RS",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Lindman, C.A.M. 1203",
+        "collectioncode": "S",
+        "catalognumber": "S04-2440",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S04-2440",
+        "locality": "RS",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J. E. Leite 244",
+        "collectioncode": "NY",
+        "catalognumber": "NY00589217",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00589217",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. A. M. Lindman A1203",
+        "collectioncode": "NY",
+        "catalognumber": "NY00138284",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00138284",
+        "locality": "RS",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

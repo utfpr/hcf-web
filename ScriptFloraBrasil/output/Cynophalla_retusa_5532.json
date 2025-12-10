@@ -1,0 +1,113 @@
+[
+  {
+    "taxon": {
+      "taxonid": 105702,
+      "scientificname": "Cynophalla retusa (Griseb.) Cornejo & Iltis",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Brassicales",
+      "family": "Capparaceae",
+      "genus": "Cynophalla",
+      "specificepithet": "retusa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Griseb.) Cornejo & Iltis",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Capparaceae A.Juss.;Cynophalla (DC.) J.Presl;Cynophalla retusa (Griseb.) Cornejo & Iltis",
+      "source": "Cornejo, X. 2015. Cynophalla in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB105702>http://floradobrasil2015.jbrj.gov.br/FB105702</a>)<br><br>Soares Neto, R.L., Luber, J. Capparaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB105702\">https://floradobrasil2020.jbrj.gov.br/FB105702</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cornejo, X. &amp;amp; Iltis, H.H. 2008. New combinations in south American Capparaceae. Harvard Papers in Botany. 13(1): 117-120.",
+      "parentnameusage": "Cynophalla (DC.) J.Presl",
+      "parentnameusageid": 105555,
+      "originalnameusageid": "105697",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB105702",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares Neto, R.L., Luber, J. Capparaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB105702>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-23 20:32:29.339"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cornejo, X.  &  H. H. Iltis,Harvard Papers in Botany,13(1):119,2008"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 105699,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Capparis cynophallophora var. retusa (Griseb.) Kuntze"
+      },
+      {
+        "relatedresourceid": 105697,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Capparis retusa Griseb."
+      },
+      {
+        "relatedresourceid": 638777,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Morisonia retusa (Griseb.) Christenh. & Byng"
+      },
+      {
+        "relatedresourceid": 105715,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Capparis cynophallophora var. cuneata Malme"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.A. Ratter 6107",
+        "collectioncode": "NY",
+        "catalognumber": "NY01031622",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01031622",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Ratter 6107",
+        "collectioncode": "NY",
+        "catalognumber": "NY01031622",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228130061",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,751 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13357,
+      "scientificname": "Mesosetum loliiforme (Hochst.) Chase",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Mesosetum",
+      "specificepithet": "loliiforme",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Hochst.) Chase",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Mesosetum Steud.;Mesosetum loliiforme (Hochst.) Chase",
+      "source": "Filgueiras, T.S.,Silva, A.S.,Oliveira, R.C. de 2015. Mesosetum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13357>http://floradobrasil2015.jbrj.gov.br/FB13357</a>)<br><br>Anádria S. Silva, André R.O. Ribeiro, Oliveira, R.C., Filgueiras, T.S. (in memoriam) 2020. Mesosetum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB13357\">https://floradobrasil2020.jbrj.gov.br/FB13357</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mesosetum Steud.",
+      "parentnameusageid": 13355,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13357",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Anádria S. Silva, André R.O. Ribeiro, Oliveira, R.C., Filgueiras, T.S. (in memoriam) Mesosetum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB13357>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-13 18:59:22.298"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Campo de Várzea",
+        "Campo Limpo",
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 78335,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum altum Swallen"
+      },
+      {
+        "relatedresourceid": 78336,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum latifolium Swallen"
+      },
+      {
+        "relatedresourceid": 78339,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum pubescens Swallen"
+      },
+      {
+        "relatedresourceid": 86874,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum elongatum Mez"
+      },
+      {
+        "relatedresourceid": 86873,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum curtifolium Swallen"
+      },
+      {
+        "relatedresourceid": 78333,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum acuminatum Swallen"
+      },
+      {
+        "relatedresourceid": 78337,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum longifolium Swallen"
+      },
+      {
+        "relatedresourceid": 78340,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosetum tenuifolium Swallen"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.F.M. Valls 8328",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620711",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284561546",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 3254",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620698",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284561280",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4131",
+        "collectioncode": "RB",
+        "catalognumber": "RB00538766",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284396250",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "D.F. Austin 7292",
+        "collectioncode": "NY",
+        "catalognumber": "NY01166213",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228732145",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 3254",
+        "collectioncode": "K",
+        "catalognumber": "K000982451",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227428301",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4601",
+        "collectioncode": "K",
+        "catalognumber": "K000004391",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227094848",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4601",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620779",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284562864",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 16871",
+        "collectioncode": "P",
+        "catalognumber": "P02609352",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197390861",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Filgueiras 995",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620843",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284564278",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Ataíde s.n.",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC096741",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC096741",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 6238",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620241",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620241",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.M. Valls 8328",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620711",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620711",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.R. Anderson 35144",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651154",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00651154",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.F. Austin 7292",
+        "collectioncode": "NY",
+        "catalognumber": "NY01166213",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01166213",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 3644",
+        "collectioncode": "NY",
+        "catalognumber": "NY00381364",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00381364",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.R. Swallen 4131",
+        "collectioncode": "K",
+        "catalognumber": "K000982456",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000982456",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "D. Sasaki 922",
+        "collectioncode": "NY",
+        "catalognumber": "NY01018480",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01018480",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 3254",
+        "collectioncode": "K",
+        "catalognumber": "K000982451",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000982451",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.M. Valls 8313",
+        "collectioncode": "RB",
+        "catalognumber": "RB00619948",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00619948",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 16871",
+        "collectioncode": "P",
+        "catalognumber": "P02609352",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P02609352",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sasaki 922",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00172481",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00172481",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4601",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620779",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620779",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Rondon 2513",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620839",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620839",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4131",
+        "collectioncode": "RB",
+        "catalognumber": "RB00538766",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00538766",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.R. Swallen 4601",
+        "collectioncode": "K",
+        "catalognumber": "K000004391",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000004391",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Chase 11403",
+        "collectioncode": "NY",
+        "catalognumber": "NY00381361",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00381361",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.R. Swallen 3254",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620698",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620698",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Filgueiras 995",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620843",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620843",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Lima 5331",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC096742",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC096742",
+        "locality": "PI",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Ule 8046",
+        "collectioncode": "G",
+        "catalognumber": "G00099102",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/G00099102",
+        "locality": "RR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Harley 16871",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620816",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00620816",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Heringer 6238",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620241",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284550322",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sasaki 922",
+        "collectioncode": "NY",
+        "catalognumber": "NY01018480",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228598283",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Sasaki 922",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00172481",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99835715",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Swallen 4131",
+        "collectioncode": "K",
+        "catalognumber": "K000982456",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227428311",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Rondon 2513",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620839",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284564188",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Harley 16871",
+        "collectioncode": "RB",
+        "catalognumber": "RB00620816",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284563610",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Chase 11403",
+        "collectioncode": "NY",
+        "catalognumber": "NY00381361",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228097353",
+        "locality": "GO",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.R. Swallen 3644",
+        "collectioncode": "NY",
+        "catalognumber": "NY00381364",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228097359",
+        "locality": "MA",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "W.R. Anderson 35144",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651154",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228727673",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 86875,
+      "scientificname": "Mesosetum loliiforme (Hochst.) Chase var. loliiforme",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_APLICACAO_INCERTA",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Mesosetum",
+      "specificepithet": "loliiforme",
+      "infraspecificepithet": "loliiforme",
+      "scientificnameauthorship": "(Hochst.) Chase",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Mesosetum Steud.;Mesosetum loliiforme (Hochst.) Chase;Mesosetum loliiforme (Hochst.) Chase var. loliiforme",
+      "source": "Filgueiras, T.S.,Silva, A.S.,Oliveira, R.C. de 2015. Mesosetum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB86875>http://floradobrasil2015.jbrj.gov.br/FB86875</a>)<br><br>Anádria S. Silva, André R.O. Ribeiro, Oliveira, R.C., Filgueiras, T.S. (in memoriam) 2020. Mesosetum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB86875\">https://floradobrasil2020.jbrj.gov.br/FB86875</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mesosetum loliiforme (Hochst.) Chase",
+      "parentnameusageid": 13357,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB86875",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Anádria S. Silva, André R.O. Ribeiro, Oliveira, R.C., Filgueiras, T.S. (in memoriam) Mesosetum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB86875>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-12-06 16:37:19.876"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  }
+]

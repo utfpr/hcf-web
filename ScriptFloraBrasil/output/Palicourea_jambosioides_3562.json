@@ -1,0 +1,77 @@
+[
+  {
+    "taxon": {
+      "taxonid": 617492,
+      "scientificname": "Palicourea jambosioides (Schltdl.) C.M. Taylor",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Palicourea",
+      "specificepithet": "jambosioides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Schltdl.) C.M. Taylor",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Palicourea Aubl.;Palicourea jambosioides (Schltdl.) C.M. Taylor",
+      "source": "&lt;a href=&quot;http://legacy.tropicos.org/Reference/100031910?projectid=34&quot;&gt;Taylor, C. M. &amp;amp; J. G. Jardim. 2018. Rubiacearum americanarum magna hama pars XLI: New species, a new section, and new combinations in Palicourea from the Atlantic Forest of eastern Brazil (Palicoureeae). Novon 26(3): 307&amp;ndash;321.&lt;/a&gt;",
+      "parentnameusage": "Palicourea Aubl.",
+      "parentnameusageid": 14133,
+      "originalnameusageid": "14185",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB617492",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-19 20:17:46.105"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 14185,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Psychotria jambosioides Schltdl."
+      }
+    ],
+    "voucher": []
+  }
+]

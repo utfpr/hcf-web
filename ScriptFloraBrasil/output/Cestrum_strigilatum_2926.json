@@ -1,0 +1,514 @@
+[
+  {
+    "taxon": {
+      "taxonid": 24853,
+      "scientificname": "Cestrum strigilatum Ruiz & Pav.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Cestrum",
+      "specificepithet": "strigilatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Ruiz & Pav.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Cestrum L.;Cestrum strigilatum Ruiz & Pav.",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB24853>http://floradobrasil2015.jbrj.gov.br/FB24853</a>)<br><br>Vignoli-Silva, M., Mentz, L.A. 2020. Cestrum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB24853\">https://floradobrasil2020.jbrj.gov.br/FB24853</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cestrum L.",
+      "parentnameusageid": 14635,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB24853",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vignoli-Silva, M., Mentz, L.A., Stehmann, J.R. Cestrum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB24853>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-21 18:37:24.197"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "coerana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "peroba-d’água",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "dama-da-noite",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mercuriana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 108228,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum var. tenuiflorum Francey"
+      },
+      {
+        "relatedresourceid": 106689,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum calycinum var. tenuiflorum Francey"
+      },
+      {
+        "relatedresourceid": 108237,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum unibracteatum var. brachystachys Dunal"
+      },
+      {
+        "relatedresourceid": 108227,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum var. laxiflorum Kuntze"
+      },
+      {
+        "relatedresourceid": 24854,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum calycinum Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 108248,
+        "relationshipofresource": null,
+        "scientificname": "Sessea rugosa Rusby"
+      },
+      {
+        "relatedresourceid": 106680,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum aristeguietae Steyerm."
+      },
+      {
+        "relatedresourceid": 106697,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum cancellatum Dunal"
+      },
+      {
+        "relatedresourceid": 108186,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum longifolium Ruiz & Pav."
+      },
+      {
+        "relatedresourceid": 108187,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum lundianum Dunal"
+      },
+      {
+        "relatedresourceid": 106688,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum calycinum var. brevitubulata Guaranha"
+      },
+      {
+        "relatedresourceid": 108226,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum var. calycinum (Kunth) Kuntze"
+      },
+      {
+        "relatedresourceid": 108245,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum viridiflorum Hook."
+      },
+      {
+        "relatedresourceid": 108236,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum unibracteatum Dunal"
+      },
+      {
+        "relatedresourceid": 108173,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum impressum Rusby"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Batista, J.A.N. 3564",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB002066",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB002066",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 108226,
+      "scientificname": "Cestrum strigilatum var. calycinum (Kunth) Kuntze",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Cestrum",
+      "specificepithet": "strigilatum",
+      "infraspecificepithet": "calycinum",
+      "scientificnameauthorship": "(Kunth) Kuntze",
+      "acceptednameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Cestrum L.;Cestrum strigilatum Ruiz & Pav.;Cestrum strigilatum var. calycinum (Kunth) Kuntze",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB108226>http://floradobrasil2015.jbrj.gov.br/FB108226</a>)<br><br>Vignoli-Silva, M., Mentz, L.A. 2020. Cestrum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB108226\">https://floradobrasil2020.jbrj.gov.br/FB108226</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "parentnameusageid": 24853,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB108226",
+      "acceptednameusageid": 24853,
+      "bibliographiccitation_how_to_cite": "Vignoli-Silva, M., Mentz, L.A., Stehmann, J.R. Cestrum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB108226>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-08 16:00:56.738975"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24853,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum Ruiz & Pav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 108227,
+      "scientificname": "Cestrum strigilatum var. laxiflorum Kuntze",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Cestrum",
+      "specificepithet": "strigilatum",
+      "infraspecificepithet": "laxiflorum",
+      "scientificnameauthorship": "Kuntze",
+      "acceptednameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Cestrum L.;Cestrum strigilatum Ruiz & Pav.;Cestrum strigilatum var. laxiflorum Kuntze",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB108227>http://floradobrasil2015.jbrj.gov.br/FB108227</a>)<br><br>Vignoli-Silva, M., Mentz, L.A. 2020. Cestrum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB108227\">https://floradobrasil2020.jbrj.gov.br/FB108227</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "parentnameusageid": 24853,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB108227",
+      "acceptednameusageid": 24853,
+      "bibliographiccitation_how_to_cite": "Vignoli-Silva, M., Mentz, L.A., Stehmann, J.R. Cestrum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB108227>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-08 16:01:14.071794"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24853,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum Ruiz & Pav."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 108228,
+      "scientificname": "Cestrum strigilatum var. tenuiflorum Francey",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Cestrum",
+      "specificepithet": "strigilatum",
+      "infraspecificepithet": "tenuiflorum",
+      "scientificnameauthorship": "Francey",
+      "acceptednameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Cestrum L.;Cestrum strigilatum Ruiz & Pav.;Cestrum strigilatum var. tenuiflorum Francey",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB108228>http://floradobrasil2015.jbrj.gov.br/FB108228</a>)<br><br>Vignoli-Silva, M., Mentz, L.A. 2020. Cestrum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB108228\">https://floradobrasil2020.jbrj.gov.br/FB108228</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cestrum strigilatum Ruiz & Pav.",
+      "parentnameusageid": 24853,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB108228",
+      "acceptednameusageid": 24853,
+      "bibliographiccitation_how_to_cite": "Vignoli-Silva, M., Mentz, L.A., Stehmann, J.R. Cestrum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB108228>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-08 16:01:36.138989"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24853,
+        "relationshipofresource": null,
+        "scientificname": "Cestrum strigilatum Ruiz & Pav."
+      }
+    ],
+    "voucher": []
+  }
+]

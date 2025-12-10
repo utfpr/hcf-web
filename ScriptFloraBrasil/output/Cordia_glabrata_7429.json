@@ -1,0 +1,494 @@
+[
+  {
+    "taxon": {
+      "taxonid": 16511,
+      "scientificname": "Cordia glabrata (Mart.) A.DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Boraginales",
+      "family": "Cordiaceae",
+      "genus": "Cordia",
+      "specificepithet": "glabrata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) A.DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cordiaceae R.Br. ex Dumort.;Cordia L.;Cordia glabrata (Mart.) A.DC.",
+      "source": "Stapf, M.N.S. 2015. Cordia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16511>http://floradobrasil2015.jbrj.gov.br/FB16511</a>)<br><br>Stapf, M.N.S. 2020. Cordia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16511\">https://floradobrasil2020.jbrj.gov.br/FB16511</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Prod. 9: 473. 9. 473.",
+      "parentnameusage": "Cordia L.",
+      "parentnameusageid": 16502,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16511",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2021-10-30 19:38:48.59"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Miller, J.S.,J. Bot. Res. Inst. Texas,7/68,2013"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 638389,
+        "relationshipofresource": null,
+        "scientificname": "Cordia longipeda Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "E.P. Queiroz 5124",
+        "collectioncode": "RB",
+        "catalognumber": "RB00879995",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284905310",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caliari, C.P. 732",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA111193",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226827373",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1873",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002234",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035627",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1569",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002231",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002231",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1372",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002233",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002233",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caliari, C.P. 732",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA111193",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA111193",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 1004",
+        "collectioncode": "RB",
+        "catalognumber": "RB00067588",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00067588",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1873",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002234",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002234",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.P. Queiroz 5124",
+        "collectioncode": "RB",
+        "catalognumber": "RB00879995",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00879995",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1372",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002233",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002233",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Miranda 6345",
+        "collectioncode": "RB",
+        "catalognumber": "RB00720154",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00720154",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1873",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002234",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002234",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Monteiro, V.M. et al. 63",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA081261",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA081261",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. S. Pinheiro 1004",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00006657",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00006657",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.E. Fagundes 36",
+        "collectioncode": "HVASF",
+        "catalognumber": "HVASF012764",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HVASF012764",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1420",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002232",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002232",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1569",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002231",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00002231",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.S. Pinheiro 1004",
+        "collectioncode": "RB",
+        "catalognumber": "RB00067588",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284657392",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1372",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002233",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035625",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1420",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002232",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035623",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1372",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002233",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035625",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1569",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002231",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035621",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. S. Pinheiro 1004",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00006657",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226443019",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Monteiro, V.M. et al. 63",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA081261",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226800523",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1569",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002231",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035621",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.M. Miranda 6345",
+        "collectioncode": "RB",
+        "catalognumber": "RB00720154",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284740630",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. França 1873",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00002234",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100035627",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

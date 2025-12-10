@@ -1,0 +1,162 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8159,
+      "scientificname": "Hesperozygis myrtoides (A.St.-Hil. ex Benth.) Epling",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lamiaceae",
+      "genus": "Hesperozygis",
+      "specificepithet": "myrtoides",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(A.St.-Hil. ex Benth.) Epling",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lamiaceae Martinov;Hesperozygis Epling;Hesperozygis myrtoides (A.St.-Hil. ex Benth.) Epling",
+      "source": "Santos, E.P. 2015. Hesperozygis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8159>http://floradobrasil2015.jbrj.gov.br/FB8159</a>)<br><br>Antar, G.M., Oliveira, A.B. 2020. Hesperozygis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8159\">https://floradobrasil2020.jbrj.gov.br/FB8159</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Epling, C. 1936. Synopsis of the South American Labiatae. Repertorium specierum novarum regni vegetabilis 85:132-145.",
+      "parentnameusage": "Hesperozygis Epling",
+      "parentnameusageid": 8156,
+      "originalnameusageid": "58596",
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 85: 133 1936",
+      "namepublishedinyear": "1936",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8159",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Antar, G.M., Oliveira, A.B. Hesperozygis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8159>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-01-26 13:47:11.324"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Epling, C.,Repert. Spec. Nov. Regni Veg. Beih.,85: 133,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 58596,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Glechon myrtoides A.St.-Hil. ex Benth."
+      },
+      {
+        "relatedresourceid": 58620,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hedeoma schwackeana Glaz."
+      },
+      {
+        "relatedresourceid": 58616,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hedeoma itatiaiae Wawra"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714614",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00714614",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714615",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00714615",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714613",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00714613",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714613",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228068529",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714614",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228068531",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Saint-Hilaire D-500",
+        "collectioncode": "P",
+        "catalognumber": "P00714615",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228068533",
+        "locality": "MG",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

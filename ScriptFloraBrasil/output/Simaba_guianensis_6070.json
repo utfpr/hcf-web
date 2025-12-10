@@ -1,0 +1,642 @@
+[
+  {
+    "taxon": {
+      "taxonid": 1349,
+      "scientificname": "Simaba guianensis Aubl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Aubl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1349>http://floradobrasil2015.jbrj.gov.br/FB1349</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1349\">https://floradobrasil2020.jbrj.gov.br/FB1349</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba Aubl.",
+      "parentnameusageid": 1330,
+      "originalnameusageid": null,
+      "namepublishedin": "Hist. Pl. Guiane 1/400 1775",
+      "namepublishedinyear": "1775",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1349",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1349>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-07-08 08:54:18.799"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cajurana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Norte"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Aublet, F.,Hist. Pl. Guiane,1/400,1775"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1351,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis var. ecaudata Cronquist"
+      },
+      {
+        "relatedresourceid": 1356,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis var. typica Cronquist"
+      },
+      {
+        "relatedresourceid": 1340,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Simaba cuspidata var. typica Cronquist"
+      },
+      {
+        "relatedresourceid": 114675,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba cuspidata var. nigrescens (Engl.) Ducke ex Cronquist"
+      },
+      {
+        "relatedresourceid": 1354,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis subsp. huberi Francesch. & W.W.Thomas"
+      },
+      {
+        "relatedresourceid": 1320,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Quassia cuspidata (Spruce ex Engl.) Noot."
+      },
+      {
+        "relatedresourceid": 1220,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aruba guianensis Aubl."
+      },
+      {
+        "relatedresourceid": 1366,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba nigrescens Engl."
+      },
+      {
+        "relatedresourceid": 21125,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis subsp. ecaudata (Cronquist) Cavalcante"
+      },
+      {
+        "relatedresourceid": 1352,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis Aubl. subsp. guianensis"
+      },
+      {
+        "relatedresourceid": 1337,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba cuspidata Spruce ex Engl."
+      },
+      {
+        "relatedresourceid": 1323,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Quassia guianensis (Aubl.) D.Dietr."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.T. Prance P/26331",
+        "collectioncode": "K",
+        "catalognumber": "K001252382",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001252382",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Emperaire 249",
+        "collectioncode": "RB",
+        "catalognumber": "RB00383132",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00383132",
+        "locality": "PI",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Emperaire 249",
+        "collectioncode": "RB",
+        "catalognumber": "RB00383132",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284108602",
+        "locality": "PI",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance P/26331",
+        "collectioncode": "K",
+        "catalognumber": "K001252382",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227328830",
+        "locality": "PA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 1350,
+      "scientificname": "Simaba guianensis var. angustifolia (Benth.) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "angustifolia",
+      "scientificnameauthorship": "(Benth.) Engl.",
+      "acceptednameusage": "Simaba orinocensis Kunth",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis var. angustifolia (Benth.) Engl.",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1350>http://floradobrasil2015.jbrj.gov.br/FB1350</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1350\">https://floradobrasil2020.jbrj.gov.br/FB1350</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1350",
+      "acceptednameusageid": 1368,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1350>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-28 12:35:29.092817"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Fl. bras.,12(2): 212,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1368,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Simaba orinocensis Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 1351,
+      "scientificname": "Simaba guianensis var. ecaudata Cronquist",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "ecaudata",
+      "scientificnameauthorship": "Cronquist",
+      "acceptednameusage": "Simaba guianensis Aubl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis var. ecaudata Cronquist",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1351>http://floradobrasil2015.jbrj.gov.br/FB1351</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1351\">https://floradobrasil2020.jbrj.gov.br/FB1351</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": "21125",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1351",
+      "acceptednameusageid": 1349,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1351>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-16 11:13:22.917063"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cronquist, A.,Lloydia,7(1): 86,1944"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 21125,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Simaba guianensis subsp. ecaudata (Cronquist) Cavalcante"
+      },
+      {
+        "relatedresourceid": 1349,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis Aubl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 1352,
+      "scientificname": "Simaba guianensis Aubl. subsp. guianensis",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "guianensis",
+      "scientificnameauthorship": "Aubl.",
+      "acceptednameusage": "Simaba guianensis Aubl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis Aubl. subsp. guianensis",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1352>http://floradobrasil2015.jbrj.gov.br/FB1352</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1352\">https://floradobrasil2020.jbrj.gov.br/FB1352</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1352",
+      "acceptednameusageid": 1349,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1352>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-01-04 11:05:53.153"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cajurana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Norte"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Acta Amazonica,15(1-2, Suppl.): 72,1985"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1349,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis Aubl."
+      },
+      {
+        "relatedresourceid": 1356,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis var. typica Cronquist"
+      },
+      {
+        "relatedresourceid": 1340,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Simaba cuspidata var. typica Cronquist"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 1354,
+      "scientificname": "Simaba guianensis subsp. huberi Francesch. & W.W.Thomas",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "huberi",
+      "scientificnameauthorship": "Francesch. & W.W.Thomas",
+      "acceptednameusage": "Simaba guianensis Aubl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis subsp. huberi Francesch. & W.W.Thomas",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1354>http://floradobrasil2015.jbrj.gov.br/FB1354</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1354\">https://floradobrasil2020.jbrj.gov.br/FB1354</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1354",
+      "acceptednameusageid": 1349,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1354>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-01-03 15:25:46.185"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Brittonia,52(4): 311,2001"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1349,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis Aubl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 1355,
+      "scientificname": "Simaba guianensis subsp. polyphylla Cavalcante",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "polyphylla",
+      "scientificnameauthorship": "Cavalcante",
+      "acceptednameusage": "Simaba polyphylla (Cavalcante) W.W.Thomas",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis subsp. polyphylla Cavalcante",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1355>http://floradobrasil2015.jbrj.gov.br/FB1355</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1355\">https://floradobrasil2020.jbrj.gov.br/FB1355</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": "1371",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1355",
+      "acceptednameusageid": 1371,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1355>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-16 11:09:37.212042"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cavalcante, P.B.,Publ. Avulsas Mus. Paraense Emilio Goeldi,37: 40-41,1982"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1371,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Simaba polyphylla (Cavalcante) W.W.Thomas"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 1356,
+      "scientificname": "Simaba guianensis var. typica Cronquist",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "typica",
+      "scientificnameauthorship": "Cronquist",
+      "acceptednameusage": "Simaba guianensis Aubl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis var. typica Cronquist",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1356>http://floradobrasil2015.jbrj.gov.br/FB1356</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1356\">https://floradobrasil2020.jbrj.gov.br/FB1356</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1356",
+      "acceptednameusageid": 1349,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1356>. Acesso em: 20 nov. 2025.",
+      "modified": "2015-02-06 10:00:55.198"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cronquist, A.,Lloydia,7(1): 86,1944"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1352,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis Aubl. subsp. guianensis"
+      },
+      {
+        "relatedresourceid": 1349,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Simaba guianensis Aubl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 21125,
+      "scientificname": "Simaba guianensis subsp. ecaudata (Cronquist) Cavalcante",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Simaroubaceae",
+      "genus": "Simaba",
+      "specificepithet": "guianensis",
+      "infraspecificepithet": "ecaudata",
+      "scientificnameauthorship": "(Cronquist) Cavalcante",
+      "acceptednameusage": "Simaba guianensis Aubl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Simaroubaceae DC.;Simaba Aubl.;Simaba guianensis Aubl.;Simaba guianensis subsp. ecaudata (Cronquist) Cavalcante",
+      "source": "Pirani, J.R.,Thomas, W.W. 2015. Simaroubaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB21125>http://floradobrasil2015.jbrj.gov.br/FB21125</a>)<br><br>Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB21125\">https://floradobrasil2020.jbrj.gov.br/FB21125</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Simaba guianensis Aubl.",
+      "parentnameusageid": 1349,
+      "originalnameusageid": "1351",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB21125",
+      "acceptednameusageid": 1349,
+      "bibliographiccitation_how_to_cite": "Devecchi, M.F., Pirani, J.R., Thomas, W.W. Simaroubaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB21125>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-01-03 15:28:39.83"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1349,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Simaba guianensis Aubl."
+      },
+      {
+        "relatedresourceid": 1366,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba nigrescens Engl."
+      },
+      {
+        "relatedresourceid": 1351,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Simaba guianensis var. ecaudata Cronquist"
+      },
+      {
+        "relatedresourceid": 114675,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Simaba cuspidata var. nigrescens (Engl.) Ducke ex Cronquist"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L. Riedel 1604",
+        "collectioncode": "K",
+        "catalognumber": "P12P2N0041",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P12P2N0041",
+        "locality": "PA",
+        "typestatus": null
+      }
+    ]
+  }
+]

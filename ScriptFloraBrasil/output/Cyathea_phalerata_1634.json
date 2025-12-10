@@ -1,0 +1,671 @@
+[
+  {
+    "taxon": {
+      "taxonid": 90894,
+      "scientificname": "Cyathea phalerata Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Cyatheales",
+      "family": "Cyatheaceae",
+      "genus": "Cyathea",
+      "specificepithet": "phalerata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Cyatheaceae Kaulf.;Cyathea J.Sm.;Cyathea phalerata Mart.",
+      "source": "Windisch, P.G.,Santiago, A.C.P. 2015. Cyatheaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB90894>http://floradobrasil2015.jbrj.gov.br/FB90894</a>)<br><br>Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB90894\">https://floradobrasil2020.jbrj.gov.br/FB90894</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Cyathea J.Sm.",
+      "parentnameusageid": 90854,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB90894",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pietrobom, M.R., Schwartsburd, P.B., Santiago, A.C.P., Maciel, S. Cyatheaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB90894>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-30 16:35:46.93"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 103561,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea paleolata (Mart.) Copel."
+      },
+      {
+        "relatedresourceid": 103558,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila paleolata Mart."
+      },
+      {
+        "relatedresourceid": 115004,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila paulistana Rosenst."
+      },
+      {
+        "relatedresourceid": 115003,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila goyazensis Christ"
+      },
+      {
+        "relatedresourceid": 115011,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea mexiae Copel."
+      },
+      {
+        "relatedresourceid": 115015,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trichipteris mexiae (Copel.) Tryon"
+      },
+      {
+        "relatedresourceid": 115019,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila portoana Brade"
+      },
+      {
+        "relatedresourceid": 115026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila reitzii Sehnem"
+      },
+      {
+        "relatedresourceid": 115006,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila iheringii Rosenst."
+      },
+      {
+        "relatedresourceid": 115013,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila mexiae (Copel.) C.Chr."
+      },
+      {
+        "relatedresourceid": 115009,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila roquettei Brade & Rosenst."
+      },
+      {
+        "relatedresourceid": 115024,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila pabstii Brade"
+      },
+      {
+        "relatedresourceid": 115007,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea iheringii (Rosenst.) Domin"
+      },
+      {
+        "relatedresourceid": 115005,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea paulistana (Rosenst.) Domin"
+      },
+      {
+        "relatedresourceid": 103556,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trichipteris phalerata var. iheringii (Rosenst.) Barrington"
+      },
+      {
+        "relatedresourceid": 115021,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trichipteris portoana (Brade) Tryon"
+      },
+      {
+        "relatedresourceid": 115008,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila guinleorum Brade & Rosenst."
+      },
+      {
+        "relatedresourceid": 103562,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila paleolata var. nigrescens Hook."
+      },
+      {
+        "relatedresourceid": 103540,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Alsophila phalerata (Mart.) Mart."
+      },
+      {
+        "relatedresourceid": 103554,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Trichipteris phalerata (Mart.) Barrington"
+      },
+      {
+        "relatedresourceid": 103565,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Trichipteris gardneri (Hook.) Tryon"
+      },
+      {
+        "relatedresourceid": 103568,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea blanchetiana C.Presl"
+      },
+      {
+        "relatedresourceid": 103566,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila blanchetiana C.Presl"
+      },
+      {
+        "relatedresourceid": 112250,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyathea contracta (Fée) Domin"
+      },
+      {
+        "relatedresourceid": 112262,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila eriocarpa Fée"
+      },
+      {
+        "relatedresourceid": 112245,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila contracta Fée"
+      },
+      {
+        "relatedresourceid": 112271,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila scrobiculata Fée"
+      },
+      {
+        "relatedresourceid": 112241,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila blancheti Trevis."
+      },
+      {
+        "relatedresourceid": 112272,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila unguis-cati Fée"
+      },
+      {
+        "relatedresourceid": 112270,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila ludoviciana Fée"
+      },
+      {
+        "relatedresourceid": 103564,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Alsophila gardneri Hook."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Schwirkowski, P. 3203",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB63627",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227068473",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.F. Guala 1330",
+        "collectioncode": "IBGE",
+        "catalognumber": "IBGE00028070",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=240014356",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 12250",
+        "collectioncode": "US",
+        "catalognumber": "US01452353",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100298529",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Mynssen 837",
+        "collectioncode": "RB",
+        "catalognumber": "RB00551237",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284419346",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Vieira 323",
+        "collectioncode": "RB",
+        "catalognumber": "RB00643914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284601188",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Vieira 323",
+        "collectioncode": "RB",
+        "catalognumber": "RB00643914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284601190",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. L. R. de Moraes 2860",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01280667",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228501261",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caxambu, M. G. 8243",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB63314",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227067847",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.R. Pietrobom 4858",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM291328",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229390627",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.R. Pietrobom-Silva; C.E. Rodrigues Jr. 1115A",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00014991",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100063145",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 1494",
+        "collectioncode": "RB",
+        "catalognumber": "RB01385590",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285140796",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.A. Araujo 186B",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES034949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=122992703",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 2630",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000018471",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97181635",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.R. Pietrobom 4858",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM291328",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM291328",
+        "locality": "AL",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Verdi 2630",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000018471",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000018471",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.A.O. Dittrich 565",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0003447",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0003447",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2963",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB61084",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB61084",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 3203",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB63627",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB63627",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Vieira 323",
+        "collectioncode": "RB",
+        "catalognumber": "RB00643914",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00643914",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.M. Mynssen 837",
+        "collectioncode": "RB",
+        "catalognumber": "RB00551237",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00551237",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P. L. R. de Moraes 2860",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY01280667",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01280667",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 1494",
+        "collectioncode": "RB",
+        "catalognumber": "RB01385590",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01385590",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Caxambu, M. G. 8243",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB63314",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB63314",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.A. Simabukuro 53",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC076555",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC076555",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. Gonzatti 864",
+        "collectioncode": "HUCS",
+        "catalognumber": "HUCS000931",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCS000931",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E.A. Araujo 186B",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES034949",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES034949",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 12250",
+        "collectioncode": "US",
+        "catalognumber": "US01452353",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01452353",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.F. Guala 1330",
+        "collectioncode": "IBGE",
+        "catalognumber": "IBGE00028070",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IBGE00028070",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.R. Pietrobom-Silva; C.E. Rodrigues Jr. 1115A",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00014991",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00014991",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.A.O. Dittrich 565",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0003447",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100551321",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 2963",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB61084",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227063353",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "taxon": {
+      "taxonid": 102345,
+      "scientificname": "Dendrophorbium fruticosum (Vell.) C.Jeffrey",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Dendrophorbium",
+      "specificepithet": "fruticosum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Vell.) C.Jeffrey",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Senecioneae Cass.;Dendrophorbium (Cuatrec.) C.Jeffrey;Dendrophorbium fruticosum (Vell.) C.Jeffrey",
+      "source": "Borges, R.A.X.,Teles, A.M. 2015. Dendrophorbium in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB102345>http://floradobrasil2015.jbrj.gov.br/FB102345</a>)<br><br>Teles, A.M., Freitas, F.S. 2020. Dendrophorbium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB102345\">https://floradobrasil2020.jbrj.gov.br/FB102345</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Cabrera, A.L. 1957. El g&amp;eacute;nero &lt;em&gt;Senecio&lt;/em&gt; (Compositae) en Brasil, Paraguay y Uruguay. Arquivos do Jardim Bot&amp;acirc;nico do Rio de Janeiro 15: 163-264.\r\n&lt;p class=&quot;p1&quot;&gt;&amp;nbsp;",
+      "parentnameusage": "Dendrophorbium (Cuatrec.) C.Jeffrey",
+      "parentnameusageid": 27021,
+      "originalnameusageid": "632470",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB102345",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Teles, A.M., Freitas, F.S. Dendrophorbium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB102345>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-03-23 09:19:12.797"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Hind, D.J.N.,Kew Bull.,48(2): 279-295,1993"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 632470,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Senecio fruticosus Vell."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY02491486",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228467401",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 993",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48379",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227037581",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY01080735",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228401205",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Silva 4073",
+        "collectioncode": "RB",
+        "catalognumber": "RB00419938",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284180592",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Falkenberg, D.B. 5811",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0022590",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226918943",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY01080735",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01080735",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY02491486",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02491486",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY01080735",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01080735",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Silva 4073",
+        "collectioncode": "RB",
+        "catalognumber": "RB00419938",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00419938",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Schwirkowski, P. 993",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB48379",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB48379",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Falkenberg, D.B. 5811",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0022590",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0022590",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Morellato-Fonzar, LPC 17777",
+        "collectioncode": "UEC",
+        "catalognumber": "IBGE00029710",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IBGE00029710",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Selusniaki, M 801",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00007101",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUCP00007101",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Kuhlmann 4446",
+        "collectioncode": "NY",
+        "catalognumber": "NY01080735",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228401205",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Morellato-Fonzar, LPC 17777",
+        "collectioncode": "UEC",
+        "catalognumber": "IBGE00029710",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=243505825",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Selusniaki, M 801",
+        "collectioncode": "HUCP",
+        "catalognumber": "HUCP00007101",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97272169",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

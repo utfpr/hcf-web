@@ -1,0 +1,217 @@
+[
+  {
+    "taxon": {
+      "taxonid": 16168,
+      "scientificname": "Litothamnus nitidus (DC.) W.C.Holmes",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Litothamnus",
+      "specificepithet": "nitidus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(DC.) W.C.Holmes",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Eupatorieae Cass.;Litothamnus R.M.King & H.Rob.;Litothamnus nitidus (DC.) W.C.Holmes",
+      "source": "Ferreira, S.C. 2015. Litothamnus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16168>http://floradobrasil2015.jbrj.gov.br/FB16168</a>)<br><br>Amorim, V.O., Fernandes, A.C., Grossi, M.A. 2020. Litothamnus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16168\">https://floradobrasil2020.jbrj.gov.br/FB16168</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-family: arial, helvetica, sans-serif; font-size: 12pt;&quot;&gt;HOLMES, W.C.&amp;nbsp; &lt;em&gt;Litothamnus nitidus&lt;/em&gt; (Compositae: Eupatorieae), a new combination based &lt;em&gt;Mikania n&amp;iacute;tida&lt;/em&gt; (DC) R. King &amp;amp; H. Robinson.&amp;nbsp;&amp;nbsp;Phytologia 81: 385-390. 1996.&lt;/span&gt;",
+      "parentnameusage": "Litothamnus R.M.King & H.Rob.",
+      "parentnameusageid": 16166,
+      "originalnameusageid": "114663",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16168",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Amorim, V.O., Fernandes, A.C., Grossi, M.A. Litothamnus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB16168>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-05-29 20:24:07.941"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 594123,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Kanimia nitida (DC.) Baker"
+      },
+      {
+        "relatedresourceid": 114663,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eupatorium nitidum DC."
+      },
+      {
+        "relatedresourceid": 115420,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Mikania nitida (DC.) R.M.King & H.Rob."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006205",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ECT0006205",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0019450",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0019450",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB045039",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB045039",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006207",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ECT0006207",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB060721",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB060721",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.Gandara 172",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006205",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ECT0006205",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.Gandara 172",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006207",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ECT0006207",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB027382",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB027382",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.Gandara 172",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006205",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=249315831",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.Gandara 172",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006207",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=249315835",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB027382",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96984633",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB045039",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=105097053",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB060721",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=160653434",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0019450",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225941127",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006205",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=249315831",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 25122",
+        "collectioncode": "ECT",
+        "catalognumber": "ECT0006207",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=249315835",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

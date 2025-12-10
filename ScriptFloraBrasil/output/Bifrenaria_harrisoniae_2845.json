@@ -1,0 +1,1134 @@
+[
+  {
+    "taxon": {
+      "taxonid": 11196,
+      "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Hook.) Rchb.f.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB11196>http://floradobrasil2015.jbrj.gov.br/FB11196</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB11196\">https://floradobrasil2020.jbrj.gov.br/FB11196</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria Lindl.",
+      "parentnameusageid": 11190,
+      "originalnameusageid": "606539",
+      "namepublishedin": "Bonplandia (Hannover) 3: 217 1855",
+      "namepublishedinyear": "1855",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11196",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB11196>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-03-07 22:18:25.102"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita",
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bonplandia (Hannover),3: 217,1855"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 64588,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. citrina (B.S.Williams) Stein"
+      },
+      {
+        "relatedresourceid": 64590,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. flavopurpurea Hoehne"
+      },
+      {
+        "relatedresourceid": 64591,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. glabra W.Zimm."
+      },
+      {
+        "relatedresourceid": 64592,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. grandiflora (Paxton) Cogn."
+      },
+      {
+        "relatedresourceid": 64594,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. minor Hoehne"
+      },
+      {
+        "relatedresourceid": 64586,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. angustior (Lindl.) Cogn."
+      },
+      {
+        "relatedresourceid": 64587,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. buchananiana Rchb.f."
+      },
+      {
+        "relatedresourceid": 67454,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lycaste harrisoniae var. eburnea S.Moore"
+      },
+      {
+        "relatedresourceid": 67646,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria harrisoniae var. eburnea S.Moore"
+      },
+      {
+        "relatedresourceid": 67647,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria harrisoniae var. grandiflora Paxton"
+      },
+      {
+        "relatedresourceid": 67453,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lycaste harrisoniae (Hook.) G.Don ex Loudon"
+      },
+      {
+        "relatedresourceid": 67450,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lycaste citrina B.S.Williams"
+      },
+      {
+        "relatedresourceid": 606539,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Dendrobium harrisoniae Hook."
+      },
+      {
+        "relatedresourceid": 64593,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. insularis Hoehne"
+      },
+      {
+        "relatedresourceid": 67645,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria harrisoniae var. angustior Lindl."
+      },
+      {
+        "relatedresourceid": 622411,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Stenocoryne harrisoniae (Hook.) Kraenzl."
+      },
+      {
+        "relatedresourceid": 64609,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria tyrianthina var. albescens Hoehne"
+      },
+      {
+        "relatedresourceid": 64577,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria aurea Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 65436,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Colax grandiflorus Raf."
+      },
+      {
+        "relatedresourceid": 67643,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Maxillaria harrisoniae (Hook.) Lindl."
+      },
+      {
+        "relatedresourceid": 67720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria pubigera Klotzsch"
+      },
+      {
+        "relatedresourceid": 67743,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria spathacea Lindl."
+      },
+      {
+        "relatedresourceid": 70153,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Stanhopea harrisoniae (Hook.) P.N.Don"
+      },
+      {
+        "relatedresourceid": 64597,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. typica Hoehne"
+      },
+      {
+        "relatedresourceid": 64589,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. eburnea (S.Moore) Stein"
+      },
+      {
+        "relatedresourceid": 65437,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Colax harrisoniae (Hook.) Lindl. ex Spreng."
+      },
+      {
+        "relatedresourceid": 64595,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. pubigera (Klotzsch) Rchb.f."
+      },
+      {
+        "relatedresourceid": 64596,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. purpurascens H.J.Veitch"
+      },
+      {
+        "relatedresourceid": 622453,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria diamantinensis Campacci & Rosim"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Silva, J.M. 3792",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009733",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB009733",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Braga, P.I.S. 1938",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247230",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00247230",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sucre, D. 3497",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247202",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00247202",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 3248",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02691",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02691",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Waechter, J.L. 1734",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039246",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00039246",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Carris, B. B.CARRIS",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247240",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00247240",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Silva, J.M. 3792",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB009733",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965171",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Carris, B. B.CARRIS",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247240",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283943008",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sucre, D. 3497",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247202",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283942954",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Waechter, J.L. 1734",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00039246",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229100983",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Braga, P.I.S. 1938",
+        "collectioncode": "RB",
+        "catalognumber": "RB00247230",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283942984",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 3248",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02691",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942791",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 64584,
+      "scientificname": "Bifrenaria harrisoniae var. alba (Lindl.) Kraenzl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "alba",
+      "scientificnameauthorship": "(Lindl.) Kraenzl.",
+      "acceptednameusage": "Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. alba (Lindl.) Kraenzl.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64584>http://floradobrasil2015.jbrj.gov.br/FB64584</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64584\">https://floradobrasil2020.jbrj.gov.br/FB64584</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67644",
+      "namepublishedin": "Gartenflora 38: 65 1889",
+      "namepublishedinyear": "1889",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64584",
+      "acceptednameusageid": 622386,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64584>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 11:25:23.342"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gartenflora,38: 65,1889"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 622386,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat."
+      },
+      {
+        "relatedresourceid": 67644,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maxillaria harrisoniae var. alba Lindl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64585,
+      "scientificname": "Bifrenaria harrisoniae var. albaplena Pabst",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "albaplena",
+      "scientificnameauthorship": "Pabst",
+      "acceptednameusage": "Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. albaplena Pabst",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64585>http://floradobrasil2015.jbrj.gov.br/FB64585</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64585\">https://floradobrasil2020.jbrj.gov.br/FB64585</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "622386",
+      "namepublishedin": "Bradea 2: 274 1978",
+      "namepublishedinyear": "1978",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64585",
+      "acceptednameusageid": 622386,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64585>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 11:23:33.272"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bradea,2: 274,1978"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 622386,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64586,
+      "scientificname": "Bifrenaria harrisoniae var. angustior (Lindl.) Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "angustior",
+      "scientificnameauthorship": "(Lindl.) Cogn.",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. angustior (Lindl.) Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64586>http://floradobrasil2015.jbrj.gov.br/FB64586</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64586\">https://floradobrasil2020.jbrj.gov.br/FB64586</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67645",
+      "namepublishedin": "Fl. bras. 3 (5): 493 1902",
+      "namepublishedinyear": "1902",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64586",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64586>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:26:23.814"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,3 (5): 493,1902"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67645,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maxillaria harrisoniae var. angustior Lindl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64587,
+      "scientificname": "Bifrenaria harrisoniae var. buchananiana Rchb.f.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "buchananiana",
+      "scientificnameauthorship": "Rchb.f.",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. buchananiana Rchb.f.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64587>http://floradobrasil2015.jbrj.gov.br/FB64587</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64587\">https://floradobrasil2020.jbrj.gov.br/FB64587</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64587",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64587>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:27:19.66"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gard. Chron. III, 11: 430,1897"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64588,
+      "scientificname": "Bifrenaria harrisoniae var. citrina (B.S.Williams) Stein",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "citrina",
+      "scientificnameauthorship": "(B.S.Williams) Stein",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. citrina (B.S.Williams) Stein",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64588>http://floradobrasil2015.jbrj.gov.br/FB64588</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64588\">https://floradobrasil2020.jbrj.gov.br/FB64588</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67450",
+      "namepublishedin": "Orchid.-Buch 85 1892",
+      "namepublishedinyear": "1892",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64588",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64588>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:28:40.026"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Orchid.-Buch,85,1892"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67450,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Lycaste citrina B.S.Williams"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64589,
+      "scientificname": "Bifrenaria harrisoniae var. eburnea (S.Moore) Stein",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "eburnea",
+      "scientificnameauthorship": "(S.Moore) Stein",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. eburnea (S.Moore) Stein",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64589>http://floradobrasil2015.jbrj.gov.br/FB64589</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64589\">https://floradobrasil2020.jbrj.gov.br/FB64589</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67454",
+      "namepublishedin": "Orchid.-Buch 85 1892",
+      "namepublishedinyear": "1892",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64589",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64589>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:29:45.007"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Orchid.-Buch,85,1892"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67454,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Lycaste harrisoniae var. eburnea S.Moore"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64590,
+      "scientificname": "Bifrenaria harrisoniae var. flavopurpurea Hoehne",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "flavopurpurea",
+      "scientificnameauthorship": "Hoehne",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. flavopurpurea Hoehne",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64590>http://floradobrasil2015.jbrj.gov.br/FB64590</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64590\">https://floradobrasil2020.jbrj.gov.br/FB64590</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado São Paulo n.s., 2 (5): 116 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64590",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64590>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:32:19.522"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado São Paulo,n.s., 2 (5): 116,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64591,
+      "scientificname": "Bifrenaria harrisoniae var. glabra W.Zimm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "glabra",
+      "scientificnameauthorship": "W.Zimm.",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. glabra W.Zimm.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64591>http://floradobrasil2015.jbrj.gov.br/FB64591</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64591\">https://floradobrasil2020.jbrj.gov.br/FB64591</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "Biblioth. Bot. 109: 18 1934",
+      "namepublishedinyear": "1934",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64591",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64591>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:33:02.4"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Biblioth. Bot.,109: 18,1934"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64592,
+      "scientificname": "Bifrenaria harrisoniae var. grandiflora (Paxton) Cogn.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "grandiflora",
+      "scientificnameauthorship": "(Paxton) Cogn.",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. grandiflora (Paxton) Cogn.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64592>http://floradobrasil2015.jbrj.gov.br/FB64592</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64592\">https://floradobrasil2020.jbrj.gov.br/FB64592</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67647",
+      "namepublishedin": "Fl. bras. 3 (5): 483 1902",
+      "namepublishedinyear": "1902",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64592",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64592>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:34:22.673"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Fl. bras.,3 (5): 483,1902"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67647,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maxillaria harrisoniae var. grandiflora Paxton"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64593,
+      "scientificname": "Bifrenaria harrisoniae var. insularis Hoehne",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "insularis",
+      "scientificnameauthorship": "Hoehne",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. insularis Hoehne",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64593>http://floradobrasil2015.jbrj.gov.br/FB64593</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64593\">https://floradobrasil2020.jbrj.gov.br/FB64593</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado São Paulo n.s., 2 (5): 116 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64593",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64593>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:34:48.84"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado São Paulo,n.s., 2 (5): 116,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64594,
+      "scientificname": "Bifrenaria harrisoniae var. minor Hoehne",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "Hoehne",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. minor Hoehne",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64594>http://floradobrasil2015.jbrj.gov.br/FB64594</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64594\">https://floradobrasil2020.jbrj.gov.br/FB64594</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado São Paulo n.s., 2 (5): 117 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64594",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64594>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:35:43.679"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado São Paulo,n.s., 2 (5): 117,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64595,
+      "scientificname": "Bifrenaria harrisoniae var. pubigera (Klotzsch) Rchb.f.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "pubigera",
+      "scientificnameauthorship": "(Klotzsch) Rchb.f.",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. pubigera (Klotzsch) Rchb.f.",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64595>http://floradobrasil2015.jbrj.gov.br/FB64595</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64595\">https://floradobrasil2020.jbrj.gov.br/FB64595</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "67720",
+      "namepublishedin": "Gard. Chron. n.s., 11: 430 1879",
+      "namepublishedinyear": "1879",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64595",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64595>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:37:27.392"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Gard. Chron.,n.s., 11: 430,1879"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 67720,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maxillaria pubigera Klotzsch"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64596,
+      "scientificname": "Bifrenaria harrisoniae var. purpurascens H.J.Veitch",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "purpurascens",
+      "scientificnameauthorship": "H.J.Veitch",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. purpurascens H.J.Veitch",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64596>http://floradobrasil2015.jbrj.gov.br/FB64596</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64596\">https://floradobrasil2020.jbrj.gov.br/FB64596</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": null,
+      "namepublishedin": "Man. Orchid. Pl. (H.J. Veitch) 9: 77 1893",
+      "namepublishedinyear": "1893",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64596",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64596>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:38:21.39"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Man. Orchid. Pl. (H.J. Veitch),9: 77,1893"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 64597,
+      "scientificname": "Bifrenaria harrisoniae var. typica Hoehne",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "typica",
+      "scientificnameauthorship": "Hoehne",
+      "acceptednameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae var. typica Hoehne",
+      "source": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimarães, L.R.S. 2015. Orchidaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB64597>http://floradobrasil2015.jbrj.gov.br/FB64597</a>)<br><br>Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB64597\">https://floradobrasil2020.jbrj.gov.br/FB64597</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "606539",
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo n.s., 2 (5): 116 1950",
+      "namepublishedinyear": "1950",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB64597",
+      "acceptednameusageid": 11196,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB64597>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 14:39:15.881"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado Sao Paulo,n.s., 2 (5): 116,1950"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 11196,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Bifrenaria harrisoniae (Hook.) Rchb.f."
+      },
+      {
+        "relatedresourceid": 606539,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Dendrobium harrisoniae Hook."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 622386,
+      "scientificname": "Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Bifrenaria",
+      "specificepithet": "harrisoniae",
+      "infraspecificepithet": "albaplena",
+      "scientificnameauthorship": "(Pabst) F.Barros & J.A.N.Bat.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Orchidaceae A.Juss.;Bifrenaria Lindl.;Bifrenaria harrisoniae (Hook.) Rchb.f.;Bifrenaria harrisoniae f. albaplena (Pabst) F.Barros & J.A.N.Bat.",
+      "source": "Meneguzzo, T.E.C. 2020. Bifrenaria in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB622386\">https://floradobrasil2020.jbrj.gov.br/FB622386</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bifrenaria harrisoniae (Hook.) Rchb.f.",
+      "parentnameusageid": 11196,
+      "originalnameusageid": "64585",
+      "namepublishedin": "Orquidologia Sul-Amer. 100 2004",
+      "namepublishedinyear": "2004",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB622386",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Meneguzzo, T.E.C. Bifrenaria in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB622386>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-27 11:26:00.151"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Orquidologia Sul-Amer.,100,2004"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 64584,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bifrenaria harrisoniae var. alba (Lindl.) Kraenzl."
+      },
+      {
+        "relatedresourceid": 67644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Maxillaria harrisoniae var. alba Lindl."
+      },
+      {
+        "relatedresourceid": 64585,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Bifrenaria harrisoniae var. albaplena Pabst"
+      }
+    ],
+    "voucher": []
+  }
+]

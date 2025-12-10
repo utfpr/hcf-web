@@ -1,0 +1,116 @@
+[
+  {
+    "taxon": {
+      "taxonid": 33097,
+      "scientificname": "Vellozia glabra J.C.Mikan",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Vellozia",
+      "specificepithet": "glabra",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "J.C.Mikan",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Vellozia Vand.;Vellozia glabra J.C.Mikan",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB33097>http://floradobrasil2015.jbrj.gov.br/FB33097</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Vellozia Vand.",
+      "parentnameusageid": 15114,
+      "originalnameusageid": null,
+      "namepublishedin": "Del. Fl. Faun. Bras. 2 1822",
+      "namepublishedinyear": "1822",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB33097",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-27 09:22:15.966"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Dracenóide",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mello-Silva, R. & Nic Lughadha, E.,Taxon,48: 582,1999"
+      },
+      {
+        "reference": "Mikan, J.C.,Del. Fl. Faun. Bras.,2,1822"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 76568,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vellozia phalocarpa Pohl"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.Martinelli 19138",
+        "collectioncode": "RB",
+        "catalognumber": "RB01337892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285082938",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Martinelli 19138",
+        "collectioncode": "RB",
+        "catalognumber": "RB01337892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285082936",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Mello-Silva 2670",
+        "collectioncode": "RB",
+        "catalognumber": "RB00636234",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00636234",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Martinelli 19138",
+        "collectioncode": "RB",
+        "catalognumber": "RB01337892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01337892",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Mello-Silva 2670",
+        "collectioncode": "RB",
+        "catalognumber": "RB00636234",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284583302",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

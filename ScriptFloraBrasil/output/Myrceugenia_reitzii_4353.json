@@ -1,0 +1,127 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10654,
+      "scientificname": "Myrceugenia reitzii D.Legrand",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrceugenia",
+      "specificepithet": "reitzii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "D.Legrand",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrceugenia O.Berg;Myrceugenia reitzii D.Legrand",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10654>http://floradobrasil2015.jbrj.gov.br/FB10654</a>)<br><br>Vieira, F.C.S., Meireles, L.D. 2020. Myrceugenia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10654\">https://floradobrasil2020.jbrj.gov.br/FB10654</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Landrum, L. R. 1981. &lt;strong&gt;A Monograph of the genus&amp;nbsp;&lt;em&gt;Myrceugenia&amp;nbsp;&lt;/em&gt;(Myrtaceae).&amp;nbsp;&lt;/strong&gt;Flora Neotropica&amp;nbsp;&amp;ndash; Monograph number 29. New York, New York Botanical Garden, 137 pp.",
+      "parentnameusage": "Myrceugenia O.Berg",
+      "parentnameusageid": 10631,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10654",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Vieira, F.C.S., Meireles, L.D. Myrceugenia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10654>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-15 12:56:13.229"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sellowia,13: 305,1961"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 2122",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM0035147",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM0035147",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02515",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02515",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Klein 1606",
+        "collectioncode": "NY",
+        "catalognumber": "NY00405357",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00405357",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "R.M. Klein 1606",
+        "collectioncode": "NY",
+        "catalognumber": "NY00405357",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228099035",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02515",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942435",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

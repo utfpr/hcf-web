@@ -1,0 +1,92 @@
+[
+  {
+    "taxon": {
+      "taxonid": 19654,
+      "scientificname": "Marcetia velutina Markgr.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Marcetia",
+      "specificepithet": "velutina",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Markgr.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Marcetia DC.;Marcetia velutina Markgr.",
+      "source": "Silva-Gonçalves, K.C.,Martins, A.B.,Rodrigues, K.F. 2015. Marcetia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB19654>http://floradobrasil2015.jbrj.gov.br/FB19654</a>)<br><br>Santos, A.K.A. 2020. Marcetia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB19654\">https://floradobrasil2020.jbrj.gov.br/FB19654</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span style=&quot;font-size: 10pt; line-height: 115%; font-family: arial, helvetica, sans-serif;&quot;&gt;Martins, A. B. 1989. Revis&amp;atilde;o taxonomia do g&amp;ecirc;nero &lt;em style=&quot;mso-bidi-font-style: normal;&quot;&gt;Marcetia&lt;/em&gt; DC. (Melastomataceae). &lt;span style=&quot;color: black;&quot;&gt;Tese de Doutorado. Campinas, 277p.&lt;/span&gt;&lt;/span&gt;",
+      "parentnameusage": "Marcetia DC.",
+      "parentnameusageid": 9646,
+      "originalnameusageid": null,
+      "namepublishedin": "Notizbl. Bot. Gart. Berlin- Dahlem 10: 52. 1927",
+      "namepublishedinyear": "1927",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19654",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Santos, A.K.A. Marcetia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB19654>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-26 23:30:59.747"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Markgraf, F.,Notizbl. Bot. Gart. Berlin- Dahlem,10: 52.,1927"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "M",
+        "catalognumber": "M0165516",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/M0165516",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Martinelli 5416",
+        "collectioncode": "RB",
+        "catalognumber": "RB00229670",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00229670",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Martinelli 5416",
+        "collectioncode": "RB",
+        "catalognumber": "RB00229670",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283916282",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

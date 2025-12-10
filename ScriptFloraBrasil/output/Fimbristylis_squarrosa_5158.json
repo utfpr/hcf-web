@@ -1,0 +1,433 @@
+[
+  {
+    "taxon": {
+      "taxonid": 35065,
+      "scientificname": "Fimbristylis squarrosa Vahl",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "squarrosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Vahl",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis squarrosa Vahl",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB35065>http://floradobrasil2015.jbrj.gov.br/FB35065</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB35065\">https://floradobrasil2020.jbrj.gov.br/FB35065</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Alves, M.; A. C. Ara&amp;uacute;jo, A. P. Prata, F. Vitta, S. Hefler, R. Trevisan, A. B. Gil, S. Martins &amp;amp; W. Thomas. 2009. Diversity of Cyperaceae in Brazil. Rodriguesia 60(3): XXX-XXX (in press).",
+      "parentnameusage": "Fimbristylis Vahl",
+      "parentnameusageid": 7202,
+      "originalnameusageid": null,
+      "namepublishedin": "Enum. Pl. Obs. 2: 289 1805",
+      "namepublishedinyear": "1805",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB35065",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB35065>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-05 14:59:42.722"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Vahl,Enum. Pl. Obs.,2: 289,1805"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 50947,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Isolepis hirta Kunth"
+      },
+      {
+        "relatedresourceid": 50888,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Iria squarrosa (Vahl) Kuntze"
+      },
+      {
+        "relatedresourceid": 50939,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Isolepis glaucescens Schrad. & Schult."
+      },
+      {
+        "relatedresourceid": 49617,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cyperus hirtus Thunb."
+      },
+      {
+        "relatedresourceid": 51980,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Scirpus aestivalis Wall."
+      },
+      {
+        "relatedresourceid": 51515,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pogonostylis squarrosus (Vahl) Bertol."
+      },
+      {
+        "relatedresourceid": 50574,
+        "relationshipofresource": null,
+        "scientificname": "Fimbristylis ecklonii Nees"
+      },
+      {
+        "relatedresourceid": 52052,
+        "relationshipofresource": null,
+        "scientificname": "Scirpus cornatus C.Wright"
+      },
+      {
+        "relatedresourceid": 52261,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Scirpus squarrosus (Vahl) Poir."
+      },
+      {
+        "relatedresourceid": 50597,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis hirta (Kunth) Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 50536,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fimbristylis comata Nees"
+      },
+      {
+        "relatedresourceid": 52204,
+        "relationshipofresource": null,
+        "scientificname": "Scirpus propinqua (R.Br.) Poir."
+      },
+      {
+        "relatedresourceid": 50486,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Fimbristylis aestivalis var. squarrosa (Vahl) T.Koyama"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Boldrini, II 1205",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00008211",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ICN00008211",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Boldrini, II 1205",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00008211",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229077525",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Boldrini, II 1205",
+        "collectioncode": "ICN",
+        "catalognumber": "ICN00008211",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229077527",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 50676,
+      "scientificname": "Fimbristylis squarrosa var. robustior Kunth",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Cyperaceae",
+      "genus": "Fimbristylis",
+      "specificepithet": "squarrosa",
+      "infraspecificepithet": "robustior",
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": "Fimbristylis squarrosa Vahl var. squarrosa",
+      "higherclassification": "Flora e Funga;Angiospermas;Cyperaceae Juss.;Fimbristylis Vahl;Fimbristylis squarrosa Vahl;Fimbristylis squarrosa var. robustior Kunth",
+      "source": "Alves, M.,Hefler, S.M.,Trevisan, R.,Silva Filho, P.J.S.,Ribeiro, A.R.O. 2015. Cyperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB50676>http://floradobrasil2015.jbrj.gov.br/FB50676</a>)<br><br>Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. 2020. Fimbristylis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB50676\">https://floradobrasil2020.jbrj.gov.br/FB50676</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Fimbristylis squarrosa Vahl",
+      "parentnameusageid": 35065,
+      "originalnameusageid": null,
+      "namepublishedin": "Enum. Pl. 2: 255 1837",
+      "namepublishedinyear": "1837",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB50676",
+      "acceptednameusageid": 35066,
+      "bibliographiccitation_how_to_cite": "Maciel-Silva, J.F., Nunes, C.S., Gil, A.S.B. Fimbristylis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB50676>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-25 22:13:59.677"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Kunth,Enum. Pl.,2: 255,1837"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 35066,
+        "relationshipofresource": null,
+        "scientificname": "Fimbristylis squarrosa Vahl var. squarrosa"
+      }
+    ],
+    "voucher": []
+  }
+]

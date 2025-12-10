@@ -1,0 +1,99 @@
+[
+  {
+    "taxon": {
+      "taxonid": 39599,
+      "scientificname": "Barbacenia rubrovirens Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Pandanales",
+      "family": "Velloziaceae",
+      "genus": "Barbacenia",
+      "specificepithet": "rubrovirens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Velloziaceae J.Agardh;Barbacenia Vand.;Barbacenia rubrovirens Mart.",
+      "source": "Mello-Silva, R. 2015. Velloziaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39599>http://floradobrasil2015.jbrj.gov.br/FB39599</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Barbacenia Vand.",
+      "parentnameusageid": 15099,
+      "originalnameusageid": null,
+      "namepublishedin": "Nov. Gen. Sp. Pl. 1: 20 1823",
+      "namepublishedinyear": "1823",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39599",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-26 12:01:38.463"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "C.P.F. von Martius,Nov. Gen. Sp. Pl.,1: 20,1823"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "G. Gardner 5219",
+        "collectioncode": "K",
+        "catalognumber": "K001242536",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001242536",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Anderson, WR 36243",
+        "collectioncode": "UB",
+        "catalognumber": "UB0028039",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0028039",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Gardner 5219",
+        "collectioncode": "K",
+        "catalognumber": "K001242536",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227307120",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Anderson, WR 36243",
+        "collectioncode": "UB",
+        "catalognumber": "UB0028039",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100426457",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17861,
+      "scientificname": "Eriope salviifolia (Pohl ex Benth.) Harley",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lamiaceae",
+      "genus": "Eriope",
+      "specificepithet": "salviifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Pohl ex Benth.) Harley",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lamiaceae Martinov;Eriope Bonpl. ex Benth.;Eriope salviifolia (Pohl ex Benth.) Harley",
+      "source": "Harley, R.,França, F.,Santos, E.P.,Santos, J.S.,Pastore, J.F. 2015. Lamiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17861>http://floradobrasil2015.jbrj.gov.br/FB17861</a>)<br><br>Schliewe, M.A. 2020. Eriope in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17861\">https://floradobrasil2020.jbrj.gov.br/FB17861</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Eriope Bonpl. ex Benth.",
+      "parentnameusageid": 8138,
+      "originalnameusageid": "8252",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17861",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Schliewe, M.A. Eriope in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17861>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 16:20:23.311"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Hooker's Icon. Pl.,38: 29,1976"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 58822,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyptis minensis Glaz."
+      },
+      {
+        "relatedresourceid": 59344,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosphaerum macrotrichum Briq."
+      },
+      {
+        "relatedresourceid": 59323,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mesosphaerum leucochlorum Briq."
+      },
+      {
+        "relatedresourceid": 58807,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hyptis macrotricha Briq."
+      },
+      {
+        "relatedresourceid": 8252,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Hyptis salviifolia Pohl ex Benth."
+      },
+      {
+        "relatedresourceid": 59403,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mesosphaerum salviifolium (Pohl ex Benth.) Kuntze"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.V. Scatigna 216",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML047689",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML047689",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 11768",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML037854",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML037854",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.V. Scatigna 216",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML047689",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230233801",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Kollmann 11768",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML037854",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230233685",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  }
+]

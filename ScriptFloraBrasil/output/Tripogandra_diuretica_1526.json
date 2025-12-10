@@ -1,0 +1,588 @@
+[
+  {
+    "taxon": {
+      "taxonid": 16925,
+      "scientificname": "Tripogandra diuretica (Mart.) Handlos",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Commelinales",
+      "family": "Commelinaceae",
+      "genus": "Tripogandra",
+      "specificepithet": "diuretica",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) Handlos",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Commelinaceae Mirb.;Tripogandra Raf.;Tripogandra diuretica (Mart.) Handlos",
+      "source": "Aona, L.Y.S.,Pellegrini, M.O.O. 2015. Commelinaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16925>http://floradobrasil2015.jbrj.gov.br/FB16925</a>)<br><br>Pellegrini, M.O.O. 2020. Tripogandra in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16925\">https://floradobrasil2020.jbrj.gov.br/FB16925</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Handlos, W.L. 1975. The Taxonomy of &lt;em&gt;Tripogandra&lt;/em&gt; (Commelinaceae). Rhodora 70: 213-329.\r\nPellegrini, M.O.O., Aona-Pinheiro, L.Y.S. &amp;amp; Forzza, R.C. 2013. Taxonomy and conservation status of &lt;em&gt;Tripogandra warmingiana&lt;/em&gt; (Seub.) Handlos (Commelinaceae), a previously obscure taxon from Brazil. Phytotaxa 91 (2): 39&amp;ndash;49.",
+      "parentnameusage": "Tripogandra Raf.",
+      "parentnameusageid": 16924,
+      "originalnameusageid": "127565",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16925",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pellegrini, M.O.O. Tripogandra in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB16925>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-12-31 10:51:38.751"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Aquática",
+        "Epífita",
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Decidual",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Vegetação Aquática",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Rhodora,77: 259,1975"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 127663,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tradescantia gaudichaudiana Kunth"
+      },
+      {
+        "relatedresourceid": 127565,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Tradescantia diuretica Mart."
+      },
+      {
+        "relatedresourceid": 606374,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Callisia diuretica (Mart.) Christenh. & Byng"
+      },
+      {
+        "relatedresourceid": 127699,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tripogandra elongata subsp. diuretica (Mart.) Standl. & Steyerm."
+      },
+      {
+        "relatedresourceid": 127566,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tradescantia diuretica var. mollis (Kunth) Seub."
+      },
+      {
+        "relatedresourceid": 127658,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tradescantia elongata var. diuretica (Mart.) C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 34793,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Commelina singularis Vell."
+      },
+      {
+        "relatedresourceid": 127688,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tradescantia sellowiana Kunth"
+      },
+      {
+        "relatedresourceid": 127651,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tradescantia commelina Vell."
+      },
+      {
+        "relatedresourceid": 127677,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tradescantia mollis Kunth"
+      },
+      {
+        "relatedresourceid": 612638,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Descantaria diuretica (Mart.) Hassk. ex C.B.Clarke"
+      },
+      {
+        "relatedresourceid": 619542,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tradescantia diuretica Mart. var. diuretica"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Heiner 404",
+        "collectioncode": "S",
+        "catalognumber": "S16-56247",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=110713959",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247267",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225979768",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247268",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225979770",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.P. Silva 417",
+        "collectioncode": "MG",
+        "catalognumber": "MG133274",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=271954528",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.O.O. Pellegrini 209",
+        "collectioncode": "RB",
+        "catalognumber": "RB01025677",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285053342",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lira Neto JA 194",
+        "collectioncode": "RB",
+        "catalognumber": "RB00685321",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284679148",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lira Neto JA 194",
+        "collectioncode": "RB",
+        "catalognumber": "RB00685321",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284679150",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.P. Silva 417",
+        "collectioncode": "MG",
+        "catalognumber": "MG133274",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MG133274",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Heiner 404",
+        "collectioncode": "S",
+        "catalognumber": "S16-56247",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/S16-56247",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247268",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0247268",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Lira Neto JA 194",
+        "collectioncode": "RB",
+        "catalognumber": "RB00685321",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00685321",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.O.O. Pellegrini 209",
+        "collectioncode": "RB",
+        "catalognumber": "RB01025677",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01025677",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189883",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P02189883",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189879",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P02189879",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189807",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P02189807",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P01832041",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01832041",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "N.F.O. Mota 559",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC017712",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC017712",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "B",
+        "catalognumber": "B 10 0247267",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/B 10 0247267",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P01832041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227867001",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189807",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227867299",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189879",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227867319",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "C. Gaudichaud 125",
+        "collectioncode": "P",
+        "catalognumber": "P02189883",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227867321",
+        "locality": "RJ",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "taxon": {
+      "taxonid": 101067,
+      "scientificname": "Deguelia costata (Benth.) A.M.G.Azevedo & R.A.Camargo",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Deguelia",
+      "specificepithet": "costata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Benth.) A.M.G.Azevedo & R.A.Camargo",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Fabaceae Lindl.;Deguelia Aubl.;Deguelia costata (Benth.) A.M.G.Azevedo & R.A.Camargo",
+      "source": "Camargo, R. A.,Tozzi, A.M.G.A. 2015. Deguelia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB101067>http://floradobrasil2015.jbrj.gov.br/FB101067</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).TOZZI, A.M.G.A. 1989. Estudos taxon&amp;ocirc;micos dos g&amp;ecirc;neros&amp;nbsp;Lonchocarpus&amp;nbsp;Kunth e&amp;nbsp;Deguelia&amp;nbsp;Aubl. no Brasil.&amp;nbsp;Tese de Doutorado. Instituto de Biologia, Universidade Estadual de Campinas, Campinas. 341 pp.\r\nCAMARGO, R.A. &amp;amp; TOZZI, A.M.G.A. 2014. A synopsis of the genus&amp;nbsp;Deguelia&amp;nbsp;(Leguminosae, Papilionoideae, Milllettieae) in Brazil. Brittonia 66(1): 12-32.",
+      "parentnameusage": "Deguelia Aubl.",
+      "parentnameusageid": 22919,
+      "originalnameusageid": "115271",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB101067",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2017-09-13 14:56:47.822"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "embira-de-carrapato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SE"
+      },
+      {
+        "vernacularname": "pau-carrapato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "SE"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Tozzi, A.M.G.A.,1989"
+      },
+      {
+        "reference": "Camargo, R.A. & Tozzi, A.M.G.A.,Brittonia,66(1): 12–32,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 115271,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Lonchocarpus costatus Benth."
+      }
+    ],
+    "voucher": []
+  }
+]

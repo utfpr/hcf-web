@@ -1,0 +1,113 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14656,
+      "scientificname": "Dyssochroma longipes (Sendtn.) Miers",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Dyssochroma",
+      "specificepithet": "longipes",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sendtn.) Miers",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Dyssochroma Miers;Dyssochroma longipes (Sendtn.) Miers",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14656>http://floradobrasil2015.jbrj.gov.br/FB14656</a>)<br><br>Stehmann, J.R., Giacomin, L.L. 2020. Dyssochroma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14656\">https://floradobrasil2020.jbrj.gov.br/FB14656</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dyssochroma Miers",
+      "parentnameusageid": 14655,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14656",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Stehmann, J.R., Giacomin, L.L., Silva, G.B. Dyssochroma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14656>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 08:10:40.341"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Hemiepífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 115576,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Solandra longipes Sendtn."
+      },
+      {
+        "relatedresourceid": 127840,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Markea longipes (Sendtn.) Cuatrec."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "O.S. Ribas 7094",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB002512",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB002512",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

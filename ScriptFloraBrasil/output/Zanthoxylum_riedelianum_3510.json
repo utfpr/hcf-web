@@ -1,0 +1,658 @@
+[
+  {
+    "taxon": {
+      "taxonid": 1169,
+      "scientificname": "Zanthoxylum riedelianum Engl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Zanthoxylum",
+      "specificepithet": "riedelianum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Engl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Zanthoxylum L.;Zanthoxylum riedelianum Engl.",
+      "source": "Pirani, J.R. 2015. Zanthoxylum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1169>http://floradobrasil2015.jbrj.gov.br/FB1169</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1169\">https://floradobrasil2020.jbrj.gov.br/FB1169</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Pirani, J.R. Rutaceae. In M.G.L. Wanderley et al. (eds.) Flora fanerog&amp;acirc;mica do estado de S&amp;atilde;o Paulo, vol. 2. HUCITEC, FAPESP, S&amp;atilde;o Paulo, p. 281-308.\r\nReynel, C. 2017. Zanthoxylum (Rutaceae). Flora Neotropica, Monograph 117, pp. 268. New York Botanical Garden, New York.",
+      "parentnameusage": "Zanthoxylum L.",
+      "parentnameusageid": 1064,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1169",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1169>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-04 15:42:43.403"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Perenifólia",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "laranjeira-brava",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "São Paulo"
+      },
+      {
+        "vernacularname": "limãozinho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre, Rondônia"
+      },
+      {
+        "vernacularname": "mama-de-porca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Goiás, DF, Mato Grosso do Sul, São Paulo"
+      },
+      {
+        "vernacularname": "mamicão",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "São Paulo"
+      },
+      {
+        "vernacularname": "mamonilha-de-porca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Goiás"
+      },
+      {
+        "vernacularname": "tamanquaré",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Mato Grosso"
+      },
+      {
+        "vernacularname": "limãozinho-branco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 1094,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum cuiabense Engl."
+      },
+      {
+        "relatedresourceid": 644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara cinerea (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 673,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara latespinosa (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 1091,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum cinereum Engl."
+      },
+      {
+        "relatedresourceid": 1127,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum latespinosum Engl."
+      },
+      {
+        "relatedresourceid": 1099,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum duckei (Albuq.) D.M.Porter"
+      },
+      {
+        "relatedresourceid": 654,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara duckei Albuq."
+      },
+      {
+        "relatedresourceid": 695,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara prancei Albuq."
+      },
+      {
+        "relatedresourceid": 724,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara williamii Albuq."
+      },
+      {
+        "relatedresourceid": 710,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Fagara riedeliana (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 1156,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum prancei (Albuq.) P.G.Waterman"
+      },
+      {
+        "relatedresourceid": 1190,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Zanthoxylum williamii (Albuq.) P.G.Waterman"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.R. Pirani 2603",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00071249",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99949541",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 12681",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00206577",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99950129",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 12681",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00206577",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00206577",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3823",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032077",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00032077",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Pirani 2603",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00071249",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00071249",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 3823",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00032077",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226254050",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 1171,
+      "scientificname": "Zanthoxylum riedelianum subsp. kellermanii (P.Wilson) Reynel",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Zanthoxylum",
+      "specificepithet": "riedelianum",
+      "infraspecificepithet": "kellermanii",
+      "scientificnameauthorship": "(P.Wilson) Reynel",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Zanthoxylum L.;Zanthoxylum riedelianum Engl.;Zanthoxylum riedelianum subsp. kellermanii (P.Wilson) Reynel",
+      "source": "Pirani, J.R. 2015. Zanthoxylum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1171>http://floradobrasil2015.jbrj.gov.br/FB1171</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1171\">https://floradobrasil2020.jbrj.gov.br/FB1171</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Zanthoxylum riedelianum Engl.",
+      "parentnameusageid": 1169,
+      "originalnameusageid": "1123",
+      "namepublishedin": "Phytoneuron 2015–22: 6 2015",
+      "namepublishedinyear": "2015",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1171",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1171>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:11:13.089"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Reynel, C.,Phytoneuron,2015–22: 6,2015"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 670,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Fagara kellermannii (P.Wilson) Engl."
+      },
+      {
+        "relatedresourceid": 1123,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Zanthoxylum kellermanii P.Wilson"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Douglas C. Daly 7733",
+        "collectioncode": "MO",
+        "catalognumber": "MO2022887",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97994468",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Douglas C. Daly 7733",
+        "collectioncode": "MO",
+        "catalognumber": "MO2022887",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO2022887",
+        "locality": "AC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 1173,
+      "scientificname": "Zanthoxylum riedelianum Engl. subsp. riedelianum",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Zanthoxylum",
+      "specificepithet": "riedelianum",
+      "infraspecificepithet": "riedelianum",
+      "scientificnameauthorship": "Engl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Zanthoxylum L.;Zanthoxylum riedelianum Engl.;Zanthoxylum riedelianum Engl. subsp. riedelianum",
+      "source": "Pirani, J.R. 2015. Zanthoxylum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB1173>http://floradobrasil2015.jbrj.gov.br/FB1173</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB1173\">https://floradobrasil2020.jbrj.gov.br/FB1173</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Zanthoxylum riedelianum Engl.",
+      "parentnameusageid": 1169,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB1173",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB1173>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 22:06:22.895"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 647,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara cujabensis (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 648,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara cujabensis var. axillaris Kuntze"
+      },
+      {
+        "relatedresourceid": 711,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Fagara riedeliana var. pubescens Chodat & Hassl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 53984",
+        "collectioncode": "NY",
+        "catalognumber": "NY00929334",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00929334",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 15805",
+        "collectioncode": "NY",
+        "catalognumber": "NY00929238",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00929238",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 15805",
+        "collectioncode": "NY",
+        "catalognumber": "NY00929238",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228798453",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 53984",
+        "collectioncode": "NY",
+        "catalognumber": "NY00929334",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228798507",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  }
+]

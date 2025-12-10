@@ -1,0 +1,102 @@
+[
+  {
+    "taxon": {
+      "taxonid": 109521,
+      "scientificname": "Lessingianthus ulei (Hieron.) H.Rob.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Lessingianthus",
+      "specificepithet": "ulei",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Hieron.) H.Rob.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Vernonieae Cass.;Lessingianthus H.Rob.;Lessingianthus ulei (Hieron.) H.Rob.",
+      "source": "Dematteis, M.,Almeida, G. 2015. Lessingianthus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB109521>http://floradobrasil2015.jbrj.gov.br/FB109521</a>)<br><br>Loeuille, B.F.P., Saavedra, M.M., Angulo, M.B., Ribeiro, R.N., Dematteis, M. 2020. Lessingianthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB109521\">https://floradobrasil2020.jbrj.gov.br/FB109521</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Lessingianthus H.Rob.",
+      "parentnameusageid": 27159,
+      "originalnameusageid": "109534",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB109521",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Loeuille, B.F.P., Saavedra, M.M., Angulo, M.B., Ribeiro, R.N., Dematteis, M. Lessingianthus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB109521>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-29 10:52:31.819"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 109534,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Vernonia ulei Hieron."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 79818",
+        "collectioncode": "RB",
+        "catalognumber": "RB00576668",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00576668",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 79818",
+        "collectioncode": "RB",
+        "catalognumber": "RB00576668",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284463910",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

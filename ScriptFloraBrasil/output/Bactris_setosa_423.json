@@ -1,0 +1,316 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15698,
+      "scientificname": "Bactris setosa Mart.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Bactris",
+      "specificepithet": "setosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mart.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Bactris Jacq. ex Scop.;Bactris setosa Mart.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15698>http://floradobrasil2015.jbrj.gov.br/FB15698</a>)<br><br>Lorenzi, H. 2020. Bactris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15698\">https://floradobrasil2020.jbrj.gov.br/FB15698</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bactris Jacq. ex Scop.",
+      "parentnameusageid": 15687,
+      "originalnameusageid": null,
+      "namepublishedin": "Hist. Nat. Palm. 2: 94 1826",
+      "namepublishedinyear": "1826",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15698",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Lorenzi, H. Bactris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15698>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-09-21 19:48:51.734"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "tucum",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul e Sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "C.P.F. von Martius,Hist. Nat. Palm.,2: 94,1826"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bactris escragnollei Glaz. ex Burret"
+      },
+      {
+        "relatedresourceid": 43768,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bactris lindmanniana Drude ex Lindm."
+      },
+      {
+        "relatedresourceid": 43848,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bactris setosa var. santensis Barb.Rodr."
+      },
+      {
+        "relatedresourceid": 600645,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Bactris lindmaniana Drude"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "H.S. Irwin 18971",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568172",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00568172",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. Dreveck 1120",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00633",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB00633",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 18971",
+        "collectioncode": "NY",
+        "catalognumber": "NY00878171",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00878171",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. Dreveck 1120",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00633",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226938569",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "S. Dreveck 1120",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00633",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226938571",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 18971",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568172",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228740011",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 18971",
+        "collectioncode": "NY",
+        "catalognumber": "NY00878171",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228741647",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 43848,
+      "scientificname": "Bactris setosa var. santensis Barb.Rodr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Bactris",
+      "specificepithet": "setosa",
+      "infraspecificepithet": "santensis",
+      "scientificnameauthorship": "Barb.Rodr.",
+      "acceptednameusage": "Bactris setosa Mart.",
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Bactris Jacq. ex Scop.;Bactris setosa Mart.;Bactris setosa var. santensis Barb.Rodr.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB43848>http://floradobrasil2015.jbrj.gov.br/FB43848</a>)<br><br>Lorenzi, H. 2020. Bactris in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB43848\">https://floradobrasil2020.jbrj.gov.br/FB43848</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Bactris setosa Mart.",
+      "parentnameusageid": 15698,
+      "originalnameusageid": null,
+      "namepublishedin": "Sert. Palm. Brasil. 2: 25 1903",
+      "namepublishedinyear": "1903",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB43848",
+      "acceptednameusageid": 15698,
+      "bibliographiccitation_how_to_cite": "Lorenzi, H. Bactris in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB43848>. Acesso em: 20 nov. 2025.",
+      "modified": "2014-07-22 23:46:21.513"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Barbosa Rodrigues, J.,Sert. Palm. Brasil.,2: 25,1903"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15698,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Bactris setosa Mart."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "taxon": {
+      "taxonid": 108994,
+      "scientificname": "Serjania tripleuria Ferrucci",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Serjania",
+      "specificepithet": "tripleuria",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Ferrucci",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Sapindaceae Juss.;Serjania Mill.;Serjania tripleuria Ferrucci",
+      "source": "Somner, G.V.,Ferrucci, M.S.,Acevedo-Rodríguez, P. 2015. Serjania in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB108994>http://floradobrasil2015.jbrj.gov.br/FB108994</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Ferrucci, M.S. 1991. Sapindaceae. In: R.S. Spichiger &amp;amp; L. Ramella, Flora del Paraguay. ISBN 2-8277-0518-4: 1-144, figs. 1-51.\r\nFerrucci, M.S., Somner, G.V. &amp;amp; Teixeira, M.M. 2009. Serjania. En Somner, G.V. (coord.) Sapindaceae. Pp. 195-255; In&amp;nbsp; Wanderley, M.G.L.; Shepherd, G.J.; Melhem, T.S.;&amp;nbsp; Giulietti, A.M. &amp;amp; S.E. Martins (coords.). Flora Fanerog&amp;acirc;mica do Estado de S&amp;atilde;o Paulo, v. 6. (Martins, S.E.; Wanderley, M.G.L.; Shepherd, G.J.; Giulietti, A.M. &amp;amp; Melhem, T.S. eds.). S&amp;atilde;o Paulo: Instituto de Bot&amp;acirc;nica, Fapesp/Imprensa Oficial.",
+      "parentnameusage": "Serjania Mill.",
+      "parentnameusageid": 20937,
+      "originalnameusageid": null,
+      "namepublishedin": "Bonplandia 5(26): 246-250 1983",
+      "namepublishedinyear": "1983",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB108994",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-05-14 11:02:39.484"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Ferrucci, M.S.,Bonplandia,5(26): 246-250,1983"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "M.S. Ferrucci 2587",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC091092",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC091092",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.S. Ferrucci 2231",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC050110",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC050110",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.S. Ferrucci 2257a",
+        "collectioncode": "UEC",
+        "catalognumber": "UEC050079",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UEC050079",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

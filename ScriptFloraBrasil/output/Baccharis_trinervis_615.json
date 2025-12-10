@@ -1,0 +1,769 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5258,
+      "scientificname": "Baccharis trinervis Pers.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "trinervis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Pers.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis trinervis Pers.",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5258>http://floradobrasil2015.jbrj.gov.br/FB5258</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5258\">https://floradobrasil2020.jbrj.gov.br/FB5258</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis L.",
+      "parentnameusageid": 5151,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5258",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-07-25 18:54:54.453"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "cambará-rebentão",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "casadinha-preta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "casadinha-preta-de-folha-fina",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "erva-de-santana",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 126766,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis venusta Kunth"
+      },
+      {
+        "relatedresourceid": 126769,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis rhexioides var. angustifolia Hieron."
+      },
+      {
+        "relatedresourceid": 26876,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis trinervis Pers. var. trinervis"
+      },
+      {
+        "relatedresourceid": 126768,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis rhexioides var. parvifolia Hieron."
+      },
+      {
+        "relatedresourceid": 104321,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis rhexioides Kunth"
+      },
+      {
+        "relatedresourceid": 126546,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Conyza trinervia Mill."
+      },
+      {
+        "relatedresourceid": 126644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis divergens DC."
+      },
+      {
+        "relatedresourceid": 126584,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pseudobaccharis trinervis (Pers.) V.M.Badillo"
+      },
+      {
+        "relatedresourceid": 126684,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis laxa Gardner"
+      },
+      {
+        "relatedresourceid": 126767,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis oxyphylla DC."
+      },
+      {
+        "relatedresourceid": 126762,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis trichoclada DC."
+      },
+      {
+        "relatedresourceid": 126764,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis pululahuensis Hieron."
+      },
+      {
+        "relatedresourceid": 126765,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis chilcaura Hieron."
+      },
+      {
+        "relatedresourceid": 126653,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis eggersii Hieron."
+      },
+      {
+        "relatedresourceid": 126583,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudobaccharis rhexioides (Kunth) V.M.Badillo"
+      },
+      {
+        "relatedresourceid": 22207,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis trinervis var. rhexioides (Kunth) Baker"
+      },
+      {
+        "relatedresourceid": 126591,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Psila trinervis (Pers.) Cabrera"
+      },
+      {
+        "relatedresourceid": 126585,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudobaccharis trinervis var. paulensis (Heering) Malag."
+      },
+      {
+        "relatedresourceid": 126557,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Molina rhexioides (Kunth) Less."
+      },
+      {
+        "relatedresourceid": 126547,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Conyza trinervis Lam."
+      },
+      {
+        "relatedresourceid": 126518,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Heterothalamus trinervis (Pers.) Hook. & Arn."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "E. Forero 6395",
+        "collectioncode": "NY",
+        "catalognumber": "NY00709668",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00709668",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Cervi 3108",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000001244",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEM000001244",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 15792",
+        "collectioncode": "RB",
+        "catalognumber": "RB01135071",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01135071",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 770",
+        "collectioncode": "RB",
+        "catalognumber": "RB00522268",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00522268",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Cervi 3108",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000001244",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEM000001244",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00393270",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00393270",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00393697",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00393697",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Forero 7072",
+        "collectioncode": "NY",
+        "catalognumber": "NY01194390",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01194390",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Giorgio de Marinis 226",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00001431",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00001431",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. B. Croat 62724",
+        "collectioncode": "US",
+        "catalognumber": "US01726832",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01726832",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.B. Falkenberg 2513",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00725",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB00725",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T. B. Croat 62724",
+        "collectioncode": "US",
+        "catalognumber": "US01726832",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100347199",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.B. Falkenberg 2513",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB00725",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226938779",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Sobral 15792",
+        "collectioncode": "RB",
+        "catalognumber": "RB01135071",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284981054",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Cervi 3108",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000001244",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97296169",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Heiden 770",
+        "collectioncode": "RB",
+        "catalognumber": "RB00522268",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284363736",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Forero 6395",
+        "collectioncode": "NY",
+        "catalognumber": "NY00709668",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228875372",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Forero 7072",
+        "collectioncode": "NY",
+        "catalognumber": "NY01194390",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228877408",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00393697",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284132750",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00393697",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284132752",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Giorgio de Marinis 226",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00001431",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100033863",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.C. Cervi 3108",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000001244",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97296169",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00393270",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284131638",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 22207,
+      "scientificname": "Baccharis trinervis var. rhexioides (Kunth) Baker",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "trinervis",
+      "infraspecificepithet": "rhexioides",
+      "scientificnameauthorship": "(Kunth) Baker",
+      "acceptednameusage": "Baccharis trinervis Pers.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis trinervis Pers.;Baccharis trinervis var. rhexioides (Kunth) Baker",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB22207>http://floradobrasil2015.jbrj.gov.br/FB22207</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB22207\">https://floradobrasil2020.jbrj.gov.br/FB22207</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis trinervis Pers.",
+      "parentnameusageid": 5258,
+      "originalnameusageid": "104321",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22207",
+      "acceptednameusageid": 5258,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-09-03 02:00:05.470685"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5258,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Baccharis trinervis Pers."
+      },
+      {
+        "relatedresourceid": 104321,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Baccharis rhexioides Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 26876,
+      "scientificname": "Baccharis trinervis Pers. var. trinervis",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "trinervis",
+      "infraspecificepithet": "trinervis",
+      "scientificnameauthorship": "Pers.",
+      "acceptednameusage": "Baccharis trinervis Pers.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis trinervis Pers.;Baccharis trinervis Pers. var. trinervis",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB26876>http://floradobrasil2015.jbrj.gov.br/FB26876</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB26876\">https://floradobrasil2020.jbrj.gov.br/FB26876</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis trinervis Pers.",
+      "parentnameusageid": 5258,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB26876",
+      "acceptednameusageid": 5258,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2009-09-03 02:00:25.839994"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5258,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis trinervis Pers."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 126628,
+      "scientificname": "Baccharis trinervis var. cinerea (DC.) Baker",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Baccharis",
+      "specificepithet": "trinervis",
+      "infraspecificepithet": "cinerea",
+      "scientificnameauthorship": "(DC.) Baker",
+      "acceptednameusage": "Baccharis cinerea DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Asteraceae Bercht. & J.Presl;Astereae Cass.;Baccharis L.;Baccharis trinervis Pers.;Baccharis trinervis var. cinerea (DC.) Baker",
+      "source": "Heiden, G.,Schneider, A. 2015. Baccharis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB126628>http://floradobrasil2015.jbrj.gov.br/FB126628</a>)<br><br>Heiden, G. 2020. Baccharis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB126628\">https://floradobrasil2020.jbrj.gov.br/FB126628</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Baccharis trinervis Pers.",
+      "parentnameusageid": 5258,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB126628",
+      "acceptednameusageid": 5167,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2012-04-23 14:34:35.247567"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5167,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Baccharis cinerea DC."
+      }
+    ],
+    "voucher": []
+  }
+]

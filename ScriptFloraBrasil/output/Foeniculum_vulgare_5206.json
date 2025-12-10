@@ -1,0 +1,375 @@
+[
+  {
+    "taxon": {
+      "taxonid": 21886,
+      "scientificname": "Foeniculum vulgare Mill.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Apiaceae",
+      "genus": "Foeniculum",
+      "specificepithet": "vulgare",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Mill.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apiaceae Lindl.;Foeniculum Mill.;Foeniculum vulgare Mill.",
+      "source": "Fiaschi, P.,Cota, M. R. C. 2015. Apiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB21886>http://floradobrasil2015.jbrj.gov.br/FB21886</a>)<br><br>Lucas, D.B., Cardozo, A.L., Vahl, D.R., Antar, G.M., Heiden, G., Almeida, R.B.P. Apiaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB21886\">https://floradobrasil2020.jbrj.gov.br/FB21886</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Foeniculum Mill.",
+      "parentnameusageid": 21885,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB21886",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Lucas, D.B., Cardozo, A.L., Vahl, D.R., Antar, G.M., Heiden, G., Almeida, R.B.P. Apiaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB21886>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 10:44:41.869"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "erva-doce",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "funcho",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "funcho-de-cabeça",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "funcho-amargo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "funcho-doce",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 593870,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum cappilaceum Gilib."
+      },
+      {
+        "relatedresourceid": 594337,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum foeniculum (L.) H.Karst."
+      },
+      {
+        "relatedresourceid": 611820,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum dulce Mill."
+      },
+      {
+        "relatedresourceid": 611821,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum officinale All."
+      },
+      {
+        "relatedresourceid": 611827,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum azoricum Mill."
+      },
+      {
+        "relatedresourceid": 611828,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum vulgare var. azoricum (Mill.) Holub"
+      },
+      {
+        "relatedresourceid": 597955,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Anethum foeniculum L."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA000548",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226836221",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I.L.Conceição 10",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0037899",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225969005",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Roberto Fontes Vieira 137",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00010577",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00010577",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "I.L.Conceição 10",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0037899",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0037899",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA000548",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA000548",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Roberto Fontes Vieira 137",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00010577",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226357982",
+        "locality": "DF",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 611828,
+      "scientificname": "Foeniculum vulgare var. azoricum (Mill.) Holub",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Apiaceae",
+      "genus": "Foeniculum",
+      "specificepithet": "vulgare",
+      "infraspecificepithet": "azoricum",
+      "scientificnameauthorship": "(Mill.) Holub",
+      "acceptednameusage": "Foeniculum vulgare Mill.",
+      "higherclassification": "Flora e Funga;Angiospermas;Apiaceae Lindl.;Foeniculum Mill.;Foeniculum vulgare Mill.;Foeniculum vulgare var. azoricum (Mill.) Holub",
+      "source": "Lucas, D.B., Cardozo, A.L., Vahl, D.R., Antar, G.M., Heiden, G., Almeida, R.B.P. Apiaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB611828\">https://floradobrasil2020.jbrj.gov.br/FB611828</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Foeniculum vulgare Mill.",
+      "parentnameusageid": 21886,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB611828",
+      "acceptednameusageid": 21886,
+      "bibliographiccitation_how_to_cite": "Lucas, D.B., Cardozo, A.L., Vahl, D.R., Antar, G.M., Heiden, G., Almeida, R.B.P. Apiaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB611828>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-15 10:05:41.007"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 21886,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Foeniculum vulgare Mill."
+      },
+      {
+        "relatedresourceid": 611827,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Foeniculum azoricum Mill."
+      }
+    ],
+    "voucher": []
+  }
+]

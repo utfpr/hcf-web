@@ -1,0 +1,553 @@
+[
+  {
+    "taxon": {
+      "taxonid": 22666,
+      "scientificname": "Acalypha diversifolia Jacq.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Jacq.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB22666>http://floradobrasil2015.jbrj.gov.br/FB22666</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB22666\">https://floradobrasil2020.jbrj.gov.br/FB22666</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha L.",
+      "parentnameusageid": 17439,
+      "originalnameusageid": null,
+      "namepublishedin": "Pl. Hort. Schoenbr. 2: 63; t. 244 1797",
+      "namepublishedinyear": "1797",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22666",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB22666>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-27 09:57:01.909"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "maria-preta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Pl. Hort. Schoenbr.,2: 63; t. 244,1797"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53839,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha panamensis Klotzsch"
+      },
+      {
+        "relatedresourceid": 53779,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia var. popayanensis (Kunth) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53780,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia var. squarrosa Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53816,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha leptostachya var. popayanensis (Kunth) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53849,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha samydifolia Poepp."
+      },
+      {
+        "relatedresourceid": 53859,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha ulmifolia Benth."
+      },
+      {
+        "relatedresourceid": 53854,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha tabascensis Lundell"
+      },
+      {
+        "relatedresourceid": 53848,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha salicioides Rusby"
+      },
+      {
+        "relatedresourceid": 53744,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha carpinifolia Poepp. ex Seem."
+      },
+      {
+        "relatedresourceid": 53828,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha microgyna Poepp."
+      },
+      {
+        "relatedresourceid": 53813,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha leptostachya Kunth"
+      },
+      {
+        "relatedresourceid": 56720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ricinocarpus samydifolius (Poepp.) Kuntze"
+      },
+      {
+        "relatedresourceid": 53775,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia var. carpinifolia (Poepp. ex Seem.) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53728,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha billbergiana Klotzsch"
+      },
+      {
+        "relatedresourceid": 53727,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha betuloides Pav. ex Klotzsch"
+      },
+      {
+        "relatedresourceid": 53815,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha leptostachya var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53776,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia var. caloneura Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 53777,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia var. genuina Müll.Arg."
+      },
+      {
+        "relatedresourceid": 53741,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha callosa var. glabra Britton ex Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 53795,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha hartwegiana Benth. ex Baill."
+      },
+      {
+        "relatedresourceid": 56704,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ricinocarpus diversifolius (Jacq.) Kuntze"
+      },
+      {
+        "relatedresourceid": 82423,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha samydaefolia Poepp. & Endl."
+      },
+      {
+        "relatedresourceid": 53846,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha popayanensis Kunth"
+      },
+      {
+        "relatedresourceid": 53814,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha leptostachya var. carpinifolia (Poepp. ex Seem.) Müll.Arg."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53775,
+      "scientificname": "Acalypha diversifolia var. carpinifolia (Poepp. ex Seem.) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "carpinifolia",
+      "scientificnameauthorship": "(Poepp. ex Seem.) Müll.Arg.",
+      "acceptednameusage": "Acalypha diversifolia Jacq.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. carpinifolia (Poepp. ex Seem.) Müll.Arg.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53775>http://floradobrasil2015.jbrj.gov.br/FB53775</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53775\">https://floradobrasil2020.jbrj.gov.br/FB53775</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": "53744",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53775",
+      "acceptednameusageid": 22666,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53775>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 04:52:38.383543"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 854,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53744,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Acalypha carpinifolia Poepp. ex Seem."
+      },
+      {
+        "relatedresourceid": 22666,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia Jacq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53776,
+      "scientificname": "Acalypha diversifolia var. caloneura Pax & K.Hoffm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "caloneura",
+      "scientificnameauthorship": "Pax & K.Hoffm.",
+      "acceptednameusage": "Acalypha diversifolia Jacq.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. caloneura Pax & K.Hoffm.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53776>http://floradobrasil2015.jbrj.gov.br/FB53776</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53776\">https://floradobrasil2020.jbrj.gov.br/FB53776</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53776",
+      "acceptednameusageid": 22666,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53776>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 04:55:54.971986"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Pflanzenr. (Engler) IV, 147, XVI: 108,1924"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 22666,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia Jacq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53777,
+      "scientificname": "Acalypha diversifolia var. genuina Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "genuina",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Acalypha diversifolia Jacq.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. genuina Müll.Arg.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53777>http://floradobrasil2015.jbrj.gov.br/FB53777</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53777\">https://floradobrasil2020.jbrj.gov.br/FB53777</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53777",
+      "acceptednameusageid": 22666,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53777>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 04:56:20.629891"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 854,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 22666,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia Jacq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53778,
+      "scientificname": "Acalypha diversifolia var. leptostachya Glaz.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "leptostachya",
+      "scientificnameauthorship": "Glaz.",
+      "acceptednameusage": "Acalypha gracilis Spreng.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. leptostachya Glaz.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53778>http://floradobrasil2015.jbrj.gov.br/FB53778</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53778\">https://floradobrasil2020.jbrj.gov.br/FB53778</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53778",
+      "acceptednameusageid": 29142,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53778>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 05:10:59.265163"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Mém. Soc. Bot. France,3: 623,1912"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 29142,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha gracilis Spreng."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53779,
+      "scientificname": "Acalypha diversifolia var. popayanensis (Kunth) Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "popayanensis",
+      "scientificnameauthorship": "(Kunth) Müll.Arg.",
+      "acceptednameusage": "Acalypha diversifolia Jacq.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. popayanensis (Kunth) Müll.Arg.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53779>http://floradobrasil2015.jbrj.gov.br/FB53779</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53779\">https://floradobrasil2020.jbrj.gov.br/FB53779</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": "53846",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53779",
+      "acceptednameusageid": 22666,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53779>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 05:11:45.702973"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,15(2): 854,1866"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 53846,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Acalypha popayanensis Kunth"
+      },
+      {
+        "relatedresourceid": 22666,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia Jacq."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 53780,
+      "scientificname": "Acalypha diversifolia var. squarrosa Müll.Arg.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Acalypha",
+      "specificepithet": "diversifolia",
+      "infraspecificepithet": "squarrosa",
+      "scientificnameauthorship": "Müll.Arg.",
+      "acceptednameusage": "Acalypha diversifolia Jacq.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Acalypha L.;Acalypha diversifolia Jacq.;Acalypha diversifolia var. squarrosa Müll.Arg.",
+      "source": "Cardiel, J.M. 2015. Acalypha in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB53780>http://floradobrasil2015.jbrj.gov.br/FB53780</a>)<br><br>Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. 2020. Acalypha in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB53780\">https://floradobrasil2020.jbrj.gov.br/FB53780</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Acalypha diversifolia Jacq.",
+      "parentnameusageid": 22666,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB53780",
+      "acceptednameusageid": 22666,
+      "bibliographiccitation_how_to_cite": "Sousa, A.A.C., Silva, O.L.M., Cordeiro, I., Caruzo, M.B.R. Acalypha in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB53780>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-09-22 05:12:00.099095"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,11(2): 358,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 22666,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Acalypha diversifolia Jacq."
+      }
+    ],
+    "voucher": []
+  }
+]

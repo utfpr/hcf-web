@@ -1,0 +1,221 @@
+[
+  {
+    "taxon": {
+      "taxonid": 22356,
+      "scientificname": "Protium apiculatum Swart",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Burseraceae",
+      "genus": "Protium",
+      "specificepithet": "apiculatum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Swart",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Burseraceae Kunth;Protium Burm.f.;Protium apiculatum Swart",
+      "source": "Daly, D.C. 2015. Burseraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB22356>http://floradobrasil2015.jbrj.gov.br/FB22356</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Daly, D. C. 2007. A new section of Protium Burm. f. from the Neotropics. Studies in neotropical Burseraceae XIV. Brittonia 59: 1-24",
+      "parentnameusage": "Protium Burm.f.",
+      "parentnameusageid": 6588,
+      "originalnameusageid": null,
+      "namepublishedin": "Recueil Trav. Bot. Néerl. 39: 201 1942",
+      "namepublishedinyear": "1942",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB22356",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-09-18 12:32:57.2"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "breu-andirobinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Pará"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Swart,Recueil Trav. Bot. Néerl.,39: 201,1942"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 78035,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Protium firmum Swart"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.G. Kuhlmann 396",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242617",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228410039",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.A. Rosa 1787",
+        "collectioncode": "RB",
+        "catalognumber": "RB00063210",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00063210",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G. Kuhlmann 396",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242617",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01242617",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G. Kuhlmann 396",
+        "collectioncode": "RB",
+        "catalognumber": "RB00063126",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00063126",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Ferreira 4093",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242623",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01242623",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.A. Rosa 1787",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242677",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01242677",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.A. Rosa 1787",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242677",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228410151",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G. Kuhlmann 396",
+        "collectioncode": "RB",
+        "catalognumber": "RB00063126",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284569810",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.G. Kuhlmann 396",
+        "collectioncode": "RB",
+        "catalognumber": "RB00063126",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284569812",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.A. Rosa 1787",
+        "collectioncode": "RB",
+        "catalognumber": "RB00063210",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284573438",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C. Ferreira 4093",
+        "collectioncode": "NY",
+        "catalognumber": "NY01242623",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228410051",
+        "locality": "AM",
+        "typestatus": null
+      }
+    ]
+  }
+]

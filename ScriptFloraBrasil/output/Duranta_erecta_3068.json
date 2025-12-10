@@ -1,0 +1,642 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15139,
+      "scientificname": "Duranta erecta L.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Duranta",
+      "specificepithet": "erecta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Duranta L.;Duranta erecta L.",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Duranta in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15139>http://floradobrasil2015.jbrj.gov.br/FB15139</a>)<br><br>Moroni, P. 2020. Duranta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15139\">https://floradobrasil2020.jbrj.gov.br/FB15139</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Moroni, P. &amp;amp; N. O&amp;rsquo;Leary. Insights into the Systematics of Tribe Duranteae (Verbenaceae) II: A Taxonomic Revision of the New World Genus Duranta L. Annals Missouri Bot. Gard. 105(4). 502-577. 2020.\r\n&amp;nbsp;\r\nMoroni, P., Salom&amp;oacute;n, L. &amp;amp; N. O&amp;rsquo;Leary. A framework for untangling Linnaean names based on Plumier&#39;s Nova plantarum americanarum genera: Revised typification of Duranta erecta. Taxon 67: 1202-1208. 2018.",
+      "parentnameusage": "Duranta L.",
+      "parentnameusageid": 15138,
+      "originalnameusageid": null,
+      "namepublishedin": "Sp. Pl. : 637 1753",
+      "namepublishedinyear": "1753",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15139",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Moroni, P., O’Leary, N. Duranta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15139>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-06-27 13:44:46.778"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Carrasco",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Linnaeus, C.,Sp. Pl.,: 637,1753"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 76751,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. serrata Moldenke"
+      },
+      {
+        "relatedresourceid": 76749,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. obtusifolia Kuntze"
+      },
+      {
+        "relatedresourceid": 76752,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. variegata L.H.Bailey"
+      },
+      {
+        "relatedresourceid": 76739,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. acuminata Kuntze"
+      },
+      {
+        "relatedresourceid": 76750,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. paucidentata Kuntze"
+      },
+      {
+        "relatedresourceid": 76731,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta plumieri var. alba Mast."
+      },
+      {
+        "relatedresourceid": 76746,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. microphylla (Willd.) Moldenke"
+      },
+      {
+        "relatedresourceid": 76744,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. grandiflora Moldenke"
+      },
+      {
+        "relatedresourceid": 76734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta plumieri var. strigillosa Schauer"
+      },
+      {
+        "relatedresourceid": 76733,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta plumieri var. normalis F.M.Bailey"
+      },
+      {
+        "relatedresourceid": 76742,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. ellisia (F.M.Bailey) Domin"
+      },
+      {
+        "relatedresourceid": 76753,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. vestita Kuntze"
+      },
+      {
+        "relatedresourceid": 76722,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta erecta var. alba (Mast.) Caro"
+      },
+      {
+        "relatedresourceid": 76730,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta plumieri Jacq."
+      },
+      {
+        "relatedresourceid": 76727,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Duranta latifolia Salisb."
+      },
+      {
+        "relatedresourceid": 76721,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta ellisiae Jacq."
+      },
+      {
+        "relatedresourceid": 76726,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta integrifolia Tod."
+      },
+      {
+        "relatedresourceid": 76737,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta racemosa Mill."
+      },
+      {
+        "relatedresourceid": 76729,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta microphylla Willd."
+      },
+      {
+        "relatedresourceid": 76759,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta turbinata Tod."
+      },
+      {
+        "relatedresourceid": 76763,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ellisia acuta L."
+      },
+      {
+        "relatedresourceid": 76754,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta spinosa Mill."
+      },
+      {
+        "relatedresourceid": 76748,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. normalis (F.M.Bailey) Domin"
+      },
+      {
+        "relatedresourceid": 76740,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. alba (Mast.) Domin"
+      },
+      {
+        "relatedresourceid": 76747,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. mutisii Kuntze"
+      },
+      {
+        "relatedresourceid": 76723,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta erecta var. grandiflora (Moldenke) Caro"
+      },
+      {
+        "relatedresourceid": 76738,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens L."
+      },
+      {
+        "relatedresourceid": 76720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta dentata Pers."
+      },
+      {
+        "relatedresourceid": 76718,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta angustifolia Salisb."
+      },
+      {
+        "relatedresourceid": 76725,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Duranta inermis L."
+      },
+      {
+        "relatedresourceid": 76732,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta plumieri var. ellisia F.M.Bailey"
+      },
+      {
+        "relatedresourceid": 76743,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta repens var. ellisiae (Jacq.) R.R.Fernandez"
+      },
+      {
+        "relatedresourceid": 76728,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Duranta macrodonta Moldenke"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01153081",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01153081",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Cordeiro 1947",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM268534",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM268534",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "França, MR 39",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0020328",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0020328",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.K. Takimoto 2",
+        "collectioncode": "RB",
+        "catalognumber": "RB01217505",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01217505",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Danielle da Silva Fernandes 802",
+        "collectioncode": "RB",
+        "catalognumber": "RB00598177",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00598177",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00445572",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00445572",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00025110",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUFU00025110",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. S. Santos 475",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00036896",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEPEC00036896",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01217474",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01217474",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Martins, F.C.O. 30",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027730",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES027730",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guerra s.n.",
+        "collectioncode": "RB",
+        "catalognumber": "RB00445632",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00445632",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. C. Diogo s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00564181",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00564181",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01153139",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01153139",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Cordeiro 1947",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM268534",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229637455",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01217474",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285039564",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.K. Takimoto 2",
+        "collectioncode": "RB",
+        "catalognumber": "RB01217505",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285039624",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "França, MR 39",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0020328",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225942735",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01153081",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284991366",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00445572",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284238484",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Martins, F.C.O. 30",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES027730",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100621961",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. C. Diogo s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00564181",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228107879",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB01153139",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284991406",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F. S. Santos 475",
+        "collectioncode": "CEPEC",
+        "catalognumber": "CEPEC00036896",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226612411",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "HUFU",
+        "catalognumber": "HUFU00025110",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97402859",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guerra s.n.",
+        "collectioncode": "RB",
+        "catalognumber": "RB00445632",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284238618",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Danielle da Silva Fernandes 802",
+        "collectioncode": "RB",
+        "catalognumber": "RB00598177",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284508650",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 76722,
+      "scientificname": "Duranta erecta var. alba (Mast.) Caro",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Duranta",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "alba",
+      "scientificnameauthorship": "(Mast.) Caro",
+      "acceptednameusage": "Duranta erecta L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Duranta L.;Duranta erecta L.;Duranta erecta var. alba (Mast.) Caro",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Duranta in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB76722>http://floradobrasil2015.jbrj.gov.br/FB76722</a>)<br><br>Moroni, P. 2020. Duranta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB76722\">https://floradobrasil2020.jbrj.gov.br/FB76722</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Duranta erecta L.",
+      "parentnameusageid": 15139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB76722",
+      "acceptednameusageid": 15139,
+      "bibliographiccitation_how_to_cite": "Moroni, P., O’Leary, N. Duranta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB76722>. Acesso em: 20 nov. 2025.",
+      "modified": "2012-01-03 14:57:03.953346"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Revista Argent. Agron.,23: 11,1956"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15139,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Duranta erecta L."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 76723,
+      "scientificname": "Duranta erecta var. grandiflora (Moldenke) Caro",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Duranta",
+      "specificepithet": "erecta",
+      "infraspecificepithet": "grandiflora",
+      "scientificnameauthorship": "(Moldenke) Caro",
+      "acceptednameusage": "Duranta erecta L.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Duranta L.;Duranta erecta L.;Duranta erecta var. grandiflora (Moldenke) Caro",
+      "source": "Salimena, F.R.G.,Mulgura, M. 2015. Duranta in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB76723>http://floradobrasil2015.jbrj.gov.br/FB76723</a>)<br><br>Moroni, P. 2020. Duranta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB76723\">https://floradobrasil2020.jbrj.gov.br/FB76723</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Duranta erecta L.",
+      "parentnameusageid": 15139,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB76723",
+      "acceptednameusageid": 15139,
+      "bibliographiccitation_how_to_cite": "Moroni, P., O’Leary, N. Duranta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB76723>. Acesso em: 20 nov. 2025.",
+      "modified": "2012-01-03 14:57:21.194719"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Revista Argent. Agron.,23: 10,1956"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 15139,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Duranta erecta L."
+      }
+    ],
+    "voucher": []
+  }
+]

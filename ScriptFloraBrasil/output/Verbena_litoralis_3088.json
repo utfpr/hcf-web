@@ -1,0 +1,869 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15209,
+      "scientificname": "Verbena litoralis Kunth",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15209>http://floradobrasil2015.jbrj.gov.br/FB15209</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15209\">https://floradobrasil2020.jbrj.gov.br/FB15209</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena L.",
+      "parentnameusageid": 15201,
+      "originalnameusageid": null,
+      "namepublishedin": "Nov. Gen. Sp. Pl. (quarto ed.) 2: 276, t. 137. 1817",
+      "namepublishedinyear": "1817",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15209",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15209>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-12-05 08:39:46.538"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Kunth, C.,Nov. Gen. Sp. Pl.,(quarto ed.) 2: 276, t. 137.,1817"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 39780,
+      "scientificname": "Verbena litoralis var. brasiliensis (Vell.) Munir",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "brasiliensis",
+      "scientificnameauthorship": "(Vell.) Munir",
+      "acceptednameusage": "Verbena litoralis var. subglabrata (Moldenke) N.O'Leary",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. brasiliensis (Vell.) Munir",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39780>http://floradobrasil2015.jbrj.gov.br/FB39780</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB39780\">https://floradobrasil2020.jbrj.gov.br/FB39780</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).O'Leary, N. et al., 2007. Annals Missouri Bot. Gard. 94: 571-621.",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": "77310",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39780",
+      "acceptednameusageid": 103707,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB39780>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 17:58:07.001317"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Annuaire Conserv. Jard. Bot. Genève,7-8: 292,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 103707,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. subglabrata (Moldenke) N.O'Leary"
+      },
+      {
+        "relatedresourceid": 77310,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena brasiliensis Vell."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 39781,
+      "scientificname": "Verbena litoralis Kunth var. litoralis",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "litoralis",
+      "scientificnameauthorship": "Kunth",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis Kunth var. litoralis",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB39781>http://floradobrasil2015.jbrj.gov.br/FB39781</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB39781\">https://floradobrasil2020.jbrj.gov.br/FB39781</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB39781",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB39781>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-09-14 14:08:34.321"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 77302,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena approximata Briq."
+      },
+      {
+        "relatedresourceid": 77411,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena nudiflora Nutt. ex Turcz."
+      },
+      {
+        "relatedresourceid": 77297,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena affinis M.Martens & Galeotti"
+      },
+      {
+        "relatedresourceid": 77390,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. portoricensis Moldenke"
+      },
+      {
+        "relatedresourceid": 77385,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. albiflora Moldenke"
+      },
+      {
+        "relatedresourceid": 77388,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. leptostachya Schauer"
+      },
+      {
+        "relatedresourceid": 77318,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena caracasana Kunth"
+      },
+      {
+        "relatedresourceid": 77327,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena cordobensis Briq."
+      },
+      {
+        "relatedresourceid": 77386,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. caracasana (Kunth) Briq."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Bittencourt, F; Giasson, LOM; Sieves, LC; Giovanella, J 274",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB45404",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB45404",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bittencourt, F; Giasson, LOM; Sieves, LC; Giovanella, J 274",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB45404",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227031649",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 77385,
+      "scientificname": "Verbena litoralis var. albiflora Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "albiflora",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Verbena litoralis Kunth var. litoralis",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. albiflora Moldenke",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77385>http://floradobrasil2015.jbrj.gov.br/FB77385</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77385\">https://floradobrasil2020.jbrj.gov.br/FB77385</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77385",
+      "acceptednameusageid": 39781,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77385>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:39:56.920776"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,1: 432,1940"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39781,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis Kunth var. litoralis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77386,
+      "scientificname": "Verbena litoralis var. caracasana (Kunth) Briq.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "caracasana",
+      "scientificnameauthorship": "(Kunth) Briq.",
+      "acceptednameusage": "Verbena litoralis Kunth var. litoralis",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. caracasana (Kunth) Briq.",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77386>http://floradobrasil2015.jbrj.gov.br/FB77386</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77386\">https://floradobrasil2020.jbrj.gov.br/FB77386</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": "77318",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77386",
+      "acceptednameusageid": 39781,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77386>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:40:59.195524"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Annuaire Conserv. Jard. Bot. Genève,7-8: 292,1904"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39781,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis Kunth var. litoralis"
+      },
+      {
+        "relatedresourceid": 77318,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena caracasana Kunth"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77387,
+      "scientificname": "Verbena litoralis var. congesta Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "congesta",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Verbena litoralis var. subglabrata (Moldenke) N.O'Leary",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. congesta Moldenke",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77387>http://floradobrasil2015.jbrj.gov.br/FB77387</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77387\">https://floradobrasil2020.jbrj.gov.br/FB77387</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77387",
+      "acceptednameusageid": 103707,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77387>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-16 13:14:27.572262"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,20: 80,1970"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 103707,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. subglabrata (Moldenke) N.O'Leary"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77388,
+      "scientificname": "Verbena litoralis var. leptostachya Schauer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "leptostachya",
+      "scientificnameauthorship": "Schauer",
+      "acceptednameusage": "Verbena litoralis Kunth var. litoralis",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. leptostachya Schauer",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77388>http://floradobrasil2015.jbrj.gov.br/FB77388</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77388\">https://floradobrasil2020.jbrj.gov.br/FB77388</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77388",
+      "acceptednameusageid": 39781,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77388>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:41:32.689367"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,11: 542,1847"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39781,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis Kunth var. litoralis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77389,
+      "scientificname": "Verbena litoralis var. melanopotamica Hauman",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "melanopotamica",
+      "scientificnameauthorship": "Hauman",
+      "acceptednameusage": "Verbena intermedia Gillies & Hook. ex Hook.",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. melanopotamica Hauman",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77389>http://floradobrasil2015.jbrj.gov.br/FB77389</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77389\">https://floradobrasil2020.jbrj.gov.br/FB77389</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77389",
+      "acceptednameusageid": 39778,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77389>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:44:28.193629"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Anales Mus. Nac. Hist. Nat. Buenos Aires,24: 413,1913"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39778,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena intermedia Gillies & Hook. ex Hook."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77390,
+      "scientificname": "Verbena litoralis var. portoricensis Moldenke",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "portoricensis",
+      "scientificnameauthorship": "Moldenke",
+      "acceptednameusage": "Verbena litoralis Kunth var. litoralis",
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. portoricensis Moldenke",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77390>http://floradobrasil2015.jbrj.gov.br/FB77390</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77390\">https://floradobrasil2020.jbrj.gov.br/FB77390</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77390",
+      "acceptednameusageid": 39781,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77390>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:45:04.895177"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Phytologia,50: 310,1982"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 39781,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis Kunth var. litoralis"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 77391,
+      "scientificname": "Verbena litoralis var. pycnostachya Schauer",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_NAO_VALIDAMENTE_PUBLICADO",
+      "taxonomicstatus": "",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "pycnostachya",
+      "scientificnameauthorship": "Schauer",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. pycnostachya Schauer",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB77391>http://floradobrasil2015.jbrj.gov.br/FB77391</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB77391\">https://floradobrasil2020.jbrj.gov.br/FB77391</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB77391",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB77391>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-08-18 15:46:36.048749"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,11: 542,1847"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 103707,
+      "scientificname": "Verbena litoralis var. subglabrata (Moldenke) N.O'Leary",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Verbena",
+      "specificepithet": "litoralis",
+      "infraspecificepithet": "subglabrata",
+      "scientificnameauthorship": "(Moldenke) N.O'Leary",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Verbenaceae J.St.-Hil.;Verbena L.;Verbena litoralis Kunth;Verbena litoralis var. subglabrata (Moldenke) N.O'Leary",
+      "source": "Thode, V.,O'Leary, N. 2015. Verbena in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB103707>http://floradobrasil2015.jbrj.gov.br/FB103707</a>)<br><br>O’Leary, N. 2020. Verbena in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB103707\">https://floradobrasil2020.jbrj.gov.br/FB103707</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).O&#39;Leary, N. et al., 2007. Annals Missouri Bot. Gard. 94: 571-621.",
+      "parentnameusage": "Verbena litoralis Kunth",
+      "parentnameusageid": 15209,
+      "originalnameusageid": "77305",
+      "namepublishedin": "Revis. Gen. Pl. 3(2): 254. 1898",
+      "namepublishedinyear": "1898",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB103707",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "O’Leary, N. Verbena in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB103707>. Acesso em: 20 nov. 2025.",
+      "modified": "2016-09-14 14:21:49.013"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "O'Leary & Múlgura,Flora Argentina,vol. 14: 198,2012"
+      },
+      {
+        "reference": "Kuntze, O.,Revis. Gen. Pl.,3(2): 254.,1898"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 77305,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena bonariensis var. brevibracteata Kuntze"
+      },
+      {
+        "relatedresourceid": 77310,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena brasiliensis Vell."
+      },
+      {
+        "relatedresourceid": 77322,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena chacensis Moldenke"
+      },
+      {
+        "relatedresourceid": 77387,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. congesta Moldenke"
+      },
+      {
+        "relatedresourceid": 39780,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena litoralis var. brasiliensis (Vell.) Munir"
+      },
+      {
+        "relatedresourceid": 77311,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Verbena brasiliensis var. subglabrata Moldenke"
+      },
+      {
+        "relatedresourceid": 77358,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena hansenii Greene"
+      },
+      {
+        "relatedresourceid": 77443,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Verbena quadrangularis Vell."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Hassler, E. 2459",
+        "collectioncode": "K",
+        "catalognumber": "K000470518",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227501983",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Hassler, E. 2459",
+        "collectioncode": "K",
+        "catalognumber": "K000470518",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000470518",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

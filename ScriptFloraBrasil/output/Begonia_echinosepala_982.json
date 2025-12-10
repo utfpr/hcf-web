@@ -1,0 +1,220 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5606,
+      "scientificname": "Begonia echinosepala Regel",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "echinosepala",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Regel",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia echinosepala Regel",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5606>http://floradobrasil2015.jbrj.gov.br/FB5606</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5606\">https://floradobrasil2020.jbrj.gov.br/FB5606</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia L.",
+      "parentnameusageid": 5562,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5606",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5606>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-31 17:16:00.135"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 45091,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia echinosepala var. elongatifolia Irmsch."
+      },
+      {
+        "relatedresourceid": 5639,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia insularis Brade"
+      },
+      {
+        "relatedresourceid": 77980,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia itajaiensis Brade"
+      },
+      {
+        "relatedresourceid": 121308,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Begonia echinosepala Regel var. echinosepala"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz 4199",
+        "collectioncode": "RB",
+        "catalognumber": "RB00052773",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00052773",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 4199",
+        "collectioncode": "RB",
+        "catalognumber": "RB00052773",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284375712",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 45091,
+      "scientificname": "Begonia echinosepala var. elongatifolia Irmsch.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "echinosepala",
+      "infraspecificepithet": "elongatifolia",
+      "scientificnameauthorship": "Irmsch.",
+      "acceptednameusage": "Begonia echinosepala Regel",
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia echinosepala Regel;Begonia echinosepala var. elongatifolia Irmsch.",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB45091>http://floradobrasil2015.jbrj.gov.br/FB45091</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB45091\">https://floradobrasil2020.jbrj.gov.br/FB45091</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia echinosepala Regel",
+      "parentnameusageid": 5606,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB45091",
+      "acceptednameusageid": 5606,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB45091>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-28 15:37:31.415"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Irmscher, E.,Bot. Jahrb. Syst.,76: 66,1953"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5606,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Begonia echinosepala Regel"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 121308,
+      "scientificname": "Begonia echinosepala Regel var. echinosepala",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Cucurbitales",
+      "family": "Begoniaceae",
+      "genus": "Begonia",
+      "specificepithet": "echinosepala",
+      "infraspecificepithet": "echinosepala",
+      "scientificnameauthorship": "Regel",
+      "acceptednameusage": "Begonia echinosepala Regel",
+      "higherclassification": "Flora e Funga;Angiospermas;Begoniaceae C.Agardh;Begonia L.;Begonia echinosepala Regel;Begonia echinosepala Regel var. echinosepala",
+      "source": "Jacques, E.L. 2015. Begoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB121308>http://floradobrasil2015.jbrj.gov.br/FB121308</a>)<br><br>Jacques, E.L., Gregório, B.S. Begoniaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB121308\">https://floradobrasil2020.jbrj.gov.br/FB121308</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Begonia echinosepala Regel",
+      "parentnameusageid": 5606,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB121308",
+      "acceptednameusageid": 5606,
+      "bibliographiccitation_how_to_cite": "Jacques, E.L. Begoniaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB121308>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-11-28 15:38:20.648"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5606,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Begonia echinosepala Regel"
+      },
+      {
+        "relatedresourceid": 77980,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Begonia itajaiensis Brade"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.R. Reitz C2021",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM0353116",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM0353116",
+        "locality": "SC",
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

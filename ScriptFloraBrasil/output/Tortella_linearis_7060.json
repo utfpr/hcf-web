@@ -1,0 +1,114 @@
+[
+  {
+    "taxon": {
+      "taxonid": 96843,
+      "scientificname": "Tortella linearis (Sw. ex F.Weber & D.Mohr) R.H.Zander",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Pottiales",
+      "family": "Pottiaceae",
+      "genus": "Tortella",
+      "specificepithet": "linearis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sw. ex F.Weber & D.Mohr) R.H.Zander",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Briófitas;Musgos;Pottiaceae Schimp.;Tortella (Lindb.) Limpr.;Tortella linearis (Sw. ex F.Weber & D.Mohr) R.H.Zander",
+      "source": "Costa, D.P. 2015. Pottiaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB96843>http://floradobrasil2015.jbrj.gov.br/FB96843</a>)<br><br>Costa, D.P. Pottiaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB96843\">https://floradobrasil2020.jbrj.gov.br/FB96843</a>).<br><br>COSTA, D. P.; PERALTA, D. F. Bryophytes diversity in Brazil. Rodriguésia, v.66, n.4, p.1063-1071. 2015. (<a href=https://doi.org/10.1590/2175-7860201566409>https://doi.org/10.1590/2175-7860201566409</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Tortella (Lindb.) Limpr.",
+      "parentnameusageid": 96840,
+      "originalnameusageid": "581447",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB96843",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Costa, D.P. Pottiaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB96843>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-10-17 14:23:03.916"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Folhosa",
+        "Tufo"
+      ],
+      "habitat": [
+        "Corticícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Hornschuch, C.F.,Fl. bras.,1:712,1840"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 581447,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Barbula linearis Sw. ex F. Weber & D. Mohr"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Gonzatti, F Gonzatti, F",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55273",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB55273",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Gonzatti, F Gonzatti, F",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB55273",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227051597",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

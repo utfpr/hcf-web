@@ -1,0 +1,90 @@
+[
+  {
+    "taxon": {
+      "taxonid": 8162,
+      "scientificname": "Hesperozygis ringens (Benth.) Epling",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lamiaceae",
+      "genus": "Hesperozygis",
+      "specificepithet": "ringens",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Benth.) Epling",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lamiaceae Martinov;Hesperozygis Epling;Hesperozygis ringens (Benth.) Epling",
+      "source": "Santos, E.P. 2015. Hesperozygis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8162>http://floradobrasil2015.jbrj.gov.br/FB8162</a>)<br><br>Antar, G.M., Oliveira, A.B. 2020. Hesperozygis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8162\">https://floradobrasil2020.jbrj.gov.br/FB8162</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Epling, C. 1936. Synopsis of the South American Labiatae. Repertorium specierum novarum regni vegetabilis 85:132-145.",
+      "parentnameusage": "Hesperozygis Epling",
+      "parentnameusageid": 8156,
+      "originalnameusageid": "58600",
+      "namepublishedin": "Repert. Spec. Nov. Regni Veg. Beih. 85: 134 1936",
+      "namepublishedinyear": "1936",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8162",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Antar, G.M., Oliveira, A.B. Hesperozygis in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8162>. Acesso em: 20 nov. 2025.",
+      "modified": "2024-01-26 13:46:54.272"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo Limpo"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Epling, G.,Repert. Spec. Nov. Regni Veg. Beih.,85: 134,1936"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 58600,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Glechon ringens Benth."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000485459",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227609183",
+        "locality": null,
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "F. Sellow s.n.",
+        "collectioncode": "K",
+        "catalognumber": "K000485459",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000485459",
+        "locality": null,
+        "typestatus": "typus"
+      }
+    ]
+  }
+]

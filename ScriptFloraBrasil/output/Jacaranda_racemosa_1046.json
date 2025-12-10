@@ -1,0 +1,103 @@
+[
+  {
+    "taxon": {
+      "taxonid": 114181,
+      "scientificname": "Jacaranda racemosa Cham.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Bignoniaceae",
+      "genus": "Jacaranda",
+      "specificepithet": "racemosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Cham.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bignoniaceae Juss.;Jacaranda Juss.;Jacaranda racemosa Cham.",
+      "source": "Lohmann, L.G. 2015. Bignoniaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB114181>http://floradobrasil2015.jbrj.gov.br/FB114181</a>)<br><br>Farias-Singer, R. 2020. Jacaranda in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB114181\">https://floradobrasil2020.jbrj.gov.br/FB114181</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;span class=&quot;Apple-style-span&quot; style=&quot;border-collapse: collapse; color: #386134; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px;&quot;&gt;Gentry, A.H. 1992. Flora Neotropica 25(2): 100-101.&lt;/span&gt;",
+      "parentnameusage": "Jacaranda Juss.",
+      "parentnameusageid": 114101,
+      "originalnameusageid": null,
+      "namepublishedin": "Linnaea 7: 547 1832",
+      "namepublishedinyear": "1832",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB114181",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Farias-Singer, R. Jacaranda in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB114181>. Acesso em: 20 nov. 2025.",
+      "modified": "2017-06-30 22:28:43.229"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Chamisso, A.,Linnaea,7: 547,1832"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "H.S. Irwin 22023",
+        "collectioncode": "K",
+        "catalognumber": "K000991578",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000991578",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 22023",
+        "collectioncode": "K",
+        "catalognumber": "K000991578",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227397827",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,661 @@
+[
+  {
+    "taxon": {
+      "taxonid": 19886,
+      "scientificname": "Psidium acutangulum DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "acutangulum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium acutangulum DC.",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB19886>http://floradobrasil2015.jbrj.gov.br/FB19886</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB19886\">https://floradobrasil2020.jbrj.gov.br/FB19886</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium L.",
+      "parentnameusageid": 10853,
+      "originalnameusageid": null,
+      "namepublishedin": "Prodr. 3: 233 1828",
+      "namepublishedinyear": "1828",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19886",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB19886>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 12:00:45.77"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta de Várzea"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Candolle, A.P. de,Prodr.,3: 233,1828"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62557,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Guajava acutangula (Mart. ex DC.) Kuntze"
+      },
+      {
+        "relatedresourceid": 63917,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Psidium persoonii McVaugh"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Amorim, F.E.P. 180",
+        "collectioncode": "RON",
+        "catalognumber": "RON00014939",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308693802",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Amorim, F.E.P. 180",
+        "collectioncode": "RON",
+        "catalognumber": "RON00014939",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=308693803",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "K",
+        "catalognumber": "K001178709",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227286020",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bovini, M.G. 2818",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES024618",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=101270696",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "RB",
+        "catalognumber": "RB00865842",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284891642",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0027370",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100540317",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES024590",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=101270670",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, L. 668",
+        "collectioncode": "HBRA",
+        "catalognumber": "HBRA0005815",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HBRA0005815",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "US",
+        "catalognumber": "US01889546",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01889546",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 9037",
+        "collectioncode": "RB",
+        "catalognumber": "RB01380799",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01380799",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "NY",
+        "catalognumber": "NY00472442",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00472442",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "RB",
+        "catalognumber": "RB00542609",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00542609",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "RB",
+        "catalognumber": "RB00865842",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00865842",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "NY",
+        "catalognumber": "NY00472437",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00472437",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Amorim, F.E.P. 180",
+        "collectioncode": "RON",
+        "catalognumber": "RON00014939",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RON00014939",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "RB",
+        "catalognumber": "RB00264664",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00264664",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lobão, A. 777",
+        "collectioncode": "RB",
+        "catalognumber": "RB00473009",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00473009",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0027370",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0027370",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zarucchi, J.L. 2722",
+        "collectioncode": "RB",
+        "catalognumber": "RB00264664",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00264664",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "NY",
+        "catalognumber": "NY01538883",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01538883",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "NY",
+        "catalognumber": "NY01538567",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY01538567",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "K",
+        "catalognumber": "K001178709",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001178709",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bovini, M.G. 2818",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES024618",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES024618",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES024590",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES024590",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Koczicki, C s.n.",
+        "collectioncode": "HUEM",
+        "catalognumber": "HUEM000016672",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEM000016672",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bovini, M.G. 2818",
+        "collectioncode": "RB",
+        "catalognumber": "RB00583340",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00583340",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 5569",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00065504",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00065504",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.C. Forzza 9037",
+        "collectioncode": "RB",
+        "catalognumber": "RB01380799",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285145314",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "NY",
+        "catalognumber": "NY01538567",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228155299",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "NY",
+        "catalognumber": "NY01538883",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228712557",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.T. Prance 16815",
+        "collectioncode": "US",
+        "catalognumber": "US01889546",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100199707",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "NY",
+        "catalognumber": "NY00472437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228102457",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "NY",
+        "catalognumber": "NY00472442",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228646371",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Bovini, M.G. 2818",
+        "collectioncode": "RB",
+        "catalognumber": "RB00583340",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284476506",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Zarucchi, J.L. 2722",
+        "collectioncode": "RB",
+        "catalognumber": "RB00264664",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283961976",
+        "locality": "RO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.M.T. Walter 5569",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00065504",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226172173",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Lobão, A. 777",
+        "collectioncode": "RB",
+        "catalognumber": "RB00473009",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284289274",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 9225",
+        "collectioncode": "RB",
+        "catalognumber": "RB00542609",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284403228",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R. Goldenberg 2018",
+        "collectioncode": "RB",
+        "catalognumber": "RB00264664",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283961976",
+        "locality": "RR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 63741,
+      "scientificname": "Psidium acutangulum var. acidum DC.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "acutangulum",
+      "infraspecificepithet": "acidum",
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": "Psidium acidum (DC.) Landrum",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium acutangulum DC.;Psidium acutangulum var. acidum DC.",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63741>http://floradobrasil2015.jbrj.gov.br/FB63741</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63741\">https://floradobrasil2020.jbrj.gov.br/FB63741</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium acutangulum DC.",
+      "parentnameusageid": 19886,
+      "originalnameusageid": "606990",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63741",
+      "acceptednameusageid": 606990,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63741>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-07 12:32:04.25"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "DC.,Prodr.,3: 233,1828"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 606990,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Psidium acidum (DC.) Landrum"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 63742,
+      "scientificname": "Psidium acutangulum var. crassirame O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "acutangulum",
+      "infraspecificepithet": "crassirame",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Psidium acidum (DC.) Landrum",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium acutangulum DC.;Psidium acutangulum var. crassirame O.Berg",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63742>http://floradobrasil2015.jbrj.gov.br/FB63742</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63742\">https://floradobrasil2020.jbrj.gov.br/FB63742</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium acutangulum DC.",
+      "parentnameusageid": 19886,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 14(1): 409 1857",
+      "namepublishedinyear": "1857",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63742",
+      "acceptednameusageid": 606990,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63742>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-09 09:35:58.839"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,14(1): 409,1857"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 606990,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium acidum (DC.) Landrum"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 63743,
+      "scientificname": "Psidium acutangulum var. oblongatum Mattos",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "acutangulum",
+      "infraspecificepithet": "oblongatum",
+      "scientificnameauthorship": "Mattos",
+      "acceptednameusage": "Psidium acidum (DC.) Landrum",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium acutangulum DC.;Psidium acutangulum var. oblongatum Mattos",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63743>http://floradobrasil2015.jbrj.gov.br/FB63743</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63743\">https://floradobrasil2020.jbrj.gov.br/FB63743</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium acutangulum DC.",
+      "parentnameusageid": 19886,
+      "originalnameusageid": null,
+      "namepublishedin": "Loefgrenia 94: 12 1989",
+      "namepublishedinyear": "1989",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63743",
+      "acceptednameusageid": 606990,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63743>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-09 09:37:58.075"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Mattos,Loefgrenia,94: 12,1989"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 606990,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium acidum (DC.) Landrum"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 63744,
+      "scientificname": "Psidium acutangulum var. tenuirame O.Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Psidium",
+      "specificepithet": "acutangulum",
+      "infraspecificepithet": "tenuirame",
+      "scientificnameauthorship": "O.Berg",
+      "acceptednameusage": "Psidium acidum (DC.) Landrum",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Psidium L.;Psidium acutangulum DC.;Psidium acutangulum var. tenuirame O.Berg",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB63744>http://floradobrasil2015.jbrj.gov.br/FB63744</a>)<br><br>Proença, C.E.B., Costa, I.R.,  Tuler, A.C 2020. Psidium in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB63744\">https://floradobrasil2020.jbrj.gov.br/FB63744</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Psidium acutangulum DC.",
+      "parentnameusageid": 19886,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB63744",
+      "acceptednameusageid": 606990,
+      "bibliographiccitation_how_to_cite": " Tuler, A.C, Costa, I.R., Proença, C.E.B. Psidium in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB63744>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-09 09:37:18.95"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,14(1): 409,1857"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 606990,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Psidium acidum (DC.) Landrum"
+      }
+    ],
+    "voucher": []
+  }
+]

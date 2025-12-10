@@ -1,0 +1,690 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10823,
+      "scientificname": "Pimenta pseudocaryophyllus (Gomes) Landrum",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Pimenta",
+      "specificepithet": "pseudocaryophyllus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Gomes) Landrum",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Pimenta Lindl.;Pimenta pseudocaryophyllus (Gomes) Landrum",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10823>http://floradobrasil2015.jbrj.gov.br/FB10823</a>)<br><br>Valdemarin, K.S., Mazine, F.F. 2020. Pimenta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10823\">https://floradobrasil2020.jbrj.gov.br/FB10823</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pimenta Lindl.",
+      "parentnameusageid": 10822,
+      "originalnameusageid": "63572",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10823",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Valdemarin, K.S., Mazine, F.F. Pimenta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10823>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-03-26 13:59:17.89"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Landrum, L.R.,Brittonia,36: 242,1984"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 61787,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia acuminata Link"
+      },
+      {
+        "relatedresourceid": 61885,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia caryophylla St.-Lég."
+      },
+      {
+        "relatedresourceid": 62084,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia leandriana O.Berg"
+      },
+      {
+        "relatedresourceid": 62261,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Eugenia pseudocaryophyllus (Gomes) DC."
+      },
+      {
+        "relatedresourceid": 63487,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus caryophyllata Vell."
+      },
+      {
+        "relatedresourceid": 63572,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Myrtus pseudocaryophyllus Gomes"
+      },
+      {
+        "relatedresourceid": 63725,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus organensis Burret"
+      },
+      {
+        "relatedresourceid": 63723,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus leandrianus (O.Berg) Burret"
+      },
+      {
+        "relatedresourceid": 63716,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus costatus O.Berg"
+      },
+      {
+        "relatedresourceid": 63731,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus uniflorus Burret"
+      },
+      {
+        "relatedresourceid": 63729,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus sericeus O.Berg"
+      },
+      {
+        "relatedresourceid": 63715,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus chrysophyllus Burret"
+      },
+      {
+        "relatedresourceid": 63728,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus seemannii Triana ex Hemsl."
+      },
+      {
+        "relatedresourceid": 63458,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus aequalis Vell."
+      },
+      {
+        "relatedresourceid": 63726,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus pabstianus D.Legrand"
+      },
+      {
+        "relatedresourceid": 63720,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus glaziovianus (Kiaersk.) Burret"
+      },
+      {
+        "relatedresourceid": 63717,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus crenatus D.Legrand"
+      },
+      {
+        "relatedresourceid": 597375,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia leandreana O.Berg"
+      },
+      {
+        "relatedresourceid": 63713,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus acuminatus (Link) Burret"
+      },
+      {
+        "relatedresourceid": 63722,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus jaccoudii Mattos"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Mazine, F. 955",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA085570",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA085570",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Krieger CESJ 21439",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA067716",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA067716",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W. 4051",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA098235",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA098235",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Martins, F.R. 2147",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA014509",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA014509",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 10479",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA030993",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA030993",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ziller, S. 1241",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA036699",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA036699",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Mazine, F. 955",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA085570",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226804527",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Krieger CESJ 21439",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA067716",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226787921",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Martins, F.R. 2147",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA014509",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226744143",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.C.  Souza 10479",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA030993",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226756987",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ziller, S. 1241",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA036699",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226762553",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W. 4051",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA098235",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226814617",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 605501,
+      "scientificname": "Pimenta pseudocaryophyllus var. fulvescens (Mart. ex DC.) Landrum",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Pimenta",
+      "specificepithet": "pseudocaryophyllus",
+      "infraspecificepithet": "fulvescens",
+      "scientificnameauthorship": "(Mart. ex DC.) Landrum",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Pimenta Lindl.;Pimenta pseudocaryophyllus (Gomes) Landrum;Pimenta pseudocaryophyllus var. fulvescens (Mart. ex DC.) Landrum",
+      "source": "Valdemarin, K.S., Mazine, F.F. 2020. Pimenta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605501\">https://floradobrasil2020.jbrj.gov.br/FB605501</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pimenta pseudocaryophyllus (Gomes) Landrum",
+      "parentnameusageid": 10823,
+      "originalnameusageid": "62012",
+      "namepublishedin": "Flora Neotropica 45: 104 1986",
+      "namepublishedinyear": "1986",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605501",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Valdemarin, K.S., Mazine, F.F. Pimenta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605501>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 09:25:44.532"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Landrum, L.,Flora Neotropica,45: 104,1986"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62012,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eugenia fulvescens Mart. ex DC."
+      },
+      {
+        "relatedresourceid": 63519,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Myrtus fulvescens (Mart. ex DC.) Kiaersk."
+      },
+      {
+        "relatedresourceid": 63615,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrtus velutina (O.Berg) Kiaersk."
+      },
+      {
+        "relatedresourceid": 62165,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia mutabilis O.Berg"
+      },
+      {
+        "relatedresourceid": 63719,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pseudocaryophyllus fulvescens (Mart. ex DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 63724,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus mutabilis (O.Berg) Burret"
+      },
+      {
+        "relatedresourceid": 63691,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pimenta fulvescens (Mart. ex DC.) Blume"
+      },
+      {
+        "relatedresourceid": 63727,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus platyphyllus Burret ex Luetzelb."
+      },
+      {
+        "relatedresourceid": 63732,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus velutinus O.Berg"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605506,
+      "scientificname": "Pimenta pseudocaryophyllus var. hoehnei (Burret) Landrum",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Pimenta",
+      "specificepithet": "pseudocaryophyllus",
+      "infraspecificepithet": "hoehnei",
+      "scientificnameauthorship": "(Burret) Landrum",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Pimenta Lindl.;Pimenta pseudocaryophyllus (Gomes) Landrum;Pimenta pseudocaryophyllus var. hoehnei (Burret) Landrum",
+      "source": "Valdemarin, K.S., Mazine, F.F. 2020. Pimenta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605506\">https://floradobrasil2020.jbrj.gov.br/FB605506</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pimenta pseudocaryophyllus (Gomes) Landrum",
+      "parentnameusageid": 10823,
+      "originalnameusageid": "63721",
+      "namepublishedin": "Flora Neotropica 45: 104 1986",
+      "namepublishedinyear": "1986",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605506",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Valdemarin, K.S., Mazine, F.F. Pimenta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605506>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-01-30 19:25:36.931"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Landrum, L.,Flora Neotropica,45: 104,1986"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 63718,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pseudocaryophyllus emarginatus Burret"
+      },
+      {
+        "relatedresourceid": 63730,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pseudocaryophyllus theifer Toledo"
+      },
+      {
+        "relatedresourceid": 63721,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pseudocaryophyllus hoehnei Burret"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 605507,
+      "scientificname": "Pimenta pseudocaryophyllus (Gomes) Landrum var. pseudocaryophyllus",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Pimenta",
+      "specificepithet": "pseudocaryophyllus",
+      "infraspecificepithet": "pseudocaryophyllus",
+      "scientificnameauthorship": "(Gomes) Landrum",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Pimenta Lindl.;Pimenta pseudocaryophyllus (Gomes) Landrum;Pimenta pseudocaryophyllus (Gomes) Landrum var. pseudocaryophyllus",
+      "source": "Valdemarin, K.S., Mazine, F.F. 2020. Pimenta in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB605507\">https://floradobrasil2020.jbrj.gov.br/FB605507</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pimenta pseudocaryophyllus (Gomes) Landrum",
+      "parentnameusageid": 10823,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB605507",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Valdemarin, K.S., Mazine, F.F. Pimenta in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB605507>. Acesso em: 20 nov. 2025.",
+      "modified": "2019-01-30 19:39:34.823"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62262,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Eugenia pseudocaryophyllus var. ocoteoides DC."
+      }
+    ],
+    "voucher": []
+  }
+]

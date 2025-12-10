@@ -1,0 +1,377 @@
+[
+  {
+    "taxon": {
+      "taxonid": 13122,
+      "scientificname": "Chusquea windischii L.G.Clark",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Chusquea",
+      "specificepithet": "windischii",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "L.G.Clark",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Bambusoideae Luerss.;Chusquea Kunth;Chusquea windischii L.G.Clark",
+      "source": "Shirasuna, R.T.,Oliveira, R.P.,Mota, A.C. 2015. Chusquea in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB13122>http://floradobrasil2015.jbrj.gov.br/FB13122</a>)<br><br>Clark, L.G., Machado, E.P., Vidal, K.V.A., Mota, A.C., Oliveira, R.P. 2020. Chusquea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB13122\">https://floradobrasil2020.jbrj.gov.br/FB13122</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Chusquea Kunth",
+      "parentnameusageid": 13085,
+      "originalnameusageid": null,
+      "namepublishedin": "Brittonia 44(4): 387-422 1992",
+      "namepublishedinyear": "1992",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB13122",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Clark, L.G., Machado, E.P., Vidal, K.V.A., Mota, A.C., Oliveira, R.P. Chusquea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB13122>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-30 14:13:07.055"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Bambu"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Clark, L.G.,Brittonia,44(4): 387-422,1992"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0208805",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS0208805",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 5851",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB04611",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB04611",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB07750",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB07750",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "NY",
+        "catalognumber": "NY00578984",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00578984",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194601",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM194601",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651035",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00651035",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MO",
+        "catalognumber": "MO128931",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO128931",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000005853",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000005853",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194600",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM194600",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651036",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00651036",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "US",
+        "catalognumber": "US00502227",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00502227",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "US",
+        "catalognumber": "US00502228",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US00502228",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651035",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228477781",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 5851",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB04611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226946729",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Verdi, M. 5851",
+        "collectioncode": "RB",
+        "catalognumber": "RB01400097",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285163390",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194600",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823025",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194600",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823027",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194600",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823023",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000005853",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97156425",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000005890",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97156499",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS0208805",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238554239",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "NY",
+        "catalognumber": "NY00651036",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228477783",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "HCF",
+        "catalognumber": "HCF000005890",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HCF000005890",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "SP",
+        "catalognumber": "SP003090",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP003090",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00012781",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00012781",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Verdi, M. 5851",
+        "collectioncode": "RB",
+        "catalognumber": "RB01400097",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01400097",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0061114",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0061114",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00012782",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SJRP00012782",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "K",
+        "catalognumber": "K000925376",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000925376",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark & Windisch 869A",
+        "collectioncode": "K",
+        "catalognumber": "K000925376",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227427749",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194601",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823031",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194601",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823033",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM194601",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229823029",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "MO",
+        "catalognumber": "MO128931",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97957880",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "NY",
+        "catalognumber": "NY00578984",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228110061",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark, L.G. et al. 1046",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00012781",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100058331",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "Clark et al. 1047",
+        "collectioncode": "SJRP",
+        "catalognumber": "SJRP00012782",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100058333",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0061114",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226923035",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Cervi, A.C. 10081",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB07750",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226954415",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

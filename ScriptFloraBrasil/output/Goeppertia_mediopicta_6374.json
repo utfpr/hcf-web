@@ -1,0 +1,102 @@
+[
+  {
+    "taxon": {
+      "taxonid": 139020,
+      "scientificname": "Goeppertia mediopicta (É.Morren) Borchs. & S.Suárez",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Zingiberales",
+      "family": "Marantaceae",
+      "genus": "Goeppertia",
+      "specificepithet": "mediopicta",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(É.Morren) Borchs. & S.Suárez",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Marantaceae R.Brown;Goeppertia Nees;Goeppertia mediopicta (É.Morren) Borchs. & S.Suárez",
+      "source": "Braga, J.M.A.,Saka, M. 2015. Marantaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB139020>http://floradobrasil2015.jbrj.gov.br/FB139020</a>)<br><br>Saka, M.N. 2020. Goeppertia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB139020\">https://floradobrasil2020.jbrj.gov.br/FB139020</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Saka, M.N. 2016. Revis&amp;atilde;o taxon&amp;ocirc;mica e an&amp;aacute;lise filogen&amp;eacute;tica das esp&amp;eacute;cies extra-amaz&amp;ocirc;nicas de &lt;em&gt;Goeppertia &lt;/em&gt;Nees (Marantaceae). Tese (Doutorado), Universidade Estadual Paulista, Rio Claro, 370p.\r\nSaka, M.N.; Moraes, P.L.R.; Lombardi, J.A.; Diagre-Vanderpelen, D. 2017. Nomenclatural notes on Marantaceae described by &amp;Eacute;douard Morren. Phytotaxa 329 (3): 243-252.",
+      "parentnameusage": "Goeppertia Nees",
+      "parentnameusageid": 137778,
+      "originalnameusageid": "139021",
+      "namepublishedin": "Syst. Bot. 37(1): 632 2012",
+      "namepublishedinyear": "2012",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB139020",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saka, M.N. Goeppertia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB139020>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-18 17:14:52.789"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Borchsenius, F. et al.,Syst. Bot.,37(1): 632,2012"
+      },
+      {
+        "reference": "M.N. Saka et al.,Phytotaxa,329(3): 246,2017"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 36752,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Calathea mediopicta Jacob-Makoy ex É.Morren"
+      },
+      {
+        "relatedresourceid": 139021,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Maranta mediopicta É.Morren"
+      },
+      {
+        "relatedresourceid": 139022,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Phyllodes mediopicta (É.Morren) Kunze"
+      }
+    ],
+    "voucher": []
+  }
+]

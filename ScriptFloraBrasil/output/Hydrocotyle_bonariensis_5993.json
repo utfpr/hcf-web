@@ -1,0 +1,415 @@
+[
+  {
+    "taxon": {
+      "taxonid": 5115,
+      "scientificname": "Hydrocotyle bonariensis Lam.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Araliaceae",
+      "genus": "Hydrocotyle",
+      "specificepithet": "bonariensis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Lam.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araliaceae Juss.;Hydrocotyle L.;Hydrocotyle bonariensis Lam.",
+      "source": "Fiaschi, P. 2015. Araliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB5115>http://floradobrasil2015.jbrj.gov.br/FB5115</a>)<br><br>Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB5115\">https://floradobrasil2020.jbrj.gov.br/FB5115</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Hydrocotyle L.",
+      "parentnameusageid": 5113,
+      "originalnameusageid": null,
+      "namepublishedin": "Encyclopédie Méthodique, Botanique 3: 153 1783",
+      "namepublishedinyear": "1783",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5115",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB5115>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-03 10:05:14.617"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Lamarck, J.B.A.M.,Encyclopédie Méthodique, Botanique,3: 153,1783"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 601815,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hydrocotyle bonariensis var. multiflora (Ruiz & Pav.) Don"
+      },
+      {
+        "relatedresourceid": 80237,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hydrocotyle prolifera Kellogg"
+      },
+      {
+        "relatedresourceid": 598642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hydrocotyle multiflora Ruiz & Pav"
+      },
+      {
+        "relatedresourceid": 124672,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hydrocotyle umbellata var. bonariensis (Lam.) Spreng"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.F. Silveira 31",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA088058",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226806563",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.A. SilvaFilho 36",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0041437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226915331",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 24906",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB033387",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB033387",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.N. Vidal 659",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA117711",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA117711",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.F. Silveira 31",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA088058",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA088058",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.J. Pereira 2698",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES006380",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/VIES006380",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.A. SilvaFilho 36",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0041437",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0041437",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Klein 5975",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0001525",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FLOR0001525",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.J. Pott 9323",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003082",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CGMS003082",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.L.P. Villagra 598",
+        "collectioncode": "REAL",
+        "catalognumber": "REAL000084",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/REAL000084",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.L.S. Guedes 24906",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB033387",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=96965869",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.M. Klein 5975",
+        "collectioncode": "FLOR",
+        "catalognumber": "FLOR0001525",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226912405",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.J. Pereira 2698",
+        "collectioncode": "VIES",
+        "catalognumber": "VIES006380",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100588003",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "V.J. Pott 9323",
+        "collectioncode": "CGMS",
+        "catalognumber": "CGMS003082",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226094018",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "W.N. Vidal 659",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA117711",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226832911",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "B.L.P. Villagra 598",
+        "collectioncode": "REAL",
+        "catalognumber": "REAL000084",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230386237",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 601815,
+      "scientificname": "Hydrocotyle bonariensis var. multiflora (Ruiz & Pav.) Don",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Araliaceae",
+      "genus": "Hydrocotyle",
+      "specificepithet": "bonariensis",
+      "infraspecificepithet": "multiflora",
+      "scientificnameauthorship": "(Ruiz & Pav.) Don",
+      "acceptednameusage": "Hydrocotyle bonariensis Lam.",
+      "higherclassification": "Flora e Funga;Angiospermas;Araliaceae Juss.;Hydrocotyle L.;Hydrocotyle bonariensis Lam.;Hydrocotyle bonariensis var. multiflora (Ruiz & Pav.) Don",
+      "source": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB601815\">https://floradobrasil2020.jbrj.gov.br/FB601815</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Hydrocotyle bonariensis Lam.",
+      "parentnameusageid": 5115,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB601815",
+      "acceptednameusageid": 5115,
+      "bibliographiccitation_how_to_cite": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB601815>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-07-28 10:57:19.32"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 5115,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Hydrocotyle bonariensis Lam."
+      }
+    ],
+    "voucher": []
+  }
+]

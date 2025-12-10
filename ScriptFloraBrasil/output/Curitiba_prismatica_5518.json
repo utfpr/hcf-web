@@ -1,0 +1,165 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10337,
+      "scientificname": "Curitiba prismatica (D.Legrand) Salywon & Landrum",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Curitiba",
+      "specificepithet": "prismatica",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(D.Legrand) Salywon & Landrum",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Curitiba Salywon & Landrum;Curitiba prismatica (D.Legrand) Salywon & Landrum",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10337>http://floradobrasil2015.jbrj.gov.br/FB10337</a>)<br><br>Lima, D.F. 2020. Curitiba in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10337\">https://floradobrasil2020.jbrj.gov.br/FB10337</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Curitiba Salywon & Landrum",
+      "parentnameusageid": 10336,
+      "originalnameusageid": "62255",
+      "namepublishedin": "Brittonia 59: 302 2007",
+      "namepublishedinyear": "2007",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10337",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Lima, D.F. Curitiba in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10337>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-02-04 14:24:40.244"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "guamirim",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "cambuí",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "mureira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "murta",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "bosta-de-galinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Salywon, A.,Brittonia,59: 302,2007"
+      },
+      {
+        "reference": "Legrand, C.D. & Klein, R.M.,Flora Ilustrada Catarinense,Parte 1, fasc. MIRT: 205,1969"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 62255,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Eugenia prismatica D.Legrand"
+      },
+      {
+        "relatedresourceid": 605371,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Mosiera prismatica (D. Legrand) Landrum"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00560638",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284446366",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "RB",
+        "catalognumber": "RB00560638",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00560638",
+        "locality": "PR",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.L. Gasper 3004",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02414",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02414",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Silva 1668",
+        "collectioncode": "RB",
+        "catalognumber": "RB00311445",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00311445",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.L. Gasper 3004",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02414",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942231",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. M. Silva 1668",
+        "collectioncode": "RB",
+        "catalognumber": "RB00311445",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284015846",
+        "locality": "PR",
+        "typestatus": null
+      }
+    ]
+  }
+]

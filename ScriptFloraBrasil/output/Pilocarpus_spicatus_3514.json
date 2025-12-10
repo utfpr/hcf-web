@@ -1,0 +1,1088 @@
+[
+  {
+    "taxon": {
+      "taxonid": 898,
+      "scientificname": "Pilocarpus spicatus A.St.-Hil.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "A.St.-Hil.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB898>http://floradobrasil2015.jbrj.gov.br/FB898</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB898\">https://floradobrasil2020.jbrj.gov.br/FB898</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus Vahl",
+      "parentnameusageid": 866,
+      "originalnameusageid": null,
+      "namepublishedin": "Bull. Soc. Philom. Paris 10/131 1823",
+      "namepublishedinyear": "1823",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB898",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB898>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-21 10:38:49.111"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "arengueiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      },
+      {
+        "vernacularname": "catinga-de-porco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      },
+      {
+        "vernacularname": "jaborandi-da-restinga",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Rio de Janeiro"
+      },
+      {
+        "vernacularname": "jaburandi",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Ceará"
+      },
+      {
+        "vernacularname": "pimentinha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Ceará"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Saint-Hilaire, A.,Bull. Soc. Philom. Paris,10/131,1823"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 878,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus lisboanus Badini"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Michael Jeffrey Balick 3725",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00058032",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226257782",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Kallunki 334",
+        "collectioncode": "K",
+        "catalognumber": "K001173517",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227280098",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Pirani 3673",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00111281",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99946743",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Michael Jeffrey Balick 3725",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00058032",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00058032",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Kallunki 334",
+        "collectioncode": "K",
+        "catalognumber": "K001173517",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001173517",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Pirani 3673",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00111281",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00111281",
+        "locality": "MG",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 899,
+      "scientificname": "Pilocarpus spicatus subsp. aracatensis Kaastra",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "aracatensis",
+      "scientificnameauthorship": "Kaastra",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus subsp. aracatensis Kaastra",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB899>http://floradobrasil2015.jbrj.gov.br/FB899</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB899\">https://floradobrasil2020.jbrj.gov.br/FB899</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB899",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB899>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:33:56.127"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Acta Bot. Neerl.,26: 487,1977"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Dias, P 207",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00196937",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00196937",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guedes, T.N. 553",
+        "collectioncode": "NY",
+        "catalognumber": "NY00067066",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00067066",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dias, P 207",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00196937",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99947211",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Dias, P 207",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00196937",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99947213",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Guedes, T.N. 553",
+        "collectioncode": "NY",
+        "catalognumber": "NY00067066",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228085495",
+        "locality": "CE",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 900,
+      "scientificname": "Pilocarpus spicatus var. lealii (Machado) Kaastra",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "lealii",
+      "scientificnameauthorship": "(Machado) Kaastra",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus var. lealii (Machado) Kaastra",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB900>http://floradobrasil2015.jbrj.gov.br/FB900</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB900\">https://floradobrasil2020.jbrj.gov.br/FB900</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": "877",
+      "namepublishedin": "Acta Bot. Neerl. 26: 487 1977",
+      "namepublishedinyear": "1977",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB900",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB900>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-08-04 15:48:30.114"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "jaborandi-da-restinga",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Rio de Janeiro"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Kaastra, R.,Acta Bot. Neerl.,26: 487,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 877,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pilocarpus lealii Machado"
+      },
+      {
+        "relatedresourceid": 883,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus minutiflorus R.S.Cowan"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Kallunki, J.A. 334",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022960",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226252828",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W.  (Hoehne, Wilson) 5930",
+        "collectioncode": "US",
+        "catalognumber": "US01857445",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01857445",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kallunki, J.A. 334",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022960",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00022960",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hoehne, W.  (Hoehne, Wilson) 5930",
+        "collectioncode": "US",
+        "catalognumber": "US01857445",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100131157",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 901,
+      "scientificname": "Pilocarpus spicatus subsp. longeracemosus (Mart. ex Engl.) Kaastra",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "longeracemosus",
+      "scientificnameauthorship": "(Mart. ex Engl.) Kaastra",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus subsp. longeracemosus (Mart. ex Engl.) Kaastra",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB901>http://floradobrasil2015.jbrj.gov.br/FB901</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB901\">https://floradobrasil2020.jbrj.gov.br/FB901</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": "879",
+      "namepublishedin": "Acta Bot. Neerl. 26: 487 1977",
+      "namepublishedinyear": "1977",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB901",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB901>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:39:19.444"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Carrasco",
+        "Floresta Estacional Semidecidual"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "catinga-de-porco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Kaastra, R.,Acta Bot. Neerl.,26: 487,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 880,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus longeracemosus var. breviusculus Rizzini"
+      },
+      {
+        "relatedresourceid": 879,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pilocarpus longeracemosus Mart. ex Engl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "J.R. Pirani 1976",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00048570",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99946405",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.R. Pirani 1976",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00048570",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00048570",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 902,
+      "scientificname": "Pilocarpus spicatus var. peruvianus J.F.Macbr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "peruvianus",
+      "scientificnameauthorship": "J.F.Macbr.",
+      "acceptednameusage": "Pilocarpus peruvianus (J.F.Macbr.) Kaastra",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus var. peruvianus J.F.Macbr.",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB902>http://floradobrasil2015.jbrj.gov.br/FB902</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB902\">https://floradobrasil2020.jbrj.gov.br/FB902</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": "893",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB902",
+      "acceptednameusageid": 893,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB902>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:41:32.717"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Publ. Field Mus. Nat. Hist., Bot. Ser.,13: 676,1949"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 893,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Pilocarpus peruvianus (J.F.Macbr.) Kaastra"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 903,
+      "scientificname": "Pilocarpus spicatus A.St.-Hil. subsp. spicatus",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "spicatus",
+      "scientificnameauthorship": "A.St.-Hil.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus A.St.-Hil. subsp. spicatus",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB903>http://floradobrasil2015.jbrj.gov.br/FB903</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB903\">https://floradobrasil2020.jbrj.gov.br/FB903</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB903",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB903>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:15:38.014"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "arengueiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      },
+      {
+        "vernacularname": "catinga-de-porco",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Bahia"
+      },
+      {
+        "vernacularname": "jaborandi",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "jaburandi",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 905,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pilocarpus spicatus var. subcoriaceus Engl. ex Duval"
+      },
+      {
+        "relatedresourceid": 909,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus ypanemensis Engl."
+      },
+      {
+        "relatedresourceid": 906,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus subcoriaceus Engl."
+      },
+      {
+        "relatedresourceid": 886,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pilocarpus parviflorus Nees & Mart."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Kallunki, JA 334",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00081419",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99946579",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kallunki, JA 334",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00081419",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99946581",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. dos Santos 4545",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00076975",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=99946501",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Kallunki, JA 334",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00081419",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00081419",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. dos Santos 4545",
+        "collectioncode": "SPF",
+        "catalognumber": "SPF00076975",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SPF00076975",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 904,
+      "scientificname": "Pilocarpus spicatus A.St.-Hil. var. spicatus",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "spicatus",
+      "scientificnameauthorship": "A.St.-Hil.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus A.St.-Hil. var. spicatus",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB904>http://floradobrasil2015.jbrj.gov.br/FB904</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB904\">https://floradobrasil2020.jbrj.gov.br/FB904</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB904",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB904>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:18:41.381"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 905,
+      "scientificname": "Pilocarpus spicatus var. subcoriaceus Engl. ex Duval",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_ILEGITIMO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Pilocarpus",
+      "specificepithet": "spicatus",
+      "infraspecificepithet": "subcoriaceus",
+      "scientificnameauthorship": "Engl. ex Duval",
+      "acceptednameusage": "Pilocarpus spicatus A.St.-Hil. subsp. spicatus",
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Pilocarpus Vahl;Pilocarpus spicatus A.St.-Hil.;Pilocarpus spicatus var. subcoriaceus Engl. ex Duval",
+      "source": "Pirani, J.R. 2015. Pilocarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB905>http://floradobrasil2015.jbrj.gov.br/FB905</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB905\">https://floradobrasil2020.jbrj.gov.br/FB905</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pilocarpus spicatus A.St.-Hil.",
+      "parentnameusageid": 898,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB905",
+      "acceptednameusageid": 903,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB905>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-06 17:41:07.413"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Duval,Recherches Jaborandis,45,1905"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 903,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Pilocarpus spicatus A.St.-Hil. subsp. spicatus"
+      }
+    ],
+    "voucher": []
+  }
+]

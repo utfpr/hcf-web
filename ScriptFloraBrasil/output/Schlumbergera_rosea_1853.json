@@ -1,0 +1,103 @@
+[
+  {
+    "taxon": {
+      "taxonid": 582750,
+      "scientificname": "Schlumbergera rosea (Lagerh.) Calvente & Zappi",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Schlumbergera",
+      "specificepithet": "rosea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Lagerh.) Calvente & Zappi",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Cactaceae Juss.;Schlumbergera Lem.;Schlumbergera rosea (Lagerh.) Calvente & Zappi",
+      "source": "Zappi, D., Taylor, N.P. Cactaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB582750\">https://floradobrasil2020.jbrj.gov.br/FB582750</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Hunt, D., Taylor, N.P. &amp;amp; Charles, G. 2013. The New Cactus Lexicon, Illustrations, 2nd ed. dh books, Milborne Port.",
+      "parentnameusage": "Schlumbergera Lem.",
+      "parentnameusageid": 1737,
+      "originalnameusageid": "634099",
+      "namepublishedin": "Molec. Phylogen. Evol. 58(4) 467",
+      "namepublishedinyear": "467",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB582750",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Zappi, D., Taylor, N.P. Cactaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB582750>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-01-18 13:14:04.922"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Suculenta"
+      ],
+      "habitat": [
+        "Epífita"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila Mista"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Calvente, A. et al.,Molec. Phylogen. Evol.,58(4),467"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 599480,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Rhipsalidopsis rosea (Lagerh.) Britton & Rose"
+      },
+      {
+        "relatedresourceid": 634099,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Rhipsalis rosea Lagerh."
+      },
+      {
+        "relatedresourceid": 1546,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hatiora rosea (Lagerh.) Barthlott"
+      }
+    ],
+    "voucher": []
+  }
+]

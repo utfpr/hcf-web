@@ -1,0 +1,115 @@
+[
+  {
+    "taxon": {
+      "taxonid": 618914,
+      "scientificname": "Matourea platychila (Radlk.) Colletta & V.C.Souza",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Plantaginaceae",
+      "genus": "Matourea",
+      "specificepithet": "platychila",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Radlk.) Colletta & V.C.Souza",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Plantaginaceae Juss.;Matourea Aubl.;Matourea platychila (Radlk.) Colletta & V.C.Souza",
+      "source": "Colletta, G.D., Scatigna, A.V., Souza, V.C. 2020. Matourea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB618914\">https://floradobrasil2020.jbrj.gov.br/FB618914</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Matourea Aubl.",
+      "parentnameusageid": 593339,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB618914",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Colletta, G.D., Scatigna, A.V., Souza, V.C. Matourea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB618914>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-07 08:49:50.9"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Restinga",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 128178,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Otacanthus fluminensis Kuhlmann"
+      },
+      {
+        "relatedresourceid": 25949,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Achetaria platychila (Radlk.) V.C.Souza"
+      },
+      {
+        "relatedresourceid": 128179,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Otacanthus platychilus (Radlk.) Taub."
+      },
+      {
+        "relatedresourceid": 128175,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Otacanthus fernandesii Ronse"
+      },
+      {
+        "relatedresourceid": 128176,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Otacanthus villosus Philcox"
+      }
+    ],
+    "voucher": []
+  }
+]

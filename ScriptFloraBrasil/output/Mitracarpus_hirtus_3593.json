@@ -1,0 +1,535 @@
+[
+  {
+    "taxon": {
+      "taxonid": 20777,
+      "scientificname": "Mitracarpus hirtus (L.) DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Mitracarpus",
+      "specificepithet": "hirtus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Mitracarpus Zucc. ex Schult. & Schult.f.;Mitracarpus hirtus (L.) DC.",
+      "source": "Souza, E.B. 2015. Mitracarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB20777>http://floradobrasil2015.jbrj.gov.br/FB20777</a>)<br><br>Souza, E.B., Fader, A.A.C., Cabral, E.L., Nepomuceno, F.A.A., Florentín, J.E., Carmo, J.A.M., Miguel, L.M., Nuñez Florentín, M., Nicora Chequin, R., Salas, R.M. , Sobrado, S.V. 2020. Mitracarpus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB20777\">https://floradobrasil2020.jbrj.gov.br/FB20777</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mitracarpus Zucc. ex Schult. & Schult.f.",
+      "parentnameusageid": 14117,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20777",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Souza, E.B., Portela, L.H.X., Sobrado, S.V., Salas, R.M. , Nicora Chequin, R., Nuñez Florentín, M., Miguel, L.M., Carmo, J.A.M., Florentín, J.E., Nepomuceno, F.A.A., Cabral, E.L., Fader, A.A.C. Mitracarpus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB20777>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-09-18 11:11:23.272"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Campo de Altitude",
+        "Cerrado (lato sensu)",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Prodr.,4: 572,1830"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 32620,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus villosus (Sw.) DC."
+      },
+      {
+        "relatedresourceid": 71758,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Borreria remotifolia DC."
+      },
+      {
+        "relatedresourceid": 73426,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus simplex Rusby"
+      },
+      {
+        "relatedresourceid": 73425,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus senegalensis DC."
+      },
+      {
+        "relatedresourceid": 73418,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus pilosus A.Rich."
+      },
+      {
+        "relatedresourceid": 74710,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce villosa Sw."
+      },
+      {
+        "relatedresourceid": 74586,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce cephalotes Willd. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 74600,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce declinata Pav. ex DC."
+      },
+      {
+        "relatedresourceid": 73413,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus hirtus var. remotiflorus K.Schum."
+      },
+      {
+        "relatedresourceid": 72517,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Diodia villosa Moc. & Sessé ex DC."
+      },
+      {
+        "relatedresourceid": 594373,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus diffusus (Willd. ex Roem. & Schult.) Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 73429,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus villosus var. glabrior Oerst."
+      },
+      {
+        "relatedresourceid": 73422,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus scaber Zucc. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 73427,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus torresianus Cham. & Schltdl."
+      },
+      {
+        "relatedresourceid": 73428,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus verticillatus (Schumach. & Thonn.) Vatke"
+      },
+      {
+        "relatedresourceid": 74632,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce hirta Sw."
+      },
+      {
+        "relatedresourceid": 74623,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spermacoce gracilis Pohl ex DC."
+      },
+      {
+        "relatedresourceid": 74730,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Staurospermum verticillatum Schumach. & Thonn."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A. Krapovickas 38785",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007535",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226385052",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Krapovickas 38785",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00007535",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00007535",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 73413,
+      "scientificname": "Mitracarpus hirtus var. remotiflorus K.Schum.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Mitracarpus",
+      "specificepithet": "hirtus",
+      "infraspecificepithet": "remotiflorus",
+      "scientificnameauthorship": "K.Schum.",
+      "acceptednameusage": "Mitracarpus hirtus (L.) DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Rubiaceae Juss.;Mitracarpus Zucc. ex Schult. & Schult.f.;Mitracarpus hirtus (L.) DC.;Mitracarpus hirtus var. remotiflorus K.Schum.",
+      "source": "Souza, E.B. 2015. Mitracarpus in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB73413>http://floradobrasil2015.jbrj.gov.br/FB73413</a>)<br><br>Souza, E.B., Fader, A.A.C., Cabral, E.L., Nepomuceno, F.A.A., Florentín, J.E., Carmo, J.A.M., Miguel, L.M., Nuñez Florentín, M., Nicora Chequin, R., Salas, R.M. , Sobrado, S.V. 2020. Mitracarpus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB73413\">https://floradobrasil2020.jbrj.gov.br/FB73413</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Mitracarpus hirtus (L.) DC.",
+      "parentnameusageid": 20777,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB73413",
+      "acceptednameusageid": 20777,
+      "bibliographiccitation_how_to_cite": "Souza, E.B., Portela, L.H.X., Sobrado, S.V., Salas, R.M. , Nicora Chequin, R., Nuñez Florentín, M., Miguel, L.M., Carmo, J.A.M., Florentín, J.E., Nepomuceno, F.A.A., Cabral, E.L., Fader, A.A.C. Mitracarpus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB73413>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-12-19 13:48:43.695286"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,6(6): 85,1888"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 20777,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Mitracarpus hirtus (L.) DC."
+      }
+    ],
+    "voucher": []
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17558,
+      "scientificname": "Ditaxis desertorum (Müll.Arg.) Pax & K.Hoffm.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Ditaxis",
+      "specificepithet": "desertorum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Müll.Arg.) Pax & K.Hoffm.",
+      "acceptednameusage": "Argythamnia desertorum Müll.Arg.",
+      "higherclassification": "Flora e Funga;Angiospermas;Euphorbiaceae Juss.;Ditaxis Vahl ex A.Juss.;Ditaxis desertorum (Müll.Arg.) Pax & K.Hoffm.",
+      "source": "Steinmann, V. 2015. Ditaxis in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17558>http://floradobrasil2015.jbrj.gov.br/FB17558</a>)<br><br>Külkamp, J. 2020. Ditaxis in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17558\">https://floradobrasil2020.jbrj.gov.br/FB17558</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).K&amp;uuml;lkamp, J., Iganci, J.R.V., Cordeiro, I. &amp;amp; Baumgratz, J.F.A. (2020)&amp;nbsp;Ditaxis (Euphorbiaceae) from the Brazilian Caatinga, including a new species, Phytotaxa 455 (2): 152&amp;ndash;160. &lt;a href=&quot;https://doi.org/10.11646/phytotaxa.455.2.6&quot;&gt;https://doi.org/10.11646/phytotaxa.455.2.6&lt;/a&gt;.\r\nPax, F. &amp;amp; Hoffmann, K. (1912) Euphorbiaceae&amp;mdash;Acalypheae&amp;mdash;Chrozophorinae. In: Engler, A. (ed.) Das Pflanzenreich IV.147.vi (Heft 57). Engelmann, Leipzig, pp. 1&amp;ndash;142.\r\n&amp;nbsp;",
+      "parentnameusage": "Ditaxis Vahl ex A.Juss.",
+      "parentnameusageid": 17557,
+      "originalnameusageid": null,
+      "namepublishedin": "Fl. bras. 11/310 1974",
+      "namepublishedinyear": "1974",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17558",
+      "acceptednameusageid": 54173,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-05-03 12:57:09.35"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Caatinga (stricto sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,Pflanzenr.,6/62,1912"
+      },
+      {
+        "reference": "Müller Argoviensis, J.,Fl. bras.,11/310,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25509,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Ditaxis gardneri (Müll.Arg.) Pax & K.Hoffm."
+      },
+      {
+        "relatedresourceid": 54173,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Argythamnia desertorum Müll.Arg."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M. Oliveira, J.S. Silva, C.E. Correa 6257",
+        "collectioncode": "RB",
+        "catalognumber": "01309097",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/01309097",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J. Külkamp 625",
+        "collectioncode": "RB",
+        "catalognumber": "779618",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/779618",
+        "locality": "BA",
+        "typestatus": null
+      }
+    ]
+  }
+]

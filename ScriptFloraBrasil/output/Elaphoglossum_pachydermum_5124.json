@@ -1,0 +1,394 @@
+[
+  {
+    "taxon": {
+      "taxonid": 91058,
+      "scientificname": "Elaphoglossum pachydermum (Fée) T.Moore",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Polypodiopsida",
+      "order": "Polypodiales",
+      "family": "Dryopteridaceae",
+      "genus": "Elaphoglossum",
+      "specificepithet": "pachydermum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Fée) T.Moore",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Samambaias e Licófitas;Dryopteridaceae Herter;Elaphoglossum Schott ex J.Sm.;Elaphoglossum pachydermum (Fée) T.Moore",
+      "source": "Windisch, P.G.,Kieling-Rubio, M.A. 2015. Elaphoglossum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91058>http://floradobrasil2015.jbrj.gov.br/FB91058</a>)<br><br>Matos, F.B. 2020. Elaphoglossum in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91058\">https://floradobrasil2020.jbrj.gov.br/FB91058</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodriguésia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Elaphoglossum Schott ex J.Sm.",
+      "parentnameusageid": 91002,
+      "originalnameusageid": "110024",
+      "namepublishedin": "Index Fil. 12 1857",
+      "namepublishedinyear": "1857",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91058",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Matos, F.B. Elaphoglossum in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB91058>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-09-12 12:00:09.516"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila Mista",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Alston, A.H.G.,Bol. Soc. Brot., sér. 2,32: 1-32,1958"
+      },
+      {
+        "reference": "Moore, T.,Index Fil.,12,1857"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 110024,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Acrostichum pachydermum Fée"
+      },
+      {
+        "relatedresourceid": 116280,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Elaphoglossum gertii Sehnem"
+      },
+      {
+        "relatedresourceid": 615144,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Elaphoglossum hatschbachii Sehnem"
+      },
+      {
+        "relatedresourceid": 116372,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Elaphoglossum tamandarei Brade"
+      },
+      {
+        "relatedresourceid": 91012,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Elaphoglossum blanchetii (Mett. ex Kuhn) C. Chr."
+      },
+      {
+        "relatedresourceid": 621749,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acrostichum latifolium var. blanchetii (Mett. ex Kuhn) Baker"
+      },
+      {
+        "relatedresourceid": 109993,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Acrostichum blanchetii Mett. ex Kuhn"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369649",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01369649",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Salino 395",
+        "collectioncode": "NY",
+        "catalognumber": "NY02597132",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02597132",
+        "locality": "MT",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.A.W. Schwacke 2552",
+        "collectioncode": "RB",
+        "catalognumber": "RB00707080",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00707080",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.A. Rohr 1147",
+        "collectioncode": "US",
+        "catalognumber": "US01567313",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01567313",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0004297",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UPCB0004297",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Macedo 80",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS148502",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/HUEFS148502",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "NY",
+        "catalognumber": "NY02681319",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY02681319",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Salino 1766",
+        "collectioncode": "NY",
+        "catalognumber": "NY00886079",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00886079",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 109",
+        "collectioncode": "RB",
+        "catalognumber": "RB00707002",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00707002",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M.A.L. Rocha 139",
+        "collectioncode": "UB",
+        "catalognumber": "UB0033583",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0033583",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.F. Santos 57",
+        "collectioncode": "UB",
+        "catalognumber": "UB0033773",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0033773",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Vauthier s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00249908",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00249908",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.A. Rohr 1147",
+        "collectioncode": "US",
+        "catalognumber": "US01567313",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100313805",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "RB",
+        "catalognumber": "RB01369649",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285110962",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "UPCB",
+        "catalognumber": "UPCB0004297",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100553429",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Vauthier s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00249908",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228049525",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "F.B. Matos 2229",
+        "collectioncode": "NY",
+        "catalognumber": "NY02681319",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228714839",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Salino 1766",
+        "collectioncode": "NY",
+        "catalognumber": "NY00886079",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228119785",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.A.W. Schwacke 2552",
+        "collectioncode": "RB",
+        "catalognumber": "RB00707080",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284717260",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.R. Reitz 109",
+        "collectioncode": "RB",
+        "catalognumber": "RB00707002",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284717118",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "T.S. Macedo 80",
+        "collectioncode": "HUEFS",
+        "catalognumber": "HUEFS148502",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=238782775",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Salino 395",
+        "collectioncode": "NY",
+        "catalognumber": "NY02597132",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228515105",
+        "locality": "MT",
+        "typestatus": null
+      }
+    ]
+  }
+]

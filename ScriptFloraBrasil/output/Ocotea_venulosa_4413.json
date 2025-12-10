@@ -1,0 +1,103 @@
+[
+  {
+    "taxon": {
+      "taxonid": 122881,
+      "scientificname": "Ocotea venulosa (Nees) Baitello",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Laurales",
+      "family": "Lauraceae",
+      "genus": "Ocotea",
+      "specificepithet": "venulosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Nees) Baitello",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Lauraceae Juss.;Ocotea Aubl.;Ocotea venulosa (Nees) Baitello",
+      "source": "Quinet, A.,Baitello, J.B.,Moraes, P.L.R. de,Assis, L.,Alves, F.M. 2015. Lauraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB122881>http://floradobrasil2015.jbrj.gov.br/FB122881</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Baitello, J.B. &amp;amp; Marcovino J.R. 2003. Ocotea Aubl. In Wanderley, M.L.G. et al. Flora Fanerog&amp;acirc;mica do Estado de S&amp;atilde;o Paulo, vol. 3. Ed. Rima, Fapesp, pag.208.",
+      "parentnameusage": "Ocotea Aubl.",
+      "parentnameusageid": 8440,
+      "originalnameusageid": "622948",
+      "namepublishedin": "Ocotea:Flora Fanerogâmica do Estado de São Paulo Vol. 3: 208 2003",
+      "namepublishedinyear": "2003",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB122881",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-12-30 13:21:53.939"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Baitello, J.B. & Marcovino, J.R.,Ocotea:Flora Fanerogâmica do Estado de São Paulo,Vol. 3: 208,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 598304,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Oreodaphne venulosa (Nees) Meisn."
+      },
+      {
+        "relatedresourceid": 622948,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Camphoromoea venulosa Nees"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Ivanauskas, N.M. e Nascimento, R.C. 77",
+        "collectioncode": "RB",
+        "catalognumber": "RB00635408",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00635408",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. e Nascimento, R.C. 77",
+        "collectioncode": "RB",
+        "catalognumber": "RB00635408",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284581288",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

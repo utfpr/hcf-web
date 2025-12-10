@@ -1,0 +1,590 @@
+[
+  {
+    "taxon": {
+      "taxonid": 80256,
+      "scientificname": "Catharanthus roseus (L.) G.Don",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Catharanthus",
+      "specificepithet": "roseus",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) G.Don",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Catharanthus G.Don;Catharanthus roseus (L.) G.Don",
+      "source": "Koch, I.,Rapini, A.,Simões, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB80256>http://floradobrasil2015.jbrj.gov.br/FB80256</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Lorenzi, H.; Matos, F.J.A. Plantas medicinais no Brasil: nativas e ex&amp;oacute;ticas. Nova Odessa, SP: Instituto Plantarum. 2002. p.66-67.\r\nLorenzi, H. Plantas para jardim no Brasil: herb&amp;aacute;ceas, arbustivas e trepadeiras. Nova Odessa, SP: Instituto Plantarum, 2013. p.184.",
+      "parentnameusage": "Catharanthus G.Don",
+      "parentnameusageid": 80255,
+      "originalnameusageid": "80329",
+      "namepublishedin": "A General History of the Dichlamydeous Plants 4(1): 95 1838",
+      "namepublishedinyear": "1838",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB80256",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2025-11-02 12:29:27.117"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "CULTIVADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica"
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "maria-sem-vergonha",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "sudeste"
+      },
+      {
+        "vernacularname": "vinca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "vinca-de-madagascar",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "boa-noite",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "vinca-de-gato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "boa-tarde",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "flor-de-todo-ano",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "lavadeira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "vinca-rósea",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Don, G.,A General History of the Dichlamydeous Plants,4(1): 95,1838"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 80330,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vinca rosea var. alba (G.Don) Sweet"
+      },
+      {
+        "relatedresourceid": 80329,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Vinca rosea L."
+      },
+      {
+        "relatedresourceid": 631239,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus var. albus G.Don"
+      },
+      {
+        "relatedresourceid": 631241,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lochnera rosea (L.) Rchb. ex Spach"
+      },
+      {
+        "relatedresourceid": 631242,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lochnera rosea (L.) Rchb. ex Endl."
+      },
+      {
+        "relatedresourceid": 631243,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Lochnera rosea (L.) Rchb."
+      },
+      {
+        "relatedresourceid": 631244,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lochnera rosea var. alba (G.Don) Hubbard"
+      },
+      {
+        "relatedresourceid": 631499,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vinca speciosa Salisb."
+      },
+      {
+        "relatedresourceid": 631500,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Vinca guilelmi-waldemarii Klotzsch"
+      },
+      {
+        "relatedresourceid": 631501,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus var. angustus Bakh.f."
+      },
+      {
+        "relatedresourceid": 631502,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus var. nanus Markgr."
+      },
+      {
+        "relatedresourceid": 631504,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hottonia littoralis Lour."
+      },
+      {
+        "relatedresourceid": 631508,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lochnera rosea var. angusta Steenis"
+      },
+      {
+        "relatedresourceid": 631509,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Lochnera rosea var. flava Tsiang"
+      },
+      {
+        "relatedresourceid": 631511,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pervinca rosea (L.) Moench"
+      },
+      {
+        "relatedresourceid": 631275,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ammocallis rosea (L.) Small"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Oliveira, DM 201",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0033505",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ASE0033505",
+        "locality": "SE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.F. Vieira 141",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00010358",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00010358",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Krieger CESJ19727",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ019727",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CESJ019727",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. Q. Boudet Fernandes 3315",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML024169",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML024169",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.F. Vieira 141",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00010358",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226385610",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. Q. Boudet Fernandes 3315",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML024169",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230199825",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Krieger CESJ19727",
+        "collectioncode": "CESJ",
+        "catalognumber": "CESJ019727",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226083834",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Oliveira, DM 201",
+        "collectioncode": "ASE",
+        "catalognumber": "ASE0033505",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=225966155",
+        "locality": "SE",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 631239,
+      "scientificname": "Catharanthus roseus var. albus G.Don",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Catharanthus",
+      "specificepithet": "roseus",
+      "infraspecificepithet": "albus",
+      "scientificnameauthorship": "G.Don",
+      "acceptednameusage": "Catharanthus roseus (L.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Catharanthus G.Don;Catharanthus roseus (L.) G.Don;Catharanthus roseus var. albus G.Don",
+      "source": "",
+      "parentnameusage": "Catharanthus roseus (L.) G.Don",
+      "parentnameusageid": 80256,
+      "originalnameusageid": "80330",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631239",
+      "acceptednameusageid": 80256,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2023-12-21 06:20:55.865"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 80330,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Vinca rosea var. alba (G.Don) Sweet"
+      },
+      {
+        "relatedresourceid": 80256,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus (L.) G.Don"
+      },
+      {
+        "relatedresourceid": 631244,
+        "relationshipofresource": "É sinônimo BASIONIMO",
+        "scientificname": "Lochnera rosea var. alba (G.Don) Hubbard"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 631501,
+      "scientificname": "Catharanthus roseus var. angustus Bakh.f.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Catharanthus",
+      "specificepithet": "roseus",
+      "infraspecificepithet": "angustus",
+      "scientificnameauthorship": "Bakh.f.",
+      "acceptednameusage": "Catharanthus roseus (L.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Catharanthus G.Don;Catharanthus roseus (L.) G.Don;Catharanthus roseus var. angustus Bakh.f.",
+      "source": "",
+      "parentnameusage": "Catharanthus roseus (L.) G.Don",
+      "parentnameusageid": 80256,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631501",
+      "acceptednameusageid": 80256,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-01-03 10:51:36.913"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 80256,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus (L.) G.Don"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 631502,
+      "scientificname": "Catharanthus roseus var. nanus Markgr.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Catharanthus",
+      "specificepithet": "roseus",
+      "infraspecificepithet": "nanus",
+      "scientificnameauthorship": "Markgr.",
+      "acceptednameusage": "Catharanthus roseus (L.) G.Don",
+      "higherclassification": "Flora e Funga;Angiospermas;Apocynaceae Juss.;Catharanthus G.Don;Catharanthus roseus (L.) G.Don;Catharanthus roseus var. nanus Markgr.",
+      "source": "",
+      "parentnameusage": "Catharanthus roseus (L.) G.Don",
+      "parentnameusageid": 80256,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB631502",
+      "acceptednameusageid": 80256,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2024-01-03 10:53:16.205"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 80256,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Catharanthus roseus (L.) G.Don"
+      }
+    ],
+    "voucher": []
+  }
+]

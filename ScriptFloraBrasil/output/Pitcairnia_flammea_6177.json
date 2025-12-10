@@ -1,0 +1,1681 @@
+[
+  {
+    "taxon": {
+      "taxonid": 6316,
+      "scientificname": "Pitcairnia flammea Lindl.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Lindl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6316>http://floradobrasil2015.jbrj.gov.br/FB6316</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6316\">https://floradobrasil2020.jbrj.gov.br/FB6316</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia L'Hér.",
+      "parentnameusageid": 6307,
+      "originalnameusageid": null,
+      "namepublishedin": "Bot. Reg. 13: t. 1092 1827",
+      "namepublishedinyear": "1827",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6316",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB6316>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-06-21 16:58:27.462"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola",
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Bot. Reg.,13: t. 1092,1827"
+      },
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado São Paulo,II, 1: 111-112,1943"
+      },
+      {
+        "reference": "Smith, L.B. & Reitz, R.,Phytologia,15: 194,1967"
+      },
+      {
+        "reference": "Pereira, E.,Bradea,2: 174,1977"
+      },
+      {
+        "reference": "Wendt, T.,Selbyana,15, N2: 66-78,1994"
+      },
+      {
+        "reference": "Wendt, T., Canela, M. B. F., Morrey-Jones, J. E., Henriques, A. B., & Rios, R. I.,Systematic Botany,25(3): 389–398,2000"
+      },
+      {
+        "reference": "Tatagiba, F.C.P.,Dissertação UFRJ,116,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46720,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Pitcairnia flammea var. typica L.B.Sm."
+      },
+      {
+        "relatedresourceid": 46302,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hepetis flammea (Lindl.) Mez"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 27697,
+      "scientificname": "Pitcairnia flammea var. floccosa L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "floccosa",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. floccosa L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB27697>http://floradobrasil2015.jbrj.gov.br/FB27697</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB27697\">https://floradobrasil2020.jbrj.gov.br/FB27697</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo II 1: 112 1943",
+      "namepublishedinyear": "1943",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB27697",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB27697>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-26 12:32:34.785"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo II,1: 112,1943"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46734,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia leiolema Baker"
+      },
+      {
+        "relatedresourceid": 46741,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia muscosa Mart. ex Schult. & Schult.f."
+      },
+      {
+        "relatedresourceid": 46750,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia selloana Baker"
+      },
+      {
+        "relatedresourceid": 46710,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia claussenii Mez"
+      },
+      {
+        "relatedresourceid": 46714,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia dietrichiana Wittm."
+      },
+      {
+        "relatedresourceid": 46737,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia minarum Mez"
+      },
+      {
+        "relatedresourceid": 46745,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia pruinosa Mez"
+      },
+      {
+        "relatedresourceid": 46322,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis weddelliana (Mez)Mez"
+      },
+      {
+        "relatedresourceid": 46308,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis muscosa (Mart. ex Schult. & Schult.f.) Mez"
+      },
+      {
+        "relatedresourceid": 46313,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis selloana (Baker) Mez"
+      },
+      {
+        "relatedresourceid": 46758,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia weddelliana (Mez) Mez"
+      },
+      {
+        "relatedresourceid": 46297,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis claussenii (Mez) Mez"
+      },
+      {
+        "relatedresourceid": 46300,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis dietrichiana (Wittm.) Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "A.F. Regnell III/1252",
+        "collectioncode": "P",
+        "catalognumber": "P01765895",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360451",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Claussen 1788bis",
+        "collectioncode": "P",
+        "catalognumber": "P01765899",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360459",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 1758",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM034012",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229575757",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "GH",
+        "catalognumber": "GH00029235",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97116565",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 31689",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM024557",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229534467",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 20524",
+        "collectioncode": "K",
+        "catalognumber": "K000973281",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227410679",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "GH",
+        "catalognumber": "GH00029235",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/GH00029235",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 1758",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM034012",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM034012",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O. Handro 684",
+        "collectioncode": "K",
+        "catalognumber": "K000973286",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000973286",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "M. Claussen 1788bis",
+        "collectioncode": "P",
+        "catalognumber": "P01765899",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765899",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 31689",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM024557",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM024557",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 20524",
+        "collectioncode": "K",
+        "catalognumber": "K000973281",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000973281",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 31689",
+        "collectioncode": "NY",
+        "catalognumber": "NY00873342",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00873342",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F. Regnell III/1252",
+        "collectioncode": "P",
+        "catalognumber": "P01765895",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765895",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 31689",
+        "collectioncode": "NY",
+        "catalognumber": "NY00873342",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228749273",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O. Handro 684",
+        "collectioncode": "K",
+        "catalognumber": "K000973286",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227410689",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 27698,
+      "scientificname": "Pitcairnia flammea var. spinulosa E.Pereira",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "spinulosa",
+      "scientificnameauthorship": "E.Pereira",
+      "acceptednameusage": "Pitcairnia curvidens L.B.Sm. & Read",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. spinulosa E.Pereira",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB27698>http://floradobrasil2015.jbrj.gov.br/FB27698</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB27698\">https://floradobrasil2020.jbrj.gov.br/FB27698</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Bradea 2: 174 1977",
+      "namepublishedinyear": "1977",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB27698",
+      "acceptednameusageid": 6313,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB27698>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-12 11:02:26.077"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "E. Pereira,Bradea,2: 174,1977"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6313,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia curvidens L.B.Sm. & Read"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 28816",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040949",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM040949",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 28816",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880989",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 28816",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880991",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G. Hatschbach 28816",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM040949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229880987",
+        "locality": "MG",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34425,
+      "scientificname": "Pitcairnia flammea Lindl. var. flammea",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "flammea",
+      "scientificnameauthorship": "Lindl.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea Lindl. var. flammea",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34425>http://floradobrasil2015.jbrj.gov.br/FB34425</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34425\">https://floradobrasil2020.jbrj.gov.br/FB34425</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Botanical Register 13: pl. 1092 1827",
+      "namepublishedinyear": "1827",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34425",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34425>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-11 17:14:45.471"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Campo de Altitude",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Botanical Register,13: pl. 1092,1827"
+      },
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado São Paulo,II, 1: 112,1943"
+      },
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Flora Neotropica,14 (1): 350,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46740,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia morelii Lem."
+      },
+      {
+        "relatedresourceid": 46738,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia mordii Gentil"
+      },
+      {
+        "relatedresourceid": 46712,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia decaisnei K.Koch"
+      },
+      {
+        "relatedresourceid": 46702,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia amaryllidiflora Gentil"
+      },
+      {
+        "relatedresourceid": 46731,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia laevis (Vell.) Beer"
+      },
+      {
+        "relatedresourceid": 46753,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia splendens Poit."
+      },
+      {
+        "relatedresourceid": 46723,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia fulgens F.Dietr."
+      },
+      {
+        "relatedresourceid": 583067,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia coccinea Girard"
+      },
+      {
+        "relatedresourceid": 46749,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia rubicunda K.Koch & C.D.Bouché"
+      },
+      {
+        "relatedresourceid": 612097,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia flammea var. glabra Regel & Körn"
+      },
+      {
+        "relatedresourceid": 46307,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis morelii (Lem.) Mez"
+      },
+      {
+        "relatedresourceid": 46314,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis splendens (Poit.) Mez"
+      },
+      {
+        "relatedresourceid": 47075,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tillandsia laevis Vell."
+      },
+      {
+        "relatedresourceid": 46743,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia olfersii Link"
+      },
+      {
+        "relatedresourceid": 46735,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia lherminieri Baker"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Occhioni 1941",
+        "collectioncode": "RB",
+        "catalognumber": "RB00373881",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00373881",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luiz 20",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289068",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00289068",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Edwall CGG1805",
+        "collectioncode": "SP",
+        "catalognumber": "SP008960",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP008960",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Ule 4692",
+        "collectioncode": "R",
+        "catalognumber": "R010006923",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/R010006923",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 12238",
+        "collectioncode": "P",
+        "catalognumber": "P01765908",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765908",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 12238",
+        "collectioncode": "P",
+        "catalognumber": "P01765907",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765907",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luiz 20",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289068",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283991294",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Luiz 20",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289068",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283991296",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Occhioni 1941",
+        "collectioncode": "RB",
+        "catalognumber": "RB00373881",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284095680",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Occhioni 1941",
+        "collectioncode": "RB",
+        "catalognumber": "RB00373881",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284095682",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 12238",
+        "collectioncode": "P",
+        "catalognumber": "P01765907",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360475",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 12238",
+        "collectioncode": "P",
+        "catalognumber": "P01765908",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360477",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "E. Ule 4692",
+        "collectioncode": "R",
+        "catalognumber": "R010006923",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=207789522",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34426,
+      "scientificname": "Pitcairnia flammea var. glabrior L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "glabrior",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. glabrior L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34426>http://floradobrasil2015.jbrj.gov.br/FB34426</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34426\">https://floradobrasil2020.jbrj.gov.br/FB34426</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo II, 1: 112 1943",
+      "namepublishedinyear": "1943",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34426",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34426>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-26 12:37:39.738"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo,II, 1: 112,1943"
+      },
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Flora Neotropica,14(1): 352,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46739,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia moreliana K.Koch"
+      },
+      {
+        "relatedresourceid": 46709,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia cinnabarina A.Dietr."
+      },
+      {
+        "relatedresourceid": 46705,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia australis K.Koch"
+      },
+      {
+        "relatedresourceid": 46296,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Hepetis cinnabarina (A.Dietr.) Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "K",
+        "catalognumber": "K000973296",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000973296",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "K",
+        "catalognumber": "K000973292",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K000973292",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Martinelli 15473",
+        "collectioncode": "RB",
+        "catalognumber": "RB00140999",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00140999",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376835",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00376835",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 8834",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376836",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00376836",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765905",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765905",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 8834",
+        "collectioncode": "US",
+        "catalognumber": "US01935205",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100259845",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765903",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360467",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 8834",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376836",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228277753",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Martinelli 15473",
+        "collectioncode": "RB",
+        "catalognumber": "RB00140999",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283806346",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765901",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360463",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C. Hoehne 4711",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376837",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228277755",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765901",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765901",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765903",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P01765903",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "F.C. Hoehne 4711",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376837",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00376837",
+        "locality": "SP",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "A. Loefgren 3569",
+        "collectioncode": "SP",
+        "catalognumber": "SP008961",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP008961",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "US",
+        "catalognumber": "US01935204",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01935204",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "MO",
+        "catalognumber": "MO1358692",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MO1358692",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 8834",
+        "collectioncode": "US",
+        "catalognumber": "US01935205",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/US01935205",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "K",
+        "catalognumber": "K000973296",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227410709",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "P",
+        "catalognumber": "P01765905",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=197360471",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "US",
+        "catalognumber": "US01935204",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100259843",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "NY",
+        "catalognumber": "NY00376835",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228277751",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "P.K.H. Dusén 17299",
+        "collectioncode": "MO",
+        "catalognumber": "MO1358692",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97958802",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.F.M. Glaziou 8021",
+        "collectioncode": "K",
+        "catalognumber": "K000973292",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227410701",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34427,
+      "scientificname": "Pitcairnia flammea var. macropoda L.B.Sm. & Reitz",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "macropoda",
+      "scientificnameauthorship": "L.B.Sm. & Reitz",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. macropoda L.B.Sm. & Reitz",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34427>http://floradobrasil2015.jbrj.gov.br/FB34427</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34427\">https://floradobrasil2020.jbrj.gov.br/FB34427</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Phytologia 15: 194 1967",
+      "namepublishedinyear": "1967",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34427",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34427>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-26 12:40:18.611"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Phytologia,15: 194,1967"
+      },
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Flora Neotropica,14(1): 354,1974"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "R.F. Monteiro 446",
+        "collectioncode": "RB",
+        "catalognumber": "RB00686973",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284683582",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. Q. Boudet Fernandes 2457",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML004531",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230214209",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.M. Vimercat 174",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM238459",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229531429",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2783",
+        "collectioncode": "RB",
+        "catalognumber": "RB01352577",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285097576",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 921",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML023667",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230214435",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.S. Leoni 2783",
+        "collectioncode": "RB",
+        "catalognumber": "RB01352577",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB01352577",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.F. Monteiro 446",
+        "collectioncode": "RB",
+        "catalognumber": "RB00686973",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00686973",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A.P. Fontana 921",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML023667",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML023667",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H. Q. Boudet Fernandes 2457",
+        "collectioncode": "MBML",
+        "catalognumber": "MBML004531",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBML004531",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.P.Saraiva 242",
+        "collectioncode": "RB",
+        "catalognumber": "RB00767583",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00767583",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.M. Magalhães s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00063958",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00063958",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "J.M. Vimercat 174",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM238459",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM238459",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.M. Magalhães s.n.",
+        "collectioncode": "NY",
+        "catalognumber": "NY00063958",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228085403",
+        "locality": "MG",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "D.P.Saraiva 242",
+        "collectioncode": "RB",
+        "catalognumber": "RB00767583",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284789386",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D.P.Saraiva 242",
+        "collectioncode": "RB",
+        "catalognumber": "RB00767583",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284789388",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34428,
+      "scientificname": "Pitcairnia flammea var. pallida L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "pallida",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": "Pitcairnia suaveolens Lindl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. pallida L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34428>http://floradobrasil2015.jbrj.gov.br/FB34428</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34428\">https://floradobrasil2020.jbrj.gov.br/FB34428</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo II, 1: 112 1943",
+      "namepublishedinyear": "1943",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34428",
+      "acceptednameusageid": 34447,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34428>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-26 17:06:16.342"
+    },
+    "distribuition": [],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo,II, 1: 112,1943"
+      },
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Flora Neortropica,14 (1): 352,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34447,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia suaveolens Lindl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "M.B. Foster 1015",
+        "collectioncode": "GH",
+        "catalognumber": "GH00029236",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/GH00029236",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "M.B. Foster 1015",
+        "collectioncode": "GH",
+        "catalognumber": "GH00029236",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97116567",
+        "locality": "RJ",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 34429,
+      "scientificname": "Pitcairnia flammea var. roezlii (É.Morren) L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "roezlii",
+      "scientificnameauthorship": "(É.Morren) L.B.Sm.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. roezlii (É.Morren) L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34429>http://floradobrasil2015.jbrj.gov.br/FB34429</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34429\">https://floradobrasil2020.jbrj.gov.br/FB34429</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": "46748",
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo II 1: 111 1943",
+      "namepublishedinyear": "1943",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34429",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB34429>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-26 12:46:55.216"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Arq. Bot. Estado Sao Paulo,II 1: 111,1943"
+      },
+      {
+        "reference": "Smith, L.B. & Downs, R.J.,Flora Neotropica,14: 352,1974"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 46727,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia hypoleuca Mez"
+      },
+      {
+        "relatedresourceid": 46748,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Pitcairnia roezlii É.Morren"
+      },
+      {
+        "relatedresourceid": 46311,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Hepetis roezlii (É.Morren) Mez"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Martinelli 7613",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289094",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RB00289094",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Martinelli 7613",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283991368",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Martinelli 7613",
+        "collectioncode": "RB",
+        "catalognumber": "RB00289094",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283991370",
+        "locality": "RJ",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 46719,
+      "scientificname": "Pitcairnia flammea var. corcovadensis (Wawra) L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "corcovadensis",
+      "scientificnameauthorship": "(Wawra) L.B.Sm.",
+      "acceptednameusage": "Pitcairnia corcovadensis Wawra",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. corcovadensis (Wawra) L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB46719>http://floradobrasil2015.jbrj.gov.br/FB46719</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB46719\">https://floradobrasil2020.jbrj.gov.br/FB46719</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB46719",
+      "acceptednameusageid": 6312,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB46719>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-20 20:51:50.558"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Arq. Bot. Estado Sao Paulo,n.s., 1: 112,1943"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6312,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Pitcairnia corcovadensis Wawra"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 46720,
+      "scientificname": "Pitcairnia flammea var. typica L.B.Sm.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "typica",
+      "scientificnameauthorship": "L.B.Sm.",
+      "acceptednameusage": "Pitcairnia flammea Lindl.",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. typica L.B.Sm.",
+      "source": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paixão-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB46720>http://floradobrasil2015.jbrj.gov.br/FB46720</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB46720\">https://floradobrasil2020.jbrj.gov.br/FB46720</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Arq. Bot. Estado Sao Paulo II, 1: 111 1943",
+      "namepublishedinyear": "1943",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB46720",
+      "acceptednameusageid": 6316,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB46720>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-04-26 17:12:21.809"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Smith, L.B.,Arq. Bot. Estado Sao Paulo,II, 1: 111,1943"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 6316,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Pitcairnia flammea Lindl."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 612097,
+      "scientificname": "Pitcairnia flammea var. glabra Regel & Körn",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Bromeliaceae",
+      "genus": "Pitcairnia",
+      "specificepithet": "flammea",
+      "infraspecificepithet": "glabra",
+      "scientificnameauthorship": "Regel & Körn",
+      "acceptednameusage": "Pitcairnia flammea Lindl. var. flammea",
+      "higherclassification": "Flora e Funga;Angiospermas;Bromeliaceae A.Juss.;Pitcairnia L'Hér.;Pitcairnia flammea Lindl.;Pitcairnia flammea var. glabra Regel & Körn",
+      "source": "Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB612097\">https://floradobrasil2020.jbrj.gov.br/FB612097</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pitcairnia flammea Lindl.",
+      "parentnameusageid": 6316,
+      "originalnameusageid": null,
+      "namepublishedin": "Index Seminum (LE, Petropolitanus) 1857: 28 1858",
+      "namepublishedinyear": "1858",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB612097",
+      "acceptednameusageid": 34425,
+      "bibliographiccitation_how_to_cite": "Saraiva, D.P., Forzza, R.C., Carvalho, B.M. Pitcairnia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB612097>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-06-22 12:53:13.472"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Index Seminum (LE, Petropolitanus),1857: 28,1858"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 34425,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pitcairnia flammea Lindl. var. flammea"
+      }
+    ],
+    "voucher": []
+  }
+]

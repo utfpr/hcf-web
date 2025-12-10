@@ -1,0 +1,1411 @@
+[
+  {
+    "taxon": {
+      "taxonid": 24311,
+      "scientificname": "Sorghum bicolor (L.) Moench",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Sorghum",
+      "specificepithet": "bicolor",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(L.) Moench",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Sorghum Moench;Sorghum bicolor (L.) Moench",
+      "source": "Filgueiras, T.S.,Valls, J.F.M. 2015. Sorghum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB24311>http://floradobrasil2015.jbrj.gov.br/FB24311</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Corr&amp;ecirc;a, M.P. Dicion&amp;aacute;rio das plantas &amp;uacute;teis do Brasil. Rio de Janeiro: Minist&amp;eacute;rio da Agricultura Imprensa Oficial/Instituto Brasileiro de Desenvolvimento Florestal. 1926-1931. 1984. v.1. p.582-590; v.6. p.140.\r\nVan Wyk, B.E. Food plants of the world: an illustrated guide. Timber Press, Inc., Portland, USA, 2005. 480p. (p.352).",
+      "parentnameusage": "Sorghum Moench",
+      "parentnameusageid": 24310,
+      "originalnameusageid": "616023",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB24311",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-09-27 21:31:34.581"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATURALIZADA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pantanal"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "sorgo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorghum",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgho",
+        "language_vernacularname": "FRANCES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "capim-massambará",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "massambará",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "milho-da-guiné",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "milho-sorgo",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-de-espiga",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-cafre",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-negro-da-áfrica",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "gran-millet",
+        "language_vernacularname": "FRANCES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "giant-millet",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "great-millet",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "millet-corn",
+        "language_vernacularname": "INGLES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-das-vassouras",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-doce",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgho-sucré",
+        "language_vernacularname": "FRANCES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "sorgo-de-vassoura",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 87066,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum vulgare Pers."
+      },
+      {
+        "relatedresourceid": 616021,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus sorghum L."
+      },
+      {
+        "relatedresourceid": 616023,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Holcus bicolor L."
+      },
+      {
+        "relatedresourceid": 616025,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sorghum bicolor (L.) Moench subsp. bicolor"
+      },
+      {
+        "relatedresourceid": 616026,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum bicolor var. technicum (Körn.) Stapf ex Holland"
+      },
+      {
+        "relatedresourceid": 616278,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon bicolor (L.) Roxb."
+      },
+      {
+        "relatedresourceid": 616117,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. vulgaris (Pers.) Hack."
+      },
+      {
+        "relatedresourceid": 616119,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. saccharatum (L.) Alef."
+      },
+      {
+        "relatedresourceid": 616156,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon saccharatus (L.) Roxb."
+      },
+      {
+        "relatedresourceid": 616165,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum saccharatum (L.) Moench"
+      },
+      {
+        "relatedresourceid": 616201,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon cernuus (Willd.) Roxb."
+      },
+      {
+        "relatedresourceid": 616202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus cernuus Willd."
+      },
+      {
+        "relatedresourceid": 616027,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum (L.) Brot."
+      },
+      {
+        "relatedresourceid": 616028,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. technicus Körn."
+      },
+      {
+        "relatedresourceid": 616029,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum caffrorum (Thunb.) P.Beauv."
+      },
+      {
+        "relatedresourceid": 616030,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus caffrorum Thunb."
+      },
+      {
+        "relatedresourceid": 616033,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum cernuum (Ard.) Host"
+      },
+      {
+        "relatedresourceid": 616034,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus cernuus Ard."
+      },
+      {
+        "relatedresourceid": 616035,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum dochna (Forssk.) Snowden"
+      },
+      {
+        "relatedresourceid": 616036,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus dochna Forssk."
+      },
+      {
+        "relatedresourceid": 616037,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum guineense Stapf"
+      },
+      {
+        "relatedresourceid": 616048,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum caudatum (Hack.) Stapf"
+      },
+      {
+        "relatedresourceid": 616049,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. caudatus Hack."
+      },
+      {
+        "relatedresourceid": 616065,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum saccharatum (L.) Pers."
+      },
+      {
+        "relatedresourceid": 616084,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum vulgare var. technicum (Körn.) Fiori & Paol."
+      },
+      {
+        "relatedresourceid": 616090,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum album hort. ex Roem. & Schult."
+      },
+      {
+        "relatedresourceid": 616097,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum sorghum (L.) H.Karst."
+      },
+      {
+        "relatedresourceid": 616098,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. cernuus (Ard.) Körn. & H.Werner"
+      },
+      {
+        "relatedresourceid": 616100,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Andropogon sorghum var. saccharatus (L.) Körn."
+      },
+      {
+        "relatedresourceid": 616101,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Holcus saccharatus L."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.C.P.Pinto s/n",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB017806",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97014139",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4338",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY00787039",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228561423",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.W.Lima-Verde et al. 3464",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB017797",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97014089",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 11987",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896429",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228572603",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 11987",
+        "collectioncode": "UB",
+        "catalognumber": "UB0024338",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100418745",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.R.Campelo 2091",
+        "collectioncode": "MUFAL",
+        "catalognumber": "MUFAL0000002931",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230253741",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Leopoldo Krieger 16177",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00036946",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226153331",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.C.P.Pinto s/n",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB017806",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB017806",
+        "locality": "BA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 13139",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896405",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00896405",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4338",
+        "collectioncode": "SP",
+        "catalognumber": "SP038500",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP038500",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Leopoldo Krieger 16177",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00036946",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00036946",
+        "locality": "MG",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.L.Fróes 24640",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN051167",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/IAN051167",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 11987",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896429",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00896429",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.R.Bijos 511",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00109330",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00109330",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.R.Campelo 2091",
+        "collectioncode": "MUFAL",
+        "catalognumber": "MUFAL0000002931",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MUFAL0000002931",
+        "locality": "PE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 11987",
+        "collectioncode": "UB",
+        "catalognumber": "UB0024338",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UB0024338",
+        "locality": "GO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.W.Lima-Verde et al. 3464",
+        "collectioncode": "ALCB",
+        "catalognumber": "ALCB017797",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ALCB017797",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4338",
+        "collectioncode": "NYBG",
+        "catalognumber": "NY00787039",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00787039",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.W.Lima-Verde et al. 3464",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0042770",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/EAC0042770",
+        "locality": "CE",
+        "typestatus": null
+      },
+      {
+        "recordedby": "H.S. Irwin 13139",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896405",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228729611",
+        "locality": "DF",
+        "typestatus": null
+      },
+      {
+        "recordedby": "R.L.Fróes 24640",
+        "collectioncode": "IAN",
+        "catalognumber": "IAN051167",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229004221",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.W.Lima-Verde et al. 3464",
+        "collectioncode": "EAC",
+        "catalognumber": "EAC0042770",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226663323",
+        "locality": "CE",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 24312,
+      "scientificname": "Sorghum bicolor subsp. arundinaceum (Desv.) de Wet & J.R.Harlan",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Sorghum",
+      "specificepithet": "bicolor",
+      "infraspecificepithet": "arundinaceum",
+      "scientificnameauthorship": "(Desv.) de Wet & J.R.Harlan",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Sorghum Moench;Sorghum bicolor (L.) Moench;Sorghum bicolor subsp. arundinaceum (Desv.) de Wet & J.R.Harlan",
+      "source": "Filgueiras, T.S.,Valls, J.F.M. 2015. Sorghum in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB24312>http://floradobrasil2015.jbrj.gov.br/FB24312</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sorghum bicolor (L.) Moench",
+      "parentnameusageid": 24311,
+      "originalnameusageid": "616022",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB24312",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-09-21 19:25:46.068"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PI",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Amazônia"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo de Várzea"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "alpista",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Acre"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 616022,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Rhaphis arundinacea Desv."
+      },
+      {
+        "relatedresourceid": 24313,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sorghum arundinaceum (Desv.) Stapf"
+      },
+      {
+        "relatedresourceid": 616045,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum halepense f. submuticum Hack."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4750",
+        "collectioncode": "K",
+        "catalognumber": "K001068761",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227433059",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Pereira-Silva et al. 14786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00100003",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226240035",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 4974",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00006514",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226274276",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.G.T.Ferreira et al. 292",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00008482",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100458849",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.Valls et al. 11688",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00012050",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00012050",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "L. Coradin 4974",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00006514",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00006514",
+        "locality": "RR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Hatschbach 8069",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM026291",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM026291",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4750",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896416",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00896416",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4750",
+        "collectioncode": "K",
+        "catalognumber": "K001068761",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/K001068761",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "C.G.T.Ferreira et al. 292",
+        "collectioncode": "UFRN",
+        "catalognumber": "UFRN00008482",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/UFRN00008482",
+        "locality": "RN",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4750",
+        "collectioncode": "SP",
+        "catalognumber": "SP038489",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP038489",
+        "locality": "MA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Pereira-Silva et al. 14786",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00100003",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00100003",
+        "locality": "TO",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 8236",
+        "collectioncode": "NY",
+        "catalognumber": "NY00229918",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00229918",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Hatschbach 8069",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM026291",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229935447",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "J.F.Valls et al. 11688",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00012050",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226275816",
+        "locality": "AP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "D. Daly 8236",
+        "collectioncode": "NY",
+        "catalognumber": "NY00229918",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228517607",
+        "locality": "AC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.Eiten & L.T.Eiten 4750",
+        "collectioncode": "NY",
+        "catalognumber": "NY00896416",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228729617",
+        "locality": "MA",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 616025,
+      "scientificname": "Sorghum bicolor (L.) Moench subsp. bicolor",
+      "taxonrank": "SUB_ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Sorghum",
+      "specificepithet": "bicolor",
+      "infraspecificepithet": "bicolor",
+      "scientificnameauthorship": "(L.) Moench",
+      "acceptednameusage": "Sorghum bicolor (L.) Moench",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Sorghum Moench;Sorghum bicolor (L.) Moench;Sorghum bicolor (L.) Moench subsp. bicolor",
+      "source": "Zuloaga, F.O.; Morrone, O.; Davidse, G.; Filgueiras, T.S.; Peterson, P.M.; Soreng, R.J.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): III. subfamilies Panicoideae, Aristidoideae, Arundinoideae, and Danthonioideae. Contributions from the United States National Herbarium. 46: 1-662, 2003. (p.599).",
+      "parentnameusage": "Sorghum bicolor (L.) Moench",
+      "parentnameusageid": 24311,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616025",
+      "acceptednameusageid": 24311,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-09-20 07:48:39.501"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24311,
+        "relationshipofresource": "É sinônimo HOMOTIPICO",
+        "scientificname": "Sorghum bicolor (L.) Moench"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 616026,
+      "scientificname": "Sorghum bicolor var. technicum (Körn.) Stapf ex Holland",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Sorghum",
+      "specificepithet": "bicolor",
+      "infraspecificepithet": "technicum",
+      "scientificnameauthorship": "(Körn.) Stapf ex Holland",
+      "acceptednameusage": "Sorghum bicolor (L.) Moench",
+      "higherclassification": "Flora e Funga;Angiospermas;Poaceae Barnhart;Panicoideae Link;Sorghum Moench;Sorghum bicolor (L.) Moench;Sorghum bicolor var. technicum (Körn.) Stapf ex Holland",
+      "source": "Zuloaga, F.O.; Morrone, O.; Davidse, G.; Filgueiras, T.S.; Peterson, P.M.; Soreng, R.J.; Judziewicz, E.J. Catalogue of New World grasses (Poaceae): III. subfamilies Panicoideae, Aristidoideae, Arundinoideae, and Danthonioideae. Contributions from the United States National Herbarium. 46: 1-662, 2003. (p.600).",
+      "parentnameusage": "Sorghum bicolor (L.) Moench",
+      "parentnameusageid": 24311,
+      "originalnameusageid": "616028",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB616026",
+      "acceptednameusageid": 24311,
+      "bibliographiccitation_how_to_cite": "Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br>",
+      "modified": "2020-09-20 07:59:01.761"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 24311,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Sorghum bicolor (L.) Moench"
+      },
+      {
+        "relatedresourceid": 616084,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Sorghum vulgare var. technicum (Körn.) Fiori & Paol."
+      },
+      {
+        "relatedresourceid": 616028,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Andropogon sorghum var. technicus Körn."
+      }
+    ],
+    "voucher": []
+  }
+]

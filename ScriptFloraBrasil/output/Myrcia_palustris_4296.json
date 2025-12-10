@@ -1,0 +1,396 @@
+[
+  {
+    "taxon": {
+      "taxonid": 10737,
+      "scientificname": "Myrcia palustris DC.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "palustris",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "DC.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia palustris DC.",
+      "source": "Sobral, M.,Proença, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB10737>http://floradobrasil2015.jbrj.gov.br/FB10737</a>)<br><br>Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB10737\">https://floradobrasil2020.jbrj.gov.br/FB10737</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Amorim, B. S., 2017. Filogenia e taxonomia do clado Gomidesia (Myrcia s.l., Myrtaceae)&lt;br /&gt;na Floresta Atl&amp;acirc;ntica do Brasil. Ph.D. dissertation. Universidade Federal de&lt;br /&gt;Pernambuco, 190pp.",
+      "parentnameusage": "Myrcia DC.",
+      "parentnameusageid": 10660,
+      "originalnameusageid": null,
+      "namepublishedin": "Fam. Myrtac. Rio Grande do Sul 124 2003",
+      "namepublishedinyear": "2003",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10737",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB10737>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-17 09:17:32.739"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)",
+        "Floresta Ombrófila Mista",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Sobral, M.,Fam. Myrtac. Rio Grande do Sul,124,2003"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 600880,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris var. bracteata O. Berg"
+      },
+      {
+        "relatedresourceid": 602311,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris var. stictophylla O. Berg"
+      },
+      {
+        "relatedresourceid": 31525,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Gomidesia palustris (DC.) Kausel"
+      },
+      {
+        "relatedresourceid": 62494,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomidesia banisteriifolia (DC.) O.Berg"
+      },
+      {
+        "relatedresourceid": 62510,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomidesia gardneriana O.Berg"
+      },
+      {
+        "relatedresourceid": 62953,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia banisteriifolia DC."
+      },
+      {
+        "relatedresourceid": 62532,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomidesia palustris var. angustifolia (O.Berg) Mattos"
+      },
+      {
+        "relatedresourceid": 600770,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris var. angustifolia O. Berg"
+      },
+      {
+        "relatedresourceid": 61105,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Aulomyrcia garopabensis (Cambess.) O.Berg"
+      },
+      {
+        "relatedresourceid": 62511,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Gomidesia garopabensis (Cambess.) D.Legrand"
+      },
+      {
+        "relatedresourceid": 63059,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia garopabensis Cambess."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA094685",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226811951",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 794",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA069217",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226789467",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, L.A. 165",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02550",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226942505",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sanches, J.H. 108",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA055450",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226779129",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "O.S. Ribas 794",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA069217",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA069217",
+        "locality": "PR",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Funez, L.A. 165",
+        "collectioncode": "FURB",
+        "catalognumber": "FURB02550",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/FURB02550",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sanches, J.H. 108",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA055450",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA055450",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": null,
+        "collectioncode": "ESA",
+        "catalognumber": "ESA094685",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA094685",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Sztutman, M. 155",
+        "collectioncode": "SP",
+        "catalognumber": "SP022784",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP022784",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 600770,
+      "scientificname": "Myrcia palustris var. angustifolia O. Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "palustris",
+      "infraspecificepithet": "angustifolia",
+      "scientificnameauthorship": "O. Berg",
+      "acceptednameusage": "Myrcia palustris DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia palustris DC.;Myrcia palustris var. angustifolia O. Berg",
+      "source": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600770\">https://floradobrasil2020.jbrj.gov.br/FB600770</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia palustris DC.",
+      "parentnameusageid": 10737,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600770",
+      "acceptednameusageid": 10737,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600770>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-10-09 15:18:24.375"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10737,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600880,
+      "scientificname": "Myrcia palustris var. bracteata O. Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "palustris",
+      "infraspecificepithet": "bracteata",
+      "scientificnameauthorship": "O. Berg",
+      "acceptednameusage": "Myrcia palustris DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia palustris DC.;Myrcia palustris var. bracteata O. Berg",
+      "source": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600880\">https://floradobrasil2020.jbrj.gov.br/FB600880</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia palustris DC.",
+      "parentnameusageid": 10737,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600880",
+      "acceptednameusageid": 10737,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600880>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-10-09 15:23:22.482"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10737,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris DC."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 602311,
+      "scientificname": "Myrcia palustris var. stictophylla O. Berg",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Myrtaceae",
+      "genus": "Myrcia",
+      "specificepithet": "palustris",
+      "infraspecificepithet": "stictophylla",
+      "scientificnameauthorship": "O. Berg",
+      "acceptednameusage": "Myrcia palustris DC.",
+      "higherclassification": "Flora e Funga;Angiospermas;Myrtaceae Juss.;Myrcia DC.;Myrcia palustris DC.;Myrcia palustris var. stictophylla O. Berg",
+      "source": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. 2020. Myrcia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB602311\">https://floradobrasil2020.jbrj.gov.br/FB602311</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Myrcia palustris DC.",
+      "parentnameusageid": 10737,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB602311",
+      "acceptednameusageid": 10737,
+      "bibliographiccitation_how_to_cite": "Santos, M.F., Amorim, B.S., Burton, G.P., Fernandes, T., Gaem, P.H., Lourenço, A.R.L., Lima, D.F., Rosa, P.O., Santos, L.L.D., Staggemeier, V.G., Vasconcelos, T.N.C., Lucas, E.J. Myrcia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB602311>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-10-09 15:21:02.425"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 10737,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Myrcia palustris DC."
+      }
+    ],
+    "voucher": []
+  }
+]

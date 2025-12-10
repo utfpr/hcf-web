@@ -1,0 +1,128 @@
+[
+  {
+    "taxon": {
+      "taxonid": 7921,
+      "scientificname": "Sinningia nivalis Chautems",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Gesneriaceae",
+      "genus": "Sinningia",
+      "specificepithet": "nivalis",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "Chautems",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Gesneriaceae Rich. & Juss. ex DC.;Sinningia Nees;Sinningia nivalis Chautems",
+      "source": "Araujo, A.O.,Chautems, A. 2015. Sinningia in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB7921>http://floradobrasil2015.jbrj.gov.br/FB7921</a>)<br><br>Araujo, A.O., Chautems, A., Rossini, J. 2020. Sinningia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB7921\">https://floradobrasil2020.jbrj.gov.br/FB7921</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Sinningia Nees",
+      "parentnameusageid": 7879,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7921",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Araujo, A.O., Chautems, A., Rossini, J. Sinningia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB7921>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-09-28 13:59:15.918"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Rupícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Robson dos Santos 132",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI003233",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226135961",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. et al. 78159",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA096610",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA096610",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Robson dos Santos 132",
+        "collectioncode": "CRI",
+        "catalognumber": "CRI003233",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CRI003233",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Chautems, A. & R. Reitz 354",
+        "collectioncode": "G",
+        "catalognumber": "G00164847",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/G00164847",
+        "locality": "SC",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "G.O. Romão 1817",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA107062",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA107062",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G.O. Romão 1817",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA107062",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226863107",
+        "locality": "SC",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Hatschbach, G. et al. 78159",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA096610",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226862951",
+        "locality": "SC",
+        "typestatus": null
+      }
+    ]
+  }
+]

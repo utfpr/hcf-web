@@ -1,0 +1,92 @@
+[
+  {
+    "taxon": {
+      "taxonid": 136718,
+      "scientificname": "Pleroma caissarum F. S. Mey.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Pleroma",
+      "specificepithet": "caissarum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "F. S. Mey.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Pleroma D.Don;Pleroma caissarum F. S. Mey.",
+      "source": "Guimarães, P.J.F. 2015. Pleroma in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB136718>http://floradobrasil2015.jbrj.gov.br/FB136718</a>)<br><br>Guimarães, P.J.F. 2020. Pleroma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB136718\">https://floradobrasil2020.jbrj.gov.br/FB136718</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pleroma D.Don",
+      "parentnameusageid": 134028,
+      "originalnameusageid": null,
+      "namepublishedin": "KEW BULLETIN 69: 9527 page 2 of 9 2014",
+      "namepublishedinyear": "2014",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB136718",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Guimarães, P.J.F. Pleroma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB136718>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 17:55:11.889"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Meyer, F.S. & Goldenberg, R.,KEW BULLETIN,69: 9527 page 2 of 9,2014"
+      }
+    ],
+    "resource_relationship": [],
+    "voucher": [
+      {
+        "recordedby": "Ivanauskas, N.M. 370",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA029230",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/ESA029230",
+        "locality": "SP",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Ivanauskas, N.M. 370",
+        "collectioncode": "ESA",
+        "catalognumber": "ESA029230",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226756129",
+        "locality": "SP",
+        "typestatus": null
+      }
+    ]
+  }
+]

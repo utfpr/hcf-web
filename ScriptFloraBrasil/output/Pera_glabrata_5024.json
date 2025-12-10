@@ -1,0 +1,724 @@
+[
+  {
+    "taxon": {
+      "taxonid": 17629,
+      "scientificname": "Pera glabrata (Schott) Baill.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Peraceae",
+      "genus": "Pera",
+      "specificepithet": "glabrata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Schott) Baill.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Peraceae Klotzsch;Pera Mutis;Pera glabrata (Schott) Baill.",
+      "source": "Bigio, N.C.,Secco, R.,Oliveira, A.S.,Valle, L.S.,Medeiros, D.,Pinto, L.J.S. 2015. Peraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB17629>http://floradobrasil2015.jbrj.gov.br/FB17629</a>)<br><br>Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB17629\">https://floradobrasil2020.jbrj.gov.br/FB17629</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Bigio, N.C. &amp;amp; Secco, R.S. 2012. As esp&amp;eacute;cies de&amp;nbsp;&lt;em&gt;Pera&lt;/em&gt;&amp;nbsp;(Euphorbiaceae) na Amaz&amp;ocirc;nia Brasileira.&amp;nbsp;&lt;strong&gt;Rodrigu&amp;eacute;sia&lt;/strong&gt;&amp;nbsp;63(1): 163-207.\r\nPENA, E. M. Estudo taxion&amp;ocirc;mico e morfol&amp;oacute;gico de Pera glabrata (Schott) Baill. (Euphorbiaceae). 1982. I-IX,&amp;nbsp;85p. Disserta&amp;ccedil;&amp;atilde;o de Mestrado em Bot&amp;acirc;nica. Curso de P&amp;oacute;s Gradua&amp;ccedil;&amp;atilde;o em Bot&amp;acirc;nica. Universidade Federal do Rio de Janeiro, Museu Nacional, Rio de Janeiro, RJ.",
+      "parentnameusage": "Pera Mutis",
+      "parentnameusageid": 17628,
+      "originalnameusageid": "56605",
+      "namepublishedin": "Étude Euphorb. 434 1858",
+      "namepublishedinyear": "1858",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB17629",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB17629>. Acesso em: 20 nov. 2025.",
+      "modified": "2022-04-10 17:16:03.751"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AL",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PB",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RN",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RR",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Arbusto",
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Caatinga (stricto sensu)",
+        "Campinarana",
+        "Cerrado (lato sensu)",
+        "Floresta de Terra Firme",
+        "Floresta Estacional Decidual",
+        "Restinga",
+        "Savana Amazônica"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "coração-de-bugre",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      },
+      {
+        "vernacularname": "sapateiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "tamanqueira",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "tabacuva",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      },
+      {
+        "vernacularname": "tabocuva",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sul"
+      },
+      {
+        "vernacularname": "cabeluda--do-mato",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "folha-miuda",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      },
+      {
+        "vernacularname": "sete-casca",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Nordeste"
+      },
+      {
+        "vernacularname": "pau-de-sapateiro",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Baillon, H.E.,Étude Euphorb.,434,1858"
+      },
+      {
+        "reference": "Schott, H.,Spreng., Syst.,410,1827"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 56589,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera glabrata var. parvifolia Glaz."
+      },
+      {
+        "relatedresourceid": 56590,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera glabrata var. petropolitana Glaz."
+      },
+      {
+        "relatedresourceid": 36200,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera parvifolia (Klotzsch) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36202,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera rubra Leal"
+      },
+      {
+        "relatedresourceid": 36191,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera bailloniana Müll.Arg."
+      },
+      {
+        "relatedresourceid": 36189,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera androgyna Rizzini"
+      },
+      {
+        "relatedresourceid": 22736,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera obovata (Klotzsch) Baill."
+      },
+      {
+        "relatedresourceid": 56592,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera klotzschiana Baill."
+      },
+      {
+        "relatedresourceid": 56605,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Peridium glabratum Schott"
+      },
+      {
+        "relatedresourceid": 56604,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium ferrugineum Schott"
+      },
+      {
+        "relatedresourceid": 56606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium oblongifolium Benth."
+      },
+      {
+        "relatedresourceid": 56607,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium obovatum Klotzsch"
+      },
+      {
+        "relatedresourceid": 56608,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium obtusifolium Schott"
+      },
+      {
+        "relatedresourceid": 56609,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium ovale Klotzsch"
+      },
+      {
+        "relatedresourceid": 56610,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Peridium parvifolium Klotzsch"
+      },
+      {
+        "relatedresourceid": 56579,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera arborea Baill."
+      },
+      {
+        "relatedresourceid": 56588,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera ferruginea (Schott) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56597,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera obtusifolia (Schott) Müll.Arg."
+      },
+      {
+        "relatedresourceid": 56581,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera bumeliifolia Baill."
+      },
+      {
+        "relatedresourceid": 36197,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Pera glaziovii Taub. ex Pax"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "N.C. Bigio 12",
+        "collectioncode": "RON",
+        "catalognumber": "RON00004869",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RON00004869",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00604290",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P00604290",
+        "locality": "RJ",
+        "typestatus": "typus"
+      },
+      {
+        "recordedby": "H.P. Velloso 869",
+        "collectioncode": "R",
+        "catalognumber": "P11P2N0061",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/P11P2N0061",
+        "locality": "RJ",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.C. Bigio 100",
+        "collectioncode": "RON",
+        "catalognumber": "RON00004897",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/RON00004897",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.C. Bigio 12",
+        "collectioncode": "RON",
+        "catalognumber": "RON00004869",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230397589",
+        "locality": "PA",
+        "typestatus": null
+      },
+      {
+        "recordedby": "N.C. Bigio 100",
+        "collectioncode": "RON",
+        "catalognumber": "RON00004897",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=230397637",
+        "locality": "AM",
+        "typestatus": null
+      },
+      {
+        "recordedby": "A. Saint-Hilaire s.n.",
+        "collectioncode": "P",
+        "catalognumber": "P00604290",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228056451",
+        "locality": "RJ",
+        "typestatus": "typus"
+      }
+    ]
+  },
+  {
+    "taxon": {
+      "taxonid": 56589,
+      "scientificname": "Pera glabrata var. parvifolia Glaz.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Peraceae",
+      "genus": "Pera",
+      "specificepithet": "glabrata",
+      "infraspecificepithet": "parvifolia",
+      "scientificnameauthorship": "Glaz.",
+      "acceptednameusage": "Pera glabrata (Schott) Baill.",
+      "higherclassification": "Flora e Funga;Angiospermas;Peraceae Klotzsch;Pera Mutis;Pera glabrata (Schott) Baill.;Pera glabrata var. parvifolia Glaz.",
+      "source": "Bigio, N.C.,Secco, R.,Oliveira, A.S.,Valle, L.S.,Medeiros, D.,Pinto, L.J.S. 2015. Peraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56589>http://floradobrasil2015.jbrj.gov.br/FB56589</a>)<br><br>Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56589\">https://floradobrasil2020.jbrj.gov.br/FB56589</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pera glabrata (Schott) Baill.",
+      "parentnameusageid": 17629,
+      "originalnameusageid": null,
+      "namepublishedin": "Bull. Soc. Bot. France 59(3): 626 1913",
+      "namepublishedinyear": "1913",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56589",
+      "acceptednameusageid": 17629,
+      "bibliographiccitation_how_to_cite": "Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56589>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-08-19 18:47:23.437"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Glaziou,Bull. Soc. Bot. France,59(3): 626,1913"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17629,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pera glabrata (Schott) Baill."
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 56590,
+      "scientificname": "Pera glabrata var. petropolitana Glaz.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Peraceae",
+      "genus": "Pera",
+      "specificepithet": "glabrata",
+      "infraspecificepithet": "petropolitana",
+      "scientificnameauthorship": "Glaz.",
+      "acceptednameusage": "Pera glabrata (Schott) Baill.",
+      "higherclassification": "Flora e Funga;Angiospermas;Peraceae Klotzsch;Pera Mutis;Pera glabrata (Schott) Baill.;Pera glabrata var. petropolitana Glaz.",
+      "source": "Bigio, N.C.,Secco, R.,Oliveira, A.S.,Valle, L.S.,Medeiros, D.,Pinto, L.J.S. 2015. Peraceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB56590>http://floradobrasil2015.jbrj.gov.br/FB56590</a>)<br><br>Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB56590\">https://floradobrasil2020.jbrj.gov.br/FB56590</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pera glabrata (Schott) Baill.",
+      "parentnameusageid": 17629,
+      "originalnameusageid": null,
+      "namepublishedin": "Bull. Soc. Bot. France 59(3): 626 1913",
+      "namepublishedinyear": "1913",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB56590",
+      "acceptednameusageid": 17629,
+      "bibliographiccitation_how_to_cite": "Bigio, N.C., Secco, R.S. Peraceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB56590>. Acesso em: 20 nov. 2025.",
+      "modified": "2018-08-19 18:48:56.736"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Glaziou,Bull. Soc. Bot. France,59(3): 626,1913"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 17629,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Pera glabrata (Schott) Baill."
+      }
+    ],
+    "voucher": []
+  }
+]

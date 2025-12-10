@@ -1,0 +1,133 @@
+[
+  {
+    "taxon": {
+      "taxonid": 285,
+      "scientificname": "Angostura bracteata (Nees & Mart.) Kallunki",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Angostura",
+      "specificepithet": "bracteata",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Nees & Mart.) Kallunki",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Rutaceae A.Juss.;Angostura Roem. & Schult.;Angostura bracteata (Nees & Mart.) Kallunki",
+      "source": "Pirani, J.R. 2015. Angostura in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB285>http://floradobrasil2015.jbrj.gov.br/FB285</a>)<br><br>Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB285\">https://floradobrasil2020.jbrj.gov.br/FB285</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).Kallunki, J.A. &amp;amp; Pirani, J.R. 1998. Synopses of Angostura Roem. &amp;amp; Schult. and Conchocarpus J. C. Mikan (Rutaceae). Kew Bull. 53(2): 257-334.",
+      "parentnameusage": "Angostura Roem. & Schult.",
+      "parentnameusageid": 281,
+      "originalnameusageid": "997",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB285",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pirani, J.R., Groppo, M. Rutaceae in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB285>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-23 22:52:58.701"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "gramirim-café",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Espírito Santo"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Kallunki, J.A. & Pirani, J.R.,Kew Bull.,53(2): 263,1998"
+      },
+      {
+        "reference": "Engler, H.G.A.,Fl. bras.,vol.12, pt.2, p.19,1874"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 921,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Portenschlagia trifoliata Pohl ex Engl."
+      },
+      {
+        "relatedresourceid": 997,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Sciuris bracteata Nees & Mart."
+      },
+      {
+        "relatedresourceid": 1033,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Ticorea bracteata (Nees & Mart.) A.St.-Hil. ex DC."
+      },
+      {
+        "relatedresourceid": 731,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Galipea bracteata (Nees & Mart.) Engl."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "G. Hatschbach 62940",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM183949",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/MBM183949",
+        "locality": "ES",
+        "typestatus": null
+      },
+      {
+        "recordedby": "G. Hatschbach 62940",
+        "collectioncode": "MBM",
+        "catalognumber": "MBM183949",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=229821195",
+        "locality": "ES",
+        "typestatus": null
+      }
+    ]
+  }
+]

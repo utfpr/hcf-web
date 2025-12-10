@@ -1,0 +1,102 @@
+[
+  {
+    "taxon": {
+      "taxonid": 14613,
+      "scientificname": "Calibrachoa heterophylla (Sendtn.) Wijsman",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Solanales",
+      "family": "Solanaceae",
+      "genus": "Calibrachoa",
+      "specificepithet": "heterophylla",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Sendtn.) Wijsman",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Solanaceae A.Juss.;Calibrachoa Cerv.;Calibrachoa heterophylla (Sendtn.) Wijsman",
+      "source": "Stehmann, J.R.,Mentz, L.A.,Agra, M.F.,Vignoli-Silva, M.,Giacomin, L.,Rodrigues, I.M.C. 2015. Solanaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14613>http://floradobrasil2015.jbrj.gov.br/FB14613</a>)<br><br>Stehmann, J.R. 2020. Calibrachoa in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB14613\">https://floradobrasil2020.jbrj.gov.br/FB14613</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Calibrachoa Cerv.",
+      "parentnameusageid": 14606,
+      "originalnameusageid": "123323",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14613",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Stehmann, J.R. Calibrachoa in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB14613>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-19 12:03:07.604"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SC",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica",
+            "Pampa"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo Limpo",
+        "Restinga"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 123323,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Petunia heterophylla Sendtn."
+      },
+      {
+        "relatedresourceid": 123326,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Fabiana heterophylla (Sendtn.) Dunal"
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Pakisa Togni s.n.",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB002064",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB002064",
+        "locality": "RS",
+        "typestatus": null
+      },
+      {
+        "recordedby": "Pakisa Togni s.n.",
+        "collectioncode": "BHCB",
+        "catalognumber": "BHCB002063",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/BHCB002063",
+        "locality": "RS",
+        "typestatus": null
+      }
+    ]
+  }
+]

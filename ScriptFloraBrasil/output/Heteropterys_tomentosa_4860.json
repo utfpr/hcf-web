@@ -1,0 +1,115 @@
+[
+  {
+    "taxon": {
+      "taxonid": 19460,
+      "scientificname": "Heteropterys tomentosa A.Juss.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Malpighiaceae",
+      "genus": "Heteropterys",
+      "specificepithet": "tomentosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "A.Juss.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Malpighiaceae Juss.;Heteropterys Kunth;Heteropterys tomentosa A.Juss.",
+      "source": "Amorim, A.M.A. 2015. Heteropterys in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB19460>http://floradobrasil2015.jbrj.gov.br/FB19460</a>)<br><br>Pessoa, C., Almeida, R.F., Amorim, A.M.A. 2020. Heteropterys in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB19460\">https://floradobrasil2020.jbrj.gov.br/FB19460</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Heteropterys Kunth",
+      "parentnameusageid": 8865,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB19460",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Pessoa, C., Almeida, R.F., Amorim, A.M.A. Heteropterys in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB19460>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-31 17:15:42.091"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "phytogeographicDomain": [
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Liana/volúvel/trepadeira",
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 30469,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heteropterys aphrodisiaca Machado"
+      },
+      {
+        "relatedresourceid": 30480,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heteropterys verbascifolia Griseb."
+      },
+      {
+        "relatedresourceid": 30478,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Heteropterys spectabilis Mart. ex A.Juss."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "Azevedo, M.L.M.; Fonseca, M.L.; Oliveira, F.C.A.; Magalhães, A.T. 1054",
+        "collectioncode": "SP",
+        "catalognumber": "SP019122",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/SP019122",
+        "locality": "GO",
+        "typestatus": null
+      }
+    ]
+  }
+]

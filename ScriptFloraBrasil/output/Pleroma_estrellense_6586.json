@@ -1,0 +1,116 @@
+[
+  {
+    "taxon": {
+      "taxonid": 606917,
+      "scientificname": "Pleroma estrellense (Raddi) P.J.F.Guim. & Michelang.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Myrtales",
+      "family": "Melastomataceae",
+      "genus": "Pleroma",
+      "specificepithet": "estrellense",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Raddi) P.J.F.Guim. & Michelang.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Melastomataceae A.Juss.;Pleroma D.Don;Pleroma estrellense (Raddi) P.J.F.Guim. & Michelang.",
+      "source": "Guimarães, P.J.F. 2020. Pleroma in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB606917\">https://floradobrasil2020.jbrj.gov.br/FB606917</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Pleroma D.Don",
+      "parentnameusageid": 134028,
+      "originalnameusageid": "637883",
+      "namepublishedin": "Mem. Mat. Fis. Soc. Ital. Sci. Modena, Pt. Mem. Fi 18(2): 388 1820",
+      "namepublishedinyear": "1820",
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB606917",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Guimarães, P.J.F. Pleroma in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB606917>. Acesso em: 20 nov. 2025.",
+      "modified": "2025-09-09 16:52:31.916"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Árvore"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Cogniaux, C.A.,Fl. bras.,14(3): 342–343, t. 81,1885"
+      },
+      {
+        "reference": "Raddi, G.,Mem. Mat. Fis. Soc. Ital. Sci. Modena, Pt. Mem. Fi,18(2): 388,1820"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 111444,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Tibouchina scrobiculata Cogn."
+      },
+      {
+        "relatedresourceid": 9908,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Tibouchina estrellensis (Raddi) Cogn."
+      },
+      {
+        "relatedresourceid": 637883,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Rhexia estrellensis Raddi"
+      }
+    ],
+    "voucher": []
+  }
+]

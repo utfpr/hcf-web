@@ -1,0 +1,902 @@
+[
+  {
+    "taxon": {
+      "taxonid": 15737,
+      "scientificname": "Syagrus flexuosa (Mart.) Becc.",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Syagrus",
+      "specificepithet": "flexuosa",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Mart.) Becc.",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Arecaceae Bercht. & J.Presl.;Syagrus Mart.;Syagrus flexuosa (Mart.) Becc.",
+      "source": "Leitman, P.,Soares, K.,Henderson, A.,Noblick, L.,Martins, R.C. 2015. Arecaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB15737>http://floradobrasil2015.jbrj.gov.br/FB15737</a>)<br><br>Soares, K.P. 2020. Syagrus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB15737\">https://floradobrasil2020.jbrj.gov.br/FB15737</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Syagrus Mart.",
+      "parentnameusageid": 15732,
+      "originalnameusageid": "44052",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB15737",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Soares, K.P. Syagrus in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB15737>. Acesso em: 20 nov. 2025.",
+      "modified": "2021-10-30 23:55:43.25"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-TO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MT",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-DF",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Caatinga",
+            "Cerrado"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Palmeira"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Campo rupestre",
+        "Cerrado (lato sensu)",
+        "Floresta Estacional Decidual",
+        "Vegetação Sobre Afloramentos Rochosos"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "acumã",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "sudeste"
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Beccari, O.,Agric. Colon.,10: 466,1916"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 43948,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Calappa flexuosa (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 43940,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Calappa campestris (Mart.) Kuntze"
+      },
+      {
+        "relatedresourceid": 44052,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Cocos flexuosa Mart."
+      },
+      {
+        "relatedresourceid": 44053,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos flexuosa var. cataphracta Mart."
+      },
+      {
+        "relatedresourceid": 44054,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Cocos flexuosa var. densiflora Mart."
+      },
+      {
+        "relatedresourceid": 44833,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Syagrus urbaniana (Dammer) Becc."
+      }
+    ],
+    "voucher": [
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212757",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078023",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212799",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078023",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212801",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212805",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212807",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212809",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078041",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212811",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226213631",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226213633",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226213635",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082437",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226213637",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00567933",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307087",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307231",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307229",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307227",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307225",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228307223",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00664095",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228740089",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00044807",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00044807",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026108",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00026108",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055892",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00055892",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055890",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00055890",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00077914",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00020738",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00020738",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00047180",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00047180",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013530",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00013530",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00664095",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00664095",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075919",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00075919",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00023954",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00023954",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00082437",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00082437",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00567933",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00567933",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "NY",
+        "catalognumber": "NY00568001",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/NY00568001",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078023",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00078023",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00026630",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00026629",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00072611",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00078041",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00078041",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00050368",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00050368",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013665",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00013665",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024264",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00024264",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.cria.org.br/inct/exsiccatae/viewer/style/inct/format/slide/lang/pt/barcode/CEN00022977",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013530",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226191105",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013665",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226191163",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013665",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226191165",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00013665",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226191167",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00020738",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196571",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195079",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195087",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195081",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195083",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00022977",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195085",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00023954",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195401",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00024264",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226195471",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026108",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196003",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196303",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196305",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196307",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196309",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026629",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196311",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196315",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196317",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196319",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196323",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00026630",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226196321",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00044807",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226202807",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00044807",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226202809",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00044807",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226202811",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00044807",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226202813",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00047180",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226203475",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00047180",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226203477",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00050368",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205405",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00050368",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205407",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00050368",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205409",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055890",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205857",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055890",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205859",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205863",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00055892",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226205865",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211137",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211139",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211141",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211143",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00072611",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226211145",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212015",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212017",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00075919",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212019",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212751",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212749",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212753",
+        "locality": null,
+        "typestatus": null
+      },
+      {
+        "recordedby": "L.R. Noblick 5108",
+        "collectioncode": "CEN",
+        "catalognumber": "CEN00077914",
+        "source": "http://reflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226212755",
+        "locality": null,
+        "typestatus": null
+      }
+    ]
+  }
+]

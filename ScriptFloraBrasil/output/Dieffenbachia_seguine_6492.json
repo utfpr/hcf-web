@@ -1,0 +1,957 @@
+[
+  {
+    "taxon": {
+      "taxonid": 25178,
+      "scientificname": "Dieffenbachia seguine (Jacq.) Schott",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Jacq.) Schott",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB25178>http://floradobrasil2015.jbrj.gov.br/FB25178</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB25178\">https://floradobrasil2020.jbrj.gov.br/FB25178</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia Schott",
+      "parentnameusageid": 15628,
+      "originalnameusageid": "42378",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB25178",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB25178>. Acesso em: 20 nov. 2025.",
+      "modified": "2023-12-31 12:50:20.671"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AM",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-CE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-AP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MS",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Não endemica",
+          "phytogeographicDomain": [
+            "Amazônia",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Erva"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Área Antrópica",
+        "Floresta de Igapó",
+        "Floresta de Terra Firme",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "comigo-ninguém-pode",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      },
+      {
+        "vernacularname": "difembáquia",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": null
+      }
+    ],
+    "reference": [
+      {
+        "reference": "Schott, H.W. & Endlicher, S.L.,Melet. Bot.,: 20,1832"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 42636,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. decora (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 42628,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta var. angustior Engl."
+      },
+      {
+        "relatedresourceid": 42362,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arum crudele Salisb."
+      },
+      {
+        "relatedresourceid": 42507,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Caladium maculatum Lodd."
+      },
+      {
+        "relatedresourceid": 42606,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia brasiliensis H.J.Veitch"
+      },
+      {
+        "relatedresourceid": 42622,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia maculata (Lodd.) Sweet"
+      },
+      {
+        "relatedresourceid": 42624,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia mirabilis Verschaff. ex Engl."
+      },
+      {
+        "relatedresourceid": 42610,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia decora Engl."
+      },
+      {
+        "relatedresourceid": 42604,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia barraquiniana Verschaff. & Lem."
+      },
+      {
+        "relatedresourceid": 42614,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia illustris Voss"
+      },
+      {
+        "relatedresourceid": 42613,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia grandis Engl."
+      },
+      {
+        "relatedresourceid": 42608,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia consobrina Schott"
+      },
+      {
+        "relatedresourceid": 42560,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Caladium seguine (Jacq.) Vent."
+      },
+      {
+        "relatedresourceid": 42611,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia gigantea Verschaff."
+      },
+      {
+        "relatedresourceid": 42607,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia cognata Schott"
+      },
+      {
+        "relatedresourceid": 42626,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia nobilis Verschaff. ex Engl."
+      },
+      {
+        "relatedresourceid": 42615,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia irrorata Schott"
+      },
+      {
+        "relatedresourceid": 42619,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia lingulata Schott"
+      },
+      {
+        "relatedresourceid": 42627,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta Schott"
+      },
+      {
+        "relatedresourceid": 42649,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia wallisii Linden"
+      },
+      {
+        "relatedresourceid": 43032,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Seguinum maculatum (Lodd.) Raf."
+      },
+      {
+        "relatedresourceid": 43054,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Spathiphyllum pictum W.Bull"
+      },
+      {
+        "relatedresourceid": 42618,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia lineata K.Koch & C.D.Bouché"
+      },
+      {
+        "relatedresourceid": 42620,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia liturata Schott"
+      },
+      {
+        "relatedresourceid": 42646,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia variegata Engl."
+      },
+      {
+        "relatedresourceid": 42642,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. robusta (K.Koch) Engl."
+      },
+      {
+        "relatedresourceid": 42612,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia gollmeriana Schott"
+      },
+      {
+        "relatedresourceid": 42609,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia conspurcata Schott"
+      },
+      {
+        "relatedresourceid": 609324,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia amoena Bull."
+      },
+      {
+        "relatedresourceid": 42616,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia jenmanii Veitch ex Regel"
+      },
+      {
+        "relatedresourceid": 600846,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine f. viridis Engl."
+      },
+      {
+        "relatedresourceid": 42633,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia plumieri Schott"
+      },
+      {
+        "relatedresourceid": 80449,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. irrorata (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42631,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta var. typica Engl."
+      },
+      {
+        "relatedresourceid": 42643,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. ventenatiana (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42638,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. lingulata (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42629,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta var. barraquiniana (Verschaff. & Lem.) Engl."
+      },
+      {
+        "relatedresourceid": 42644,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. viridis (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 42637,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. lineata (K.Koch & C.D.Bouché) Engl."
+      },
+      {
+        "relatedresourceid": 42630,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta var. latior Engl."
+      },
+      {
+        "relatedresourceid": 42641,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. nobilis (Engl.) Engl."
+      },
+      {
+        "relatedresourceid": 42561,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Caladium seguine var. maculatum (Lodd.) Sims"
+      },
+      {
+        "relatedresourceid": 42640,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. minor Engl."
+      },
+      {
+        "relatedresourceid": 42639,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine var. liturata (Schott) Engl."
+      },
+      {
+        "relatedresourceid": 42379,
+        "relationshipofresource": "Tem como sinônimo HOMOTIPICO",
+        "scientificname": "Arum seguinum L."
+      },
+      {
+        "relatedresourceid": 42625,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia neglecta Schott"
+      },
+      {
+        "relatedresourceid": 42647,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia ventenatiana Schott"
+      },
+      {
+        "relatedresourceid": 42634,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia poeppigii Schott"
+      },
+      {
+        "relatedresourceid": 42635,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia robusta K.Koch"
+      },
+      {
+        "relatedresourceid": 42648,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia verschaffeltii Engl."
+      },
+      {
+        "relatedresourceid": 42632,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picturata L.Linden & Rodigas"
+      },
+      {
+        "relatedresourceid": 42376,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Arum regnium Rodschied ex G.F.W. Meyer"
+      },
+      {
+        "relatedresourceid": 42378,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Arum seguine Jacq."
+      },
+      {
+        "relatedresourceid": 620303,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia picta var. weirii (J.J.Veitch) Engl."
+      },
+      {
+        "relatedresourceid": 42623,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia magnifica Linden & Rodigas"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42636,
+      "scientificname": "Dieffenbachia seguine var. decora (Engl.) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "decora",
+      "scientificnameauthorship": "(Engl.) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. decora (Engl.) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42636>http://floradobrasil2015.jbrj.gov.br/FB42636</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42636\">https://floradobrasil2020.jbrj.gov.br/FB42636</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42636",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42636>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:39:52.829032"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 47,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42637,
+      "scientificname": "Dieffenbachia seguine var. lineata (K.Koch & C.D.Bouché) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "lineata",
+      "scientificnameauthorship": "(K.Koch & C.D.Bouché) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. lineata (K.Koch & C.D.Bouché) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42637>http://floradobrasil2015.jbrj.gov.br/FB42637</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42637\">https://floradobrasil2020.jbrj.gov.br/FB42637</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42637",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42637>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:35:12.195423"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 48,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42638,
+      "scientificname": "Dieffenbachia seguine var. lingulata (Schott) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "lingulata",
+      "scientificnameauthorship": "(Schott) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. lingulata (Schott) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42638>http://floradobrasil2015.jbrj.gov.br/FB42638</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42638\">https://floradobrasil2020.jbrj.gov.br/FB42638</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42638",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42638>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:33:02.249128"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Martius, C.F.P. von & auct. suc. (eds.),Fl. bras.,3(2): 175,1878"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42639,
+      "scientificname": "Dieffenbachia seguine var. liturata (Schott) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "liturata",
+      "scientificnameauthorship": "(Schott) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. liturata (Schott) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42639>http://floradobrasil2015.jbrj.gov.br/FB42639</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42639\">https://floradobrasil2020.jbrj.gov.br/FB42639</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42639",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42639>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:30:29.113667"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 47,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42640,
+      "scientificname": "Dieffenbachia seguine var. minor Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "minor",
+      "scientificnameauthorship": "Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. minor Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42640>http://floradobrasil2015.jbrj.gov.br/FB42640</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42640\">https://floradobrasil2020.jbrj.gov.br/FB42640</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42640",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42640>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:29:26.390349"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bot. Jahrb. Syst.,26: 567,1899"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42641,
+      "scientificname": "Dieffenbachia seguine var. nobilis (Engl.) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "nobilis",
+      "scientificnameauthorship": "(Engl.) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. nobilis (Engl.) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42641>http://floradobrasil2015.jbrj.gov.br/FB42641</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42641\">https://floradobrasil2020.jbrj.gov.br/FB42641</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42641",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42641>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:26:23.561502"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 47,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42642,
+      "scientificname": "Dieffenbachia seguine var. robusta (K.Koch) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "robusta",
+      "scientificnameauthorship": "(K.Koch) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. robusta (K.Koch) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42642>http://floradobrasil2015.jbrj.gov.br/FB42642</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42642\">https://floradobrasil2020.jbrj.gov.br/FB42642</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42642",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42642>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:24:55.849462"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Bot. Jahrb. Syst.,26: 568,1899"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42643,
+      "scientificname": "Dieffenbachia seguine var. ventenatiana (Schott) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "ventenatiana",
+      "scientificnameauthorship": "(Schott) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. ventenatiana (Schott) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42643>http://floradobrasil2015.jbrj.gov.br/FB42643</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42643\">https://floradobrasil2020.jbrj.gov.br/FB42643</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42643",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42643>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:23:07.623356"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 48,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 42644,
+      "scientificname": "Dieffenbachia seguine var. viridis (Engl.) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "viridis",
+      "scientificnameauthorship": "(Engl.) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. viridis (Engl.) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB42644>http://floradobrasil2015.jbrj.gov.br/FB42644</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB42644\">https://floradobrasil2020.jbrj.gov.br/FB42644</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB42644",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB42644>. Acesso em: 20 nov. 2025.",
+      "modified": "2009-11-30 09:21:25.758291"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": ",Pflanzenr. (Engler) IV, 23Dc: 45,1915"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 80449,
+      "scientificname": "Dieffenbachia seguine var. irrorata (Schott) Engl.",
+      "taxonrank": "VARIEDADE",
+      "nomenclaturalstatus": null,
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "irrorata",
+      "scientificnameauthorship": "(Schott) Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine var. irrorata (Schott) Engl.",
+      "source": "Coelho, M.A.N.,Soares, M.L.,Calazans, L.S.B.,Gonçalves, E.G.,Andrade, I.M. de,Pontes, T.A.,Sakuragui, C.M.,Temponi, L.G.,Buturi, C.,Mayo, S. 2015. Araceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB80449>http://floradobrasil2015.jbrj.gov.br/FB80449</a>)<br><br>Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB80449\">https://floradobrasil2020.jbrj.gov.br/FB80449</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB80449",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB80449>. Acesso em: 20 nov. 2025.",
+      "modified": "2010-01-19 08:36:24.280565"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [
+      {
+        "reference": "Engler, H.G.A.,"
+      }
+    ],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  },
+  {
+    "taxon": {
+      "taxonid": 600846,
+      "scientificname": "Dieffenbachia seguine f. viridis Engl.",
+      "taxonrank": "FORMA",
+      "nomenclaturalstatus": "NOME_LEGITIMO_MAS_INCORRETO",
+      "taxonomicstatus": "SINONIMO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Alismatales",
+      "family": "Araceae",
+      "genus": "Dieffenbachia",
+      "specificepithet": "seguine",
+      "infraspecificepithet": "viridis",
+      "scientificnameauthorship": "Engl.",
+      "acceptednameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "higherclassification": "Flora e Funga;Angiospermas;Araceae Juss.;Dieffenbachia Schott;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia seguine f. viridis Engl.",
+      "source": "Mayo, S.J. 2020. Dieffenbachia in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB600846\">https://floradobrasil2020.jbrj.gov.br/FB600846</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).&lt;h2 class=&quot;plantname&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&quot;&gt;Dieffenbachia seguine f. viridis Engl. in C.F.P.von Martius &amp;amp; auct. suc. (eds.), Fl. Bras. 3(2): 174 (1878).&lt;/span&gt;&lt;/h2&gt;",
+      "parentnameusage": "Dieffenbachia seguine (Jacq.) Schott",
+      "parentnameusageid": 25178,
+      "originalnameusageid": null,
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB600846",
+      "acceptednameusageid": 25178,
+      "bibliographiccitation_how_to_cite": "Mayo, S.J. Dieffenbachia in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB600846>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-12-15 20:20:19.52"
+    },
+    "distribuition": [],
+    "specie_profile": null,
+    "vernacular_name": [],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 25178,
+        "relationshipofresource": "É sinônimo HETEROTIPICO",
+        "scientificname": "Dieffenbachia seguine (Jacq.) Schott"
+      }
+    ],
+    "voucher": []
+  }
+]

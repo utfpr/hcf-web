@@ -1,0 +1,223 @@
+[
+  {
+    "taxon": {
+      "taxonid": 12746,
+      "scientificname": "Piper anisum (Spreng.) Angely",
+      "taxonrank": "ESPECIE",
+      "nomenclaturalstatus": "NOME_CORRETO",
+      "taxonomicstatus": "NOME_ACEITO",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Piperales",
+      "family": "Piperaceae",
+      "genus": "Piper",
+      "specificepithet": "anisum",
+      "infraspecificepithet": null,
+      "scientificnameauthorship": "(Spreng.) Angely",
+      "acceptednameusage": null,
+      "higherclassification": "Flora e Funga;Angiospermas;Piperaceae Giseke;Piper L.;Piper anisum (Spreng.) Angely",
+      "source": "Guimarães, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Espécies da Flora do Brasil. Jardim Botânico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB12746>http://floradobrasil2015.jbrj.gov.br/FB12746</a>)<br><br>Guimarães, E.F., Medeiros, E.V.S.S., Queiroz, G.A. 2020. Piper in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB12746\">https://floradobrasil2020.jbrj.gov.br/FB12746</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodriguésia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodriguésia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+      "parentnameusage": "Piper L.",
+      "parentnameusageid": 12735,
+      "originalnameusageid": "20277",
+      "namepublishedin": "  ",
+      "namepublishedinyear": null,
+      "references": "http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12746",
+      "acceptednameusageid": null,
+      "bibliographiccitation_how_to_cite": "Guimarães, E.F., Medeiros, E.V.S.S., Queiroz, G.A. Piper in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro. Disponível em: <http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB12746>. Acesso em: 20 nov. 2025.",
+      "modified": "2020-10-13 09:30:10.014"
+    },
+    "distribuition": [
+      {
+        "countrycode": "BR",
+        "locationid": "BR-MG",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-BA",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-SP",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-GO",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-PE",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-ES",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      },
+      {
+        "countrycode": "BR",
+        "locationid": "BR-RJ",
+        "establishmentmeans": "NATIVA",
+        "occurrenceremarks": {
+          "endemism": "Endemica",
+          "phytogeographicDomain": [
+            "Cerrado",
+            "Mata Atlântica"
+          ]
+        }
+      }
+    ],
+    "specie_profile": {
+      "lifeForm": [
+        "Subarbusto"
+      ],
+      "habitat": [
+        "Terrícola"
+      ],
+      "vegetationType": [
+        "Cerrado (lato sensu)",
+        "Floresta Ciliar ou Galeria",
+        "Floresta Estacional Semidecidual",
+        "Floresta Ombrófila (= Floresta Pluvial)"
+      ]
+    },
+    "vernacular_name": [
+      {
+        "vernacularname": "joão-borandi",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas gerais"
+      },
+      {
+        "vernacularname": "jaborandi",
+        "language_vernacularname": "PORTUGUES",
+        "locality_vernacularname": "Minas Gerais, Rio de Janeiro"
+      }
+    ],
+    "reference": [],
+    "resource_relationship": [
+      {
+        "relatedresourceid": 130335,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia armondii Trel."
+      },
+      {
+        "relatedresourceid": 596691,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia hookeriana Miq."
+      },
+      {
+        "relatedresourceid": 130336,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia burchellii Trel."
+      },
+      {
+        "relatedresourceid": 615859,
+        "relationshipofresource": null,
+        "scientificname": "Piper gardnerii C.DC."
+      },
+      {
+        "relatedresourceid": 20277,
+        "relationshipofresource": "Tem como sinônimo BASIONIMO",
+        "scientificname": "Ottonia anisum Spreng."
+      },
+      {
+        "relatedresourceid": 20278,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia diversifolia Kunth"
+      },
+      {
+        "relatedresourceid": 20286,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia taperana Trel."
+      },
+      {
+        "relatedresourceid": 598633,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia carpinifolia C. Presl"
+      },
+      {
+        "relatedresourceid": 600449,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia pteropoda Moric."
+      },
+      {
+        "relatedresourceid": 594935,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia consanguinea C. Presl"
+      },
+      {
+        "relatedresourceid": 606725,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia glazioui Trel."
+      },
+      {
+        "relatedresourceid": 606728,
+        "relationshipofresource": null,
+        "scientificname": "Piper selloi C.DC."
+      },
+      {
+        "relatedresourceid": 609436,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia mexiae Trel."
+      },
+      {
+        "relatedresourceid": 609438,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia mexiae var. fertilior Trel."
+      },
+      {
+        "relatedresourceid": 609453,
+        "relationshipofresource": "Tem como sinônimo HETEROTIPICO",
+        "scientificname": "Ottonia praecox Trel."
+      }
+    ],
+    "voucher": []
+  }
+]
